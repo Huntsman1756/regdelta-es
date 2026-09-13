@@ -1,0 +1,896 @@
+[
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:1:s2",
+    "introducer_paths_cited": [
+      "b",
+      "d"
+    ],
+    "op_paths_matched": [
+      "b",
+      "d",
+      "d/ii"
+    ],
+    "cited_subject_keys": [
+      "norma:19.apartado:10",
+      "norma:31.apartado:3",
+      "norma:31.apartado:6",
+      "norma:31.apartado:7",
+      "norma:17.apartado:6",
+      "norma:17.apartado:7",
+      "norma:17.apartado:8"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:17.apartado:6",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:17.apartado:7",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:17.apartado:8",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:19.apartado:10",
+        "relation_ids": [
+          "e3a33c82f39aaf1a1a4d25790890d875ebd5b185421a796f0f976a084b03a25c"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:31",
+        "relation_ids": [],
+        "binding": "CONTAINER_EXPANDED"
+      },
+      {
+        "locator_key": "norma:31.apartado:3",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:31.apartado:6",
+        "relation_ids": [
+          "92f820d47ea551869e2110b1d430c4cd62fccb284864c555f3a75aca8c914d82"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:31.apartado:7",
+        "relation_ids": [
+          "2cc18e81e5d28252f665789754a5098fb33551bb1befbef7fcb00ef7e11e67e2"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [
+      "norma:17.apartado:6",
+      "norma:17.apartado:7",
+      "norma:17.apartado:8"
+    ],
+    "subjects_cited_without_relation": [
+      "norma:31.apartado:3"
+    ],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:3:s1",
+    "introducer_paths_cited": [],
+    "op_paths_matched": [],
+    "cited_subject_keys": [
+      "norma:19.apartado:10"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:19.apartado:10",
+        "relation_ids": [
+          "e3a33c82f39aaf1a1a4d25790890d875ebd5b185421a796f0f976a084b03a25c"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:4:s2",
+    "introducer_paths_cited": [],
+    "op_paths_matched": [],
+    "cited_subject_keys": [
+      "norma:31.apartado:3",
+      "norma:31.apartado:6",
+      "norma:31.apartado:7"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:31.apartado:3",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:31.apartado:6",
+        "relation_ids": [
+          "92f820d47ea551869e2110b1d430c4cd62fccb284864c555f3a75aca8c914d82"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:31.apartado:7",
+        "relation_ids": [
+          "2cc18e81e5d28252f665789754a5098fb33551bb1befbef7fcb00ef7e11e67e2"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [
+      "norma:31.apartado:3"
+    ],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:5:s1",
+    "introducer_paths_cited": [
+      "i/iii"
+    ],
+    "op_paths_matched": [
+      "i/iii"
+    ],
+    "cited_subject_keys": [
+      "norma:60.apartado:56"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:60.apartado:56",
+        "relation_ids": [
+          "9fc67d2f53b8bdbd394dc34a28a2b94bb3fdc550af789fcdf855e58aee970d67"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:6:s1",
+    "introducer_paths_cited": [],
+    "op_paths_matched": [],
+    "cited_subject_keys": [
+      "norma:60.apartado:6"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:60.apartado:6",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      }
+    ],
+    "cited_rule_references": [
+      "norma:60.apartado:6"
+    ],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt2:1:s2",
+    "introducer_paths_cited": [
+      "c/ii"
+    ],
+    "op_paths_matched": [
+      "c/ii"
+    ],
+    "cited_subject_keys": [
+      "norma:22.apartado:17",
+      "norma:22.apartado:18",
+      "norma:22.apartado:19",
+      "norma:22.apartado:20",
+      "norma:17.apartado:6",
+      "norma:17.apartado:7",
+      "norma:17.apartado:8"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:17.apartado:6",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:17.apartado:7",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:17.apartado:8",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:22.apartado:17",
+        "relation_ids": [
+          "ce2cf971e7ae0297b6e6218da84e6f22524951916b4f6220c405a1c0960f3330"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:22.apartado:18",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:22.apartado:19",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:22.apartado:20",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      }
+    ],
+    "cited_rule_references": [
+      "norma:17.apartado:6",
+      "norma:17.apartado:7",
+      "norma:17.apartado:8"
+    ],
+    "subjects_cited_without_relation": [
+      "norma:22.apartado:18",
+      "norma:22.apartado:19",
+      "norma:22.apartado:20"
+    ],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt2:4:s1",
+    "introducer_paths_cited": [
+      "i/i",
+      "i/ii"
+    ],
+    "op_paths_matched": [
+      "i/i",
+      "i/ii"
+    ],
+    "cited_subject_keys": [
+      "norma:60.apartado:13",
+      "norma:60.apartado:18",
+      "norma:60.apartado:19"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:60.apartado:13",
+        "relation_ids": [
+          "5d895280b2281d04985d0cc336b9895d0a73e158a37dd343c9e7405f5f0fbf0b"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:60.apartado:18",
+        "relation_ids": [
+          "ac6bd161b553b3995f64622518a03b84e72cc3b8b2c7ba46355e591d8596c7be"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:60.apartado:19",
+        "relation_ids": [
+          "f9f6b02b28f655db887fd7dce4002ac92710dab6d2364518bcf994e5073160bf"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt2:5:s1",
+    "introducer_paths_cited": [],
+    "op_paths_matched": [],
+    "cited_subject_keys": [
+      "norma:60.apartado:6"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:60.apartado:6",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      }
+    ],
+    "cited_rule_references": [
+      "norma:60.apartado:6"
+    ],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt3:único:s1",
+    "introducer_paths_cited": [],
+    "op_paths_matched": [],
+    "cited_subject_keys": [
+      "estado:FI 131",
+      "estado:FI 141"
+    ],
+    "bindings": [
+      {
+        "locator_key": "estado:FI 131",
+        "relation_ids": [
+          "0b09671763e555581f70bf23c3c582ced5493032b31b52ca7fe03c590ccea2c8",
+          "4101be60f3d3f752bb972241605307170dfc37ca24bd6bba46720960150732a7"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 141",
+        "relation_ids": [
+          "15ccd600e6cc9a3c6dd66cd6dfcebc401a481b6434f704b37c9cc4ec63db5ddf",
+          "7e71ba474bca63da533bd581dcd7849b12bbb2c3a69604bbedb9558cbda7940a"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:a:s1",
+    "introducer_paths_cited": [
+      "i/iii",
+      "b",
+      "d"
+    ],
+    "op_paths_matched": [
+      "b",
+      "d",
+      "d/ii",
+      "i/iii"
+    ],
+    "cited_subject_keys": [
+      "norma:19.apartado:10",
+      "norma:31.apartado:3",
+      "norma:31.apartado:6",
+      "norma:31.apartado:7",
+      "norma:60.apartado:56"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:19.apartado:10",
+        "relation_ids": [
+          "e3a33c82f39aaf1a1a4d25790890d875ebd5b185421a796f0f976a084b03a25c"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:31",
+        "relation_ids": [],
+        "binding": "CONTAINER_EXPANDED"
+      },
+      {
+        "locator_key": "norma:31.apartado:3",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:31.apartado:6",
+        "relation_ids": [
+          "92f820d47ea551869e2110b1d430c4cd62fccb284864c555f3a75aca8c914d82"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:31.apartado:7",
+        "relation_ids": [
+          "2cc18e81e5d28252f665789754a5098fb33551bb1befbef7fcb00ef7e11e67e2"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:60.apartado:56",
+        "relation_ids": [
+          "9fc67d2f53b8bdbd394dc34a28a2b94bb3fdc550af789fcdf855e58aee970d67"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [],
+    "subjects_cited_without_relation": [
+      "norma:31.apartado:3"
+    ],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:b:s1",
+    "introducer_paths_cited": [
+      "c/i"
+    ],
+    "op_paths_matched": [
+      "c/i"
+    ],
+    "cited_subject_keys": [
+      "norma:22.apartado:2"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:22.apartado:2",
+        "relation_ids": [
+          "898c9bdb26baace665d8b164a54659e961b436036e3e4a5497270a56a370820b"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:c:s1",
+    "introducer_paths_cited": [
+      "i/i",
+      "i/ii",
+      "c/ii"
+    ],
+    "op_paths_matched": [
+      "c/ii",
+      "i/i",
+      "i/ii"
+    ],
+    "cited_subject_keys": [
+      "norma:22.apartado:17",
+      "norma:22.apartado:18",
+      "norma:22.apartado:19",
+      "norma:22.apartado:20",
+      "norma:60.apartado:13",
+      "norma:60.apartado:18",
+      "norma:60.apartado:19"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:22.apartado:17",
+        "relation_ids": [
+          "ce2cf971e7ae0297b6e6218da84e6f22524951916b4f6220c405a1c0960f3330"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:22.apartado:18",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:22.apartado:19",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:22.apartado:20",
+        "relation_ids": [],
+        "binding": "UNMATCHED"
+      },
+      {
+        "locator_key": "norma:60.apartado:13",
+        "relation_ids": [
+          "5d895280b2281d04985d0cc336b9895d0a73e158a37dd343c9e7405f5f0fbf0b"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:60.apartado:18",
+        "relation_ids": [
+          "ac6bd161b553b3995f64622518a03b84e72cc3b8b2c7ba46355e591d8596c7be"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:60.apartado:19",
+        "relation_ids": [
+          "f9f6b02b28f655db887fd7dce4002ac92710dab6d2364518bcf994e5073160bf"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [],
+    "subjects_cited_without_relation": [
+      "norma:22.apartado:18",
+      "norma:22.apartado:19",
+      "norma:22.apartado:20"
+    ],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:d:s1",
+    "introducer_paths_cited": [
+      "c/iii"
+    ],
+    "op_paths_matched": [
+      "c/iii"
+    ],
+    "cited_subject_keys": [
+      "norma:22.apartado:30"
+    ],
+    "bindings": [
+      {
+        "locator_key": "norma:22.apartado:30",
+        "relation_ids": [
+          "5e97dc79b891ed6bd747ca8212fdf91742d30ab1da45bee61ea97f13735fb9f9"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:e:s1",
+    "introducer_paths_cited": [
+      "j",
+      "k",
+      "m",
+      "n",
+      "o"
+    ],
+    "op_paths_matched": [
+      "j",
+      "j/i",
+      "j/ii",
+      "j/iii",
+      "j/iv",
+      "j/v",
+      "j/vi",
+      "k",
+      "k/i",
+      "k/ii",
+      "m",
+      "m/i",
+      "m/ii",
+      "m/iii",
+      "m/iv",
+      "m/v",
+      "m/vi",
+      "m/vii",
+      "m/viii",
+      "m/ix",
+      "n",
+      "n/i",
+      "n/ii",
+      "n/iii",
+      "n/iv",
+      "o",
+      "o/i",
+      "o/ii",
+      "o/iii",
+      "o/iv"
+    ],
+    "cited_subject_keys": [
+      "norma:67",
+      "norma:68",
+      "anejo:4",
+      "anejo:5",
+      "anejo:6",
+      "estado:FI 131",
+      "estado:FI 141"
+    ],
+    "bindings": [
+      {
+        "locator_key": "anejo:4",
+        "relation_ids": [],
+        "binding": "CONTAINER_EXPANDED"
+      },
+      {
+        "locator_key": "anejo:5",
+        "relation_ids": [],
+        "binding": "CONTAINER_EXPANDED"
+      },
+      {
+        "locator_key": "anejo:6",
+        "relation_ids": [],
+        "binding": "CONTAINER_EXPANDED"
+      },
+      {
+        "locator_key": "estado:FC 140-1",
+        "relation_ids": [
+          "fa5dd0b097134829b3046e3a98e6309b7f7cffb4f7ed40645a9c495e7e8c733f"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FC 140-2",
+        "relation_ids": [
+          "f5870e194548e17ad3c124608699e34f81f5587230a10eb92735c3e19e588d2e"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FC 140-3",
+        "relation_ids": [
+          "fe6523b628736852ba29017255decc32a3f314679c6d3b6db85c2eb632ba30b0"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FC 203",
+        "relation_ids": [
+          "6857f6b542edd5df264ec1e47f4398e415d5a66378d6fadc2a9a8b5acb5a79e9"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 105",
+        "relation_ids": [
+          "583c5285285724e024af3747d3421d724fa90ba6d1eb61960b8e01eb0841eee5",
+          "805b27ede98c7ea4f9277e2581ad57be4b0efb63c29615dfa046c97e930f1617",
+          "546a0dea97f89f1b6a564a1c1415c186c10c1f9424fcd147c1434797474400f1"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 105-1",
+        "relation_ids": [
+          "bf675e13e539441de0aece256e1c5e7b2abe2ada07b0e6f80fae2e26f6799dfe"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 105-2",
+        "relation_ids": [
+          "fa968caa7e7aa005ae006045a92877303a02d4b213f2e30c02a9a3c1fd5e0dde"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 130-1",
+        "relation_ids": [
+          "25fbbfe464d0b752d075bc120954a7ccc161efe01b48f12f915e78e7d44f395c"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 130-2",
+        "relation_ids": [
+          "d2e9ddc21cfce26311b0203bb55f9a21e8e78a07a4fe6ba0eb0ec04437461bc6"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 130-3",
+        "relation_ids": [
+          "9c98f0a6a567d38298e336e489ac0c9dd590c4747f77ec26a1d212689cc2d28b"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 131",
+        "relation_ids": [
+          "0b09671763e555581f70bf23c3c582ced5493032b31b52ca7fe03c590ccea2c8",
+          "4101be60f3d3f752bb972241605307170dfc37ca24bd6bba46720960150732a7"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 136",
+        "relation_ids": [
+          "52cad854b1ff8fb0f0d135973d85ae7c96e7d73a77a319a8fc065c9b8525a909",
+          "40dac9fbdef05225bef6784af0e2ad1eac53a5b2d8f524b5225e3d343075ee03",
+          "a1982a1625603f58004381555a594226ef64ee3cd48ece00bdfae5aed2390630"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 136-1",
+        "relation_ids": [
+          "76ed4382011ed2c7db5835b798edf97090ac218ca80f9c59be98c53a33000599"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 136-2",
+        "relation_ids": [
+          "d7417311bfc33121a241dd1f04dd92d73344f7874da3753dfd1eff92dc6be6e0"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 139",
+        "relation_ids": [
+          "53c1ced0dd7e60dc956c68b3bbb1f7806333bdaeaefa2b9ece121dc84fdd61d6"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 140-1",
+        "relation_ids": [
+          "52426fb2646f619441ba9f04b658249721c1d761e721e85af0d19dc82a64057a"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 140-2",
+        "relation_ids": [
+          "9942239601c35ad8f7a0d5d33221d7de17dfe01d15782998f527f081cbe11519"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 140-3",
+        "relation_ids": [
+          "b587da95a59aec12426cd8c8315ca99b8a39ed2c00eacd795178a6b10cfd2ec8"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 141",
+        "relation_ids": [
+          "15ccd600e6cc9a3c6dd66cd6dfcebc401a481b6434f704b37c9cc4ec63db5ddf",
+          "7e71ba474bca63da533bd581dcd7849b12bbb2c3a69604bbedb9558cbda7940a"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 142-1.1",
+        "relation_ids": [
+          "7bab4125d02be566f0d82e8a7b14a9ba9168f9cdbf858e22ba805cf3ff0ab9c5"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:UEM 11-3",
+        "relation_ids": [
+          "9095e68727fc6d7f42d2b0a107836f070a27fd8c935a465abf4b17a24a2174b0",
+          "13da75faf7a6945ce72689240a6d622da0cacbfa8cc2c476e0cc818551abe833"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:UEM 2",
+        "relation_ids": [
+          "eae10d5c24c5e82f14e71293a81b6828510230f66ee4353f985ab2ee3f6cb912"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:UEM 9",
+        "relation_ids": [
+          "c38f375cdd7b88f03bf1b3078a3df6182b5a468fcd49ff5e66642f4715983f1e"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:67",
+        "relation_ids": [],
+        "binding": "CONTAINER_EXPANDED"
+      },
+      {
+        "locator_key": "norma:67.apartado:1",
+        "relation_ids": [
+          "2a032fd928155eb04d07fc16dd29d4d443257f5e01db1ff425d638a4cbe56438"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:67.apartado:5",
+        "relation_ids": [
+          "8a418c5c0147edaa0d2472ff092be2ae01508bb6a84b9477796ffda59d702331"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:67.apartado:6.letra:b",
+        "relation_ids": [
+          "ae5a25e764f8a34793a532d0be593f904be6f03dcbca46ff426383aed68e4fb6"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:67.apartado:6.letra:f",
+        "relation_ids": [
+          "08920cbdf6cf1cf5043bdb5d829e7efa779774254844dc140efb34d5eefc911b"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:67.apartado:9",
+        "relation_ids": [
+          "03cf78d77be2487899fa16d420e5851cafa1640f22691bddfda13a77a11eebfe"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:68",
+        "relation_ids": [],
+        "binding": "CONTAINER_EXPANDED"
+      },
+      {
+        "locator_key": "norma:68.apartado:1",
+        "relation_ids": [
+          "92854315be6372be1f2f1afd8580f295a77d53f52c26a118b69a657aa98213a0"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:68.apartado:6",
+        "relation_ids": [
+          "892741d9a8a1efd4194f988aa23c8bde19495fc46197cc40c5745cf6939d37f9"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:f:s1",
+    "introducer_paths_cited": [
+      "p/vii",
+      "p/viii"
+    ],
+    "op_paths_matched": [
+      "p/vii",
+      "p/viii"
+    ],
+    "cited_subject_keys": [
+      "anejo:9.punto:132",
+      "anejo:9.apartado:IV"
+    ],
+    "bindings": [
+      {
+        "locator_key": "anejo:9.apartado:IV",
+        "relation_ids": [
+          "494d0ebde18786155e04f3311d743b96c82f7de71da20e1373ea31a40139a65a"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "anejo:9.punto:132",
+        "relation_ids": [
+          "b3f3300aad59e76a0cb65c84c09be3ebcafd25d0c306bdaa47b0742564a8fc91"
+        ],
+        "binding": "DECLARED"
+      }
+    ],
+    "cited_rule_references": [],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:e:s1:carveout",
+    "introducer_paths_cited": [],
+    "op_paths_matched": [],
+    "cited_subject_keys": [
+      "norma:67",
+      "estado:FI 131",
+      "estado:FI 141"
+    ],
+    "bindings": [
+      {
+        "locator_key": "estado:FI 131",
+        "relation_ids": [
+          "0b09671763e555581f70bf23c3c582ced5493032b31b52ca7fe03c590ccea2c8",
+          "4101be60f3d3f752bb972241605307170dfc37ca24bd6bba46720960150732a7"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "estado:FI 141",
+        "relation_ids": [
+          "15ccd600e6cc9a3c6dd66cd6dfcebc401a481b6434f704b37c9cc4ec63db5ddf",
+          "7e71ba474bca63da533bd581dcd7849b12bbb2c3a69604bbedb9558cbda7940a"
+        ],
+        "binding": "DECLARED"
+      },
+      {
+        "locator_key": "norma:67",
+        "relation_ids": [],
+        "binding": "CONTAINER_EXPANDED"
+      }
+    ],
+    "cited_rule_references": [],
+    "subjects_cited_without_relation": [],
+    "epistemic": "DERIVED"
+  }
+]

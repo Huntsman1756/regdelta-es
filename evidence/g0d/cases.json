@@ -1,0 +1,143 @@
+[
+  {
+    "case": "D1",
+    "verdict": "PASS",
+    "clauses": [
+      "BOE-A-2025-26847:dfu:base:s1"
+    ],
+    "evidence": [
+      "INSTRUMENT_EFFECTIVE_FROM=2025-12-30"
+    ],
+    "note": "general entry into force, relative date resolved mechanically from fecha_publicacion"
+  },
+  {
+    "case": "D2",
+    "verdict": "PASS",
+    "clauses": [
+      "BOE-A-2025-26847:dfu:a:s1",
+      "BOE-A-2025-26847:dfu:b:s1",
+      "BOE-A-2025-26847:dfu:c:s1",
+      "BOE-A-2025-26847:dfu:d:s1"
+    ],
+    "evidence": [
+      "a→4 relations",
+      "b→1 relations",
+      "c→4 relations",
+      "d→1 relations"
+    ],
+    "note": "APPLY_FROM 2026-01-01 ≠ instrument effective date"
+  },
+  {
+    "case": "D3",
+    "verdict": "PASS",
+    "clauses": [
+      "BOE-A-2025-26847:dfu:e:s1"
+    ],
+    "evidence": [
+      "FIRST_REFERENCE_DATE=2026-03-31 cond={'frequency_in': ['MONTHLY', 'QUARTERLY']}"
+    ],
+    "note": "frequency-conditioned; MONTHLY+QUARTERLY resolved against norma 67 table (DECLARED)"
+  },
+  {
+    "case": "D4",
+    "verdict": "PASS",
+    "clauses": [
+      "BOE-A-2025-26847:dfu:e:s1"
+    ],
+    "evidence": [
+      "FIRST_REFERENCE_DATE=2026-06-30 cond=SEMIANNUAL"
+    ],
+    "note": "FI 160/161/162 per norma 67 table"
+  },
+  {
+    "case": "D5",
+    "verdict": "PASS",
+    "clauses": [
+      "BOE-A-2025-26847:dfu:e:s1"
+    ],
+    "evidence": [
+      "FIRST_REFERENCE_DATE=2026-12-31 cond=ANNUAL"
+    ],
+    "note": "FI 40/180/181/182 per norma 67 table"
+  },
+  {
+    "case": "D6",
+    "verdict": "PASS",
+    "clauses": [
+      "BOE-A-2025-26847:dfu:f:s1"
+    ],
+    "evidence": [
+      "FIRST_REFERENCE_DATE=2026-06-30",
+      "introducers=['p/vii', 'p/viii']",
+      "bound=['anejo:9.apartado:IV', 'anejo:9.punto:132']"
+    ],
+    "note": "riesgo-país: anejo 9 punto 132 + apartado IV"
+  },
+  {
+    "case": "D7",
+    "verdict": "PASS",
+    "clauses": [
+      "BOE-A-2025-26847:dt3:único:s1",
+      "BOE-A-2025-26847:dfu:e:s1:carveout"
+    ],
+    "evidence": [
+      "LAST_REFERENCE_DATE=2026-06-30",
+      "bound relations=4",
+      "sin-perjuicio carve-out under dfu:e → dt3"
+    ],
+    "note": "coexists with dfu:e via EXCEPTION edge, no overwrite"
+  },
+  {
+    "case": "D8",
+    "verdict": "PASS",
+    "clauses": [
+      "BOE-A-2025-26847:dt1:1:s2",
+      "BOE-A-2025-26847:dt1:1:s3"
+    ],
+    "evidence": [
+      "RETROACTIVE_APPLICATION",
+      "INITIAL_APPLICATION_DATE=2026-01-01"
+    ],
+    "note": "retroactivity and initial application date are distinct fields of the same disposición"
+  },
+  {
+    "case": "D9",
+    "verdict": "PASS",
+    "clauses": [
+      "BOE-A-2025-26847:dt1:2:s1"
+    ],
+    "evidence": [
+      "modality=ABSENCE_OF_OBLIGATION",
+      "relation_to_parent=EXCEPTION"
+    ],
+    "note": "absence of obligation, EXCEPTION child of retroactive base"
+  },
+  {
+    "case": "D10",
+    "verdict": "PASS",
+    "clauses": [
+      "BOE-A-2025-26847:dt1:2:s2"
+    ],
+    "evidence": [
+      "parent=BOE-A-2025-26847:dt1:2:s1",
+      "relation=QUALIFIER",
+      "condition=option exercised (Si optara por no reexpresarla)"
+    ],
+    "note": "consequence modeled as QUALIFIER child of the option, not a global rule"
+  },
+  {
+    "case": "D11",
+    "verdict": "PASS",
+    "clauses": [
+      "BOE-A-2025-26847:dt2:1:s1",
+      "BOE-A-2025-26847:dt2:2:s1",
+      "BOE-A-2025-26847:dt2:3:s1",
+      "BOE-A-2025-26847:dt2:4:s1",
+      "BOE-A-2025-26847:dt2:5:s1"
+    ],
+    "evidence": [
+      "same pattern as dt1: SCOPE_PERIOD + RETROACTIVE + exceptions 2-5, OPTION + QUALIFIER consequence"
+    ],
+    "note": "model is not hardcoded to transitoria primera"
+  }
+]

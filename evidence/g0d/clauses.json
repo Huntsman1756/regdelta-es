@@ -1,0 +1,1331 @@
+[
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:1:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt1",
+      "item": "1",
+      "sub": 1,
+      "node_span": [
+        185,
+        185
+      ],
+      "char_span": [
+        0,
+        139
+      ]
+    },
+    "parent_clause_id": null,
+    "relation_to_parent": "BASE",
+    "temporal_effects": [
+      {
+        "effect": "SCOPE_PERIOD",
+        "date_value": null,
+        "date_raw": null,
+        "condition_raw": "ejercicio 2026",
+        "condition_normalized": {
+          "exercise": 2026
+        },
+        "epistemic": "DERIVED"
+      }
+    ],
+    "dates": [],
+    "subjects": [],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "DECLARED_RULE",
+    "action_raw": "aplicará esta disposición transitoria en sus cuentas anuales individuales y cons",
+    "evidence_text": "1. La entidad aplicará esta disposición transitoria en sus cuentas anuales individuales y consolidadas correspondientes al ejercicio 2026.",
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:1:s2",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt1",
+      "item": "1",
+      "sub": 2,
+      "node_span": [
+        185,
+        185
+      ],
+      "char_span": [
+        139,
+        565
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt1:1:s1",
+    "relation_to_parent": "PART_OF",
+    "temporal_effects": [
+      {
+        "effect": "RETROACTIVE_APPLICATION",
+        "date_value": null,
+        "date_raw": null,
+        "condition_raw": null,
+        "condition_normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "dates": [],
+    "subjects": [
+      {
+        "raw": "apartado 10 de la norma 19",
+        "locator_key": "norma:19.apartado:10",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 3, 6 y 7 de la norma 31",
+        "locator_key": "norma:31.apartado:3",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 3, 6 y 7 de la norma 31",
+        "locator_key": "norma:31.apartado:6",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 3, 6 y 7 de la norma 31",
+        "locator_key": "norma:31.apartado:7",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 6 a 8 de la norma 17",
+        "locator_key": "norma:17.apartado:6",
+        "rule_ref": true
+      },
+      {
+        "raw": "apartados 6 a 8 de la norma 17",
+        "locator_key": "norma:17.apartado:7",
+        "rule_ref": true
+      },
+      {
+        "raw": "apartados 6 a 8 de la norma 17",
+        "locator_key": "norma:17.apartado:8",
+        "rule_ref": true
+      }
+    ],
+    "introducer_refs": [
+      "b",
+      "d"
+    ],
+    "conditions": [],
+    "modality": "DECLARED_RULE",
+    "action_raw": "se aplicarán retroactivamente, de acuerdo con lo establecido en los apartados 6",
+    "evidence_text": "Las modificaciones en el apartado 10 de la norma 19 y en los apartados 3, 6 y 7 de la norma 31 de la Circular 4/2017, de 27 de noviembre, introducidas por las letras b) y d), respectivamente, de la norma 1, se aplicarán retroactivamente, de acuerdo con lo establecido en los apartados 6 a 8 de la norma 17 de la Circular 4/2017, de 27 de noviembre, con las excepciones establecidas en los apartados 2 a 6 de esta disposición.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:1:s3",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt1",
+      "item": "1",
+      "sub": 3,
+      "node_span": [
+        185,
+        185
+      ],
+      "char_span": [
+        565,
+        747
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt1:1:s1",
+    "relation_to_parent": "PART_OF",
+    "temporal_effects": [
+      {
+        "effect": "INITIAL_APPLICATION_DATE",
+        "date_value": "2026-01-01",
+        "date_raw": "1 de enero de 2026",
+        "condition_raw": null,
+        "condition_normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "dates": [
+      {
+        "raw": "1 de enero de 2026",
+        "iso": "2026-01-01",
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "subjects": [],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "DECLARED_RULE",
+    "action_raw": "",
+    "evidence_text": "A efectos de los requisitos establecidos en los apartados siguientes de esta disposición, la fecha de aplicación inicial de las modificaciones mencionadas será el 1 de enero de 2026.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:2:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt1",
+      "item": "2",
+      "sub": 1,
+      "node_span": [
+        187,
+        187
+      ],
+      "char_span": [
+        0,
+        114
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt1:1:s2",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [],
+    "dates": [],
+    "subjects": [],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "ABSENCE_OF_OBLIGATION",
+    "action_raw": "no estará obligada a reexpresar la información comparativa correspondiente a eje",
+    "evidence_text": "2. La entidad no estará obligada a reexpresar la información comparativa correspondiente a ejercicios anteriores.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:2:s2",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt1",
+      "item": "2",
+      "sub": 2,
+      "node_span": [
+        187,
+        187
+      ],
+      "char_span": [
+        114,
+        385
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt1:2:s1",
+    "relation_to_parent": "QUALIFIER",
+    "temporal_effects": [],
+    "dates": [],
+    "subjects": [],
+    "introducer_refs": [],
+    "conditions": [
+      {
+        "raw": "Si optara por no reexpresarla",
+        "normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "modality": "OBLIGATION",
+    "action_raw": "reconocerá en el saldo de apertura de las reservas –u otra partida del patrimoni",
+    "evidence_text": "Si optara por no reexpresarla, la entidad reconocerá en el saldo de apertura de las reservas –u otra partida del patrimonio neto, según proceda– cualquier diferencia entre el importe en libros al comienzo del ejercicio de aplicación inicial y el importe en libros previo.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:3:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt1",
+      "item": "3",
+      "sub": 1,
+      "node_span": [
+        188,
+        188
+      ],
+      "char_span": [
+        0,
+        465
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt1:1:s2",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [],
+    "dates": [],
+    "subjects": [
+      {
+        "raw": "apartado 10 de la norma 19",
+        "locator_key": "norma:19.apartado:10",
+        "rule_ref": true
+      }
+    ],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "OPTION",
+    "action_raw": "podrá optar designarlo irrevocablemente como valorado a valor razonable con camb",
+    "evidence_text": "3. Si, como resultado de la aplicación de las modificaciones, un contrato referenciado a electricidad obtenida de fuentes naturales deja de reconocerse y valorarse como un instrumento financiero, en la fecha de aplicación inicial, la entidad podrá optar designarlo irrevocablemente como valorado a valor razonable con cambios en resultados, de acuerdo con lo establecido en el párrafo quinto del apartado 10 de la norma 19 de la Circular 4/2017, de 27 de noviembre.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:4:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt1",
+      "item": "4",
+      "sub": 1,
+      "node_span": [
+        189,
+        189
+      ],
+      "char_span": [
+        0,
+        174
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt1:1:s2",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [
+      {
+        "effect": "PROSPECTIVE_APPLICATION",
+        "date_value": null,
+        "date_raw": null,
+        "condition_raw": null,
+        "condition_normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "dates": [],
+    "subjects": [],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "OBLIGATION",
+    "action_raw": "deberá aplicar las modificaciones prospectivamente a las nuevas relaciones de co",
+    "evidence_text": "4. La entidad deberá aplicar las modificaciones prospectivamente a las nuevas relaciones de coberturas designadas en la fecha de aplicación inicial y a partir de esta fecha.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:4:s2",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt1",
+      "item": "4",
+      "sub": 2,
+      "node_span": [
+        189,
+        189
+      ],
+      "char_span": [
+        174,
+        622
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt1:4:s1",
+    "relation_to_parent": "ALTERNATIVE",
+    "temporal_effects": [],
+    "dates": [],
+    "subjects": [
+      {
+        "raw": "apartados 3, 6 y 7 de la norma 31",
+        "locator_key": "norma:31.apartado:3",
+        "rule_ref": true
+      },
+      {
+        "raw": "apartados 3, 6 y 7 de la norma 31",
+        "locator_key": "norma:31.apartado:6",
+        "rule_ref": true
+      },
+      {
+        "raw": "apartados 3, 6 y 7 de la norma 31",
+        "locator_key": "norma:31.apartado:7",
+        "rule_ref": true
+      }
+    ],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "OPTION",
+    "action_raw": "podrá interrumpir una relación de cobertura en la que el instrumento de cobertur",
+    "evidence_text": "En la fecha de aplicación inicial, la entidad podrá interrumpir una relación de cobertura en la que el instrumento de cobertura es un contrato referenciado a electricidad obtenida de fuentes naturales cuando este mismo contrato se haya designado como instrumento de cobertura en una nueva relación de cobertura, de acuerdo con los apartados 3, 6 y 7 de la norma 31 de la Circular 4/2017, de 27 de noviembre, una vez incorporadas las modificaciones.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:5:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt1",
+      "item": "5",
+      "sub": 1,
+      "node_span": [
+        190,
+        190
+      ],
+      "char_span": [
+        0,
+        346
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt1:2:s1",
+    "relation_to_parent": "QUALIFIER",
+    "temporal_effects": [],
+    "dates": [],
+    "subjects": [
+      {
+        "raw": "apartado 56 de la norma 60",
+        "locator_key": "norma:60.apartado:56",
+        "rule_ref": false
+      }
+    ],
+    "introducer_refs": [
+      "i/iii"
+    ],
+    "conditions": [
+      {
+        "raw": "Cuando haya optado por no reexpresar la información comparativa",
+        "normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "modality": "NON_APPLICATION",
+    "action_raw": "no aplicará las modificaciones, relativas a la información para incluir en la me",
+    "evidence_text": "5. Cuando haya optado por no reexpresar la información comparativa, la entidad no aplicará las modificaciones, relativas a la información para incluir en la memoria, en el apartado 56 de la norma 60 de la Circular 4/2017, de 27 de noviembre, introducidas por el numeral iii) de la letra i) de la norma 1, para elaborar la información comparativa.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt1:6:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt1",
+      "item": "6",
+      "sub": 1,
+      "node_span": [
+        191,
+        191
+      ],
+      "char_span": [
+        0,
+        355
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt1:1:s2",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [],
+    "dates": [],
+    "subjects": [
+      {
+        "raw": "apartado 6 de la norma 60",
+        "locator_key": "norma:60.apartado:6",
+        "rule_ref": true
+      }
+    ],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "ABSENCE_OF_OBLIGATION",
+    "action_raw": "no estará obligada a incluir en la memoria la información, requerida en la letra",
+    "evidence_text": "6. La entidad no estará obligada a incluir en la memoria la información, requerida en la letra b) del apartado 6 de la norma 60 de la Circular 4/2017, de 27 de noviembre, sobre el importe del ajuste para cada una de las partidas afectadas de las cuentas anuales en el ejercicio corriente y en cada uno de los ejercicios presentados a efectos comparativos.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt2:1:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt2",
+      "item": "1",
+      "sub": 1,
+      "node_span": [
+        193,
+        193
+      ],
+      "char_span": [
+        0,
+        139
+      ]
+    },
+    "parent_clause_id": null,
+    "relation_to_parent": "BASE",
+    "temporal_effects": [
+      {
+        "effect": "SCOPE_PERIOD",
+        "date_value": null,
+        "date_raw": null,
+        "condition_raw": "ejercicio 2026",
+        "condition_normalized": {
+          "exercise": 2026
+        },
+        "epistemic": "DERIVED"
+      }
+    ],
+    "dates": [],
+    "subjects": [],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "DECLARED_RULE",
+    "action_raw": "aplicará esta disposición transitoria en sus cuentas anuales individuales y cons",
+    "evidence_text": "1. La entidad aplicará esta disposición transitoria en sus cuentas anuales individuales y consolidadas correspondientes al ejercicio 2026.",
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt2:1:s2",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt2",
+      "item": "1",
+      "sub": 2,
+      "node_span": [
+        193,
+        193
+      ],
+      "char_span": [
+        139,
+        521
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt2:1:s1",
+    "relation_to_parent": "PART_OF",
+    "temporal_effects": [
+      {
+        "effect": "RETROACTIVE_APPLICATION",
+        "date_value": null,
+        "date_raw": null,
+        "condition_raw": null,
+        "condition_normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "dates": [],
+    "subjects": [
+      {
+        "raw": "apartados 17 a 20 de la norma 22",
+        "locator_key": "norma:22.apartado:17",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 17 a 20 de la norma 22",
+        "locator_key": "norma:22.apartado:18",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 17 a 20 de la norma 22",
+        "locator_key": "norma:22.apartado:19",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 17 a 20 de la norma 22",
+        "locator_key": "norma:22.apartado:20",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 6 a 8 de la norma 17",
+        "locator_key": "norma:17.apartado:6",
+        "rule_ref": true
+      },
+      {
+        "raw": "apartados 6 a 8 de la norma 17",
+        "locator_key": "norma:17.apartado:7",
+        "rule_ref": true
+      },
+      {
+        "raw": "apartados 6 a 8 de la norma 17",
+        "locator_key": "norma:17.apartado:8",
+        "rule_ref": true
+      }
+    ],
+    "introducer_refs": [
+      "c/ii"
+    ],
+    "conditions": [],
+    "modality": "DECLARED_RULE",
+    "action_raw": "se aplicarán retroactivamente, de acuerdo con lo establecido en los apartados 6",
+    "evidence_text": "Las modificaciones en los apartados 17 a 20 de la norma 22 de la Circular 4/2017, de 27 de noviembre, introducidas por el numeral ii) de la letra c) de la norma 1, se aplicarán retroactivamente, de acuerdo con lo establecido en los apartados 6 a 8 de la norma 17 de la Circular 4/2017, de 27 de noviembre, con las excepciones establecidas en los apartados 2 a 5 de esta disposición.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt2:2:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt2",
+      "item": "2",
+      "sub": 1,
+      "node_span": [
+        195,
+        195
+      ],
+      "char_span": [
+        0,
+        114
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt2:1:s2",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [],
+    "dates": [],
+    "subjects": [],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "ABSENCE_OF_OBLIGATION",
+    "action_raw": "no estará obligada a reexpresar la información comparativa correspondiente a eje",
+    "evidence_text": "2. La entidad no estará obligada a reexpresar la información comparativa correspondiente a ejercicios anteriores.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt2:2:s2",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt2",
+      "item": "2",
+      "sub": 2,
+      "node_span": [
+        195,
+        195
+      ],
+      "char_span": [
+        114,
+        385
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt2:2:s1",
+    "relation_to_parent": "QUALIFIER",
+    "temporal_effects": [],
+    "dates": [],
+    "subjects": [],
+    "introducer_refs": [],
+    "conditions": [
+      {
+        "raw": "Si optara por no reexpresarla",
+        "normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "modality": "OBLIGATION",
+    "action_raw": "reconocerá en el saldo de apertura de las reservas –u otra partida del patrimoni",
+    "evidence_text": "Si optara por no reexpresarla, la entidad reconocerá en el saldo de apertura de las reservas –u otra partida del patrimonio neto, según proceda– cualquier diferencia entre el importe en libros al comienzo del ejercicio de aplicación inicial y el importe en libros previo.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt2:3:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt2",
+      "item": "3",
+      "sub": 1,
+      "node_span": [
+        196,
+        196
+      ],
+      "char_span": [
+        0,
+        342
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt2:1:s2",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [],
+    "dates": [
+      {
+        "raw": "1 de enero de 2026",
+        "iso": "2026-01-01",
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "subjects": [],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "OBLIGATION",
+    "action_raw": "deberá incluir en la memoria la siguiente información: a) La cartera y el import",
+    "evidence_text": "3. Para cada clase de activos financieros en la que se produzcan cambios entre las carteras a efectos de su valoración, la entidad deberá incluir en la memoria la siguiente información: a) La cartera y el importe en libros a 1 de enero de 2026. b) La cartera y el importe en libros inmediatamente antes de la aplicación de las modificaciones.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt2:4:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt2",
+      "item": "4",
+      "sub": 1,
+      "node_span": [
+        199,
+        199
+      ],
+      "char_span": [
+        0,
+        299
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt2:1:s2",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [],
+    "dates": [],
+    "subjects": [
+      {
+        "raw": "apartados 13, 18 y 19 de la norma 60",
+        "locator_key": "norma:60.apartado:13",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 13, 18 y 19 de la norma 60",
+        "locator_key": "norma:60.apartado:18",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 13, 18 y 19 de la norma 60",
+        "locator_key": "norma:60.apartado:19",
+        "rule_ref": false
+      }
+    ],
+    "introducer_refs": [
+      "i/i",
+      "i/ii"
+    ],
+    "conditions": [],
+    "modality": "NON_APPLICATION",
+    "action_raw": "no aplicará las modificaciones, relativas a la información para incluir en la me",
+    "evidence_text": "4. La entidad no aplicará las modificaciones, relativas a la información para incluir en la memoria, en los apartados 13, 18 y 19 de la norma 60 de la Circular 4/2017, de 27 de noviembre, introducidas por los numerales i) y ii) de la letra i) de la norma 1, para elaborar la información comparativa.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt2:5:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt2",
+      "item": "5",
+      "sub": 1,
+      "node_span": [
+        200,
+        200
+      ],
+      "char_span": [
+        0,
+        355
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dt2:1:s2",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [],
+    "dates": [],
+    "subjects": [
+      {
+        "raw": "apartado 6 de la norma 60",
+        "locator_key": "norma:60.apartado:6",
+        "rule_ref": true
+      }
+    ],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "ABSENCE_OF_OBLIGATION",
+    "action_raw": "no estará obligada a incluir en la memoria la información, requerida en la letra",
+    "evidence_text": "5. La entidad no estará obligada a incluir en la memoria la información, requerida en la letra b) del apartado 6 de la norma 60 de la Circular 4/2017, de 27 de noviembre, sobre el importe del ajuste para cada una de las partidas afectadas de las cuentas anuales en el ejercicio corriente y en cada uno de los ejercicios presentados a efectos comparativos.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dt3:único:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dt3",
+      "item": "único",
+      "sub": 1,
+      "node_span": [
+        202,
+        202
+      ],
+      "char_span": [
+        0,
+        142
+      ]
+    },
+    "parent_clause_id": null,
+    "relation_to_parent": "BASE",
+    "temporal_effects": [
+      {
+        "effect": "LAST_REFERENCE_DATE",
+        "date_value": "2026-06-30",
+        "date_raw": "30 de junio de 2026",
+        "condition_raw": null,
+        "condition_normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "dates": [
+      {
+        "raw": "30 de junio de 2026",
+        "iso": "2026-06-30",
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "subjects": [
+      {
+        "raw": "estados FI 131 y FI 141",
+        "locator_key": "estado:FI 131",
+        "rule_ref": false
+      },
+      {
+        "raw": "estados FI 131 y FI 141",
+        "locator_key": "estado:FI 141",
+        "rule_ref": false
+      }
+    ],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "OBLIGATION",
+    "action_raw": "deben reportar las entidades de crédito en los estados FI 131 y FI 141 serán los",
+    "evidence_text": "Los últimos datos que deben reportar las entidades de crédito en los estados FI 131 y FI 141 serán los correspondientes a 30 de junio de 2026.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:base:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dfu",
+      "item": "base",
+      "sub": 1,
+      "node_span": [
+        204,
+        204
+      ],
+      "char_span": [
+        0,
+        146
+      ]
+    },
+    "parent_clause_id": null,
+    "relation_to_parent": "BASE",
+    "temporal_effects": [
+      {
+        "effect": "INSTRUMENT_EFFECTIVE_FROM",
+        "date_value": "2025-12-30",
+        "date_raw": "día siguiente al de su publicación",
+        "condition_raw": null,
+        "condition_normalized": {
+          "relative": "PUBLICATION_PLUS_1"
+        },
+        "epistemic": "DERIVED"
+      }
+    ],
+    "dates": [
+      {
+        "raw": "día siguiente al de su publicación",
+        "iso": "2025-12-30",
+        "relative": "PUBLICATION_PLUS_1",
+        "epistemic": "DERIVED",
+        "resolved_from": {
+          "fecha_publicacion": "20251229",
+          "rule": "+1 day"
+        }
+      }
+    ],
+    "subjects": [],
+    "introducer_refs": [],
+    "conditions": [],
+    "modality": "DECLARED_RULE",
+    "action_raw": "entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial de",
+    "evidence_text": "La presente circular entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» con las siguientes especificidades:",
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:a:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dfu",
+      "item": "a",
+      "sub": 1,
+      "node_span": [
+        205,
+        205
+      ],
+      "char_span": [
+        0,
+        411
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dfu:base:s1",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [
+      {
+        "effect": "APPLY_FROM",
+        "date_value": "2026-01-01",
+        "date_raw": "1 de enero de 2026",
+        "condition_raw": null,
+        "condition_normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "dates": [
+      {
+        "raw": "1 de enero de 2026",
+        "iso": "2026-01-01",
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "subjects": [
+      {
+        "raw": "apartado 10 de la norma 19",
+        "locator_key": "norma:19.apartado:10",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 3, 6 y 7 de la norma 31",
+        "locator_key": "norma:31.apartado:3",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 3, 6 y 7 de la norma 31",
+        "locator_key": "norma:31.apartado:6",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 3, 6 y 7 de la norma 31",
+        "locator_key": "norma:31.apartado:7",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartado 56 de la norma 60",
+        "locator_key": "norma:60.apartado:56",
+        "rule_ref": false
+      }
+    ],
+    "introducer_refs": [
+      "i/iii",
+      "b",
+      "d"
+    ],
+    "conditions": [],
+    "modality": "DECLARED_RULE",
+    "action_raw": "se aplicarán desde el 1 de enero de 2026",
+    "evidence_text": "a) Las modificaciones, relativas a los contratos referenciados a electricidad obtenida de fuentes naturales, en el apartado 10 de la norma 19, en los apartados 3, 6 y 7 de la norma 31 y en el apartado 56 de la norma 60 de la Circular 4/2017, de 27 de noviembre, introducidas por la letra b), la letra d) y el numeral iii) de la letra i), respectivamente, de la norma 1, se aplicarán desde el 1 de enero de 2026.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:b:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dfu",
+      "item": "b",
+      "sub": 1,
+      "node_span": [
+        206,
+        206
+      ],
+      "char_span": [
+        0,
+        289
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dfu:base:s1",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [
+      {
+        "effect": "APPLY_FROM",
+        "date_value": "2026-01-01",
+        "date_raw": "1 de enero de 2026",
+        "condition_raw": null,
+        "condition_normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "dates": [
+      {
+        "raw": "1 de enero de 2026",
+        "iso": "2026-01-01",
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "subjects": [
+      {
+        "raw": "apartado 2 de la norma 22",
+        "locator_key": "norma:22.apartado:2",
+        "rule_ref": false
+      }
+    ],
+    "introducer_refs": [
+      "c/i"
+    ],
+    "conditions": [],
+    "modality": "DECLARED_RULE",
+    "action_raw": "se aplicarán desde el 1 de enero de 2026",
+    "evidence_text": "b) Las modificaciones, relativas a la baja del balance de un pasivo financiero en la fecha de la orden de pago, en el apartado 2 de la norma 22 de la Circular 4/2017, de 27 de noviembre, introducidas por el numeral i) de la letra c) de la norma 1, se aplicarán desde el 1 de enero de 2026.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:c:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dfu",
+      "item": "c",
+      "sub": 1,
+      "node_span": [
+        207,
+        207
+      ],
+      "char_span": [
+        0,
+        389
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dfu:base:s1",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [
+      {
+        "effect": "APPLY_FROM",
+        "date_value": "2026-01-01",
+        "date_raw": "1 de enero de 2026",
+        "condition_raw": null,
+        "condition_normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "dates": [
+      {
+        "raw": "1 de enero de 2026",
+        "iso": "2026-01-01",
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "subjects": [
+      {
+        "raw": "apartados 17 a 20 de la norma 22",
+        "locator_key": "norma:22.apartado:17",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 17 a 20 de la norma 22",
+        "locator_key": "norma:22.apartado:18",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 17 a 20 de la norma 22",
+        "locator_key": "norma:22.apartado:19",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 17 a 20 de la norma 22",
+        "locator_key": "norma:22.apartado:20",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 13, 18 y 19 de la norma 60",
+        "locator_key": "norma:60.apartado:13",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 13, 18 y 19 de la norma 60",
+        "locator_key": "norma:60.apartado:18",
+        "rule_ref": false
+      },
+      {
+        "raw": "apartados 13, 18 y 19 de la norma 60",
+        "locator_key": "norma:60.apartado:19",
+        "rule_ref": false
+      }
+    ],
+    "introducer_refs": [
+      "i/i",
+      "i/ii",
+      "c/ii"
+    ],
+    "conditions": [],
+    "modality": "DECLARED_RULE",
+    "action_raw": "se aplicarán desde el 1 de enero de 2026",
+    "evidence_text": "c) Las modificaciones, relativas a la clasificación para la valoración de los activos financieros, en los apartados 17 a 20 de la norma 22 y en los apartados 13, 18 y 19 de la norma 60 de la Circular 4/2017, de 27 de noviembre, introducidas por el numeral ii) de la letra c) y los numerales i) y ii) de la letra i), respectivamente, de la norma 1, se aplicarán desde el 1 de enero de 2026.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:d:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dfu",
+      "item": "d",
+      "sub": 1,
+      "node_span": [
+        208,
+        208
+      ],
+      "char_span": [
+        0,
+        293
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dfu:base:s1",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [
+      {
+        "effect": "APPLY_FROM",
+        "date_value": "2026-01-01",
+        "date_raw": "1 de enero de 2026",
+        "condition_raw": null,
+        "condition_normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "dates": [
+      {
+        "raw": "1 de enero de 2026",
+        "iso": "2026-01-01",
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "subjects": [
+      {
+        "raw": "apartado 30 de la norma 22",
+        "locator_key": "norma:22.apartado:30",
+        "rule_ref": false
+      }
+    ],
+    "introducer_refs": [
+      "c/iii"
+    ],
+    "conditions": [],
+    "modality": "DECLARED_RULE",
+    "action_raw": "se aplicarán desde el 1 de enero de 2026",
+    "evidence_text": "d) Las modificaciones, relativas al reconocimiento inicial de las partidas a cobrar por operaciones comerciales, en el apartado 30 de la norma 22 de la Circular 4/2017, de 27 de noviembre, introducidas por el numeral iii) de la letra c) de la norma 1, se aplicarán desde el 1 de enero de 2026.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:e:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dfu",
+      "item": "e",
+      "sub": 1,
+      "node_span": [
+        209,
+        209
+      ],
+      "char_span": [
+        0,
+        581
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dfu:base:s1",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [
+      {
+        "effect": "FIRST_REFERENCE_DATE",
+        "date_value": "2026-03-31",
+        "date_raw": "31 de marzo de 2026",
+        "condition_raw": "de 31 de marzo de 2026 para los estados de frecuencias mensual y trimestral",
+        "condition_normalized": {
+          "frequency_in": [
+            "MONTHLY",
+            "QUARTERLY"
+          ]
+        },
+        "epistemic": "DERIVED"
+      },
+      {
+        "effect": "FIRST_REFERENCE_DATE",
+        "date_value": "2026-06-30",
+        "date_raw": "30 de junio de 2026",
+        "condition_raw": "de 30 de junio de 2026 para los de frecuencia semestral",
+        "condition_normalized": {
+          "frequency_in": [
+            "SEMIANNUAL"
+          ]
+        },
+        "epistemic": "DERIVED"
+      },
+      {
+        "effect": "FIRST_REFERENCE_DATE",
+        "date_value": "2026-12-31",
+        "date_raw": "31 de diciembre de 2026",
+        "condition_raw": "de 31 de diciembre de 2026 para los de frecuencia anual",
+        "condition_normalized": {
+          "frequency_in": [
+            "ANNUAL"
+          ]
+        },
+        "epistemic": "DERIVED"
+      }
+    ],
+    "dates": [
+      {
+        "raw": "31 de marzo de 2026",
+        "iso": "2026-03-31",
+        "epistemic": "OBSERVED"
+      },
+      {
+        "raw": "30 de junio de 2026",
+        "iso": "2026-06-30",
+        "epistemic": "OBSERVED"
+      },
+      {
+        "raw": "31 de diciembre de 2026",
+        "iso": "2026-12-31",
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "subjects": [
+      {
+        "raw": "las normas 67 y 68",
+        "locator_key": "norma:67",
+        "rule_ref": false
+      },
+      {
+        "raw": "las normas 67 y 68",
+        "locator_key": "norma:68",
+        "rule_ref": false
+      },
+      {
+        "raw": "los anejos 4, 5 y 6",
+        "locator_key": "anejo:4",
+        "rule_ref": false
+      },
+      {
+        "raw": "los anejos 4, 5 y 6",
+        "locator_key": "anejo:5",
+        "rule_ref": false
+      },
+      {
+        "raw": "los anejos 4, 5 y 6",
+        "locator_key": "anejo:6",
+        "rule_ref": false
+      },
+      {
+        "raw": "estados FI 131 y FI 141",
+        "locator_key": "estado:FI 131",
+        "rule_ref": true
+      },
+      {
+        "raw": "estados FI 131 y FI 141",
+        "locator_key": "estado:FI 141",
+        "rule_ref": true
+      }
+    ],
+    "introducer_refs": [
+      "j",
+      "k",
+      "m",
+      "n",
+      "o"
+    ],
+    "conditions": [
+      {
+        "raw": "de 31 de marzo de 2026 para los estados de frecuencias mensual y trimestral",
+        "normalized": {
+          "frequency_in": [
+            "MONTHLY",
+            "QUARTERLY"
+          ],
+          "date": "2026-03-31"
+        },
+        "epistemic": "DERIVED"
+      },
+      {
+        "raw": "de 30 de junio de 2026 para los de frecuencia semestral",
+        "normalized": {
+          "frequency_in": [
+            "SEMIANNUAL"
+          ],
+          "date": "2026-06-30"
+        },
+        "epistemic": "DERIVED"
+      },
+      {
+        "raw": "de 31 de diciembre de 2026 para los de frecuencia anual",
+        "normalized": {
+          "frequency_in": [
+            "ANNUAL"
+          ],
+          "date": "2026-12-31"
+        },
+        "epistemic": "DERIVED"
+      }
+    ],
+    "modality": "DECLARED_RULE",
+    "action_raw": "se aplicarán por primera vez para los datos de 31 de marzo de 2026 para los esta",
+    "evidence_text": "e) Sin perjuicio de lo establecido en la disposición transitoria tercera para los estados FI 131 y FI 141, las modificaciones, relativas a los estados financieros reservados, en las normas 67 y 68 y en los anejos 4, 5 y 6 de la Circular 4/2017, de 27 de noviembre, introducidas por las letras j), k), m), n) y o), respectivamente, de la norma 1, se aplicarán por primera vez para los datos de 31 de marzo de 2026 para los estados de frecuencias mensual y trimestral, de 30 de junio de 2026 para los de frecuencia semestral y de 31 de diciembre de 2026 para los de frecuencia anual.",
+    "epistemic": "DERIVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:f:s1",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dfu",
+      "item": "f",
+      "sub": 1,
+      "node_span": [
+        210,
+        210
+      ],
+      "char_span": [
+        0,
+        353
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dfu:base:s1",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [
+      {
+        "effect": "FIRST_REFERENCE_DATE",
+        "date_value": "2026-06-30",
+        "date_raw": "30 de junio de 2026",
+        "condition_raw": null,
+        "condition_normalized": null,
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "dates": [
+      {
+        "raw": "30 de junio de 2026",
+        "iso": "2026-06-30",
+        "epistemic": "OBSERVED"
+      }
+    ],
+    "subjects": [
+      {
+        "raw": "punto 132 y el apartado IV, «Riesgo de crédito por razón de riesgo-país», del anejo 9",
+        "locator_key": "anejo:9.punto:132",
+        "rule_ref": false
+      },
+      {
+        "raw": "punto 132 y el apartado IV, «Riesgo de crédito por razón de riesgo-país», del anejo 9",
+        "locator_key": "anejo:9.apartado:IV",
+        "rule_ref": false
+      }
+    ],
+    "introducer_refs": [
+      "p/vii",
+      "p/viii"
+    ],
+    "conditions": [],
+    "modality": "DECLARED_RULE",
+    "action_raw": "se aplicarán con el 30 de junio de 2026 como primera fecha de referencia",
+    "evidence_text": "f) Las modificaciones en el punto 132 y el apartado IV, «Riesgo de crédito por razón de riesgo-país», del anejo 9, relativas a la cobertura por riesgo de crédito por razón de riesgo-país, introducidas por los numerales vii) y viii), respectivamente, de la letra p) de la norma 1, se aplicarán con el 30 de junio de 2026 como primera fecha de referencia.",
+    "epistemic": "OBSERVED"
+  },
+  {
+    "clause_id": "BOE-A-2025-26847:dfu:e:s1:carveout",
+    "declaring_instrument_id": "BOE-A-2025-26847",
+    "source_locator": {
+      "section": "dfu",
+      "item": "e",
+      "sub": 99,
+      "node_span": [
+        209,
+        209
+      ],
+      "char_span": [
+        3,
+        72
+      ]
+    },
+    "parent_clause_id": "BOE-A-2025-26847:dfu:e:s1",
+    "relation_to_parent": "EXCEPTION",
+    "temporal_effects": [],
+    "dates": [],
+    "subjects": [
+      {
+        "raw": "las normas 67",
+        "locator_key": "norma:67",
+        "rule_ref": false
+      },
+      {
+        "raw": "estados FI 131 y FI 141",
+        "locator_key": "estado:FI 131",
+        "rule_ref": true
+      },
+      {
+        "raw": "estados FI 131 y FI 141",
+        "locator_key": "estado:FI 141",
+        "rule_ref": true
+      }
+    ],
+    "introducer_refs": [],
+    "conditions": [
+      {
+        "raw": "Sin perjuicio de lo establecido en la disposición transitoria tercera",
+        "normalized": {
+          "cites_section": "dt3"
+        },
+        "epistemic": "DERIVED"
+      }
+    ],
+    "modality": "DECLARED_RULE",
+    "action_raw": "",
+    "evidence_text": "Sin perjuicio de lo establecido en la disposición transitoria tercera",
+    "epistemic": "OBSERVED"
+  }
+]
