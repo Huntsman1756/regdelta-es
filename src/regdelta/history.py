@@ -800,7 +800,8 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                     " (relation_id, kind, operation_kind, target_subject_id,"
                     " modifier_instrument_id, locator_raw, relation_raw,"
                     " before_representation_id, after_representation_id,"
-                    " publication_date, effective_date, declared_literals,"
+                    " publication_date, instrument_effective_date,"
+                    " declared_literals,"
                     " diff_levels, resolution, resolution_notes,"
                     " source_snapshot_ids, parser_name, parser_version)"
                     " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",

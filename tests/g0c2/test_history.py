@@ -23,7 +23,7 @@ Preregistered expectations (frozen before persistence implementation):
 * IMAGE representations never carry text_content;
 * UNANCHORED_DERIVED bindings are not silently promoted;
 * CORRECTION is not MODIFICATION; a correction without an applicability
-  date has effective_date NULL;
+  date has instrument_effective_date NULL;
 * no applicability clauses are produced.
 
 G0-C.2R additions (provenance + resolution semantics):
@@ -331,7 +331,7 @@ def test_unanchored_not_promoted(built):
 def test_correction_is_not_modification(built):
     conn, _ = built
     rows = conn.execute(
-        """SELECT m.kind, m.effective_date, i.fecha_vigencia
+        """SELECT m.kind, m.instrument_effective_date, i.fecha_vigencia
            FROM modification_relations m
            JOIN instruments i
              ON i.instrument_id = m.modifier_instrument_id
@@ -343,16 +343,20 @@ def test_correction_is_not_modification(built):
 
 def test_no_applicability_clauses(built):
     conn, _ = built
-    tables = {r[0] for r in conn.execute(
-        "SELECT name FROM sqlite_master WHERE type='table'")}
-    assert not any("applicab" in t or "vigencia_cond" in t for t in tables)
-    # every non-NULL effective_date equals the modifier's own fecha_vigencia
+    # G0-D: the applicability tables exist in the schema, but reconstruct
+    # alone never populates them — that is applicability.build's job
+    for t in ("applicability_clauses", "applicability_effects",
+              "applicability_targets"):
+        assert conn.execute(
+            f"SELECT COUNT(*) FROM {t}").fetchone()[0] == 0
+    # instrument_effective_date holds only the modifier's own general
+    # entry-into-force date; it is never a granular applicability answer
     bad = conn.execute(
         """SELECT COUNT(*) FROM modification_relations m
            JOIN instruments i
              ON i.instrument_id = m.modifier_instrument_id
-           WHERE m.effective_date IS NOT NULL
-             AND m.effective_date != i.fecha_vigencia""").fetchone()[0]
+           WHERE m.instrument_effective_date IS NOT NULL
+             AND m.instrument_effective_date != i.fecha_vigencia""").fetchone()[0]
     assert bad == 0
 
 

@@ -170,7 +170,7 @@ CREATE TABLE IF NOT EXISTS modification_relations (
   before_representation_id TEXT REFERENCES representations(representation_id),
   after_representation_id  TEXT REFERENCES representations(representation_id),
   publication_date       TEXT NOT NULL,
-  effective_date         TEXT,
+  instrument_effective_date TEXT,
   declared_literals      TEXT,
   diff_levels            TEXT NOT NULL,
   resolution             TEXT NOT NULL CHECK (resolution IN
@@ -185,6 +185,76 @@ CREATE INDEX IF NOT EXISTS idx_repr_subject ON representations(subject_id);
 CREATE INDEX IF NOT EXISTS idx_modrel_subject ON modification_relations(target_subject_id);
 CREATE INDEX IF NOT EXISTS idx_modrel_modifier ON modification_relations(modifier_instrument_id);
 CREATE INDEX IF NOT EXISTS idx_irel_other ON instrument_relations(other_boe_id);
+
+CREATE TABLE IF NOT EXISTS applicability_clauses (
+  clause_id               TEXT PRIMARY KEY CHECK (length(clause_id) = 64),
+  declaring_instrument_id TEXT NOT NULL REFERENCES instruments(instrument_id),
+  clause_key              TEXT NOT NULL,
+  parent_clause_id        TEXT REFERENCES applicability_clauses(clause_id),
+  relation_to_parent      TEXT CHECK (relation_to_parent IS NULL OR
+                          relation_to_parent IN
+                          ('PART_OF', 'EXCEPTION', 'ALTERNATIVE', 'QUALIFIER')),
+  modality                TEXT NOT NULL CHECK (modality IN
+                          ('DECLARED_RULE', 'OBLIGATION', 'OPTION',
+                           'ABSENCE_OF_OBLIGATION', 'NON_APPLICATION')),
+  subject_raw             TEXT,
+  condition_raw           TEXT,
+  condition_normalized    TEXT,
+  action_raw              TEXT,
+  evidence_text           TEXT NOT NULL,
+  evidence_locator        TEXT NOT NULL,
+  epistemic               TEXT NOT NULL CHECK (epistemic IN
+                          ('OBSERVED', 'DERIVED')),
+  source_snapshot_id      TEXT NOT NULL REFERENCES source_snapshots(snapshot_id),
+  parser_name             TEXT NOT NULL,
+  parser_version          TEXT NOT NULL,
+  UNIQUE (declaring_instrument_id, clause_key),
+  CHECK ((parent_clause_id IS NULL) = (relation_to_parent IS NULL))
+);
+
+CREATE TABLE IF NOT EXISTS applicability_effects (
+  effect_id            TEXT PRIMARY KEY CHECK (length(effect_id) = 64),
+  clause_id            TEXT NOT NULL REFERENCES applicability_clauses(clause_id),
+  temporal_effect      TEXT NOT NULL CHECK (temporal_effect IN
+                       ('INSTRUMENT_EFFECTIVE_FROM', 'APPLY_FROM',
+                        'FIRST_REFERENCE_DATE', 'LAST_REFERENCE_DATE',
+                        'RETROACTIVE_APPLICATION',
+                        'INITIAL_APPLICATION_DATE',
+                        'PROSPECTIVE_APPLICATION', 'SCOPE_PERIOD')),
+  date_value           TEXT,
+  period_raw           TEXT,
+  condition_raw        TEXT,
+  condition_normalized TEXT,
+  evidence_locator     TEXT NOT NULL,
+  epistemic            TEXT NOT NULL CHECK (epistemic IN
+                       ('OBSERVED', 'DERIVED')),
+  parser_name          TEXT NOT NULL,
+  parser_version       TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS applicability_targets (
+  target_id                TEXT PRIMARY KEY CHECK (length(target_id) = 64),
+  clause_id                TEXT NOT NULL REFERENCES applicability_clauses(clause_id),
+  target_kind              TEXT NOT NULL CHECK (target_kind IN
+                           ('INSTRUMENT', 'MODIFICATION_RELATION')),
+  target_instrument_id     TEXT REFERENCES instruments(instrument_id),
+  modification_relation_id TEXT REFERENCES modification_relations(relation_id),
+  binding_method           TEXT NOT NULL CHECK (binding_method IN
+                           ('EXPLICIT_LOCATOR', 'MARK_PATH',
+                            'DECLARED_FREQUENCY', 'INSTRUMENT_SCOPE')),
+  binding_evidence         TEXT NOT NULL,
+  source_snapshot_ids      TEXT NOT NULL,
+  epistemic                TEXT NOT NULL CHECK (epistemic IN
+                           ('OBSERVED', 'DERIVED')),
+  UNIQUE (clause_id, target_kind, target_instrument_id,
+          modification_relation_id, binding_method),
+  CHECK ((target_instrument_id IS NULL) <> (modification_relation_id IS NULL))
+);
+
+CREATE INDEX IF NOT EXISTS idx_aclause_parent ON applicability_clauses(parent_clause_id);
+CREATE INDEX IF NOT EXISTS idx_aeffect_clause ON applicability_effects(clause_id);
+CREATE INDEX IF NOT EXISTS idx_atarget_clause ON applicability_targets(clause_id);
+CREATE INDEX IF NOT EXISTS idx_atarget_rel ON applicability_targets(modification_relation_id);
 """
 
 
@@ -314,6 +384,28 @@ def _ensure_check_source_ids(conn: sqlite3.Connection) -> None:
     ))
 
 
+def _ensure_instrument_effective_date(conn: sqlite3.Connection) -> None:
+    """Rename ``effective_date`` → ``instrument_effective_date``.
+
+    The column always held the modifier instrument's general entry-into-
+    force date; the rename makes that explicit now that granular
+    applicability lives in the applicability_* tables. RENAME COLUMN
+    preserves rows, ids, FKs and indexes — no rebuild, no positional
+    SELECT *. Idempotent: a no-op once the new name exists.
+    """
+    cols = {r[1] for r in conn.execute(
+        "PRAGMA table_info(modification_relations)")}
+    if "effective_date" not in cols or "instrument_effective_date" in cols:
+        return
+    conn.execute("ALTER TABLE modification_relations"
+                 " RENAME COLUMN effective_date TO instrument_effective_date")
+    violations = conn.execute("PRAGMA foreign_key_check").fetchall()
+    if violations:
+        raise sqlite3.IntegrityError(
+            "foreign_key_check failed after instrument_effective_date"
+            f" rename: {violations[:5]}")
+
+
 def connect(db_path: Path) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.execute("PRAGMA foreign_keys = ON")
@@ -322,4 +414,5 @@ def connect(db_path: Path) -> sqlite3.Connection:
     _ensure_parser_provenance_columns(conn)
     _ensure_source_ids(conn)
     _ensure_check_source_ids(conn)
+    _ensure_instrument_effective_date(conn)
     return conn
