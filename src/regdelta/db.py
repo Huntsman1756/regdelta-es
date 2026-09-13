@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS source_snapshots (
 
 CREATE TABLE IF NOT EXISTS source_checks (
   check_id      TEXT PRIMARY KEY CHECK (length(check_id) = 64),
-  source_id     TEXT NOT NULL CHECK (source_id IN ('boe_sumario', 'bde_consultas')),
+  source_id     TEXT NOT NULL CHECK (source_id IN ('boe_sumario', 'bde_consultas', 'boe_diario', 'boe_doc', 'boe_pdf', 'boe_imagen')),
   source_url    TEXT NOT NULL,
   checked_at    TEXT NOT NULL,
   status        TEXT NOT NULL CHECK (status IN ('OK', 'PARSE_INVALID', 'FETCH_ERROR')),
@@ -204,51 +204,114 @@ def _ensure_parser_provenance_columns(conn: sqlite3.Connection) -> None:
     )
 
 
-def _ensure_source_ids(conn: sqlite3.Connection) -> None:
-    """Rebuild source_snapshots if its CHECK predates the G0-C source kinds.
+def _rebuild_table(conn: sqlite3.Connection, table: str, cols: str,
+                   create_sql: str,
+                   post_sql: tuple[str, ...] = ()) -> None:
+    """Rebuild ``table`` in place preserving every row and every inbound
+    foreign key.
 
-    SQLite cannot alter a CHECK constraint; the only in-place evolution is a
-    table rebuild preserving every row.
+    SQLite cannot alter a CHECK constraint; the only in-place evolution is
+    create-new + copy + drop + rename. RENAME TO rewrites REFERENCES
+    clauses pointing at the renamed table, so the *old* table is dropped
+    under its own name instead of being renamed away (renaming it would
+    permanently retarget child FKs at ``<table>_old``). Columns are copied
+    by name — column order differs on databases that grew columns through
+    ALTER TABLE, so ``SELECT *`` would corrupt rows. ``executescript``
+    must NOT be used inside the transaction: it issues an implicit COMMIT
+    first, breaking the surrounding BEGIN/ROLLBACK handling.
     """
-    row = conn.execute(
-        "SELECT sql FROM sqlite_master WHERE type='table' AND name='source_snapshots'"
-    ).fetchone()
-    if row is None or "boe_diario" in (row[0] or ""):
-        return
-    # Prevent RENAME from rewriting FK references in child tables.
-    conn.execute("PRAGMA legacy_alter_table = ON")
+    new_table = f"{table}__new"
+    new_sql = create_sql.replace(
+        f"CREATE TABLE {table} ", f"CREATE TABLE {new_table} ", 1)
+    assert new_sql != create_sql
+    conn.execute("PRAGMA foreign_keys = OFF")
     conn.execute("BEGIN IMMEDIATE")
     try:
-        conn.execute("ALTER TABLE source_snapshots RENAME TO source_snapshots_old")
-        conn.executescript(
-            """
-            CREATE TABLE source_snapshots (
-              snapshot_id       TEXT PRIMARY KEY CHECK (length(snapshot_id) = 64),
-              source_id         TEXT NOT NULL CHECK (source_id IN ('boe_sumario', 'bde_consultas', 'boe_diario', 'boe_doc', 'boe_pdf', 'boe_imagen')),
-              source_url        TEXT NOT NULL,
-              blob_sha256       TEXT NOT NULL REFERENCES source_blobs(sha256),
-              source_date       TEXT,
-              source_updated_at TEXT,
-              parse_status      TEXT NOT NULL CHECK (parse_status IN ('COMPLETE', 'INVALID_STRUCTURE')),
-              parse_error       TEXT,
-              parser_name       TEXT NOT NULL,
-              parser_version    TEXT NOT NULL,
-              has_anomalies     INTEGER NOT NULL DEFAULT 0 CHECK (has_anomalies IN (0, 1)),
-              first_checked_at  TEXT NOT NULL,
-              UNIQUE (source_id, source_url, blob_sha256)
-            );
-            """
-        )
+        conn.execute(new_sql)
         conn.execute(
-            "INSERT INTO source_snapshots SELECT * FROM source_snapshots_old"
-        )
-        conn.execute("DROP TABLE source_snapshots_old")
+            f"INSERT INTO {new_table} ({cols}) SELECT {cols} FROM {table}")
+        conn.execute(f"DROP TABLE {table}")
+        conn.execute(f"ALTER TABLE {new_table} RENAME TO {table}")
         conn.execute("COMMIT")
     except BaseException:
         conn.execute("ROLLBACK")
         raise
     finally:
-        conn.execute("PRAGMA legacy_alter_table = OFF")
+        conn.execute("PRAGMA foreign_keys = ON")
+    violations = conn.execute("PRAGMA foreign_key_check").fetchall()
+    if violations:
+        raise sqlite3.IntegrityError(
+            f"foreign_key_check failed after rebuilding {table}:"
+            f" {violations[:5]}")
+    for stmt in post_sql:
+        conn.execute(stmt)
+
+
+def _ensure_source_ids(conn: sqlite3.Connection) -> None:
+    """Rebuild source_snapshots if its CHECK predates the G0-C source kinds."""
+    row = conn.execute(
+        "SELECT sql FROM sqlite_master WHERE type='table' AND name='source_snapshots'"
+    ).fetchone()
+    if row is None or "boe_diario" in (row[0] or ""):
+        return
+    _rebuild_table(conn, "source_snapshots",
+                   "snapshot_id, source_id, source_url, blob_sha256,"
+                   " source_date, source_updated_at, parse_status,"
+                   " parse_error, parser_name, parser_version,"
+                   " has_anomalies, first_checked_at",
+                   """
+        CREATE TABLE source_snapshots (
+          snapshot_id       TEXT PRIMARY KEY CHECK (length(snapshot_id) = 64),
+          source_id         TEXT NOT NULL CHECK (source_id IN ('boe_sumario', 'bde_consultas', 'boe_diario', 'boe_doc', 'boe_pdf', 'boe_imagen')),
+          source_url        TEXT NOT NULL,
+          blob_sha256       TEXT NOT NULL REFERENCES source_blobs(sha256),
+          source_date       TEXT,
+          source_updated_at TEXT,
+          parse_status      TEXT NOT NULL CHECK (parse_status IN ('COMPLETE', 'INVALID_STRUCTURE')),
+          parse_error       TEXT,
+          parser_name       TEXT NOT NULL,
+          parser_version    TEXT NOT NULL,
+          has_anomalies     INTEGER NOT NULL DEFAULT 0 CHECK (has_anomalies IN (0, 1)),
+          first_checked_at  TEXT NOT NULL,
+          UNIQUE (source_id, source_url, blob_sha256)
+        )""")
+
+
+def _ensure_check_source_ids(conn: sqlite3.Connection) -> None:
+    """Rebuild source_checks if its CHECK predates the G0-C source kinds.
+
+    G0-C.2R: every runtime source produces checks, not only the two
+    watcher sources. Rows are preserved; only the constraint widens.
+    """
+    row = conn.execute(
+        "SELECT sql FROM sqlite_master WHERE type='table' AND name='source_checks'"
+    ).fetchone()
+    if row is None or "boe_diario" in (row[0] or ""):
+        return
+    _rebuild_table(conn, "source_checks",
+                   "check_id, source_id, source_url, checked_at, status,"
+                   " http_status, media_type, snapshot_id, error_class,"
+                   " error_message",
+                   """
+        CREATE TABLE source_checks (
+          check_id      TEXT PRIMARY KEY CHECK (length(check_id) = 64),
+          source_id     TEXT NOT NULL CHECK (source_id IN ('boe_sumario', 'bde_consultas', 'boe_diario', 'boe_doc', 'boe_pdf', 'boe_imagen')),
+          source_url    TEXT NOT NULL,
+          checked_at    TEXT NOT NULL,
+          status        TEXT NOT NULL CHECK (status IN ('OK', 'PARSE_INVALID', 'FETCH_ERROR')),
+          http_status   INTEGER,
+          media_type    TEXT,
+          snapshot_id   TEXT REFERENCES source_snapshots(snapshot_id),
+          error_class   TEXT,
+          error_message TEXT,
+          CHECK (
+            (status IN ('OK', 'PARSE_INVALID') AND snapshot_id IS NOT NULL)
+            OR (status = 'FETCH_ERROR' AND snapshot_id IS NULL)
+          )
+        )""", post_sql=(
+        "CREATE INDEX IF NOT EXISTS idx_checks_source_time"
+        " ON source_checks(source_id, checked_at)",
+    ))
 
 
 def connect(db_path: Path) -> sqlite3.Connection:
@@ -258,4 +321,5 @@ def connect(db_path: Path) -> sqlite3.Connection:
     conn.executescript(SCHEMA)
     _ensure_parser_provenance_columns(conn)
     _ensure_source_ids(conn)
+    _ensure_check_source_ids(conn)
     return conn

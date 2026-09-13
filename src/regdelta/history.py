@@ -17,8 +17,10 @@ import json
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
+from uuid import uuid4
 
 from . import annexmap, operations
+from .http import LIVE_FETCH
 from .rawstore import store_blob
 from .sources import boe_diario, boe_doc, boe_pdf
 from .util import canonical_date, sha256_hex, sha256_hex_text
@@ -36,9 +38,11 @@ _ANNEX_CODE_HEADER_RE = re.compile(
     r"^(FI|FC|PI|PC|PA|UEM|AVE)\s+(\d[\d.\-]*)")
 
 ANOMALY_FETCH = "FETCH_ERROR"
+ANOMALY_PARSE = "PARSE_INVALID"
 ANOMALY_ANCHOR = "ANCHOR_MISMATCH"
 ANOMALY_UNBOUND = "UNBOUND_SUBJECT"
 ANOMALY_ANNEX = "ANNEX_REFERENCE_UNRESOLVED"
+ANOMALY_OUT_OF_TARGET = "OUT_OF_TARGET_OPS"
 
 
 # ---------------------------------------------------------------------------
@@ -86,7 +90,15 @@ class Artifact:
 
 
 class Acquirer:
-    """url -> (snapshot, blob, body) via fetch_fn + rawstore."""
+    """url -> (snapshot, blob, body) via fetch_fn + rawstore.
+
+    A fetch marked ``via=LIVE_FETCH`` is a real HTTP observation and also
+    records a ``source_checks`` row (same blob/snapshot may yield many
+    checks — checks are events, never deduplicated). A fetch marked
+    ``via=EVIDENCE_IMPORT`` replays captured bytes: it produces the same
+    blob + snapshot provenance but no check, since no new observation
+    happened.
+    """
 
     def __init__(self, conn, data_dir: Path, fetch_fn):
         self.conn = conn
@@ -95,14 +107,31 @@ class Acquirer:
         self.cache: dict[str, Artifact | None] = {}
         self.errors: list[dict] = []
 
+    def _check(self, source_id: str, url: str, checked_at: str,
+               status: str, http_status, media_type, snapshot_id,
+               error_class, error_message) -> None:
+        check_id = sha256_hex_text(
+            f"check|{source_id}|{url}|{checked_at}|{uuid4().hex}")
+        self.conn.execute(
+            "INSERT INTO source_checks (check_id, source_id, source_url,"
+            " checked_at, status, http_status, media_type, snapshot_id,"
+            " error_class, error_message) VALUES (?,?,?,?,?,?,?,?,?,?)",
+            (check_id, source_id, url, checked_at, status, http_status,
+             media_type, snapshot_id, error_class, error_message))
+
     def get(self, source_id: str, url: str, accept: str,
             parser_name: str, parser_version: str,
             checked_at: str) -> Artifact | None:
         if url in self.cache:
             return self.cache[url]
         result = self.fetch_fn(url, accept)
+        live = result.via == LIVE_FETCH
         if result.body is None or result.error_class or (
                 result.http_status is not None and result.http_status != 200):
+            if live:
+                self._check(source_id, url, checked_at, "FETCH_ERROR",
+                            result.http_status, result.media_type, None,
+                            result.error_class, result.error_message)
             self.errors.append({"url": url, "error": result.error_message,
                                 "class": result.error_class})
             self.cache[url] = None
@@ -120,6 +149,10 @@ class Acquirer:
             " VALUES (?,?,?,?,?,NULL,'COMPLETE',NULL,?,?,0,?)",
             (snap, source_id, url, sha, None,
              parser_name, parser_version, checked_at))
+        if live:
+            self._check(source_id, url, checked_at, "OK",
+                        result.http_status, result.media_type, snap,
+                        None, None)
         art = Artifact(snap, sha, result.body)
         self.cache[url] = art
         return art
@@ -259,6 +292,43 @@ def structured_annex(doc: boe_diario.DiarioDoc) -> dict[str, tuple[int, int]]:
     return regions
 
 
+def _resolution(op_kind: str, before_id: str | None, after_id: str | None,
+                literals) -> tuple[str, str | None]:
+    """RESOLVED only when the evidence this operation class requires exists.
+
+    ``PARTIAL`` means a required side is missing while some evidence was
+    produced; ``UNRESOLVED`` means none. Legitimate absence is not partial:
+    ADD creates the after-side (before NULL by definition), DELETE removes
+    it (after NULL by definition). For MODIFY, the officially declared
+    literal pair (donde dice/debe decir) counts as after-evidence when the
+    modifier supplies no new structured representation.
+    """
+    has_lit = bool(literals)
+    missing: list[str] = []
+    if op_kind == "ADD":
+        if after_id is None:
+            missing.append("after_representation")
+    elif op_kind == "DELETE":
+        if before_id is None:
+            missing.append("before_representation")
+    elif op_kind == "SUBSTITUTE":
+        if before_id is None:
+            missing.append("before_representation")
+        if after_id is None:
+            missing.append("after_representation")
+    else:  # MODIFY, CORRECT, or anything else: both sides required
+        if before_id is None:
+            missing.append("before_representation")
+        if after_id is None and not has_lit:
+            missing.append("after_representation_or_literals")
+    if not missing:
+        return "RESOLVED", None
+    notes = "missing " + ", ".join(missing)
+    if before_id or after_id or has_lit:
+        return "PARTIAL", notes
+    return "UNRESOLVED", notes
+
+
 # ---------------------------------------------------------------------------
 # reconstruction
 # ---------------------------------------------------------------------------
@@ -271,9 +341,50 @@ class _Ctx:
     checked_at: str
     instruments: dict = field(default_factory=dict)
     annex_maps: dict = field(default_factory=dict)
+    annex_pdf_snap: dict = field(default_factory=dict)
     doc_images: dict = field(default_factory=dict)
     pending_anchors: dict = field(default_factory=dict)
+    # {"kind", "snapshot_id" (nullable), "detail" (dict)} — persisted to
+    # the anomalies table at the end of the run
     anomalies: list = field(default_factory=list)
+
+
+def _anomaly(ctx: _Ctx, kind: str, snapshot_id: str | None,
+             detail: dict) -> None:
+    ctx.anomalies.append(
+        {"kind": kind, "snapshot_id": snapshot_id, "detail": detail})
+
+
+def _persist_anomalies(ctx: _Ctx) -> None:
+    """Idempotent: the anomaly id derives from kind+snapshot+detail, so a
+    deterministic rerun re-encounters the same anomalies and inserts
+    nothing new."""
+    for a in ctx.anomalies:
+        aid = sha256_hex_text(
+            f"anomaly|{a['kind']}|{a['snapshot_id'] or '-'}"
+            f"|{_canonical_json(a['detail'])}")
+        ctx.conn.execute(
+            "INSERT OR IGNORE INTO anomalies (anomaly_id, kind, snapshot_id,"
+            " detail, detected_at) VALUES (?,?,?,?,?)",
+            (aid, a["kind"], a["snapshot_id"],
+             _canonical_json(a["detail"]), ctx.checked_at))
+
+
+def _record_parse(ctx: _Ctx, snapshot_id: str, parse_status: str,
+                  parse_error: str | None) -> None:
+    """Snapshots are stored at fetch time as COMPLETE; a structured parse
+    that fails afterwards corrects the row and any live check recorded for
+    this observation."""
+    if parse_status == boe_diario.COMPLETE:
+        return
+    ctx.conn.execute(
+        "UPDATE source_snapshots SET parse_status=?, parse_error=?"
+        " WHERE snapshot_id=?",
+        (parse_status, parse_error, snapshot_id))
+    ctx.conn.execute(
+        "UPDATE source_checks SET status='PARSE_INVALID'"
+        " WHERE snapshot_id=? AND checked_at=? AND status='OK'",
+        (snapshot_id, ctx.checked_at))
 
 
 def _upsert_instrument(ctx: _Ctx, boe_id: str, titulo: str,
@@ -427,6 +538,7 @@ def _target_annex_map(ctx: _Ctx, boe_id: str,
         return None
     images = boe_doc.parse_doc_images(doc_art.body)
     ctx.doc_images[boe_id] = images
+    ctx.annex_pdf_snap[boe_id] = pdf_art.snapshot_id
     texts = boe_pdf.PdfTextLayer(pdf_art.body).page_texts()
     start = int(doc.metadata.get("pagina_inicial") or 0)
     amap = annexmap.build_annex_map(texts, start, len(images),
@@ -448,6 +560,8 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
         return {"error": "target xml unavailable",
                     "fetch_errors": ctx.acquirer.errors}
     target_res = boe_diario.parse_diario(xml_art.body)
+    _record_parse(ctx, xml_art.snapshot_id, target_res.parse_status,
+                  target_res.parse_error)
     if target_res.parse_status != boe_diario.COMPLETE or not target_res.doc:
         return {"error": f"target xml parse: {target_res.parse_error}"}
     target = target_res.doc
@@ -476,16 +590,16 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                                "application/xml", boe_diario.PARSER_NAME,
                                boe_diario.PARSER_VERSION, checked_at)
         if art is None:
-            ctx.anomalies.append(
-                {"kind": ANOMALY_FETCH, "detail": {"modifier": boe_id}})
+            _anomaly(ctx, ANOMALY_FETCH, None, {"modifier": boe_id})
             parsed_mods.append({"boe_id": boe_id, "kind": kind, "ref": ref,
                                 "doc": None, "ops": [], "snapshot": None})
             continue
         mres = boe_diario.parse_diario(art.body)
+        _record_parse(ctx, art.snapshot_id, mres.parse_status,
+                      mres.parse_error)
         if mres.parse_status != boe_diario.COMPLETE or not mres.doc:
-            ctx.anomalies.append({
-                "kind": ANOMALY_FETCH,
-                "detail": {"modifier": boe_id, "parse": mres.parse_error}})
+            _anomaly(ctx, ANOMALY_PARSE, art.snapshot_id,
+                     {"modifier": boe_id, "parse": mres.parse_error})
             parsed_mods.append({"boe_id": boe_id, "kind": kind, "ref": ref,
                                 "doc": None, "ops": [], "snapshot": None})
             continue
@@ -505,10 +619,9 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
             tref = target_ref
         result = operations.parse_operations(mdoc, tref)
         if result.out_of_target_ops:
-            ctx.anomalies.append({
-                "kind": "OUT_OF_TARGET_OPS",
-                "detail": {"modifier": boe_id,
-                           "count": result.out_of_target_ops}})
+            _anomaly(ctx, ANOMALY_OUT_OF_TARGET, art.snapshot_id,
+                     {"modifier": boe_id,
+                      "count": result.out_of_target_ops})
         parsed_mods.append({"boe_id": boe_id, "kind": kind, "ref": ref,
                             "doc": mdoc, "ops": result.operations,
                             "snapshot": art.snapshot_id,
@@ -531,7 +644,8 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
     if amap:
         for a in amap.anchors:
             if not a["match"]:
-                ctx.anomalies.append({"kind": ANOMALY_ANCHOR, "detail": a})
+                _anomaly(ctx, ANOMALY_ANCHOR,
+                         ctx.annex_pdf_snap.get(target_boe_id), a)
 
     # --- relations -----------------------------------------------------------
     ordered = sorted(
@@ -582,10 +696,10 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                                  1 for a in amap.anchors if a["match"])})
                         before_kind = "IMAGE" if before_id else None
                         if before_id is None:
-                            ctx.anomalies.append({
-                                "kind": ANOMALY_UNBOUND,
-                                "detail": {"subject": key,
-                                           "reason": "image fetch failed"}})
+                            _anomaly(ctx, ANOMALY_UNBOUND, None,
+                                     {"subject": key, "modifier": mboe,
+                                      "operation_kind": op_kind,
+                                      "reason": "image fetch failed"})
                     else:
                         span = text_region(target, key)
                         if span is not None:
@@ -632,10 +746,10 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                                  "anchors": 0})
                             after_kind = "IMAGE" if after_id else None
                     if after_id is None:
-                        ctx.anomalies.append({
-                            "kind": ANOMALY_ANNEX,
-                            "detail": {"subject": key, "modifier": mboe,
-                                       "clause": op.clause_text[:200]}})
+                        _anomaly(ctx, ANOMALY_ANNEX, pm["snapshot"],
+                                 {"subject": key, "modifier": mboe,
+                                  "operation_kind": op_kind,
+                                  "clause": op.clause_text[:200]})
                 else:
                     s, e = op.content_span
                     if e > s:
@@ -664,20 +778,17 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                         and after_kind in ("TEXT", "TABLE")):
                     levels.append("SEMANTIC_DIFF_NOT_AVAILABLE")
 
-                if before_id and (after_id or op_kind == "DELETE"
-                                  or literals):
-                    resolution = "RESOLVED"
-                elif before_id or after_id:
-                    resolution = "PARTIAL"
-                else:
-                    resolution = "UNRESOLVED"
-                    ctx.anomalies.append({
-                        "kind": ANOMALY_UNBOUND,
-                        "detail": {"subject": key, "modifier": mboe,
-                                   "clause": op.clause_text[:200]}})
-
                 rid = modification_relation_id(
                     mboe, key, op.clause_text, before_id, after_id)
+                resolution, resolution_notes = _resolution(
+                    op_kind, before_id, after_id, literals)
+                if resolution == "UNRESOLVED":
+                    _anomaly(ctx, ANOMALY_UNBOUND, pm["snapshot"],
+                             {"subject": key, "modifier": mboe,
+                              "operation_kind": op_kind,
+                              "relation_id": rid,
+                              "clause": op.clause_text[:200]})
+
                 conn.execute(
                     "INSERT OR IGNORE INTO modification_relations"
                     " (relation_id, kind, operation_kind, target_subject_id,"
@@ -694,7 +805,8 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                      json.dumps(literals, ensure_ascii=False)
                      if literals else None,
                      json.dumps(levels), resolution,
-                     None, json.dumps(snaps), PARSER_NAME, PARSER_VERSION))
+                     resolution_notes,
+                     json.dumps(snaps), PARSER_NAME, PARSER_VERSION))
                 stats["relations"] += 1
 
                 # ----- chain update -----------------------------------------
@@ -706,6 +818,7 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                 # representation standing (the declared change is recorded
                 # in the relation itself)
 
+    _persist_anomalies(ctx)
     stats["representations"] = conn.execute(
         "SELECT COUNT(*) FROM representations").fetchone()[0]
     stats["subjects"] = conn.execute(
@@ -714,7 +827,7 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
         "SELECT COUNT(*) FROM instruments").fetchone()[0]
     stats["instrument_relations"] = conn.execute(
         "SELECT COUNT(*) FROM instrument_relations").fetchone()[0]
-    stats["anomalies"] = len(ctx.anomalies)
+    stats["anomaly_count"] = len(ctx.anomalies)
     return {
         "target": target_boe_id,
         "modifiers": [{"boe_id": b, "kind": k} for b, k, _ in modifiers],

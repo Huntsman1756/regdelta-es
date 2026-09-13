@@ -25,6 +25,18 @@ Preregistered expectations (frozen before persistence implementation):
 * CORRECTION is not MODIFICATION; a correction without an applicability
   date has effective_date NULL;
 * no applicability clauses are produced.
+
+G0-C.2R additions (provenance + resolution semantics):
+
+* a fetch marked LIVE_FETCH records a source_checks row for every runtime
+  source; two live fetches of the same bytes -> +0 blobs, +0 snapshots,
+  +2 checks;
+* a fetch marked EVIDENCE_IMPORT never fabricates a check;
+* resolution is operation-aware: ADD needs the after side, DELETE the
+  before side, SUBSTITUTE both, MODIFY both or declared literals;
+  PARTIAL means required evidence is actually missing;
+* reconstruction anomalies persist to the anomalies table, idempotently,
+  with resolvable snapshot/relation references.
 """
 
 from __future__ import annotations
@@ -40,7 +52,8 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
 from regdelta import db as dbm, history  # noqa: E402
-from regdelta.http import FetchResult  # noqa: E402
+from regdelta.http import (  # noqa: E402
+    EVIDENCE_IMPORT, LIVE_FETCH, FetchResult)
 
 TARGET = "BOE-A-2017-14334"
 MANIFESTS = [
@@ -59,9 +72,23 @@ def _evidence_fetch(url: str, accept: str) -> FetchResult:
     entry = _BY_URL.get(url)
     if entry is None:
         return FetchResult(url, None, None, None, "MISSING",
+                           "url not in captured evidence",
+                           via=EVIDENCE_IMPORT)
+    data = (ROOT / entry["path"]).read_bytes()
+    return FetchResult(url, 200, "application/octet-stream", data, None,
+                       None, via=EVIDENCE_IMPORT)
+
+
+def _live_fetch(url: str, accept: str) -> FetchResult:
+    """Same captured bytes, but declared as a live HTTP observation: this
+    is how production fetches behave, and it must produce source_checks."""
+    entry = _BY_URL.get(url)
+    if entry is None:
+        return FetchResult(url, None, None, None, "MISSING",
                            "url not in captured evidence")
     data = (ROOT / entry["path"]).read_bytes()
-    return FetchResult(url, 200, "application/octet-stream", data, None, None)
+    return FetchResult(url, 200, "application/octet-stream", data, None,
+                       None, via=LIVE_FETCH)
 
 
 _BY_URL: dict[str, dict] = {}
@@ -233,7 +260,7 @@ def test_deterministic_rerun(built):
         t: conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
         for t in ("instruments", "subjects", "representations",
                   "instrument_relations", "modification_relations",
-                  "source_blobs", "source_snapshots")
+                  "source_blobs", "source_snapshots", "anomalies")
     }
     ids = {
         t: {r[0] for r in conn.execute(f"SELECT {c} FROM {t}")}
@@ -353,3 +380,163 @@ def test_report_summary(built):
     assert report["anchors"] >= 10
     assert report["relations"] > 0
     assert report["fetch_errors"] == []
+
+
+# ---------------------------------------------------------------------------
+# G0-C.2R: blob != snapshot != check for every runtime source
+# ---------------------------------------------------------------------------
+
+
+def test_live_fetch_creates_source_checks(tmp_path):
+    conn = dbm.connect(tmp_path / "r.sqlite")
+    history.reconstruct(conn, tmp_path, TARGET, _live_fetch,
+                        checked_at="2026-01-01T00:00:00Z")
+    conn.commit()
+    by_src = dict(conn.execute(
+        "SELECT source_id, COUNT(*) FROM source_checks GROUP BY 1"))
+    for src in ("boe_diario", "boe_doc", "boe_pdf", "boe_imagen"):
+        assert by_src.get(src, 0) > 0, src
+    # every non-error check points at an existing snapshot
+    assert conn.execute(
+        """SELECT COUNT(*) FROM source_checks c
+           LEFT JOIN source_snapshots s ON s.snapshot_id = c.snapshot_id
+           WHERE c.status != 'FETCH_ERROR' AND s.snapshot_id IS NULL"""
+    ).fetchone()[0] == 0
+    conn.close()
+
+
+def test_same_bytes_two_live_fetches_two_checks(tmp_path):
+    conn = dbm.connect(tmp_path / "r.sqlite")
+    history.reconstruct(conn, tmp_path, TARGET, _live_fetch,
+                        checked_at="2026-01-01T00:00:00Z")
+    conn.commit()
+    n = {t: conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
+         for t in ("source_blobs", "source_snapshots", "source_checks")}
+    history.reconstruct(conn, tmp_path, TARGET, _live_fetch,
+                        checked_at="2026-01-02T00:00:00Z")
+    conn.commit()
+    assert conn.execute("SELECT COUNT(*) FROM source_blobs").fetchone()[0] \
+        == n["source_blobs"]
+    assert conn.execute("SELECT COUNT(*) FROM source_snapshots"
+                        ).fetchone()[0] == n["source_snapshots"]
+    assert conn.execute("SELECT COUNT(*) FROM source_checks"
+                        ).fetchone()[0] == 2 * n["source_checks"]
+    conn.close()
+
+
+def test_evidence_import_fabricates_no_checks(built):
+    conn, _ = built
+    assert conn.execute(
+        "SELECT COUNT(*) FROM source_checks").fetchone()[0] == 0
+
+
+# ---------------------------------------------------------------------------
+# G0-C.2R: resolution is operation-aware
+# ---------------------------------------------------------------------------
+
+
+def _required_met(op_kind, before_id, after_id, literals):
+    has_lit = bool(literals)
+    if op_kind == "ADD":
+        return after_id is not None
+    if op_kind == "DELETE":
+        return before_id is not None
+    if op_kind == "SUBSTITUTE":
+        return before_id is not None and after_id is not None
+    return before_id is not None and (after_id is not None or has_lit)
+
+
+def test_add_with_proven_after_is_resolved(built):
+    conn, _ = built
+    rows = conn.execute(
+        """SELECT COUNT(*) FROM modification_relations
+           WHERE operation_kind='ADD' AND after_representation_id IS NOT NULL
+             AND resolution != 'RESOLVED'""").fetchone()[0]
+    assert rows == 0
+
+
+def test_delete_with_proven_before_is_resolved(built):
+    conn, _ = built
+    rows = conn.execute(
+        """SELECT COUNT(*) FROM modification_relations
+           WHERE operation_kind='DELETE'
+             AND before_representation_id IS NOT NULL
+             AND resolution != 'RESOLVED'""").fetchone()[0]
+    assert rows == 0
+
+
+def test_substitute_missing_side_not_resolved(built):
+    conn, _ = built
+    rows = conn.execute(
+        """SELECT COUNT(*) FROM modification_relations
+           WHERE operation_kind='SUBSTITUTE' AND resolution='RESOLVED'
+             AND (before_representation_id IS NULL
+                  OR after_representation_id IS NULL)""").fetchone()[0]
+    assert rows == 0
+
+
+def test_partial_means_required_evidence_missing(built):
+    conn, _ = built
+    for r in conn.execute(
+            """SELECT operation_kind, before_representation_id,
+                      after_representation_id, declared_literals, resolution,
+                      resolution_notes
+               FROM modification_relations"""):
+        req = _required_met(r[0], r[1], r[2], json.loads(r[3] or "null"))
+        assert (r[4] == "RESOLVED") == req, tuple(r)
+        if r[4] == "PARTIAL":
+            # some evidence exists but a required side is missing
+            assert r[1] is not None or r[2] is not None or r[3] is not None
+        if r[4] != "RESOLVED":
+            assert r[5] is not None and "missing" in r[5]
+
+
+def test_legitimate_absence_not_partial(built):
+    conn, _ = built
+    # an ADD whose before is NULL by definition is not 'incomplete'
+    rows = conn.execute(
+        """SELECT resolution FROM modification_relations
+           WHERE operation_kind='ADD'
+             AND before_representation_id IS NULL
+             AND after_representation_id IS NOT NULL""").fetchall()
+    assert rows and all(r[0] == "RESOLVED" for r in rows)
+
+
+# ---------------------------------------------------------------------------
+# G0-C.2R: anomalies persist
+# ---------------------------------------------------------------------------
+
+
+def test_anomalies_persisted(built):
+    conn, report = built
+    n = conn.execute("SELECT COUNT(*) FROM anomalies").fetchone()[0]
+    assert n > 0
+    assert n == len(report["anomalies"])
+    kinds = dict(conn.execute(
+        "SELECT kind, COUNT(*) FROM anomalies GROUP BY 1"))
+    assert kinds  # distribution is reported, not empty
+
+
+def test_anomaly_persistence_idempotent(built):
+    conn, _ = built
+    n0 = conn.execute("SELECT COUNT(*) FROM anomalies").fetchone()[0]
+    data_dir = Path(conn.execute("PRAGMA database_list").fetchone()[2]).parent
+    history.reconstruct(conn, data_dir, TARGET, _evidence_fetch)
+    conn.commit()
+    assert conn.execute("SELECT COUNT(*) FROM anomalies"
+                        ).fetchone()[0] == n0
+
+
+def test_anomaly_refs_resolve(built):
+    conn, _ = built
+    for aid, snap, detail in conn.execute(
+            "SELECT anomaly_id, snapshot_id, detail FROM anomalies"):
+        if snap is not None:
+            assert conn.execute(
+                "SELECT 1 FROM source_snapshots WHERE snapshot_id=?",
+                (snap,)).fetchone() is not None, aid
+        d = json.loads(detail)
+        if "relation_id" in d:
+            assert conn.execute(
+                "SELECT 1 FROM modification_relations WHERE relation_id=?",
+                (d["relation_id"],)).fetchone() is not None, aid

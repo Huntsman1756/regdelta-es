@@ -20,7 +20,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
 
 from regdelta import db as dbm, history
-from regdelta.http import FetchResult, http_fetch
+from regdelta.http import EVIDENCE_IMPORT, FetchResult, http_fetch
 
 ROOT = Path(__file__).resolve().parents[2]
 G0C2 = ROOT / "evidence" / "g0c2"
@@ -58,12 +58,12 @@ def main() -> int:
         if url in prior:
             name, e, data = prior[url]
             return FetchResult(url, 200, "application/octet-stream", data,
-                               None, None)
+                               None, None, via=EVIDENCE_IMPORT)
         if url in by_url_new:
             e = new_entries[by_url_new[url]]
             data = (RAW / Path(e["path"]).name).read_bytes()
             return FetchResult(url, 200, "application/octet-stream", data,
-                               None, None)
+                               None, None, via=EVIDENCE_IMPORT)
         res = http_fetch(url, accept)
         if res.body is None:
             print(f"  FETCH FAIL {url}: {res.error_message}", flush=True)

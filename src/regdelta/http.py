@@ -12,6 +12,12 @@ USER_AGENT = (
 TIMEOUT_SECONDS = 60
 RETRIES_ON_NETWORK_ERROR = 1
 
+# Provenance of the observation itself. A source_check row records a real
+# HTTP observation; replayed evidence bytes are provenance, not a new
+# observation, and must never fabricate a check.
+LIVE_FETCH = "LIVE_FETCH"
+EVIDENCE_IMPORT = "EVIDENCE_IMPORT"
+
 
 @dataclass
 class FetchResult:
@@ -21,6 +27,7 @@ class FetchResult:
     body: bytes | None
     error_class: str | None
     error_message: str | None
+    via: str = LIVE_FETCH
 
 
 def http_fetch(url: str, accept: str = "*/*") -> FetchResult:
