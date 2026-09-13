@@ -1,0 +1,4201 @@
+{
+  "schema": "regdelta.g0c1.annex-map/v1",
+  "target": "BOE-A-2017-14334",
+  "method": {
+    "page_detection": "DERIVED: first estado code in the PDF embedded text layer (official BOE OCR text, no OCR by us), first 600 chars/page",
+    "page_binding": "DERIVED-anchored: see image-inventory.json",
+    "anchors": "OBSERVED: correction BOE-A-2018-2041 cites (BOE page, estado code) literally; every cited page is cross-checked against the code detected in the PDF text layer"
+  },
+  "estado_count": 99,
+  "estados": {
+    "PI 1": {
+      "page_span": [
+        119717,
+        119719
+      ],
+      "img_alts": [
+        2,
+        3,
+        4
+      ],
+      "codes_seen": [
+        "PI 1",
+        "PI 1-2",
+        "PI 1-3"
+      ]
+    },
+    "PI 2": {
+      "page_span": [
+        119720,
+        119720
+      ],
+      "img_alts": [
+        5
+      ],
+      "codes_seen": [
+        "PI 2"
+      ]
+    },
+    "PI 3": {
+      "page_span": [
+        119721,
+        119721
+      ],
+      "img_alts": [
+        6
+      ],
+      "codes_seen": [
+        "PI 3"
+      ]
+    },
+    "PI 4": {
+      "page_span": [
+        119722,
+        119722
+      ],
+      "img_alts": [
+        7
+      ],
+      "codes_seen": [
+        "PI 4"
+      ]
+    },
+    "PI 5": {
+      "page_span": [
+        119723,
+        119723
+      ],
+      "img_alts": [
+        8
+      ],
+      "codes_seen": [
+        "PI 5"
+      ]
+    },
+    "PI 6": {
+      "page_span": [
+        119724,
+        119725
+      ],
+      "img_alts": [
+        9,
+        10
+      ],
+      "codes_seen": [
+        "PI 6"
+      ]
+    },
+    "PI 7": {
+      "page_span": [
+        119726,
+        119729
+      ],
+      "img_alts": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "codes_seen": [
+        "PI 7-1",
+        "PI 7-2",
+        "PI 7-3",
+        "PI 7-4"
+      ]
+    },
+    "PI 8": {
+      "page_span": [
+        119730,
+        119730
+      ],
+      "img_alts": [
+        15
+      ],
+      "codes_seen": [
+        "PI 8"
+      ]
+    },
+    "PI 9": {
+      "page_span": [
+        119731,
+        119731
+      ],
+      "img_alts": [
+        16
+      ],
+      "codes_seen": [
+        "PI 9"
+      ]
+    },
+    "PI 10": {
+      "page_span": [
+        119732,
+        119735
+      ],
+      "img_alts": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "codes_seen": [
+        "PI 10-1",
+        "PI 10-2"
+      ]
+    },
+    "PI 11": {
+      "page_span": [
+        119736,
+        119742
+      ],
+      "img_alts": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "codes_seen": [
+        "PI 11-1",
+        "PI 11-2",
+        "PI 11-3",
+        "PI 11-4",
+        "PI 11-5",
+        "PI 11-6",
+        "PI 11-7"
+      ]
+    },
+    "PI 12": {
+      "page_span": [
+        119743,
+        119746
+      ],
+      "img_alts": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "codes_seen": [
+        "PI 12-1",
+        "PI 12-2",
+        "PI 12-3",
+        "PI 12-4"
+      ]
+    },
+    "PI 13": {
+      "page_span": [
+        119747,
+        119747
+      ],
+      "img_alts": [
+        32
+      ],
+      "codes_seen": [
+        "PI 13-1"
+      ]
+    },
+    "ANEJO 2": {
+      "page_span": [
+        119748,
+        119749
+      ],
+      "img_alts": [
+        33,
+        34
+      ],
+      "codes_seen": [
+        "ANEJO 2"
+      ]
+    },
+    "PC 1": {
+      "page_span": [
+        119751,
+        119753
+      ],
+      "img_alts": [
+        36,
+        37,
+        38
+      ],
+      "codes_seen": [
+        "PC 1",
+        "PC 1-2",
+        "PC 1-3"
+      ]
+    },
+    "PC 2": {
+      "page_span": [
+        119754,
+        119754
+      ],
+      "img_alts": [
+        39
+      ],
+      "codes_seen": [
+        "PC 2"
+      ]
+    },
+    "PC 3": {
+      "page_span": [
+        119755,
+        119755
+      ],
+      "img_alts": [
+        40
+      ],
+      "codes_seen": [
+        "PC 3"
+      ]
+    },
+    "PC 4": {
+      "page_span": [
+        119756,
+        119756
+      ],
+      "img_alts": [
+        41
+      ],
+      "codes_seen": [
+        "PC 4"
+      ]
+    },
+    "PC 5": {
+      "page_span": [
+        119757,
+        119757
+      ],
+      "img_alts": [
+        42
+      ],
+      "codes_seen": [
+        "PC 5"
+      ]
+    },
+    "PC 6": {
+      "page_span": [
+        119758,
+        119759
+      ],
+      "img_alts": [
+        43,
+        44
+      ],
+      "codes_seen": [
+        "PC 6"
+      ]
+    },
+    "PC 7": {
+      "page_span": [
+        119760,
+        119763
+      ],
+      "img_alts": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "codes_seen": [
+        "PC 7-1",
+        "PC 7-2",
+        "PC 7-3",
+        "PC 7-4"
+      ]
+    },
+    "PC 8": {
+      "page_span": [
+        119764,
+        119764
+      ],
+      "img_alts": [
+        49
+      ],
+      "codes_seen": [
+        "PC 8"
+      ]
+    },
+    "PC 9": {
+      "page_span": [
+        119765,
+        119765
+      ],
+      "img_alts": [
+        50
+      ],
+      "codes_seen": [
+        "PC 9"
+      ]
+    },
+    "PC 10": {
+      "page_span": [
+        119766,
+        119769
+      ],
+      "img_alts": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "codes_seen": [
+        "PC 10-1",
+        "PC 10-2"
+      ]
+    },
+    "FI 1": {
+      "page_span": [
+        119774,
+        119776
+      ],
+      "img_alts": [
+        59,
+        60,
+        61
+      ],
+      "codes_seen": [
+        "FI 1"
+      ]
+    },
+    "FI 2": {
+      "page_span": [
+        119777,
+        119777
+      ],
+      "img_alts": [
+        62
+      ],
+      "codes_seen": [
+        "FI 2"
+      ]
+    },
+    "FI 4": {
+      "page_span": [
+        119778,
+        119779
+      ],
+      "img_alts": [
+        63,
+        64
+      ],
+      "codes_seen": [
+        "FI 4-1",
+        "FI 4-3.1"
+      ]
+    },
+    "FI 5": {
+      "page_span": [
+        119780,
+        119780
+      ],
+      "img_alts": [
+        65
+      ],
+      "codes_seen": [
+        "FI 5"
+      ]
+    },
+    "FI 6": {
+      "page_span": [
+        119781,
+        119781
+      ],
+      "img_alts": [
+        66
+      ],
+      "codes_seen": [
+        "FI 6"
+      ]
+    },
+    "FI 7": {
+      "page_span": [
+        119782,
+        119782
+      ],
+      "img_alts": [
+        67
+      ],
+      "codes_seen": [
+        "FI 7"
+      ]
+    },
+    "FI 8": {
+      "page_span": [
+        119783,
+        119783
+      ],
+      "img_alts": [
+        68
+      ],
+      "codes_seen": [
+        "FI 8"
+      ]
+    },
+    "FI 9": {
+      "page_span": [
+        119784,
+        119784
+      ],
+      "img_alts": [
+        69
+      ],
+      "codes_seen": [
+        "FI 9"
+      ]
+    },
+    "FI 10": {
+      "page_span": [
+        119785,
+        119785
+      ],
+      "img_alts": [
+        70
+      ],
+      "codes_seen": [
+        "FI 10"
+      ]
+    },
+    "FI 11": {
+      "page_span": [
+        119786,
+        119786
+      ],
+      "img_alts": [
+        71
+      ],
+      "codes_seen": [
+        "FI 11"
+      ]
+    },
+    "FI 12": {
+      "page_span": [
+        119787,
+        119788
+      ],
+      "img_alts": [
+        72,
+        73
+      ],
+      "codes_seen": [
+        "FI 12",
+        "FI 12-2"
+      ]
+    },
+    "FI 13": {
+      "page_span": [
+        119789,
+        119789
+      ],
+      "img_alts": [
+        74
+      ],
+      "codes_seen": [
+        "FI 13"
+      ]
+    },
+    "FI 14": {
+      "page_span": [
+        119790,
+        119790
+      ],
+      "img_alts": [
+        75
+      ],
+      "codes_seen": [
+        "FI 14"
+      ]
+    },
+    "FI 15": {
+      "page_span": [
+        119791,
+        119791
+      ],
+      "img_alts": [
+        76
+      ],
+      "codes_seen": [
+        "FI 15"
+      ]
+    },
+    "FI 16": {
+      "page_span": [
+        119792,
+        119793
+      ],
+      "img_alts": [
+        77,
+        78
+      ],
+      "codes_seen": [
+        "FI 16",
+        "FI 16-4.1"
+      ]
+    },
+    "FI 17": {
+      "page_span": [
+        119794,
+        119795
+      ],
+      "img_alts": [
+        79,
+        80
+      ],
+      "codes_seen": [
+        "FI 17",
+        "FI 17-3"
+      ]
+    },
+    "FI 18": {
+      "page_span": [
+        119796,
+        119796
+      ],
+      "img_alts": [
+        81
+      ],
+      "codes_seen": [
+        "FI 18"
+      ]
+    },
+    "FI 19": {
+      "page_span": [
+        119797,
+        119797
+      ],
+      "img_alts": [
+        82
+      ],
+      "codes_seen": [
+        "FI 19"
+      ]
+    },
+    "FI 20": {
+      "page_span": [
+        119798,
+        119798
+      ],
+      "img_alts": [
+        83
+      ],
+      "codes_seen": [
+        "FI 20"
+      ]
+    },
+    "FI 22": {
+      "page_span": [
+        119799,
+        119799
+      ],
+      "img_alts": [
+        84
+      ],
+      "codes_seen": [
+        "FI 22"
+      ]
+    },
+    "FI 31": {
+      "page_span": [
+        119800,
+        119800
+      ],
+      "img_alts": [
+        85
+      ],
+      "codes_seen": [
+        "FI 31"
+      ]
+    },
+    "FI 40": {
+      "page_span": [
+        119801,
+        119801
+      ],
+      "img_alts": [
+        86
+      ],
+      "codes_seen": [
+        "FI 40"
+      ]
+    },
+    "FI 43": {
+      "page_span": [
+        119802,
+        119802
+      ],
+      "img_alts": [
+        87
+      ],
+      "codes_seen": [
+        "FI 43"
+      ]
+    },
+    "FI 45": {
+      "page_span": [
+        119803,
+        119803
+      ],
+      "img_alts": [
+        88
+      ],
+      "codes_seen": [
+        "FI 45"
+      ]
+    },
+    "FI 100": {
+      "page_span": [
+        119804,
+        119819
+      ],
+      "img_alts": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104
+      ],
+      "codes_seen": [
+        "FI 100",
+        "FI 100-2",
+        "FI 100-3",
+        "FI 100-4",
+        "FI 100-5",
+        "FI 100-6",
+        "FI 100-7",
+        "FI 100-8",
+        "FI 100-9",
+        "FI 100-10",
+        "FI 100-11.1",
+        "FI 100-12",
+        "FI 100-13",
+        "FI 100-14",
+        "FI 100-15"
+      ]
+    },
+    "FI 101": {
+      "page_span": [
+        119820,
+        119822
+      ],
+      "img_alts": [
+        105,
+        106,
+        107
+      ],
+      "codes_seen": [
+        "FI 101"
+      ]
+    },
+    "FI 102": {
+      "page_span": [
+        119823,
+        119824
+      ],
+      "img_alts": [
+        108,
+        109
+      ],
+      "codes_seen": [
+        "FI 102-1",
+        "FI 102-2"
+      ]
+    },
+    "FI 103": {
+      "page_span": [
+        119825,
+        119831
+      ],
+      "img_alts": [
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
+      ],
+      "codes_seen": [
+        "FI 103-1",
+        "FI 103-2",
+        "FI 103-3",
+        "FI 103-4"
+      ]
+    },
+    "FI 104": {
+      "page_span": [
+        119832,
+        119834
+      ],
+      "img_alts": [
+        117,
+        118,
+        119
+      ],
+      "codes_seen": [
+        "FI 104"
+      ]
+    },
+    "FI 105": {
+      "page_span": [
+        119835,
+        119836
+      ],
+      "img_alts": [
+        120,
+        121
+      ],
+      "codes_seen": [
+        "FI 105-1",
+        "FI 105-2"
+      ]
+    },
+    "FI 106": {
+      "page_span": [
+        119837,
+        119843
+      ],
+      "img_alts": [
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "codes_seen": [
+        "FI 106-1.1",
+        "FI 106-1.2",
+        "FI 106-2.1",
+        "FI 106-2.2",
+        "FI 106-2.5",
+        "FI 106-3"
+      ]
+    },
+    "FI 107": {
+      "page_span": [
+        119844,
+        119847
+      ],
+      "img_alts": [
+        129,
+        130,
+        131,
+        132
+      ],
+      "codes_seen": [
+        "FI 107",
+        "FI 107-2"
+      ]
+    },
+    "FI 108": {
+      "page_span": [
+        119848,
+        119849
+      ],
+      "img_alts": [
+        133,
+        134
+      ],
+      "codes_seen": [
+        "FI 108"
+      ]
+    },
+    "FI 130": {
+      "page_span": [
+        119850,
+        119861
+      ],
+      "img_alts": [
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146
+      ],
+      "codes_seen": [
+        "FI 130-1",
+        "FI 130-2",
+        "FI 130-3"
+      ]
+    },
+    "FI 131": {
+      "page_span": [
+        119862,
+        119880
+      ],
+      "img_alts": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "codes_seen": [
+        "FI 131",
+        "FI 131-1.2",
+        "FI 131-2.1",
+        "FI 131-2.2",
+        "FI 131-3.1",
+        "FI 131-3.2",
+        "FI 131-4.1",
+        "FI 131-4.2",
+        "FI 131-5.1",
+        "FI 131-5.2",
+        "FI 131-5.3",
+        "FI 131-5.4",
+        "FI 131-6",
+        "FI 131-7"
+      ]
+    },
+    "FI 132": {
+      "page_span": [
+        119881,
+        119882
+      ],
+      "img_alts": [
+        166,
+        167
+      ],
+      "codes_seen": [
+        "FI 132"
+      ]
+    },
+    "FI 133": {
+      "page_span": [
+        119883,
+        119884
+      ],
+      "img_alts": [
+        168,
+        169
+      ],
+      "codes_seen": [
+        "FI 133-1",
+        "FI 133-2"
+      ]
+    },
+    "FI 134": {
+      "page_span": [
+        119885,
+        119886
+      ],
+      "img_alts": [
+        170,
+        171
+      ],
+      "codes_seen": [
+        "FI 134"
+      ]
+    },
+    "FI 136": {
+      "page_span": [
+        119887,
+        119889
+      ],
+      "img_alts": [
+        172,
+        173,
+        174
+      ],
+      "codes_seen": [
+        "FI 136-1",
+        "FI 136-2"
+      ]
+    },
+    "FI 138": {
+      "page_span": [
+        119890,
+        119894
+      ],
+      "img_alts": [
+        175,
+        176,
+        177,
+        178,
+        179
+      ],
+      "codes_seen": [
+        "FI 138-1.1",
+        "FI 138-1.2",
+        "FI 138-1.3",
+        "FI 138-2",
+        "FI 138-3"
+      ]
+    },
+    "FI 139": {
+      "page_span": [
+        119895,
+        119896
+      ],
+      "img_alts": [
+        180,
+        181
+      ],
+      "codes_seen": [
+        "FI 139"
+      ]
+    },
+    "FI 140": {
+      "page_span": [
+        119897,
+        119901
+      ],
+      "img_alts": [
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "codes_seen": [
+        "FI 140-1",
+        "FI 140-2",
+        "FI 140-3"
+      ]
+    },
+    "FI 141": {
+      "page_span": [
+        119902,
+        119906
+      ],
+      "img_alts": [
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "codes_seen": [
+        "FI 141-1",
+        "FI 141-2.1",
+        "FI 141-2.2",
+        "FI 141-2.3",
+        "FI 141-3"
+      ]
+    },
+    "FI 142": {
+      "page_span": [
+        119907,
+        119908
+      ],
+      "img_alts": [
+        192,
+        193
+      ],
+      "codes_seen": [
+        "FI 142",
+        "FI 142-2"
+      ]
+    },
+    "FI 143": {
+      "page_span": [
+        119909,
+        119910
+      ],
+      "img_alts": [
+        194,
+        195
+      ],
+      "codes_seen": [
+        "FI 143"
+      ]
+    },
+    "FI 150": {
+      "page_span": [
+        119911,
+        119917
+      ],
+      "img_alts": [
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202
+      ],
+      "codes_seen": [
+        "FI 150-1",
+        "FI 150-2",
+        "FI 150-4",
+        "FI 150-7",
+        "FI 150-8",
+        "FI 150-9"
+      ]
+    },
+    "FI 160": {
+      "page_span": [
+        119918,
+        119924
+      ],
+      "img_alts": [
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "codes_seen": [
+        "FI 160-1",
+        "FI 160-2",
+        "FI 160-3",
+        "FI 160-4.1",
+        "FI 160-4.2"
+      ]
+    },
+    "FI 161": {
+      "page_span": [
+        119925,
+        119925
+      ],
+      "img_alts": [
+        210
+      ],
+      "codes_seen": [
+        "FI 161"
+      ]
+    },
+    "FI 162": {
+      "page_span": [
+        119926,
+        119927
+      ],
+      "img_alts": [
+        211,
+        212
+      ],
+      "codes_seen": [
+        "FI 162",
+        "FI 162-2"
+      ]
+    },
+    "FI 180": {
+      "page_span": [
+        119928,
+        119931
+      ],
+      "img_alts": [
+        213,
+        214,
+        215,
+        216
+      ],
+      "codes_seen": [
+        "FI 180"
+      ]
+    },
+    "FI 182": {
+      "page_span": [
+        119932,
+        119932
+      ],
+      "img_alts": [
+        217
+      ],
+      "codes_seen": [
+        "FI 182"
+      ]
+    },
+    "FC 140": {
+      "page_span": [
+        119934,
+        119938
+      ],
+      "img_alts": [
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      "codes_seen": [
+        "FC 140-1",
+        "FC 140-2",
+        "FC 140-3"
+      ]
+    },
+    "FC 200": {
+      "page_span": [
+        119939,
+        119939
+      ],
+      "img_alts": [
+        224
+      ],
+      "codes_seen": [
+        "FC 200"
+      ]
+    },
+    "FC 201": {
+      "page_span": [
+        119940,
+        119944
+      ],
+      "img_alts": [
+        225,
+        226,
+        227,
+        228,
+        229
+      ],
+      "codes_seen": [
+        "FC 201-1.1",
+        "FC 201-1.2",
+        "FC 201-1.3",
+        "FC 201-2",
+        "FC 201-3"
+      ]
+    },
+    "FC 202": {
+      "page_span": [
+        119945,
+        119947
+      ],
+      "img_alts": [
+        230,
+        231,
+        232
+      ],
+      "codes_seen": [
+        "FC 202",
+        "FC 202-2",
+        "FC 202-3"
+      ]
+    },
+    "UEM 1": {
+      "page_span": [
+        119949,
+        119951
+      ],
+      "img_alts": [
+        234,
+        235,
+        236
+      ],
+      "codes_seen": [
+        "UEM 1"
+      ]
+    },
+    "UEM 2": {
+      "page_span": [
+        119952,
+        119954
+      ],
+      "img_alts": [
+        237,
+        238,
+        239
+      ],
+      "codes_seen": [
+        "UEM 2"
+      ]
+    },
+    "UEM 3": {
+      "page_span": [
+        119955,
+        119955
+      ],
+      "img_alts": [
+        240
+      ],
+      "codes_seen": [
+        "UEM 3"
+      ]
+    },
+    "UEM 4": {
+      "page_span": [
+        119956,
+        119956
+      ],
+      "img_alts": [
+        241
+      ],
+      "codes_seen": [
+        "UEM 4"
+      ]
+    },
+    "UEM 5": {
+      "page_span": [
+        119957,
+        119957
+      ],
+      "img_alts": [
+        242
+      ],
+      "codes_seen": [
+        "UEM 5"
+      ]
+    },
+    "UEM 6": {
+      "page_span": [
+        119958,
+        119958
+      ],
+      "img_alts": [
+        243
+      ],
+      "codes_seen": [
+        "UEM 6"
+      ]
+    },
+    "UEM 7": {
+      "page_span": [
+        119959,
+        119959
+      ],
+      "img_alts": [
+        244
+      ],
+      "codes_seen": [
+        "UEM 7"
+      ]
+    },
+    "UEM 8": {
+      "page_span": [
+        119960,
+        119960
+      ],
+      "img_alts": [
+        245
+      ],
+      "codes_seen": [
+        "UEM 8"
+      ]
+    },
+    "UEM 9": {
+      "page_span": [
+        119961,
+        119961
+      ],
+      "img_alts": [
+        246
+      ],
+      "codes_seen": [
+        "UEM 9"
+      ]
+    },
+    "UEM 10": {
+      "page_span": [
+        119962,
+        119962
+      ],
+      "img_alts": [
+        247
+      ],
+      "codes_seen": [
+        "UEM 10"
+      ]
+    },
+    "UEM 11": {
+      "page_span": [
+        119963,
+        119963
+      ],
+      "img_alts": [
+        248
+      ],
+      "codes_seen": [
+        "UEM 11"
+      ]
+    },
+    "UEM 12": {
+      "page_span": [
+        119964,
+        119965
+      ],
+      "img_alts": [
+        249,
+        250
+      ],
+      "codes_seen": [
+        "UEM 12"
+      ]
+    },
+    "UEM 13": {
+      "page_span": [
+        119966,
+        119966
+      ],
+      "img_alts": [
+        251
+      ],
+      "codes_seen": [
+        "UEM 13"
+      ]
+    },
+    "ANEJO 7": {
+      "page_span": [
+        119967,
+        119968
+      ],
+      "img_alts": [
+        252,
+        253
+      ],
+      "codes_seen": [
+        "ANEJO 7"
+      ]
+    },
+    "ANEJO 7.2": {
+      "page_span": [
+        119969,
+        119970
+      ],
+      "img_alts": [
+        254,
+        255
+      ],
+      "codes_seen": [
+        "ANEJO 7.2"
+      ]
+    },
+    "ANEJO 7.3": {
+      "page_span": [
+        119971,
+        119972
+      ],
+      "img_alts": [
+        256,
+        257
+      ],
+      "codes_seen": [
+        "ANEJO 7.3"
+      ]
+    },
+    "ANEJO 8": {
+      "page_span": [
+        119973,
+        119982
+      ],
+      "img_alts": [
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267
+      ],
+      "codes_seen": [
+        "ANEJO 8"
+      ]
+    },
+    "ANEJO 8.2": {
+      "page_span": [
+        119983,
+        119985
+      ],
+      "img_alts": [
+        268,
+        269,
+        270
+      ],
+      "codes_seen": [
+        "ANEJO 8.2"
+      ]
+    },
+    "ANEJO 8.3": {
+      "page_span": [
+        119986,
+        119986
+      ],
+      "img_alts": [
+        271
+      ],
+      "codes_seen": [
+        "ANEJO 8.3"
+      ]
+    },
+    "ANEJO 9": {
+      "page_span": [
+        119987,
+        120041
+      ],
+      "img_alts": [
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326
+      ],
+      "codes_seen": [
+        "ANEJO 9"
+      ]
+    }
+  },
+  "correction_anchors": [
+    {
+      "correction_page": 119822,
+      "correction_code": "FI 101",
+      "pagemap_code": "FI 101",
+      "span_root": "FI 101",
+      "img_alt": 107,
+      "match": true
+    },
+    {
+      "correction_page": 119824,
+      "correction_code": "FI 102-2",
+      "pagemap_code": "FI 102-2",
+      "span_root": "FI 102",
+      "img_alt": 109,
+      "match": true
+    },
+    {
+      "correction_page": 119827,
+      "correction_code": "FI 103-2",
+      "pagemap_code": "FI 103-2",
+      "span_root": "FI 103",
+      "img_alt": 112,
+      "match": true
+    },
+    {
+      "correction_page": 119862,
+      "correction_code": "FI 131-1.1",
+      "pagemap_code": "FI 131",
+      "span_root": "FI 131",
+      "img_alt": 147,
+      "match": true
+    },
+    {
+      "correction_page": 119864,
+      "correction_code": "FI 131-2.1",
+      "pagemap_code": "FI 131-2.1",
+      "span_root": "FI 131",
+      "img_alt": 149,
+      "match": true
+    },
+    {
+      "correction_page": 119865,
+      "correction_code": "FI 131-2.2",
+      "pagemap_code": "FI 131-2.2",
+      "span_root": "FI 131",
+      "img_alt": 150,
+      "match": true
+    },
+    {
+      "correction_page": 119882,
+      "correction_code": "FI 132",
+      "pagemap_code": null,
+      "span_root": "FI 132",
+      "img_alt": 167,
+      "match": true
+    },
+    {
+      "correction_page": 119901,
+      "correction_code": "FI 140-3",
+      "pagemap_code": "FI 140-3",
+      "span_root": "FI 140",
+      "img_alt": 186,
+      "match": true
+    },
+    {
+      "correction_page": 119914,
+      "correction_code": "FI 150-7",
+      "pagemap_code": "FI 150-7",
+      "span_root": "FI 150",
+      "img_alt": 199,
+      "match": true
+    },
+    {
+      "correction_page": 119938,
+      "correction_code": "FC 140-3",
+      "pagemap_code": "FC 140-3",
+      "span_root": "FC 140",
+      "img_alt": 223,
+      "match": true
+    }
+  ],
+  "anchors_matching": 10,
+  "anchors_total": 10,
+  "pages": [
+    {
+      "boe_page": 119716,
+      "img_alt": 1,
+      "kind": "INDEX",
+      "code_detected": null,
+      "estado_root": null
+    },
+    {
+      "boe_page": 119717,
+      "img_alt": 2,
+      "kind": "CONTENT",
+      "code_detected": "PI 1",
+      "estado_root": "PI 1",
+      "span_root": "PI 1"
+    },
+    {
+      "boe_page": 119718,
+      "img_alt": 3,
+      "kind": "CONTENT",
+      "code_detected": "PI 1-2",
+      "estado_root": "PI 1",
+      "span_root": "PI 1"
+    },
+    {
+      "boe_page": 119719,
+      "img_alt": 4,
+      "kind": "CONTENT",
+      "code_detected": "PI 1-3",
+      "estado_root": "PI 1",
+      "span_root": "PI 1"
+    },
+    {
+      "boe_page": 119720,
+      "img_alt": 5,
+      "kind": "CONTENT",
+      "code_detected": "PI 2",
+      "estado_root": "PI 2",
+      "span_root": "PI 2"
+    },
+    {
+      "boe_page": 119721,
+      "img_alt": 6,
+      "kind": "CONTENT",
+      "code_detected": "PI 3",
+      "estado_root": "PI 3",
+      "span_root": "PI 3"
+    },
+    {
+      "boe_page": 119722,
+      "img_alt": 7,
+      "kind": "CONTENT",
+      "code_detected": "PI 4",
+      "estado_root": "PI 4",
+      "span_root": "PI 4"
+    },
+    {
+      "boe_page": 119723,
+      "img_alt": 8,
+      "kind": "CONTENT",
+      "code_detected": "PI 5",
+      "estado_root": "PI 5",
+      "span_root": "PI 5"
+    },
+    {
+      "boe_page": 119724,
+      "img_alt": 9,
+      "kind": "CONTENT",
+      "code_detected": "PI 6",
+      "estado_root": "PI 6",
+      "span_root": "PI 6"
+    },
+    {
+      "boe_page": 119725,
+      "img_alt": 10,
+      "kind": "CONTENT",
+      "code_detected": "PI 6",
+      "estado_root": "PI 6",
+      "span_root": "PI 6"
+    },
+    {
+      "boe_page": 119726,
+      "img_alt": 11,
+      "kind": "CONTENT",
+      "code_detected": "PI 7-1",
+      "estado_root": "PI 7",
+      "span_root": "PI 7"
+    },
+    {
+      "boe_page": 119727,
+      "img_alt": 12,
+      "kind": "CONTENT",
+      "code_detected": "PI 7-2",
+      "estado_root": "PI 7",
+      "span_root": "PI 7"
+    },
+    {
+      "boe_page": 119728,
+      "img_alt": 13,
+      "kind": "CONTENT",
+      "code_detected": "PI 7-3",
+      "estado_root": "PI 7",
+      "span_root": "PI 7"
+    },
+    {
+      "boe_page": 119729,
+      "img_alt": 14,
+      "kind": "CONTENT",
+      "code_detected": "PI 7-4",
+      "estado_root": "PI 7",
+      "span_root": "PI 7"
+    },
+    {
+      "boe_page": 119730,
+      "img_alt": 15,
+      "kind": "CONTENT",
+      "code_detected": "PI 8",
+      "estado_root": "PI 8",
+      "span_root": "PI 8"
+    },
+    {
+      "boe_page": 119731,
+      "img_alt": 16,
+      "kind": "CONTENT",
+      "code_detected": "PI 9",
+      "estado_root": "PI 9",
+      "span_root": "PI 9"
+    },
+    {
+      "boe_page": 119732,
+      "img_alt": 17,
+      "kind": "CONTENT",
+      "code_detected": "PI 10-1",
+      "estado_root": "PI 10",
+      "span_root": "PI 10"
+    },
+    {
+      "boe_page": 119733,
+      "img_alt": 18,
+      "kind": "CONTENT",
+      "code_detected": "PI 10-2",
+      "estado_root": "PI 10",
+      "span_root": "PI 10"
+    },
+    {
+      "boe_page": 119734,
+      "img_alt": 19,
+      "kind": "CONTENT",
+      "code_detected": "PI 10-2",
+      "estado_root": "PI 10",
+      "span_root": "PI 10"
+    },
+    {
+      "boe_page": 119735,
+      "img_alt": 20,
+      "kind": "CONTENT",
+      "code_detected": "PI 10-2",
+      "estado_root": "PI 10",
+      "span_root": "PI 10"
+    },
+    {
+      "boe_page": 119736,
+      "img_alt": 21,
+      "kind": "CONTENT",
+      "code_detected": "PI 11-1",
+      "estado_root": "PI 11",
+      "span_root": "PI 11"
+    },
+    {
+      "boe_page": 119737,
+      "img_alt": 22,
+      "kind": "CONTENT",
+      "code_detected": "PI 11-2",
+      "estado_root": "PI 11",
+      "span_root": "PI 11"
+    },
+    {
+      "boe_page": 119738,
+      "img_alt": 23,
+      "kind": "CONTENT",
+      "code_detected": "PI 11-3",
+      "estado_root": "PI 11",
+      "span_root": "PI 11"
+    },
+    {
+      "boe_page": 119739,
+      "img_alt": 24,
+      "kind": "CONTENT",
+      "code_detected": "PI 11-4",
+      "estado_root": "PI 11",
+      "span_root": "PI 11"
+    },
+    {
+      "boe_page": 119740,
+      "img_alt": 25,
+      "kind": "CONTENT",
+      "code_detected": "PI 11-5",
+      "estado_root": "PI 11",
+      "span_root": "PI 11"
+    },
+    {
+      "boe_page": 119741,
+      "img_alt": 26,
+      "kind": "CONTENT",
+      "code_detected": "PI 11-6",
+      "estado_root": "PI 11",
+      "span_root": "PI 11"
+    },
+    {
+      "boe_page": 119742,
+      "img_alt": 27,
+      "kind": "CONTENT",
+      "code_detected": "PI 11-7",
+      "estado_root": "PI 11",
+      "span_root": "PI 11"
+    },
+    {
+      "boe_page": 119743,
+      "img_alt": 28,
+      "kind": "CONTENT",
+      "code_detected": "PI 12-1",
+      "estado_root": "PI 12",
+      "span_root": "PI 12"
+    },
+    {
+      "boe_page": 119744,
+      "img_alt": 29,
+      "kind": "CONTENT",
+      "code_detected": "PI 12-2",
+      "estado_root": "PI 12",
+      "span_root": "PI 12"
+    },
+    {
+      "boe_page": 119745,
+      "img_alt": 30,
+      "kind": "CONTENT",
+      "code_detected": "PI 12-3",
+      "estado_root": "PI 12",
+      "span_root": "PI 12"
+    },
+    {
+      "boe_page": 119746,
+      "img_alt": 31,
+      "kind": "CONTENT",
+      "code_detected": "PI 12-4",
+      "estado_root": "PI 12",
+      "span_root": "PI 12"
+    },
+    {
+      "boe_page": 119747,
+      "img_alt": 32,
+      "kind": "CONTENT",
+      "code_detected": "PI 13-1",
+      "estado_root": "PI 13",
+      "span_root": "PI 13"
+    },
+    {
+      "boe_page": 119748,
+      "img_alt": 33,
+      "kind": "CONTENT",
+      "code_detected": "ANEJO 2",
+      "estado_root": "ANEJO 2",
+      "span_root": "ANEJO 2"
+    },
+    {
+      "boe_page": 119749,
+      "img_alt": 34,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 2"
+    },
+    {
+      "boe_page": 119750,
+      "img_alt": 35,
+      "kind": "INDEX",
+      "code_detected": null,
+      "estado_root": null
+    },
+    {
+      "boe_page": 119751,
+      "img_alt": 36,
+      "kind": "CONTENT",
+      "code_detected": "PC 1",
+      "estado_root": "PC 1",
+      "span_root": "PC 1"
+    },
+    {
+      "boe_page": 119752,
+      "img_alt": 37,
+      "kind": "CONTENT",
+      "code_detected": "PC 1-2",
+      "estado_root": "PC 1",
+      "span_root": "PC 1"
+    },
+    {
+      "boe_page": 119753,
+      "img_alt": 38,
+      "kind": "CONTENT",
+      "code_detected": "PC 1-3",
+      "estado_root": "PC 1",
+      "span_root": "PC 1"
+    },
+    {
+      "boe_page": 119754,
+      "img_alt": 39,
+      "kind": "CONTENT",
+      "code_detected": "PC 2",
+      "estado_root": "PC 2",
+      "span_root": "PC 2"
+    },
+    {
+      "boe_page": 119755,
+      "img_alt": 40,
+      "kind": "CONTENT",
+      "code_detected": "PC 3",
+      "estado_root": "PC 3",
+      "span_root": "PC 3"
+    },
+    {
+      "boe_page": 119756,
+      "img_alt": 41,
+      "kind": "CONTENT",
+      "code_detected": "PC 4",
+      "estado_root": "PC 4",
+      "span_root": "PC 4"
+    },
+    {
+      "boe_page": 119757,
+      "img_alt": 42,
+      "kind": "CONTENT",
+      "code_detected": "PC 5",
+      "estado_root": "PC 5",
+      "span_root": "PC 5"
+    },
+    {
+      "boe_page": 119758,
+      "img_alt": 43,
+      "kind": "CONTENT",
+      "code_detected": "PC 6",
+      "estado_root": "PC 6",
+      "span_root": "PC 6"
+    },
+    {
+      "boe_page": 119759,
+      "img_alt": 44,
+      "kind": "CONTENT",
+      "code_detected": "PC 6",
+      "estado_root": "PC 6",
+      "span_root": "PC 6"
+    },
+    {
+      "boe_page": 119760,
+      "img_alt": 45,
+      "kind": "CONTENT",
+      "code_detected": "PC 7-1",
+      "estado_root": "PC 7",
+      "span_root": "PC 7"
+    },
+    {
+      "boe_page": 119761,
+      "img_alt": 46,
+      "kind": "CONTENT",
+      "code_detected": "PC 7-2",
+      "estado_root": "PC 7",
+      "span_root": "PC 7"
+    },
+    {
+      "boe_page": 119762,
+      "img_alt": 47,
+      "kind": "CONTENT",
+      "code_detected": "PC 7-3",
+      "estado_root": "PC 7",
+      "span_root": "PC 7"
+    },
+    {
+      "boe_page": 119763,
+      "img_alt": 48,
+      "kind": "CONTENT",
+      "code_detected": "PC 7-4",
+      "estado_root": "PC 7",
+      "span_root": "PC 7"
+    },
+    {
+      "boe_page": 119764,
+      "img_alt": 49,
+      "kind": "CONTENT",
+      "code_detected": "PC 8",
+      "estado_root": "PC 8",
+      "span_root": "PC 8"
+    },
+    {
+      "boe_page": 119765,
+      "img_alt": 50,
+      "kind": "CONTENT",
+      "code_detected": "PC 9",
+      "estado_root": "PC 9",
+      "span_root": "PC 9"
+    },
+    {
+      "boe_page": 119766,
+      "img_alt": 51,
+      "kind": "CONTENT",
+      "code_detected": "PC 10-1",
+      "estado_root": "PC 10",
+      "span_root": "PC 10"
+    },
+    {
+      "boe_page": 119767,
+      "img_alt": 52,
+      "kind": "CONTENT",
+      "code_detected": "PC 10-2",
+      "estado_root": "PC 10",
+      "span_root": "PC 10"
+    },
+    {
+      "boe_page": 119768,
+      "img_alt": 53,
+      "kind": "CONTENT",
+      "code_detected": "PC 10-2",
+      "estado_root": "PC 10",
+      "span_root": "PC 10"
+    },
+    {
+      "boe_page": 119769,
+      "img_alt": 54,
+      "kind": "CONTENT",
+      "code_detected": "PC 10-2",
+      "estado_root": "PC 10",
+      "span_root": "PC 10"
+    },
+    {
+      "boe_page": 119770,
+      "img_alt": 55,
+      "kind": "INDEX",
+      "code_detected": null,
+      "estado_root": null
+    },
+    {
+      "boe_page": 119771,
+      "img_alt": 56,
+      "kind": "INDEX",
+      "code_detected": null,
+      "estado_root": null
+    },
+    {
+      "boe_page": 119772,
+      "img_alt": 57,
+      "kind": "INDEX",
+      "code_detected": null,
+      "estado_root": null
+    },
+    {
+      "boe_page": 119773,
+      "img_alt": 58,
+      "kind": "INDEX",
+      "code_detected": null,
+      "estado_root": null
+    },
+    {
+      "boe_page": 119774,
+      "img_alt": 59,
+      "kind": "CONTENT",
+      "code_detected": "FI 1",
+      "estado_root": "FI 1",
+      "span_root": "FI 1"
+    },
+    {
+      "boe_page": 119775,
+      "img_alt": 60,
+      "kind": "CONTENT",
+      "code_detected": "FI 1",
+      "estado_root": "FI 1",
+      "span_root": "FI 1"
+    },
+    {
+      "boe_page": 119776,
+      "img_alt": 61,
+      "kind": "CONTENT",
+      "code_detected": "FI 1",
+      "estado_root": "FI 1",
+      "span_root": "FI 1"
+    },
+    {
+      "boe_page": 119777,
+      "img_alt": 62,
+      "kind": "CONTENT",
+      "code_detected": "FI 2",
+      "estado_root": "FI 2",
+      "span_root": "FI 2"
+    },
+    {
+      "boe_page": 119778,
+      "img_alt": 63,
+      "kind": "CONTENT",
+      "code_detected": "FI 4-1",
+      "estado_root": "FI 4",
+      "span_root": "FI 4"
+    },
+    {
+      "boe_page": 119779,
+      "img_alt": 64,
+      "kind": "CONTENT",
+      "code_detected": "FI 4-3.1",
+      "estado_root": "FI 4",
+      "span_root": "FI 4"
+    },
+    {
+      "boe_page": 119780,
+      "img_alt": 65,
+      "kind": "CONTENT",
+      "code_detected": "FI 5",
+      "estado_root": "FI 5",
+      "span_root": "FI 5"
+    },
+    {
+      "boe_page": 119781,
+      "img_alt": 66,
+      "kind": "CONTENT",
+      "code_detected": "FI 6",
+      "estado_root": "FI 6",
+      "span_root": "FI 6"
+    },
+    {
+      "boe_page": 119782,
+      "img_alt": 67,
+      "kind": "CONTENT",
+      "code_detected": "FI 7",
+      "estado_root": "FI 7",
+      "span_root": "FI 7"
+    },
+    {
+      "boe_page": 119783,
+      "img_alt": 68,
+      "kind": "CONTENT",
+      "code_detected": "FI 8",
+      "estado_root": "FI 8",
+      "span_root": "FI 8"
+    },
+    {
+      "boe_page": 119784,
+      "img_alt": 69,
+      "kind": "CONTENT",
+      "code_detected": "FI 9",
+      "estado_root": "FI 9",
+      "span_root": "FI 9"
+    },
+    {
+      "boe_page": 119785,
+      "img_alt": 70,
+      "kind": "CONTENT",
+      "code_detected": "FI 10",
+      "estado_root": "FI 10",
+      "span_root": "FI 10"
+    },
+    {
+      "boe_page": 119786,
+      "img_alt": 71,
+      "kind": "CONTENT",
+      "code_detected": "FI 11",
+      "estado_root": "FI 11",
+      "span_root": "FI 11"
+    },
+    {
+      "boe_page": 119787,
+      "img_alt": 72,
+      "kind": "CONTENT",
+      "code_detected": "FI 12",
+      "estado_root": "FI 12",
+      "span_root": "FI 12"
+    },
+    {
+      "boe_page": 119788,
+      "img_alt": 73,
+      "kind": "CONTENT",
+      "code_detected": "FI 12-2",
+      "estado_root": "FI 12",
+      "span_root": "FI 12"
+    },
+    {
+      "boe_page": 119789,
+      "img_alt": 74,
+      "kind": "CONTENT",
+      "code_detected": "FI 13",
+      "estado_root": "FI 13",
+      "span_root": "FI 13"
+    },
+    {
+      "boe_page": 119790,
+      "img_alt": 75,
+      "kind": "CONTENT",
+      "code_detected": "FI 14",
+      "estado_root": "FI 14",
+      "span_root": "FI 14"
+    },
+    {
+      "boe_page": 119791,
+      "img_alt": 76,
+      "kind": "CONTENT",
+      "code_detected": "FI 15",
+      "estado_root": "FI 15",
+      "span_root": "FI 15"
+    },
+    {
+      "boe_page": 119792,
+      "img_alt": 77,
+      "kind": "CONTENT",
+      "code_detected": "FI 16",
+      "estado_root": "FI 16",
+      "span_root": "FI 16"
+    },
+    {
+      "boe_page": 119793,
+      "img_alt": 78,
+      "kind": "CONTENT",
+      "code_detected": "FI 16-4.1",
+      "estado_root": "FI 16",
+      "span_root": "FI 16"
+    },
+    {
+      "boe_page": 119794,
+      "img_alt": 79,
+      "kind": "CONTENT",
+      "code_detected": "FI 17",
+      "estado_root": "FI 17",
+      "span_root": "FI 17"
+    },
+    {
+      "boe_page": 119795,
+      "img_alt": 80,
+      "kind": "CONTENT",
+      "code_detected": "FI 17-3",
+      "estado_root": "FI 17",
+      "span_root": "FI 17"
+    },
+    {
+      "boe_page": 119796,
+      "img_alt": 81,
+      "kind": "CONTENT",
+      "code_detected": "FI 18",
+      "estado_root": "FI 18",
+      "span_root": "FI 18"
+    },
+    {
+      "boe_page": 119797,
+      "img_alt": 82,
+      "kind": "CONTENT",
+      "code_detected": "FI 19",
+      "estado_root": "FI 19",
+      "span_root": "FI 19"
+    },
+    {
+      "boe_page": 119798,
+      "img_alt": 83,
+      "kind": "CONTENT",
+      "code_detected": "FI 20",
+      "estado_root": "FI 20",
+      "span_root": "FI 20"
+    },
+    {
+      "boe_page": 119799,
+      "img_alt": 84,
+      "kind": "CONTENT",
+      "code_detected": "FI 22",
+      "estado_root": "FI 22",
+      "span_root": "FI 22"
+    },
+    {
+      "boe_page": 119800,
+      "img_alt": 85,
+      "kind": "CONTENT",
+      "code_detected": "FI 31",
+      "estado_root": "FI 31",
+      "span_root": "FI 31"
+    },
+    {
+      "boe_page": 119801,
+      "img_alt": 86,
+      "kind": "CONTENT",
+      "code_detected": "FI 40",
+      "estado_root": "FI 40",
+      "span_root": "FI 40"
+    },
+    {
+      "boe_page": 119802,
+      "img_alt": 87,
+      "kind": "CONTENT",
+      "code_detected": "FI 43",
+      "estado_root": "FI 43",
+      "span_root": "FI 43"
+    },
+    {
+      "boe_page": 119803,
+      "img_alt": 88,
+      "kind": "CONTENT",
+      "code_detected": "FI 45",
+      "estado_root": "FI 45",
+      "span_root": "FI 45"
+    },
+    {
+      "boe_page": 119804,
+      "img_alt": 89,
+      "kind": "CONTENT",
+      "code_detected": "FI 100",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119805,
+      "img_alt": 90,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-2",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119806,
+      "img_alt": 91,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-3",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119807,
+      "img_alt": 92,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-4",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119808,
+      "img_alt": 93,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119809,
+      "img_alt": 94,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-5",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119810,
+      "img_alt": 95,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-6",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119811,
+      "img_alt": 96,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-7",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119812,
+      "img_alt": 97,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-8",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119813,
+      "img_alt": 98,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-9",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119814,
+      "img_alt": 99,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-10",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119815,
+      "img_alt": 100,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-11.1",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119816,
+      "img_alt": 101,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-12",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119817,
+      "img_alt": 102,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-13",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119818,
+      "img_alt": 103,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-14",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119819,
+      "img_alt": 104,
+      "kind": "CONTENT",
+      "code_detected": "FI 100-15",
+      "estado_root": "FI 100",
+      "span_root": "FI 100"
+    },
+    {
+      "boe_page": 119820,
+      "img_alt": 105,
+      "kind": "CONTENT",
+      "code_detected": "FI 101",
+      "estado_root": "FI 101",
+      "span_root": "FI 101"
+    },
+    {
+      "boe_page": 119821,
+      "img_alt": 106,
+      "kind": "CONTENT",
+      "code_detected": "FI 101",
+      "estado_root": "FI 101",
+      "span_root": "FI 101"
+    },
+    {
+      "boe_page": 119822,
+      "img_alt": 107,
+      "kind": "CONTENT",
+      "code_detected": "FI 101",
+      "estado_root": "FI 101",
+      "span_root": "FI 101"
+    },
+    {
+      "boe_page": 119823,
+      "img_alt": 108,
+      "kind": "CONTENT",
+      "code_detected": "FI 102-1",
+      "estado_root": "FI 102",
+      "span_root": "FI 102"
+    },
+    {
+      "boe_page": 119824,
+      "img_alt": 109,
+      "kind": "CONTENT",
+      "code_detected": "FI 102-2",
+      "estado_root": "FI 102",
+      "span_root": "FI 102"
+    },
+    {
+      "boe_page": 119825,
+      "img_alt": 110,
+      "kind": "CONTENT",
+      "code_detected": "FI 103-1",
+      "estado_root": "FI 103",
+      "span_root": "FI 103"
+    },
+    {
+      "boe_page": 119826,
+      "img_alt": 111,
+      "kind": "CONTENT",
+      "code_detected": "FI 103-2",
+      "estado_root": "FI 103",
+      "span_root": "FI 103"
+    },
+    {
+      "boe_page": 119827,
+      "img_alt": 112,
+      "kind": "CONTENT",
+      "code_detected": "FI 103-2",
+      "estado_root": "FI 103",
+      "span_root": "FI 103"
+    },
+    {
+      "boe_page": 119828,
+      "img_alt": 113,
+      "kind": "CONTENT",
+      "code_detected": "FI 103-3",
+      "estado_root": "FI 103",
+      "span_root": "FI 103"
+    },
+    {
+      "boe_page": 119829,
+      "img_alt": 114,
+      "kind": "CONTENT",
+      "code_detected": "FI 103-3",
+      "estado_root": "FI 103",
+      "span_root": "FI 103"
+    },
+    {
+      "boe_page": 119830,
+      "img_alt": 115,
+      "kind": "CONTENT",
+      "code_detected": "FI 103-4",
+      "estado_root": "FI 103",
+      "span_root": "FI 103"
+    },
+    {
+      "boe_page": 119831,
+      "img_alt": 116,
+      "kind": "CONTENT",
+      "code_detected": "FI 103-4",
+      "estado_root": "FI 103",
+      "span_root": "FI 103"
+    },
+    {
+      "boe_page": 119832,
+      "img_alt": 117,
+      "kind": "CONTENT",
+      "code_detected": "FI 104",
+      "estado_root": "FI 104",
+      "span_root": "FI 104"
+    },
+    {
+      "boe_page": 119833,
+      "img_alt": 118,
+      "kind": "CONTENT",
+      "code_detected": "FI 104",
+      "estado_root": "FI 104",
+      "span_root": "FI 104"
+    },
+    {
+      "boe_page": 119834,
+      "img_alt": 119,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 104"
+    },
+    {
+      "boe_page": 119835,
+      "img_alt": 120,
+      "kind": "CONTENT",
+      "code_detected": "FI 105-1",
+      "estado_root": "FI 105",
+      "span_root": "FI 105"
+    },
+    {
+      "boe_page": 119836,
+      "img_alt": 121,
+      "kind": "CONTENT",
+      "code_detected": "FI 105-2",
+      "estado_root": "FI 105",
+      "span_root": "FI 105"
+    },
+    {
+      "boe_page": 119837,
+      "img_alt": 122,
+      "kind": "CONTENT",
+      "code_detected": "FI 106-1.1",
+      "estado_root": "FI 106",
+      "span_root": "FI 106"
+    },
+    {
+      "boe_page": 119838,
+      "img_alt": 123,
+      "kind": "CONTENT",
+      "code_detected": "FI 106-1.2",
+      "estado_root": "FI 106",
+      "span_root": "FI 106"
+    },
+    {
+      "boe_page": 119839,
+      "img_alt": 124,
+      "kind": "CONTENT",
+      "code_detected": "FI 106-2.1",
+      "estado_root": "FI 106",
+      "span_root": "FI 106"
+    },
+    {
+      "boe_page": 119840,
+      "img_alt": 125,
+      "kind": "CONTENT",
+      "code_detected": "FI 106-2.1",
+      "estado_root": "FI 106",
+      "span_root": "FI 106"
+    },
+    {
+      "boe_page": 119841,
+      "img_alt": 126,
+      "kind": "CONTENT",
+      "code_detected": "FI 106-2.2",
+      "estado_root": "FI 106",
+      "span_root": "FI 106"
+    },
+    {
+      "boe_page": 119842,
+      "img_alt": 127,
+      "kind": "CONTENT",
+      "code_detected": "FI 106-2.5",
+      "estado_root": "FI 106",
+      "span_root": "FI 106"
+    },
+    {
+      "boe_page": 119843,
+      "img_alt": 128,
+      "kind": "CONTENT",
+      "code_detected": "FI 106-3",
+      "estado_root": "FI 106",
+      "span_root": "FI 106"
+    },
+    {
+      "boe_page": 119844,
+      "img_alt": 129,
+      "kind": "CONTENT",
+      "code_detected": "FI 107",
+      "estado_root": "FI 107",
+      "span_root": "FI 107"
+    },
+    {
+      "boe_page": 119845,
+      "img_alt": 130,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 107"
+    },
+    {
+      "boe_page": 119846,
+      "img_alt": 131,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 107"
+    },
+    {
+      "boe_page": 119847,
+      "img_alt": 132,
+      "kind": "CONTENT",
+      "code_detected": "FI 107-2",
+      "estado_root": "FI 107",
+      "span_root": "FI 107"
+    },
+    {
+      "boe_page": 119848,
+      "img_alt": 133,
+      "kind": "CONTENT",
+      "code_detected": "FI 108",
+      "estado_root": "FI 108",
+      "span_root": "FI 108"
+    },
+    {
+      "boe_page": 119849,
+      "img_alt": 134,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 108"
+    },
+    {
+      "boe_page": 119850,
+      "img_alt": 135,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-1",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119851,
+      "img_alt": 136,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-1",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119852,
+      "img_alt": 137,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-1",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119853,
+      "img_alt": 138,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-1",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119854,
+      "img_alt": 139,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-2",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119855,
+      "img_alt": 140,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-2",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119856,
+      "img_alt": 141,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-2",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119857,
+      "img_alt": 142,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-2",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119858,
+      "img_alt": 143,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-3",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119859,
+      "img_alt": 144,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-3",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119860,
+      "img_alt": 145,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-3",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119861,
+      "img_alt": 146,
+      "kind": "CONTENT",
+      "code_detected": "FI 130-3",
+      "estado_root": "FI 130",
+      "span_root": "FI 130"
+    },
+    {
+      "boe_page": 119862,
+      "img_alt": 147,
+      "kind": "CONTENT",
+      "code_detected": "FI 131",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119863,
+      "img_alt": 148,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-1.2",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119864,
+      "img_alt": 149,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-2.1",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119865,
+      "img_alt": 150,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-2.2",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119866,
+      "img_alt": 151,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-3.1",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119867,
+      "img_alt": 152,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-3.1",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119868,
+      "img_alt": 153,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-3.1",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119869,
+      "img_alt": 154,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-3.2",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119870,
+      "img_alt": 155,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-3.2",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119871,
+      "img_alt": 156,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-4.1",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119872,
+      "img_alt": 157,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-4.2",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119873,
+      "img_alt": 158,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-4.2",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119874,
+      "img_alt": 159,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-4.2",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119875,
+      "img_alt": 160,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-5.1",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119876,
+      "img_alt": 161,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-5.2",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119877,
+      "img_alt": 162,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-5.3",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119878,
+      "img_alt": 163,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-5.4",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119879,
+      "img_alt": 164,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-6",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119880,
+      "img_alt": 165,
+      "kind": "CONTENT",
+      "code_detected": "FI 131-7",
+      "estado_root": "FI 131",
+      "span_root": "FI 131"
+    },
+    {
+      "boe_page": 119881,
+      "img_alt": 166,
+      "kind": "CONTENT",
+      "code_detected": "FI 132",
+      "estado_root": "FI 132",
+      "span_root": "FI 132"
+    },
+    {
+      "boe_page": 119882,
+      "img_alt": 167,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 132"
+    },
+    {
+      "boe_page": 119883,
+      "img_alt": 168,
+      "kind": "CONTENT",
+      "code_detected": "FI 133-1",
+      "estado_root": "FI 133",
+      "span_root": "FI 133"
+    },
+    {
+      "boe_page": 119884,
+      "img_alt": 169,
+      "kind": "CONTENT",
+      "code_detected": "FI 133-2",
+      "estado_root": "FI 133",
+      "span_root": "FI 133"
+    },
+    {
+      "boe_page": 119885,
+      "img_alt": 170,
+      "kind": "CONTENT",
+      "code_detected": "FI 134",
+      "estado_root": "FI 134",
+      "span_root": "FI 134"
+    },
+    {
+      "boe_page": 119886,
+      "img_alt": 171,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 134"
+    },
+    {
+      "boe_page": 119887,
+      "img_alt": 172,
+      "kind": "CONTENT",
+      "code_detected": "FI 136-1",
+      "estado_root": "FI 136",
+      "span_root": "FI 136"
+    },
+    {
+      "boe_page": 119888,
+      "img_alt": 173,
+      "kind": "CONTENT",
+      "code_detected": "FI 136-1",
+      "estado_root": "FI 136",
+      "span_root": "FI 136"
+    },
+    {
+      "boe_page": 119889,
+      "img_alt": 174,
+      "kind": "CONTENT",
+      "code_detected": "FI 136-2",
+      "estado_root": "FI 136",
+      "span_root": "FI 136"
+    },
+    {
+      "boe_page": 119890,
+      "img_alt": 175,
+      "kind": "CONTENT",
+      "code_detected": "FI 138-1.1",
+      "estado_root": "FI 138",
+      "span_root": "FI 138"
+    },
+    {
+      "boe_page": 119891,
+      "img_alt": 176,
+      "kind": "CONTENT",
+      "code_detected": "FI 138-1.2",
+      "estado_root": "FI 138",
+      "span_root": "FI 138"
+    },
+    {
+      "boe_page": 119892,
+      "img_alt": 177,
+      "kind": "CONTENT",
+      "code_detected": "FI 138-1.3",
+      "estado_root": "FI 138",
+      "span_root": "FI 138"
+    },
+    {
+      "boe_page": 119893,
+      "img_alt": 178,
+      "kind": "CONTENT",
+      "code_detected": "FI 138-2",
+      "estado_root": "FI 138",
+      "span_root": "FI 138"
+    },
+    {
+      "boe_page": 119894,
+      "img_alt": 179,
+      "kind": "CONTENT",
+      "code_detected": "FI 138-3",
+      "estado_root": "FI 138",
+      "span_root": "FI 138"
+    },
+    {
+      "boe_page": 119895,
+      "img_alt": 180,
+      "kind": "CONTENT",
+      "code_detected": "FI 139",
+      "estado_root": "FI 139",
+      "span_root": "FI 139"
+    },
+    {
+      "boe_page": 119896,
+      "img_alt": 181,
+      "kind": "CONTENT",
+      "code_detected": "FI 139",
+      "estado_root": "FI 139",
+      "span_root": "FI 139"
+    },
+    {
+      "boe_page": 119897,
+      "img_alt": 182,
+      "kind": "CONTENT",
+      "code_detected": "FI 140-1",
+      "estado_root": "FI 140",
+      "span_root": "FI 140"
+    },
+    {
+      "boe_page": 119898,
+      "img_alt": 183,
+      "kind": "CONTENT",
+      "code_detected": "FI 140-1",
+      "estado_root": "FI 140",
+      "span_root": "FI 140"
+    },
+    {
+      "boe_page": 119899,
+      "img_alt": 184,
+      "kind": "CONTENT",
+      "code_detected": "FI 140-1",
+      "estado_root": "FI 140",
+      "span_root": "FI 140"
+    },
+    {
+      "boe_page": 119900,
+      "img_alt": 185,
+      "kind": "CONTENT",
+      "code_detected": "FI 140-2",
+      "estado_root": "FI 140",
+      "span_root": "FI 140"
+    },
+    {
+      "boe_page": 119901,
+      "img_alt": 186,
+      "kind": "CONTENT",
+      "code_detected": "FI 140-3",
+      "estado_root": "FI 140",
+      "span_root": "FI 140"
+    },
+    {
+      "boe_page": 119902,
+      "img_alt": 187,
+      "kind": "CONTENT",
+      "code_detected": "FI 141-1",
+      "estado_root": "FI 141",
+      "span_root": "FI 141"
+    },
+    {
+      "boe_page": 119903,
+      "img_alt": 188,
+      "kind": "CONTENT",
+      "code_detected": "FI 141-2.1",
+      "estado_root": "FI 141",
+      "span_root": "FI 141"
+    },
+    {
+      "boe_page": 119904,
+      "img_alt": 189,
+      "kind": "CONTENT",
+      "code_detected": "FI 141-2.2",
+      "estado_root": "FI 141",
+      "span_root": "FI 141"
+    },
+    {
+      "boe_page": 119905,
+      "img_alt": 190,
+      "kind": "CONTENT",
+      "code_detected": "FI 141-2.3",
+      "estado_root": "FI 141",
+      "span_root": "FI 141"
+    },
+    {
+      "boe_page": 119906,
+      "img_alt": 191,
+      "kind": "CONTENT",
+      "code_detected": "FI 141-3",
+      "estado_root": "FI 141",
+      "span_root": "FI 141"
+    },
+    {
+      "boe_page": 119907,
+      "img_alt": 192,
+      "kind": "CONTENT",
+      "code_detected": "FI 142",
+      "estado_root": "FI 142",
+      "span_root": "FI 142"
+    },
+    {
+      "boe_page": 119908,
+      "img_alt": 193,
+      "kind": "CONTENT",
+      "code_detected": "FI 142-2",
+      "estado_root": "FI 142",
+      "span_root": "FI 142"
+    },
+    {
+      "boe_page": 119909,
+      "img_alt": 194,
+      "kind": "CONTENT",
+      "code_detected": "FI 143",
+      "estado_root": "FI 143",
+      "span_root": "FI 143"
+    },
+    {
+      "boe_page": 119910,
+      "img_alt": 195,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 143"
+    },
+    {
+      "boe_page": 119911,
+      "img_alt": 196,
+      "kind": "CONTENT",
+      "code_detected": "FI 150-1",
+      "estado_root": "FI 150",
+      "span_root": "FI 150"
+    },
+    {
+      "boe_page": 119912,
+      "img_alt": 197,
+      "kind": "CONTENT",
+      "code_detected": "FI 150-2",
+      "estado_root": "FI 150",
+      "span_root": "FI 150"
+    },
+    {
+      "boe_page": 119913,
+      "img_alt": 198,
+      "kind": "CONTENT",
+      "code_detected": "FI 150-4",
+      "estado_root": "FI 150",
+      "span_root": "FI 150"
+    },
+    {
+      "boe_page": 119914,
+      "img_alt": 199,
+      "kind": "CONTENT",
+      "code_detected": "FI 150-7",
+      "estado_root": "FI 150",
+      "span_root": "FI 150"
+    },
+    {
+      "boe_page": 119915,
+      "img_alt": 200,
+      "kind": "CONTENT",
+      "code_detected": "FI 150-7",
+      "estado_root": "FI 150",
+      "span_root": "FI 150"
+    },
+    {
+      "boe_page": 119916,
+      "img_alt": 201,
+      "kind": "CONTENT",
+      "code_detected": "FI 150-8",
+      "estado_root": "FI 150",
+      "span_root": "FI 150"
+    },
+    {
+      "boe_page": 119917,
+      "img_alt": 202,
+      "kind": "CONTENT",
+      "code_detected": "FI 150-9",
+      "estado_root": "FI 150",
+      "span_root": "FI 150"
+    },
+    {
+      "boe_page": 119918,
+      "img_alt": 203,
+      "kind": "CONTENT",
+      "code_detected": "FI 160-1",
+      "estado_root": "FI 160",
+      "span_root": "FI 160"
+    },
+    {
+      "boe_page": 119919,
+      "img_alt": 204,
+      "kind": "CONTENT",
+      "code_detected": "FI 160-2",
+      "estado_root": "FI 160",
+      "span_root": "FI 160"
+    },
+    {
+      "boe_page": 119920,
+      "img_alt": 205,
+      "kind": "CONTENT",
+      "code_detected": "FI 160-3",
+      "estado_root": "FI 160",
+      "span_root": "FI 160"
+    },
+    {
+      "boe_page": 119921,
+      "img_alt": 206,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 160"
+    },
+    {
+      "boe_page": 119922,
+      "img_alt": 207,
+      "kind": "CONTENT",
+      "code_detected": "FI 160-4.1",
+      "estado_root": "FI 160",
+      "span_root": "FI 160"
+    },
+    {
+      "boe_page": 119923,
+      "img_alt": 208,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 160"
+    },
+    {
+      "boe_page": 119924,
+      "img_alt": 209,
+      "kind": "CONTENT",
+      "code_detected": "FI 160-4.2",
+      "estado_root": "FI 160",
+      "span_root": "FI 160"
+    },
+    {
+      "boe_page": 119925,
+      "img_alt": 210,
+      "kind": "CONTENT",
+      "code_detected": "FI 161",
+      "estado_root": "FI 161",
+      "span_root": "FI 161"
+    },
+    {
+      "boe_page": 119926,
+      "img_alt": 211,
+      "kind": "CONTENT",
+      "code_detected": "FI 162",
+      "estado_root": "FI 162",
+      "span_root": "FI 162"
+    },
+    {
+      "boe_page": 119927,
+      "img_alt": 212,
+      "kind": "CONTENT",
+      "code_detected": "FI 162-2",
+      "estado_root": "FI 162",
+      "span_root": "FI 162"
+    },
+    {
+      "boe_page": 119928,
+      "img_alt": 213,
+      "kind": "CONTENT",
+      "code_detected": "FI 180",
+      "estado_root": "FI 180",
+      "span_root": "FI 180"
+    },
+    {
+      "boe_page": 119929,
+      "img_alt": 214,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 180"
+    },
+    {
+      "boe_page": 119930,
+      "img_alt": 215,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 180"
+    },
+    {
+      "boe_page": 119931,
+      "img_alt": 216,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "FI 180"
+    },
+    {
+      "boe_page": 119932,
+      "img_alt": 217,
+      "kind": "CONTENT",
+      "code_detected": "FI 182",
+      "estado_root": "FI 182",
+      "span_root": "FI 182"
+    },
+    {
+      "boe_page": 119933,
+      "img_alt": 218,
+      "kind": "INDEX",
+      "code_detected": null,
+      "estado_root": null
+    },
+    {
+      "boe_page": 119934,
+      "img_alt": 219,
+      "kind": "CONTENT",
+      "code_detected": "FC 140-1",
+      "estado_root": "FC 140",
+      "span_root": "FC 140"
+    },
+    {
+      "boe_page": 119935,
+      "img_alt": 220,
+      "kind": "CONTENT",
+      "code_detected": "FC 140-1",
+      "estado_root": "FC 140",
+      "span_root": "FC 140"
+    },
+    {
+      "boe_page": 119936,
+      "img_alt": 221,
+      "kind": "CONTENT",
+      "code_detected": "FC 140-1",
+      "estado_root": "FC 140",
+      "span_root": "FC 140"
+    },
+    {
+      "boe_page": 119937,
+      "img_alt": 222,
+      "kind": "CONTENT",
+      "code_detected": "FC 140-2",
+      "estado_root": "FC 140",
+      "span_root": "FC 140"
+    },
+    {
+      "boe_page": 119938,
+      "img_alt": 223,
+      "kind": "CONTENT",
+      "code_detected": "FC 140-3",
+      "estado_root": "FC 140",
+      "span_root": "FC 140"
+    },
+    {
+      "boe_page": 119939,
+      "img_alt": 224,
+      "kind": "CONTENT",
+      "code_detected": "FC 200",
+      "estado_root": "FC 200",
+      "span_root": "FC 200"
+    },
+    {
+      "boe_page": 119940,
+      "img_alt": 225,
+      "kind": "CONTENT",
+      "code_detected": "FC 201-1.1",
+      "estado_root": "FC 201",
+      "span_root": "FC 201"
+    },
+    {
+      "boe_page": 119941,
+      "img_alt": 226,
+      "kind": "CONTENT",
+      "code_detected": "FC 201-1.2",
+      "estado_root": "FC 201",
+      "span_root": "FC 201"
+    },
+    {
+      "boe_page": 119942,
+      "img_alt": 227,
+      "kind": "CONTENT",
+      "code_detected": "FC 201-1.3",
+      "estado_root": "FC 201",
+      "span_root": "FC 201"
+    },
+    {
+      "boe_page": 119943,
+      "img_alt": 228,
+      "kind": "CONTENT",
+      "code_detected": "FC 201-2",
+      "estado_root": "FC 201",
+      "span_root": "FC 201"
+    },
+    {
+      "boe_page": 119944,
+      "img_alt": 229,
+      "kind": "CONTENT",
+      "code_detected": "FC 201-3",
+      "estado_root": "FC 201",
+      "span_root": "FC 201"
+    },
+    {
+      "boe_page": 119945,
+      "img_alt": 230,
+      "kind": "CONTENT",
+      "code_detected": "FC 202",
+      "estado_root": "FC 202",
+      "span_root": "FC 202"
+    },
+    {
+      "boe_page": 119946,
+      "img_alt": 231,
+      "kind": "CONTENT",
+      "code_detected": "FC 202-2",
+      "estado_root": "FC 202",
+      "span_root": "FC 202"
+    },
+    {
+      "boe_page": 119947,
+      "img_alt": 232,
+      "kind": "CONTENT",
+      "code_detected": "FC 202-3",
+      "estado_root": "FC 202",
+      "span_root": "FC 202"
+    },
+    {
+      "boe_page": 119948,
+      "img_alt": 233,
+      "kind": "INDEX",
+      "code_detected": null,
+      "estado_root": null
+    },
+    {
+      "boe_page": 119949,
+      "img_alt": 234,
+      "kind": "CONTENT",
+      "code_detected": "UEM 1",
+      "estado_root": "UEM 1",
+      "span_root": "UEM 1"
+    },
+    {
+      "boe_page": 119950,
+      "img_alt": 235,
+      "kind": "CONTENT",
+      "code_detected": "UEM 1",
+      "estado_root": "UEM 1",
+      "span_root": "UEM 1"
+    },
+    {
+      "boe_page": 119951,
+      "img_alt": 236,
+      "kind": "CONTENT",
+      "code_detected": "UEM 1",
+      "estado_root": "UEM 1",
+      "span_root": "UEM 1"
+    },
+    {
+      "boe_page": 119952,
+      "img_alt": 237,
+      "kind": "CONTENT",
+      "code_detected": "UEM 2",
+      "estado_root": "UEM 2",
+      "span_root": "UEM 2"
+    },
+    {
+      "boe_page": 119953,
+      "img_alt": 238,
+      "kind": "CONTENT",
+      "code_detected": "UEM 2",
+      "estado_root": "UEM 2",
+      "span_root": "UEM 2"
+    },
+    {
+      "boe_page": 119954,
+      "img_alt": 239,
+      "kind": "CONTENT",
+      "code_detected": "UEM 2",
+      "estado_root": "UEM 2",
+      "span_root": "UEM 2"
+    },
+    {
+      "boe_page": 119955,
+      "img_alt": 240,
+      "kind": "CONTENT",
+      "code_detected": "UEM 3",
+      "estado_root": "UEM 3",
+      "span_root": "UEM 3"
+    },
+    {
+      "boe_page": 119956,
+      "img_alt": 241,
+      "kind": "CONTENT",
+      "code_detected": "UEM 4",
+      "estado_root": "UEM 4",
+      "span_root": "UEM 4"
+    },
+    {
+      "boe_page": 119957,
+      "img_alt": 242,
+      "kind": "CONTENT",
+      "code_detected": "UEM 5",
+      "estado_root": "UEM 5",
+      "span_root": "UEM 5"
+    },
+    {
+      "boe_page": 119958,
+      "img_alt": 243,
+      "kind": "CONTENT",
+      "code_detected": "UEM 6",
+      "estado_root": "UEM 6",
+      "span_root": "UEM 6"
+    },
+    {
+      "boe_page": 119959,
+      "img_alt": 244,
+      "kind": "CONTENT",
+      "code_detected": "UEM 7",
+      "estado_root": "UEM 7",
+      "span_root": "UEM 7"
+    },
+    {
+      "boe_page": 119960,
+      "img_alt": 245,
+      "kind": "CONTENT",
+      "code_detected": "UEM 8",
+      "estado_root": "UEM 8",
+      "span_root": "UEM 8"
+    },
+    {
+      "boe_page": 119961,
+      "img_alt": 246,
+      "kind": "CONTENT",
+      "code_detected": "UEM 9",
+      "estado_root": "UEM 9",
+      "span_root": "UEM 9"
+    },
+    {
+      "boe_page": 119962,
+      "img_alt": 247,
+      "kind": "CONTENT",
+      "code_detected": "UEM 10",
+      "estado_root": "UEM 10",
+      "span_root": "UEM 10"
+    },
+    {
+      "boe_page": 119963,
+      "img_alt": 248,
+      "kind": "CONTENT",
+      "code_detected": "UEM 11",
+      "estado_root": "UEM 11",
+      "span_root": "UEM 11"
+    },
+    {
+      "boe_page": 119964,
+      "img_alt": 249,
+      "kind": "CONTENT",
+      "code_detected": "UEM 12",
+      "estado_root": "UEM 12",
+      "span_root": "UEM 12"
+    },
+    {
+      "boe_page": 119965,
+      "img_alt": 250,
+      "kind": "CONTENT",
+      "code_detected": "UEM 12",
+      "estado_root": "UEM 12",
+      "span_root": "UEM 12"
+    },
+    {
+      "boe_page": 119966,
+      "img_alt": 251,
+      "kind": "CONTENT",
+      "code_detected": "UEM 13",
+      "estado_root": "UEM 13",
+      "span_root": "UEM 13"
+    },
+    {
+      "boe_page": 119967,
+      "img_alt": 252,
+      "kind": "CONTENT",
+      "code_detected": "ANEJO 7",
+      "estado_root": "ANEJO 7",
+      "span_root": "ANEJO 7"
+    },
+    {
+      "boe_page": 119968,
+      "img_alt": 253,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 7"
+    },
+    {
+      "boe_page": 119969,
+      "img_alt": 254,
+      "kind": "CONTENT",
+      "code_detected": "ANEJO 7.2",
+      "estado_root": "ANEJO 7.2",
+      "span_root": "ANEJO 7.2"
+    },
+    {
+      "boe_page": 119970,
+      "img_alt": 255,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 7.2"
+    },
+    {
+      "boe_page": 119971,
+      "img_alt": 256,
+      "kind": "CONTENT",
+      "code_detected": "ANEJO 7.3",
+      "estado_root": "ANEJO 7.3",
+      "span_root": "ANEJO 7.3"
+    },
+    {
+      "boe_page": 119972,
+      "img_alt": 257,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 7.3"
+    },
+    {
+      "boe_page": 119973,
+      "img_alt": 258,
+      "kind": "CONTENT",
+      "code_detected": "ANEJO 8",
+      "estado_root": "ANEJO 8",
+      "span_root": "ANEJO 8"
+    },
+    {
+      "boe_page": 119974,
+      "img_alt": 259,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 8"
+    },
+    {
+      "boe_page": 119975,
+      "img_alt": 260,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 8"
+    },
+    {
+      "boe_page": 119976,
+      "img_alt": 261,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 8"
+    },
+    {
+      "boe_page": 119977,
+      "img_alt": 262,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 8"
+    },
+    {
+      "boe_page": 119978,
+      "img_alt": 263,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 8"
+    },
+    {
+      "boe_page": 119979,
+      "img_alt": 264,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 8"
+    },
+    {
+      "boe_page": 119980,
+      "img_alt": 265,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 8"
+    },
+    {
+      "boe_page": 119981,
+      "img_alt": 266,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 8"
+    },
+    {
+      "boe_page": 119982,
+      "img_alt": 267,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 8"
+    },
+    {
+      "boe_page": 119983,
+      "img_alt": 268,
+      "kind": "CONTENT",
+      "code_detected": "ANEJO 8.2",
+      "estado_root": "ANEJO 8.2",
+      "span_root": "ANEJO 8.2"
+    },
+    {
+      "boe_page": 119984,
+      "img_alt": 269,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 8.2"
+    },
+    {
+      "boe_page": 119985,
+      "img_alt": 270,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 8.2"
+    },
+    {
+      "boe_page": 119986,
+      "img_alt": 271,
+      "kind": "CONTENT",
+      "code_detected": "ANEJO 8.3",
+      "estado_root": "ANEJO 8.3",
+      "span_root": "ANEJO 8.3"
+    },
+    {
+      "boe_page": 119987,
+      "img_alt": 272,
+      "kind": "CONTENT",
+      "code_detected": "ANEJO 9",
+      "estado_root": "ANEJO 9",
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119988,
+      "img_alt": 273,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119989,
+      "img_alt": 274,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119990,
+      "img_alt": 275,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119991,
+      "img_alt": 276,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119992,
+      "img_alt": 277,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119993,
+      "img_alt": 278,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119994,
+      "img_alt": 279,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119995,
+      "img_alt": 280,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119996,
+      "img_alt": 281,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119997,
+      "img_alt": 282,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119998,
+      "img_alt": 283,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 119999,
+      "img_alt": 284,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120000,
+      "img_alt": 285,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120001,
+      "img_alt": 286,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120002,
+      "img_alt": 287,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120003,
+      "img_alt": 288,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120004,
+      "img_alt": 289,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120005,
+      "img_alt": 290,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120006,
+      "img_alt": 291,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120007,
+      "img_alt": 292,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120008,
+      "img_alt": 293,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120009,
+      "img_alt": 294,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120010,
+      "img_alt": 295,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120011,
+      "img_alt": 296,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120012,
+      "img_alt": 297,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120013,
+      "img_alt": 298,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120014,
+      "img_alt": 299,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120015,
+      "img_alt": 300,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120016,
+      "img_alt": 301,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120017,
+      "img_alt": 302,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120018,
+      "img_alt": 303,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120019,
+      "img_alt": 304,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120020,
+      "img_alt": 305,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120021,
+      "img_alt": 306,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120022,
+      "img_alt": 307,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120023,
+      "img_alt": 308,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120024,
+      "img_alt": 309,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120025,
+      "img_alt": 310,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120026,
+      "img_alt": 311,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120027,
+      "img_alt": 312,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120028,
+      "img_alt": 313,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120029,
+      "img_alt": 314,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120030,
+      "img_alt": 315,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120031,
+      "img_alt": 316,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120032,
+      "img_alt": 317,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120033,
+      "img_alt": 318,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120034,
+      "img_alt": 319,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120035,
+      "img_alt": 320,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120036,
+      "img_alt": 321,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120037,
+      "img_alt": 322,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120038,
+      "img_alt": 323,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120039,
+      "img_alt": 324,
+      "kind": "CONTENT",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120040,
+      "img_alt": 325,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    },
+    {
+      "boe_page": 120041,
+      "img_alt": 326,
+      "kind": "CONTINUATION",
+      "code_detected": null,
+      "estado_root": null,
+      "span_root": "ANEJO 9"
+    }
+  ]
+}

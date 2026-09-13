@@ -429,6 +429,53 @@ material pero existen clases de cambio que requieren tratamiento diferenciado
 
 ---
 
+## 12-ter. Addendum — G0-C.1 Annex/State Evidence Probe
+
+> Este addendum corrige el encuadre de la limitación de anejos tras el probe
+> posterior (`evidence/g0c1/`, `scripts/g0c1/`, `tests/g0c1/`). El veredicto
+> `PARTIAL` de G0-C se mantiene para la reconstrucción **textual** `old → new`.
+
+La formulación correcta de la limitación, ya no "reconstrucción imposible":
+
+```text
+old textual representation    NOT_PROVEN   (el XML porta <img>, sin texto)
+old official representation   PROVEN       (imagen oficial de página BOE,
+                                            SHA-256, ligada a estado y página)
+change declaration            PROVEN       (cláusula del modificador, literal)
+semantic old→new diff         NOT_PROVEN   (requeriría interpretar la imagen)
+```
+
+Hallazgos que modifican el análisis anterior:
+
+- El PDF oficial contiene **capa de texto embebida** (OCR del propio BOE, no
+  nuestro); el árbol `/Pages` ordena las 588 páginas = 119454–120041.
+- `doc.php` numera las 326 imágenes con `alt="1..326"` (OBSERVED); la firma
+  termina en p. 119715 → `alt=N ↔ página BOE 119715+N` (DERIVED).
+- La corrección BOE-A-2018-2041 cita literalmente **(página, estado)** en 10
+  ítems de anejos → 10/10 anclas independientes confirman el binding.
+- Resultado: 99 estados → rangos de página → imágenes, en `annex-map.json`.
+- Incluso los modificadores publican estados como imágenes (C.2/2020:
+  9 `<p imagen>` en sus anejos) → la cadena debe admitir `IMAGE → IMAGE`.
+- En cadenas, el hop posterior puede ser textual en ambos lados
+  (FI 142-1.1: C.2/2018 la republicó como `<table>`; C.1/2025 la vuelve a
+  sustituir → hop 2 = `TEXT_DIFF_PROVEN`).
+
+Seis casos en `evidence/g0c1/state-cases.json` demuestran la cadena factual
+`estado → old repr (imagen, SHA) → MODIFIED_BY → new repr (tabla/texto/
+imagen, SHA)` con `diff_level ∈ {TEXT_DIFF_PROVEN, VISUAL_PREDECESSOR_PROVEN,
+DECLARED_CHANGE_PROVEN, SEMANTIC_DIFF_NOT_AVAILABLE}`.
+
+Consecuencia: el historial **factual** de modificaciones es reconstruible al
+completo; lo que permanece no probado es el *diff textual de contenido* sobre
+lados-imagen. Ítem DERIVED "la relación imagen↔estado no es resoluble" queda
+**superado**: es resoluble a nivel de página, anclado por la corrección.
+
+Implicación de diseño (no implementada aquí): los bloques necesitan
+`representation_kind` (`TEXT`/`TABLE`/`IMAGE`/`PDF_PAGE`) +
+`content_sha256` + `artifact_locator`; `text_content` nullable.
+
+---
+
 ## 12-bis. Comparativa de estrategias
 
 Dimensiones medidas contra los canales ya caracterizados (no puntuación subjetiva):

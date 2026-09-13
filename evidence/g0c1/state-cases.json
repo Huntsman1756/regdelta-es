@@ -1,0 +1,341 @@
+{
+  "schema": "regdelta.g0c1.state-cases/v1",
+  "target_instrument": "BOE-A-2017-14334",
+  "diff_level_enum": [
+    "TEXT_DIFF_PROVEN",
+    "VISUAL_PREDECESSOR_PROVEN",
+    "DECLARED_CHANGE_PROVEN",
+    "SEMANTIC_DIFF_NOT_AVAILABLE"
+  ],
+  "confidence_source": "structural source-availability rule, not an LLM",
+  "cases": [
+    {
+      "case_id": "S1_estado_FI102-2_correction",
+      "target_instrument": "BOE-A-2017-14334",
+      "modifier_instrument": "BOE-A-2018-2041",
+      "kind": "CORRECTION",
+      "target_locator": "Anejo 4, estado FI 102-2",
+      "relation_raw": {
+        "palabra": "CORRECCIÓN de errores",
+        "texto": "y erratas en BOE núm. 41 de 15 de febrero de 2018"
+      },
+      "operation_raw": "5. En la página 119824, en el estado FI 102-2 se eliminan las líneas «Valorados por su coste» y «Valorados por su valor razonable» a continuación de la línea «No cotizados» del bloque correspondiente a «Activos financieros a valor razonable con cambios en otro resultado global».",
+      "publication_date": "20180215",
+      "effective_date": null,
+      "old_representation": {
+        "kind": "IMAGE",
+        "artifact_url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50444.png",
+        "boe_page": 119824,
+        "sha256": "4180025da2423ee259a401adc2619aedad8a9c391f11355554cf1d9de67c9de5",
+        "size_bytes": 207066,
+        "raw_name": "boe_annex_img__119824__alt109",
+        "binding": "DERIVED-anchored: doc.php alt sequence -> BOE page; validated by correction-cited pages (annex-map.json, 10/10 anchors) and by the PDF embedded text layer naming the estado on the page",
+        "granularity_note": "page-level: the image is the whole BOE page containing FI 102-2; sub-page regions are not separable without rendering"
+      },
+      "new_representation": {
+        "kind": "TEXT_DECLARATION",
+        "source": "BOE-A-2018-2041 item 5: lines literally named are deleted",
+        "text_sha256": "8c7d13bc1abc8614ec8117ff7d4715d8e583248cb25f46274d07c99081f47a37",
+        "deleted_lines_literal": [
+          "Valorados por su coste",
+          "Valorados por su valor razonable",
+          "No cotizados",
+          "Activos financieros a valor razonable con cambios en otro resultado global"
+        ]
+      },
+      "change_declaration": "5. En la página 119824, en el estado FI 102-2 se eliminan las líneas «Valorados por su coste» y «Valorados por su valor razonable» a continuación de la línea «No cotizados» del bloque correspondiente a «Activos financieros a valor razonable con cambios en otro resultado global».",
+      "diff_level": [
+        "DECLARED_CHANGE_PROVEN",
+        "VISUAL_PREDECESSOR_PROVEN",
+        "SEMANTIC_DIFF_NOT_AVAILABLE"
+      ],
+      "anchor": "OBSERVED: the correction itself cites 'página 119824 ... estado FI 102-2'; the PDF text layer on that page shows 'FI 102-2' and the image bound to it shows the FI 102-2 form",
+      "confidence": "PROVEN",
+      "evidence_urls": [
+        "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-2041",
+        "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50444.png"
+      ]
+    },
+    {
+      "case_id": "S2_estado_FI131-2.2_correction",
+      "target_instrument": "BOE-A-2017-14334",
+      "modifier_instrument": "BOE-A-2018-2041",
+      "kind": "CORRECTION",
+      "target_locator": "Anejo 4, estado FI 131-2.2",
+      "relation_raw": {
+        "palabra": "CORRECCIÓN de errores",
+        "texto": "y erratas en BOE núm. 41 de 15 de febrero de 2018"
+      },
+      "operation_raw": "9. En la página 119865, en el estado FI 131-2.2 se añade la nota (b) en la columna de «Exposiciones. Riesgo de insolvencia», con el siguiente texto: «(b) Recoge las exposiciones fuera de balance que no estén sujetas a cobertura por riesgo país. Las sujetas a cobertura por riesgo país, se incluirán íntegramente en la columna siguiente, con independencia de que sus provisiones se detallen separando la parte correspondiente a riesgo de insolvencia y la parte correspondiente a riesgo país.»",
+      "publication_date": "20180215",
+      "effective_date": null,
+      "old_representation": {
+        "kind": "IMAGE",
+        "artifact_url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51761.png",
+        "boe_page": 119865,
+        "sha256": "66fd7e8a9878060d83ea409841d96d4a2169c7aba9b995ba0ac4adc309af16ce",
+        "size_bytes": 335358,
+        "raw_name": "boe_annex_img__119865__alt150",
+        "binding": "DERIVED-anchored: doc.php alt sequence -> BOE page; validated by correction-cited pages (annex-map.json, 10/10 anchors) and by the PDF embedded text layer naming the estado on the page",
+        "granularity_note": "page-level: the image is the whole BOE page containing FI 131-2.2; sub-page regions are not separable without rendering"
+      },
+      "new_representation": {
+        "kind": "TEXT",
+        "source": "BOE-A-2018-2041 item 9: literal nota (b) added",
+        "text": "«(b) Recoge las exposiciones fuera de balance que no estén sujetas a cobertura por riesgo país. Las sujetas a cobertura por riesgo país, se incluirán íntegramente en la columna siguiente, con independencia de que sus provisiones se detallen separando la parte correspondiente a riesgo de insolvencia y la parte correspondiente a riesgo país.»",
+        "text_sha256": "adf2b0f234287e2970588044b5b15c658fc00eceb25384f762151ce5323d5969"
+      },
+      "change_declaration": "9. En la página 119865, en el estado FI 131-2.2 se añade la nota (b) en la columna de «Exposiciones. Riesgo de insolvencia», con el siguiente texto:",
+      "diff_level": [
+        "DECLARED_CHANGE_PROVEN",
+        "VISUAL_PREDECESSOR_PROVEN",
+        "SEMANTIC_DIFF_NOT_AVAILABLE"
+      ],
+      "anchor": "OBSERVED: correction cites 'página 119865 ... estado FI 131-2.2'",
+      "confidence": "PROVEN",
+      "evidence_urls": [
+        "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-2041",
+        "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51761.png"
+      ]
+    },
+    {
+      "case_id": "S3_estado_FI142-1.1_chained",
+      "target_instrument": "BOE-A-2017-14334",
+      "kind": "MODIFICATION_CHAIN",
+      "target_locator": "Anejo 4, estado FI 142-1.1",
+      "hops": [
+        {
+          "modifier_instrument": "BOE-A-2018-17880",
+          "operation_raw": "",
+          "publication_date": "20181228",
+          "effective_date": "20190101",
+          "old_representation": {
+            "kind": "IMAGE",
+            "artifact_url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53108.png",
+            "boe_page": 119907,
+            "sha256": "16a6381e2938616d04dc19bb8c9fb6bc3bfe2e402d4565ef6b5c9c297efbb334",
+            "size_bytes": 305771,
+            "raw_name": "boe_annex_img__119907__alt192",
+            "binding": "DERIVED-anchored: doc.php alt sequence -> BOE page; validated by correction-cited pages (annex-map.json, 10/10 anchors) and by the PDF embedded text layer naming the estado on the page",
+            "granularity_note": "page-level: the image is the whole BOE page containing FI 142-1.1; sub-page regions are not separable without rendering"
+          },
+          "new_representation": {
+            "kind": "TABLE",
+            "source": "BOE-A-2018-17880 daily XML, <texto> children [527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539] (anejo: FI 142-1.1 header + table + notes)",
+            "sha256": "e9b789072714eaeb06c087df9b0c4a79fc0eb2566e7e85f3c0984e7ba3bc7153",
+            "text_sha256": "2eff59023a511e2498d717c46c8c04c8de098634c86794550eb9bac8de96118d",
+            "size_bytes": 3933,
+            "raw_name": "boe_diario_xml__BOE-A-2018-17880",
+            "preview": "FI 142-1.1 Datos para los edificios y terrenos(a)\n(Unidades de euros)\nCódigo del activo adjudicado(b) Cartera contable(c) Saldos a fin de trimestre (grupo) Saldos a fin de trimestre (tenedora) Importe en libros bruto(d) Deterioro de valor a"
+          },
+          "diff_level": [
+            "VISUAL_PREDECESSOR_PROVEN",
+            "SEMANTIC_DIFF_NOT_AVAILABLE"
+          ]
+        },
+        {
+          "modifier_instrument": "BOE-A-2025-26847",
+          "operation_raw": "",
+          "publication_date": "20251229",
+          "effective_date": "20251230",
+          "old_representation": {
+            "kind": "TABLE",
+            "source": "BOE-A-2018-17880 annexed FI 142-1.1 (chained: prior new becomes current old)",
+            "sha256": "e9b789072714eaeb06c087df9b0c4a79fc0eb2566e7e85f3c0984e7ba3bc7153",
+            "text_sha256": "2eff59023a511e2498d717c46c8c04c8de098634c86794550eb9bac8de96118d",
+            "raw_name": "boe_diario_xml__BOE-A-2018-17880"
+          },
+          "new_representation": {
+            "kind": "TABLE",
+            "source": "BOE-A-2025-26847 daily XML, <texto> children [216, 217] (anejo: FI 142-1.1 header + table)",
+            "sha256": "ebdc631afe829d4e43fca760e61b1244f089cb0d9249cbfde69b3a96822e23e8",
+            "text_sha256": "1c21d5acb86629e11c9296020a85c439fe9abbe43e72fcd7eb75152f2439ef98",
+            "size_bytes": 5172,
+            "raw_name": "boe_diario_xml__BOE-A-2025-26847",
+            "preview": "FI 142-1.1 DATOS PARA LOS EDIFICIOS Y TERRENOS (A)\n(Unidades de euros) Código del activo adjudicado Cartera contable Método de estimación de los descuentos sobre la valoración del tasador Saldos a fin de trimestre (grupo) Saldos a fin de tr"
+          },
+          "diff_level": [
+            "TEXT_DIFF_PROVEN"
+          ]
+        }
+      ],
+      "relation_raw": [
+        {
+          "palabra": "SE MODIFICA",
+          "texto": "determinados preceptos y SE SUSTITUYE la norma 33, por Circular de 21 de diciembre de 2018"
+        },
+        {
+          "palabra": "SE MODIFICA",
+          "texto": ", en la forma indicada, determinados preceptos, por Circular 1/2025, de 19 de diciembre de 2025"
+        }
+      ],
+      "confidence": "PROVEN",
+      "note": "hop 2 is fully textual on both sides because the 2018 modifier republished the estado as a structured table; the image-bound predecessor only limits hop 1",
+      "evidence_urls": [
+        "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17880",
+        "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2025-26847",
+        "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53108.png"
+      ],
+      "evidence_raw_sha256": [
+        "349d4cf294843190096bf8ebe5c945d7a0b7b3d299f2a4440e7082d087ea8ff5",
+        "689fbe5e47569045d3bbd99738cae8a4c31583d733ade0e454ed4eb08ca9aa91",
+        "16a6381e2938616d04dc19bb8c9fb6bc3bfe2e402d4565ef6b5c9c297efbb334"
+      ]
+    },
+    {
+      "case_id": "S4_estado_FI105_substitution",
+      "target_instrument": "BOE-A-2017-14334",
+      "modifier_instrument": "BOE-A-2025-26847",
+      "kind": "MODIFICATION",
+      "target_locator": "Anejo 4, estado FI 105",
+      "relation_raw": {
+        "palabra": "SE MODIFICA",
+        "texto": ", en la forma indicada, determinados preceptos, por Circular 1/2025, de 19 de diciembre de 2025"
+      },
+      "operation_raw": "",
+      "publication_date": "20251229",
+      "effective_date": "20251230",
+      "old_representation": {
+        "kind": "IMAGE",
+        "pages": [
+          {
+            "kind": "IMAGE",
+            "artifact_url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50798.png",
+            "boe_page": 119835,
+            "sha256": "911a864b8567472e015b2cf14390493cd2903e0f7668bc893513c9367f8127f0",
+            "size_bytes": 421548,
+            "raw_name": "boe_annex_img__119835__alt120",
+            "binding": "DERIVED-anchored: doc.php alt sequence -> BOE page; validated by correction-cited pages (annex-map.json, 10/10 anchors) and by the PDF embedded text layer naming the estado on the page",
+            "granularity_note": "page-level: the image is the whole BOE page containing FI 105-1; sub-page regions are not separable without rendering"
+          },
+          {
+            "kind": "IMAGE",
+            "artifact_url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50829.png",
+            "boe_page": 119836,
+            "sha256": "7d58c4df6e5dd59afc86c0878ae3ccde1f1e687870718f04fee24008a8337fb9",
+            "size_bytes": 374907,
+            "raw_name": "boe_annex_img__119836__alt121",
+            "binding": "DERIVED-anchored: doc.php alt sequence -> BOE page; validated by correction-cited pages (annex-map.json, 10/10 anchors) and by the PDF embedded text layer naming the estado on the page",
+            "granularity_note": "page-level: the image is the whole BOE page containing FI 105-2; sub-page regions are not separable without rendering"
+          }
+        ],
+        "page_span": [
+          119835,
+          119836
+        ]
+      },
+      "new_representation": {
+        "kind": "TABLE",
+        "source": "BOE-A-2025-26847 daily XML, <texto> children [212, 213] (anejo: FI 105 header + table)",
+        "sha256": "fc84fd816a3bc0fa395f0387d812c29eba35a0c0c35c969e718ceb1d2794ab53",
+        "text_sha256": "70383918f5c198f8d8b42ae43aa8fe368bd8c401db0d40a9ccc27c1793cd4eb4",
+        "size_bytes": 17105,
+        "raw_name": "boe_diario_xml__BOE-A-2025-26847",
+        "preview": "FI 105 DESGLOSE DE DERIVADOS: OPERACIONES REALIZADAS, VARIACIONES DE PRECIOS Y VALORES RAZONABLES. OPERACIONES PROPIAS. INFORMACIÓN MENSUAL (NEGOCIOS EN ESPAÑA)\nActividad del mes Importe en libros – (saldo al cierre del mes) Pro memoria: Va"
+      },
+      "diff_level": [
+        "VISUAL_PREDECESSOR_PROVEN",
+        "SEMANTIC_DIFF_NOT_AVAILABLE"
+      ],
+      "confidence": "PROVEN",
+      "evidence_urls": [
+        "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2025-26847"
+      ],
+      "evidence_raw_sha256": [
+        "689fbe5e47569045d3bbd99738cae8a4c31583d733ade0e454ed4eb08ca9aa91",
+        "911a864b8567472e015b2cf14390493cd2903e0f7668bc893513c9367f8127f0",
+        "7d58c4df6e5dd59afc86c0878ae3ccde1f1e687870718f04fee24008a8337fb9"
+      ]
+    },
+    {
+      "case_id": "S5_estado_FI100-14_substitution",
+      "target_instrument": "BOE-A-2017-14334",
+      "modifier_instrument": "BOE-A-2020-6186",
+      "kind": "MODIFICATION",
+      "target_locator": "Anejo 4, estado FI 100-14",
+      "relation_raw": {
+        "palabra": "SE MODIFICA",
+        "texto": "determinados preceptos, por Circular 2/2020, de 11 de junio"
+      },
+      "operation_raw": "",
+      "publication_date": "20200616",
+      "effective_date": "20200617",
+      "old_representation": {
+        "kind": "IMAGE",
+        "artifact_url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50255.png",
+        "boe_page": 119818,
+        "sha256": "5837ad79911eebb2fdcfaebaf236cbd73800ae609547acd521ce58fc81f91cb1",
+        "size_bytes": 93470,
+        "raw_name": "boe_annex_img__119818__alt103",
+        "binding": "DERIVED-anchored: doc.php alt sequence -> BOE page; validated by correction-cited pages (annex-map.json, 10/10 anchors) and by the PDF embedded text layer naming the estado on the page",
+        "granularity_note": "page-level: the image is the whole BOE page containing FI 100-14; sub-page regions are not separable without rendering"
+      },
+      "new_representation": {
+        "kind": "IMAGE",
+        "artifact_url": "https://www.boe.es/datos/imagenes/disp/2020/168/06186_6032.png",
+        "boe_page": 40313,
+        "sha256": "a33b848b20d4182496d17940005cff89aae2a005c98e359865a3abfecc9a3126",
+        "size_bytes": 214689,
+        "raw_name": "boe_annex_img__2020-6186__alt005",
+        "binding": "DERIVED-anchored: BOE-A-2020-6186 doc.php alt sequence -> BOE page (signature ends p.40308; PDF text layer on p.40313 shows 'FI 100-14'); visually verified"
+      },
+      "diff_level": [
+        "VISUAL_PREDECESSOR_PROVEN",
+        "SEMANTIC_DIFF_NOT_AVAILABLE"
+      ],
+      "confidence": "PROVEN",
+      "note": "image -> image: even the *modifier* publishes the new estado as a page image; the chain is still fully representable at artifact level",
+      "evidence_urls": [
+        "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-6186"
+      ],
+      "evidence_raw_sha256": [
+        "d18d50d1e275f4a5952bb734b79e1650ab634b5ab6be776b11b3386c5f8a6de8",
+        "5837ad79911eebb2fdcfaebaf236cbd73800ae609547acd521ce58fc81f91cb1",
+        "a33b848b20d4182496d17940005cff89aae2a005c98e359865a3abfecc9a3126"
+      ]
+    },
+    {
+      "case_id": "S6_estado_FI106-1.1_note_mod",
+      "target_instrument": "BOE-A-2017-14334",
+      "modifier_instrument": "BOE-A-2018-17880",
+      "kind": "MODIFICATION",
+      "target_locator": "Anejo 4, estado FI 106-1.1, nota (a), primer párrafo",
+      "relation_raw": {
+        "palabra": "SE MODIFICA",
+        "texto": "determinados preceptos y SE SUSTITUYE la norma 33, por Circular de 21 de diciembre de 2018"
+      },
+      "operation_raw": "«(a) Este estado lo tienen que enviar las entidades en el mes en el que reciban inmuebles o instrumentos de capital no cotizados en un mercado activo para la cancelación, total o parcial, de una o más operaciones de crédito, incluidas las correspondientes a sus sociedades instrumentales recogidas en la norma primera, “Entidades declarantes”, punto 2, de la Circular 1/2013, de 24 de mayo, aunque estén registrados contablemente en otras entidades del mismo grupo económico, con independencia de cómo hayan adquirido la propiedad y de la partida de balance en la que estén registrados contablemente, excepto los clasificados como inmovilizado material de uso propio. Los datos se actualizarán cuando se modifiquen.»",
+      "publication_date": "20181228",
+      "effective_date": "20190101",
+      "old_representation": {
+        "kind": "IMAGE",
+        "artifact_url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50861.png",
+        "boe_page": 119837,
+        "sha256": "3ed21b3d41854d095539577a9479a2e4032a27b184a198d84af8b8b60c42d897",
+        "size_bytes": 403849,
+        "raw_name": "boe_annex_img__119837__alt122",
+        "binding": "DERIVED-anchored: doc.php alt sequence -> BOE page; validated by correction-cited pages (annex-map.json, 10/10 anchors) and by the PDF embedded text layer naming the estado on the page",
+        "granularity_note": "page-level: the image is the whole BOE page containing FI 106-1.1; sub-page regions are not separable without rendering"
+      },
+      "new_representation": {
+        "kind": "TEXT",
+        "source": "BOE-A-2018-17880, paragraph following locator iii)",
+        "text_sha256": "fa9d7afa535837ba5445e095ae8144e063a827e71242d285979413c5f3f2d9dd"
+      },
+      "diff_level": [
+        "DECLARED_CHANGE_PROVEN",
+        "VISUAL_PREDECESSOR_PROVEN",
+        "SEMANTIC_DIFF_NOT_AVAILABLE"
+      ],
+      "confidence": "PROVEN",
+      "note": "region-level change inside a page image: the new text is literal and auditable; the old note lives inside the page image (region not separable below page granularity)",
+      "evidence_urls": [
+        "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17880"
+      ],
+      "evidence_raw_sha256": [
+        "349d4cf294843190096bf8ebe5c945d7a0b7b3d299f2a4440e7082d087ea8ff5",
+        "3ed21b3d41854d095539577a9479a2e4032a27b184a198d84af8b8b60c42d897"
+      ]
+    }
+  ]
+}
