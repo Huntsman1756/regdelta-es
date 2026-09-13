@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T114205Z</fecha_actualizacion>
+      <identificador>BOE-A-2020-6187</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20200611</fecha_disposicion>
+      <numero_oficial>3/2020</numero_oficial>
+      <titulo>Circular 3/2020, de 11 de junio, del Banco de España, por la que se modifica la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20200616</fecha_publicacion>
+      <diario_numero>168</diario_numero>
+      <fecha_vigencia>20200617</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2020/06/11/3</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2020-6187</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

@@ -1,0 +1,567 @@
+{
+  "channels": [
+    {
+      "assessment": {
+        "coverage": "Original publication text of normas/disposiciones + <analisis> relations + ELI RDF. No consolidated text. Annexes are images.",
+        "determinism": "HIGH: stable XML; analysis block is dynamically maintained (fecha_actualizacion) but the raw is hashed per retrieval.",
+        "fragility": "LOW.",
+        "granularity": "PROVISION_LEVEL locators come from modifier documents; the target analysis text is BLOCK_LEVEL/TEXT_ONLY.",
+        "licensing": "BOE reuse conditions; consolidated text is informative; keep update metadata.",
+        "raw_evidence": "FULL: content-addressed bytes with SHA-256.",
+        "reconstruction_difficulty": "Old text available for body provisions; annexes need a different source."
+      },
+      "evidence": {
+        "bytes": 1379715,
+        "http_status": 200,
+        "path": "evidence/g0c/raw/boe_diario_xml__BOE-A-2017-14334.xml",
+        "sha256": "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+        "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-14334"
+      },
+      "id": "A2",
+      "name": "BOE daily-publication XML (diario_boe/xml.php)",
+      "role": "PRIMARY original structured text + embedded official analysis (channels A/E)",
+      "source_profile": {
+        "estado_consolidacion": "0",
+        "has_analysis_anteriores": 1,
+        "has_analysis_posteriores": 8,
+        "images": 326,
+        "paragraphs": 4532,
+        "tables": 3
+      }
+    },
+    {
+      "assessment": {
+        "coverage": "Original publication text; annexes are images.",
+        "determinism": "HIGH for bytes; rendering may include site chrome.",
+        "fragility": "LOW.",
+        "granularity": "INSTRUMENT_LEVEL/TEXT_ONLY as HTML; no structured locators.",
+        "licensing": "BOE reuse conditions.",
+        "raw_evidence": "FULL.",
+        "reconstruction_difficulty": "Requires an HTML parser; no structural classes as clean as XML."
+      },
+      "equalities": {
+        "equals_eli_html": false
+      },
+      "evidence": {
+        "bytes": 1227821,
+        "http_status": 200,
+        "path": "evidence/g0c/raw/boe_doc_html__BOE-A-2017-14334.html",
+        "sha256": "8b0c269100e2e0ce93a47e605b376199fdd4c73b5c39ec50d12551e118eee194",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-14334"
+      },
+      "id": "A1/C",
+      "name": "BOE document viewer HTML (buscar/doc.php) and daily HTML (diario_boe/txt.php)",
+      "role": "Human-readable original publication; same content as A2",
+      "source_profile": {
+        "annex_images": 326,
+        "img_elements": 337,
+        "table_elements": 3
+      }
+    },
+    {
+      "assessment": {
+        "coverage": "Original publication including annex images.",
+        "determinism": "HIGH for bytes.",
+        "fragility": "LOW.",
+        "granularity": "NONE without PDF extraction.",
+        "licensing": "BOE reuse conditions.",
+        "raw_evidence": "FULL (large: ~39 MB).",
+        "reconstruction_difficulty": "Text extraction/OCR needed; explicitly deprioritised because A2 is structured."
+      },
+      "evidence": {
+        "bytes": 39355759,
+        "http_status": 200,
+        "path": "evidence/g0c/raw/boe_dias_pdf__BOE-A-2017-14334.pdf",
+        "sha256": "0923cc0a16241a23e7d4237443d29fdf14a8dce37818c4c00278ab00b14bf16e",
+        "url": "https://www.boe.es/boe/dias/2017/12/06/pdfs/BOE-A-2017-14334.pdf"
+      },
+      "id": "A4",
+      "name": "BOE daily PDF",
+      "role": "Official visual copy"
+    },
+    {
+      "assessment": {
+        "coverage": "ELI resolves to the SAME original text as the daily publication; no consolidated ELI version (/consolidado -> 404).",
+        "determinism": "HIGH; deterministic redirect to the canonical original artefact.",
+        "fragility": "LOW.",
+        "granularity": "INSTRUMENT_LEVEL, except the /xml expression which equals A2.",
+        "licensing": "BOE reuse conditions.",
+        "raw_evidence": "FULL.",
+        "reconstruction_difficulty": "Same as A2 for text; no added historical value."
+      },
+      "equalities": {
+        "eli_dof_html_equals_eli_html": true,
+        "eli_html_equals_doc_html": false,
+        "eli_xml_equals_diario_xml": true
+      },
+      "evidence": {
+        "bytes": 1227765,
+        "http_status": 200,
+        "path": "evidence/g0c/raw/boe_eli_html__C4-2017.html",
+        "sha256": "9f5f2c1ad874471caa3b32a8f9a4258ee0a4a3a708629baa4fe61daeb3834ee6",
+        "url": "https://www.boe.es/eli/es/cir/2017/11/27/4"
+      },
+      "id": "B",
+      "name": "ELI representations (boe.es/eli/...)",
+      "role": "Stable identifiers and format negotiation",
+      "source_profile": {
+        "annex_images": 326,
+        "img_elements": 337,
+        "table_elements": 3
+      }
+    },
+    {
+      "assessment": {
+        "coverage": "All 8 instruments listed by the target analysis are retrievable; each carries <texto> with the amending operations and its own <anteriores> cross-check.",
+        "determinism": "HIGH.",
+        "fragility": "LOW.",
+        "granularity": "PROVISION_LEVEL / BLOCK_LEVEL via sentences such as 'En la norma 4 ... se modifican los apartados 5 y 6'.",
+        "licensing": "BOE reuse conditions.",
+        "raw_evidence": "FULL.",
+        "reconstruction_difficulty": "Provides new_text; old_text must come from the original or from the prior modifier."
+      },
+      "evidence": [
+        {
+          "bytes": 16433,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_diario_xml__BOE-A-2018-2041.xml",
+          "sha256": "5c223ae4d24c4408c3468f3cd87fc93a942e038686f9bdf03fa2678a44fb7696",
+          "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-2041"
+        },
+        {
+          "bytes": 201591,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_diario_xml__BOE-A-2018-17880.xml",
+          "sha256": "349d4cf294843190096bf8ebe5c945d7a0b7b3d299f2a4440e7082d087ea8ff5",
+          "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17880"
+        },
+        {
+          "bytes": 72226,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_diario_xml__BOE-A-2020-6186.xml",
+          "sha256": "d18d50d1e275f4a5952bb734b79e1650ab634b5ab6be776b11b3386c5f8a6de8",
+          "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-6186"
+        },
+        {
+          "bytes": 45617,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_diario_xml__BOE-A-2020-6187.xml",
+          "sha256": "e66bed6b8c86e1da1cd209a3bbd55512715143d4bb8df7523435399be8ab04cd",
+          "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-6187"
+        },
+        {
+          "bytes": 130330,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_diario_xml__BOE-A-2020-15602.xml",
+          "sha256": "eee7da6beae37c597d2bcbfc2d1cf4e0b97d8a622ac9ebd7b0a65dafd7364936",
+          "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-15602"
+        },
+        {
+          "bytes": 115950,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_diario_xml__BOE-A-2021-21666.xml",
+          "sha256": "8c18efe7c4bf1634f3d00e223a850daaabdd7c2a72f713fb9b61b96a860cd48a",
+          "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21666"
+        },
+        {
+          "bytes": 253268,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_diario_xml__BOE-A-2023-5481.xml",
+          "sha256": "896e73c3c4bd6f4bdc4c5eea4375383ee7acb26c8e269d4e4bdd24c144a931a7",
+          "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5481"
+        },
+        {
+          "bytes": 234162,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_diario_xml__BOE-A-2025-26847.xml",
+          "sha256": "689fbe5e47569045d3bbd99738cae8a4c31583d733ade0e454ed4eb08ca9aa91",
+          "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2025-26847"
+        }
+      ],
+      "id": "D",
+      "name": "Modifier instruments (daily XML per modifier)",
+      "role": "new_text and explicit provision-level operational locators",
+      "source_profile": [
+        {
+          "estado_consolidacion": "0",
+          "has_analysis_anteriores": 1,
+          "has_analysis_posteriores": 0,
+          "images": 0,
+          "paragraphs": 26,
+          "tables": 0
+        },
+        {
+          "estado_consolidacion": "0",
+          "has_analysis_anteriores": 2,
+          "has_analysis_posteriores": 0,
+          "images": 0,
+          "paragraphs": 636,
+          "tables": 10
+        },
+        {
+          "estado_consolidacion": "0",
+          "has_analysis_anteriores": 2,
+          "has_analysis_posteriores": 0,
+          "images": 9,
+          "paragraphs": 188,
+          "tables": 2
+        },
+        {
+          "estado_consolidacion": "3",
+          "has_analysis_anteriores": 2,
+          "has_analysis_posteriores": 0,
+          "images": 0,
+          "paragraphs": 75,
+          "tables": 0
+        },
+        {
+          "estado_consolidacion": "3",
+          "has_analysis_anteriores": 5,
+          "has_analysis_posteriores": 0,
+          "images": 22,
+          "paragraphs": 395,
+          "tables": 1
+        },
+        {
+          "estado_consolidacion": "0",
+          "has_analysis_anteriores": 2,
+          "has_analysis_posteriores": 0,
+          "images": 22,
+          "paragraphs": 380,
+          "tables": 4
+        },
+        {
+          "estado_consolidacion": "0",
+          "has_analysis_anteriores": 4,
+          "has_analysis_posteriores": 1,
+          "images": 0,
+          "paragraphs": 457,
+          "tables": 32
+        },
+        {
+          "estado_consolidacion": "0",
+          "has_analysis_anteriores": 2,
+          "has_analysis_posteriores": 0,
+          "images": 0,
+          "paragraphs": 533,
+          "tables": 6
+        }
+      ]
+    },
+    {
+      "assessment": {
+        "coverage": "NONE for the target and for most modifiers probed (BOE-A-2017-14334, 2025-26847, 2023-5481 all 404). The target's diario XML declares estado_consolidacion codigo=0 (no consolidated version).",
+        "determinism": "Explicit failure; not usable for the target.",
+        "fragility": "N/A (absent).",
+        "granularity": "N/A.",
+        "licensing": "N/A.",
+        "raw_evidence": "The 404 bodies are stored as negative evidence.",
+        "reconstruction_difficulty": "N/A (absent for the target)."
+      },
+      "evidence": [
+        {
+          "bytes": 170,
+          "http_status": 404,
+          "path": "evidence/g0c/raw/boe_api_consolidada_analisis__BOE-A-2017-14334.xml",
+          "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2017-14334/analisis"
+        },
+        {
+          "bytes": 170,
+          "http_status": 404,
+          "path": "evidence/g0c/raw/boe_api_consolidada_analisis__BOE-A-2023-5481.xml",
+          "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2023-5481/analisis"
+        },
+        {
+          "bytes": 170,
+          "http_status": 404,
+          "path": "evidence/g0c/raw/boe_api_consolidada_analisis__BOE-A-2025-26847.xml",
+          "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2025-26847/analisis"
+        },
+        {
+          "bytes": 170,
+          "http_status": 404,
+          "path": "evidence/g0c/raw/boe_api_consolidada_metadatos__BOE-A-2017-14334.xml",
+          "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2017-14334/metadatos"
+        },
+        {
+          "bytes": 170,
+          "http_status": 404,
+          "path": "evidence/g0c/raw/boe_api_consolidada_metadatos__BOE-A-2023-5481.xml",
+          "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2023-5481/metadatos"
+        },
+        {
+          "bytes": 170,
+          "http_status": 404,
+          "path": "evidence/g0c/raw/boe_api_consolidada_metadatos__BOE-A-2025-26847.xml",
+          "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2025-26847/metadatos"
+        },
+        {
+          "bytes": 170,
+          "http_status": 404,
+          "path": "evidence/g0c/raw/boe_api_consolidada_texto_indice__BOE-A-2017-14334.xml",
+          "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2017-14334/texto/indice"
+        },
+        {
+          "bytes": 170,
+          "http_status": 404,
+          "path": "evidence/g0c/raw/boe_api_consolidada_texto_indice__BOE-A-2023-5481.xml",
+          "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2023-5481/texto/indice"
+        },
+        {
+          "bytes": 170,
+          "http_status": 404,
+          "path": "evidence/g0c/raw/boe_api_consolidada_texto_indice__BOE-A-2025-26847.xml",
+          "sha256": "af8a60024ae378ae0f96e823639c937abe9f147b4446f362d95211ad85dc2bc6",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2025-26847/texto/indice"
+        }
+      ],
+      "id": "E1",
+      "name": "BOE consolidated-legislation open-data API — TARGET",
+      "role": "Would provide consolidated text + structured analysis for the target"
+    },
+    {
+      "assessment": {
+        "coverage": "PRESENT for BOE-A-2020-6187 (Circular 3/2020) and BOE-A-2020-15602: metadatos + analisis + block index, plus a consolidated HTML at act.php. Neither is the target, so it cannot supply the target's history.",
+        "determinism": "HIGH for the covered instruments.",
+        "fragility": "LOW for the covered subset.",
+        "granularity": "Structured relations use <id_norma> + <relacion codigo>; consolidated text is split into blocks (/texto/bloque/<id>).",
+        "licensing": "BOE reuse conditions.",
+        "raw_evidence": "FULL.",
+        "reconstruction_difficulty": "Would be the ideal channel if the target were covered."
+      },
+      "evidence": [
+        {
+          "bytes": 2191,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_api_consolidada_analisis__BOE-A-2020-15602.xml",
+          "sha256": "dc553508734ac817ddf60e914c6cccf0dbc27766e8eb8aba5e8b95b49ce3109d",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-15602/analisis"
+        },
+        {
+          "bytes": 1250,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_api_consolidada_analisis__BOE-A-2020-6187.xml",
+          "sha256": "e4637553afb0ac3b69f2372370bc321f8de42afc225f997ba9a3a054d826c4b0",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-6187/analisis"
+        },
+        {
+          "bytes": 1640,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_api_consolidada_metadatos__BOE-A-2020-15602.xml",
+          "sha256": "09e61d8d682c83922ba27657e927dd5ff2549210480ac9c5863e7e2447a2eacd",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-15602/metadatos"
+        },
+        {
+          "bytes": 1391,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_api_consolidada_metadatos__BOE-A-2020-6187.xml",
+          "sha256": "a8827072024bf5971f2f054897e352ad898c31a6d7e42776dacb01d0a9830d97",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-6187/metadatos"
+        },
+        {
+          "bytes": 9347,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_api_consolidada_texto_indice__BOE-A-2020-15602.xml",
+          "sha256": "7ba4153a23a0fb976cb1f6365564284bc52dacef875b33b5cf36d9cbf428466b",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-15602/texto/indice"
+        },
+        {
+          "bytes": 1708,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/boe_api_consolidada_texto_indice__BOE-A-2020-6187.xml",
+          "sha256": "c1ed6d7c9607f1afd301ceb67b776a68087730e19c61521bc4edbb5bb64a0cc6",
+          "url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-6187/texto/indice"
+        }
+      ],
+      "id": "E1b",
+      "name": "BOE consolidated-legislation open-data API — SUBSET (positive control)",
+      "role": "Shows the channel exists and is structured when estado_consolidacion=3"
+    },
+    {
+      "assessment": {
+        "coverage": "Enumerates all explicit posterior relations (7 modifications + 1 correction) and the prior derogated norm; symmetric cross-check available in each modifier.",
+        "determinism": "HIGH (structured XML).",
+        "fragility": "LOW but the block is dynamically regenerated (fecha_actualizacion).",
+        "granularity": "Instrument-level relation; free-text description identifies norms/annexes at BLOCK_LEVEL.",
+        "licensing": "BOE reuse conditions.",
+        "raw_evidence": "FULL.",
+        "reconstruction_difficulty": "Feeds discovery; not sufficient alone for old/new."
+      },
+      "evidence": {
+        "bytes": 1379715,
+        "http_status": 200,
+        "path": "evidence/g0c/raw/boe_diario_xml__BOE-A-2017-14334.xml",
+        "sha256": "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+        "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-14334"
+      },
+      "id": "E2",
+      "name": "Official BOE analysis (<analisis>) embedded in A2 and in each modifier",
+      "role": "Modifier discovery + relation words",
+      "source_profile": {
+        "estado_consolidacion": "0",
+        "has_analysis_anteriores": 1,
+        "has_analysis_posteriores": 8,
+        "images": 326,
+        "paragraphs": 4532,
+        "tables": 3
+      }
+    },
+    {
+      "assessment": {
+        "coverage": "Lists BdE circulars chronologically; complementary to BOE discovery.",
+        "determinism": "MEDIUM: large HTML page, no structured feed captured.",
+        "fragility": "MEDIUM (site migration to app.bde.es observed).",
+        "granularity": "INSTRUMENT_LEVEL.",
+        "licensing": "BdE reuse conditions.",
+        "raw_evidence": "FULL (HTML).",
+        "reconstruction_difficulty": "N/A for text."
+      },
+      "evidence": {
+        "bytes": 466966,
+        "http_status": 200,
+        "path": "evidence/g0c/raw/bde_indice_cronologico_circulares.html",
+        "sha256": "5ec993cd256ffb09f44af6ff66a2b93efe2369ab7ad5950f61ecb368526cec36",
+        "url": "https://www.bde.es/wbe/es/areas-actuacion/normativa/circulares-banco-de-espana/circulares-banco-espana-indice-cronologico/"
+      },
+      "id": "F1",
+      "name": "BdE chronological index of circulars",
+      "role": "Complementary discovery aid",
+      "source_profile": {
+        "annex_images": 0,
+        "img_elements": 116,
+        "table_elements": 0
+      }
+    },
+    {
+      "assessment": {
+        "coverage": "Article/annex level consolidated text maintained by BdE, adapted to modifications in force.",
+        "determinism": "LOW: responses varied between runs (internal error vs full text for the same date); session/state dependent.",
+        "fragility": "HIGH (JSP app, undocumented parameters, unreliable dated view).",
+        "granularity": "Article/anexo level; no per-modification attributable provenance.",
+        "licensing": "BdE reuse conditions; adapted text.",
+        "raw_evidence": "HTML only; not stable.",
+        "reconstruction_difficulty": "Could help read annexes as text but cannot be the legal source of an old/new pair."
+      },
+      "evidence": {
+        "bytes": 18426,
+        "http_status": 200,
+        "path": "evidence/g0c/raw/bde_clf_leyes_art__163763.html",
+        "sha256": "51b4cc13ab7fd47d74d430464e575ffb97baddc5ee3617c0d9c49be07ace8a1b",
+        "url": "https://app.bde.es/clf_www/leyes.jsp?normaAFecha=S&id=163651&idart=163763&fc=13-09-2026&mh=1"
+      },
+      "id": "F2",
+      "name": "BdE Consulta de Legislación Financiera (CLF) current consolidated view",
+      "role": "Complementary consolidated text (not the legal authority)"
+    },
+    {
+      "assessment": {
+        "coverage": "NOT USABLE as history: a request for 2018-01-01 returned the current text on one run and 'Error interno' on another.",
+        "determinism": "LOW/UNRELIABLE.",
+        "fragility": "HIGH.",
+        "granularity": "N/A.",
+        "licensing": "BdE reuse conditions.",
+        "raw_evidence": "HTML, unstable.",
+        "reconstruction_difficulty": "Cannot provide a dependable historical old_text."
+      },
+      "evidence": [
+        {
+          "bytes": 1601950,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/bde_clf_norma_a_fecha__163651__2018-01-01.html",
+          "sha256": "fad0dd18ef7838293a113fc3745aa122a452a4cb2037f6cd890d96bf41a5eebe",
+          "url": "https://app.bde.es/clf_www/leyes.jsp?id=163651&fc=01-01-2018&tipoEnt=0"
+        },
+        {
+          "bytes": 8630,
+          "http_status": 200,
+          "path": "evidence/g0c/raw/bde_clf_norma_completa__163651__current.html",
+          "sha256": "f13e6f1ab2f61fcbcc25ac46ed2aee6f85f820002da33aa295c8438e43b9d7ed",
+          "url": "https://app.bde.es/clf_www/leyes.jsp?id=163651&fc=13-09-2026&tipoEnt=0"
+        }
+      ],
+      "id": "F3",
+      "name": "BdE 'Norma a una Fecha'",
+      "role": "Intended historical versioning"
+    },
+    {
+      "assessment": {
+        "coverage": "Corrections are discoverable with palabra code 201 and provide literal 'donde dice ... debe decir ...' pairs.",
+        "determinism": "HIGH.",
+        "fragility": "LOW.",
+        "granularity": "PROVISION_LEVEL (page + norma + apartado).",
+        "licensing": "BOE reuse conditions.",
+        "raw_evidence": "FULL.",
+        "reconstruction_difficulty": "Low for errata; must be ordered separately from ordinary modifications."
+      },
+      "evidence": {
+        "bytes": 16433,
+        "http_status": 200,
+        "path": "evidence/g0c/raw/boe_diario_xml__BOE-A-2018-2041.xml",
+        "sha256": "5c223ae4d24c4408c3468f3cd87fc93a942e038686f9bdf03fa2678a44fb7696",
+        "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-2041"
+      },
+      "id": "G",
+      "name": "Correction/errata instruments",
+      "role": "Literal old/new for errata",
+      "source_profile": {
+        "estado_consolidacion": "0",
+        "has_analysis_anteriores": 1,
+        "has_analysis_posteriores": 0,
+        "images": 0,
+        "paragraphs": 26,
+        "tables": 0
+      }
+    }
+  ],
+  "criteria": {
+    "coverage": "Which parts of the instrument history the channel exposes: original text, consolidated text, explicit amendment relations, granular locators, annexes/states.",
+    "determinism": "Whether repeated retrieval of the same official URL yields the same semantic content (content hashed) and whether HTTP failures are explicit.",
+    "fragility": "Sensitivity to URL/session/render changes or to undocumented behaviour.",
+    "granularity": "Finest locator the channel states for a change: INSTRUMENT_LEVEL, BLOCK_LEVEL, PROVISION_LEVEL, TEXT_ONLY, UNKNOWN.",
+    "licensing": "Reuse conditions relevant to redistributing text derived from the channel.",
+    "raw_evidence": "Whether the channel can be stored byte-for-byte with a stable SHA-256 for audit (no JS-only rendering, no session state).",
+    "reconstruction_difficulty": "What is still required to obtain old->new for a block given this channel."
+  },
+  "equalities": {
+    "doc_html__eq__diario_txt_html": false,
+    "eli_dof_html__eq__eli_html": true,
+    "eli_dof_spa_xml__eq__diario_xml": true,
+    "eli_html__eq__doc_html": false
+  },
+  "negative_evidence": {
+    "consolidated_api_absent_raw_names": [
+      "boe_api_consolidada_analisis__BOE-A-2017-14334",
+      "boe_api_consolidada_analisis__BOE-A-2023-5481",
+      "boe_api_consolidada_analisis__BOE-A-2025-26847",
+      "boe_api_consolidada_metadatos__BOE-A-2017-14334",
+      "boe_api_consolidada_metadatos__BOE-A-2023-5481",
+      "boe_api_consolidada_metadatos__BOE-A-2025-26847",
+      "boe_api_consolidada_texto_indice__BOE-A-2017-14334",
+      "boe_api_consolidada_texto_indice__BOE-A-2023-5481",
+      "boe_api_consolidada_texto_indice__BOE-A-2025-26847"
+    ],
+    "consolidated_api_present_raw_names": [
+      "boe_api_consolidada_analisis__BOE-A-2020-15602",
+      "boe_api_consolidada_analisis__BOE-A-2020-6187",
+      "boe_api_consolidada_metadatos__BOE-A-2020-15602",
+      "boe_api_consolidada_metadatos__BOE-A-2020-6187",
+      "boe_api_consolidada_texto_indice__BOE-A-2020-15602",
+      "boe_api_consolidada_texto_indice__BOE-A-2020-6187"
+    ],
+    "eli_consolidado": "GET https://www.boe.es/eli/es/cir/2017/11/27/4/consolidado -> 404 HTML (not captured as raw; noted).",
+    "http_statuses": [
+      200,
+      404
+    ],
+    "note": "The consolidated API is not universally absent for BdE norms: it is absent for the target, which is exactly the G0-C problem, but present for a subset."
+  },
+  "schema": "regdelta.g0c.channel-matrix/v1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>pr</id>
+      <titulo>[preambulo]</titulo>
+      <fecha_actualizacion>20200616</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-6187/texto/bloque/pr</url>
+    </bloque>
+    <bloque>
+      <id>nu</id>
+      <titulo>Norma única</titulo>
+      <fecha_actualizacion>20200616</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-6187/texto/bloque/nu</url>
+    </bloque>
+    <bloque>
+      <id>dt</id>
+      <titulo>Disposición transitoria primera</titulo>
+      <fecha_actualizacion>20200616</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-6187/texto/bloque/dt</url>
+    </bloque>
+    <bloque>
+      <id>dt-2</id>
+      <titulo>Disposición transitoria segunda</titulo>
+      <fecha_actualizacion>20200616</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-6187/texto/bloque/dt-2</url>
+    </bloque>
+    <bloque>
+      <id>df</id>
+      <titulo>Disposición final única</titulo>
+      <fecha_actualizacion>20200616</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-6187/texto/bloque/df</url>
+    </bloque>
+    <bloque>
+      <id>fi</id>
+      <titulo>[firma]</titulo>
+      <fecha_actualizacion>20200616</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2020-6187/texto/bloque/fi</url>
+    </bloque>
+  </data>
+</response>

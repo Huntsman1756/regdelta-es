@@ -1,0 +1,421 @@
+{
+  "coverage_statement": "OBSERVED: BOE's own analysis enumerates the explicit relationships recorded for the instrument. It cannot be independently proven exhaustive from a second official source without scanning every later norm; tacit legal effects are out of scope by construction.",
+  "discovery_channel": "OBSERVED: <analisis><referencias><posteriores> of https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-14334",
+  "modifiers": [
+    {
+      "cross_check": {
+        "note": "DERIVED: symmetric relation read from the modifier's own <anteriores>.",
+        "relations": [
+          {
+            "palabra": "MODIFICA",
+            "palabra_codigo": "270",
+            "texto": ", en la forma indicada, determinados preceptos de la Circular 4/2017, de 27 de noviembre,"
+          }
+        ],
+        "target_declared_as_anterior": true
+      },
+      "declared_by": "OBSERVED: target <analisis><referencias><posteriores>",
+      "evidence_raw_names": [
+        "boe_diario_xml__BOE-A-2017-14334",
+        "boe_diario_xml__BOE-A-2025-26847"
+      ],
+      "evidence_raw_sha256": [
+        "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+        "689fbe5e47569045d3bbd99738cae8a4c31583d733ade0e454ed4eb08ca9aa91"
+      ],
+      "kind": "MODIFICATION",
+      "locator_count": 11,
+      "locators": [
+        "a) En la norma 18, «Corrección de errores y cambios en las estimaciones contables», se modifica el apartado 4, que queda redactado en los siguientes términos:",
+        "b) En la norma 19, «Definición de los instrumentos financieros», se modifica el apartado 10, que queda redactado en los siguientes términos:",
+        "e) En la norma 34, «Activos no corrientes mantenidos para la venta y operaciones en interrupción», se modifica el apartado 11, que queda redactado en los siguientes términos:",
+        "f) En la norma 42, «Impuesto sobre beneficios», se añade un nuevo apartado 16, que queda redactado en los siguientes términos:",
+        "g) En la norma 52, «Activo», se modifica la letra b) del apartado 1, que queda redactada en los siguientes términos:",
+        "h) En la norma 59, «Criterios de elaboración de la memoria», se modifica el apartado 4, que queda redactado en los siguientes términos:",
+        "l) En la norma 69, «Estados reservados relativos a los requerimientos estadísticos de la Unión Económica y Monetaria», se modifica el numeral iv) de la letra f) del apartado 2, que queda redactado en los siguientes términos:",
+        "ii) Se sustituyen los estados FI 105 y FI 142-1.1 por los que figuran en el anejo de esta circular.",
+        "v) Se sustituye el estado FI 136 por el que figura en el anejo de esta circular.",
+        "iv) Se sustituye el estado FC 203 por el que figura en el anejo de esta circular.",
+        "a) En el anejo 1, «Módulos de datos», se añade la dimensión «Importe del riesgo no cubierto con garantías reales después de descuentos», dentro del módulo H.1 «Datos contables de los préstamos»."
+      ],
+      "modifier_effective_date": "20251230",
+      "modifier_instrument": "BOE-A-2025-26847",
+      "modifier_publication_date": "20251229",
+      "modifier_rango": "Circular",
+      "modifier_title": "Circular 1/2025, de 19 de diciembre, del Banco de España, por la que se modifican la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 1/2013, de 24 de mayo, sobre la Central de Información de Riesgos.",
+      "modifier_xml_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2025-26847",
+      "relation_raw": {
+        "descripcion_texto": ", en la forma indicada, determinados preceptos, por Circular 1/2025, de 19 de diciembre de 2025",
+        "palabra": "SE MODIFICA",
+        "palabra_codigo": "270"
+      }
+    },
+    {
+      "cross_check": {
+        "note": "DERIVED: symmetric relation read from the modifier's own <anteriores>.",
+        "relations": [
+          {
+            "palabra": "MODIFICA",
+            "palabra_codigo": "270",
+            "texto": ", con efectos desde el 31 de marzo de 2023, las normas 4, 60, 70, el anejo 1 y SUPRIME, con los mismos efectos, el anejo 8 de la Circular 4/2017, de 27 de noviembre"
+          }
+        ],
+        "target_declared_as_anterior": true
+      },
+      "declared_by": "OBSERVED: target <analisis><referencias><posteriores>",
+      "evidence_raw_names": [
+        "boe_diario_xml__BOE-A-2017-14334",
+        "boe_diario_xml__BOE-A-2023-5481"
+      ],
+      "evidence_raw_sha256": [
+        "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+        "896e73c3c4bd6f4bdc4c5eea4375383ee7acb26c8e269d4e4bdd24c144a931a7"
+      ],
+      "kind": "MODIFICATION",
+      "locator_count": 5,
+      "locators": [
+        "a) En la norma 4 («Otra información financiera pública individual») se modifican los apartados 5 y 6, que quedan redactados de la siguiente manera:",
+        "b) En la norma 60 («Memoria de las cuentas anuales individuales») se eliminan los apartados 128 a 134, sin que los restantes apartados vean alterada su numeración.",
+        "c) En la norma 70 («Desarrollo contable interno y control de gestión») se eliminan los apartados 12, 14 y 15, sin que los restantes apartados vean alterada su numeración.",
+        "d) En el anejo 1 («Estados individuales públicos») se eliminan los estados PI 11, Mercado hipotecario individual público; PI 12, Cédulas y bonos de internacionalización público, y PI 13, Cédulas territoriales individual público.",
+        "e) Se elimina el anejo 8 («Registros contables especiales»), sin que los restantes anejos vean alterada su numeración."
+      ],
+      "modifier_effective_date": "20230331",
+      "modifier_instrument": "BOE-A-2023-5481",
+      "modifier_publication_date": "20230302",
+      "modifier_rango": "Circular",
+      "modifier_title": "Circular 1/2023, de 24 de febrero, del Banco de España, a entidades de crédito, sucursales en España de entidades de crédito autorizadas en otro Estado miembro de la Unión Europea y establecimientos financieros de crédito, sobre la información que se ha de remitir al Banco de España sobre los bonos garantizados y otros instrumentos de movilización de préstamos, y por la que se modifican la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 4/2019, de 26 de noviembre, a establecimientos financieros de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.",
+      "modifier_xml_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5481",
+      "relation_raw": {
+        "descripcion_texto": "con efectos desde el 31 de marzo de 2023, las normas 4, 60, 70, el anejo 1 y SE SUPRIME, con los mismos efectos, el anejo 8, por Circular 1/2023, de 24 de febrero",
+        "palabra": "SE MODIFICA",
+        "palabra_codigo": "270"
+      }
+    },
+    {
+      "cross_check": {
+        "note": "DERIVED: symmetric relation read from the modifier's own <anteriores>.",
+        "relations": [
+          {
+            "palabra": "MODIFICA",
+            "palabra_codigo": "270",
+            "texto": ", en la forma indicada, determinados preceptos de la Circular 4/2017, de 27 de noviembre"
+          }
+        ],
+        "target_declared_as_anterior": true
+      },
+      "declared_by": "OBSERVED: target <analisis><referencias><posteriores>",
+      "evidence_raw_names": [
+        "boe_diario_xml__BOE-A-2017-14334",
+        "boe_diario_xml__BOE-A-2021-21666"
+      ],
+      "evidence_raw_sha256": [
+        "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+        "8c18efe7c4bf1634f3d00e223a850daaabdd7c2a72f713fb9b61b96a860cd48a"
+      ],
+      "kind": "MODIFICATION",
+      "locator_count": 3,
+      "locators": [
+        "f) El contenido del anejo 6, sobre «Estados reservados relativos a los requerimientos estadísticos de la Unión Económica y Monetaria», se sustituye por el del anejo 1 de la presente circular.",
+        "g) Se sustituye el contenido del anejo 7.1, sobre «Sectorización mínima en la base de datos», por el del anejo 2 de esta circular.",
+        "h) Se sustituye el contenido del anejo 7.3, sobre «Sectorización en los estados de requerimientos estadísticos de la Unión Económica y Monetaria», por el del anejo 3 de esta circular."
+      ],
+      "modifier_effective_date": "20211230",
+      "modifier_instrument": "BOE-A-2021-21666",
+      "modifier_publication_date": "20211229",
+      "modifier_rango": "Circular",
+      "modifier_title": "Circular 6/2021, de 22 de diciembre, del Banco de España, por la que se modifican la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 4/2019, de 26 de noviembre, a establecimientos financieros de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.",
+      "modifier_xml_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21666",
+      "relation_raw": {
+        "descripcion_texto": ", en la forma indicada, determinados preceptos, por Circular 6/2021, de 22 de diciembre",
+        "palabra": "SE MODIFICA",
+        "palabra_codigo": "270"
+      }
+    },
+    {
+      "cross_check": {
+        "note": "DERIVED: symmetric relation read from the modifier's own <anteriores>.",
+        "relations": [
+          {
+            "palabra": "MODIFICA",
+            "palabra_codigo": "270",
+            "texto": "las normas 21, 48 y anejo 9; AÑADE la disposición adicional 2 y renumera la única, de la Circular 4/2017, de 27 de noviembre"
+          }
+        ],
+        "target_declared_as_anterior": true
+      },
+      "declared_by": "OBSERVED: target <analisis><referencias><posteriores>",
+      "evidence_raw_names": [
+        "boe_diario_xml__BOE-A-2017-14334",
+        "boe_diario_xml__BOE-A-2020-15602"
+      ],
+      "evidence_raw_sha256": [
+        "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+        "eee7da6beae37c597d2bcbfc2d1cf4e0b97d8a622ac9ebd7b0a65dafd7364936"
+      ],
+      "kind": "MODIFICATION",
+      "locator_count": 7,
+      "locators": [
+        "a) En la norma séptima, sobre «Información a enviar al Banco de España», se modifica la letra c) del apartado 2, sobre «Información financiera y contable», que queda redactada en los siguientes términos:",
+        "b) Se suprime el anejo 3.5, sin que el resto de los anejos cambien su numeración.",
+        "a) En la norma 21, sobre «Emisión de instrumentos financieros», se modifica el apartado 3, que queda redactado en los siguientes términos:",
+        "b) En la norma 48, sobre «Método de integración global», se modifica la letra b) del apartado 16, que queda redactada en los siguientes términos:",
+        "e) En el anejo 9, sobre «Análisis y cobertura del riesgo de crédito», se modifica el punto 46, que queda redactado en los siguientes términos:",
+        "f) En el anejo 9, sobre «Análisis y cobertura del riesgo de crédito», se modifica el párrafo tercero del punto 85, que queda redactado en los siguientes términos:",
+        "g) En el anejo 9, sobre «Análisis y cobertura del riesgo de crédito», se modifica el párrafo quinto del punto 166, que queda redactado en los siguientes términos:"
+      ],
+      "modifier_effective_date": "20210101",
+      "modifier_instrument": "BOE-A-2020-15602",
+      "modifier_publication_date": "20201204",
+      "modifier_rango": "Circular",
+      "modifier_title": "Circular 5/2020, de 25 de noviembre, del Banco de España, a entidades de pago y a entidades de dinero electrónico, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y que modifica la Circular 6/2001, de 29 de octubre, sobre titulares de establecimientos de cambio de moneda, y la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.",
+      "modifier_xml_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-15602",
+      "relation_raw": {
+        "descripcion_texto": ", con los efectos indicados, las normas 21, 48 y anejo 9; SE AÑADE la disposición adicional 2 y se renumera la única, por Circular de 25 de noviembre de 2020",
+        "palabra": "SE MODIFICA",
+        "palabra_codigo": "270"
+      }
+    },
+    {
+      "cross_check": {
+        "note": "DERIVED: symmetric relation read from the modifier's own <anteriores>.",
+        "relations": [
+          {
+            "palabra": "MODIFICA",
+            "palabra_codigo": "270",
+            "texto": "el anejo 9 de la Circular 4/2017, de 27 de noviembre"
+          }
+        ],
+        "target_declared_as_anterior": true
+      },
+      "declared_by": "OBSERVED: target <analisis><referencias><posteriores>",
+      "evidence_raw_names": [
+        "boe_diario_xml__BOE-A-2017-14334",
+        "boe_diario_xml__BOE-A-2020-6187"
+      ],
+      "evidence_raw_sha256": [
+        "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+        "e66bed6b8c86e1da1cd209a3bbd55512715143d4bb8df7523435399be8ab04cd"
+      ],
+      "kind": "MODIFICATION",
+      "locator_count": 1,
+      "locators": [
+        "c) En el punto 99, se modifica el primer párrafo, que queda redactado en los términos que se recogen a continuación, y se suprime el cuarto párrafo:"
+      ],
+      "modifier_effective_date": "20200617",
+      "modifier_instrument": "BOE-A-2020-6187",
+      "modifier_publication_date": "20200616",
+      "modifier_rango": "Circular",
+      "modifier_title": "Circular 3/2020, de 11 de junio, del Banco de España, por la que se modifica la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.",
+      "modifier_xml_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-6187",
+      "relation_raw": {
+        "descripcion_texto": "el anejo 9, por Circular 3/2020, de 11 de junio",
+        "palabra": "SE MODIFICA",
+        "palabra_codigo": "270"
+      }
+    },
+    {
+      "cross_check": {
+        "note": "DERIVED: symmetric relation read from the modifier's own <anteriores>.",
+        "relations": [
+          {
+            "palabra": "MODIFICA",
+            "palabra_codigo": "270",
+            "texto": "determinados preceptos de la Circular 4/2017, de 27 de noviembre"
+          }
+        ],
+        "target_declared_as_anterior": true
+      },
+      "declared_by": "OBSERVED: target <analisis><referencias><posteriores>",
+      "evidence_raw_names": [
+        "boe_diario_xml__BOE-A-2017-14334",
+        "boe_diario_xml__BOE-A-2020-6186"
+      ],
+      "evidence_raw_sha256": [
+        "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+        "d18d50d1e275f4a5952bb734b79e1650ab634b5ab6be776b11b3386c5f8a6de8"
+      ],
+      "kind": "MODIFICATION",
+      "locator_count": 42,
+      "locators": [
+        "a) En la norma 4, sobre «Otra información financiera pública individual», se modifica el apartado 4, que queda redactado en los siguientes términos:",
+        "b) En la norma 5, sobre «Otra información financiera pública consolidada», se modifica el apartado 1, que queda redactado en los siguientes términos:",
+        "c) En la norma 22, «Reconocimiento, clasificación y valoración de los instrumentos financieros», se modifica el primer párrafo del apartado 54, que queda redactado en los siguientes términos:",
+        "d) En la norma 44, «Combinaciones de negocios», se modifica el apartado 2, que queda redactado en los siguientes términos:",
+        "e) En la norma 66, «Sectorización de saldos personales según titulares», se realizan las siguientes modificaciones:",
+        "f) En la norma 67, «Estados individuales reservados», se realizan las siguientes modificaciones:",
+        "i) En el apartado 1 se modifica el primer párrafo, que queda redactado en los siguientes términos:",
+        "iv) En el apartado 6 se introduce una letra adicional f) con la siguiente redacción:",
+        "g) En la norma 68, «Estados consolidados reservados», se realizan las siguientes modificaciones:",
+        "h) En la norma 69, «Estados reservados relativos a los requerimientos estadísticos de la Unión Económica y Monetaria», apartado 2, letra h), subapartado v), se sustituye el término «sociedades emisoras de participaciones preferentes» por «sociedades instrumentales, que se dedican mayoritariamente a la emisión de valores, que sean filiales de entidades financieras».",
+        "i) En el anejo 4, «Estados individuales reservados», se realizan las siguientes modificaciones:",
+        "i) Se sustituye el índice por el que figura en el anejo de esta circular.",
+        "iii) En el estado FI 100-2, en la columna «De las cuales entidades de contrapartida central», se añade la nota b) con el siguiente texto:",
+        "iv) En el estado FI 100-4, en la columna «De las cuales entidades de contrapartida central», se añade la nota h) con el siguiente texto:",
+        "v) En el estado FI 100-12 se modifica la nota a), que queda redactada en los siguientes términos:",
+        "vi) En el estado FI 100-13 se introducen las siguientes notas:",
+        "vii) Se sustituye el estado FI 100-14 por el que figura en el anejo de esta circular.",
+        "viii) En el estado FI 104 se modifica la nota a), que queda redactada en los siguientes términos:",
+        "x) Se sustituye el estado FI 143 por el que figura en el anejo de esta circular.",
+        "xi) Se sustituye el estado FI 150-3 por el que figura en el anejo de esta circular.",
+        "xii) Se sustituye el estado FI 150-8 por el que figura en el anejo de esta circular.",
+        "xiv) Se añade el estado FI 152 con el formato que figura en el anejo de esta circular.",
+        "j) En el anejo 5, «Estados consolidados reservados», se realizan las siguientes modificaciones:",
+        "i) Se sustituye el índice por el que figura en el anejo de esta circular.",
+        "ii) Se sustituye el estado FC 201-2 por el que figura en el anejo de esta circular y se suprime el estado FC 201-3.",
+        "iii) Se añade el estado FC 203 con el formato que figura en el anejo de esta circular.",
+        "k) En el anejo 6, «Estados reservados relativos a los requerimientos estadísticos de la Unión Económica y Monetaria», se realizan las siguientes modificaciones:",
+        "i) En el estado UEM 3 se modifica la nota a), que queda redactada en los siguientes términos:",
+        "ii) En el estado UEM 5 se modifica la nota a), que queda redactada como se indica a continuación:",
+        "iii) En el estado UEM 6 se modifica la nota a), que queda redactada en los siguientes términos:",
+        "iv) En el estado UEM 9, en las filas «Préstamos de recompra inversa. Entidades de contrapartida central» y «Pactos de recompra. Entidades de contrapartida central», se añade la nota a) con el siguiente texto:",
+        "v) En el estado UEM 11 se modifica la nota b), que queda redactada en los siguientes términos:",
+        "l) En el anejo 7, «Esquemas de sectorización», se realizan las siguientes modificaciones:",
+        "i) En el anejo 7.1, «Sectorización mínima en la base de datos», se sustituyen las líneas:",
+        "ii) En el anejo 7.2, «Sectorización en los estados reservados y públicos», en el apartado de «Otras sociedades financieras», se sustituye la línea:",
+        "iii) En el anejo 7.3, «Sectorización en los estados de requerimientos estadísticos de la Unión Económica y Monetaria», dentro de «– Resto de sectores que no son IFM», en «Instituciones financieras de ámbito limitado y prestamistas de dinero» se sustituye la línea:",
+        "m) En el anejo 9, «Análisis y cobertura del riesgo de crédito», se realizan las siguientes modificaciones:",
+        "ii) En el apartado 111, se modifica el primer párrafo, que queda redactado en los siguientes términos:",
+        "iii) En el apartado 114, se modifica el primer párrafo, que queda redactado en los siguientes términos:",
+        "iv) En el apartado 142, se modifica el último párrafo, que queda redactado como sigue:",
+        "v) En el apartado 144, se modifica el quinto párrafo, que queda redactado en los siguientes términos:",
+        "vii) En el apartado 151, se modifica la nota a), ii), que queda redactada como sigue:"
+      ],
+      "modifier_effective_date": "20200617",
+      "modifier_instrument": "BOE-A-2020-6186",
+      "modifier_publication_date": "20200616",
+      "modifier_rango": "Circular",
+      "modifier_title": "Circular 2/2020, de 11 de junio, del Banco de España, por la que se modifica la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.",
+      "modifier_xml_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-6186",
+      "relation_raw": {
+        "descripcion_texto": "determinados preceptos, por Circular 2/2020, de 11 de junio",
+        "palabra": "SE MODIFICA",
+        "palabra_codigo": "270"
+      }
+    },
+    {
+      "cross_check": {
+        "note": "DERIVED: symmetric relation read from the modifier's own <anteriores>.",
+        "relations": [
+          {
+            "palabra": "MODIFICA",
+            "palabra_codigo": "270",
+            "texto": "determinados preceptos y SUSTITUYE la norma 33 de la Circular 4/2017, de 27 de noviembre"
+          }
+        ],
+        "target_declared_as_anterior": true
+      },
+      "declared_by": "OBSERVED: target <analisis><referencias><posteriores>",
+      "evidence_raw_names": [
+        "boe_diario_xml__BOE-A-2017-14334",
+        "boe_diario_xml__BOE-A-2018-17880"
+      ],
+      "evidence_raw_sha256": [
+        "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+        "349d4cf294843190096bf8ebe5c945d7a0b7b3d299f2a4440e7082d087ea8ff5"
+      ],
+      "kind": "MODIFICATION",
+      "locator_count": 38,
+      "locators": [
+        "a) En la norma 1, sobre «Ámbito de aplicación y objeto», se modifica el apartado 4, que queda redactado en los siguientes términos:",
+        "b) En la norma 4, sobre «Otra información financiera pública individual», se modifican los apartados 1 y 2, que quedan redactados en los siguientes términos:",
+        "c) En la norma 14, sobre «Consideraciones respecto del valor razonable», se modifica el apartado 37, que queda redactado en los siguientes términos:",
+        "d) En la norma 19, sobre «Definición de los instrumentos financieros», se modifica el apartado 9, que queda redactado en los siguientes términos:",
+        "e) En la norma 26, sobre «Activos de uso propio e inversiones inmobiliarias», se modifica el último párrafo del apartado 2, que queda redactado en los siguientes términos:",
+        "f) En la norma 27, sobre «Existencias», se modifica el último párrafo del apartado 8, que queda redactado en los siguientes términos:",
+        "g) En la norma 29, sobre «Deterioro de valor de activos financieros y otras exposiciones crediticias», se modifica el penúltimo párrafo del apartado 1, que queda redactado en los siguientes términos:",
+        "h) La norma 33, sobre «Arrendamientos», se sustituye por la siguiente:",
+        "i) En la norma 34, sobre «Activos no corrientes mantenidos para la venta y operaciones en interrupción», se modifica el último párrafo del apartado 26, que queda redactado en los siguientes términos:",
+        "j) En la norma 44, sobre «Combinaciones de negocios», se modifica el apartado 13, que queda redactado en los siguientes términos:",
+        "k) En la norma 49, sobre «Método de la participación», se modifica el tercer párrafo del apartado 4, que queda redactado en los siguientes términos:",
+        "l) En la norma 52, sobre «Activo», se modifica el último párrafo de la letra b) del apartado 2, que queda redactado en los siguientes términos:",
+        "m) En la norma 53, sobre «Pasivo», se modifica la letra g) del apartado 1, que queda redactada en los siguientes términos:",
+        "n) En la norma 54, sobre «Patrimonio neto», se modifica la letra i) del apartado 2, que queda redactada en los siguientes términos:",
+        "o) En la norma 55, sobre «Cuenta de pérdidas y ganancias», se modifican:",
+        "q) En la norma 61, sobre «Memoria de las cuentas anuales consolidadas», se modifica el segundo párrafo del apartado 16, que queda redactado en los siguientes términos:",
+        "r) En la norma 64, sobre «Criterios de reconocimiento, valoración y presentación», se modifican:",
+        "s) En la norma 66, sobre «Sectorización de saldos personales según titulares», se modifica el último párrafo del apartado 4, que queda redactado en los siguientes términos:",
+        "t) En la norma 67, sobre «Estados individuales reservados», se realizan las siguientes modificaciones:",
+        "u) En la norma 68, sobre «Estados consolidados reservados», se realizan las siguientes modificaciones:",
+        "v) En la norma 70, sobre «Desarrollo contable interno y control de gestión», se modifican:",
+        "w) En el anejo 1, «Estados individuales públicos», se realizan las siguientes modificaciones:",
+        "x) En el anejo 3, «Estados consolidados públicos», se realizan las siguientes modificaciones:",
+        "y) En el anejo 4, «Estados individuales reservados», se realizan las siguientes modificaciones:",
+        "iii) En el estado FI 106-1.1 se modifica el primer párrafo de la nota (a), que queda redactado en los siguientes términos:",
+        "v) En el estado FI 106-3 se modifica el primer párrafo de la nota (a), que queda redactado en los siguientes términos:",
+        "vi) Se sustituye el estado FI 142-1.1, «Datos para los edificios y terrenos», por el formato de estado FI 142-1.1 que se incluye en el anejo de esta circular.",
+        "vii) En el estado FI 150-8, la línea «Contribución al Fondo de Garantía de Depósitos» se sustituye por «Contribución al Fondo de Garantía de Depósitos y al FUR».",
+        "viii) Se introduce un nuevo estado FI 151, «Información sobre tenedoras directas e indirectas», con el formato incluido en el anejo de esta circular.",
+        "a) En la norma segunda, sobre «Riesgos declarables», se modifica el numeral iii) de la letra a) del apartado 1, que queda redactado en los siguientes términos:",
+        "b) En la norma tercera, sobre «Titulares y otras personas declarables», se modifican:",
+        "c) En la norma cuarta, sobre «Módulos de datos y disposiciones generales», se modifica la información relativa al módulo H.2 del apartado 1, que queda redactada en los siguientes términos:",
+        "d) En la norma sexta, sobre «Datos básicos de las operaciones y de las relaciones con las personas», se modifican:",
+        "e) En la norma undécima, sobre «Vinculación de códigos», se elimina el último párrafo del apartado 2 bis, de forma que este apartado queda redactado en los siguientes términos:",
+        "f) En la norma decimoquinta, sobre «Combinaciones de negocios», se modifica el apartado 2, que queda redactado en los siguientes términos:",
+        "g) En el anejo 1, sobre «Módulos de datos», se realizan las siguientes modificaciones:",
+        "h) En el anejo 2, sobre «Instrucciones para elaborar los módulos de datos», se realizan las siguientes modificaciones:",
+        "viii) En el módulo B.3, «Datos básicos complementarios de los préstamos a personas jurídicas», en la dimensión «Clasificación de las operaciones de la norma segunda, 1 bis», se modifica la explicación del valor «Resto de operaciones», que queda redactada en los siguientes términos:"
+      ],
+      "modifier_effective_date": "20190101",
+      "modifier_instrument": "BOE-A-2018-17880",
+      "modifier_publication_date": "20181228",
+      "modifier_rango": "Circular",
+      "modifier_title": "Circular 2/2018, de 21 de diciembre, del Banco de España, por la que se modifican la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 1/2013, de 24 de mayo, sobre la Central de Información de Riesgos.",
+      "modifier_xml_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17880",
+      "relation_raw": {
+        "descripcion_texto": "determinados preceptos y SE SUSTITUYE la norma 33, por Circular de 21 de diciembre de 2018",
+        "palabra": "SE MODIFICA",
+        "palabra_codigo": "270"
+      }
+    },
+    {
+      "cross_check": {
+        "note": "DERIVED: symmetric relation read from the modifier's own <anteriores>.",
+        "relations": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "palabra_codigo": "201",
+            "texto": "y erratas de la Circular 4/2017, de 27 de noviembre"
+          }
+        ],
+        "target_declared_as_anterior": true
+      },
+      "declared_by": "OBSERVED: target <analisis><referencias><posteriores>",
+      "evidence_raw_names": [
+        "boe_diario_xml__BOE-A-2017-14334",
+        "boe_diario_xml__BOE-A-2018-2041"
+      ],
+      "evidence_raw_sha256": [
+        "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+        "5c223ae4d24c4408c3468f3cd87fc93a942e038686f9bdf03fa2678a44fb7696"
+      ],
+      "kind": "CORRECTION",
+      "locator_count": 2,
+      "locators": [
+        "5. En la página 119824, en el estado FI 102-2 se eliminan las líneas «Valorados por su coste» y «Valorados por su valor razonable» a continuación de la línea «No cotizados» del bloque correspondiente a «Activos financieros a valor razonable con cambios en otro resultado global».",
+        "9. En la página 119865, en el estado FI 131-2.2 se añade la nota (b) en la columna de «Exposiciones. Riesgo de insolvencia», con el siguiente texto:"
+      ],
+      "modifier_effective_date": "",
+      "modifier_instrument": "BOE-A-2018-2041",
+      "modifier_publication_date": "20180215",
+      "modifier_rango": "Corrección (errores o erratas)",
+      "modifier_title": "Corrección de errores y erratas de la Circular 4/2017, de 27 de noviembre, del Banco de España, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.",
+      "modifier_xml_url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-2041",
+      "relation_raw": {
+        "descripcion_texto": "y erratas en BOE núm. 41 de 15 de febrero de 2018",
+        "palabra": "CORRECCIÓN de errores",
+        "palabra_codigo": "201"
+      }
+    }
+  ],
+  "schema": "regdelta.g0c.modifiers/v1",
+  "target": {
+    "analysis_raw_name": "boe_diario_xml__BOE-A-2017-14334",
+    "analysis_raw_sha256": "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+    "effective_date": "20180101",
+    "estado_consolidacion_codigo": "0",
+    "instrument": "BOE-A-2017-14334",
+    "publication_date": "20171206",
+    "title": "Circular 4/2017, de 27 de noviembre, del Banco de España, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros."
+  }
+}

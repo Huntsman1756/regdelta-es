@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="1627">Contabilidad</materia>
+        <materia codigo="2503">Dinero electrónico</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="3443">Establecimientos de cambio de moneda</materia>
+        <materia codigo="3472">Estados financieros</materia>
+        <materia codigo="3807">Formularios administrativos</materia>
+        <materia codigo="4165">Información</materia>
+      </materias>
+      <notas>
+        <nota>Entrada en vigor:, con la salvedad indicada, el 1 de enero de 2021.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2017-14334</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>las normas 21, 48 y anejo 9; AÑADE la disposición adicional 2 y renumera la única, de la Circular 4/2017, de 27 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2001-21296</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>la norma 7 y el anejo 3 de la Circular 6/2001, de 29 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2019-18677</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la disposición adicional 2 de la Orden ECE/1263/2019, de 26 de diciembre de 2019</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2019-18425</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 4.2.d) del Real Decreto 736/2019, de 20 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2015-1455</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Real Decreto 84/2015, de 13 de febrero</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

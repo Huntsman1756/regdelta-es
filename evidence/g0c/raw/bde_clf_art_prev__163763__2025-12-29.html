@@ -1,0 +1,324 @@
+
+
+
+
+
+<!DOCTYPE html>
+<HTML lang="es">
+	<HEAD>
+		<META NAME="ROBOTS" CONTENT="INDEX, NOFOLLOW">
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+		<META NAME="GENERATOR" CONTENT="Oracle JDeveloper">
+		<link rel="StyleSheet" href="textbdlf.css">
+		<SCRIPT src="comunAjustes.js"></SCRIPT>
+		<script>
+			
+			// Devuelve TRUE si la cadena es una fecha correcta
+			function comprobarFecha(fecha) {
+			
+				correcta = 0;
+				posDia = fecha.indexOf("-");
+				if(posDia > 0) {
+				  dia = fecha.substring(0, posDia);
+				  nDia = new Number(dia);
+				  if((dia >= 0) && (dia <=31)) {
+					posMes = fecha.indexOf("-", posDia+1);
+					if(posMes > posDia) {
+					  mes = fecha.substring(posDia+1, posMes);
+					  nMes = new Number(mes);
+					  if((mes >= 1)&&(mes <= 12)) {
+						anio = fecha.substring(posMes+1, fecha.length);
+						nAnio = new Number(anio);
+						if(anio >= 1000)
+						  correcta = 1;
+					  }
+					}
+				  }
+				}
+				return (correcta==1);
+			  }
+			
+			
+			function cargaLlamada( param1 ) {
+				this.location.hash = param1;
+				this.scrollBy(0,-320);
+			}
+			
+			function leyCompleta(idLey, fc, entrada) {
+			  wnd2 = window.open("normaCompleta.jsp?id=" + idLey + "&fc=" + fc + "&tipoEnt=" + entrada, 'norma',
+				  'height=280,width=950,location=no,menubar=no,resizable=no,'+
+				  'scrollbars=no,status=no,toolbar=no');
+			}
+			
+			function openVisor(idLey, fc, entrada) {
+			
+				fechaC = prompt('¿A qué fecha desea visualizar la Norma completa?',
+					   fc);
+			
+				fecha = this.fc.value;
+				if(comprobarFecha(fecha)) {
+				  this.parent.document.location = "leyes.jsp?id=" + idLey + "&fc=" + fecha +"&tipoEnt=" + entrada;
+				}else
+				  alert('Formato de fecha incorrecto');
+			
+			}
+			
+			function openEstruct(id, fc, artic, entrada,normaAFecha) {
+
+			  re = / /g;
+			  artic = artic.replace(re, '%20');
+			  this.document.location = "estructura.jsp?id=" + id + "&fc=" + fc + "&art=" + artic + "&tipoEnt=" + entrada+"&normaAFecha=" + normaAFecha;
+              
+			  /*cadParam = "estructura.jsp?id=" + id + "&fc=" + fc + "&tipoEnt=" + entrada+"&normaAFecha=" + normaAFecha;
+
+			  var estForm = document.createElement("form");
+			  estForm.target = "pdf";
+			  estForm.method = "post";
+			  estForm.action = cadParam;
+
+			  var artInput = document.createElement("input");
+			  artInput.type = "hidden";
+              artInput.name = "art";
+    		  artInput.value = artic;
+
+			  estForm.appendChild(artInput);
+
+			  document.body.appendChild(estForm);
+			  estForm.submit();*/
+
+			}
+			
+			function printDoc(id, fc, artic, normaAFecha) {
+			
+			  re = / /g;
+			  artic = artic.replace(re, '%20');
+			  cadParam = "impresion.jsp?id=" +id+ "&fc="+fc+"&art="+artic+"&normaAFecha=" + normaAFecha;
+			  
+			  wnd1 = window.open(cadParam, 'prnt1',
+				  'height=240,width=1000,location=no,menubar=no,resizable=no,'+
+				  'scrollbars=no,status=no,toolbar=no');
+			}
+			
+			function openFuente() {
+			  
+			  wnd1 = window.open('fuente.html', 'fuente',
+				  'left=200,top=150,height=255,width=1100,location=no,menubar=no,resizable=no,'+
+				  'scrollbars=no,status=no,toolbar=no');
+			}
+			
+			function printPdf(id, fc, artic, inter) {
+
+			  re = / /g;
+			  artic = artic.replace(re, '%20');
+			  re = /\%/ig;
+			  inter = inter.replace(re, "%25");
+			  cadParam = "ImprimirPdf?id=" +id+ "&fc="+fc+"&art="+artic+"&consInter="+inter;
+			  
+			  wnd1 = window.open(cadParam, 'pdf', 'location=no,titlebar=no,resizable=yes');
+			
+			  /*re = /\%/ig;
+			  inter = inter.replace(re, "%25");
+			  cadParam = "ImprimirPdf?id=" +id+ "&fc="+fc+"&consInter="+inter;
+
+			  var pdfForm = document.createElement("form");
+			  pdfForm.target = "pdf";
+			  pdfForm.method = "post";
+			  pdfForm.action = cadParam;
+
+			  var artInput = document.createElement("input");
+			  artInput.type = "hidden";
+              artInput.name = "art";
+    		  artInput.value = artic;
+
+			  pdfForm.appendChild(artInput);
+
+			  document.body.appendChild(pdfForm);
+
+			  wnd1 = window.open("", "pdf", "location=no,titlebar=no,resizable=yes");
+
+			  if (wnd1) {
+			      pdfForm.submit();
+			  }*/
+
+			}
+			
+		</script>
+		<TITLE>
+Circular 4/2017, de 27 de noviembre, del Banco d...</TITLE>
+	</HEAD>
+	<BODY onload="ajustarFondo();">	
+		<!-- Cabecera con el banner -->
+		<div class="tabla tablaCabeceraBdE">
+			<a class="ocultarElemento" id="PantallaAsistenteForm_saltarPrincipal" title="Saltar al contenido principal." accesskey="S" href="#seccionPrincipal">Saltar al contenido principal.</a>
+			<div class="fila">
+				<div class="celda cabeceraBdEIzq">&nbsp;</div>
+				<div class="celda cabeceraBdEDer">
+					<IMG height="54" src="http://www.bde.es/img/cabecera1.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="tabla barra">
+			<div class="fila">
+				<div class="celda titulo aliMedio" role="region" aria-label="Título aplicación"><h1>BE-Normativa Financiera</h1></div>
+				<div class="celda cabecera" role="region" aria-label="Menú">   	
+					
+						
+							<A href="busqueda.jsp?rest=1&comSel=&tipoEnt=0" class="enlaceCabecera" data-event="navigation-click"><IMG alt="" src="/clf_www/images/buscador_02.gif"><span class="textoCabecera">Iniciar nueva b&uacute;squeda</span></A>
+						
+						
+						
+						
+					
+						
+					
+						
+						
+							<A href="resultados.jsp?bck=1&tipoEnt=0" class="enlaceCabecera" data-event="navigation-click"><IMG alt="" src="/clf_www/images/resultados_n.gif"><span class="textoCabecera">Resultados</span></A>
+								    	
+						
+				
+					<A href="javascript:printDoc('163651','29-12-2025','163763','S');" class="enlaceCabecera" data-event="print"><IMG alt="" src="/clf_www/images/imprimir.gif"><span class="textoCabecera">Imprimir</span></A>
+					<A href="javascript:printPdf('163651','29-12-2025','163763','-1');" class="enlaceCabecera"data-event="pdf" ><IMG alt="" src="/clf_www/images/pdf.gif"><span class="textoCabecera">PDF</span></A>
+					<A href="javascript:openFuente();" class="enlaceCabecera"><IMG alt="" src="/clf_www/images/base-de-datos.gif"><span class="textoCabecera">Fuente</span></A>
+					<A href="https://www.bde.es/wbe/es/pie/accesibilidad/"   target="accesibilidad" class="enlaceCabecera"><IMG alt="" src="/clf_www/images/Accesibilidad.gif"><span class="textoCabecera">Accesibilidad</span></A>
+					<A href="ayuda.html#consulta"   target="ayuda" class="enlaceCabecera"><IMG alt="" src="/clf_www/images/ayuda_nuevo.gif"><span class="textoCabecera">Ayuda</span></A>
+					<A href="mapaWeb.html"   target="mapa" class="enlaceCabecera"><IMG alt="" src="/clf_www/images/MapaSitio.gif"><span class="textoCabecera">Mapa</span></A>
+				</div>
+			</div>
+		</div>
+		<div role="region" aria-label="Título página" id="seccionPrincipal">
+			<H2>VISUALIZACI&Oacute;N DE LA NORMA</H2>
+		</div>
+		
+		<div id="fondoTabla" class="agrupacion">
+		<DIV class="espacio500">
+			
+			<div class="grupoiconos" role="region" aria-label="Menú ley">
+				<A href="javascript:openEstruct('163651','29-12-2025','163763','0','S');" data-event="navigation-click"><IMG alt="" src="/clf_www/images/estructura_activo-sin.gif"/><span class="textoCabecera2">&Iacute;ndice</span></A>
+				<A href="leyes.jsp?normaAFecha=S&id=163651&fc=29-12-2025&tipoEnt=0"data-event="navigation-click"><IMG alt="" src="images/norma_activo-sin.gif"><span class="textoCabecera2">Norma Completa</span></A>
+				<A href="javascript:leyCompleta('163651','29-12-2025','0')" data-event="navigation-click"><IMG alt="" src="/clf_www/images/calendar_activo-sin.gif"/><span class="textoCabecera2">Norma a una Fecha</span></A>
+				
+				
+			</div>
+			<p class="textoDerechaNegrita" role="region" aria-label="Norma vigente">Versión vigente desde 30-12-2021 hasta 29-12-2025</p> 
+			
+				<p class="textoDerechaNegrita" role="region" aria-label="Texto consolidado">Texto consolidado</p>
+			
+			<BR>
+			<div role="region" aria-label="Ley" class="visorLey">
+				
+						  
+					<html>
+   <head>
+      <META http-equiv="Content-Type" content="text/html">
+      <title>Vista previa1</title>
+   </head>
+   <body vlink="0000ff">
+      <table align="center" width="100%">
+         <tr>
+            <td></td>
+         </tr>
+         <tr>
+            <td></td>
+         </tr>
+         <tr>
+            <td valign="top" width="-1%" height="0">
+               <table border="0" style="margin-top:5px">
+                  <tr valign="top">
+                     <td align="left"><a href="leyes.jsp?normaAFecha=S&amp;id=163651&amp;idart=163763&amp;fc=29-12-2021&amp;mh=1"><img src="images/vanterior.gif" border="0" alt="Versión anterior">
+                        </a>
+                     </td>
+                     <td align="right"><a href="leyes.jsp?normaAFecha=S&amp;id=163651&amp;idart=163763&amp;fc=13-09-2026&amp;mh=1"><img src="images/vsiguiente.gif" border="0" alt="Versión posterior">
+                        </a>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+         <tr>
+            <td width="100%">
+               <table align="center" width="100%">
+                  <tbody>
+                     <tr align="center">
+                        <td align="center"><b>ANEJO 6.</b>
+                        </td>
+                     </tr>
+                     <tr align="center">
+                        <td align="center"><b>ESTADOS RESERVADOS RELATIVOS A LOS REQUERIMIENTOS ESTADÍSTICOS DE LA UNIÓN ECONÓMICA Y MONETARIA.
+             [<a href="javascript:cargaLlamada('163763_59')">59</a>]
+       
+   </b>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+         <tr>
+            <td><a name="#1"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17472" alt="">   </p><a name="#2"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17473" alt="">   </p><a name="#3"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17474" alt="">   </p><a name="#4"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17475" alt="">   </p><a name="#5"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17476" alt="">   </p><a name="#6"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17477" alt="">   </p><a name="#7"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17478" alt="">   </p><a name="#8"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17479" alt="">   </p><a name="#9"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17480" alt="">   </p><a name="#10"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17481" alt="">   </p><a name="#11"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17482" alt="">   </p><a name="#12"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17483" alt="">   </p><a name="#13"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17484" alt="">   </p><a name="#14"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17485" alt="">   </p><a name="#15"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17486" alt="">   </p><a name="#16"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17487" alt="">   </p><a name="#17"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17488" alt="">   </p><a name="#18"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17489" alt="">   </p><a name="#19"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17490" alt="">   </p><a name="#20"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17491" alt="">   </p><a name="#21"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17492" alt="">   </p><a name="#22"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17493" alt="">   </p><a name="#23"></a>
+               <p align="center">      <img src="./images_tmp/obtenerImagen?id=17494" alt="">   </p>
+               <hr align="left" WIDTH="25%" size="2">
+               <table width="100%" class="notaPie">
+                  <tr>
+                     <td valign="top" width="25"><a name="163763_59"></a>[59]</td>
+                     <td style="text-align: justify"><i>Adaptada su redacción a la <a href="leyes.jsp?id=196135&amp;idart=196137&amp;fc=29-12-2021" target="_top">Circular 6/2021, de 22 de diciembre</a>, norma 1.</i>
+                     </td>
+                  </tr>
+<tr>
+                     <td>&nbsp;</td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>
+				  
+			</div>
+			<div class="aliDerecha">
+				<A href="javascript:window.scroll(0,0);"><IMG SRC="/clf_www/images/arriba.gif" alt="Volver al principio del documento"><span class="sr-only">Volver arriba</span></A>
+			</div>
+			<FORM NAME="form1">
+				<input type="hidden" name="comSel" value="">
+				<input type="hidden" name="normaAFecha" value="S">
+			</FORM>
+			</DIV>
+			<!-- <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR> -->
+		</div>
+		
+
+		<div id="footer-placeholder"></div>
+         <script src="Js/clf-cookies.js"></script>
+	    <script src="comunAjustes.js"></script>
+	    <script>
+	        cargarFooter();
+	    </script>
+
+	</BODY>
+</HTML>
+<HTML>
+<BODY onfocus="document.cookie='IV_JCT=%2Fclf_www; path=/'">
+</BODY>
+</HTML>
