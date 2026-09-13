@@ -571,8 +571,9 @@ def bind_relations(clauses, rel_rows, key_to_paths, op_paths, container_keys):
                     bound_keys.update(keys)
                     via.append(path)
         cited = [s["locator_key"] for s in c.subjects]
-        for key in cited:
-            bound_keys.add(key)
+        for s in c.subjects:
+            if not s.get("rule_ref"):
+                bound_keys.add(s["locator_key"])
         if not cited and not c.introducers:
             continue
         entries = []
@@ -608,6 +609,55 @@ def bind_relations(clauses, rel_rows, key_to_paths, op_paths, container_keys):
             "epistemic": "DERIVED",
         })
     return matrix
+
+
+def classify_relations(matrix, rel_rows):
+    """Four-way classification of every modification_relation of the
+    evaluated modifier:
+
+    SPECIFIC_BOUND                bound to >=1 specific clause
+    SPECIFIC_EXPECTED_BUT_UNBOUND locator explicitly cited by a clause but
+                                  the relation did not link — a GAP, never
+                                  silently downgraded to GENERAL_ONLY
+    GENERAL_ONLY                  no specific clause detected; only the
+                                  instrument effective date applies
+    NOT_APPLICABLE                outside the evaluated scope
+    """
+    bound_ids = {rid for m in matrix
+                 for b in m["bindings"] for rid in b["relation_ids"]}
+    cited_keys = {k for m in matrix for k in m["cited_subject_keys"]}
+    bound_clauses: dict[str, list[str]] = {}
+    for m in matrix:
+        for b in m["bindings"]:
+            for rid in b["relation_ids"]:
+                bound_clauses.setdefault(rid, []).append(m["clause_id"])
+
+    classified = []
+    counts = {"SPECIFIC_BOUND": 0, "SPECIFIC_EXPECTED_BUT_UNBOUND": 0,
+              "GENERAL_ONLY": 0, "NOT_APPLICABLE": 0}
+    for r in rel_rows:
+        if r["relation_id"] in bound_ids:
+            cls = "SPECIFIC_BOUND"
+        elif r["locator_key"] in cited_keys:
+            cls = "SPECIFIC_EXPECTED_BUT_UNBOUND"
+        else:
+            cls = "GENERAL_ONLY"
+        counts[cls] += 1
+        classified.append({
+            "relation_id": r["relation_id"],
+            "locator_key": r["locator_key"],
+            "classification": cls,
+            "clauses": sorted(bound_clauses.get(r["relation_id"], [])),
+        })
+    gaps = sorted({k for m in matrix
+                   for k in m["subjects_cited_without_relation"]})
+    return {
+        "evaluated_scope": {"modifier": MODIFIER_BOE, "target": TARGET_BOE},
+        "relations": classified,
+        "cited_targets_without_relation": gaps,
+        "counts": counts,
+        "epistemic": "DERIVED",
+    }
 
 
 def frequency_map(doc) -> dict:
@@ -847,6 +897,10 @@ def main():
     (out / "cases.json").write_text(
         json.dumps(build_cases(clauses, matrix, freq),
                    ensure_ascii=False, indent=2), encoding="utf-8")
+    classification = classify_relations(matrix, rel_rows)
+    (out / "relation-classification.json").write_text(
+        json.dumps(classification, ensure_ascii=False, indent=2),
+        encoding="utf-8")
     (out / "raw/manifest.json").write_text(json.dumps({
         "description": "G0-D discovery raws — byte-identical reuse of "
                        "G0-C captured evidence; no new fetch performed",
@@ -869,6 +923,7 @@ def main():
     print(f"DECLARED bindings: {declared}  UNMATCHED: {unmatched}")
     print(f"relations bound: "
           f"{len({r for m in matrix for b in m['bindings'] for r in b['relation_ids']})}")
+    print(f"classification: {classification['counts']}")
     return clauses, matrix, freq
 
 

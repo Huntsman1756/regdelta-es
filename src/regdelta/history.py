@@ -752,17 +752,23 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                                   "clause": op.clause_text[:200]})
                 else:
                     s, e = op.content_span
+                    # a fused blockquote locator carries its quoted
+                    # content inline: its span begins at the locator node
+                    kind_, text = "TEXT", op.inline_content
+                    ns = op.node_index if text else s
                     if e > s:
-                        kind_, text = region_text(mdoc, (s, e))
-                        if text:
-                            after_id = _insert_representation(
-                                ctx, sid, kind_, text,
-                                {"instrument": mboe, "type": "xml_nodes",
-                                 "node_span": [s, e]},
-                                pm["snapshot"], "DECLARED",
-                                {"rule": "operation content span",
-                                 "node_span": [s, e]})
-                            after_kind = kind_
+                        kind_, span_text = region_text(mdoc, (s, e))
+                        text = "\n".join(
+                            t for t in (text, span_text) if t)
+                    if text:
+                        after_id = _insert_representation(
+                            ctx, sid, kind_, text,
+                            {"instrument": mboe, "type": "xml_nodes",
+                             "node_span": [ns, e]},
+                            pm["snapshot"], "DECLARED",
+                            {"rule": "operation content span",
+                             "node_span": [ns, e]})
+                        after_kind = kind_
 
                 # ----- relation --------------------------------------------
                 literals = op.literals or None

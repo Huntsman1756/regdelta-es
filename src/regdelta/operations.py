@@ -127,7 +127,8 @@ _PATTERNS = {
         r"\bnormas?\s+(\d+|" + "|".join(_ORDINALS) + r")", re.IGNORECASE),
     "anejo": re.compile(r"\banejo\s+(\d+(?:\s*\.\s*\d+)*)", re.IGNORECASE),
     "apartado": re.compile(
-        r"\bapartados?\s+([IVX]+(?:\.[A-Z0-9]+)*|[\dy, ,e]+?)"
+        r"\bapartados?\s+([IVX]+(?:\.[A-Z0-9]+)*|"
+        r"\d+(?:\s+a\s+\d+)?(?:\s*[ye,]\s*\d+(?:\s+a\s+\d+)?)*)"
         r"(?=\s*[,.:;)]|\s+(?:de|que|del|en|se|y\s+el|con|por|a)\b|$)",
         re.IGNORECASE),
     "punto": re.compile(
@@ -238,6 +239,7 @@ class Operation:
     literals: list[tuple[str, str]]  # declared (old,new) literal pairs
     context: dict[str, str]     # inherited context used for resolution
     section_index: int          # articulo index opening the section
+    inline_content: str = ""    # quoted content fused into the locator node
 
 
 @dataclass
@@ -285,17 +287,22 @@ _LOCATOR_CLASSES = {"parrafo", "parrafo_2", "sangrado", "sangrado_2", "cita"}
 
 
 def _is_locator(node: Node) -> bool:
-    if node.kind != "p" or node.cls not in _LOCATOR_CLASSES:
+    if node.kind not in ("p", "blockquote") \
+            or node.cls not in _LOCATOR_CLASSES:
         return False
-    m = _MARKER_RE.match(node.text)
+    # a blockquote may fuse the locator clause and its quoted replacement
+    # content into a single node; only the span before « is locator prose
+    text = node.text.split("«", 1)[0] if node.kind == "blockquote" \
+        else node.text
+    m = _MARKER_RE.match(text)
     if not m:
         return False
-    rest = node.text[m.end():].lstrip()
-    head = node.text[:260]
+    rest = text[m.end():].lstrip()
+    head = text[:260]
     if _AMEND_VERB_RE.search(head) or _EN_SUBJECT_RE.search(rest):
         return True
     # bare subject container: "ii) Estado PI 2:"
-    return bool(_BARE_SUBJECT_RE.match(rest) and node.text.rstrip().endswith(":"))
+    return bool(_BARE_SUBJECT_RE.match(rest) and text.rstrip().endswith(":"))
 
 
 def _is_container(text: str) -> bool:
@@ -439,7 +446,7 @@ def _compose_keys(mentions: dict[str, object],
 
     if apartado is not None:
         raw = str(apartado[0])
-        nums = [x for x in re.split(r"[\s,ye]+", raw) if x.isdigit()]
+        nums = [str(v) for v in _expand_numlist(raw)]
         values = nums or [raw]
         for n in values:
             if norma_n is not None:
@@ -492,6 +499,24 @@ def _compose_keys(mentions: dict[str, object],
                                    key.split(":", 1)[0].upper()))
 
     return subs
+
+
+def _expand_numlist(raw: str) -> list[int]:
+    """Expand the numeric enumerations the corpus demonstrates:
+    '17 a 20' → [17..20]; '3, 6 y 7' / '13, 18 y 19' → each element.
+    A non-numeric capture (e.g. the anejo path 'II.B.2') returns [].
+    No linguistic range forms beyond explicit digits."""
+    out: list[int] = []
+    for part in re.split(r",|\s+[ye]\s+", raw):
+        part = part.strip()
+        m = re.match(r"^(\d+)\s+a\s+(\d+)$", part)
+        if m:
+            out.extend(range(int(m.group(1)), int(m.group(2)) + 1))
+        elif part.isdigit():
+            out.append(int(part))
+        elif part:
+            return []
+    return out
 
 
 def _context_update(ctx: dict[str, str],
@@ -621,7 +646,7 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
     prev_container = False
     for i in range(sec.node_start + 1, sec.node_end):
         n = doc.nodes[i]
-        if n.kind != "p":
+        if n.kind not in ("p", "blockquote"):
             continue
         parts = _marker_parts(n.text)
         if parts is None:
@@ -638,7 +663,14 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
 
         style, marker_val = parts
         text = n.text
-        mentions = _extract_mentions(text)
+        inline = ""
+        if n.kind == "blockquote":
+            # locator clause and quoted replacement content share the node;
+            # the clause keeps only the part before «, the rest is content
+            qpos = text.find("«")
+            if qpos >= 0:
+                text, inline = text[:qpos].rstrip(), text[qpos:]
+        mentions = _extract_mentions(n.text)
         container = _is_container(text)
 
         if prev_container:
@@ -704,10 +736,11 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
             subjects=subjects,
             content_span=(i + 1, i + 1),
             is_container=container,
-            annex_ref=bool(_ANNEX_REF_RE.search(text)),
-            literals=_literals(text),
+            annex_ref=bool(_ANNEX_REF_RE.search(n.text)),
+            literals=_literals(n.text),
             context=ctx,
             section_index=sec.node_start,
+            inline_content=inline,
         ))
         prev_container = container
 

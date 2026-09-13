@@ -170,6 +170,35 @@ touched under this gate's rules.
 ("de acuerdo con lo establecido en…"), not as modified subjects —
 classified `cited_rule_references`.
 
+### 6.1 Post-R2 rebinding (G0-C.2R2 applied)
+
+After the locator remediation (`fix: repair amendment locator coverage
+for applicability targets`) the binding was re-executed against the
+corrected runtime — see `relation-classification.json`:
+
+```text
+relations of BOE-A-2025-26847 targeting 4/2017: 69  (was 65)
+SPECIFIC_BOUND                  53  (was 49 — repaired locators bound:
+                                     norma:31.apartado:3 via dfu:a + dt1;
+                                     norma:22.apartado:18/19/20 via dfu:c
+                                     + dt2)
+SPECIFIC_EXPECTED_BUT_UNBOUND    0  (was 4 locator-level gaps — none left)
+GENERAL_ONLY                    16  (unchanged — no specific clause cites
+                                     these relations; only the general
+                                     2025-12-30 effective date applies)
+NOT_APPLICABLE                   0
+cited_targets_without_relation  []  (was the 4 locators above)
+UNMATCHED bindings               0  (rule references are excluded from
+                                     target binding — they cite the
+                                     applied framework, not modifications)
+```
+
+The same remediation also recovered real enumerations in other modifiers
+verified against the official text: `norma:60.apartado:107/108`
+(BOE-A-2018-17880, "apartados 106, 107 y 108"),
+`norma:60.apartado:129–134` + `norma:70.apartado:14/15`
+(BOE-A-2023-5481, "apartados 128 a 134" / "12, 14 y 15").
+
 ## 7. D1–D11 verdicts (cases.json)
 
 ```text

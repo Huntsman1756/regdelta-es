@@ -51,7 +51,8 @@ import pytest
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
-from regdelta import db as dbm, history  # noqa: E402
+from regdelta import db as dbm, history, operations  # noqa: E402
+from regdelta.sources import boe_diario  # noqa: E402
 from regdelta.http import (  # noqa: E402
     EVIDENCE_IMPORT, LIVE_FETCH, FetchResult)
 
@@ -540,3 +541,78 @@ def test_anomaly_refs_resolve(built):
             assert conn.execute(
                 "SELECT 1 FROM modification_relations WHERE relation_id=?",
                 (d["relation_id"],)).fetchone() is not None, aid
+
+
+# ---------------------------------------------------------------------------
+# G0-C.2R2: blockquote-wrapped locators + explicit numeric range expansion
+# ---------------------------------------------------------------------------
+
+
+@pytest.mark.parametrize("clause,norma,expected", [
+    ("Se modifican los apartados 17 a 20, que quedan redactados "
+     "en los siguientes términos:", "22",
+     {"norma:22.apartado:17", "norma:22.apartado:18",
+      "norma:22.apartado:19", "norma:22.apartado:20"}),
+    ("Se modifican los apartados 3, 6 y 7, que quedan redactados "
+     "en los siguientes términos:", "31",
+     {"norma:31.apartado:3", "norma:31.apartado:6",
+      "norma:31.apartado:7"}),
+    ("Se modifican los apartados 13, 18 y 19, que quedan redactados "
+     "en los siguientes términos:", "22",
+     {"norma:22.apartado:13", "norma:22.apartado:18",
+      "norma:22.apartado:19"}),
+])
+def test_apartado_numlist_expansion(clause, norma, expected):
+    """Explicit numeric enumerations expand to individual locators:
+    '17 a 20' is a range, '3, 6 y 7' / '13, 18 y 19' are lists."""
+    mentions = operations._extract_mentions(clause)
+    keys = {s.locator_key for s in
+            operations._compose_keys(mentions, {"norma": norma})}
+    assert keys == expected
+
+
+def test_blockquote_locator_materializes():
+    """A marker+amend-verb clause wrapped in a <blockquote> node is still
+    an operation: the locator clause is preserved and the quoted remainder
+    stays available as inline content — not silently dropped."""
+    nodes = [
+        boe_diario.Node(0, "p", "articulo",
+                        "Artículo único. Modificación de la Circular "
+                        "4/2017, de 27 de noviembre."),
+        boe_diario.Node(1, "p", "parrafo",
+                        "a) En la norma 31, «Coberturas contables», "
+                        "se realizan las siguientes modificaciones:"),
+        boe_diario.Node(2, "blockquote", "sangrado",
+                        "i) Se modifica el apartado 3, que queda "
+                        "redactado en los siguientes términos: "
+                        "«3. Únicamente podrán ser designados como "
+                        "instrumentos de cobertura.»"),
+        boe_diario.Node(3, "p", "parrafo",
+                        "ii) Se modifican los apartados 6 y 7, que "
+                        "quedan redactados en los siguientes términos:"),
+        boe_diario.Node(4, "blockquote", "sangrado",
+                        "«6. Podrán ser designados como partidas "
+                        "cubiertas los activos.»"),
+    ]
+    doc = boe_diario.DiarioDoc(nodes=nodes)
+    ops = operations.parse_operations(doc, (4, 2017)).operations
+    leaf = {s.locator_key: o for o in ops if not o.is_container
+            for s in o.subjects}
+    op3 = leaf.get("norma:31.apartado:3")
+    assert op3 is not None
+    assert "«" not in op3.clause_text
+    assert op3.inline_content.startswith("«")
+    assert {"norma:31.apartado:6", "norma:31.apartado:7"} <= set(leaf)
+    # the pure-content blockquote is not an operation
+    assert all("Podrán" not in o.clause_text for o in ops)
+
+
+def test_r2_repaired_locators_have_relations(built):
+    """The G0-D audit targets materialize as real relations."""
+    conn, _ = built
+    for key in ("norma:31.apartado:3",
+                "norma:22.apartado:17", "norma:22.apartado:18",
+                "norma:22.apartado:19", "norma:22.apartado:20"):
+        rels = [r for r in _rels(conn, key)
+                if r["modifier_boe"] == "BOE-A-2025-26847"]
+        assert rels, key

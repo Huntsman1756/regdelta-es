@@ -8,6 +8,7 @@
     "op_paths_matched": [
       "b",
       "d",
+      "d/i",
       "d/ii"
     ],
     "cited_subject_keys": [
@@ -20,21 +21,6 @@
       "norma:17.apartado:8"
     ],
     "bindings": [
-      {
-        "locator_key": "norma:17.apartado:6",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
-      },
-      {
-        "locator_key": "norma:17.apartado:7",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
-      },
-      {
-        "locator_key": "norma:17.apartado:8",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
-      },
       {
         "locator_key": "norma:19.apartado:10",
         "relation_ids": [
@@ -49,8 +35,10 @@
       },
       {
         "locator_key": "norma:31.apartado:3",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
+        "relation_ids": [
+          "692089838aebb4973b7d6d6fdcaac6555909012c09124ebaed6444f000de40ef"
+        ],
+        "binding": "DECLARED"
       },
       {
         "locator_key": "norma:31.apartado:6",
@@ -72,9 +60,7 @@
       "norma:17.apartado:7",
       "norma:17.apartado:8"
     ],
-    "subjects_cited_without_relation": [
-      "norma:31.apartado:3"
-    ],
+    "subjects_cited_without_relation": [],
     "epistemic": "DERIVED"
   },
   {
@@ -84,15 +70,7 @@
     "cited_subject_keys": [
       "norma:19.apartado:10"
     ],
-    "bindings": [
-      {
-        "locator_key": "norma:19.apartado:10",
-        "relation_ids": [
-          "e3a33c82f39aaf1a1a4d25790890d875ebd5b185421a796f0f976a084b03a25c"
-        ],
-        "binding": "DECLARED"
-      }
-    ],
+    "bindings": [],
     "cited_rule_references": [],
     "subjects_cited_without_relation": [],
     "epistemic": "DERIVED"
@@ -106,30 +84,8 @@
       "norma:31.apartado:6",
       "norma:31.apartado:7"
     ],
-    "bindings": [
-      {
-        "locator_key": "norma:31.apartado:3",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
-      },
-      {
-        "locator_key": "norma:31.apartado:6",
-        "relation_ids": [
-          "92f820d47ea551869e2110b1d430c4cd62fccb284864c555f3a75aca8c914d82"
-        ],
-        "binding": "DECLARED"
-      },
-      {
-        "locator_key": "norma:31.apartado:7",
-        "relation_ids": [
-          "2cc18e81e5d28252f665789754a5098fb33551bb1befbef7fcb00ef7e11e67e2"
-        ],
-        "binding": "DECLARED"
-      }
-    ],
-    "cited_rule_references": [
-      "norma:31.apartado:3"
-    ],
+    "bindings": [],
+    "cited_rule_references": [],
     "subjects_cited_without_relation": [],
     "epistemic": "DERIVED"
   },
@@ -164,13 +120,7 @@
     "cited_subject_keys": [
       "norma:60.apartado:6"
     ],
-    "bindings": [
-      {
-        "locator_key": "norma:60.apartado:6",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
-      }
-    ],
+    "bindings": [],
     "cited_rule_references": [
       "norma:60.apartado:6"
     ],
@@ -196,21 +146,6 @@
     ],
     "bindings": [
       {
-        "locator_key": "norma:17.apartado:6",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
-      },
-      {
-        "locator_key": "norma:17.apartado:7",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
-      },
-      {
-        "locator_key": "norma:17.apartado:8",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
-      },
-      {
         "locator_key": "norma:22.apartado:17",
         "relation_ids": [
           "ce2cf971e7ae0297b6e6218da84e6f22524951916b4f6220c405a1c0960f3330"
@@ -219,18 +154,24 @@
       },
       {
         "locator_key": "norma:22.apartado:18",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
+        "relation_ids": [
+          "cf3752afad18b8d3cc23c055f9c75600abc5b53428044f10df5e0648e61837a8"
+        ],
+        "binding": "DECLARED"
       },
       {
         "locator_key": "norma:22.apartado:19",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
+        "relation_ids": [
+          "e5d4f0d2c21d40bede26b97a0f8e010b03431ac517caa7c291302d904db9461a"
+        ],
+        "binding": "DECLARED"
       },
       {
         "locator_key": "norma:22.apartado:20",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
+        "relation_ids": [
+          "369105af7200ced0d37b6eb2dbc0e1e6e9d4c50aefe9f4dfec09df1bd300ace3"
+        ],
+        "binding": "DECLARED"
       }
     ],
     "cited_rule_references": [
@@ -238,11 +179,7 @@
       "norma:17.apartado:7",
       "norma:17.apartado:8"
     ],
-    "subjects_cited_without_relation": [
-      "norma:22.apartado:18",
-      "norma:22.apartado:19",
-      "norma:22.apartado:20"
-    ],
+    "subjects_cited_without_relation": [],
     "epistemic": "DERIVED"
   },
   {
@@ -294,13 +231,7 @@
     "cited_subject_keys": [
       "norma:60.apartado:6"
     ],
-    "bindings": [
-      {
-        "locator_key": "norma:60.apartado:6",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
-      }
-    ],
+    "bindings": [],
     "cited_rule_references": [
       "norma:60.apartado:6"
     ],
@@ -347,6 +278,7 @@
     "op_paths_matched": [
       "b",
       "d",
+      "d/i",
       "d/ii",
       "i/iii"
     ],
@@ -372,8 +304,10 @@
       },
       {
         "locator_key": "norma:31.apartado:3",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
+        "relation_ids": [
+          "692089838aebb4973b7d6d6fdcaac6555909012c09124ebaed6444f000de40ef"
+        ],
+        "binding": "DECLARED"
       },
       {
         "locator_key": "norma:31.apartado:6",
@@ -398,9 +332,7 @@
       }
     ],
     "cited_rule_references": [],
-    "subjects_cited_without_relation": [
-      "norma:31.apartado:3"
-    ],
+    "subjects_cited_without_relation": [],
     "epistemic": "DERIVED"
   },
   {
@@ -458,18 +390,24 @@
       },
       {
         "locator_key": "norma:22.apartado:18",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
+        "relation_ids": [
+          "cf3752afad18b8d3cc23c055f9c75600abc5b53428044f10df5e0648e61837a8"
+        ],
+        "binding": "DECLARED"
       },
       {
         "locator_key": "norma:22.apartado:19",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
+        "relation_ids": [
+          "e5d4f0d2c21d40bede26b97a0f8e010b03431ac517caa7c291302d904db9461a"
+        ],
+        "binding": "DECLARED"
       },
       {
         "locator_key": "norma:22.apartado:20",
-        "relation_ids": [],
-        "binding": "UNMATCHED"
+        "relation_ids": [
+          "369105af7200ced0d37b6eb2dbc0e1e6e9d4c50aefe9f4dfec09df1bd300ace3"
+        ],
+        "binding": "DECLARED"
       },
       {
         "locator_key": "norma:60.apartado:13",
@@ -494,11 +432,7 @@
       }
     ],
     "cited_rule_references": [],
-    "subjects_cited_without_relation": [
-      "norma:22.apartado:18",
-      "norma:22.apartado:19",
-      "norma:22.apartado:20"
-    ],
+    "subjects_cited_without_relation": [],
     "epistemic": "DERIVED"
   },
   {
@@ -867,22 +801,6 @@
       "estado:FI 141"
     ],
     "bindings": [
-      {
-        "locator_key": "estado:FI 131",
-        "relation_ids": [
-          "0b09671763e555581f70bf23c3c582ced5493032b31b52ca7fe03c590ccea2c8",
-          "4101be60f3d3f752bb972241605307170dfc37ca24bd6bba46720960150732a7"
-        ],
-        "binding": "DECLARED"
-      },
-      {
-        "locator_key": "estado:FI 141",
-        "relation_ids": [
-          "15ccd600e6cc9a3c6dd66cd6dfcebc401a481b6434f704b37c9cc4ec63db5ddf",
-          "7e71ba474bca63da533bd581dcd7849b12bbb2c3a69604bbedb9558cbda7940a"
-        ],
-        "binding": "DECLARED"
-      },
       {
         "locator_key": "norma:67",
         "relation_ids": [],

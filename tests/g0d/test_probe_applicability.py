@@ -177,13 +177,11 @@ def test_no_scalar_flattening(a):
 
 
 def test_gaps_are_reported_not_invented(a):
-    """The two real G0-C.2 recall gaps surface as MISSING, never fabricated."""
+    """After G0-C.2R2 the two former recall gaps are repaired: every
+    explicitly cited target locator materializes a relation."""
     missing = {k for m in a["matrix"]
                for k in m["subjects_cited_without_relation"]}
-    assert missing == {"norma:31.apartado:3",
-                       "norma:22.apartado:18",
-                       "norma:22.apartado:19",
-                       "norma:22.apartado:20"}
+    assert missing == set()
     # applied-rule citations are not mistaken for modification targets
     rule_refs = {k for m in a["matrix"] for k in m["cited_rule_references"]}
     assert {"norma:17.apartado:6", "norma:17.apartado:7",
@@ -193,3 +191,24 @@ def test_gaps_are_reported_not_invented(a):
         for b in m["bindings"]:
             for rid in b["relation_ids"]:
                 assert rid in a["rel_ids"]
+
+
+def test_relation_classification_four_way(a):
+    """Every relation of the evaluated modifier is classified into exactly
+    one of the four binding classes; the repaired locators are
+    SPECIFIC_BOUND and no expected target remains unbound."""
+    cls = P.classify_relations(a["matrix"], a["rel_rows"])
+    by_rel = {r["relation_id"]: r for r in cls["relations"]}
+    assert len(by_rel) == len(a["rel_rows"])
+    valid = {"SPECIFIC_BOUND", "SPECIFIC_EXPECTED_BUT_UNBOUND",
+             "GENERAL_ONLY", "NOT_APPLICABLE"}
+    assert {r["classification"] for r in by_rel.values()} <= valid
+    assert cls["counts"]["SPECIFIC_EXPECTED_BUT_UNBOUND"] == 0
+    assert cls["cited_targets_without_relation"] == []
+    by_key = {}
+    for r in cls["relations"]:
+        by_key.setdefault(r["locator_key"], r)
+    for repaired in ("norma:31.apartado:3", "norma:22.apartado:17",
+                     "norma:22.apartado:18", "norma:22.apartado:19",
+                     "norma:22.apartado:20"):
+        assert by_key[repaired]["classification"] == "SPECIFIC_BOUND"
