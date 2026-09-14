@@ -51,6 +51,7 @@ _AMEND_VERB_RE = re.compile(
     r"añadirse|introducirse|incorporarse|incluirse|insertarse|"
     r"crearse)|"
     r"queda\w*\s+redactad|pasa\w*\s+a\s+(?:ser|denominarse)|"
+    r"(?:se\s+)?da\w*\s+nueva\s+redacci[oó]n|"
     r"donde\s+dice|debe\s+decir|se\s+sombrea",
     re.IGNORECASE,
 )
@@ -207,7 +208,8 @@ _ANNEX_REF_RE = re.compile(
 
 _OP_KINDS = [
     ("SUBSTITUTE", re.compile(
-        r"se\s+sustituye\w*|debe\w*\s+sustituirse", re.IGNORECASE)),
+        r"se\s+sustituye\w*|debe\w*\s+sustituirse|"
+        r"(?:se\s+)?da\w*\s+nueva\s+redacci[oó]n", re.IGNORECASE)),
     ("DELETE", re.compile(
         r"se\s+(?:suprime\w*|elimina\w*)|debe\w*\s+(?:suprimirse|"
         r"eliminarse)", re.IGNORECASE)),
@@ -790,10 +792,13 @@ def parse_operations(doc: DiarioDoc,
     sec_end = {op.node_index: sec.node_end
                for sec, ops in selected for op in ops}
     for op in operations:
-        if op.is_container or not op.marker:
-            # unmarked clauses are self-contained: their content is the
-            # clause's own literals/inline spans, never trailing nodes
+        if op.is_container:
             op.content_span = (op.node_index + 1, op.node_index + 1)
+            continue
+        if not op.marker:
+            # unmarked clauses are self-contained: their span, computed
+            # in _parse_section, is empty unless the clause declares
+            # trailing quoted content (ends ':')
             continue
         end = sec_end.get(op.node_index, len(doc.nodes))
         for j in range(op.node_index + 1, end):
@@ -863,13 +868,29 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
                 for ref in _clause_targets(clause):
                     if ref not in op_targets:
                         op_targets.append(ref)
+                # an unmarked clause ending ':' declares replacement
+                # text in the following quote/indented nodes
+                # ('Se da nueva redacción al apartado X: «...»')
+                cend = i + 1
+                if clause.rstrip().endswith(":"):
+                    j = i + 1
+                    while j < sec.node_end:
+                        nxt = doc.nodes[j]
+                        if nxt.kind == "p" and (
+                                nxt.cls.startswith("sangrado")
+                                or (nxt.text or "").lstrip()
+                                .startswith("«")):
+                            cend = j + 1
+                            j += 1
+                        else:
+                            break
                 ops.append(Operation(
                     node_index=i,
                     marker="",
                     clause_text=clause,
                     operation_kind=_op_kind(clause),
                     subjects=subjects,
-                    content_span=(i + 1, i + 1),
+                    content_span=(i + 1, cend),
                     is_container=False,
                     annex_ref=bool(_ANNEX_REF_RE.search(n.text)),
                     literals=_literals(clause),

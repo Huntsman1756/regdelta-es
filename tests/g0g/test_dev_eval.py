@@ -164,6 +164,20 @@ def test_fichero_connector_variant_binds(tmp_path):
     conn.close()
 
 
+def test_unmarked_rewrite_with_quoted_content(tmp_path):
+    """'Se da nueva redacción al apartado 3 de la norma primera de la
+    Circular 4/2010: «3. En caso de que ...»' — an unmarked op whose
+    trailing ':' pulls the following quoted block as the after
+    representation (SUBSTITUTE, both sides bound)."""
+    conn = _build(tmp_path, "BOE-A-2010-12488")
+    rels = _rels(conn, "norma:1.apartado:3")
+    assert rels, "rewrite clause dropped"
+    r = rels[0]
+    assert r["operation_kind"] == "SUBSTITUTE"
+    assert r["after_representation_id"] is not None
+    conn.close()
+
+
 def test_applicability_numbered_disposiciones(tmp_path):
     """Disposición sections are discovered dynamically, not from a
     fixed dfu/dt1-3 list: C5/2014's 'Disposición transitoria única'
