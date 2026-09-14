@@ -117,7 +117,14 @@ def test_runner_dev_equivalence(tmp_path):
     metrics (runs/005) is no longer asserted — that state was produced
     by the pre-binder runtime and encodes the false bindings G1.1
     removes. The frozen artifact remains immutable history; the G1
-    comparison point is evidence/g1/dev/runs/000-baseline + final."""
+    comparison point is evidence/g1/dev/runs/000-baseline + final.
+
+    G2.1_INTENTIONAL_SEMANTIC_CHANGE: per-target relation counts also
+    diverge from runs/005 — the ownership pipeline emits relations only
+    for TARGET_PROVEN operations and letter/enumeration locators the
+    old parser never composed. What is asserted here is determinism,
+    manifest immutability, and full audit coverage of whatever the
+    runtime does emit."""
     before = hashlib.sha256(DEV_MANIFEST.read_bytes()).hexdigest()
     out = tmp_path / "equiv"
     r = _run(_base_args(out))
@@ -126,11 +133,6 @@ def test_runner_dev_equivalence(tmp_path):
         == before
 
     tg = json.loads((out / "targets.json").read_text(encoding="utf-8"))
-    ft = json.loads((G0G / "dev" / "runs" / "005-redaccion-verb"
-                     / "targets.json").read_text(encoding="utf-8"))
-    for t, v in ft.items():
-        assert tg[t]["inventory"]["relations"] \
-            == v["inventory"]["relations"], t
     # audit coverage: one row per emitted relation
     rels = sum(v["inventory"]["relations"] for v in tg.values())
     audit = (out / "audit.jsonl").read_text(encoding="utf-8")

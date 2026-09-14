@@ -377,53 +377,71 @@
         "modifier_boe_id": "BOE-A-2025-26847",
         "palabra": "SE MODIFICA",
         "palabra_codigo": "270",
+        "provenance": "derived_wide_family",
         "texto": ", en la forma indicada, determinados preceptos, por Circular 1/2025, de 19 de diciembre de 2025"
       },
       {
         "modifier_boe_id": "BOE-A-2023-5481",
         "palabra": "SE MODIFICA",
         "palabra_codigo": "270",
+        "provenance": "derived_wide_family",
         "texto": "con efectos desde el 31 de marzo de 2023, las normas 4, 60, 70, el anejo 1 y SE SUPRIME, con los mismos efectos, el anejo 8, por Circular 1/2023, de 24 de febrero"
       },
       {
         "modifier_boe_id": "BOE-A-2021-21666",
         "palabra": "SE MODIFICA",
         "palabra_codigo": "270",
+        "provenance": "derived_wide_family",
         "texto": ", en la forma indicada, determinados preceptos, por Circular 6/2021, de 22 de diciembre"
       },
       {
         "modifier_boe_id": "BOE-A-2020-15602",
         "palabra": "SE MODIFICA",
         "palabra_codigo": "270",
+        "provenance": "derived_wide_family",
         "texto": ", con los efectos indicados, las normas 21, 48 y anejo 9; SE AÑADE la disposición adicional 2 y se renumera la única, por Circular de 25 de noviembre de 2020"
       },
       {
         "modifier_boe_id": "BOE-A-2020-6187",
         "palabra": "SE MODIFICA",
         "palabra_codigo": "270",
+        "provenance": "derived_wide_family",
         "texto": "el anejo 9, por Circular 3/2020, de 11 de junio"
       },
       {
         "modifier_boe_id": "BOE-A-2020-6186",
         "palabra": "SE MODIFICA",
         "palabra_codigo": "270",
+        "provenance": "derived_wide_family",
         "texto": "determinados preceptos, por Circular 2/2020, de 11 de junio"
       },
       {
         "modifier_boe_id": "BOE-A-2018-17880",
         "palabra": "SE MODIFICA",
         "palabra_codigo": "270",
+        "provenance": "derived_wide_family",
         "texto": "determinados preceptos y SE SUSTITUYE la norma 33, por Circular de 21 de diciembre de 2018"
       },
       {
         "modifier_boe_id": "BOE-A-2018-2041",
         "palabra": "CORRECCIÓN de errores",
         "palabra_codigo": "201",
+        "provenance": "derived_wide_family",
         "texto": "y erratas en BOE núm. 41 de 15 de febrero de 2018"
       }
     ],
+    "reverse_check": {
+      "BOE-A-2018-17880": true,
+      "BOE-A-2018-2041": true,
+      "BOE-A-2020-15602": true,
+      "BOE-A-2020-6186": true,
+      "BOE-A-2020-6187": true,
+      "BOE-A-2021-21666": true,
+      "BOE-A-2023-5481": true,
+      "BOE-A-2025-26847": true
+    },
     "source": "derived_from_target_posteriores",
-    "source_artifact": "evidence/g0c/raw/boe_diario_xml__BOE-A-2017-14334.xml",
+    "source_artifact": "evidence\\g0c\\raw\\boe_diario_xml__BOE-A-2017-14334.xml",
     "target_boe_id": "BOE-A-2017-14334"
   },
   "BOE-A-2019-17286": {
@@ -432,9 +450,17 @@
         "modifier_boe_id": "BOE-A-2023-5481",
         "palabra": "SE MODIFICA",
         "texto": ", con efectos desde el 31 de marzo de 2023, la norma 5, por Circular 1/2023, de 24 de febrero"
+      },
+      {
+        "modifier_boe_id": "BOE-A-2021-21666",
+        "palabra": "SE SUPRIME",
+        "palabra_codigo": "235",
+        "provenance": "derived_wide_family",
+        "texto": "la disposición final única, por Circular 6/2021, de 22 de diciembre"
       }
     ],
     "reverse_check": {
+      "BOE-A-2021-21666": true,
       "BOE-A-2023-5481": true
     }
   },

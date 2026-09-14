@@ -474,13 +474,15 @@ def test_g0c_g0d_g0e_invariants_unchanged(ro):
                         "applicability_effects", "applicability_targets",
                         "anomalies")}
     # G1_INTENTIONAL_SEMANTIC_CHANGE: representations/anomalies shift
-    # under the proof-or-abstain binder — see test_g0c_counts_unchanged
+    # under the proof-or-abstain binder — see test_g0c_counts_unchanged.
+    # G2.1_INTENTIONAL_SEMANTIC_CHANGE: counts shift again under the
+    # ownership pipeline — see test_g0c_counts_unchanged.
     assert counts == {
-        "subjects": 221, "representations": 189,
+        "subjects": 223, "representations": 186,
         "modification_relations": 292, "applicability_clauses": 26,
         "applicability_effects": 16, "applicability_targets": 98,
-        "anomalies": 448}
+        "anomalies": 457}
     res = dict(ro.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution"))
-    assert res == {"RESOLVED": 89, "PARTIAL": 80, "UNRESOLVED": 123}
+    assert res == {"RESOLVED": 85, "PARTIAL": 81, "UNRESOLVED": 126}

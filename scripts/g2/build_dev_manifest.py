@@ -65,6 +65,13 @@ GOLD_SOURCES = [
 
 _CORE_TITLE_RE = re.compile(r"^Circular\s+4\s*/\s*2017\b")
 
+# the G2 capture protocol's declared-modifier family — wider than the
+# frozen G0G-era gold filter (MODIFICA|CORRIGE|CORRECCI), which omitted
+# SE SUPRIME posteriores that the protocol did capture as modifiers
+MOD_REL_RE = re.compile(
+    r"MODIFICA|A\u00d1ADE|SUPRIME|SUSTITUYE|DEROGA|"
+    r"CORRIGE|CORRECCI", re.IGNORECASE)
+
 
 def _sha256(b: bytes) -> str:
     return hashlib.sha256(b).hexdigest()
@@ -154,30 +161,62 @@ def merge_entries() -> dict[str, dict]:
     return entries
 
 
+def _target_xml_path(target: str,
+                     entries: dict[str, dict]) -> Path | None:
+    url = ("https://www.boe.es/diario_boe/xml.php?id=" + target)
+    e = next((e for e in entries.values()
+              if e.get("url") == url and "path" in e), None)
+    return ROOT / e["path"] if e is not None else None
+
+
+def _reverse_check(mod_boe: str, target: str,
+                   entries: dict[str, dict]) -> bool | None:
+    """Does the modifier's own <anteriores> name the target? None when
+    the modifier XML is not in the merged evidence."""
+    url = ("https://www.boe.es/diario_boe/xml.php?id=" + mod_boe)
+    e = next((e for e in entries.values()
+              if e.get("url") == url and "path" in e), None)
+    if e is None:
+        return None
+    root = ET.fromstring((ROOT / e["path"]).read_bytes())
+    return any(a.attrib.get("referencia") == target
+               for a in root.findall(".//referencias/anteriores/"
+                                     "anterior"))
+
+
 def build_gold(targets: dict[str, dict],
                entries: dict[str, dict]) -> dict:
-    """Declared modifiers per target: union of the two frozen gold
-    files; the core target's gold derives mechanically from its own
-    captured posteriores."""
+    """Declared modifiers per target: the frozen gold files plus a
+    mechanical union with each target's own <posteriores> under the
+    capture protocol's full relation family — frozen entries keep their
+    recorded fields; derived additions carry provenance markers."""
     gold: dict[str, dict] = {}
     for gp in GOLD_SOURCES:
         for k, v in json.loads(gp.read_text(encoding="utf-8")).items():
-            gold[k] = v
-    core = next(b for b, t in targets.items()
-                if t["provenance"] == "G0C_CORE_C4_2017")
-    if core not in gold:
-        xml_url = ("https://www.boe.es/diario_boe/xml.php?id=" + core)
-        e = next((e for e in entries.values()
-                  if e.get("url") == xml_url and "path" in e), None)
-        assert e is not None, "core target XML not in merged evidence"
-        declared = _posteriores(ROOT / e["path"])
-        gold[core] = {
-            "target_boe_id": core,
-            "declared": [d for d in declared
-                         if d["modifier_boe_id"]],
-            "source": "derived_from_target_posteriores",
-            "source_artifact": e["path"],
-        }
+            gold[k] = dict(v)
+    for t in targets:
+        xp = _target_xml_path(t, entries)
+        if xp is None:
+            continue
+        derived = [d for d in _posteriores(xp)
+                   if d["modifier_boe_id"]
+                   and MOD_REL_RE.search(d["palabra"])]
+        if t not in gold:
+            gold[t] = {"target_boe_id": t, "declared": [],
+                       "reverse_check": {},
+                       "source": "derived_from_target_posteriores",
+                       "source_artifact": str(xp.relative_to(ROOT))}
+        rec = gold[t]
+        known = {d["modifier_boe_id"] for d in rec["declared"]}
+        rc = rec.setdefault("reverse_check", {})
+        for d in derived:
+            mb = d["modifier_boe_id"]
+            r = _reverse_check(mb, t, entries)
+            if r is not None:
+                rc[mb] = r
+            if mb not in known:
+                rec["declared"].append(
+                    {**d, "provenance": "derived_wide_family"})
     return {k: gold[k] for k in sorted(gold) if k in targets}
 
 

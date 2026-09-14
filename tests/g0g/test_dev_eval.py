@@ -120,14 +120,23 @@ def test_fichero_before_representation_binds(tmp_path):
 
 
 def test_errata_parenthetical_state_locators(tmp_path):
-    """Errata corrections locate via 'En la página N (Estado CODE)'
-    + 'donde dice/debe decir' literals → CORRECT-style relations with
-    declared literals and page-anchored image predecessors."""
-    conn = _build(tmp_path, "BOE-A-2012-3169")
-    rows = _rels(conn, "estado:%")
-    assert rows, "errata estado locators not parsed"
-    assert all(r["declared_literals"] or r["kind"] == "CORRECTION"
-               for r in rows)
+    """Errata clauses locate via 'En la página N (Estado CODE)' +
+    'donde dice/debe decir' literals and parse as leaf operations.
+
+    G2.1_INTENTIONAL_SEMANTIC_CHANGE: state codes outside the provable
+    FI/FC/PI/PC/PA/UEM/AVE family (the T/C tables this corrigendum
+    corrects) can never be declared in a governing scope — O2 is
+    unprovable, so the operations are journaled in the inventory but
+    emit no relations. Fail-closed abstention, not a false locator."""
+    conn = dbm.connect(tmp_path / "r.sqlite")
+    conn.row_factory = sqlite3.Row
+    report = history.reconstruct(
+        conn, tmp_path, "BOE-A-2012-3169", _fetch)
+    conn.commit()
+    inv = {m["modifier"]: m for m in
+           report["operation_inventory"]["per_modifier"]}
+    assert inv["BOE-A-2012-3619"]["leaf_operations_parsed"] > 0
+    assert _rels(conn, "estado:%") == []
     conn.close()
 
 

@@ -19,14 +19,14 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from uuid import uuid4
 
-from . import annexmap, binding, operations
+from . import annexmap, binding, operations, ownership
 from .http import LIVE_FETCH
 from .rawstore import store_blob
 from .sources import boe_diario, boe_doc, boe_pdf
 from .util import canonical_date, sha256_hex, sha256_hex_text
 
 PARSER_NAME = "history"
-PARSER_VERSION = "v3"
+PARSER_VERSION = "v4"
 
 BOE_BASE = "https://www.boe.es"
 XML_URL = BOE_BASE + "/diario_boe/xml.php?id={boe}"
@@ -195,11 +195,15 @@ def _resolution(op_kind: str, before_status: str, after_status: str,
     has_lit = bool(literals)
     b, a = before_status == "BOUND", after_status == "BOUND"
     if op_kind == "ADD":
-        return ("RESOLVED", None) if a else (
-            "UNRESOLVED", f"after: {after_status}")
+        if a:
+            return "RESOLVED", None
+        return (("PARTIAL", f"after: {after_status}") if has_lit
+                else ("UNRESOLVED", f"after: {after_status}"))
     if op_kind == "DELETE":
-        return ("RESOLVED", None) if b else (
-            "UNRESOLVED", f"before: {before_status}")
+        if b:
+            return "RESOLVED", None
+        return (("PARTIAL", f"before: {before_status}") if has_lit
+                else ("UNRESOLVED", f"before: {before_status}"))
     if op_kind == "SUBSTITUTE":
         if b and a:
             return "RESOLVED", None
@@ -486,53 +490,11 @@ def _bind_first_before(ctx: _Ctx, target: boe_diario.DiarioDoc,
     return binding.decide(cands, "UNIQUE_STRUCTURAL_TARGET", key)
 
 
-# operative qualifiers that scope an operation below the locator model:
-# a clause acting on a módulo/dimensión/cuadro/etc. targets an element
-# the locator cannot express, so the recorded (parent) subject's
-# representation is not what the operation touches (B3/§32)
-_SUB_SCOPE_RE = re.compile(
-    r"\b(?:m[oó]dulo|dimensi[oó]n|apartado|letra|punto|numeral|nota|"
-    r"secci[oó]n|cuadro|tabla|p[aá]rrafo|[íi]ndice|fila|columna)\b",
-    re.IGNORECASE)
-
-# unmodelled ordinal qualifiers that make a recorded locator coarser
-# than the actual subject: 'norma 64 bis', 'apartado 2.e)', 'punto 4 ter'
-_QUALIFIER_SRC = r"(?:\.\s*[a-z]\b|\s+(?:bis|ter|qu[aá]ter|quinquies|" \
-    r"sexies|septies|octies|nonies|decies)\b)"
-
-_KIND_WORDS = {
-    "apartado": r"apartados?", "letra": r"letras?", "punto": r"puntos?",
-    "numeral": r"numerales?", "nota": r"notas?", "norma": r"normas?",
-    "anejo": r"(?:anejos?|anexos?)", "seccion": r"secciones?",
-    "indice": r"[íi]ndices?",
-}
-
-
-def _has_unmodelled_qualifier(masked: str, key: str) -> bool:
-    """The recorded locator's mention carries a suffix the model cannot
-    express — 'norma N ter', 'apartado N.x)' — so the real subject is a
-    different (sub-)entity than the recorded parent locator."""
-    for part in key.split("."):
-        kind, _, val = part.partition(":")
-        kind_rx = _KIND_WORDS.get(kind)
-        if not val or kind_rx is None:
-            continue
-        vals = {re.escape(val)}
-        if val.isdigit():
-            vals |= {re.escape(w) for w, n in
-                     operations._ORDINALS.items() if n == int(val)}
-        pat = re.compile(rf"\b{kind_rx}\s+(?:{'|'.join(sorted(vals))})"
-                         rf"{_QUALIFIER_SRC}", re.IGNORECASE)
-        if pat.search(masked):
-            return True
-    return False
-
-
-def _masked_clause(text: str) -> str:
-    """Quoted spans blanked position-preserving — offsets in the result
-    still index the original clause."""
-    return operations._QUOTED_SPAN_RE.sub(
-        lambda mm: " " * len(mm.group(0)), text)
+# clause/locator qualifier helpers live in operations (shared with the
+# ownership layer); keep the history-local names as aliases
+_SUB_SCOPE_RE = operations._SUB_SCOPE_RE
+_has_unmodelled_qualifier = operations._has_unmodelled_qualifier
+_masked_clause = operations._masked_clause
 
 
 def _seg_keys(raw: str, masked: str,
@@ -703,6 +665,47 @@ def _subject_owns_content(op: operations.Operation, key: str,
     return owner >= 0 and key in seg_keys[owner]
 
 
+_COVER_HEADS = ("estado", "punto", "apartado", "letra", "numeral",
+                "nota", "indice")
+
+_FICHERO_CONNECTORS = frozenset(
+    {"a", "ante", "con", "de", "del", "e", "el", "en", "la", "las",
+     "los", "para", "por", "sobre", "y"})
+
+
+def _fichero_norm(text: str) -> str:
+    t = re.sub(r"\s*-\s*", "-", operations._norm(text))
+    return re.sub(r"\s*\(\s*\*+\s*\)\s*$", "", t)
+
+
+def _fichero_tokens(text: str) -> tuple[str, ...]:
+    return tuple(t for t in re.split(r"[^\w]+", _fichero_norm(text))
+                 if t and t not in _FICHERO_CONNECTORS)
+
+
+def _span_covers_subject(key: str, text: str) -> bool:
+    """Frozen-oracle coverage: a TEXT/TABLE binding is provable only
+    when the span restates the subject's distinguishing token for
+    sub-locator keys and code-kind locators. Whole-subject replacements
+    need not restate their heading."""
+    head = key.split(":", 1)[0].split(".", 1)[0]
+    token = operations._norm(key.split(":")[-1])
+    if head == "fichero":
+        return _fichero_norm(token) in _fichero_norm(text) or all(
+            t in _fichero_tokens(text)
+            for t in _fichero_tokens(token))
+    has_sub = any(":" in p for p in key.split(".")[1:])
+    if not has_sub and head not in _COVER_HEADS:
+        return True
+    alts = {token, token.replace(".", " ")}
+    if head in ("norma", "anejo", "anexo", "disp", "disposicion") \
+            and token.isdigit():
+        alts |= {operations._norm(w) for w, v in
+                 operations._ORDINALS.items() if v == int(token)}
+    tnorm = operations._norm(text)
+    return any(a in tnorm for a in alts if a)
+
+
 def _bind_content_after(ctx: _Ctx, key: str, sid: str, mboe: str,
                         mdoc: boe_diario.DiarioDoc,
                         op: operations.Operation,
@@ -725,11 +728,11 @@ def _bind_content_after(ctx: _Ctx, key: str, sid: str, mboe: str,
                 "following content is governed by a different "
                 "sub-clause")
     if method == "INLINE_QUOTED_CONTENT":
-        kind_, text = "TEXT", op.inline_content
-        ns = op.node_index if text else s
-        if e > s:
-            kind_, span_text = region_text(mdoc, (s, e))
-            text = "\n".join(t for t in (text, span_text) if t)
+        # the claim covers whole nodes: the recorded text must be the
+        # serialization of exactly the claimed span, not only the
+        # quoted payload embedded in the clause node
+        ns = op.node_index if op.inline_content else s
+        kind_, text = region_text(mdoc, (ns, e))
         cand = binding.Candidate(
             instrument_boe_id=mboe, snapshot_id=snap,
             representation_kind=kind_, structural_scope=key,
@@ -737,6 +740,10 @@ def _bind_content_after(ctx: _Ctx, key: str, sid: str, mboe: str,
             locator={"instrument": mboe, "type": "xml_nodes",
                      "node_span": [ns, e]},
             source="operation inline quoted content", text=text)
+        if not _span_covers_subject(key, text):
+            return binding.abstain(
+                binding.NOT_PROVABLE, "COVERAGE_NOT_PROVABLE", key,
+                "bound span does not restate the subject locator")
         return binding.BindingResult(
             binding.BOUND, "INLINE_QUOTED_CONTENT", key, 1,
             (cand,), cand)
@@ -746,6 +753,10 @@ def _bind_content_after(ctx: _Ctx, key: str, sid: str, mboe: str,
             return binding.abstain(
                 binding.NOT_PROVABLE, "EXPLICIT_FOLLOWING_CONTENT", key,
                 "empty content span")
+        if not _span_covers_subject(key, text):
+            return binding.abstain(
+                binding.NOT_PROVABLE, "COVERAGE_NOT_PROVABLE", key,
+                "bound span does not restate the subject locator")
         cand = binding.Candidate(
             instrument_boe_id=mboe, snapshot_id=snap,
             representation_kind=kind_, structural_scope=key,
@@ -861,22 +872,16 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                            mdoc, art.snapshot_id)
         _insert_instrument_relations(
             ctx, instrument_id(boe_id), mdoc, art.snapshot_id)
-        # a correction instrument names its target in prose, not in
-        # section headings: match every section (whole-body fallback) only
-        # when the title confirms it is this target's correction
-        if kind == "CORRECTION":
-            names = [(int(a), int(b)) for a, b in
-                     _CIRCULAR_RE.findall(mdoc.metadata.get("titulo", ""))]
-            tref = None if target_ref in names else target_ref
-        else:
-            tref = target_ref
-        result = operations.parse_operations(mdoc, tref)
-        if result.out_of_target_ops:
-            _anomaly(ctx, ANOMALY_OUT_OF_TARGET, art.snapshot_id,
-                     {"modifier": boe_id,
-                      "count": result.out_of_target_ops})
+        # G2.1 §10-15: the parser describes every candidate operation
+        # target-agnostically; the ownership layer then attributes each
+        # operation to an instrument — the reconstructed target never
+        # disambiguates a tie
+        result = operations.parse_all_operations(mdoc)
+        attributed = [(op, ownership.attribute_operation(
+            op, mdoc, target_ref, target_boe_id))
+            for op in result.operations]
         parsed_mods.append({"boe_id": boe_id, "kind": kind, "ref": ref,
-                            "doc": mdoc, "ops": result.operations,
+                            "doc": mdoc, "ops": attributed,
                             "snapshot": art.snapshot_id,
                             "pub": canonical_date(
                                 mdoc.metadata.get("fecha_publicacion", "")
@@ -884,7 +889,11 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                             "vigencia": canonical_date(
                                 mdoc.metadata.get("fecha_vigencia") or "")})
         if kind == "CORRECTION":
-            for op in result.operations:
+            # correction anchors only come from operations proven to
+            # belong to this target (G2.1 §15.B)
+            for op, att in attributed:
+                if att.status != ownership.TARGET_PROVEN:
+                    continue
                 for s in op.subjects:
                     if s.page_ref and s.locator_key.startswith("estado:"):
                         anchors.append((s.page_ref, s.locator_key[7:]))
@@ -937,11 +946,33 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                 modifier_map = _target_annex_map(ctx, mboe, mdoc)
             return modifier_map
 
-        for op in pm["ops"]:
-            if op.is_container or not op.subjects:
+        # §44 operation-inventory accounting: every leaf operation ends
+        # in exactly one attribution disposition
+        pm["inventory"] = {
+            "leaf_operations_parsed": 0, "relations_emitted": 0,
+            **{s: 0 for s in ownership.ATTRIBUTION_STATUSES}}
+
+        for op, att in pm["ops"]:
+            if op.is_container:
+                continue
+            pm["inventory"]["leaf_operations_parsed"] += 1
+            pm["inventory"][att.status] += 1
+            # §17 emission gate: only TARGET_PROVEN operations may
+            # become target-owned relations — no subject row,
+            # representation, relation, lifecycle or chain mutation
+            # otherwise (§50). Non-proven dispositions are correct
+            # abstentions, journaled in the operation inventory — not
+            # anomalies.
+            if att.status != ownership.TARGET_PROVEN:
                 continue
             for sub in op.subjects:
                 key = sub.locator_key
+                # O2: the operation must demonstrably declare this
+                # locator in its governing scope (§20); an unproven
+                # locator is likewise a silent abstention
+                decl = ownership.prove_locator(op, sub)
+                if decl.status != ownership.LOC_PROVEN:
+                    continue
                 sid = _upsert_subject(ctx, target_boe_id, key, sub.label,
                                       sub.kind)
                 op_kind = operations.subject_operation_kind(
@@ -1071,6 +1102,31 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
 
                 proof = {"version": "g1-binding-v1",
                          "before": bres.proof, "after": ares.proof}
+                # G2.1 §28 subject_proof: ownership (O1), locator
+                # declaration (O2) and existence-before (O3) — claims
+                # for the evaluator to re-derive, not truth it accepts
+                sproof = {
+                    "version": "g2-subject-v1",
+                    "target_attribution": {
+                        "status": att.status, "method": att.method,
+                        "candidate_instruments":
+                            list(att.candidate_instruments),
+                        "chosen_instrument": att.chosen_instrument,
+                        "corrected_instrument": att.corrected_instrument,
+                        "section_evidence": att.section_evidence,
+                        "clause_evidence": att.clause_evidence},
+                    "locator_declaration": {
+                        "status": decl.status,
+                        "locator_key": decl.locator_key,
+                        "source_node_index": decl.source_node_index,
+                        "components": [list(c) for c in decl.components],
+                        "method": decl.method},
+                    # O3 is derived in the post-emission pass below:
+                    # the chain predecessor of a relation is decided by
+                    # the authoritative (publication_date, relation_id)
+                    # order, which is only complete once all relations
+                    # for the target exist
+                    "existence_before": None}
                 conn.execute(
                     "INSERT OR IGNORE INTO modification_relations"
                     " (relation_id, kind, operation_kind, target_subject_id,"
@@ -1080,8 +1136,8 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                     " declared_literals,"
                     " diff_levels, resolution, resolution_notes,"
                     " source_snapshot_ids, parser_name, parser_version,"
-                    " binding_proof)"
-                    " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                    " binding_proof, subject_proof)"
+                    " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                     (rid, pm["kind"], op_kind, sid,
                      instrument_id(mboe), op.clause_text, pm["ref"].texto,
                      before_id, after_id, pm["pub"],
@@ -1091,8 +1147,9 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                      json.dumps(levels), resolution,
                      resolution_notes,
                      json.dumps(snaps), PARSER_NAME, PARSER_VERSION,
-                     _canonical_json(proof)))
+                     _canonical_json(proof), _canonical_json(sproof)))
                 stats["relations"] += 1
+                pm["inventory"]["relations_emitted"] += 1
 
                 # ----- chain update (G1 §27–28) ------------------------------
                 if not scope_provable:
@@ -1105,6 +1162,69 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                     chain_update(chain, key, op_kind, ares.status,
                                  after_id, rid, literals)
 
+    # ----- O3 derivation (G2.1 §33) --------------------------------------
+    # Subject existence before each emitted relation, derived over the
+    # complete emitted chain in its authoritative order — the same
+    # derivation the frozen evaluator re-applies independently.
+    o3_rows = conn.execute(
+        "SELECT m.relation_id, m.operation_kind, m.publication_date,"
+        " m.after_representation_id, m.subject_proof, s.locator_key"
+        " FROM modification_relations m JOIN subjects s"
+        " ON s.subject_id = m.target_subject_id"
+        " WHERE s.instrument_id = ?",
+        (instrument_id(target_boe_id),)).fetchall()
+    by_key: dict[str, list] = {}
+    for row in o3_rows:
+        by_key.setdefault(row[5], []).append(row)
+    for hops in by_key.values():
+        hops.sort(key=lambda r: (r[2] or "", r[0]))
+    struct_cache: dict[str, bool] = {}
+    for key, hops in by_key.items():
+        parts = key.split(".")
+        ancestors = {".".join(parts[:i])
+                     for i in range(1, len(parts))}
+        if key not in struct_cache:
+            struct_cache[key] = ownership.locator_resolves_in_doc(
+                target, key)
+        for i, row in enumerate(hops):
+            prev = hops[i - 1] if i else None
+            born = any(
+                h[3] and (h[2] or "") < (row[2] or "")
+                for a in ancestors for h in by_key.get(a, ()))
+            exist = ownership.expected_existence(
+                row[1],
+                {"relation_id": prev[0], "operation_kind": prev[1],
+                 "after_representation_id": prev[3]} if prev else None,
+                born, struct_cache[key])
+            sproof = json.loads(row[4]) if row[4] else {}
+            sproof["existence_before"] = exist
+            conn.execute(
+                "UPDATE modification_relations SET subject_proof=?"
+                " WHERE relation_id=?",
+                (_canonical_json(sproof), row[0]))
+
+    # §18: every parsed leaf operation ends in exactly one attribution
+    # disposition — the inventory must account for all of them
+    per_modifier = []
+    inventory = {"leaf_operations_parsed": 0,
+                 "attribution_dispositions":
+                     {s: 0 for s in ownership.ATTRIBUTION_STATUSES}}
+    for pm in ordered:
+        inv = pm.get("inventory")
+        if inv is None:
+            continue
+        dispositions = sum(inv[s] for s in ownership.ATTRIBUTION_STATUSES)
+        if dispositions != inv["leaf_operations_parsed"]:
+            _anomaly(ctx, "OPERATION_INVENTORY_MISMATCH", None, {
+                "modifier": pm["boe_id"],
+                "leaf_operations_parsed": inv["leaf_operations_parsed"],
+                "dispositions": dispositions})
+        inventory["leaf_operations_parsed"] += inv[
+            "leaf_operations_parsed"]
+        for s in ownership.ATTRIBUTION_STATUSES:
+            inventory["attribution_dispositions"][s] += inv[s]
+        per_modifier.append({"modifier": pm["boe_id"], **inv})
+    inventory["per_modifier"] = per_modifier
     _persist_anomalies(ctx)
     stats["representations"] = conn.execute(
         "SELECT COUNT(*) FROM representations").fetchone()[0]
@@ -1119,6 +1239,7 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
     return {
         "target": target_boe_id,
         "modifiers": [{"boe_id": b, "kind": k} for b, k, _ in modifiers],
+        "operation_inventory": inventory,
         "target_annex_anchored": bool(amap and amap.anchored),
         "anchors": len(amap.anchors) if amap else 0,
         "fetch_errors": ctx.acquirer.errors,

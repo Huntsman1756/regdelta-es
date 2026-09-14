@@ -179,7 +179,8 @@ CREATE TABLE IF NOT EXISTS modification_relations (
   source_snapshot_ids    TEXT NOT NULL,
   parser_name            TEXT NOT NULL,
   parser_version         TEXT NOT NULL,
-  binding_proof          TEXT NOT NULL DEFAULT '{}'
+  binding_proof          TEXT NOT NULL DEFAULT '{}',
+  subject_proof          TEXT NOT NULL DEFAULT '{}'
 );
 
 CREATE INDEX IF NOT EXISTS idx_repr_subject ON representations(subject_id);
@@ -430,6 +431,29 @@ def _ensure_binding_proof(conn: sqlite3.Connection) -> None:
             f" {violations[:5]}")
 
 
+def _ensure_subject_proof(conn: sqlite3.Connection) -> None:
+    """Add ``subject_proof`` to modification_relations (G2.1 §27).
+
+    ``binding_proof`` records how a representation was bound; it cannot
+    express operation ownership (O1), locator declaration (O2), or
+    subject existence (O3) — the per-relation subject proof lives here.
+    RENAME-free ALTER ADD preserves every row and every relation id;
+    legacy rows keep the '{}' default. Idempotent: a no-op once the
+    column exists.
+    """
+    cols = {r[1] for r in conn.execute(
+        "PRAGMA table_info(modification_relations)")}
+    if "subject_proof" in cols:
+        return
+    conn.execute("ALTER TABLE modification_relations"
+                 " ADD COLUMN subject_proof TEXT NOT NULL DEFAULT '{}'")
+    violations = conn.execute("PRAGMA foreign_key_check").fetchall()
+    if violations:
+        raise sqlite3.IntegrityError(
+            "foreign_key_check failed after subject_proof migration:"
+            f" {violations[:5]}")
+
+
 def connect(db_path: Path) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.execute("PRAGMA foreign_keys = ON")
@@ -440,4 +464,5 @@ def connect(db_path: Path) -> sqlite3.Connection:
     _ensure_check_source_ids(conn)
     _ensure_instrument_effective_date(conn)
     _ensure_binding_proof(conn)
+    _ensure_subject_proof(conn)
     return conn

@@ -431,7 +431,12 @@ def test_report_summary(built):
     assert report["target_annex_anchored"] is True
     assert report["anchors"] >= 10
     assert report["relations"] > 0
-    assert report["fetch_errors"] == []
+    # G2.1: newly proven operations legitimately reach artifacts the
+    # captured evidence never included (e.g. annex page images); a
+    # recorded MISSING is a journaled source limitation — the binding
+    # abstains — not a silent fetch failure
+    assert all(e.get("class") == "MISSING"
+               for e in report["fetch_errors"])
 
 
 # ---------------------------------------------------------------------------
