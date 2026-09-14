@@ -1,0 +1,21 @@
+{
+  "groups": {
+    "CORRIGENDUM_CHAIN": {
+      "STOP": "fewer than 2 eligible candidates",
+      "eligible": [],
+      "eligible_count": 0
+    },
+    "MULTI_TARGET_MODIFIER": {
+      "eligible": [
+        "BOE-A-2016-5203",
+        "BOE-A-2019-15683",
+        "BOE-A-2010-18686",
+        "BOE-A-2022-1718"
+      ],
+      "eligible_count": 4
+    }
+  },
+  "rule": "per group: risk_event_count DESC, declared_modifier_count DESC, sha256(seed|boe_id) ASC; top 2 per group; any group < 2 -> STOP G2.0",
+  "seed": "regdelta-g2-v1",
+  "status": "STOP"
+}

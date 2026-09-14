@@ -1,0 +1,24 @@
+{
+  "gate": "G2",
+  "purpose": "G1.2 FALSE_FACT regression corpus — the four audited relations must be re-evaluated after G2.1 runtime work. G1_FALSE_FACT_REPRODUCTION must be 0 once the G2 ownership/lifecycle layer is in place.",
+  "source": "evidence/g1/g1.2 audit.jsonl (run g1.2-official)",
+  "cases": [
+    {"target": "BOE-A-2012-9058", "modifier": "BOE-A-2019-6888",
+     "locator_key": "disp:final.primera", "operation_kind": "MODIFY",
+     "relation_id": "0dcde453e170d0b37cd0b18d2cf859fabd5703e241ff054a342289f0bdfd1483",
+     "expected_g2_outcome": "no target relation emitted (CORRIGENDUM_LOCAL_SUBJECT)"},
+    {"target": "BOE-A-2012-9058", "modifier": "BOE-A-2019-6888",
+     "locator_key": "disp:final.primera", "operation_kind": "MODIFY",
+     "relation_id": "e4c75192a90248d368b9b208950cf2b1e4c886b620c9cdc1d7307951cf7bb224",
+     "expected_g2_outcome": "no target relation emitted (CORRIGENDUM_LOCAL_SUBJECT)"},
+    {"target": "BOE-A-2012-9058", "modifier": "BOE-A-2022-5524",
+     "locator_key": "norma:11.apartado:1.letra:c",
+     "operation_kind": "MODIFY",
+     "relation_id": "149762c5a18bb955e7d91b73dd8676e23e3d46ae5a956aae166141d62353ba99",
+     "expected_g2_outcome": "relation with correctly composed anejo-scoped locator or honest abstention"},
+    {"target": "BOE-A-2012-9058", "modifier": "BOE-A-2022-5524",
+     "locator_key": "norma:11.apartado:9", "operation_kind": "MODIFY",
+     "relation_id": "704ffae9f4df9f1cb18cacfa576ed752f58d92318314af9735a65e1c01cf58b4",
+     "expected_g2_outcome": "relation with correctly composed anejo-scoped locator or honest abstention"}
+  ]
+}

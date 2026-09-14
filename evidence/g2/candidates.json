@@ -1,0 +1,542 @@
+{
+  "frozen_index_sha256": "5ec993cd256ffb09f44af6ff66a2b93efe2369ab7ad5950f61ecb368526cec36",
+  "index_source": "evidence/g0g/raw/bde_circulares_indice_cronologico.html",
+  "pool": [
+    {
+      "boe_id": "BOE-A-2024-1867",
+      "boe_pub_date": "2024-02-01",
+      "chain_risk_count": 0,
+      "circular": "1/2024",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "d6b6b2028fc52329638ad94f8101c8c279cc1a86e3fbe59753f3fe26649bfe15",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2022-4301",
+      "boe_pub_date": "2022-03-18",
+      "chain_risk_count": 0,
+      "circular": "2/2022",
+      "corrigendum_chain_events": [
+        {
+          "corrects": [
+            "BOE-A-2022-4301"
+          ],
+          "corrects_other_instrument": false,
+          "corrigendum": "BOE-A-2022-6051",
+          "qualifies": false,
+          "source": "evidence/g2/discovery-raw/boe_diario_xml__BOE-A-2022-6051.xml (fetched)",
+          "source_sha256": "c311d23c08d64c906d60c356a0795d62c24b0c2c5e930ae7823f1c756e2cb489",
+          "target_in_corrigendum_relations": true
+        }
+      ],
+      "declared_modifier_count": 1,
+      "g0_status": "ELIGIBLE",
+      "g2_rank_key": "a33d68738b350a1d0809bedf236137717301e8904ee81b52bb3184f37b35f2af",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2022-1718",
+      "boe_pub_date": "2022-02-03",
+      "chain_risk_count": 0,
+      "circular": "1/2022",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 1,
+      "g0_status": "ELIGIBLE",
+      "g2_rank_key": "a722b38c9c298d26ddc2c89231432087ea016d03e339cf3802491505033e7248",
+      "multi_risk_count": 1,
+      "multi_target_events": [
+        {
+          "modified_instruments": [
+            "BOE-A-2016-1238",
+            "BOE-A-2022-1718"
+          ],
+          "modifier": "BOE-A-2023-23052",
+          "qualifies": true,
+          "source": "evidence/g0g/raw/boe_diario_xml__BOE-A-2023-23052.xml",
+          "source_sha256": "7d2d3e7ed279334e6918516dcb9d692df6bf834a687869c23d6603d06d4067ac"
+        }
+      ]
+    },
+    {
+      "boe_id": "BOE-A-2021-1475",
+      "boe_pub_date": "2021-02-02",
+      "chain_risk_count": 0,
+      "circular": "2/2021",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "4da1b7791c170ed80881f33d29d2307f382657e9ab3de2048b90f0f087a3dd1c",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2019-15683",
+      "boe_pub_date": "2019-11-01",
+      "chain_risk_count": 0,
+      "circular": "3/2019",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 1,
+      "g0_status": "ELIGIBLE",
+      "g2_rank_key": "0d58f0ffd4037c4b51a6a6c92fa136130cc8564e9bc4e80d1974dc13a62aeb53",
+      "multi_risk_count": 1,
+      "multi_target_events": [
+        {
+          "modified_instruments": [
+            "BOE-A-2009-21183",
+            "BOE-A-2019-15683"
+          ],
+          "modifier": "BOE-A-2022-1718",
+          "qualifies": true,
+          "source": "evidence/g0g/raw/boe_diario_xml__BOE-A-2022-1718.xml",
+          "source_sha256": "405d65be33201f0eae7a078461474510eb86a1c4e60a30b082e888a5fd441b9b"
+        }
+      ]
+    },
+    {
+      "boe_id": "BOE-A-2019-1694",
+      "boe_pub_date": "2019-02-08",
+      "chain_risk_count": 0,
+      "circular": "1/2019",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "041f5b2d1c6396eb164f175d89123fc2b71562ac747ab8b8c7944ebea8cb4ed3",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2018-1749",
+      "boe_pub_date": "2018-02-09",
+      "chain_risk_count": 0,
+      "circular": "1/2018",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "3560f475177c590080ab6cb20f294afa9c0c77da717e183aebd37e1ea5a9d8a5",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2017-9261",
+      "boe_pub_date": "2017-08-04",
+      "chain_risk_count": 0,
+      "circular": "2/2017",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "89afca7942db78c60446a6e83fc91deeda96da4000cc5cc321a135eef0692d07",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2016-6606",
+      "boe_pub_date": "2016-07-11",
+      "chain_risk_count": 0,
+      "circular": "6/2016",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "86a2b90ea87a79037569c1cff977e966d885b4e4bf4a4548d98dc64e5869b5f4",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2016-5203",
+      "boe_pub_date": "2016-06-01",
+      "chain_risk_count": 0,
+      "circular": "5/2016",
+      "corrigendum_chain_events": [
+        {
+          "corrects": [
+            "BOE-A-2016-5203"
+          ],
+          "corrects_other_instrument": false,
+          "corrigendum": "BOE-A-2016-5532",
+          "qualifies": false,
+          "source": "evidence/g2/discovery-raw/boe_diario_xml__BOE-A-2016-5532.xml (fetched)",
+          "source_sha256": "87aeb6de5909ba101745b1d465091ad5f3893e9ad9cec5b8bda9915c4be6b615",
+          "target_in_corrigendum_relations": true
+        }
+      ],
+      "declared_modifier_count": 2,
+      "g0_status": "ELIGIBLE",
+      "g2_rank_key": "62507c69f1479bf39e092113754ecfa72f182f6482d5858689ed5045b8c15c71",
+      "multi_risk_count": 1,
+      "multi_target_events": [
+        {
+          "modified_instruments": [
+            "BOE-A-2015-14084",
+            "BOE-A-2016-5203"
+          ],
+          "modifier": "BOE-A-2018-1749",
+          "qualifies": true,
+          "source": "evidence/g0g/raw/boe_diario_xml__BOE-A-2018-1749.xml",
+          "source_sha256": "f1bc51d4b3c25de3db1210aa4de5bbae56053c1118587247facc239b3dd0f169"
+        }
+      ]
+    },
+    {
+      "boe_id": "BOE-A-2016-2988",
+      "boe_pub_date": "2016-03-29",
+      "chain_risk_count": 0,
+      "circular": "3/2016",
+      "corrigendum_chain_events": [
+        {
+          "corrects": [
+            "BOE-A-2016-2988"
+          ],
+          "corrects_other_instrument": false,
+          "corrigendum": "BOE-A-2016-4282",
+          "qualifies": false,
+          "source": "evidence/g2/discovery-raw/boe_diario_xml__BOE-A-2016-4282.xml (fetched)",
+          "source_sha256": "35562dd31d2d78221a3b6c23c1e227173531c9eee8aeb29e41b9a9f9492a25e3",
+          "target_in_corrigendum_relations": true
+        }
+      ],
+      "declared_modifier_count": 1,
+      "g0_status": "ELIGIBLE",
+      "g2_rank_key": "8d35e599464abade66b98a4d908e72db4cb7b8e700870d772eba25172ca1e20b",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2016-1183",
+      "boe_pub_date": "2016-02-06",
+      "chain_risk_count": 0,
+      "circular": "1/2016",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "982bc26d7bb2ee71686c9d5ab9643dce7fb91e517d70f74443a0d650a080d060",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2015-12529",
+      "boe_pub_date": "2015-11-20",
+      "chain_risk_count": 0,
+      "circular": "6/2015",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "b1af1edd178ee08dd0606f4711128326637e4715e5712420587fa2e3eab94668",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2015-10596",
+      "boe_pub_date": "2015-10-02",
+      "chain_risk_count": 0,
+      "circular": "5/2015",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 1,
+      "g0_status": "ELIGIBLE",
+      "g2_rank_key": "9c6dcade937ebc1e3a10133f37038df7c5764ff467c54e3646b23e263dec49f0",
+      "multi_risk_count": 0,
+      "multi_target_events": [
+        {
+          "modified_instruments": [
+            "BOE-A-2015-10596"
+          ],
+          "modifier": "BOE-A-2017-9261",
+          "qualifies": false,
+          "source": "evidence/g0g/raw/boe_diario_xml__BOE-A-2017-9261.xml",
+          "source_sha256": "a28dbfb2c14c588615bd3526af3cbd40040fde371b927d54c7924bd4032971c1"
+        }
+      ]
+    },
+    {
+      "boe_id": "BOE-A-2015-5749",
+      "boe_pub_date": "2015-05-26",
+      "chain_risk_count": 0,
+      "circular": "2/2015",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 1,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "d7a2d154b250c5f814f197e510e02e31e806be7c0f2eee53d3d156096615cbc0",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2015-3376",
+      "boe_pub_date": "2015-03-30",
+      "chain_risk_count": 0,
+      "circular": "1/2015",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 1,
+      "g0_status": "ELIGIBLE",
+      "g2_rank_key": "d2330639904fbf16676056ac35dc73961887e854d8bc4e1bfd1839d4f35301ea",
+      "multi_risk_count": 0,
+      "multi_target_events": [
+        {
+          "modified_instruments": [
+            "BOE-A-2015-3376"
+          ],
+          "modifier": "BOE-A-2016-1183",
+          "qualifies": false,
+          "source": "evidence/g0g/raw/boe_diario_xml__BOE-A-2016-1183.xml",
+          "source_sha256": "50627e56555ef9d4b6d2a5c509b28fefb9cd645dd4c02383050993e57bfb709c"
+        }
+      ]
+    },
+    {
+      "boe_id": "BOE-A-2014-13572",
+      "boe_pub_date": "2014-12-29",
+      "chain_risk_count": 0,
+      "circular": "6/2014",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "36c40a597c1ff9eebc0ef133c4dbf03596cbfee6f5096cb5cf20f65cb21108bc",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2014-1182",
+      "boe_pub_date": "2014-02-05",
+      "chain_risk_count": 0,
+      "circular": "1/2014",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "8ff9210d5e46875695ba41fe2e89dd569f2d48cadc1362968c2efffda28cfd1a",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2013-8510",
+      "boe_pub_date": "2013-08-02",
+      "chain_risk_count": 0,
+      "circular": "3/2013",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "06c3ef6c4998f77db857eeda6b8fb1814b0a79fc78165474e36af81ac0b97fd6",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2012-5920",
+      "boe_pub_date": "2012-05-04",
+      "chain_risk_count": 0,
+      "circular": "4/2012",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "7ed0f6a6354fafd7e9a4487f73d78795657f3ef0a90dcec7f110b8722b9580f8",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2012-3168",
+      "boe_pub_date": "2012-03-06",
+      "chain_risk_count": 0,
+      "circular": "1/2012",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "0d1d297e9f20aba50224b8f93bef0f30493388c740d5493bda584631a59adb38",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2011-19302",
+      "boe_pub_date": "2011-12-09",
+      "chain_risk_count": 0,
+      "circular": "5/2011",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "8505b12d66227ebcc7221e8f6910654e15fee39537e11a7daec2913dbf476ac6",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2011-11349",
+      "boe_pub_date": "2011-07-02",
+      "chain_risk_count": 0,
+      "circular": "3/2011",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "af40dfb677c185a61d81c55497c6be63a16c442018663abd744a36b35a10dace",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2010-20071",
+      "boe_pub_date": "2010-12-30",
+      "chain_risk_count": 0,
+      "circular": "9/2010",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "02dccf74191da4ddfc88d9b674dcd2b952411b3a5f906f7cf0cd705d961436eb",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2010-20070",
+      "boe_pub_date": "2010-12-30",
+      "chain_risk_count": 0,
+      "circular": "8/2010",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "330b6614dbde868fc8940dfb6331c37e2b261bf309415e9809df8ef82e0b53ae",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2010-18686",
+      "boe_pub_date": "2010-12-06",
+      "chain_risk_count": 0,
+      "circular": "7/2010",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 1,
+      "g0_status": "ELIGIBLE",
+      "g2_rank_key": "14befd7113b7db8967fbc49cf2289bc3f69ae826d7ceafdde9fb8457efbf4b9f",
+      "multi_risk_count": 1,
+      "multi_target_events": [
+        {
+          "modified_instruments": [
+            "BOE-A-1998-3311",
+            "BOE-A-2004-21845",
+            "BOE-A-2010-15521",
+            "BOE-A-2010-18686",
+            "BOE-A-2014-1183"
+          ],
+          "modifier": "BOE-A-2014-8189",
+          "qualifies": true,
+          "source": "evidence/g2/discovery-raw/boe_diario_xml__BOE-A-2014-8189.xml (fetched)",
+          "source_sha256": "4857ca566d46a3fafd8e0958bcb846290c34d76e3839e05262f0711aa05c5958"
+        }
+      ]
+    },
+    {
+      "boe_id": "BOE-A-2010-15520",
+      "boe_pub_date": "2010-10-11",
+      "chain_risk_count": 0,
+      "circular": "5/2010",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "d82e7c023a124408e18f0b86119a7f7402a6864f0c674aa66b48984fa749c995",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2010-11095",
+      "boe_pub_date": "2010-07-13",
+      "chain_risk_count": 0,
+      "circular": "3/2010",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "302bf3fc140c83fb5ee638d339cf810ecc85580493f7e54abfdcda35ca9c360e",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2010-1825",
+      "boe_pub_date": "2010-02-05",
+      "chain_risk_count": 0,
+      "circular": "2/2010",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "cc8a79f6cd53e73cde5349301d68167b6faa18555904071c3c1f6acb11fc308f",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2008-19921",
+      "boe_pub_date": "2008-12-10",
+      "chain_risk_count": 0,
+      "circular": "6/2008",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 1,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "0e0021071e45f9364ea3a7aa5e9ab3dee683e708c9885163bfe5f07d3eee4b87",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2008-18824",
+      "boe_pub_date": "2008-11-21",
+      "chain_risk_count": 0,
+      "circular": "5/2008",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "f942c553348388f74bf119e44789f0db6b87af00858d6b8161f70ff73ac52348",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2008-2489",
+      "boe_pub_date": "2008-02-13",
+      "chain_risk_count": 0,
+      "circular": "1/2008",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "c1eea494def409a47accd2470d51446d006aabab4105e5b55690d52e63907513",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2007-3035",
+      "boe_pub_date": "2007-02-14",
+      "chain_risk_count": 0,
+      "circular": "2/2007",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "02fc869379c65e8a7ecabf2120e8e6d8898b862000b56b021900420f81609fcf",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2007-2482",
+      "boe_pub_date": "2007-02-06",
+      "chain_risk_count": 0,
+      "circular": "1/2007",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "e7718b2d3d65c983ee20dc72314e38c95b3de2929e23a8eda1d48315cdeda955",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-2004-319",
+      "boe_pub_date": "2004-01-08",
+      "chain_risk_count": 0,
+      "circular": "5/2003",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "5d730e6d7a593ff0fd8fb99b1f901a574cceb7925d0ed001d1b610a9421d181f",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    },
+    {
+      "boe_id": "BOE-A-1999-7736",
+      "boe_pub_date": "1999-04-07",
+      "chain_risk_count": 0,
+      "circular": "4/1999",
+      "corrigendum_chain_events": [],
+      "declared_modifier_count": 0,
+      "g0_status": "NO_DECLARED_MODIFIER",
+      "g2_rank_key": "06bfbfbc6704096d4d8452bfd5a63c2d5fdabc87d04053c66adad4b6bab0d30c",
+      "multi_risk_count": 0,
+      "multi_target_events": []
+    }
+  ],
+  "universe": "72 G0-G.0 candidates minus 58 seen = 36 unseen"
+}

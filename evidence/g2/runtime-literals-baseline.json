@@ -1,0 +1,75 @@
+{
+  "gate": "G2.0",
+  "head": "1f0c1fc62996f4941be00210a261b7da68b53630",
+  "patterns": {
+    "boe_id": "\\bBOE-[A-Z]-\\d{4}-\\d+\\b",
+    "circular_number": "\\bCircular \\d+/\\d{4}\\b",
+    "estado_code": "\\b(?:FI|FC|FR|CG|CN|AN|AP|CU|EX|GO|PR|RE|SO|TR|IG|SA|PR|BA|PC|CF|ER|PV|RF)\\s?\\d+(?:[-.]\\d+)*\\b",
+    "locator_key": "\\b(?:norma|estado|anejo|apartado|disposicion|titulo|capitulo|seccion|articulo):[^\\s'\\\"]+",
+    "boe_page": "\\bboe_page[\\\"']?\\s*[:=]\\s*\\d{4,}",
+    "boe_url": "boe\\.es/\\S*disp/\\d{4}/\\d+/\\d+"
+  },
+  "description": "target-specific literals present in src/regdelta at the G2.0 base; the G2 guard asserts the current set minus this set is empty",
+  "literals": [
+    {
+      "file": "src\\regdelta\\annexmap.py",
+      "pattern": "estado_code",
+      "literal": "FI 105",
+      "lineno": 56
+    },
+    {
+      "file": "src\\regdelta\\annexmap.py",
+      "pattern": "estado_code",
+      "literal": "FI 105-1",
+      "lineno": 56
+    },
+    {
+      "file": "src\\regdelta\\annexmap.py",
+      "pattern": "estado_code",
+      "literal": "FI 142",
+      "lineno": 56
+    },
+    {
+      "file": "src\\regdelta\\annexmap.py",
+      "pattern": "estado_code",
+      "literal": "FI 142-1.1",
+      "lineno": 56
+    },
+    {
+      "file": "src\\regdelta\\operations.py",
+      "pattern": "circular_number",
+      "literal": "Circular 4/2017",
+      "lineno": 1
+    },
+    {
+      "file": "src\\regdelta\\operations.py",
+      "pattern": "estado_code",
+      "literal": "FI 105",
+      "lineno": 245
+    },
+    {
+      "file": "src\\regdelta\\operations.py",
+      "pattern": "estado_code",
+      "literal": "FI 105-1",
+      "lineno": 245
+    },
+    {
+      "file": "src\\regdelta\\operations.py",
+      "pattern": "estado_code",
+      "literal": "FI 105-2",
+      "lineno": 245
+    },
+    {
+      "file": "src\\regdelta\\operations.py",
+      "pattern": "estado_code",
+      "literal": "FI 106-2.1",
+      "lineno": 423
+    },
+    {
+      "file": "src\\regdelta\\operations.py",
+      "pattern": "estado_code",
+      "literal": "FI 151",
+      "lineno": 458
+    }
+  ]
+}
