@@ -376,7 +376,7 @@ def build(conn: sqlite3.Connection, data_dir: Path,
     for u in unbound:
         aid = sha256_hex_text(
             f"anomaly|{ANOMALY_TARGET_UNBOUND}|{modifier_boe}"
-            f"|{u['clause_key']}|{u['locator_key']}")
+            f"|{target_boe}|{u['clause_key']}|{u['locator_key']}")
         conn.execute(
             """INSERT OR IGNORE INTO anomalies
                (anomaly_id, kind, snapshot_id, detail, detected_at)
@@ -384,7 +384,8 @@ def build(conn: sqlite3.Connection, data_dir: Path,
             (aid, ANOMALY_TARGET_UNBOUND, mod_snap,
              _canonical({"clause_key": u["clause_key"],
                          "locator_key": u["locator_key"],
-                         "modifier": modifier_boe, "raw": u["raw"]}),
+                         "modifier": modifier_boe, "target": target_boe,
+                         "raw": u["raw"]}),
              now_utc_iso()))
 
     return {
@@ -430,9 +431,16 @@ def classify(conn: sqlite3.Connection, modifier_iid: str,
         """SELECT DISTINCT modification_relation_id
            FROM applicability_targets
            WHERE modification_relation_id IS NOT NULL""")}
-    cited_unbound = {json.loads(r[0])["locator_key"] for r in conn.execute(
-        "SELECT detail FROM anomalies WHERE kind=?",
-        (ANOMALY_TARGET_UNBOUND,))}
+    boes = {r["instrument_id"]: r["boe_id"] for r in _q(conn,
+            "SELECT instrument_id, boe_id FROM instruments"
+            " WHERE instrument_id IN (?,?)", (modifier_iid, target_iid))}
+    cited_unbound = set()
+    for r in conn.execute("SELECT detail FROM anomalies WHERE kind=?",
+                          (ANOMALY_TARGET_UNBOUND,)):
+        d = json.loads(r[0])
+        if (d.get("modifier") == boes.get(modifier_iid)
+                and d.get("target") == boes.get(target_iid)):
+            cited_unbound.add(d.get("locator_key"))
     counts = {"SPECIFIC_BOUND": 0, "SPECIFIC_EXPECTED_BUT_UNBOUND": 0,
               "GENERAL_ONLY": 0, "NOT_APPLICABLE": 0}
     for r in rows:
@@ -445,38 +453,30 @@ def classify(conn: sqlite3.Connection, modifier_iid: str,
     return counts
 
 
-def _clause_node(conn, cid: str, bound_rel: str | None) -> dict:
-    row = _one(conn,
-               "SELECT clause_id, clause_key, relation_to_parent,"
-               "       modality, condition_raw, condition_normalized,"
-               "       action_raw, evidence_text, evidence_locator,"
-               "       epistemic"
-               " FROM applicability_clauses WHERE clause_id=?", (cid,))
-    effects = _q(conn,
-                 """SELECT temporal_effect, date_value, period_raw,
-                           condition_raw, condition_normalized,
-                           evidence_locator, epistemic
-                    FROM applicability_effects WHERE clause_id=?""",
-                 (cid,))
-    targets = _q(conn,
-                 """SELECT target_id, target_kind, target_instrument_id,
-                           modification_relation_id, binding_method,
-                           binding_evidence, source_snapshot_ids,
-                           epistemic
-                    FROM applicability_targets WHERE clause_id=?""",
-                 (cid,))
-    children = _q(conn,
-                  "SELECT clause_id FROM applicability_clauses"
-                  " WHERE parent_clause_id=?", (cid,))
+def _clause_payload(conn, cid: str) -> dict:
     return {
-        "clause": row,
-        "effects": effects,
-        "direct_targets": targets,
-        "target_origin": ("DIRECT" if bound_rel and any(
-            t["modification_relation_id"] == bound_rel
-            for t in targets) else "INHERITED"),
-        "children": [_clause_node(conn, ch["clause_id"], bound_rel)
-                     for ch in children],
+        "clause": _one(conn,
+                       "SELECT clause_id, clause_key, relation_to_parent,"
+                       "       modality, condition_raw,"
+                       "       condition_normalized, action_raw,"
+                       "       evidence_text, evidence_locator, epistemic"
+                       " FROM applicability_clauses WHERE clause_id=?",
+                       (cid,)),
+        "effects": _q(conn,
+                      """SELECT temporal_effect, date_value, period_raw,
+                                condition_raw, condition_normalized,
+                                evidence_locator, epistemic
+                         FROM applicability_effects WHERE clause_id=?""",
+                      (cid,)),
+        "direct_targets": _q(conn,
+                             """SELECT target_id, target_kind,
+                                       target_instrument_id,
+                                       modification_relation_id,
+                                       binding_method, binding_evidence,
+                                       source_snapshot_ids, epistemic
+                                FROM applicability_targets
+                                WHERE clause_id=?""",
+                             (cid,)),
     }
 
 
@@ -486,20 +486,36 @@ def applicability_for_relation(conn: sqlite3.Connection,
 
     Never a single scalar date: returns the instrument-level rules plus
     the clause trees that target this relation, preserving parent/child
-    structure and DIRECT vs INHERITED target origin."""
+    structure and DIRECT vs INHERITED target origin. Sibling branches
+    that target other relations are not inherited scope and are pruned;
+    targetless children of an applicable clause inherit it."""
     rel = _one(conn,
                """SELECT mr.relation_id, mr.modifier_instrument_id,
-                         s.locator_key, s.instrument_id AS target_iid
+                         s.locator_key, s.instrument_id AS target_iid,
+                         im.boe_id AS modifier_boe,
+                         it.boe_id AS target_boe
                   FROM modification_relations mr
                   JOIN subjects s
                     ON s.subject_id = mr.target_subject_id
+                  JOIN instruments im
+                    ON im.instrument_id = mr.modifier_instrument_id
+                  JOIN instruments it
+                    ON it.instrument_id = s.instrument_id
                   WHERE mr.relation_id=?""", (relation_id,))
     if rel is None:
         raise LookupError(f"relation {relation_id} not found")
 
-    direct_ids = {r["clause_id"] for r in _q(conn,
-        """SELECT DISTINCT clause_id FROM applicability_targets
-           WHERE modification_relation_id=?""", (relation_id,))}
+    # direct modification targets per clause; INSTRUMENT-scope targets do
+    # not bind a clause to a relation
+    mod_targets: dict[str, set] = {}
+    for r in _q(conn,
+                """SELECT clause_id, modification_relation_id
+                   FROM applicability_targets
+                   WHERE modification_relation_id IS NOT NULL"""):
+        mod_targets.setdefault(r["clause_id"], set()).add(
+            r["modification_relation_id"])
+    direct_ids = {cid for cid, rs in mod_targets.items()
+                  if relation_id in rs}
 
     # scope check: does the modifier declare any applicability clauses?
     n_clauses = conn.execute(
@@ -512,39 +528,93 @@ def applicability_for_relation(conn: sqlite3.Connection,
     elif n_clauses == 0:
         classification = "NOT_APPLICABLE"
     else:
-        cited_unbound = _q(conn,
-                           "SELECT detail FROM anomalies WHERE kind=?",
-                           (ANOMALY_TARGET_UNBOUND,))
-        if any(json.loads(d["detail"])["locator_key"] == rel["locator_key"]
-               for d in cited_unbound):
+        unbound = _q(conn,
+                     "SELECT detail FROM anomalies WHERE kind=?",
+                     (ANOMALY_TARGET_UNBOUND,))
+        if any((d := json.loads(x["detail"])).get("locator_key")
+               == rel["locator_key"]
+               and d.get("modifier") == rel["modifier_boe"]
+               and d.get("target") == rel["target_boe"]
+               for x in unbound):
             classification = "SPECIFIC_EXPECTED_BUT_UNBOUND"
         else:
             classification = "GENERAL_ONLY"
 
-    # instrument-scope rules of the declaring modifier
+    rows = _q(conn, "SELECT clause_id, clause_key, parent_clause_id"
+                    " FROM applicability_clauses")
+    parent_of = {r["clause_id"]: r["parent_clause_id"] for r in rows}
+    key_of = {r["clause_id"]: r["clause_key"] for r in rows}
+    children_of: dict[str, list] = {}
+    for r in rows:
+        if r["parent_clause_id"]:
+            children_of.setdefault(r["parent_clause_id"], []).append(
+                r["clause_id"])
+    for kids in children_of.values():
+        kids.sort(key=lambda c: key_of[c])
+
+    def emit(cid: str, bound: str | None) -> dict:
+        """Serialize the applicable subgraph. A child with its own
+        modification targets is included iff it targets ``bound`` (or
+        ``bound`` is None → never, i.e. instrument rules carry no
+        relation-specific branches); a targetless child inherits the
+        scope of its included parent. Pruned subtrees are not recursed
+        into."""
+        node = _clause_payload(conn, cid)
+        node["target_origin"] = (
+            "DIRECT" if bound is not None
+            and bound in mod_targets.get(cid, ()) else "INHERITED")
+        node["children"] = [
+            emit(ch, bound) for ch in children_of.get(cid, ())
+            if not mod_targets.get(ch)
+            or (bound is not None and bound in mod_targets[ch])]
+        return node
+
+    # instrument-scope rules: the instrument-level clause itself plus any
+    # targetless refinements; specific (relation-bound) branches pruned
     inst = _q(conn,
               """SELECT DISTINCT t.clause_id FROM applicability_targets t
                  WHERE t.target_kind='INSTRUMENT'
                    AND t.target_instrument_id=?""",
               (rel["modifier_instrument_id"],))
-    instrument_rules = [_clause_node(conn, r["clause_id"], None)
-                        for r in inst]
+    instrument_rules = [emit(r["clause_id"], None) for r in
+                        sorted(inst, key=lambda r: key_of[r["clause_id"]])]
 
-    # trees rooted at the topmost ancestor of every directly bound clause
-    parent_of = {r["clause_id"]: r["parent_clause_id"] for r in _q(conn,
-        "SELECT clause_id, parent_clause_id FROM applicability_clauses")}
+    # specific trees: rooted at the topmost ancestor of every clause
+    # directly bound to this relation; ancestors are context
     roots: set[str] = set()
     for cid in direct_ids:
         cur = cid
         while parent_of.get(cur):
             cur = parent_of[cur]
         roots.add(cur)
+    trees = [emit(r, relation_id)
+             for r in sorted(roots, key=lambda c: key_of[c])]
+
+    # safety net: a bound clause under an ancestor targeted elsewhere is
+    # unreachable through the pruned tree — re-root it at its highest
+    # targetless ancestor so no DIRECT binding is silently dropped
+    reached = set()
+
+    def collect(n):
+        reached.add(n["clause"]["clause_id"])
+        for ch in n["children"]:
+            collect(ch)
+    for t in trees:
+        collect(t)
+    extra_roots = set()
+    for cid in sorted(direct_ids - reached, key=lambda c: key_of[c]):
+        cur = cid
+        while parent_of.get(cur) and not mod_targets.get(
+                parent_of[cur]):
+            cur = parent_of[cur]
+        extra_roots.add(cur)
+    trees.extend(emit(r, relation_id) for r in
+                 sorted(extra_roots, key=lambda c: key_of[c]))
 
     return {
         "relation_id": relation_id,
         "locator_key": rel["locator_key"],
         "classification": classification,
         "instrument_rules": instrument_rules,
-        "specific_clause_trees": [
-            _clause_node(conn, r, relation_id) for r in sorted(roots)],
+        "specific_clause_trees": trees,
     }

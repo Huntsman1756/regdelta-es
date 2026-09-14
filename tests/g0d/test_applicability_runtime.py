@@ -324,6 +324,147 @@ def test_inherited_target_not_persisted_as_direct(built):
 
 
 # ---------------------------------------------------------------------------
+# query tree scoping (G0-D.R)
+# ---------------------------------------------------------------------------
+
+
+def _tree_keys(node):
+    yield node["clause"]["clause_key"], node["target_origin"]
+    for ch in node["children"]:
+        yield from _tree_keys(ch)
+
+
+def _all_keys(out):
+    return {k for tr in out["specific_clause_trees"]
+            for k, _ in _tree_keys(tr)}
+
+
+def test_sibling_exclusion_in_specific_tree(built):
+    """norma:22.apartado:2 binds only to dfu:b:s1 — the dfu tree must not
+    surface siblings dfu:a/c/d/e/f as inherited applicability."""
+    conn, _, _ = built
+    rid = _relation_ids(conn, "norma:22.apartado:2")[0]
+    out = applicability.applicability_for_relation(conn, rid)
+    dfu_trees = [tr for tr in out["specific_clause_trees"]
+                 if tr["clause"]["clause_key"] == "dfu:base:s1"]
+    assert len(dfu_trees) == 1
+    seen = dict(_tree_keys(dfu_trees[0]))
+    assert seen["dfu:b:s1"] == "DIRECT"
+    for letter in "acdef":
+        assert f"dfu:{letter}:s1" not in seen
+    assert "dfu:e:s1:carveout" not in seen
+
+
+def test_descendant_inheritance_kept(built):
+    """Targetless juridical dependents of a bound clause stay INHERITED —
+    scoping must prune foreign-targeted siblings, not real children."""
+    conn, _, _ = built
+    rid = _relation_ids(conn, "norma:31.apartado:3")[0]
+    out = applicability.applicability_for_relation(conn, rid)
+    nodes = {k: o for tr in out["specific_clause_trees"]
+             for k, o in _tree_keys(tr)}
+    assert nodes["dt1:1:s2"] == "DIRECT"
+    for key in ("dt1:2:s1", "dt1:2:s2", "dt1:3:s1", "dt1:4:s1",
+                "dt1:4:s2", "dt1:6:s1", "dt1:1:s3"):
+        assert nodes.get(key) == "INHERITED", key
+    # dt1:5:s1 carries its own target (norma:60.apartado:56) — for this
+    # relation it is a foreign-targeted branch, not inherited scope
+    assert "dt1:5:s1" not in nodes
+
+
+def test_bound_descendant_under_foreign_targeted_ancestor(built):
+    """dt1:5:s1 binds norma:60.apartado:56 but sits under dt1:1:s2, which
+    targets other relations — the query must still surface it, re-rooted
+    at its highest targetless ancestor (the option clause dt1:2:s1)."""
+    conn, _, _ = built
+    rid = _relation_ids(conn, "norma:60.apartado:56")[0]
+    out = applicability.applicability_for_relation(conn, rid)
+    assert out["classification"] == "SPECIFIC_BOUND"
+    trees = {tr["clause"]["clause_key"]: tr
+             for tr in out["specific_clause_trees"]}
+    node = trees["dt1:2:s1"]
+    kids = dict(_tree_keys(node))
+    assert kids["dt1:5:s1"] == "DIRECT"
+
+
+def test_sibling_targeted_elsewhere_excluded(built):
+    """Two siblings bound to different relations: each query contains its
+    own clause and excludes the other's."""
+    conn, _, _ = built
+    rid_a = _relation_ids(conn, "norma:19.apartado:10")[0]  # dfu:a
+    rid_b = _relation_ids(conn, "norma:22.apartado:2")[0]   # dfu:b
+    keys_a = _all_keys(applicability.applicability_for_relation(conn, rid_a))
+    keys_b = _all_keys(applicability.applicability_for_relation(conn, rid_b))
+    assert "dfu:a:s1" in keys_a and "dfu:b:s1" not in keys_a
+    assert "dfu:b:s1" in keys_b and "dfu:a:s1" not in keys_b
+
+
+def test_instrument_rules_exclude_specific_branches(built):
+    """GENERAL_ONLY relation: instrument_rules carries the entry-into-
+    force rule, never the specific dfu:a–f branches."""
+    conn, _, _ = built
+    rid = _relation_ids(conn, "norma:18.apartado:4")[0]
+    out = applicability.applicability_for_relation(conn, rid)
+    assert out["classification"] == "GENERAL_ONLY"
+    assert out["instrument_rules"]
+    keys = {k for n in out["instrument_rules"] for k, _ in _tree_keys(n)}
+    assert "dfu:base:s1" in keys
+    for letter in "abcdef":
+        assert f"dfu:{letter}:s1" not in keys
+    effs = [e for n in out["instrument_rules"]
+            for e in _all_effects(n)]
+    assert any(e["temporal_effect"] == "INSTRUMENT_EFFECTIVE_FROM"
+               and e["date_value"] == "2025-12-30" for e in effs)
+
+
+def _all_effects(node):
+    effs = list(node["effects"])
+    for ch in node["children"]:
+        effs += _all_effects(ch)
+    return effs
+
+
+def test_anomaly_scoped_to_modifier_target(built):
+    """An unbound anomaly for a different modifier/target pair must not
+    flip this relation to SPECIFIC_EXPECTED_BUT_UNBOUND."""
+    conn, _, _ = built
+    rid = _relation_ids(conn, "norma:18.apartado:4")[0]
+    key = "norma:18.apartado:4"
+    snap = conn.execute(
+        "SELECT snapshot_id FROM source_snapshots LIMIT 1").fetchone()[0]
+    assert applicability.applicability_for_relation(
+        conn, rid)["classification"] == "GENERAL_ONLY"
+    conn.execute("SAVEPOINT sp_iso")
+    try:
+        # foreign pair, same locator_key — must be ignored
+        conn.execute(
+            """INSERT INTO anomalies
+               (anomaly_id, kind, snapshot_id, detail, detected_at)
+               VALUES (?,?,?,?,?)""",
+            ("f" * 64, applicability.ANOMALY_TARGET_UNBOUND, snap,
+             json.dumps({"clause_key": "x", "locator_key": key,
+                         "modifier": "BOE-A-9999-1",
+                         "target": "BOE-A-9999-2", "raw": key}), "t"))
+        assert applicability.applicability_for_relation(
+            conn, rid)["classification"] == "GENERAL_ONLY"
+        # same modifier+target+locator — flips
+        conn.execute(
+            """INSERT INTO anomalies
+               (anomaly_id, kind, snapshot_id, detail, detected_at)
+               VALUES (?,?,?,?,?)""",
+            ("e" * 64, applicability.ANOMALY_TARGET_UNBOUND, snap,
+             json.dumps({"clause_key": "x", "locator_key": key,
+                         "modifier": MODIFIER, "target": TARGET,
+                         "raw": key}), "t"))
+        assert applicability.applicability_for_relation(
+            conn, rid)["classification"] == \
+            "SPECIFIC_EXPECTED_BUT_UNBOUND"
+    finally:
+        conn.execute("ROLLBACK TO sp_iso")
+        conn.execute("RELEASE sp_iso")
+
+
+# ---------------------------------------------------------------------------
 # target classification
 # ---------------------------------------------------------------------------
 
@@ -368,7 +509,8 @@ def test_unbound_explicit_target_creates_anomaly_not_general_only(built):
                VALUES (?,?,?,?,?)""",
             ("u" * 64, applicability.ANOMALY_TARGET_UNBOUND, snap,
              json.dumps({"clause_key": "x", "locator_key": key,
-                         "modifier": MODIFIER, "raw": key}), "t"))
+                         "modifier": MODIFIER, "target": TARGET,
+                         "raw": key}), "t"))
         assert applicability.applicability_for_relation(
             conn, rid)["classification"] == \
             "SPECIFIC_EXPECTED_BUT_UNBOUND"
@@ -400,7 +542,8 @@ def test_build_persists_unbound_target_anomaly(built):
         anoms = [json.loads(r[0]) for r in conn.execute(
             "SELECT detail FROM anomalies WHERE kind=?",
             (applicability.ANOMALY_TARGET_UNBOUND,))]
-        assert any(a["locator_key"] == key for a in anoms)
+        assert any(a["locator_key"] == key and a["modifier"] == MODIFIER
+                   and a["target"] == TARGET for a in anoms)
     finally:
         conn.execute("ROLLBACK TO sp_unbound_build")
         conn.execute("RELEASE sp_unbound_build")
