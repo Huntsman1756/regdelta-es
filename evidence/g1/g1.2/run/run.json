@@ -1,0 +1,112 @@
+{
+  "aggregate": {
+    "abstentions": {
+      "by_reason": {
+        "clause scopes below the recorded subject locator": 58,
+        "following content is governed by a different sub-clause": 1,
+        "no annex candidates": 1,
+        "no operation-owned content link": 2,
+        "no_structural_candidate": 2,
+        "subject state UNKNOWN; predecessor representation not provable": 1
+      },
+      "by_side": {
+        "after": {
+          "BOUND": 8,
+          "NOT_APPLICABLE": 7,
+          "NOT_FOUND": 1,
+          "NOT_PROVABLE": 35
+        },
+        "before": {
+          "BOUND": 12,
+          "NOT_APPLICABLE": 10,
+          "NOT_FOUND": 2,
+          "NOT_PROVABLE": 27
+        }
+      }
+    },
+    "applicability_extraction": {
+      "den": 6,
+      "num": 6,
+      "value": 1.0
+    },
+    "binding_invariant_failures": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0,
+      "B5": 0,
+      "B6": 0
+    },
+    "chain_reconstruction": {
+      "den": 9,
+      "num": 0,
+      "value": 0.0
+    },
+    "declared_modifier_recall": {
+      "den": 14,
+      "num": 14,
+      "value": 1.0
+    },
+    "false_binding_count": 0,
+    "false_positive_facts": 4,
+    "operation_parsing_rate": {
+      "den": 51,
+      "num": 51,
+      "value": 1.0
+    },
+    "query_execution": {
+      "den": 15,
+      "num": 15,
+      "value": 1.0
+    },
+    "representation_binding": {
+      "den": 51,
+      "num": 13,
+      "value": 0.2549019607843137
+    },
+    "source_limitations": 0,
+    "subject_locator_resolution": {
+      "den": 51,
+      "num": 44,
+      "value": 0.8627450980392157
+    }
+  },
+  "audit_rows": 51,
+  "combined_ok": true,
+  "evaluator_sha256": "255ec0f608edff948f6ce5b2fb036d5159d4a49c5dba2d7823b0ef0e62ff3a6e",
+  "finished_at": "2026-09-14T15:23:44.906702+00:00",
+  "g0g_evaluator_sha256": "99ff575e6968cbd879866a9f9aa9e5db5ec8db97e79080be72a39f969af93dc8",
+  "gold_sha256": "31b25f3e9ad1c89cafbf8d358daf1fd3a34cf215541945a067c2324fd84d3efc",
+  "manifest_sha256": "d00679b12317e65e5b54365aa1080ddac0cf9576f76a1f2a18c5b102c9e48b8b",
+  "run_id": "g1.2-official",
+  "runner_sha256": "264155aeb71f8cd284e1e6abf91cf9588fe4980bc5853e1bcacfe0aceb2c7c61",
+  "runtime_head": "b571a19b13545ecff034d442cdf0c20dc0c733b7",
+  "seal_post": {
+    "aggregate_sha256": "146f52bef6ab26715a3c1d9382e8c258d40a4661d4d34e2ea3961aa8b90203d2",
+    "artifact_count": 215,
+    "manifest_sha256": "d00679b12317e65e5b54365aa1080ddac0cf9576f76a1f2a18c5b102c9e48b8b",
+    "seal_ok": true,
+    "seal_present": true,
+    "targets": [
+      "BOE-A-2010-15521",
+      "BOE-A-2012-9058",
+      "BOE-A-2014-1183"
+    ]
+  },
+  "seal_pre": {
+    "aggregate_sha256": "146f52bef6ab26715a3c1d9382e8c258d40a4661d4d34e2ea3961aa8b90203d2",
+    "artifact_count": 215,
+    "manifest_sha256": "d00679b12317e65e5b54365aa1080ddac0cf9576f76a1f2a18c5b102c9e48b8b",
+    "seal_ok": true,
+    "seal_present": true,
+    "targets": [
+      "BOE-A-2010-15521",
+      "BOE-A-2012-9058",
+      "BOE-A-2014-1183"
+    ]
+  },
+  "selection_sha256": "ff161df25fc5f99c421c13ae7c7199f40bcab993578ba2952d72469f03a5ad16",
+  "split": "SEALED_HOLDOUT",
+  "src_tree_sha": "aabe620969a774623c85e8a3ae0dd6b9000eeedd",
+  "started_at": "2026-09-14T15:23:37.261220+00:00"
+}

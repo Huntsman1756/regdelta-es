@@ -1,0 +1,49 @@
+{
+  "claim": null,
+  "evaluation_head": "b571a19b13545ecff034d442cdf0c20dc0c733b7",
+  "false_binding_gate": "PASS",
+  "false_fact_gate": "FAIL",
+  "g1_2_verdict": "FAIL",
+  "gate": "G1.2",
+  "opened_at": "2026-09-14T15:23:37.261220+00:00",
+  "protocol_integrity": "PASS",
+  "runtime_head": "b571a19b13545ecff034d442cdf0c20dc0c733b7",
+  "targets": {
+    "BOE-A-2010-15521": {
+      "after_bindings": 0,
+      "before_bindings": 0,
+      "false_bindings": 0,
+      "false_facts": 0,
+      "gold_modifiers": 2,
+      "partial": 0,
+      "relations_audited": 1,
+      "relations_emitted": 1,
+      "resolved": 0,
+      "unresolved": 1
+    },
+    "BOE-A-2012-9058": {
+      "after_bindings": 5,
+      "before_bindings": 3,
+      "false_bindings": 0,
+      "false_facts": 4,
+      "gold_modifiers": 8,
+      "partial": 3,
+      "relations_audited": 31,
+      "relations_emitted": 31,
+      "resolved": 4,
+      "unresolved": 24
+    },
+    "BOE-A-2014-1183": {
+      "after_bindings": 3,
+      "before_bindings": 9,
+      "false_bindings": 0,
+      "false_facts": 0,
+      "gold_modifiers": 4,
+      "partial": 0,
+      "relations_audited": 19,
+      "relations_emitted": 19,
+      "resolved": 9,
+      "unresolved": 10
+    }
+  }
+}
