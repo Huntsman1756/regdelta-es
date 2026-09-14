@@ -1,0 +1,35 @@
+{
+  "gate": "G0-G.2",
+  "phase": "G0-G.2A PRE-OPEN EVALUATOR FREEZE",
+  "created_at": "2026-09-14T09:12:45.289026+00:00",
+  "runtime_head": "d30d40f3dda1af2b4821788fd262f9a76fa7c357",
+  "evaluation_head": "f8d8a6fffcc0715fab157241cc50f0e30d2f73e5",
+  "src_tree_sha256": "a691825caad917e48dde54e2269ab7bc6871c89e2c3c7515c7057ea04086b6f2",
+  "runner_sha256": "944b1819d76b7d43f0793cc9400121c9109681813e67ffa36e2dfdb103e1e3e5",
+  "evaluator_impl_sha256": "99ff575e6968cbd879866a9f9aa9e5db5ec8db97e79080be72a39f969af93dc8",
+  "evaluator_contract_sha256": "7a263e9cd2308c85f84865e02bec99a56992133a57447e5ffc567c9eba40383d",
+  "protocol_sha256": "952d112f432d2bca81384f2b2fd58c108d52341ce3cd7bbbf9a7cf09537deb43",
+  "selection_sha256": "b4cee41435bf213263665f2a4c0a8d644339f5a197c77b1df7b650688f36ecb7",
+  "gold_sha256": "71f0e1594b01a932fb25109417d1bbf5db34ca6782e974553ada74c026edb5f2",
+  "seal_sha256": "137c9b4d1fa7b6c130e7545ad439c263000a1f7bc8feaf346e5d4a629186b188",
+  "sealed_manifest_sha256": "9e96b32109b42f61f1b966e7dc8345babd19ae42c4571cfb228e33033897ef06",
+  "runtime_literals_baseline_sha256": "c9da203bdf32e096b04f5bb7df5bbde5769b69ad0330ecffce8aad8d10aca6e0",
+  "dev_equivalence_result": {
+    "run_dir": "evidence/g0g/g0g2/dev-equivalence",
+    "frozen_reference": "evidence/g0g/dev/runs/005-redaccion-verb",
+    "aggregate_equal": true,
+    "per_target_equal": true,
+    "targets": 8,
+    "relations": 51,
+    "false_facts": 0,
+    "declared_modifier_recall": "19/19",
+    "applicability_extraction": "2/2",
+    "query_execution": "40/40",
+    "resolution": {
+      "RESOLVED": 34,
+      "PARTIAL": 9,
+      "UNRESOLVED": 6
+    }
+  },
+  "holdout_state": "SEALED - no semantic access performed"
+}
