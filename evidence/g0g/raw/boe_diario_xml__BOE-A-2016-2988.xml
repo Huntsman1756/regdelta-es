@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219202601">
+  <metadatos>
+    <identificador>BOE-A-2016-2988</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20160321</fecha_disposicion>
+    <numero_oficial>3/2016</numero_oficial>
+    <titulo>Circular 3/2016, de 21 de marzo, del Banco de España, a las entidades titulares de cajeros automáticos y las entidades emisoras de tarjetas o instrumentos de pago, sobre información de las comisiones por la retirada de efectivo en cajeros automáticos.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20160329</fecha_publicacion>
+    <diario_numero>76</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>22446</pagina_inicial>
+    <pagina_final>22449</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2016/03/29/pdfs/BOE-A-2016-2988.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2016-2988</url_epub>
+    </url_epub>
+    <url_pdf_catalan>/boe_catalan/dias/2016/03/29/pdfs/BOE-A-2016-2988-C.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego>/boe_gallego/dias/2016/03/29/pdfs/BOE-A-2016-2988-G.pdf</url_pdf_gallego>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20160330</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2016/03/21/3</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2016/03/21/3">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2016-2988</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-21</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/566"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1624"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2503"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2016/03/21/3/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2016-2988</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-21</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/566"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1624"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/2503"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/cir/2016/03/21/3/corrigendum/20160504/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2016/03/21/3"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2016, de 21 de marzo, del Banco de España, a las entidades titulares de cajeros automáticos y las entidades emisoras de tarjetas o instrumentos de pago, sobre información de las comisiones por la retirada de efectivo en cajeros automáticos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-29</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2016/03/21/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2016, de 21 de març, del Banc d'Espanya, a les entitats titulars de caixers automàtics i les entitats emissores de targetes o instruments de pagament, sobre informació de les comissions per la retirada d'efectiu en caixers automàtics.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-29</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2016/03/21/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/glg">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2016 do 21 de marzo, do Banco de España, ás entidades titulares de caixeiros automáticos e ás entidades emisoras de tarxetas ou instrumentos de pagamento, sobre información das comisións pola retirada de efectivo en caixeiros automáticos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-29</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2016/03/21/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/glg/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2016/03/21/3/dof/glg"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="566" orden="">Cajeros automáticos</materia>
+      <materia codigo="1624" orden="">Consumidores y usuarios</materia>
+      <materia codigo="2503" orden="">Dinero electrónico</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="3807" orden="">Formularios administrativos</materia>
+      <materia codigo="4165" orden="">Información</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2009-18118" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la disposición adicional 2 de la Ley 16/2009, de 13 de noviembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2016-4282" orden="">
+          <palabra codigo="202">CORRECCIÓN de erratas</palabra>
+          <texto>, por la que se sustituye el anexo I, en BOE núm. 108, de 4 de mayo de 2016</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas>
+      <alerta codigo="106" orden="">Consumidores y usuarios</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El Real Decreto-ley 11/2015, de 2 de octubre, para regular las comisiones por la retirada de efectivo en los cajeros automáticos, modifica la Ley 16/2009, de 13 de noviembre, de servicios de pago, para añadir una disposición adicional segunda que implanta un nuevo modelo de cobro de comisiones por la retirada de efectivo en cajeros automáticos con tarjeta o instrumento de pago. La citada norma fue convalidada, de conformidad con lo previsto en el artículo 86.2 de la Constitución, mediante acuerdo del Congreso de los Diputados de 14 de octubre de 2015.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La nueva regulación establece que las entidades podrán llegar a acuerdos para fijar el importe de la comisión que deberá satisfacer la entidad emisora de la tarjeta o instrumento de pago a la entidad titular del cajero. En ausencia de acuerdos, la comisión que determine el titular del cajero respecto a la entidad emisora de la tarjeta o instrumento de pago será la misma en todo el territorio nacional y no será discriminatoria, sin que puedan derivarse diferencias para prestaciones equivalentes; asimismo, la comisión no podrá distinguir en función de los clientes de la entidad emisora y solo podrá revisarse anualmente.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Al objeto de permitir el adecuado seguimiento de los acuerdos y decisiones adoptados en aplicación de la nueva regulación que se establece para esta comisión, la nueva disposición adicional segunda de la Ley 16/2009, en su apartado 6, prevé que las entidades titulares de cajeros o las emisoras de tarjetas o instrumentos de pago informen al Banco de España de la comisión a satisfacer por las entidades emisoras a las entidades titulares de los cajeros por las retiradas de efectivo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente circular viene a cumplir con los encargos que el Banco de España ha recibido de la referida norma legal en lo que se refiere a la determinación de la forma, el contenido y la periodicidad de las obligaciones de información citadas en el párrafo anterior.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En consecuencia, en uso de las facultades que tiene conferidas, el Consejo de Gobierno del Banco de España, a propuesta de la Comisión Ejecutiva y de acuerdo con el Consejo de Estado, ha aprobado la presente circular, que contiene las siguientes normas:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma 1. Objeto.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente circular, en desarrollo de lo previsto por el apartado 6 de la disposición adicional segunda de la Ley 16/2009, de 13 de noviembre, de servicios de pago, tiene por objeto establecer las obligaciones de información relativas a las comisiones que las entidades titulares de cajeros automáticos perciban de las emisoras de tarjetas u otros instrumentos de pago en las operaciones de retirada de efectivo efectuadas por los clientes de estas últimas en los cajeros de aquellas situados en territorio nacional.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma 2. Ámbito de aplicación.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Lo dispuesto en la presente circular resultará de aplicación a:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">1. Las siguientes entidades cuando sean titulares de cajeros automáticos, en territorio español, aptos para ser utilizados por clientes de otras entidades emisoras de tarjetas u otros instrumentos de pago en operaciones de retirada de efectivo (en adelante, entidades titulares de cajeros automáticos):</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">a) Las entidades de crédito.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">b) Las entidades de pago.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">c) Las entidades de dinero electrónico.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">d) Los establecimientos financieros de crédito autorizados para operar como entidades de pago híbridas o entidades de dinero electrónico híbridas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">e) Las sucursales en España de las entidades indicadas en las letras a) a d) anteriores que estén autorizadas en un Estado miembro de la Unión Europea o en un tercer Estado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">2. Los proveedores de servicios de pago, según la definición del artículo 2.9 de la Ley 16/2009, residentes en España y autorizados para emitir tarjetas u otros instrumentos de pago en territorio español, incluidas las sucursales en España de entidades de crédito que estén autorizadas en un Estado miembro de la Unión Europea o en un tercer Estado (en adelante, entidades emisoras de tarjetas o instrumentos de pago).</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma 3. Definiciones.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">A efectos de lo previsto en la presente circular, se entenderá por:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">a) «Comisión por la retirada de efectivo»: Toda retribución a satisfacer por la entidad emisora de la tarjeta o del instrumento de pago a la entidad titular de un cajero automático por las retiradas de efectivo realizadas por los clientes de la entidad emisora de la tarjeta o del instrumento de pago en los cajeros de la entidad titular del cajero situados en territorio nacional.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">b) «Tarjeta o instrumento de pago»: Tarjeta o cualquier mecanismo o mecanismos personalizados que permiten a su titular efectuar retiradas de efectivo en cajeros automáticos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma 4. Información que se ha de remitir al Banco de España.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">1. Las entidades titulares de cajeros automáticos deberán remitir al Banco de España, en el formulario establecido en el anejo 1 de la presente circular, la siguiente información:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">– La comisión por la retirada de efectivo a percibir de las entidades emisoras de tarjetas o instrumentos de pago con las que se hubieran firmado acuerdos que hayan entrado en vigor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">– La comisión por la retirada de efectivo a percibir de las entidades emisoras de tarjetas o instrumentos de pago con las que no se hubieran firmado acuerdos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">2. Las entidades emisoras de las tarjetas o instrumentos de pago deberán remitir al Banco de España, en el formulario establecido en el anejo 2 de la presente circular, información sobre la comisión por la retirada de efectivo a satisfacer a las entidades titulares de los cajeros automáticos con las que hubiesen firmado acuerdos que hayan entrado en vigor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">3. Durante los 10 primeros días hábiles del mes de enero de cada año, las entidades titulares de cajeros automáticos y las emisoras de tarjetas o instrumentos de pago deberán remitir los formularios que corresponda incluyendo la información a 31 de diciembre del año anterior.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Adicionalmente, las entidades deberán remitir los formularios que corresponda, convenientemente actualizados, cada vez que entre en vigor un nuevo acuerdo, se produzca la modificación o la extinción de un acuerdo vigente, o se revise la comisión que, a falta de acuerdo, hubiesen establecido unilateralmente las entidades titulares de cajeros automáticos, en el plazo de 10 días hábiles a contar desde el día siguiente al del acaecimiento del hecho que justifique la remisión del formulario correspondiente actualizado. Excepcionalmente, cuando la entrada en vigor de un nuevo acuerdo, la extinción o modificación de un acuerdo vigente o la revisión de la comisión fijada unilateralmente se produjera en los 10 días hábiles anteriores al 31 de diciembre y siempre que se mantenga en vigor hasta ese día, las entidades podrán remitir únicamente los formularios con la información a 31 de diciembre previstos en el primer párrafo de este apartado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">4. Las entidades que, con posterioridad a la fecha de entrada en vigor de esta circular, pasen a estar incluidas en su ámbito de aplicación deberán comunicar esta circunstancia al Banco de España y remitir los formularios que corresponda, en el plazo de 20 días hábiles a contar desde el día siguiente a aquel en el que se produzca el hecho que justifique la remisión de esta información.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">5. La presentación en el Banco de España de los formularios incluidos en los anejos a que se refiere la presente norma deberá hacerse mediante transmisión telemática, de conformidad con las especificaciones técnicas que se comuniquen al efecto. La comunicación relativa a la inclusión en el ámbito de aplicación de la circular se efectuará mediante escrito dirigido al Departamento de Información Financiera y CIR del Banco de España.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición transitoria.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">1. En el plazo máximo de 10 días hábiles desde la entrada en vigor de la presente circular, las entidades mencionadas en el apartado 1 de la norma 2 deberán comunicar al Banco de España si son titulares de cajeros automáticos en territorio nacional aptos para ser utilizados en las operaciones de retirada de efectivo efectuadas por los clientes de otras entidades. En ese mismo plazo, las entidades mencionadas en el apartado 2 de la norma 2 de la circular deberán comunicar al Banco de España si emiten tarjetas u otros instrumentos de pago. Ambas comunicaciones se efectuarán mediante escrito dirigido al Departamento de Información Financiera y CIR del Banco de España.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">2. En el plazo máximo de 20 días hábiles desde la entrada en vigor de la presente circular, las entidades incluidas en su ámbito de aplicación deberán remitir al Banco de España los formularios que corresponda, debidamente cumplimentados con la información correspondiente al último día natural del mes inmediatamente anterior a la entrada en vigor de esta circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición final. Entrada en vigor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente circular entrará en vigor el día siguiente a su publicación en el «Boletín Oficial del Estado».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Madrid, 21 de marzo de 2016.–El Gobernador del Banco de España, Luis María Linde de Castro.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo">ANEJO 1</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="1" src="/datos/imagenes/disp/2016/76/02988_4961.png" width="2776" height="863"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo">ANEJO 2</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-2" alt="2" src="/datos/imagenes/disp/2016/76/02988_5047.png" width="2776" height="579"/>
+    </p>
+  </texto>
+</documento>

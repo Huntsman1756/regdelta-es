@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20190208</fecha_publicacion>
+      </metadatos>
+      <diario numero="34">
+        <sumario_diario>
+          <identificador>BOE-S-2019-34</identificador>
+          <url_pdf szBytes="304190" szKBytes="297">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-S-2019-34.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="9564" nombre="MINISTERIO DE TRABAJO, MIGRACIONES Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Seguridad Social. Prestaciones">
+              <item>
+                <identificador>BOE-A-2019-1691</identificador>
+                <control>2019/1677</control>
+                <titulo>Orden TMS/103/2019, de 6 de febrero, por la que se modifica el anexo del Real Decreto 1148/2011, de 29 de julio, para la aplicación y desarrollo, en el sistema de la Seguridad Social, de la prestación económica por cuidado de menores afectados por cáncer u otra enfermedad grave y se aprueba el modelo de declaración médica sobre la necesidad de cuidado continuo del menor.</titulo>
+                <url_pdf szBytes="336960" szKBytes="329" pagina_inicial="11508" pagina_final="11517">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1691.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1691</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1691</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9567" nombre="MINISTERIO DE ECONOMÍA Y EMPRESA">
+            <epigrafe nombre="Medidas financieras">
+              <item>
+                <identificador>BOE-A-2019-1692</identificador>
+                <control>2019/1678</control>
+                <titulo>Resolución de 6 de febrero de 2019, de la Dirección General del Tesoro y Política Financiera, por la que se actualiza el anexo 1 incluido en la Resolución de 4 de julio de 2017, de la Secretaría General del Tesoro y Política Financiera, por la que se define el principio de prudencia financiera aplicable a las operaciones de endeudamiento y derivados de las comunidades autónomas y entidades locales.</titulo>
+                <url_pdf szBytes="309673" szKBytes="302" pagina_inicial="11518" pagina_final="11520">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1692.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1692</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1692</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9568" nombre="MINISTERIO DE SANIDAD, CONSUMO Y BIENESTAR SOCIAL">
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2019-1693</identificador>
+                <control>2019/1747</control>
+                <titulo>Orden SCB/104/2019, de 7 de febrero, por la que se modifica la Orden SCB/93/2019, de 4 de febrero, por la que se crea el Comité de las profesiones del sector sanitario y social.</titulo>
+                <url_pdf szBytes="227086" szKBytes="222" pagina_inicial="11521" pagina_final="11522">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1693.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1693</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1693</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Fondo de Garantía de Depósitos. Entidades adscritas">
+              <item>
+                <identificador>BOE-A-2019-1694</identificador>
+                <control>2019/1524</control>
+                <titulo>Circular 1/2019, de 30 de enero, del Banco de España, por la que se modifica la Circular 8/2015, de 18 de diciembre, a las entidades y sucursales adscritas al Fondo de Garantía de Depósitos de Entidades de Crédito, sobre información para determinar las bases de cálculo de las aportaciones al Fondo de Garantía de Depósitos de Entidades de Crédito.</titulo>
+                <url_pdf szBytes="247152" szKBytes="241" pagina_inicial="11523" pagina_final="11529">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1694.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1694</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1694</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8060" nombre="COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA">
+            <epigrafe nombre="Discapacidad">
+              <item>
+                <identificador>BOE-A-2019-1695</identificador>
+                <control>2019/1424</control>
+                <titulo>Ley 5/2018, de 21 de diciembre, de acceso al entorno de las personas con discapacidad acompañadas de perros de asistencia.</titulo>
+                <url_pdf szBytes="355998" szKBytes="348" pagina_inicial="11530" pagina_final="11551">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1695.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1695</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1695</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Servicios sociales">
+              <item>
+                <identificador>BOE-A-2019-1696</identificador>
+                <control>2019/1425</control>
+                <titulo>Ley 6/2018, de 21 de diciembre, por la que se modifica la Ley 1/2012, de 21 de febrero, de medidas complementarias para la aplicación del Plan de Garantías de Servicios Sociales.</titulo>
+                <url_pdf szBytes="224499" szKBytes="219" pagina_inicial="11552" pagina_final="11553">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1696.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1696</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1696</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9531" nombre="COMUNIDAD DE CASTILLA Y LEÓN">
+            <epigrafe nombre="Transporte por carretera">
+              <item>
+                <identificador>BOE-A-2019-1697</identificador>
+                <control>2019/1434</control>
+                <titulo>Ley 9/2018, de 20 de diciembre, de transporte público de viajeros por carretera de Castilla y León.</titulo>
+                <url_pdf szBytes="499614" szKBytes="488" pagina_inicial="11554" pagina_final="11596">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1697.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1697</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1697</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2019-1698</identificador>
+                <control>2019/1525</control>
+                <titulo>Resolución de 28 de enero de 2019, de la Subsecretaría, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Resolución de 22 de octubre de 2018.</titulo>
+                <url_pdf szBytes="176003" szKBytes="172" pagina_inicial="11597" pagina_final="11598">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1698.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1698</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1698</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2019-1699</identificador>
+                <control>2019/1526</control>
+                <titulo>Resolución de 30 de enero de 2019, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 26 de noviembre de 2018.</titulo>
+                <url_pdf szBytes="282551" szKBytes="276" pagina_inicial="11599" pagina_final="11601">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1699.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1699</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1699</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2019-1700</identificador>
+                <control>2019/1527</control>
+                <titulo>Resolución 430/38021/2019, de 1 de febrero, de la Secretaría de Estado de Defensa, por la que se dispone el cese del General de División del Cuerpo de Intendencia del Ejército del Aire don Eugenio Rodríguez Monne, como Subdirector General de Contratación de la Dirección General de Asuntos Económicos.</titulo>
+                <url_pdf szBytes="216872" szKBytes="212" pagina_inicial="11602" pagina_final="11602">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1700.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1700</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1700</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2019-1701</identificador>
+                <control>2019/1528</control>
+                <titulo>Resolución 430/38022/2019, de 1 de febrero, de la Secretaría de Estado de Defensa, por la que se nombra Subdirector General de Contratación de la Dirección General de Asuntos Económicos al Coronel del Cuerpo de Intendencia del Ejército del Aire don José Luis Sánchez Martínez.</titulo>
+                <url_pdf szBytes="216393" szKBytes="211" pagina_inicial="11603" pagina_final="11603">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1701.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1701</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1701</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9568" nombre="MINISTERIO DE SANIDAD, CONSUMO Y BIENESTAR SOCIAL">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2019-1702</identificador>
+                <control>2019/1744</control>
+                <titulo>Orden SCB/105/2019, de 7 de febrero, por la que se nombra Presidente, Vicepresidenta y Vocales del Consejo Asesor de Sanidad y Servicios Sociales.</titulo>
+                <url_pdf szBytes="224529" szKBytes="219" pagina_inicial="11604" pagina_final="11605">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1702.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1702</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1702</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1840" nombre="CONSEJO DE SEGURIDAD NUCLEAR">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2019-1703</identificador>
+                <control>2019/1618</control>
+                <titulo>Resolución de 24 de enero de 2019, del Consejo de Seguridad Nuclear, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 6 de noviembre de 2018.</titulo>
+                <url_pdf szBytes="220008" szKBytes="215" pagina_inicial="11606" pagina_final="11606">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1703.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1703</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1703</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2019-1704</identificador>
+                <control>2019/1538</control>
+                <titulo>Resolución de 7 de enero de 2019, conjunta de la Universidad Autónoma de Barcelona y el Hospital del Mar, por la que se nombra Catedrático de Universidad con plaza vinculada a don Antonio Mur Sierra.</titulo>
+                <url_pdf szBytes="221965" szKBytes="217" pagina_inicial="11607" pagina_final="11607">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1704.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1704</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1704</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1705</identificador>
+                <control>2019/1539</control>
+                <titulo>Resolución de 7 de enero de 2019, conjunta de la Universidad Autónoma de Barcelona y el Hospital del Mar, por la que se nombra Profesor Titular de Universidad con plaza vinculada a don Juan Carlos Monllau Garcia.</titulo>
+                <url_pdf szBytes="222274" szKBytes="217" pagina_inicial="11608" pagina_final="11608">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1705.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1705</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1705</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1706</identificador>
+                <control>2019/1540</control>
+                <titulo>Resolución de 15 de enero de 2019, de la Universidad Rey Juan Carlos, por la que se nombra Profesor Titular de Universidad a don Mofdi el Anjoumi el Amrani Benaziz.</titulo>
+                <url_pdf szBytes="220036" szKBytes="215" pagina_inicial="11609" pagina_final="11609">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1706.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1706</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1706</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1707</identificador>
+                <control>2019/1541</control>
+                <titulo>Resolución de 17 de enero de 2019, de la Universidad Rey Juan Carlos, por la que se nombran Catedráticos de Universidad.</titulo>
+                <url_pdf szBytes="222480" szKBytes="217" pagina_inicial="11610" pagina_final="11610">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1707.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1707</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1707</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1708</identificador>
+                <control>2019/1542</control>
+                <titulo>Resolución de 17 de enero de 2019, de la Universidad Rey Juan Carlos, por la que se nombran Profesores Titulares de Universidad.</titulo>
+                <url_pdf szBytes="222700" szKBytes="217" pagina_inicial="11611" pagina_final="11611">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1708.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1708</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1708</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1709</identificador>
+                <control>2019/1543</control>
+                <titulo>Resolución de 21 de enero de 2019, de la Universidad Rey Juan Carlos, por la que se nombra Catedrático de Universidad a don Javier Martín Buldú.</titulo>
+                <url_pdf szBytes="218728" szKBytes="214" pagina_inicial="11612" pagina_final="11612">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1709.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1709</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1709</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1710</identificador>
+                <control>2019/1544</control>
+                <titulo>Resolución de 21 de enero de 2019, de la Universidad Rey Juan Carlos, por la que se nombra Profesor Titular de Universidad a don Daniel Sánchez Salas.</titulo>
+                <url_pdf szBytes="219257" szKBytes="214" pagina_inicial="11613" pagina_final="11613">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1710.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1710</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1710</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1711</identificador>
+                <control>2019/1545</control>
+                <titulo>Resolución de 21 de enero de 2019, de la Universidad Rey Juan Carlos, por la que se nombra Profesora Titular de Universidad a doña Gabriela Cristina Cobo del Rosal Pérez.</titulo>
+                <url_pdf szBytes="219777" szKBytes="215" pagina_inicial="11614" pagina_final="11614">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1711.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1711</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1711</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1712</identificador>
+                <control>2019/1620</control>
+                <titulo>Resolución de 22 de enero de 2019, de la Universidad de Málaga, por la que se nombran Profesores Titulares de Universidad.</titulo>
+                <url_pdf szBytes="216912" szKBytes="212" pagina_inicial="11615" pagina_final="11615">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1712.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1712</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1712</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1713</identificador>
+                <control>2019/1546</control>
+                <titulo>Resolución de 25 de enero de 2019, de la Universitat Politècnica de València, por la que se nombran Profesores Titulares de Universidad.</titulo>
+                <url_pdf szBytes="223340" szKBytes="218" pagina_inicial="11616" pagina_final="11617">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1713.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1713</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1713</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1714</identificador>
+                <control>2019/1625</control>
+                <titulo>Resolución de 25 de enero de 2019, de la Universitat Politècnica de València, por la que se nombran Catedráticos de Universidad.</titulo>
+                <url_pdf szBytes="219041" szKBytes="214" pagina_inicial="11618" pagina_final="11618">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1714.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1714</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1714</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="9564" nombre="MINISTERIO DE TRABAJO, MIGRACIONES Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Cuerpo Superior de Técnicos de la Administración de la Seguridad Social">
+              <item>
+                <identificador>BOE-A-2019-1715</identificador>
+                <control>2019/1631</control>
+                <titulo>Resolución de 31 de enero de 2019, de la Subsecretaría, por la que se corrigen errores en la de 15 de enero de 2019, por la que se publica la relación de aprobados en la fase de oposición del proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en el Cuerpo Superior de Técnicos de la Administración de la Seguridad Social, convocado por Resolución de 15 de diciembre de 2017.</titulo>
+                <url_pdf szBytes="255161" szKBytes="249" pagina_inicial="11619" pagina_final="11621">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1715.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1715</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1715</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9561" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Funcionarios de administración local con habilitación de carácter nacional">
+              <item>
+                <identificador>BOE-A-2019-1716</identificador>
+                <control>2019/1701</control>
+                <titulo>Orden TFP/106/2019, de 6 de febrero, por la que se amplía el plazo previsto para la celebración del primer ejercicio de la fase de oposición de la Orden TFP/1110/2018, de 18 de octubre, por la que se convocan pruebas selectivas para el acceso por promoción interna a la Subescala de Secretaría, categoría de entrada, de la Escala de funcionarios de administración local con habilitación de carácter nacional.</titulo>
+                <url_pdf szBytes="222406" szKBytes="217" pagina_inicial="11622" pagina_final="11622">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1716.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1716</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1716</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1717</identificador>
+                <control>2019/1702</control>
+                <titulo>Orden TFP/107/2019, de 6 de febrero, por la que se amplía el plazo previsto para la celebración del primer ejercicio de la fase de oposición de la Orden TFP/1109/2018, de 18 de octubre, por la que se convocan pruebas selectivas para el acceso por promoción interna a la Subescala de Intervención-Tesorería, categoría de entrada, de la Escala de funcionarios de administración local con habilitación de carácter nacional.</titulo>
+                <url_pdf szBytes="222675" szKBytes="217" pagina_inicial="11623" pagina_final="11623">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1717.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1717</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1717</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9566" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA">
+            <epigrafe nombre="Escala de Titulados de Escuelas Técnicas de Grado Medio de Organismos Autónomos del Ministerio de Medio Ambiente">
+              <item>
+                <identificador>BOE-A-2019-1718</identificador>
+                <control>2019/1632</control>
+                <titulo>Resolución de 4 de febrero de 2019, de la Subsecretaría, por la que se modifica la de 10 de julio de 2018, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en la Escala de Titulados de Escuelas Técnicas de Grado Medio de Organismos Autónomos del Ministerio de Medio Ambiente.</titulo>
+                <url_pdf szBytes="217513" szKBytes="212" pagina_inicial="11624" pagina_final="11624">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1718.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1718</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1718</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9565" nombre="MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES">
+            <epigrafe nombre="Escala de Técnicos Superiores Especializados de los Organismos Públicos de Investigación">
+              <item>
+                <identificador>BOE-A-2019-1719</identificador>
+                <control>2019/1633</control>
+                <titulo>Resolución de 30 de enero de 2019, de la Subsecretaría, por la que se aprueba la relación provisional de admitidos y excluidos y se anuncia fecha, hora y lugar de celebración del primer ejercicio de la fase de oposición del proceso selectivo para ingreso, por el sistema general de acceso libre, en la Escala de Técnicos Superiores Especializados de los Organismos Públicos de Investigación, convocado por Resolución de 7 de noviembre de 2018.</titulo>
+                <url_pdf szBytes="470848" szKBytes="460" pagina_inicial="11625" pagina_final="11636">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1719.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1719</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1719</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1840" nombre="CONSEJO DE SEGURIDAD NUCLEAR">
+            <epigrafe nombre="Escala Superior del Cuerpo de Seguridad Nuclear y Protección Radiológica">
+              <item>
+                <identificador>BOE-A-2019-1720</identificador>
+                <control>2019/1607</control>
+                <titulo>Resolución de 5 de febrero 2019, de la Presidencia del Consejo de Seguridad Nuclear, por la que se aprueba la relación provisional de admitidos y excluidos y se anuncia fecha, hora y lugar de celebración del primer ejercicio del proceso selectivo para ingreso, por el sistema general de acceso libre, en la Escala Superior del Cuerpo de Seguridad Nuclear y Protección Radiológica, convocado por Resolución de 15 de noviembre de 2018.</titulo>
+                <url_pdf szBytes="256278" szKBytes="250" pagina_inicial="11637" pagina_final="11639">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1720.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1720</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1720</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2019-1721</identificador>
+                <control>2019/1635</control>
+                <titulo>Resolución de 11 de enero de 2019, del Ayuntamiento de Vic (Barcelona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="213462" szKBytes="208" pagina_inicial="11640" pagina_final="11640">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1721.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1721</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1721</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1722</identificador>
+                <control>2019/1636</control>
+                <titulo>Resolución de 21 de enero de 2019, del Ayuntamiento de Valdemeca (Cuenca), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="213957" szKBytes="209" pagina_inicial="11641" pagina_final="11641">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1722.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1722</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1722</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1723</identificador>
+                <control>2019/1637</control>
+                <titulo>Resolución de 22 de enero de 2019, del Ayuntamiento de San Pablo de los Montes (Toledo), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="214905" szKBytes="210" pagina_inicial="11642" pagina_final="11642">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1723.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1723</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1723</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1724</identificador>
+                <control>2019/1638</control>
+                <titulo>Resolución de 24 de enero de 2019, del Ayuntamiento de Briviesca (Burgos), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="213516" szKBytes="209" pagina_inicial="11643" pagina_final="11643">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1724.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1724</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1724</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1725</identificador>
+                <control>2019/1639</control>
+                <titulo>Resolución de 24 de enero de 2019, del Ayuntamiento de Burgos, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="218484" szKBytes="213" pagina_inicial="11644" pagina_final="11644">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1725.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1725</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1725</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1726</identificador>
+                <control>2019/1640</control>
+                <titulo>Resolución de 24 de enero de 2019, del Ayuntamiento de Zarautz (Gipuzkoa), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="215601" szKBytes="211" pagina_inicial="11645" pagina_final="11645">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1726.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1726</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1726</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1727</identificador>
+                <control>2019/1560</control>
+                <titulo>Resolución de 25 de enero de 2019, del Ayuntamiento de Baiona (Pontevedra), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="215374" szKBytes="210" pagina_inicial="11646" pagina_final="11646">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1727.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1727</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1727</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1728</identificador>
+                <control>2019/1641</control>
+                <titulo>Resolución de 25 de enero de 2019, del Ayuntamiento de Canovelles (Barcelona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="214146" szKBytes="209" pagina_inicial="11647" pagina_final="11647">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1728.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1728</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1728</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1729</identificador>
+                <control>2019/1561</control>
+                <titulo>Resolución de 28 de enero de 2019, del Ayuntamiento de Añover de Tajo (Toledo), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="213734" szKBytes="209" pagina_inicial="11648" pagina_final="11648">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1729.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1729</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1729</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1730</identificador>
+                <control>2019/1562</control>
+                <titulo>Resolución de 28 de enero de 2019, del Ayuntamiento de Añover de Tajo (Toledo), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="213814" szKBytes="209" pagina_inicial="11649" pagina_final="11649">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1730.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1730</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1730</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1731</identificador>
+                <control>2019/1643</control>
+                <titulo>Resolución de 28 de enero de 2019, del Ayuntamiento de Cardedeu (Barcelona), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="214576" szKBytes="210" pagina_inicial="11650" pagina_final="11650">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1731.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1731</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1731</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1732</identificador>
+                <control>2019/1644</control>
+                <titulo>Resolución de 29 de enero de 2019, de la Diputación Provincial de Sevilla, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="226440" szKBytes="221" pagina_inicial="11651" pagina_final="11652">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1732.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1732</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1732</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1733</identificador>
+                <control>2019/1645</control>
+                <titulo>Resolución de 31 de enero de 2019, del Ayuntamiento de Alcúdia (Illes Balears), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="213017" szKBytes="208" pagina_inicial="11653" pagina_final="11653">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1733.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1733</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1733</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1734</identificador>
+                <control>2019/1646</control>
+                <titulo>Resolución de 31 de enero de 2019, del Ayuntamiento de Almendralejo (Badajoz), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="214805" szKBytes="210" pagina_inicial="11654" pagina_final="11654">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1734.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1734</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1734</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1735</identificador>
+                <control>2019/1647</control>
+                <titulo>Resolución de 31 de enero de 2019, del Ayuntamiento de Rois (A Coruña), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="215098" szKBytes="210" pagina_inicial="11655" pagina_final="11655">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1735.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1735</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1735</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1736</identificador>
+                <control>2019/1648</control>
+                <titulo>Resolución de 1 de febrero de 2019, del Ayuntamiento de Tudela de Duero (Valladolid), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="215492" szKBytes="210" pagina_inicial="11656" pagina_final="11656">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1736.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1736</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1736</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1737</identificador>
+                <control>2019/1707</control>
+                <titulo>Resolución de 7 de febrero de 2019, de la Diputación Provincial de Huelva, de corrección de errores de la de 29 de enero de 2019, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="214392" szKBytes="209" pagina_inicial="11657" pagina_final="11657">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1737.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1737</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1737</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2019-1738</identificador>
+                <control>2019/1654</control>
+                <titulo>Resolución de 23 de enero de 2019, de la Universidad Carlos III de Madrid, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="432867" szKBytes="423" pagina_inicial="11658" pagina_final="11669">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1738.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1738</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1738</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1739</identificador>
+                <control>2019/1567</control>
+                <titulo>Resolución de 25 de enero de 2019, de la Universidad de Zaragoza, por la que se convoca concurso de acceso a plaza de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="406210" szKBytes="397" pagina_inicial="11670" pagina_final="11686">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1739.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1739</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1739</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="1220" nombre="CORTES GENERALES">
+            <epigrafe nombre="Fiscalizaciones">
+              <item>
+                <identificador>BOE-A-2019-1740</identificador>
+                <control>2019/1459</control>
+                <titulo>Resolución de 4 de diciembre de 2018, aprobada por la Comisión Mixta para las Relaciones con el Tribunal de Cuentas, en relación con el Informe de fiscalización de los contratos de cesión, arrendamiento o enajenación de bienes inmuebles y derechos de la propiedad incorporal más significativos formalizados por las empresas estatales durante los ejercicios 2013, 2014 y 2015.</titulo>
+                <url_pdf szBytes="1338417" szKBytes="1307" pagina_inicial="11687" pagina_final="11780">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1740.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1740</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1740</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1741</identificador>
+                <control>2019/1460</control>
+                <titulo>Resolución de 4 de diciembre de 2018, aprobada por la Comisión Mixta para las Relaciones con el Tribunal de Cuentas, en relación con el Informe de fiscalización de los ingresos de la Jefatura Central de Tráfico, ejercicio 2015.</titulo>
+                <url_pdf szBytes="1895800" szKBytes="1851" pagina_inicial="11781" pagina_final="11840">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1741.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1741</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1741</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1742</identificador>
+                <control>2019/1461</control>
+                <titulo>Resolución de 4 de diciembre de 2018, aprobada por la Comisión Mixta para las Relaciones con el Tribunal de Cuentas, en relación con el Informe de fiscalización de los procedimientos de concesión y de gestión y justificación de ayudas sociales concedidas por el Ministerio de Sanidad, Servicios Sociales e Igualdad con cargo a los programas de atención a las personas con necesidades de atención integral sociosanitaria, convocatoria de 2015.</titulo>
+                <url_pdf szBytes="1549249" szKBytes="1513" pagina_inicial="11841" pagina_final="11908">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1742.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1742</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1742</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1743</identificador>
+                <control>2019/1462</control>
+                <titulo>Resolución de 4 de diciembre de 2018, aprobada por la Comisión Mixta para las Relaciones con el Tribunal de Cuentas, en relación con el Informe de fiscalización del Fondo de Financiación a Entidades Locales, ejercicios 2015 y 2016.</titulo>
+                <url_pdf szBytes="1863869" szKBytes="1820" pagina_inicial="11909" pagina_final="12039">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1743.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1743</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1743</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2019-1744</identificador>
+                <control>2019/1568</control>
+                <titulo>Resolución de 23 de enero de 2019, del Centro Sefarad-Israel, por la que se publica el Convenio con la Agencia EFE, S.A.U., S.M.E., para organizar actividades conjuntas con el ánimo de difundir temas de diferentes ámbitos que se circunscriban al mundo judío y a las relaciones de los países de Israel y de España.</titulo>
+                <url_pdf szBytes="254859" szKBytes="249" pagina_inicial="12040" pagina_final="12045">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1744.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1744</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1744</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Comunidad de Madrid. Convenio">
+              <item>
+                <identificador>BOE-A-2019-1745</identificador>
+                <control>2019/1571</control>
+                <titulo>Resolución 420/38010/2019, de 17 de enero, de la Secretaría General Técnica, por la que se publica el Convenio con la Universidad Carlos III de Madrid, sobre la realización de prácticas académicas en centros militares.</titulo>
+                <url_pdf szBytes="214153" szKBytes="209" pagina_inicial="12046" pagina_final="12053">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1745.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1745</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1745</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Comunidad de Madrid. Convenio">
+              <item>
+                <identificador>BOE-A-2019-1746</identificador>
+                <control>2019/1581</control>
+                <titulo>Resolución de 22 de enero de 2019, del Instituto Geográfico Nacional, por la que se corrigen errores en la de 15 de octubre de 2018, por la que se publica el Convenio con la Universidad Politécnica de Madrid, a través del Grupo de Investigación Mercator, para la investigación en nuevas metodologías de descubrimiento de cambios en el territorio mediante la utilización de técnicas no convencionales -CARTOBOT-.</titulo>
+                <url_pdf szBytes="670586" szKBytes="655" pagina_inicial="12054" pagina_final="12071">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1746.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1746</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1746</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2019-1747</identificador>
+                <control>2019/1575</control>
+                <titulo>Resolución de 9 de enero de 2019, de la Entidad Pública Empresarial Adif-Alta Velocidad, por la que se publica el Convenio con Valladolid Alta Velocidad 2003, SA, para la dirección de los proyectos del paso inferior de las calles Panaderos y Labradores de Valladolid, calle elevada en prolongación de la acera de Recoletos y en paralelo con la ampliación prevista de la estación y paso inferior en el Paseo del Arco de Ladrillo.</titulo>
+                <url_pdf szBytes="279074" szKBytes="273" pagina_inicial="12072" pagina_final="12078">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1747.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1747</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1747</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1748</identificador>
+                <control>2019/1576</control>
+                <titulo>Resolución de 9 de enero de 2019, de la Entidad Pública Empresarial Adif-Alta Velocidad, por la que se publica la Adenda al Acuerdo marco regulador de las relaciones entre Almería Alta Velocidad, el Administrador de Infraestructuras Ferroviarias y Adif-Alta Velocidad, para la redacción y dirección del proyecto de la segunda fase de integración del ferrocarril en Almería.</titulo>
+                <url_pdf szBytes="267668" szKBytes="261" pagina_inicial="12079" pagina_final="12085">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1748.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1748</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1748</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1749</identificador>
+                <control>2019/1577</control>
+                <titulo>Resolución de 9 de enero de 2019, de la Entidad Pública Empresarial Administrador de Infraestructuras Ferroviarias, por la que se publica el Convenio con el Ayuntamiento de Madrid y Renfe Viajeros Sociedad Mercantil Estatal, SA, para la gestión y financiación de la rehabilitación, conservación y mantenimiento del Monumento de Atocha en recuerdo de las víctimas de los atentados sufridos en Madrid el 11 de marzo de 2004.</titulo>
+                <url_pdf szBytes="278595" szKBytes="272" pagina_inicial="12086" pagina_final="12095">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1749.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1749</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1749</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1750</identificador>
+                <control>2019/1578</control>
+                <titulo>Resolución de 9 de enero de 2019, de la Entidad Pública Empresarial Administrador de Infraestructuras Ferroviarias, por la que se publica el Acuerdo de resolución del Convenio de colaboración con el Ayuntamiento de Basauri y Bilbao Ría 2000, SA, para la regeneración urbana de Pozokoetxe, San Fausto y Bidebieta y puesta en marcha de una estación de mercancías en Lapatza.</titulo>
+                <url_pdf szBytes="261334" szKBytes="255" pagina_inicial="12096" pagina_final="12102">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1750.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1750</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1750</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1751</identificador>
+                <control>2019/1579</control>
+                <titulo>Resolución de 9 de enero de 2019, de la Entidad Pública Empresarial Administrador de Infraestructuras Ferroviarias, por la que se publica el Convenio con "Valladolid Alta Velocidad 2003, SA," para la redacción y dirección de los proyectos, la ejecución de las obras así como para dirección y asistencia técnica a las mismas, de las actuaciones correspondientes a la finalización de la variante este y la segunda fase del nuevo complejo ferroviario de Valladolid.</titulo>
+                <url_pdf szBytes="313838" szKBytes="306" pagina_inicial="12103" pagina_final="12113">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1751.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1751</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1751</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1752</identificador>
+                <control>2019/1580</control>
+                <titulo>Resolución de 9 de enero de 2019, de la Entidad Pública Empresarial Administrador de Infraestructuras Ferroviarias, por la que se publica el Convenio con el Ayuntamiento de Cubelles, en materia de la seguridad en el ferrocarril.</titulo>
+                <url_pdf szBytes="254880" szKBytes="249" pagina_inicial="12114" pagina_final="12119">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1752.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1752</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1752</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9564" nombre="MINISTERIO DE TRABAJO, MIGRACIONES Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Convenios colectivos de trabajo">
+              <item>
+                <identificador>BOE-A-2019-1753</identificador>
+                <control>2019/1469</control>
+                <titulo>Resolución de 22 de enero de 2019, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo para el personal de tierra de los centros de trabajo de Algeciras, Ceuta y Tarifa de Forde Reederei Seetouristik Iberia, SLU.</titulo>
+                <url_pdf szBytes="409648" szKBytes="400" pagina_inicial="12120" pagina_final="12142">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1753.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1753</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1753</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1754</identificador>
+                <control>2019/1471</control>
+                <titulo>Resolución de 22 de enero de 2019, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Severiano Servicio Móvil, SA.</titulo>
+                <url_pdf szBytes="933389" szKBytes="912" pagina_inicial="12143" pagina_final="12194">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1754.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1754</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1754</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1755</identificador>
+                <control>2019/1473</control>
+                <titulo>Resolución de 24 de enero de 2019, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo relativo al incremento salarial para 2019 del Convenio colectivo del sector de grandes almacenes.</titulo>
+                <url_pdf szBytes="233498" szKBytes="228" pagina_inicial="12195" pagina_final="12196">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1755.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1755</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1755</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1756</identificador>
+                <control>2019/1474</control>
+                <titulo>Resolución de 24 de enero de 2019, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo sobre incrementos salariales correspondientes a 2018 del Convenio colectivo de NTV Logística, SA.</titulo>
+                <url_pdf szBytes="242669" szKBytes="237" pagina_inicial="12197" pagina_final="12198">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1756.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1756</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1756</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1757</identificador>
+                <control>2019/1475</control>
+                <titulo>Resolución de 24 de enero de 2019, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Bimbo Donuts Iberia, SAU.</titulo>
+                <url_pdf szBytes="531111" szKBytes="519" pagina_inicial="12199" pagina_final="12241">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1757.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1757</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1757</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1758</identificador>
+                <control>2019/1476</control>
+                <titulo>Resolución de 24 de enero de 2019, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Médicos del Mundo, SL.</titulo>
+                <url_pdf szBytes="505012" szKBytes="493" pagina_inicial="12242" pagina_final="12278">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1758.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1758</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1758</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5250" nombre="MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO">
+            <epigrafe nombre="Delegación de competencias">
+              <item>
+                <identificador>BOE-A-2019-1759</identificador>
+                <control>2019/1746</control>
+                <titulo>Orden ICT/108/2019, de 7 de febrero, por la que se modifica la Orden ICT/42/2019, de 21 de enero, por la que se fijan los límites para administrar los créditos para gastos y se delegan determinadas competencias en el ámbito del Departamento.</titulo>
+                <url_pdf szBytes="226771" szKBytes="221" pagina_inicial="12279" pagina_final="12280">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1759.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1759</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1759</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9561" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Premios">
+              <item>
+                <identificador>BOE-A-2019-1760</identificador>
+                <control>2019/1732</control>
+                <titulo>Orden TFP/109/2019, de 5 de febrero, por la que se conceden los Premios a la Calidad e Innovación en la Gestión Pública XII edición.</titulo>
+                <url_pdf szBytes="223538" szKBytes="218" pagina_inicial="12281" pagina_final="12281">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1760.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1760</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1760</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Procedimientos de declaración de inconstitucionalidad">
+              <item>
+                <identificador>BOE-A-2019-1761</identificador>
+                <control>2019/1488</control>
+                <titulo>Resolución de 17 de enero de 2019, de la Secretaría General de Coordinación Territorial, por la que se publica el Acuerdo de la Subcomisión de Seguimiento Normativo, Prevención y Solución de Controversias de la Comisión Bilateral de Cooperación Administración General del Estado-Comunidad Autónoma de Andalucía en relación con la Ley 8/2018, de 8 de octubre, de medidas frente al cambio climático y para la transición hacia un nuevo modelo energético en Andalucía.</titulo>
+                <url_pdf szBytes="222085" szKBytes="217" pagina_inicial="12282" pagina_final="12282">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1761.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1761</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1761</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1762</identificador>
+                <control>2019/1489</control>
+                <titulo>Resolución de 17 de enero de 2019, de la Secretaría General de Coordinación Territorial, por la que se publica el Acuerdo de la Subcomisión de Seguimiento Normativo, Prevención y Solución de Controversias de la Comisión Bilateral de Cooperación Administración General del Estado-Comunidad Autónoma de Andalucía en relación con la Ley 9/2018, de 8 de octubre, de modificación de la Ley 12/2007, de 26 de noviembre, para la promoción de la igualdad de género en Andalucía.</titulo>
+                <url_pdf szBytes="221449" szKBytes="216" pagina_inicial="12283" pagina_final="12283">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1762.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1762</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1762</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1763</identificador>
+                <control>2019/1490</control>
+                <titulo>Resolución de 17 de enero de 2019, de la Secretaría General de Coordinación Territorial, por la que se publica el Acuerdo de la Subcomisión de Seguimiento Normativo, Prevención y Solución de Controversias de la Comisión Bilateral de Cooperación Administración General del Estado-Comunidad Autónoma de Andalucía en relación con la Ley 10/2018, de 9 de octubre, Audiovisual de Andalucía.</titulo>
+                <url_pdf szBytes="221076" szKBytes="216" pagina_inicial="12284" pagina_final="12284">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1763.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1763</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1763</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2019-1764</identificador>
+                <control>2019/1660</control>
+                <titulo>Resolución de 7 de noviembre de 2018, del Museo Nacional Centro de Arte Reina Sofía, por la que se publica el Convenio con el Centro Europeo para la Difusión de las Ciencias Sociales, para la colaboración en proyectos culturales conjuntos.</titulo>
+                <url_pdf szBytes="245827" szKBytes="240" pagina_inicial="12285" pagina_final="12289">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1764.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1764</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1764</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1765</identificador>
+                <control>2019/1661</control>
+                <titulo>Resolución de 29 de noviembre de 2018, del Museo Nacional Centro de Arte Reina Sofía, por la que se publica el Convenio con Damm, Sociedad Anónima, para el mecenazgo de las actividades culturales del museo.</titulo>
+                <url_pdf szBytes="254545" szKBytes="249" pagina_inicial="12290" pagina_final="12295">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1765.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1765</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1765</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1766</identificador>
+                <control>2019/1662</control>
+                <titulo>Resolución de 22 de enero de 2019, de la Biblioteca Nacional de España, O.A., por la que se publica el Convenio con The Mad Pixel Factory, SL, para el uso de la Plataforma Second Canvas para gestionar imágenes de la BNE en súper-alta resolución.</titulo>
+                <url_pdf szBytes="297164" szKBytes="290" pagina_inicial="12296" pagina_final="12307">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1766.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1766</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1766</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1767</identificador>
+                <control>2019/1663</control>
+                <titulo>Resolución de 22 de enero de 2019, de la Biblioteca Nacional de España, O.A., por la que se publica el Convenio con el Centro de Estudios Europa Hispánica, para el estudio y catalogación de la colección de manuscritos iluminados franceses y flamencos de la BNE.</titulo>
+                <url_pdf szBytes="258063" szKBytes="252" pagina_inicial="12308" pagina_final="12313">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1767.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1767</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1767</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1768</identificador>
+                <control>2019/1504</control>
+                <titulo>Resolución de 25 de enero de 2019, de la Biblioteca Nacional de España, O.A., por la que se publica el Convenio con el Instituto Nacional de las Artes Escénicas y de la Música, para la realización conjunta de actividades culturales.</titulo>
+                <url_pdf szBytes="257601" szKBytes="252" pagina_inicial="12314" pagina_final="12319">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1768.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1768</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1768</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1769</identificador>
+                <control>2019/1505</control>
+                <titulo>Resolución de 25 de enero de 2019, de la Biblioteca Nacional de España, O.A., por la que se publica el Convenio con la Real Academia de la Historia, para la utilización compartida de recursos de información con el fin de favorecer el desarrollo y el establecimiento de vínculos entre las colecciones digitales de la BNE y el Diccionario Biográfico elaborado por la RAH.</titulo>
+                <url_pdf szBytes="255475" szKBytes="249" pagina_inicial="12320" pagina_final="12325">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1769.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1769</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1769</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1770</identificador>
+                <control>2019/1506</control>
+                <titulo>Resolución de 25 de enero de 2019, de la Biblioteca Nacional de España, O.A., por la que se publica el Convenio con la Sociedad Mercantil Estatal de Acción Cultural, SA, para la realización de la exposición "Los papeles del cambio. Revolución, edición literaria y democracia 1968-1988".</titulo>
+                <url_pdf szBytes="268411" szKBytes="262" pagina_inicial="12326" pagina_final="12332">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1770.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1770</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1770</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1771</identificador>
+                <control>2019/1507</control>
+                <titulo>Resolución de 25 de enero de 2019, de la Biblioteca Nacional de España, O.A., por la que se publica el Convenio con la Sociedad Mercantil Estatal de Acción Cultural, SA, para la realización de la exposición "Lope y el Teatro del Siglo de Oro. Patrimonio, difusión e investigación en la era digital".</titulo>
+                <url_pdf szBytes="274229" szKBytes="268" pagina_inicial="12333" pagina_final="12340">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1771.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1771</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1771</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1772</identificador>
+                <control>2019/1508</control>
+                <titulo>Resolución de 25 de enero de 2019, del Museo Nacional del Prado, por la que se publica el Convenio con Nivaagaard Collection.</titulo>
+                <url_pdf szBytes="5988954" szKBytes="5849" pagina_inicial="12341" pagina_final="12350">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1772.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1772</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1772</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9565" nombre="MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2019-1773</identificador>
+                <control>2019/1665</control>
+                <titulo>Resolución de 14 de enero de 2019, de la Presidencia de la Agencia Estatal de Investigación, por la que se publica el Convenio con la Fundación CRIS de Investigación para Vencer el Cáncer, para la evaluación científico-técnica de los proyectos científicos de la Fundación CRIS contra el cáncer y de su convocatoria de becas de investigación en oncología pediátrica.</titulo>
+                <url_pdf szBytes="254519" szKBytes="249" pagina_inicial="12351" pagina_final="12356">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1773.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1773</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1773</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2019-1774</identificador>
+                <control>2019/1733</control>
+                <titulo>Resolución de 7 de febrero de 2019, del Banco de España, por la que se publican los cambios del euro correspondientes al día 7 de febrero de 2019, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="309335" szKBytes="302" pagina_inicial="12357" pagina_final="12358">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1774.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1774</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1774</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Préstamos hipotecarios. Índices">
+              <item>
+                <identificador>BOE-A-2019-1775</identificador>
+                <control>2019/1666</control>
+                <titulo>Resolución de 1 de febrero de 2019, del Banco de España, por la que se publican los índices y tipos de referencia aplicables para el cálculo del valor de mercado en la compensación por riesgo de tipo de interés de los préstamos hipotecarios, así como para el cálculo del diferencial a aplicar para la obtención del valor de mercado de los préstamos o créditos que se cancelan anticipadamente.</titulo>
+                <url_pdf szBytes="162805" szKBytes="159" pagina_inicial="12359" pagina_final="12359">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1775.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1775</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1775</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8020" nombre="COMUNIDAD AUTÓNOMA DE ARAGÓN">
+            <epigrafe nombre="Bienes de interés cultural">
+              <item>
+                <identificador>BOE-A-2019-1776</identificador>
+                <control>2019/1520</control>
+                <titulo>Resolución de 10 de enero de 2019, de la Dirección General de Cultura y Patrimonio, del Departamento de Educación, Cultura y Deporte, por la que se inicia procedimiento y se abre un periodo de información pública, para la declaración del Sistema de bancales, casetas y mosales en piedra seca de Escartín, situado en el término municipal de Broto (Huesca) como bien de interés cultural, en la categoría de conjunto de interés cultural, lugar de interés etnográfico.</titulo>
+                <url_pdf szBytes="917976" szKBytes="896" pagina_inicial="12360" pagina_final="12367">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1776.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1776</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1776</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9531" nombre="COMUNIDAD DE CASTILLA Y LEÓN">
+            <epigrafe nombre="Bienes de interés cultural">
+              <item>
+                <identificador>BOE-A-2019-1777</identificador>
+                <control>2019/1521</control>
+                <titulo>Acuerdo 2/2019, de 17 de enero, de la Junta de Castilla y León, por el que se declaran la Identidad, Tradición y Ritos en la Semana Santa de Medina de Rioseco (Valladolid), bien de interés cultural de carácter inmaterial.</titulo>
+                <url_pdf szBytes="250373" szKBytes="245" pagina_inicial="12368" pagina_final="12373">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1777.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1777</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1777</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Planes de estudios">
+              <item>
+                <identificador>BOE-A-2019-1778</identificador>
+                <control>2019/1596</control>
+                <titulo>Resolución de 15 de enero de 2019, de la Universidad Miguel Hernández de Elche, por la que se publica el plan de estudios de Máster en Auditoría de Cuentas.</titulo>
+                <url_pdf szBytes="240022" szKBytes="234" pagina_inicial="12374" pagina_final="12374">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1778.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1778</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1778</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1779</identificador>
+                <control>2019/1597</control>
+                <titulo>Resolución de 15 de enero de 2019, de la Universidad Miguel Hernández de Elche, por la que se publica el plan de estudios de Máster en Tecnología y Calidad Agroalimentaria.</titulo>
+                <url_pdf szBytes="263616" szKBytes="257" pagina_inicial="12375" pagina_final="12376">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1779.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1779</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1779</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1780</identificador>
+                <control>2019/1598</control>
+                <titulo>Resolución de 15 de enero de 2019, de la Universidad Miguel Hernández de Elche, por la que se publica la modificación del plan de estudios de Máster en Investigación Clínica y Quirúrgica.</titulo>
+                <url_pdf szBytes="246609" szKBytes="241" pagina_inicial="12377" pagina_final="12378">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1780.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1780</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1780</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2019-1781</identificador>
+                <control>2019/1599</control>
+                <titulo>Resolución de 15 de enero de 2019, de la Universidad Miguel Hernández de Elche, por la que se publica la modificación del plan de estudios de Máster en Investigación en Atención Primaria.</titulo>
+                <url_pdf szBytes="252332" szKBytes="246" pagina_inicial="12379" pagina_final="12380">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-A-2019-1781.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-1781</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2019-1781</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="1430" nombre="TRIBUNAL SUPREMO">
+            <item>
+              <identificador>BOE-B-2019-4989</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="163720" szKBytes="160" pagina_inicial="6361" pagina_final="6361">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-4989.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-4989</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-4989</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2019-4990</identificador>
+              <titulo>ALCALÁ DE HENARES</titulo>
+              <url_pdf szBytes="166588" szKBytes="163" pagina_inicial="6362" pagina_final="6362">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-4990.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-4990</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-4990</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-4991</identificador>
+              <titulo>ALCORCÓN</titulo>
+              <url_pdf szBytes="164472" szKBytes="161" pagina_inicial="6363" pagina_final="6363">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-4991.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-4991</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-4991</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-4992</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="163306" szKBytes="159" pagina_inicial="6364" pagina_final="6364">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-4992.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-4992</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-4992</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-4993</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="166538" szKBytes="163" pagina_inicial="6365" pagina_final="6365">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-4993.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-4993</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-4993</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-4994</identificador>
+              <titulo>BURGOS</titulo>
+              <url_pdf szBytes="164737" szKBytes="161" pagina_inicial="6366" pagina_final="6366">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-4994.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-4994</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-4994</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-4995</identificador>
+              <titulo>FIGUERES</titulo>
+              <url_pdf szBytes="167231" szKBytes="163" pagina_inicial="6367" pagina_final="6367">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-4995.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-4995</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-4995</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-4996</identificador>
+              <titulo>FIGUERES</titulo>
+              <url_pdf szBytes="166383" szKBytes="162" pagina_inicial="6368" pagina_final="6368">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-4996.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-4996</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-4996</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-4997</identificador>
+              <titulo>MISLATA</titulo>
+              <url_pdf szBytes="166623" szKBytes="163" pagina_inicial="6369" pagina_final="6369">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-4997.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-4997</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-4997</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-4998</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="166085" szKBytes="162" pagina_inicial="6370" pagina_final="6370">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-4998.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-4998</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-4998</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-4999</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="171212" szKBytes="167" pagina_inicial="6371" pagina_final="6372">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-4999.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-4999</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-4999</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2019-5000</identificador>
+              <titulo>A CORUÑA</titulo>
+              <url_pdf szBytes="166009" szKBytes="162" pagina_inicial="6373" pagina_final="6373">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5000.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5000</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5000</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5001</identificador>
+              <titulo>A CORUÑA</titulo>
+              <url_pdf szBytes="167012" szKBytes="163" pagina_inicial="6374" pagina_final="6374">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5001.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5001</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5001</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5002</identificador>
+              <titulo>A CORUÑA</titulo>
+              <url_pdf szBytes="166004" szKBytes="162" pagina_inicial="6375" pagina_final="6375">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5002.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5002</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5002</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5003</identificador>
+              <titulo>ALBACETE</titulo>
+              <url_pdf szBytes="161944" szKBytes="158" pagina_inicial="6376" pagina_final="6376">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5003.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5003</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5003</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5004</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="165034" szKBytes="161" pagina_inicial="6377" pagina_final="6377">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5004.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5004</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5004</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5005</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="167122" szKBytes="163" pagina_inicial="6378" pagina_final="6378">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5005.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5005</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5005</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5006</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="162542" szKBytes="159" pagina_inicial="6379" pagina_final="6379">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5006.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5006</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5006</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5007</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="162750" szKBytes="159" pagina_inicial="6380" pagina_final="6380">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5007.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5007</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5007</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5008</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="170178" szKBytes="166" pagina_inicial="6381" pagina_final="6382">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5008.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5008</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5008</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5009</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="163036" szKBytes="159" pagina_inicial="6383" pagina_final="6383">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5009.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5009</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5009</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5010</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="167044" szKBytes="163" pagina_inicial="6384" pagina_final="6384">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5010.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5010</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5010</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5011</identificador>
+              <titulo>BURGOS</titulo>
+              <url_pdf szBytes="163861" szKBytes="160" pagina_inicial="6385" pagina_final="6385">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5011.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5011</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5011</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5012</identificador>
+              <titulo>LLEIDA</titulo>
+              <url_pdf szBytes="161778" szKBytes="158" pagina_inicial="6386" pagina_final="6386">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5012.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5012</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5012</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5013</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163918" szKBytes="160" pagina_inicial="6387" pagina_final="6387">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5013.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5013</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5013</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5014</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163243" szKBytes="159" pagina_inicial="6388" pagina_final="6388">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5014.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5014</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5014</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5015</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163022" szKBytes="159" pagina_inicial="6389" pagina_final="6389">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5015.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5015</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5015</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5016</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="162688" szKBytes="159" pagina_inicial="6390" pagina_final="6390">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5016.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5016</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5016</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5017</identificador>
+              <titulo>SANTA CRUZ DE TENERIFE</titulo>
+              <url_pdf szBytes="168556" szKBytes="165" pagina_inicial="6391" pagina_final="6391">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5017.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5017</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5017</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5018</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="166845" szKBytes="163" pagina_inicial="6392" pagina_final="6392">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5018.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5018</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5018</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5019</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="162312" szKBytes="159" pagina_inicial="6393" pagina_final="6393">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5019.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5019</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5019</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5020</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="164428" szKBytes="161" pagina_inicial="6394" pagina_final="6394">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5020.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5020</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5020</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5021</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="163726" szKBytes="160" pagina_inicial="6395" pagina_final="6395">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5021.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5021</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5021</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5022</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="163788" szKBytes="160" pagina_inicial="6396" pagina_final="6396">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5022.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5022</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5022</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5023</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="162208" szKBytes="158" pagina_inicial="6397" pagina_final="6397">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5023.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5023</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5023</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5024</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="164316" szKBytes="160" pagina_inicial="6398" pagina_final="6398">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5024.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5024</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5024</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Contratación del Sector Público">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2019-5025</identificador>
+              <titulo>Anuncio de formalización de contratos de: Intendente de Ferrol. Objeto: Expdte. 3892/18.- Servicio plan de prevención y control de legionelosis Dependencias Arfer y Escuela Naval Militar y Colegio Salvador Moreno. Expediente: 3654218059100.</titulo>
+              <url_pdf szBytes="185714" szKBytes="181" pagina_inicial="6399" pagina_final="6400">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5025.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5025</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5025</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5026</identificador>
+              <titulo>Anuncio de formalización de contratos de: Intendente de Ferrol. Objeto: Expdte. 3892/18.- Servicio plan de prevención y control de legionelosis Dependencias Arfer y Escuela Naval Militar y Colegio Salvador Moreno. Expediente: 3654218059100.</titulo>
+              <url_pdf szBytes="185584" szKBytes="181" pagina_inicial="6401" pagina_final="6402">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5026.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5026</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5026</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5027</identificador>
+              <titulo>Anuncio de licitación de: Jefatura de la Sección Económico Administrativa 15 Agrupación del Cuartel General del Ejército del Aire. Objeto: 2018VO2369 (T.A.) Servicio de apartamentos de verano Ejército del Aire 2019. Expediente: 41500180108100-1.</titulo>
+              <url_pdf szBytes="184531" szKBytes="180" pagina_inicial="6403" pagina_final="6404">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5027.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5027</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5027</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="5140" nombre="MINISTERIO DE HACIENDA">
+            <item>
+              <identificador>BOE-B-2019-5028</identificador>
+              <titulo>Anuncio de formalización de contratos de: Delegación Especial de la Agencia Tributaria en Castilla y León. Objeto: Mantenimiento de las instalaciones de la Delegación de la AEAT de Ávila. Expediente: 18050118100.</titulo>
+              <url_pdf szBytes="188366" szKBytes="184" pagina_inicial="6405" pagina_final="6406">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5028.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5028</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5028</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5029</identificador>
+              <titulo>Anuncio de licitación de: Delegación Especial de la Agencia Tributaria en Navarra. Objeto: Limpieza del edificio sede de la Delegación Especial de la Agencia Estatal de Administración Tributaria en Navarra. Expediente: 19B40003600.</titulo>
+              <url_pdf szBytes="192792" szKBytes="188" pagina_inicial="6407" pagina_final="6409">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5029.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5029</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5029</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5030</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección del Servicio de Gestión Económica de la Agencia Estatal de la Administración Tributaria. Objeto: Suministro de 310 equipos portátiles con pantalla táctil con destino al Departamento de Informática Tributaria de la Agencia Estatal de Administración Tributaria. Expediente: 18840062100.</titulo>
+              <url_pdf szBytes="185893" szKBytes="182" pagina_inicial="6410" pagina_final="6411">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5030.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5030</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5030</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5031</identificador>
+              <titulo>Resolución de la Delegación Especial de Economía y Hacienda en Aragón-Zaragoza, por la que se convoca subasta pública de bienes patrimoniales de la Administración General del Estado.</titulo>
+              <url_pdf szBytes="315081" szKBytes="308" pagina_inicial="6412" pagina_final="6436">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5031.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5031</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5031</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2019-5032</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de Servicios Penitenciarios. Objeto: Servicio de transporte de personal al Centro Penitenciario de Daroca (ZARAGOZA) dependiente de la Secretaría General de Instituciones Penitenciarias. Expediente: 020120180146.</titulo>
+              <url_pdf szBytes="187795" szKBytes="183" pagina_inicial="6437" pagina_final="6438">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5032.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5032</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5032</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5033</identificador>
+              <titulo>Anuncio de licitación de: Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo. Objeto: Contratación del transporte y distribución de lotes higiénicos a los Centros Penitenciarios dependientes de la Secretaria General de Instituciones Penitenciarias. Expediente: 2018/00133.</titulo>
+              <url_pdf szBytes="195101" szKBytes="191" pagina_inicial="6439" pagina_final="6441">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5033.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5033</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5033</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5034</identificador>
+              <titulo>Anuncio de la Dirección General de Política Interior de licitación para la contratación de los servicios necesarios para la adecuación de los espacios que acogerán el Centro de Difusión Nacional de resultados (CDN) con motivo de la celebración de Elecciones de 26 de mayo de 2019. Expediente: ELPE/10/2019.</titulo>
+              <url_pdf szBytes="174463" szKBytes="170" pagina_inicial="6442" pagina_final="6442">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5034.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5034</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5034</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2019-5035</identificador>
+              <titulo>Anuncio de formalización de contratos de: Autoridad Portuaria de Vigo. Objeto: Cubrición entreplanta silo Bouzas fase 2ª. Expediente: O/1205.</titulo>
+              <url_pdf szBytes="182397" szKBytes="178" pagina_inicial="6443" pagina_final="6444">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5035.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5035</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5035</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5036</identificador>
+              <titulo>Anuncio de licitación de: Dirección Económico-Financiera de ENAIRE. Objeto: Suministro en estado operativo de modificaciones en la arquitectura del sistema SACTA del Centro de Control de Madrid. Expediente: DNA 358/2018.</titulo>
+              <url_pdf szBytes="189924" szKBytes="185" pagina_inicial="6445" pagina_final="6446">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5036.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5036</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5036</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5037</identificador>
+              <titulo>Anuncio de Entidad Pública Empresarial Renfe-Operadora por el que se comunica la licitación para la contratación del Servicio de asistencia técnica para el desarrollo de la nueva web Renfe.com.</titulo>
+              <url_pdf szBytes="198459" szKBytes="194" pagina_inicial="6447" pagina_final="6451">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5037.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5037</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5037</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5038</identificador>
+              <titulo>Anuncio de corrección de errores de: Dirección General de Carreteras. Objeto: Asesoramiento y coordinación en materia de seguridad y salud para las obras de la Demarcación de Carreteras del Estado en Asturias. Provincia de Asturias. Expediente: SS-O-004; 30.19/18.</titulo>
+              <url_pdf szBytes="168103" szKBytes="164" pagina_inicial="6452" pagina_final="6452">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5038.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5038</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5038</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5039</identificador>
+              <titulo>Anuncio de licitación de: ADIF - Consejo de Administración. Objeto: Ejecución de obra y mantenimiento para las instalaciones de seguridad afectadas por la electrificación de línea área de contacto del tramo guillarei-tui. Expediente: 4.18/27507.0283.</titulo>
+              <url_pdf szBytes="184630" szKBytes="180" pagina_inicial="6453" pagina_final="6454">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5039.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5039</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5039</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5040</identificador>
+              <titulo>Anuncio de licitación: Consejo de Administración SEPES Entidad Pública Empresarial de Suelo. Objeto: Servicios de adaptación y actualización del Proyecto de Urbanización de la Actuación Industrial Manzanares Ampliación, en Manzanares (Ciudad Real). Expediente: 126887.</titulo>
+              <url_pdf szBytes="185830" szKBytes="181" pagina_inicial="6455" pagina_final="6457">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5040.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5040</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5040</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9561" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA">
+            <item>
+              <identificador>BOE-B-2019-5041</identificador>
+              <titulo>Anuncio de formalización de contratos de: Delegación del Gobierno en Cantabria. Objeto: Limpieza de las dependencias que ocupa la Delegación del Gobierno en Cantabria para el año 2019. Expediente: 2/2018.</titulo>
+              <url_pdf szBytes="188977" szKBytes="185" pagina_inicial="6458" pagina_final="6459">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5041.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5041</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5041</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9566" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA">
+            <item>
+              <identificador>BOE-B-2019-5042</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Guadalquivir de formalización del contrato de Servicios para el apoyo al Área de Calidad de Aguas en el análisis de muestras de vertidos de la Confederación Hidrográfica del Guadalquivir.</titulo>
+              <url_pdf szBytes="173498" szKBytes="169" pagina_inicial="6460" pagina_final="6460">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5042.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5042</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5042</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9567" nombre="MINISTERIO DE ECONOMÍA Y EMPRESA">
+            <item>
+              <identificador>BOE-B-2019-5044</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de la Entidad Pública Empresarial RED.ES. Objeto: Servicio de limpieza para Red.es. Expediente: 080/18-AF.</titulo>
+              <url_pdf szBytes="185172" szKBytes="181" pagina_inicial="6464" pagina_final="6465">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5044.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5044</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5044</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2019-5043</identificador>
+              <titulo>Anuncio de licitación de: Presidencia de la Gerencia de Infraestructuras y Equipamientos de Cultura O.A. Objeto: Obras de rehabilitación arquitectónica del antiguo Palacio Episcopal, Museo Arqueológico Provincial de Ourense. Expediente: 18/221 OB.</titulo>
+              <url_pdf szBytes="196000" szKBytes="191" pagina_inicial="6461" pagina_final="6463">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5043.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5043</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5043</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9565" nombre="MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2019-5045</identificador>
+              <titulo>Anuncio de formalización de contratos de: Secretaría General de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P. Objeto: Suministro periódico de gasóleo C para calefacción, destinado al Instituto de Ciencias de la Costrucción "Eduardo Torroja". Expediente: 1455/19.</titulo>
+              <url_pdf szBytes="188499" szKBytes="184" pagina_inicial="6466" pagina_final="6467">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5045.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5045</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5045</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2019-5046</identificador>
+              <titulo>Anuncio del Departamento de la Vicepresidencia y de Economía y Hacienda por el que se hace pública la formalización de un contrato para la prestación del servicio de vigilancia en varios edificios y dependencias del Departamento de la Vicepresidencia y de Economía y Hacienda.</titulo>
+              <url_pdf szBytes="176410" szKBytes="172" pagina_inicial="6468" pagina_final="6469">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5046.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5046</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5046</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5047</identificador>
+              <titulo>Anuncio del Departamento de la Vicepresidencia y de Economía y Hacienda por el que se hace pública la formalización de un contrato para la prestación del servicio de limpieza en diversas dependencias del Departamento de la Vicepresidencia y de Economía y Hacienda.</titulo>
+              <url_pdf szBytes="173997" szKBytes="170" pagina_inicial="6470" pagina_final="6470">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5047.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5047</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5047</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8090" nombre="COMUNIDAD AUTÓNOMA DE GALICIA">
+            <item>
+              <identificador>BOE-B-2019-5048</identificador>
+              <titulo>Anuncio de la resolución de la Axencia Galega de Innovación por la que se anuncia la formalización de la contratación, mediante la modalidad de compra pública de tecnología innovadora, por el procedimiento de diálogo competitivo, de un servicio de refuerzo de la seguridad marítima de la flota pesquera gallega y de las actividades de seguimiento de su actividad, contratación cofinanciada por el Fondo FEDER.</titulo>
+              <url_pdf szBytes="174255" szKBytes="170" pagina_inicial="6471" pagina_final="6471">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5048.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5048</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5048</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <item>
+              <identificador>BOE-B-2019-5049</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de Recursos Humanos y Económicos de la Consellería de Sanidad y Salud Pública . Objeto: Acuerdo Marco para el Suministro de Viscoelasticos para intervenciones de oftalmología, con destino a los centros dependientes de la Conselleria de Sanitat Universal i Salut Pública. Expediente: 91/2018.</titulo>
+              <url_pdf szBytes="329060" szKBytes="321" pagina_inicial="6472" pagina_final="6485">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5049.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5049</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5049</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2019-5050</identificador>
+              <titulo>Anuncio del Ayuntamiento de Hospitalet de Llobregat sobre la formalización del contrato de los Servicios postales en el termino municipal y otros servicios complementarios, manipulación y escaneo.</titulo>
+              <url_pdf szBytes="172526" szKBytes="168" pagina_inicial="6486" pagina_final="6486">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5050.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5050</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5050</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2019-5051</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de Línea Figueras Perpignan, S.A. Objeto: Servicio de trabajos auxiliares de topografía. Expediente: PES190003.</titulo>
+              <url_pdf szBytes="188343" szKBytes="184" pagina_inicial="6487" pagina_final="6488">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5051.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5051</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5051</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2019-5052</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de la Bahía de Algeciras por la que se anuncia el inicio del trámite de competencia de proyectos correspondiente a la solicitud de concesión administrativa presentada por la empresa "Total Terminal International Algeciras, S.A.".</titulo>
+              <url_pdf szBytes="168493" szKBytes="165" pagina_inicial="6489" pagina_final="6489">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5052.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5052</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5052</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5053</identificador>
+              <titulo>Anuncio de la Autoridad Portuaria de Santander, por el que se somete a información pública la solicitud presentada por CLdN Shipping Lines Spain, Sociedad Limitada.</titulo>
+              <url_pdf szBytes="168297" szKBytes="164" pagina_inicial="6490" pagina_final="6490">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5053.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5053</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5053</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2019-5054</identificador>
+              <titulo>Anuncio de la Facultad de Medicina de la Universidad Complutense de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="164682" szKBytes="161" pagina_inicial="6491" pagina_final="6491">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5054.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5054</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5054</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5055</identificador>
+              <titulo>Anuncio de la Universidad de Extremadura sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="164610" szKBytes="161" pagina_inicial="6492" pagina_final="6492">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5055.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5055</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5055</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5056</identificador>
+              <titulo>Anuncio de la Facultad de Derecho de la Universidad de Sevilla sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="162634" szKBytes="159" pagina_inicial="6493" pagina_final="6493">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5056.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5056</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5056</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5057</identificador>
+              <titulo>Anuncio de la Facultad de Educación de la Universidad Nacional de Educación a Distancia sobre extravío del título de Diplomado en Educación Social.</titulo>
+              <url_pdf szBytes="165643" szKBytes="162" pagina_inicial="6494" pagina_final="6494">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5057.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5057</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5057</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5058</identificador>
+              <titulo>Anuncio de la Facultad de Estudios Estadísticos de la Universidad Complutense de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="165362" szKBytes="161" pagina_inicial="6495" pagina_final="6495">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5058.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5058</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5058</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5059</identificador>
+              <titulo>Anuncio de la Facultad de Ciencias de la Educación de la Universitat Autònoma de Barcelona sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="164966" szKBytes="161" pagina_inicial="6496" pagina_final="6496">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5059.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5059</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5059</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="ANUNCIOS PARTICULARES">
+            <item>
+              <identificador>BOE-B-2019-5060</identificador>
+              <titulo>REAL AEROCLUB DE GRAN CANARIA</titulo>
+              <url_pdf szBytes="162449" szKBytes="159" pagina_inicial="6497" pagina_final="6497">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5060.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5060</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5060</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5061</identificador>
+              <titulo>REAL AEROCLUB DE GRAN CANARIA</titulo>
+              <url_pdf szBytes="162540" szKBytes="159" pagina_inicial="6498" pagina_final="6498">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5061.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5061</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5061</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2019-5062</identificador>
+              <titulo>REAL AEROCLUB DE GRAN CANARIA</titulo>
+              <url_pdf szBytes="162406" szKBytes="159" pagina_inicial="6499" pagina_final="6499">https://www.boe.es/boe/dias/2019/02/08/pdfs/BOE-B-2019-5062.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2019-5062</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2019-5062</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

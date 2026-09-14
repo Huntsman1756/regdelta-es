@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T132906Z</fecha_actualizacion>
+      <identificador>BOE-A-2012-3168</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20120229</fecha_disposicion>
+      <numero_oficial>1/2012</numero_oficial>
+      <titulo>Circular 1/2012, de 29 de febrero, del Banco de España, a los proveedores de servicios de pago, sobre normas para la comunicación de las transacciones económicas con el exterior.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20120306</fecha_publicacion>
+      <diario_numero>56</diario_numero>
+      <fecha_vigencia>20120601</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2012/02/29/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2012-3168</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

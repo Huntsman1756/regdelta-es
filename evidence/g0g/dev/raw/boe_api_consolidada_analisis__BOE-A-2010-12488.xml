@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="3528">Extranjeros</materia>
+        <materia codigo="3807">Formularios administrativos</materia>
+        <materia codigo="4165">Información</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2003-1413</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Circular 6/2002, de 20 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1995-18450</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Real Decreto 1245/1995, de 14 de julio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2016-1238</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>la norma 1.3, por Circular 2/2016, de 2 de febrero</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2010-12628</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE núm. 190, de 6 de agosto de 2010</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

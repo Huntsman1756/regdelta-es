@@ -1,0 +1,83 @@
+{
+  "cells": {
+    "TEXTxCONSOLIDATED": {
+      "GENERALIZATION_DEV": [
+        "BOE-A-2019-17286",
+        "BOE-A-2005-4749"
+      ],
+      "SEALED_HOLDOUT": [
+        "BOE-A-2013-5720"
+      ],
+      "ranked": {
+        "BOE-A-2005-4749": 2,
+        "BOE-A-2010-15521": 7,
+        "BOE-A-2010-18686": 8,
+        "BOE-A-2013-5720": 3,
+        "BOE-A-2014-1183": 6,
+        "BOE-A-2019-17286": 1,
+        "BOE-A-2022-4301": 4,
+        "BOE-A-2022-5524": 5
+      }
+    },
+    "TEXTxNON_CONSOLIDATED": {
+      "GENERALIZATION_DEV": [
+        "BOE-A-2011-2378",
+        "BOE-A-2013-7467"
+      ],
+      "SEALED_HOLDOUT": [
+        "BOE-A-2021-19805"
+      ],
+      "ranked": {
+        "BOE-A-2006-623": 7,
+        "BOE-A-2008-18886": 8,
+        "BOE-A-2011-2378": 1,
+        "BOE-A-2012-4804": 5,
+        "BOE-A-2013-7467": 2,
+        "BOE-A-2014-13365": 9,
+        "BOE-A-2014-8654": 4,
+        "BOE-A-2015-10596": 6,
+        "BOE-A-2015-13429": 11,
+        "BOE-A-2019-15683": 10,
+        "BOE-A-2021-19805": 3
+      }
+    },
+    "VISUALxCONSOLIDATED": {
+      "GENERALIZATION_DEV": [
+        "BOE-A-2010-1824",
+        "BOE-A-2010-12488"
+      ],
+      "SEALED_HOLDOUT": [
+        "BOE-A-2016-1238"
+      ],
+      "ranked": {
+        "BOE-A-2010-12488": 2,
+        "BOE-A-2010-1824": 1,
+        "BOE-A-2012-9058": 7,
+        "BOE-A-2015-3376": 8,
+        "BOE-A-2016-1238": 3,
+        "BOE-A-2016-5203": 6,
+        "BOE-A-2019-4955": 5,
+        "BOE-A-2022-1718": 4
+      }
+    },
+    "VISUALxNON_CONSOLIDATED": {
+      "GENERALIZATION_DEV": [
+        "BOE-A-2012-3169",
+        "BOE-A-2016-4356"
+      ],
+      "SEALED_HOLDOUT": [
+        "BOE-A-2021-21220"
+      ],
+      "ranked": {
+        "BOE-A-2012-3169": 1,
+        "BOE-A-2016-11483": 5,
+        "BOE-A-2016-2988": 4,
+        "BOE-A-2016-4356": 2,
+        "BOE-A-2021-21220": 3
+      }
+    }
+  },
+  "per_cell": "ranks 1-2 DEV, rank 3 HOLDOUT",
+  "rule": "sha256(seed|boe_id) asc",
+  "seed": "regdelta-g0g-v1"
+}

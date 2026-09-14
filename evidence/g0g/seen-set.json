@@ -1,0 +1,18 @@
+{
+  "boe_ids": [
+    "BOE-A-2017-14334",
+    "BOE-A-2018-17880",
+    "BOE-A-2018-2041",
+    "BOE-A-2020-15602",
+    "BOE-A-2020-6186",
+    "BOE-A-2020-6187",
+    "BOE-A-2021-21666",
+    "BOE-A-2023-5481",
+    "BOE-A-2025-26847"
+  ],
+  "generated_at_head": "ef58530f5ba8787879ab897fecfc2dd9c424ce69",
+  "scope": [
+    "evidence/**",
+    "tests/fixtures/**"
+  ]
+}

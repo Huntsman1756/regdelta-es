@@ -1,0 +1,2012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20101011</fecha_publicacion>
+      </metadatos>
+      <diario numero="246">
+        <sumario_diario>
+          <identificador>BOE-S-2010-246</identificador>
+          <url_pdf szBytes="349015" szKBytes="341">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-S-2010-246.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="1410" nombre="TRIBUNAL CONSTITUCIONAL">
+            <epigrafe nombre="Recursos de inconstitucionalidad">
+              <item>
+                <identificador>BOE-A-2010-15511</identificador>
+                <control>2010/15277</control>
+                <titulo>Recurso de inconstitucionalidad n.º 5985-2010, en relación con el Real Decreto-ley 13/2009, de 26 de octubre, por el que se crea el Fondo Estatal para el Empleo y la Sostenibilidad Local.</titulo>
+                <url_pdf szBytes="152885" szKBytes="149" pagina_inicial="85872" pagina_final="85872">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15511.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15511</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15511</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15512</identificador>
+                <control>2010/15278</control>
+                <titulo>Recurso de inconstitucionalidad n.º 6352-2010, en relación con el artículo 9, apartados 2, 4 y 5 de la Ley de Cataluña 10/2010, de 7 de mayo, de acogida de las personas inmigradas y de las regresadas a Cataluña.</titulo>
+                <url_pdf szBytes="150375" szKBytes="147" pagina_inicial="85873" pagina_final="85873">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15512.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15512</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15512</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuestiones de inconstitucionalidad">
+              <item>
+                <identificador>BOE-A-2010-15513</identificador>
+                <control>2010/15275</control>
+                <titulo>Cuestión de inconstitucionalidad n.º 6322-2010, en relación con el artículo 31.b) de la Ley de Cantabria 1/2002, de 26 de febrero, del Comercio.</titulo>
+                <url_pdf szBytes="152448" szKBytes="149" pagina_inicial="85874" pagina_final="85874">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15513.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15513</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15513</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15514</identificador>
+                <control>2010/15276</control>
+                <titulo>Cuestión de inconstitucionalidad n.º 6323-2010, en relación con el artículo 31.b) de la Ley de Cantabria 1/2002, de 26 de febrero, del Comercio.</titulo>
+                <url_pdf szBytes="152103" szKBytes="149" pagina_inicial="85875" pagina_final="85875">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15514.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15514</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15514</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Conflictos constitucionales">
+              <item>
+                <identificador>BOE-A-2010-15515</identificador>
+                <control>2010/15272</control>
+                <titulo>Conflicto en defensa de la autonomía local n.º 5738-2010, en relación con la Ley 3/2010, de 10 de marzo, del Parlamento de La Rioja, por la que se aprueba la alteración de los términos municipales de Torremontalbo y de Uruñuela.</titulo>
+                <url_pdf szBytes="153040" szKBytes="149" pagina_inicial="85876" pagina_final="85876">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15515.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15515</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15515</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15516</identificador>
+                <control>2010/15274</control>
+                <titulo>Conflicto positivo de competencia n.º 6152-2010, en relación con diversos preceptos del Real Decreto 405/2010, de 31 de marzo, por el que se regula el uso del logotipo "Letra Q" en el etiquetado de la leche y los productos lácteos.</titulo>
+                <url_pdf szBytes="154205" szKBytes="151" pagina_inicial="85877" pagina_final="85877">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15516.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15516</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15516</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15517</identificador>
+                <control>2010/15273</control>
+                <titulo>Conflicto en defensa de la autonomía local n.º 6385-2010, en relación con la Ley de Castilla y León 1/2010, de 2 de marzo, de declaración del Parque Natural de Laguna Negra y Circos Glaciares de Urbión (Soria).</titulo>
+                <url_pdf szBytes="152499" szKBytes="149" pagina_inicial="85878" pagina_final="85878">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15517.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15517</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15517</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Acuerdos internacionales">
+              <item>
+                <identificador>BOE-A-2010-15518</identificador>
+                <control>2010/14941</control>
+                <titulo>Canje de Notas Verbales entre el Reino de España y la República de Uzbekistán relativo a la no aplicación en las relaciones entre los dos países del convenio para evitar la doble imposición entre España y la URSS, firmado en Madrid el 1 de marzo de 1985, hecho en Madrid el 7 de junio y 21 de julio de 2010.</titulo>
+                <url_pdf szBytes="155838" szKBytes="152" pagina_inicial="85879" pagina_final="85879">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15518.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15518</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15518</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3150" nombre="MINISTERIO DE MEDIO AMBIENTE, Y MEDIO RURAL Y MARINO">
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2010-15519</identificador>
+                <control>2010/15336</control>
+                <titulo>Orden ARM/2616/2010, de 5 de octubre, por la que se establece la composición y funcionamiento del Comité de Participación en el marco del Consejo Interministerial de Organismos Modificados Genéticamente.</titulo>
+                <url_pdf szBytes="182758" szKBytes="178" pagina_inicial="85880" pagina_final="85883">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15519.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15519</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15519</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2010-15520</identificador>
+                <control>2010/15337</control>
+                <titulo>Circular 5/2010, de 28 de septiembre, del Banco de España, a entidades de crédito, sobre información que debe remitir el adquirente potencial en la notificación a la que se refiere el artículo 57.1 de la Ley 26/1988, de 29 de julio, sobre disciplina e intervención de las entidades de crédito.</titulo>
+                <url_pdf szBytes="234777" szKBytes="229" pagina_inicial="85884" pagina_final="85893">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15520.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15520</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15520</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15521</identificador>
+                <control>2010/15338</control>
+                <titulo>Circular 6/2010, de 28 de septiembre, del Banco de España, a entidades de crédito y entidades de pago, sobre publicidad de los servicios y productos bancarios.</titulo>
+                <url_pdf szBytes="202313" szKBytes="198" pagina_inicial="85894" pagina_final="85900">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15521.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15521</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15521</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2010-15522</identificador>
+                <control>2010/15281</control>
+                <titulo>Orden JUS/2617/2010, de 1 de octubre, por la que se resuelve la convocatoria de libre designación, efectuada por Orden JUS/1747/2010, de 28 de junio, en el Instituto de Medicina Legal de Palencia, Salamanca y Valladolid.</titulo>
+                <url_pdf szBytes="168051" szKBytes="164" pagina_inicial="85901" pagina_final="85902">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15522.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15522</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15522</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4210" nombre="MINISTERIO DE EDUCACIÓN">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2010-15524</identificador>
+                <control>2010/15287</control>
+                <titulo>Orden EDU/2619/2010, de 1 de octubre, por la que a propuesta de la Consejería de Educación, Ciencia y Cultura de la Comunidad Autónoma de Castilla-La Mancha, se nombran funcionarios de carrera del Cuerpo de Maestros, a los seleccionados en el procedimiento selectivo convocado por Resolución de 25 de marzo de 2009, para ingreso por el sistema general de acceso libre.</titulo>
+                <url_pdf szBytes="411077" szKBytes="401" pagina_inicial="85904" pagina_final="85919">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15524.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15524</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15524</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15525</identificador>
+                <control>2010/15288</control>
+                <titulo>Orden EDU/2620/2010, de 1 de octubre, por la que a propuesta de la Consejería de Educación, Ciencia y Cultura de la Comunidad Autónoma de Castilla-La Mancha, se nombran funcionarios de carrera del Cuerpo de Maestros a los seleccionados en el procedimiento selectivo convocado por Resolución de 25 de marzo de 2009, para acceso de personas con discapacidad.</titulo>
+                <url_pdf szBytes="235330" szKBytes="230" pagina_inicial="85920" pagina_final="85922">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15525.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15525</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15525</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Integraciones">
+              <item>
+                <identificador>BOE-A-2010-15523</identificador>
+                <control>2010/15285</control>
+                <titulo>Orden EDU/2618/2010, de 28 de septiembre, por la que se modifica la Orden ESD/1746/2008, de 5 de junio, sobre integración en los Cuerpos docentes a que se refiere la Ley Orgánica 2/2006, de 3 de mayo, de Educación.</titulo>
+                <url_pdf szBytes="160432" szKBytes="157" pagina_inicial="85903" pagina_final="85903">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15523.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15523</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15523</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4435" nombre="MINISTERIO DE TRABAJO E INMIGRACIÓN">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2010-15526</identificador>
+                <control>2010/15289</control>
+                <titulo>Orden TIN/2621/2010, de 30 de septiembre, por la que se resuelve la convocatoria de libre designación, efectuada por Orden TIN/2306/2010, de 24 de agosto.</titulo>
+                <url_pdf szBytes="161569" szKBytes="158" pagina_inicial="85923" pagina_final="85924">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15526.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15526</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15526</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7710" nombre="MINISTERIO DE LA PRESIDENCIA">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2010-15527</identificador>
+                <control>2010/15341</control>
+                <titulo>Resolución de 28 de septiembre de 2010, de la Secretaría de Estado para la Función Pública, por la que se nombran funcionarios de carrera, por el sistema de promoción interna, de la Escala de Técnicos Superiores Especialistas de los Organismos Públicos de Investigación.</titulo>
+                <url_pdf szBytes="206800" szKBytes="202" pagina_inicial="85925" pagina_final="85928">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15527.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15527</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15527</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15528</identificador>
+                <control>2010/15342</control>
+                <titulo>Resolución de 1 de octubre de 2010, de la Secretaría de Estado para la Función Pública, por la que se nombran funcionarios de carrera del Cuerpo de Gestión de la Administración Civil del Estado, por ingreso libre.</titulo>
+                <url_pdf szBytes="289227" szKBytes="282" pagina_inicial="85929" pagina_final="85939">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15528.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15528</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15528</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15529</identificador>
+                <control>2010/15343</control>
+                <titulo>Resolución de 1 de octubre de 2010, de la Secretaría de Estado para la Función Pública, por la que se nombran funcionarios de carrera del Cuerpo de Gestión de Sistemas e Informática de la Administración del Estado, por ingreso libre.</titulo>
+                <url_pdf szBytes="229713" szKBytes="224" pagina_inicial="85940" pagina_final="85945">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15529.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15529</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15529</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2010-15530</identificador>
+                <control>2010/15428</control>
+                <titulo>Resolución de 4 de octubre de 2010, de la Presidencia de la Agencia Estatal de Evaluación de las Políticas Públicas y la Calidad de los Servicios, por la que se resuelve el concurso específico, convocado por Resolución de 28 de junio de 2010.</titulo>
+                <url_pdf szBytes="174808" szKBytes="171" pagina_inicial="85946" pagina_final="85947">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15530.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15530</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15530</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2010-15531</identificador>
+                <control>2010/15344</control>
+                <titulo>Resolución de 23 de septiembre de 2010, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, por la que se resuelve el concurso general de méritos, convocado por Resolución 14 de junio de 2010.</titulo>
+                <url_pdf szBytes="235460" szKBytes="230" pagina_inicial="85948" pagina_final="85951">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15531.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15531</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15531</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1840" nombre="CONSEJO DE SEGURIDAD NUCLEAR">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2010-15532</identificador>
+                <control>2010/15345</control>
+                <titulo>Resolución de 4 de octubre de 2010, del Consejo de Seguridad Nuclear, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución 20 de agosto de 2010.</titulo>
+                <url_pdf szBytes="157683" szKBytes="154" pagina_inicial="85952" pagina_final="85952">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15532.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15532</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15532</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2010-15533</identificador>
+                <control>2010/15346</control>
+                <titulo>Resolución de 6 de septiembre de 2010, de la Universidad de Zaragoza, por la que se publica parcialmente la Resolución de 30 de agosto de 2010, dictada en ejecución de sentencia.</titulo>
+                <url_pdf szBytes="154402" szKBytes="151" pagina_inicial="85953" pagina_final="85953">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15533.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15533</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15533</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15534</identificador>
+                <control>2010/15348</control>
+                <titulo>Resolución de 21 de septiembre de 2010, de la Universidad de Jaén, por la que se nombra Profesor Titular de Universidad a don Pablo Jesús Linares Palomino.</titulo>
+                <url_pdf szBytes="155288" szKBytes="152" pagina_inicial="85954" pagina_final="85954">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15534.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15534</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15534</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15535</identificador>
+                <control>2010/15291</control>
+                <titulo>Resolución de 23 de septiembre de 2010, de la Universidad de Córdoba, por la que se nombra Profesora Titular de Universidad a doña Sandra García Cano.</titulo>
+                <url_pdf szBytes="155860" szKBytes="152" pagina_inicial="85955" pagina_final="85955">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15535.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15535</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15535</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15536</identificador>
+                <control>2010/15349</control>
+                <titulo>Resolución de 27 de septiembre de 2010, de la Universidad de Sevilla, por la que se nombra Catedrático de Universidad a don Juan Antonio Germán Prieto Pablos.</titulo>
+                <url_pdf szBytes="155338" szKBytes="152" pagina_inicial="85956" pagina_final="85956">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15536.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15536</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15536</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15537</identificador>
+                <control>2010/15350</control>
+                <titulo>Resolución de 28 de septiembre de 2010, de la Universidad de Jaén, por la que se nombra Profesor Titular de Universidad a don José Enrique Callejas Aguilera.</titulo>
+                <url_pdf szBytes="156400" szKBytes="153" pagina_inicial="85957" pagina_final="85957">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15537.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15537</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15537</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15538</identificador>
+                <control>2010/15351</control>
+                <titulo>Resolución de 28 de septiembre de 2010, de la Universidad de Sevilla, por la que se nombra Catedrático de Universidad a don Guillermo Phelan Curbera Costello.</titulo>
+                <url_pdf szBytes="155905" szKBytes="152" pagina_inicial="85958" pagina_final="85958">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15538.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15538</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15538</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15539</identificador>
+                <control>2010/15292</control>
+                <titulo>Resolución de 29 de septiembre de 2010, de la Universidad de Oviedo, por la que se nombra Profesor Titular de Universidad a don Marcos Barrio Anta.</titulo>
+                <url_pdf szBytes="156430" szKBytes="153" pagina_inicial="85959" pagina_final="85959">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15539.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15539</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15539</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15540</identificador>
+                <control>2010/15352</control>
+                <titulo>Resolución de 30 de septiembre de 2010, de la Universidad de Murcia, por la que se nombra Catedrática de Universidad a doña Ana María Ortuño Tomás.</titulo>
+                <url_pdf szBytes="154966" szKBytes="151" pagina_inicial="85960" pagina_final="85960">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15540.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15540</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15540</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15541</identificador>
+                <control>2010/15353</control>
+                <titulo>Resolución de 30 de septiembre de 2010, de la Universidad de Murcia, por la que se nombran Profesores Titulares de Universidad.</titulo>
+                <url_pdf szBytes="154537" szKBytes="151" pagina_inicial="85961" pagina_final="85961">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15541.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15541</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15541</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15542</identificador>
+                <control>2010/15354</control>
+                <titulo>Resolución de 4 de octubre de 2010, de la Universidad Miguel Hernández, por la que se nombra Profesora Titular de Universidad a doña Elvira María de la Peña García.</titulo>
+                <url_pdf szBytes="155059" szKBytes="151" pagina_inicial="85962" pagina_final="85962">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15542.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15542</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15542</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Letrados al servicio del Tribunal Supremo">
+              <item>
+                <identificador>BOE-A-2010-15543</identificador>
+                <control>2010/15297</control>
+                <titulo>Acuerdo de 28 de septiembre de 2010, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se aprueba la relación provisional de aspirantes admitidos y excluidos para participar en el concurso convocado para provisión de plazas de Letrado al servicio del Tribunal Supremo.</titulo>
+                <url_pdf szBytes="162017" szKBytes="158" pagina_inicial="85963" pagina_final="85963">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15543.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15543</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15543</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4210" nombre="MINISTERIO DE EDUCACIÓN">
+            <epigrafe nombre="Funcionarios de los Subgrupos A1 y A2">
+              <item>
+                <identificador>BOE-A-2010-15544</identificador>
+                <control>2010/15356</control>
+                <titulo>Resolución de 5 de octubre de 2010, de la Universidad Internacional Menéndez Pelayo, por la que se convoca concurso específico para la provisión de puesto de trabajo.</titulo>
+                <url_pdf szBytes="318290" szKBytes="311" pagina_inicial="85964" pagina_final="85974">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15544.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15544</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15544</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4435" nombre="MINISTERIO DE TRABAJO E INMIGRACIÓN">
+            <epigrafe nombre="Cuerpo Administrativo de la Administración de la Seguridad Social">
+              <item>
+                <identificador>BOE-A-2010-15545</identificador>
+                <control>2010/15357</control>
+                <titulo>Resolución de 27 de septiembre de 2010, de la Subsecretaría, por la que se aprueba la relación provisional de aspirantes admitidos y excluidos y se anuncia la fecha, hora y lugar de celebración del ejercicio del proceso selectivo para acceso, por el sistema de promoción interna, en el Cuerpo Administrativo de la Administración de la Seguridad Social, convocado por Orden TIN/1843/2010, de 25 de junio.</titulo>
+                <url_pdf szBytes="255328" szKBytes="249" pagina_inicial="85975" pagina_final="85977">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15545.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15545</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15545</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario">
+              <item>
+                <identificador>BOE-A-2010-15554</identificador>
+                <control>2010/15368</control>
+                <titulo>Resolución de 27 de septiembre de 2010, del Ayuntamiento de Donostia-San Sebastián (Guipúzcoa), referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.</titulo>
+                <url_pdf szBytes="155178" szKBytes="152" pagina_inicial="85986" pagina_final="85986">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15554.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15554</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15554</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15561</identificador>
+                <control>2010/15377</control>
+                <titulo>Resolución de 29 de septiembre de 2010, del Ayuntamiento de Donostia-San Sebastián, Centro Informático Municipal (Guipúzcoa), referente a la convocatoria para proveer puesto de trabajo por el sistema de concurso.</titulo>
+                <url_pdf szBytes="156480" szKBytes="153" pagina_inicial="85993" pagina_final="85993">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15561.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15561</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15561</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2010-15546</identificador>
+                <control>2010/14977</control>
+                <titulo>Resolución de 17 de septiembre de 2010, del Ayuntamiento de Medina de Rioseco (Valladolid), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="152091" szKBytes="149" pagina_inicial="85978" pagina_final="85978">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15546.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15546</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15546</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15547</identificador>
+                <control>2010/15361</control>
+                <titulo>Resolución de 21 de septiembre de 2010, del Ayuntamiento de Tarragona, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="155879" szKBytes="152" pagina_inicial="85979" pagina_final="85979">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15547.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15547</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15547</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15548</identificador>
+                <control>2010/15362</control>
+                <titulo>Resolución de 22 de septiembre de 2010, del Ayuntamiento de Masquefa (Barcelona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="151401" szKBytes="148" pagina_inicial="85980" pagina_final="85980">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15548.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15548</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15548</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15549</identificador>
+                <control>2010/15363</control>
+                <titulo>Resolución de 22 de septiembre de 2010, del Ayuntamiento de Masquefa (Barcelona), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="151119" szKBytes="148" pagina_inicial="85981" pagina_final="85981">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15549.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15549</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15549</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15550</identificador>
+                <control>2010/15364</control>
+                <titulo>Resolución de 23 de septiembre de 2010, del Ayuntamiento de El Ejido (Almería), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="151839" szKBytes="148" pagina_inicial="85982" pagina_final="85982">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15550.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15550</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15550</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15551</identificador>
+                <control>2010/15365</control>
+                <titulo>Resolución de 23 de septiembre de 2010, del Ayuntamiento de El Ejido (Almería), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="151418" szKBytes="148" pagina_inicial="85983" pagina_final="85983">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15551.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15551</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15551</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15552</identificador>
+                <control>2010/15366</control>
+                <titulo>Resolución de 23 de septiembre de 2010, del Ayuntamiento de Sant Josep de sa Talaia (Illes Balears), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="150229" szKBytes="147" pagina_inicial="85984" pagina_final="85984">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15552.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15552</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15552</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15553</identificador>
+                <control>2010/15367</control>
+                <titulo>Resolución de 24 de septiembre de 2010, del Ayuntamiento de Almuñécar (Granada), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="152701" szKBytes="149" pagina_inicial="85985" pagina_final="85985">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15553.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15553</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15553</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15555</identificador>
+                <control>2010/15369</control>
+                <titulo>Resolución de 28 de septiembre de 2010, del Ayuntamiento de Cadiar (Granada), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="154189" szKBytes="151" pagina_inicial="85987" pagina_final="85987">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15555.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15555</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15555</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15556</identificador>
+                <control>2010/15370</control>
+                <titulo>Resolución de 28 de septiembre de 2010, del Ayuntamiento de Cambrils (Tarragona), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="153297" szKBytes="150" pagina_inicial="85988" pagina_final="85988">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15556.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15556</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15556</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15557</identificador>
+                <control>2010/15371</control>
+                <titulo>Resolución de 28 de septiembre de 2010, del Ayuntamiento de Esplús (Huesca), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="150805" szKBytes="147" pagina_inicial="85989" pagina_final="85989">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15557.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15557</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15557</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15558</identificador>
+                <control>2010/15372</control>
+                <titulo>Resolución de 28 de septiembre de 2010, del Ayuntamiento de Favara (Valencia), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="152715" szKBytes="149" pagina_inicial="85990" pagina_final="85990">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15558.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15558</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15558</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15559</identificador>
+                <control>2010/15373</control>
+                <titulo>Resolución de 28 de septiembre de 2010, del Ayuntamiento de Istán (Málaga), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="151154" szKBytes="148" pagina_inicial="85991" pagina_final="85991">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15559.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15559</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15559</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15560</identificador>
+                <control>2010/15374</control>
+                <titulo>Resolución de 28 de septiembre de 2010, del Ayuntamiento de Oropesa del Mar (Castellón), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="150740" szKBytes="147" pagina_inicial="85992" pagina_final="85992">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15560.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15560</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15560</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15562</identificador>
+                <control>2010/15375</control>
+                <titulo>Resolución de 29 de septiembre de 2010, del Ayuntamiento de Anguciana (La Rioja), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="149931" szKBytes="146" pagina_inicial="85994" pagina_final="85994">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15562.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15562</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15562</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15563</identificador>
+                <control>2010/15376</control>
+                <titulo>Resolución de 29 de septiembre de 2010, del Ayuntamiento de Navacerrada (Madrid), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="150782" szKBytes="147" pagina_inicial="85995" pagina_final="85995">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15563.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15563</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15563</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15564</identificador>
+                <control>2010/15378</control>
+                <titulo>Resolución de 30 de septiembre de 2010, de la Comarca de la Sierra de Albarracín (Teruel), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="152173" szKBytes="149" pagina_inicial="85996" pagina_final="85996">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15564.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15564</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15564</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15565</identificador>
+                <control>2010/15379</control>
+                <titulo>Resolución de 30 de septiembre de 2010, del Ayuntamiento de Hostalric (Girona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="151447" szKBytes="148" pagina_inicial="85997" pagina_final="85997">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15565.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15565</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15565</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15566</identificador>
+                <control>2010/15381</control>
+                <titulo>Resolución de 1 de octubre de 2010, del Ayuntamiento de Rotglà i Corberà (Valencia), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="150912" szKBytes="147" pagina_inicial="85998" pagina_final="85998">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15566.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15566</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15566</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2010-15567</identificador>
+                <control>2010/15244</control>
+                <titulo>Resolución de 15 de septiembre de 2010, de la Universidad de Almería, por la que se convoca concurso de acceso a plazas de cuerpos de docentes universitarios.</titulo>
+                <url_pdf szBytes="415248" szKBytes="406" pagina_inicial="85999" pagina_final="86021">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15567.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15567</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15567</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15569</identificador>
+                <control>2010/15383</control>
+                <titulo>Resolución de 22 de septiembre de 2010, de la Universidad de Jaén, por la que se corrige error en la de 22 de julio de 2010, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="153205" szKBytes="150" pagina_inicial="86036" pagina_final="86036">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15569.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15569</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15569</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15570</identificador>
+                <control>2010/15384</control>
+                <titulo>Resolución de 1 de octubre de 2010, de la Universidad de Barcelona, por la que se corrigen errores de la de 6 de septiembre de 2010, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="172883" szKBytes="169" pagina_inicial="86037" pagina_final="86040">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15570.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15570</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15570</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Personal de administración y servicios">
+              <item>
+                <identificador>BOE-A-2010-15568</identificador>
+                <control>2010/15382</control>
+                <titulo>Resolución de 20 de septiembre de 2010, de la Universidad de Cantabria, por la que se convocan pruebas selectivas para ingreso en la Escala Auxiliar de Bibliotecas, Subgrupo C2.</titulo>
+                <url_pdf szBytes="447380" szKBytes="437" pagina_inicial="86022" pagina_final="86035">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15568.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15568</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15568</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2010-15571</identificador>
+                <control>2010/15193</control>
+                <titulo>Resolución de 9 de septiembre de 2010, de la Dirección General de Relaciones con la Administración de Justicia, por la que se emplaza a los interesados en el recurso contencioso-administrativo nº. 156/2010.</titulo>
+                <url_pdf szBytes="152635" szKBytes="149" pagina_inicial="86041" pagina_final="86041">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15571.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15571</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15571</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Condecoraciones">
+              <item>
+                <identificador>BOE-A-2010-15572</identificador>
+                <control>2010/15510</control>
+                <titulo>Real Decreto 1280/2010, de 8 de octubre, por el que se concede la Gran Cruz de la Real y Militar Orden de San Hermenegildo a los Oficiales Generales que se citan.</titulo>
+                <url_pdf szBytes="164424" szKBytes="161" pagina_inicial="86042" pagina_final="86043">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15572.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15572</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15572</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4210" nombre="MINISTERIO DE EDUCACIÓN">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2010-15573</identificador>
+                <control>2010/15461</control>
+                <titulo>Orden EDU/2622/2010, de 1 de octubre, por la que se conceden ayudas para becas y contratos del programa de Formación de Profesorado Universitario, en el marco del Estatuto del personal investigador en formación.</titulo>
+                <url_pdf szBytes="434335" szKBytes="424" pagina_inicial="86044" pagina_final="86057">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15573.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15573</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15573</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad de Madrid. Convenio">
+              <item>
+                <identificador>BOE-A-2010-15574</identificador>
+                <control>2010/15198</control>
+                <titulo>Resolución de 14 de septiembre de 2010, de la Dirección General de Evaluación y Cooperación Territorial, por la que se publica el Convenio con la Comunidad de Madrid, para la financiación de los libros de texto y material didáctico e informático en los niveles obligatorios de la enseñanza en centros sostenidos con fondos públicos, para el curso académico 2010-2011.</titulo>
+                <url_pdf szBytes="179818" szKBytes="176" pagina_inicial="86058" pagina_final="86060">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15574.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15574</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15574</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Fundación para el Desarrollo de la Investigación en Genómica y Proteómica. Cuentas anuales">
+              <item>
+                <identificador>BOE-A-2010-15575</identificador>
+                <control>2010/15197</control>
+                <titulo>Resolución de 8 de septiembre de 2010, de la Secretaría General Técnica, por la que se publican las cuentas anuales de la Fundación para el Desarrollo de la Investigación en Genómica y Proteómica, correspondientes al ejercicio 2009.</titulo>
+                <url_pdf szBytes="1004677" szKBytes="981" pagina_inicial="86061" pagina_final="86078">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15575.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15575</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15575</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Fundaciones">
+              <item>
+                <identificador>BOE-A-2010-15576</identificador>
+                <control>2010/15196</control>
+                <titulo>Orden EDU/2623/2010, de 6 de septiembre, por la que se inscribe en el Registro de Fundaciones la Fundación Colegio Derroñadas.</titulo>
+                <url_pdf szBytes="166665" szKBytes="163" pagina_inicial="86079" pagina_final="86080">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15576.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15576</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15576</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4435" nombre="MINISTERIO DE TRABAJO E INMIGRACIÓN">
+            <epigrafe nombre="Becas">
+              <item>
+                <identificador>BOE-A-2010-15577</identificador>
+                <control>2010/15130</control>
+                <titulo>Resolución de 29 de septiembre de 2010, de la Dirección General de la Inspección de Trabajo y Seguridad Social, por la que se convocan becas para la preparación de las pruebas selectivas para el ingreso por turno libre en el Cuerpo Superior de Inspectores de Trabajo y Seguridad Social y en el Cuerpo de Subinspectores de Empleo y Seguridad Social.</titulo>
+                <url_pdf szBytes="256127" szKBytes="250" pagina_inicial="86081" pagina_final="86087">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15577.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15577</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15577</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15578</identificador>
+                <control>2010/15199</control>
+                <titulo>Resolución de 29 de septiembre de 2010, de la Dirección General de la Inspección de Trabajo y Seguridad Social, por la que se convocan becas para la preparación de pruebas selectivas de acceso, por el sistema de promoción interna al Cuerpo Superior de Inspectores de Trabajo y Seguridad Social y al Cuerpo de Subinspectores de Empleo y Seguridad Social.</titulo>
+                <url_pdf szBytes="233194" szKBytes="228" pagina_inicial="86088" pagina_final="86091">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15578.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15578</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15578</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Fondo de Garantía Salarial. Cuentas anuales">
+              <item>
+                <identificador>BOE-A-2010-15579</identificador>
+                <control>2010/15253</control>
+                <titulo>Resolución de 27 de septiembre de 2010, de la Secretaría General del Fondo de Garantía Salarial, por la que se publican las cuentas anuales del ejercicio 2009.</titulo>
+                <url_pdf szBytes="670677" szKBytes="655" pagina_inicial="86092" pagina_final="86110">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15579.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15579</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15579</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5251" nombre="MINISTERIO DE INDUSTRIA, TURISMO Y COMERCIO">
+            <epigrafe nombre="Colegios profesionales">
+              <item>
+                <identificador>BOE-A-2010-15580</identificador>
+                <control>2010/15200</control>
+                <titulo>Orden ITC/2624/2010, de 28 de septiembre, por la que se publican los Estatutos provisionales del Consejo General de Colegios Oficiales de Ingeniería Técnica en Informática.</titulo>
+                <url_pdf szBytes="251857" szKBytes="246" pagina_inicial="86111" pagina_final="86122">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15580.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15580</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15580</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Homologaciones">
+              <item>
+                <identificador>BOE-A-2010-15581</identificador>
+                <control>2010/15258</control>
+                <titulo>Resolución de 24 de septiembre de 2010, de la Dirección General de Política Energética y Minas, de modificación de la aprobación de tipo de aparato radiactivo de los equipos de espectrometría de fluorescencia de rayos X, marca Oxford Instruments Analytical OY (antes Metorex), modelo Courier 10 SXT y marca Hobre Instruments (antes Oxford Instruments Analytical OY/Metorex), modelo Metorex C 100.</titulo>
+                <url_pdf szBytes="166205" szKBytes="162" pagina_inicial="86123" pagina_final="86123">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15581.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15581</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15581</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15582</identificador>
+                <control>2010/15259</control>
+                <titulo>Resolución de 24 de septiembre de 2010, de la Dirección General de Política Energética y Minas, de modificación de la aprobación de tipo de aparato radiactivo del equipo difractómetro de rayos X de la marca Rigaku, modelo Miniflex II para incluir el equipo de la misma marca, modelo Ultima IV.</titulo>
+                <url_pdf szBytes="172323" szKBytes="168" pagina_inicial="86124" pagina_final="86125">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15582.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15582</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15582</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3150" nombre="MINISTERIO DE MEDIO AMBIENTE, Y MEDIO RURAL Y MARINO">
+            <epigrafe nombre="Ganado ovino">
+              <item>
+                <identificador>BOE-A-2010-15583</identificador>
+                <control>2010/15263</control>
+                <titulo>Resolución de 30 de septiembre de 2010, de la Dirección General de Recursos Agrícolas y Ganaderos, por la que se publica la de 24 de febrero de 2009, por la que se aprueba el Programa de mejora de la raza ovina Rasa Aragonesa.</titulo>
+                <url_pdf szBytes="155798" szKBytes="152" pagina_inicial="86126" pagina_final="86126">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15583.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15583</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15583</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Ganado ovino. Libro genealógico">
+              <item>
+                <identificador>BOE-A-2010-15584</identificador>
+                <control>2010/15262</control>
+                <titulo>Resolución de 30 de septiembre de 2010, de la Dirección General de Recursos Agrícolas y Ganaderos, por la que se publica la de 27 de septiembre de 2010, por la que se aprueba la reglamentación específica del libro genealógico de las razas ovinas Latxa y Carranzana.</titulo>
+                <url_pdf szBytes="156311" szKBytes="153" pagina_inicial="86127" pagina_final="86127">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15584.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15584</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15584</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Impacto ambiental">
+              <item>
+                <identificador>BOE-A-2010-15585</identificador>
+                <control>2010/15260</control>
+                <titulo>Resolución de 27 de septiembre de 2010, de la Secretaría de Estado de Cambio Climático, sobre la evaluación de impacto ambiental del proyecto Ampliación de aparcamiento y actuaciones en plataforma en el aeropuerto de Ibiza.</titulo>
+                <url_pdf szBytes="501530" szKBytes="490" pagina_inicial="86128" pagina_final="86135">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15585.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15585</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15585</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Materiales forestales de reproducción">
+              <item>
+                <identificador>BOE-A-2010-15586</identificador>
+                <control>2010/15264</control>
+                <titulo>Resolución de 30 de septiembre de 2010, de la Dirección General de Recursos Agrícolas y Ganaderos, por la que se publica la ampliación del Catálogo Nacional de materiales de base de diversas especies forestales, para la producción de materiales forestales de reproducción identificados.</titulo>
+                <url_pdf szBytes="308859" szKBytes="302" pagina_inicial="86136" pagina_final="86138">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15586.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15586</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15586</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15587</identificador>
+                <control>2010/15265</control>
+                <titulo>Resolución de 30 de septiembre de 2010, de la Dirección General de Recursos Agrícolas y Ganaderos, por la que se publica la ampliación del Catálogo Nacional de materiales de base de Pinus pinaster Ait. y Pinus radiata D. Don, para la producción de materiales forestales de reproducción identificados y seleccionados.</titulo>
+                <url_pdf szBytes="228535" szKBytes="223" pagina_inicial="86139" pagina_final="86141">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15587.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15587</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15587</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2010-15588</identificador>
+                <control>2010/15261</control>
+                <titulo>Resolución de 29 de septiembre de 2010, de la Secretaría General Técnica, por la que se emplaza a los interesados en el recurso contencioso-administrativo nº. 69/2010, interpuesto ante el Juzgado Contencioso-Administrativo nº. 7 de Madrid.</titulo>
+                <url_pdf szBytes="156687" szKBytes="153" pagina_inicial="86142" pagina_final="86142">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15588.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15588</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15588</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7710" nombre="MINISTERIO DE LA PRESIDENCIA">
+            <epigrafe nombre="Centro de Investigaciones Sociológicas. Cuentas anuales">
+              <item>
+                <identificador>BOE-A-2010-15589</identificador>
+                <control>2010/15201</control>
+                <titulo>Resolución de 27 de septiembre de 2010, del Centro de Investigaciones Sociológicas, por la que se publican las cuentas anuales del ejercicio 2009.</titulo>
+                <url_pdf szBytes="335038" szKBytes="327" pagina_inicial="86143" pagina_final="86162">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15589.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15589</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15589</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4110" nombre="MINISTERIO DE CULTURA">
+            <epigrafe nombre="Fundaciones">
+              <item>
+                <identificador>BOE-A-2010-15590</identificador>
+                <control>2010/15202</control>
+                <titulo>Orden CUL/2625/2010, de 1 de septiembre, por la que se inscribe en el Registro de Fundaciones la Fundación A.M.A.</titulo>
+                <url_pdf szBytes="168016" szKBytes="164" pagina_inicial="86163" pagina_final="86164">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15590.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15590</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15590</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15591</identificador>
+                <control>2010/15203</control>
+                <titulo>Orden CUL/2626/2010, de 1 de septiembre, por la que se inscribe en el Registro de Fundaciones la Fundación Aula de Cine Colección Josep M. Queraltó.</titulo>
+                <url_pdf szBytes="168341" szKBytes="164" pagina_inicial="86165" pagina_final="86166">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15591.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15591</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15591</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15592</identificador>
+                <control>2010/15204</control>
+                <titulo>Orden CUL/2627/2010, de 1 de septiembre, por la que se inscribe en el Registro de Fundaciones la Fundación Centro Medjugorje.</titulo>
+                <url_pdf szBytes="170384" szKBytes="166" pagina_inicial="86167" pagina_final="86168">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15592.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15592</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15592</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15593</identificador>
+                <control>2010/15205</control>
+                <titulo>Orden CUL/2628/2010, de 7 de septiembre, por la que se inscribe en el Registro de Fundaciones la Fundación de Turismo y Cooperación.</titulo>
+                <url_pdf szBytes="169946" szKBytes="166" pagina_inicial="86169" pagina_final="86170">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15593.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15593</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15593</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1840" nombre="CONSEJO DE SEGURIDAD NUCLEAR">
+            <epigrafe nombre="Instalaciones radiactivas">
+              <item>
+                <identificador>BOE-A-2010-15594</identificador>
+                <control>2010/15207</control>
+                <titulo>Instrucción IS-28, de 22 de septiembre de 2010, del Consejo de Seguridad Nuclear, sobre las especificaciones técnicas de funcionamiento que deben cumplir las instalaciones radiactivas de segunda y tercera categoría.</titulo>
+                <url_pdf szBytes="317968" szKBytes="311" pagina_inicial="86171" pagina_final="86188">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15594.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15594</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15594</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2010-34544</identificador>
+              <titulo>CANGAS</titulo>
+              <url_pdf szBytes="155199" szKBytes="152" pagina_inicial="110423" pagina_final="110423">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34544.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34544</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34544</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34545</identificador>
+              <titulo>COSLADA</titulo>
+              <url_pdf szBytes="162130" szKBytes="158" pagina_inicial="110424" pagina_final="110425">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34545.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34545</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34545</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34546</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="153150" szKBytes="150" pagina_inicial="110426" pagina_final="110426">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34546.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34546</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34546</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34547</identificador>
+              <titulo>OURENSE</titulo>
+              <url_pdf szBytes="154899" szKBytes="151" pagina_inicial="110427" pagina_final="110427">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34547.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34547</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34547</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34548</identificador>
+              <titulo>PONTEAREAS</titulo>
+              <url_pdf szBytes="154570" szKBytes="151" pagina_inicial="110428" pagina_final="110428">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34548.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34548</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34548</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2010-34549</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="153610" szKBytes="150" pagina_inicial="110429" pagina_final="110429">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34549.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34549</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34549</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34550</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="154324" szKBytes="151" pagina_inicial="110430" pagina_final="110430">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34550.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34550</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34550</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34551</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="154839" szKBytes="151" pagina_inicial="110431" pagina_final="110431">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34551.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34551</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34551</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34552</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="155864" szKBytes="152" pagina_inicial="110432" pagina_final="110432">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34552.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34552</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34552</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34553</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="155848" szKBytes="152" pagina_inicial="110433" pagina_final="110433">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34553.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34553</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34553</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34554</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="155452" szKBytes="152" pagina_inicial="110434" pagina_final="110434">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34554.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34554</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34554</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34555</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="161717" szKBytes="158" pagina_inicial="110435" pagina_final="110436">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34555.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34555</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34555</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34556</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="156436" szKBytes="153" pagina_inicial="110437" pagina_final="110437">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34556.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34556</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34556</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34557</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="155762" szKBytes="152" pagina_inicial="110438" pagina_final="110438">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34557.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34557</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34557</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34558</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="154371" szKBytes="151" pagina_inicial="110439" pagina_final="110439">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34558.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34558</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34558</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34559</identificador>
+              <titulo>HUELVA</titulo>
+              <url_pdf szBytes="153639" szKBytes="150" pagina_inicial="110440" pagina_final="110440">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34559.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34559</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34559</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34560</identificador>
+              <titulo>HUELVA</titulo>
+              <url_pdf szBytes="153783" szKBytes="150" pagina_inicial="110441" pagina_final="110441">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34560.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34560</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34560</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34561</identificador>
+              <titulo>JAÉN</titulo>
+              <url_pdf szBytes="154372" szKBytes="151" pagina_inicial="110442" pagina_final="110442">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34561.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34561</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34561</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34562</identificador>
+              <titulo>LAS PALMAS DE GRAN CANARIA</titulo>
+              <url_pdf szBytes="159596" szKBytes="156" pagina_inicial="110443" pagina_final="110443">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34562.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34562</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34562</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34563</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="155090" szKBytes="151" pagina_inicial="110444" pagina_final="110444">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34563.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34563</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34563</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34564</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="153564" szKBytes="150" pagina_inicial="110445" pagina_final="110445">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34564.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34564</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34564</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34565</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="154632" szKBytes="151" pagina_inicial="110446" pagina_final="110446">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34565.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34565</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34565</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34566</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="153332" szKBytes="150" pagina_inicial="110447" pagina_final="110447">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34566.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34566</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34566</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34567</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="154016" szKBytes="150" pagina_inicial="110448" pagina_final="110448">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34567.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34567</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34567</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34568</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="155019" szKBytes="151" pagina_inicial="110449" pagina_final="110449">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34568.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34568</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34568</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34569</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="154351" szKBytes="151" pagina_inicial="110450" pagina_final="110450">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34569.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34569</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34569</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34570</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="151563" szKBytes="148" pagina_inicial="110451" pagina_final="110451">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34570.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34570</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34570</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34571</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="151684" szKBytes="148" pagina_inicial="110452" pagina_final="110452">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34571.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34571</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34571</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34572</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="154945" szKBytes="151" pagina_inicial="110453" pagina_final="110453">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34572.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34572</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34572</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34573</identificador>
+              <titulo>MÁLAGA</titulo>
+              <url_pdf szBytes="154133" szKBytes="151" pagina_inicial="110454" pagina_final="110454">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34573.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34573</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34573</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34574</identificador>
+              <titulo>PONTEVEDRA</titulo>
+              <url_pdf szBytes="155266" szKBytes="152" pagina_inicial="110455" pagina_final="110455">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34574.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34574</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34574</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34575</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="153711" szKBytes="150" pagina_inicial="110456" pagina_final="110456">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34575.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34575</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34575</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34576</identificador>
+              <titulo>TARRAGONA</titulo>
+              <url_pdf szBytes="155530" szKBytes="152" pagina_inicial="110457" pagina_final="110457">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34576.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34576</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34576</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34577</identificador>
+              <titulo>TOLEDO</titulo>
+              <url_pdf szBytes="155178" szKBytes="152" pagina_inicial="110458" pagina_final="110458">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34577.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34577</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34577</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34578</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="154697" szKBytes="151" pagina_inicial="110459" pagina_final="110459">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34578.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34578</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34578</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34579</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="154750" szKBytes="151" pagina_inicial="110460" pagina_final="110460">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34579.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34579</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34579</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34580</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="154574" szKBytes="151" pagina_inicial="110461" pagina_final="110461">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34580.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34580</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34580</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34581</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="155074" szKBytes="151" pagina_inicial="110462" pagina_final="110462">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34581.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34581</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34581</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34582</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="155760" szKBytes="152" pagina_inicial="110463" pagina_final="110463">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34582.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34582</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34582</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34583</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="154350" szKBytes="151" pagina_inicial="110464" pagina_final="110464">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34583.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34583</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34583</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34584</identificador>
+              <titulo>VIGO</titulo>
+              <url_pdf szBytes="152418" szKBytes="149" pagina_inicial="110465" pagina_final="110465">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34584.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34584</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34584</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34585</identificador>
+              <titulo>VITORIA</titulo>
+              <url_pdf szBytes="153902" szKBytes="150" pagina_inicial="110466" pagina_final="110466">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34585.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34585</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34585</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34586</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="155423" szKBytes="152" pagina_inicial="110467" pagina_final="110467">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34586.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34586</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34586</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34587</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="154704" szKBytes="151" pagina_inicial="110468" pagina_final="110468">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34587.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34587</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34587</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9548" nombre="JUZGADOS DE LO SOCIAL">
+            <item>
+              <identificador>BOE-B-2010-34588</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="152987" szKBytes="149" pagina_inicial="110469" pagina_final="110469">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34588.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34588</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34588</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34589</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="152658" szKBytes="149" pagina_inicial="110470" pagina_final="110470">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34589.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34589</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34589</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9556" nombre="ANULACIONES">
+            <item>
+              <identificador>BOE-B-2010-34590</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES MILITARES</titulo>
+              <url_pdf szBytes="154384" szKBytes="151" pagina_inicial="110471" pagina_final="110471">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34590.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34590</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34590</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Anuncios de licitaciones públicas y adjudicaciones">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <item>
+              <identificador>BOE-B-2010-34591</identificador>
+              <titulo>Resolución de 7 de octubre de 2010, de la Subsecretaría de Justicia, por la que se hace pública la adjudicación definitiva por procedimiento negociado de las obras de adecuaciones varias en el Palacio de Justicia y en el edificio de Juzgados de Logroño con motivo de la implantación del nuevo modelo de Oficina Judicial para 2010 (La Rioja).</titulo>
+              <url_pdf szBytes="164435" szKBytes="161" pagina_inicial="110472" pagina_final="110472">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34591.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34591</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34591</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2010-34592</identificador>
+              <titulo>Resolución de la Junta Delegada de Enajenación y Liquidadora de material de la Maestranza Aérea de Sevilla, relativo a la subasta de vehículos, material vario y chatarra.</titulo>
+              <url_pdf szBytes="156923" szKBytes="153" pagina_inicial="110473" pagina_final="110473">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34592.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34592</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34592</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34593</identificador>
+              <titulo>Resolución del Mando del Apoyo Logístico/Unidad de Contratación y Gestión Económica del Ejército del Aire, por la que se hace pública la adjudicación del servicio "Mantenimiento en Tercer Escalón de Motores de Aviación y sus módulos, componentes y accesorios (derivado de Acuerdo Marco)".</titulo>
+              <url_pdf szBytes="162183" szKBytes="158" pagina_inicial="110474" pagina_final="110474">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34593.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34593</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34593</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34594</identificador>
+              <titulo>Resolución del Órgano de Contratación de la Dirección de Abastecimiento y Transportes de la Armada por la que se anuncia la declaración de desierto del expediente 472/10.- Alimentación dotación buques de la Armada en el extranjero.</titulo>
+              <url_pdf szBytes="161544" szKBytes="158" pagina_inicial="110475" pagina_final="110475">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34594.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34594</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34594</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34595</identificador>
+              <titulo>Resolución del Órgano de Contratación de la Dirección de Abastecimiento y Transportes de la Armada por la que se anuncia la adjudicación definitiva del 745/10.- Adquisición de ametralladoras y pistolas FN Herstal.</titulo>
+              <url_pdf szBytes="162460" szKBytes="159" pagina_inicial="110476" pagina_final="110476">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34595.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34595</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34595</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34596</identificador>
+              <titulo>Resolución del Órgano de Contratación de la Dirección de Abastecimiento y Transportes de la Armada por la que se anuncia la adjudicación definitiva del expediente 747/10.- Adquisición de armamento HK.</titulo>
+              <url_pdf szBytes="162989" szKBytes="159" pagina_inicial="110477" pagina_final="110477">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34596.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34596</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34596</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34597</identificador>
+              <titulo>Resolución de la Sección Económico Financiera de la Dirección General de Infraestructura por la que se anuncia la licitación para el mantenimiento del equipamiento de seguridad de la información.</titulo>
+              <url_pdf szBytes="165583" szKBytes="162" pagina_inicial="110478" pagina_final="110478">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34597.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34597</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34597</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34598</identificador>
+              <titulo>Resolución del Órgano de Contratación de la Dirección de Abastecimiento y Transportes de la Armada por la que se anuncia la adjudicación definitiva del expediente 743/10. Suministro de repuestos y accesorios para equipos de comunicaciones Pr4g.</titulo>
+              <url_pdf szBytes="162826" szKBytes="159" pagina_inicial="110479" pagina_final="110479">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34598.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34598</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34598</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2010-34599</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de Baleares por la que se anuncia la adjudicación definitiva del contrato de "Nuevo acceso al Cos Nou desde la carretera de la Mola en el puerto de Mahón".</titulo>
+              <url_pdf szBytes="161714" szKBytes="158" pagina_inicial="110480" pagina_final="110480">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34599.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34599</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34599</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34600</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de Baleares de anuncio de adjudicación del contrato de "Ampliación de la estación marítima N.º 4 del puerto de Palma" (P.O. 1283).</titulo>
+              <url_pdf szBytes="162164" szKBytes="158" pagina_inicial="110481" pagina_final="110481">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34600.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34600</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34600</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34601</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de Baleares por la que se anuncia la adjudicacion del contrato "Nueva sala de espera en la estación marítima N.º 2 del puerto de Palma" (P.O. 1290).</titulo>
+              <url_pdf szBytes="162559" szKBytes="159" pagina_inicial="110482" pagina_final="110482">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34601.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34601</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34601</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34602</identificador>
+              <titulo>Anuncio de la resolución de la Autoridad Portuaria de A Coruña de adjudicación definitiva del procedimiento abierto para la contratación del "Nuevo Puesto de Inspección Fronteriza (PIF)".</titulo>
+              <url_pdf szBytes="162194" szKBytes="158" pagina_inicial="110483" pagina_final="110483">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34602.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34602</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34602</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34603</identificador>
+              <titulo>Anuncio de resolución de la Autoridad Portuaria de A Coruña de adjudicación definitiva del procedimiento abierto para la contratación del "Proyecto básico y de ejecución del edificio para la nueva terminal de cruceros en el Muelle de Trasatlánticos del Puerto de A Coruña".</titulo>
+              <url_pdf szBytes="162085" szKBytes="158" pagina_inicial="110484" pagina_final="110484">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34603.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34603</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34603</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34604</identificador>
+              <titulo>Anuncio de adjudicación de: Dirección General de Carreteras. Objeto: Contrato de Servicios: Seguimiento, comprobación y elaboración de informes previos a la supervisión de proyectos de trazado y construcción de diversos tramos de autovías, actuaciones en medio urbano y acondicionamientos. Expediente: 30.150/09-3;PR-508/09.</titulo>
+              <url_pdf szBytes="165519" szKBytes="162" pagina_inicial="110485" pagina_final="110485">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34604.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34604</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34604</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34605</identificador>
+              <titulo>Resolución de fecha 22/09/2010, de Aena, Aeropuertos Españoles y Navegación Aérea, por la que se anuncia la Contratación en régimen de concurrencia y el régimen jurídico de la concesión: Un local destinado a la explotación de la actividad de tienda de artesanía en el Aeropuerto de La Palma. (Expediente Número: C/SPC/023/10).</titulo>
+              <url_pdf szBytes="171174" szKBytes="167" pagina_inicial="110486" pagina_final="110487">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34605.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34605</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34605</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34606</identificador>
+              <titulo>Resolución de fecha 22/09/2010, de AENA, Aeropuertos Españoles y Navegación Aérea, por la que se anuncia la contratación en régimen de concurrencia y el régimen jurídico de la concesión: Un local comercial destinado a la explotación de agencia de viajes minorista en el Aeropuerto de Gran Canaria. (Expediente número: LPA/003/10).</titulo>
+              <url_pdf szBytes="170934" szKBytes="167" pagina_inicial="110488" pagina_final="110489">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34606.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34606</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34606</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34607</identificador>
+              <titulo>Resolución de fecha 22/09/2010, de AENA, Aeropuertos Españoles y Navegación Aérea, por la que se anuncia la contratación en régimen de concurrencia y el régimen jurídico de la concesión: Concurso público de 5 locales destinados a la explotación de la actividad de tiendas en el Möd. C del Aeropuerto de Palma de Mallorca. (Expediente número: C/PMI/022/10).</titulo>
+              <url_pdf szBytes="171266" szKBytes="167" pagina_inicial="110490" pagina_final="110491">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34607.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34607</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34607</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34608</identificador>
+              <titulo>Resolución de fecha 22/09/2010, de Aena, Aeropuertos Españoles y Navegación Aérea, por la que se anuncia la Contratación en régimen de concurrencia y el régimen jurídico de la concesión: Un local destinado a la explotación de la actividad de tienda de joyería, relojería, bisutería y electrónica en el Aeropuerto de Gran Canaria. (Expediente número: C/LPA/024/10).</titulo>
+              <url_pdf szBytes="171520" szKBytes="168" pagina_inicial="110492" pagina_final="110493">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34608.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34608</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34608</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4435" nombre="MINISTERIO DE TRABAJO E INMIGRACIÓN">
+            <item>
+              <identificador>BOE-B-2010-34609</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social en Córdoba por la que se convoca procedimiento abierto por el trámite de urgencia para la contratación del servicio de mantenimiento integral del edificio sede de la Dirección Provincial.</titulo>
+              <url_pdf szBytes="173370" szKBytes="169" pagina_inicial="110494" pagina_final="110495">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34609.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34609</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34609</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="5251" nombre="MINISTERIO DE INDUSTRIA, TURISMO Y COMERCIO">
+            <item>
+              <identificador>BOE-B-2010-34610</identificador>
+              <titulo>Resolución de la Secretaría General del Instituto de Turismo de España (Turespaña), Mesa de Contratación, por la que se hace pública la licitación del diseño, construcción en régimen de alquiler, montaje, desmontaje y servicios complementarios de los stands e instalaciones de Turespaña en la ferias internacionales de Turismo Fitur Congresos 2011 y Fitur 2011.</titulo>
+              <url_pdf szBytes="175068" szKBytes="171" pagina_inicial="110496" pagina_final="110497">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34610.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34610</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34610</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34611</identificador>
+              <titulo>Anuncio de adjudicación de la Subsecretaría del Ministerio Industria, Turismo y Comercio. Objeto: Actuación integral que suponga la mejora de la eficiencia energética de la climatización en el Complejo Cuzco de Madrid. Expediente: ME09.001.01.</titulo>
+              <url_pdf szBytes="164748" szKBytes="161" pagina_inicial="110498" pagina_final="110498">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34611.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34611</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34611</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3150" nombre="MINISTERIO DE MEDIO AMBIENTE, Y MEDIO RURAL Y MARINO">
+            <item>
+              <identificador>BOE-B-2010-34612</identificador>
+              <titulo>Anuncio de adjudicación de la Junta de Contratación de los Servicios Comunes y la Secretaría General del Mar del Ministerio de Medio Ambiente, y Medio Rural y Marino. Objeto: Suministro de energía eléctrica procedente de fuentes renovables para diversos edificios del Ministerio de Medio Ambiente y Medio Rural y Marino (paseo Infanta Isabel, 1, y otros). Expediente SP2010/724C.</titulo>
+              <url_pdf szBytes="165543" szKBytes="162" pagina_inicial="110499" pagina_final="110499">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34612.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34612</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34612</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34613</identificador>
+              <titulo>Anuncio de adjudicación de: Dirección General de Servicios del Ministerio de Medio Ambiente, y Medio Rural y Marino. Objeto: Actualización de licencias corporativas del software de gestión de contenido SDL TRIDION del Ministerio de Medio Ambiente y Medio Rural y Marino. Expediente: SN2010/991C.</titulo>
+              <url_pdf szBytes="165420" szKBytes="162" pagina_inicial="110500" pagina_final="110500">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34613.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34613</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34613</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7710" nombre="MINISTERIO DE LA PRESIDENCIA">
+            <item>
+              <identificador>BOE-B-2010-34614</identificador>
+              <titulo>Anuncio, de la Dirección General de Recursos Humanos, Servicios e Infraestructura, de la adjudicación del contrato del servicio de soporte y resolución de incidencias derivadas de la utilización de los diversos sistemas de información y de la web 060 por un centro de atención a usuarios.</titulo>
+              <url_pdf szBytes="161503" szKBytes="158" pagina_inicial="110501" pagina_final="110501">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34614.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34614</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34614</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9524" nombre="MINISTERIO DE SANIDAD Y POLÍTICA SOCIAL">
+            <item>
+              <identificador>BOE-B-2010-34616</identificador>
+              <titulo>Resolución de la Subdirección General de Administración Financiera, por la que se hace pública la adjudicación del procedimiento abierto, para la contratación de recursos formativos, de soporte, gestión y evaluación de la red ciudadana de formadores en seguridad del paciente.</titulo>
+              <url_pdf szBytes="162562" szKBytes="159" pagina_inicial="110503" pagina_final="110503">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34616.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34616</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34616</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34617</identificador>
+              <titulo>Resolución de la Subdirección General de Administración Financiera, por la que se hace publica la adjudicación del procedimiento abierto, para la contratación de la creatividad y producción de una campaña institucional del Ministerio de Sanidad y Política Social, relativa a la promoción del uso de medicamentos genéricos (2010).</titulo>
+              <url_pdf szBytes="164943" szKBytes="161" pagina_inicial="110504" pagina_final="110504">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34617.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34617</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34617</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4110" nombre="MINISTERIO DE CULTURA">
+            <item>
+              <identificador>BOE-B-2010-34615</identificador>
+              <titulo>Resolución del Instituto de la Cinematografía y de las Artes Audiovisuales por la que se anuncia la adjudicación definitiva referente al procedimiento abierto para el servicio de reproducción de imágenes y sonidos de películas cinematográficas propiedad de la Filmoteca Española (100020).</titulo>
+              <url_pdf szBytes="162919" szKBytes="159" pagina_inicial="110502" pagina_final="110502">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34615.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34615</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34615</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <item>
+              <identificador>BOE-B-2010-34618</identificador>
+              <titulo>Anuncio de Osakidetza por el que se da publicidad a la adjudicación definitiva del expediente sujeto a regulación armonizada, relativo al suministro de material fungible para hemodinámica.</titulo>
+              <url_pdf szBytes="164893" szKBytes="161" pagina_inicial="110505" pagina_final="110505">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34618.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34618</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34618</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8090" nombre="COMUNIDAD AUTÓNOMA DE GALICIA">
+            <item>
+              <identificador>BOE-B-2010-34619</identificador>
+              <titulo>Resolución de 10 de septiembre de 2010, de la Gerencia de Atención Primaria de Vigo, por la que se hace pública la adjudicación del servicio de mantenimiento de ascensores, mediante procedimiento abierto (expediente AB-XPV1-10-003).</titulo>
+              <url_pdf szBytes="170189" szKBytes="166" pagina_inicial="110506" pagina_final="110507">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34619.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34619</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34619</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34620</identificador>
+              <titulo>Resolución de 13 de septiembre de 2010, de la Gerencia del Complejo Hospitalario Universitario de Vigo, por la que se hace pública la adjudicación del contrato de suministro sucesivo de carne fresca de ave y derivados para el Complejo Hospitalario Universitario de Vigo. MS-CHV1-10-020.</titulo>
+              <url_pdf szBytes="165653" szKBytes="162" pagina_inicial="110508" pagina_final="110508">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34620.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34620</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34620</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34621</identificador>
+              <titulo>Resolución de 16 de septiembre de 2010, de la Gerencia del Complejo Hospitalario Universitario de Vigo, por la que se hace pública la adjudicación del contrato de suministro sucesivo de carne fresca de porcino y carne fresca de vacuno para el Complejo Hospitalario Universitario de Vigo. MS-CHV1-10-019.</titulo>
+              <url_pdf szBytes="165463" szKBytes="162" pagina_inicial="110509" pagina_final="110509">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34621.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34621</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34621</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34622</identificador>
+              <titulo>Resolución de 13 de septiembre de 2010, de la Gerencia del Complejo Hospitalario Universitario de Vigo, por la que se hace pública la adjudicación del contrato de suministro sucesivo pescado congelado para el Complejo Hospitalario Universitario de Vigo. MS-CHV1-10-018.</titulo>
+              <url_pdf szBytes="165161" szKBytes="161" pagina_inicial="110510" pagina_final="110510">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34622.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34622</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34622</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34623</identificador>
+              <titulo>Resolución de 8 de septiembre de 2010, de la Gerencia del Complejo Hospitalario Universitario de Vigo, por la que se anuncia la contratación del suministro sucesivo de prótesis de Traumatología para el Complejo Hospitalario Universitario de Vigo. MS-CHV1-10-023.</titulo>
+              <url_pdf szBytes="179584" szKBytes="175" pagina_inicial="110511" pagina_final="110513">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34623.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34623</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34623</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <item>
+              <identificador>BOE-B-2010-34624</identificador>
+              <titulo>Resolución de la Secretaría General Técnica de la Consejería de Hacienda y Administración Pública de la Junta de Andalucía, por la que se anuncia la contratación del servicio de limpieza en la sede administrativa de la Consejería de Hacienda y Administración Pública en calle Albareda, n.º 18-20, y calle Rosario, n.º 11, de Sevilla.</titulo>
+              <url_pdf szBytes="175314" szKBytes="171" pagina_inicial="110514" pagina_final="110515">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34624.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34624</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34624</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34625</identificador>
+              <titulo>Resolución de la Delegación Provincial de la Consejería de Educación de Huelva, de 30 de agosto de 2010, de adjudicación definitiva del contrato de servicio de limpieza de los centros docentes públicos de enseñanza dependientes de la misma.</titulo>
+              <url_pdf szBytes="164240" szKBytes="160" pagina_inicial="110516" pagina_final="110516">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34625.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34625</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34625</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8040" nombre="COMUNIDAD AUTÓNOMA DE CANTABRIA">
+            <item>
+              <identificador>BOE-B-2010-34626</identificador>
+              <titulo>Resolución de la Consejería de Presidencia y Justicia por la que se anuncia la adjudicación del contrato de acondicionamiento de márgenes mediante siega y desbroce mecánico en diversas carreteras.</titulo>
+              <url_pdf szBytes="163638" szKBytes="160" pagina_inicial="110517" pagina_final="110517">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34626.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34626</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34626</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34627</identificador>
+              <titulo>Resolución de la Consejería de Presidencia y Justicia por la que se anuncia la adjudicación del contrato de servicios de mantenimiento de las instalaciones semafóricas de la red de carreteras autonómicas.</titulo>
+              <url_pdf szBytes="163006" szKBytes="159" pagina_inicial="110518" pagina_final="110518">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34627.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34627</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34627</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34628</identificador>
+              <titulo>Anuncio del Servicio Cántabro de Salud-Hospital de Laredo por el que se anuncia la adjudicación definitiva del Servicio de Electromedicina del Hospital de Laredo.</titulo>
+              <url_pdf szBytes="161974" szKBytes="158" pagina_inicial="110519" pagina_final="110519">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34628.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34628</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34628</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8020" nombre="COMUNIDAD AUTÓNOMA DE ARAGÓN">
+            <item>
+              <identificador>BOE-B-2010-34629</identificador>
+              <titulo>Anuncio del Servicio Aragonés de Salud por el que se publica la adjudicación definitiva, por procedimiento abierto con varios criterios de adjudicación, del suministro de vacunas antigripales en la Comunidad Autónoma de Aragón para el año 2010.</titulo>
+              <url_pdf szBytes="164759" szKBytes="161" pagina_inicial="110520" pagina_final="110520">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34629.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34629</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34629</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8030" nombre="COMUNIDAD AUTÓNOMA DE CANARIAS">
+            <item>
+              <identificador>BOE-B-2010-34630</identificador>
+              <titulo>Anuncio de la Secretaría General Técnica de la Consejería de Economía y Hacienda, por el que se hace pública la adjudicación definitiva del servicio de mantenimiento y conservación de equipos e instalaciones de los edificios de la Consejería de Economía y Hacienda.</titulo>
+              <url_pdf szBytes="162315" szKBytes="159" pagina_inicial="110521" pagina_final="110521">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34630.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34630</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34630</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34631</identificador>
+              <titulo>Anuncio de la Dirección Gerencia del Hospital Universitario de Gran Canaria Dr. Negrín, por el que se hace pública la relación del adjudicatario del procedimiento abierto 51/H/10/SU/GE/A/0047, suministro de verdura fresca.</titulo>
+              <url_pdf szBytes="165646" szKBytes="162" pagina_inicial="110522" pagina_final="110522">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34631.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34631</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34631</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8121" nombre="COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS">
+            <item>
+              <identificador>BOE-B-2010-34632</identificador>
+              <titulo>Anuncio de Ports de les Illes Balears de licitación del contrato de servicios para la seguridad y vigilancia del edificio de oficinas de Ports de les Illes Balears.</titulo>
+              <url_pdf szBytes="170285" szKBytes="166" pagina_inicial="110523" pagina_final="110524">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34632.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34632</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34632</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8131" nombre="COMUNIDAD DE MADRID">
+            <item>
+              <identificador>BOE-B-2010-34633</identificador>
+              <titulo>Resolución de 14 de septiembre de 2010 de la Secretaría General Técnica de la Vicepresidencia, Consejería de Cultura y Deporte y Portavocía del Gobierno por la que se dispone la publicación de la adjudicación definitiva del contrato de Servicio para el transporte de los participantes en las competiciones "Madrid Comunidad Olímpica" y "Campeonatos Escolares de los IES en el curso 2010-2011".</titulo>
+              <url_pdf szBytes="166804" szKBytes="163" pagina_inicial="110525" pagina_final="110525">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34633.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34633</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34633</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34634</identificador>
+              <titulo>Resolución de la Dirección Gerencia del Hospital Universitario Santa Cristina por la que se hace pública la adjudicación definitiva del procedimiento abierto de suministros con pluralidad de criterios para la adquisición de prótesis de cadera. Expediente n.º SC12/10.</titulo>
+              <url_pdf szBytes="165002" szKBytes="161" pagina_inicial="110526" pagina_final="110526">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34634.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34634</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34634</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34635</identificador>
+              <titulo>Resolución de 30 de septiembre de 2010, de la Secretaría General Técnica de la Consejería de Educación, por la que se hace pública la adjudicación definitiva del contrato de servicios titulado limpieza de los edificios sedes de la Consejería de Educación, sitos en calle Alcalá, 30-32, calle Marqués de Cubas, 25, 2.ª planta, y calle General Díaz Porlier, 35, de Madrid.</titulo>
+              <url_pdf szBytes="166602" szKBytes="163" pagina_inicial="110527" pagina_final="110527">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34635.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34635</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34635</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34636</identificador>
+              <titulo>Resolución de 10 de septiembre de 2010, de la Secretaría General Técnica de Consejería de Medio Ambiente, Vivienda y Ordenación del Territorio, por la que se dispone la publicación en los boletines oficiales y en el perfil del contratante de la adjudicación definitiva del contrato de "Planificación y ejecución de un plan de medios para dar a conocer las medidas de fomento al alquiler de viviendas en la Comunidad de Madrid".</titulo>
+              <url_pdf szBytes="166337" szKBytes="162" pagina_inicial="110528" pagina_final="110528">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34636.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34636</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34636</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34637</identificador>
+              <titulo>Resolución de 29 de septiembre de 2010, de la Viceconsejería de Asistencia Sanitaria del Servicio Madrileño de Salud, por la que se hace pública la convocatoria de licitación por procedimiento abierto, mediante pluralidad de criterios, del contrato de servicios denominado "Mantenimiento de equipos de electromedicina de los Centros dependientes del Servicio Madrileño de Salud en el ámbito de Atención Primaria.</titulo>
+              <url_pdf szBytes="175303" szKBytes="171" pagina_inicial="110529" pagina_final="110530">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34637.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34637</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34637</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34638</identificador>
+              <titulo>Resolución de la Dirección Gerencia del Hospital Universitario "La Paz", por la que se hace pública la adjudicación definitiva del P.A. 13/2010: Mantenimiento de las instalaciones de calefacción y aire acondicionado del Hospital.</titulo>
+              <url_pdf szBytes="164080" szKBytes="160" pagina_inicial="110531" pagina_final="110531">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34638.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34638</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34638</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2010-34639</identificador>
+              <titulo>Resolución de la Presidencia de la Mancomunidad de Servicios "La Vega" para proceder a la adquisición de un vehículo recolector compactador de RSU.</titulo>
+              <url_pdf szBytes="172729" szKBytes="169" pagina_inicial="110532" pagina_final="110533">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34639.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34639</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34639</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34640</identificador>
+              <titulo>Resolución del Ayuntamiento de Pinto (Madrid) por la que se anuncia la adjudicación del contrato de servicio de reparación, mantenimiento y conservación de las instalaciones de climatización y agua caliente sanitaria de los edificios municipales.</titulo>
+              <url_pdf szBytes="163537" szKBytes="160" pagina_inicial="110534" pagina_final="110534">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34640.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34640</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34640</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34641</identificador>
+              <titulo>Resolución del Ayuntamiento de Pinto (Madrid) por la que se anuncia la adjudicación del contrato de servicio de implantación del portal del ciudadano y atención telemática, financiado con el Fondo Estatal para el Empleo y la Sostenibilidad Local.</titulo>
+              <url_pdf szBytes="162831" szKBytes="159" pagina_inicial="110535" pagina_final="110535">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34641.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34641</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34641</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34642</identificador>
+              <titulo>Resolución del Ayuntamiento de Pinto (Madrid) por la que se anuncia la adjudicación del contrato de servicio de organización de las fiestas patronales de agosto de 2010.</titulo>
+              <url_pdf szBytes="162664" szKBytes="159" pagina_inicial="110536" pagina_final="110536">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34642.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34642</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34642</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34643</identificador>
+              <titulo>Resolución del Consejo de Administración del Centro Informático Municipal del Ayuntamiento de Donostia-San Sebastián, de 23 de septiembre de 2010, convocando licitación pública mediante acuerdo marco para suministro de equipos y servicios microinformáticos para el Centro Informático Municipal del Ayuntamiento de Donostia-San Sebastián.</titulo>
+              <url_pdf szBytes="170951" szKBytes="167" pagina_inicial="110537" pagina_final="110538">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34643.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34643</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34643</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34644</identificador>
+              <titulo>Anuncio de corrección de errores del Ayuntamiento de Tarragona relativo a la ejecución de la obra del proyecto de construcción de islas de contenedores subterráneos en el municipio de Tarragona.</titulo>
+              <url_pdf szBytes="155705" szKBytes="152" pagina_inicial="110539" pagina_final="110539">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34644.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34644</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34644</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34645</identificador>
+              <titulo>Anuncio del Ayuntamiento de Monforte de Lemos de adjudicación definitiva del contrato de recogida y transporte de residuos urbanos, limpieza viaria y otros servicios complementarios.</titulo>
+              <url_pdf szBytes="159793" szKBytes="156" pagina_inicial="110540" pagina_final="110540">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34645.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34645</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34645</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34646</identificador>
+              <titulo>Acuerdo de la Junta de Gobierno Local del Ayuntamiento de Vilagarcía de Arousa, de fecha 14 de septiembre de 2010, sobre desestimiento del procedimiento de licitación del contrato de servicios de limpieza de edificios e instalaciones dependientes del Ayuntamiento de Vilagarcía de Arousa.</titulo>
+              <url_pdf szBytes="159244" szKBytes="156" pagina_inicial="110541" pagina_final="110541">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34646.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34646</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34646</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34647</identificador>
+              <titulo>Resolución del Ayuntamiento de Móstoles, que anuncia el procedimiento abierto para el suministro de materiales de obras y prefabricados del Ayuntamiento de Móstoles.</titulo>
+              <url_pdf szBytes="164810" szKBytes="161" pagina_inicial="110542" pagina_final="110542">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34647.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34647</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34647</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34648</identificador>
+              <titulo>Resolución del Ayuntamiento de Móstoles que anuncia el procedimiento abierto para los servicios de ludoteca en Centros de Educación Infantil y Primaria de Móstoles.</titulo>
+              <url_pdf szBytes="165630" szKBytes="162" pagina_inicial="110543" pagina_final="110543">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34648.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34648</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34648</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34649</identificador>
+              <titulo>Resolución del Ayuntamiento de Móstoles que anuncia el procedimiento abierto para el servicio de desratización, desinsectación y desinfección en el municipio de Móstoles.</titulo>
+              <url_pdf szBytes="164568" szKBytes="161" pagina_inicial="110544" pagina_final="110544">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34649.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34649</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34649</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34650</identificador>
+              <titulo>Resolución del Ayuntamiento de Móstoles que anuncia el procedimiento abierto para el servicio de limpieza de Colegios Públicos, grupo I, del municipio de Móstoles.</titulo>
+              <url_pdf szBytes="169346" szKBytes="165" pagina_inicial="110545" pagina_final="110546">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34650.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34650</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34650</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34651</identificador>
+              <titulo>Resolución del Ayuntamiento de Móstoles que anuncia el procedimiento abierto para el servicio de limpieza de Colegios Públicos, grupo III, del municipio de Móstoles.</titulo>
+              <url_pdf szBytes="169681" szKBytes="166" pagina_inicial="110547" pagina_final="110548">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34651.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34651</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34651</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34652</identificador>
+              <titulo>Resolución del Ayuntamiento de Móstoles, que anuncia el procedimiento abierto para los servicios técnicos de apoyo de los centros municipales de mayores del Ayuntamiento de Móstoles.</titulo>
+              <url_pdf szBytes="164321" szKBytes="160" pagina_inicial="110549" pagina_final="110549">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34652.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34652</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34652</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34653</identificador>
+              <titulo>Anuncio del Ayuntamiento de Madrid por el que se convoca el procedimiento abierto relativo al servicio de suministro, instalación, mantenimiento y conservación de contenedores para la recogida selectiva de papel y cartón, vidrio y envases.</titulo>
+              <url_pdf szBytes="172863" szKBytes="169" pagina_inicial="110550" pagina_final="110551">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34653.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34653</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34653</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34654</identificador>
+              <titulo>Anuncio del Ayuntamiento de Cartagena por el que se convoca licitación pública para el suministro de un vehículo autoescalera automática (37 metros) con destino al servicio de extinción de incendios y protección civil.</titulo>
+              <url_pdf szBytes="171175" szKBytes="167" pagina_inicial="110552" pagina_final="110553">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34654.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34654</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34654</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34655</identificador>
+              <titulo>Anuncio del Ayuntamiento de Sabadell sobre la licitación del contrato servicio de limpieza de equipamientos municipales Grupo A.</titulo>
+              <url_pdf szBytes="173471" szKBytes="169" pagina_inicial="110554" pagina_final="110555">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34655.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34655</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34655</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34656</identificador>
+              <titulo>Anuncio del Ayuntamiento de Sabadell sobre la licitación del contrato servicio de limpieza de equipamientos municipales Grupo B.</titulo>
+              <url_pdf szBytes="173750" szKBytes="170" pagina_inicial="110556" pagina_final="110557">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34656.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34656</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34656</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34657</identificador>
+              <titulo>Anuncio del Ayuntamiento de Sabadell sobre la licitación del contrato Servicio de limpieza de equipamientos municipales Grupo C.</titulo>
+              <url_pdf szBytes="174236" szKBytes="170" pagina_inicial="110558" pagina_final="110559">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34657.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34657</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34657</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34658</identificador>
+              <titulo>Anuncio de la Diputación de Barcelona sobre licitación de un contrato de suministro de carnés de biblioteca para atender las necesidades de las bibliotecas de la Red de Bibliotecas Municipales.</titulo>
+              <url_pdf szBytes="174046" szKBytes="170" pagina_inicial="110560" pagina_final="110561">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34658.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34658</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34658</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34659</identificador>
+              <titulo>Anuncio de la Diputación de Barcelona sobre licitación del contrato del servicio de recogida, transporte y tratamiento de diferentes tipos de residuos generados en diversos edificios y recintos de la Diputación de Barcelona.</titulo>
+              <url_pdf szBytes="174755" szKBytes="171" pagina_inicial="110562" pagina_final="110563">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34659.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34659</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34659</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34660</identificador>
+              <titulo>Anuncio del Ayuntamiento de Las Rozas de Madrid por el que se convoca licitación para la adjudicación de concesión de uso privativo de bienes de dominio público constituido por aparcamiento subterráneo en la calle Siete Picos.</titulo>
+              <url_pdf szBytes="164031" szKBytes="160" pagina_inicial="110564" pagina_final="110564">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34660.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34660</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34660</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34661</identificador>
+              <titulo>Anuncio del Ayuntamiento de Oviedo sobre la adjudicación del contrato de seguro de asistencia sanitaria y prestaciones ortoprotésicas al personal del Ayuntamiento de Oviedo.</titulo>
+              <url_pdf szBytes="162026" szKBytes="158" pagina_inicial="110565" pagina_final="110565">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34661.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34661</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34661</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34662</identificador>
+              <titulo>Anuncio del Ayuntamiento de Oviedo sobre la adjudicación del contrato de instalación, mantenimiento y desmontaje de la iluminación ornamental e instalación y desmontaje de megafonía, durante las fiestas de Navidad, "San Mateo", "La Ascensión" y Carnaval.</titulo>
+              <url_pdf szBytes="163653" szKBytes="160" pagina_inicial="110566" pagina_final="110566">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34662.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34662</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34662</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34663</identificador>
+              <titulo>Anuncio del Ayuntamiento de Oviedo sobre la adjudicación del acuerdo marco de suministro y distribución de prensa a los centros sociales del municipio.</titulo>
+              <url_pdf szBytes="160809" szKBytes="157" pagina_inicial="110567" pagina_final="110567">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34663.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34663</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34663</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34664</identificador>
+              <titulo>Anuncio del Ayuntamiento de Oviedo sobre la adjudicación del acuerdo marco para el suministro de vestuario, calzado y otro material con destino a la Policía Local.</titulo>
+              <url_pdf szBytes="162590" szKBytes="159" pagina_inicial="110568" pagina_final="110568">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34664.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34664</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34664</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2010-34665</identificador>
+              <titulo>Resolución de la Universidad de Oviedo por la que se hace pública la adjudicación definitiva de la contratación de obras de adecuación en el Campus del Cristo A, Gijón y Mieres.</titulo>
+              <url_pdf szBytes="167633" szKBytes="164" pagina_inicial="110569" pagina_final="110570">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34665.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34665</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34665</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34666</identificador>
+              <titulo>Resolución de la Universidad de Almería por la que se anuncia la adjudicación definitiva para la contratación del suministro de un espectrómetro de dicroismo circular.</titulo>
+              <url_pdf szBytes="160215" szKBytes="156" pagina_inicial="110571" pagina_final="110571">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34666.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34666</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34666</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34667</identificador>
+              <titulo>Anuncio de la Universidad de Jaén por el que se comunica el procedimiento para la contratación del suministro de publicaciones periódicas extranjeras.</titulo>
+              <url_pdf szBytes="167530" szKBytes="164" pagina_inicial="110572" pagina_final="110573">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34667.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34667</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34667</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2010-34668</identificador>
+              <titulo>Anuncio de Hulleras del Norte, S.A. por el que se adjudica el expediente C-3167-10/D-2601. Urbanización Instalaciones Reicastro (Mieres).</titulo>
+              <url_pdf szBytes="165044" szKBytes="161" pagina_inicial="110574" pagina_final="110574">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34668.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34668</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34668</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34669</identificador>
+              <titulo>Anuncio de la Notaría de Miguel Olmedo Martínez sobre subasta extrajudicial.</titulo>
+              <url_pdf szBytes="161180" szKBytes="157" pagina_inicial="110575" pagina_final="110575">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34669.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34669</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34669</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34670</identificador>
+              <titulo>Anuncio de la S.U.M. Ensanche 21 Zabalgunea, S.A. por el que se convoca concurso para la contratación de los trabajos de desvíos, levantados, excavaciones, demoliciones, cimentación, saneamiento, red de tierras y estructura del Centro Internacional de la ciudad de Vitoria-Gasteiz.</titulo>
+              <url_pdf szBytes="174274" szKBytes="170" pagina_inicial="110576" pagina_final="110577">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34670.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34670</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34670</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34671</identificador>
+              <titulo>Anuncio de Vivienda y Suelo de Euskadi, S.A./Euskadiko Etxebizitza eta Lurra, E.A.(VISESA) de licitación de contrato de ejecución de las obras de edificación de 150 Viviendas Sociales, anejos y urbanización vinculada en el área 12.3.-OD Kortazar en Zarautz.</titulo>
+              <url_pdf szBytes="174210" szKBytes="170" pagina_inicial="110578" pagina_final="110579">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34671.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34671</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34671</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34672</identificador>
+              <titulo>Anuncio de la Sociedad Álava Agencia de Desarrollo, S.A., por el que se convoca concurso para la licitación pública de contratación de los trabajos de mantenimiento, conservación y mejora de los parques empresariales promovidos por Álava Agencia de Desarrollo, S.A.</titulo>
+              <url_pdf szBytes="164349" szKBytes="160" pagina_inicial="110580" pagina_final="110580">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34672.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34672</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34672</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34673</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de adjudicación definitiva del contrato de ejecución de la obra del proyecto constructivo de renovación de la línea aérea de contacto del tramo Sagrera-Sant Adria del Besós. Expediente 20101002-F.</titulo>
+              <url_pdf szBytes="163162" szKBytes="159" pagina_inicial="110581" pagina_final="110581">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34673.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34673</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34673</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34674</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima ( SEITT ) de adjudicación definitiva del contrato de ejecución de la obra del Proyecto constructivo: Enclavamiento electrónico en Martorell. Expediente 20101003-F.</titulo>
+              <url_pdf szBytes="163079" szKBytes="159" pagina_inicial="110582" pagina_final="110582">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34674.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34674</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34674</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <item>
+              <identificador>BOE-B-2010-34675</identificador>
+              <titulo>Anuncio de la Subsecretaría (División de Tramitación de Derechos de Gracia y otros Derechos), sobre solicitud de sucesión en el título de Marqués de la Garantía.</titulo>
+              <url_pdf szBytes="157619" szKBytes="154" pagina_inicial="110583" pagina_final="110583">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34675.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34675</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34675</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34676</identificador>
+              <titulo>Anuncio de la Subsecretaría (División de Tramitación de Derechos de Gracia y otros Derechos), sobre solicitud de sucesión en el título de Conde de Valverde.</titulo>
+              <url_pdf szBytes="157142" szKBytes="153" pagina_inicial="110584" pagina_final="110584">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34676.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34676</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34676</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2010-34677</identificador>
+              <titulo>Anuncio de la Jefatura Provincial de Tráfico de Burgos sobre notificación de las resoluciones de los recursos de alzada que se indican dictadas por el Director General de Tráfico.</titulo>
+              <url_pdf szBytes="184832" szKBytes="181" pagina_inicial="110585" pagina_final="110586">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34677.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34677</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34677</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34678</identificador>
+              <titulo>Anuncio de la Jefatura Provincial de Tráfico de Badajoz por el que se notifican las resoluciones de la Dirección General de Tráfico de los recursos de alzada de expedientes sancionadores.</titulo>
+              <url_pdf szBytes="189211" szKBytes="185" pagina_inicial="110587" pagina_final="110588">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34678.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34678</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34678</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2010-34679</identificador>
+              <titulo>Resolución de la Dirección General de Infraestructuras Ferroviarias de fecha 30 de Septiembre de 2010 por la que se abre Información Pública correspondiente al expediente de Expropiación Forzosa que se tramita con motivo de las obras del Administrador de Infraestructuras Ferroviarias, "Proyecto de construcción de plataforma de la línea de alta velocidad Antequera-Granada. Tramo: Nudo de Bobadilla (Antequera). Fase II". En el término municipal de Antequera (Málaga). Expte:019ADIF1009.</titulo>
+              <url_pdf szBytes="240108" szKBytes="234" pagina_inicial="110589" pagina_final="110591">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34679.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34679</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34679</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3150" nombre="MINISTERIO DE MEDIO AMBIENTE, Y MEDIO RURAL Y MARINO">
+            <item>
+              <identificador>BOE-B-2010-34680</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Segura sobre notificación de requerimientos de subsanación y mejora en expedientes de solicitud de autorización de vertido a dominio público hidráulico.</titulo>
+              <url_pdf szBytes="161805" szKBytes="158" pagina_inicial="110592" pagina_final="110592">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34680.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34680</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34680</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7710" nombre="MINISTERIO DE LA PRESIDENCIA">
+            <item>
+              <identificador>BOE-B-2010-34681</identificador>
+              <titulo>Resolución de la Dirección General de Muface sobre requerimiento de pago a mutualistas del Fondo Especial dados de baja por impago de recibos.</titulo>
+              <url_pdf szBytes="163919" szKBytes="160" pagina_inicial="110593" pagina_final="110593">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34681.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34681</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34681</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34682</identificador>
+              <titulo>Resolución de la Dirección General de Muface sobre requerimiento de pago a mutualistas del Fondo Especial dados de baja por impago de liquidaciones.</titulo>
+              <url_pdf szBytes="163870" szKBytes="160" pagina_inicial="110594" pagina_final="110594">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34682.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34682</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34682</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9524" nombre="MINISTERIO DE SANIDAD Y POLÍTICA SOCIAL">
+            <item>
+              <identificador>BOE-B-2010-34683</identificador>
+              <titulo>Anuncio de la Agencia Española de Medicamentos y Productos Sanitarios (Organismo Notificado con el número de identificación 0318) del acuerdo de retirada del certificado de marcado CE de la empresa Hierbas y Distribuciones, S.L.</titulo>
+              <url_pdf szBytes="161151" szKBytes="157" pagina_inicial="110595" pagina_final="110595">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34683.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34683</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34683</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34684</identificador>
+              <titulo>Anuncio de la Agencia Española de Medicamentos y Productos Sanitarios de notificación de la propuesta de resolución de retirada del mercado de medicamentos ilegales.</titulo>
+              <url_pdf szBytes="158315" szKBytes="155" pagina_inicial="110596" pagina_final="110596">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34684.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34684</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34684</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8040" nombre="COMUNIDAD AUTÓNOMA DE CANTABRIA">
+            <item>
+              <identificador>BOE-B-2010-34685</identificador>
+              <titulo>Resolución de la Dirección General de Industria (Consejería de Industria y Desarrollo Tecnológico) del Gobierno de Cantabria por la que se admite definitivamente la solicitud del Permiso de Investigación "Las Llanas", número 16650.</titulo>
+              <url_pdf szBytes="165896" szKBytes="162" pagina_inicial="110597" pagina_final="110597">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34685.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34685</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34685</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <item>
+              <identificador>BOE-B-2010-34686</identificador>
+              <titulo>Resolución de 22 de septiembre de 2010, de la Dirección General de Obras Públicas, relativa a la información pública del proyecto de construcción, Plan PIP, Clave: 2265(254)-0-CV "Conexión viaria entre los barrios de zona norte y Viaducto de Alcoi. Alcoi (Alicante)".</titulo>
+              <url_pdf szBytes="162264" szKBytes="158" pagina_inicial="110598" pagina_final="110598">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34686.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34686</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34686</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2010-34687</identificador>
+              <titulo>Anuncio de la Facultad de Ciencias Económicas y Empresariales de la Universidad Complutense de Madrid sobre extravío de título de Licenciada en Ciencias Económicas y Empresariales, Rama Economía de la Empresa, Especialidad Economía Laboral.</titulo>
+              <url_pdf szBytes="155791" szKBytes="152" pagina_inicial="110599" pagina_final="110599">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34687.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34687</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34687</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34688</identificador>
+              <titulo>Anuncio de Universidad Politécnica de Valencia sobre extravío de título de Arquitecto Técnico.</titulo>
+              <url_pdf szBytes="154923" szKBytes="151" pagina_inicial="110600" pagina_final="110600">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34688.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34688</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34688</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34689</identificador>
+              <titulo>Anuncio de la Universidad de Oviedo sobre extravío de título de Licenciada en Biología.</titulo>
+              <url_pdf szBytes="154897" szKBytes="151" pagina_inicial="110601" pagina_final="110601">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34689.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34689</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34689</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34690</identificador>
+              <titulo>Anuncio del CES Cardenal Spínola CEU (centro adscrito a la Universidad de Sevilla) sobre extravío de título de Diplomada en Magisterio.</titulo>
+              <url_pdf szBytes="155859" szKBytes="152" pagina_inicial="110602" pagina_final="110602">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34690.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34690</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34690</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34691</identificador>
+              <titulo>Anuncio de la Universidad San Pablo-CEU sobre extravío de título de Licenciada en Humanidades.</titulo>
+              <url_pdf szBytes="155788" szKBytes="152" pagina_inicial="110603" pagina_final="110603">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34691.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34691</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34691</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34692</identificador>
+              <titulo>Anuncio de Universidad Complutense de Madrid sobre extravío de título de Licenciado en Ciencias Geológicas, especialidad en Paleontología.</titulo>
+              <url_pdf szBytes="154381" szKBytes="151" pagina_inicial="110604" pagina_final="110604">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34692.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34692</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34692</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34693</identificador>
+              <titulo>Anuncio de Universidad de Alicante sobre extravío de título de Licenciado en Ciencias Empresariales.</titulo>
+              <url_pdf szBytes="153687" szKBytes="150" pagina_inicial="110605" pagina_final="110605">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34693.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34693</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34693</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34694</identificador>
+              <titulo>Anuncio de Universidad del País Vasco/EHU sobre extravío de título de Licenciada en Publicidad y Relaciones Públicas.</titulo>
+              <url_pdf szBytes="155767" szKBytes="152" pagina_inicial="110606" pagina_final="110606">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34694.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34694</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34694</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34695</identificador>
+              <titulo>Anuncio de la Universidad Autónoma de Madrid sobre extravío de título de Licenciado en Geografía.</titulo>
+              <url_pdf szBytes="154349" szKBytes="151" pagina_inicial="110607" pagina_final="110607">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34695.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34695</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34695</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2010-34696</identificador>
+              <titulo>Anuncio de la Universidad de Sevilla sobre extravío de título de Licenciado en Farmacia.</titulo>
+              <url_pdf szBytes="153720" szKBytes="150" pagina_inicial="110608" pagina_final="110608">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-B-2010-34696.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2010-34696</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2010-34696</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="T" nombre="T.C. Suplemento del Tribunal Constitucional">
+          <departamento codigo="1410" nombre="TRIBUNAL CONSTITUCIONAL">
+            <epigrafe nombre="Sentencias">
+              <item>
+                <identificador>BOE-A-2010-15595</identificador>
+                <control>2010/15208</control>
+                <titulo>Pleno. Sentencia 46/2010, de 8 de septiembre de 2010. Recurso de inconstitucionalidad 9491-2006. Interpuesto por el Consejo de Gobierno de la Diputación General de Aragón en relación con la disposición adicional decimotercera de la Ley Orgánica 6/2006, de 19 de julio, de reforma del Estatuto de Autonomía de Cataluña. Competencias sobre archivos de titularidad estatal: validez de la norma estatutaria que integra en el sistema de archivos de Cataluña los fondos propios de Cataluña situados en el Archivo de la Corona de Aragón y en el Archivo Real de Barcelona (STC 31/2010). Voto particular.</titulo>
+                <url_pdf szBytes="290248" szKBytes="283" pagina_inicial="1" pagina_final="15">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15595.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15595</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15595</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15596</identificador>
+                <control>2010/15209</control>
+                <titulo>Pleno. Sentencia 47/2010, de 8 de septiembre de 2010. Recurso de inconstitucionalidad 9568-2006. Interpuesto por el Consejo de Gobierno de la Comunidad Autónoma de las Illes Balears en relación con la disposición adicional decimotercera de la Ley Orgánica 6/2006, de 19 de julio, de reforma del Estatuto de Autonomía de Cataluña. Competencias sobre archivos de titularidad estatal: validez de la norma estatutaria que integra en el sistema de archivos de Cataluña los fondos propios de Cataluña situados en el Archivo de la Corona de Aragón y en el Archivo Real de Barcelona (STC 31/2010). Voto particular.</titulo>
+                <url_pdf szBytes="292896" szKBytes="286" pagina_inicial="16" pagina_final="30">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15596.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15596</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15596</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15597</identificador>
+                <control>2010/15210</control>
+                <titulo>Pleno. Sentencia 48/2010, de 9 de septiembre de 2010. Recurso de inconstitucionalidad 9501-2006. Interpuesto por la Generalitat de la Comunidad Valenciana en relación con diversos preceptos de la Ley Orgánica 6/2006, de 19 de julio, de reforma del Estatuto de Autonomía de Cataluña. Competencias en materia de aguas y archivos de titularidad estatal; financiación autonómica: validez de las disposiciones estatutarias que contemplan un informe autonómico previo al trasvase entre cuencas hidrográficas cuando afecte a los recursos hídricos de su ámbito territorial, integran en el sistema de archivos de Cataluña los fondos propios de Cataluña situados en el Archivo de la Corona de Aragón y en el Archivo Real de Barcelona, así como de aquellas que enuncian potestades autonómicas de gestión tributaria; interpretación de preceptos legales (STC 31/2010); inadmisión de la impugnación de los preceptos no mencionados en el acuerdo adoptado por el órgano colegiado de gobierno autonómico legitimado para la promoción del recurso de inconstitucionalidad. Votos particulares.</titulo>
+                <url_pdf szBytes="263480" szKBytes="257" pagina_inicial="31" pagina_final="43">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15597.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15597</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15597</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2010-15598</identificador>
+                <control>2010/15211</control>
+                <titulo>Corrección de errores en la Sentencia 31/2010, de 28 de junio de 2010, del Tribunal Constitucional, publicada en el suplemento al "Boletín Oficial del Estado" n.º 172, de 16 de julio de 2010.</titulo>
+                <url_pdf szBytes="157619" szKBytes="154" pagina_inicial="44" pagina_final="44">https://www.boe.es/boe/dias/2010/10/11/pdfs/BOE-A-2010-15598.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15598</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2010-15598</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

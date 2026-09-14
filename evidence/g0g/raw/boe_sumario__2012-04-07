@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20120407</fecha_publicacion>
+      </metadatos>
+      <diario numero="84">
+        <sumario_diario>
+          <identificador>BOE-S-2012-84</identificador>
+          <url_pdf szBytes="275476" szKBytes="269">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-S-2012-84.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <epigrafe nombre="Presupuestos">
+              <item>
+                <identificador>BOE-A-2012-4766</identificador>
+                <control>2012/3951</control>
+                <titulo>Ley 1/1985, de 15 de febrero, por la que se aprueba el Presupuesto del Organismo Autónomo Administrativo "Helduen Alfaetatza eta Berreuskalduntzerako Erakundea eta Euskaltegiak Araupetzea-Instituto de Alfabetización y Reuskaldunización de Adultos y Regulación de Euskaltegis (H.A.B.E.E.A).</titulo>
+                <url_pdf szBytes="8840630" szKBytes="8633" pagina_inicial="28126" pagina_final="28164">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4766.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4766</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4766</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Presupuestos. Financiación">
+              <item>
+                <identificador>BOE-A-2012-4767</identificador>
+                <control>2012/3952</control>
+                <titulo>Ley 2/1985, de 15 de febrero, por la que se aprueban las aportaciones de las Diputaciones Forales a los gastos presupuestarios de la Comunidad Autónoma.</titulo>
+                <url_pdf szBytes="4243859" szKBytes="4144" pagina_inicial="28165" pagina_final="28213">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4767.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4767</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4767</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Ararteko">
+              <item>
+                <identificador>BOE-A-2012-4768</identificador>
+                <control>2012/3953</control>
+                <titulo>Ley 3/1985, de 27 de febrero, por la que se crea y regula la Institución del "Ararteko".</titulo>
+                <url_pdf szBytes="248984" szKBytes="243" pagina_inicial="28214" pagina_final="28226">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4768.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4768</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4768</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Presupuestos">
+              <item>
+                <identificador>BOE-A-2012-4769</identificador>
+                <control>2012/3954</control>
+                <titulo>Ley 4/1985, de 28 de mayo, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para 1985.</titulo>
+                <url_pdf szBytes="741684" szKBytes="724" pagina_inicial="28227" pagina_final="28268">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4769.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4769</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4769</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Estatuto del consumidor">
+              <item>
+                <identificador>BOE-A-2012-4770</identificador>
+                <control>2012/3955</control>
+                <titulo>Ley 5/1985, de 13 de junio, por la que se modifica el artículo 22 de la Ley del Estatuto del Consumidor.</titulo>
+                <url_pdf szBytes="135360" szKBytes="132" pagina_inicial="28269" pagina_final="28269">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4770.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4770</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4770</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Universidades. Consejo Social">
+              <item>
+                <identificador>BOE-A-2012-4771</identificador>
+                <control>2012/3956</control>
+                <titulo>Ley 6/1985, de 27 de junio, por la que se crea y regula el Consejo Social de la Universidad del País Vasco/Euskal Herriko Unibertsitatea.</titulo>
+                <url_pdf szBytes="160507" szKBytes="157" pagina_inicial="28270" pagina_final="28273">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4771.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4771</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4771</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Presupuestos. Financiación">
+              <item>
+                <identificador>BOE-A-2012-4772</identificador>
+                <control>2012/3957</control>
+                <titulo>Ley 7/1985, de 26 de septiembre, por la que se aprueba la metodología aplicable a los ejercicios 1986, 1987 y 1988 de determinación de las aportaciones de los Territorios Históricos a la financiación de los Presupuestos de la Comunidad Autónoma del País Vasco y se fijan para el mismo período los coeficientes de aportación de las Diputaciones Forales a los gastos presupuestarios de la Comunidad Autónoma del País Vasco.</titulo>
+                <url_pdf szBytes="211093" szKBytes="206" pagina_inicial="28274" pagina_final="28280">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4772.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4772</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4772</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Personal al servicio de las Administraciones Públicas">
+              <item>
+                <identificador>BOE-A-2012-4773</identificador>
+                <control>2012/3958</control>
+                <titulo>Ley 8/1985, de 23 de octubre, por la que se complementa la Ley 11/1983, de 22 de junio, sobre derechos profesionales y pasivos del personal que prestó sus servicios a la Administración Autónoma del País Vasco.</titulo>
+                <url_pdf szBytes="212888" szKBytes="208" pagina_inicial="28281" pagina_final="28287">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4773.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4773</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4773</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2012-4774</identificador>
+                <control>2012/3960</control>
+                <titulo>Ley 9/1985, de 4 de diciembre, por la que se regula el Consejo Asesor de R.T.V.E. en el País Vasco o R.T.V.E.-ren Euskadiko Aholku-Batzordea.</titulo>
+                <url_pdf szBytes="162707" szKBytes="159" pagina_inicial="28288" pagina_final="28291">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4774.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4774</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4774</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Presupuestos">
+              <item>
+                <identificador>BOE-A-2012-4775</identificador>
+                <control>2012/3959</control>
+                <titulo>Ley 10/1985, de 2 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para 1986.</titulo>
+                <url_pdf szBytes="607136" szKBytes="593" pagina_inicial="28292" pagina_final="28325">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4775.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4775</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4775</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4776</identificador>
+                <control>2012/3963</control>
+                <titulo>Corrección de errores de la Ley 4/1985, de 28 de mayo, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para 1985.</titulo>
+                <url_pdf szBytes="178945" szKBytes="175" pagina_inicial="28326" pagina_final="28330">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4776.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4776</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4776</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Presupuestos. Financiación">
+              <item>
+                <identificador>BOE-A-2012-4777</identificador>
+                <control>2012/3964</control>
+                <titulo>Corrección de errores de la Ley 7/1985, de 26 de septiembre, por la que se aprueba la metodología aplicable a los ejercicios 1986, 1987 y 1988 de determinación de las aportaciones de los Territorios Históricos a la financiación de los Presupuestos de la Comunidad Autónoma del País Vasco y se fijan para el mismo periodo los coeficientes de aportación de las Diputaciones Forales a los gastos presupuestarios de la Comunidad Autónoma del País Vasco.</titulo>
+                <url_pdf szBytes="157541" szKBytes="154" pagina_inicial="28331" pagina_final="28331">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4777.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4777</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4777</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4778</identificador>
+                <control>2012/3965</control>
+                <titulo>Corrección de errores de la Ley 7/1985, de 26 de septiembre, por la que se aprueba la metodología aplicable a los ejercicios 1986, 1987 y 1988 de la determinación de las aportaciones de los Territorios Históricos a la financiación de los Presupuestos de la Comunidad Autónoma del País Vasco y se fijan para el mismo período los coeficientes de aportación de las Diputaciones Forales a los gastos presupuestarios de la Comunidad Autónoma del País Vasco.</titulo>
+                <url_pdf szBytes="240099" szKBytes="234" pagina_inicial="28332" pagina_final="28337">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4778.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4778</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4778</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Presupuestos">
+              <item>
+                <identificador>BOE-A-2012-4779</identificador>
+                <control>2012/3966</control>
+                <titulo>Corrección de errores de la Ley 10/1985, de 2 de diciembre, por la que se aprueban los Presupuestos Generales de la Comunidad Autónoma de Euskadi para 1986.</titulo>
+                <url_pdf szBytes="157502" szKBytes="154" pagina_inicial="28338" pagina_final="28339">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4779.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4779</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4779</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4780</identificador>
+                <control>2012/3950</control>
+                <titulo>Ley 5/1984, de 28 de diciembre, por la que se regulan determinadas materias en relación con la ampliación de la vigencia durante 1985 de la Ley de Presupuestos Generales de la Comunidad Autónoma de Euskadi para 1984.</titulo>
+                <url_pdf szBytes="200967" szKBytes="196" pagina_inicial="28340" pagina_final="28348">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4780.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4780</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4780</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4781</identificador>
+                <control>2012/3961</control>
+                <titulo>Corrección de errores de la Ley 5/1984, de 28 de diciembre, por la que se regulan determinadas materias en relación con la ampliación de la vigencia durante 1985 de la Ley de Presupuestos Generales de la Comunidad Autónoma de Euskadi para 1984.</titulo>
+                <url_pdf szBytes="137034" szKBytes="134" pagina_inicial="28349" pagina_final="28349">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4781.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4781</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4781</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4782</identificador>
+                <control>2012/3962</control>
+                <titulo>Corrección de errores de la Ley 5/1984, de 28 de diciembre, por la que se regulan determinadas materias en relación con la ampliación de la vigencia durante 1985 de la Ley de Presupuestos Generales de la Comunidad Autónoma de Euskadi para 1984.</titulo>
+                <url_pdf szBytes="169686" szKBytes="166" pagina_inicial="28350" pagina_final="28352">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4782.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4782</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4782</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Procedimientos administrativos. Gestión informatizada">
+              <item>
+                <identificador>BOE-A-2012-4783</identificador>
+                <control>2012/4535</control>
+                <titulo>Resolución de 21 de febrero de 2012, de la Universidad Rey Juan Carlos, por la que se publica el Reglamento de organización y funcionamiento del registro de la Universidad y de creación y regulación del registro electrónico de la Universidad.</titulo>
+                <url_pdf szBytes="212216" szKBytes="207" pagina_inicial="28353" pagina_final="28362">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4783.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4783</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4783</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Servicios públicos. Acceso electrónico">
+              <item>
+                <identificador>BOE-A-2012-4784</identificador>
+                <control>2012/4536</control>
+                <titulo>Resolución de 21 de febrero de 2012, de la Universidad Rey Juan Carlos, por la que se publica el Reglamento por el que se crea la sede electrónica de la Universidad.</titulo>
+                <url_pdf szBytes="226378" szKBytes="221" pagina_inicial="28363" pagina_final="28371">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4784.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4784</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4784</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4785</identificador>
+                <control>2012/4537</control>
+                <titulo>Resolución de 14 de marzo de 2012, de la Universidad Nacional de Educación a Distancia, por la que se publica el Reglamento por el que se crea la sede electrónica de la Universidad.</titulo>
+                <url_pdf szBytes="178873" szKBytes="175" pagina_inicial="28372" pagina_final="28377">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4785.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4785</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4785</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2012-4786</identificador>
+                <control>2012/4624</control>
+                <titulo>Acuerdo de 21 de marzo de 2012, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara en la situación administrativa de excedencia voluntaria en la Carrera Judicial para el cuidado de un familiar a don Luis Cáceres Ruiz.</titulo>
+                <url_pdf szBytes="131769" szKBytes="129" pagina_inicial="28378" pagina_final="28378">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4786.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4786</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4786</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4787</identificador>
+                <control>2012/4794</control>
+                <titulo>Acuerdo de 2 de abril de 2012, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara en la situación administrativa de excedencia voluntaria en la Carrera Judicial a la Magistrada doña María José Alonso Más.</titulo>
+                <url_pdf szBytes="132453" szKBytes="129" pagina_inicial="28379" pagina_final="28379">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4787.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4787</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4787</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9531" nombre="COMUNIDAD DE CASTILLA Y LEÓN">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2012-4788</identificador>
+                <control>2012/4710</control>
+                <titulo>Resolución de 27 de marzo de 2012, de la Presidencia de las Cortes de Castilla y León, por la que se acredita el nombramiento de don Javier Amoedo Conde como Procurador del Común de Castilla y León.</titulo>
+                <url_pdf szBytes="129764" szKBytes="127" pagina_inicial="28380" pagina_final="28380">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4788.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4788</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4788</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2012-4789</identificador>
+                <control>2012/4636</control>
+                <titulo>Resolución de 26 de marzo de 2012, de la Universidad de Granada, por la que se nombra Catedrático de Universidad a don José María Becerra Hiraldo.</titulo>
+                <url_pdf szBytes="134044" szKBytes="131" pagina_inicial="28381" pagina_final="28381">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4789.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4789</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4789</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4790</identificador>
+                <control>2012/4637</control>
+                <titulo>Resolución de 26 de marzo de 2012, de la Universidad de Granada, por la que se nombra Catedrático de Universidad a don Juan Miguel Medina Rodríguez.</titulo>
+                <url_pdf szBytes="133717" szKBytes="131" pagina_inicial="28382" pagina_final="28382">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4790.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4790</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4790</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4791</identificador>
+                <control>2012/4638</control>
+                <titulo>Resolución de 26 de marzo de 2012, de la Universidad de Granada, por la que se nombra Profesor Titular de Universidad a don Carlos Antonio Albacete Sáez.</titulo>
+                <url_pdf szBytes="133195" szKBytes="130" pagina_inicial="28383" pagina_final="28383">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4791.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4791</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4791</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4792</identificador>
+                <control>2012/4639</control>
+                <titulo>Resolución de 26 de marzo de 2012, de la Universidad de Granada, por la que se nombra Profesora Titular de Universidad a doña Teresa María García Muñoz.</titulo>
+                <url_pdf szBytes="133566" szKBytes="130" pagina_inicial="28384" pagina_final="28384">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4792.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4792</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4792</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Cuerpo Militar de Sanidad">
+              <item>
+                <identificador>BOE-A-2012-4793</identificador>
+                <control>2012/4712</control>
+                <titulo>Orden DEF/689/2012, de 30 de marzo, por la que se aprueban las Normas por las que han de regirse los procesos de selección para el ingreso en los centros docentes militares de formación para acceder a la escala de oficiales del Cuerpo Militar de Sanidad, especialidad fundamental Medicina, sin exigencia de titulación universitaria previa.</titulo>
+                <url_pdf szBytes="258168" szKBytes="252" pagina_inicial="28385" pagina_final="28396">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4793.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4793</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4793</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario">
+              <item>
+                <identificador>BOE-A-2012-4794</identificador>
+                <control>2012/4647</control>
+                <titulo>Resolución de 22 de marzo de 2012, del Ayuntamiento de Algemesí (Valencia), referente a la convocatoria para proveer puesto de trabajo por el sistema de concurso.</titulo>
+                <url_pdf szBytes="130860" szKBytes="128" pagina_inicial="28397" pagina_final="28397">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4794.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4794</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4794</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2012-4795</identificador>
+                <control>2012/4644</control>
+                <titulo>Resolución de 21 de marzo de 2012, del Ayuntamiento de Baiona (Pontevedra), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="131241" szKBytes="128" pagina_inicial="28398" pagina_final="28398">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4795.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4795</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4795</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4796</identificador>
+                <control>2012/4645</control>
+                <titulo>Resolución de 21 de marzo de 2012, del Ayuntamiento de El Carpio (Córdoba), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="130799" szKBytes="128" pagina_inicial="28399" pagina_final="28399">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4796.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4796</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4796</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4797</identificador>
+                <control>2012/4646</control>
+                <titulo>Resolución de 21 de marzo de 2012, del Ayuntamiento de El Carpio (Córdoba), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="130555" szKBytes="127" pagina_inicial="28400" pagina_final="28400">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4797.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4797</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4797</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Tesoro y Presupuestos. Resúmenes">
+              <item>
+                <identificador>BOE-A-2012-4798</identificador>
+                <control>2012/4570</control>
+                <titulo>Resolución de 28 de marzo de 2012, de la Intervención General de la Administración del Estado, por la que se publican las "Operaciones de ejecución del Presupuesto del Estado y de sus modificaciones y operaciones de Tesorería" del mes de febrero de 2012.</titulo>
+                <url_pdf szBytes="520541" szKBytes="508" pagina_inicial="28401" pagina_final="28433">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4798.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4798</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4798</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Convenios colectivos de trabajo">
+              <item>
+                <identificador>BOE-A-2012-4799</identificador>
+                <control>2012/4574</control>
+                <titulo>Resolución de 23 de marzo de 2012, de la Dirección General de Empleo, por la que se registra y publica el Convenio colectivo de Enercon Windenergy Spain, SL.</titulo>
+                <url_pdf szBytes="359836" szKBytes="351" pagina_inicial="28434" pagina_final="28452">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4799.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4799</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4799</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4800</identificador>
+                <control>2012/4575</control>
+                <titulo>Resolución de 23 de marzo de 2012, de la Dirección General de Empleo, por la que se registra y publica el Convenio colectivo de F. Faiges, SL.</titulo>
+                <url_pdf szBytes="220261" szKBytes="215" pagina_inicial="28453" pagina_final="28459">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4800.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4800</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4800</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4801</identificador>
+                <control>2012/4576</control>
+                <titulo>Resolución de 23 de marzo de 2012, de la Dirección General de Empleo, por la que se registra y publica el Convenio colectivo de Fidelis Servicios Integrales, SL.</titulo>
+                <url_pdf szBytes="467226" szKBytes="456" pagina_inicial="28460" pagina_final="28483">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4801.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4801</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4801</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4802</identificador>
+                <control>2012/4577</control>
+                <titulo>Resolución de 23 de marzo de 2012, de la Dirección General de Empleo, por la que se registra y publica la revisión salarial del Convenio colectivo de Distribuidora Internacional de Alimentación, SA y Twins Alimentación, SA.</titulo>
+                <url_pdf szBytes="206049" szKBytes="201" pagina_inicial="28484" pagina_final="28486">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4802.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4802</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4802</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7710" nombre="MINISTERIO DE LA PRESIDENCIA">
+            <epigrafe nombre="Premios">
+              <item>
+                <identificador>BOE-A-2012-4803</identificador>
+                <control>2012/4735</control>
+                <titulo>Resolución de 21 de marzo de 2012, del Centro de Investigaciones Sociológicas, por la que se convoca para el año 2012 el "Premio Nacional de Sociología y Ciencia Política".</titulo>
+                <url_pdf szBytes="141367" szKBytes="138" pagina_inicial="28487" pagina_final="28488">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4803.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4803</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4803</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Datos de carácter personal">
+              <item>
+                <identificador>BOE-A-2012-4804</identificador>
+                <control>2012/4586</control>
+                <titulo>Circular 3/2012, de 28 de marzo, del Banco de España, por la que se crean, modifican y suprimen ficheros de datos de carácter personal gestionados por el Banco de España.</titulo>
+                <url_pdf szBytes="301371" szKBytes="294" pagina_inicial="28489" pagina_final="28505">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4804.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4804</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4804</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Planes de estudios">
+              <item>
+                <identificador>BOE-A-2012-4805</identificador>
+                <control>2012/4520</control>
+                <titulo>Resolución de 14 de marzo de 2012, de la Universidad de León, por la que se publica el plan de estudios de Máster en Dirección Estratégica de Empresas Familiares.</titulo>
+                <url_pdf szBytes="172486" szKBytes="168" pagina_inicial="28506" pagina_final="28507">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4805.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4805</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4805</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4806</identificador>
+                <control>2012/4521</control>
+                <titulo>Resolución de 14 de marzo de 2012, de la Universidad de León, por la que se publica el plan de estudios de Máster en Investigación en Cibernética.</titulo>
+                <url_pdf szBytes="172613" szKBytes="169" pagina_inicial="28508" pagina_final="28509">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4806.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4806</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4806</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4807</identificador>
+                <control>2012/4522</control>
+                <titulo>Resolución de 14 de marzo de 2012, de la Universidad de León, por la que se publica el plan de estudios de Máster en Investigación en Medicina.</titulo>
+                <url_pdf szBytes="170237" szKBytes="166" pagina_inicial="28510" pagina_final="28511">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4807.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4807</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4807</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-4808</identificador>
+                <control>2012/4523</control>
+                <titulo>Resolución de 19 de marzo de 2012, de la Universidad de Las Palmas de Gran Canaria, por la que se publica el plan de estudios de Máster en Arqueología.</titulo>
+                <url_pdf szBytes="207766" szKBytes="203" pagina_inicial="28512" pagina_final="28514">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-A-2012-4808.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-4808</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-4808</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2012-11381</identificador>
+              <titulo>ALMERÍA</titulo>
+              <url_pdf szBytes="154814" szKBytes="151" pagina_inicial="15332" pagina_final="15332">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11381.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11381</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11381</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11382</identificador>
+              <titulo>HUESCA</titulo>
+              <url_pdf szBytes="157110" szKBytes="153" pagina_inicial="15333" pagina_final="15333">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11382.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11382</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11382</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11383</identificador>
+              <titulo>MASSAMAGRELL</titulo>
+              <url_pdf szBytes="157087" szKBytes="153" pagina_inicial="15334" pagina_final="15334">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11383.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11383</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11383</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2012-11384</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="158157" szKBytes="154" pagina_inicial="15335" pagina_final="15335">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11384.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11384</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11384</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11385</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="158039" szKBytes="154" pagina_inicial="15336" pagina_final="15336">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11385.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11385</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11385</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11386</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="158297" szKBytes="155" pagina_inicial="15337" pagina_final="15337">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11386.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11386</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11386</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11387</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="155712" szKBytes="152" pagina_inicial="15338" pagina_final="15338">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11387.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11387</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11387</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11388</identificador>
+              <titulo>BADAJOZ</titulo>
+              <url_pdf szBytes="155877" szKBytes="152" pagina_inicial="15339" pagina_final="15339">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11388.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11388</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11388</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11389</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="158245" szKBytes="155" pagina_inicial="15340" pagina_final="15340">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11389.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11389</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11389</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11390</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="157725" szKBytes="154" pagina_inicial="15341" pagina_final="15341">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11390.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11390</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11390</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11391</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="154603" szKBytes="151" pagina_inicial="15342" pagina_final="15342">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11391.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11391</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11391</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11392</identificador>
+              <titulo>CASTELLÓN DE LA PLANA</titulo>
+              <url_pdf szBytes="156594" szKBytes="153" pagina_inicial="15343" pagina_final="15343">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11392.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11392</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11392</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11393</identificador>
+              <titulo>GIJÓN</titulo>
+              <url_pdf szBytes="154840" szKBytes="151" pagina_inicial="15344" pagina_final="15344">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11393.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11393</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11393</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11394</identificador>
+              <titulo>GIRONA</titulo>
+              <url_pdf szBytes="155227" szKBytes="152" pagina_inicial="15345" pagina_final="15345">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11394.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11394</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11394</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11395</identificador>
+              <titulo>LOGROÑO</titulo>
+              <url_pdf szBytes="156863" szKBytes="153" pagina_inicial="15346" pagina_final="15346">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11395.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11395</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11395</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11396</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="157098" szKBytes="153" pagina_inicial="15347" pagina_final="15347">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11396.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11396</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11396</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11397</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="155285" szKBytes="152" pagina_inicial="15348" pagina_final="15348">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11397.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11397</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11397</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11398</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="157001" szKBytes="153" pagina_inicial="15349" pagina_final="15349">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11398.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11398</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11398</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11399</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="155113" szKBytes="151" pagina_inicial="15350" pagina_final="15350">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11399.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11399</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11399</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11400</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="155431" szKBytes="152" pagina_inicial="15351" pagina_final="15351">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11400.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11400</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11400</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11401</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="154741" szKBytes="151" pagina_inicial="15352" pagina_final="15352">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11401.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11401</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11401</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11402</identificador>
+              <titulo>OVIEDO</titulo>
+              <url_pdf szBytes="156768" szKBytes="153" pagina_inicial="15353" pagina_final="15353">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11402.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11402</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11402</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11403</identificador>
+              <titulo>PALMA DE MALLORCA</titulo>
+              <url_pdf szBytes="159716" szKBytes="156" pagina_inicial="15354" pagina_final="15354">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11403.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11403</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11403</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11404</identificador>
+              <titulo>PAMPLONA</titulo>
+              <url_pdf szBytes="156110" szKBytes="152" pagina_inicial="15355" pagina_final="15355">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11404.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11404</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11404</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11405</identificador>
+              <titulo>PAMPLONA</titulo>
+              <url_pdf szBytes="157045" szKBytes="153" pagina_inicial="15356" pagina_final="15356">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11405.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11405</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11405</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11406</identificador>
+              <titulo>PONTEVEDRA</titulo>
+              <url_pdf szBytes="157609" szKBytes="154" pagina_inicial="15357" pagina_final="15357">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11406.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11406</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11406</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11407</identificador>
+              <titulo>SAN SEBASTIÁN</titulo>
+              <url_pdf szBytes="157724" szKBytes="154" pagina_inicial="15358" pagina_final="15358">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11407.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11407</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11407</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11408</identificador>
+              <titulo>TOLEDO</titulo>
+              <url_pdf szBytes="156766" szKBytes="153" pagina_inicial="15359" pagina_final="15359">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11408.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11408</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11408</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11409</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="155049" szKBytes="151" pagina_inicial="15360" pagina_final="15360">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11409.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11409</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11409</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11410</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="157527" szKBytes="154" pagina_inicial="15361" pagina_final="15361">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11410.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11410</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11410</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11411</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="157859" szKBytes="154" pagina_inicial="15362" pagina_final="15362">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11411.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11411</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11411</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11412</identificador>
+              <titulo>VALLADOLID</titulo>
+              <url_pdf szBytes="158381" szKBytes="155" pagina_inicial="15363" pagina_final="15363">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11412.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11412</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11412</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11413</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="155703" szKBytes="152" pagina_inicial="15364" pagina_final="15364">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11413.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11413</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11413</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11414</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="153991" szKBytes="150" pagina_inicial="15365" pagina_final="15365">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11414.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11414</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11414</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11415</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="155479" szKBytes="152" pagina_inicial="15366" pagina_final="15366">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11415.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11415</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11415</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9548" nombre="JUZGADOS DE LO SOCIAL">
+            <item>
+              <identificador>BOE-B-2012-11416</identificador>
+              <titulo>MÁLAGA</titulo>
+              <url_pdf szBytes="163800" szKBytes="160" pagina_inicial="15367" pagina_final="15368">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11416.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11416</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11416</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9549" nombre="TRIBUNALES MILITARES TERRITORIALES">
+            <item>
+              <identificador>BOE-B-2012-11417</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="154555" szKBytes="151" pagina_inicial="15369" pagina_final="15369">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11417.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11417</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11417</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Anuncios de licitaciones públicas y adjudicaciones">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2012-11418</identificador>
+              <titulo>Resolución del Órgano de Contratación de la Base Aérea de Alcantarilla por la que se anuncia licitación de Gestión del Centro de educación infantil.</titulo>
+              <url_pdf szBytes="170223" szKBytes="166" pagina_inicial="15370" pagina_final="15371">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11418.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11418</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11418</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11419</identificador>
+              <titulo>Anuncio de licitación de: Jefatura de la Sección de Asuntos Económicos de la Unidad Militar de Emergencias. Objeto: Mantenimiento integral de infraestructuras de la UME en la Base Aérea de Zaragoza. Expediente: 10021/12/90 (340/12).</titulo>
+              <url_pdf szBytes="175308" szKBytes="171" pagina_inicial="15372" pagina_final="15373">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11419.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11419</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11419</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2012-11420</identificador>
+              <titulo>Anuncio de formalización de contratos de la Dirección del Instituto de Estudios Fiscales. Objeto: Servicio de cafetería y restaurante-autoservicio así como la instalación y explotación de máquinas expendedoras de bebidas y alimentos en las dependencias del Instituto de Estudios Fiscales, situadas en la Avda. del Cardenal Herrera Oria, 378, de Madrid. Expediente: 182/2011.</titulo>
+              <url_pdf szBytes="166931" szKBytes="163" pagina_inicial="15374" pagina_final="15374">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11420.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11420</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11420</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11421</identificador>
+              <titulo>Anuncio de licitación de: Junta de Contratación del Ministerio de Economía y Hacienda. Objeto: Desarrollo y mantenimiento evolutivo de aplicaciones en el entorno tecnológico de la Subsecretaría. Expediente: 93/11/01.</titulo>
+              <url_pdf szBytes="176249" szKBytes="172" pagina_inicial="15375" pagina_final="15376">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11421.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11421</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11421</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11422</identificador>
+              <titulo>Anuncio de licitación de: Junta de Contratación del Ministerio de Economía y Hacienda. Objeto: Redacción del nuevo proyecto básico y de ejecución de las obras para la construcción de un edificio para la sede de la Delegación Provincial en Murcia del Instituto Nacional de Estadística, en Plaza Camilo José Cela, mediante modificación del proyecto existente. Expediente: 69/11/01.</titulo>
+              <url_pdf szBytes="176732" szKBytes="173" pagina_inicial="15377" pagina_final="15378">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11422.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11422</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11422</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2012-11423</identificador>
+              <titulo>Anuncio de la Comisión Nacional del Sector Postal por el que se corrigen errores de la publicación de la licitación del concurso Auditoria de las Cuentas Analíticas de la Sociedad Estatal Correos Y Telégrafos, S.A., correspondientes al Ejercicio 2010, y Determinación del Coste Neto del Servicio Postal Universal.</titulo>
+              <url_pdf szBytes="160215" szKBytes="156" pagina_inicial="15379" pagina_final="15379">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11423.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11423</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11423</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11424</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de Carreteras. Objeto: Contrato de servicios para la ejecución de diversas operaciones de conservación y explotación en la N-430 convencional, de Badajoz a Valencia por Almansa, desde el punto kilométrico 84,000 (conexión con la autovía A-5), hasta el punto kilométrico 203,400 (L.P. con Ciudad Real), y sus tramos residuales; N-430a convencional, de Badajoz a Valencia por Almansa, desde el enlace de García de Sola punto kilométrico 167,000 de la N-430 hasta el embalse de García de Sola, 850 metros; N-430a convencional, de Badajoz a Valencia por Almansa, entre el punto kilométrico 182,600 de la N-430 (enlace de Garbayuela) y el punto kilométrico 194,300 (Intersección de la N-430a y la N-502) y N-502 convencional, de Ávila a Córdoba, entre el punto kilométrico 189,940 (límite provincial Toledo/Cáceres) y el punto kilométrico 244,000 (enlace con la N-430), y entre el punto kilométrico 262,500 y el punto kilométrico 264,030 (límite provincial Badajoz/Ciudad Real), y sus tramos residuales. Provincia de Badajoz. El Contrato podría ser financiado con Fondos FEDER. Expediente: 30.101/11-2; 51-BA-0104.</titulo>
+              <url_pdf szBytes="173598" szKBytes="170" pagina_inicial="15380" pagina_final="15381">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11424.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11424</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11424</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11425</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de Carreteras. Objeto: Contrato de servicios para la ejecución de diversas operaciones de conservación y explotación en las carreteras: N-320 Tramo L.P.Cuenca, L.P. Madrid, N-320a, N-204 Tramo Sacedón-Enlace A-2. Provincia de Guadalajara. El contrato podría ser financiado con fondos FEDER. Expediente: 30.20/11-2; 51-GU-0203.</titulo>
+              <url_pdf szBytes="168079" szKBytes="164" pagina_inicial="15382" pagina_final="15382">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11425.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11425</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11425</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11426</identificador>
+              <titulo>Acuerdo del Consejo de Administración de la Autoridad Portuaria de Las Palmas, de 8 de marzo de 2012, por el que se ordena la contratación del "Suministro de prendas de uso profesional para las ocupaciones de Responsable Policía Portuaria, Jefe de Servicio Policía Portuaria, Jefe de Equipo Policía Portuaria, Policía Portuaria y Técnicos de Operaciones y Servicios de la Autoridad Portuaria de Las Palmas". Número de expediente: G-2012/04.</titulo>
+              <url_pdf szBytes="178059" szKBytes="174" pagina_inicial="15383" pagina_final="15384">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11426.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11426</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11426</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2012-11427</identificador>
+              <titulo>Resolución de la Junta de Contratación del suprimido Ministerio de Cultura por la que se hace pública la formalización del contrato del procedimiento abierto para el servicio de control, accesos, vigilancia y seguridad en diversos edificios dependientes de la Dirección General de Bellas Artes y Bienes Culturales (110124-J).</titulo>
+              <url_pdf szBytes="166657" szKBytes="163" pagina_inicial="15385" pagina_final="15385">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11427.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11427</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11427</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2012-11428</identificador>
+              <titulo>Acuerdo de la Dirección General de Desarrollo Rural y Política Forestal de renuncia a la celebración del contrato para el servicio en materia de coordinación de seguridad y salud en obras de infraestructuras rurales.</titulo>
+              <url_pdf szBytes="159201" szKBytes="155" pagina_inicial="15386" pagina_final="15386">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11428.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11428</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11428</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <item>
+              <identificador>BOE-B-2012-11429</identificador>
+              <titulo>Anuncio del Órgano de Contratación de la Agencia Estatal Consejo Superior de Investigaciones Científicas por la que se hace publica la formalización del contrato relativo a la adquisición de una colección de bonsáis destinados a complementar la colección del Real Jardín Botánico, de acuerdo con el convenio de colaboración empresarial entre la Caja de Ahorros y Monte de Piedad de Madrid y el Consejo.</titulo>
+              <url_pdf szBytes="166691" szKBytes="163" pagina_inicial="15387" pagina_final="15387">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11429.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11429</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11429</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11430</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección del Instituto Español de Oceanografía. Objeto: Suministro de un chigre electrohidráulico portable con cable umbilical de fibra óptica para operaciones con ROV Liropus 2000 (Super Mohawk II) en el B/O Cornide de Saavedra. Fondos FEDER. Expediente: 12/12.</titulo>
+              <url_pdf szBytes="168359" szKBytes="164" pagina_inicial="15388" pagina_final="15388">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11430.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11430</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11430</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <item>
+              <identificador>BOE-B-2012-11431</identificador>
+              <titulo>Resolución de la Dirección General del Instituto de Mayores y Servicios Sociales mediante la que se anuncia la convocatoria del Procedimiento Abierto n.º 02/12 para la contratación de la Suscripción de la Póliza de Seguros Colectiva para los usuarios de plazas del Programa de Termalismo Social del Instituto de Mayores y Servicios Sociales durante las temporadas 2012 y 2013.</titulo>
+              <url_pdf szBytes="177035" szKBytes="173" pagina_inicial="15389" pagina_final="15390">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11431.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11431</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11431</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <item>
+              <identificador>BOE-B-2012-11432</identificador>
+              <titulo>Anuncio del Hospital Universitario Cruces, del Ente Público Osakidetza-Servicio Vasco de Salud, por el que se hace pública la formalización del contrato administrativo correspondiente al expediente para suministro de "Equipos de cobertura quirúrgica".</titulo>
+              <url_pdf szBytes="166555" szKBytes="163" pagina_inicial="15391" pagina_final="15391">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11432.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11432</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11432</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11433</identificador>
+              <titulo>Anuncio del Hospital Universitario Cruces, del Ente Público Osakidetza-Servicio Vasco de Salud, por el que se hace pública la formalización del contrato administrativo del expediente de contratación para suministro de "Material desechable para cirugía hepática".</titulo>
+              <url_pdf szBytes="167528" szKBytes="164" pagina_inicial="15392" pagina_final="15392">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11433.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11433</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11433</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11434</identificador>
+              <titulo>Anuncio del Hospital Universitario Cruces, del Ente Público Osakidetza-Servicio Vasco de Salud, por el que se ha pública la formalización del contrato administrativo del expediente de contratación para suministro de "Implantes de columna vertebral".</titulo>
+              <url_pdf szBytes="166490" szKBytes="163" pagina_inicial="15393" pagina_final="15393">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11434.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11434</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11434</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11435</identificador>
+              <titulo>Anuncio del Hospital Universitario Cruces, del Ente Público Osakidetza-Servicio Vasco de Salud, por el que se hace pública la formalización del contrato administrativo del expediente de contratación para suministro de "Diverso material sanitario desechable".</titulo>
+              <url_pdf szBytes="170443" szKBytes="166" pagina_inicial="15394" pagina_final="15395">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11435.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11435</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11435</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11436</identificador>
+              <titulo>Anuncio del Hospital Universitario Cruces, del Ente Público Osakidetza-Servicio Vasco de Salud, por el que se hace pública la formalización del contrato administrativo del expediente de contratación para "Servicio de lavado, planchado, alquiler y costura de ropa".</titulo>
+              <url_pdf szBytes="166532" szKBytes="163" pagina_inicial="15396" pagina_final="15396">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11436.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11436</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11436</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11437</identificador>
+              <titulo>Anuncio del Hospital Universitario Cruces, del Ente Público Osakidetza-Servicio Vasco de Salud, por el que se hace pública la formalización del contrato administrativo del expediente de contratación para suministro de "Prótesis de cadera".</titulo>
+              <url_pdf szBytes="167448" szKBytes="164" pagina_inicial="15397" pagina_final="15397">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11437.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11437</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11437</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11438</identificador>
+              <titulo>Resolución del Hospital Universitario Cruces, del Ente Público Osakidetza-Servicio Vasco de Salud, por la que se anuncia procedimiento abierto para la contratación del suministro de "Material desechable para el Servicio de Neurocirugía".</titulo>
+              <url_pdf szBytes="175044" szKBytes="171" pagina_inicial="15398" pagina_final="15399">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11438.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11438</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11438</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11439</identificador>
+              <titulo>Resolución del Hospital Universitario Cruces, del Ente Público Osakidetza-Servicio Vasco de Salud, por la que se anuncia procedimiento abierto para la contratación del suministro de "Implantes de disco cervical anterior".</titulo>
+              <url_pdf szBytes="173373" szKBytes="169" pagina_inicial="15400" pagina_final="15401">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11439.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11439</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11439</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11440</identificador>
+              <titulo>Resolución del Hospital Universitario Cruces, del Ente Público Osakidetza-Servicio Vasco de Salud, por la que se anuncia procedimiento abierto para el suministro de "Equipamiento, mediante contrato privado con la Fundación Vasca de Innovación e Investigación Sanitarias / B+I+O Eusko Fundazioa, para la creación de una plataforma de genómica y metabolómica de alto rendimiento en el Hospital Universitario Cruces. Cofinanciado con fondos FEDER (IF10/03605).</titulo>
+              <url_pdf szBytes="176917" szKBytes="173" pagina_inicial="15402" pagina_final="15403">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11440.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11440</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11440</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11441</identificador>
+              <titulo>Resolución del Hospital Universitario Cruces, del Ente Público Osakidetza-Servicio Vasco de Salud, por la que se anuncia procedimiento abierto para la contratación del suministro de "Agujas para el Servicio de Radiología".</titulo>
+              <url_pdf szBytes="174108" szKBytes="170" pagina_inicial="15404" pagina_final="15405">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11441.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11441</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11441</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11442</identificador>
+              <titulo>Resolución del Hospital Universitario Cruces, del Ente Público Osakidetza-Servicio Vasco de Salud, por la que se anuncia procedimiento abierto para la contratación del suministro de "Diverso material sanitario".</titulo>
+              <url_pdf szBytes="173956" szKBytes="170" pagina_inicial="15406" pagina_final="15407">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11442.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11442</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11442</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2012-11443</identificador>
+              <titulo>Resolución del Consorci Sanitari de l'Alt Penedès por la licitación de un procedimiento abierto para el suministro de un equipo de Tomografía axial computerizada helicoidal con un mínimo de 16 cortes para el Hospital Comarcal de l'Alt Penedès, mediante arrendamiento con opción a compra.</titulo>
+              <url_pdf szBytes="167491" szKBytes="164" pagina_inicial="15408" pagina_final="15408">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11443.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11443</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11443</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8090" nombre="COMUNIDAD AUTÓNOMA DE GALICIA">
+            <item>
+              <identificador>BOE-B-2012-11444</identificador>
+              <titulo>Resolución del 23 de marzo de 2012, de la Secretaría Xeral Técnica de la Consellería de Cultura, Educación y Ordenación Universitaria, por la que se anuncia la licitación, mediante procedimiento abierto y tramitación ordinaria, para la adquisición de ordenadores portátiles para los centros de enseñanza no universitaria dependientes de la Consellería de Cultura, Educación y Ordenación Universitaria en el marco del Proyecto Abalar. Expte. SXSI 02/12.</titulo>
+              <url_pdf szBytes="178195" szKBytes="174" pagina_inicial="15409" pagina_final="15410">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11444.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11444</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11444</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <item>
+              <identificador>BOE-B-2012-11445</identificador>
+              <titulo>Anuncio de la Agencia de Obra Pública de la Junta de Andalucía de formalización de Contrato de Concesión para la construcción, conservación, mantenimiento y explotación de la Autovía A-334 del Almanzora, Tramo: Purchena – Autovía del Mediterráneo A-7.</titulo>
+              <url_pdf szBytes="163285" szKBytes="159" pagina_inicial="15411" pagina_final="15411">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11445.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11445</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11445</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8150" nombre="COMUNIDAD AUTÓNOMA DEL PRINCIPADO DE ASTURIAS">
+            <item>
+              <identificador>BOE-B-2012-11446</identificador>
+              <titulo>Anuncio de la Consejería de Economía y Empleo del Principado de Asturias de concurso público de derechos mineros de referencia C.P. 04/2011.</titulo>
+              <url_pdf szBytes="162184" szKBytes="158" pagina_inicial="15412" pagina_final="15412">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11446.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11446</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11446</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <item>
+              <identificador>BOE-B-2012-11447</identificador>
+              <titulo>Resolución de la Entidad Pública de Saneamiento de Aguas Residuales de la Comunidad Valenciana, por la que se anuncia la licitación del contrato de "Servicio de funcionamiento y mantenimiento del sistema de saneamiento y depuración de aguas residuales de l'Horta nord-cuenca del Carraixet (Valencia)".</titulo>
+              <url_pdf szBytes="175763" szKBytes="172" pagina_inicial="15413" pagina_final="15414">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11447.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11447</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11447</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11448</identificador>
+              <titulo>Resolución de la Entidad Pública de Saneamiento de Aguas Residuales de la Comunidad Valenciana por la que se anuncia la licitación del contrato de "Servicio de funcionamiento y mantenimiento del sistema de saneamiento y depuración de aguas residuales de Santa Pola (Alicante)".</titulo>
+              <url_pdf szBytes="174842" szKBytes="171" pagina_inicial="15415" pagina_final="15416">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11448.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11448</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11448</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8121" nombre="COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS">
+            <item>
+              <identificador>BOE-B-2012-11449</identificador>
+              <titulo>Anuncio del Servicio de Ocupación de las Illes Balears (SOIB) por el que se convoca la licitación de un contrato de servicios para la limpieza de las oficinas del SOIB.</titulo>
+              <url_pdf szBytes="172646" szKBytes="169" pagina_inicial="15417" pagina_final="15418">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11449.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11449</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11449</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8131" nombre="COMUNIDAD DE MADRID">
+            <item>
+              <identificador>BOE-B-2012-11450</identificador>
+              <titulo>Resolución de 26 de marzo de 2012, de la Dirección Gerencia del Hospital Universitario de Móstoles, por la que se dispone la publicación en los boletines oficiales y en el "perfil del contratante" la formalización del contrato de un procedimiento abierto con pluralidad de criterios para la contratación del suministro de "prótesis de rodilla".</titulo>
+              <url_pdf szBytes="166624" szKBytes="163" pagina_inicial="15419" pagina_final="15419">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11450.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11450</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11450</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11451</identificador>
+              <titulo>Resolución de 13 de septiembre 2011, de la Gerencia del Hospital Universitario Príncipe de Asturias, por la que se publica la formalización del contrato de suministros PA HUPA 7/11 Suministro de frascos de hemocultivo y tarjetas de identificación y sensibilidad de microorganismos mediante sistema automatizado para el Hospital Universitario Príncipe de Asturias (lote 2).</titulo>
+              <url_pdf szBytes="167968" szKBytes="164" pagina_inicial="15420" pagina_final="15420">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11451.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11451</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11451</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2012-11452</identificador>
+              <titulo>Anuncio del Ayuntamiento de Rota sobre formalización del contrato de suministro de maquinaria para punto limpio del municipio de Rota.</titulo>
+              <url_pdf szBytes="161620" szKBytes="158" pagina_inicial="15421" pagina_final="15421">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11452.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11452</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11452</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11453</identificador>
+              <titulo>Anuncio del Ayuntamiento de Rota por el que se publica la formalización del contrato del Suministro de Maquinaria para Limpieza Viaria.</titulo>
+              <url_pdf szBytes="164560" szKBytes="161" pagina_inicial="15422" pagina_final="15422">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11453.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11453</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11453</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11454</identificador>
+              <titulo>Anuncio del Consejo Insular de Aguas de Gran Canaria por el que se declara desierto el expediente de contratación 18/11 referente al servicio para la realización de analíticas del Consejo Insular de Aguas de Gran Canaria.</titulo>
+              <url_pdf szBytes="158818" szKBytes="155" pagina_inicial="15423" pagina_final="15423">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11454.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11454</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11454</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11455</identificador>
+              <titulo>Anuncio del Ayuntamiento de Massamagrell por el que se convoca la licitación pública del contrato de servicios de limpieza de edificios, dependencias e instalaciones municipales, Exp. Cont. 4/2012.</titulo>
+              <url_pdf szBytes="171286" szKBytes="167" pagina_inicial="15424" pagina_final="15425">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11455.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11455</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11455</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11456</identificador>
+              <titulo>Resolución del Ayuntamiento de Madrid por la que se anuncia la formalización del contrato de servicios titulado: "Servicio integral de la gestión de los residuos de carácter biosanitario y peligroso que se genera en la actividad del SAMUR-Protección Civil".</titulo>
+              <url_pdf szBytes="165791" szKBytes="162" pagina_inicial="15426" pagina_final="15426">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11456.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11456</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11456</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11457</identificador>
+              <titulo>Resolución del Ayuntamiento de Madrid por la que se anuncia la formalización del contrato de suministro titulado "Suministro de vestuario y diverso equipamiento para el Cuerpo de Agentes de Movilidad".</titulo>
+              <url_pdf szBytes="168972" szKBytes="165" pagina_inicial="15427" pagina_final="15428">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11457.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11457</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11457</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11458</identificador>
+              <titulo>Resolución del Ayuntamiento de Madrid por la que se anuncia la formalización del contrato de servicios titulado. "Servicio de conservación y mantenimiento de sistema de cámaras para el control del tráfico".</titulo>
+              <url_pdf szBytes="165292" szKBytes="161" pagina_inicial="15429" pagina_final="15429">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11458.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11458</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11458</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11459</identificador>
+              <titulo>Anuncio del Ayuntamiento de Pinto (Madrid) por el que se hace pública la formalización del contrato de la concesión administrativa para la gestión del servicio público de horario ampliado en los Colegios Públicos de Educación Infantil y Primaria.</titulo>
+              <url_pdf szBytes="163797" szKBytes="160" pagina_inicial="15430" pagina_final="15430">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11459.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11459</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11459</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11460</identificador>
+              <titulo>Anuncio del Ayuntamiento de Salamanca por el que se convoca licitación pública del servicio de asistencia técnica para la redacción de diferentes proyectos con destino al Puerto Seco y Plataforma Intermodal. Proyecto cofinanciado por el Fondo Europeo de Desarrollo Regional (FEDER) dentro del Programa Operativo de Cooperación Transfronteriza España-Portugal (POCTEP) 2007-2013.</titulo>
+              <url_pdf szBytes="177076" szKBytes="173" pagina_inicial="15431" pagina_final="15432">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11460.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11460</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11460</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11461</identificador>
+              <titulo>Anuncio del Ayuntamiento de Las Palmas de Gran Canaria, por el que se convoca la licitación del contrato de servicio de conservación y mantenimiento de las instalaciones de control y visualización del tráfico en el término municipal. Expediente número 17/12-S.</titulo>
+              <url_pdf szBytes="173677" szKBytes="170" pagina_inicial="15433" pagina_final="15434">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11461.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11461</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11461</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11462</identificador>
+              <titulo>Resolución de la Gerencia del Distrito de Moncloa-Aravaca del Ayuntamiento de Madrid, por la que se convoca licitación pública mediante procedimiento abierto, para el contrato administrativo especial denominado Programación y Producción de Espectáculos y Actividades, así como la infraestructura necesaria para el desarrollo de las Fiestas del Distrito de Moncloa-Aravaca 2012.</titulo>
+              <url_pdf szBytes="175363" szKBytes="171" pagina_inicial="15435" pagina_final="15436">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11462.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11462</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11462</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11463</identificador>
+              <titulo>Anuncio del Ayuntamiento de Benalmádena por el que se abre el plazo para la licitación del suministro de diseño, instalación y mantenimiento del alumbrado extraordinario con motivo de las Ferias de Arroyo de la Miel, Benalmádena Pueblo y Veladilla del Carmen, de 2012 y 2013.</titulo>
+              <url_pdf szBytes="175321" szKBytes="171" pagina_inicial="15437" pagina_final="15438">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11463.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11463</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11463</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11464</identificador>
+              <titulo>Anuncio del Ayuntamiento de Polanco (Cantabria) para la contratación del servicio de recogida de residuos sólidos urbanos.</titulo>
+              <url_pdf szBytes="169238" szKBytes="165" pagina_inicial="15439" pagina_final="15440">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11464.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11464</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11464</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11465</identificador>
+              <titulo>Anuncio del Ayuntamiento de Murcia de formalización de contrato de "Servicio de mantenimiento de alumbrado público y de la inspección periódica de la instalación eléctrica de locales y centros de transformación de titularidad municipal del Excmo. Ayuntamiento de Murcia".</titulo>
+              <url_pdf szBytes="163134" szKBytes="159" pagina_inicial="15441" pagina_final="15441">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11465.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11465</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11465</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2012-11466</identificador>
+              <titulo>Resolución del Rectorado de la Universidad de La Laguna por la que se convoca procedimiento abierto para la realización del Servicio de limpieza de los Campus de Guajara, Campus de Ciencias de la Salud, Residencia Universitaria Parque de las Islas y Edificios de Santa Cruz de Tenerife.</titulo>
+              <url_pdf szBytes="172903" szKBytes="169" pagina_inicial="15442" pagina_final="15443">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11466.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11466</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11466</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11467</identificador>
+              <titulo>Resolución del Rectorado de la Universidad de Salamanca por la que se hace pública la referencia a la financiación con fondos FEDER en el expediente de contratación de "Suministro, entrega e instalación de un espectrómetro de masas para el Centro de Investigación del Cáncer de la Universidad de Salamanca", Expediente SU 14/10.</titulo>
+              <url_pdf szBytes="161137" szKBytes="157" pagina_inicial="15444" pagina_final="15444">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11467.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11467</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11467</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11468</identificador>
+              <titulo>Resolución de la Universitat de València por la que se anuncia la formalización del contrato de urbanización de los terrenos integrados en las unidades de ejecución 01 y 02 del plan especial de ordenación de usos del suelo dotacional del Campus de Paterna.</titulo>
+              <url_pdf szBytes="164634" szKBytes="161" pagina_inicial="15445" pagina_final="15445">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11468.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11468</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11468</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2012-11469</identificador>
+              <titulo>Anuncio de la Notaría de D. Enrique Vallés Amores, de subasta notarial.</titulo>
+              <url_pdf szBytes="163189" szKBytes="159" pagina_inicial="15446" pagina_final="15446">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11469.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11469</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11469</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11470</identificador>
+              <titulo>Anuncio de la Notaría de don Martín María Recarte Casanova, Notario de Madrid, sobre anulación de subasta y convocatoria de una nueva en procedimiento extrajudicial de ejecución hipotecaria.</titulo>
+              <url_pdf szBytes="169419" szKBytes="165" pagina_inicial="15447" pagina_final="15448">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11470.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11470</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11470</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11471</identificador>
+              <titulo>Anuncio de la Notaría de doña María Cristina Clemente Buendía sobre subasta notarial de finca hipotecada.</titulo>
+              <url_pdf szBytes="163179" szKBytes="159" pagina_inicial="15449" pagina_final="15449">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11471.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11471</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11471</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11472</identificador>
+              <titulo>Anuncio de la notaría de doña María Pilar Moratiel Llarena sobre subasta extrajudicial</titulo>
+              <url_pdf szBytes="165849" szKBytes="162" pagina_inicial="15450" pagina_final="15451">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11472.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11472</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11472</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11473</identificador>
+              <titulo>Anuncio de la Notaría de María Luisa Lozano Segura, sobre venta extrajudicial de bien inmueble.</titulo>
+              <url_pdf szBytes="166148" szKBytes="162" pagina_inicial="15452" pagina_final="15453">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11473.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11473</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11473</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11474</identificador>
+              <titulo>Anuncio de la Notaría de doña María Luisa Lozano Segura sobre venta extrajudicial de bien inmueble.</titulo>
+              <url_pdf szBytes="166952" szKBytes="163" pagina_inicial="15454" pagina_final="15455">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11474.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11474</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11474</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11475</identificador>
+              <titulo>Anuncio de la Notaría de Don Luis María Sánchez Bernal, de subasta Notarial.</titulo>
+              <url_pdf szBytes="168472" szKBytes="165" pagina_inicial="15456" pagina_final="15457">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11475.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11475</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11475</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11476</identificador>
+              <titulo>Anuncio de modificación de la Notaría de don José María Martínez Palmer sobre subasta en procedimiento de venta extrajudicial, publicada el 13 de febrero de 2012, Boe nº 37.</titulo>
+              <url_pdf szBytes="164524" szKBytes="161" pagina_inicial="15458" pagina_final="15458">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11476.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11476</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11476</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11477</identificador>
+              <titulo>Anuncio de subasta extrajudicial, Notaría de doña Esperanza Quiles Pomares.</titulo>
+              <url_pdf szBytes="166181" szKBytes="162" pagina_inicial="15459" pagina_final="15460">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11477.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11477</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11477</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11478</identificador>
+              <titulo>Anuncio de la notaría de don Manuel Cruz Gimeno, sobre subasta notarial.</titulo>
+              <url_pdf szBytes="166010" szKBytes="162" pagina_inicial="15461" pagina_final="15462">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11478.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11478</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11478</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2012-11479</identificador>
+              <titulo>Resolución de fecha 24 de febrero de 2012, de la Delegación del Gobierno en la Comunidad Autónoma del País Vasco, por la que se convoca al levantamiento de Actas Previas a la ocupación de determinadas fincas afectadas por el Proyecto "Biscay Marine Energy Platform (bimep)", en el término municipal de Lemoiz, en la provincia de Bizkaia, cuyo peticionario es el Ente Vasco de la Energía, Sociedad Anónima (EVE).</titulo>
+              <url_pdf szBytes="192458" szKBytes="188" pagina_inicial="15463" pagina_final="15464">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11479.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11479</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11479</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2012-11480</identificador>
+              <titulo>Anuncio de la Subdirección General de Servicios Penitenciarios por el que se notifica a la empresa Krea Logística, S.L., con CIF B-83645903, la resolución de contrato suscrito con la Secretaría General de Instituciones Penitenciarias para la prestación de servicio de furgoneta con conductor.</titulo>
+              <url_pdf szBytes="162449" szKBytes="159" pagina_inicial="15465" pagina_final="15465">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11480.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11480</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11480</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11481</identificador>
+              <titulo>Anuncio de la Dirección General de la Policía y de la Guardia Civil, Subdirección General de Personal de la Guardia Civil, por el que se notifica, mediante su publicación, la iniciación de expediente instruido por el Servicio de Retribuciones de la Guardia Civil y se da trámite de audiencia al interesado.</titulo>
+              <url_pdf szBytes="162875" szKBytes="159" pagina_inicial="15466" pagina_final="15466">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11481.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11481</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11481</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2012-11482</identificador>
+              <titulo>Anuncio de la Subdirección General de Títulos y Reconocimiento de Cualificaciones sobre extravío de título de Médico Especialista en Psiquiatría.</titulo>
+              <url_pdf szBytes="160407" szKBytes="157" pagina_inicial="15467" pagina_final="15467">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11482.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11482</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11482</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <item>
+              <identificador>BOE-B-2012-11483</identificador>
+              <titulo>Anuncio de la Inspección General de Servicios sobre notificación de requerimiento para personación en la sede de la Unidad Administrativa Periférica del Fondo de Garantía Salarial de A Coruña para hacer entrega de la Resolución definitiva a la interesada dictada en el expediente disciplinario incoado por Resolución de la Subsecretaria del Ministerio de Empleo y Seguridad Social de 27 de marzo de 2012, a D.ª Irma Abelleira Barrientos.</titulo>
+              <url_pdf szBytes="165274" szKBytes="161" pagina_inicial="15468" pagina_final="15468">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11483.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11483</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11483</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9219" nombre="MINISTERIO DE INDUSTRIA, ENERGÍA Y TURISMO">
+            <item>
+              <identificador>BOE-B-2012-11484</identificador>
+              <titulo>Anuncio del Instituto para la Reestructuración de la Minería del Carbón y Desarrollo Alternativo de las Comarcas Mineras sobre notificación de Propuesta de Resolución Provisional de Revocación total de Ayuda a Factoría Reunida de Aceros Especiales Plegados, S.A.</titulo>
+              <url_pdf szBytes="161405" szKBytes="158" pagina_inicial="15469" pagina_final="15469">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11484.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11484</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11484</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11485</identificador>
+              <titulo>Anuncio del Instituto para la Reestructuración de la Minería del Carbón y Desarrollo Alternativo de las Comarcas Mineras sobre notificación de Resolución Revocatoria y Reintegro a Magasima, S.L.</titulo>
+              <url_pdf szBytes="161446" szKBytes="158" pagina_inicial="15470" pagina_final="15470">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11485.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11485</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11485</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2012-11486</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Guadalquivir relativo a notificación de resolución de expediente sancionador.</titulo>
+              <url_pdf szBytes="159664" szKBytes="156" pagina_inicial="15471" pagina_final="15471">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11486.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11486</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11486</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11487</identificador>
+              <titulo>Anuncio de Resolución de la Confederación Hidrográfica del Tajo sobre publicación de Pliegos de Cargos de expedientes sancionadores tramitados por la Confederación Hidrográfica del Tajo, cuya notificación se ha intentado sin que se haya podido practicar.</titulo>
+              <url_pdf szBytes="163248" szKBytes="159" pagina_inicial="15472" pagina_final="15472">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11487.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11487</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11487</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11488</identificador>
+              <titulo>Anuncio de Resolución de la Confederación Hidrográfica del Tajo sobre publicación de Propuestas de Resolución de expedientes sancionadores tramitadas por la Confederación Hidrográfica del Tajo, cuya notificación se ha intentado sin que se haya podido practicar.</titulo>
+              <url_pdf szBytes="161258" szKBytes="157" pagina_inicial="15473" pagina_final="15473">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11488.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11488</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11488</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <item>
+              <identificador>BOE-B-2012-11489</identificador>
+              <titulo>Anuncio de la Delegación de Economía y Hacienda de Ávila sobre Prescripción de Depósitos incursos en abandono.</titulo>
+              <url_pdf szBytes="159483" szKBytes="156" pagina_inicial="15474" pagina_final="15474">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11489.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11489</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11489</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2012-11490</identificador>
+              <titulo>Resolución de la Universidad Nacional de Educación a Distancia, de fecha 20 de marzo de 2012, por la que se ordena la publicación de anuncio para notificar el acuerdo de la Comisión de Selección de Becarios del inicio de expediente de reintegro de ayudas al estudio.</titulo>
+              <url_pdf szBytes="168775" szKBytes="165" pagina_inicial="15475" pagina_final="15476">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11490.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11490</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11490</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-11491</identificador>
+              <titulo>Anuncio de la Escuela Universitaria de Ingeniería Técnica Agrícola-INEA, adscrita a la Universidad de Valladolid, sobre extravío de título de Ingeniero Técnico Agrícola en Explotaciones Agropecuarias.</titulo>
+              <url_pdf szBytes="156384" szKBytes="153" pagina_inicial="15477" pagina_final="15477">https://www.boe.es/boe/dias/2012/04/07/pdfs/BOE-B-2012-11491.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-11491</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-11491</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

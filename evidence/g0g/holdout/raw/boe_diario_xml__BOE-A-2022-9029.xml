@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251220162601">
+  <metadatos>
+    <identificador>BOE-A-2022-9029</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1590">Corrección (errores o erratas)</rango>
+    <fecha_disposicion/>
+    <numero_oficial/>
+    <titulo>Corrección de errores de la Circular 4/2021, de 25 de noviembre, del Banco de España, a entidades de crédito y otras entidades supervisadas, sobre modelos de estados reservados en materia de conducta de mercado, transparencia y protección de la clientela, y sobre el registro de reclamaciones.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20220602</fecha_publicacion>
+    <diario_numero>131</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>75398</pagina_inicial>
+    <pagina_final>75398</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2022/06/02/pdfs/BOE-A-2022-9029.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2022-9029</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2022-9029</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-11-25</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1624"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3455"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5806"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6015"/>
+        <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2022-9029</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-11-25</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1624"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3455"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5163"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5806"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6015"/>
+            <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:corrects rdf:resource="https://www.boe.es/eli/es/cir/2021/11/25/4/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corrección de errores de la Circular 4/2021, de 25 de noviembre, del Banco de España, a entidades de crédito y otras entidades supervisadas, sobre modelos de estados reservados en materia de conducta de mercado, transparencia y protección de la clientela, y sobre el registro de reclamaciones.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-06-02</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2021/11/25/4/corrigendum/20220602/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="1">Banco de España</materia>
+      <materia codigo="1624" orden="1">Consumidores y usuarios</materia>
+      <materia codigo="1627" orden="1">Contabilidad</materia>
+      <materia codigo="3233" orden="1">Entidades de crédito</materia>
+      <materia codigo="3239" orden="1">Entidades financieras</materia>
+      <materia codigo="3455" orden="1">Estadística</materia>
+      <materia codigo="3472" orden="1">Estados financieros</materia>
+      <materia codigo="4165" orden="1">Información</materia>
+      <materia codigo="5163" orden="1">Normas de calidad</materia>
+      <materia codigo="5806" orden="1">Quejas y sugerencias</materia>
+      <materia codigo="6015" orden="1">Registros administrativos</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2021-19805" orden="2120">
+          <palabra codigo="201">CORRECCIÓN de errores</palabra>
+          <texto>de la Circular 4/2021, de 25 de noviembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="106" orden="1">Consumidores y usuarios</alerta>
+      <alerta codigo="109" orden="1">Derecho Administrativo</alerta>
+      <alerta codigo="127" orden="1">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">Advertidos errores en la Circular 4/2021, de 25 de noviembre, del Banco de España, a entidades de crédito y otras entidades supervisadas, sobre modelos de estados reservados en materia de conducta de mercado, transparencia y protección de la clientela, y sobre el registro de reclamaciones, publicada en el «Boletín Oficial del Estado» número 287, de 1 de diciembre de 2021, procede efectuar las siguientes correcciones:  </p>
+    <p class="parrafo_2">– En la página 148245, en la norma 6 apartado 2 párrafo segundo, donde dice: «los estados CP 1-1, CP 2-1, CP 3-1 y CP 4 (solo las columnas de «Microempresas») y el estado CR 1-1, incluidos en el apartado 1 anterior.», debe decir: «los estados CP 1-1, CP 2-1 y CP 3-1 (solo las columnas de «Microempresas») y los estados CP 4 y CR 1-1, incluidos en el apartado 1 anterior.».</p>
+    <p class="parrafo">– En la página 148270, en «Notas. Estados productos», en la definición o aclaración a incorporar sobre «Hogares. Personas físicas, actividad no empresarial», donde dice: «en el punto 2 de la norma 4 de la Circular», debe decir: «en el punto 1.a) de la norma 4 de la Circular».</p>
+    <p class="parrafo">– En la página 148270, en «Notas. Estados productos», en la definición o aclaración a incorporar sobre «Hogares. Empresarios individuales», donde dice: «el el punto 2 de la norma 4 de la Circular», debe decir: «en el punto 1.b) de la norma 4 de la Circular».</p>
+    <p class="parrafo">– En la página 148280, en el estado CR 1-1 a), hay dos líneas que se llaman «Otros productos/servicios bancarios», por lo que para la segunda de ellas donde dice: «Otros productos/servicios bancarios», debe decir: «Resto de otros productos/servicios bancarios».</p>
+    <p class="parrafo">– En la página 148256, en el estado CP 2-1 a), se eliminan los sombreados que figuran en la columna «Importe» de «Hogares. Personas físicas, actividad no empresarial. Residentes y no residentes» para las filas «Con finalidad adquisición de automóviles y otros vehículos de motor», «Con finalidad adquisición de otros bienes de consumo duradero distintos de automóviles y otros vehículos de motor», «Con finalidad adquisición de otros bienes y servicios corrientes», «Con otras finalidades o sin finalidad específica», «Tarjetas de crédito», «– De los que: Revolving», «Líneas y cuentas de crédito», «– De los que: Revolving», «Excedido tácito en línea/cuenta de crédito», «Descubierto explícito en cuentas a la vista» y «Otros préstamos sin garantía real».</p>
+    <p class="parrafo">– En la página 148275, en el estado CI 1, se eliminan los sombreados que figuran en las columnas «Comisiones/ penalizaciones por impago», «Otras comisiones», «Ingresos por intereses ordinarios» e «Ingresos por intereses demora» para las dos filas denominadas «– De los que: Revolving».</p>
+  </texto>
+</documento>

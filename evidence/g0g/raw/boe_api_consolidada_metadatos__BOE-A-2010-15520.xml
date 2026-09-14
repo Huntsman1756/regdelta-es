@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T123819Z</fecha_actualizacion>
+      <identificador>BOE-A-2010-15520</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20100928</fecha_disposicion>
+      <numero_oficial>5/2010</numero_oficial>
+      <titulo>Circular 5/2010, de 28 de septiembre, del Banco de España, a entidades de crédito, sobre información que debe remitir el adquirente potencial en la notificación a la que se refiere el artículo 57.1 de la Ley 26/1988, de 29 de julio, sobre disciplina e intervención de las entidades de crédito.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20101011</fecha_publicacion>
+      <diario_numero>246</diario_numero>
+      <fecha_vigencia>20101031</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2010/09/28/5</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2010-15520</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T191837Z</fecha_actualizacion>
+      <identificador>BOE-A-2016-6606</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20160630</fecha_disposicion>
+      <numero_oficial>6/2016</numero_oficial>
+      <titulo>Circular 6/2016, de 30 de junio, del Banco de España, a las entidades de crédito y a los establecimientos financieros de crédito, por la que se determinan el contenido y el formato del documento "Información Financiera-PYME" y se especifica la metodología de calificación del riesgo previstos en la Ley 5/2015, de 27 de abril, de fomento de la financiación empresarial.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20160711</fecha_publicacion>
+      <diario_numero>166</diario_numero>
+      <fecha_vigencia>20161011</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2016/06/30/6</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2016-6606</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

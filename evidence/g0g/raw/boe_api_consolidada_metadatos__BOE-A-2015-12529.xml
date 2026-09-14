@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T183901Z</fecha_actualizacion>
+      <identificador>BOE-A-2015-12529</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20151117</fecha_disposicion>
+      <numero_oficial>6/2015</numero_oficial>
+      <titulo>Circular 6/2015, de 17 de noviembre, del Banco de España, a las cajas de ahorros y fundaciones bancarias, sobre determinados aspectos de los informes de remuneraciones y gobierno corporativo de las cajas de ahorros que no emitan valores admitidos a negociación en mercados oficiales de valores y sobre las obligaciones de las fundaciones bancarias derivadas de sus participaciones en entidades de crédito.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20151120</fecha_publicacion>
+      <diario_numero>278</diario_numero>
+      <fecha_vigencia>20151121</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2015/11/17/6</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2015-12529</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

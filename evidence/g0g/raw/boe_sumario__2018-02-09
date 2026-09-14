@@ -1,0 +1,1796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20180209</fecha_publicacion>
+      </metadatos>
+      <diario numero="36">
+        <sumario_diario>
+          <identificador>BOE-S-2018-36</identificador>
+          <url_pdf szBytes="326092" szKBytes="318">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-S-2018-36.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="1410" nombre="TRIBUNAL CONSTITUCIONAL">
+            <epigrafe nombre="Recursos de inconstitucionalidad">
+              <item>
+                <identificador>BOE-A-2018-1747</identificador>
+                <control>2018/1813</control>
+                <titulo>Recurso de inconstitucionalidad n.º 143-2018, contra el Acuerdo del Pleno del Senado de 27 de octubre de 2017, por el que se aprueban las medidas requeridas por el Gobierno, al amparo del artículo 155 de la Constitución, así como contra todas las disposiciones que se han dictado, sin solución de continuidad, en desarrollo o como complemento o adición de las medidas mencionadas, por constituir una unidad normativa.</titulo>
+                <url_pdf szBytes="148533" szKBytes="145" pagina_inicial="15563" pagina_final="15563">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1747.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1747</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1747</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <epigrafe nombre="Comercio exterior. Control sanitario">
+              <item>
+                <identificador>BOE-A-2018-1748</identificador>
+                <control>2018/1600</control>
+                <titulo>Resolución de 17 de enero de 2018, de la Dirección General de Salud Pública, Calidad e Innovación, por la que se modifica el anexo I de la Orden de 20 de enero de 1994, por la que se fijan modalidades de control sanitario de productos de comercio exterior destinados a uso y consumo humano y a los recintos aduaneros habilitados para su realización.</titulo>
+                <url_pdf szBytes="1737295" szKBytes="1697" pagina_inicial="15564" pagina_final="15636">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1748.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1748</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1748</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Fondo de Garantía de Depósitos. Entidades adscritas">
+              <item>
+                <identificador>BOE-A-2018-1749</identificador>
+                <control>2018/1760</control>
+                <titulo>Circular 1/2018, de 31 de enero, por la que se modifican la Circular 5/2016, de 27 de mayo, sobre el método de cálculo para que las aportaciones de las entidades adheridas al Fondo de Garantía de Depósitos de Entidades de Crédito sean proporcionales a su perfil de riesgo; y la Circular 8/2015, de 18 de diciembre, a las entidades y sucursales adscritas al Fondo de Garantía de Depósitos de Entidades de Crédito, sobre información para determinar las bases de cálculo de las aportaciones al Fondo de Garantía de Depósitos de Entidades de Crédito.</titulo>
+                <url_pdf szBytes="278711" szKBytes="272" pagina_inicial="15637" pagina_final="15648">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1749.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1749</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1749</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8090" nombre="COMUNIDAD AUTÓNOMA DE GALICIA">
+            <epigrafe nombre="Puertos">
+              <item>
+                <identificador>BOE-A-2018-1750</identificador>
+                <control>2018/1602</control>
+                <titulo>Ley 6/2017, de 12 de diciembre, de puertos de Galicia.</titulo>
+                <url_pdf szBytes="1832911" szKBytes="1790" pagina_inicial="15649" pagina_final="15736">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1750.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1750</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1750</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Energía eléctrica">
+              <item>
+                <identificador>BOE-A-2018-1751</identificador>
+                <control>2018/1603</control>
+                <titulo>Ley 7/2017, de 14 de diciembre, de medidas de la eficiencia energética y garantía de accesibilidad a la energía eléctrica.</titulo>
+                <url_pdf szBytes="206752" szKBytes="202" pagina_inicial="15737" pagina_final="15743">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1751.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1751</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1751</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Presupuestos">
+              <item>
+                <identificador>BOE-A-2018-1752</identificador>
+                <control>2018/1604</control>
+                <titulo>Ley 8/2017, de 26 de diciembre, de presupuestos generales de la Comunidad Autónoma de Galicia para el año 2018.</titulo>
+                <url_pdf szBytes="15329358" szKBytes="14970" pagina_inicial="15744" pagina_final="16011">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1752.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1752</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1752</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Medidas fiscales y administrativas">
+              <item>
+                <identificador>BOE-A-2018-1753</identificador>
+                <control>2018/1605</control>
+                <titulo>Ley 9/2017, de 26 de diciembre, de medidas fiscales y administrativas.</titulo>
+                <url_pdf szBytes="1192274" szKBytes="1164" pagina_inicial="16012" pagina_final="16075">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1753.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1753</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1753</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9531" nombre="COMUNIDAD DE CASTILLA Y LEÓN">
+            <epigrafe nombre="Medidas tributarias">
+              <item>
+                <identificador>BOE-A-2018-1754</identificador>
+                <control>2018/1689</control>
+                <titulo>Ley 7/2017, de 28 de diciembre, de Medidas Tributarias.</titulo>
+                <url_pdf szBytes="248089" szKBytes="242" pagina_inicial="16076" pagina_final="16086">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1754.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1754</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1754</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Presupuestos">
+              <item>
+                <identificador>BOE-A-2018-1755</identificador>
+                <control>2018/1690</control>
+                <titulo>Ley 8/2017, de 28 de diciembre, de Presupuestos Generales de la Comunidad de Castilla y León para 2018.</titulo>
+                <url_pdf szBytes="963048" szKBytes="940" pagina_inicial="16087" pagina_final="16135">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1755.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1755</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1755</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2018-1756</identificador>
+                <control>2018/1816</control>
+                <titulo>Orden JUS/106/2018, de 7 de febrero, por la que se resuelve la convocatoria de libre designación, efectuada por Orden JUS/1054/2017, de 23 de octubre.</titulo>
+                <url_pdf szBytes="156369" szKBytes="153" pagina_inicial="16136" pagina_final="16136">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1756.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1756</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1756</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2018-1757</identificador>
+                <control>2018/1691</control>
+                <titulo>Resolución de 30 de enero de 2018, de la Presidencia de la Agencia Estatal de Administración Tributaria, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 15 de septiembre de 2017.</titulo>
+                <url_pdf szBytes="257494" szKBytes="251" pagina_inicial="16137" pagina_final="16140">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1757.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1757</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1757</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2018-1758</identificador>
+                <control>2018/1763</control>
+                <titulo>Resolución de 1 de febrero de 2018, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 7 de diciembre de 2017.</titulo>
+                <url_pdf szBytes="175388" szKBytes="171" pagina_inicial="16141" pagina_final="16142">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1758.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1758</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1758</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2018-1759</identificador>
+                <control>2018/1764</control>
+                <titulo>Orden ECD/107/2018, de 24 de enero, por la que, a propuesta de la Consejería de Educación, Investigación, Cultura y Deporte de la Comunitat Valenciana, se nombran funcionarios de carrera del Cuerpo de Profesores de Enseñanza Secundaria, a los seleccionados en el procedimiento selectivo convocado por Orden 46/2015, de 4 de mayo.</titulo>
+                <url_pdf szBytes="171786" szKBytes="168" pagina_inicial="16143" pagina_final="16144">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1759.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1759</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1759</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1760</identificador>
+                <control>2018/1765</control>
+                <titulo>Orden ECD/108/2018, de 30 de enero, por la que, a propuesta de la Consejería de Educación, Investigación, Cultura y Deporte de la Comunitat Valenciana, se nombran funcionarios de carrera del Cuerpo de Maestros, a los seleccionados en el procedimiento selectivo convocado por Orden 45/2015, de 4 de mayo.</titulo>
+                <url_pdf szBytes="169438" szKBytes="165" pagina_inicial="16145" pagina_final="16146">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1760.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1760</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1760</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9281" nombre="MINISTERIO DE ECONOMÍA, INDUSTRIA Y COMPETITIVIDAD">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2018-1761</identificador>
+                <control>2018/1768</control>
+                <titulo>Resolución de 1 de febrero de 2018, de la Subsecretaría, por la que se resuelve el concurso específico, convocado por Resolución de 21 de octubre de 2017, en el Centro Español de Metrología.</titulo>
+                <url_pdf szBytes="218417" szKBytes="213" pagina_inicial="16147" pagina_final="16149">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1761.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1761</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1761</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2018-1762</identificador>
+                <control>2018/1372</control>
+                <titulo>Resolución de 22 de enero de 2018, de la Universidad de Oviedo, por la que se nombra Catedrático de Universidad a don Juan Francisco Javier Van der Maelen Uría.</titulo>
+                <url_pdf szBytes="218750" szKBytes="214" pagina_inicial="16150" pagina_final="16150">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1762.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1762</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1762</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1763</identificador>
+                <control>2018/1373</control>
+                <titulo>Resolución de 22 de enero de 2018, de la Universidad de Oviedo, por la que se nombra Profesor Titular de Universidad a don Raúl Barrio Perotti.</titulo>
+                <url_pdf szBytes="217594" szKBytes="212" pagina_inicial="16151" pagina_final="16151">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1763.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1763</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1763</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1764</identificador>
+                <control>2018/1374</control>
+                <titulo>Resolución de 24 de enero de 2018, de la Universidad de Oviedo, por la que se nombra Catedrático de Universidad a don Francisco Ortín Soler.</titulo>
+                <url_pdf szBytes="217487" szKBytes="212" pagina_inicial="16152" pagina_final="16152">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1764.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1764</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1764</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Cuerpo de Ingenieros Aeronáuticos">
+              <item>
+                <identificador>BOE-A-2018-1765</identificador>
+                <control>2018/1700</control>
+                <titulo>Resolución de 1 de febrero de 2018, de la Subsecretaría, por la que se modifican las bases del proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en el Cuerpo de Ingenieros Aeronáuticos, convocado por Resolución 5 de enero de 2018.</titulo>
+                <url_pdf szBytes="223623" szKBytes="218" pagina_inicial="16153" pagina_final="16154">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1765.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1765</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1765</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Cuerpo Superior de Interventores y Auditores de la Administración de la Seguridad Social">
+              <item>
+                <identificador>BOE-A-2018-1766</identificador>
+                <control>2018/1701</control>
+                <titulo>Resolución de 1 de febrero de 2018, de la Subsecretaría, por la que se corrigen errores en la de 18 de enero de 2018, por la que se convocan procesos selectivos para ingreso, por el sistema general de acceso libre y promoción interna, en el Cuerpo Superior de Interventores y Auditores de la Administración de la Seguridad Social.</titulo>
+                <url_pdf szBytes="221909" szKBytes="217" pagina_inicial="16155" pagina_final="16156">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1766.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1766</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1766</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2018-1767</identificador>
+                <control>2018/1626</control>
+                <titulo>Resolución de 18 de enero de 2018, del Ayuntamiento de Salamanca, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="213587" szKBytes="209" pagina_inicial="16157" pagina_final="16157">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1767.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1767</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1767</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1768</identificador>
+                <control>2018/1518</control>
+                <titulo>Resolución de 22 de enero de 2018, del Ayuntamiento de A Pobra do Caramiñal (A Coruña), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="214418" szKBytes="209" pagina_inicial="16158" pagina_final="16158">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1768.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1768</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1768</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1769</identificador>
+                <control>2018/1627</control>
+                <titulo>Resolución de 22 de enero de 2018, del Ayuntamiento de Utrera (Sevilla), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="214436" szKBytes="209" pagina_inicial="16159" pagina_final="16159">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1769.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1769</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1769</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1770</identificador>
+                <control>2018/1707</control>
+                <titulo>Resolución de 23 de enero de 2018, del Ayuntamiento de Plasencia (Cáceres), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="149056" szKBytes="146" pagina_inicial="16160" pagina_final="16160">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1770.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1770</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1770</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1771</identificador>
+                <control>2018/1523</control>
+                <titulo>Resolución de 24 de enero de 2018, del Ayuntamiento de Arjonilla (Jaén), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="213086" szKBytes="208" pagina_inicial="16161" pagina_final="16161">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1771.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1771</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1771</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1772</identificador>
+                <control>2018/1708</control>
+                <titulo>Resolución de 24 de enero de 2018, del Ayuntamiento de Petra (Illes Balears), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="214216" szKBytes="209" pagina_inicial="16162" pagina_final="16162">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1772.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1772</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1772</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1773</identificador>
+                <control>2018/1628</control>
+                <titulo>Resolución de 30 de enero de 2018, del Ayuntamiento de Carbajosa de la Sagrada (Salamanca), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="150253" szKBytes="147" pagina_inicial="16163" pagina_final="16163">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1773.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1773</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1773</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Comunidad Autónoma de Galicia. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1774</identificador>
+                <control>2018/1634</control>
+                <titulo>Resolución de 1 de febrero de 2018, de la Secretaría de Estado de Justicia, por la que se publica el Convenio marco entre el Centro de Estudios Jurídicos y la Academia Galega de Seguridad Pública, en materia de formación de fiscales, letrados de la Administración de Justicia, médicos forenses y abogados del Estado.</titulo>
+                <url_pdf szBytes="187784" szKBytes="183" pagina_inicial="16164" pagina_final="16168">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1774.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1774</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1774</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Comunidad de Madrid. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1775</identificador>
+                <control>2018/1635</control>
+                <titulo>Resolución 420/38016/2018, de 29 de enero, de la Secretaría General Técnica, por la que se publica el Convenio marco de colaboración con la Universidad Rey Juan Carlos, sobre la Cátedra de Estudios de la Defensa "Francisco Villamartín" y para el desarrollo de actividades docentes, de investigación y de cualquier otro ámbito de interés mutuo.</titulo>
+                <url_pdf szBytes="187718" szKBytes="183" pagina_inicial="16169" pagina_final="16173">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1775.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1775</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1775</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-1776</identificador>
+                <control>2018/1723</control>
+                <titulo>Resolución 420/38019/2018, de 30 de enero, de la Secretaría General Técnica, por la que se publica el Convenio de colaboración con la Asociación Nacional de Criadores de Ganado Selecto de Raza Asnal Zamorano-Leonés, para la cesión de garañones.</titulo>
+                <url_pdf szBytes="184439" szKBytes="180" pagina_inicial="16174" pagina_final="16177">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1776.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1776</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1776</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Homologaciones">
+              <item>
+                <identificador>BOE-A-2018-1777</identificador>
+                <control>2018/1722</control>
+                <titulo>Resolución 320/38018/2018, de 23 de enero, de la Dirección General de Armamento y Material, por la que se modifica la norma de referencia para la homologación del casco de combate.</titulo>
+                <url_pdf szBytes="149933" szKBytes="146" pagina_inicial="16178" pagina_final="16178">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1777.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1777</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1777</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-1778</identificador>
+                <control>2018/1637</control>
+                <titulo>Resolución de 30 de enero de 2018, de la Intervención General de la Administración del Estado, por la que se publica el Convenio con la Universidad Pontifica Comillas, para la realización de prácticas externas.</titulo>
+                <url_pdf szBytes="170685" szKBytes="167" pagina_inicial="16179" pagina_final="16181">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1778.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1778</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1778</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-1779</identificador>
+                <control>2018/1727</control>
+                <titulo>Resolución de 2 de febrero de 2018, de la Secretaría General Técnica, por la que se publica el Convenio con la Diputación de Granada, para el funcionamiento del Servicio de Atención al Turista Extranjero en la ciudad de Granada.</titulo>
+                <url_pdf szBytes="198527" szKBytes="194" pagina_inicial="16182" pagina_final="16187">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1779.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1779</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1779</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Documentación administrativa">
+              <item>
+                <identificador>BOE-A-2018-1780</identificador>
+                <control>2018/1638</control>
+                <titulo>Resolución de 20 de diciembre de 2017, conjunta de la Secretaría de Estado de Seguridad y de la Subsecretaría, por la que se aprueban, revisan y actualizan las normas de conservación, y se autoriza la eliminación de series documentales del Departamento.</titulo>
+                <url_pdf szBytes="644690" szKBytes="630" pagina_inicial="16188" pagina_final="16216">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1780.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1780</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1780</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-1781</identificador>
+                <control>2018/1642</control>
+                <titulo>Resolución de 23 de enero de 2018, de la Secretaría General Técnica, por la que se publica el Convenio de colaboración con Acciona, SA, para la colaboración en proyectos tecnológicos en el Museo Arqueológico Nacional.</titulo>
+                <url_pdf szBytes="241045" szKBytes="235" pagina_inicial="16217" pagina_final="16224">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1781.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1781</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1781</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1782</identificador>
+                <control>2018/1728</control>
+                <titulo>Resolución de 2 de febrero de 2018, de la Secretaría General Técnica, por la que se publica el Convenio con la Fundación Bancaja y la Fundación Museo Sorolla, para la cesión de la exposición "Sorolla. Un jardín para pintar".</titulo>
+                <url_pdf szBytes="221923" szKBytes="217" pagina_inicial="16225" pagina_final="16230">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1782.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1782</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1782</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1783</identificador>
+                <control>2018/1729</control>
+                <titulo>Resolución de 2 de febrero de 2018, de la Secretaría General Técnica, por la que se publica el Convenio entre el Instituto de la Cinematografía y de las Artes Audiovisuales y Erm Events, SL, para la utilización de fondos fílmicos.</titulo>
+                <url_pdf szBytes="184905" szKBytes="181" pagina_inicial="16231" pagina_final="16234">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1783.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1783</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1783</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1784</identificador>
+                <control>2018/1730</control>
+                <titulo>Resolución de 2 de febrero de 2018, de la Secretaría General Técnica, por la que se publica el Convenio entre el Instituto Nacional de las Artes Escénicas y de la Música y la Universidad San Pablo CEU, para la realización de prácticas externas.</titulo>
+                <url_pdf szBytes="191127" szKBytes="187" pagina_inicial="16235" pagina_final="16239">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1784.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1784</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1784</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1785</identificador>
+                <control>2018/1731</control>
+                <titulo>Resolución de 2 de febrero de 2018, de la Secretaría General Técnica, por la que se publica el Convenio entre el Museo Nacional Centro de Arte Reina Sofía y Mapfre España, Compañía de Seguros y Reaseguros, SA, para el mecenazgo de programas culturales del museo.</titulo>
+                <url_pdf szBytes="192307" szKBytes="188" pagina_inicial="16240" pagina_final="16244">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1785.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1785</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1785</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1786</identificador>
+                <control>2018/1732</control>
+                <titulo>Resolución de 2 de febrero de 2018, de la Secretaría General Técnica, por la que se publica el Convenio entre el Museo Nacional del Prado y la Fundación Amigos del Museo del Prado, para el patrocinio del ciclo de conferencias.</titulo>
+                <url_pdf szBytes="179117" szKBytes="175" pagina_inicial="16245" pagina_final="16248">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1786.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1786</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1786</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1787</identificador>
+                <control>2018/1733</control>
+                <titulo>Resolución de 2 de febrero de 2018, de la Secretaría General Técnica, por la que se publica el Convenio marco de colaboración con Círculo Greco, Asociación de Amigos del Museo del Greco, para contribuir a la proyección social del Museo del Greco.</titulo>
+                <url_pdf szBytes="209870" szKBytes="205" pagina_inicial="16249" pagina_final="16253">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1787.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1787</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1787</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Convenios colectivos de trabajo">
+              <item>
+                <identificador>BOE-A-2018-1788</identificador>
+                <control>2018/1645</control>
+                <titulo>Resolución de 25 de enero de 2018, de la Dirección General de Empleo, por la que se registra y publica el Convenio colectivo del sector de la jardinería.</titulo>
+                <url_pdf szBytes="533415" szKBytes="521" pagina_inicial="16254" pagina_final="16280">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1788.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1788</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1788</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1789</identificador>
+                <control>2018/1648</control>
+                <titulo>Resolución de 25 de enero de 2018, de la Dirección General de Empleo, por la que se registra y publica la revisión salarial para 2018 del Convenio colectivo de Logifruit, SL.</titulo>
+                <url_pdf szBytes="186643" szKBytes="182" pagina_inicial="16281" pagina_final="16282">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1789.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1789</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1789</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1790</identificador>
+                <control>2018/1734</control>
+                <titulo>Resolución de 1 de febrero de 2018, de la Dirección General de Empleo, por la que se registra y publica el Acuerdo de prórroga de ultraactividad del Convenio colectivo de Activa Mutua 2008, mutua colaboradora con la Seguridad Social n.º 3.</titulo>
+                <url_pdf szBytes="158362" szKBytes="155" pagina_inicial="16283" pagina_final="16283">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1790.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1790</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1790</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1791</identificador>
+                <control>2018/1737</control>
+                <titulo>Resolución de 1 de febrero de 2018, de la Dirección General de Empleo, por la que se registra y publica la prórroga de ultraactividad del I Acuerdo Marco de Comercio (AMAC).</titulo>
+                <url_pdf szBytes="171215" szKBytes="167" pagina_inicial="16284" pagina_final="16286">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1791.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1791</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1791</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1792</identificador>
+                <control>2018/1738</control>
+                <titulo>Resolución de 1 de febrero de 2018, de la Dirección General de Empleo, por la que se registran y publican las tablas salariales para el año 2017 del Convenio colectivo del Grupo ASV Servicios Funerarios.</titulo>
+                <url_pdf szBytes="215635" szKBytes="211" pagina_inicial="16287" pagina_final="16289">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1792.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1792</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1792</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9282" nombre="MINISTERIO DE ENERGÍA, TURISMO Y AGENDA DIGITAL">
+            <epigrafe nombre="Comunidad Foral de Navarra. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1793</identificador>
+                <control>2018/1739</control>
+                <titulo>Resolución de 24 de enero de 2018, de la Secretaría de Estado de Turismo, por la que se publica el Convenio de colaboración con la Comunidad Foral de Navarra, en materia de calidad turística.</titulo>
+                <url_pdf szBytes="187912" szKBytes="184" pagina_inicial="16290" pagina_final="16294">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1793.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1793</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1793</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Telecomunicaciones">
+              <item>
+                <identificador>BOE-A-2018-1794</identificador>
+                <control>2018/1741</control>
+                <titulo>Resolución de 2 de febrero de 2018, de la Secretaría de Estado para la Sociedad de la Información y la Agenda Digital, por la que se atribuye el número 010 al servicio de información de la Administración Local en el municipio de Errentería.</titulo>
+                <url_pdf szBytes="156714" szKBytes="153" pagina_inicial="16295" pagina_final="16295">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1794.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1794</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1794</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9280" nombre="MINISTERIO DE AGRICULTURA Y PESCA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <epigrafe nombre="Comunidad Autónoma de Canarias. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1795</identificador>
+                <control>2018/1651</control>
+                <titulo>Resolución de 29 de enero de 2018, del Fondo Español de Garantía Agraria, por la que se publica el Convenio por el que en calidad de autoridad de certificación del Fondo Europeo Marítimo y de la Pesca, encomienda a la Comunidad Autónoma de Canarias la gestión de determinadas funciones, en su condición de organismo intermedio de certificación.</titulo>
+                <url_pdf szBytes="196532" szKBytes="192" pagina_inicial="16296" pagina_final="16301">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1795.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1795</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1795</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma de Castilla-La Mancha. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1796</identificador>
+                <control>2018/1652</control>
+                <titulo>Resolución de 29 de enero de 2018, de la Agencia Estatal de Meteorología, por la que se publica el Convenio con la Junta de Comunidades de Castilla-La Mancha, en materia de meteorología y climatología.</titulo>
+                <url_pdf szBytes="197519" szKBytes="193" pagina_inicial="16302" pagina_final="16307">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1796.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1796</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1796</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Documentación administrativa">
+              <item>
+                <identificador>BOE-A-2018-1797</identificador>
+                <control>2018/1654</control>
+                <titulo>Resolución de 29 de enero de 2018, de la Subsecretaría, por la que se autoriza la eliminación de series documentales existentes en los archivos del Departamento.</titulo>
+                <url_pdf szBytes="165019" szKBytes="161" pagina_inicial="16308" pagina_final="16309">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1797.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1797</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1797</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Impacto ambiental">
+              <item>
+                <identificador>BOE-A-2018-1798</identificador>
+                <control>2018/1655</control>
+                <titulo>Resolución de 29 de enero de 2018, de la Dirección General de Calidad y Evaluación Ambiental y Medio Natural, por la que se formula informe de impacto ambiental del proyecto Área de servicio de Sariego (Asturias).</titulo>
+                <url_pdf szBytes="6290612" szKBytes="6143" pagina_inicial="16310" pagina_final="16318">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1798.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1798</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1798</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1799</identificador>
+                <control>2018/1656</control>
+                <titulo>Resolución de 29 de enero de 2018, de la Dirección General de Calidad y Evaluación Ambiental y Medio Natural, por la que se formula informe de impacto ambiental del proyecto Taller de preparación y montaje de espectáculos con artificio de pirotecnia y depósito de productos de pirotecnia terminados, en el término municipal de Arucas (Gran Canaria).</titulo>
+                <url_pdf szBytes="5752782" szKBytes="5618" pagina_inicial="16319" pagina_final="16327">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1799.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1799</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1799</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1800</identificador>
+                <control>2018/1657</control>
+                <titulo>Resolución de 30 de enero de 2018, de la Dirección General de Calidad y Evaluación Ambiental y Medio Natural, por la que se formula informe de impacto ambiental del proyecto Modificación aeródromo El Manantío, en el término municipal de Badajoz.</titulo>
+                <url_pdf szBytes="7136340" szKBytes="6969" pagina_inicial="16328" pagina_final="16343">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1800.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1800</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1800</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1801</identificador>
+                <control>2018/1743</control>
+                <titulo>Resolución de 30 de enero de 2018, de la Dirección General de Calidad y Evaluación Ambiental y Medio Natural, por la que se formula informe de impacto ambiental del proyecto EDAR y emisario de Cardeñosa (Ávila).</titulo>
+                <url_pdf szBytes="320450" szKBytes="313" pagina_inicial="16344" pagina_final="16353">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1801.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1801</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1801</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1802</identificador>
+                <control>2018/1744</control>
+                <titulo>Resolución de 31 de enero de 2018, de la Dirección General de Calidad y Evaluación Ambiental y Medio Natural, por la que se formula informe de impacto ambiental del Proyecto básico de medidas ambientales correctoras en el entorno del túnel de El Regajal (Toledo).</titulo>
+                <url_pdf szBytes="6887853" szKBytes="6726" pagina_inicial="16354" pagina_final="16365">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1802.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1802</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1802</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Organizaciones interprofesionales">
+              <item>
+                <identificador>BOE-A-2018-1803</identificador>
+                <control>2018/1649</control>
+                <titulo>Orden APM/109/2018, de 31 de enero, por la que se extiende el acuerdo de la Asociación Interprofesional de la Carne de Caza Silvestre al conjunto del sector y se fija la aportación económica obligatoria, para realizar actividades de información y promoción del consumo, impulsar la investigación, el desarrollo y la innovación tecnológica, promover la calidad de los productos, mejorar el conocimiento, la eficiencia y la transparencia de los mercados, contribuir a la gestión responsable de los residuos y subproductos de la carne de caza y desarrollar acciones de formación y de mejora de la cualificación profesional de los integrantes de la cadena, durante cinco temporadas cinegéticas.</titulo>
+                <url_pdf szBytes="194995" szKBytes="190" pagina_inicial="16366" pagina_final="16370">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1803.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1803</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1803</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Pesca marítima">
+              <item>
+                <identificador>BOE-A-2018-1804</identificador>
+                <control>2018/1650</control>
+                <titulo>Resolución de 24 de enero de 2018, de la Secretaría General de Pesca, por la que se publica la actualización del censo de las flotas de altura, gran altura y buques palangreros mayores y menores de 100 toneladas de registro bruto, que operan dentro de los límites geográficos de la Comisión de Pesca del Atlántico Nordeste.</titulo>
+                <url_pdf szBytes="1029880" szKBytes="1006" pagina_inicial="16371" pagina_final="16376">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1804.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1804</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1804</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9281" nombre="MINISTERIO DE ECONOMÍA, INDUSTRIA Y COMPETITIVIDAD">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-1805</identificador>
+                <control>2018/1658</control>
+                <titulo>Resolución de 11 de enero de 2018, del Instituto de Salud Carlos III, O.A., M.P., por la que se publica el Convenio marco con la Fundación Geicam, Grupo Español de Investigación en Cáncer de Mama.</titulo>
+                <url_pdf szBytes="197073" szKBytes="192" pagina_inicial="16377" pagina_final="16382">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1805.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1805</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1805</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1806</identificador>
+                <control>2018/1660</control>
+                <titulo>Resolución de 25 de enero de 2018, de ICEX España Exportación e Inversiones, E.P.E., M.P., por la que se publica el Convenio con la Fundación Universidad Empresa de la Región de Murcia, para prácticas académicas externas para estudiantes de máster.</titulo>
+                <url_pdf szBytes="207849" szKBytes="203" pagina_inicial="16383" pagina_final="16389">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1806.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1806</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1806</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1807</identificador>
+                <control>2018/1746</control>
+                <titulo>Resolución de 1 de febrero de 2018, de la Presidencia de la Agencia Estatal de Investigación, por la que se publica el Convenio con la Fundación Lucha Contra la Ceguera, para la evaluación científico-técnica de ayudas a la investigación en retinosis pigmentaria Fundaluce 2017.</titulo>
+                <url_pdf szBytes="190452" szKBytes="186" pagina_inicial="16390" pagina_final="16394">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1807.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1807</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1807</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Entidades de seguros">
+              <item>
+                <identificador>BOE-A-2018-1808</identificador>
+                <control>2018/1745</control>
+                <titulo>Orden EIC/1357/2017, de 15 de diciembre, de autorización administrativa a la entidad Liberty Seguros, Compañía de Seguros y Reaseguros, SA, para ampliar la actividad aseguradora al ramo de decesos.</titulo>
+                <url_pdf szBytes="155935" szKBytes="152" pagina_inicial="16395" pagina_final="16395">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1808.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1808</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1808</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <epigrafe nombre="Ciudad de Melilla. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1809</identificador>
+                <control>2018/1349</control>
+                <titulo>Resolución de 26 de diciembre de 2017, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica el Convenio específico para el año 2017 con la Ciudad de Melilla.</titulo>
+                <url_pdf szBytes="170029" szKBytes="166" pagina_inicial="16396" pagina_final="16398">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1809.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1809</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1809</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma de Galicia. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1810</identificador>
+                <control>2018/1668</control>
+                <titulo>Resolución de 26 de diciembre de 2017, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica el Convenio específico para el año 2017 con la Comunidad Autónoma de Galicia.</titulo>
+                <url_pdf szBytes="170815" szKBytes="167" pagina_inicial="16399" pagina_final="16401">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1810.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1810</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1810</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma de la Región de Murcia. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1811</identificador>
+                <control>2018/1669</control>
+                <titulo>Resolución de 26 de diciembre de 2017, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica el Convenio específico para el año 2017 con la Comunidad Autónoma de la Región de Murcia.</titulo>
+                <url_pdf szBytes="170054" szKBytes="166" pagina_inicial="16402" pagina_final="16404">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1811.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1811</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1811</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma de La Rioja. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1812</identificador>
+                <control>2018/1350</control>
+                <titulo>Resolución de 26 de diciembre de 2017, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica el Convenio específico para el año 2017 con la Comunidad Autónoma de La Rioja.</titulo>
+                <url_pdf szBytes="169825" szKBytes="166" pagina_inicial="16405" pagina_final="16407">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1812.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1812</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1812</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma del País Vasco. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1813</identificador>
+                <control>2018/1670</control>
+                <titulo>Resolución de 26 de diciembre de 2017, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica el Convenio específico para el año 2017 con la Comunidad Autónoma del País Vasco.</titulo>
+                <url_pdf szBytes="171171" szKBytes="167" pagina_inicial="16408" pagina_final="16410">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1813.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1813</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1813</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad de Madrid. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1814</identificador>
+                <control>2018/1351</control>
+                <titulo>Resolución de 26 de diciembre de 2017, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica el Convenio específico para el año 2017 con la Comunidad de Madrid.</titulo>
+                <url_pdf szBytes="169784" szKBytes="166" pagina_inicial="16411" pagina_final="16413">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1814.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1814</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1814</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Foral de Navarra. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1815</identificador>
+                <control>2018/1671</control>
+                <titulo>Resolución de 26 de diciembre de 2017, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica el Convenio específico para el año 2017 con la Comunidad Foral de Navarra.</titulo>
+                <url_pdf szBytes="169514" szKBytes="166" pagina_inicial="16414" pagina_final="16416">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1815.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1815</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1815</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunitat Valenciana. Convenio">
+              <item>
+                <identificador>BOE-A-2018-1816</identificador>
+                <control>2018/1352</control>
+                <titulo>Resolución de 26 de diciembre de 2017, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica el Convenio específico para el año 2017 con la Comunitat Valenciana.</titulo>
+                <url_pdf szBytes="169867" szKBytes="166" pagina_inicial="16417" pagina_final="16419">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1816.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1816</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1816</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-1817</identificador>
+                <control>2018/1672</control>
+                <titulo>Resolución de 19 de enero de 2018, de la Secretaría General de Sanidad y Consumo, por la que se publica el Convenio marco con la Sociedad Española de Informática de la Salud, para impulsar la transformación digital del Sistema Nacional de Salud.</titulo>
+                <url_pdf szBytes="197249" szKBytes="193" pagina_inicial="16420" pagina_final="16425">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1817.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1817</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1817</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2018-1818</identificador>
+                <control>2018/1871</control>
+                <titulo>Resolución de 8 de febrero de 2018, del Banco de España, por la que se publican los cambios del euro correspondientes al día 8 de febrero de 2018, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="176782" szKBytes="173" pagina_inicial="16426" pagina_final="16426">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1818.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1818</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1818</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Préstamos hipotecarios. Índices">
+              <item>
+                <identificador>BOE-A-2018-1819</identificador>
+                <control>2018/1747</control>
+                <titulo>Resolución de 1 de febrero de 2018, del Banco de España, por la que se publican los índices y tipos de referencia aplicables para el cálculo del valor de mercado en la compensación por riesgo de tipo de interés de los préstamos hipotecarios, así como para el cálculo del diferencial a aplicar para la obtención del valor de mercado de los préstamos o créditos que se cancelan anticipadamente.</titulo>
+                <url_pdf szBytes="163038" szKBytes="159" pagina_inicial="16427" pagina_final="16427">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1819.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1819</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1819</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1040" nombre="COMISIÓN NACIONAL DEL MERCADO DE VALORES">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-1820</identificador>
+                <control>2018/1674</control>
+                <titulo>Resolución de 23 de enero de 2018, de la Comisión Nacional del Mercado de Valores, por la que se publica el Convenio de colaboración con el Banco de España, para la promoción y el desarrollo del Plan de Educación Financiera.</titulo>
+                <url_pdf szBytes="202915" szKBytes="198" pagina_inicial="16428" pagina_final="16434">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1820.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1820</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1820</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Homologaciones">
+              <item>
+                <identificador>BOE-A-2018-1821</identificador>
+                <control>2018/1749</control>
+                <titulo>Resolución de 20 de noviembre de 2017, de la Dirección General de Energía, Minas y Seguridad Industrial, del Departamento de Empresa y Conocimiento, de certificación del producto fabricado por Wenzhou Loffrey Sanitary Applliance Co., Td., con contraseña CGR-8621: grifería sanitaria.</titulo>
+                <url_pdf szBytes="169651" szKBytes="166" pagina_inicial="16435" pagina_final="16437">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1821.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1821</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1821</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1822</identificador>
+                <control>2018/1750</control>
+                <titulo>Resolución de 23 de noviembre de 2017, de la Dirección General de Energía, Minas y Seguridad Industrial, del Departamento de Empresa y Conocimiento, de certificación de productos fabricados por Airon, SRL, con contraseña CGR-8618: paneles solares prefabricados.</titulo>
+                <url_pdf szBytes="174356" szKBytes="170" pagina_inicial="16438" pagina_final="16440">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1822.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1822</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1822</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1823</identificador>
+                <control>2018/1751</control>
+                <titulo>Resolución de 27 de noviembre de 2017, de la Dirección General de Energía, Minas y Seguridad Industrial, del Departamento de Empresa y Conocimiento, de certificación del producto fabricado por Greenonetec Solarindustrie GmbH, con contraseña GPS-8623: panel solar.</titulo>
+                <url_pdf szBytes="188030" szKBytes="184" pagina_inicial="16441" pagina_final="16442">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1823.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1823</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1823</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1824</identificador>
+                <control>2018/1752</control>
+                <titulo>Resolución de 27 de noviembre de 2017, de la Dirección General de Energía, Minas y Seguridad Industrial, del Departamento de Empresa y Conocimiento, de certificación del producto fabricado por Greenonetec Solarindustrie GmbH, con contraseña GPS-8622: panel solar.</titulo>
+                <url_pdf szBytes="192553" szKBytes="188" pagina_inicial="16443" pagina_final="16444">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1824.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1824</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1824</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1825</identificador>
+                <control>2018/1753</control>
+                <titulo>Resolución de 27 de noviembre de 2017, de la Dirección General de Energía, Minas y Seguridad Industrial, del Departamento de Empresa y Conocimiento, de certificación del producto fabricado por Heshan City Sunwave Hardware Industry Company, con contraseña CGR-8625: grifería sanitaria.</titulo>
+                <url_pdf szBytes="176114" szKBytes="172" pagina_inicial="16445" pagina_final="16447">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1825.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1825</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1825</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1826</identificador>
+                <control>2018/1754</control>
+                <titulo>Resolución de 27 de noviembre de 2017, de la Dirección General de Energía, Minas y Seguridad Industrial, del Departamento de Empresa y Conocimiento, de certificación del producto fabricado por Heshan City Sunwave Hardware Industry Company, con contraseña CGR-8620: grifería sanitaria.</titulo>
+                <url_pdf szBytes="166163" szKBytes="162" pagina_inicial="16448" pagina_final="16449">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1826.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1826</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1826</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-1827</identificador>
+                <control>2018/1755</control>
+                <titulo>Resolución de 4 de diciembre de 2017, de la Dirección General de Energía, Minas y Seguridad Industrial, del Departamento de Empresa y conocimiento, de certificación del producto fabricado por Greenonetec Solarindustrie GmbH, con contraseña GPS-8624: panel solar.</titulo>
+                <url_pdf szBytes="190553" szKBytes="186" pagina_inicial="16450" pagina_final="16451">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1827.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1827</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1827</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <epigrafe nombre="Bienes de interés cultural">
+              <item>
+                <identificador>BOE-A-2018-1828</identificador>
+                <control>2018/1756</control>
+                <titulo>Decreto 214/2017, de 22 de diciembre, del Consell, por el que se declara bien de interés cultural inmaterial las Fiestas de la Venida de la Virgen de Elche.</titulo>
+                <url_pdf szBytes="211520" szKBytes="207" pagina_inicial="16452" pagina_final="16458">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-A-2018-1828.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-1828</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-1828</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2018-7422</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163541" szKBytes="160" pagina_inicial="9442" pagina_final="9442">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7422.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7422</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7422</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7423</identificador>
+              <titulo>MATARÓ</titulo>
+              <url_pdf szBytes="167233" szKBytes="163" pagina_inicial="9443" pagina_final="9443">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7423.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7423</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7423</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7424</identificador>
+              <titulo>SANT FELIU DE LLOBREGAT</titulo>
+              <url_pdf szBytes="165920" szKBytes="162" pagina_inicial="9444" pagina_final="9444">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7424.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7424</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7424</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7425</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="165577" szKBytes="162" pagina_inicial="9445" pagina_final="9445">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7425.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7425</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7425</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7426</identificador>
+              <titulo>TERRASSA</titulo>
+              <url_pdf szBytes="166600" szKBytes="163" pagina_inicial="9446" pagina_final="9446">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7426.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7426</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7426</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2018-7427</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="167221" szKBytes="163" pagina_inicial="9447" pagina_final="9447">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7427.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7427</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7427</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7428</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="167188" szKBytes="163" pagina_inicial="9448" pagina_final="9448">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7428.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7428</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7428</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7429</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="166916" szKBytes="163" pagina_inicial="9449" pagina_final="9449">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7429.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7429</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7429</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7430</identificador>
+              <titulo>BURGOS</titulo>
+              <url_pdf szBytes="164260" szKBytes="160" pagina_inicial="9450" pagina_final="9450">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7430.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7430</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7430</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7431</identificador>
+              <titulo>BURGOS</titulo>
+              <url_pdf szBytes="163650" szKBytes="160" pagina_inicial="9451" pagina_final="9451">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7431.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7431</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7431</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7432</identificador>
+              <titulo>CASTELLÓN DE LA PLANA</titulo>
+              <url_pdf szBytes="167743" szKBytes="164" pagina_inicial="9452" pagina_final="9452">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7432.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7432</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7432</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7433</identificador>
+              <titulo>LAS PALMAS DE GRAN CANARIA</titulo>
+              <url_pdf szBytes="166136" szKBytes="162" pagina_inicial="9453" pagina_final="9453">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7433.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7433</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7433</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7434</identificador>
+              <titulo>LUGO</titulo>
+              <url_pdf szBytes="162895" szKBytes="159" pagina_inicial="9454" pagina_final="9454">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7434.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7434</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7434</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7435</identificador>
+              <titulo>LUGO</titulo>
+              <url_pdf szBytes="162163" szKBytes="158" pagina_inicial="9455" pagina_final="9455">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7435.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7435</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7435</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7436</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="166177" szKBytes="162" pagina_inicial="9456" pagina_final="9456">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7436.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7436</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7436</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7437</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163017" szKBytes="159" pagina_inicial="9457" pagina_final="9457">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7437.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7437</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7437</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7438</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163019" szKBytes="159" pagina_inicial="9458" pagina_final="9458">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7438.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7438</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7438</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7439</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="162467" szKBytes="159" pagina_inicial="9459" pagina_final="9459">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7439.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7439</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7439</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7440</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="161761" szKBytes="158" pagina_inicial="9460" pagina_final="9460">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7440.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7440</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7440</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7441</identificador>
+              <titulo>PALMA DE MALLORCA</titulo>
+              <url_pdf szBytes="171055" szKBytes="167" pagina_inicial="9461" pagina_final="9462">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7441.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7441</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7441</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7442</identificador>
+              <titulo>PALMA DE MALLORCA</titulo>
+              <url_pdf szBytes="163606" szKBytes="160" pagina_inicial="9463" pagina_final="9463">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7442.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7442</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7442</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7443</identificador>
+              <titulo>PONTEVEDRA</titulo>
+              <url_pdf szBytes="164181" szKBytes="160" pagina_inicial="9464" pagina_final="9464">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7443.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7443</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7443</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7444</identificador>
+              <titulo>SAN SEBASTIÁN</titulo>
+              <url_pdf szBytes="166579" szKBytes="163" pagina_inicial="9465" pagina_final="9465">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7444.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7444</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7444</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7445</identificador>
+              <titulo>SAN SEBASTIÁN</titulo>
+              <url_pdf szBytes="163433" szKBytes="160" pagina_inicial="9466" pagina_final="9466">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7445.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7445</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7445</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7446</identificador>
+              <titulo>TARRAGONA</titulo>
+              <url_pdf szBytes="166518" szKBytes="163" pagina_inicial="9467" pagina_final="9467">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7446.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7446</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7446</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7447</identificador>
+              <titulo>TARRAGONA</titulo>
+              <url_pdf szBytes="162818" szKBytes="159" pagina_inicial="9468" pagina_final="9468">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7447.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7447</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7447</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7448</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="165963" szKBytes="162" pagina_inicial="9469" pagina_final="9469">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7448.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7448</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7448</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7449</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="165089" szKBytes="161" pagina_inicial="9470" pagina_final="9470">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7449.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7449</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7449</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7450</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="163389" szKBytes="160" pagina_inicial="9471" pagina_final="9471">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7450.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7450</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7450</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7451</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="163599" szKBytes="160" pagina_inicial="9472" pagina_final="9472">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7451.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7451</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7451</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7452</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="165587" szKBytes="162" pagina_inicial="9473" pagina_final="9473">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7452.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7452</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7452</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7453</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="163182" szKBytes="159" pagina_inicial="9474" pagina_final="9474">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7453.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7453</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7453</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7454</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="166715" szKBytes="163" pagina_inicial="9475" pagina_final="9475">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7454.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7454</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7454</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7455</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="166015" szKBytes="162" pagina_inicial="9476" pagina_final="9476">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7455.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7455</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7455</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7456</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="165557" szKBytes="162" pagina_inicial="9477" pagina_final="9477">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7456.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7456</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7456</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7457</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="164935" szKBytes="161" pagina_inicial="9478" pagina_final="9478">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7457.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7457</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7457</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7458</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="167969" szKBytes="164" pagina_inicial="9479" pagina_final="9479">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7458.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7458</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7458</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7459</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="163896" szKBytes="160" pagina_inicial="9480" pagina_final="9480">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7459.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7459</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7459</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Contratación del Sector Público">
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <item>
+              <identificador>BOE-B-2018-7460</identificador>
+              <titulo>Anuncio de corrección de errores de: Consorcio de la Zona Franca de Vigo. Objeto: Equipamiento de áreas de laboratorio y sala blanca en el E.T. Aeroespacial de Porto do Molle, dentro del "Cluster Transfronterizo de Biotecnología", cofinanciado por UE y FEDER en el marco del POCTEP. Expediente: SUM/17/0036.</titulo>
+              <url_pdf szBytes="170338" szKBytes="166" pagina_inicial="9481" pagina_final="9481">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7460.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7460</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7460</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7461</identificador>
+              <titulo>Anuncio de formalización de contratos de la Delegación Especial de la Agencia Tributaria en Valencia. Objeto: Climatización de Valencia. Expediente: 17B70104700.</titulo>
+              <url_pdf szBytes="173610" szKBytes="170" pagina_inicial="9482" pagina_final="9482">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7461.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7461</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7461</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7462</identificador>
+              <titulo>Anuncio de la Delegación de Economía y Hacienda en Cádiz de subasta de bienes inmuebles procedentes de expedientes abintestato de D. Enrique Soto Rodríguez, Dª Ana Álvarez Delgado y D. Diego Tienda Becerra, tramitados en la Delegación de Economía y Hacienda en Cádiz.</titulo>
+              <url_pdf szBytes="180027" szKBytes="176" pagina_inicial="9483" pagina_final="9484">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7462.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7462</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7462</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2018-7463</identificador>
+              <titulo>Anuncio de formalización de contratos de la Presidencia del Consejo de Administración de la Autoridad Portuaria de Barcelona (PORT DE BARCELONA). Objeto: Servicio de gestión integral de la red de alcantarillado de la Autoridad Portuaria de Barcelona. Expediente: RSC: 2017-00113.</titulo>
+              <url_pdf szBytes="174622" szKBytes="171" pagina_inicial="9485" pagina_final="9485">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7463.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7463</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7463</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7464</identificador>
+              <titulo>Anuncio de formalización de contratos de: Presidencia de la Autoridad Portuaria de Baleares. Objeto: Contrato de servicios: "Desarrollo e implantación de un software de alerta en zonas potencialmente críticas por la presencia de praderas de posidonia en la zona II de los puertos de la APB". Expediente: P.O.94.17.</titulo>
+              <url_pdf szBytes="173608" szKBytes="170" pagina_inicial="9486" pagina_final="9486">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7464.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7464</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7464</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7465</identificador>
+              <titulo>Anuncio de Renfe Operadora, S.A., por el que se comunica la licitación para la contratación del servicios de limpieza de trenes y locomotoras, dependencias de servicio y viajeros en estaciones, talleres, y oficinas del Grupo Renfe.</titulo>
+              <url_pdf szBytes="221519" szKBytes="216" pagina_inicial="9487" pagina_final="9495">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7465.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7465</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7465</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7466</identificador>
+              <titulo>Anuncio de formalización de contratos de la Presidencia de la Autoridad Portuaria de la Bahía de Algeciras. Objeto: Proyecto de mejora de las líneas de M.T. subterráneas 15kV entre los centros de transformación Dique Norte I y Dique Norte II, en la zona de Isla Verde del Puerto de Algeciras. Expediente: 2017-032.</titulo>
+              <url_pdf szBytes="175511" szKBytes="171" pagina_inicial="9496" pagina_final="9496">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7466.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7466</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7466</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7467</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de Alicante por la que se publica la formalización del contrato de suministro de energía eléctrica a las instalaciones de la Autoridad Portuaria de Alicante y sus faros.</titulo>
+              <url_pdf szBytes="171132" szKBytes="167" pagina_inicial="9497" pagina_final="9497">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7467.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7467</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7467</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2018-7468</identificador>
+              <titulo>Anuncio de licitación de: Gerencia del Museo Nacional Centro de Arte Reina Sofía. Objeto: Transporte de recogida y devolución de las obras de la exposición "Dorothea Tanning. Doors of Wonder". Expediente: 201800000002.</titulo>
+              <url_pdf szBytes="184585" szKBytes="180" pagina_inicial="9498" pagina_final="9499">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7468.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7468</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7468</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <item>
+              <identificador>BOE-B-2018-7469</identificador>
+              <titulo>Anuncio de la Dirección Provincial del Instituto Nacional de la Seguridad Social de Valencia por la que se fijan las fechas de celebración de los actos públicos de apertura de las ofertas correspondientes a la licitación de la redacción del proyecto y dirección de obras de renovación de la instalación de climatización de la Dirección Provincial.</titulo>
+              <url_pdf szBytes="167624" szKBytes="164" pagina_inicial="9500" pagina_final="9500">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7469.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7469</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7469</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7470</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Badajoz por la que se formaliza la contratación del Servicio de Vigilancia de todas las dependencias de Badajoz.</titulo>
+              <url_pdf szBytes="173012" szKBytes="169" pagina_inicial="9501" pagina_final="9501">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7470.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7470</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7470</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7471</identificador>
+              <titulo>Anuncio del Instituto Social de la Marina por el que se publica la formalización del contrato del servicio de vigilancia y seguridad de las sedes de las Direcciones Provinciales de Ceuta y Melilla (lotes 5 y 6).</titulo>
+              <url_pdf szBytes="173547" szKBytes="169" pagina_inicial="9502" pagina_final="9502">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7471.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7471</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7471</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9280" nombre="MINISTERIO DE AGRICULTURA Y PESCA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2018-7472</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Duero por el que se convoca licitación pública del contrato "Servicios de telecomunicaciones de la Confederación Hidrográfica del Duero".</titulo>
+              <url_pdf szBytes="183629" szKBytes="179" pagina_inicial="9503" pagina_final="9504">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7472.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7472</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7472</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9281" nombre="MINISTERIO DE ECONOMÍA, INDUSTRIA Y COMPETITIVIDAD">
+            <item>
+              <identificador>BOE-B-2018-7473</identificador>
+              <titulo>Anuncio de formalización de contratos de: Instituto Nacional de Estadística INE. Objeto: Mantenimiento de los productos EMC2 2017-2018. Expediente: 2017N3074075.</titulo>
+              <url_pdf szBytes="174017" szKBytes="170" pagina_inicial="9505" pagina_final="9505">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7473.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7473</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7473</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <item>
+              <identificador>BOE-B-2018-7474</identificador>
+              <titulo>Resolución de la Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta por la que se anuncia la licitación del contrato para Procedimientos Quirúrgicos de Espalda para el Área Sanitaria de Ceuta.</titulo>
+              <url_pdf szBytes="183521" szKBytes="179" pagina_inicial="9506" pagina_final="9507">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7474.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7474</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7474</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7475</identificador>
+              <titulo>Anuncio de licitación de la Dirección General de Ordenación Profesional. Objeto: Apoyo técnico revisión solicitudes acreditación centros, unidades y dispositivos docentes formación sanitaria especializada en ciencias de la salud. Expediente: 201812PA0001.</titulo>
+              <url_pdf szBytes="181765" szKBytes="178" pagina_inicial="9508" pagina_final="9509">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7475.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7475</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7475</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9534" nombre="COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA">
+            <item>
+              <identificador>BOE-B-2018-7476</identificador>
+              <titulo>Anuncio de formalización de contratos de: Presidencia de la Comisión Nacional de los Mercados y la Competencia. Objeto: Servicio de limpieza de las sedes de la CNMC en Madrid y Barcelona. Expediente: 170172.</titulo>
+              <url_pdf szBytes="173517" szKBytes="169" pagina_inicial="9510" pagina_final="9510">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7476.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7476</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7476</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2018-7477</identificador>
+              <titulo>Anuncio del Institut Català de la Salut por el que se convoca licitación pública para el suministro de material para recogida de fluidos corporales, para los centros del ICS y centros adheridos:Hospital de la Cerdanya, Gestió de Serveis Sanitaris de Lleida y Institut de Diagnòstics per la Imatge.</titulo>
+              <url_pdf szBytes="174390" szKBytes="170" pagina_inicial="9511" pagina_final="9511">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7477.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7477</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7477</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7478</identificador>
+              <titulo>Anuncio del Institut Català de la Salut por el que se convoca licitación pública para el suministro de cementos y sustitutos óseos.</titulo>
+              <url_pdf szBytes="173063" szKBytes="169" pagina_inicial="9512" pagina_final="9512">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7478.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7478</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7478</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7479</identificador>
+              <titulo>Anuncio del Institut Català de la Salut por el que se convoca licitación pública para el suministro de suturas mecánicas para cirugía abierta y endocirugía y otros complementos de cirugía para los centros del ICS.</titulo>
+              <url_pdf szBytes="173473" szKBytes="169" pagina_inicial="9513" pagina_final="9513">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7479.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7479</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7479</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7480</identificador>
+              <titulo>Anuncio del Institut Català de la Salut por el que se convoca licitación pública para el suministro de implantes auditivos-implante coclear.</titulo>
+              <url_pdf szBytes="172997" szKBytes="169" pagina_inicial="9514" pagina_final="9514">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7480.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7480</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7480</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7481</identificador>
+              <titulo>Anuncio del Consorci Sanitari Integral para la licitación del suministro del kit de perfusión intraperitoneal Hang&amp;Go, para el equipo Perfomer Ht de la marca Rand, para el Hospital Transversal del Consorci Sanitari Integral.</titulo>
+              <url_pdf szBytes="179433" szKBytes="175" pagina_inicial="9515" pagina_final="9516">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7481.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7481</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7481</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7482</identificador>
+              <titulo>Anuncio del Hospital Clínic de Barcelona sobre formalización de contrato de suministro Acuerdo Marco de homologación para el suministro de mobiliario de oficina.</titulo>
+              <url_pdf szBytes="173050" szKBytes="169" pagina_inicial="9517" pagina_final="9517">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7482.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7482</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7482</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8110" nombre="COMUNIDAD AUTÓNOMA DE LA RIOJA">
+            <item>
+              <identificador>BOE-B-2018-7483</identificador>
+              <titulo>Anuncio del Servicio Riojano de Salud por el que se comunica la formalización del contrato del suministro de prótesis vasculares y material fungible para el Servicio de Angiología y Cirugía Vascular del SERIS.</titulo>
+              <url_pdf szBytes="174833" szKBytes="171" pagina_inicial="9518" pagina_final="9518">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7483.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7483</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7483</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7484</identificador>
+              <titulo>Anuncio del Servicio Riojano de Salud por el que se comunica la formalización del contrato del suministro de pescados, verduras y otros productos congelados para la Cocina Central del SERIS.</titulo>
+              <url_pdf szBytes="172341" szKBytes="168" pagina_inicial="9519" pagina_final="9519">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7484.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7484</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7484</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7485</identificador>
+              <titulo>Anuncio del Servicio Riojano de Salud por el que se comunica la formalización del contrato del suministro de tiras para la determinación de glucosa en sangre para uso profesional para el SERIS.</titulo>
+              <url_pdf szBytes="171843" szKBytes="168" pagina_inicial="9520" pagina_final="9520">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7485.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7485</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7485</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7486</identificador>
+              <titulo>Anuncio del Servicio de Coordinación y Contratación Centralizada de la Consejería de Administración Pública y Hacienda por el que se comunica la formalización de la Contratación de una póliza de seguro que cubra los daños materiales producidos en los bienes inmuebles de la Comunidad Autónoma de La Rioja.</titulo>
+              <url_pdf szBytes="173741" szKBytes="170" pagina_inicial="9521" pagina_final="9521">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7486.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7486</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7486</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8100" nombre="COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA">
+            <item>
+              <identificador>BOE-B-2018-7487</identificador>
+              <titulo>Anuncio del Servicio Murciano de Salud por el que se convoca licitación pública del servicio de administración de servidores de aplicaciones y otros sistemas del Servicio Murciano de Salud.</titulo>
+              <url_pdf szBytes="179918" szKBytes="176" pagina_inicial="9522" pagina_final="9523">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7487.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7487</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7487</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8060" nombre="COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA">
+            <item>
+              <identificador>BOE-B-2018-7488</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección Gerencia del Servicio de Salud de Castilla-La Mancha. Objeto: Suministro de Seis Arcos Quirurgicos Convencionales para diversos Hospitales del Servicio de Salud de Castilla-La Mancha (6101TO17SUM00003). Expediente: 2017/002903.</titulo>
+              <url_pdf szBytes="176863" szKBytes="173" pagina_inicial="9524" pagina_final="9524">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7488.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7488</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7488</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8030" nombre="COMUNIDAD AUTÓNOMA DE CANARIAS">
+            <item>
+              <identificador>BOE-B-2018-7489</identificador>
+              <titulo>Anuncio de la Consejería de Empleo, Políticas Sociales y Vivienda relativo a la formalización del servicio de vigilancia y protección de centros de internamiento educativo para menores infractores de Canarias.</titulo>
+              <url_pdf szBytes="173270" szKBytes="169" pagina_inicial="9525" pagina_final="9525">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7489.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7489</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7489</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7490</identificador>
+              <titulo>Anuncio de la Dirección General de Recursos Económicos del Servicio Canario de la Salud por el que se hace pública la formalización del contrato para el suministro con instalación y mantenimiento posterior al periodo de garantía de una resonancia magnética con destino al Complejo Hospitalario Universitario Insular Materno - Infantil.</titulo>
+              <url_pdf szBytes="173983" szKBytes="170" pagina_inicial="9526" pagina_final="9526">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7490.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7490</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7490</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7491</identificador>
+              <titulo>Anuncio de la Dirección General de Recursos Económicos del Servicio Canario de la Salud por el que se hace pública la formalización de los lotes n.º 1, 2, 3 y 4 para el suministro de 150 sistemas de ventilación mecánica con destino a diversos hospitales dependientes del Servicio Canario de la Salud.</titulo>
+              <url_pdf szBytes="174040" szKBytes="170" pagina_inicial="9527" pagina_final="9527">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7491.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7491</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7491</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8121" nombre="COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS">
+            <item>
+              <identificador>BOE-B-2018-7492</identificador>
+              <titulo>Anuncio de formalización de contratos del Servicio de Salud de las Illes Balears. Objeto: Servicio de Catering para la alimentación del personal de los dispositivos de urgencias de la Gerencia de Atención Primaria de Mallorca. Expediente: PA 252/17.</titulo>
+              <url_pdf szBytes="174791" szKBytes="171" pagina_inicial="9528" pagina_final="9528">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7492.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7492</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7492</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7493</identificador>
+              <titulo>Anuncio de la Consejería de Hacienda y Administraciones Públicas por el que se publica la formalización del contrato de servicios de mantenimiento del Sistema de Gestión Económico-Fianciero de la Comunidad Autónoma de las Illes Balears.</titulo>
+              <url_pdf szBytes="174178" szKBytes="170" pagina_inicial="9529" pagina_final="9529">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7493.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7493</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7493</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7494</identificador>
+              <titulo>Anuncio del Fondo de Garantía Agraria y Pesquera de las Islas Baleares de formalización del contrato de servicio de desarrollo de los sistemas de información necesarios para gestionar la política agrícola común que no forman parte del alcance del sistema SGA desarrollado por el FEGA.</titulo>
+              <url_pdf szBytes="173589" szKBytes="170" pagina_inicial="9530" pagina_final="9530">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7494.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7494</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7494</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8131" nombre="COMUNIDAD DE MADRID">
+            <item>
+              <identificador>BOE-B-2018-7495</identificador>
+              <titulo>Anuncio de la Secretaría General Técnica de la Consejería de Políticas Sociales y Familia por la que se amplía el plazo de presentación de solicitudes en el expediente de contratación 005/2018, denominado: «Centro especializado de intervención en abuso sexual infantil (CIASI)».</titulo>
+              <url_pdf szBytes="170679" szKBytes="167" pagina_inicial="9531" pagina_final="9531">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7495.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7495</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7495</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7496</identificador>
+              <titulo>Anuncio de la Agencia Madrileña de Atención Social, relativo a la formalización del contrato denominado «Servicios auxiliares en 18 Centros adscritos a la Agencia Madrileña de Atención Social».</titulo>
+              <url_pdf szBytes="171434" szKBytes="167" pagina_inicial="9532" pagina_final="9532">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7496.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7496</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7496</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7497</identificador>
+              <titulo>Resolución de la Viceconsejería de Sanidad y Dirección General del Servicio Madrileño de Salud, por la que se hace pública la licitación del Suministro de medicamentos (19 lotes) para los Hospitales dependientes del Servicio Madrileño de Salud.</titulo>
+              <url_pdf szBytes="184996" szKBytes="181" pagina_inicial="9533" pagina_final="9534">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7497.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7497</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7497</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7498</identificador>
+              <titulo>Anuncio de formalización, de la Dirección Gerencia del Hospital Clínico San Carlos de Madrid, para el suministro de Toallitas Antisépticas para el Hospital Clínico San Carlos.</titulo>
+              <url_pdf szBytes="174083" szKBytes="170" pagina_inicial="9535" pagina_final="9535">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7498.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7498</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7498</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9531" nombre="COMUNIDAD DE CASTILLA Y LEÓN">
+            <item>
+              <identificador>BOE-B-2018-7499</identificador>
+              <titulo>Resolución de la Gerencia Regional de Salud de Castilla y León, por la que se anuncia la licitación para la contratación de la cesión de uso temporal de una herramienta de gestión de los servicios informáticos y sistemas de tecnologías de la información y comunicaciones de la Gerencia Regional de Salud de Castilla y León.</titulo>
+              <url_pdf szBytes="188548" szKBytes="184" pagina_inicial="9536" pagina_final="9538">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7499.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7499</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7499</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7500</identificador>
+              <titulo>Resolución de la Gerencia Regional de Salud de Castilla y León por la que se anuncia la licitación para la contratación del suministro de oxígeno medicinal en botella, con destino a los Centros Sanitarios dependientes de la Gerencia Regional de Salud de Castilla y León.</titulo>
+              <url_pdf szBytes="188334" szKBytes="184" pagina_inicial="9539" pagina_final="9541">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7500.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7500</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7500</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2018-7501</identificador>
+              <titulo>Anuncio de formalización de contratos de la Junta de Gobierno de la Diputación Provincial de León. Objeto: Suministro de áridos y servicio de alquiler de maquinaria para conservación de la red provincial de carreteras de León - 4 lotes. Expediente: 31/2017.</titulo>
+              <url_pdf szBytes="184875" szKBytes="181" pagina_inicial="9542" pagina_final="9544">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7501.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7501</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7501</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7502</identificador>
+              <titulo>Anuncio de formalización de contratos de la Junta de Gobierno Lucena. Objeto: Suministro de materiales de construcción, para la ejecución de obras municipales, de la Delegación de Obras e Infraestructuras del Ayuntamiento de Lucena. Expediente: SU-12/17.</titulo>
+              <url_pdf szBytes="177337" szKBytes="173" pagina_inicial="9545" pagina_final="9546">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7502.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7502</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7502</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7503</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Gobierno del Ayuntamiento de Málaga. Objeto: Suministro e instalación de elementos de juego infantil en Parque Litoral, El Cónsul y Plaza de las Cofradías y del pavimento de seguridad de estas áreas. Expediente: 145/17.</titulo>
+              <url_pdf szBytes="179342" szKBytes="175" pagina_inicial="9547" pagina_final="9548">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7503.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7503</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7503</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7504</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Gobierno del Ayuntamiento de Bárcena de Cicero. Objeto: Renovación del alumbrado público municipal en los núcleos de Ambrosero, Gama y Moncalián. Expediente: 822/2017.</titulo>
+              <url_pdf szBytes="174939" szKBytes="171" pagina_inicial="9549" pagina_final="9549">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7504.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7504</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7504</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7505</identificador>
+              <titulo>Anuncio del ayuntamiento de Sabadell sobre la corrección de la licitación del "Servicio de telecomunicaciones de l' Ajuntament de Sabadell y sus organismos autónomos para el periodo 2018 - 2020".</titulo>
+              <url_pdf szBytes="168104" szKBytes="164" pagina_inicial="9550" pagina_final="9550">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7505.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7505</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7505</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7506</identificador>
+              <titulo>Anuncio del Ayuntamiento de Leganés por el que se hace pública la declaración de desierto del contrato del servicio de "reparto mediante buzoneo del periódico de información municipal".</titulo>
+              <url_pdf szBytes="166034" szKBytes="162" pagina_inicial="9551" pagina_final="9551">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7506.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7506</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7506</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7507</identificador>
+              <titulo>Anuncio de la Diputación Foral de Álava de Información complementaria relativo al contrato de servicios de "Equipo de maquinaria para trabajos de construcción de infraestructuras de protección de incendios en el Territorio Histórico de Álava".</titulo>
+              <url_pdf szBytes="166392" szKBytes="162" pagina_inicial="9552" pagina_final="9552">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7507.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7507</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7507</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7508</identificador>
+              <titulo>Resolución del Ayuntamiento de Madrid, distrito de Moratalaz, por la que se anuncia la formalización del contrato de servicios denominado Vigilancia y Seguridad de Polideportivos y Centros Culturales del Distrito de Moratalaz 2017.</titulo>
+              <url_pdf szBytes="171841" szKBytes="168" pagina_inicial="9553" pagina_final="9553">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7508.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7508</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7508</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7509</identificador>
+              <titulo>Resolución del Coordinador del Distrito de Tetuán del Ayuntamiento de Madrid por la que se hace pública la formalización del contrato denominado «Vigilancia y seguridad de los edificios y otras dependencias del Distrito de Tetuán».</titulo>
+              <url_pdf szBytes="173370" szKBytes="169" pagina_inicial="9554" pagina_final="9554">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7509.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7509</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7509</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7510</identificador>
+              <titulo>Anuncio del Ayuntamiento de Ogíjares (Granada) por el que se convoca licitación pública del contrato de recogida y transporte de residuos sólidos urbanos, limpieza de puntos de contenerización y control de vertidos incontrolados, recogida y transporte de voluminosos y podas y servicio diferenciado para la recogida separada y transporte de las fracciones papel-cartón y envases ligeros.</titulo>
+              <url_pdf szBytes="183673" szKBytes="179" pagina_inicial="9555" pagina_final="9556">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7510.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7510</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7510</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7511</identificador>
+              <titulo>Anuncio del Concello de Ferrol, de formalización del contrato administrativo correspondiente a la suministración de energía eléctrica en los suministros dependientes del Concello de Ferrol.</titulo>
+              <url_pdf szBytes="171493" szKBytes="167" pagina_inicial="9557" pagina_final="9557">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7511.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7511</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7511</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7512</identificador>
+              <titulo>Anuncio del Instituto Municipal de Deportes de Santurtzi, Organismo Autónomo del Ayuntamiento de Santurtzi, por el que se convoca licitación pública para la sustitución del césped artificial de los campos de fútbol de San Jorge y San Pedro.</titulo>
+              <url_pdf szBytes="182936" szKBytes="179" pagina_inicial="9558" pagina_final="9559">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7512.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7512</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7512</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7513</identificador>
+              <titulo>Anuncio del Concello de Ferrol, de formalización del contrato administrativo correspondiente al «Servicio de limpieza de colegios públicos de enseñanza infantil y primaria, edificios e instalaciones municipales».</titulo>
+              <url_pdf szBytes="172405" szKBytes="168" pagina_inicial="9560" pagina_final="9560">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7513.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7513</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7513</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7514</identificador>
+              <titulo>Anuncio del Ayuntamiento de Los Alcázares (Murcia), por el que se convoca licitación pública del contrato mixto de suministro, servicios energéticos y mantenimiento con garantía total de los edificios e instalaciones de titularidad del Ayuntamiento de Los Alcázares.</titulo>
+              <url_pdf szBytes="182920" szKBytes="179" pagina_inicial="9561" pagina_final="9562">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7514.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7514</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7514</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7515</identificador>
+              <titulo>Anuncio del Ayuntamiento de Huelva por el que se convoca licitación pública para la contratación del suministro de carburante para vehículos del parque móvil municipal del Excmo. Ayuntamiento de Huelva.</titulo>
+              <url_pdf szBytes="181732" szKBytes="177" pagina_inicial="9563" pagina_final="9564">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7515.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7515</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7515</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7516</identificador>
+              <titulo>Anuncio del Ayuntamiento de Sabiñánigo de formalización del contrato de limpieza de Edificios Municipales.</titulo>
+              <url_pdf szBytes="172781" szKBytes="169" pagina_inicial="9565" pagina_final="9565">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7516.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7516</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7516</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7517</identificador>
+              <titulo>Anuncio de formalización de contratos de la Presidencia de la Diputación Provincial de Valencia. Objeto: Apoyo técnico para la elaboración y desarrollo de los programas de seguridad vial 2017-2019 del Área de Carreteras e Infraestructuras de la Diputación de Valencia. Expediente: T-768.</titulo>
+              <url_pdf szBytes="174593" szKBytes="171" pagina_inicial="9566" pagina_final="9566">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7517.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7517</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7517</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7518</identificador>
+              <titulo>Anuncio de la Diputación de Barcelona de formalización del contrato de mantenimiento y soporte técnico de los servidores Hewlett-Packard.</titulo>
+              <url_pdf szBytes="172205" szKBytes="168" pagina_inicial="9567" pagina_final="9567">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7518.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7518</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7518</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7519</identificador>
+              <titulo>Anuncio de la Diputación de Barcelona de formalización de contrato de mantenimiento de los Servidores OPAC (Online Public Access Catalog), "Internet y +", y monedero de la Xarxa de Biblioteques de la Diputación de Barcelona.</titulo>
+              <url_pdf szBytes="173837" szKBytes="170" pagina_inicial="9568" pagina_final="9568">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7519.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7519</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7519</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7520</identificador>
+              <titulo>Anuncio del Instituto Municipal de Informática de Barcelona para formalizar el contrato que tiene por objeto los servicios informáticos para el análisis funcional con experiencia de usuario de sistemas de información parala atención al ciudadano y para la gestión, el seguimiento y la prescripción de recursos para los profesionales del Área de Derechos Sociales.</titulo>
+              <url_pdf szBytes="172962" szKBytes="169" pagina_inicial="9569" pagina_final="9569">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7520.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7520</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7520</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7521</identificador>
+              <titulo>Anuncio del Instituto Municipal de Informática de Barcelona de formalización del contrato para el suministro, configuración e instalación del nuevo equipamiento para la red de Telecomunicaciones del Ayuntamiento de Barcelona.</titulo>
+              <url_pdf szBytes="172299" szKBytes="168" pagina_inicial="9570" pagina_final="9570">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7521.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7521</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7521</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7522</identificador>
+              <titulo>Anuncio de corrección de errores del Ayuntamiento de Vigo, Organismo Autónomo Gerencia Municipal de Urbanismo, para la licitación del servicio de redacción de la revisión del Plan General de Ordenación Municipal y actualización cartográfica del Ayuntamiento de Vigo.</titulo>
+              <url_pdf szBytes="166380" szKBytes="162" pagina_inicial="9571" pagina_final="9571">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7522.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7522</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7522</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2018-7523</identificador>
+              <titulo>Anuncio de formalización de contratos del Rectorado de la Universidad de Sevilla. Objeto: Servicios de limpieza en el Colegio Mayor Hernando Colón. Expediente: 16/21102.</titulo>
+              <url_pdf szBytes="173331" szKBytes="169" pagina_inicial="9572" pagina_final="9572">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7523.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7523</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7523</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2018-7524</identificador>
+              <titulo>Anuncio de formalización de Asepeyo, Mutua Colaboradora con la Seguridad Social núm 151, del contrato para el servicio de mantenimiento del hardware de Asepeyo, Mutua Colaboradora con la Seguridad Social, núm 151.</titulo>
+              <url_pdf szBytes="175301" szKBytes="171" pagina_inicial="9573" pagina_final="9573">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7524.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7524</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7524</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7525</identificador>
+              <titulo>Anuncio de Renfe Fabricación y Mantenimiento Sociedad Mercantil Estatal, S.A. por el que se comunica la licitación para la contratación del Servicio integral de administración de sistemas basados en plataformas tecnológicas.</titulo>
+              <url_pdf szBytes="198893" szKBytes="194" pagina_inicial="9574" pagina_final="9578">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7525.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7525</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7525</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7526</identificador>
+              <titulo>Anuncio de la Mutua Universal Mugenat, Mutua Colaboradora con la Seguridad Social, nº10, de formalización del contrato del servicio de agencia de viajes.</titulo>
+              <url_pdf szBytes="172692" szKBytes="169" pagina_inicial="9579" pagina_final="9579">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7526.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7526</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7526</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7527</identificador>
+              <titulo>Anuncio de la Mutua Universal Mugenat Mutua Colaboradora con la Seguridad Social, n.º 10 de formalización del contrato de servicio de limpieza de los centros ubicados en la comunidad de Valencia y Alicante.</titulo>
+              <url_pdf szBytes="172938" szKBytes="169" pagina_inicial="9580" pagina_final="9580">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7527.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7527</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7527</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7528</identificador>
+              <titulo>Anuncio de Aena S.M.E., S.A., de corrección de errores correspondiente a la licitación para la contratación de la asistencia técnica diseño oferta comercial y actuaciones remodelación zonas comerciales T4 y T4S del Aeropuerto Adolfo Suárez Madrid-Barajas.</titulo>
+              <url_pdf szBytes="166429" szKBytes="163" pagina_inicial="9581" pagina_final="9581">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7528.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7528</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7528</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7529</identificador>
+              <titulo>Anuncio de Aena S.M.E., S.A., de corrección de errores correspondiente a la licitación para la contratación de la asistencia técnica diseño oferta comercial y actuaciones remodelación zonas comerciales T1 y T2 del Aeropuerto Adolfo Suárez Madrid-Barajas.</titulo>
+              <url_pdf szBytes="166524" szKBytes="163" pagina_inicial="9582" pagina_final="9582">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7529.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7529</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7529</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7530</identificador>
+              <titulo>Resolución de Aena S.M.E., S.A., por la que se convoca la licitación para la contratación del Servicio de mantenimiento del sistema integrado de control de accesos del Aeropuerto de Bilbao.</titulo>
+              <url_pdf szBytes="175890" szKBytes="172" pagina_inicial="9583" pagina_final="9584">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7530.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7530</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7530</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <item>
+              <identificador>BOE-B-2018-7531</identificador>
+              <titulo>Acuerdo de la Dirección General de Patrimonio del Estado para el inicio de un expediente de investigación, sobre la posible propiedad patrimonial de la Administración General del Estado, de un inmueble sito en Sant Celoni.</titulo>
+              <url_pdf szBytes="169266" szKBytes="165" pagina_inicial="9585" pagina_final="9585">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7531.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7531</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7531</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2018-7532</identificador>
+              <titulo>Anuncio de ADIF por el que se somete a información pública, a efectos de declaración de la necesidad de ocupación, el "Proyecto de construcción para la implantación del ancho estándar en el Corredor Mediterráneo. Subtramo: Castellbisbal-Martorell".</titulo>
+              <url_pdf szBytes="444707" szKBytes="434" pagina_inicial="9586" pagina_final="9590">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7532.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7532</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7532</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9280" nombre="MINISTERIO DE AGRICULTURA Y PESCA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2018-7533</identificador>
+              <titulo>Extracto de la Resolución de 2 de febrero de 2018, del Fondo Español de Garantía Agraria O. A. (FEGA), por la que se convocan ayudas a las actividades de demostración y las acciones de información, en el marco del Programa Nacional de Desarrollo Rural 2014-2020, para el fomento de la integración de entidades asociativas agroalimentarias de carácter supraautonómico.</titulo>
+              <url_pdf szBytes="177752" szKBytes="174" pagina_inicial="9591" pagina_final="9592">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7533.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7533</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7533</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7534</identificador>
+              <titulo>Extracto de la Resolución de 2 de febrero de 2018, del Fondo Español de Garantía Agraria O.A., por la que se convocan ayudas a la cooperación para planteamientos conjuntos con respecto a proyectos medioambientales y prácticas medioambientales en curso, en el marco del Programa Nacional de Desarrollo Rural 2014-2020.</titulo>
+              <url_pdf szBytes="178175" szKBytes="174" pagina_inicial="9593" pagina_final="9594">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7534.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7534</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7534</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7535</identificador>
+              <titulo>Extracto de la Resolución de 2 de febrero de 2018, del Fondo Español de Garantía Agraria O.A., por la que se convocan ayudas a la cooperación para el suministro sostenible de biomasa en el marco del Programa Nacional de Desarrollo Rural 2014-2020.</titulo>
+              <url_pdf szBytes="177640" szKBytes="173" pagina_inicial="9595" pagina_final="9596">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7535.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7535</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7535</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7536</identificador>
+              <titulo>Extracto de la Resolución de 2 de febrero de 2018, del Fondo Español de Garantía Agraria O.A. (FEGA), por la que se convocan ayudas para el apoyo a las acciones de formación profesional y adquisición de competencias en el marco del Programa Nacional de Desarrollo Rural 2014-2020, para el fomento de la integración de entidades asociativas agroalimentarias de carácter supraautonómico.</titulo>
+              <url_pdf szBytes="177354" szKBytes="173" pagina_inicial="9597" pagina_final="9598">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7536.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7536</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7536</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9277" nombre="MINISTERIO DE LA PRESIDENCIA Y PARA LAS ADMINISTRACIONES TERRITORIALES">
+            <item>
+              <identificador>BOE-B-2018-7537</identificador>
+              <titulo>Anuncio de la Delegación del Gobierno en la Comunidad Valenciana por el que se convoca el levantamiento de actas de pago de determinadas fincas afectadas por el proyecto de instalaciones "Gasoducto entre la planta de recepción, almacenamiento y regasificación de gas natural licuado de Sagunto y la red básica de gasoductos, en el término municipal de Sagunto, provincia de Valencia" (Expediente 371,09-01-02).</titulo>
+              <url_pdf szBytes="206071" szKBytes="201" pagina_inicial="9599" pagina_final="9600">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7537.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7537</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7537</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2018-7538</identificador>
+              <titulo>Anuncio de la Dirección General de Energía, Minas y Seguridad Industrial del Departamento de Empresa y Conocimiento por el cual se publica la Resolución de autorización de aprovechamiento y de un perímetro de protección para el agua mineral natural Santa Anna, en el término municipal de Espinelves (Girona).</titulo>
+              <url_pdf szBytes="175233" szKBytes="171" pagina_inicial="9601" pagina_final="9601">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7538.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7538</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7538</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8030" nombre="COMUNIDAD AUTÓNOMA DE CANARIAS">
+            <item>
+              <identificador>BOE-B-2018-7539</identificador>
+              <titulo>Anuncio de información pública de la Dirección General de Industria y Energía relativo a la solicitud de autorización administrativa y de declaración, en concreto, de utilidad pública de la instalación Planta Fotovoltaica La Sal, en el término municipal de Telde (ER17/0129).</titulo>
+              <url_pdf szBytes="189975" szKBytes="186" pagina_inicial="9602" pagina_final="9603">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7539.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7539</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7539</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7540</identificador>
+              <titulo>Anuncio de la Dirección General de Industria y Energía del Gobierno de Canarias por el que se convoca el levantamiento de actas previas a la ocupación para la ejecución de los proyectos de las instalaciones eléctricas denominadas "Saneamiento de la Línea de Alta Tensión 66kV Barranco Seco - Arucas" y "Nueva Subestación Eléctrica de Barranco Calderina a 66 kV (Nueva Barranco Seco)", Nos de Expedientes:AT03r194, AT03/194 y AT14/098.</titulo>
+              <url_pdf szBytes="300311" szKBytes="293" pagina_inicial="9604" pagina_final="9607">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7540.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7540</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7540</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8180" nombre="CIUDAD DE CEUTA">
+            <item>
+              <identificador>BOE-B-2018-7541</identificador>
+              <titulo>Anuncio del Servicio de Industria y Energía de la Ciudad Autónoma de Ceuta de información pública sobre solicitud de autorización administrativa previa, utilidad pública y de construcción para la instalación de un nuevo centro de seccionamiento denominado "Mercadona Almadraba" y trazado de línea eléctrica subterránea de media tensión de 15 kV comprendida entre este nuevo centro de seccionamiento y el ya existente C.S. "Reyes Católicos".</titulo>
+              <url_pdf szBytes="173928" szKBytes="170" pagina_inicial="9608" pagina_final="9608">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7541.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7541</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7541</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7542</identificador>
+              <titulo>Resolución del Servicio de Industria y Energía de la Ciudad Autónoma de Ceuta sobre autorización administrativa previa, declaración de utilidad pública y autorización administrativa de construcción, para la instalación de una doble línea subterránea de media tensión entre los C.T. "Príncipe I" – cámara de empalme en calle San Daniel – C.T. "Polígono Industrial Tarajal II".</titulo>
+              <url_pdf szBytes="177262" szKBytes="173" pagina_inicial="9609" pagina_final="9610">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7542.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7542</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7542</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2018-7543</identificador>
+              <titulo>Anuncio de la Escuela Técnica Superior de Ingeniería y Sistemas de Telecomunicación de la Universidad Politécnica de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="165384" szKBytes="162" pagina_inicial="9611" pagina_final="9611">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7543.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7543</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7543</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7544</identificador>
+              <titulo>Anuncio de la Escuela Técnica Superior de Edificación de la Universidad Politécnica de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="165471" szKBytes="162" pagina_inicial="9612" pagina_final="9612">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7544.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7544</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7544</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7545</identificador>
+              <titulo>Anuncio de la Facultad de Economía y Empresa de la Universidad de Barcelona sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="164533" szKBytes="161" pagina_inicial="9613" pagina_final="9613">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7545.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7545</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7545</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7546</identificador>
+              <titulo>Anuncio de la Universidad de Valladolid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="163886" szKBytes="160" pagina_inicial="9614" pagina_final="9614">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7546.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7546</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7546</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7547</identificador>
+              <titulo>Anuncio del CES Don Bosco adscrito a la Facultad de Educación Centro de Formación del Profesorado de la Universidad Complutense de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="165463" szKBytes="162" pagina_inicial="9615" pagina_final="9615">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7547.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7547</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7547</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2018-7548</identificador>
+              <titulo>Anuncio de la Sección de Máster y Doctorado de la Universidad del País Vasco/Euskal Herriko Unibertsitatea sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="165512" szKBytes="162" pagina_inicial="9616" pagina_final="9616">https://www.boe.es/boe/dias/2018/02/09/pdfs/BOE-B-2018-7548.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-7548</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-7548</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

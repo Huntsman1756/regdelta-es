@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20130802</fecha_publicacion>
+      </metadatos>
+      <diario numero="184">
+        <sumario_diario>
+          <identificador>BOE-S-2013-184</identificador>
+          <url_pdf szBytes="255218" szKBytes="249">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-S-2013-184.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="7786" nombre="PRESIDENCIA DEL GOBIERNO">
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2013-8506</identificador>
+                <control>2013/8524</control>
+                <titulo>Real Decreto 571/2013, de 26 de julio, de modificación del Real Decreto 83/2012, de 13 de enero, por el que se reestructura la Presidencia del Gobierno.</titulo>
+                <url_pdf szBytes="157500" szKBytes="154" pagina_inicial="56248" pagina_final="56250">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8506.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8506</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8506</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Acuerdos internacionales">
+              <item>
+                <identificador>BOE-A-2013-8507</identificador>
+                <control>2013/8347</control>
+                <titulo>Acuerdo sobre el mantenimiento de reservas de petróleo crudo y productos petrolíferos almacenadas en el territorio de España entre el Gobierno del Reino de España y el Gobierno de la República de Malta, hecho en Madrid el 18 de junio de 2013.</titulo>
+                <url_pdf szBytes="175372" szKBytes="171" pagina_inicial="56251" pagina_final="56255">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8507.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8507</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8507</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Cuerpos de funcionarios docentes">
+              <item>
+                <identificador>BOE-A-2013-8508</identificador>
+                <control>2013/8571</control>
+                <titulo>Real Decreto 516/2013, de 5 de julio, por el que se modifica el Real Decreto 336/2010, de 19 de marzo, por el que se establecen las especialidades de los Cuerpos de Catedráticos y de Profesores de Escuelas Oficiales de Idiomas.</titulo>
+                <url_pdf szBytes="150227" szKBytes="147" pagina_inicial="56256" pagina_final="56257">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8508.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8508</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8508</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1430" nombre="TRIBUNAL SUPREMO">
+            <epigrafe nombre="Autos">
+              <item>
+                <identificador>BOE-A-2013-8509</identificador>
+                <control>2013/8526</control>
+                <titulo>Auto de 5 de junio de 2013, de la Sala Tercera del Tribunal Supremo, por el que se declara que, de modo cautelar y en tanto se dicte sentencia: la intervención de la Subdirección del Gobierno de Lleida y los informes preceptivos de la Generalidad de Cataluña, establecida por el Real Decreto 1422/2012, de 5 de octubre, por el que se establecen las servidumbres aeronáuticas del aeropuerto de Lleida-Alguaire, se referirá exclusivamente a los municipios incluidos en el territorio de la Comunidad Autónoma de Cataluña, ciñendo su actuación a su ámbito territorial propio; y la intervención contemplada en los artículos 5 y 6 impugnados, debe ser complementada en el sentido de que en todo aquello que atañe a los municipios ubicados en el territorio de la Comunidad Autónoma de Aragón, deberá realizarse a través de la Subdelegación de Gobierno de Huesca y como es lógico, los informes preceptivos habrán de emitirse por los órganos correspondientes de la Comunidad Autónoma de Aragón.</titulo>
+                <url_pdf szBytes="143923" szKBytes="141" pagina_inicial="56258" pagina_final="56258">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8509.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8509</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8509</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Valores negociables. Declaración de operaciones">
+              <item>
+                <identificador>BOE-A-2013-8510</identificador>
+                <control>2013/8527</control>
+                <titulo>Circular 3/2013, de 29 de julio, del Banco de España, sobre declaración de operaciones y saldos en valores negociables.</titulo>
+                <url_pdf szBytes="153171" szKBytes="150" pagina_inicial="56259" pagina_final="56261">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8510.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8510</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8510</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2013-8511</identificador>
+                <control>2013/8355</control>
+                <titulo>Resolución de 15 de julio de 2013, de la Dirección General de los Registros y del Notariado, por la que se jubila a don Luis Miguel Solano Aguayo, registrador de la propiedad de Tui.</titulo>
+                <url_pdf szBytes="135191" szKBytes="132" pagina_inicial="56262" pagina_final="56262">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8511.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8511</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8511</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8512</identificador>
+                <control>2013/8356</control>
+                <titulo>Resolución de 15 de julio de 2013, de la Dirección General de los Registros y del Notariado, por la que se jubila a don Salvador Guerrero Toledo, registrador de la propiedad de Sanlúcar la Mayor nº. 1.</titulo>
+                <url_pdf szBytes="135407" szKBytes="132" pagina_inicial="56263" pagina_final="56263">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8512.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8512</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8512</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2013-8513</identificador>
+                <control>2013/8419</control>
+                <titulo>Orden FOM/1482/2013, de 22 de julio, por la que se resuelve el concurso específico, convocado por Orden FOM/784/2013, de 25 de abril.</titulo>
+                <url_pdf szBytes="245391" szKBytes="240" pagina_inicial="56264" pagina_final="56269">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8513.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8513</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8513</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Cuerpos y escalas de Gestión Procesal y Administrativa, Tramitación Procesal y Administrativa y Auxilio Judicial de la Administración de Justicia">
+              <item>
+                <identificador>BOE-A-2013-8514</identificador>
+                <control>2013/8366</control>
+                <titulo>Orden JUS/1483/2013, de 19 de julio, por la que se aprueba la relación de excluidos y se anuncian los lugares donde están a disposición de los interesados los anexos III del concurso de traslado, convocado por Orden JUS/752/2013, de 15 de abril.</titulo>
+                <url_pdf szBytes="141326" szKBytes="138" pagina_inicial="56270" pagina_final="56270">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8514.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8514</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8514</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Escala de Cabos y Guardias de la Guardia Civil">
+              <item>
+                <identificador>BOE-A-2013-8515</identificador>
+                <control>2013/8423</control>
+                <titulo>Resolución 160/38087/2013, de 19 de julio, de la Jefatura de Enseñanza de la Guardia Civil, por la que se publica el Tribunal de selección de la convocatoria de las pruebas selectivas para el ingreso en los centros docentes de formación para la incorporación a la Escala de Cabos y Guardias de la Guardia Civil, efectuada por Resolución 160/38048/2013, de 11 de junio.</titulo>
+                <url_pdf szBytes="150098" szKBytes="147" pagina_inicial="56271" pagina_final="56272">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8515.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8515</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8515</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Funcionarios docentes en el exterior">
+              <item>
+                <identificador>BOE-A-2013-8516</identificador>
+                <control>2013/8426</control>
+                <titulo>Orden ECD/1484/2013, de 17 de julio, por la que se prorroga la permanencia en centros docentes en el exterior a los funcionarios docentes que fueron seleccionados por concursos de méritos.</titulo>
+                <url_pdf szBytes="358347" szKBytes="350" pagina_inicial="56273" pagina_final="56285">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8516.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8516</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8516</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8517</identificador>
+                <control>2013/8427</control>
+                <titulo>Orden ECD/1485/2013, de 17 de julio, por la que se prorroga la permanencia en las Escuelas Europeas a los profesores seleccionados por concursos de méritos.</titulo>
+                <url_pdf szBytes="249631" szKBytes="244" pagina_inicial="56286" pagina_final="56289">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8517.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8517</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8517</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2013-8518</identificador>
+                <control>2013/8432</control>
+                <titulo>Resolución de 19 de julio de 2013, del Ayuntamiento de Oroso (A Coruña), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="134371" szKBytes="131" pagina_inicial="56290" pagina_final="56290">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8518.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8518</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8518</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8519</identificador>
+                <control>2013/8434</control>
+                <titulo>Resolución de 23 de julio de 2013, del Ayuntamiento de Llocnou de la Corona (Valencia), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="135549" szKBytes="132" pagina_inicial="56291" pagina_final="56291">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8519.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8519</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8519</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2013-8520</identificador>
+                <control>2013/8376</control>
+                <titulo>Resolución de 4 de julio de 2013, de la Dirección General de los Registros y del Notariado, en el recurso interpuesto contra la nota de calificación del registrador de la propiedad de Tui, por la que se suspende la inscripción de una escritura de compraventa por estar pendiente un asiento de presentación de un auto que ordena la expedición de un mandamiento de cancelación del antetítulo de la referida compraventa.</titulo>
+                <url_pdf szBytes="148055" szKBytes="145" pagina_inicial="56292" pagina_final="56293">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8520.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8520</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8520</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2013-8521</identificador>
+                <control>2013/8254</control>
+                <titulo>Resolución de 22 de julio de 2013, de la Dirección General de Protección Civil y Emergencias, por la que se publican las ayudas y subvenciones abonadas a unidades familiares o de convivencia en atención a determinadas necesidades derivadas de situaciones de emergencia o de naturaleza catastrófica.</titulo>
+                <url_pdf szBytes="451888" szKBytes="441" pagina_inicial="56294" pagina_final="56298">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8521.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8521</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8521</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2013-8522</identificador>
+                <control>2013/8382</control>
+                <titulo>Resolución de 22 de julio de 2013, de la Secretaría General de Instituciones Penitenciarias, por la que se emplaza a los interesados en el recurso que se sigue, como procedimiento abreviado 62/2013, en el Juzgado Central de lo Contencioso Administrativo n.º 6.</titulo>
+                <url_pdf szBytes="135798" szKBytes="133" pagina_inicial="56299" pagina_final="56299">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8522.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8522</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8522</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9219" nombre="MINISTERIO DE INDUSTRIA, ENERGÍA Y TURISMO">
+            <epigrafe nombre="Energía">
+              <item>
+                <identificador>BOE-A-2013-8523</identificador>
+                <control>2013/8465</control>
+                <titulo>Resolución de 26 de julio de 2013, de la Dirección General de Política Energética y Minas, por la que se fija el precio medio de la energía a aplicar en el cálculo de la retribución del servicio de gestión de la demanda de interrumpibilidad ofrecido por los consumidores que adquieren su energía en el mercado de producción durante el tercer trimestre de 2013.</titulo>
+                <url_pdf szBytes="140693" szKBytes="137" pagina_inicial="56300" pagina_final="56300">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8523.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8523</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8523</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Energía eléctrica">
+              <item>
+                <identificador>BOE-A-2013-8524</identificador>
+                <control>2013/8562</control>
+                <titulo>Resolución de 29 de julio de 2013, de la Dirección General de Política Energética y Minas, por la que se establece el importe definitivo pendiente de cobro a 31 de diciembre de 2012, de conformidad con lo establecido en la Orden ITC/694/2008, de 7 de marzo, del derecho de cobro adjudicado en la subasta de 12 de junio de 2008, del déficit reconocido ex ante en la liquidación de las actividades reguladas.</titulo>
+                <url_pdf szBytes="146841" szKBytes="143" pagina_inicial="56301" pagina_final="56302">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8524.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8524</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8524</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8525</identificador>
+                <control>2013/8563</control>
+                <titulo>Resolución de 29 de julio de 2013, de la Dirección General de Política Energética y Minas, por la que se establece el importe definitivo pendiente de cobro a 31 de diciembre de 2012, del derecho de cobro correspondiente a la financiación del déficit de ingresos de las liquidaciones de las actividades reguladas del ejercicio 2005.</titulo>
+                <url_pdf szBytes="146223" szKBytes="143" pagina_inicial="56303" pagina_final="56304">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8525.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8525</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8525</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Instalaciones eléctricas">
+              <item>
+                <identificador>BOE-A-2013-8526</identificador>
+                <control>2013/8387</control>
+                <titulo>Resolución de 10 de julio de 2013, de la Dirección General de Política Energética y Minas, por la que se autoriza a Red Eléctrica de España, SAU, la entrada y salida en Mudéjar de las líneas Aragón-Teruel 1 y 2, en el término municipal de Andorra, en la provincia de Teruel.</titulo>
+                <url_pdf szBytes="165360" szKBytes="161" pagina_inicial="56305" pagina_final="56308">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8526.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8526</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8526</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8527</identificador>
+                <control>2013/8388</control>
+                <titulo>Resolución de 10 de julio de 2013, de la Dirección General de Política Energética y Minas, por la que se autoriza a Red Eléctrica de España, SAU, la línea aérea de transporte de energía eléctrica a 400 kV, en su tramo en doble circuito, denominada "Mudéjar-Morella", en la provincia de Teruel.</titulo>
+                <url_pdf szBytes="177886" szKBytes="174" pagina_inicial="56309" pagina_final="56314">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8527.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8527</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8527</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8528</identificador>
+                <control>2013/8389</control>
+                <titulo>Resolución de 10 de julio de 2013, de la Dirección General de Política Energética y Minas, por la que se autoriza a Red Eléctrica de España, SAU, la línea eléctrica aérea a 400 kV, doble circuito, denominada "Mezquita-Morella", en las provincias de Teruel y Castellón.</titulo>
+                <url_pdf szBytes="245810" szKBytes="240" pagina_inicial="56315" pagina_final="56325">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8528.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8528</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8528</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8529</identificador>
+                <control>2013/8390</control>
+                <titulo>Resolución de 10 de julio de 2013, de la Dirección General de Política Energética y Minas, por la que se autoriza a Red Eléctrica de España, SAU, la subestación eléctrica a 400 kV denominada "Mudéjar", en el término municipal Andorra, en la provincia de Teruel y se declara su utilidad pública.</titulo>
+                <url_pdf szBytes="163995" szKBytes="160" pagina_inicial="56326" pagina_final="56329">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8529.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8529</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8529</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <epigrafe nombre="Comunidad Autónoma de Castilla-La Mancha. Convenio">
+              <item>
+                <identificador>BOE-A-2013-8530</identificador>
+                <control>2013/8393</control>
+                <titulo>Resolución de 19 de julio de 2013, de la Secretaría de Estado de Medio Ambiente, por la que se publica el Convenio de colaboración con la Junta de Comunidades de Castilla-La Mancha, para la disolución y liquidación del Consorcio para la gestión del Plan Especial del Alto Guadiana.</titulo>
+                <url_pdf szBytes="314617" szKBytes="307" pagina_inicial="56330" pagina_final="56340">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8530.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8530</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8530</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Impacto ambiental">
+              <item>
+                <identificador>BOE-A-2013-8531</identificador>
+                <control>2013/8395</control>
+                <titulo>Resolución de 23 de julio de 2013, de la Secretaría de Estado de Medio Ambiente, sobre la evaluación de impacto ambiental del proyecto Helipuerto para operaciones de emergencias sanitarias del Servicio de Salud de Castilla-La Mancha en Almansa, Albacete.</titulo>
+                <url_pdf szBytes="2239558" szKBytes="2187" pagina_inicial="56341" pagina_final="56348">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8531.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8531</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8531</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8532</identificador>
+                <control>2013/8397</control>
+                <titulo>Resolución de 23 de julio de 2013, de la Secretaría de Estado de Medio Ambiente, sobre la evaluación de impacto ambiental del proyecto y adenda de tuberías de alimentación de las balsas de riego de los sectores XVII y XVIII de la zona regable de las Bárdenas II, término municipal de Tauste, Zaragoza.</titulo>
+                <url_pdf szBytes="331340" szKBytes="324" pagina_inicial="56349" pagina_final="56357">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8532.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8532</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8532</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8533</identificador>
+                <control>2013/8473</control>
+                <titulo>Resolución de 23 de julio de 2013, de la Secretaría de Estado de Medio Ambiente, sobre la evaluación de impacto ambiental del proyecto Actuaciones en el entorno de la Laguna de la Serna en Hinojosa de la Sierra, Soria.</titulo>
+                <url_pdf szBytes="296776" szKBytes="290" pagina_inicial="56358" pagina_final="56364">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8533.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8533</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8533</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8534</identificador>
+                <control>2013/8474</control>
+                <titulo>Resolución de 23 de julio de 2013, de la Secretaría de Estado de Medio Ambiente, sobre la evaluación de impacto ambiental del proyecto Modernización y consolidación de la zona regable Salado de Arjona de la Comunidad de Regantes Nuestra Señora de los Dolores, Jaén.</titulo>
+                <url_pdf szBytes="314571" szKBytes="307" pagina_inicial="56365" pagina_final="56369">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8534.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8534</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8534</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2013-8535</identificador>
+                <control>2013/8392</control>
+                <titulo>Resolución de 9 de julio de 2013, de la Secretaría General de Agricultura y Alimentación, por la que se publican las subvenciones concedidas con cargo a los presupuestos del año 2013.</titulo>
+                <url_pdf szBytes="167211" szKBytes="163" pagina_inicial="56370" pagina_final="56371">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8535.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8535</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8535</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Variedades comerciales de plantas">
+              <item>
+                <identificador>BOE-A-2013-8536</identificador>
+                <control>2013/8466</control>
+                <titulo>Orden AAA/1486/2013, de 25 de julio, por la que se dispone la concesión de títulos de obtención vegetal en el Registro de Variedades Protegidas.</titulo>
+                <url_pdf szBytes="150688" szKBytes="147" pagina_inicial="56372" pagina_final="56373">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8536.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8536</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8536</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8537</identificador>
+                <control>2013/8467</control>
+                <titulo>Orden AAA/1487/2013, de 25 de julio, por la que se dispone la extinción del derecho del obtentor de título de obtención vegetal en el Registro de Variedades Protegidas.</titulo>
+                <url_pdf szBytes="149919" szKBytes="146" pagina_inicial="56374" pagina_final="56375">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8537.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8537</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8537</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <epigrafe nombre="Fundación Centro Nacional de Investigaciones Cardiovasculares Carlos III. Cuentas anuales">
+              <item>
+                <identificador>BOE-A-2013-8538</identificador>
+                <control>2013/8259</control>
+                <titulo>Resolución de 12 de julio de 2013, del Instituto de Salud Carlos III, por la que se publican las cuentas anuales del ejercicio 2012 de la Fundación Centro Nacional de Investigaciones Cardiovasculares Carlos III.</titulo>
+                <url_pdf szBytes="6536979" szKBytes="6384" pagina_inicial="56376" pagina_final="56446">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8538.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8538</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8538</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <epigrafe nombre="Personas en situación de dependencia">
+              <item>
+                <identificador>BOE-A-2013-8539</identificador>
+                <control>2013/8606</control>
+                <titulo>Resolución de 25 de julio de 2013, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica el Acuerdo del Consejo Territorial de Servicios Sociales y del Sistema para la Autonomía y Atención a la Dependencia sobre criterios comunes, recomendaciones y condiciones mínimas de los planes de atención integral a menores de tres años en situación de dependencia o en riesgo de desarrollarla y evaluación anual correspondiente al ejercicio 2012 de los resultados de aplicación de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y atención a las personas en situación de dependencia.</titulo>
+                <url_pdf szBytes="20955809" szKBytes="20465" pagina_inicial="56447" pagina_final="56510">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8539.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8539</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8539</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2013-8540</identificador>
+                <control>2013/8565</control>
+                <titulo>Resolución de 26 de julio de 2013, del Instituto Nacional del Consumo, por la que se convocan subvenciones para las asociaciones de consumidores y usuarios, de ámbito estatal, destinadas a promover el asociacionismo de consumo y a la realización de actividades de información, defensa y protección de los derechos de los consumidores, para el ejercicio 2013.</titulo>
+                <url_pdf szBytes="389659" szKBytes="381" pagina_inicial="56511" pagina_final="56525">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8540.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8540</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8540</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8541</identificador>
+                <control>2013/8607</control>
+                <titulo>Resolución de 31 de julio de 2013, del Instituto de la Mujer, por la que se modifica la de 3 de julio de 2013, por la que se convoca la concesión de subvenciones, destinadas a apoyar al movimiento asociativo y fundacional de ámbito estatal, durante el año 2013.</titulo>
+                <url_pdf szBytes="145098" szKBytes="142" pagina_inicial="56526" pagina_final="56527">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8541.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8541</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8541</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2013-8542</identificador>
+                <control>2013/8612</control>
+                <titulo>Resolución de 1 de agosto de 2013, del Banco de España, por la que se publican los cambios del euro correspondientes al día 1 de agosto de 2013, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="172097" szKBytes="168" pagina_inicial="56528" pagina_final="56528">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8542.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8542</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8542</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Préstamos hipotecarios. Índices">
+              <item>
+                <identificador>BOE-A-2013-8543</identificador>
+                <control>2013/8613</control>
+                <titulo>Resolución de 1 de agosto de 2013, del Banco de España, por la que se publican determinados tipos de referencia oficiales del mercado hipotecario¹.</titulo>
+                <url_pdf szBytes="139702" szKBytes="136" pagina_inicial="56529" pagina_final="56529">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8543.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8543</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8543</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Planes de estudios">
+              <item>
+                <identificador>BOE-A-2013-8544</identificador>
+                <control>2013/8496</control>
+                <titulo>Resolución de 19 de julio de 2013, de la Universidad de Oviedo, por la que se publica el plan de estudios de Máster en Abogacía.</titulo>
+                <url_pdf szBytes="172780" szKBytes="169" pagina_inicial="56530" pagina_final="56531">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8544.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8544</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8544</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8545</identificador>
+                <control>2013/8497</control>
+                <titulo>Resolución de 19 de julio de 2013, de la Universidad de Oviedo, por la que se publica el plan de estudios de Máster en Administración y Dirección de Empresas.</titulo>
+                <url_pdf szBytes="178652" szKBytes="174" pagina_inicial="56532" pagina_final="56533">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8545.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8545</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8545</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8546</identificador>
+                <control>2013/8498</control>
+                <titulo>Resolución de 19 de julio de 2013, de la Universidad de Oviedo, por la que se publica el plan de estudios de Máster en Análisis y Gestión de Emergencia y Desastre.</titulo>
+                <url_pdf szBytes="163679" szKBytes="160" pagina_inicial="56534" pagina_final="56535">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8546.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8546</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8546</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8547</identificador>
+                <control>2013/8499</control>
+                <titulo>Resolución de 19 de julio de 2013, de la Universidad de Oviedo, por la que se publica el plan de estudios de Máster en Biología y Tecnología de la Reproducción.</titulo>
+                <url_pdf szBytes="170007" szKBytes="166" pagina_inicial="56536" pagina_final="56537">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8547.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8547</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8547</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8548</identificador>
+                <control>2013/8510</control>
+                <titulo>Resolución de 19 de julio de 2013, de la Universidad de Oviedo, por la que se publica el plan de estudios de Máster en Ingeniería Mecatrónica.</titulo>
+                <url_pdf szBytes="182732" szKBytes="178" pagina_inicial="56538" pagina_final="56539">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8548.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8548</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8548</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8549</identificador>
+                <control>2013/8511</control>
+                <titulo>Resolución de 19 de julio de 2013, de la Universidad de Oviedo, por la que se publica el plan de estudios de Máster en Ingeniería Química.</titulo>
+                <url_pdf szBytes="165758" szKBytes="162" pagina_inicial="56540" pagina_final="56541">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8549.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8549</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8549</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8550</identificador>
+                <control>2013/8512</control>
+                <titulo>Resolución de 19 de julio de 2013, de la Universidad de Oviedo, por la que se publica el plan de estudios de Máster en Innovación e Investigación Educativa.</titulo>
+                <url_pdf szBytes="165397" szKBytes="162" pagina_inicial="56542" pagina_final="56543">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8550.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8550</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8550</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8551</identificador>
+                <control>2013/8518</control>
+                <titulo>Resolución de 19 de julio de 2013, de la Universidad de Oviedo, por la que se publica el plan de estudios de Máster en Psicología de la Salud.</titulo>
+                <url_pdf szBytes="171127" szKBytes="167" pagina_inicial="56544" pagina_final="56545">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8551.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8551</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8551</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8552</identificador>
+                <control>2013/8519</control>
+                <titulo>Resolución de 19 de julio de 2013, de la Universidad de Oviedo, por la que se publica el plan de estudios de Máster en Química y Desarrollo Sostenible.</titulo>
+                <url_pdf szBytes="165879" szKBytes="162" pagina_inicial="56546" pagina_final="56547">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8552.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8552</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8552</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-8553</identificador>
+                <control>2013/8520</control>
+                <titulo>Resolución de 19 de julio de 2013, de la Universidad de Oviedo, por la que se publica el plan de estudios de Máster en Recursos Geológicos e Ingeniería Geológica.</titulo>
+                <url_pdf szBytes="188930" szKBytes="185" pagina_inicial="56548" pagina_final="56550">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-A-2013-8553.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-8553</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-8553</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2013-30062</identificador>
+              <titulo>A CORUÑA</titulo>
+              <url_pdf szBytes="154466" szKBytes="151" pagina_inicial="40185" pagina_final="40185">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30062.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30062</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30062</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2013-30063</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="156800" szKBytes="153" pagina_inicial="40186" pagina_final="40186">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30063.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30063</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30063</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30064</identificador>
+              <titulo>PALMA DE MALLORCA</titulo>
+              <url_pdf szBytes="158467" szKBytes="155" pagina_inicial="40187" pagina_final="40187">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30064.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30064</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30064</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30065</identificador>
+              <titulo>PALMA DE MALLORCA</titulo>
+              <url_pdf szBytes="154902" szKBytes="151" pagina_inicial="40188" pagina_final="40188">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30065.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30065</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30065</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Anuncios de licitaciones públicas y adjudicaciones">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2013-30066</identificador>
+              <titulo>Resolución de la Dirección del Órgano de Contratación de la Dirección de Abastecimiento y Transportes de la Armada por la que se anuncia la formalización del expediente 196/13. Suministro de repuestos para las líneas de ejes de la F-101 y F-102.</titulo>
+              <url_pdf szBytes="164051" szKBytes="160" pagina_inicial="40189" pagina_final="40189">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30066.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30066</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30066</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2013-30067</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección del Servicio de Gestión Económica de la Agencia Estatal de la Administración Tributaria. Objeto: 5 grupos electrógenos para patrulleros tipo Alcaraván y Gavilán. Expediente: 13710024100.</titulo>
+              <url_pdf szBytes="166439" szKBytes="163" pagina_inicial="40190" pagina_final="40190">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30067.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30067</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30067</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30068</identificador>
+              <titulo>Resolución de la Agencia Estatal de Administración Tributaria por la que se anuncia procedimiento abierto para la contratación del servicio de mantenimiento de diversos componentes de electrónica de red instalados en la los servicios centrales y territoriales de la Agencia Estatal de Administración Tributaria.</titulo>
+              <url_pdf szBytes="171203" szKBytes="167" pagina_inicial="40191" pagina_final="40192">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30068.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30068</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30068</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30069</identificador>
+              <titulo>Resolución de la Agencia Estatal de Administración Tributaria por la que se anuncia procedimiento abierto para la contratación del servicio de mantenimiento de servidores de área local, instalados en Servicios Centrales y Periféricos de la Agencia Estatal de Administración Tributaria.</titulo>
+              <url_pdf szBytes="172282" szKBytes="168" pagina_inicial="40193" pagina_final="40194">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30069.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30069</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30069</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30070</identificador>
+              <titulo>Resolución del Consorcio de la Zona Franca de Cádiz por la que se anuncia la contratación de las obras necesarias para la ejecución del proyecto denominado "Rehabilitación del antiguo convento de San Agustín para centro de negocio y servicios empresariales y reurbanización calle Puerto, en Jerez de la frontera, Cádiz". Obras financiadas por Fondos solicitados en el marco del Programa Operativo FEDER de Andalucía 2007-2013.</titulo>
+              <url_pdf szBytes="175284" szKBytes="171" pagina_inicial="40195" pagina_final="40196">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30070.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30070</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30070</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2013-30071</identificador>
+              <titulo>Anuncio de formalización de contratos de: Centro Nacional de Información Geográfica. Objeto: Servicio de comunicaciones de datos del Centro Nacional de Información Geográfica. Expediente: 2013/010013000042.</titulo>
+              <url_pdf szBytes="166193" szKBytes="162" pagina_inicial="40197" pagina_final="40197">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30071.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30071</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30071</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <item>
+              <identificador>BOE-B-2013-30072</identificador>
+              <titulo>Anuncio de la Dirección Provincial de la Tesorería General de la Seguridad Social de Málaga por el que se convoca concurso para la licitación pública del servicio de mantenimiento integral del edificio sede de la Dirección Provincial de la Tesorería General de la Seguridad Social en Málaga, traslado, montaje y desmontaje de mobiliario y manipulación y traslados de cajas de archivo, durante el período 1 de enero de 2014 a 31 de diciembre de 2015.</titulo>
+              <url_pdf szBytes="173989" szKBytes="170" pagina_inicial="40198" pagina_final="40199">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30072.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30072</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30072</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <item>
+              <identificador>BOE-B-2013-30073</identificador>
+              <titulo>Resolución del Centro de Investigaciones Energéticas Mediambientales y Tecnológicas (CIEMAT) por la que se anuncia licitación por procedimiento abierto para la contratación de los "Servicios de rehabilitación radiológica de las instalaciones nucleares y radiactivas del CIEMAT".</titulo>
+              <url_pdf szBytes="174703" szKBytes="171" pagina_inicial="40200" pagina_final="40201">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30073.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30073</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30073</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <item>
+              <identificador>BOE-B-2013-30074</identificador>
+              <titulo>Anuncio de licitación de la Gerencia de Atención Sanitaria de Melilla-Instituto Nacional de Gestión Sanitaria. Objeto: Suministro de gases medicinales. Expediente: P.A. 2/2013.</titulo>
+              <url_pdf szBytes="176071" szKBytes="172" pagina_inicial="40202" pagina_final="40203">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30074.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30074</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30074</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2013-30075</identificador>
+              <titulo>Anuncio del Hospital Universitario de Bellvitge por el que se convoca concurso para la licitación pública del servicio de mantenimiento del sistema de protección contra incendios.</titulo>
+              <url_pdf szBytes="163378" szKBytes="160" pagina_inicial="40204" pagina_final="40204">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30075.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30075</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30075</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30076</identificador>
+              <titulo>Anuncio del Departamento de Territorio y Sostenibilidad de la Generalidad de Cataluña por el que se hace pública una corrección de errores al anuncio de licitación de un contrato de servicios para la asistencia técnica y de coordinación de seguridad y salud a la dirección del contrato de servicios de conservación integral de carreteras de la zona este de Barcelona.</titulo>
+              <url_pdf szBytes="161319" szKBytes="158" pagina_inicial="40205" pagina_final="40205">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30076.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30076</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30076</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30077</identificador>
+              <titulo>Anuncio del Hospital Universitario de Bellvitge por el que se convoca concurso para la licitación pública del suministro de equipos médicos de radiología.</titulo>
+              <url_pdf szBytes="163941" szKBytes="160" pagina_inicial="40206" pagina_final="40206">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30077.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30077</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30077</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <item>
+              <identificador>BOE-B-2013-30078</identificador>
+              <titulo>Anuncio de la Agencia Pública Empresarial Sanitaria Hospital Alto Guadalquivir por el que se hace pública la formalización del contrato para el suministro de material de prótesis, artroplastias y cemento.</titulo>
+              <url_pdf szBytes="166756" szKBytes="163" pagina_inicial="40207" pagina_final="40207">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30078.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30078</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30078</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8100" nombre="COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA">
+            <item>
+              <identificador>BOE-B-2013-30079</identificador>
+              <titulo>Anuncio de la Consejería de Agricultura y Agua por el que se convoca la licitación pública para las obras del proyecto de modernización del regadío de la zona regable del trasvase Tajo-Segura de Librilla (Murcia). Sector 4.</titulo>
+              <url_pdf szBytes="174260" szKBytes="170" pagina_inicial="40208" pagina_final="40209">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30079.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30079</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30079</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8080" nombre="COMUNIDAD AUTÓNOMA DE EXTREMADURA">
+            <item>
+              <identificador>BOE-B-2013-30080</identificador>
+              <titulo>Resolución de 9 de julio de 2013, de la Gerencia de las Áreas de Salud de Cáceres y Coria, por la que se hace pública la formalización del contrato de suministro de material fungible para procesos de esterilización con destino el Área de Salud de Cáceres. Expediente número: CS/05/1112016769/12/PA.</titulo>
+              <url_pdf szBytes="170975" szKBytes="167" pagina_inicial="40210" pagina_final="40211">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30080.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30080</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30080</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2013-30081</identificador>
+              <titulo>Anuncio del Ayuntamiento de Sabadell sobre la licitación del contrato de servicios de limpieza de equipamientos municipales.</titulo>
+              <url_pdf szBytes="173785" szKBytes="170" pagina_inicial="40212" pagina_final="40213">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30081.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30081</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30081</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30082</identificador>
+              <titulo>Anuncio de licitación del Instituto Municipal de Informática de Barcelona del contrato administrativo especial que tiene por objeto la realización del proyecto de evolución tecnológica, gestión y explotación integral de las infraestructuras y redes de telecomunicaciones municipales.</titulo>
+              <url_pdf szBytes="175515" szKBytes="171" pagina_inicial="40214" pagina_final="40215">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30082.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30082</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30082</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30083</identificador>
+              <titulo>Anuncio de licitación del Instituto Municipal de Informática de Barcelona del contrato de servicios de aprovisionamiento de infraestructuras TIC y servicios profesionales asociados para el Ayuntamiento de Barcelona.</titulo>
+              <url_pdf szBytes="173882" szKBytes="170" pagina_inicial="40216" pagina_final="40217">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30083.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30083</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30083</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30084</identificador>
+              <titulo>Anuncio de licitación del Instituto Municipal de Informática de Barcelona del contrato de servicios de oficina técnica para la gobernanza de las iniciativas y proyectos de servicios al móvil de la Dirección de Administración Electrónica del Ayuntamiento de Barcelona.</titulo>
+              <url_pdf szBytes="174799" szKBytes="171" pagina_inicial="40218" pagina_final="40219">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30084.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30084</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30084</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30085</identificador>
+              <titulo>Anuncio de la Resolución del Ayuntamiento de Alcorcón por la que se hace pública la licitación del contrato de servicio de dinamización de los centros municipales de mayores de Alcorcón.</titulo>
+              <url_pdf szBytes="169337" szKBytes="165" pagina_inicial="40220" pagina_final="40221">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30085.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30085</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30085</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2013-30086</identificador>
+              <titulo>Resolución Rectoral de fecha 22 de julio de 2013, de la Universidad de Vigo, por la que se anuncia procedimiento abierto mediante tramitación ordinaria, para la contratación del "servicio de modelos en vivo en la Facultad de Bellas Artes de la Universidad de Vigo" (expediente 311/13).</titulo>
+              <url_pdf szBytes="177398" szKBytes="173" pagina_inicial="40222" pagina_final="40223">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30086.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30086</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30086</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30087</identificador>
+              <titulo>Anuncio de la Universidad de Cádiz de procedimiento negociado con publicidad para la contratación de los trabajos de apoyo y asistencia a la Universidad de Cádiz para la ejecución del proyecto "Gestión integrada sostenible de las Salinas de la Esperanza".</titulo>
+              <url_pdf szBytes="171865" szKBytes="168" pagina_inicial="40224" pagina_final="40225">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30087.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30087</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30087</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30088</identificador>
+              <titulo>Resolución de la Gerencia de la Universidad Autónoma de Madrid por la que se convoca licitación pública para la contratación del servicio de seguridad de la Universidad Autónoma de Madrid.</titulo>
+              <url_pdf szBytes="169688" szKBytes="166" pagina_inicial="40226" pagina_final="40227">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30088.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30088</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30088</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2013-30089</identificador>
+              <titulo>Anuncio de Notaría de D. Fernando Viguria Alday sobre subasta notarial de una finca.</titulo>
+              <url_pdf szBytes="162196" szKBytes="158" pagina_inicial="40228" pagina_final="40228">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30089.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30089</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30089</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30090</identificador>
+              <titulo>Anuncio de Notaría de D. Fernando Viguria Alday sobre subasta notarial de una finca.</titulo>
+              <url_pdf szBytes="165758" szKBytes="162" pagina_inicial="40229" pagina_final="40230">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30090.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30090</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30090</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30091</identificador>
+              <titulo>Anuncio de la notario de Vícar, doña Ana A. Sánchez Silvestre, sobre subasta notarial en procedimiento de venta extrajudicial.</titulo>
+              <url_pdf szBytes="165974" szKBytes="162" pagina_inicial="40231" pagina_final="40232">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30091.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30091</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30091</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30092</identificador>
+              <titulo>Anuncio de la notaria de Vícar, doña Ana A. Sánchez Silvestre, sobre subasta notarial en procedimiento de venta extrajudicial.</titulo>
+              <url_pdf szBytes="166279" szKBytes="162" pagina_inicial="40233" pagina_final="40234">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30092.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30092</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30092</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30093</identificador>
+              <titulo>Anuncio de la notaría de Doña Maria Eugenia Rambla Gómez, por la que se anuncia procedimiento extrajudicial de ejecución hipotecaria, número de expediente provisional 1/2013.</titulo>
+              <url_pdf szBytes="182834" szKBytes="179" pagina_inicial="40235" pagina_final="40238">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30093.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30093</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30093</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30094</identificador>
+              <titulo>Anuncio de Metro de Madrid, Sociedad Anónima, por el que se publica la licitación por procedimiento abierto para la contratación del suministro de carburantes para vehículos automóviles de Metro de Madrid, S.A. (Expediente: 6011300190).</titulo>
+              <url_pdf szBytes="177103" szKBytes="173" pagina_inicial="40239" pagina_final="40241">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30094.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30094</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30094</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30095</identificador>
+              <titulo>Anuncio de Metro de Madrid, Sociedad Anónima, por el que se publica la licitación por procedimiento abierto para la contratación del servicio de transporte en autobús de personal de Metro. (Expediente 6011300191).</titulo>
+              <url_pdf szBytes="177066" szKBytes="173" pagina_inicial="40242" pagina_final="40244">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30095.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30095</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30095</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30096</identificador>
+              <titulo>Anuncio de Metro de Madrid, Sociedad Anónima, por el que se publica la licitación por procedimiento abierto para la contratación de un servicio de mantenimiento licencias IBM TIVOLI-NETCOOL de los Sistemas del Centro COMMIT (Expediente 6011300192).</titulo>
+              <url_pdf szBytes="177874" szKBytes="174" pagina_inicial="40245" pagina_final="40247">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30096.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30096</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30096</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30097</identificador>
+              <titulo>Anuncio de la Notaría de don Jesús García Sánchez, sobre subasta extrajudicial.</titulo>
+              <url_pdf szBytes="166474" szKBytes="163" pagina_inicial="40248" pagina_final="40249">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30097.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30097</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30097</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30098</identificador>
+              <titulo>Anuncio de la resolución de Canal de Isabel II Gestión, S.A, relativo al contrato por procedimiento abierto, para las "Obras del proyecto de construcción del doblado del ramal Villalbilla-Anchuelo-Santorcaz".</titulo>
+              <url_pdf szBytes="173093" szKBytes="169" pagina_inicial="40250" pagina_final="40251">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30098.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30098</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30098</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2013-30099</identificador>
+              <titulo>Anuncio de la Agencia para el Aceite de Oliva por el que se procede a la publicación oficial del extracto de actos administrativos de expedientes sancionadores tramitados y cuya notificación se ha intentado sin que se haya podido practicar.</titulo>
+              <url_pdf szBytes="168862" szKBytes="165" pagina_inicial="40252" pagina_final="40253">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30099.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30099</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30099</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <item>
+              <identificador>BOE-B-2013-30100</identificador>
+              <titulo>Resolución de la Delegación de Economía y Hacienda de Girona sobre prescripción de depósitos del año 1992.</titulo>
+              <url_pdf szBytes="161602" szKBytes="158" pagina_inicial="40254" pagina_final="40254">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30100.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30100</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30100</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="ANUNCIOS PARTICULARES">
+            <item>
+              <identificador>BOE-B-2013-30101</identificador>
+              <titulo>BONA-RENDA, FI (FONDO ABSORBENTE-BENEFICIARIO) CATALUNYA FONS, FI (FONDO ABSORBIDO-FUSIONADO)</titulo>
+              <url_pdf szBytes="156920" szKBytes="153" pagina_inicial="40255" pagina_final="40255">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30101.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30101</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30101</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30102</identificador>
+              <titulo>CRÉDIT AGRICOLE DINERKOA, FONDO DE INVERSIÓN (FONDO ABSORBENTE) BANKOA RENDIMIENTO 2 GARANTIZADO, FONDO DE INVERSIÓN (FONDO ABSORBIDO) BANKOA TESORERÍA, FONDO DE INVERSIÓN (FONDO ABSORBIDO)</titulo>
+              <url_pdf szBytes="156279" szKBytes="153" pagina_inicial="40256" pagina_final="40256">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30102.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30102</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30102</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-30103</identificador>
+              <titulo>EMPRESA FUNERARIA MUNICIPAL, S.A.</titulo>
+              <url_pdf szBytes="156061" szKBytes="152" pagina_inicial="40257" pagina_final="40257">https://www.boe.es/boe/dias/2013/08/02/pdfs/BOE-B-2013-30103.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-30103</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-30103</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

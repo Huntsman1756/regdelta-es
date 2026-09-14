@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="1757">Créditos</materia>
+        <materia codigo="2429">Depósitos</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="3455">Estadística</materia>
+        <materia codigo="3807">Formularios administrativos</materia>
+        <materia codigo="4505">Intereses</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2002-13016</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>excepto la norma adicional, la Circular 4/2002, de 25 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1989-9056</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 1 y 2 de la Orden de 31 marzo de 1989</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-2009-80631</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Reglamento 290/2009, de 31 de marzo</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2014-13365</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>las normas 1.a), 4.b) y SE SUSTITUYE lo indicado del anejo, por Circular 5/2014, de 28 de noviembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

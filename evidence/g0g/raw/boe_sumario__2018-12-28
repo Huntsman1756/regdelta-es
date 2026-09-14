@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20181228</fecha_publicacion>
+      </metadatos>
+      <diario numero="313">
+        <sumario_diario>
+          <identificador>BOE-S-2018-313</identificador>
+          <url_pdf szBytes="288511" szKBytes="282">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-S-2018-313.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Demarcación y planta judicial">
+              <item>
+                <identificador>BOE-A-2018-17874</identificador>
+                <control>2018/18143</control>
+                <titulo>Real Decreto 1459/2018, de 21 de diciembre, de creación de cinco unidades judiciales en el Campo de Gibraltar, dentro del Plan Integral Campo de Gibraltar.</titulo>
+                <url_pdf szBytes="410421" szKBytes="401" pagina_inicial="128228" pagina_final="128235">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17874.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17874</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17874</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Juzgados de violencia sobre la mujer">
+              <item>
+                <identificador>BOE-A-2018-17875</identificador>
+                <control>2018/18144</control>
+                <titulo>Real Decreto 1460/2018, de 21 de diciembre, por el que se extiende la jurisdicción del Juzgado de Violencia sobre la mujer de Vila-real a los partidos judiciales de Nules y Segorbe.</titulo>
+                <url_pdf szBytes="284007" szKBytes="277" pagina_inicial="128236" pagina_final="128240">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17875.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17875</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17875</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Transporte de mercancías peligrosas por vía aérea">
+              <item>
+                <identificador>BOE-A-2018-17876</identificador>
+                <control>2018/17584</control>
+                <titulo>Resolución de 20 de noviembre de 2018, de la Dirección General de Aviación Civil, por la que se publican las Instrucciones Técnicas para el Transporte Seguro de Mercancías Peligrosas por vía Aérea (Documento OACI 9284/AN/905).</titulo>
+                <url_pdf szBytes="19483224" szKBytes="19027" pagina_inicial="128241" pagina_final="129222">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17876.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17876</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17876</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9561" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Registro Central de Personal">
+              <item>
+                <identificador>BOE-A-2018-17877</identificador>
+                <control>2018/18069</control>
+                <titulo>Resolución de 27 de diciembre de 2018, de la Secretaría de Estado de Función Pública, por la que se establece la anotación obligatoria en el Registro Central de Personal de algunos permisos y licencias por conciliación de la vida personal y laboral.</titulo>
+                <url_pdf szBytes="220521" szKBytes="215" pagina_inicial="129223" pagina_final="129223">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17877.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17877</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17877</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9566" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA">
+            <epigrafe nombre="Gas natural. Precios">
+              <item>
+                <identificador>BOE-A-2018-17878</identificador>
+                <control>2018/18070</control>
+                <titulo>Resolución de 26 de diciembre de 2018, de la Dirección General de Política Energética y Minas, por la que se publica la tarifa de último recurso de gas natural.</titulo>
+                <url_pdf szBytes="257381" szKBytes="251" pagina_inicial="129224" pagina_final="129226">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17878.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17878</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17878</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9567" nombre="MINISTERIO DE ECONOMÍA Y EMPRESA">
+            <epigrafe nombre="Mercado de valores">
+              <item>
+                <identificador>BOE-A-2018-17879</identificador>
+                <control>2018/18145</control>
+                <titulo>Real Decreto 1464/2018, de 21 de diciembre, por el que se desarrollan el texto refundido de la Ley del Mercado de Valores, aprobado por el Real Decreto Legislativo 4/2015, de 23 de octubre y el Real Decreto-ley 21/2017, de 29 de diciembre, de medidas urgentes para la adaptación del Derecho español a la normativa de la Unión Europea en materia de mercado de valores, y por el que se modifican parcialmente el Real Decreto 217/2008, de 15 de febrero, sobre el régimen jurídico de las empresas de servicios de inversión y de las demás entidades que prestan servicios de inversión y por el que se modifican parcialmente el Reglamento de la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva, aprobado por el Real Decreto 1309/2005, de 4 de noviembre, y otros reales decretos en materia de mercado de valores.</titulo>
+                <url_pdf szBytes="2729503" szKBytes="2666" pagina_inicial="129227" pagina_final="129327">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17879.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17879</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17879</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2018-17880</identificador>
+                <control>2018/18073</control>
+                <titulo>Circular 2/2018, de 21 de diciembre, del Banco de España, por la que se modifican la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 1/2013, de 24 de mayo, sobre la Central de Información de Riesgos.</titulo>
+                <url_pdf szBytes="685522" szKBytes="669" pagina_inicial="129328" pagina_final="129367">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17880.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17880</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17880</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2018-17881</identificador>
+                <control>2018/18146</control>
+                <titulo>Real Decreto 1465/2018, de 21 de diciembre, por el que se dispone el cese de don Antonio Pérez-Hernández y Torra como Embajador en Misión Especial para Asuntos Interamericanos.</titulo>
+                <url_pdf szBytes="148790" szKBytes="145" pagina_inicial="129368" pagina_final="129368">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17881.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17881</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17881</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Ascensos">
+              <item>
+                <identificador>BOE-A-2018-17882</identificador>
+                <control>2018/18147</control>
+                <titulo>Real Decreto 1466/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Javier Garrigues Flórez.</titulo>
+                <url_pdf szBytes="215794" szKBytes="211" pagina_inicial="129369" pagina_final="129369">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17882.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17882</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17882</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17883</identificador>
+                <control>2018/18148</control>
+                <titulo>Real Decreto 1467/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Eduardo Ibáñez López-Dóriga.</titulo>
+                <url_pdf szBytes="215774" szKBytes="211" pagina_inicial="129370" pagina_final="129370">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17883.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17883</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17883</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17884</identificador>
+                <control>2018/18149</control>
+                <titulo>Real Decreto 1468/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Diego Muñiz Lovelace.</titulo>
+                <url_pdf szBytes="215831" szKBytes="211" pagina_inicial="129371" pagina_final="129371">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17884.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17884</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17884</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17885</identificador>
+                <control>2018/18150</control>
+                <titulo>Real Decreto 1469/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Rafael Conde de Saro.</titulo>
+                <url_pdf szBytes="214876" szKBytes="210" pagina_inicial="129372" pagina_final="129372">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17885.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17885</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17885</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17886</identificador>
+                <control>2018/18151</control>
+                <titulo>Real Decreto 1470/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Miguel Benzo Perea.</titulo>
+                <url_pdf szBytes="215176" szKBytes="210" pagina_inicial="129373" pagina_final="129373">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17886.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17886</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17886</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17887</identificador>
+                <control>2018/18152</control>
+                <titulo>Real Decreto 1471/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Rodrigo Aguirre de Cárcer y García del Arenal.</titulo>
+                <url_pdf szBytes="215116" szKBytes="210" pagina_inicial="129374" pagina_final="129374">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17887.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17887</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17887</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17888</identificador>
+                <control>2018/18153</control>
+                <titulo>Real Decreto 1472/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Rafael Fernández-Pita González.</titulo>
+                <url_pdf szBytes="215305" szKBytes="210" pagina_inicial="129375" pagina_final="129375">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17888.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17888</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17888</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17889</identificador>
+                <control>2018/18154</control>
+                <titulo>Real Decreto 1473/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Manuel Cacho Quesada.</titulo>
+                <url_pdf szBytes="215532" szKBytes="210" pagina_inicial="129376" pagina_final="129376">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17889.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17889</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17889</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17890</identificador>
+                <control>2018/18155</control>
+                <titulo>Real Decreto 1474/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Gabriel Busquets Aparicio.</titulo>
+                <url_pdf szBytes="215411" szKBytes="210" pagina_inicial="129377" pagina_final="129377">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17890.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17890</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17890</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17891</identificador>
+                <control>2018/18156</control>
+                <titulo>Real Decreto 1475/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Fernando Alvargonzález San Martín.</titulo>
+                <url_pdf szBytes="215762" szKBytes="211" pagina_inicial="129378" pagina_final="129378">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17891.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17891</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17891</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17892</identificador>
+                <control>2018/18157</control>
+                <titulo>Real Decreto 1476/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Álvaro Alabart Fernández-Cavada.</titulo>
+                <url_pdf szBytes="215641" szKBytes="211" pagina_inicial="129379" pagina_final="129379">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17892.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17892</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17892</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17893</identificador>
+                <control>2018/18158</control>
+                <titulo>Real Decreto 1477/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don José Rodríguez Moyano.</titulo>
+                <url_pdf szBytes="215644" szKBytes="211" pagina_inicial="129380" pagina_final="129380">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17893.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17893</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17893</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17894</identificador>
+                <control>2018/18159</control>
+                <titulo>Real Decreto 1478/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Miguel Fuertes Suárez.</titulo>
+                <url_pdf szBytes="215950" szKBytes="211" pagina_inicial="129381" pagina_final="129381">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17894.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17894</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17894</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17895</identificador>
+                <control>2018/18160</control>
+                <titulo>Real Decreto 1479/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajadora a la Ministra Plenipotenciaria de Primera Clase doña María Jesús Figa López-Palop.</titulo>
+                <url_pdf szBytes="216312" szKBytes="211" pagina_inicial="129382" pagina_final="129382">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17895.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17895</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17895</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17896</identificador>
+                <control>2018/18161</control>
+                <titulo>Real Decreto 1480/2018, de 21 de diciembre, por el que se asciende a la categoría de Embajador al Ministro Plenipotenciario de Primera Clase don Alfonso Palazón Español.</titulo>
+                <url_pdf szBytes="216206" szKBytes="211" pagina_inicial="129383" pagina_final="129383">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17896.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17896</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17896</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Designaciones">
+              <item>
+                <identificador>BOE-A-2018-17897</identificador>
+                <control>2018/18162</control>
+                <titulo>Real Decreto 1481/2018, de 21 de diciembre, por el que se designa Embajador de España en la República de Moldavia a don Manuel Larrotcha Parada.</titulo>
+                <url_pdf szBytes="214845" szKBytes="210" pagina_inicial="129384" pagina_final="129384">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17897.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17897</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17897</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5140" nombre="MINISTERIO DE HACIENDA">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2018-17898</identificador>
+                <control>2018/18075</control>
+                <titulo>Corrección de errores de la Resolución de 18 de diciembre de 2018, de la Subsecretaría, por la que se publica el Acuerdo del Consejo de Ministros de 14 de diciembre de 2018, por el que se nombra Vocal titular de la División de Supervisión de la Contratación y Relaciones Institucionales de la Oficina Independiente de Regulación y Supervisión de la Contratación a doña Amada de Juan Quirós.</titulo>
+                <url_pdf szBytes="216584" szKBytes="212" pagina_inicial="129385" pagina_final="129385">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17898.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17898</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17898</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17899</identificador>
+                <control>2018/18076</control>
+                <titulo>Corrección de errores de la Resolución de 18 de diciembre de 2018, de la Subsecretaría, por la que se publica el Acuerdo del Consejo de Ministros de 14 de diciembre de 2018, por el que se nombra Vocal titular de la División de Evaluación de Contratos de Concesión de la Oficina Independiente de Regulación y Supervisión de la Contratación a don Francisco Javier García Ruiz.</titulo>
+                <url_pdf szBytes="217178" szKBytes="212" pagina_inicial="129386" pagina_final="129386">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17899.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17899</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17899</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17900</identificador>
+                <control>2018/18077</control>
+                <titulo>Corrección de errores de la Resolución de 18 de diciembre de 2018, de la Subsecretaría, por la que se publica el Acuerdo del Consejo de Ministros de 14 de diciembre de 2018, por el que se nombra Vocal titular de la División de Asuntos Generales de la Oficina Independiente de Regulación y Supervisión de la Contratación a don Pablo Martín Huerta.</titulo>
+                <url_pdf szBytes="215971" szKBytes="211" pagina_inicial="129387" pagina_final="129387">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17900.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17900</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17900</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17901</identificador>
+                <control>2018/18078</control>
+                <titulo>Corrección de errores de la Resolución de 18 de diciembre de 2018, de la Subsecretaría, por la que se publica el Acuerdo del Consejo de Ministros de 14 de diciembre de 2018, por el que se nombra Vocal titular de la División de Regulación y Ordenación de la Contratación de la Oficina Independiente de Regulación y Supervisión de la Contratación a don Francisco Cano Molina.</titulo>
+                <url_pdf szBytes="215102" szKBytes="210" pagina_inicial="129388" pagina_final="129388">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17901.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17901</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17901</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2018-17902</identificador>
+                <control>2018/17860</control>
+                <titulo>Resolución de 13 de diciembre de 2018, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación,efectuada por Resolución de 29 de octubre de 2018, en los Servicios Centrales de la Secretaría General de Instituciones Penitenciarias.</titulo>
+                <url_pdf szBytes="219112" szKBytes="214" pagina_inicial="129389" pagina_final="129389">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17902.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17902</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17902</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2018-17903</identificador>
+                <control>2018/17748</control>
+                <titulo>Resolución de 17 de diciembre de 2018, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 1 de octubre de 2018.</titulo>
+                <url_pdf szBytes="208247" szKBytes="203" pagina_inicial="129390" pagina_final="129391">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17903.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17903</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17903</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17904</identificador>
+                <control>2018/17749</control>
+                <titulo>Resolución de 17 de diciembre de 2018, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 10 de octubre de 2018.</titulo>
+                <url_pdf szBytes="224024" szKBytes="219" pagina_inicial="129392" pagina_final="129393">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17904.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17904</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17904</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17905</identificador>
+                <control>2018/17750</control>
+                <titulo>Resolución de 17 de diciembre de 2018, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 12 de noviembre de 2018.</titulo>
+                <url_pdf szBytes="208223" szKBytes="203" pagina_inicial="129394" pagina_final="129395">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17905.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17905</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17905</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9561" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2018-17906</identificador>
+                <control>2018/17861</control>
+                <titulo>Resolución de 18 de diciembre de 2018, de la Secretaría General de Coordinación Territorial, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Resolución 8 de octubre de 2018.</titulo>
+                <url_pdf szBytes="235976" szKBytes="230" pagina_inicial="129396" pagina_final="129397">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17906.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17906</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17906</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9565" nombre="MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2018-17907</identificador>
+                <control>2018/17755</control>
+                <titulo>Resolución de 5 de diciembre de 2018, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, por la que se publica el Acuerdo del Consejo Rector, por el que se resuelve la convocatoria de libre designación, efectuada por Resolución de 11 de octubre de 2018.</titulo>
+                <url_pdf szBytes="220992" szKBytes="216" pagina_inicial="129398" pagina_final="129398">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17907.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17907</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17907</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17908</identificador>
+                <control>2018/17864</control>
+                <titulo>Resolución de 13 de diciembre de 2018, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 26 de octubre de 2018.</titulo>
+                <url_pdf szBytes="242545" szKBytes="237" pagina_inicial="129399" pagina_final="129401">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17908.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17908</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17908</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1420" nombre="TRIBUNAL DE CUENTAS">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2018-17909</identificador>
+                <control>2018/17865</control>
+                <titulo>Resolución de 21 de diciembre de 2018, de la Presidencia del Tribunal de Cuentas, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Resolución de 26 de octubre de 2018.</titulo>
+                <url_pdf szBytes="225998" szKBytes="221" pagina_inicial="129402" pagina_final="129403">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17909.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17909</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17909</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1840" nombre="CONSEJO DE SEGURIDAD NUCLEAR">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2018-17910</identificador>
+                <control>2018/17593</control>
+                <titulo>Resolución de 13 de diciembre de 2018, de la Presidencia del Consejo de Seguridad Nuclear, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 10 de octubre de 2018.</titulo>
+                <url_pdf szBytes="219755" szKBytes="215" pagina_inicial="129404" pagina_final="129404">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17910.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17910</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17910</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2018-17912</identificador>
+                <control>2018/17874</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Universidad de Las Palmas de Gran Canaria, por la que se nombra Profesor Titular de Universidad a don Israel Campos Méndez.</titulo>
+                <url_pdf szBytes="220488" szKBytes="215" pagina_inicial="129406" pagina_final="129406">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17912.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17912</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17912</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Integraciones">
+              <item>
+                <identificador>BOE-A-2018-17911</identificador>
+                <control>2018/17689</control>
+                <titulo>Resolución de 4 de diciembre de 2018, de la Universidad de Valladolid, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a doña María Teresa Álamo Martín.</titulo>
+                <url_pdf szBytes="159542" szKBytes="156" pagina_inicial="129405" pagina_final="129405">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17911.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17911</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17911</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Cuerpo de Traductores e Intérpretes">
+              <item>
+                <identificador>BOE-A-2018-17913</identificador>
+                <control>2018/18096</control>
+                <titulo>Resolución de 19 de diciembre de 2018, de la Subsecretaría, por la que se publica la relación de aprobados en la fase de oposición de las pruebas selectivas para ingreso, por el sistema general de acceso libre, en el Cuerpo de Traductores e Intérpretes, convocadas por Resolución de 27 de diciembre de 2017.</titulo>
+                <url_pdf szBytes="175851" szKBytes="172" pagina_inicial="129407" pagina_final="129409">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17913.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17913</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17913</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9564" nombre="MINISTERIO DE TRABAJO, MIGRACIONES Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Cuerpo Superior de Letrados de la Administración de la Seguridad Social">
+              <item>
+                <identificador>BOE-A-2018-17914</identificador>
+                <control>2018/17881</control>
+                <titulo>Resolución de 17 de diciembre de 2018, de la Subsecretaría, por la que se publica la relación de aprobados en la fase de oposición del proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo Superior de Letrados de la Administración de la Seguridad Social, convocado por Resolución de 22 de enero de 2018.</titulo>
+                <url_pdf szBytes="188870" szKBytes="184" pagina_inicial="129410" pagina_final="129412">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17914.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17914</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17914</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9561" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Funcionarios de las Administraciones Públicas">
+              <item>
+                <identificador>BOE-A-2018-17915</identificador>
+                <control>2018/17887</control>
+                <titulo>Resolución de 19 de diciembre de 2018, de la Secretaría General de Coordinación Territorial, por la que se declara desierto puesto de trabajo de libre designación, convocado por Resolución de 7 de noviembre de 2018.</titulo>
+                <url_pdf szBytes="219534" szKBytes="214" pagina_inicial="129413" pagina_final="129413">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17915.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17915</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17915</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <epigrafe nombre="Especialidades sanitarias">
+              <item>
+                <identificador>BOE-A-2018-17916</identificador>
+                <control>2018/17891</control>
+                <titulo>Resolución 3633/2018, de 26 de noviembre, de la Dirección Gerencia de la Organización Sanitaria Integrada Bilbao-Basurto, por la que se corrigen errores en la Resolución 2600/2018, de 1 de junio, por la que se convoca concurso para la provisión de puesto de trabajo de Jefe de Servicio Sanitario de Laboratorio de Bioquímica y Urgencias.</titulo>
+                <url_pdf szBytes="227774" szKBytes="222" pagina_inicial="129414" pagina_final="129415">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17916.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17916</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17916</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2018-17917</identificador>
+                <control>2018/17696</control>
+                <titulo>Resolución de 15 de noviembre de 2018, del Ayuntamiento de Oviedo (Asturias), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="150752" szKBytes="147" pagina_inicial="129416" pagina_final="129416">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17917.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17917</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17917</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17918</identificador>
+                <control>2018/17699</control>
+                <titulo>Resolución de 30 de noviembre de 2018, del Ayuntamiento de Oviedo (Asturias), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="150134" szKBytes="147" pagina_inicial="129417" pagina_final="129417">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17918.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17918</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17918</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17919</identificador>
+                <control>2018/17770</control>
+                <titulo>Resolución de 10 de diciembre de 2018, del Ayuntamiento de Paiporta (Valencia), Empresa de Servicios de Paiporta, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="214719" szKBytes="210" pagina_inicial="129418" pagina_final="129418">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17919.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17919</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17919</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17920</identificador>
+                <control>2018/17772</control>
+                <titulo>Resolución de 14 de diciembre de 2018, del Ayuntamiento de Peñamellera Baja (Asturias), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="216081" szKBytes="211" pagina_inicial="129419" pagina_final="129419">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17920.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17920</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17920</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2018-17921</identificador>
+                <control>2018/17897</control>
+                <titulo>Resolución de 14 de diciembre de 2018, de la Universidad de Valladolid, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="372126" szKBytes="363" pagina_inicial="129420" pagina_final="129433">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17921.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17921</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17921</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17923</identificador>
+                <control>2018/18137</control>
+                <titulo>Resolución de 26 de diciembre de 2018, de la Universidad Nacional de Educación a Distancia, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="876437" szKBytes="856" pagina_inicial="129436" pagina_final="129484">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17923.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17923</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17923</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Oferta de empleo público">
+              <item>
+                <identificador>BOE-A-2018-17922</identificador>
+                <control>2018/18133</control>
+                <titulo>Resolución de 14 de diciembre de 2018, de la Universidad Nacional de Educación a Distancia, por la que se publica la oferta de empleo público correspondiente al ejercicio 2018 para personal de administración y servicios, en el marco del proceso de estabilización de empleo temporal.</titulo>
+                <url_pdf szBytes="232024" szKBytes="227" pagina_inicial="129434" pagina_final="129435">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17922.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17922</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17922</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Personal docente e investigador">
+              <item>
+                <identificador>BOE-A-2018-17924</identificador>
+                <control>2018/18138</control>
+                <titulo>Resolución de 26 de diciembre de 2018, de la Universidad Nacional de Educación a Distancia, por la que se convoca concurso de acceso a plazas de profesor contratado doctor.</titulo>
+                <url_pdf szBytes="602732" szKBytes="589" pagina_inicial="129485" pagina_final="129511">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17924.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17924</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17924</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Comunidad Autónoma del País Vasco. Convenio">
+              <item>
+                <identificador>BOE-A-2018-17925</identificador>
+                <control>2018/17612</control>
+                <titulo>Resolución de 17 de diciembre de 2018, del Instituto Cervantes, por la que se publica el Convenio con la Universidad del País Vasco/Euskal Herriko Unibertsitatea, para la formación de profesorado en el ámbito de la enseñanza del español como lengua extranjera.</titulo>
+                <url_pdf szBytes="196307" szKBytes="192" pagina_inicial="129512" pagina_final="129517">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17925.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17925</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17925</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-17926</identificador>
+                <control>2018/17705</control>
+                <titulo>Resolución de 14 de diciembre de 2018, de la Secretaría General Técnica, por la que se publica el Convenio con la Universidad CEU Cardenal Herrera, para la realización de prácticas de los alumnos de grado y de posgrado.</titulo>
+                <url_pdf szBytes="208583" szKBytes="204" pagina_inicial="129518" pagina_final="129524">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17926.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17926</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17926</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17927</identificador>
+                <control>2018/17706</control>
+                <titulo>Resolución de 14 de diciembre de 2018, de la Secretaría General Técnica, por la que se publica el Convenio con la Universidad Francisco de Vitoria, para la realización de prácticas de los alumnos de grado y de posgrado.</titulo>
+                <url_pdf szBytes="207462" szKBytes="203" pagina_inicial="129525" pagina_final="129531">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17927.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17927</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17927</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Fundaciones">
+              <item>
+                <identificador>BOE-A-2018-17928</identificador>
+                <control>2018/17365</control>
+                <titulo>Resolución de 4 de septiembre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Delivering Better Lives.</titulo>
+                <url_pdf szBytes="227176" szKBytes="222" pagina_inicial="129532" pagina_final="129533">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17928.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17928</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17928</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17929</identificador>
+                <control>2018/17366</control>
+                <titulo>Resolución de 19 de octubre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Española para la Curación de la Leucemia Mieloide Crónica.</titulo>
+                <url_pdf szBytes="231351" szKBytes="226" pagina_inicial="129534" pagina_final="129536">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17929.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17929</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17929</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17930</identificador>
+                <control>2018/17367</control>
+                <titulo>Resolución de 19 de octubre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Francisco Torrent Bejar.</titulo>
+                <url_pdf szBytes="229880" szKBytes="224" pagina_inicial="129537" pagina_final="129539">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17930.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17930</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17930</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17931</identificador>
+                <control>2018/17368</control>
+                <titulo>Resolución de 19 de octubre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Gabina para la Acción Directa.</titulo>
+                <url_pdf szBytes="228052" szKBytes="223" pagina_inicial="129540" pagina_final="129541">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17931.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17931</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17931</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17932</identificador>
+                <control>2018/17369</control>
+                <titulo>Resolución de 20 de octubre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Miguel Gargallo.</titulo>
+                <url_pdf szBytes="227316" szKBytes="222" pagina_inicial="129542" pagina_final="129543">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17932.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17932</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17932</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17933</identificador>
+                <control>2018/17370</control>
+                <titulo>Resolución de 22 de octubre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Concepto López Mosteiro.</titulo>
+                <url_pdf szBytes="227398" szKBytes="222" pagina_inicial="129544" pagina_final="129545">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17933.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17933</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17933</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17934</identificador>
+                <control>2018/17371</control>
+                <titulo>Resolución de 29 de octubre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Arnhold de la Cámara.</titulo>
+                <url_pdf szBytes="228353" szKBytes="223" pagina_inicial="129546" pagina_final="129547">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17934.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17934</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17934</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17935</identificador>
+                <control>2018/17372</control>
+                <titulo>Resolución de 29 de octubre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Contea para la Educación en Contabilidad y Administración de Empresas.</titulo>
+                <url_pdf szBytes="230365" szKBytes="225" pagina_inicial="129548" pagina_final="129550">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17935.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17935</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17935</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17936</identificador>
+                <control>2018/17373</control>
+                <titulo>Resolución de 29 de octubre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación HNA.</titulo>
+                <url_pdf szBytes="228208" szKBytes="223" pagina_inicial="129551" pagina_final="129552">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17936.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17936</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17936</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17937</identificador>
+                <control>2018/17374</control>
+                <titulo>Resolución de 29 de octubre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Nueva Compasión.</titulo>
+                <url_pdf szBytes="227634" szKBytes="222" pagina_inicial="129553" pagina_final="129554">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17937.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17937</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17937</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17938</identificador>
+                <control>2018/17375</control>
+                <titulo>Resolución de 29 de octubre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Synodo.</titulo>
+                <url_pdf szBytes="230050" szKBytes="225" pagina_inicial="129555" pagina_final="129557">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17938.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17938</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17938</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17939</identificador>
+                <control>2018/17376</control>
+                <titulo>Resolución de 30 de octubre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Médica Castellano Leonesa Cántabra de Medicina Interna.</titulo>
+                <url_pdf szBytes="227955" szKBytes="223" pagina_inicial="129558" pagina_final="129559">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17939.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17939</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17939</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17940</identificador>
+                <control>2018/17377</control>
+                <titulo>Resolución de 2 de noviembre de 2018, de la Dirección General de los Registros y del Notariado, por la que se inscribe en el Registro de Fundaciones la Fundación Museo de la Memoria de Madrid.</titulo>
+                <url_pdf szBytes="230919" szKBytes="226" pagina_inicial="129560" pagina_final="129562">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17940.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17940</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17940</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2018-17941</identificador>
+                <control>2018/17902</control>
+                <titulo>Resolución de 18 de diciembre de 2018, de la Dirección General de Modernización de la Justicia, Desarrollo Tecnológico y Recuperación y Gestión de Activos, por la que se acuerda la remisión del expediente administrativo, correspondiente al recurso contencioso-administrativo 124/2018, interpuesto ante el Juzgado Central de lo Contencioso-Administrativo n.º 10 y se notifica y emplaza a los interesados.</titulo>
+                <url_pdf szBytes="219109" szKBytes="214" pagina_inicial="129563" pagina_final="129563">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17941.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17941</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17941</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Premios">
+              <item>
+                <identificador>BOE-A-2018-17942</identificador>
+                <control>2018/17908</control>
+                <titulo>Orden FOM/1410/2018, de 3 de diciembre, por la que se convoca el Premio Nacional de Arquitectura correspondiente al año 2018.</titulo>
+                <url_pdf szBytes="178165" szKBytes="174" pagina_inicial="129564" pagina_final="129567">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17942.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17942</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17942</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Sellos de correos">
+              <item>
+                <identificador>BOE-A-2018-17943</identificador>
+                <control>2018/17911</control>
+                <titulo>Resolución de 18 de diciembre de 2018, conjunta de las Subsecretarías de Fomento y de Hacienda, sobre emisión y puesta en circulación de tres series de sellos de correo denominadas, "12 Meses 12 Sellos.- 2019. Huesca", "Ingeniería.- 2019. Canal de Panamá" y "Turismo.- 2019. Q-Calidad Turística. Playa y Q-Calidad Turística. Montaña".</titulo>
+                <url_pdf szBytes="168292" szKBytes="164" pagina_inicial="129568" pagina_final="129569">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17943.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17943</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17943</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17944</identificador>
+                <control>2018/17912</control>
+                <titulo>Resolución de 18 de diciembre de 2018, conjunta de las Subsecretarías de Fomento y de Hacienda, sobre emisión y puesta en circulación de una serie de sellos de correo denominada "Serie Bàsica.- 2019.- Principat d´Andorra".</titulo>
+                <url_pdf szBytes="160645" szKBytes="157" pagina_inicial="129570" pagina_final="129571">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17944.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17944</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17944</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17945</identificador>
+                <control>2018/17913</control>
+                <titulo>Resolución de 18 de diciembre de 2018, conjunta de las Subsecretarías de Fomento y de Hacienda, sobre emisión y puesta en circulación de una serie de sellos de correo denominada, "Ciencia.- 2019. Año Internacional de la Tabla Periódica de los Elementos Químicos".</titulo>
+                <url_pdf szBytes="160324" szKBytes="157" pagina_inicial="129572" pagina_final="129573">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17945.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17945</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17945</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9563" nombre="MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL">
+            <epigrafe nombre="Condecoraciones">
+              <item>
+                <identificador>BOE-A-2018-17946</identificador>
+                <control>2018/18163</control>
+                <titulo>Real Decreto 1497/2018, de 21 de diciembre, por el que se concede la Gran Cruz de la Orden Civil de Alfonso X el Sabio a doña Paloma Altolaguirre Méndez.</titulo>
+                <url_pdf szBytes="217941" szKBytes="213" pagina_inicial="129574" pagina_final="129574">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17946.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17946</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17946</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17947</identificador>
+                <control>2018/18164</control>
+                <titulo>Real Decreto 1498/2018, de 21 de diciembre, por el que se concede la Gran Cruz de la Orden Civil de Alfonso X el Sabio a don Francisco López Rupérez.</titulo>
+                <url_pdf szBytes="215545" szKBytes="210" pagina_inicial="129575" pagina_final="129575">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17947.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17947</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17947</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17948</identificador>
+                <control>2018/18165</control>
+                <titulo>Real Decreto 1499/2018, de 21 de diciembre, por el que se concede la Gran Cruz de la Orden Civil de Alfonso X el Sabio a don Álvaro Marchesi Ullastres.</titulo>
+                <url_pdf szBytes="216120" szKBytes="211" pagina_inicial="129576" pagina_final="129576">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17948.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17948</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17948</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17949</identificador>
+                <control>2018/18166</control>
+                <titulo>Real Decreto 1500/2018, de 21 de diciembre, por el que se concede la Corbata de la Orden Civil de Alfonso X el Sabio a la Fundación Residencia de Estudiantes.</titulo>
+                <url_pdf szBytes="214398" szKBytes="209" pagina_inicial="129577" pagina_final="129577">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17949.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17949</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17949</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17950</identificador>
+                <control>2018/17539</control>
+                <titulo>Orden EFP/1411/2018, de 5 de diciembre, por la que se concede el ingreso en la Orden Civil de Alfonso X el Sabio, con la categoría de Cruz, a las personas que se citan.</titulo>
+                <url_pdf szBytes="216183" szKBytes="211" pagina_inicial="129578" pagina_final="129578">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17950.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17950</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17950</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17951</identificador>
+                <control>2018/17540</control>
+                <titulo>Orden EFP/1412/2018, de 5 de diciembre, por la que se concede el ingreso en la Orden Civil de Alfonso X el Sabio, con la categoría de Encomienda a don René Jesús Payo Hernanz.</titulo>
+                <url_pdf szBytes="216270" szKBytes="211" pagina_inicial="129579" pagina_final="129579">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17951.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17951</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17951</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17952</identificador>
+                <control>2018/17541</control>
+                <titulo>Orden EFP/1413/2018, de 5 de diciembre, por la que se concede el ingreso en la Orden Civil de Alfonso X el Sabio, con la categoría de Encomienda con Placa, a las personas que se citan.</titulo>
+                <url_pdf szBytes="216756" szKBytes="212" pagina_inicial="129580" pagina_final="129580">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17952.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17952</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17952</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17953</identificador>
+                <control>2018/17542</control>
+                <titulo>Orden EFP/1414/2018, de 5 de diciembre, por la que se concede el ingreso en la Orden Civil de Alfonso X el Sabio, con la categoría de Placa de Honor, a las entidades que se citan.</titulo>
+                <url_pdf szBytes="215961" szKBytes="211" pagina_inicial="129581" pagina_final="129581">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17953.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17953</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17953</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9564" nombre="MINISTERIO DE TRABAJO, MIGRACIONES Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Convenios colectivos de trabajo">
+              <item>
+                <identificador>BOE-A-2018-17954</identificador>
+                <control>2018/17923</control>
+                <titulo>Resolución de 18 de diciembre de 2018, de la Dirección General de Trabajo, por la que se registra y publica el VI Convenio colectivo estatal de empresas de trabajo temporal.</titulo>
+                <url_pdf szBytes="468727" szKBytes="458" pagina_inicial="129582" pagina_final="129617">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17954.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17954</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17954</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5250" nombre="MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO">
+            <epigrafe nombre="Comunidad Autónoma de Castilla-La Mancha. Convenio">
+              <item>
+                <identificador>BOE-A-2018-17955</identificador>
+                <control>2018/17790</control>
+                <titulo>Resolución de 14 de diciembre de 2018, de ICEX España Exportación e Inversiones, E.P.E., M.P., por la que se publica el Convenio con el Instituto de Promoción Exterior de Castilla-La Mancha, para la coordinación y seguimiento de las actuaciones de apoyo a la internacionalización de las pymes con cargo a los fondos estructurales de la Unión Europea para el periodo 2014-2020.</titulo>
+                <url_pdf szBytes="248340" szKBytes="243" pagina_inicial="129618" pagina_final="129622">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17955.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17955</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17955</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-17956</identificador>
+                <control>2018/17791</control>
+                <titulo>Resolución de 14 de diciembre de 2018, de la Secretaría de Estado de Turismo, por la que se publica el Convenio con la Federación Española de Municipios y Provincias, para la gestión del Sistema Integral de Calidad Turística en Destinos.</titulo>
+                <url_pdf szBytes="179673" szKBytes="175" pagina_inicial="129623" pagina_final="129626">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17956.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17956</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17956</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17957</identificador>
+                <control>2018/17928</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de ICEX España Exportación e Inversiones, E.P.E., M.P., por la que se publica el Convenio con la Cámara Oficial Española de Comercio en Taiwán, para la coordinación y seguimiento de las actuaciones de apoyo a la internacionalización de las empresas españolas en dicha zona.</titulo>
+                <url_pdf szBytes="251609" szKBytes="246" pagina_inicial="129627" pagina_final="129631">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17957.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17957</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17957</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17958</identificador>
+                <control>2018/17929</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de ICEX España Exportación e Inversiones, E.P.E., M.P., por la que se publica el Convenio con la Universidad San Pablo CEU, para prácticas académicas externas para estudiantes de máster.</titulo>
+                <url_pdf szBytes="286226" szKBytes="280" pagina_inicial="129632" pagina_final="129640">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17958.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17958</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17958</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Ferias Comerciales Internacionales">
+              <item>
+                <identificador>BOE-A-2018-17959</identificador>
+                <control>2018/17927</control>
+                <titulo>Resolución de 17 de diciembre de 2018, de la Secretaría de Estado de Comercio, por la que se aprueba el calendario oficial de ferias comerciales internacionales del año 2019.</titulo>
+                <url_pdf szBytes="249751" szKBytes="244" pagina_inicial="129641" pagina_final="129644">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17959.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17959</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17959</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Instalaciones eléctricas">
+              <item>
+                <identificador>BOE-A-2018-17960</identificador>
+                <control>2018/17545</control>
+                <titulo>Resolución de 5 de diciembre de 2018, de la Dirección General de Industria y de la Pequeña y Mediana Empresa, por la que se aprueban especificaciones particulares y proyectos tipo de Endesa Distribución Eléctrica, SLU.</titulo>
+                <url_pdf szBytes="252200" szKBytes="246" pagina_inicial="129645" pagina_final="129648">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17960.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17960</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17960</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3120" nombre="MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN">
+            <epigrafe nombre="Comunidad Autónoma de Cataluña. Convenio">
+              <item>
+                <identificador>BOE-A-2018-17961</identificador>
+                <control>2018/17622</control>
+                <titulo>Resolución de 13 de diciembre de 2018, de la Subsecretaría, por la que se publica el Convenio de colaboración entre la Entidad Estatal de Seguros Agrarios, O.A., y la Comunidad Autónoma de Cataluña, para el intercambio de datos a efectos de la gestión y control de subvenciones a los seguros agrarios de los beneficiarios de su comunidad autónoma.</titulo>
+                <url_pdf szBytes="251977" szKBytes="246" pagina_inicial="129649" pagina_final="129653">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17961.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17961</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17961</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9569" nombre="MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES E IGUALDAD">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-17962</identificador>
+                <control>2018/17550</control>
+                <titulo>Resolución de 13 de diciembre de 2018, de la Subsecretaría, por la que se publica el Convenio entre el Consejo de Administración del Patrimonio Nacional y la Corporación Radio Televisión Española, para la organización conjunta en 2018 del Concierto de Navidad en el Palacio Real de Madrid.</titulo>
+                <url_pdf szBytes="255518" szKBytes="250" pagina_inicial="129654" pagina_final="129658">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17962.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17962</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17962</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17963</identificador>
+                <control>2018/17956</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre el Centro Universitario de la Guardia Civil y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="259137" szKBytes="253" pagina_inicial="129659" pagina_final="129663">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17963.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17963</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17963</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17964</identificador>
+                <control>2018/17957</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre el Consejo Superior de Deportes y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="259533" szKBytes="253" pagina_inicial="129664" pagina_final="129668">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17964.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17964</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17964</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17965</identificador>
+                <control>2018/17958</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre el Instituto de la Cinematografía y de las Artes Audiovisuales y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="259507" szKBytes="253" pagina_inicial="129669" pagina_final="129673">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17965.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17965</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17965</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17966</identificador>
+                <control>2018/17959</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre el Instituto de Turismo de España y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="257846" szKBytes="252" pagina_inicial="129674" pagina_final="129678">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17966.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17966</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17966</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17967</identificador>
+                <control>2018/17960</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre la Agencia Española de Medicamentos y Productos Sanitarios y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="257023" szKBytes="251" pagina_inicial="129679" pagina_final="129683">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17967.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17967</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17967</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17968</identificador>
+                <control>2018/17961</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre la Agencia Estatal Boletín Oficial del Estado y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="259309" szKBytes="253" pagina_inicial="129684" pagina_final="129688">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17968.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17968</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17968</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17969</identificador>
+                <control>2018/17962</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre la Confederación Hidrográfica del Cantábrico y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="255114" szKBytes="249" pagina_inicial="129689" pagina_final="129693">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17969.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17969</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17969</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17970</identificador>
+                <control>2018/17963</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre la Confederación Hidrográfica del Miño-Sil y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="255702" szKBytes="250" pagina_inicial="129694" pagina_final="129698">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17970.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17970</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17970</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17971</identificador>
+                <control>2018/17964</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre la Confederación Hidrográfica del Tajo y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="257136" szKBytes="251" pagina_inicial="129699" pagina_final="129703">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17971.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17971</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17971</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17972</identificador>
+                <control>2018/17965</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre la Entidad Estatal de Seguros Agrarios y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="261584" szKBytes="255" pagina_inicial="129704" pagina_final="129709">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17972.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17972</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17972</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17973</identificador>
+                <control>2018/17966</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre la Gerencia de Infraestructuras y Equipamiento de la Seguridad del Estado y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="255187" szKBytes="249" pagina_inicial="129710" pagina_final="129714">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17973.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17973</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17973</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17974</identificador>
+                <control>2018/17967</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre la Gerencia de Infraestructuras y Equipamiento de Cultura y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="264513" szKBytes="258" pagina_inicial="129715" pagina_final="129720">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17974.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17974</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17974</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17975</identificador>
+                <control>2018/17968</control>
+                <titulo>Resolución de 20 de diciembre de 2018, de la Subsecretaría, por la que se publica la Adenda de modificación y prórroga del Convenio entre la Mutualidad General de Funcionarios Civiles del Estado y la Intervención General de la Administración del Estado, para la adhesión a los sistemas departamentales de la IGAE.</titulo>
+                <url_pdf szBytes="256525" szKBytes="251" pagina_inicial="129721" pagina_final="129725">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17975.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17975</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17975</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-17980</identificador>
+                <control>2018/17798</control>
+                <titulo>Resolución de 10 de diciembre de 2018, del Museo Nacional del Prado, por la que se publica el Convenio con la Fundación Amigos del Museo del Prado.</titulo>
+                <url_pdf szBytes="247315" szKBytes="242" pagina_inicial="129784" pagina_final="129788">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17980.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17980</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17980</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9566" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA">
+            <epigrafe nombre="Comunidad Autónoma de Canarias. Convenio">
+              <item>
+                <identificador>BOE-A-2018-17976</identificador>
+                <control>2018/17796</control>
+                <titulo>Resolución de 10 de diciembre de 2018, de la Dirección General del Agua, por la que se registra y publica el Protocolo general con el Gobierno de Canarias, para el desarrollo de actuaciones en materia de agua en las Islas Canarias, por el que se definen las líneas a seguir por ambas administraciones para el cumplimiento de la directiva 2000/60/CE, por la que se establece un marco comunitario de actuación en el ámbito de la política de aguas. Periodo 2018-2029.</titulo>
+                <url_pdf szBytes="350149" szKBytes="342" pagina_inicial="129726" pagina_final="129737">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17976.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17976</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17976</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Energía eléctrica">
+              <item>
+                <identificador>BOE-A-2018-17977</identificador>
+                <control>2018/17651</control>
+                <titulo>Resolución de 30 de noviembre de 2018, de la Secretaría de Estado de Energía, por la que se pone en marcha la aplicación telemática que permita al comercializador de referencia comprobar que el solicitante del bono social cumple los requisitos para ser considerado consumidor vulnerable en el territorio de la Comunidad Autónoma del País Vasco.</titulo>
+                <url_pdf szBytes="227480" szKBytes="222" pagina_inicial="129738" pagina_final="129739">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17977.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17977</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17977</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Impacto ambiental">
+              <item>
+                <identificador>BOE-A-2018-17978</identificador>
+                <control>2018/17654</control>
+                <titulo>Resolución de 5 de diciembre 2018, de la Dirección General de Biodiversidad y Calidad Ambiental, por la que se formula declaración de impacto ambiental del proyecto Parque eólico Las Majas de 99 MW, situado en Azuara, Aguilón, Fuendetodos y Almonacid de La Cuba (Zaragoza).</titulo>
+                <url_pdf szBytes="1170298" szKBytes="1143" pagina_inicial="129740" pagina_final="129780">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17978.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17978</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17978</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Instalaciones eléctricas">
+              <item>
+                <identificador>BOE-A-2018-17979</identificador>
+                <control>2018/17652</control>
+                <titulo>Resolución de 2 de diciembre de 2018, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España, SAU, autorización administrativa previa y autorización administrativa de construcción del proyecto de ampliación de la subestación Campanario 400 kV, en el término municipal de Bonete (Albacete).</titulo>
+                <url_pdf szBytes="234857" szKBytes="229" pagina_inicial="129781" pagina_final="129783">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17979.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17979</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17979</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9567" nombre="MINISTERIO DE ECONOMÍA Y EMPRESA">
+            <epigrafe nombre="Deuda del Estado">
+              <item>
+                <identificador>BOE-A-2018-17981</identificador>
+                <control>2018/17502</control>
+                <titulo>Resolución de 13 de diciembre de 2018, de la Dirección General del Tesoro y Política Financiera, por la que se publican los resultados de las subastas de Letras del Tesoro a tres y nueve meses correspondientes a las emisiones de fecha 14 de diciembre de 2018.</titulo>
+                <url_pdf szBytes="171164" szKBytes="167" pagina_inicial="129789" pagina_final="129790">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17981.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17981</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17981</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9565" nombre="MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2018-17982</identificador>
+                <control>2018/17983</control>
+                <titulo>Resolución de 13 de diciembre de 2018, de la Presidencia de la Agencia Estatal de Investigación, por la que se publica el Convenio con la Fundación Científica de la Asociación Española Contra el Cáncer, para la evaluación científico-técnica de convocatorias de ayudas a investigación en cáncer 2019.</titulo>
+                <url_pdf szBytes="257364" szKBytes="251" pagina_inicial="129791" pagina_final="129796">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17982.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17982</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17982</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Encomienda de gestión">
+              <item>
+                <identificador>BOE-A-2018-17983</identificador>
+                <control>2018/17984</control>
+                <titulo>Resolución de 14 de diciembre de 2018, de la Presidencia de la Agencia Estatal de Investigación, por la que se publica el Acuerdo de encomienda de gestión al Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria, en materia de subvenciones para el período 2019-2020.</titulo>
+                <url_pdf szBytes="242053" szKBytes="236" pagina_inicial="129797" pagina_final="129800">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17983.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17983</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17983</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2018-17984</identificador>
+                <control>2018/18142</control>
+                <titulo>Resolución de 27 de diciembre de 2018, del Banco de España, por la que se publican los cambios del euro correspondientes al día 27 de diciembre de 2018, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="174169" szKBytes="170" pagina_inicial="129801" pagina_final="129801">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17984.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17984</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17984</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9534" nombre="COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA">
+            <epigrafe nombre="Telecomunicaciones">
+              <item>
+                <identificador>BOE-A-2018-17985</identificador>
+                <control>2018/17988</control>
+                <titulo>Resolución de 18 de diciembre de 2018, de la Comisión Nacional de los Mercados y la Competencia, por la que se publica la resolución por la que se aprueba la Oferta de Interconexión de Referencia basada en tecnología IP (OIR-IP) de Telefónica de España, SAU.</titulo>
+                <url_pdf szBytes="230081" szKBytes="225" pagina_inicial="129802" pagina_final="129803">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17985.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17985</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17985</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2018-17986</identificador>
+                <control>2018/17989</control>
+                <titulo>Resolución de 18 de diciembre de 2018, de la Comisión Nacional de los Mercados y la Competencia, por la que se publica la resolución por la que se aprueba la Oferta de Interconexión de Referencia basada en tecnología TDM (OIR-TDM) de Telefónica de España, SAU.</titulo>
+                <url_pdf szBytes="230439" szKBytes="225" pagina_inicial="129804" pagina_final="129805">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-A-2018-17986.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-17986</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17986</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Contratación del Sector Público">
+          <departamento codigo="1220" nombre="CORTES GENERALES">
+            <item>
+              <identificador>BOE-B-2018-61121</identificador>
+              <titulo>Anuncio de licitación de: Mesas del Congreso de los Diputados y del Senado. Objeto: Servicios de diseño, conceptualización y contenidos, producción, transporte y montaje y desmontaje de la Exposición "El Camino hacia la Democracia", para conmemorar el 40 Aniversario de la Constitución. Expediente: COR-2018/9901236.0.</titulo>
+              <url_pdf szBytes="175776" szKBytes="172" pagina_inicial="77818" pagina_final="77818">https://www.boe.es/boe/dias/2018/12/28/pdfs/BOE-B-2018-61121.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2018-61121</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2018-61121</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

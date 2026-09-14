@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="1627">Contabilidad</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="3239">Entidades financieras</materia>
+        <materia codigo="3472">Estados financieros</materia>
+        <materia codigo="4165">Información</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2019-3113</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la Orden ECE/228/2019, de 28 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-2002-81596</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Reglamento (CE) n.º 1606/2002, de 19 de julio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2023-5481</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>, con efectos desde el 31 de marzo de 2023, la norma 5, por Circular 1/2023, de 24 de febrero</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2021-21666</id_norma>
+            <relacion codigo="235">SE SUPRIME</relacion>
+            <texto>la disposición final única, por Circular 6/2021, de 22 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

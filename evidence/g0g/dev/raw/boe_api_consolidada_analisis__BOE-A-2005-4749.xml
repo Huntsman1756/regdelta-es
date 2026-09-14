@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="3685">Ficheros con datos personales</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2003-11719</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Circular 1/2003, de 28 de mayo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2002-2629</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Circular 2/2002, de 25 de enero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1996-22797</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Circular 10/1996, de 27 de septiembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1996-3219</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Circular 1/1996, de 30 de enero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1995-22390</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Circular 4/1995, de 25 de septiembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1994-17556</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>Circular 4/1994, de 22 de julio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1999-23750</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 20 de la Ley Orgánica 15/1999, de 13 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1994-12553</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Ley 13/1994, de 1 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2014-8654</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>lo indicado, por Circular 4/2014, de 30 de julio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2013-7467</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>lo indicado, por Circular de 27 de junio de 2013</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2012-4804</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>lo indicado, por Circular 3/2012, de 28 de marzo de 2012</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2011-2378</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>, por Circular 1/2011, de 26 de enero de 2011</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2008-18886</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>los anejos I y II, por Circular 4/2008, de 31 de octubre</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2007-15479</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el anexo II, por Circular 3/2007, de 27 de julio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2006-623</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>el anexo I, por Circular 4/2005, de 23 de diciembre</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

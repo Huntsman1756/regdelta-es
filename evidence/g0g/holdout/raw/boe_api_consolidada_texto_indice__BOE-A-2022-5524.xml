@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>no</id>
+      <titulo/>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/no</url>
+    </bloque>
+    <bloque>
+      <id>pr</id>
+      <titulo>[preambulo]</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/pr</url>
+    </bloque>
+    <bloque>
+      <id>np</id>
+      <titulo>Norma primera</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/np</url>
+    </bloque>
+    <bloque>
+      <id>ns</id>
+      <titulo>Norma segunda</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/ns</url>
+    </bloque>
+    <bloque>
+      <id>nt</id>
+      <titulo>Norma tercera</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/nt</url>
+    </bloque>
+    <bloque>
+      <id>dt</id>
+      <titulo>Disposición transitoria única</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/dt</url>
+    </bloque>
+    <bloque>
+      <id>df</id>
+      <titulo>Disposición final primera</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/df</url>
+    </bloque>
+    <bloque>
+      <id>df-2</id>
+      <titulo>Disposición final segunda</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/df-2</url>
+    </bloque>
+    <bloque>
+      <id>fi</id>
+      <titulo>[firma]</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/fi</url>
+    </bloque>
+    <bloque>
+      <id>ai</id>
+      <titulo>ANEJO I</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/ai</url>
+    </bloque>
+    <bloque>
+      <id>ai-2</id>
+      <titulo>ANEJO II</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/ai-2</url>
+    </bloque>
+    <bloque>
+      <id>ai-3</id>
+      <titulo>ANEJO III</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2022-5524/texto/bloque/ai-3</url>
+    </bloque>
+  </data>
+</response>

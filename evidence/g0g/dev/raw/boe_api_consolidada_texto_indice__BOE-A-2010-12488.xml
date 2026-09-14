@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>no</id>
+      <titulo/>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/no</url>
+    </bloque>
+    <bloque>
+      <id>preambulo</id>
+      <titulo/>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/preambulo</url>
+    </bloque>
+    <bloque>
+      <id>normaprimera</id>
+      <titulo>Norma primera</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/normaprimera</url>
+    </bloque>
+    <bloque>
+      <id>normasegunda</id>
+      <titulo>Norma segunda</titulo>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/normasegunda</url>
+    </bloque>
+    <bloque>
+      <id>normatercera</id>
+      <titulo>Norma tercera</titulo>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/normatercera</url>
+    </bloque>
+    <bloque>
+      <id>normacuaa</id>
+      <titulo>Norma cuarta</titulo>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/normacuaa</url>
+    </bloque>
+    <bloque>
+      <id>normaquinta</id>
+      <titulo>Norma quinta</titulo>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/normaquinta</url>
+    </bloque>
+    <bloque>
+      <id>normasexta</id>
+      <titulo>Norma sexta</titulo>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/normasexta</url>
+    </bloque>
+    <bloque>
+      <id>normaderogatoria</id>
+      <titulo>Norma derogatoria</titulo>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/normaderogatoria</url>
+    </bloque>
+    <bloque>
+      <id>normafinal</id>
+      <titulo>Norma final</titulo>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/normafinal</url>
+    </bloque>
+    <bloque>
+      <id>firma</id>
+      <titulo/>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/firma</url>
+    </bloque>
+    <bloque>
+      <id>anejo1</id>
+      <titulo>ANEJO 1</titulo>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/anejo1</url>
+    </bloque>
+    <bloque>
+      <id>anejo2</id>
+      <titulo>ANEJO 2</titulo>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/anejo2</url>
+    </bloque>
+    <bloque>
+      <id>anejo3</id>
+      <titulo>ANEJO 3</titulo>
+      <fecha_actualizacion>20100804</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-12488/texto/bloque/anejo3</url>
+    </bloque>
+  </data>
+</response>

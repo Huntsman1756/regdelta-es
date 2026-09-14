@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T111917Z</fecha_actualizacion>
+      <identificador>BOE-A-2007-2482</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20070126</fecha_disposicion>
+      <numero_oficial>1/2007</numero_oficial>
+      <titulo>Circular 1/2007, de 26 de enero, del Banco de España, sobre información que debe rendir la Sociedad Española de Sistemas de Pago, Sociedad Anónima, y aprobación de su normativa.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20070206</fecha_publicacion>
+      <diario_numero>32</diario_numero>
+      <fecha_vigencia>20070207</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2007/01/26/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2007-2482</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

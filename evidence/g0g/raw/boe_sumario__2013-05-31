@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20130531</fecha_publicacion>
+      </metadatos>
+      <diario numero="130">
+        <sumario_diario>
+          <identificador>BOE-S-2013-130</identificador>
+          <url_pdf szBytes="265716" szKBytes="259">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-S-2013-130.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2013-5719</identificador>
+                <control>2013/5706</control>
+                <titulo>Real Decreto 331/2013, de 10 de mayo, por el que se regula la concesión de una subvención directa a la entidad Asociación Comisión Católica Española de Migración (ACCEM), para la acogida temporal de españoles mayores retornados.</titulo>
+                <url_pdf szBytes="209665" szKBytes="205" pagina_inicial="41093" pagina_final="41096">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5719.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5719</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5719</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades financieras">
+              <item>
+                <identificador>BOE-A-2013-5720</identificador>
+                <control>2013/5589</control>
+                <titulo>Circular 1/2013, de 24 de mayo, del Banco de España, por la que se modifica la Circular 4/2004, de 22 de diciembre, a las entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+                <url_pdf szBytes="3787713" szKBytes="3699" pagina_inicial="41097" pagina_final="41263">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5720.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5720</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5720</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2013-5721</identificador>
+                <control>2013/5638</control>
+                <titulo>Acuerdo de 14 de mayo de 2013, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara en la situación administrativa de excedencia voluntaria en la Carrera Judicial para el cuidado de un hijo a doña Mª Aurora Gabino Amantegui.</titulo>
+                <url_pdf szBytes="137185" szKBytes="134" pagina_inicial="41264" pagina_final="41264">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5721.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5721</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5721</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2013-5722</identificador>
+                <control>2013/5550</control>
+                <titulo>Orden AEC/950/2013, de 6 de mayo, por la que se dispone el cese de vocales del Consejo de Cooperación al Desarrollo.</titulo>
+                <url_pdf szBytes="135176" szKBytes="132" pagina_inicial="41265" pagina_final="41265">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5722.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5722</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5722</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2013-5723</identificador>
+                <control>2013/5551</control>
+                <titulo>Orden AEC/951/2013, de 6 de mayo, por la que se nombran vocales del Consejo de Cooperación al Desarrollo.</titulo>
+                <url_pdf szBytes="136889" szKBytes="134" pagina_inicial="41266" pagina_final="41266">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5723.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5723</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5723</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Reingresos">
+              <item>
+                <identificador>BOE-A-2013-5724</identificador>
+                <control>2013/5710</control>
+                <titulo>Orden JUS/952/2013, de 22 de mayo, por la que se reingresa al servicio activo en la Carrera Fiscal a doña María Teresa Gálvez Díez.</titulo>
+                <url_pdf szBytes="137484" szKBytes="134" pagina_inicial="41267" pagina_final="41267">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5724.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5724</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5724</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2013-5725</identificador>
+                <control>2013/5645</control>
+                <titulo>Orden HAP/953/2013, de 21 de mayo, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Orden HAP/503/2013, de 21 de marzo.</titulo>
+                <url_pdf szBytes="144163" szKBytes="141" pagina_inicial="41268" pagina_final="41269">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5725.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5725</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5725</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2013-5726</identificador>
+                <control>2013/5715</control>
+                <titulo>Orden INT/954/2013, de 21 de mayo, por la que se nombra Jefe de la Unidad del Cuerpo Nacional de Policía adscrita a la Comunitat Valenciana a don Miguel Álvaro Rodríguez Fernández.</titulo>
+                <url_pdf szBytes="136495" szKBytes="133" pagina_inicial="41270" pagina_final="41270">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5726.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5726</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5726</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2013-5727</identificador>
+                <control>2013/5648</control>
+                <titulo>Orden ESS/955/2013, de 20 de mayo, por la que, en ejecución de sentencia, se modifica la Orden ESS/1257/2012, de 12 de junio, por la que se resuelve el concurso específico, convocado por Orden TIN/3180/2011, de 16 de noviembre, en el Servicio Público de Empleo Estatal.</titulo>
+                <url_pdf szBytes="144311" szKBytes="141" pagina_inicial="41271" pagina_final="41272">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5727.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5727</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5727</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5728</identificador>
+                <control>2013/5717</control>
+                <titulo>Resolución de 22 de mayo de 2013, de la Dirección General de la Inspección de Trabajo y Seguridad Social, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 5 de abril de 2013.</titulo>
+                <url_pdf szBytes="149375" szKBytes="146" pagina_inicial="41273" pagina_final="41275">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5728.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5728</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5728</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Carrera Diplomática">
+              <item>
+                <identificador>BOE-A-2013-5729</identificador>
+                <control>2013/5724</control>
+                <titulo>Orden AEC/956/2013, de 22 de mayo, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre, en la Carrera Diplomática.</titulo>
+                <url_pdf szBytes="366143" szKBytes="358" pagina_inicial="41276" pagina_final="41298">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5729.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5729</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5729</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2013-5730</identificador>
+                <control>2013/5734</control>
+                <titulo>Resolución de 2 de mayo de 2013, del Ayuntamiento de Massanassa (Valencia), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="133595" szKBytes="130" pagina_inicial="41299" pagina_final="41299">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5730.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5730</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5730</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5731</identificador>
+                <control>2013/5597</control>
+                <titulo>Resolución de 9 de mayo de 2013, del Ayuntamiento de Sant Just Desvern (Barcelona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="133942" szKBytes="131" pagina_inicial="41300" pagina_final="41300">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5731.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5731</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5731</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5732</identificador>
+                <control>2013/5735</control>
+                <titulo>Resolución de 17 de mayo de 2013, del Ayuntamiento de Amposta (Tarragona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="131664" szKBytes="129" pagina_inicial="41301" pagina_final="41301">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5732.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5732</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5732</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5733</identificador>
+                <control>2013/5736</control>
+                <titulo>Resolución de 21 de mayo de 2013, del Ayuntamiento de Andújar (Jaén), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="132397" szKBytes="129" pagina_inicial="41302" pagina_final="41302">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5733.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5733</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5733</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5734</identificador>
+                <control>2013/5737</control>
+                <titulo>Resolución de 24 de mayo de 2013, del Ayuntamiento de Sant Feliu de Guíxols (Girona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="134688" szKBytes="132" pagina_inicial="41303" pagina_final="41303">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5734.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5734</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5734</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="1220" nombre="CORTES GENERALES">
+            <epigrafe nombre="Fiscalizaciones">
+              <item>
+                <identificador>BOE-A-2013-5735</identificador>
+                <control>2013/5651</control>
+                <titulo>Resolución de 30 de abril de 2013, de la Presidencia del Congreso de los Diputados y de la Presidencia del Senado, por la que se dispone la publicación del Dictamen de la Comisión Mixta para las Relaciones con el Tribunal de Cuentas en relación con la Declaración sobre la Cuenta General del Estado correspondiente al ejercicio 2010.</titulo>
+                <url_pdf szBytes="175761" szKBytes="172" pagina_inicial="41304" pagina_final="41309">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5735.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5735</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5735</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Becas">
+              <item>
+                <identificador>BOE-A-2013-5736</identificador>
+                <control>2013/5600</control>
+                <titulo>Resolución de 20 de mayo de 2013, del Instituto Cervantes, por la que se adjudican las becas de formación y especialización, para el período 2013/2014.</titulo>
+                <url_pdf szBytes="204901" szKBytes="200" pagina_inicial="41310" pagina_final="41317">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5736.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5736</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5736</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Becas">
+              <item>
+                <identificador>BOE-A-2013-5737</identificador>
+                <control>2013/5739</control>
+                <titulo>Resolución 3D0/38043/2013, de 22 de mayo, del Instituto Nacional de Técnica Aeroespacial "Esteban Terradas", por la que se convocan becas de formación.</titulo>
+                <url_pdf szBytes="711156" szKBytes="694" pagina_inicial="41318" pagina_final="41329">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5737.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5737</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5737</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Ayuntamiento de Capdepera. Convenio">
+              <item>
+                <identificador>BOE-A-2013-5738</identificador>
+                <control>2013/5508</control>
+                <titulo>Resolución de 17 de mayo de 2013, de la Dirección General del Catastro, por la que se publica el Convenio con el Ayuntamiento de Capdepera.</titulo>
+                <url_pdf szBytes="228211" szKBytes="223" pagina_inicial="41330" pagina_final="41338">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5738.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5738</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5738</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Gestores administrativos">
+              <item>
+                <identificador>BOE-A-2013-5739</identificador>
+                <control>2013/5788</control>
+                <titulo>Resolución de 28 de mayo de 2013, de la Secretaría de Estado de Administraciones Públicas, por la que se publican las listas de aspirantes declarados aptos en las pruebas de aptitud para acceso a la profesión de Gestor Administrativo.</titulo>
+                <url_pdf szBytes="136971" szKBytes="134" pagina_inicial="41339" pagina_final="41339">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5739.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5739</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5739</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2013-5740</identificador>
+                <control>2013/5609</control>
+                <titulo>Resolución de 17 de mayo de 2013, de la Secretaría General de Instituciones Penitenciarias, por la que se emplaza a los interesados en el recurso que se sigue, como procedimiento ordinario 110/2013, en la Audiencia Nacional, Sala de lo Contencioso-Administrativo, sección 5ª.</titulo>
+                <url_pdf szBytes="135014" szKBytes="132" pagina_inicial="41340" pagina_final="41340">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5740.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5740</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5740</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5741</identificador>
+                <control>2013/5610</control>
+                <titulo>Resolución de 20 de mayo de 2013, de la Secretaría General de Instituciones Penitenciarias, por la que se emplaza a los interesados en el recurso que se sigue, como procedimiento abreviado 511/2013, en el Juzgado Central de lo Contencioso-Administrativo n.º 4.</titulo>
+                <url_pdf szBytes="134153" szKBytes="131" pagina_inicial="41341" pagina_final="41341">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5741.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5741</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5741</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2013-5742</identificador>
+                <control>2013/5607</control>
+                <titulo>Resolución de 14 de mayo de 2013, de la Dirección General de Política Interior, por la que se publican las subvenciones estatales anuales para atender los gastos de funcionamiento ordinario, abonadas a las diferentes formaciones políticas con representación en el Congreso de los Diputados durante el primer trimestre del ejercicio 2013.</titulo>
+                <url_pdf szBytes="155737" szKBytes="152" pagina_inicial="41342" pagina_final="41343">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5742.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5742</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5742</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5743</identificador>
+                <control>2013/5608</control>
+                <titulo>Resolución de 14 de mayo de 2013, de la Dirección General de Política Interior, por la que se publican las subvenciones estatales anuales para sufragar los gastos de seguridad, abonadas a las diferentes formaciones políticas con representación en el Congreso de los Diputados durante el primer trimestre del ejercicio 2013.</titulo>
+                <url_pdf szBytes="155094" szKBytes="151" pagina_inicial="41344" pagina_final="41345">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5743.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5743</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5743</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2013-5744</identificador>
+                <control>2013/5746</control>
+                <titulo>Resolución de 20 de mayo de 2013, de la Secretaría de Estado de Educación, Formación Profesional y Universidades, por la que se convocan ayudas para participar en el Programa de Cooperación Territorial "Recuperación y utilización educativa de Pueblos Abandonados" durante el período lectivo de 2013.</titulo>
+                <url_pdf szBytes="214795" szKBytes="210" pagina_inicial="41346" pagina_final="41355">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5744.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5744</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5744</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2013-5745</identificador>
+                <control>2013/5466</control>
+                <titulo>Resolución de 14 de mayo de 2013, de la Secretaría de Estado de Educación, Formación Profesional y Universidades, por la que se conceden subvenciones para nuevos proyectos de cooperación interuniversitaria con Brasil.</titulo>
+                <url_pdf szBytes="391777" szKBytes="383" pagina_inicial="41356" pagina_final="41367">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5745.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5745</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5745</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Convenios colectivos de trabajo">
+              <item>
+                <identificador>BOE-A-2013-5746</identificador>
+                <control>2013/5664</control>
+                <titulo>Resolución de 20 de mayo de 2013, de la Dirección General de Empleo, por la que se registra y publica el Convenio colectivo de Bercose, SL.</titulo>
+                <url_pdf szBytes="312844" szKBytes="306" pagina_inicial="41368" pagina_final="41385">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5746.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5746</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5746</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2013-5747</identificador>
+                <control>2013/5748</control>
+                <titulo>Resolución de 21 de marzo de 2013, del Servicio Público de Empleo Estatal, por la que se publican las subvenciones concedidas desde el 1 de julio al 30 de septiembre de 2012.</titulo>
+                <url_pdf szBytes="258407" szKBytes="252" pagina_inicial="41386" pagina_final="41388">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5747.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5747</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5747</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Trabajadores del mar. Formación sanitaria">
+              <item>
+                <identificador>BOE-A-2013-5748</identificador>
+                <control>2013/5468</control>
+                <titulo>Resolución de 24 de abril de 2013, del Instituto Social de la Marina, sobre condiciones que deben reunir los centros de formación y procedimiento de homologación de centros privados para la impartición de formación sanitaria específica.</titulo>
+                <url_pdf szBytes="384125" szKBytes="375" pagina_inicial="41389" pagina_final="41405">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5748.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5748</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5748</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5749</identificador>
+                <control>2013/5469</control>
+                <titulo>Resolución de 24 de abril de 2013, del Instituto Social de la Marina, sobre contenidos mínimos de los programas de actualización en formación sanitaria específica y sobre formación sanitaria específica a distancia.</titulo>
+                <url_pdf szBytes="259153" szKBytes="253" pagina_inicial="41406" pagina_final="41415">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5749.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5749</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5749</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <epigrafe nombre="Comunidad Autónoma de Cataluña. Convenio">
+              <item>
+                <identificador>BOE-A-2013-5750</identificador>
+                <control>2013/5615</control>
+                <titulo>Resolución de 13 de mayo de 2013, de la Dirección General de Desarrollo Rural y Política Forestal, por la que se publica el segundo Acuerdo de prórroga del Convenio específico de colaboración con la Generalitat de Cataluña, para el desarrollo de un programa piloto de desarrollo rural sostenible en las zonas de la Terra Alta, Garrigues-Segrià Sur, Segarra, Pallars Sobirà y zonas Zepa esteparias de la Plana de Lleida.</titulo>
+                <url_pdf szBytes="156060" szKBytes="152" pagina_inicial="41416" pagina_final="41418">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5750.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5750</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5750</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Impacto ambiental">
+              <item>
+                <identificador>BOE-A-2013-5751</identificador>
+                <control>2013/5616</control>
+                <titulo>Resolución de 14 de mayo de 2013, de la Secretaría de Estado de Medio Ambiente, por la que se formula declaración de impacto ambiental del proyecto Estudio para el incremento de capacidad de la línea ferroviaria Madrid-Hendaya, tramo: nudo de Pinar de las Rozas-Villalba, y duplicación de la vía en línea Villalba-Segovia, tramo Villalba-Alpedrete.</titulo>
+                <url_pdf szBytes="1116732" szKBytes="1091" pagina_inicial="41419" pagina_final="41449">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5751.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5751</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5751</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5752</identificador>
+                <control>2013/5673</control>
+                <titulo>Resolución de 22 de mayo de 2013, de la Secretaría de Estado de Medio Ambiente, sobre la evaluación ambiental de la reducción del perímetro de la zona regable del centro de Extremadura (primera fase).</titulo>
+                <url_pdf szBytes="194400" szKBytes="190" pagina_inicial="41450" pagina_final="41455">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5752.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5752</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5752</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7710" nombre="MINISTERIO DE LA PRESIDENCIA">
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2013-5753</identificador>
+                <control>2013/5617</control>
+                <titulo>Orden PRE/957/2013, de 24 de mayo, por la que se modifica la Orden PRE/126/2012, de 20 de enero, por la que se establecen las bases reguladoras de la concesión de subvenciones de la Administración General del Estado a la suscripción de los seguros agrarios incluidos en los Planes anuales de Seguros Agrarios Combinados.</titulo>
+                <url_pdf szBytes="149179" szKBytes="146" pagina_inicial="41456" pagina_final="41457">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5753.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5753</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5753</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <epigrafe nombre="Fondo para la Financiación de los Pagos a Proveedores">
+              <item>
+                <identificador>BOE-A-2013-5754</identificador>
+                <control>2013/5805</control>
+                <titulo>Resolución de 30 de mayo de 2013, del Fondo para la Financiación de los Pagos a Proveedores, por la que se fija el tipo de interés que devengarán los Bonos del Fondo para la Financiación de los Pagos a Proveedores a tipo de interés variable, vencimiento el 30 de noviembre de 2014, el 31 de mayo de 2015, el 30 de noviembre de 2015, el 31 de mayo de 2016, el 30 de noviembre de 2016 y el 31 de mayo de 2017, durante el próximo periodo de interés.</titulo>
+                <url_pdf szBytes="136281" szKBytes="133" pagina_inicial="41458" pagina_final="41458">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5754.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5754</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5754</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Premios">
+              <item>
+                <identificador>BOE-A-2013-5755</identificador>
+                <control>2013/5677</control>
+                <titulo>Resolución de 22 de mayo de 2013, de la Secretaría General de Ciencia, Tecnología e Innovación, por la que se publica la concesión de los Premios Nacionales de Innovación y de Diseño del año 2012.</titulo>
+                <url_pdf szBytes="146759" szKBytes="143" pagina_inicial="41459" pagina_final="41460">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5755.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5755</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5755</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2013-5756</identificador>
+                <control>2013/5806</control>
+                <titulo>Resolución de 30 de mayo de 2013, del Banco de España, por la que se publican los cambios del euro correspondientes al día 30 de mayo de 2013, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="162815" szKBytes="159" pagina_inicial="41461" pagina_final="41461">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5756.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5756</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5756</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Planes de estudios">
+              <item>
+                <identificador>BOE-A-2013-5757</identificador>
+                <control>2013/5622</control>
+                <titulo>Resolución de 24 de abril de 2013, de la Universidad del País Vasco, por la que se publica el plan de estudios de Máster en Abogacía.</titulo>
+                <url_pdf szBytes="163530" szKBytes="160" pagina_inicial="41462" pagina_final="41463">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5757.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5757</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5757</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5758</identificador>
+                <control>2013/5623</control>
+                <titulo>Resolución de 24 de abril de 2013, de la Universidad del País Vasco, por la que se publica el plan de estudios de Máster en Políticas Lingüísticas y Planificación.</titulo>
+                <url_pdf szBytes="175802" szKBytes="172" pagina_inicial="41464" pagina_final="41465">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5758.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5758</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5758</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5759</identificador>
+                <control>2013/5624</control>
+                <titulo>Resolución de 24 de abril de 2013, de la Universidad del País Vasco, por la que se publica el plan de estudios de Máster en Sistemas de Transporte.</titulo>
+                <url_pdf szBytes="166109" szKBytes="162" pagina_inicial="41466" pagina_final="41467">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5759.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5759</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5759</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5760</identificador>
+                <control>2013/5627</control>
+                <titulo>Resolución de 6 de mayo de 2013, de la Universitat Politècnica de València, por la que se publica el plan de estudios modificado de Máster en Computación Paralela y Distribuida.</titulo>
+                <url_pdf szBytes="158561" szKBytes="155" pagina_inicial="41468" pagina_final="41469">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5760.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5760</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5760</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5761</identificador>
+                <control>2013/5628</control>
+                <titulo>Resolución de 6 de mayo de 2013, de la Universitat Politècnica de València, por la que se publica el plan de estudios modificado de Máster en Motores de Combustión Interna Alternativos.</titulo>
+                <url_pdf szBytes="161071" szKBytes="157" pagina_inicial="41470" pagina_final="41471">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5761.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5761</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5761</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5762</identificador>
+                <control>2013/5756</control>
+                <titulo>Resolución de 20 de mayo de 2013, de la Universidad Católica San Antonio, por la que se corrigen errores en la de 30 de enero de 2013, por la que se publica la modificación del plan de estudios de Graduado en Educación Infantil.</titulo>
+                <url_pdf szBytes="134001" szKBytes="131" pagina_inicial="41472" pagina_final="41472">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5762.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5762</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5762</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5763</identificador>
+                <control>2013/5629</control>
+                <titulo>Resolución de 21 de mayo de 2013, de la Universidad de Zaragoza, por la que se publica el plan de estudios de Graduado en Estudios en Arquitectura.</titulo>
+                <url_pdf szBytes="259025" szKBytes="253" pagina_inicial="41473" pagina_final="41476">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5763.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5763</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5763</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5764</identificador>
+                <control>2013/5630</control>
+                <titulo>Resolución de 22 de mayo de 2013, de la Universidad de Deusto, por la que se publica el nuevo plan de estudios de Máster en Formación del Profesorado en Educación Secundaria Obligatoria y Bachillerato, Formación Profesional y Enseñanzas de Idiomas.</titulo>
+                <url_pdf szBytes="170945" szKBytes="167" pagina_inicial="41477" pagina_final="41478">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5764.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5764</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5764</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5765</identificador>
+                <control>2013/5631</control>
+                <titulo>Resolución de 22 de mayo de 2013, de la Universidad de Deusto, por la que se publica el plan de estudios de Máster en Competitividad e Innovación/Competitiveness and Innovation.</titulo>
+                <url_pdf szBytes="150457" szKBytes="147" pagina_inicial="41479" pagina_final="41479">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5765.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5765</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5765</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5766</identificador>
+                <control>2013/5632</control>
+                <titulo>Resolución de 22 de mayo de 2013, de la Universidad de Deusto, por la que se publica el plan de estudios de Máster en Dirección Internacional de Empresas/International Business.</titulo>
+                <url_pdf szBytes="152007" szKBytes="148" pagina_inicial="41480" pagina_final="41480">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5766.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5766</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5766</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5767</identificador>
+                <control>2013/5633</control>
+                <titulo>Resolución de 22 de mayo de 2013, de la Universidad de Deusto, por la que se publica el plan de estudios de Máster en Finanzas.</titulo>
+                <url_pdf szBytes="150373" szKBytes="147" pagina_inicial="41481" pagina_final="41481">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5767.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5767</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5767</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5768</identificador>
+                <control>2013/5634</control>
+                <titulo>Resolución de 22 de mayo de 2013, de la Universidad de Deusto, por la que se publica el plan de estudios de Máster en Gestión de Empresas Europeas e Internacionales, European and International Business Management, Management des Entreprises Européennes et Internationales [Máster conjunto de Universidad de Deusto, Audiencia Nantes-École de Management (Francia) y University of Bradford (Uob) (Reino Unido)].</titulo>
+                <url_pdf szBytes="161932" szKBytes="158" pagina_inicial="41482" pagina_final="41483">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5768.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5768</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5768</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5769</identificador>
+                <control>2013/5635</control>
+                <titulo>Resolución de 22 de mayo de 2013, de la Universidad de Deusto, por la que se publica el plan de estudios de Máster en Ingeniería Informática.</titulo>
+                <url_pdf szBytes="148629" szKBytes="145" pagina_inicial="41484" pagina_final="41484">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5769.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5769</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5769</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2013-5770</identificador>
+                <control>2013/5636</control>
+                <titulo>Resolución de 22 de mayo de 2013, de la Universidad de Deusto, por la que se publica el plan de estudios de Máster en Marketing Avanzado.</titulo>
+                <url_pdf szBytes="162506" szKBytes="159" pagina_inicial="41485" pagina_final="41486">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-A-2013-5770.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-5770</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2013-5770</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2013-20843</identificador>
+              <titulo>VILAGARCÍA DE AROUSA</titulo>
+              <url_pdf szBytes="158456" szKBytes="155" pagina_inicial="27824" pagina_final="27824">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20843.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20843</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20843</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2013-20844</identificador>
+              <titulo>CASTELLÓN DE LA PLANA</titulo>
+              <url_pdf szBytes="157535" szKBytes="154" pagina_inicial="27825" pagina_final="27825">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20844.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20844</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20844</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20845</identificador>
+              <titulo>GIJÓN</titulo>
+              <url_pdf szBytes="155040" szKBytes="151" pagina_inicial="27826" pagina_final="27826">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20845.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20845</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20845</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20846</identificador>
+              <titulo>OURENSE</titulo>
+              <url_pdf szBytes="155595" szKBytes="152" pagina_inicial="27827" pagina_final="27827">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20846.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20846</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20846</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20847</identificador>
+              <titulo>PALMA DE MALLORCA</titulo>
+              <url_pdf szBytes="159622" szKBytes="156" pagina_inicial="27828" pagina_final="27828">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20847.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20847</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20847</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20848</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="154218" szKBytes="151" pagina_inicial="27829" pagina_final="27829">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20848.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20848</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20848</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Anuncios de licitaciones públicas y adjudicaciones">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <item>
+              <identificador>BOE-B-2013-20849</identificador>
+              <titulo>Resolución 22 de mayo de 2013 de la Subsecretaría de Justicia, por la que se anuncia la licitación del contrato para la realización de los servicios de planificación, formación y asistencia a usuarios y formadores en las aplicaciones y herramientas informáticas en el ámbito de actuación de la Subdirección General de Nuevas Tecnologías de la Justicia del Ministerio de Justicia.</titulo>
+              <url_pdf szBytes="174003" szKBytes="170" pagina_inicial="27830" pagina_final="27831">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20849.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20849</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20849</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2013-20850</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de Intendencia de Asuntos Económicos Sur. Objeto: Servicios de limpieza en las instalaciones del Ministerio de Defensa. Lote 7. Ceuta y Melilla. Expediente: 202262022613011600.</titulo>
+              <url_pdf szBytes="166201" szKBytes="162" pagina_inicial="27832" pagina_final="27832">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20850.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20850</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20850</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20851</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de Servicios Económicos y Pagadurías. Objeto: Adquisición del Plan de Medios para la Campaña de Proximidad de las Fuerzas Armadas, Reconocimiento y Captación. Expediente: VP. 8296 100/82/13/0014.</titulo>
+              <url_pdf szBytes="168633" szKBytes="165" pagina_inicial="27833" pagina_final="27833">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20851.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20851</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20851</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2013-20852</identificador>
+              <titulo>Resolución de la Delegación Especial de la Agencia Estatal de Administración Tributaria de Galicia, por la que se convoca Procedimiento Abierto número AV.03/2013 para la contratación del servicio de limpieza de todos los edificios de la AEAT en la provincia de Ourense.</titulo>
+              <url_pdf szBytes="176392" szKBytes="172" pagina_inicial="27834" pagina_final="27835">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20852.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20852</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20852</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2013-20853</identificador>
+              <titulo>Anuncio de licitación de: Jefatura de Asuntos Económicos de la Guardia Civil. Objeto: Adquisición de cartuchería del calibre 9x19mm Nato ordinario, para uso en la Guardia Civil. Expediente: R/0011/A/13/2.</titulo>
+              <url_pdf szBytes="173684" szKBytes="170" pagina_inicial="27836" pagina_final="27837">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20853.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20853</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20853</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20854</identificador>
+              <titulo>Anuncio previo de licitación de: Jefatura de Asuntos Económicos de la Guardia Civil. Objeto: La contratación de carburantes con destino a los vehículos pertenecientes a los Parques Automovilísticos de las Direcciones Generales de la Policia y de la Guardia Civil, para el año 2014 (10 meses). Expediente: SES 37/2013.</titulo>
+              <url_pdf szBytes="165720" szKBytes="162" pagina_inicial="27838" pagina_final="27838">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20854.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20854</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20854</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20855</identificador>
+              <titulo>Anuncio de licitación de: Jefatura de Asuntos Económicos de la Guardia Civil. Objeto: Renovación de 19.500 licencias antivirus para ordenadores personales y portátiles de las diversas Unidades de la Guardia Civil. Expediente: I/0010/A/13/2.</titulo>
+              <url_pdf szBytes="173707" szKBytes="170" pagina_inicial="27839" pagina_final="27840">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20855.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20855</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20855</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20856</identificador>
+              <titulo>Anuncio de licitación de: Jefatura de Asuntos Económicos de la Guardia Civil. Objeto: Adquisición de cartuchería 5,56x45mm Nato ordinario, para uso en la Guardia Civil. Expediente: R/0012/A/13/2.</titulo>
+              <url_pdf szBytes="173995" szKBytes="170" pagina_inicial="27841" pagina_final="27842">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20856.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20856</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20856</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20857</identificador>
+              <titulo>Resolución de la Subdirección General de Servicios Penitenciarios por la que se convoca licitación pública para el establecimiento de un Acuerdo Marco para el suministro de gasóleo a Centros Penitenciarios de la península y Baleares, dependientes de la Secretaría General de Instituciones Penitenciarias.</titulo>
+              <url_pdf szBytes="167665" szKBytes="164" pagina_inicial="27843" pagina_final="27843">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20857.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20857</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20857</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20858</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de Tráfico. Objeto: Realización de actividades preventivas de riesgos laborales para los servicios de prevención ajenos en la Dirección General de Tráfico. Expediente: 0100DG21902.</titulo>
+              <url_pdf szBytes="171474" szKBytes="167" pagina_inicial="27844" pagina_final="27845">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20858.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20858</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20858</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2013-20859</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de Cartagena por la que se anuncia licitación, mediante procedimiento abierto, modalidad de único criterio de adjudicación, oferta económica más baja, para la contratación de las obras incluidas dentro del proyecto denominado "Pavimentación del muelle de San Pedro. Dársena de Cartagena".</titulo>
+              <url_pdf szBytes="173810" szKBytes="170" pagina_inicial="27846" pagina_final="27847">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20859.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20859</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20859</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20860</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de Carreteras. Objeto: Ejecución de diversas operaciones de conservación y explotación en las carreteras. N-230 del enlace con la Autovía A-2 a límite de provincia de Huesca, pk. 6,475 a 28,985; Autovía A-14 del enlace de Rosselló al enlace de Almenar, pk. 6,000 a 16,300; N-240 carretera convencional, de límite de provincia de Tarragona a glorieta de entrada a tramo urbano de Els Magraners, pk. 49,200 a 87,850; N-240 autovía, de glorieta de entrada a tramo urbano de Els Magraners hasta glorieta de polígono industrial del Segre, pk. 87,850 a 89,729; N-240 carretera convencional, tramo de conexión, pk.99,620 al 99,850; N-240 carretera convencional, del enlace con la autovía A-2 a límite de provincia de Huesca, pk. 103,660 a 118,400 y Autovía A-22, del enlace con la autovía A-2 a límite de provincia de Huesca, pk. 0,000 a 19,173. Provincia de Lleida. Coeficiente de mayoración de la puntuación económica: 2. Expediente: 30.7/13-2; 51-L-0202.</titulo>
+              <url_pdf szBytes="179065" szKBytes="175" pagina_inicial="27848" pagina_final="27849">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20860.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20860</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20860</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20861</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de Carreteras. Objeto: Ejecución de diversas operaciones de conservación y explotación en A-5 del pk. 36,672 (L.P. con Madrid) al pk. 97,300; A-40 del pk. 89,400 al 117,600; TO-21 del pk. 0,000 al 5,520; N-403 del pk. 6,700 al 25,000 (Torrijos); N-403 del pk. 30,214 (Torrijos) al pk. 70,970 (L.P. con Madrid); N-Va travesía de Santa Olalla pk. 81,500 al 82,670; N-403a Travesía de Maqueda pk. 41,225 al 41,999; N-403a Travesía de Escalona pk. 52,300 al 52,844 y N-403a Travesía de Escalona pk. 55,200 al 55,996. Provincia de Toledo. Coeficiente de mayoración de la puntuación económica: 2. Expediente: 30.15/13-2; 51-TO-0505.</titulo>
+              <url_pdf szBytes="178210" szKBytes="174" pagina_inicial="27850" pagina_final="27851">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20861.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20861</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20861</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20862</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de Carreteras. Objeto: Ejecución de diversas operaciones de conservación y explotación en la CA-36 pk. 0,000 al 4,900, con Puente sobre la Bahía de Cádiz, Puente José León de Carranza y CA-35 pk. 0,000 al 4,750 nuevo acceso a Cádiz. Provincia de Cádiz. Coeficiente de mayoración de la puntuación económica: 2. Expediente: 30.3/13-2; 51-CA-0302.</titulo>
+              <url_pdf szBytes="176457" szKBytes="172" pagina_inicial="27852" pagina_final="27853">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20862.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20862</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20862</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20863</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de Carreteras. Objeto: Ejecución de diversas operaciones de conservación y explotación en las carreteras. N-420, del p.k. 781,350 al 869 y N-420a. Provincia de Tarragona. Coeficiente de mayoración de la puntuación económica: 2. Expediente: 30.37/12-2; 51-T-0302.</titulo>
+              <url_pdf szBytes="176111" szKBytes="172" pagina_inicial="27854" pagina_final="27855">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20863.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20863</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20863</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20864</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de Carreteras. Objeto: Ejecución de diversas operaciones de conservación y explotación en la A-4 (E-5) entre pk. 347,500 (límite provincia de Jaén-Córdoba) y pk. 435,600 (límite provincia de Córdoba-Sevilla), y las travesías de la N-IV en Villa del Río-Pedro Abad-Villafranca, los Cansinos-Universidad Laboral y Aldea Quintana-La Carlota, así como la carretera de Córdoba a Tarragona por Cuenca, N-420 entre pk. 45,352 (enlace A-4) y 93,050 (límite de provincia Ciudad Real-Córdoba). Provincia de Córdoba. Coeficiente de mayoración de la puntuación económica: 2. Expediente: 30.4/13-2; 51-CO-0305.</titulo>
+              <url_pdf szBytes="179047" szKBytes="175" pagina_inicial="27856" pagina_final="27857">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20864.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20864</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20864</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20865</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de Carreteras. Objeto: Ejecución de diversas operaciones de conservación y explotación en la A-1, A-62, BU-30, BU-11, N-234. Provincia de Burgos. Coeficiente de mayoración de la puntuación económica: 2. Expediente: 30.22/13-2; 51-BU-0105.</titulo>
+              <url_pdf szBytes="175147" szKBytes="171" pagina_inicial="27858" pagina_final="27859">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20865.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20865</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20865</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20866</identificador>
+              <titulo>Anuncio de licitación de: Junta de Contratación de la Subsecretaría de Fomento. Objeto: Mantenimiento integral edificio sito en c/ de la Marquesa, n.º 12, de Barcelona. Expediente: 13R37.</titulo>
+              <url_pdf szBytes="175175" szKBytes="171" pagina_inicial="27860" pagina_final="27861">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20866.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20866</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20866</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <item>
+              <identificador>BOE-B-2013-20867</identificador>
+              <titulo>Anuncio de corrección de errores de la Subdirección General de Administración Financiera por el que se fija nueva fecha de celebración del acto público de apertura de los criterios evaluables mediante fórmulas y oferta económica correspondientes al procedimiento para el servicio de seguridad, vigilancia y control de los locales ocupados por distintas unidades del Ministerio de Empleo y Seguridad Social y del Consejo Económico y Social. Expediente 870/2013.</titulo>
+              <url_pdf szBytes="163226" szKBytes="159" pagina_inicial="27862" pagina_final="27862">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20867.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20867</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20867</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <item>
+              <identificador>BOE-B-2013-20868</identificador>
+              <titulo>Resolución de la Agencia Española de Medicamentos y Productos Sanitarios por la que se convoca procedimiento abierto para la contratación del suministro de disolventes y reactivos para el análisis de sustancias estupefacientes y psicótropas procedentes del tráfico ilícito en el ámbito de competencias de la Agencia Española de Medicamentos y Productos Sanitarios.</titulo>
+              <url_pdf szBytes="175252" szKBytes="171" pagina_inicial="27863" pagina_final="27864">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20868.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20868</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20868</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="1420" nombre="TRIBUNAL DE CUENTAS">
+            <item>
+              <identificador>BOE-B-2013-20869</identificador>
+              <titulo>Resolución de la Presidencia del Tribunal de Cuentas por la que se anuncia el procedimiento abierto para la contratación del desarrollo del portal web y la sede electrónica del Tribunal de Cuentas.</titulo>
+              <url_pdf szBytes="171013" szKBytes="167" pagina_inicial="27865" pagina_final="27866">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20869.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20869</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20869</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2013-20870</identificador>
+              <titulo>Resolución del Consorci Sanitari del Maresme por la formalización de contratos para el servicio de mantenimiento correctivo, preventivo y evolutivo del sistema SAP del Consorci Sanitari del Maresme.</titulo>
+              <url_pdf szBytes="163331" szKBytes="160" pagina_inicial="27867" pagina_final="27867">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20870.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20870</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20870</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20871</identificador>
+              <titulo>Anuncio del Institut Català de la Salut por el que se convoca licitación pública para el suministro de catéteres intravasculares de propósitos especiales para centros del ICS.</titulo>
+              <url_pdf szBytes="164161" szKBytes="160" pagina_inicial="27868" pagina_final="27868">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20871.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20871</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20871</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <item>
+              <identificador>BOE-B-2013-20872</identificador>
+              <titulo>Resolución de 17 de mayo de 2013 de la Dirección General de Planificación y Gestión del Dominio Público Hidráulico de la Consejería de Agricultura, Pesca y Medio Ambiente, por la que se anunica la formalización del contrato Servicios técnicos para la elaboración del estudio para la prevención de inundaciones en el tramo final del río Loukkos en la provincia de Larache (Marruecos).</titulo>
+              <url_pdf szBytes="173057" szKBytes="169" pagina_inicial="27869" pagina_final="27870">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20872.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20872</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20872</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2013-20873</identificador>
+              <titulo>Anuncio del Ayuntamiento de Girona, por el que se modifica el anuncio de licitación pública del suministro de energía eléctrica para el Ayuntamiento de Girona, organismos dependientes y sociedades municipales que se integran al sistema de contratación centralizada del propio ayuntamiento.</titulo>
+              <url_pdf szBytes="159395" szKBytes="156" pagina_inicial="27871" pagina_final="27871">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20873.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20873</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20873</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20874</identificador>
+              <titulo>Anuncio del Ayuntamiento de Barcelona por el que se convoca procedimiento abierto para la adjudicación del contrato que tiene por objeto el suministro de 12 furgonetas mixtas para el Servicio de Prevención, Extinción de Incendios y Salvamento del Ayuntamiento de Barcelona.</titulo>
+              <url_pdf szBytes="174959" szKBytes="171" pagina_inicial="27872" pagina_final="27873">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20874.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20874</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20874</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20875</identificador>
+              <titulo>Anuncio del Ayuntamiento de Barcelona por el que se convoca procedimiento abierto para la adjudicación del contrato que tiene por objeto la adquisición de terminales portátiles de radio digital TETRA y sus accesorios durante el año 2013.</titulo>
+              <url_pdf szBytes="175216" szKBytes="171" pagina_inicial="27874" pagina_final="27875">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20875.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20875</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20875</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20876</identificador>
+              <titulo>Anuncio del Ayuntamiento de Barcelona por el que se convoca la contratación del suministro global de carburantes mediante tarjeta para los vehículos del Ayuntamiento de Barcelona.</titulo>
+              <url_pdf szBytes="173625" szKBytes="170" pagina_inicial="27876" pagina_final="27877">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20876.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20876</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20876</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20877</identificador>
+              <titulo>Anuncio de licitación del Instituto Municipal de Informática de Barcelona del contrato de servicios de gobernanza para la gestión operativa y evolución de los sistemas de información relacionados con las Áreas de Calidad de Vida, Igualdad y Deportes, Hábitat Urbano y el Instituto Municipal de Educación del Ayuntamiento de Barcelona, mediante una Oficina Técnica.</titulo>
+              <url_pdf szBytes="175811" szKBytes="172" pagina_inicial="27878" pagina_final="27879">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20877.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20877</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20877</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20878</identificador>
+              <titulo>Resolución del Ayuntamiento de Móstoles, que anuncia la formalización del concurso de servicio de limpieza de Colegios Públicos de Móstoles.</titulo>
+              <url_pdf szBytes="162897" szKBytes="159" pagina_inicial="27880" pagina_final="27880">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20878.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20878</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20878</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2013-20879</identificador>
+              <titulo>Resolución de la Universidad de Oviedo por la que se anuncia la convocatoria de procedimiento abierto para la contratación del suministro de un microscopio magneto-óptico de ultra-alta sensibilidad nanomoke2 para los Servicios Científico Técnicos (Proyecto cofinanciado con Fondos FEDER correspondientes al Programa Operativo Plurirregional de Economía basada en el conocimiento, período 2007-2013).</titulo>
+              <url_pdf szBytes="175810" szKBytes="172" pagina_inicial="27881" pagina_final="27882">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20879.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20879</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20879</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20880</identificador>
+              <titulo>Anuncio de la Universidad Autónoma de Barcelona por el que se publica la formalización del contrato 6/2013 de suministro de un sistema de testeo, diseño y producción de alimentos.</titulo>
+              <url_pdf szBytes="163748" szKBytes="160" pagina_inicial="27883" pagina_final="27883">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20880.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20880</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20880</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20881</identificador>
+              <titulo>Corrección de errores de la Resolución del 25 de abril de 2013, de la Universidade da Coruña, por la que se anuncia la licitación del contrato del servicio de limpiezas de las dependencias de la Universidade da Coruña. Expediente: 2013/4002 (12 lotes).</titulo>
+              <url_pdf szBytes="163308" szKBytes="159" pagina_inicial="27884" pagina_final="27884">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20881.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20881</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20881</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20882</identificador>
+              <titulo>Anuncio de la Universidad de Alcalá por el que se convoca licitación para la adjudicación del contrato de suministro, mediante arrendamiento, de 75 equipos informáticos "todo en uno".</titulo>
+              <url_pdf szBytes="171764" szKBytes="168" pagina_inicial="27885" pagina_final="27886">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20882.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20882</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20882</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2013-20883</identificador>
+              <titulo>Anuncio de la Notaría de Dª María Dos Anjos González de subasta extrajudicial de una finca.</titulo>
+              <url_pdf szBytes="165670" szKBytes="162" pagina_inicial="27887" pagina_final="27888">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20883.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20883</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20883</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20884</identificador>
+              <titulo>Anuncio de la notaría de Rafael Seguer Irigoyen sobre subasta en procedimiento extrajudicial.</titulo>
+              <url_pdf szBytes="168210" szKBytes="164" pagina_inicial="27889" pagina_final="27890">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20884.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20884</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20884</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20885</identificador>
+              <titulo>Anuncio de Metro de Madrid, Sociedad Anónima, por el que se publica la corrección del anuncio por el que se convoca la licitación, por procedimiento abierto, para la contratación del suministro de energía eléctrica para el segundo semestre del año 2013 y todo el ejercicio 2014, en los puntos de suministro alimentados en alta y baja tensión.</titulo>
+              <url_pdf szBytes="159373" szKBytes="156" pagina_inicial="27891" pagina_final="27891">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20885.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20885</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20885</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20886</identificador>
+              <titulo>Resolución de fecha 23 de abril de 2013, de "Aena Aeropuertos, S.A." por la que se anuncia la licitación de contratos de Servicios, por el procedimiento negociado con anuncio de licitación previa. Expediente Número: MAD 86/13. Título: Servicio de conducción de pasarelas en el Aeropuerto Madrid/Barajas.</titulo>
+              <url_pdf szBytes="170824" szKBytes="167" pagina_inicial="27892" pagina_final="27893">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20886.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20886</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20886</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2013-20887</identificador>
+              <titulo>Anuncio de la Sección Económico Administrativa N.º 014 del Cuartel General del Mando Aéreo de Canarias, del Ministerio de Defensa, Ejército del Aire, por el que se notifica a D. Antonio Juan López Sánchez, la iniciación del expediente N.º 2013/018/14 de pagos indebidos, instruido por la citada Sección y se da trámite de audiencia al interesado.</titulo>
+              <url_pdf szBytes="165637" szKBytes="162" pagina_inicial="27894" pagina_final="27894">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20887.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20887</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20887</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2013-20888</identificador>
+              <titulo>Anuncio del Fondo Español de Garantía Agraria de notificación a interesado en procedimiento de interrupción de participación en el Plan de Ayuda Alimentaria a las personas más necesitadas de la Unión Europea, ante la imposibilidad de notificación en domicilio.</titulo>
+              <url_pdf szBytes="162023" szKBytes="158" pagina_inicial="27895" pagina_final="27895">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20888.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20888</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20888</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2013-20889</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Júcar por el que por el que se somete a información pública a los efectos de los artículos 17.2, 18 y 19.2 de la ley de expropiación forzosa y se convoca para el levantamiento de las actas previas a la ocupación y actas de ocupación de los bienes y derechos afectados por las obras del "proyecto de obras complementarias del refuerzo del sistema de abastecimiento del área metropolitana de Valencia y Camp de Morvedre. Desaladora de Sagunto (Valencia)" - Clave 08.346.677/2111.</titulo>
+              <url_pdf szBytes="285696" szKBytes="279" pagina_inicial="27896" pagina_final="27899">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20889.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20889</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20889</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="1011" nombre="AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS">
+            <item>
+              <identificador>BOE-B-2013-20890</identificador>
+              <titulo>Resolución de la Agencia Española de Protección de Datos por la que se procede a la Notificación de Acuerdos de Inicio de Procedimientos Sancionadores, ante la imposibilidad de notificación en domicilio.</titulo>
+              <url_pdf szBytes="163572" szKBytes="160" pagina_inicial="27900" pagina_final="27900">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20890.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20890</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20890</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="ANUNCIOS PARTICULARES">
+            <item>
+              <identificador>BOE-B-2013-20891</identificador>
+              <titulo>ADLER, FIL (FONDO ABSORBENTE) DIVERSITY INVERSIONES, SIL, S.A., ALPES 2000, SIL, S.A. (SOCIEDADES ABSORBIDAS).</titulo>
+              <url_pdf szBytes="156142" szKBytes="152" pagina_inicial="27901" pagina_final="27901">https://www.boe.es/boe/dias/2013/05/31/pdfs/BOE-B-2013-20891.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2013-20891</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2013-20891</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

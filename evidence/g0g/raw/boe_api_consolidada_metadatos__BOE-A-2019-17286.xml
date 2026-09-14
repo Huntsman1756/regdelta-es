@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T112134Z</fecha_actualizacion>
+      <identificador>BOE-A-2019-17286</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20191126</fecha_disposicion>
+      <numero_oficial>4/2019</numero_oficial>
+      <titulo>Circular 4/2019, de 26 de noviembre, del Banco de España, a establecimientos financieros de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20191202</fecha_publicacion>
+      <diario_numero>289</diario_numero>
+      <fecha_vigencia>20200101</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2019/11/26/4</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2019-17286</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20081210</fecha_publicacion>
+      </metadatos>
+      <diario numero="297">
+        <sumario_diario>
+          <identificador>BOE-S-2008-297</identificador>
+          <url_pdf szBytes="132856" szKBytes="130">https://www.boe.es/boe/dias/2008/12/10/pdfs/BOE-S-2008-297.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="5130" nombre="MINISTERIO DE ECONOMÍA Y HACIENDA">
+            <epigrafe nombre="Entidades locales. Presupuestos">
+              <item>
+                <identificador>BOE-A-2008-19916</identificador>
+                <titulo>Orden EHA/3565/2008, de 3 de diciembre, por la que se aprueba la estructura de los presupuestos de las entidades locales.</titulo>
+                <url_pdf szBytes="273995" szKBytes="268" pagina_inicial="49318" pagina_final="49362">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49318-49362.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19916</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19916</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Medidas económicas">
+              <item>
+                <identificador>BOE-A-2008-19917</identificador>
+                <titulo>Orden EHA/3566/2008, de 9 de diciembre, por la que se hace público el Acuerdo del Consejo de Ministros de 5 de diciembre de 2008 por el que se aprueba el destino del fondo especial del Estado para el estímulo de la economía y el empleo, dotado por el Real Decreto-ley 9/2008, de 28 de noviembre, y su distribución por departamentos ministeriales.</titulo>
+                <url_pdf szBytes="55053" szKBytes="54" pagina_inicial="49363" pagina_final="49367">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49363-49367.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19917</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19917</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7710" nombre="MINISTERIO DE LA PRESIDENCIA">
+            <epigrafe nombre="Protección contra la violencia de género">
+              <item>
+                <identificador>BOE-A-2008-19918</identificador>
+                <titulo>Real Decreto 1917/2008, de 21 de noviembre, por el que se aprueba el programa de inserción sociolaboral para mujeres víctimas de violencia de género.</titulo>
+                <url_pdf szBytes="71383" szKBytes="70" pagina_inicial="49367" pagina_final="49373">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49367-49373.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19918</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19918</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7210" nombre="MINISTERIO DE ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Fondo Estatal de Inversión Local">
+              <item>
+                <identificador>BOE-A-2008-19919</identificador>
+                <titulo>Resolución de 9 de diciembre de 2008, de la Secretaría de Estado de Cooperación Territorial, por la que se aprueba el modelo para la presentación de solicitudes, las condiciones para la tramitación y la justificación de los recursos librados con cargo al Fondo Estatal de Inversión Local creado por el Real Decreto-ley 9/2008, de 28 de noviembre, por el que se crean un Fondo Estatal de Inversión Local y un Fondo Especial del Estado para la Dinamización de la Economía y el Empleo y se aprueban créditos extraordinarios para atender a su financiación.</titulo>
+                <url_pdf szBytes="156480" szKBytes="153" pagina_inicial="49373" pagina_final="49383">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49373-49383.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19919</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19919</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4310" nombre="MINISTERIO DE SANIDAD Y CONSUMO">
+            <epigrafe nombre="Procedimientos administrativos. Gestión informatizada">
+              <item>
+                <identificador>BOE-A-2008-19920</identificador>
+                <titulo>Resolución de 20 de noviembre de 2008, de la Agencia Española de Medicamentos y Productos Sanitarios, por la que se establece la aplicación del procedimiento para la presentación de la autoliquidación y las condiciones para el pago por vía telemática de la tasa prevista en el artículo 107 de la Ley 29/2006, de 26 de julio, de garantías y uso racional de los medicamentos y productos sanitarios.</titulo>
+                <url_pdf szBytes="39483" szKBytes="39" pagina_inicial="49384" pagina_final="49385">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49384-49385.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19920</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19920</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2008-19921</identificador>
+                <titulo>Circular 6/2008, de 26 de noviembre, del Banco de España, a entidades de crédito, de modificación de la Circular 4/2004, de 22 de diciembre, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+                <url_pdf szBytes="469027" szKBytes="458" pagina_inicial="49385" pagina_final="49456">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49385-49456.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19921</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19921</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2008-19922</identificador>
+                <titulo>Real Decreto 1961/2008, de 21 de noviembre, por el que, en ejecución del Acuerdo del Pleno del Consejo General del Poder Judicial, de 29 de octubre de 2008, dictado en el recurso de alzada número 43/2008, se nombra en propiedad a don David Jesús Velázquez Vioque, Magistrado titular del Juzgado de lo Contencioso-Administrativo número 6 de Barcelona.</titulo>
+                <url_pdf szBytes="35384" szKBytes="35" pagina_inicial="49457" pagina_final="49457">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49457-49457.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19922</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19922</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19923</identificador>
+                <titulo>Real Decreto 1962/2008, de 21 de noviembre, por el que, en ejecución del Acuerdo del Pleno del Consejo General del Poder Judicial, de 29 de octubre de 2008, dictado en el recurso de alzada número 43/2008, se nombra a don Pablo de la Rubia Comos, Magistrado titular del Juzgado de lo Contencioso-Administrativo número 16 de Barcelona.</titulo>
+                <url_pdf szBytes="35384" szKBytes="35" pagina_inicial="49457" pagina_final="49457">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49457-49457.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19923</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19923</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2008-19924</identificador>
+                <titulo>Orden de 2 de diciembre de 2008 por la que se destina a los Jueces que se relaciona, como consecuencia del concurso resuelto por Acuerdo de la Comisión Permanente del Consejo General del Poder Judicial.</titulo>
+                <url_pdf szBytes="54604" szKBytes="53" pagina_inicial="49457" pagina_final="49459">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49457-49459.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19924</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19924</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2008-19925</identificador>
+                <titulo>Acuerdo de 25 de noviembre de 2008, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara en la situación administrativa de excedencia voluntaria en la Carrera Judicial para el cuidado de un hijo a doña Ana María Olivares Granados.</titulo>
+                <url_pdf szBytes="42463" szKBytes="41" pagina_inicial="49459" pagina_final="49459">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49459-49459.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19925</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19925</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19926</identificador>
+                <titulo>Acuerdo de 25 de noviembre de 2008, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara en la situación administrativa de excedencia voluntaria en la Carrera Judicial para el cuidado de un hijo en segunda anualidad a doña Yolanda Martínez Álvarez.</titulo>
+                <url_pdf szBytes="42463" szKBytes="41" pagina_inicial="49459" pagina_final="49459">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49459-49459.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19926</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19926</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2008-19927</identificador>
+                <titulo>Orden AEC/3567/2008, de 25 de noviembre, por la que se resuelve parcialmente la convocatoria de libre designación efectuada por Orden AEC/1887/2008, de 19 de junio.</titulo>
+                <url_pdf szBytes="42463" szKBytes="41" pagina_inicial="49459" pagina_final="49459">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49459-49459.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19927</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19927</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19928</identificador>
+                <titulo>Corrección de error de la Orden AEC/3393/2008, de 17 de noviembre, por la que se procede al cumplimiento de la sentencia recaída en el recurso contencioso-administrativo n.º 43/2008, en relación con la convocatoria de libre designación, efectuada por Orden AEC/2975/2007, de 9 de octubre.</titulo>
+                <url_pdf szBytes="41311" szKBytes="40" pagina_inicial="49460" pagina_final="49460">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49460-49460.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19928</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19928</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2008-19929</identificador>
+                <titulo>Resolución de 11 de noviembre de 2008, de la Dirección General de los Registros y del Notariado, por la que se jubila a don Plácido Prada Álvarez-Buylla, registrador de la propiedad de Manacor n.º 1.</titulo>
+                <url_pdf szBytes="41311" szKBytes="40" pagina_inicial="49460" pagina_final="49460">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49460-49460.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19929</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19929</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2008-19930</identificador>
+                <titulo>Resolución de 12 de noviembre de 2008, de la Dirección General de los Registros y del Notariado, por la que se nombra Notario Archivero de Protocolos del Distrito Notarial de Trujillo, perteneciente al Colegio Notarial de Extremadura, al notario de dicha localidad don José Luis Valiña Reguera.</titulo>
+                <url_pdf szBytes="41311" szKBytes="40" pagina_inicial="49460" pagina_final="49460">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49460-49460.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19930</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19930</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2008-19931</identificador>
+                <titulo>Resolución de 15 de noviembre de 2008, de la Dirección General de los Registros y del Notariado, por la que se jubila al notario de Cádiz don Federico Linares Castrillón.</titulo>
+                <url_pdf szBytes="41311" szKBytes="40" pagina_inicial="49460" pagina_final="49460">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49460-49460.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19931</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19931</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2008-19932</identificador>
+                <titulo>Resolución de 21 de noviembre de 2008, de la Secretaría de Estado de Justicia, por la que se resuelve la convocatoria de libre designación, efectuada por Orden JUS/3094/2008, de 15 de octubre.</titulo>
+                <url_pdf szBytes="41311" szKBytes="40" pagina_inicial="49460" pagina_final="49460">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49460-49460.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19932</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19932</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7210" nombre="MINISTERIO DE ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2008-19933</identificador>
+                <titulo>Resolución de 14 de octubre de 2008, de la Delegación del Gobierno en la Comunidad de Madrid, por la que se nombra Subdelegado del Gobierno en Madrid a don Ricardo García García.</titulo>
+                <url_pdf szBytes="49183" szKBytes="48" pagina_inicial="49460" pagina_final="49461">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49460-49461.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19933</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19933</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2008-19934</identificador>
+                <titulo>Resolución de 17 de noviembre de 2008, de la Delegación del Gobierno en la Comunidad Autónoma de Galicia, por la que se resuelve la convocatoria de libre designación efectuada por Orden APU/3175/2007, de 26 de octubre.</titulo>
+                <url_pdf szBytes="42036" szKBytes="41" pagina_inicial="49461" pagina_final="49461">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49461-49461.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19934</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19934</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2008-19935</identificador>
+                <titulo>Resolución de 14 de octubre de 2008, conjunta de la Universidad de Córdoba y del Servicio Andaluz de Salud, por la que se nombra Catedrático de Universidad con plaza vinculada a don José Carlos Moreno Giménez.</titulo>
+                <url_pdf szBytes="42036" szKBytes="41" pagina_inicial="49461" pagina_final="49461">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49461-49461.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19935</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19935</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19936</identificador>
+                <titulo>Resolución de 19 de noviembre de 2008, de la Universidad Politécnica de Cataluña, por la que se nombra Profesor Titular de Universidad a don José Luis Muñoz Tapia.</titulo>
+                <url_pdf szBytes="47075" szKBytes="46" pagina_inicial="49461" pagina_final="49462">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49461-49462.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19936</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19936</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19937</identificador>
+                <titulo>Resolución de 19 de noviembre de 2008, de la Universidad Politécnica de Cataluña, por la que se nombra Profesor Titular de Universidad a don Marcos Postigo Boix.</titulo>
+                <url_pdf szBytes="32296" szKBytes="32" pagina_inicial="49462" pagina_final="49462">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49462-49462.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19937</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19937</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19938</identificador>
+                <titulo>Resolución de 24 de noviembre del 2008, de la Universidad Pompeu Fabra, por la que se nombra Profesora Titular de Universidad a doña Montserrat González Condom.</titulo>
+                <url_pdf szBytes="32296" szKBytes="32" pagina_inicial="49462" pagina_final="49462">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49462-49462.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19938</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19938</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Funcionarios de los Subgrupos C1 y C2">
+              <item>
+                <identificador>BOE-A-2008-19939</identificador>
+                <titulo>Orden JUS/3568/2008, de 5 de diciembre, por la que se corrige error en la Orden JUS/3420/2008, de 12 de noviembre por la que se convoca concurso general de méritos para la provisión de puestos de trabajo.</titulo>
+                <url_pdf szBytes="66397" szKBytes="65" pagina_inicial="49463" pagina_final="49463">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49463-49463.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19939</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19939</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5130" nombre="MINISTERIO DE ECONOMÍA Y HACIENDA">
+            <epigrafe nombre="Cuerpo de Arquitectos de la Hacienda Pública">
+              <item>
+                <identificador>BOE-A-2008-19940</identificador>
+                <titulo>Orden EHA/3569/2008, de 1 de diciembre, por la que se aprueba la lista de aspirantes admitidos y excluidos a los procesos selectivos para ingreso, por el sistema general de acceso libre y por el sistema de promoción interna, en el Cuerpo de Arquitectos de la Hacienda Pública, convocados por Orden EHA/2813/2008, de 30 de septiembre.</titulo>
+                <url_pdf szBytes="79435" szKBytes="78" pagina_inicial="49463" pagina_final="49464">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49463-49464.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19940</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19940</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Cuerpo Nacional de Policía">
+              <item>
+                <identificador>BOE-A-2008-19941</identificador>
+                <titulo>Resolución de 25 de noviembre de 2008, de la Dirección General de la Policía y de la Guardia Civil, por la que se publica la lista provisional de admitidos y excluidos a la oposición de ingreso en la Escala Ejecutiva, categoría de Inspector, del Cuerpo Nacional de Policía.</titulo>
+                <url_pdf szBytes="54484" szKBytes="53" pagina_inicial="49464" pagina_final="49466">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49464-49466.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19941</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19941</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4435" nombre="MINISTERIO DE TRABAJO E INMIGRACIÓN">
+            <epigrafe nombre="Funcionarios de los Subgrupos A2 y C1">
+              <item>
+                <identificador>BOE-A-2008-19942</identificador>
+                <titulo>Corrección de erratas de la Orden TIN/3549/2008, de 27 de noviembre, por la que se convoca concurso específico para la provisión de puestos de trabajo.</titulo>
+                <url_pdf szBytes="53374" szKBytes="52" pagina_inicial="49466" pagina_final="49467">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49466-49467.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19942</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19942</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3150" nombre="MINISTERIO DE MEDIO AMBIENTE, Y MEDIO RURAL Y MARINO">
+            <epigrafe nombre="Funcionarios de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2008-19943</identificador>
+                <titulo>Corrección de errata de la Resolución de 18 de noviembre de 2008, de la Secretaría de Estado de Medio Rural y Agua, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="34908" szKBytes="34" pagina_inicial="49468" pagina_final="49468">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49468-49468.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19943</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19943</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7210" nombre="MINISTERIO DE ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Funcionarios de los Subgrupos A1 y A2">
+              <item>
+                <identificador>BOE-A-2008-19944</identificador>
+                <titulo>Orden APU/3570/2008, de 5 de diciembre, de corrección de errores de la Orden APU/3509/2008, de 27 de noviembre, por la que se convoca concurso específico para la provisión de puestos de trabajo.</titulo>
+                <url_pdf szBytes="34908" szKBytes="34" pagina_inicial="49468" pagina_final="49468">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49468-49468.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19944</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19944</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Funcionarios de los Subgrupos A2, C1 y C2">
+              <item>
+                <identificador>BOE-A-2008-19945</identificador>
+                <titulo>Orden APU/3571/2008, de 5 de diciembre, de corrección de errores de la Orden APU/3510/2008, de 27 de noviembre, por la que se convoca concurso de méritos para la provisión de puestos de trabajo.</titulo>
+                <url_pdf szBytes="70084" szKBytes="68" pagina_inicial="49468" pagina_final="49470">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49468-49470.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19945</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19945</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <epigrafe nombre="Escala de Técnicos Especialistas de Grado Medio de los Organismos Públicos de Investigación">
+              <item>
+                <identificador>BOE-A-2008-19946</identificador>
+                <titulo>Orden CIN/3572/2008, de 26 de noviembre, por la que se aprueban las listas provisionales de aspirantes admitidos y excluidos, se determina la fecha, lugar y hora de comienzo del primer ejercicio de las pruebas selectivas para el ingreso, por el sistema general de acceso libre, en la Escala de Técnicos Especialistas de Grado Medio de los Organismos Públicos de Investigación, y se corrigen errores en la Orden CIN/2479/2008 de 22 de julio, por la que se convoca proceso selectivo.</titulo>
+                <url_pdf szBytes="49523" szKBytes="48" pagina_inicial="49471" pagina_final="49472">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49471-49472.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19946</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19946</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2008-19947</identificador>
+                <titulo>Resolución de 13 de noviembre de 2008, del Ayuntamiento de Burguillos del Cerro (Badajoz), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="40334" szKBytes="39" pagina_inicial="49472" pagina_final="49472">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49472-49472.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19947</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19947</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19948</identificador>
+                <titulo>Resolución de 14 de noviembre de 2008, del Ayuntamiento de Aguilar de la Frontera (Córdoba), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="41102" szKBytes="40" pagina_inicial="49473" pagina_final="49473">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49473-49473.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19948</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19948</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19949</identificador>
+                <titulo>Resolución de 14 de noviembre de 2008, del Ayuntamiento de Buniel (Burgos), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="41102" szKBytes="40" pagina_inicial="49473" pagina_final="49473">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49473-49473.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19949</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19949</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19950</identificador>
+                <titulo>Resolución de 17 de noviembre de 2008, del Ayuntamiento de Martorell (Barcelona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="41102" szKBytes="40" pagina_inicial="49473" pagina_final="49473">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49473-49473.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19950</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19950</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19951</identificador>
+                <titulo>Resolución de 24 de noviembre de 2008, del Ayuntamiento de Astillero (Cantabria), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="41102" szKBytes="40" pagina_inicial="49473" pagina_final="49473">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49473-49473.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19951</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19951</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19952</identificador>
+                <titulo>Corrección de erratas de la Resolución de 24 de noviembre de 2008, del Ayuntamiento de Azuqueca de Henares (Guadalajara), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="41102" szKBytes="40" pagina_inicial="49473" pagina_final="49473">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49473-49473.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19952</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19952</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2008-19953</identificador>
+                <titulo>Resolución de 24 de noviembre de 2008, de la Universidad de Zaragoza, por la que se convoca concurso de acceso a plazas de funcionarios docentes universitarios.</titulo>
+                <url_pdf szBytes="164369" szKBytes="161" pagina_inicial="49473" pagina_final="49480">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49473-49480.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19953</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19953</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2008-19954</identificador>
+                <titulo>Resolución de 21 de noviembre de 2008, de la Dirección General de Relaciones con la Administración de Justicia, por la que se emplaza a los interesados en el recurso contencioso-administrativo, procedimiento ordinario n.º 1175/2008, interpuesto ante el Tribunal Superior de Justicia, Sala de lo Contencioso-Administrativo, Sección 7, de Madrid.</titulo>
+                <url_pdf szBytes="52405" szKBytes="51" pagina_inicial="49481" pagina_final="49482">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49481-49482.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19954</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19954</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19955</identificador>
+                <titulo>Resolución de 25 de noviembre de 2008, de la Dirección General de Relaciones con la Administración de Justicia, por la que se emplaza a los interesados en el recurso n.º 925/2008, interpuesto ante el Tribunal Superior de Justicia, Sala de lo Contencioso-Administrativo, Sección 9, de Madrid.</titulo>
+                <url_pdf szBytes="39434" szKBytes="39" pagina_inicial="49482" pagina_final="49482">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49482-49482.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19955</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19955</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2008-19956</identificador>
+                <titulo>Resolución 160/38250/2008, de 11 de noviembre, de la Jefatura de Enseñanza de la Guardia Civil, por la que se emplaza a los interesados en el recurso contencioso-administrativo 935/2008, promovido ante la Sección Sexta de la Sala de lo Contencioso-Administrativo del Tribunal Superior de Justicia de Madrid.</titulo>
+                <url_pdf szBytes="39434" szKBytes="39" pagina_inicial="49482" pagina_final="49482">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49482-49482.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19956</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19956</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19957</identificador>
+                <titulo>Resolución 160/38254/2008, de 21 de noviembre, de la Jefatura de Enseñanza de la Guardia Civil, por la que se emplaza a los interesados en el procedimiento ordinario 2614/2008, promovido ante el Tribunal Superior de Justicia de Valladolid.</titulo>
+                <url_pdf szBytes="39434" szKBytes="39" pagina_inicial="49482" pagina_final="49482">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49482-49482.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19957</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19957</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Servicios de prevención de riesgos laborales">
+              <item>
+                <identificador>BOE-A-2008-19958</identificador>
+                <titulo>Orden DEF/3573/2008, de 3 de diciembre, por la que se establece la estructura de los servicios de prevención de riesgos laborales en el Ministerio de Defensa.</titulo>
+                <url_pdf szBytes="47005" szKBytes="46" pagina_inicial="49482" pagina_final="49483">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49482-49483.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19958</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19958</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5130" nombre="MINISTERIO DE ECONOMÍA Y HACIENDA">
+            <epigrafe nombre="Lotería Primitiva">
+              <item>
+                <identificador>BOE-A-2008-19959</identificador>
+                <titulo>Resolución de 9 de diciembre de 2008, de Loterías y Apuestas del Estado, por la que se hace público el resultado de los sorteos de la Lotería Primitiva celebrados los días 4 y 6 de diciembre y se anuncia la fecha de celebración de los próximos sorteos.</titulo>
+                <url_pdf szBytes="39040" szKBytes="38" pagina_inicial="49483" pagina_final="49483">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49483-49483.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19959</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19959</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19960</identificador>
+                <titulo>Resolución de 9 de diciembre de 2008, de Loterías y Apuestas del Estado, por la que se hace público el resultado del sorteo de Euromillones celebrado el día 5 de diciembre y se anuncia la fecha de celebración del próximo sorteo.</titulo>
+                <url_pdf szBytes="33478" szKBytes="33" pagina_inicial="49484" pagina_final="49484">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49484-49484.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19960</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19960</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Tesoro y Presupuesto. Resúmenes">
+              <item>
+                <identificador>BOE-A-2008-19961</identificador>
+                <titulo>Resolución de 26 de noviembre de 2008, de la Intervención General de la Administración del Estado, por la que se publican las «Operaciones de ejecución del Presupuesto del Estado y de sus modificaciones y operaciones de Tesorería» del mes de octubre de 2008.</titulo>
+                <url_pdf szBytes="271508" szKBytes="265" pagina_inicial="49484" pagina_final="49500">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49484-49500.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19961</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19961</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4225" nombre="MINISTERIO DE EDUCACIÓN, POLÍTICA SOCIAL Y DEPORTE">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2008-19962</identificador>
+                <titulo>Resolución de 25 de noviembre de 2008, de la Secretaría de Estado de Educación y Formación, por la que se convocan ayudas para participar en la actividad de recuperación y utilización educativa de pueblos abandonados durante el período lectivo de 2009.</titulo>
+                <url_pdf szBytes="119114" szKBytes="116" pagina_inicial="49501" pagina_final="49510">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49501-49510.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19962</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19962</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4435" nombre="MINISTERIO DE TRABAJO E INMIGRACIÓN">
+            <epigrafe nombre="Convenios colectivos de trabajo">
+              <item>
+                <identificador>BOE-A-2008-19963</identificador>
+                <titulo>Resolución de 21 de noviembre de 2008, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de seguros, reaseguros y mutuas de accidentes de trabajo.</titulo>
+                <url_pdf szBytes="268769" szKBytes="262" pagina_inicial="49511" pagina_final="49537">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49511-49537.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19963</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19963</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2008-19964</identificador>
+                <titulo>Resolución de 19 de noviembre de 2008, de la Subsecretaría, por la que se emplaza a los interesados en el recurso contencioso-administrativo n.º 228/2008, interpuesto ante la Sala de lo Contencioso-Administrativo de la Audiencia Nacional, en relación con la Orden TIN/1537/2008, de 23 de mayo, de convocatoria de pruebas selectivas para acceso al Cuerpo Superior de Inspectores de Trabajo y Seguridad Social, por el sistema de promoción interna.</titulo>
+                <url_pdf szBytes="49444" szKBytes="48" pagina_inicial="49537" pagina_final="49537">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49537-49537.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19964</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19964</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19965</identificador>
+                <titulo>Resolución de 19 de noviembre de 2008, de la Subsecretaría, por la que se emplaza a los interesados en el recurso contencioso-administrativo n.º 249/2008, interpuesto ante la Sala de lo Contencioso-Administrativo de la Audiencia Nacional, en relación con la Orden TIN/2125/2008, de 14 de julio, de convocatoria de pruebas selectivas para acceso al Cuerpo Superior de Inspectores de Trabajo y Seguridad Social.</titulo>
+                <url_pdf szBytes="55716" szKBytes="54" pagina_inicial="49537" pagina_final="49538">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49537-49538.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19965</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19965</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Seguridad Social. Cuenta general">
+              <item>
+                <identificador>BOE-A-2008-19966</identificador>
+                <titulo>Resolución de 21 de noviembre de 2008, de la Intervención General de la Seguridad Social, por la que se publica el resumen de la cuenta general de la Seguridad Social del ejercicio 2007.</titulo>
+                <url_pdf szBytes="175894" szKBytes="172" pagina_inicial="49538" pagina_final="49552">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49538-49552.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19966</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19966</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2008-19967</identificador>
+                <titulo>Resolución de 18 de noviembre de 2008, de la Dirección General de la Economía Social, del Trabajo Autónomo y de la Responsabilidad Social de las Empresas, por la que se publican las subvenciones concedidas conforme a la Orden TIN/2281/2008, de 21 de julio.</titulo>
+                <url_pdf szBytes="47352" szKBytes="46" pagina_inicial="49553" pagina_final="49553">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49553-49553.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19967</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19967</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5251" nombre="MINISTERIO DE INDUSTRIA, TURISMO Y COMERCIO">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2008-19968</identificador>
+                <titulo>Resolución de 27 de noviembre de 2008, de la Secretaría de Estado de Telecomunicaciones y para la Sociedad de la Información, por la que se publica la declaración de créditos disponibles y se amplía la dotación final del segundo procedimiento del Subprograma Avanza Formación, de la convocatoria 1/2008, de la Acción Estratégica de Telecomunicaciones y Sociedad de la Información.</titulo>
+                <url_pdf szBytes="56320" szKBytes="55" pagina_inicial="49553" pagina_final="49554">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49553-49554.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19968</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19968</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma del Principado de Asturias. Convenio">
+              <item>
+                <identificador>BOE-A-2008-19969</identificador>
+                <titulo>Resolución de 30 de octubre de 2008, de la Secretaría General de Industria, por la que se publica el Convenio de colaboración entre el Ministerio de Industria, Turismo y Comercio y la Comunidad Autónoma del Principado de Asturias, para la realización del día del emprendedor.</titulo>
+                <url_pdf szBytes="63599" szKBytes="62" pagina_inicial="49554" pagina_final="49556">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49554-49556.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19969</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19969</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Energía eléctrica">
+              <item>
+                <identificador>BOE-A-2008-19970</identificador>
+                <titulo>Resolución de 26 de noviembre de 2008, de la Dirección General de Política Energética y Minas, por la que se anota el cambio de domicilio social en la autorización e inscripción definitivas de Enerco Cuéllar, S.L., en el Registro Administrativo de Distribuidores, Comercializadores y Consumidores Directos en Mercado, Sección de Comercializadores.</titulo>
+                <url_pdf szBytes="46089" szKBytes="45" pagina_inicial="49556" pagina_final="49556">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49556-49556.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19970</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19970</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2008-19971</identificador>
+                <titulo>Resolución de 19 de noviembre de 2008, de la Subsecretaria, por la que se acuerda la remisión del expediente administrativo correspondiente al procedimiento abreviado n.º 57/2008, interpuesto por don Cayetano Ibáñez Cabrerizo ante el Juzgado Central de lo Contencioso-Administrativo n.º 3, y se emplaza a los interesados en el mismo.</titulo>
+                <url_pdf szBytes="55050" szKBytes="54" pagina_inicial="49556" pagina_final="49557">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49556-49557.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19971</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19971</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3150" nombre="MINISTERIO DE MEDIO AMBIENTE, Y MEDIO RURAL Y MARINO">
+            <epigrafe nombre="Comunidad Autónoma de La Rioja. Convenio">
+              <item>
+                <identificador>BOE-A-2008-19972</identificador>
+                <titulo>Resolución de 24 de noviembre de 2008, del Fondo Español de Garantía Agraria, por la que se publica el Convenio de colaboración con la Comunidad Autónoma de La Rioja, para la realización de los trabajos de control asistido por teledetección de las superficies de los regímenes de ayuda incluidos en la solicitud única, a realizar en el año 2008.</titulo>
+                <url_pdf szBytes="57626" szKBytes="56" pagina_inicial="49557" pagina_final="49558">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49557-49558.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19972</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19972</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad de Madrid. Convenio">
+              <item>
+                <identificador>BOE-A-2008-19973</identificador>
+                <titulo>Resolución de 20 de noviembre de 2008, del Fondo Español de Garantía Agraria, por la que se publica el Convenio de colaboración con la Comunidad de Madrid, para la realización de los trabajos de control asistido por teledetección de las superficies de los regímenes de ayuda incluidos en la solicitud única, a realizar en el año 2008.</titulo>
+                <url_pdf szBytes="64399" szKBytes="63" pagina_inicial="49558" pagina_final="49560">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49558-49560.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19973</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19973</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Productos agrarios. Contratación">
+              <item>
+                <identificador>BOE-A-2008-19974</identificador>
+                <titulo>Orden ARM/3574/2008, de 17 de noviembre, por la que se homologa el contrato-tipo de compraventa de clementinas, para su transformación en gajos, campaña 2008/2009.</titulo>
+                <url_pdf szBytes="89415" szKBytes="87" pagina_inicial="49560" pagina_final="49564">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49560-49564.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19974</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19974</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19975</identificador>
+                <titulo>Orden ARM/3575/2008, de 17 de noviembre, por la que se homologa el contrato-tipo de compraventa de satsumas, para su transformación en gajos, campaña 2008/2009.</titulo>
+                <url_pdf szBytes="85407" szKBytes="83" pagina_inicial="49565" pagina_final="49569">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49565-49569.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19975</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19975</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4110" nombre="MINISTERIO DE CULTURA">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2008-19976</identificador>
+                <titulo>Corrección de errores de la Resolución de 11 de noviembre de 2008, de la Dirección General de Política e Industrias Culturales, por la que se convocan las ayudas para la formación de jóvenes profesionales de la cultura correspondientes al año 2009.</titulo>
+                <url_pdf szBytes="47330" szKBytes="46" pagina_inicial="49570" pagina_final="49570">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49570-49570.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19976</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19976</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Bienes de interés cultural">
+              <item>
+                <identificador>BOE-A-2008-19977</identificador>
+                <titulo>Resolución de 7 de noviembre de 2008, de la Dirección General de Bellas Artes y Bienes Culturales, por la que se incoa expediente para la declaración de bien de interés cultural a favor de la zona paleontológica Punta des Migjorn, Es Castell en Menorca.</titulo>
+                <url_pdf szBytes="47330" szKBytes="46" pagina_inicial="49570" pagina_final="49570">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49570-49570.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19977</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19977</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma de Aragón. Convenio">
+              <item>
+                <identificador>BOE-A-2008-19978</identificador>
+                <titulo>Resolución de 12 de noviembre de 2008, de la Secretaría General Técnica, por la que se publica el Acuerdo de desarrollo del Convenio de colaboración, entre el Ministerio de Educación, Cultura y Deporte y la Comunidad Autónoma de Aragón, para el apoyo técnico a los museos de titularidad estatal y gestión transferida, así como a los museos inscritos en el Registro de Museos de Aragón, en materia de explotación conjunta de las aplicaciones de gestión museográfica DOMUS e intercambio de información a través de la misma.</titulo>
+                <url_pdf szBytes="56583" szKBytes="55" pagina_inicial="49570" pagina_final="49571">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49570-49571.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19978</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19978</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma de la Región de Murcia. Convenio">
+              <item>
+                <identificador>BOE-A-2008-19979</identificador>
+                <titulo>Resolución de 18 de noviembre de 2008, de la Secretaría General Técnica, por la que se publica el Convenio de colaboración, entre el Ministerio de Cultura y la Comunidad Autónoma de la Región de Murcia, para la aportación y distribución de crédito para la adquisición de fondos bibliográficos para la mejora de las bibliotecas públicas.</titulo>
+                <url_pdf szBytes="56752" szKBytes="55" pagina_inicial="49571" pagina_final="49572">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49571-49572.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19979</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19979</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Fundaciones">
+              <item>
+                <identificador>BOE-A-2008-19980</identificador>
+                <titulo>Orden CUL/3576/2008, de 20 de noviembre, por la que se inscribe en el Registro de Fundaciones la Fundación Arzuaga.</titulo>
+                <url_pdf szBytes="57468" szKBytes="56" pagina_inicial="49572" pagina_final="49573">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49572-49573.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19980</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19980</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19981</identificador>
+                <titulo>Orden CUL/3577/2008, de 20 de noviembre, por la que se inscribe en el Registro de Fundaciones la Fundación Mosis-Modelos y Sistemas; Arte y Ciudad.</titulo>
+                <url_pdf szBytes="48349" szKBytes="47" pagina_inicial="49573" pagina_final="49573">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49573-49573.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19981</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19981</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3260" nombre="MINISTERIO DE VIVIENDA">
+            <epigrafe nombre="Comunidad Autónoma del Principado de Asturias. Convenio">
+              <item>
+                <identificador>BOE-A-2008-19982</identificador>
+                <titulo>Resolución de 31 de octubre de 2008, de la Subsecretaría, por la que se publica el Convenio de colaboración, entre el Ministerio de Vivienda, el Principado de Asturias y el Ayuntamiento de Salas, para la restauración del antiguo monasterio e iglesia de Cornellana para Centro Documental del Camino de Santiago y Hospedería en Salas (Asturias).</titulo>
+                <url_pdf szBytes="57137" szKBytes="56" pagina_inicial="49573" pagina_final="49574">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49573-49574.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19982</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19982</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2008-19983</identificador>
+                <titulo>Resolución de 21 de noviembre de 2008, de la Secretaría de Estado de Universidades, por la que se conceden ayudas de movilidad para investigación posdoctoral, incluidas las ayudas Micinn/Fulbright y Cátedras «Príncipe de Asturias».</titulo>
+                <url_pdf szBytes="440439" szKBytes="430" pagina_inicial="49574" pagina_final="49582">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49574-49582.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19983</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19983</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19984</identificador>
+                <titulo>Resolución de 25 de noviembre de 2008, de la Agencia Estatal Consejo Superior de Investigaciones Científicas, por la que se conceden ayudas para el desarrollo de tesis doctorales en el marco del Programa Junta para la Ampliación de Estudios.</titulo>
+                <url_pdf szBytes="47569" szKBytes="46" pagina_inicial="49583" pagina_final="49583">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49583-49583.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19984</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19984</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4620" nombre="MINISTERIO DE IGUALDAD">
+            <epigrafe nombre="Comunidad Autónoma de La Rioja. Convenio">
+              <item>
+                <identificador>BOE-A-2008-19985</identificador>
+                <titulo>Resolución de 26 de noviembre de 2008, de la Secretaría General Técnica, por la que se publica el Convenio de colaboración entre el Instituto de la Juventud y el Instituto Riojano de la Juventud, para la promoción de la igualdad de oportunidades de los jóvenes.</titulo>
+                <url_pdf szBytes="62055" szKBytes="61" pagina_inicial="49583" pagina_final="49585">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49583-49585.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19985</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19985</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2008-19986</identificador>
+                <titulo>Resolución de 8 de diciembre de 2008, del Banco de España, por la que se hacen públicos los cambios del euro correspondientes al día 8 de diciembre de 2008, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="38247" szKBytes="37" pagina_inicial="49585" pagina_final="49585">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49585-49585.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19986</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19986</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19987</identificador>
+                <titulo>Resolución de 9 de diciembre de 2008, del Banco de España, por la que se hacen públicos los cambios del euro correspondientes al día 9 de diciembre de 2008, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="38247" szKBytes="37" pagina_inicial="49585" pagina_final="49585">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49585-49585.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19987</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19987</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Prototipos">
+              <item>
+                <identificador>BOE-A-2008-19988</identificador>
+                <titulo>Resolución de 7 de octubre de 2008, de la Secretaría de Industria y Empresa del Departamento de Innovación, Universidades y Empresa, por la que se concede el cambio de nombre de la titularidad de la aprobación de modelo n.º 01-02.26, del instrumento taquicronométrico denominado taxímetro, marca Hale, modelo Spt-01, a favor de Continental Automotive Spain, S.A.</titulo>
+                <url_pdf szBytes="46097" szKBytes="45" pagina_inicial="49585" pagina_final="49586">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49585-49586.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19988</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19988</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19989</identificador>
+                <titulo>Resolución de 7 de octubre de 2008, de la Secretaría de Industria y Empresa del Departamento de Innovación, Universidades y Empresa, por la que se concede el cambio de nombre de la titularidad de la aprobación de modelo n.º 93013, del instrumento taquicronométrico denominado taxímetro, marca Hale, modelos MCT-04 y MCT05, a favor de Continental Automotive Spain, S.A.</titulo>
+                <url_pdf szBytes="39984" szKBytes="39" pagina_inicial="49586" pagina_final="49586">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49586-49586.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19989</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19989</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2008-19990</identificador>
+                <titulo>Resolución de 21 de octubre de 2008, de la Secretaría de Industria y Empresa del Departamento de Innovación, Universidades y Empresa, por la que se concede el cambio de nombre de la titularidad de la aprobación de modelonúmero 01-02.25, del instrumento taquicronométrico denominado taxímetro, marca Kienzle Argo, modelo 1155, a favor de Continental Automotive Spain, S.A.</titulo>
+                <url_pdf szBytes="39984" szKBytes="39" pagina_inicial="49586" pagina_final="49586">https://www.boe.es/boe/dias/2008/12/10/pdfs/A49586-49586.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-19990</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19990</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2008-797000</identificador>
+              <titulo>ALCÁZAR DE SAN JUAN</titulo>
+              <url_pdf szBytes="40239" szKBytes="39" pagina_inicial="14482" pagina_final="14482">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14482-14482.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797001</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="40239" szKBytes="39" pagina_inicial="14482" pagina_final="14482">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14482-14482.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797002</identificador>
+              <titulo>CORIA</titulo>
+              <url_pdf szBytes="40239" szKBytes="39" pagina_inicial="14482" pagina_final="14482">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14482-14482.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797003</identificador>
+              <titulo>CUENCA</titulo>
+              <url_pdf szBytes="40239" szKBytes="39" pagina_inicial="14482" pagina_final="14482">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14482-14482.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797004</identificador>
+              <titulo>GUADALAJARA</titulo>
+              <url_pdf szBytes="75752" szKBytes="74" pagina_inicial="14482" pagina_final="14483">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14482-14483.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797005</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="43012" szKBytes="42" pagina_inicial="14483" pagina_final="14483">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14483-14483.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797006</identificador>
+              <titulo>MAHÓN</titulo>
+              <url_pdf szBytes="43012" szKBytes="42" pagina_inicial="14483" pagina_final="14483">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14483-14483.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797007</identificador>
+              <titulo>OURENSE</titulo>
+              <url_pdf szBytes="43012" szKBytes="42" pagina_inicial="14483" pagina_final="14483">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14483-14483.pdf</url_pdf>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2008-797008</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="43012" szKBytes="42" pagina_inicial="14483" pagina_final="14483">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14483-14483.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797009</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="43012" szKBytes="42" pagina_inicial="14483" pagina_final="14483">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14483-14483.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797010</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="43012" szKBytes="42" pagina_inicial="14483" pagina_final="14483">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14483-14483.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797011</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="43012" szKBytes="42" pagina_inicial="14483" pagina_final="14483">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14483-14483.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797012</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="75221" szKBytes="73" pagina_inicial="14483" pagina_final="14484">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14483-14484.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797013</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="39708" szKBytes="39" pagina_inicial="14484" pagina_final="14484">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14484-14484.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797014</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="39708" szKBytes="39" pagina_inicial="14484" pagina_final="14484">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14484-14484.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797015</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="39708" szKBytes="39" pagina_inicial="14484" pagina_final="14484">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14484-14484.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797016</identificador>
+              <titulo>CÓRDOBA</titulo>
+              <url_pdf szBytes="39708" szKBytes="39" pagina_inicial="14484" pagina_final="14484">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14484-14484.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797017</identificador>
+              <titulo>CUENCA</titulo>
+              <url_pdf szBytes="39708" szKBytes="39" pagina_inicial="14484" pagina_final="14484">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14484-14484.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797018</identificador>
+              <titulo>DONOSTIA-SAN SEBASTIÁN</titulo>
+              <url_pdf szBytes="39708" szKBytes="39" pagina_inicial="14484" pagina_final="14484">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14484-14484.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797019</identificador>
+              <titulo>DONOSTIA-SAN SEBASTIÁN</titulo>
+              <url_pdf szBytes="39708" szKBytes="39" pagina_inicial="14484" pagina_final="14484">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14484-14484.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797020</identificador>
+              <titulo>DONOSTIA-SAN SEBASTIÁN</titulo>
+              <url_pdf szBytes="72615" szKBytes="71" pagina_inicial="14484" pagina_final="14485">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14484-14485.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797021</identificador>
+              <titulo>GIRONA</titulo>
+              <url_pdf szBytes="40406" szKBytes="39" pagina_inicial="14485" pagina_final="14485">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14485-14485.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797022</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="40406" szKBytes="39" pagina_inicial="14485" pagina_final="14485">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14485-14485.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797023</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="40406" szKBytes="39" pagina_inicial="14485" pagina_final="14485">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14485-14485.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797024</identificador>
+              <titulo>MÁLAGA</titulo>
+              <url_pdf szBytes="40406" szKBytes="39" pagina_inicial="14485" pagina_final="14485">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14485-14485.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797025</identificador>
+              <titulo>PONTEVEDRA</titulo>
+              <url_pdf szBytes="40406" szKBytes="39" pagina_inicial="14485" pagina_final="14485">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14485-14485.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797026</identificador>
+              <titulo>SANTA CRUZ DE TENERIFE</titulo>
+              <url_pdf szBytes="62833" szKBytes="61" pagina_inicial="14485" pagina_final="14486">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14485-14486.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797027</identificador>
+              <titulo>SANTA CRUZ DE TENERIFE</titulo>
+              <url_pdf szBytes="29926" szKBytes="29" pagina_inicial="14486" pagina_final="14486">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14486-14486.pdf</url_pdf>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-797028</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="29926" szKBytes="29" pagina_inicial="14486" pagina_final="14486">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14486-14486.pdf</url_pdf>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Subastas y concursos de obras y servicios">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2008-297000</identificador>
+              <titulo>Resolución del Órgano de Contratación del Arsenal Militar de Ferrol, por la que se anuncia Procedimiento Abierto para el Suministro de productos de alimentación, con destino a la Factoría de Subsistencias de la Escuela Naval Militar en Marín (Pontevedra).</titulo>
+              <url_pdf szBytes="38670" szKBytes="38" pagina_inicial="14487" pagina_final="14487">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14487-14487.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297000</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297000</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297001</identificador>
+              <titulo>Resolución del Órgano de Contratación de la Sección Económico Administrativa de la Base Aérea de Torrejón por la que se anuncia procedimiento de concurrencia para la autorización demanial para aprovechamiento agrario en al Base Aérea de Torrejón.</titulo>
+              <url_pdf szBytes="38670" szKBytes="38" pagina_inicial="14487" pagina_final="14487">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14487-14487.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297001</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297001</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297002</identificador>
+              <titulo>Anuncio de la Unidad Militar de Emergencias sobre adquisición de 30.000 raciones ligeras intervención.</titulo>
+              <url_pdf szBytes="47422" szKBytes="46" pagina_inicial="14487" pagina_final="14488">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14487-14488.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297002</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297002</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="5130" nombre="MINISTERIO DE ECONOMÍA Y HACIENDA">
+            <item>
+              <identificador>BOE-B-2008-297003</identificador>
+              <titulo>Resolución de la Agencia Estatal de Administración Tributaria por la que se anuncia procedimiento abierto para la contratación del suministro de 120.000.000 de pliegos de cartas (240.000.000 de Din A/4) para las Campañas Tributarias.</titulo>
+              <url_pdf szBytes="39929" szKBytes="39" pagina_inicial="14488" pagina_final="14488">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14488-14488.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297003</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297003</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2008-297004</identificador>
+              <titulo>Resolución de la Secretaría de Estado de Infraestructuras por la que se anuncia la adjudicación del contrato de consultoría y asistencia por el procedimiento abierto y forma de adjudicación de concurso: Control y vigilancia de las obras: Seguridad vial. Rehabilitación superficial del firme en las carreteras N-322 y N-430 entre los pp.kk. 291,000 al 316,300 (N-322) y 419,700 al 486,500 (N-430). Provincia de Albacete. 30.77/08-2 32-AB-4500 A1G-525/08.</titulo>
+              <url_pdf szBytes="39929" szKBytes="39" pagina_inicial="14488" pagina_final="14488">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14488-14488.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297004</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297004</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297005</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de Huelva por la que se anuncia la licitación del Pliego de Bases de «Asistencia Técnica para la Realización de inventario, inspección y elaboración de protocolos de seguimiento para la conservación de la obra civil del Puerto de Huelva».</titulo>
+              <url_pdf szBytes="49142" szKBytes="48" pagina_inicial="14488" pagina_final="14489">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14488-14489.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297005</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297005</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297006</identificador>
+              <titulo>Resolución de la Secretaría de Estado de Infraestructuras, Dirección General de Carreteras, por la que se anuncia la licitación de contratos de obras para seguridad vial y adecuación y mejora de los sistemas de contención de vehículos; claves: 33-OR-4220, 51.148/08; 33-B-4650, 51.149/08; 33-GR-4000, 51.142/08 y 33-LC-6090, 51.143/08 por el procedimiento abierto y un único criterio de adjudicación.</titulo>
+              <url_pdf szBytes="40174" szKBytes="39" pagina_inicial="14489" pagina_final="14489">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14489-14489.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297006</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297006</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4430" nombre="MINISTERIO DE TRABAJO Y ASUNTOS SOCIALES">
+            <item>
+              <identificador>BOE-B-2008-297007</identificador>
+              <titulo>Resolución de la Dirección Provincial del Instituto Social de la Marina de Huelva, por la que se adjudica concurso público para contratar el servicio de limpieza, desinfección, desinsectación y desratización de todas las dependencias del Instituto Social de la Marina en Huelva y provincia, así como el servicio de habitaciones y lavandería de la Residencia de alumnos de Isla Cristina.</titulo>
+              <url_pdf szBytes="40174" szKBytes="39" pagina_inicial="14489" pagina_final="14489">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14489-14489.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297007</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297007</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="5251" nombre="MINISTERIO DE INDUSTRIA, TURISMO Y COMERCIO">
+            <item>
+              <identificador>BOE-B-2008-297008</identificador>
+              <titulo>Resolución de la Junta de Contratación del Ministerio de Industria, Turismo y Comercio por la que se convoca por procedimiento abierto, la contratación de los «Servicios postales en el Ministerio de Industria, Turismo y Comercio». Expediente J08.071.01.</titulo>
+              <url_pdf szBytes="49033" szKBytes="48" pagina_inicial="14489" pagina_final="14490">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14489-14490.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297008</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297008</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3150" nombre="MINISTERIO DE MEDIO AMBIENTE, Y MEDIO RURAL Y MARINO">
+            <item>
+              <identificador>BOE-B-2008-297009</identificador>
+              <titulo>Resolución de la Dirección General para la Sostenibilidad de la Costa y del Mar por la que se anuncia la adjudicación de «Asistencia técnica para redacción del plan de actuación en la recuperación de las concesiones de desecación de marismas de Cantabria» (Cantabria).</titulo>
+              <url_pdf szBytes="39950" szKBytes="39" pagina_inicial="14490" pagina_final="14490">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14490-14490.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297009</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297009</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297010</identificador>
+              <titulo>Resolución de la Junta de Contratación del Ministerio de Medio Ambiente y Medio Rural y Marino por la que se convoca licitación por procedimiento abierto para el suministro de gases de gran pureza a presión, líquidos criogénicos y mantenimiento y gestión de las instalaciones asociadas para el Laboratorio Arbitral Agroalimentario de Madrid, durante 2009 y 2010.</titulo>
+              <url_pdf szBytes="39950" szKBytes="39" pagina_inicial="14490" pagina_final="14490">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14490-14490.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297010</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297010</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7210" nombre="MINISTERIO DE ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2008-297011</identificador>
+              <titulo>Anuncio de adjudicación del contrato del servicio de limpieza de parte de las instalaciones de la Subdelegación del Gobierno en Granada y Dependencias adscritas al Centro.</titulo>
+              <url_pdf szBytes="47122" szKBytes="46" pagina_inicial="14490" pagina_final="14491">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14490-14491.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297011</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297011</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4310" nombre="MINISTERIO DE SANIDAD Y CONSUMO">
+            <item>
+              <identificador>BOE-B-2008-297012</identificador>
+              <titulo>Resolución de la Dirección General de Recursos Humanos y Servicios Económico-Presupuestarios por la que se hace pública la adjudicación del procedimiento abierto, para la contratación de medios de comunicación para la difusión de la primera ola campañas de publicidad institucional que el Ministerio de Sanidad y Consumo llevará a cabo durante el año 2008.</titulo>
+              <url_pdf szBytes="39769" szKBytes="39" pagina_inicial="14491" pagina_final="14491">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14491-14491.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297012</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297012</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297013</identificador>
+              <titulo>Resolución de la Dirección General de Recursos Humanos y Servicios Económico-Presupuestarios por la que se hace pública la adjudicación del procedimiento abierto, para la contratación de la creatividad para promover un consumo responsable, seguro y solidario ante las compras de navidad y en épocas de rebajas.</titulo>
+              <url_pdf szBytes="39769" szKBytes="39" pagina_inicial="14491" pagina_final="14491">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14491-14491.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297013</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297013</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297014</identificador>
+              <titulo>Resolución de la Dirección General de Recursos Humanos y Servicios Económico-Presupuestarios por la que se hace pública la adjudicación del procedimiento abierto, para la contratación de la creatividad y producción de una campaña de publicidad institucional del Ministerio de Sanidad y Consumo, referente a la prevención de embarazos no deseados (2008).</titulo>
+              <url_pdf szBytes="39769" szKBytes="39" pagina_inicial="14491" pagina_final="14491">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14491-14491.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297014</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297014</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <item>
+              <identificador>BOE-B-2008-297015</identificador>
+              <titulo>Resolución del Órgano de Contratación de la Agencia Estatal del Consejo Superior de Investigaciones Científicas por la que se hace pública la adjudicación definitiva del Servicio de Mantenimiento preventivo y correctivo de trece láseres de argón ionizado, neodimio y titanio con destino al Centro de Física Miguel A. Catalán.</titulo>
+              <url_pdf szBytes="39769" szKBytes="39" pagina_inicial="14491" pagina_final="14491">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14491-14491.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297015</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297015</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297016</identificador>
+              <titulo>Anuncio del Centro de Investigación Biomédica en Red de Epidemiología y Salud Pública por el que se convoca concurso abierto para la licitación pública de la prestación de un Servicio de Gestión Laboral.</titulo>
+              <url_pdf szBytes="48227" szKBytes="47" pagina_inicial="14491" pagina_final="14492">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14491-14492.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297016</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297016</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297017</identificador>
+              <titulo>Anuncio del Centro de Investigación Biomédica en Red de Epidemiología y Salud Pública por el que se convoca concurso abierto para la licitación pública de la prestación de un Servicio Ajeno de Prevención de Riesgos Laborales.</titulo>
+              <url_pdf szBytes="39788" szKBytes="39" pagina_inicial="14492" pagina_final="14492">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14492-14492.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297017</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297017</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <item>
+              <identificador>BOE-B-2008-297018</identificador>
+              <titulo>Resolución del Hospital de Basurto-Osakidetza-Servicio Vasco de Salud por la que se anuncia la adjudicación del contrato para el servicio de limpieza del Hospital de Basurto y ambulatorio de Txurdínaga.</titulo>
+              <url_pdf szBytes="39788" szKBytes="39" pagina_inicial="14492" pagina_final="14492">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14492-14492.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297018</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297018</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2008-297019</identificador>
+              <titulo>Anuncio del Consorci Parc de Recerca Biomèdica de Barcelona sobre la licitación del Servicio de Vigilancia y Seguridad del Edificio PRBB.</titulo>
+              <url_pdf szBytes="48957" szKBytes="48" pagina_inicial="14492" pagina_final="14493">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14492-14493.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297019</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297019</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297020</identificador>
+              <titulo>Anuncio del Departamento de Economía y Finanzas de la Generalidad de Cataluña para la realización del control a beneficiarios previsto en el reglamento CEE 4045/89 (vigente reglamento CE 458/2008) para 35 beneficiarios de diversas líneas de ayuda, con abasto plurianual hasta el 2010.</titulo>
+              <url_pdf szBytes="40274" szKBytes="39" pagina_inicial="14493" pagina_final="14493">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14493-14493.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297020</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297020</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297021</identificador>
+              <titulo>Resolución de la Agencia Catalana del Agua por la que se hace pública la adjudicación del contrato de servicios de explotación, conservación y mantenimiento de la planta de tratamiento térmico eficiente de lodos en la estación depuradora de aguas residuales de Montornès del Vallès.</titulo>
+              <url_pdf szBytes="40274" szKBytes="39" pagina_inicial="14493" pagina_final="14493">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14493-14493.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297021</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297021</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8150" nombre="COMUNIDAD AUTÓNOMA DEL PRINCIPADO DE ASTURIAS">
+            <item>
+              <identificador>BOE-B-2008-297022</identificador>
+              <titulo>Anuncio de la Consejería de Economía y Hacienda del Principado de Asturias sobre la adjudicación del contrato de Servicio de seguro de riesgo de pérdidas o daños materiales en bienes del patrimonio del Principado de Asturias. (Expediente) SERV 5/08).</titulo>
+              <url_pdf szBytes="49055" szKBytes="48" pagina_inicial="14493" pagina_final="14494">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14493-14494.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297022</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297022</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297023</identificador>
+              <titulo>Anuncio relativo a la Resolución del órgano de contratación del Servicio de Salud del Principado de Asturias por el que se hace pública la adjudicación definitiva del concurso de suministro de Vacunas frente al Virus del Papiloma Humano.</titulo>
+              <url_pdf szBytes="39997" szKBytes="39" pagina_inicial="14494" pagina_final="14494">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14494-14494.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297023</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297023</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297024</identificador>
+              <titulo>Anuncio del Servicio Público de Empleo del Principado de Asturias sobre licitación del contrato de servicios consistente en la difusión (Plan de Medios) de la Campaña de Publicidad denominada «Oportunidades de Trabajo».</titulo>
+              <url_pdf szBytes="39997" szKBytes="39" pagina_inicial="14494" pagina_final="14494">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14494-14494.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297024</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297024</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297025</identificador>
+              <titulo>Resolución del Órgano de Contratación del Hospital Universitario Central de Asturias, por la que se convoca la licitación para la adquisición, por procedimiento abierto, del suministro de medicamentos grupos C, D, J, L, N, V.</titulo>
+              <url_pdf szBytes="39997" szKBytes="39" pagina_inicial="14494" pagina_final="14494">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14494-14494.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297025</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297025</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <item>
+              <identificador>BOE-B-2008-297026</identificador>
+              <titulo>Anuncio de la Conselleria de Turismo-Agència Valenciana del Turisme por el que se convoca el procedimiento abierto para la contratación de la planificación y compra de medios para la difusión de una campaña de publicidad en 2009 de la oferta turística de la Comunitat Valenciana.</titulo>
+              <url_pdf szBytes="48766" szKBytes="48" pagina_inicial="14494" pagina_final="14495">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14494-14495.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297026</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297026</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8060" nombre="COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA">
+            <item>
+              <identificador>BOE-B-2008-297027</identificador>
+              <titulo>Resolución de la Consejería de Industria, Energía y Medio Ambiente por la que se hace publica la adjudicación del contrato de servicios consistente en el Desarrollo de la Administración Electrónica en el Contexto de la Plataforma Cesar.</titulo>
+              <url_pdf szBytes="39805" szKBytes="39" pagina_inicial="14495" pagina_final="14495">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14495-14495.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297027</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297027</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8030" nombre="COMUNIDAD AUTÓNOMA DE CANARIAS">
+            <item>
+              <identificador>BOE-B-2008-297028</identificador>
+              <titulo>Anuncio de la Consejería de Sanidad por el que se convoca procedimiento abierto para la contratación del suministro de vacunas destinadas a la campaña de vacunación en la Comunidad Autónoma de Canarias en el año 2009.</titulo>
+              <url_pdf szBytes="48679" szKBytes="48" pagina_inicial="14495" pagina_final="14496">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14495-14496.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297028</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297028</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9531" nombre="COMUNIDAD DE CASTILLA Y LEÓN">
+            <item>
+              <identificador>BOE-B-2008-297029</identificador>
+              <titulo>Resolución del Complejo Asistencial de Ávila por la que se convoca la Contratación del Servicio de Vigilancia y Seguridad.</titulo>
+              <url_pdf szBytes="39762" szKBytes="39" pagina_inicial="14496" pagina_final="14496">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14496-14496.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297029</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297029</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8180" nombre="CIUDAD DE CEUTA">
+            <item>
+              <identificador>BOE-B-2008-297030</identificador>
+              <titulo>Anuncio de la resolución de la Consejería de Hacienda de fecha 04/12/2008 por el que se modifica el Pliego de Cláusulas Administrativas Particulares de la contratación conjunta de redacción de proyecto, financiación y ejecución de obra de rehabilitación del antiguo cuartel del Teniente Ruiz y urbanización anexa para su uso como campus universitario.</titulo>
+              <url_pdf szBytes="39762" szKBytes="39" pagina_inicial="14496" pagina_final="14496">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14496-14496.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297030</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297030</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2008-297031</identificador>
+              <titulo>Anuncio del Ayuntamiento de Agüimes por el que se convoca el procedimiento para la licitación pública de la contratación del servicio denominado «Limpieza de los colegios públicos del municipio», mediante procedimiento abierto.</titulo>
+              <url_pdf szBytes="39762" szKBytes="39" pagina_inicial="14496" pagina_final="14496">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14496-14496.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297031</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297031</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297032</identificador>
+              <titulo>Anuncio del Ayuntamiento de Sabiñánigo de adjudicación definitiva de limpieza de instalaciones municipales.</titulo>
+              <url_pdf szBytes="39762" szKBytes="39" pagina_inicial="14496" pagina_final="14496">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14496-14496.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297032</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297032</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297033</identificador>
+              <titulo>Resolución de la Diputación Provincial de Ávila relativa a la adjudicación del contrato de Servicio de Lavado y Planchado de prendas textiles del Centro Residencial Infantas Elena y Cristina de Ávila.</titulo>
+              <url_pdf szBytes="35793" szKBytes="35" pagina_inicial="14497" pagina_final="14497">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14497-14497.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297033</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297033</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297034</identificador>
+              <titulo>Anuncio de Resolución de la Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla, de 19 de noviembre de 2008, de adjudicación definitiva de contrato de suministro e instalación del Sistema de Señalización de Centros Comerciales Abiertos de Sevilla.</titulo>
+              <url_pdf szBytes="35793" szKBytes="35" pagina_inicial="14497" pagina_final="14497">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14497-14497.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297034</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297034</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297035</identificador>
+              <titulo>Anuncio del Organismo Autónomo Madrid Salud sobre la adjudicación definitiva del contrato de suministro de vacunas contra la fiebre amarilla con destino al Centro de Salud Internacional, dependiente del Servicio de Prevención, Promoción de la Salud y Salud Ambiental.</titulo>
+              <url_pdf szBytes="35793" szKBytes="35" pagina_inicial="14497" pagina_final="14497">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14497-14497.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297035</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297035</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297036</identificador>
+              <titulo>Anuncio del Ayuntamiento de Talavera de la Reina por el que se convoca licitación para el suministro, instalación y posterior mantenimiento de un sistema de videocontrol de tráfico.</titulo>
+              <url_pdf szBytes="35793" szKBytes="35" pagina_inicial="14497" pagina_final="14497">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14497-14497.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297036</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297036</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297037</identificador>
+              <titulo>Resolución de la Mancomunidad del Este por la que se adjudica el contrato de concesión administrativa para la redacción del proyecto, financiación, contrucción y explotación del complejo medioambiental de gestión de residuos.</titulo>
+              <url_pdf szBytes="35793" szKBytes="35" pagina_inicial="14497" pagina_final="14497">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14497-14497.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297037</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297037</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297038</identificador>
+              <titulo>Anuncio del Ayuntamiento de Barcelona de convocatoria de concurso para la contratación del servicio de asistencia técnica en el seguimiento y control de las inversiones (PAM 2008-2011).</titulo>
+              <url_pdf szBytes="39726" szKBytes="39" pagina_inicial="14498" pagina_final="14498">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14498-14498.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297038</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297038</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297039</identificador>
+              <titulo>Anuncio de la Resolución del Ayuntamiento de Alcorcón por la que se anuncia concurso para la contratación del suministro e instalación de juegos infantiles en los patios de los Centros de Educación Infantil.</titulo>
+              <url_pdf szBytes="39726" szKBytes="39" pagina_inicial="14498" pagina_final="14498">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14498-14498.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297039</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297039</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2008-297040</identificador>
+              <titulo>Resolución de la Universidad de Salamanca por la que se anuncia la licitación del Servicio de impresión y personalización de títulos oficiales de la Universidad de Salamanca.</titulo>
+              <url_pdf szBytes="44766" szKBytes="44" pagina_inicial="14498" pagina_final="14499">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14498-14499.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297040</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297040</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297041</identificador>
+              <titulo>Resolución de la Universidad de Málaga de fecha 21 de noviembre de 2008 por la que se anuncia la modificación de la fecha de presentación de las proposiciones del expediente de referencia VIS-OB-04/07-PA, Segunda fase de urbanización del sector de actuación, PE-T.1, Ampliación de la Universidad del Plan General de Ordenación Urbana de Málaga.</titulo>
+              <url_pdf szBytes="30344" szKBytes="30" pagina_inicial="14499" pagina_final="14499">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14499-14499.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297041</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297041</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <item>
+              <identificador>BOE-B-2008-297042</identificador>
+              <titulo>Resolución de 2 de septiembre de 2008, de Casa Árabe-Instituto Internacional de Estudios Árabes y del Mundo Musulmán, por la que se crean ficheros de datos de carácter personal del Consorcio.</titulo>
+              <url_pdf szBytes="39837" szKBytes="39" pagina_inicial="14500" pagina_final="14500">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14500-14500.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297042</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297042</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2008-297043</identificador>
+              <titulo>Anuncio del Instituto para la Vivienda de las Fuerzas Armadas sobre requerimiento de desalojo de don Ángel León Leal.</titulo>
+              <url_pdf szBytes="49672" szKBytes="49" pagina_inicial="14500" pagina_final="14501">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14500-14501.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297043</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297043</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="5130" nombre="MINISTERIO DE ECONOMÍA Y HACIENDA">
+            <item>
+              <identificador>BOE-B-2008-297044</identificador>
+              <titulo>Anuncio del Comisionado para el Mercado de Tabacos para procedimiento sancionador.</titulo>
+              <url_pdf szBytes="41836" szKBytes="41" pagina_inicial="14501" pagina_final="14501">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14501-14501.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297044</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297044</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297045</identificador>
+              <titulo>Resolución de 29 de noviembre de 2008, del Servicio de Gestión Económica de la Agencia Estatal de Administración Tributaria, por la que se anuncian las notificaciones por comparecencia, después de haber realizado primero y segundo intentos.</titulo>
+              <url_pdf szBytes="41836" szKBytes="41" pagina_inicial="14501" pagina_final="14501">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14501-14501.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297045</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297045</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2008-297046</identificador>
+              <titulo>Resolución del Consejo de Administración de la Autoridad Portuaria de Santa Cruz de Tenerife por la que se acordó otorgar concesión administrativa a la entidad «Dimport, S.L.» para la explotación del bar cafetería sito en la estación marítima del puerto de San Sebastián de La Gomera.</titulo>
+              <url_pdf szBytes="41836" szKBytes="41" pagina_inicial="14501" pagina_final="14501">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14501-14501.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297046</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297046</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297047</identificador>
+              <titulo>Resolución de la Presidencia del Consejo de Administración de la Autoridad Portuaria de Santa Cruz de Tenerife, de 10 de noviembre de 2008, por la que se dispone la publicación en el Boletín Oficial del Estado del acuerdo, de fecha 27 de febrero de 2007, relativo al otorgamiento de concesión administrativa al «Instituto Español de Oceanografía».</titulo>
+              <url_pdf szBytes="41836" szKBytes="41" pagina_inicial="14501" pagina_final="14501">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14501-14501.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297047</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297047</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297048</identificador>
+              <titulo>Anuncio de la Demarcación de Carreteras del Estado en Castilla y León Oriental relativo a la Resolución de la Secretaría de Estado de Infraestructuras, de 19 de noviembre de 2008, por la que se aprueba el expediente de información pública y aprobación definitiva del estudio informativo de clave: EI1-E-159 «Autovía A-12. Autovía del Camino de Santiago. Logroño-Burgos. Tramo: Santo Domingo de la Calzada-Burgos». Provincias de La Rioja y Burgos.</titulo>
+              <url_pdf szBytes="41836" szKBytes="41" pagina_inicial="14501" pagina_final="14501">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14501-14501.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297048</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297048</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297049</identificador>
+              <titulo>Resolución del Subsecretario del Ministerio de Fomento, de 26 de noviembre de 2008, por la que se publica, a los efectos de la notificación prevista en el articulo 59.5 de la Ley 30/1992, de 26 de noviembre, la Resolución de la Subsecretaría de este Departamento, de 24 de septiembre de 2008, relativa a la Agencia Estatal de Seguridad Aérea.</titulo>
+              <url_pdf szBytes="51050" szKBytes="50" pagina_inicial="14501" pagina_final="14502">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14501-14502.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297049</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297049</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297050</identificador>
+              <titulo>Resolución del Consejo de Administración de la Autoridad Portuaria de Vigo por la que se acuerda modificar las prescripciones particulares para la prestación del servicio portuario básico de remolque en el Puerto de Vigo.</titulo>
+              <url_pdf szBytes="40621" szKBytes="40" pagina_inicial="14502" pagina_final="14502">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14502-14502.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297050</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297050</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297051</identificador>
+              <titulo>Resolución del Consejo de Administración de la Autoridad Portuaria de Vigo por la que se acuerda modificar las prescripciones particulares para la prestación del servicio portuario básico de recogida de desechos líquidos en el puerto de Vigo.</titulo>
+              <url_pdf szBytes="40621" szKBytes="40" pagina_inicial="14502" pagina_final="14502">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14502-14502.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297051</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297051</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4435" nombre="MINISTERIO DE TRABAJO E INMIGRACIÓN">
+            <item>
+              <identificador>BOE-B-2008-297052</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Huelva por la que se convoca subasta pública para la enajenación de un inmueble de su propiedad.</titulo>
+              <url_pdf szBytes="49897" szKBytes="49" pagina_inicial="14502" pagina_final="14503">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14502-14503.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297052</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297052</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297053</identificador>
+              <titulo>Resolución de la Dirección General de Trabajo por la que se anuncia la modificación de los Estatutos de la «Agrupación Española de Desmotadores de Algodón» (depósito número 7355).</titulo>
+              <url_pdf szBytes="42066" szKBytes="41" pagina_inicial="14503" pagina_final="14503">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14503-14503.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297053</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297053</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297054</identificador>
+              <titulo>Resolución de la Dirección General de Trabajo por la que se anuncia la modificación de los Estatutos de la «Asociación de la Comunicación Publicitaria» (depósito número 5369).</titulo>
+              <url_pdf szBytes="42066" szKBytes="41" pagina_inicial="14503" pagina_final="14503">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14503-14503.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297054</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297054</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297055</identificador>
+              <titulo>Resolución de la Dirección General de Trabajo por la que se anuncia la modificación de los Estatutos de la «Federación de Asociaciones de Periodistas de España» (depósito número 896).</titulo>
+              <url_pdf szBytes="42066" szKBytes="41" pagina_inicial="14503" pagina_final="14503">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14503-14503.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297055</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297055</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3150" nombre="MINISTERIO DE MEDIO AMBIENTE, Y MEDIO RURAL Y MARINO">
+            <item>
+              <identificador>BOE-B-2008-297056</identificador>
+              <titulo>Resolución de la Dirección General de Calidad y Evaluación Ambiental por la que se inicia período de consultas a las Administraciones Públicas afectadas y al público interesado en el procedimiento de evaluación ambiental estratégico del Plan Hidrológico de la Demarcación Hidrográfica del Duero, y se acuerda por razones de interés público y eficacia administrativa proceder a su publicación.</titulo>
+              <url_pdf szBytes="42066" szKBytes="41" pagina_inicial="14503" pagina_final="14503">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14503-14503.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297056</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297056</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297057</identificador>
+              <titulo>Resolución de la Dirección General de Calidad y Evaluación Ambiental por la que se inicia periodo de consultas a las Administraciones Públicas afectadas y al público interesado en el procedimiento de evaluación ambiental estratégico del Plan Hidrológico de la Demarcación Hidrográfica del Miño Sil y se acuerda por razones de interés público y eficacia administrativa proceder a su publicación.</titulo>
+              <url_pdf szBytes="36282" szKBytes="35" pagina_inicial="14504" pagina_final="14504">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14504-14504.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297057</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297057</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297058</identificador>
+              <titulo>Resolución de la Dirección General de Calidad y Evaluación Ambiental por la que se inicia periodo de consultas a las Administraciones Públicas afectadas y al público interesado en el procedimiento de evaluación ambiental estratégico del Plan Hidrológico de la Demarcación Hidrográfica del Guadalquivir, y se acuerda por razones de interés público y eficacia administrativa proceder a su publicación.</titulo>
+              <url_pdf szBytes="36282" szKBytes="35" pagina_inicial="14504" pagina_final="14504">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14504-14504.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297058</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297058</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297059</identificador>
+              <titulo>Resolución de la Dirección General de Calidad y Evaluación Ambiental por la que se inicia periodo de consultas a las Administraciones Públicas afectadas y al público interesado en el procedimiento de evaluación ambiental estratégico del Plan Hidrológico de la Demarcación Hidrográfica del Ebro, y se acuerda por razones de interés público y eficacia administrativa proceder a su publicación.</titulo>
+              <url_pdf szBytes="48643" szKBytes="48" pagina_inicial="14504" pagina_final="14505">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14504-14505.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297059</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297059</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297060</identificador>
+              <titulo>Anuncio de la Subdirección General de Calidad Diferenciada y Agricultura Ecológica sobre notificación del expediente sancionador n.º 1/08.</titulo>
+              <url_pdf szBytes="38972" szKBytes="38" pagina_inicial="14505" pagina_final="14505">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14505-14505.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297060</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297060</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7210" nombre="MINISTERIO DE ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2008-297061</identificador>
+              <titulo>Corrección de errores del anuncio de la Dependencia de Industria y Energía de la Subdelegación del Gobierno en Tarragona por el que se somete a información pública la solicitud de autorización administrativa, aprobación del proyecto de ejecución y reconocimiento, en concreto, de la utilidad pública de la «Addenda n.º 1: Duplicación del gasoducto Tivissa-Paterna. Tramo 1», y sus instalaciones auxiliares, en la provincia de Tarragona, así como su Adenda n.º 1 al Estudio de Impacto Ambiental.</titulo>
+              <url_pdf szBytes="69160" szKBytes="68" pagina_inicial="14505" pagina_final="14507">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14505-14507.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297061</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297061</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <item>
+              <identificador>BOE-B-2008-297062</identificador>
+              <titulo>Anuncio del Banco de España sobre convocatoria de concurso para la provisión de plazas.</titulo>
+              <url_pdf szBytes="48642" szKBytes="48" pagina_inicial="14507" pagina_final="14507">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14507-14507.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297062</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297062</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="1011" nombre="AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS">
+            <item>
+              <identificador>BOE-B-2008-297063</identificador>
+              <titulo>Resolución de la Agencia Española de Protección de Datos por la que se procede a la publicación oficial de extracto de la resolución del procedimiento sancionador PS/00434/2008.</titulo>
+              <url_pdf szBytes="54916" szKBytes="54" pagina_inicial="14507" pagina_final="14508">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14507-14508.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297063</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297063</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297064</identificador>
+              <titulo>Resolución de la Agencia Española de Protección de Datos por la que se procede a la publicación oficial de extracto del acuerdo de inicio del procedimiento sancionador n.º PS/00530/2008 por imposibilidad de notificación de su domicilio.</titulo>
+              <url_pdf szBytes="35537" szKBytes="35" pagina_inicial="14508" pagina_final="14508">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14508-14508.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297064</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297064</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2008-297065</identificador>
+              <titulo>Anuncio de la Universidad Complutense de Madrid sobre extravío de título de Diplomada en Trabajo Social.</titulo>
+              <url_pdf szBytes="35537" szKBytes="35" pagina_inicial="14508" pagina_final="14508">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14508-14508.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297065</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297065</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297066</identificador>
+              <titulo>Anuncio de la Universidad Autónoma de Madrid sobre extravío de título de Licenciado en Ciencias (Biológicas).</titulo>
+              <url_pdf szBytes="35537" szKBytes="35" pagina_inicial="14508" pagina_final="14508">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14508-14508.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297066</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297066</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297067</identificador>
+              <titulo>Anuncio de la Universidad de Valladolid sobre extravío de títulode Licenciado en Ciencias Económicas y Empresariaqles</titulo>
+              <url_pdf szBytes="35537" szKBytes="35" pagina_inicial="14508" pagina_final="14508">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14508-14508.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297067</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297067</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="Anuncios particulares">
+            <item>
+              <identificador>BOE-B-2008-297068</identificador>
+              <titulo>AGUAS DE LA CUENCA DEL EBRO, S. A.</titulo>
+              <url_pdf szBytes="37792" szKBytes="37" pagina_inicial="14509" pagina_final="14509">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14509-14509.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297068</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297068</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297069</identificador>
+              <titulo>BARCELONA DE SERVEIS MUNICIPALS, S. A.</titulo>
+              <url_pdf szBytes="37792" szKBytes="37" pagina_inicial="14509" pagina_final="14509">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14509-14509.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297069</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297069</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297070</identificador>
+              <titulo>EMPRESA MUNICIPAL DE GESTIÓN URBANÍSTICA Y VIVIENDA DE LAS ROZAS DE MADRID, S. A.</titulo>
+              <url_pdf szBytes="47376" szKBytes="46" pagina_inicial="14509" pagina_final="14510">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14509-14510.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297070</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297070</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297071</identificador>
+              <titulo>ENTIDAD PÚBLICA EMPRESARIAL RED.ES</titulo>
+              <url_pdf szBytes="39256" szKBytes="38" pagina_inicial="14510" pagina_final="14510">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14510-14510.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297071</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297071</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297072</identificador>
+              <titulo>FUNDACIÓN TRIPARTITA PARA LA FORMACIÓN EN EL EMPLEO</titulo>
+              <url_pdf szBytes="39256" szKBytes="38" pagina_inicial="14510" pagina_final="14510">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14510-14510.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297072</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297072</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297073</identificador>
+              <titulo>LANTIK, SOCIEDAD ANÓNIMA</titulo>
+              <url_pdf szBytes="39256" szKBytes="38" pagina_inicial="14510" pagina_final="14510">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14510-14510.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297073</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297073</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297074</identificador>
+              <titulo>LANTIK, SOCIEDAD ANÓNIMA</titulo>
+              <url_pdf szBytes="48279" szKBytes="47" pagina_inicial="14510" pagina_final="14511">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14510-14511.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297074</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297074</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297075</identificador>
+              <titulo>LANTIK, SOCIEDAD ANÓNIMA</titulo>
+              <url_pdf szBytes="38961" szKBytes="38" pagina_inicial="14511" pagina_final="14511">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14511-14511.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297075</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297075</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297076</identificador>
+              <titulo>LANTIK, SOCIEDAD ANÓNIMA</titulo>
+              <url_pdf szBytes="38961" szKBytes="38" pagina_inicial="14511" pagina_final="14511">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14511-14511.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297076</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297076</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297077</identificador>
+              <titulo>LANTIK, SOCIEDAD ANÓNIMA</titulo>
+              <url_pdf szBytes="38961" szKBytes="38" pagina_inicial="14511" pagina_final="14511">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14511-14511.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297077</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297077</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297078</identificador>
+              <titulo>LANTIK, SOCIEDAD ANÓNIMA</titulo>
+              <url_pdf szBytes="38309" szKBytes="37" pagina_inicial="14512" pagina_final="14512">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14512-14512.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297078</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297078</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297079</identificador>
+              <titulo>LANTIK, SOCIEDAD ANÓNIMA</titulo>
+              <url_pdf szBytes="38309" szKBytes="37" pagina_inicial="14512" pagina_final="14512">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14512-14512.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297079</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297079</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2008-297080</identificador>
+              <titulo>LANTIK, SOCIEDAD ANÓNIMA</titulo>
+              <url_pdf szBytes="38309" szKBytes="37" pagina_inicial="14512" pagina_final="14512">https://www.boe.es/boe/dias/2008/12/10/pdfs/B14512-14512.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2008-297080</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2008-297080</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

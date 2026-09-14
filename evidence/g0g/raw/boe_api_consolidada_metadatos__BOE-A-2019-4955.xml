@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T112038Z</fecha_actualizacion>
+      <identificador>BOE-A-2019-4955</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20190329</fecha_disposicion>
+      <numero_oficial>2/2019</numero_oficial>
+      <titulo>Circular 2/2019, de 29 de marzo, del Banco de España, sobre los requisitos del Documento Informativo de las Comisiones y del Estado de Comisiones, y los sitios web de comparación de cuentas de pago, y que modifica la Circular 5/2012, de 27 de junio, a entidades de crédito y proveedores de servicios de pago, sobre transparencia de los servicios bancarios y responsabilidad en la concesión de préstamos.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20190404</fecha_publicacion>
+      <diario_numero>81</diario_numero>
+      <fecha_vigencia>20190405</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2019/03/29/2</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2019-4955</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

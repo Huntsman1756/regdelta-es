@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>pr</id>
+      <titulo>[preambulo]</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/pr</url>
+    </bloque>
+    <bloque>
+      <id>tp</id>
+      <titulo>TÍTULO PRELIMINAR</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/tp</url>
+    </bloque>
+    <bloque>
+      <id>n1</id>
+      <titulo>Norma 1</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n1</url>
+    </bloque>
+    <bloque>
+      <id>ti</id>
+      <titulo>TÍTULO I</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/ti</url>
+    </bloque>
+    <bloque>
+      <id>ci</id>
+      <titulo>CAPÍTULO I</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/ci</url>
+    </bloque>
+    <bloque>
+      <id>n2</id>
+      <titulo>Norma 2</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n2</url>
+    </bloque>
+    <bloque>
+      <id>n3</id>
+      <titulo>Norma 3</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n3</url>
+    </bloque>
+    <bloque>
+      <id>n4</id>
+      <titulo>Norma 4</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n4</url>
+    </bloque>
+    <bloque>
+      <id>n5</id>
+      <titulo>Norma 5</titulo>
+      <fecha_actualizacion>20230302</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n5</url>
+    </bloque>
+    <bloque>
+      <id>n6</id>
+      <titulo>Norma 6</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n6</url>
+    </bloque>
+    <bloque>
+      <id>ci-2</id>
+      <titulo>CAPÍTULO II</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/ci-2</url>
+    </bloque>
+    <bloque>
+      <id>n7</id>
+      <titulo>Norma 7</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n7</url>
+    </bloque>
+    <bloque>
+      <id>n8</id>
+      <titulo>Norma 8</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n8</url>
+    </bloque>
+    <bloque>
+      <id>ti-2</id>
+      <titulo>TÍTULO II</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/ti-2</url>
+    </bloque>
+    <bloque>
+      <id>ci-3</id>
+      <titulo>CAPÍTULO I</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/ci-3</url>
+    </bloque>
+    <bloque>
+      <id>n9</id>
+      <titulo>Norma 9</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n9</url>
+    </bloque>
+    <bloque>
+      <id>n1-2</id>
+      <titulo>Norma 10</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n1-2</url>
+    </bloque>
+    <bloque>
+      <id>ci-4</id>
+      <titulo>CAPÍTULO II</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/ci-4</url>
+    </bloque>
+    <bloque>
+      <id>n1-3</id>
+      <titulo>Norma 11</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n1-3</url>
+    </bloque>
+    <bloque>
+      <id>n1-4</id>
+      <titulo>Norma 12</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n1-4</url>
+    </bloque>
+    <bloque>
+      <id>n1-5</id>
+      <titulo>Norma 13</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n1-5</url>
+    </bloque>
+    <bloque>
+      <id>ti-3</id>
+      <titulo>TÍTULO III</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/ti-3</url>
+    </bloque>
+    <bloque>
+      <id>n1-6</id>
+      <titulo>Norma 14</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n1-6</url>
+    </bloque>
+    <bloque>
+      <id>ti-4</id>
+      <titulo>TÍTULO IV</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/ti-4</url>
+    </bloque>
+    <bloque>
+      <id>n1-7</id>
+      <titulo>Norma 15</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/n1-7</url>
+    </bloque>
+    <bloque>
+      <id>da</id>
+      <titulo>Disposición adicional única</titulo>
+      <fecha_actualizacion>20211229</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/da</url>
+    </bloque>
+    <bloque>
+      <id>dt</id>
+      <titulo>Disposición transitoria primera</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/dt</url>
+    </bloque>
+    <bloque>
+      <id>dt-2</id>
+      <titulo>Disposición transitoria segunda</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/dt-2</url>
+    </bloque>
+    <bloque>
+      <id>dt-3</id>
+      <titulo>Disposición transitoria tercera</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/dt-3</url>
+    </bloque>
+    <bloque>
+      <id>df</id>
+      <titulo>Disposición final única</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/df</url>
+    </bloque>
+    <bloque>
+      <id>fi</id>
+      <titulo>[firma]</titulo>
+      <fecha_actualizacion>20191202</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2019-17286/texto/bloque/fi</url>
+    </bloque>
+  </data>
+</response>

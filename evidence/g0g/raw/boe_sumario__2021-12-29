@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20211229</fecha_publicacion>
+      </metadatos>
+      <diario numero="312">
+        <sumario_diario>
+          <identificador>BOE-S-2021-312</identificador>
+          <url_pdf szBytes="405132" szKBytes="396">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-S-2021-312.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="7723" nombre="JEFATURA DEL ESTADO">
+            <epigrafe nombre="Dopaje">
+              <item>
+                <identificador>BOE-A-2021-21650</identificador>
+                <control>2021/21826</control>
+                <titulo>Ley Orgánica 11/2021, de 28 de diciembre, de lucha contra el dopaje en el deporte.</titulo>
+                <url_pdf szBytes="614809" szKBytes="600" pagina_inicial="165009" pagina_final="165066">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21650.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21650</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21650</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Empleo público">
+              <item>
+                <identificador>BOE-A-2021-21651</identificador>
+                <control>2021/21827</control>
+                <titulo>Ley 20/2021, de 28 de diciembre, de medidas urgentes para la reducción de la temporalidad en el empleo público.</titulo>
+                <url_pdf szBytes="326456" szKBytes="319" pagina_inicial="165067" pagina_final="165083">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21651.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21651</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21651</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Pensiones">
+              <item>
+                <identificador>BOE-A-2021-21652</identificador>
+                <control>2021/21828</control>
+                <titulo>Ley 21/2021, de 28 de diciembre, de garantía del poder adquisitivo de las pensiones y de otras medidas de refuerzo de la sostenibilidad financiera y social del sistema público de pensiones.</titulo>
+                <url_pdf szBytes="822490" szKBytes="803" pagina_inicial="165084" pagina_final="165113">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21652.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21652</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21652</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Presupuestos Generales del Estado">
+              <item>
+                <identificador>BOE-A-2021-21653</identificador>
+                <control>2021/21846</control>
+                <titulo>Ley 22/2021, de 28 de diciembre, de Presupuestos Generales del Estado para el año 2022.</titulo>
+                <url_pdf szBytes="71743940" szKBytes="70062" pagina_inicial="165114" pagina_final="165875">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21653.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21653</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21653</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Régimen Económico y Fiscal de Canarias">
+              <item>
+                <identificador>BOE-A-2021-21654</identificador>
+                <control>2021/21847</control>
+                <titulo>Real Decreto-ley 31/2021, de 28 de diciembre, por el que se modifica la Ley 19/1994, de 6 de julio, de modificación del Régimen Económico y Fiscal de Canarias, y se fija un nuevo plazo para presentar las renuncias o revocaciones a métodos y regímenes especiales de tributación.</titulo>
+                <url_pdf szBytes="261103" szKBytes="255" pagina_inicial="165876" pagina_final="165880">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21654.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21654</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21654</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Demarcación y planta judicial">
+              <item>
+                <identificador>BOE-A-2021-21655</identificador>
+                <control>2021/21848</control>
+                <titulo>Real Decreto 1151/2021, de 28 de diciembre, por el que se establece la separación de Juzgados de Primera Instancia e Instrucción del partido judicial de Toledo.</titulo>
+                <url_pdf szBytes="313853" szKBytes="306" pagina_inicial="165881" pagina_final="165886">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21655.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21655</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21655</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Fuerzas Armadas. Jornada y horarios de trabajo">
+              <item>
+                <identificador>BOE-A-2021-21656</identificador>
+                <control>2021/21748</control>
+                <titulo>Orden DEF/1471/2021, de 21 de diciembre, por la que se modifica la Orden DEF/253/2015, de 9 de febrero, por la que se regula el régimen de vacaciones, permisos, reducciones de jornada y licencias de los miembros de las Fuerzas Armadas.</titulo>
+                <url_pdf szBytes="268577" szKBytes="262" pagina_inicial="165887" pagina_final="165894">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21656.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21656</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21656</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Seguridad Social. Organización">
+              <item>
+                <identificador>BOE-A-2021-21657</identificador>
+                <control>2021/21849</control>
+                <titulo>Real Decreto 1152/2021, de 28 de diciembre, por el que se modifica el Real Decreto 1300/1995, de 21 de julio, por el que se desarrolla, en materia de incapacidades laborales del sistema de la Seguridad Social, la Ley 42/1994, de 30 de diciembre, de medidas fiscales, administrativas y de orden social; el Real Decreto 2583/1996, de 13 de diciembre, de estructura orgánica y funciones del Instituto Nacional de la Seguridad Social y de modificación parcial de la Tesorería General de la Seguridad Social; el Real Decreto 504/2011, de 8 de abril, de estructura orgánica y funciones del Instituto Social de la Marina; y el Real Decreto 497/2020, de 28 de abril, por el que se desarrolla la estructura orgánica básica del Ministerio de Inclusión, Seguridad Social y Migraciones.</titulo>
+                <url_pdf szBytes="268924" szKBytes="263" pagina_inicial="165895" pagina_final="165901">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21657.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21657</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21657</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Fondos carentes de personalidad jurídica. Contabilidad">
+              <item>
+                <identificador>BOE-A-2021-21658</identificador>
+                <control>2021/21636</control>
+                <titulo>Resolución de 22 de diciembre de 2021, de la Intervención General de la Administración del Estado, por la que se modifica la de 1 de julio de 2011, por la que se aprueban las normas contables relativas a los Fondos carentes de personalidad jurídica a que se refiere el apartado 2 del artículo 2 de la Ley General Presupuestaria y al registro de operaciones de tales fondos en las entidades aportantes del sector público administrativo.</titulo>
+                <url_pdf szBytes="229164" szKBytes="224" pagina_inicial="165902" pagina_final="165904">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21658.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21658</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21658</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Fronteras">
+              <item>
+                <identificador>BOE-A-2021-21659</identificador>
+                <control>2021/21829</control>
+                <titulo>Orden INT/1472/2021, de 28 de diciembre, por la que se prorroga la Orden INT/657/2020, de 17 de julio, por la que se modifican los criterios para la aplicación de una restricción temporal de viajes no imprescindibles desde terceros países a la Unión Europea y países asociados Schengen por razones de orden público y salud pública con motivo de la crisis sanitaria ocasionada por la COVID-19.</titulo>
+                <url_pdf szBytes="224463" szKBytes="219" pagina_inicial="165905" pagina_final="165906">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21659.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21659</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21659</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3120" nombre="MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN">
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2021-21660</identificador>
+                <control>2021/21850</control>
+                <titulo>Real Decreto 1155/2021, de 28 de diciembre, por el que se establecen las bases reguladoras de las subvenciones a agrupaciones de entidades que realicen proyectos en materia de crecimiento azul en el sector pesquero y de la acuicultura, y se convocan para 2022 y 2023.</titulo>
+                <url_pdf szBytes="710708" szKBytes="694" pagina_inicial="165907" pagina_final="165956">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21660.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21660</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21660</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2021-21661</identificador>
+                <control>2021/21851</control>
+                <titulo>Real Decreto 1156/2021, de 28 de diciembre, por el que se modifican los Reales Decretos 1075/2014, 1076/2014 y 1078/2014, todos ellos de 19 de diciembre, dictados para la aplicación en España de la Política Agrícola Común.</titulo>
+                <url_pdf szBytes="323642" szKBytes="316" pagina_inicial="165957" pagina_final="165972">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21661.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21661</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21661</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9574" nombre="MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA">
+            <epigrafe nombre="Medicamentos veterinarios">
+              <item>
+                <identificador>BOE-A-2021-21662</identificador>
+                <control>2021/21852</control>
+                <titulo>Real Decreto 1157/2021, de 28 de diciembre, por el que se regulan los medicamentos veterinarios fabricados industrialmente.</titulo>
+                <url_pdf szBytes="456804" szKBytes="446" pagina_inicial="165973" pagina_final="166008">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21662.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21662</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21662</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2021-21663</identificador>
+                <control>2021/21853</control>
+                <titulo>Real Decreto 1158/2021, de 28 de diciembre, por el que se regula la concesión directa de subvenciones a las confesiones religiosas minoritarias firmantes de acuerdos de cooperación con el Estado.</titulo>
+                <url_pdf szBytes="298281" szKBytes="291" pagina_inicial="166009" pagina_final="166018">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21663.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21663</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21663</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <epigrafe nombre="Planificación hidrológica">
+              <item>
+                <identificador>BOE-A-2021-21664</identificador>
+                <control>2021/21854</control>
+                <titulo>Real Decreto 1159/2021, de 28 de diciembre, por el que se modifica el Real Decreto 907/2007, de 6 de julio, por el que se aprueba el Reglamento de la Planificación Hidrológica.</titulo>
+                <url_pdf szBytes="562361" szKBytes="549" pagina_inicial="166019" pagina_final="166055">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21664.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21664</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21664</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4335" nombre="MINISTERIO DE SANIDAD">
+            <epigrafe nombre="Fronteras. Control sanitario">
+              <item>
+                <identificador>BOE-A-2021-21665</identificador>
+                <control>2021/21831</control>
+                <titulo>Resolución de 28 de diciembre de 2021, de la Dirección General de Salud Pública, por la que se modifica la de 4 de junio de 2021, relativa a los controles sanitarios a realizar en los puntos de entrada de España.</titulo>
+                <url_pdf szBytes="237792" szKBytes="232" pagina_inicial="166056" pagina_final="166059">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21665.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21665</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21665</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2021-21666</identificador>
+                <control>2021/21473</control>
+                <titulo>Circular 6/2021, de 22 de diciembre, del Banco de España, por la que se modifican la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 4/2019, de 26 de noviembre, a establecimientos financieros de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+                <url_pdf szBytes="1292259" szKBytes="1262" pagina_inicial="166060" pagina_final="166107">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21666.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21666</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21666</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <epigrafe nombre="Función pública">
+              <item>
+                <identificador>BOE-A-2021-21667</identificador>
+                <control>2021/21484</control>
+                <titulo>Corrección de errores de la Ley 7/2021, de 11 de noviembre, de los cuerpos y de las escalas de la Administración de la Comunidad Autónoma de Euskadi.</titulo>
+                <url_pdf szBytes="278056" szKBytes="272" pagina_inicial="166108" pagina_final="166112">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21667.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21667</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21667</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <epigrafe nombre="Financiación. Entes locales">
+              <item>
+                <identificador>BOE-A-2021-21668</identificador>
+                <control>2021/21486</control>
+                <titulo>Ley 5/2021, de 5 de noviembre, reguladora del Fondo de Cooperación Municipal de los Municipios y Entidades Locales Menores de la Comunitat Valenciana.</titulo>
+                <url_pdf szBytes="278022" szKBytes="272" pagina_inicial="166113" pagina_final="166122">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21668.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21668</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21668</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Palmeral de Elche">
+              <item>
+                <identificador>BOE-A-2021-21669</identificador>
+                <control>2021/21487</control>
+                <titulo>Ley 6/2021, de 12 de noviembre, de protección y promoción del palmeral de Elche.</titulo>
+                <url_pdf szBytes="1530464" szKBytes="1495" pagina_inicial="166123" pagina_final="166147">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21669.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21669</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21669</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="7786" nombre="PRESIDENCIA DEL GOBIERNO">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2021-21670</identificador>
+                <control>2021/21855</control>
+                <titulo>Real Decreto 1160/2021, de 28 de diciembre, por el que se dispone el cese de don Albert Medrán López como Director de la Oficina del Alto Comisionado para España Nación Emprendedora.</titulo>
+                <url_pdf szBytes="216050" szKBytes="211" pagina_inicial="166148" pagina_final="166148">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21670.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21670</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21670</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2021-21671</identificador>
+                <control>2021/21856</control>
+                <titulo>Real Decreto 1161/2021, de 28 de diciembre, por el que se nombra Directora de la Oficina del Alto Comisionado para España Nación Emprendedora a doña María de Miguel de Santos.</titulo>
+                <url_pdf szBytes="216118" szKBytes="211" pagina_inicial="166149" pagina_final="166149">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21671.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21671</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21671</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2021-21672</identificador>
+                <control>2021/21755</control>
+                <titulo>Acuerdo de 21 de diciembre de 2021, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se nombran Jueces sustitutos para el año judicial 2021/2022, en el ámbito del Tribunal Superior de Justicia de Castilla y León.</titulo>
+                <url_pdf szBytes="215622" szKBytes="211" pagina_inicial="166150" pagina_final="166150">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21672.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21672</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21672</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Designaciones">
+              <item>
+                <identificador>BOE-A-2021-21673</identificador>
+                <control>2021/21750</control>
+                <titulo>Acuerdo de 16 de diciembre de 2021, de la Comisión Permanente del Consejo General del Poder Judicial, relativo a la publicación de la designación efectuada por la Sala de Gobierno del Tribunal Supremo de los Magistrados y Magistradas del Alto Tribunal que han de constituir en el año 2022 la Sala Especial de Conflictos de Competencia entre juzgados y tribunales de distinto orden jurisdiccional, prevista en el artículo 42 de la Ley Orgánica del Poder Judicial.</titulo>
+                <url_pdf szBytes="224497" szKBytes="219" pagina_inicial="166151" pagina_final="166152">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21673.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21673</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21673</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21674</identificador>
+                <control>2021/21751</control>
+                <titulo>Acuerdo de 20 de diciembre de 2021, del Pleno del Consejo General del Poder Judicial, por el que se designan los Magistrados y Magistradas del Tribunal Supremo que han de constituir en el año 2022 la Sala de Conflictos de Jurisdicción prevista en los artículos 39 y 40 de la Ley Orgánica del Poder Judicial.</titulo>
+                <url_pdf szBytes="220551" szKBytes="215" pagina_inicial="166153" pagina_final="166153">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21674.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21674</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21674</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21675</identificador>
+                <control>2021/21752</control>
+                <titulo>Acuerdo de 20 de diciembre de 2021, del Pleno del Consejo General del Poder Judicial, por el que se determina para el año 2022 la composición del Tribunal de Conflictos de Jurisdicción, previsto en los artículos 38 y 40 de la Ley Orgánica del Poder Judicial y 1 de la Ley Orgánica de Conflictos Jurisdiccionales.</titulo>
+                <url_pdf szBytes="219435" szKBytes="214" pagina_inicial="166154" pagina_final="166154">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21675.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21675</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21675</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2021-21676</identificador>
+                <control>2021/19367</control>
+                <titulo>Acuerdo de 7 de octubre de 2021, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara la jubilación forzosa del Magistrado don Miguel Ángel López López.</titulo>
+                <url_pdf szBytes="216819" szKBytes="212" pagina_inicial="166155" pagina_final="166155">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21676.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21676</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21676</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2021-21677</identificador>
+                <control>2021/21857</control>
+                <titulo>Real Decreto 1162/2021, de 28 de diciembre, por el que se dispone el cese de doña María Dolores Lledó Laredo como Directora General de Coordinación del Mercado Interior y otras Políticas Comunitarias.</titulo>
+                <url_pdf szBytes="216196" szKBytes="211" pagina_inicial="166156" pagina_final="166156">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21677.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21677</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21677</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21678</identificador>
+                <control>2021/21858</control>
+                <titulo>Real Decreto 1163/2021, de 28 de diciembre, por el que se dispone el cese de doña María Jesús Alonso Jiménez como Embajadora de España en el Reino de los Países Bajos.</titulo>
+                <url_pdf szBytes="217126" szKBytes="212" pagina_inicial="166157" pagina_final="166157">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21678.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21678</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21678</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21679</identificador>
+                <control>2021/21859</control>
+                <titulo>Real Decreto 1164/2021, de 28 de diciembre, por el que se dispone el cese de don Enrique Viguera Rubio como Embajador de España en la República Helénica.</titulo>
+                <url_pdf szBytes="216436" szKBytes="211" pagina_inicial="166158" pagina_final="166158">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21679.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21679</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21679</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2021-21680</identificador>
+                <control>2021/21860</control>
+                <titulo>Real Decreto 1165/2021, de 28 de diciembre, por el que se nombra Secretaria General para la Unión Europea a doña María Dolores Lledó Laredo.</titulo>
+                <url_pdf szBytes="216384" szKBytes="211" pagina_inicial="166159" pagina_final="166159">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21680.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21680</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21680</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Designaciones">
+              <item>
+                <identificador>BOE-A-2021-21681</identificador>
+                <control>2021/21861</control>
+                <titulo>Real Decreto 1166/2021, de 28 de diciembre, por el que se designa Embajadora de España en el Reino de los Países Bajos a doña María Consuelo Femenía Guardiola.</titulo>
+                <url_pdf szBytes="216607" szKBytes="212" pagina_inicial="166160" pagina_final="166160">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21681.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21681</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21681</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21682</identificador>
+                <control>2021/21862</control>
+                <titulo>Real Decreto 1167/2021, de 28 de diciembre, por el que se designa Embajador de España en la República Helénica a don Carles María Casajuana Palet.</titulo>
+                <url_pdf szBytes="216135" szKBytes="211" pagina_inicial="166161" pagina_final="166161">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21682.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21682</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21682</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21683</identificador>
+                <control>2021/21863</control>
+                <titulo>Real Decreto 1168/2021, de 28 de diciembre, por el que se designa Embajador de España en la República de Sudán a don Isidro Antonio González Afonso.</titulo>
+                <url_pdf szBytes="217004" szKBytes="212" pagina_inicial="166162" pagina_final="166162">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21683.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21683</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21683</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Ascensos">
+              <item>
+                <identificador>BOE-A-2021-21684</identificador>
+                <control>2021/21864</control>
+                <titulo>Real Decreto 1169/2021, de 28 de diciembre, por el que se promueve al empleo de General de Brigada del Cuerpo General del Ejército del Aire al Coronel don Fernando Carrillo Cremades.</titulo>
+                <url_pdf szBytes="214658" szKBytes="210" pagina_inicial="166163" pagina_final="166163">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21684.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21684</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21684</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21685</identificador>
+                <control>2021/21865</control>
+                <titulo>Real Decreto 1170/2021, de 28 de diciembre, por el que se promueve al empleo de General de Brigada del Cuerpo General del Ejército del Aire al Coronel don Alfonso María Reyes Leis.</titulo>
+                <url_pdf szBytes="215504" szKBytes="210" pagina_inicial="166164" pagina_final="166164">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21685.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21685</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21685</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9563" nombre="MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2021-21686</identificador>
+                <control>2021/21490</control>
+                <titulo>Orden EFP/1473/2021, de 21 de diciembre, por la que, a propuesta de la Consejería de Educación, Cultura y Deportes de la Comunidad Autónoma de Castilla-La Mancha, se nombran funcionarios de carrera del Cuerpo de Maestros a los seleccionados en el procedimiento selectivo convocado por Resolución de 7 de febrero de 2019.</titulo>
+                <url_pdf szBytes="250761" szKBytes="245" pagina_inicial="166165" pagina_final="166166">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21686.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21686</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21686</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2021-21687</identificador>
+                <control>2021/21640</control>
+                <titulo>Resolución de 21 de diciembre de 2021, de la Subsecretaría, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Resolución de 7 de octubre de 2021.</titulo>
+                <url_pdf szBytes="285389" szKBytes="279" pagina_inicial="166167" pagina_final="166170">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21687.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21687</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21687</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2021-21688</identificador>
+                <control>2021/21641</control>
+                <titulo>Orden CUD/1474/2021, de 21 de diciembre, por la que se nombran vocales del Patronato del Archivo Histórico de los Movimientos Sociales.</titulo>
+                <url_pdf szBytes="216340" szKBytes="211" pagina_inicial="166171" pagina_final="166171">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21688.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21688</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21688</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9576" nombre="MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2021-21689</identificador>
+                <control>2021/21866</control>
+                <titulo>Real Decreto 1171/2021, de 28 de diciembre, por el que se dispone el cese de doña Isabel Riaño Ibáñez como Directora del Gabinete Adjunta de la Vicepresidenta Primera del Gobierno.</titulo>
+                <url_pdf szBytes="215381" szKBytes="210" pagina_inicial="166172" pagina_final="166172">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21689.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21689</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21689</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2021-21690</identificador>
+                <control>2021/21867</control>
+                <titulo>Real Decreto 1172/2021, de 28 de diciembre, por el que se nombra Director del Gabinete Adjunto de la Vicepresidenta Primera del Gobierno a don Andrés Valverde Álvarez.</titulo>
+                <url_pdf szBytes="215156" szKBytes="210" pagina_inicial="166173" pagina_final="166173">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21690.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21690</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21690</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4335" nombre="MINISTERIO DE SANIDAD">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2021-21691</identificador>
+                <control>2021/21868</control>
+                <titulo>Real Decreto 1173/2021, de 28 de diciembre, por el que se dispone el cese de don Francisco Hernández Spínola como Subsecretario de Sanidad.</titulo>
+                <url_pdf szBytes="213710" szKBytes="209" pagina_inicial="166174" pagina_final="166174">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21691.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21691</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21691</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2021-21692</identificador>
+                <control>2021/21869</control>
+                <titulo>Real Decreto 1174/2021, de 28 de diciembre, por el que se nombra Subsecretaria de Sanidad a doña Dionisia Manteca Marcos.</titulo>
+                <url_pdf szBytes="213001" szKBytes="208" pagina_inicial="166175" pagina_final="166175">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21692.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21692</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21692</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9580" nombre="MINISTERIO DE UNIVERSIDADES">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2021-21693</identificador>
+                <control>2021/21870</control>
+                <titulo>Real Decreto 1175/2021, de 28 de diciembre, por el que se declara el cese de doña Marta Cruells López como Directora del Gabinete del Ministro de Universidades.</titulo>
+                <url_pdf szBytes="215748" szKBytes="211" pagina_inicial="166176" pagina_final="166176">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21693.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21693</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21693</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2021-21694</identificador>
+                <control>2021/21871</control>
+                <titulo>Real Decreto 1176/2021, de 28 de diciembre, por el que se nombra Directora del Gabinete del Ministro de Universidades a doña Marta Cruells López.</titulo>
+                <url_pdf szBytes="215897" szKBytes="211" pagina_inicial="166177" pagina_final="166177">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21694.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21694</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21694</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9534" nombre="COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA">
+            <epigrafe nombre="Designaciones">
+              <item>
+                <identificador>BOE-A-2021-21695</identificador>
+                <control>2021/21762</control>
+                <titulo>Resolución de 27 de diciembre de 2021, de la Comisión Nacional de los Mercados y la Competencia, por la que se corrigen errores en la de 20 de diciembre de 2021, por la que se publica el Acuerdo del Consejo por el que se determina la composición de las salas para el año 2022.</titulo>
+                <url_pdf szBytes="220269" szKBytes="215" pagina_inicial="166178" pagina_final="166178">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21695.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21695</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21695</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2021-21696</identificador>
+                <control>2021/21365</control>
+                <titulo>Resolución de 17 de diciembre de 2021, de la Universidad Nacional de Educación a Distancia, por la que se nombra Profesor Titular de Universidad a don Eduardo Salete Casino.</titulo>
+                <url_pdf szBytes="215160" szKBytes="210" pagina_inicial="166179" pagina_final="166179">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21696.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21696</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21696</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21697</identificador>
+                <control>2021/21492</control>
+                <titulo>Resolución de 19 de diciembre de 2021, de la Universidad Pablo de Olavide, por la que se nombra Profesor Titular de Universidad a don Younes Smani.</titulo>
+                <url_pdf szBytes="216136" szKBytes="211" pagina_inicial="166180" pagina_final="166180">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21697.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21697</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21697</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21698</identificador>
+                <control>2021/21494</control>
+                <titulo>Resolución de 20 de diciembre de 2021, de la Universidad de León, por la que se nombra Profesor Titular de Universidad a don Andrés Fernández Ramos.</titulo>
+                <url_pdf szBytes="216807" szKBytes="212" pagina_inicial="166181" pagina_final="166181">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21698.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21698</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21698</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21699</identificador>
+                <control>2021/21495</control>
+                <titulo>Resolución de 20 de diciembre de 2021, de la Universidad de León, por la que se nombra Profesor Titular de Universidad a don Francisco Javier Rodríguez Lera.</titulo>
+                <url_pdf szBytes="217832" szKBytes="213" pagina_inicial="166182" pagina_final="166182">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21699.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21699</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21699</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21700</identificador>
+                <control>2021/21496</control>
+                <titulo>Resolución de 20 de diciembre de 2021, de la Universidad de León, por la que se nombra Profesor Titular de Universidad a don Luis Buendía García.</titulo>
+                <url_pdf szBytes="217166" szKBytes="212" pagina_inicial="166183" pagina_final="166183">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21700.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21700</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21700</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21701</identificador>
+                <control>2021/21497</control>
+                <titulo>Resolución de 20 de diciembre de 2021, de la Universidad de León, por la que se nombra Profesora Titular de Universidad a doña Laura Fernández Robles.</titulo>
+                <url_pdf szBytes="217736" szKBytes="213" pagina_inicial="166184" pagina_final="166184">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21701.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21701</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21701</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21702</identificador>
+                <control>2021/21498</control>
+                <titulo>Resolución de 20 de diciembre de 2021, de la Universidad Pablo de Olavide, por la que se nombra Profesor Titular de Universidad a don Pablo Floría Martín.</titulo>
+                <url_pdf szBytes="215899" szKBytes="211" pagina_inicial="166185" pagina_final="166185">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21702.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21702</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21702</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21703</identificador>
+                <control>2021/21372</control>
+                <titulo>Resolución de 21 de diciembre de 2021, de la Universidad de Málaga, por la que se nombra Profesora Titular de Universidad a doña María Elena Abdo Sánchez.</titulo>
+                <url_pdf szBytes="217493" szKBytes="212" pagina_inicial="166186" pagina_final="166186">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21703.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21703</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21703</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21704</identificador>
+                <control>2021/21373</control>
+                <titulo>Resolución de 21 de diciembre de 2021, de la Universidad de Murcia, por la que se nombra Profesor Titular de Universidad a don Pablo José Olivares Olivares.</titulo>
+                <url_pdf szBytes="215718" szKBytes="211" pagina_inicial="166187" pagina_final="166187">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21704.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21704</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21704</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21705</identificador>
+                <control>2021/21499</control>
+                <titulo>Resolución de 21 de diciembre de 2021, de la Universidad de Cádiz, por la que se nombra Catedrático de Universidad a don Jesús Herrera Madueño.</titulo>
+                <url_pdf szBytes="216877" szKBytes="212" pagina_inicial="166188" pagina_final="166188">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21705.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21705</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21705</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21706</identificador>
+                <control>2021/21730</control>
+                <titulo>Resolución de 22 de diciembre de 2021, de la Universidad de Murcia, por la que se nombra Catedrático de Universidad, con plaza vinculada, a don Domingo Andrés Pascual Figal.</titulo>
+                <url_pdf szBytes="218197" szKBytes="213" pagina_inicial="166189" pagina_final="166189">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21706.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21706</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21706</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21707</identificador>
+                <control>2021/21766</control>
+                <titulo>Resolución de 27 de diciembre de 2021, de la Universidad de Murcia, por la que se nombra Profesor Titular de Universidad a don Joaquín Monreal Pérez.</titulo>
+                <url_pdf szBytes="217428" szKBytes="212" pagina_inicial="166190" pagina_final="166190">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21707.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21707</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21707</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21708</identificador>
+                <control>2021/21834</control>
+                <titulo>Corrección de errores de la Resolución de 15 de diciembre de 2021, de la Universidad de Murcia, por la que se nombran Catedráticos de Universidad.</titulo>
+                <url_pdf szBytes="212750" szKBytes="208" pagina_inicial="166191" pagina_final="166191">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21708.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21708</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21708</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Letrados al servicio del Tribunal Supremo">
+              <item>
+                <identificador>BOE-A-2021-21709</identificador>
+                <control>2021/21767</control>
+                <titulo>Acuerdo de 16 de diciembre de 2021, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se aprueba la relación provisional de admitidos/as y excluidos/as para participar en el concurso para provisión de plaza de Letrado/a del Gabinete Técnico al servicio del Tribunal Supremo, convocado por Acuerdo de 27 de octubre de 2021.</titulo>
+                <url_pdf szBytes="220149" szKBytes="215" pagina_inicial="166192" pagina_final="166192">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21709.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21709</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21709</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Carrera Diplomática">
+              <item>
+                <identificador>BOE-A-2021-21710</identificador>
+                <control>2021/21768</control>
+                <titulo>Resolución de 22 de diciembre de 2021, de la Subsecretaría, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre, en la Carrera Diplomática.</titulo>
+                <url_pdf szBytes="386570" szKBytes="378" pagina_inicial="166193" pagina_final="166218">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21710.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21710</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21710</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Escala de Científicos Superiores de la Defensa">
+              <item>
+                <identificador>BOE-A-2021-21711</identificador>
+                <control>2021/21218</control>
+                <titulo>Resolución 400/38449/2021, de 16 de diciembre, de la Subsecretaría, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre, a la Escala de Científicos Superiores de la Defensa.</titulo>
+                <url_pdf szBytes="444361" szKBytes="434" pagina_inicial="166219" pagina_final="166242">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21711.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21711</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21711</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4335" nombre="MINISTERIO DE SANIDAD">
+            <epigrafe nombre="Cuerpo de Médicos Titulares">
+              <item>
+                <identificador>BOE-A-2021-21712</identificador>
+                <control>2021/21774</control>
+                <titulo>Resolución de 23 de diciembre de 2021, de la Subsecretaría, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Médicos Titulares.</titulo>
+                <url_pdf szBytes="339198" szKBytes="331" pagina_inicial="166243" pagina_final="166260">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21712.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21712</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21712</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Especialidades sanitarias">
+              <item>
+                <identificador>BOE-A-2021-21713</identificador>
+                <control>2021/21512</control>
+                <titulo>Resolución de 20 de diciembre de 2021, de la Dirección General de Ordenación Profesional, por la que se anuncia la fecha de realización del ejercicio y se nombran las Comisiones calificadoras de las pruebas selectivas convocadas por la Orden SND/948/2021, de 8 de septiembre, por la que se aprueba la oferta de plazas y la convocatoria de pruebas selectivas 2021 para el acceso en el año 2022, a plazas de formación sanitaria especializada para las titulaciones universitarias de grado/licenciatura/diplomatura de Medicina, Farmacia, Enfermería y ámbito de la Psicología, la Química, la Biología y la Física.</titulo>
+                <url_pdf szBytes="241240" szKBytes="236" pagina_inicial="166261" pagina_final="166264">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21713.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21713</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21713</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9577" nombre="MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030">
+            <epigrafe nombre="Personal laboral">
+              <item>
+                <identificador>BOE-A-2021-21714</identificador>
+                <control>2021/21775</control>
+                <titulo>Orden DSA/1475/2021, de 27 de diciembre, por la que se declara la nulidad de pleno derecho de la Resolución de 29 de julio de 2021, de la Subsecretaría, por la que se convoca proceso selectivo para la provisión de plazas de personal laboral fijo, fuera de convenio, en el marco de estabilización de empleo temporal de la Administración General del Estado, en el Instituto de Mayores y Servicios Sociales.</titulo>
+                <url_pdf szBytes="243249" szKBytes="238" pagina_inicial="166265" pagina_final="166269">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21714.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21714</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21714</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2021-21715</identificador>
+                <control>2021/21659</control>
+                <titulo>Resolución de 21 de diciembre de 2021, de la Diputación Provincial de Zamora, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="215885" szKBytes="211" pagina_inicial="166270" pagina_final="166270">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21715.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21715</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21715</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21716</identificador>
+                <control>2021/21661</control>
+                <titulo>Resolución de 22 de diciembre de 2021, de la Diputación Provincial de Granada, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="215304" szKBytes="210" pagina_inicial="166271" pagina_final="166271">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21716.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21716</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21716</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="7786" nombre="PRESIDENCIA DEL GOBIERNO">
+            <epigrafe nombre="Condecoraciones">
+              <item>
+                <identificador>BOE-A-2021-21717</identificador>
+                <control>2021/21872</control>
+                <titulo>Real Decreto 1177/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don José Manuel García-Margallo y Marfil.</titulo>
+                <url_pdf szBytes="215995" szKBytes="211" pagina_inicial="166272" pagina_final="166272">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21717.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21717</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21717</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21718</identificador>
+                <control>2021/21873</control>
+                <titulo>Real Decreto 1178/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don Alberto Ruiz-Gallardón Jiménez.</titulo>
+                <url_pdf szBytes="214859" szKBytes="210" pagina_inicial="166273" pagina_final="166273">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21718.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21718</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21718</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21719</identificador>
+                <control>2021/21874</control>
+                <titulo>Real Decreto 1179/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don Pedro Morenés Eulate.</titulo>
+                <url_pdf szBytes="216419" szKBytes="211" pagina_inicial="166274" pagina_final="166274">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21719.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21719</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21719</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21720</identificador>
+                <control>2021/21875</control>
+                <titulo>Real Decreto 1180/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don José Ignacio Wert Ortega.</titulo>
+                <url_pdf szBytes="215271" szKBytes="210" pagina_inicial="166275" pagina_final="166275">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21720.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21720</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21720</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21721</identificador>
+                <control>2021/21876</control>
+                <titulo>Real Decreto 1181/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don José Manuel Soria López.</titulo>
+                <url_pdf szBytes="215583" szKBytes="211" pagina_inicial="166276" pagina_final="166276">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21721.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21721</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21721</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21722</identificador>
+                <control>2021/21877</control>
+                <titulo>Real Decreto 1182/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don Luis de Guindos Jurado.</titulo>
+                <url_pdf szBytes="214404" szKBytes="209" pagina_inicial="166277" pagina_final="166277">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21722.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21722</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21722</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21723</identificador>
+                <control>2021/21878</control>
+                <titulo>Real Decreto 1183/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don Alfonso Alonso Aranegui.</titulo>
+                <url_pdf szBytes="215104" szKBytes="210" pagina_inicial="166278" pagina_final="166278">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21723.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21723</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21723</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21724</identificador>
+                <control>2021/21879</control>
+                <titulo>Real Decreto 1184/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a doña Dolores Delgado García.</titulo>
+                <url_pdf szBytes="215245" szKBytes="210" pagina_inicial="166279" pagina_final="166279">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21724.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21724</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21724</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21725</identificador>
+                <control>2021/21880</control>
+                <titulo>Real Decreto 1185/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don José Luis Ábalos Meco.</titulo>
+                <url_pdf szBytes="216068" szKBytes="211" pagina_inicial="166280" pagina_final="166280">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21725.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21725</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21725</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21726</identificador>
+                <control>2021/21881</control>
+                <titulo>Real Decreto 1186/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a doña María Isabel Celaá Diéguez.</titulo>
+                <url_pdf szBytes="215863" szKBytes="211" pagina_inicial="166281" pagina_final="166281">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21726.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21726</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21726</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21727</identificador>
+                <control>2021/21882</control>
+                <titulo>Real Decreto 1187/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a doña Magdalena Valerio Cordero.</titulo>
+                <url_pdf szBytes="215057" szKBytes="210" pagina_inicial="166282" pagina_final="166282">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21727.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21727</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21727</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21728</identificador>
+                <control>2021/21883</control>
+                <titulo>Real Decreto 1188/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a doña Meritxell Batet Lamaña.</titulo>
+                <url_pdf szBytes="215790" szKBytes="211" pagina_inicial="166283" pagina_final="166283">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21728.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21728</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21728</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21729</identificador>
+                <control>2021/21884</control>
+                <titulo>Real Decreto 1189/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don Màxim Huerta Hernández.</titulo>
+                <url_pdf szBytes="217143" szKBytes="212" pagina_inicial="166284" pagina_final="166284">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21729.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21729</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21729</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21730</identificador>
+                <control>2021/21885</control>
+                <titulo>Real Decreto 1190/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a doña Carmen Montón Giménez.</titulo>
+                <url_pdf szBytes="215637" szKBytes="211" pagina_inicial="166285" pagina_final="166285">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21730.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21730</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21730</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21731</identificador>
+                <control>2021/21886</control>
+                <titulo>Real Decreto 1191/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don Pedro Duque Duque.</titulo>
+                <url_pdf szBytes="215290" szKBytes="210" pagina_inicial="166286" pagina_final="166286">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21731.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21731</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21731</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21732</identificador>
+                <control>2021/21887</control>
+                <titulo>Real Decreto 1192/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don José Guirao Cabrera.</titulo>
+                <url_pdf szBytes="215138" szKBytes="210" pagina_inicial="166287" pagina_final="166287">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21732.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21732</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21732</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21733</identificador>
+                <control>2021/21888</control>
+                <titulo>Real Decreto 1193/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a doña María Luisa Carcedo Roces.</titulo>
+                <url_pdf szBytes="215920" szKBytes="211" pagina_inicial="166288" pagina_final="166288">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21733.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21733</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21733</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21734</identificador>
+                <control>2021/21889</control>
+                <titulo>Real Decreto 1194/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don Pablo Iglesias Turrión.</titulo>
+                <url_pdf szBytes="216152" szKBytes="211" pagina_inicial="166289" pagina_final="166289">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21734.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21734</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21734</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21735</identificador>
+                <control>2021/21890</control>
+                <titulo>Real Decreto 1195/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a doña María Aránzazu González Laya.</titulo>
+                <url_pdf szBytes="216853" szKBytes="212" pagina_inicial="166290" pagina_final="166290">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21735.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21735</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21735</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21736</identificador>
+                <control>2021/21891</control>
+                <titulo>Real Decreto 1196/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don Juan Carlos Campo Moreno.</titulo>
+                <url_pdf szBytes="216248" szKBytes="211" pagina_inicial="166291" pagina_final="166291">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21736.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21736</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21736</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21737</identificador>
+                <control>2021/21892</control>
+                <titulo>Real Decreto 1197/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don José Manuel Rodríguez Uribes.</titulo>
+                <url_pdf szBytes="216372" szKBytes="211" pagina_inicial="166292" pagina_final="166292">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21737.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21737</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21737</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21738</identificador>
+                <control>2021/21893</control>
+                <titulo>Real Decreto 1198/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don Salvador Illa Roca.</titulo>
+                <url_pdf szBytes="215228" szKBytes="210" pagina_inicial="166293" pagina_final="166293">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21738.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21738</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21738</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21739</identificador>
+                <control>2021/21894</control>
+                <titulo>Real Decreto 1199/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III a don Manuel Castells Oliván.</titulo>
+                <url_pdf szBytes="216741" szKBytes="212" pagina_inicial="166294" pagina_final="166294">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21739.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21739</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21739</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Tribunales Superiores de Justicia">
+              <item>
+                <identificador>BOE-A-2021-21740</identificador>
+                <control>2021/21529</control>
+                <titulo>Acuerdo de 9 de diciembre de 2021, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se publica el Acuerdo del Tribunal Superior de Justicia de Canarias, relativo a la modificación de las normas de reparto de la Sala de lo Civil y Penal.</titulo>
+                <url_pdf szBytes="229785" szKBytes="224" pagina_inicial="166295" pagina_final="166296">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21740.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21740</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21740</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Nacionalidad española">
+              <item>
+                <identificador>BOE-A-2021-21741</identificador>
+                <control>2021/21895</control>
+                <titulo>Real Decreto 1200/2021, de 28 de diciembre, por el que se concede la nacionalidad española por carta de naturaleza a don Marco Zandron.</titulo>
+                <url_pdf szBytes="214071" szKBytes="209" pagina_inicial="166297" pagina_final="166297">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21741.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21741</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21741</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2021-21742</identificador>
+                <control>2021/21406</control>
+                <titulo>Resolución de 13 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación de la registradora de la propiedad interina de Ubrique, por la que, tras la tramitación del procedimiento del artículo 199 de la Ley Hipotecaria, se deniega la inscripción de la rectificación superficial y descriptiva y de la georreferenciación pretendida.</titulo>
+                <url_pdf szBytes="274578" szKBytes="268" pagina_inicial="166298" pagina_final="166307">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21742.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21742</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21742</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21743</identificador>
+                <control>2021/21407</control>
+                <titulo>Resolución de 13 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación de la registradora de la propiedad de Barcelona n.º 15, por la que se suspende la inscripción de la adjudicación hereditaria de una finca.</titulo>
+                <url_pdf szBytes="239933" szKBytes="234" pagina_inicial="166308" pagina_final="166311">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21743.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21743</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21743</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21744</identificador>
+                <control>2021/21408</control>
+                <titulo>Resolución de 13 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación de la registradora mercantil accidental XV de Madrid, a propósito de una escritura de elevación a público de acuerdos sociales de una compañía.</titulo>
+                <url_pdf szBytes="249383" szKBytes="244" pagina_inicial="166312" pagina_final="166317">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21744.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21744</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21744</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21745</identificador>
+                <control>2021/21409</control>
+                <titulo>Resolución de 14 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la calificación del registrador de la propiedad de Baza, por la que se deniega la anotación de un embargo preventivo sobre bienes gananciales por no haber sido notificado el cónyuge del deudor.</titulo>
+                <url_pdf szBytes="249268" szKBytes="243" pagina_inicial="166318" pagina_final="166323">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21745.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21745</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21745</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21746</identificador>
+                <control>2021/21410</control>
+                <titulo>Resolución de 14 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la negativa de la registradora de la propiedad de Vigo n.º 3 a inscribir una escritura de aceptación y adjudicación parcial de herencia.</titulo>
+                <url_pdf szBytes="244175" szKBytes="238" pagina_inicial="166324" pagina_final="166328">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21746.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21746</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21746</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21747</identificador>
+                <control>2021/21411</control>
+                <titulo>Resolución de 14 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la negativa del registrador mercantil XIX de Madrid a inscribir una escritura de elevación a público de acuerdos sociales de una entidad.</titulo>
+                <url_pdf szBytes="238501" szKBytes="233" pagina_inicial="166329" pagina_final="166332">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21747.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21747</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21747</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21748</identificador>
+                <control>2021/21412</control>
+                <titulo>Resolución de 15 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la calificación de la registradora de la propiedad de Las Palmas de Gran Canaria n.º 6, por la que se suspende la inscripción de una escritura de donación.</titulo>
+                <url_pdf szBytes="240608" szKBytes="235" pagina_inicial="166333" pagina_final="166337">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21748.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21748</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21748</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21749</identificador>
+                <control>2021/21413</control>
+                <titulo>Resolución de 15 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la calificación del registrador de la propiedad de Cieza n.º 1, por la que se suspende la inscripción de una escritura de aceptación y adjudicación de herencia.</titulo>
+                <url_pdf szBytes="282404" szKBytes="276" pagina_inicial="166338" pagina_final="166348">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21749.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21749</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21749</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21750</identificador>
+                <control>2021/21414</control>
+                <titulo>Resolución de 15 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la negativa de la registradora de la propiedad de Getafe n.º 2 a inscribir una escritura de novación de un préstamo con garantía hipotecaria.</titulo>
+                <url_pdf szBytes="257417" szKBytes="251" pagina_inicial="166349" pagina_final="166356">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21750.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21750</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21750</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21751</identificador>
+                <control>2021/21415</control>
+                <titulo>Resolución de 15 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación del registrador de la propiedad interino de Elche n.º 3, por la que se deniega la inscripción de una escritura de segregación y compraventa.</titulo>
+                <url_pdf szBytes="306459" szKBytes="299" pagina_inicial="166357" pagina_final="166370">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21751.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21751</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21751</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21752</identificador>
+                <control>2021/21416</control>
+                <titulo>Resolución de 16 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación de la registradora de la propiedad de Valladolid n.º 6, por la que se deniega la inscripción de una escritura de disolución de comunidad.</titulo>
+                <url_pdf szBytes="278169" szKBytes="272" pagina_inicial="166371" pagina_final="166381">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21752.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21752</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21752</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21753</identificador>
+                <control>2021/21417</control>
+                <titulo>Resolución de 16 de diciembre de 2021, de la Dirección General de Seguridad Jurídica y Fe Pública, en el recurso interpuesto contra la nota de calificación del registrador mercantil XXIII de Madrid, por la que se suspende la inscripción de una escritura de constitución de sociedad de responsabilidad limitada en cuanto a determinados aspectos del objeto social.</titulo>
+                <url_pdf szBytes="280997" szKBytes="274" pagina_inicial="166382" pagina_final="166392">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21753.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21753</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21753</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21754</identificador>
+                <control>2021/21418</control>
+                <titulo>Resolución de 16 de diciembre de 2021, de la Dirección General para el Servicio Público de Justicia, por la que se emplaza a los interesados en el recurso contencioso-administrativo 146/2021, interpuesto ante el Juzgado Central de lo Contencioso-Administrativo n.º12.</titulo>
+                <url_pdf szBytes="216778" szKBytes="212" pagina_inicial="166393" pagina_final="166393">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21754.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21754</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21754</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Condecoraciones">
+              <item>
+                <identificador>BOE-A-2021-21755</identificador>
+                <control>2021/21896</control>
+                <titulo>Real Decreto 1201/2021, de 28 de diciembre, por el que se concede la Gran Cruz del Mérito Militar con distintivo blanco, a las personas que se citan.</titulo>
+                <url_pdf szBytes="217344" szKBytes="212" pagina_inicial="166394" pagina_final="166394">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21755.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21755</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21755</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21756</identificador>
+                <control>2021/21897</control>
+                <titulo>Real Decreto 1202/2021, de 28 de diciembre, por el que se concede la Gran Cruz del Mérito Naval con distintivo blanco, a las personas que se citan.</titulo>
+                <url_pdf szBytes="216336" szKBytes="211" pagina_inicial="166395" pagina_final="166395">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21756.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21756</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21756</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21757</identificador>
+                <control>2021/21898</control>
+                <titulo>Real Decreto 1203/2021, de 28 de diciembre, por el que se concede la Gran Cruz del Mérito Aeronáutico con distintivo blanco, a las personas que se citan.</titulo>
+                <url_pdf szBytes="220594" szKBytes="215" pagina_inicial="166396" pagina_final="166396">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21757.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21757</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21757</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2021-21758</identificador>
+                <control>2021/21679</control>
+                <titulo>Resolución de 22 de diciembre de 2021, del Consorcio de la Ciudad de Toledo, por la que se publica el Convenio con la Diputación Provincial de Albacete, para la puesta a disposición de aplicativos y herramientas que integran la plataforma Sedipualba.</titulo>
+                <url_pdf szBytes="332197" szKBytes="324" pagina_inicial="166397" pagina_final="166407">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21758.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21758</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21758</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Recaudación de tributos. Entidades colaboradoras">
+              <item>
+                <identificador>BOE-A-2021-21759</identificador>
+                <control>2021/21794</control>
+                <titulo>Resolución de 16 de diciembre de 2021, del Departamento de Recaudación de la Agencia Estatal de Administración Tributaria, por la que se procede a cancelar la autorización n.º 319 para actuar como entidad colaboradora en la gestión recaudatoria correspondiente a Santander Investment, SA.</titulo>
+                <url_pdf szBytes="217743" szKBytes="213" pagina_inicial="166408" pagina_final="166408">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21759.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21759</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21759</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9563" nombre="MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL">
+            <epigrafe nombre="Condecoraciones">
+              <item>
+                <identificador>BOE-A-2021-21760</identificador>
+                <control>2021/21899</control>
+                <titulo>Real Decreto 1204/2021, de 28 de diciembre, por el que se concede la Gran Cruz de la Orden Civil de Alfonso X el Sabio a don Felipe Pétriz Calvo.</titulo>
+                <url_pdf szBytes="216000" szKBytes="211" pagina_inicial="166409" pagina_final="166409">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21760.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21760</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21760</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Educación infantil">
+              <item>
+                <identificador>BOE-A-2021-21761</identificador>
+                <control>2021/21739</control>
+                <titulo>Resolución de 23 de diciembre de 2021, de la Secretaría de Estado de Educación, por la que se publica el Acuerdo de la Conferencia Sectorial de Educación de 25 de noviembre de 2021, por el que se aprueba la propuesta de distribución territorial de los créditos destinados al Programa de impulso de escolarización en el primer ciclo de Educación Infantil, en el marco del componente 21 del Mecanismo de Recuperación y Resiliencia.</titulo>
+                <url_pdf szBytes="353838" szKBytes="346" pagina_inicial="166410" pagina_final="166425">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21761.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21761</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21761</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9573" nombre="MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL">
+            <epigrafe nombre="Comunidad Autónoma de Extremadura. Convenio">
+              <item>
+                <identificador>BOE-A-2021-21762</identificador>
+                <control>2021/21804</control>
+                <titulo>Resolución de 27 de diciembre de 2021, de la Secretaría General Técnica, por la que se publica el Convenio entre el Servicio Público de Empleo Estatal y la Comunidad Autónoma de Extremadura, para el desarrollo de proyectos piloto dirigidos a jóvenes, mediante actuaciones dentro de los proyectos de "Colectivos especialmente vulnerables" y de los proyectos de "Emprendimiento y microempresas" incluidos en la Inversión 4, "Nuevos proyectos territoriales para el reequilibrio y la equidad" del Plan de Recuperación, Transformación y Resiliencia, de acuerdo con lo establecido en el Real Decreto 902/2021, de 19 de octubre, por el que se regula la concesión directa de subvenciones, para el ejercicio presupuestario 2021, destinadas a la financiación del desarrollo de actuaciones de la inversión "Nuevos proyectos territoriales para el reequilibrio y la equidad", en el marco del Plan de Recuperación, Transformación y Resiliencia.</titulo>
+                <url_pdf szBytes="291970" szKBytes="285" pagina_inicial="166426" pagina_final="166437">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21762.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21762</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21762</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Foral de Navarra. Convenio">
+              <item>
+                <identificador>BOE-A-2021-21763</identificador>
+                <control>2021/21805</control>
+                <titulo>Resolución de 27 de diciembre de 2021, de la Secretaría General Técnica, por la que se publica el Convenio entre el Servicio Público de Empleo Estatal y la Comunidad Foral de Navarra, para el desarrollo de un proyecto territorial para el reequilibrio y la equidad de fomento del emprendimiento y microempresas en el marco del Plan de Recuperación, Transformación y Resiliencia, como parte del Plan de Reactivación Económica de los Pirineos Orientales de Navarra, de acuerdo con lo establecido en el Real Decreto 902/2021, de 19 de octubre, por el que se regula la concesión directa de subvenciones, para el ejercicio presupuestario 2021, destinadas a la financiación del desarrollo de actuaciones de la inversión "Nuevos proyectos territoriales para el reequilibrio y la equidad", en el marco del Plan de Recuperación, Transformación y Resiliencia.</titulo>
+                <url_pdf szBytes="284676" szKBytes="278" pagina_inicial="166438" pagina_final="166448">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21763.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21763</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21763</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5250" nombre="MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2021-21764</identificador>
+                <control>2021/21701</control>
+                <titulo>Resolución de 23 de diciembre de 2021, de la Secretaría de Estado de Turismo, por la que se publica el Acuerdo de la Conferencia Sectorial de Turismo, por el que se fijan los criterios de distribución, así como el reparto resultante para las comunidades autónomas, del crédito destinado a la financiación de actuaciones de inversión por parte de entidades locales en el marco del Componente 14 Inversión 1 del Plan de Recuperación, Transformación y Resiliencia.</titulo>
+                <url_pdf szBytes="595622" szKBytes="582" pagina_inicial="166449" pagina_final="166478">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21764.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21764</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21764</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9574" nombre="MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA">
+            <epigrafe nombre="Comunidad Autónoma de Andalucía. Convenio">
+              <item>
+                <identificador>BOE-A-2021-21765</identificador>
+                <control>2021/21742</control>
+                <titulo>Resolución de 25 de diciembre de 2021, de la Subsecretaría, por la que se publica el Convenio entre el Ministerio de Hacienda y Función Pública, el Consejo Superior de Deportes, la Junta de Andalucía, el Ayuntamiento de Huelva y la Federación Española de Bádminton, para la creación de la Comisión Interadministrativa del acontecimiento de excepcional interés público "Mundiales Bádminton España".</titulo>
+                <url_pdf szBytes="269471" szKBytes="263" pagina_inicial="166479" pagina_final="166485">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21765.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21765</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21765</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma del País Vasco. Convenio">
+              <item>
+                <identificador>BOE-A-2021-21766</identificador>
+                <control>2021/21743</control>
+                <titulo>Resolución de 25 de diciembre de 2021, de la Subsecretaría, por la que se publica el Convenio entre el Instituto Cervantes, la Sociedad Mercantil Estatal de Acción Cultural, SA, la Fundación Museo de Bellas Artes de Bilbao-Bilboko Arte Ederren Museoa Fundazioa y el Instituto Vasco Etxepare Euskal Institutua-Basque Institute, para la realización de actividades culturales.</titulo>
+                <url_pdf szBytes="356039" szKBytes="348" pagina_inicial="166486" pagina_final="166498">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21766.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21766</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21766</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2021-21767</identificador>
+                <control>2021/21744</control>
+                <titulo>Resolución de 25 de diciembre de 2021, de la Subsecretaría, por la que se publica el Convenio entre el Instituto Nacional de Estadística y el Ministerio de Cultura y Deporte, para la realización de la Encuesta de Hábitos Deportivos 2022.</titulo>
+                <url_pdf szBytes="306537" szKBytes="299" pagina_inicial="166499" pagina_final="166505">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21767.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21767</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21767</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21768</identificador>
+                <control>2021/21745</control>
+                <titulo>Resolución de 25 de diciembre de 2021, de la Subsecretaría, por la que se publica el Convenio entre el Ministerio del Interior y Renfe Viajeros Sociedad Mercantil Estatal, SA, sobre transporte ferroviario de viajeros por cuenta propia del personal de la Policía Nacional.</titulo>
+                <url_pdf szBytes="292318" szKBytes="285" pagina_inicial="166506" pagina_final="166515">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21768.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21768</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21768</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9523" nombre="MINISTERIO DE POLÍTICA TERRITORIAL">
+            <epigrafe nombre="Comunidad Autónoma de Cataluña. Convenio">
+              <item>
+                <identificador>BOE-A-2021-21769</identificador>
+                <control>2021/21704</control>
+                <titulo>Resolución de 22 de diciembre de 2021, de la Dirección General de Cooperación Autonómica y Local, por la que se publica el Convenio con la Generalidad de Cataluña, para la gestión de las ayudas previstas en el artículo 8 del Real Decreto-ley 10/2021, de 18 de mayo, por el que se adoptan medidas urgentes para paliar los daños causados por la borrasca "Filomena", en lo que se refiere a los siniestros causados por el episodio "Filomena" 1/2021, y reguladas en la Orden HAP/196/2015, de 21 de enero.</titulo>
+                <url_pdf szBytes="238316" szKBytes="233" pagina_inicial="166516" pagina_final="166518">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21769.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21769</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21769</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Procedimientos de declaración de inconstitucionalidad">
+              <item>
+                <identificador>BOE-A-2021-21770</identificador>
+                <control>2021/20956</control>
+                <titulo>Resolución de 14 de diciembre de 2021, de la Secretaría General de Coordinación Territorial, por la que se publica el Acuerdo de la Comisión Bilateral de Cooperación Administración General del Estado-Comunidad Autónoma de Extremadura, en relación con el Decreto-ley 3/2021, de 3 de marzo, de medidas urgentes para la modernización de la Administración Pública y para la ejecución del Plan de Recuperación, Transformación y Resiliencia.</titulo>
+                <url_pdf szBytes="225852" szKBytes="221" pagina_inicial="166519" pagina_final="166520">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21770.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21770</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21770</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21771</identificador>
+                <control>2021/20957</control>
+                <titulo>Resolución de 14 de diciembre de 2021, de la Secretaría General de Coordinación Territorial, por la que se publica el Acuerdo de la Comisión Bilateral de Cooperación Administración General del Estado-Generalitat, en relación con el Decreto-ley 6/2021, de 1 de abril, del Consell, de medidas urgentes en materia económico-administrativa para la ejecución de actuaciones financiadas por instrumentos europeos para apoyar la recuperación de la crisis consecuencia de la COVID-19.</titulo>
+                <url_pdf szBytes="224589" szKBytes="219" pagina_inicial="166521" pagina_final="166522">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21771.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21771</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21771</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2021-21772</identificador>
+                <control>2021/21844</control>
+                <titulo>Orden TED/1476/2021, de 27 de diciembre, por la que se regulan las bases para la concesión de ayudas, en régimen de concurrencia competitiva, dirigidas a proyectos de infraestructuras ambientales, sociales y digitales en municipios de zonas afectadas por la transición energética en el marco del Plan de Recuperación, Transformación y Resiliencia, y se procede a la convocatoria de las mismas.</titulo>
+                <url_pdf szBytes="916359" szKBytes="895" pagina_inicial="166523" pagina_final="166581">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21772.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21772</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21772</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Impacto ambiental">
+              <item>
+                <identificador>BOE-A-2021-21773</identificador>
+                <control>2021/21705</control>
+                <titulo>Resolución de 21 de diciembre de 2021, de la Dirección General de Calidad y Evaluación Ambiental, por la que se formula informe de impacto ambiental del proyecto "Modificado n.º 1 Nueva Plataforma para el Estacionamiento de Aeronaves y Prolongación de la Calle de Rodaje para Implantación de la Actividad de Corte del Fuselaje de Aeronave en el Aeropuerto de Castellón Exp Ac/Con/006/20".</titulo>
+                <url_pdf szBytes="2059273" szKBytes="2011" pagina_inicial="166582" pagina_final="166599">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21773.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21773</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21773</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <epigrafe nombre="Condecoraciones">
+              <item>
+                <identificador>BOE-A-2021-21774</identificador>
+                <control>2021/21900</control>
+                <titulo>Real Decreto 1205/2021, de 28 de diciembre, por el que se concede el ingreso en la Real Orden del Mérito Deportivo, con la categoría de Gran Cruz, a doña Laia Palau Altés.</titulo>
+                <url_pdf szBytes="219300" szKBytes="214" pagina_inicial="166600" pagina_final="166600">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21774.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21774</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21774</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2021-21775</identificador>
+                <control>2021/21901</control>
+                <titulo>Real Decreto 1206/2021, de 28 de diciembre, por el que se concede la Medalla al Mérito en las Bellas Artes, en su categoría de oro, a las personas y entidades que se relacionan.</titulo>
+                <url_pdf szBytes="223475" szKBytes="218" pagina_inicial="166601" pagina_final="166602">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21775.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21775</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21775</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2021-21776</identificador>
+                <control>2021/21708</control>
+                <titulo>Resolución de 21 de diciembre de 2021, de la Dirección General de Bellas Artes, por la que se publica el Convenio con la Fundación Museo Sorolla, para contribuir a la proyección social del Museo Sorolla.</titulo>
+                <url_pdf szBytes="255380" szKBytes="249" pagina_inicial="166603" pagina_final="166608">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21776.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21776</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21776</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Patrimonio histórico">
+              <item>
+                <identificador>BOE-A-2021-21777</identificador>
+                <control>2021/21706</control>
+                <titulo>Orden CUD/1477/2021, de 22 de diciembre, por la que se otorga la garantía del Estado a 425 obras para su exhibición en la colección permanente del Museo Nacional Thyssen-Bornemisza.</titulo>
+                <url_pdf szBytes="738751" szKBytes="721" pagina_inicial="166609" pagina_final="166654">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21777.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21777</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21777</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9576" nombre="MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL">
+            <epigrafe nombre="Comunidad de Madrid. Convenio">
+              <item>
+                <identificador>BOE-A-2021-21778</identificador>
+                <control>2021/21577</control>
+                <titulo>Resolución de 21 de diciembre de 2021, de la Secretaría General de Administración Digital, por la que se publica el Convenio con la Universidad Politécnica de Madrid, para la utilización de la "Gestión Integrada de servicios de Registro" como aplicación integral de registro.</titulo>
+                <url_pdf szBytes="277896" szKBytes="271" pagina_inicial="166655" pagina_final="166664">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21778.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21778</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21778</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2021-21779</identificador>
+                <control>2021/21819</control>
+                <titulo>Resolución de 22 de diciembre de 2021, de la Entidad Pública Empresarial Red.es, M.P., por la que se publica el Convenio entre el Observatorio Nacional de Tecnología y Sociedad y el Instituto Nacional de Ciberseguridad de España, M.P., SA, para la puesta en marcha de un Espacio de Observación sobre Ciberseguridad en España.</titulo>
+                <url_pdf szBytes="285982" szKBytes="279" pagina_inicial="166665" pagina_final="166674">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21779.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21779</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21779</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9577" nombre="MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2021-21780</identificador>
+                <control>2021/21710</control>
+                <titulo>Resolución de 17 de diciembre de 2021, del Instituto de la Juventud, por la que se publica el Convenio con el Organismo Internacional de Juventud para Iberoamérica, por el que se canaliza la subvención nominativa establecida en los Presupuestos Generales del Estado para el año 2021, para sus gastos de funcionamiento.</titulo>
+                <url_pdf szBytes="274422" szKBytes="268" pagina_inicial="166675" pagina_final="166682">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21780.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21780</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21780</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2021-21781</identificador>
+                <control>2021/21845</control>
+                <titulo>Orden CIN/1478/2021, de 27 de diciembre, por la que se aprueban las bases reguladoras de la concesión de las ayudas Ramón y Cajal y de las ayudas Juan de la Cierva-formación, del Plan Estatal de Investigación Científica, Técnica y de Innovación para el período 2021-2023, en el marco del Plan de Recuperación, Transformación y Resiliencia, y por la que se aprueba la convocatoria de tramitación anticipada correspondiente al año 2021.</titulo>
+                <url_pdf szBytes="838385" szKBytes="819" pagina_inicial="166683" pagina_final="166765">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21781.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21781</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21781</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunitat Valenciana. Convenio">
+              <item>
+                <identificador>BOE-A-2021-21782</identificador>
+                <control>2021/21711</control>
+                <titulo>Resolución de 22 de diciembre de 2021, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P., por la que se publica la Adenda al Convenio entre el Instituto Geológico y Minero de España, O.A., M.P., y el Institut Cartogràfic Valencià, para la actualización de la cartografía geológica y geomorfológica en el ámbito de la Comunitat Valenciana.</titulo>
+                <url_pdf szBytes="319339" szKBytes="312" pagina_inicial="166766" pagina_final="166770">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21782.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21782</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21782</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9579" nombre="MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES">
+            <epigrafe nombre="Comunidad Autónoma de la Región de Murcia. Convenio">
+              <item>
+                <identificador>BOE-A-2021-21783</identificador>
+                <control>2021/21586</control>
+                <titulo>Resolución de 21 de diciembre de 2021, de la Secretaría General Técnica, por la que se publica el Convenio entre el Instituto Nacional de la Seguridad Social y la Comunidad Autónoma de la Región de Murcia, para el impulso y consolidación del sistema Tarjeta Social Digital.</titulo>
+                <url_pdf szBytes="1605125" szKBytes="1568" pagina_inicial="166771" pagina_final="166845">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21783.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21783</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21783</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2021-21784</identificador>
+                <control>2021/21825</control>
+                <titulo>Resolución de 28 de diciembre de 2021, del Banco de España, por la que se publican los cambios del euro correspondientes al día 28 de diciembre de 2021, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="307551" szKBytes="300" pagina_inicial="166846" pagina_final="166847">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21784.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21784</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21784</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1040" nombre="COMISIÓN NACIONAL DEL MERCADO DE VALORES">
+            <epigrafe nombre="Encomienda de gestión">
+              <item>
+                <identificador>BOE-A-2021-21785</identificador>
+                <control>2021/21719</control>
+                <titulo>Resolución de 22 de diciembre de 2021, de la Comisión Nacional del Mercado de Valores, por la que se publica el Encargo a la Fábrica Nacional de Moneda y Timbre-Real Casa de la Moneda, para la prestación de servicios, técnicos y de seguridad, aplicables a la certificación y firma electrónica y en el ámbito de la administración electrónica.</titulo>
+                <url_pdf szBytes="487830" szKBytes="476" pagina_inicial="166848" pagina_final="166879">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21785.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21785</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21785</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Mercado de valores">
+              <item>
+                <identificador>BOE-A-2021-21786</identificador>
+                <control>2021/21720</control>
+                <titulo>Resolución de 22 de diciembre de 2021, de la Comisión Nacional del Mercado de Valores, por la que se publican las sanciones por infracción muy grave impuestas a Obrascon Huarte Lain, SA, don José Antonio Fernández Gallar, don Juan José Nieto Bueso, don Manuel Garrido y Ruano y don César Cañedo-Argüelles Torrejón.</titulo>
+                <url_pdf szBytes="220543" szKBytes="215" pagina_inicial="166880" pagina_final="166880">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-A-2021-21786.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21786</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-21786</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <item>
+              <identificador>BOE-B-2021-52741</identificador>
+              <titulo>Extracto de la Resolución de 28 de diciembre de 2021 de la Presidencia de la Agencia Española de Cooperación Internacional para el Desarrollo, por la que se aprueba la convocatoria de los Programas de Becas MAEC-AECID para ciudadanos de países de América Latina, África y Asia, curso académico 2022-2023.</titulo>
+              <url_pdf szBytes="185767" szKBytes="181" pagina_inicial="77773" pagina_final="77775">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-B-2021-52741.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2021-52741</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2021-52741</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <item>
+              <identificador>BOE-B-2021-52742</identificador>
+              <titulo>Anuncio de la Autoridad Portuaria de A Coruña sobre información pública referente a la expropiación forzosa para la adquisición de los bienes y derechos necesarios para la ejecución del "Proyecto constructivo del acceso ferroviario al Puerto Exterior de A Coruña en Punta Langosteira".</titulo>
+              <url_pdf szBytes="326846" szKBytes="319" pagina_inicial="77776" pagina_final="77779">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-B-2021-52742.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2021-52742</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2021-52742</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9523" nombre="MINISTERIO DE POLÍTICA TERRITORIAL">
+            <item>
+              <identificador>BOE-B-2021-52743</identificador>
+              <titulo>Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Castilla-La Mancha sobre información pública de la solicitud de autorización administrativa previa, autorización administrativa de construcción y declaración de impacto ambiental del Proyecto de las instalaciones solares fotovoltaicas "Azután I" de 60 MWn/ 71,976 MWp, "Azután II" de 60 MWn/ 71,976 MWp, "Azután III" de 60 MWn/ 71,976 MWp y de sus infraestructuras de evacuación consistentes en subestación elevadora "El Bercial" 30/220 kV, subestación colectora "Renovables Azután 220kV" y línea subterránea de evacuación 220 kV, así como la Declaración de Utilidad Pública de la línea subterránea de evacuación 220 kV, ubicados en los términos municipales de Calera y Chozas y Alcolea de Tajo (Toledo); para su hibridación con el Grupo 1, Grupo 2 y Grupo 3 de la Central Hidráulica existente Azután de 60 MW cada uno de ellos.</titulo>
+              <url_pdf szBytes="257149" szKBytes="251" pagina_inicial="77780" pagina_final="77787">https://www.boe.es/boe/dias/2021/12/29/pdfs/BOE-B-2021-52743.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2021-52743</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2021-52743</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

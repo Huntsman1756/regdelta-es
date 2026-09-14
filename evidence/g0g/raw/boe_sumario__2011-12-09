@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20111209</fecha_publicacion>
+      </metadatos>
+      <diario numero="296">
+        <sumario_diario>
+          <identificador>BOE-S-2011-296</identificador>
+          <url_pdf szBytes="304396" szKBytes="297">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-S-2011-296.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="4435" nombre="MINISTERIO DE TRABAJO E INMIGRACIÓN">
+            <epigrafe nombre="Certificados de profesionalidad">
+              <item>
+                <identificador>BOE-A-2011-19294</identificador>
+                <control>2011/19177</control>
+                <titulo>Real Decreto 1532/2011, de 31 de octubre, por el que se establecen siete certificados de profesionalidad de la familia profesional Madera, mueble y corcho que se incluyen en el Repertorio Nacional de certificados de profesionalidad.</titulo>
+                <url_pdf szBytes="16985680" szKBytes="16588" pagina_inicial="130256" pagina_final="130562">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19294.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19294</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19294</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3150" nombre="MINISTERIO DE MEDIO AMBIENTE, Y MEDIO RURAL Y MARINO">
+            <epigrafe nombre="Animales. Identificación y registro">
+              <item>
+                <identificador>BOE-A-2011-19295</identificador>
+                <control>2011/19189</control>
+                <titulo>Real Decreto 1701/2011, de 18 de noviembre, por el que se modifica el Real Decreto 1515/2009, de 2 de octubre, por el que se establece un sistema de identificación y registro de los animales de la especie equina.</titulo>
+                <url_pdf szBytes="176840" szKBytes="173" pagina_inicial="130563" pagina_final="130568">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19295.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19295</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19295</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Productos fitosanitarios">
+              <item>
+                <identificador>BOE-A-2011-19296</identificador>
+                <control>2011/19190</control>
+                <titulo>Real Decreto 1702/2011, de 18 de noviembre, de inspecciones periódicas de los equipos de aplicación de productos fitosanitarios.</titulo>
+                <url_pdf szBytes="285245" szKBytes="279" pagina_inicial="130569" pagina_final="130584">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19296.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19296</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19296</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2011-19297</identificador>
+                <control>2011/19191</control>
+                <titulo>Real Decreto 1703/2011, de 18 de noviembre, por el que se establecen las bases reguladoras para la concesión de las subvenciones a las agrupaciones de productores en los sectores ovino y caprino en el ejercicio 2012.</titulo>
+                <url_pdf szBytes="231056" szKBytes="226" pagina_inicial="130585" pagina_final="130596">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19297.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19297</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19297</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2011-19298</identificador>
+                <control>2011/19192</control>
+                <titulo>Real Decreto 1704/2011, de 18 de noviembre, por el que se establece la composición, estructura y funcionamiento del Consejo del Agua de la demarcación de la parte española de la Demarcación Hidrográfica del Tajo.</titulo>
+                <url_pdf szBytes="176741" szKBytes="173" pagina_inicial="130597" pagina_final="130602">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19298.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19298</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19298</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19299</identificador>
+                <control>2011/19193</control>
+                <titulo>Real Decreto 1705/2011, de 18 de noviembre, por el que se establece la composición, estructura y funcionamiento del Consejo del Agua de la Demarcación Hidrográfica del Segura.</titulo>
+                <url_pdf szBytes="176612" szKBytes="172" pagina_inicial="130603" pagina_final="130608">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19299.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19299</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19299</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4110" nombre="MINISTERIO DE CULTURA">
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2011-19300</identificador>
+                <control>2011/19194</control>
+                <titulo>Real Decreto 1714/2011, de 18 de noviembre, por el que se suprime el Museo Nacional de Reproducciones Artísticas, y se modifica el Real Decreto 1136/2008, de 4 de julio, por el que se cambia la denominación del Museo Nacional de Escultura por la de Museo Nacional Colegio de San Gregorio y se modifican la composición y funciones de su patronato, para volver a su denominación original de Museo Nacional de Escultura.</titulo>
+                <url_pdf szBytes="165598" szKBytes="162" pagina_inicial="130609" pagina_final="130612">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19300.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19300</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19300</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2011-19301</identificador>
+                <control>2011/19196</control>
+                <titulo>Circular 4/2011, de 30 de noviembre, del Banco de España, por la que se modifica la Circular 3/2008, de 22 de mayo, sobre determinación y control de los recursos propios mínimos.</titulo>
+                <url_pdf szBytes="2006318" szKBytes="1959" pagina_inicial="130613" pagina_final="130698">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19301.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19301</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19301</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19302</identificador>
+                <control>2011/19197</control>
+                <titulo>Circular 5/2011, de 30 de noviembre, del Banco de España, por la que se modifica la Circular 4/2004, de 22 de diciembre, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+                <url_pdf szBytes="541564" szKBytes="529" pagina_inicial="130699" pagina_final="130729">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19302.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19302</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19302</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2011-19304</identificador>
+                <control>2011/18910</control>
+                <titulo>Orden JUS/3371/2011, de 18 de noviembre, por la que se nombran funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia.</titulo>
+                <url_pdf szBytes="1351891" szKBytes="1320" pagina_inicial="130734" pagina_final="130745">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19304.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19304</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19304</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2011-19303</identificador>
+                <control>2011/18909</control>
+                <titulo>Orden JUS/3370/2011, de 18 de noviembre, por la que se otorgan destinos a los funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, turno promoción interna, que superaron las pruebas selectivas convocadas por Orden JUS/1654/2010, de 31 de mayo, en el ámbito de Península y Baleares.</titulo>
+                <url_pdf szBytes="207187" szKBytes="202" pagina_inicial="130730" pagina_final="130733">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19303.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19303</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19303</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2011-19305</identificador>
+                <control>2011/19198</control>
+                <titulo>Resolución de 30 de noviembre de 2011, de la Dirección General de los Registros y del Notariado, por la que se dispone la jubilación voluntaria del notario de Sevilla, don Fernando Salmerón Escobar.</titulo>
+                <url_pdf szBytes="132566" szKBytes="129" pagina_inicial="130746" pagina_final="130746">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19305.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19305</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19305</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2011-19306</identificador>
+                <control>2011/18911</control>
+                <titulo>Orden de 18 de noviembre del 2011, del Departamento de Justicia y Administración Pública, por la que se otorgan destinos a los funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, turno promoción interna, que superaron las pruebas selectivas convocadas por Orden JUS/1654/2010, de 31 de mayo.</titulo>
+                <url_pdf szBytes="186849" szKBytes="182" pagina_inicial="130747" pagina_final="130749">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19306.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19306</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19306</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2011-19307</identificador>
+                <control>2011/18912</control>
+                <titulo>Resolución de 18 de noviembre de 2011, del Departamento de Justicia, por la que se otorgan destinos a los funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, turno promoción interna, que han superado las pruebas selectivas convocadas por la Orden JUS/1654/2010, de 31 de mayo.</titulo>
+                <url_pdf szBytes="267357" szKBytes="261" pagina_inicial="130750" pagina_final="130753">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19307.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19307</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19307</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8090" nombre="COMUNIDAD AUTÓNOMA DE GALICIA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2011-19308</identificador>
+                <control>2011/18913</control>
+                <titulo>Resolución de 18 de noviembre de 2011, de la Dirección General de Justicia, de la Consejería de Presidencia, Administraciones Públicas y Justicia, por la que se otorgan destinos a los funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, turno promoción interna, que superaron las pruebas selectivas convocadas por Orden JUS/1654/2010, de 31 de mayo.</titulo>
+                <url_pdf szBytes="158730" szKBytes="155" pagina_inicial="130754" pagina_final="130756">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19308.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19308</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19308</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2011-19309</identificador>
+                <control>2011/18915</control>
+                <titulo>Resolución de 18 de noviembre de 2011, de la Dirección General de Oficina Judicial y Cooperación de la Consejería de Gobernación y Justicia, por la que se otorgan destinos a los funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, turno promoción interna, que superaron las pruebas selectivas convocadas por Orden JUS/1654/2010, de 31 de mayo.</titulo>
+                <url_pdf szBytes="216824" szKBytes="212" pagina_inicial="130757" pagina_final="130760">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19309.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19309</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19309</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8040" nombre="COMUNIDAD AUTÓNOMA DE CANTABRIA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2011-19310</identificador>
+                <control>2011/18916</control>
+                <titulo>Orden PRE/76/2011, de 18 de noviembre, por la que se otorgan destinos a los funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, turno promoción interna, que superaron las pruebas selectivas convocadas por Orden JUS/1654/2010, de 31 de mayo.</titulo>
+                <url_pdf szBytes="159103" szKBytes="155" pagina_inicial="130761" pagina_final="130763">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19310.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19310</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19310</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2011-19311</identificador>
+                <control>2011/18917</control>
+                <titulo>Resolución de 18 de noviembre de 2011, de la Dirección General de Justicia, de la Conselleria de Justicia y Bienestar Social, por la que se otorgan destinos a los funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, turno promoción interna, que superaron las pruebas selectivas convocadas por Orden JUS/1654/2010, de 31 de mayo.</titulo>
+                <url_pdf szBytes="206786" szKBytes="202" pagina_inicial="130764" pagina_final="130767">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19311.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19311</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19311</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8030" nombre="COMUNIDAD AUTÓNOMA DE CANARIAS">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2011-19312</identificador>
+                <control>2011/18918</control>
+                <titulo>Resolución de 18 de noviembre de 2011, de la Dirección General de Relaciones con la Administración de Justicia, de la Consejería de Presidencia, Justicia e Igualdad, por la que se otorgan destinos a los funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, turno promoción interna, que superaron las pruebas selectivas convocadas por Orden JUS/1654/2010, de 31 de mayo.</titulo>
+                <url_pdf szBytes="183697" szKBytes="179" pagina_inicial="130768" pagina_final="130770">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19312.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19312</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19312</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8170" nombre="COMUNIDAD FORAL DE NAVARRA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2011-19313</identificador>
+                <control>2011/18919</control>
+                <titulo>Resolución 2238/2011, de 18 de noviembre, de la Dirección General de Justicia e Interior, del Departamento de Presidencia, Administraciones Públicas e Interior, por la que se otorgan destinos a los funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, turno promoción interna, que superaron las pruebas selectivas convocadas por Orden JUS/1654/2010, de 31 de mayo.</titulo>
+                <url_pdf szBytes="156836" szKBytes="153" pagina_inicial="130771" pagina_final="130773">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19313.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19313</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19313</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8131" nombre="COMUNIDAD DE MADRID">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2011-19314</identificador>
+                <control>2011/18920</control>
+                <titulo>Resolución de 18 de noviembre de 2011, de la Dirección General de Justicia, de la Consejería de Presidencia y Justicia, por la que se otorgan destinos a los funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, turno promoción interna, que superaron las pruebas selectivas convocadas por Orden JUS/1654/2010, de 31 de mayo.</titulo>
+                <url_pdf szBytes="237888" szKBytes="232" pagina_inicial="130774" pagina_final="130778">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19314.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19314</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19314</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Integraciones">
+              <item>
+                <identificador>BOE-A-2011-19315</identificador>
+                <control>2011/19200</control>
+                <titulo>Resolución de 10 de noviembre de 2011, de la Universidad de Extremadura, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a don Javier Marcos Arévalo.</titulo>
+                <url_pdf szBytes="133468" szKBytes="130" pagina_inicial="130779" pagina_final="130779">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19315.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19315</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19315</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19316</identificador>
+                <control>2011/19069</control>
+                <titulo>Resolución de 23 de noviembre de 2011, de la Universidad de Zaragoza, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a funcionarios del Cuerpo de Profesores Titulares de Escuela Universitaria.</titulo>
+                <url_pdf szBytes="143577" szKBytes="140" pagina_inicial="130780" pagina_final="130780">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19316.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19316</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19316</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2011-19317</identificador>
+                <control>2011/19209</control>
+                <titulo>Resolución de 1 de diciembre de 2011, del Ayuntamiento de Navalagamella (Madrid), de corrección de errores de la de 22 de noviembre de 2011, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="131487" szKBytes="128" pagina_inicial="130781" pagina_final="130781">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19317.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19317</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19317</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2011-19318</identificador>
+                <control>2011/19080</control>
+                <titulo>Resolución de 11 de noviembre de 2011, de la Universidad de Valencia, por la que se declara concluido el procedimiento y desierta plaza de Profesor Titular de Universidad.</titulo>
+                <url_pdf szBytes="131207" szKBytes="128" pagina_inicial="130782" pagina_final="130782">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19318.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19318</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19318</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19319</identificador>
+                <control>2011/19081</control>
+                <titulo>Resolución de 21 de noviembre de 2011, de la Universidad de Málaga, por la que se corrige error en la de 2 de noviembre de 2011, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="130441" szKBytes="127" pagina_inicial="130783" pagina_final="130783">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19319.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19319</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19319</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19320</identificador>
+                <control>2011/19082</control>
+                <titulo>Resolución de 22 de noviembre de 2011, conjunta de la Universidad de Girona y el Hospital Josep Trueta de Girona, por la que se convoca concurso de acceso a plaza vinculada de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="1195356" szKBytes="1167" pagina_inicial="130784" pagina_final="130795">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19320.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19320</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19320</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19321</identificador>
+                <control>2011/19083</control>
+                <titulo>Resolución de 24 de noviembre de 2011, de la Universidad de Alicante, por la que se corrige error en la de 7 de noviembre de 2011, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="132015" szKBytes="129" pagina_inicial="130796" pagina_final="130796">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19321.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19321</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19321</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Becas">
+              <item>
+                <identificador>BOE-A-2011-19322</identificador>
+                <control>2011/19087</control>
+                <titulo>Resolución de 18 de noviembre de 2011, de la Presidencia de la Agencia Española de Cooperación Internacional para el Desarrollo, por la que se concede una beca de la convocatoria de becas MAEC-AECID para el curso académico 2011-2012, Programa III-A.</titulo>
+                <url_pdf szBytes="142639" szKBytes="139" pagina_inicial="130797" pagina_final="130798">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19322.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19322</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19322</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5130" nombre="MINISTERIO DE ECONOMÍA Y HACIENDA">
+            <epigrafe nombre="Deuda del Estado">
+              <item>
+                <identificador>BOE-A-2011-19323</identificador>
+                <control>2011/19220</control>
+                <titulo>Resolución de 2 de diciembre de 2011, de la Dirección General del Tesoro y Política Financiera, por la que se dispone la emisión de Obligaciones del Estado al 4,0 por 100, vencimiento el 30 de abril de 2020, en el mes de diciembre de 2011 y se convoca la correspondiente subasta.</titulo>
+                <url_pdf szBytes="177520" szKBytes="173" pagina_inicial="130799" pagina_final="130801">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19323.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19323</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19323</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Tesoro y Presupuestos. Resúmenes">
+              <item>
+                <identificador>BOE-A-2011-19324</identificador>
+                <control>2011/19088</control>
+                <titulo>Resolución de 30 de noviembre de 2011, de la Intervención General de la Administración del Estado, por la que se publican las "Operaciones de ejecución del Presupuesto del Estado y de sus modificaciones y operaciones de Tesorería" del mes de octubre de 2011.</titulo>
+                <url_pdf szBytes="710272" szKBytes="694" pagina_inicial="130802" pagina_final="130834">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19324.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19324</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19324</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Infraestructuras críticas">
+              <item>
+                <identificador>BOE-A-2011-19325</identificador>
+                <control>2011/19089</control>
+                <titulo>Resolución de 29 de noviembre de 2011, de la Secretaría de Estado de Seguridad, por la que se corrigen errores en la de 15 de noviembre de 2011, por la que se establecen los contenidos mínimos de los planes de seguridad del operador y planes de protección específicos conforme a lo dispuesto en el Real Decreto 704/2011, de 20 de mayo, por el que se aprueba el Reglamento de protección de infraestructuras críticas.</titulo>
+                <url_pdf szBytes="140975" szKBytes="138" pagina_inicial="130835" pagina_final="130836">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19325.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19325</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19325</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Exposición Filatélica Mundial &quot;España 2013&quot;">
+              <item>
+                <identificador>BOE-A-2011-19326</identificador>
+                <control>2011/19223</control>
+                <titulo>Resolución de 18 de noviembre de 2011, de la Subsecretaría, por la que se publica el Acuerdo del Consejo de Ministros de 11 de noviembre de 2011, por el que se declara el apoyo del Gobierno a la celebración de la Exposición Filatélica Mundial "España 2013".</titulo>
+                <url_pdf szBytes="146194" szKBytes="143" pagina_inicial="130837" pagina_final="130838">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19326.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19326</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19326</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4435" nombre="MINISTERIO DE TRABAJO E INMIGRACIÓN">
+            <epigrafe nombre="Convenios colectivos de trabajo">
+              <item>
+                <identificador>BOE-A-2011-19327</identificador>
+                <control>2011/19091</control>
+                <titulo>Resolución de 23 de noviembre de 2011, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Pirelli Neumáticos, SA.</titulo>
+                <url_pdf szBytes="721032" szKBytes="704" pagina_inicial="130839" pagina_final="130879">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19327.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19327</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19327</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5251" nombre="MINISTERIO DE INDUSTRIA, TURISMO Y COMERCIO">
+            <epigrafe nombre="Gas natural">
+              <item>
+                <identificador>BOE-A-2011-19328</identificador>
+                <control>2011/19229</control>
+                <titulo>Real Decreto 1734/2011, de 18 de noviembre, por el que se designa a la empresa GEM Suministro de Gas Sur 3, S.L. como suministrador de último recurso de gas natural.</titulo>
+                <url_pdf szBytes="141326" szKBytes="138" pagina_inicial="130880" pagina_final="130881">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19328.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19328</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19328</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Instalaciones nucleares">
+              <item>
+                <identificador>BOE-A-2011-19329</identificador>
+                <control>2011/18969</control>
+                <titulo>Orden ITC/3372/2011, de 22 de septiembre, por la que se concede la renovación de la autorización de explotación de la central nuclear Ascó I.</titulo>
+                <url_pdf szBytes="172620" szKBytes="169" pagina_inicial="130882" pagina_final="130887">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19329.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19329</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19329</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19330</identificador>
+                <control>2011/18970</control>
+                <titulo>Orden ITC/3373/2011, de 22 de septiembre, por la que se concede la renovación de la autorización de explotación de la central nuclear Ascó II.</titulo>
+                <url_pdf szBytes="172517" szKBytes="168" pagina_inicial="130888" pagina_final="130893">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19330.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19330</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19330</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3150" nombre="MINISTERIO DE MEDIO AMBIENTE, Y MEDIO RURAL Y MARINO">
+            <epigrafe nombre="Comunidad Autónoma de Galicia. Convenio">
+              <item>
+                <identificador>BOE-A-2011-19331</identificador>
+                <control>2011/19098</control>
+                <titulo>Resolución de 24 de noviembre de 2011, de la Dirección General de Desarrollo Sostenible del Medio Rural, por la que se publica el Convenio de colaboración con la Comunidad Autónoma de Galicia, para la realización de actuaciones en materia de desarrollo rural.</titulo>
+                <url_pdf szBytes="747818" szKBytes="730" pagina_inicial="130894" pagina_final="130905">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19331.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19331</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19331</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Denominaciones de origen">
+              <item>
+                <identificador>BOE-A-2011-19332</identificador>
+                <control>2011/19092</control>
+                <titulo>Resolución de 11 de octubre de 2011, de la Dirección General de Industria y Mercados Alimentarios, por la que se publica la Orden de 21 de julio de 2011, de la Consejería de Agricultura, Ganadería, Pesca y Aguas del Gobierno de Canarias, por la que se aprueba el Reglamento de la Denominación de Origen de "Vinos La Palma".</titulo>
+                <url_pdf szBytes="262386" szKBytes="256" pagina_inicial="130906" pagina_final="130920">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19332.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19332</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19332</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Impacto ambiental">
+              <item>
+                <identificador>BOE-A-2011-19333</identificador>
+                <control>2011/19094</control>
+                <titulo>Resolución de 21 de noviembre de 2011, de la Secretaría de Estado de Cambio Climático, por la que se formula declaración de impacto ambiental del proyecto Ampliación de los riegos de Hellín, término municipal de Hellín, Albacete.</titulo>
+                <url_pdf szBytes="2845721" szKBytes="2779" pagina_inicial="130921" pagina_final="130933">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19333.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19333</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19333</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19334</identificador>
+                <control>2011/19095</control>
+                <titulo>Resolución de 21 de noviembre de 2011, de la Secretaría de Estado de Cambio Climático, por la que se formula declaración de impacto ambiental del proyecto Aprovechamiento hidroeléctrico Salto Vallehondo, término municipal de Ardón, León.</titulo>
+                <url_pdf szBytes="301135" szKBytes="294" pagina_inicial="130934" pagina_final="130946">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19334.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19334</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19334</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19335</identificador>
+                <control>2011/19096</control>
+                <titulo>Resolución de 21 de noviembre de 2011, de la Secretaría de Estado de Cambio Climático, por la que se formula declaración de impacto ambiental del proyecto Regulación del río Tietar y consolidación de los regadíos existentes (Ávila, Toledo y Cáceres).</titulo>
+                <url_pdf szBytes="1884757" szKBytes="1841" pagina_inicial="130947" pagina_final="130964">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19335.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19335</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19335</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Materiales forestales de reproducción">
+              <item>
+                <identificador>BOE-A-2011-19336</identificador>
+                <control>2011/19093</control>
+                <titulo>Resolución de 7 de noviembre de 2011, de la Dirección General de Recursos Agrícolas y Ganaderos, por la que se modifica el Catálogo Nacional de los clones admitidos como materiales de base para los materiales forestales de reproducción, relativo al género Populus L.</titulo>
+                <url_pdf szBytes="144751" szKBytes="141" pagina_inicial="130965" pagina_final="130966">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19336.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19336</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19336</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7710" nombre="MINISTERIO DE LA PRESIDENCIA">
+            <epigrafe nombre="Real Federación Española de Judo y Deportes Asociados. Estatutos">
+              <item>
+                <identificador>BOE-A-2011-19337</identificador>
+                <control>2011/18974</control>
+                <titulo>Resolución de 24 de noviembre de 2011, de la Presidencia del Consejo Superior de Deportes, por la que se publica la modificación de los Estatutos de la Real Federación Española de Judo y Deportes Asociados.</titulo>
+                <url_pdf szBytes="143474" szKBytes="140" pagina_inicial="130967" pagina_final="130968">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19337.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19337</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19337</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2011-19338</identificador>
+                <control>2011/19243</control>
+                <titulo>Resolución de 2 de diciembre de 2011, de la Subsecretaría, por la que se publica la concesión de subvenciones destinadas a actividades relacionadas con las víctimas de la guerra civil y del franquismo, convocadas por Orden PRE/809/2011, de 4 de abril.</titulo>
+                <url_pdf szBytes="135958" szKBytes="133" pagina_inicial="130969" pagina_final="130969">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19338.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19338</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19338</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4110" nombre="MINISTERIO DE CULTURA">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2011-19339</identificador>
+                <control>2011/19102</control>
+                <titulo>Orden CUL/3374/2011, de 25 de noviembre, por la que se conceden ayudas a empresas privadas para proyectos de puesta en valor, promoción, difusión y protección de bienes declarados patrimonio cultural, correspondientes al año 2011.</titulo>
+                <url_pdf szBytes="278067" szKBytes="272" pagina_inicial="130970" pagina_final="130974">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19339.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19339</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19339</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19340</identificador>
+                <control>2011/19104</control>
+                <titulo>Resolución de 21 de noviembre de 2011, del Instituto de la Cinematografía y de las Artes Audiovisuales, por la que se conceden ayudas para el desarrollo y la realización de proyectos culturales y de formación no reglada durante el año 2011.</titulo>
+                <url_pdf szBytes="206782" szKBytes="202" pagina_inicial="130975" pagina_final="130978">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19340.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19340</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19340</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Bienes de interés cultural">
+              <item>
+                <identificador>BOE-A-2011-19341</identificador>
+                <control>2011/19109</control>
+                <titulo>Acuerdo GOV/148/2011, de 15 de noviembre, por el que se declara bien cultural de interés nacional, en la categoría de monumento histórico, el convento de Santa Anna, en Alcover, y se delimita su entorno de protección.</titulo>
+                <url_pdf szBytes="558863" szKBytes="546" pagina_inicial="130979" pagina_final="130981">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19341.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19341</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19341</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8090" nombre="COMUNIDAD AUTÓNOMA DE GALICIA">
+            <epigrafe nombre="Bienes de interés cultural">
+              <item>
+                <identificador>BOE-A-2011-19342</identificador>
+                <control>2011/19051</control>
+                <titulo>Decreto 202/2011, de 13 de octubre, por el que se declara bien de interés cultural, con la categoría de monumento, el Santuario de Nuestra Señora del Refugio La Divina Peregrina, en el término municipal de Pontevedra.</titulo>
+                <url_pdf szBytes="722295" szKBytes="705" pagina_inicial="130982" pagina_final="130986">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19342.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19342</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19342</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Planes de estudios">
+              <item>
+                <identificador>BOE-A-2011-19343</identificador>
+                <control>2011/19110</control>
+                <titulo>Resolución de 10 de noviembre de 2011, de la Universidad de Huelva, por la que se corrigen errores en la de 3 de marzo de 2011, por la que se publica el plan de estudios de Graduado en Ingeniería Eléctrica.</titulo>
+                <url_pdf szBytes="136451" szKBytes="133" pagina_inicial="130987" pagina_final="130987">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19343.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19343</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19343</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19344</identificador>
+                <control>2011/19111</control>
+                <titulo>Resolución de 10 de noviembre de 2011, de la Universidad Pablo de Olavide, por la que se publica el plan de estudios de Máster en Agroecología, un Enfoque para la Sustentabilidad Rural.</titulo>
+                <url_pdf szBytes="162695" szKBytes="159" pagina_inicial="130988" pagina_final="130989">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19344.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19344</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19344</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19345</identificador>
+                <control>2011/19112</control>
+                <titulo>Resolución de 10 de noviembre de 2011, de la Universidad Pablo de Olavide, por la que se publica el plan de estudios de Máster en Conocimiento actual de las Enfermedades Raras.</titulo>
+                <url_pdf szBytes="168508" szKBytes="165" pagina_inicial="130990" pagina_final="130991">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19345.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19345</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19345</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19346</identificador>
+                <control>2011/19052</control>
+                <titulo>Resolución de 23 de noviembre de 2011, de la Universidad de Santiago de Compostela, por la que se publica el plan de estudios de Máster en Desarrollo Regional e Integración Económica.</titulo>
+                <url_pdf szBytes="207175" szKBytes="202" pagina_inicial="130992" pagina_final="130994">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19346.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19346</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19346</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19347</identificador>
+                <control>2011/19053</control>
+                <titulo>Resolución de 23 de noviembre de 2011, de la Universidad de Santiago de Compostela, por la que se publica el plan de estudios de Máster en Dirección de Proyectos.</titulo>
+                <url_pdf szBytes="152734" szKBytes="149" pagina_inicial="130995" pagina_final="130996">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19347.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19347</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19347</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19348</identificador>
+                <control>2011/19054</control>
+                <titulo>Resolución de 23 de noviembre de 2011, de la Universidad de Santiago de Compostela, por la que se publica el plan de estudios de Máster en Ingeniería Ambiental.</titulo>
+                <url_pdf szBytes="294515" szKBytes="288" pagina_inicial="130997" pagina_final="131001">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19348.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19348</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19348</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19349</identificador>
+                <control>2011/19055</control>
+                <titulo>Resolución de 23 de noviembre de 2011, de la Universidad de Santiago de Compostela, por la que se publica el plan de estudios de Máster en Prevención de Riesgos Laborales y Salud Medioambiental.</titulo>
+                <url_pdf szBytes="165007" szKBytes="161" pagina_inicial="131002" pagina_final="131003">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19349.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19349</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19349</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2011-19350</identificador>
+                <control>2011/19056</control>
+                <titulo>Resolución de 23 de noviembre de 2011, de la Universidad de Santiago de Compostela, por la que se publica el plan de estudios de Máster en Servicios Culturales.</titulo>
+                <url_pdf szBytes="209175" szKBytes="204" pagina_inicial="131004" pagina_final="131007">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-A-2011-19350.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19350</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19350</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="1420" nombre="TRIBUNAL DE CUENTAS">
+            <item>
+              <identificador>BOE-B-2011-40059</identificador>
+              <titulo>SECCIÓN DE ENJUICIAMIENTO</titulo>
+              <url_pdf szBytes="154945" szKBytes="151" pagina_inicial="101488" pagina_final="101488">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40059.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40059</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40059</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2011-40060</identificador>
+              <titulo>SEGOVIA</titulo>
+              <url_pdf szBytes="152904" szKBytes="149" pagina_inicial="101489" pagina_final="101489">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40060.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40060</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40060</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2011-40061</identificador>
+              <titulo>BADAJOZ</titulo>
+              <url_pdf szBytes="155349" szKBytes="152" pagina_inicial="101490" pagina_final="101490">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40061.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40061</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40061</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40062</identificador>
+              <titulo>BADAJOZ</titulo>
+              <url_pdf szBytes="155756" szKBytes="152" pagina_inicial="101491" pagina_final="101491">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40062.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40062</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40062</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40063</identificador>
+              <titulo>BADAJOZ</titulo>
+              <url_pdf szBytes="157463" szKBytes="154" pagina_inicial="101492" pagina_final="101492">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40063.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40063</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40063</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40064</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="157482" szKBytes="154" pagina_inicial="101493" pagina_final="101493">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40064.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40064</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40064</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40065</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="157121" szKBytes="153" pagina_inicial="101494" pagina_final="101494">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40065.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40065</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40065</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40066</identificador>
+              <titulo>CÁCERES</titulo>
+              <url_pdf szBytes="156184" szKBytes="153" pagina_inicial="101495" pagina_final="101495">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40066.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40066</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40066</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40067</identificador>
+              <titulo>CÁDIZ</titulo>
+              <url_pdf szBytes="156512" szKBytes="153" pagina_inicial="101496" pagina_final="101496">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40067.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40067</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40067</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40068</identificador>
+              <titulo>LAS PALMAS DE GRAN CANARIA</titulo>
+              <url_pdf szBytes="155854" szKBytes="152" pagina_inicial="101497" pagina_final="101497">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40068.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40068</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40068</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40069</identificador>
+              <titulo>LAS PALMAS DE GRAN CANARIA</titulo>
+              <url_pdf szBytes="159501" szKBytes="156" pagina_inicial="101498" pagina_final="101498">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40069.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40069</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40069</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40070</identificador>
+              <titulo>LLEIDA</titulo>
+              <url_pdf szBytes="154025" szKBytes="150" pagina_inicial="101499" pagina_final="101499">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40070.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40070</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40070</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40071</identificador>
+              <titulo>LOGROÑO</titulo>
+              <url_pdf szBytes="155958" szKBytes="152" pagina_inicial="101500" pagina_final="101500">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40071.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40071</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40071</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40072</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="155138" szKBytes="152" pagina_inicial="101501" pagina_final="101501">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40072.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40072</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40072</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40073</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="156761" szKBytes="153" pagina_inicial="101502" pagina_final="101502">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40073.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40073</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40073</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40074</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="157591" szKBytes="154" pagina_inicial="101503" pagina_final="101503">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40074.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40074</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40074</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40075</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="153827" szKBytes="150" pagina_inicial="101504" pagina_final="101504">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40075.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40075</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40075</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40076</identificador>
+              <titulo>PALMA DE MALLORCA</titulo>
+              <url_pdf szBytes="157770" szKBytes="154" pagina_inicial="101505" pagina_final="101505">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40076.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40076</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40076</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40077</identificador>
+              <titulo>PALMA DE MALLORCA</titulo>
+              <url_pdf szBytes="156985" szKBytes="153" pagina_inicial="101506" pagina_final="101506">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40077.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40077</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40077</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40078</identificador>
+              <titulo>PALMA DE MALLORCA</titulo>
+              <url_pdf szBytes="156843" szKBytes="153" pagina_inicial="101507" pagina_final="101507">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40078.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40078</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40078</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40079</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="155854" szKBytes="152" pagina_inicial="101508" pagina_final="101508">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40079.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40079</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40079</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40080</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="153730" szKBytes="150" pagina_inicial="101509" pagina_final="101509">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40080.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40080</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40080</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40081</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="156350" szKBytes="153" pagina_inicial="101510" pagina_final="101510">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40081.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40081</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40081</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40082</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="154139" szKBytes="151" pagina_inicial="101511" pagina_final="101511">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40082.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40082</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40082</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40083</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="156320" szKBytes="153" pagina_inicial="101512" pagina_final="101512">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40083.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40083</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40083</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9545" nombre="REQUISITORIAS">
+            <item>
+              <identificador>BOE-B-2011-40084</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES CIVILES</titulo>
+              <url_pdf szBytes="157311" szKBytes="154" pagina_inicial="101513" pagina_final="101513">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40084.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40084</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40084</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40085</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES CIVILES</titulo>
+              <url_pdf szBytes="157462" szKBytes="154" pagina_inicial="101514" pagina_final="101514">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40085.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40085</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40085</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40086</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES CIVILES</titulo>
+              <url_pdf szBytes="157603" szKBytes="154" pagina_inicial="101515" pagina_final="101515">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40086.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40086</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40086</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40087</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES CIVILES</titulo>
+              <url_pdf szBytes="156881" szKBytes="153" pagina_inicial="101516" pagina_final="101516">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40087.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40087</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40087</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40088</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES CIVILES</titulo>
+              <url_pdf szBytes="157139" szKBytes="153" pagina_inicial="101517" pagina_final="101517">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40088.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40088</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40088</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40089</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES CIVILES</titulo>
+              <url_pdf szBytes="157882" szKBytes="154" pagina_inicial="101518" pagina_final="101518">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40089.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40089</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40089</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40090</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES CIVILES</titulo>
+              <url_pdf szBytes="156728" szKBytes="153" pagina_inicial="101519" pagina_final="101519">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40090.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40090</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40090</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40091</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES CIVILES</titulo>
+              <url_pdf szBytes="157176" szKBytes="153" pagina_inicial="101520" pagina_final="101520">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40091.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40091</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40091</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9556" nombre="ANULACIONES">
+            <item>
+              <identificador>BOE-B-2011-40092</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES MILITARES</titulo>
+              <url_pdf szBytes="154627" szKBytes="151" pagina_inicial="101521" pagina_final="101521">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40092.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40092</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40092</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Anuncios de licitaciones públicas y adjudicaciones">
+          <departamento codigo="5130" nombre="MINISTERIO DE ECONOMÍA Y HACIENDA">
+            <item>
+              <identificador>BOE-B-2011-40093</identificador>
+              <titulo>Anuncio de la Dependencia Provincial de Recaudación de la Delegación de la Agencia Estatal de Administración Tributaria de Valencia sobre la subasta a celebrar el 19 de enero de 2012.</titulo>
+              <url_pdf szBytes="220228" szKBytes="215" pagina_inicial="101522" pagina_final="101531">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40093.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40093</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40093</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2011-40094</identificador>
+              <titulo>Anuncio de formalización de contratos de la Secretaría de Estado de Planificación e Infraestructuras. Demarcación de Carreteras del Estado en Cataluña. Objeto: Instalación señalización de orientación en la carretera N-340, del punto kilométrico 1092+000 al 1146+300. Provincia de Tarragona. Expediente: COB-T-6/2011.</titulo>
+              <url_pdf szBytes="167116" szKBytes="163" pagina_inicial="101532" pagina_final="101532">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40094.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40094</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40094</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40095</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de Gijón por la que se hace público la formalización del contrato de las obras de "dique de cierre en dársena deportiva".</titulo>
+              <url_pdf szBytes="164255" szKBytes="160" pagina_inicial="101533" pagina_final="101533">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40095.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40095</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40095</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4435" nombre="MINISTERIO DE TRABAJO E INMIGRACIÓN">
+            <item>
+              <identificador>BOE-B-2011-40096</identificador>
+              <titulo>Resolución de la Dirección Provincial del Instituto Social de la Marina en Vilagarcía de Arousa, por la que se publica la formalización del contrato del servicio de vigilancia y seguridad en la Casa del Mar de Vilagarcía así como el mantenimiento de los sistemas de alarmas de seguridad y detección de fuegos en la Dirección Provincial y las Direcciones Locales para el ejercicio 2012.</titulo>
+              <url_pdf szBytes="166203" szKBytes="162" pagina_inicial="101534" pagina_final="101534">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40096.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40096</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40096</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40097</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Barcelona por la que se hace pública la formalización del contrato del Procedimiento abierto 2012/1-M . Control y supervisión de los contratos suscritos para el mantenimiento, limpieza y ddd, de todos los locales de esta Dirección Provincial, así como la elaboración de informes y proyectos relativos a la realización de obras y reparaciones para los años 2012 y 2013.</titulo>
+              <url_pdf szBytes="168209" szKBytes="164" pagina_inicial="101535" pagina_final="101535">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40097.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40097</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40097</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40098</identificador>
+              <titulo>Anuncio de la Dirección Provincial de la Tesorería General de la Seguridad Social de Valladolid por el que se publica la formalización del contrato del servicio de archivo y almacén de las DD.PP de la Tesorería General de la Seguridad Social y del Instituto Nacional de la Seguridad Social de Valladolid.</titulo>
+              <url_pdf szBytes="165043" szKBytes="161" pagina_inicial="101536" pagina_final="101536">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40098.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40098</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40098</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40099</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Málaga por la que se acuerda la formalización del contrato del servicio de limpieza de la sede de la Dirección Provincial de la Tesorería General de la Seguridad Social de Málaga, Administraciones y URES dependientes de la misma y Oficina Integral de la Seguridad Social de Estepona para el período 1 de enero de 2012 a 31 de enero de 2013.</titulo>
+              <url_pdf szBytes="166910" szKBytes="163" pagina_inicial="101537" pagina_final="101537">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40099.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40099</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40099</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4110" nombre="MINISTERIO DE CULTURA">
+            <item>
+              <identificador>BOE-B-2011-40100</identificador>
+              <titulo>Resolución del Instituto de la Cinematografía y de las Artes Audiovisuales por la que se anuncia procedimiento abierto para el servicio de reproducción de imágenes y sonidos de películas cinematográficas propiedad de la Filmoteca Española. (110047).</titulo>
+              <url_pdf szBytes="173952" szKBytes="170" pagina_inicial="101538" pagina_final="101539">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40100.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40100</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40100</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40101</identificador>
+              <titulo>Resolución del Instituto de la Cinematografía y de las Artes Audiovisuales por la que se anuncia procedimiento abierto para el suministro de energía eléctrica en varias dependencias de la Filmoteca Española. (110048).</titulo>
+              <url_pdf szBytes="174530" szKBytes="170" pagina_inicial="101540" pagina_final="101541">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40101.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40101</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40101</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40102</identificador>
+              <titulo>Resolución de la Subsecretaría del Ministerio de Cultura por la que se anuncia procedimiento abierto para el servicio de limpieza de edificios administrativos del Ministerio de Cultura y de la Gerencia de Infraestructuras y Equipamientos de Cultura (110046).</titulo>
+              <url_pdf szBytes="174672" szKBytes="171" pagina_inicial="101542" pagina_final="101543">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40102.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40102</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40102</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2011-40103</identificador>
+              <titulo>Anuncio de l'Hospital Universitari Vall d'Hebron para la contratación del servicio de mantenimiento de los circuitos de alta y baja tensión de las centrales eléctricas de l'Hospital Universitari Vall d'Hebron.</titulo>
+              <url_pdf szBytes="173947" szKBytes="170" pagina_inicial="101544" pagina_final="101545">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40103.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40103</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40103</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40104</identificador>
+              <titulo>Anuncio de l'Hospital Universitari Vall d'Hebron para la contratación del servicio de administración de sistemas, bases de datos y red de atención al usuario de informática de l'Hospital Universitari Vall d'Hebron.</titulo>
+              <url_pdf szBytes="173955" szKBytes="170" pagina_inicial="101546" pagina_final="101547">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40104.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40104</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40104</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <item>
+              <identificador>BOE-B-2011-40105</identificador>
+              <titulo>Resolución de la Agencia Pública Empresarial Sanitaria Costa del Sol, por la que se anuncia la formalización del contrato correspondiente al Servicio de Mantenimiento en la Agencia Pública Empresarial Sanitaria Costa del Sol, con destino al Hospital de Alta Resolución de Benalmádena por procedimiento abierto.</titulo>
+              <url_pdf szBytes="163202" szKBytes="159" pagina_inicial="101548" pagina_final="101548">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40105.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40105</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40105</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8040" nombre="COMUNIDAD AUTÓNOMA DE CANTABRIA">
+            <item>
+              <identificador>BOE-B-2011-40106</identificador>
+              <titulo>Resolución de la Consejería de Presidencia y Justicia por la que se anuncia la licitación del apoyo a la redacción de informes de afección de planes, programas y proyectos a la red ecológica europea natura 2000 en Cantabria.</titulo>
+              <url_pdf szBytes="174792" szKBytes="171" pagina_inicial="101549" pagina_final="101550">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40106.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40106</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40106</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8131" nombre="COMUNIDAD DE MADRID">
+            <item>
+              <identificador>BOE-B-2011-40107</identificador>
+              <titulo>Resolución de la Gerencia del Hospital Universitario "12 de Octubre", por la que se dispone la publicación en los boletines oficiales y en el perfil del contratante de la formalización del contrato de suministro de reactivos, fungibles, accesorios para analizadores genéticos, termocicladores y PCR cuantitativo tiempo real con destino al Hospital Universitario "12 de Octubre".</titulo>
+              <url_pdf szBytes="166545" szKBytes="163" pagina_inicial="101551" pagina_final="101551">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40107.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40107</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40107</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40108</identificador>
+              <titulo>Resolución de 25 de noviembre de 2011, de la Dirección Gerencia del Hospital Universitario de La Princesa, por la que se hace pública la convocatoria del procedimiento abierto con pluralidad de criterios para la adjudicación del contrato titulado: Suministro de catéteres balón de angioplastia coronaria, para el Hospital Universitario de La Princesa de Madrid.</titulo>
+              <url_pdf szBytes="178039" szKBytes="174" pagina_inicial="101552" pagina_final="101553">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40108.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40108</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40108</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9531" nombre="COMUNIDAD DE CASTILLA Y LEÓN">
+            <item>
+              <identificador>BOE-B-2011-40109</identificador>
+              <titulo>Resolución de 25 de noviembre de 2011 de la Gerencia de Atención Especializada del Complejo Asistencial Universitario de Salamanca por la que se hace pública la formalización del contrato de Suministro de Implantes de oído. Expediente PNSP 2011-3-72.</titulo>
+              <url_pdf szBytes="166970" szKBytes="163" pagina_inicial="101554" pagina_final="101554">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40109.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40109</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40109</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40110</identificador>
+              <titulo>Resolución de 24 de noviembre de 2011 de la Secretaría General de la Consejería de Hacienda de la Junta de Castilla y León por la que se anuncia licitación para contratar el diseño, creatividad y producción, planificación y compra de espacios publicitarios, sobre las actuaciones y resultados de las intervenciones financiadas por los Programas Operativos del Fondo Europeo de Desarrollo Regional, Fondo Social Europeo, Fondo de Cohesión -Feder y las vinculadas a la Cooperación Transfronteriza en el marco del Programa Operativo de Cooperación Transfronteriza España-Portugal, en Castilla y León durante las anualidades 2007 a 2011. Expte. 5/11.</titulo>
+              <url_pdf szBytes="177100" szKBytes="173" pagina_inicial="101555" pagina_final="101556">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40110.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40110</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40110</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40111</identificador>
+              <titulo>Resolución de 7 de noviembre de la Presidencia de las Cortes de Castilla y León por la que se anuncia la contratación de suministro de energía eléctrica, mediante procedimiento abierto, sujeto a regulación armonizada (Expte.: PA3 /2011).- Años 2012-2013.</titulo>
+              <url_pdf szBytes="175393" szKBytes="171" pagina_inicial="101557" pagina_final="101558">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40111.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40111</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40111</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40112</identificador>
+              <titulo>Resolución de 11 de noviembre de la Presidencia de las Cortes de Castilla y León por la que se anuncia la de contratación de servicio de mantenimiento del edificio de las Cortes de Castilla y León (obras e instalaciones), por procedimiento abierto. (Expte.: PA6/2011).</titulo>
+              <url_pdf szBytes="174952" szKBytes="171" pagina_inicial="101559" pagina_final="101560">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40112.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40112</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40112</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2011-40113</identificador>
+              <titulo>Anuncio del Ayuntamiento de Las Palmas de Gran Canaria, por el que se publica la formalización del contrato de servicio de limpieza y actividades complementarias en los centros educativos y en los centros socioculturales (Expediente número 789/09-S).</titulo>
+              <url_pdf szBytes="165378" szKBytes="162" pagina_inicial="101561" pagina_final="101561">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40113.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40113</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40113</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40114</identificador>
+              <titulo>Anuncio del Consorcio de Servicios Medioambientales de la Excma. Diputación de Cáceres de formalización del contrato de servicio para el funcionamiento, mantenimiento y conservación de los emisarios, bombeos y de las estaciones depuradoras de aguas residuales existentes en los municipios de Torrejoncillo-Valdecín, Garganta la Olla y Valdefuentes (expte. 02/2011).</titulo>
+              <url_pdf szBytes="166744" szKBytes="163" pagina_inicial="101562" pagina_final="101562">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40114.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40114</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40114</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40115</identificador>
+              <titulo>Resolución del Consorcio de Aguas Bilbao Bizkaia por la que hace pública la formalización del contrato de asistencia técnica a la redacción del proyecto constructivo del tanque de tormentas de Galindo y anteproyecto de mejoras en el colector Lasesarre-Lutxana.</titulo>
+              <url_pdf szBytes="164288" szKBytes="160" pagina_inicial="101563" pagina_final="101563">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40115.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40115</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40115</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40116</identificador>
+              <titulo>Resolución del Consorcio de Aguas Bilbao Bizkaia por la que hace pública la formalización del contrato de servicio de vigilancia y seguridad privada en las instalaciones del Consorcio de Aguas Bilbao Bizkaia.</titulo>
+              <url_pdf szBytes="163744" szKBytes="160" pagina_inicial="101564" pagina_final="101564">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40116.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40116</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40116</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40117</identificador>
+              <titulo>Resolución del Consorcio de Aguas Bilbao Bizkaia por la que hace pública la formalización del contrato de suministro de polielectrolito para las instalaciones de saneamiento del Consorcio de Aguas Bilbao Bizkaia.</titulo>
+              <url_pdf szBytes="163405" szKBytes="160" pagina_inicial="101565" pagina_final="101565">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40117.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40117</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40117</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40118</identificador>
+              <titulo>Resolución del Consorcio de Aguas Bilbao Bizkaia por la que hace pública la formalización del contrato de servicio de asistencia técnica para la gestión, normalización, mantenimiento y actualización de estándares y autorización de uso de los sistemas operativos y aplicaciones de informática industrial en entorno wonderware del telemando del C.A.B.B.</titulo>
+              <url_pdf szBytes="164580" szKBytes="161" pagina_inicial="101566" pagina_final="101566">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40118.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40118</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40118</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40119</identificador>
+              <titulo>Resolución del Consorcio de Aguas Bilbao Bizkaia por la que hace pública la formalización del contrato de suministro de cloro líquido en tanques de 1.000 kg.</titulo>
+              <url_pdf szBytes="163699" szKBytes="160" pagina_inicial="101567" pagina_final="101567">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40119.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40119</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40119</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40120</identificador>
+              <titulo>Anuncio del Ayuntamiento de Teruel para la contratación de los servicios de limpieza y conserjería en el Colegio Público de Infantil y Primaria Pierres Vedel; servicio de limpieza y conserjería en el Colegio Público de Infantil y Primaría Miguel Vallés y servicio de limpieza en el Centro de Educación de Adultos Isabel de Segura.</titulo>
+              <url_pdf szBytes="175133" szKBytes="171" pagina_inicial="101568" pagina_final="101569">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40120.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40120</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40120</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40121</identificador>
+              <titulo>Resolución del Consorcio de Aguas Bilbao Bizkaia por la que hace pública la formalización del contrato de transporte de residuos procedentes de la EDAR de Galindo del Consorcio de Aguas Bilbao Bizkaia.</titulo>
+              <url_pdf szBytes="164210" szKBytes="160" pagina_inicial="101570" pagina_final="101570">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40121.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40121</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40121</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40122</identificador>
+              <titulo>Resolución de 1 de diciembre de 2011 de la Gerencia del Distrito de Retiro por la que se hace pública la convocatoria para la adjudicación por procedimiento abierto del contrato de servicios denominado protección y seguridad de los edificios dependientes del Distrito de Retiro, expediente 300/2011/2207.</titulo>
+              <url_pdf szBytes="175277" szKBytes="171" pagina_inicial="101571" pagina_final="101572">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40122.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40122</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40122</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2011-40123</identificador>
+              <titulo>Anuncio de subasta del procedimiento extrajudicial de ejecución hipotecaria número 1/2011 que se tramita en la Notaría de Don Adolfo Poveda Díaz, en Ciudad Real.</titulo>
+              <url_pdf szBytes="164934" szKBytes="161" pagina_inicial="101573" pagina_final="101573">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40123.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40123</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40123</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40124</identificador>
+              <titulo>Anuncio de La Rioja Turismo Sociedad Anónima Unipersonal por el que se convoca licitación por procedimiento abierto de una campaña de promoción turística de La Rioja y de servicios de difusión publicitaria en líneas aéreas.</titulo>
+              <url_pdf szBytes="170007" szKBytes="166" pagina_inicial="101574" pagina_final="101575">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40124.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40124</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40124</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40125</identificador>
+              <titulo>Anuncio de 29 de noviembre de 2011, de la Empresa Pública Gestión Ambiental de Castilla-La Mancha, S. A., (en adelante, Geacam, S. A.). por el que se hace pública la formalización del contrato de: "Suministro de distintos tipos de vehículos, en régimen de alquiler, para Prevención, Extinción de Incendios Forestales y Estructuras de la Empresa Pública Gestión Ambiental de Castilla-La Mancha, S. A. Expediente N.º: 103-TT-0-032-07 / SU 207".</titulo>
+              <url_pdf szBytes="169301" szKBytes="165" pagina_inicial="101576" pagina_final="101576">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40125.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40125</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40125</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40126</identificador>
+              <titulo>Anuncio de la Notario de Huelva, doña María Gómez-Rodulfo García de Castro, de subasta pública en procedimiento extrajudicial de hipoteca número 7/2011.</titulo>
+              <url_pdf szBytes="169290" szKBytes="165" pagina_inicial="101577" pagina_final="101578">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40126.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40126</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40126</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40127</identificador>
+              <titulo>Anuncio de corrección de errores de la Resolución de fecha 25 de octubre de 2011, de Aena Aeropuertos, S.A., por la que se anuncia la licitación de contratos de Suministros, mediante la técnica de contratación de Acuerdo Marco. (Expediente número: DSI 592/11). Título: Acuerdo Marco de equipamiento de redes de comunicaciones.</titulo>
+              <url_pdf szBytes="164023" szKBytes="160" pagina_inicial="101579" pagina_final="101579">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40127.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40127</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40127</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <item>
+              <identificador>BOE-B-2011-40128</identificador>
+              <titulo>Resolución de la Dirección General de Modernización de la Administración de Justicia sobre prescripción por abandono de depósitos y consignaciones judiciales.</titulo>
+              <url_pdf szBytes="397521" szKBytes="388" pagina_inicial="101580" pagina_final="101625">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40128.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40128</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40128</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="5130" nombre="MINISTERIO DE ECONOMÍA Y HACIENDA">
+            <item>
+              <identificador>BOE-B-2011-40129</identificador>
+              <titulo>Anuncio de la Subdirección General de Inspección y Control de la Dirección General de Fondos Comunitarios por el que se efectúa la notificación por comparecencia de la resolución de declaración de incumplimiento en el expediente de Incentivos Regionales TE/224/E50, I.42/10, "Biotartáricos Tagumi, Sociedad Anónima".</titulo>
+              <url_pdf szBytes="167155" szKBytes="163" pagina_inicial="101626" pagina_final="101627">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40129.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40129</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40129</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40130</identificador>
+              <titulo>Anuncio de la Subdirección General de Inspección y Control de la Dirección General de Fondos Comunitarios por el que se efectúa la notificación por comparecencia de la resolución de declaración de incumplimiento en el expediente de Incentivos Regionales CC/525/P11, I.DI012/2011, "Abonos Naturales del Guadiana, Sociedad Limitada".</titulo>
+              <url_pdf szBytes="169090" szKBytes="165" pagina_inicial="101628" pagina_final="101629">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40130.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40130</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40130</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40131</identificador>
+              <titulo>Anuncio de la Dirección General del Tesoro y Política Financiera sobre notificación de expedientes sancionadores.</titulo>
+              <url_pdf szBytes="163260" szKBytes="159" pagina_inicial="101630" pagina_final="101630">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40131.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40131</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40131</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40132</identificador>
+              <titulo>Anuncio de la Subdirección General de Recursos, Reclamaciones y Relaciones con la Justicia sobre notificación de resolución de la reclamación previa a la vía judicial civil número J. 2107/11 formulada por D. Ernesto Teruel Piqueras, por la que solicita que el Estado reconozca su derecho de propiedad sobre diferentes fincas rústicas del término municipal de Chiva (Valencia).</titulo>
+              <url_pdf szBytes="162993" szKBytes="159" pagina_inicial="101631" pagina_final="101631">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40132.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40132</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40132</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40133</identificador>
+              <titulo>Anuncio de la Subdirección General de Recursos, Reclamaciones y Relaciones con la Justicia sobre notificación de resolución número N. 1976/11 del escrito por el que Ventero Muñoz, S.A. solicita la nulidad de pleno derecho de la resolución del TEAR de Madrid de 26 de marzo de 2010.</titulo>
+              <url_pdf szBytes="163638" szKBytes="160" pagina_inicial="101632" pagina_final="101632">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40133.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40133</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40133</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40134</identificador>
+              <titulo>Anuncio de la Dirección General del Tesoro y Política Financiera sobre notificación de expedientes sancionadores.</titulo>
+              <url_pdf szBytes="165381" szKBytes="162" pagina_inicial="101633" pagina_final="101633">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40134.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40134</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40134</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2011-40135</identificador>
+              <titulo>Anuncio de la Secretaría General Técnica por el que se notifica el acuerdo de 11 de octubre de 2011 de propuesta de Orden de revocación de la declaración de utilidad pública de la entidad denominada Casa Catalana de Zaragoza.</titulo>
+              <url_pdf szBytes="159519" szKBytes="156" pagina_inicial="101634" pagina_final="101634">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40135.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40135</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40135</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4210" nombre="MINISTERIO DE EDUCACIÓN">
+            <item>
+              <identificador>BOE-B-2011-40136</identificador>
+              <titulo>Anuncio de la Dirección General de Atención, Participación y Empleabilidad de Estudiantes Universitarios, sobre la notificación de resoluciones de expedientes de revocación de ayudas al estudio.</titulo>
+              <url_pdf szBytes="162196" szKBytes="158" pagina_inicial="101635" pagina_final="101635">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40136.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40136</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40136</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40137</identificador>
+              <titulo>Anuncio de la Subdirección General de Títulos y Reconocimiento de Cualificaciones sobre extravío de un título de Enfermera Especialista en Enfermería Obstétrico-Ginecológica.</titulo>
+              <url_pdf szBytes="158945" szKBytes="155" pagina_inicial="101636" pagina_final="101636">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40137.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40137</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40137</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="5251" nombre="MINISTERIO DE INDUSTRIA, TURISMO Y COMERCIO">
+            <item>
+              <identificador>BOE-B-2011-40138</identificador>
+              <titulo>Resolución de la Subdirección General de Inspección y Atención al Usuario por la que se ordena la publicación de la notificación del trámite de resolución al interesado en varios expedientes iniciados ante este órgano.</titulo>
+              <url_pdf szBytes="195072" szKBytes="191" pagina_inicial="101637" pagina_final="101642">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40138.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40138</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40138</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3150" nombre="MINISTERIO DE MEDIO AMBIENTE, Y MEDIO RURAL Y MARINO">
+            <item>
+              <identificador>BOE-B-2011-40139</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Guadiana relativa a notificaciones de Trámites de Audiencia en procedimientos de adecuación del derecho a la realidad pertenecientes a expedientes de aprovechamientos de aguas.</titulo>
+              <url_pdf szBytes="161762" szKBytes="158" pagina_inicial="101643" pagina_final="101643">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40139.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40139</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40139</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40140</identificador>
+              <titulo>Anuncio de la Dirección General de Sostenibilidad de la Costa y del Mar del Ministerio de Medio Ambiente, y Medio Rural y Marino de notificación de la O.M. de 22 de noviembre de 2011, del deslinde de un tramo de costa de unos 12.477 metros, en el término municipal de Camargo (Cantabria). Ref. DES01/09/39/0007.</titulo>
+              <url_pdf szBytes="167911" szKBytes="164" pagina_inicial="101644" pagina_final="101645">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40140.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40140</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40140</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40141</identificador>
+              <titulo>Resolución de la Dirección General del Agua por la que se somete a información pública la relación de bienes y derechos afectados y se fija fecha para el levantamiento de actas previas a la ocupación de los bienes y derechos necesarios para la realización del "Proyecto modificado de mejora del sistema de riego en el Sector II, L' Alcudia, de la Zona Regable del Canal Júcar-Turia (Valencia)". Entidad beneficiaria: Comunidad de Regantes Sector II- L'Alcúdia, Canal Júcar-Turia. Expediente: 06.21.036/1.</titulo>
+              <url_pdf szBytes="196556" szKBytes="192" pagina_inicial="101646" pagina_final="101648">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40141.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40141</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40141</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8080" nombre="COMUNIDAD AUTÓNOMA DE EXTREMADURA">
+            <item>
+              <identificador>BOE-B-2011-40142</identificador>
+              <titulo>Resolución del Servicio de Ordenación Industrial de Badajoz de la Dirección General de Ordenación Industrial y Comercio, autorizando el establecimiento, Proyecto de distribución de A.T. cinco líneas subterráneas independientes, 20 kv con 0,958 kms y cuatro C.T. 630(x2) Kva (Total 5040 kva) en urbanización del sector Sup-So-01 La Heredad, en el termino municipal de Mérida.</titulo>
+              <url_pdf szBytes="171161" szKBytes="167" pagina_inicial="101649" pagina_final="101650">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40142.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40142</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40142</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40143</identificador>
+              <titulo>Anuncio del Servicio de Ordenación Industrial de Cáceres, de la Consejería de Empleo, Empresa e Innovación, sobre convocatoria de actas previas a la ocupación del expediente At-7991 en el t.m. de Navezuelas.</titulo>
+              <url_pdf szBytes="171689" szKBytes="168" pagina_inicial="101651" pagina_final="101651">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40143.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40143</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40143</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2011-40144</identificador>
+              <titulo>Resolución de Alcaldía del Ayuntamiento de Tomelloso, de fecha 18 de noviembre de 2011, referente a la monda total de sepulturas en el Cementerio de Tomelloso.</titulo>
+              <url_pdf szBytes="159359" szKBytes="156" pagina_inicial="101652" pagina_final="101652">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40144.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40144</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40144</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2011-40145</identificador>
+              <titulo>Anuncio de la Universidad de Barcelona sobre extravío de título de Licenciado en Derecho.</titulo>
+              <url_pdf szBytes="154698" szKBytes="151" pagina_inicial="101653" pagina_final="101653">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40145.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40145</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40145</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40146</identificador>
+              <titulo>Anuncio de la Facultad de Turismo y Finanzas de la Universidad de Sevilla sobre extravío de título de Diplomada en Ciencias Empresariales.</titulo>
+              <url_pdf szBytes="154658" szKBytes="151" pagina_inicial="101654" pagina_final="101654">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40146.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40146</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40146</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40147</identificador>
+              <titulo>Anuncio de la Universidad Politécnica de Valencia sobre extravío de título de Arquitecto, especialidad de Urbanismo.</titulo>
+              <url_pdf szBytes="155936" szKBytes="152" pagina_inicial="101655" pagina_final="101655">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40147.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40147</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40147</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40148</identificador>
+              <titulo>Anuncio de la Universitat de les Illes Balears sobre extravío de título de Maestra, especialidad en Educación Física.</titulo>
+              <url_pdf szBytes="156039" szKBytes="152" pagina_inicial="101656" pagina_final="101656">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40148.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40148</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40148</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40149</identificador>
+              <titulo>Anuncio de la Universidad de Zaragoza, Facultad de Ciencias Sociales y del Trabajo sobre extravío de título de Diplomada en Relaciones Laborales.</titulo>
+              <url_pdf szBytes="157957" szKBytes="154" pagina_inicial="101657" pagina_final="101657">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40149.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40149</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40149</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40150</identificador>
+              <titulo>Anuncio de la Universidad San Pablo-CEU sobre extravío de título de Diplomada en Enfermería.</titulo>
+              <url_pdf szBytes="156762" szKBytes="153" pagina_inicial="101658" pagina_final="101658">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40150.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40150</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40150</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40151</identificador>
+              <titulo>Anuncio de la Universidad Politécnica de Cataluña sobre extravío de título de Arquitecto.</titulo>
+              <url_pdf szBytes="154993" szKBytes="151" pagina_inicial="101659" pagina_final="101659">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40151.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40151</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40151</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2011-40152</identificador>
+              <titulo>Anuncio de la Facultad de Medicina y Odontología de la Universidad de Valencia sobre extravío de título de Licenciada en Medicina y Cirugía.</titulo>
+              <url_pdf szBytes="156372" szKBytes="153" pagina_inicial="101660" pagina_final="101660">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40152.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40152</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40152</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="ANUNCIOS PARTICULARES">
+            <item>
+              <identificador>BOE-B-2011-40153</identificador>
+              <titulo>CAIXA D'ESTALVIS DEL PENEDÈS</titulo>
+              <url_pdf szBytes="157321" szKBytes="154" pagina_inicial="101661" pagina_final="101661">https://www.boe.es/boe/dias/2011/12/09/pdfs/BOE-B-2011-40153.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2011-40153</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2011-40153</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

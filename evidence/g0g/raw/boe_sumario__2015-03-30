@@ -1,0 +1,2016 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20150330</fecha_publicacion>
+      </metadatos>
+      <diario numero="76">
+        <sumario_diario>
+          <identificador>BOE-S-2015-76</identificador>
+          <url_pdf szBytes="319097" szKBytes="312">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-S-2015-76.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2015-3375</identificador>
+                <control>2015/3227</control>
+                <titulo>Orden HAP/535/2015, de 19 de febrero, por la que se regulan la organización y funcionamiento del Registro de órganos de representación del personal en la Administración General del Estado.</titulo>
+                <url_pdf szBytes="200873" szKBytes="196" pagina_inicial="26855" pagina_final="26862">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3375.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3375</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3375</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Servicios de pago">
+              <item>
+                <identificador>BOE-A-2015-3376</identificador>
+                <control>2015/3320</control>
+                <titulo>Circular 1/2015, de 24 de marzo, del Banco de España, a los proveedores de servicios de pago, sobre información de las tasas de descuento y de intercambio percibidas.</titulo>
+                <url_pdf szBytes="287296" szKBytes="281" pagina_inicial="26863" pagina_final="26871">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3376.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3376</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3376</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2015-3377</identificador>
+                <control>2015/3231</control>
+                <titulo>Orden HAP/536/2015, de 16 de marzo, por la que se nombra funcionario de administración local con habilitación de carácter nacional, Subescala de Secretaría-Intervención, en relación al proceso selectivo convocado por Orden APU/244/2007, de 29 de enero.</titulo>
+                <url_pdf szBytes="151165" szKBytes="148" pagina_inicial="26872" pagina_final="26873">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3377.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3377</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3377</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2015-3378</identificador>
+                <control>2015/3233</control>
+                <titulo>Resolución de 24 de marzo de 2015, de la Presidencia de la Agencia Estatal de Administración Tributaria, por la que se resuelve el concurso general, convocado por Resolución de 26 de junio de 2014.</titulo>
+                <url_pdf szBytes="304644" szKBytes="298" pagina_inicial="26874" pagina_final="26882">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3378.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3378</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3378</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1011" nombre="AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2015-3379</identificador>
+                <control>2015/3188</control>
+                <titulo>Resolución de 23 de marzo de 2015, de la Agencia Española de Protección de Datos, por la que se corrigen errores en la de 12 de marzo de 2015, por la que se resuelve el concurso general, convocado por Resolución de 16 de diciembre de 2014.</titulo>
+                <url_pdf szBytes="141303" szKBytes="138" pagina_inicial="26883" pagina_final="26883">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3379.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3379</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3379</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Integraciones">
+              <item>
+                <identificador>BOE-A-2015-3380</identificador>
+                <control>2015/3140</control>
+                <titulo>Resolución de 6 de marzo de 2015, de la Universidad de La Laguna, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a doña Ana María Josefina de León Hernández</titulo>
+                <url_pdf szBytes="144516" szKBytes="141" pagina_inicial="26884" pagina_final="26884">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3380.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3380</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3380</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3381</identificador>
+                <control>2015/3142</control>
+                <titulo>Resolución de 10 de marzo de 2015, de la Universidad de La Rioja, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a doña Montserrat Mendoza Villena.</titulo>
+                <url_pdf szBytes="145419" szKBytes="142" pagina_inicial="26885" pagina_final="26885">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3381.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3381</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3381</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3382</identificador>
+                <control>2015/3143</control>
+                <titulo>Resolución de 13 de marzo de 2015, de la Universidad de Málaga, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a don Antonio Luis Ortiz Villarejo.</titulo>
+                <url_pdf szBytes="141046" szKBytes="138" pagina_inicial="26886" pagina_final="26886">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3382.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3382</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3382</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Reservistas voluntarios">
+              <item>
+                <identificador>BOE-A-2015-3383</identificador>
+                <control>2015/3323</control>
+                <titulo>Resolución 452/38025/2015, de 25 de marzo, de la Subsecretaría, por la que se modifica la Resolución 452/38124/2014, de 18 de septiembre, por la que se convoca el proceso de selección para el acceso a la condición de reservista voluntario de las Fuerzas Armadas.</titulo>
+                <url_pdf szBytes="154025" szKBytes="150" pagina_inicial="26887" pagina_final="26888">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3383.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3383</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3383</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9219" nombre="MINISTERIO DE INDUSTRIA, ENERGÍA Y TURISMO">
+            <epigrafe nombre="Cuerpo de Ingenieros de Minas del Estado">
+              <item>
+                <identificador>BOE-A-2015-3384</identificador>
+                <control>2015/3324</control>
+                <titulo>Orden IET/537/2015, de 24 de marzo, por la que se publica la relación de aprobados en la fase de oposición del proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Ingenieros de Minas del Estado, convocado por Orden IET/1564/2014, de 30 de julio.</titulo>
+                <url_pdf szBytes="161446" szKBytes="158" pagina_inicial="26889" pagina_final="26891">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3384.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3384</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3384</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1420" nombre="TRIBUNAL DE CUENTAS">
+            <epigrafe nombre="Cuerpo Superior de Auditores del Tribunal de Cuentas">
+              <item>
+                <identificador>BOE-A-2015-3385</identificador>
+                <control>2015/3196</control>
+                <titulo>Resolución de 17 de marzo de 2015, de la Presidencia del Tribunal de Cuentas, por la que se aprueban y publican las relaciones definitivas de admitidos y excluidos a las pruebas selectivas para ingreso en el Cuerpo Superior de Auditores del Tribunal de Cuentas.</titulo>
+                <url_pdf szBytes="143254" szKBytes="140" pagina_inicial="26892" pagina_final="26892">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3385.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3385</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3385</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuerpo Superior de Letrados del Tribunal de Cuentas">
+              <item>
+                <identificador>BOE-A-2015-3386</identificador>
+                <control>2015/3197</control>
+                <titulo>Resolución de 17 de marzo de 2015, de la Presidencia del Tribunal de Cuentas, por la que se aprueban y publican las relaciones definitivas de admitidos y excluidos a las pruebas selectivas para ingreso en el Cuerpo Superior de Letrados del Tribunal de Cuentas.</titulo>
+                <url_pdf szBytes="143180" szKBytes="140" pagina_inicial="26893" pagina_final="26893">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3386.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3386</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3386</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuerpo Técnico de Auditoría y Control Externo del Tribunal de Cuentas">
+              <item>
+                <identificador>BOE-A-2015-3387</identificador>
+                <control>2015/3198</control>
+                <titulo>Resolución de 17 de marzo de 2015, de la Presidencia del Tribunal de Cuentas, por la que se aprueban y publican las relaciones definitivas de admitidos y excluidos a las pruebas selectivas para ingreso en el Cuerpo Técnico de Auditoría y Control Externo del Tribunal de Cuentas.</titulo>
+                <url_pdf szBytes="143522" szKBytes="140" pagina_inicial="26894" pagina_final="26894">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3387.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3387</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3387</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario">
+              <item>
+                <identificador>BOE-A-2015-3395</identificador>
+                <control>2015/3251</control>
+                <titulo>Resolución de 17 de marzo de 2015, de la Diputación Provincial de Jaén, referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.</titulo>
+                <url_pdf szBytes="139560" szKBytes="136" pagina_inicial="26902" pagina_final="26902">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3395.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3395</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3395</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3399</identificador>
+                <control>2015/3258</control>
+                <titulo>Resolución de 18 de marzo de 2015, del Ayuntamiento de Almendralejo (Badajoz), referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.</titulo>
+                <url_pdf szBytes="139790" szKBytes="137" pagina_inicial="26906" pagina_final="26906">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3399.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3399</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3399</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3400</identificador>
+                <control>2015/3259</control>
+                <titulo>Resolución de 18 de marzo de 2015, del Ayuntamiento de Aranda de Duero (Burgos), referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.</titulo>
+                <url_pdf szBytes="139654" szKBytes="136" pagina_inicial="26907" pagina_final="26907">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3400.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3400</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3400</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3403</identificador>
+                <control>2015/3261</control>
+                <titulo>Resolución de 19 de marzo de 2015, del Ayuntamiento de Almendralejo (Badajoz), referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.</titulo>
+                <url_pdf szBytes="139790" szKBytes="137" pagina_inicial="26910" pagina_final="26910">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3403.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3403</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3403</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2015-3388</identificador>
+                <control>2015/3242</control>
+                <titulo>Resolución de 4 de marzo de 2015, del Ayuntamiento de Tavernes de la Valldigna (Valencia), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="141396" szKBytes="138" pagina_inicial="26895" pagina_final="26895">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3388.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3388</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3388</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3389</identificador>
+                <control>2015/3199</control>
+                <titulo>Resolución de 9 de marzo de 2015, del Ayuntamiento de Málaga, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="143202" szKBytes="140" pagina_inicial="26896" pagina_final="26896">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3389.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3389</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3389</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3390</identificador>
+                <control>2015/3243</control>
+                <titulo>Resolución de 9 de marzo de 2015, del Ayuntamiento de Fréscano (Zaragoza), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="139490" szKBytes="136" pagina_inicial="26897" pagina_final="26897">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3390.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3390</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3390</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3391</identificador>
+                <control>2015/3244</control>
+                <titulo>Resolución de 11 de marzo de 2015, de la Diputación Provincial de Castellón, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="139638" szKBytes="136" pagina_inicial="26898" pagina_final="26898">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3391.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3391</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3391</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3392</identificador>
+                <control>2015/3245</control>
+                <titulo>Resolución de 12 de marzo de 2015, del Ayuntamiento de Valencia, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="140583" szKBytes="137" pagina_inicial="26899" pagina_final="26899">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3392.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3392</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3392</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3393</identificador>
+                <control>2015/3247</control>
+                <titulo>Resolución de 13 de marzo de 2015, del Ayuntamiento de Punta Umbría (Huelva), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="141333" szKBytes="138" pagina_inicial="26900" pagina_final="26900">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3393.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3393</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3393</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3394</identificador>
+                <control>2015/3248</control>
+                <titulo>Resolución de 16 de marzo de 2015, del Ayuntamiento de Mijas (Málaga), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="139639" szKBytes="136" pagina_inicial="26901" pagina_final="26901">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3394.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3394</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3394</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3396</identificador>
+                <control>2015/3249</control>
+                <titulo>Resolución de 17 de marzo de 2015, del Ayuntamiento de Aldeanueva de la Vera (Cáceres), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="138415" szKBytes="135" pagina_inicial="26903" pagina_final="26903">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3396.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3396</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3396</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3397</identificador>
+                <control>2015/3252</control>
+                <titulo>Resolución de 18 de marzo de 2015, de la Diputación Provincial de Toledo, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="140806" szKBytes="138" pagina_inicial="26904" pagina_final="26904">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3397.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3397</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3397</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3398</identificador>
+                <control>2015/3253</control>
+                <titulo>Resolución de 18 de marzo de 2015, del Ayuntamiento de Algarrobo (Málaga), que deja sin efecto la de 26 de febrero de 2015, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="137868" szKBytes="135" pagina_inicial="26905" pagina_final="26905">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3398.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3398</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3398</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3401</identificador>
+                <control>2015/3255</control>
+                <titulo>Resolución de 18 de marzo de 2015, del Ayuntamiento de Deltebre (Tarragona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="140480" szKBytes="137" pagina_inicial="26908" pagina_final="26908">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3401.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3401</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3401</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3402</identificador>
+                <control>2015/3256</control>
+                <titulo>Resolución de 18 de marzo de 2015, del Ayuntamiento de Deltebre (Tarragona), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="140395" szKBytes="137" pagina_inicial="26909" pagina_final="26909">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3402.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3402</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3402</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3404</identificador>
+                <control>2015/3201</control>
+                <titulo>Resolución de 20 de marzo de 2015, del Ayuntamiento de Chiclana de la Frontera (Cádiz), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="139165" szKBytes="136" pagina_inicial="26911" pagina_final="26911">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3404.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3404</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3404</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3405</identificador>
+                <control>2015/3262</control>
+                <titulo>Resolución de 20 de marzo de 2015, del Ayuntamiento del Valle de Mena (Burgos), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="138668" szKBytes="135" pagina_inicial="26912" pagina_final="26912">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3405.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3405</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3405</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Premios">
+              <item>
+                <identificador>BOE-A-2015-3406</identificador>
+                <control>2015/3164</control>
+                <titulo>Resolución de 16 de marzo de 2015, de la Secretaría General de Cooperación Internacional para el Desarrollo, por la que se convoca el Premio Bartolomé de las Casas, correspondiente a 2015.</titulo>
+                <url_pdf szBytes="164153" szKBytes="160" pagina_inicial="26913" pagina_final="26915">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3406.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3406</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3406</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Indultos">
+              <item>
+                <identificador>BOE-A-2015-3407</identificador>
+                <control>2015/3389</control>
+                <titulo>Real Decreto 247/2015, de 27 de marzo, por el que se indulta a don Enrique Cirre Mingorance.</titulo>
+                <url_pdf szBytes="139827" szKBytes="137" pagina_inicial="26916" pagina_final="26916">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3407.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3407</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3407</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3408</identificador>
+                <control>2015/3390</control>
+                <titulo>Real Decreto 248/2015, de 27 de marzo, por el que se indulta a don Daniel Cruz Fajardo.</titulo>
+                <url_pdf szBytes="139770" szKBytes="136" pagina_inicial="26917" pagina_final="26917">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3408.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3408</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3408</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3409</identificador>
+                <control>2015/3391</control>
+                <titulo>Real Decreto 249/2015, de 27 de marzo, por el que se indulta a don Roberto David Rocher.</titulo>
+                <url_pdf szBytes="139174" szKBytes="136" pagina_inicial="26918" pagina_final="26918">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3409.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3409</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3409</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3410</identificador>
+                <control>2015/3392</control>
+                <titulo>Real Decreto 250/2015, de 27 de marzo, por el que se indulta a doña Margarita Díaz de la Quintana Benedí.</titulo>
+                <url_pdf szBytes="140351" szKBytes="137" pagina_inicial="26919" pagina_final="26919">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3410.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3410</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3410</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3411</identificador>
+                <control>2015/3393</control>
+                <titulo>Real Decreto 251/2015, de 27 de marzo, por el que se indulta a don Ramón García González.</titulo>
+                <url_pdf szBytes="138479" szKBytes="135" pagina_inicial="26920" pagina_final="26920">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3411.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3411</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3411</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3412</identificador>
+                <control>2015/3394</control>
+                <titulo>Real Decreto 252/2015, de 27 de marzo, por el que se indulta a don Francisco José García Padilla.</titulo>
+                <url_pdf szBytes="139913" szKBytes="137" pagina_inicial="26921" pagina_final="26921">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3412.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3412</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3412</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3413</identificador>
+                <control>2015/3395</control>
+                <titulo>Real Decreto 253/2015, de 27 de marzo, por el que se indulta a don Domingo García Pérez.</titulo>
+                <url_pdf szBytes="139726" szKBytes="136" pagina_inicial="26922" pagina_final="26922">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3413.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3413</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3413</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3414</identificador>
+                <control>2015/3396</control>
+                <titulo>Real Decreto 254/2015, de 27 de marzo, por el que se indulta a don Enrique Lapeña García.</titulo>
+                <url_pdf szBytes="139433" szKBytes="136" pagina_inicial="26923" pagina_final="26923">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3414.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3414</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3414</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3415</identificador>
+                <control>2015/3397</control>
+                <titulo>Real Decreto 255/2015, de 27 de marzo, por el que se indulta a doña Ángeles Martínez Maya.</titulo>
+                <url_pdf szBytes="139515" szKBytes="136" pagina_inicial="26924" pagina_final="26924">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3415.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3415</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3415</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3416</identificador>
+                <control>2015/3398</control>
+                <titulo>Real Decreto 256/2015, de 27 de marzo, por el que se indulta a doña Mihaela Raluca Masinescu.</titulo>
+                <url_pdf szBytes="139728" szKBytes="136" pagina_inicial="26925" pagina_final="26925">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3416.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3416</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3416</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3417</identificador>
+                <control>2015/3399</control>
+                <titulo>Real Decreto 257/2015, de 27 de marzo, por el que se indulta a don Juan Carlos Soto García.</titulo>
+                <url_pdf szBytes="140170" szKBytes="137" pagina_inicial="26926" pagina_final="26926">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3417.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3417</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3417</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2015-3418</identificador>
+                <control>2015/3165</control>
+                <titulo>Resolución de 5 de marzo de 2015, de la Dirección General de Relaciones con la Administración de Justicia, por la que se emplaza a los interesados en el recurso contencioso-administrativo, procedimiento ordinario 82/2015, interpuesto ante la Sección Séptima de la Sala de lo Contencioso-Administrativo del Tribunal Superior de Justicia de Madrid.</titulo>
+                <url_pdf szBytes="140497" szKBytes="137" pagina_inicial="26927" pagina_final="26927">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3418.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3418</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3418</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3419</identificador>
+                <control>2015/3166</control>
+                <titulo>Resolución de 6 de marzo de 2015, de la Secretaría General de la Administración de Justicia, por la que se emplaza a los interesados en el recurso contencioso-administrativo, procedimiento abreviado 1/2015, interpuesto ante el Juzgado Central de lo Contencioso-Administrativo n.º 1.</titulo>
+                <url_pdf szBytes="140837" szKBytes="138" pagina_inicial="26928" pagina_final="26928">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3419.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3419</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3419</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Instituto Nacional de Administración Pública. Cursos">
+              <item>
+                <identificador>BOE-A-2015-3420</identificador>
+                <control>2015/3337</control>
+                <titulo>Resolución de 26 de marzo de 2015, del Instituto Nacional de Administración Pública, por la que se convoca el Máster en Turismo y Administración Pública, en modalidad semipresencial.</titulo>
+                <url_pdf szBytes="200627" szKBytes="196" pagina_inicial="26929" pagina_final="26932">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3420.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3420</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3420</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Sellos de correos">
+              <item>
+                <identificador>BOE-A-2015-3421</identificador>
+                <control>2015/3348</control>
+                <titulo>Resolución de 13 de marzo de 2015, conjunta de las Subsecretarías de Fomento y de Hacienda y Administraciones Públicas, sobre emisión y puesta en circulación de tres series de sellos de correo denominadas "Cine Español.-2015", "Juvenia.-2015" y "Personajes.-2015. Luis Aragonés".</titulo>
+                <url_pdf szBytes="157081" szKBytes="153" pagina_inicial="26933" pagina_final="26934">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3421.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3421</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3421</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3422</identificador>
+                <control>2015/3349</control>
+                <titulo>Resolución de 13 de marzo de 2015, conjunta de las Subsecretarías de Fomento y de Hacienda y Administraciones Públicas, sobre emisión y puesta en circulación de tres series de sellos de correo denominadas "Personajes.-2015. Gabriel García Márquez", "Europa.-2015. Juguetes" y "Patrimonio Mundial.- 2015".</titulo>
+                <url_pdf szBytes="159401" szKBytes="156" pagina_inicial="26935" pagina_final="26937">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3422.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3422</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3422</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3423</identificador>
+                <control>2015/3350</control>
+                <titulo>Resolución de 13 de marzo de 2015, conjunta de las Subsecretarías de Fomento y de Hacienda y Administraciones Públicas, sobre emisión y puesta en circulación de una serie de sellos de correo denominada "Europa.-2015.- Principat d'Andorra".</titulo>
+                <url_pdf szBytes="152284" szKBytes="149" pagina_inicial="26938" pagina_final="26939">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3423.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3423</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3423</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3424</identificador>
+                <control>2015/3351</control>
+                <titulo>Resolución de 13 de marzo de 2015, conjunta de las Subsecretarías de Fomento y de Hacienda y Administraciones Públicas, sobre emisión y puesta en circulación de una tarjeta prefranqueada de correo denominada "150 Aniversario del sello dentado. Exposiciones territoriales 2015".</titulo>
+                <url_pdf szBytes="154164" szKBytes="151" pagina_inicial="26940" pagina_final="26941">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3424.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3424</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3424</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Deportistas de alto nivel">
+              <item>
+                <identificador>BOE-A-2015-3425</identificador>
+                <control>2015/3207</control>
+                <titulo>Resolución de 12 de marzo de 2015, de la Presidencia del Consejo Superior de Deportes, declarando la pérdida de la condición de deportista de alto nivel.</titulo>
+                <url_pdf szBytes="140355" szKBytes="137" pagina_inicial="26942" pagina_final="26942">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3425.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3425</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3425</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Premios">
+              <item>
+                <identificador>BOE-A-2015-3426</identificador>
+                <control>2015/3208</control>
+                <titulo>Resolución de 17 de marzo de 2015, del Consejo Superior de Deportes, por la que se convocan los Premios Nacionales del Deporte correspondientes al año 2014.</titulo>
+                <url_pdf szBytes="157422" szKBytes="154" pagina_inicial="26943" pagina_final="26945">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3426.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3426</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3426</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2015-3427</identificador>
+                <control>2015/3354</control>
+                <titulo>Resolución de 12 de marzo de 2015, de la Secretaría de Estado de Educación, Formación Profesional y Universidades, por la que se conceden subvenciones para proyectos de cooperación interuniversitaria con Brasil de la modalidad A.</titulo>
+                <url_pdf szBytes="483664" szKBytes="472" pagina_inicial="26946" pagina_final="26966">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3427.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3427</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3427</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3428</identificador>
+                <control>2015/3355</control>
+                <titulo>Resolución de 13 de marzo de 2015, de la Secretaría de Estado de Educación, Formación Profesional y Universidades, por la que se conceden subvenciones para proyectos de cooperación interuniversitaria con Brasil de la modalidad B.</titulo>
+                <url_pdf szBytes="309944" szKBytes="303" pagina_inicial="26967" pagina_final="26973">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3428.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3428</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3428</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9219" nombre="MINISTERIO DE INDUSTRIA, ENERGÍA Y TURISMO">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2015-3429</identificador>
+                <control>2015/3363</control>
+                <titulo>Resolución de 23 de marzo de 2015, de la Entidad Pública Empresarial Red.es, por la que se convocan ayudas del Programa de impulso de la actividad de centros demostradores TIC y se establecen las bases reguladoras.</titulo>
+                <url_pdf szBytes="510764" szKBytes="499" pagina_inicial="26974" pagina_final="26999">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3429.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3429</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3429</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Homologaciones">
+              <item>
+                <identificador>BOE-A-2015-3430</identificador>
+                <control>2015/3213</control>
+                <titulo>Resolución de 16 de marzo de 2015, de la Dirección General de Política Energética y Minas, por la que se autoriza la modificación de la aprobación de tipo de aparato radiactivo de los equipos de rayos X de la marca Rigaku, para incorporar los modelos ZSX Primus, Simultix 14, Micro-Z ULS y varios modelos de la serie Mini (Mini-Z Si, Mini-Z S, Mini-Z Zr, Mini-Z Ni, Mini-Z CL y Mini-Z AL).</titulo>
+                <url_pdf szBytes="163941" szKBytes="160" pagina_inicial="27000" pagina_final="27002">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3430.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3430</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3430</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7710" nombre="MINISTERIO DE LA PRESIDENCIA">
+            <epigrafe nombre="Comunidad Autónoma de Cantabria. Convenio">
+              <item>
+                <identificador>BOE-A-2015-3431</identificador>
+                <control>2015/3003</control>
+                <titulo>Resolución de 16 de marzo de 2015, de la Subsecretaría, por la que se publica el Convenio de colaboración entre el Ministerio de Educación, Cultura y Deporte, el Ministerio de Empleo y Seguridad Social y el Gobierno de Cantabria, para la creación del Centro de Referencia Nacional en el área profesional Sistemas y Telemática de la familia profesional Informática y Comunicaciones en el ámbito de la formación profesional.</titulo>
+                <url_pdf szBytes="440466" szKBytes="430" pagina_inicial="27003" pagina_final="27017">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3431.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3431</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3431</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <epigrafe nombre="Deuda del Estado">
+              <item>
+                <identificador>BOE-A-2015-3432</identificador>
+                <control>2015/3215</control>
+                <titulo>Resolución de 16 de marzo de 2015, de la Secretaría General del Tesoro y Política Financiera, por la que se publican los resultados de las subastas de Bonos y Obligaciones del Estado celebradas el día 12 de marzo de 2015.</titulo>
+                <url_pdf szBytes="185774" szKBytes="181" pagina_inicial="27018" pagina_final="27020">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3432.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3432</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3432</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2015-3433</identificador>
+                <control>2015/3365</control>
+                <titulo>Resolución de 9 de marzo de 2015, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se convocan subvenciones a entidades del tercer sector de ámbito estatal colaboradoras con la Secretaría de Estado de Servicios Sociales e Igualdad.</titulo>
+                <url_pdf szBytes="582406" szKBytes="569" pagina_inicial="27021" pagina_final="27043">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3433.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3433</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3433</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2015-3434</identificador>
+                <control>2015/3222</control>
+                <titulo>Resolución de 16 de marzo de 2015, del Banco de España, por la que se publica la baja en el Registro de Entidades de Crédito de Ing Belgium, S. A., Sucursal en España.</titulo>
+                <url_pdf szBytes="140678" szKBytes="137" pagina_inicial="27044" pagina_final="27044">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3434.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3434</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3434</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Entidades de inspección y control">
+              <item>
+                <identificador>BOE-A-2015-3435</identificador>
+                <control>2015/3174</control>
+                <titulo>Resolución de 23 de febrero de 2015, de la Dirección General de Energía, Minas y Seguridad Industrial, del Departamento de Empresa y Empleo, por la que se designa a Consorcio Centro de Laboratorios y Servicios Industriales de Madrid, SL, como organismo autorizado de verificación metrológica de sistemas de medida de líquidos distintos del agua denominados surtidores o dispensadores destinados al suministro a vehículos automóviles de sustancias no destinadas a su uso como combustible.</titulo>
+                <url_pdf szBytes="152465" szKBytes="149" pagina_inicial="27045" pagina_final="27046">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3435.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3435</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3435</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3436</identificador>
+                <control>2015/3175</control>
+                <titulo>Resolución de 23 de febrero de 2015, de la Dirección General de Energía, Minas y Seguridad Industrial, del Departamento de Empresa y Empleo, por la que se designa a Consorcio Centro de Laboratorios y Servicios Industriales de Madrid, SL, como organismo autorizado de verificación metrológica de manómetros de uso público para neumáticos de vehículos automóviles.</titulo>
+                <url_pdf szBytes="152366" szKBytes="149" pagina_inicial="27047" pagina_final="27048">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3436.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3436</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3436</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Planes de estudios">
+              <item>
+                <identificador>BOE-A-2015-3437</identificador>
+                <control>2015/3225</control>
+                <titulo>Resolución de 22 de octubre de 2014, de la Universidad de Málaga, por la que se publica la modificación del plan de estudios de Graduado en Pedagogía.</titulo>
+                <url_pdf szBytes="274308" szKBytes="268" pagina_inicial="27049" pagina_final="27054">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3437.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3437</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3437</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-3438</identificador>
+                <control>2015/3226</control>
+                <titulo>Resolución de 23 de octubre de 2014, de la Universidad de Málaga, por la que se publica la modificación del plan de estudios de Graduado en Administración y Dirección de Empresas.</titulo>
+                <url_pdf szBytes="281330" szKBytes="275" pagina_inicial="27055" pagina_final="27060">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-A-2015-3438.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3438</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-3438</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="1430" nombre="TRIBUNAL SUPREMO">
+            <item>
+              <identificador>BOE-B-2015-9818</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="155417" szKBytes="152" pagina_inicial="13497" pagina_final="13497">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9818.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9818</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9818</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9819</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="155474" szKBytes="152" pagina_inicial="13498" pagina_final="13498">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9819.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9819</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9819</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9820</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154909" szKBytes="151" pagina_inicial="13499" pagina_final="13499">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9820.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9820</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9820</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9821</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154461" szKBytes="151" pagina_inicial="13500" pagina_final="13500">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9821.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9821</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9821</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9822</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154318" szKBytes="151" pagina_inicial="13501" pagina_final="13501">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9822.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9822</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9822</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9823</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154282" szKBytes="151" pagina_inicial="13502" pagina_final="13502">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9823.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9823</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9823</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9824</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154497" szKBytes="151" pagina_inicial="13503" pagina_final="13503">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9824.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9824</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9824</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9825</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154545" szKBytes="151" pagina_inicial="13504" pagina_final="13504">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9825.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9825</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9825</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9826</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154625" szKBytes="151" pagina_inicial="13505" pagina_final="13505">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9826.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9826</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9826</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9827</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154275" szKBytes="151" pagina_inicial="13506" pagina_final="13506">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9827.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9827</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9827</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9828</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154419" szKBytes="151" pagina_inicial="13507" pagina_final="13507">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9828.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9828</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9828</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9829</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154280" szKBytes="151" pagina_inicial="13508" pagina_final="13508">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9829.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9829</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9829</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9830</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154367" szKBytes="151" pagina_inicial="13509" pagina_final="13509">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9830.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9830</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9830</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9831</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154374" szKBytes="151" pagina_inicial="13510" pagina_final="13510">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9831.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9831</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9831</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9832</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="154565" szKBytes="151" pagina_inicial="13511" pagina_final="13511">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9832.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9832</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9832</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9833</identificador>
+              <titulo>SALA DE LO CONTENCIOSO-ADMINISTRATIVO</titulo>
+              <url_pdf szBytes="155045" szKBytes="151" pagina_inicial="13512" pagina_final="13512">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9833.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9833</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9833</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2015-9834</identificador>
+              <titulo>LUGO</titulo>
+              <url_pdf szBytes="156081" szKBytes="152" pagina_inicial="13513" pagina_final="13513">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9834.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9834</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9834</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9835</identificador>
+              <titulo>PALENCIA</titulo>
+              <url_pdf szBytes="156947" szKBytes="153" pagina_inicial="13514" pagina_final="13514">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9835.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9835</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9835</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9836</identificador>
+              <titulo>TELDE</titulo>
+              <url_pdf szBytes="161739" szKBytes="158" pagina_inicial="13515" pagina_final="13516">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9836.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9836</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9836</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2015-9837</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="156521" szKBytes="153" pagina_inicial="13517" pagina_final="13517">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9837.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9837</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9837</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9838</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="157279" szKBytes="154" pagina_inicial="13518" pagina_final="13518">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9838.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9838</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9838</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9839</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="157758" szKBytes="154" pagina_inicial="13519" pagina_final="13519">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9839.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9839</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9839</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9840</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="155194" szKBytes="152" pagina_inicial="13520" pagina_final="13520">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9840.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9840</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9840</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9841</identificador>
+              <titulo>BADAJOZ</titulo>
+              <url_pdf szBytes="157755" szKBytes="154" pagina_inicial="13521" pagina_final="13521">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9841.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9841</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9841</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9842</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="154317" szKBytes="151" pagina_inicial="13522" pagina_final="13522">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9842.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9842</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9842</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9843</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="156073" szKBytes="152" pagina_inicial="13523" pagina_final="13523">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9843.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9843</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9843</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9844</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="153815" szKBytes="150" pagina_inicial="13524" pagina_final="13524">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9844.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9844</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9844</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9845</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="153619" szKBytes="150" pagina_inicial="13525" pagina_final="13525">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9845.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9845</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9845</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9846</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="159381" szKBytes="156" pagina_inicial="13526" pagina_final="13526">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9846.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9846</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9846</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9847</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="158417" szKBytes="155" pagina_inicial="13527" pagina_final="13527">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9847.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9847</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9847</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9848</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="153650" szKBytes="150" pagina_inicial="13528" pagina_final="13528">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9848.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9848</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9848</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9849</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="158147" szKBytes="154" pagina_inicial="13529" pagina_final="13529">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9849.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9849</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9849</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9850</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="154234" szKBytes="151" pagina_inicial="13530" pagina_final="13530">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9850.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9850</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9850</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9851</identificador>
+              <titulo>CÁCERES</titulo>
+              <url_pdf szBytes="156033" szKBytes="152" pagina_inicial="13531" pagina_final="13531">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9851.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9851</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9851</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9852</identificador>
+              <titulo>CÁCERES</titulo>
+              <url_pdf szBytes="155622" szKBytes="152" pagina_inicial="13532" pagina_final="13532">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9852.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9852</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9852</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9853</identificador>
+              <titulo>CÁDIZ</titulo>
+              <url_pdf szBytes="157095" szKBytes="153" pagina_inicial="13533" pagina_final="13533">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9853.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9853</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9853</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9854</identificador>
+              <titulo>CASTELLÓN DE LA PLANA</titulo>
+              <url_pdf szBytes="158648" szKBytes="155" pagina_inicial="13534" pagina_final="13534">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9854.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9854</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9854</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9855</identificador>
+              <titulo>CASTELLÓN DE LA PLANA</titulo>
+              <url_pdf szBytes="157997" szKBytes="154" pagina_inicial="13535" pagina_final="13535">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9855.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9855</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9855</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9856</identificador>
+              <titulo>CASTELLÓN DE LA PLANA</titulo>
+              <url_pdf szBytes="158012" szKBytes="154" pagina_inicial="13536" pagina_final="13536">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9856.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9856</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9856</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9857</identificador>
+              <titulo>CIUDAD REAL</titulo>
+              <url_pdf szBytes="158431" szKBytes="155" pagina_inicial="13537" pagina_final="13537">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9857.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9857</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9857</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9858</identificador>
+              <titulo>GRANADA</titulo>
+              <url_pdf szBytes="157666" szKBytes="154" pagina_inicial="13538" pagina_final="13538">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9858.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9858</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9858</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9859</identificador>
+              <titulo>JAÉN</titulo>
+              <url_pdf szBytes="154009" szKBytes="150" pagina_inicial="13539" pagina_final="13539">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9859.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9859</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9859</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9860</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="156533" szKBytes="153" pagina_inicial="13540" pagina_final="13540">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9860.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9860</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9860</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9861</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="153862" szKBytes="150" pagina_inicial="13541" pagina_final="13541">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9861.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9861</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9861</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9862</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="158896" szKBytes="155" pagina_inicial="13542" pagina_final="13542">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9862.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9862</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9862</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9863</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="156841" szKBytes="153" pagina_inicial="13543" pagina_final="13543">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9863.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9863</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9863</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9864</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="157134" szKBytes="153" pagina_inicial="13544" pagina_final="13544">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9864.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9864</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9864</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9865</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="158046" szKBytes="154" pagina_inicial="13545" pagina_final="13545">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9865.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9865</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9865</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9866</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="156812" szKBytes="153" pagina_inicial="13546" pagina_final="13546">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9866.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9866</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9866</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9867</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="157979" szKBytes="154" pagina_inicial="13547" pagina_final="13547">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9867.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9867</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9867</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9868</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="158167" szKBytes="154" pagina_inicial="13548" pagina_final="13548">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9868.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9868</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9868</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9869</identificador>
+              <titulo>MÁLAGA</titulo>
+              <url_pdf szBytes="157969" szKBytes="154" pagina_inicial="13549" pagina_final="13549">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9869.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9869</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9869</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9870</identificador>
+              <titulo>OVIEDO</titulo>
+              <url_pdf szBytes="157575" szKBytes="154" pagina_inicial="13550" pagina_final="13550">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9870.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9870</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9870</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9871</identificador>
+              <titulo>PALMA DE MALLORCA</titulo>
+              <url_pdf szBytes="159341" szKBytes="156" pagina_inicial="13551" pagina_final="13551">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9871.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9871</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9871</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9872</identificador>
+              <titulo>PAMPLONA</titulo>
+              <url_pdf szBytes="159545" szKBytes="156" pagina_inicial="13552" pagina_final="13552">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9872.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9872</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9872</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9873</identificador>
+              <titulo>PONTEVEDRA</titulo>
+              <url_pdf szBytes="156386" szKBytes="153" pagina_inicial="13553" pagina_final="13553">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9873.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9873</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9873</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9874</identificador>
+              <titulo>PONTEVEDRA</titulo>
+              <url_pdf szBytes="157609" szKBytes="154" pagina_inicial="13554" pagina_final="13554">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9874.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9874</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9874</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9875</identificador>
+              <titulo>SALAMANCA</titulo>
+              <url_pdf szBytes="155453" szKBytes="152" pagina_inicial="13555" pagina_final="13555">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9875.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9875</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9875</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9876</identificador>
+              <titulo>SANTA CRUZ DE TENERIFE</titulo>
+              <url_pdf szBytes="160840" szKBytes="157" pagina_inicial="13556" pagina_final="13556">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9876.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9876</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9876</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9877</identificador>
+              <titulo>SANTA CRUZ DE TENERIFE</titulo>
+              <url_pdf szBytes="164122" szKBytes="160" pagina_inicial="13557" pagina_final="13558">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9877.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9877</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9877</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9878</identificador>
+              <titulo>SANTA CRUZ DE TENERIFE</titulo>
+              <url_pdf szBytes="163836" szKBytes="160" pagina_inicial="13559" pagina_final="13560">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9878.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9878</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9878</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9879</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="155792" szKBytes="152" pagina_inicial="13561" pagina_final="13561">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9879.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9879</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9879</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9880</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="155968" szKBytes="152" pagina_inicial="13562" pagina_final="13562">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9880.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9880</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9880</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9881</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="156400" szKBytes="153" pagina_inicial="13563" pagina_final="13563">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9881.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9881</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9881</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9882</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="156301" szKBytes="153" pagina_inicial="13564" pagina_final="13564">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9882.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9882</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9882</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9883</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="154804" szKBytes="151" pagina_inicial="13565" pagina_final="13565">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9883.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9883</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9883</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9884</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="155713" szKBytes="152" pagina_inicial="13566" pagina_final="13566">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9884.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9884</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9884</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9885</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="154361" szKBytes="151" pagina_inicial="13567" pagina_final="13567">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9885.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9885</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9885</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9548" nombre="JUZGADOS DE LO SOCIAL">
+            <item>
+              <identificador>BOE-B-2015-9886</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="161904" szKBytes="158" pagina_inicial="13568" pagina_final="13569">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9886.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9886</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9886</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9549" nombre="TRIBUNALES MILITARES TERRITORIALES">
+            <item>
+              <identificador>BOE-B-2015-9887</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="153047" szKBytes="149" pagina_inicial="13570" pagina_final="13570">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9887.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9887</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9887</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Anuncios de licitaciones públicas y adjudicaciones">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <item>
+              <identificador>BOE-B-2015-9888</identificador>
+              <titulo>Anuncio de la Resolución de 16 de marzo de 2015, de la Subsecretaría de Justicia, para la licitación del contrato de suministros denominado "Suministro de energía eléctrica en los edificios sede de los Servicios Centrales del Ministerio de Justicia en Madrid".</titulo>
+              <url_pdf szBytes="172968" szKBytes="169" pagina_inicial="13571" pagina_final="13572">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9888.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9888</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9888</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2015-9889</identificador>
+              <titulo>Anuncio del Órgano de Contratación de la Sección Económica Administrativa de la Base Aérea de Morón para la licitación del expediente de servicios 4 24 00 15 0125 00 (20150125) titulado "Servicio de limpieza de jardines y piscinas Base Aérea de Morón.</titulo>
+              <url_pdf szBytes="174929" szKBytes="171" pagina_inicial="13573" pagina_final="13574">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9889.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9889</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9889</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9890</identificador>
+              <titulo>Anuncio del Órgano de Contratación de la Sección Económico Administrativa de la Base Aérea de Morón para la licitación del expediente de servicios 4 24 00 15 0126 00 (20150126) titulado "Servicio de recogida de residuos en la Base Aérea de Morón y Ala 11".</titulo>
+              <url_pdf szBytes="174915" szKBytes="171" pagina_inicial="13575" pagina_final="13576">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9890.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9890</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9890</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9891</identificador>
+              <titulo>Anuncio del Órgano de Contratación de la Sección Económica Administrativa de la Base Aérea de Morón para la licitación del expediente de Suministros 4 24 00 15 0118 00 (20150118) titulado "Suministro de productos de alimentación para la Base Aérea de Armilla".</titulo>
+              <url_pdf szBytes="174943" szKBytes="171" pagina_inicial="13577" pagina_final="13578">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9891.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9891</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9891</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9892</identificador>
+              <titulo>Resolución del Instituto de Vivienda, Infraestructura y Equipamiento de la Defensa por la que se anuncia la enajenación mediante una, dos, o tres subastas públicas sucesivas (en primera, o primera y segunda, o primera, segunda y tercera, o tercera y cuarta, o segunda, tercera y cuarta) con proposición económica en sobre cerrado de varias propiedades sitas en Cartagena (Murcia), Oviedo (Asturias), Alcalá de Henares (Madrid); L´Estartit. Torroella de Montgrí (Gerona); Cañas (La Rioja); Talavera de la Reina (Toledo); Montearagon (Toledo); y Lucillos (Toledo).</titulo>
+              <url_pdf szBytes="185565" szKBytes="181" pagina_inicial="13579" pagina_final="13582">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9892.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9892</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9892</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9893</identificador>
+              <titulo>Anuncio de licitación de: Jefatura de la Sección de Asuntos Económicos de la Unidad Militar de Emergencias. Objeto: Suministro de nuevo equipamiento para el edificio de mando del Batallón de Intervención n.º I de la Unidad Militar de Emergencias. Expediente: 10021/15/0046 (2015/SP02038000/00000364).</titulo>
+              <url_pdf szBytes="176177" szKBytes="172" pagina_inicial="13583" pagina_final="13584">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9893.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9893</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9893</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9894</identificador>
+              <titulo>Anuncio de corrección de errores al anuncio de formalización de contrato de la Subdirección General de Servicios Económicos y Pagadurías para la contratación del Servicio de Reconocimientos Médicos específicos para el personal funcionario estatutario y laboral del Ministerio de Defensa durante el año 2015, publicado el día 21 de marzo en el Boletín Oficial del Estado 69, página 11921.</titulo>
+              <url_pdf szBytes="160693" szKBytes="157" pagina_inicial="13585" pagina_final="13585">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9894.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9894</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9894</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9895</identificador>
+              <titulo>Anuncio de la Unidad de Contratación de Intendencia de Madrid, por el que se hace pública la formalización del contrato de alquiler de apartamentos de Acción Social de la Armada, para el verano 2015.</titulo>
+              <url_pdf szBytes="163754" szKBytes="160" pagina_inicial="13586" pagina_final="13586">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9895.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9895</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9895</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9896</identificador>
+              <titulo>Resolución del Órgano de Contratación de la Base Aérea de Albacete por la que se anuncia la licitación del expediente 2015/EA23/00000313 "Servicio de restauración de la cafetería/bar de la Línea de Vuelo, Base Aérea de Albacete".</titulo>
+              <url_pdf szBytes="164861" szKBytes="161" pagina_inicial="13587" pagina_final="13587">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9896.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9896</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9896</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9897</identificador>
+              <titulo>Resolución del Órgano de Contratación de la Base Aérea de Albacete por la que se anuncia la licitación del expediente 2015/EA23/00000320 "Servicio de peluquería de la Unidad, Base Aérea de Albacete".</titulo>
+              <url_pdf szBytes="164440" szKBytes="161" pagina_inicial="13588" pagina_final="13588">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9897.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9897</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9897</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9898</identificador>
+              <titulo>Anuncio de la Unidad de Contratación de la Intendencia de Madrid por la que se hace pública la formalización del servicio de Hostelería (actividad de hospedaje) para la Residencia Logística "Navío".</titulo>
+              <url_pdf szBytes="164677" szKBytes="161" pagina_inicial="13589" pagina_final="13589">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9898.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9898</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9898</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9899</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de Intendencia de Asuntos Económicos Centro. Objeto: Adquisición de Material Sanitario Diverso (Instrumental para Mochilas, Controladores Rcp, Monitores Desfibriladores, Respiradores Neumáticos, Resucitadores,reguladores de Oxigeno, Inyectores Intraóseos y Mochilas Soporte Vital Avanzado), para Ualsan. Expediente: 2003814082600.</titulo>
+              <url_pdf szBytes="177684" szKBytes="174" pagina_inicial="13590" pagina_final="13592">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9899.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9899</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9899</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9900</identificador>
+              <titulo>Resolución de la Secretaria General Técnica del Ministerio de Defensa, por la que se anuncia la Enajenación de ganado equino en subasta pública, procedente del Centro Militar de Cría Caballar de Jerez (Cádiz). Expediente 2015/SDGAP-01.</titulo>
+              <url_pdf szBytes="166140" szKBytes="162" pagina_inicial="13593" pagina_final="13593">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9900.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9900</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9900</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2015-9901</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de Tráfico. Objeto: Servicio para la realización de la campaña de divulgación de la seguridad vial a través de la cadena Onda Cero, incluida la emisión y realización de creatividad específica, para el año 2015. Expediente: 0100DGT25622.</titulo>
+              <url_pdf szBytes="167110" szKBytes="163" pagina_inicial="13594" pagina_final="13594">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9901.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9901</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9901</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9902</identificador>
+              <titulo>Anuncio de licitación de: División Económica y Técnica (Cuerpo Nacional de Policía). Objeto: Adquisición de Artificios Fumígenos (5.000 cantidad mínima), y Artificios Lacrimógenos (2.000 cantidad mínima), con destino al Servicio de Armamento y Equipamiento Policial del Cuerpo Nacional de Policía. Expediente: 004/15/AR/01.</titulo>
+              <url_pdf szBytes="175603" szKBytes="171" pagina_inicial="13595" pagina_final="13596">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9902.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9902</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9902</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2015-9903</identificador>
+              <titulo>Acuerdo del Consejo de Administración de la Autoridad Portuaria de Las Palmas de 13 de marzo de 2015 de aprobación de Pliegos y Convocatoria de Concurso para el otorgamiento de concesión demanial para el acondicionamiento y la explotación de un bar-cafetería en el área funcional 6 del Puerto de Las Palmas.</titulo>
+              <url_pdf szBytes="161458" szKBytes="158" pagina_inicial="13597" pagina_final="13597">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9903.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9903</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9903</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9904</identificador>
+              <titulo>Resolución de la Entidad Pública Empresarial Administrador de Infraestructuras Ferroviarias, por la que se anuncia la licitación del contrato de "suministro e instalación de una nueva plataforma de gestión de identidades".</titulo>
+              <url_pdf szBytes="172797" szKBytes="169" pagina_inicial="13598" pagina_final="13599">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9904.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9904</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9904</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <item>
+              <identificador>BOE-B-2015-9905</identificador>
+              <titulo>Anuncio de la Dirección Provincial del Instituto Nacional de la Seguridad Social de Granada por el que se publica la licitación para la contratación del suministro eléctrico de sus dependencias durante un año. Expediente número 18/VC-71/15</titulo>
+              <url_pdf szBytes="174139" szKBytes="170" pagina_inicial="13600" pagina_final="13601">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9905.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9905</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9905</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9906</identificador>
+              <titulo>Resolución de la Dirección Provincial del Instituto Nacional de la Seguridad Social por la que se aprueba la convocatoria de licitación para la contratación del servicio de conservación y mantenimiento de inmuebles, instalaciones y enseres de los edificios dependientes de la misma, para el periodo 1-11-2015 a 31-12-2016.</titulo>
+              <url_pdf szBytes="167732" szKBytes="164" pagina_inicial="13602" pagina_final="13602">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9906.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9906</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9906</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9907</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Barcelona por la que se anuncia la convocatoria del procedimiento abierto PA 2015/134 RI para la adjudicación del servicio de reciclaje de la Dirección Provincial de la Tesorería General de la Seguridad Social de Barcelona y Oficinas Integrales de la Seguridad Social de Mataró, Granollers, Cornellá de Llobregat, "Nou Barris", "Drassanes" y Mollet del Vallés.</titulo>
+              <url_pdf szBytes="180554" szKBytes="176" pagina_inicial="13603" pagina_final="13604">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9907.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9907</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9907</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9908</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Barcelona por la que se anuncia la convocatoria del procedimiento abierto PA 2015/121 RI para la adjudicación del servicio de valija, paquetería y mensajería urgente.</titulo>
+              <url_pdf szBytes="178409" szKBytes="174" pagina_inicial="13605" pagina_final="13606">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9908.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9908</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9908</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9909</identificador>
+              <titulo>Anuncio de la Dirección Provincial de la Tesorería General de la Seguridad Social de Salamanca por el que se convoca licitación pública, mediante procedimiento abierto, para la contratación del suministro de gas natural canalizado en el edificio sede conjunta de las Direcciones Provinciales de la Tesorería General de la Seguridad Social y del Instituto Nacional de la Seguridad Social de Salamanca.</titulo>
+              <url_pdf szBytes="175510" szKBytes="171" pagina_inicial="13607" pagina_final="13608">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9909.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9909</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9909</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9910</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Empleo y Seguridad Social. Objeto: Servicio de limpieza de los locales ocupados por las Inspecciones Provinciales de Trabajo y Seguridad Social de Ávila, Burgos, León, Salamanca, Segovia, Soria, Valladolid, Zamora, Badajoz y Cáceres. Expediente: 1359/2014.</titulo>
+              <url_pdf szBytes="169393" szKBytes="165" pagina_inicial="13609" pagina_final="13609">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9910.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9910</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9910</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2015-9911</identificador>
+              <titulo>Anuncio de la Dirección General de Sostenibilidad de la Costa y del Mar de formalización de contrato de las obras de "Regeneración ambiental y lucha contra la erosión en la playa de Benafeli, término municipal de Almazora" (Castellón).</titulo>
+              <url_pdf szBytes="163175" szKBytes="159" pagina_inicial="13610" pagina_final="13610">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9911.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9911</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9911</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9912</identificador>
+              <titulo>Resolución de la Dirección General de Sostenibilidad de la Costa y del Mar por la que se anuncia licitación para la obra "mantenimiento y conservación del dominio público marítimo-terrestre de la provincia de Sevilla (año 2015)".</titulo>
+              <url_pdf szBytes="173498" szKBytes="169" pagina_inicial="13611" pagina_final="13612">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9912.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9912</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9912</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <item>
+              <identificador>BOE-B-2015-9913</identificador>
+              <titulo>Anuncio del Órgano de Contratación de la Agencia Estatal Consejo Superior de Investigaciones Científicas por el que se publica la licitación para contratar el suministro e instalación de sistemas de observación y determinación automática en tiempo real de capturas de pesca en barcos comerciales basado en visión artificial, destinado al Instituto de Investigaciones Marinas. Actuación financiada por la Unión Europea. Programa Life+ (Proyecto Life iSeas).</titulo>
+              <url_pdf szBytes="172338" szKBytes="168" pagina_inicial="13613" pagina_final="13614">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9913.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9913</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9913</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <item>
+              <identificador>BOE-B-2015-9914</identificador>
+              <titulo>Anuncio de la Dirección de Patrimonio y Contratación de formalización del contrato que tiene por objeto "Contratación de los servicios necesarios para el desarrollo y evolución de los trabajos de gestión, desarrollo y soporte relacionados con el proceso de normalización lingüística de la Administración de Justicia en la Comunidad Autónoma del País Vasco".</titulo>
+              <url_pdf szBytes="166744" szKBytes="163" pagina_inicial="13615" pagina_final="13615">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9914.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9914</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9914</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9915</identificador>
+              <titulo>Resolución de la Dirección de Régimen Jurídico, Económico y Servicios Generales del Departamento de Salud, por la que se hace pública la formalización del contrato de suministro de accesorios y técnicas instrumentales con destino al laboratorio de Salud Pública, sedes de Araba/Álava, Gipuzkoa y Bizkaia.</titulo>
+              <url_pdf szBytes="168054" szKBytes="164" pagina_inicial="13616" pagina_final="13616">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9915.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9915</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9915</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9916</identificador>
+              <titulo>Anuncio del Departamento de Seguridad del Gobierno Vasco, de formalización del contrato de soporte al centro de atención a usuarios (Expediente E-090/2014).</titulo>
+              <url_pdf szBytes="166117" szKBytes="162" pagina_inicial="13617" pagina_final="13617">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9916.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9916</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9916</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9917</identificador>
+              <titulo>Anuncio de la Mesa de Contratación del Hospital Universitario Araba de Osakidetza de formalización de contratos del Acuerdo Marco de suministro de material fungible para vitrectomía y puesta a disposición del equipamiento necesario.</titulo>
+              <url_pdf szBytes="164641" szKBytes="161" pagina_inicial="13618" pagina_final="13618">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9917.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9917</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9917</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2015-9918</identificador>
+              <titulo>Anuncio del Instituto Catalán de Oncología sobre licitación de contrato de suministro de filtros de legionela finales para el filtrado del agua de las áreas de hospitalización del ICO (Duran i Reynals/Germans Trias i Pujol). Expediente 2015/01.</titulo>
+              <url_pdf szBytes="175798" szKBytes="172" pagina_inicial="13619" pagina_final="13620">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9918.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9918</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9918</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9919</identificador>
+              <titulo>Anuncio del Servicio Catalán de Tráfico para la licitación de un contrato de servicios para el curso para la obtención del Certificado de aptitud de profesor/a de formación viaria, fases distancia y presencia.</titulo>
+              <url_pdf szBytes="171197" szKBytes="167" pagina_inicial="13621" pagina_final="13622">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9919.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9919</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9919</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9920</identificador>
+              <titulo>Resolución de la Corporació de Salut del Maresme i la Selva para la licitación de un procedimiento abierto para el servicio de portería y control de accesos para la Corporació de Salut del Maresme i la Selva.</titulo>
+              <url_pdf szBytes="169284" szKBytes="165" pagina_inicial="13623" pagina_final="13624">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9920.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9920</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9920</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <item>
+              <identificador>BOE-B-2015-9921</identificador>
+              <titulo>Resolución del Servicio Andaluz de Salud por la que se convoca contratación de servicio de limpieza de los centros vinculados a la Plataforma de Logística Sanitaria de Córdoba. Expediente CCA. CRF744X.</titulo>
+              <url_pdf szBytes="171518" szKBytes="167" pagina_inicial="13625" pagina_final="13626">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9921.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9921</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9921</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9922</identificador>
+              <titulo>Resolución del Servicio Andaluz de Salud por la que se convoca contratación de suministro de prótesis reparadoras para la Plataforma de Logística Sanitaria de Sevilla. Expediente CCA. +Y-SQUP.</titulo>
+              <url_pdf szBytes="172574" szKBytes="169" pagina_inicial="13627" pagina_final="13628">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9922.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9922</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9922</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9923</identificador>
+              <titulo>Resolución del Servicio Andaluz de Salud por la que se convoca contratación de servicio de mantenimiento preventivo, correctivo y técnico legal de sets e instrumental quirúrgico de los centros vinculados a la Plataforma de Logística Sanitaria de Granada. Expediente CCA. 6FP38+P.</titulo>
+              <url_pdf szBytes="172984" szKBytes="169" pagina_inicial="13629" pagina_final="13630">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9923.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9923</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9923</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9924</identificador>
+              <titulo>Resolución del Servicio Andaluz de Salud por la que se convoca contratación de Suministro del material para quirófano para los centros sanitarios de la Plataforma de Logística Sanitaria de Cádiz. Expediente CCA. +BFQHV5.</titulo>
+              <url_pdf szBytes="173313" szKBytes="169" pagina_inicial="13631" pagina_final="13632">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9924.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9924</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9924</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9925</identificador>
+              <titulo>Resolución del Servicio Andaluz de Salud por la que se convoca contratación de suministro de utensilios de cocina y comedor para los Centros vinculados a la Plataforma Logística Sanitaria de Granada. Expediente CCA. 6R8M4J5.</titulo>
+              <url_pdf szBytes="173754" szKBytes="170" pagina_inicial="13633" pagina_final="13634">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9925.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9925</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9925</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9926</identificador>
+              <titulo>Resolución del Servicio Andaluz de Salud por la que se convoca contratación de Suministro del material específico de columna para los centros sanitarios de la Plataforma de Logística Sanitaria de Cádiz. Expediente CCA. +5LBSGT.</titulo>
+              <url_pdf szBytes="172255" szKBytes="168" pagina_inicial="13635" pagina_final="13636">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9926.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9926</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9926</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9927</identificador>
+              <titulo>Resolución de 26 de marzo de 2015, de la Dirección Gerencia de la Agencia Pública Empresarial Sanitaria Hospital de Poniente, por la que se publica la formalización de contrato del Suministro de prótesis de cardiología (marcapasos, electrodos e introductores) con destino a la Agencia Pública Empresarial Sanitaria Hospital de Poniente. PA 9/14.</titulo>
+              <url_pdf szBytes="172232" szKBytes="168" pagina_inicial="13637" pagina_final="13638">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9927.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9927</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9927</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8020" nombre="COMUNIDAD AUTÓNOMA DE ARAGÓN">
+            <item>
+              <identificador>BOE-B-2015-9928</identificador>
+              <titulo>Resolución del Servicio Aragonés de Salud-Gerencia de Sector Zaragoza III-Hospital Clínico Universitario "Lozano Blesa" de Zaragoza, por la que se anuncia procedimiento abierto de contratación número 2015-0-002. Suministro de material para la realización de técnicas analíticas automáticas (alérgenos) en el laboratorio de Inmunología.</titulo>
+              <url_pdf szBytes="166995" szKBytes="163" pagina_inicial="13639" pagina_final="13639">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9928.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9928</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9928</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9929</identificador>
+              <titulo>Anuncio del Instituto Aragonés del Agua por el que se convoca la licitación de un contrato de concesión de obra pública para la redacción de proyectos, construcción y explotación de las infraestructuras necesarias para la depuración de aguas residuales de la zona 10-B del Plan Especial de Depuración que incluye los núcleos de Aguaviva, Cantavieja, Castellote, Castelserás, La Iglesuela del Cid, Mas de las Matas y Valdealgorfa (Teruel).</titulo>
+              <url_pdf szBytes="178384" szKBytes="174" pagina_inicial="13640" pagina_final="13641">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9929.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9929</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9929</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9930</identificador>
+              <titulo>Anuncio del Instituto Aragonés del Agua por el que se convoca la licitación de un contrato de concesión de obra pública para la redacción de proyectos, construcción y explotación de las infraestructuras necesarias para la depuración de aguas residuales de la zona 10-C del Plan Especial de Depuración que incluye los núcleos de Calaceite, Mazaleon (Teruel), Maella y Nonaspe (Zaragoza).</titulo>
+              <url_pdf szBytes="177986" szKBytes="174" pagina_inicial="13642" pagina_final="13643">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9930.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9930</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9930</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8060" nombre="COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA">
+            <item>
+              <identificador>BOE-B-2015-9931</identificador>
+              <titulo>Resolución de 23 de marzo de 2015, de la Secretaria General de la Consejería de Fomento, por la que se hace pública la formalización del contrato correspondiente al expediente 1702TO14SER01044, denominado Mantenimiento de la aplicación del registro de personal (PITIA) y nómina (NOMEDU) de la Consejería de Educación, Cultura y Deportes de la Junta de Comunidades de Castilla-La Mancha.</titulo>
+              <url_pdf szBytes="170543" szKBytes="167" pagina_inicial="13644" pagina_final="13644">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9931.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9931</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9931</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8030" nombre="COMUNIDAD AUTÓNOMA DE CANARIAS">
+            <item>
+              <identificador>BOE-B-2015-9932</identificador>
+              <titulo>Anuncio de la Dirección General de Telecomunicaciones y Nuevas Tecnologías de formalización del contrato de servicio de renovación del soporte Oracle para el mantenimiento de bases de datos Oracle del Gobierno de Canarias.</titulo>
+              <url_pdf szBytes="164118" szKBytes="160" pagina_inicial="13645" pagina_final="13645">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9932.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9932</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9932</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9933</identificador>
+              <titulo>Anuncio del Servicio Canario de Empleo por el que se hace pública la apertura del procedimiento de adjudicación del contrato de servicio integral de mantenimiento de equipamiento microinformático del Servicio Canario de Empleo.</titulo>
+              <url_pdf szBytes="168796" szKBytes="165" pagina_inicial="13646" pagina_final="13647">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9933.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9933</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9933</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9934</identificador>
+              <titulo>Anuncio de la Dirección General de Telecomunicaciones y Nuevas Tecnologías, por el que se convoca licitación pública para el servicio de conexión a internet de alta capacidad para la red corporativa de datos del Gobierno de Canarias, en Las Palmas de Gran Canaria.</titulo>
+              <url_pdf szBytes="175493" szKBytes="171" pagina_inicial="13648" pagina_final="13649">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9934.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9934</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9934</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8121" nombre="COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS">
+            <item>
+              <identificador>BOE-B-2015-9935</identificador>
+              <titulo>Anuncio de licitación convocado por el Servicio de Salud de les Illes Balears para el suministro de reactivos de laboratorio de subpoblaciones linfocitarias y de hemoglobina glicosilada para el Hospital de Can Misses.</titulo>
+              <url_pdf szBytes="174888" szKBytes="171" pagina_inicial="13650" pagina_final="13651">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9935.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9935</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9935</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9936</identificador>
+              <titulo>Anuncio de la Central de Contratación de la Comunidad Autónoma de las Illes Balears de formalización del Acuerdo marco para la contratación centralizada del suministro de carburantes de automoción para el parque móvil de la Administración de la Comunidad Autónoma de las Illes Balears.</titulo>
+              <url_pdf szBytes="163688" szKBytes="160" pagina_inicial="13652" pagina_final="13652">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9936.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9936</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9936</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8131" nombre="COMUNIDAD DE MADRID">
+            <item>
+              <identificador>BOE-B-2015-9937</identificador>
+              <titulo>Resolución de 16 de de marzo de 2015 por la que la Dirección Gerencia del SUMMA 112 promueve el expediente de contratación de servicios SUMMA PA/SE/01/15 denominado "Servicio de mantenimiento preventivo y correctivo del equipamiento y aparataje electromédico de los centros adscritos a la Gerencia del SUMMA 112.</titulo>
+              <url_pdf szBytes="177286" szKBytes="173" pagina_inicial="13653" pagina_final="13654">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9937.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9937</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9937</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9938</identificador>
+              <titulo>Resolución de 20 marzo de 2015 por la que la Dirección Gerencia del SUMMA 112 promueve el expediente de contratación de servicios SUMMA PA/SE/02/15 denominado "Servicio de mantenimiento integral de las instalaciones, infraestructuras y bienes muebles de los edificios de la Sede Central, Centro Logístico y Centro de Urgencias Extrahospitalarias, adscritos a la Gerencia del SUMMA 112.</titulo>
+              <url_pdf szBytes="178760" szKBytes="175" pagina_inicial="13655" pagina_final="13656">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9938.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9938</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9938</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9531" nombre="COMUNIDAD DE CASTILLA Y LEÓN">
+            <item>
+              <identificador>BOE-B-2015-9939</identificador>
+              <titulo>Resolución de 18 de marzo de 2015 de la Gerencia de Atención Especializada El Bierzo por la que se anuncia procedimiento abierto, con pluralidad de criterios de valoración, para la contratación del suministro de los kits necesarios para la realización automatizada de estudios inmunohistoquímicos, histoquímicos y determinación inmunohistoquímica de HER2. Exp. P.A. 3401-341-1-2015-03413.</titulo>
+              <url_pdf szBytes="175790" szKBytes="172" pagina_inicial="13657" pagina_final="13658">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9939.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9939</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9939</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2015-9940</identificador>
+              <titulo>Anuncio del Ayuntamiento de Leganés por el que se hace pública la formalización del contrato del servicio de "Intermediación Sociocomunitaria financiado por el fondo europeo de Desarrollo Regional en un 50%".</titulo>
+              <url_pdf szBytes="164278" szKBytes="160" pagina_inicial="13659" pagina_final="13659">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9940.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9940</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9940</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9941</identificador>
+              <titulo>Anuncio del Ayuntamiento de Leganés por el que se hace pública la formalización del contrato de las obras de "Adecuación de las Áreas de Juegos Infantiles en Colegios Públicos y Escuelas Infantiles".</titulo>
+              <url_pdf szBytes="162411" szKBytes="159" pagina_inicial="13660" pagina_final="13660">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9941.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9941</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9941</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9942</identificador>
+              <titulo>Anuncio del Ayuntamiento de Palau-solità i Plegamans relativo al desistimiento del contrato de servicio de limpieza de edificios, locales y dependencias del Ayuntamiento.</titulo>
+              <url_pdf szBytes="157796" szKBytes="154" pagina_inicial="13661" pagina_final="13661">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9942.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9942</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9942</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9943</identificador>
+              <titulo>Anuncio del Ayuntamiento de Alcobendas de formalización del contrato de suministro de energía eléctrica de alta tensión para edificios e instalaciones municipales.</titulo>
+              <url_pdf szBytes="162346" szKBytes="159" pagina_inicial="13662" pagina_final="13662">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9943.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9943</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9943</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9944</identificador>
+              <titulo>Anuncio del Ayuntamiento de Palma de Mallorca por el que se convoca la licitación de la concesión de obra pública para la redacción del proyecto de ejecución, construcción de las obras y explotación de las instalaciones de la zona verde y instalaciones complementarias de Ca n'Angelí.</titulo>
+              <url_pdf szBytes="176249" szKBytes="172" pagina_inicial="13663" pagina_final="13664">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9944.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9944</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9944</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9945</identificador>
+              <titulo>Anuncio del Ayuntamiento de Laudio/Llodio por el que se convoca concurso para la licitación pública de la contratación del Centro de Día de Menores de Laudio/Llodio.</titulo>
+              <url_pdf szBytes="163830" szKBytes="160" pagina_inicial="13665" pagina_final="13665">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9945.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9945</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9945</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9946</identificador>
+              <titulo>Anuncio del Ayuntamiento de Sevilla por el que se convoca concurso para la licitación pública de la contratación del arrendamiento de vehículos con destino al Servicio de la Policía Local.</titulo>
+              <url_pdf szBytes="172483" szKBytes="168" pagina_inicial="13666" pagina_final="13667">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9946.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9946</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9946</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9947</identificador>
+              <titulo>Anuncio de la Diputación de Barcelona sobre formalización del contrato de servicio de desplazamiento, instalación y mantenimiento de las unidades móviles UM1, UM2 y UM3 de vigilancia de la contaminación atmosférica de la Diputación de Barcelona.</titulo>
+              <url_pdf szBytes="165614" szKBytes="162" pagina_inicial="13668" pagina_final="13668">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9947.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9947</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9947</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9948</identificador>
+              <titulo>Anuncio del Ayuntamiento de Girona por el que se convoca licitación para los servicios de mantenimiento de la jardinería de los parques, jardines y arbolado viario de las zonas urbanas de Girona.</titulo>
+              <url_pdf szBytes="173856" szKBytes="170" pagina_inicial="13669" pagina_final="13670">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9948.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9948</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9948</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9949</identificador>
+              <titulo>Resolución del Ayuntamiento de Valladolid por el que se convoca licitación del contrato de servicios para la ejecución de obras en inmuebles por encargo del Ayuntamiento de Valladolid, en actuaciones obligatorias de carácter subsidiario</titulo>
+              <url_pdf szBytes="171873" szKBytes="168" pagina_inicial="13671" pagina_final="13672">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9949.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9949</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9949</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9950</identificador>
+              <titulo>Anuncio del Ayuntamiento de El Vendrell sobre la formalización del contrato del servicio de mantenimiento de los edificios e instalaciones de titularidad municipal del municipio del Vendrell.</titulo>
+              <url_pdf szBytes="163866" szKBytes="160" pagina_inicial="13673" pagina_final="13673">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9950.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9950</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9950</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9951</identificador>
+              <titulo>Anuncio del Ayuntamiento de Barcelona por el que se convoca el procedimiento abierto relativo a la limpieza de escaleras mecánicas y ascensores situados en la vía pública de la ciudad de Barcelona 2015-17.</titulo>
+              <url_pdf szBytes="175944" szKBytes="172" pagina_inicial="13674" pagina_final="13675">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9951.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9951</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9951</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9952</identificador>
+              <titulo>Anuncio del Ayuntamiento de Las Rozas de Madrid, por el que se convoca licitación para la contratación del servicio de "Programa de formación y autonomía personal para discapacitados (lote 1: Grupo menores: de 21 años; lote 2: Grupo adultos: mayores de 21 años)", mediante procedimiento abierto y una pluralidad de criterios de adjudicación.</titulo>
+              <url_pdf szBytes="171570" szKBytes="168" pagina_inicial="13676" pagina_final="13677">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9952.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9952</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9952</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9953</identificador>
+              <titulo>Anuncio del Ayuntamiento de Las Rozas de Madrid, por el que se convoca licitación para la contratación del servicio de "Talleres de psicoestimulación para personas con alzheimer y otras demencias" (lote 1: Desarrollo e impartición de los talleres -fase leve y fase moderada-; lote 2: Transporte adaptado de los participantes en los talleres)", mediante procedimiento abierto y una pluralidad de criterios de adjudicación.</titulo>
+              <url_pdf szBytes="171093" szKBytes="167" pagina_inicial="13678" pagina_final="13679">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9953.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9953</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9953</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9954</identificador>
+              <titulo>ANUNCIO del Patronato Municipal de Deportes de Sant Andreu de la Barca por el que se convoca la licitación del contrato del servicio de limpieza de las instalaciones deportivas municipales.</titulo>
+              <url_pdf szBytes="175330" szKBytes="171" pagina_inicial="13680" pagina_final="13681">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9954.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9954</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9954</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2015-9955</identificador>
+              <titulo>Anuncio de la Universidad Miguel Hernández referente a la formalización del contrato de "Obras de consolidación de la zona de aparcamiento situada en las subzonas 5.1 y 8.3 del campus de Elche de la Universidad".</titulo>
+              <url_pdf szBytes="164307" szKBytes="160" pagina_inicial="13682" pagina_final="13682">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9955.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9955</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9955</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9956</identificador>
+              <titulo>Anuncio de la Universidad Autónoma de Barcelona por el que se convoca la licitación pública del contrato núm. Consu-5/2015 de servicio de seguro de accidentes, de asistencia en viaje, de gastos médicos y de responsabilidad civil para los estudiantes.</titulo>
+              <url_pdf szBytes="174279" szKBytes="170" pagina_inicial="13683" pagina_final="13684">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9956.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9956</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9956</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9957</identificador>
+              <titulo>Anuncio de la Universidad Autónoma de Barcelona por el que se convoca la licitación pública del contrato núm. 24/2015 de servicio de mantenimiento del sistema informático para la gestión económica.</titulo>
+              <url_pdf szBytes="173967" szKBytes="170" pagina_inicial="13685" pagina_final="13686">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9957.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9957</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9957</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9958</identificador>
+              <titulo>Anuncio de la Universidad de Cádiz de procedimiento abierto para la contratación del suministro e instalación de un equipo olfatómetro constituido por cromatógrafo de gases con detector de masas y autoinyector, más módulo sniffing, con destino en el Centro Andaluz de Investigaciones Vitivinícolas (CAIV) de la Universidad de Cádiz. Subvención excepcional para programa de fortalecimiento de las capacidades en I+D+I, convocatoria 2014-2015 solicitada a la Consejería de Economía, Innovación, Ciencia y Empleo. Subproyecto 4, CeiA-3. Posible financiación FEDER.</titulo>
+              <url_pdf szBytes="175679" szKBytes="172" pagina_inicial="13687" pagina_final="13688">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9958.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9958</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9958</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9959</identificador>
+              <titulo>Anuncio de la Universidad de Barcelona de la licitación del servicio de atención a los usuarios de la Universidad de Barcelona. Expediente 2015/12.</titulo>
+              <url_pdf szBytes="172612" szKBytes="169" pagina_inicial="13689" pagina_final="13690">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9959.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9959</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9959</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2015-9960</identificador>
+              <titulo>Anuncio de la Compañía de Radio-Televisión de Galicia por el que se convoca licitación pública para la contratación de seguros privados de la Compañía de Radio-Televisión de Galicia y Televisión de Galicia, S.A.</titulo>
+              <url_pdf szBytes="170316" szKBytes="166" pagina_inicial="13691" pagina_final="13692">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9960.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9960</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9960</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9961</identificador>
+              <titulo>Anuncio de Transportes Interurbanos de Tenerife, SAU (TITSA), por el que se convoca licitación para la contratación del suministro de uniformidad y calzado laboral de Titsa (ejercicio 2015).</titulo>
+              <url_pdf szBytes="173339" szKBytes="169" pagina_inicial="13693" pagina_final="13694">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9961.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9961</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9961</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <item>
+              <identificador>BOE-B-2015-9962</identificador>
+              <titulo>Anuncio del Departamento de Organizaciones no Gubernamentales de Desarrollo de la Dirección de Cooperación Multilateral, Horizontal y Financiera, adscrito a la Agencia Española de Cooperación Internacional para el Desarrollo (AECID), por el que se notifica apertura de trámite de subsanación que se le hace a la Fundació Privada UBUNTU.</titulo>
+              <url_pdf szBytes="164648" szKBytes="161" pagina_inicial="13695" pagina_final="13695">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9962.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9962</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9962</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2015-9963</identificador>
+              <titulo>Resolución de la Dirección General de Muface sobre notificación de requerimiento de pago de cantidades adeudadas.</titulo>
+              <url_pdf szBytes="164237" szKBytes="160" pagina_inicial="13696" pagina_final="13696">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9963.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9963</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9963</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9964</identificador>
+              <titulo>Anuncio de la Delegación de Economía y Hacienda en La Rioja, de inicio de expediente de investigación de una finca rústica sita en el término municipal de Briones (La Rioja).</titulo>
+              <url_pdf szBytes="161985" szKBytes="158" pagina_inicial="13697" pagina_final="13697">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9964.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9964</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9964</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9965</identificador>
+              <titulo>Anuncio de la Delegación de Economía y Hacienda en La Rioja, de inicio de expediente de investigación de una finca rústica sita en el término municipal de Nájera (La Rioja).</titulo>
+              <url_pdf szBytes="162202" szKBytes="158" pagina_inicial="13698" pagina_final="13698">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9965.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9965</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9965</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2015-9966</identificador>
+              <titulo>Anuncio de la Brigada Provincial de Seguridad Ciudadana de Madrid relativo a notificación de Resolución dictada por la Secretaría de Estado de Seguridad en el procedimiento sancionador 840/2014//29241 incoado por infracción a la Ley de Seguridad Privada.</titulo>
+              <url_pdf szBytes="162974" szKBytes="159" pagina_inicial="13699" pagina_final="13699">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9966.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9966</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9966</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9967</identificador>
+              <titulo>Anuncio de la Comisaría Provincial de Sevilla, relativa a la notificación de Resolución dictada por la Dirección General de la Policía, en el procedimiento sancionador número 5664/2014//30121, incoado por infracción a la Ley de Seguridad Privada.</titulo>
+              <url_pdf szBytes="162883" szKBytes="159" pagina_inicial="13700" pagina_final="13700">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9967.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9967</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9967</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9968</identificador>
+              <titulo>Anuncio del Servicio de Retribuciones de la Dirección General de la Guardia Civil, por el que se notifica, mediante su publicación, la resolución del expediente instruido por dicho Servicio de Retribuciones y se da trámite de audiencia al interesado.</titulo>
+              <url_pdf szBytes="163589" szKBytes="160" pagina_inicial="13701" pagina_final="13701">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9968.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9968</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9968</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2015-9969</identificador>
+              <titulo>Anuncio de la Subdirección General de Recursos sobre notificación de la resolución recaída en el recurso de alzada número 14/00109 (Expte. IC/GC-0655/2013), formulado por D.ª Angeles Rocío Martín Suárez, contra la resolución de la Dirección General de Transporte Terrestre, de fecha 29 de noviembre de 2013.</titulo>
+              <url_pdf szBytes="166036" szKBytes="162" pagina_inicial="13702" pagina_final="13702">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9969.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9969</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9969</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9970</identificador>
+              <titulo>Resolución de la Dirección General de Ferrocarriles, de fecha 26 de febrero de 2015, por la que se abre Información Pública correspondiente al expediente de Expropiación Forzosa que se tramita con motivo de las obras de ADIF-Alta Velocidad, Proyecto de construcción de la nueva estación de alta velocidad de Medina del Campo (Valladolid). Línea de alta velocidad Madrid-Galicia. Tramo: Olmedo-Zamora, en el término municipal de Medina del Campo (Valladolid). Expediente: 016ADIF1516.</titulo>
+              <url_pdf szBytes="178180" szKBytes="174" pagina_inicial="13703" pagina_final="13704">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9970.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9970</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9970</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9971</identificador>
+              <titulo>Anuncio de la Agencia Estatal de Seguridad Aérea por el que se notifica la Resolución de aceptación de la solicitud de suspensión parcial como Organización de mantenimiento de aeronaves Parte 145, referencia ES-.145.095, de la Cía. AERLYPER, S.A.</titulo>
+              <url_pdf szBytes="161804" szKBytes="158" pagina_inicial="13705" pagina_final="13705">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9971.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9971</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9971</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9972</identificador>
+              <titulo>Anuncio de la Agencia Estatal de Seguridad Aérea por el que se notifica el Acuerdo de inicio del procedimiento de suspensión de la aprobación como Organización de Mantenimiento Parte 145, referencia ES.145.054, concedida a AIR FLEET SUPPORT, S.L.</titulo>
+              <url_pdf szBytes="162416" szKBytes="159" pagina_inicial="13706" pagina_final="13706">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9972.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9972</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9972</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2015-9973</identificador>
+              <titulo>Anuncio de la Agencia Española de Protección de la Salud en el Deporte por el que se notifica Resolución del expediente sancionador AEPSAD 30/2014.</titulo>
+              <url_pdf szBytes="162392" szKBytes="159" pagina_inicial="13707" pagina_final="13707">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9973.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9973</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9973</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9219" nombre="MINISTERIO DE INDUSTRIA, ENERGÍA Y TURISMO">
+            <item>
+              <identificador>BOE-B-2015-9974</identificador>
+              <titulo>Anuncio de la Subdirección General de Programas Estratégicos por el que se notifica el acto del Ministerio de Industria, Energía y Turismo por el que se inicia el procedimiento de reintegro de la ayuda concedida a PELETS COMBUSTIBLES DE LA MANCHA, S.L., CIF B85105732, correspondiente al expediente REI-070000-2009-206 y se concede trámite de audiencia.</titulo>
+              <url_pdf szBytes="167073" szKBytes="163" pagina_inicial="13708" pagina_final="13708">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9974.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9974</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9974</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9975</identificador>
+              <titulo>Anuncio de la Subdirección General de Recursos, Reclamaciones y Relaciones con la Administración de Justicia, por el que se notifican varias resoluciones del Subsecretario de Industria Energía y Turismo, actuando por delegación del Secretario de Estado de Energía, sobre los expedientes E-2011-00320-09 (Ref.486) y otros.</titulo>
+              <url_pdf szBytes="165429" szKBytes="162" pagina_inicial="13709" pagina_final="13709">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9975.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9975</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9975</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9976</identificador>
+              <titulo>Anuncio de la Subdirección General de Programas Estratégicos por el que se notifica el acto del Ministerio de Industria, Energía y Turismo, por el que se inicia el procedimiento de incautación de garantía y concede el trámite de audiencia.</titulo>
+              <url_pdf szBytes="162944" szKBytes="159" pagina_inicial="13710" pagina_final="13710">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9976.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9976</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9976</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9977</identificador>
+              <titulo>Anuncio de la Subdirección General de Programas Estratégicos por el que se notifica el acto del Ministerio de Industria, Energía y Turismo, por el que se inicia el procedimiento de incautación de garantía y concede el trámite de audiencia.</titulo>
+              <url_pdf szBytes="161895" szKBytes="158" pagina_inicial="13711" pagina_final="13711">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9977.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9977</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9977</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2015-9978</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Júcar sobre notificación de actos administrativos relativos a expedientes sancionadores.</titulo>
+              <url_pdf szBytes="166546" szKBytes="163" pagina_inicial="13712" pagina_final="13712">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9978.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9978</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9978</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9979</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Guadiana sobre notificación de Pliego de Cargos relativos a procedimientos sancionadores incoados por infracción al texto refundido de la Ley de Aguas de los expedientes: E.S. 18/15/BA y otros.</titulo>
+              <url_pdf szBytes="164182" szKBytes="160" pagina_inicial="13713" pagina_final="13713">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9979.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9979</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9979</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9980</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Guadiana, sobre notificación del Trámite de Audiencia de la Propuesta de Resolución, expediente sancionador número 1122/14 Incoado a Francisco Enrique Redondo Carrasco, por Infracción a la normativa de Aguas.</titulo>
+              <url_pdf szBytes="162311" szKBytes="159" pagina_inicial="13714" pagina_final="13714">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9980.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9980</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9980</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9981</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Duero relativo a notificaciones de resoluciones dictadas en diversos procedimientos sancionadores incoados por infracción a la Ley de Aguas.</titulo>
+              <url_pdf szBytes="165822" szKBytes="162" pagina_inicial="13715" pagina_final="13716">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9981.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9981</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9981</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9982</identificador>
+              <titulo>Anuncio de acuerdo de la Confederación Hidrográfica del Tajo sobre publicación de Pliegos de Cargos de expedientes sancionadores tramitados por la Confederación Hidrográfica del Tajo, cuya notificación se ha intentado sin que se haya podido practicar.</titulo>
+              <url_pdf szBytes="161987" szKBytes="158" pagina_inicial="13717" pagina_final="13717">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9982.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9982</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9982</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9983</identificador>
+              <titulo>Anuncio de acuerdo de la Confederación Hidrográfica del Tajo sobre publicación de Propuestas de Resolución de expedientes sancionadores tramitadas por la Confederación Hidrográfica del Tajo, cuya notificación se ha intentado sin que se haya podido practicar.</titulo>
+              <url_pdf szBytes="161642" szKBytes="158" pagina_inicial="13718" pagina_final="13718">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9983.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9983</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9983</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9984</identificador>
+              <titulo>Anuncio de acuerdo de la Confederación Hidrográfica del Tajo sobre publicación de Resoluciones sancionatorias dictadas por la Confederación Hidrográfica del Tajo, cuya notificación se ha intentado sin que se haya podido practicar.</titulo>
+              <url_pdf szBytes="165038" szKBytes="161" pagina_inicial="13719" pagina_final="13719">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9984.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9984</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9984</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9985</identificador>
+              <titulo>Anuncio de La Confederacion Hidrografica del Tajo de Informacion Publica del Proyecto de Red de Radiocomunicaciones Digital para La Confederación Hidrográfica Del Tajo. Clave: 03.604.252/2111.</titulo>
+              <url_pdf szBytes="188215" szKBytes="184" pagina_inicial="13720" pagina_final="13721">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9985.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9985</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9985</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9986</identificador>
+              <titulo>Resolución de la Dirección General del Agua por la que se anuncia la ampliación de plazo del período de información pública de los documentos titulados "Proyectos de Planes de Gestión de Riesgo de Inundación de la Demarcación Hidrográfica del Cantábrico Occidental y de la parte española de la Demarcación Hidrográfica del Cantábrico Oriental".</titulo>
+              <url_pdf szBytes="164622" szKBytes="161" pagina_inicial="13722" pagina_final="13722">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9986.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9986</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9986</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <item>
+              <identificador>BOE-B-2015-9987</identificador>
+              <titulo>Resolución de la Delegación de Economía y Hacienda de Cuenca sobre prescripción de depósitos.</titulo>
+              <url_pdf szBytes="170960" szKBytes="167" pagina_inicial="13723" pagina_final="13723">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9987.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9987</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9987</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9534" nombre="COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA">
+            <item>
+              <identificador>BOE-B-2015-9988</identificador>
+              <titulo>Anuncio de la Comisión Nacional de los Mercados y la Competencia por el que se notifica la apertura del trámite de información pública del procedimiento para la revisión del precio de la capacidad en PAI del servicio de banda ancha mayorista NEBA.</titulo>
+              <url_pdf szBytes="165782" szKBytes="162" pagina_inicial="13724" pagina_final="13725">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9988.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9988</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9988</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9989</identificador>
+              <titulo>Anuncio de la Comisión Nacional de los Mercados y la Competencia por el que se notifica a la entidad Open Cable Telecomunicaciones, Sociedad Limitada, la Resolución de fecha 9 de febrero de 2015, sobre la solicitud de subasignación de numeración geográfica de Open Cable Telecomunicaciones, Sociedad Limitada a favor de Prophase Electronics, Sociedad Limitada.</titulo>
+              <url_pdf szBytes="164892" szKBytes="161" pagina_inicial="13726" pagina_final="13726">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9989.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9989</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9989</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8020" nombre="COMUNIDAD AUTÓNOMA DE ARAGÓN">
+            <item>
+              <identificador>BOE-B-2015-9990</identificador>
+              <titulo>Anuncio del Servicio Provincial de Industria e Innovación de Zaragoza por el que se somete a información pública la admisión definitiva de la solicitud del permiso de investigación de recursos de la Sección C) "Los Meandros" n.º 3.527, para leonardita, en los términos municipales de Mequinenza.</titulo>
+              <url_pdf szBytes="162243" szKBytes="158" pagina_inicial="13727" pagina_final="13727">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9990.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9990</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9990</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9991</identificador>
+              <titulo>Anuncio de la Dirección General de Energía y Minas del Gobierno de Aragón sobre la declaración de termalidad y de la condición minero-medicinal con fines terapéuticos de las aguas procedentes de la captación denominada «SE-1», sita en el paraje Baños de Segura, término municipal de Segura de Baños, provincia de Teruel.</titulo>
+              <url_pdf szBytes="162210" szKBytes="158" pagina_inicial="13728" pagina_final="13728">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9991.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9991</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9991</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9992</identificador>
+              <titulo>Anuncio de la Dirección General de Energía y Minas del Gobierno de Aragón por el que se somete a información pública la admisión definitiva de la solicitud del permiso de investigación de recursos de la sección C) "Estela" n.º 6401, para arcillas, en los términos municipales de Alcorisa y Berge, provincia de Teruel.</titulo>
+              <url_pdf szBytes="162834" szKBytes="159" pagina_inicial="13729" pagina_final="13729">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9992.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9992</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9992</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2015-9993</identificador>
+              <titulo>Anuncio de la Facultad de Filosofía y Ciencias de la Educación de la Universidad de Valencia sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156260" szKBytes="153" pagina_inicial="13730" pagina_final="13730">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9993.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9993</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9993</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9994</identificador>
+              <titulo>Anuncio de La Facultad de Filosofia y Ciencias de la Educación de la Universidad del País Vasco sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156204" szKBytes="153" pagina_inicial="13731" pagina_final="13731">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9994.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9994</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9994</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9995</identificador>
+              <titulo>Anuncio de la Facultad de Filosofia y Ciencias de la Educación de la Universidad del País Vasco sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156038" szKBytes="152" pagina_inicial="13732" pagina_final="13732">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9995.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9995</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9995</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9996</identificador>
+              <titulo>Anuncio de la Facultad de Educación de la Universidad Murcia sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="155890" szKBytes="152" pagina_inicial="13733" pagina_final="13733">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9996.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9996</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9996</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9997</identificador>
+              <titulo>Anuncio de la Facultad de Enfermería de Melilla de la Universidad de Granada sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156985" szKBytes="153" pagina_inicial="13734" pagina_final="13734">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9997.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9997</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9997</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9998</identificador>
+              <titulo>Anuncio de Facultad de Ciencias Biológicas de la Universidad Complutense de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="155906" szKBytes="152" pagina_inicial="13735" pagina_final="13735">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9998.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9998</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9998</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-9999</identificador>
+              <titulo>Anuncio de la Universidad Alfonso X El Sabio sobre extravío de título universitario de título de Licenciada en Odontología.</titulo>
+              <url_pdf szBytes="156577" szKBytes="153" pagina_inicial="13736" pagina_final="13736">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-9999.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-9999</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-9999</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-10000</identificador>
+              <titulo>Anuncio de La Facultad de Psicología de la Universidad Nacional de Educación a Distancia sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156502" szKBytes="153" pagina_inicial="13737" pagina_final="13737">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-10000.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-10000</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-10000</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-10001</identificador>
+              <titulo>Anuncio del Centro Universitario La Salle, centro adscrito a la Universidad Autónoma de Madrid, sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156317" szKBytes="153" pagina_inicial="13738" pagina_final="13738">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-10001.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-10001</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-10001</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="ANUNCIOS PARTICULARES">
+            <item>
+              <identificador>BOE-B-2015-10002</identificador>
+              <titulo>ILUSTRE COLEGIO NOTARIAL DE NAVARRA</titulo>
+              <url_pdf szBytes="155069" szKBytes="151" pagina_inicial="13739" pagina_final="13739">https://www.boe.es/boe/dias/2015/03/30/pdfs/BOE-B-2015-10002.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-10002</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-10002</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

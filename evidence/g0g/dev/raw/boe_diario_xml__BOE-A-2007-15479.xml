@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219122601">
+  <metadatos>
+    <identificador>BOE-A-2007-15479</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20070727</fecha_disposicion>
+    <numero_oficial>3/2007</numero_oficial>
+    <titulo>Circular 3/2007, de 27 de julio, de actualización de la Circular 2/2005, de 25 de febrero, sobre los Ficheros automatizados con datos de carácter personal gestionados por el Banco de España.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20070815</fecha_publicacion>
+    <diario_numero>195</diario_numero>
+    <seccion>3</seccion>
+    <subseccion/>
+    <pagina_inicial>34847</pagina_inicial>
+    <pagina_final>34848</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2007/08/15/pdfs/A34847-34848.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20070815</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2007/07/27/3</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2007/07/27/3">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-15479</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-27</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3685"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2007/07/27/3/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2007-15479</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-27</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3685"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2007/07/27/3"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2007/07/27/3/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2007, de 27 de julio, de actualización de la Circular 2/2005, de 25 de febrero, sobre los Ficheros automatizados con datos de carácter personal gestionados por el Banco de España.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-08-15</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2007/07/27/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2007/07/27/3/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2007/07/27/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2007/07/27/3/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2007/07/27/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2007/07/27/3/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2007/07/27/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="3685" orden="">Ficheros con datos personales</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2005-4749" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>el anexo II de la Circular 2/2005, de 25 de febrero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1999-23750" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>el art. 20 de la Ley Orgánica 15/1999, de 13 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2006-21648" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Instrucción 1/2006, de 8 de noviembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="111" orden="">Derecho Constitucional</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">Las descripciones de los ficheros automatizados con datos de carácter personal existentes en el Banco de España están recogidas en las circulares 2/2005, de 25 de febrero, y 4/2005, de 23 de diciembre, con las que se satisface lo que el artículo 20, apartado 1, de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, establece sobre creación, modificación o supresión de ficheros de las Administraciones Públicas.</p>
+    <p class="parrafo">Con el propósito de adecuar la videovigilancia a las exigencias del derecho fundamental a la protección de datos, y en el ejercicio de la competencia que le atribuye el artículo 37.c) de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, la Agencia Española de Protección de Datos ha dictado la Instrucción 1/2006, de 8 de noviembre, para adecuar los tratamientos de imágenes con fines de vigilancia a los principios de dicha Ley Orgánica y garantizar así los derechos de las personas cuyas imágenes son tratadas por medio de tales procedimientos.</p>
+    <p class="parrafo">El artículo 7.1 de la citada Instrucción establece que cuando una entidad prevea la creación de ficheros de videovigilancia deberá notificarlo a la Agencia Española de Protección de Datos para su inscripción en el Registro General de la misma. En consecuencia, el contenido de la Circular 2/2005, de 25 de febrero, debe ser actualizado, lo cual se lleva a cabo mediante la presente Circular.</p>
+    <p class="parrafo">La actualización consiste en modificar la descripción actual del fichero «Control de acceso y permanencia en edificios del Banco de España», descrito en la Circular 2/2005, de 25 de febrero, para ajustarse a lo previsto en el artículo 20 de la Ley Orgánica de Protección de Datos de Carácter Personal. El fichero que se modifica forma parte del anejo II, «Ficheros de carácter interno u operativo».</p>
+    <p class="parrafo">Por todo cuanto se expone, el Banco de España, en uso de las facultades que le confiere la Ley 13/1994, de 1 de junio, de Autonomía del Banco de España, y de acuerdo con el procedimiento en ella previsto, ha dispuesto:</p>
+    <p class="articulo">Norma primera.</p>
+    <p class="parrafo">La descripción del fichero «Control de acceso y permanencia en edificios del Banco de España», que figura en el anejo de esta Circular, sustituye a la correspondiente de dicho fichero actualmente contenida en el anejo II, «Ficheros de carácter interno u operativo», de la Circular 2/2005, de 25 de febrero, «Ficheros automatizados con datos de carácter personal gestionados por el Banco de España».</p>
+    <p class="articulo">Norma final.</p>
+    <p class="parrafo">La presente Circular entrará en vigor el día de su publicación en el «Boletín Oficial del Estado».</p>
+    <p class="parrafo_2">Madrid, 27 de julio de 2007.–El Gobernador del Banco de España, Miguel Fernández Ordóñez.</p>
+    <p class="anexo">ANEJO</p>
+    <p class="parrafo_2">Fichero.</p>
+    <p class="parrafo">Control de acceso y permanencia en edificios del Banco de España.</p>
+    <p class="parrafo">Finalidad del fichero y usos previstos del mismo:</p>
+    <p class="parrafo_2">Control de la seguridad de los edificios, instalaciones y patrimonio del Banco de España.</p>
+    <p class="parrafo_2">Personas físicas afectadas:</p>
+    <p class="parrafo_2">Las personas, pertenecientes o no a la plantilla del Banco de España, que accedan a zonas de sus edificios e instalaciones.</p>
+    <p class="parrafo_2">Procedencia y procedimiento de recogida de los datos de carácter personal:</p>
+    <p class="parrafo_2">Los datos proceden del propio interesado.</p>
+    <p class="parrafo">Los datos se recogen mediante encuestas y entrevistas, por aportación del propio interesado. El soporte utilizado para la obtención de los datos es papel y digitalización del DNI, mediante escáner. Grabación de imágenes mediante un sistema de circuito cerrado de televisión (CCTV), que se almacenan en soporte digital.</p>
+    <p class="parrafo_2">Estructura básica del fichero y tipos de datos de carácter personal incluidos en él:</p>
+    <p class="parrafo_2">DNI/NIF.</p>
+    <p class="parrafo">Nombre y apellidos. Dirección. Teléfono. Empresa a la que pertenece. Firma/huella. Imagen del DNI. Número de registro personal. Imagen.</p>
+    <p class="parrafo_2">Cesiones de datos de carácter personal:</p>
+    <p class="parrafo_2">No se prevén cesiones.</p>
+    <p class="parrafo_2">Transferencias de datos de carácter personal a países terceros:</p>
+    <p class="parrafo_2">No se prevén transferencias.</p>
+    <p class="parrafo_2">Responsable del fichero:</p>
+    <p class="parrafo_2">Banco de España.</p>
+    <p class="parrafo_2">Servicio o unidad ante el que se pueden ejercer los derechos de acceso, rectificación, cancelación y oposición:</p>
+    <p class="parrafo_2">Servicio de Seguridad.</p>
+    <p class="parrafo_2">Medidas de seguridad:</p>
+    <p class="parrafo_2">Nivel: Básico.</p>
+  </texto>
+</documento>

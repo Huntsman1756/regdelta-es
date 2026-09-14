@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>19810120</fecha_publicacion>
+      </metadatos>
+      <diario numero="17">
+        <sumario_diario>
+          <identificador>BOE-S-1981-17</identificador>
+          <url_pdf szBytes="219632" szKBytes="214">https://www.boe.es/boe/dias/1981/01/20/pdfs/BOE-S-1981-17.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="7723" nombre="JEFATURA DEL ESTADO">
+            <epigrafe nombre="Entes Preautonómicos. Régimen presupuestario y patrimonial">
+              <item>
+                <identificador>BOE-A-1981-1299</identificador>
+                <titulo>Real Decreto-ley 16/1980, de 12 de diciembre, por el que se determina el régimen presupuestario y patrimonial de los Entes Preautonómicos.</titulo>
+                <url_pdf szBytes="218796" szKBytes="214" pagina_inicial="1284" pagina_final="1285">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01284-01285.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1299</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1299</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7786" nombre="PRESIDENCIA DEL GOBIERNO">
+            <epigrafe nombre="Entes preautonómicos. Comisiones Mixtas de Transferencias">
+              <item>
+                <identificador>BOE-A-1981-1300</identificador>
+                <titulo>Real Decreto 2968/1980, de 12 de diciembre, por el que se modifica el funcionamiento y composición de las Comisiones Mixtas de Transferencias de los Entes Preautonómicos.</titulo>
+                <url_pdf szBytes="115254" szKBytes="113" pagina_inicial="1285" pagina_final="1285">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01285-01285.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1300</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1300</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Entes preautonómicos. Régimen de personal">
+              <item>
+                <identificador>BOE-A-1981-1301</identificador>
+                <titulo>Real Decreto 2969/1980, de 12 de diciembre, sobre contratación de personal por los Entes Preautonómicos y régimen de los funcionarios adscritos a los mismos.</titulo>
+                <url_pdf szBytes="228560" szKBytes="223" pagina_inicial="1285" pagina_final="1286">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01285-01286.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1301</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1301</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Entes preautonómicos. Traspaso de servicios">
+              <item>
+                <identificador>BOE-A-1981-1302</identificador>
+                <titulo>Real Decreto 2970/1980, de 12 de diciembre, por el que se regula el traspaso de servicios de la Administración del Estado a los Entes Preautonómicos.</titulo>
+                <url_pdf szBytes="219125" szKBytes="214" pagina_inicial="1286" pagina_final="1287">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01286-01287.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1302</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1302</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5140" nombre="MINISTERIO DE HACIENDA">
+            <epigrafe nombre="Delegación de facultades">
+              <item>
+                <identificador>BOE-A-1981-1303</identificador>
+                <titulo>Resolución de 2 de diciembre de 1980, de la Intervención General de la Administración del Estado, por la que se delegan determinadas facultades en los Interventores-Delegados de la Armada.</titulo>
+                <url_pdf szBytes="105821" szKBytes="103" pagina_inicial="1287" pagina_final="1287">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01287-01287.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1303</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1303</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5120" nombre="MINISTERIO DE ECONOMÍA Y COMERCIO">
+            <epigrafe nombre="Normas de calidad">
+              <item>
+                <identificador>BOE-A-1981-1304</identificador>
+                <titulo>Orden de 14 de enero de 1981 sobre norma general de calidad para el comercio exterior de las frutas y hortalizas frescas que no son objeto de una norma específica.</titulo>
+                <url_pdf szBytes="205012" szKBytes="200" pagina_inicial="1287" pagina_final="1288">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01287-01288.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1304</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1304</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Importaciones. Cupos globales">
+              <item>
+                <identificador>BOE-A-1981-1305</identificador>
+                <titulo>Resolución de 8 de enero de 1981, de la Dirección General de Política Arancelaria e Importación, por la que se fijan los cupos globales para el año 1981.</titulo>
+                <url_pdf szBytes="147645" szKBytes="144" pagina_inicial="1288" pagina_final="1289">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01288-01289.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1305</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1305</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4320" nombre="MINISTERIO DE SANIDAD Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-1981-1306</identificador>
+                <titulo>Corrección de errores de la Orden de 27 de noviembre de 1980 por la que se reestructura la Comisión Ministerial de Informática, creada por Orden de 20 de febrero de 1978.</titulo>
+                <url_pdf szBytes="84467" szKBytes="82" pagina_inicial="1290" pagina_final="1290">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01290-01290.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1306</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1306</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7220" nombre="MINISTERIO DE ADMINISTRACIÓN TERRITORIAL">
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-1981-1307</identificador>
+                <titulo>Orden de 29 de diciembre de 1980 sobre desarrollo de la estructura orgánica del Ministerio de Administración Territorial.</titulo>
+                <url_pdf szBytes="169021" szKBytes="165" pagina_inicial="1290" pagina_final="1291">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01290-01291.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1307</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1307</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1308</identificador>
+                <titulo>Orden de 7 de enero de 1981 por la que se modifica la composición de la Comisión de Estadística del Departamento.</titulo>
+                <url_pdf szBytes="84866" szKBytes="83" pagina_inicial="1291" pagina_final="1291">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01291-01291.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1308</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1308</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - Nombramientos, situaciones e incidencias">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-1981-1309</identificador>
+                <titulo>Orden de 15 de enero de 1981 por la que se nombran Abogados fiscales de las Audiencias que se citan a los alumnos de la Escuela Judicial que se citan.</titulo>
+                <url_pdf szBytes="100979" szKBytes="99" pagina_inicial="1292" pagina_final="1292">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01292-01292.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1309</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1309</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4320" nombre="MINISTERIO DE SANIDAD Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-1981-1310</identificador>
+                <titulo>Orden de 9 de enero de 1981 por la que se dispone el cese de doña Laura Morso Pérez como Subdirectora general de Prestaciones y Protectorado de la Dirección General de Acción Social.</titulo>
+                <url_pdf szBytes="100979" szKBytes="99" pagina_inicial="1292" pagina_final="1292">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01292-01292.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1310</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1310</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1311</identificador>
+                <titulo>Orden de 9 de enero de 1981 por la que se dispone el cese de don José María de Ancos Benavente como Subdirector general de Planificación y Gestión de la Dirección General de Acción Social.</titulo>
+                <url_pdf szBytes="100979" szKBytes="99" pagina_inicial="1292" pagina_final="1292">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01292-01292.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1311</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1311</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-1981-1312</identificador>
+                <titulo>Orden de 9 de enero de 1981 por la que se dispone el nombramiento de don José María de Ancos Benavente como Subdirector general de Prestaciones y Protectorado de la Dirección General de Acción Social.</titulo>
+                <url_pdf szBytes="91305" szKBytes="89" pagina_inicial="1293" pagina_final="1293">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01293-01293.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1312</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1312</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-1981-1313</identificador>
+                <titulo>Resolución de 27 de noviembre de 1980, de la Comisión Permanente, por la que se jubila a don Agustín Piñero Rodríguez Secretario del Juzgado de Distrito de Alburquerque (Badajoz).</titulo>
+                <url_pdf szBytes="91305" szKBytes="89" pagina_inicial="1293" pagina_final="1293">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01293-01293.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1313</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1313</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - Oposiciones y concursos">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Escuela Judicial">
+              <item>
+                <identificador>BOE-A-1981-1314</identificador>
+                <titulo>Orden de 15 de enero de 1981 por la que se aprueba la propuesta formulada por la Escuela Judicial sobre alumnos que han de ser nombrados Abogados fiscales.</titulo>
+                <url_pdf szBytes="91305" szKBytes="89" pagina_inicial="1293" pagina_final="1293">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01293-01293.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1314</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1314</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Escala de Complemento del Ejército del Aire (IMECEA)">
+              <item>
+                <identificador>BOE-A-1981-1315</identificador>
+                <titulo>Orden 522/00.055/1980, de 22 de diciembre, de la Dirección de Enseñanza del Mando de Personal del Ejército del Aire, por la que se anuncia convocatoria para cubrir 235 plazas en 1a instrucción militar para la formación de Oficiales y Suboficiales de Complemento del Ejército del Aire (IMEC-EA) para el acceso a la Escala de Complemento del Arma de Aviación (Escala de Tropas y Servicios) y Cuerpos del Ejército del Aire.</titulo>
+                <url_pdf szBytes="561616" szKBytes="548" pagina_inicial="1293" pagina_final="1298">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01293-01298.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1315</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1315</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuerpo de Músicas Militares">
+              <item>
+                <identificador>BOE-A-1981-1316</identificador>
+                <titulo>Orden 360/90036/1980, de 30 de diciembre, por la que se anuncia concurso-oposición para ingreso en el Cuerpo de Músicas Militares.</titulo>
+                <url_pdf szBytes="254222" szKBytes="248" pagina_inicial="1298" pagina_final="1300">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01298-01300.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1316</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1316</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4410" nombre="MINISTERIO DE TRABAJO">
+            <epigrafe nombre="Cuerpo Nacional de Inspección de Trabajo">
+              <item>
+                <identificador>BOE-A-1981-1317</identificador>
+                <titulo>Resolución de 10 de enero de 1981, de la Subsecretaría, por la que se aprueba la lista definitiva de aspirantes admitidos a la oposición para ingreso en la Escala Técnica del Cuerpo Nacional de Inspección de Trabajo.</titulo>
+                <url_pdf szBytes="282175" szKBytes="276" pagina_inicial="1300" pagina_final="1302">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01300-01302.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1317</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1317</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4320" nombre="MINISTERIO DE SANIDAD Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Cuerpo de Practicantes Titulares">
+              <item>
+                <identificador>BOE-A-1981-1318</identificador>
+                <titulo>Resolución de 3 de diciembre de 1980, de la Secretaría de Estado para la Sanidad, por la que se hace pública la relación definitiva de aspirantes admitidos y excluidos a las pruebas selectivas para ingreso en el Cuerpo de Practicantes Titulares.</titulo>
+                <url_pdf szBytes="3369869" szKBytes="3291" pagina_inicial="1302" pagina_final="1330">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01302-01330.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1318</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1318</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4250" nombre="MINISTERIO DE UNIVERSIDADES E INVESTIGACIÓN">
+            <epigrafe nombre="Cuerpo de Catedráticos de Universidad">
+              <item>
+                <identificador>BOE-A-1981-1319</identificador>
+                <titulo>Orden de 8 de enero de 1981 por la que se declara desierto el concurso de traslado anunciado para la provisión de la cátedra de «Historia del Derecho español» en la Facultad de Derecho de la Universidad de La Laguna.</titulo>
+                <url_pdf szBytes="93705" szKBytes="92" pagina_inicial="1330" pagina_final="1330">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01330-01330.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1319</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1319</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1320</identificador>
+                <titulo>Orden de 8 de enero de 1981 por la que se agrega la cátedra de «Historia del Derecho español» de la Facultad de Derecho de la Universidad de La Laguna al concurso de acceso convocado para la provisión de las cátedras de igual denominación de las Universidades que se indican.</titulo>
+                <url_pdf szBytes="93705" szKBytes="92" pagina_inicial="1330" pagina_final="1330">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01330-01330.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1320</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1320</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuerpo de Profesores Agregados de Universidad">
+              <item>
+                <identificador>BOE-A-1981-1321</identificador>
+                <titulo>Resolución de 12 de enero de 1981, del Tribunal del concurso-oposición a la plaza de Profesor agregado del grupo XXII, «Máquinas eléctricas», de la Escuela Técnica Superior de Ingenieros Industriales de la Universidad Politécnica de Valencia, por la que se cita a los señores opositores.</titulo>
+                <url_pdf szBytes="93705" szKBytes="92" pagina_inicial="1330" pagina_final="1330">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01330-01330.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1321</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1321</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Sargento de la Policía Municipal del Ayuntamiento de Lérida">
+              <item>
+                <identificador>BOE-A-1981-1322</identificador>
+                <titulo>Resolución de 10 de diciembre de 1980, del Ayuntamiento de Lérida, referente al concurso-oposición para proveer una plaza de Sargento de la Policía Municipal.</titulo>
+                <url_pdf szBytes="193177" szKBytes="189" pagina_inicial="1330" pagina_final="1331">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01330-01331.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1322</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1322</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Perito industrial del Ayuntamiento de Cáceres">
+              <item>
+                <identificador>BOE-A-1981-1323</identificador>
+                <titulo>Resolución de 7 de enero de 1981, del Ayuntamiento de Cáceres, referente a la oposición para proveer la plaza de Perito industrial.</titulo>
+                <url_pdf szBytes="99785" szKBytes="97" pagina_inicial="1331" pagina_final="1331">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01331-01331.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1323</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1323</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Médicos de la Diputación Provincial de La Rioja">
+              <item>
+                <identificador>BOE-A-1981-1324</identificador>
+                <titulo>Resolución de 13 de enero de 1981, de la Diputación Provincial de La Rioja, referente al concurso-oposición para la provisión en propiedad de cuatro plazas de Médico del Servicio de Psiquiatría de los Centros Asistenciales Provinciales.</titulo>
+                <url_pdf szBytes="99785" szKBytes="97" pagina_inicial="1331" pagina_final="1331">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01331-01331.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1324</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1324</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Sentencias">
+              <item>
+                <identificador>BOE-A-1981-1325</identificador>
+                <titulo>Orden 111/10.189/1980, de 17 de diciembre, por la que se dispone el cumplimiento de la sentencia del Tribunal Supremo, dictada con fecha 8 de octubre de 1980, en el recurso contencioso-administrativo interpuesto por don Juan Reboiras Lago.</titulo>
+                <url_pdf szBytes="99785" szKBytes="97" pagina_inicial="1331" pagina_final="1331">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01331-01331.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1325</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1325</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5140" nombre="MINISTERIO DE HACIENDA">
+            <epigrafe nombre="Rifas">
+              <item>
+                <identificador>BOE-A-1981-1326</identificador>
+                <titulo>Resolución de 2 de enero de 1981, del Servicio Nacional de Loterías, por la que se hace público haberse autorizado la celebración de una rifa benéfica a «Cáritas Diocesanas» de Toledo.</titulo>
+                <url_pdf szBytes="122717" szKBytes="120" pagina_inicial="1332" pagina_final="1332">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01332-01332.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1326</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1326</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3230" nombre="MINISTERIO DE OBRAS PÚBLICAS Y URBANISMO">
+            <epigrafe nombre="Urbanismo">
+              <item>
+                <identificador>BOE-A-1981-1327</identificador>
+                <titulo>Orden de 2 de diciembre de 1980 por la que se resuelve asunto de conformidad con lo dispuesto en la Ley sobre Régimen del Suelo y Ordenación Urbana, texto refundido de 9 de abril de 1976, y en el Real Decreto 2093/1979, de 3 de agosto, y la Orden ministerial de 6 de junio de 1979, con indicación de la resolución.</titulo>
+                <url_pdf szBytes="122717" szKBytes="120" pagina_inicial="1332" pagina_final="1332">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01332-01332.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1327</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1327</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4210" nombre="MINISTERIO DE EDUCACIÓN">
+            <epigrafe nombre="Centros de Educación General Básica y Preescolar">
+              <item>
+                <identificador>BOE-A-1981-1328</identificador>
+                <titulo>Orden de 27 de noviembre de 1980 por la que se concede autorización definitiva en Centros no estatales de Educación Preescolar y EGB.</titulo>
+                <url_pdf szBytes="248250" szKBytes="242" pagina_inicial="1332" pagina_final="1333">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01332-01333.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1328</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1328</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1329</identificador>
+                <titulo>Orden de 27 de noviembre de 1980 por la que se aprueba la transformación y clasificación provisonal de Centros no estatales de Educación General Básica y Preescolar.</titulo>
+                <url_pdf szBytes="258270" szKBytes="252" pagina_inicial="1333" pagina_final="1334">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01333-01334.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1329</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1329</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1330</identificador>
+                <titulo>Corrección de errores de la Orden de 21 de junio de 1980 por la que se modifican Centros escolares estatales de EGB y Preescolar en la provincia de Albacete.</titulo>
+                <url_pdf szBytes="132735" szKBytes="130" pagina_inicial="1334" pagina_final="1334">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01334-01334.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1330</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1330</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1331</identificador>
+                <titulo>Corrección de erratas de la Orden de 28 de junio de 1980 por la que se modifican Centros escolares estatales de EGB y Preescolar en la provincia de Orense.</titulo>
+                <url_pdf szBytes="132735" szKBytes="130" pagina_inicial="1334" pagina_final="1334">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01334-01334.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1331</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1331</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5260" nombre="MINISTERIO DE INDUSTRIA Y ENERGÍA">
+            <epigrafe nombre="Polígonos de preferente localización industrial">
+              <item>
+                <identificador>BOE-A-1981-1332</identificador>
+                <titulo>Orden de 24 de noviembre de 1980 por la que se aceptan solicitudes para acogerse a los beneficios previstos en el Decreto 3068/1978, de 7 de diciembre, aplicables a las Empresas que proyecten instalaciones industriales en polígonos de preferente localización industrial.</titulo>
+                <url_pdf szBytes="233025" szKBytes="228" pagina_inicial="1334" pagina_final="1335">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01334-01335.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1332</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1332</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Empresas artesanas protegidas">
+              <item>
+                <identificador>BOE-A-1981-1333</identificador>
+                <titulo>Orden de 17 de diciembre de 1980 sobre declaración de determinadas Empresas artesanas como Empresas artesanas protegidas.</titulo>
+                <url_pdf szBytes="205628" szKBytes="201" pagina_inicial="1335" pagina_final="1336">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01335-01336.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1333</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1333</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Minerales. Permisos de explotación">
+              <item>
+                <identificador>BOE-A-1981-1334</identificador>
+                <titulo>Corrección de errores de la Resolución de 9 de octubre de 1980, de la Delegación Provincial de Salamanca, por la que se hace público el otorgamiento del permiso de exploración que se cita.</titulo>
+                <url_pdf szBytes="105340" szKBytes="103" pagina_inicial="1336" pagina_final="1336">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01336-01336.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1334</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1334</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3110" nombre="MINISTERIO DE AGRICULTURA">
+            <epigrafe nombre="Viveros forestales">
+              <item>
+                <identificador>BOE-A-1981-1335</identificador>
+                <titulo>Orden de 7 de enero de 1981 por la que se fijan los precios de plantas producidas en los viveros forestales de la Dirección General de la Producción Agraria.</titulo>
+                <url_pdf szBytes="105340" szKBytes="103" pagina_inicial="1336" pagina_final="1336">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01336-01336.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1335</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1335</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Homologaciones">
+              <item>
+                <identificador>BOE-A-1981-1336</identificador>
+                <titulo>Resolución de 28 de noviembre de 1980, de la Dirección General de la Producción Agraria, por la que se concede la homologación a la estructura de protección marca «Fritzmeler» modelo SR-901, tipo bastidor con visera, válida para los tractores que se citan.</titulo>
+                <url_pdf szBytes="105340" szKBytes="103" pagina_inicial="1336" pagina_final="1336">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01336-01336.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1336</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1336</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Tractores. Potencia de inscripción">
+              <item>
+                <identificador>BOE-A-1981-1337</identificador>
+                <titulo>Resolución de 1 de diciembre de 1980, de la Dirección General de la Producción Agraria, por la que se determina la potencia de inscripción de los tractores marca «U. T. B.» modelo Universal 640 DT.</titulo>
+                <url_pdf szBytes="101487" szKBytes="99" pagina_inicial="1337" pagina_final="1337">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01337-01337.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1337</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1337</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5130" nombre="MINISTERIO DE ECONOMÍA Y HACIENDA">
+            <epigrafe nombre="Importaciones. Fomento a la exportación">
+              <item>
+                <identificador>BOE-A-1981-1338</identificador>
+                <titulo>Orden de 26 de diciembre de 1980 por la que se autoriza a la firma «Construcciones Aeronáuticas, S. A.», el régimen de tráfico de perfeccionamiento activo para la importación de chapas, barras de acero y otras materias primas y la exportación de actuadores para tobera de motor.</titulo>
+                <url_pdf szBytes="227689" szKBytes="222" pagina_inicial="1337" pagina_final="1338">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01337-01338.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1338</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1338</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1339</identificador>
+                <titulo>Orden de 26 de diciembre de 1980 por la que se autoriza a la firma «Cosmhogar, S. A.», el régimen de tráfico de perfeccionamiento activo para la importación de mechas de guata de algodón y la exportación de un producto denominado «Stanwick».</titulo>
+                <url_pdf szBytes="126515" szKBytes="124" pagina_inicial="1338" pagina_final="1338">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01338-01338.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1339</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1339</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1340</identificador>
+                <titulo>Orden de 26 de diciembre de 1980 por la que se autoriza a la firma «Synthelast, S. A.», el régimen de tráfico de perfeccionamiento activo para la importación de caucho sintético termoplástico a base de polibutadieno-estireno y poliestireno y la exportación de granzas de compuestos de caucho sintético termoplástico.</titulo>
+                <url_pdf szBytes="232363" szKBytes="227" pagina_inicial="1338" pagina_final="1339">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01338-01339.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1340</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1340</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Mercado de Divisas de Madrid">
+              <item>
+                <identificador>BOE-A-1981-1341</identificador>
+                <titulo>Cambios oficiales del día 19 de enero de 1981.</titulo>
+                <url_pdf szBytes="106165" szKBytes="104" pagina_inicial="1339" pagina_final="1339">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01339-01339.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1341</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1341</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4110" nombre="MINISTERIO DE CULTURA">
+            <epigrafe nombre="Creación literaria. Ayudas">
+              <item>
+                <identificador>BOE-A-1981-1342</identificador>
+                <titulo>Resolución de 28 de noviembre de 1980, de la Dirección General de Promoción del Libro y de la Cinematografía, por la que se hacen públicos la composición del Jurado calificador del concurso público para la concesión de ayudas a la creación literaria, en su edición de 1980, así como el fallo emitido por el mismo.</titulo>
+                <url_pdf szBytes="199759" szKBytes="195" pagina_inicial="1339" pagina_final="1340">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01339-01340.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1342</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1342</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Premio Nacional de Literatura Infantil">
+              <item>
+                <identificador>BOE-A-1981-1343</identificador>
+                <titulo>Resolución de 1 de diciembre de 1980, de la Dirección General de Promoción del Libro y de la Cinematografía, por la que se hacen públicos la composición del Jurado calificador del Premio Nacional de Literatura Infantil a la mejor confección e impresión gráfica de libros infantiles en su edición de 1980, así como el fallo emitido por el mismo.</titulo>
+                <url_pdf szBytes="93910" szKBytes="92" pagina_inicial="1340" pagina_final="1340">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01340-01340.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1343</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1343</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7220" nombre="MINISTERIO DE ADMINISTRACIÓN TERRITORIAL">
+            <epigrafe nombre="Municipios. Supresión de plazas">
+              <item>
+                <identificador>BOE-A-1981-1344</identificador>
+                <titulo>Resolución de 16 de diciembre de 1980, de la Dirección General de Administración Local, por la que se acuerda la supresión de la plaza de Director de Banda de Música Civil del Ayuntamiento de Pradoluengo (Burgos).</titulo>
+                <url_pdf szBytes="93910" szKBytes="92" pagina_inicial="1340" pagina_final="1340">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01340-01340.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1344</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1344</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="" nombre="">
+            <item>
+              <identificador>BOE-B-1981-31017</identificador>
+              <titulo>Anuncios de Audiencias, Tribunales, Juzgados y Requisitorias</titulo>
+              <url_pdf szBytes="2827613" szKBytes="2761" pagina_inicial="1341" pagina_final="1360">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01341-01360.pdf</url_pdf>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5" nombre="V. Comunidades Autónomas y Entes Preautonómicos">
+          <departamento codigo="0" nombre="JUNTA DE GALICIA">
+            <epigrafe nombre="Instalaciones eléctricas">
+              <item>
+                <identificador>BOE-A-1981-1345</identificador>
+                <titulo>Resolución de 31 de octubre de 1980, del Servicio de Industria en La Coruña de la Consejería de Industria, Comercio y Turismo, por la que se declara de utilidad pública la instalación eléctrica que se cita.</titulo>
+                <url_pdf szBytes="124033" szKBytes="121" pagina_inicial="1361" pagina_final="1361">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01361-01361.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1345</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1345</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1346</identificador>
+                <titulo>Resolución de 6 de noviembre de 1980, de los Servicios en Pontevedra de la Consejería de Industria, Comercio y Turismo, por la que se autoriza el establecimiento de dos líneas eléctricas de M. T. dos centros de transformación y redes de distribución en B. T. que se citan.</titulo>
+                <url_pdf szBytes="124033" szKBytes="121" pagina_inicial="1361" pagina_final="1361">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01361-01361.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1346</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1346</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1347</identificador>
+                <titulo>Resolución de 6 de noviembre de 1980, de los Servicios en Pontevedra de la Consejería de Industria, Comercio y Turismo, por la que se autoriza el establecimiento de una línea eléctrica de M. T. 1 C. de T. y red B. T. que se cita.</titulo>
+                <url_pdf szBytes="124033" szKBytes="121" pagina_inicial="1361" pagina_final="1361">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01361-01361.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1347</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1347</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1348</identificador>
+                <titulo>Resolución de 12 de noviembre de 1980, de los Servicios en Pontevedra de la Consejería de Industria, Comercio y Turismo, por la que se autoriza el establecimiento de una L. M. T., un C. T. de T. y una red de B. T.</titulo>
+                <url_pdf szBytes="250133" szKBytes="244" pagina_inicial="1361" pagina_final="1362">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01361-01362.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1348</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1348</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1349</identificador>
+                <titulo>Resolución de 20 de noviembre de 1980, de los Servicios en Pontevedra de la Consejería de Industria, Comercio y Turismo, por la que se autoriza el establecimiento de una línea de media tensión, un centro de transformación y red de baja tensión que se citan.</titulo>
+                <url_pdf szBytes="126417" szKBytes="123" pagina_inicial="1362" pagina_final="1362">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01362-01362.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1349</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1349</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1350</identificador>
+                <titulo>Resolución de 20 de noviembre de 1980, de los Servicios en Pontevedra de la Consejería de Industria, Comercio y Turismo, por la que se autoriza el establecimiento de dos líneas de media tensión y tres centros de transformación que se citan.</titulo>
+                <url_pdf szBytes="126417" szKBytes="123" pagina_inicial="1362" pagina_final="1362">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01362-01362.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1350</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1350</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-1981-1351</identificador>
+                <titulo>Resolución de 20 de noviembre de 1980, de los Servicios en Pontevedra de la Consejería de Industria, Comercio y Turismo, por la que se autoriza el establecimiento de una línea de media tensión, reforma de un centro transformador, un centro transformador y red de baja tensión que se citan.</titulo>
+                <url_pdf szBytes="126417" szKBytes="123" pagina_inicial="1362" pagina_final="1362">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01362-01362.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-1351</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-1981-1351</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="6A" nombre="VI. Anuncios. - Subastas y concursos de obras y servicios públicos">
+          <departamento codigo="" nombre="">
+            <item>
+              <identificador>BOE-B-1981-30033</identificador>
+              <titulo>Subastas y concursos de obras y servicios públicos</titulo>
+              <url_pdf szBytes="355289" szKBytes="347" pagina_inicial="1363" pagina_final="1365">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01363-01365.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-1981-30033</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-1981-30033</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="6B" nombre="VI. Anuncios. - Otros anuncios">
+          <departamento codigo="" nombre="">
+            <item>
+              <identificador>BOE-B-1981-30034</identificador>
+              <titulo>Otros anuncios</titulo>
+              <url_pdf szBytes="966966" szKBytes="944" pagina_inicial="1366" pagina_final="1374">https://www.boe.es/boe/dias/1981/01/20/pdfs/A01366-01374.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-1981-30034</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-1981-30034</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

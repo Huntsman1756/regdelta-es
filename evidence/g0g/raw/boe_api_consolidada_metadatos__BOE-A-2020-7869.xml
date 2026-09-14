@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T114211Z</fecha_actualizacion>
+      <identificador>BOE-A-2020-7869</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20200626</fecha_disposicion>
+      <numero_oficial>4/2020</numero_oficial>
+      <titulo>Circular 4/2020, de 26 de junio, del Banco de España, sobre publicidad de los productos y servicios bancarios.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20200715</fecha_publicacion>
+      <diario_numero>193</diario_numero>
+      <fecha_vigencia>20201015</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2020/06/26/4</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2020-7869</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

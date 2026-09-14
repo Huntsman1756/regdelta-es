@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251218225601">
+  <metadatos>
+    <identificador>BOE-A-2006-623</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20051223</fecha_disposicion>
+    <numero_oficial>4/2005</numero_oficial>
+    <titulo>Circular 4/2005, de 23 de diciembre, de actualización de la Circular 2/2005, de 25 de febrero, sobre ficheros automatizados con datos de carácter personal gestionados por el Banco de España.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20060116</fecha_publicacion>
+    <diario_numero>13</diario_numero>
+    <seccion>3</seccion>
+    <subseccion/>
+    <pagina_inicial>1866</pagina_inicial>
+    <pagina_final>1867</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2006/01/16/pdfs/A01866-01867.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20060116</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2005/12/23/4</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2005/12/23/4">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2006-623</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-23</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3685"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2005/12/23/4/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2006-623</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-23</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3685"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2005/12/23/4"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2005/12/23/4/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 4/2005, de 23 de diciembre, de actualización de la Circular 2/2005, de 25 de febrero, sobre ficheros automatizados con datos de carácter personal gestionados por el Banco de España.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-16</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2005/12/23/4/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2005/12/23/4/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2005/12/23/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2005/12/23/4/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2005/12/23/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2005/12/23/4/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2005/12/23/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="3685" orden="">Ficheros con datos personales</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2005-4749" orden="2080">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>el anexo I de la Circular 2/2005, de 25 de febrero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1999-23750" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>art. 20.1 de la Ley Orgánica 15/1999, de 13 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1994-12553" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>Ley 13/1994, de 1 de junio</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2014-8654" orden="">
+          <palabra codigo="270">SE MODIFICA</palabra>
+          <texto>lo indicado, por Circular 4/2014, de 30 de julio</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas>
+      <alerta codigo="111" orden="">Derecho Constitucional</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">Las descripciones de los ficheros automatizados con datos de carácter personal existentes en el Banco de España están recogidas en la Circular 2/2005, de 25 de febrero, Ficheros automatizados con datos de carácter personal gestionados por el Banco de España, con la cual se satisface lo que el artículo 20, apartado 1, de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal establece sobre creación, modificación o supresión de ficheros de las Administraciones Públicas.</p>
+    <p class="parrafo">Diversas medidas que se pondrán próximamente en funcionamiento van a modificar ciertos aspectos del tratamiento automatizado de datos de carácter personal en el Banco de España, ocasionando la necesidad de crear un fichero y de modificar dos de los existentes. En consecuencia, el contenido de la Circular 2/2005, de 25 de febrero, debe ser actualizado, lo cual se lleva a cabo mediante la presente Circular.</p>
+    <p class="parrafo">La actualización consiste en la inclusión de la descripción de un nuevo fichero, Expedientes de la Central de Información de Riesgos, y la modificación de las descripciones actuales correspondientes al fichero Central de Información de Riesgos y al fichero Tasadores más activos por valor de tasación de las sociedades y servicios de tasación, que, además, cambia su nombre, para pasar a denominarse Tasadores más activos y principales clientes de las sociedades y servicios de tasación. Tanto el fichero que se crea como los dos que se modifican forman parte del Anejo I, Ficheros gestionados por el Banco de España en virtud de las funciones públicas encomendadas al mismo por la Ley 13/1994, de 1 de junio, y demás legislación aplicable.</p>
+    <p class="parrafo">Por todo cuanto se expone, el Banco de España, en uso de las facultades que le confiere la Ley 13/1994, de 1 de junio, de Autonomía del Banco de España, y de acuerdo con el procedimiento en ella previsto, ha dispuesto:</p>
+    <p class="parrafo_2">Norma primera.</p>
+    <p class="parrafo_2">Se crea el fichero Expedientes de la Central de Información de Riesgos, cuya descripción, que figura en Anejo de esta Circular, se incorpora al Anejo I Ficheros gestionados por el Banco de España en virtud de las funciones públicas encomendadas al mismo por la Ley 13/1994, de 1 de junio, y demás legislación aplicable, de la Circular 2/2005, de 25 de febrero, Ficheros automatizados con datos de carácter personal gestionados por el Banco de España.</p>
+    <p class="parrafo_2">Norma segunda.</p>
+    <p class="parrafo_2">La descripción del fichero Central de Información de Riesgos y la del fichero Tasadores más activos por valor de tasación de las sociedades y servicios de tasación, que cambia su nombre, para pasar a denominarse Tasadores más activos y principales clientes de las sociedades y servicios de tasación, las cuales figuran en Anejo de esta Circular, sustituyen a las correspondientes de dichos ficheros actualmente contenidas en el Anejo I Ficheros gestionados por el Banco de España en virtud de las funciones públicas encomendadas al mismo por la Ley 13/1994, de 1 de junio, y demás legislación aplicable de la Circular 2/2005, de 25 de febrero, Ficheros automatizados con datos de carácter personal gestionados por el Banco de España.</p>
+    <p class="parrafo_2">Norma final.</p>
+    <p class="parrafo_2">La presente Circular entrará en vigor el día de su publicación en el Boletín Oficial del Estado.</p>
+    <p class="parrafo_2">Madrid, 23 de diciembre de 2005.–El Gobernador, Jaime Caruana Lacorte.</p>
+    <p class="anexo">ANEJO</p>
+    <p class="parrafo_2">Fichero.</p>
+    <p class="parrafo_2">Expedientes de la Central de Información de Riesgos.</p>
+    <p class="parrafo_2">Normativa de referencia:</p>
+    <p class="parrafo_2">Capítulo VI de la Ley 44/2002, de 22 de noviembre, de Medidas de Reforma del Sistema Financiero (BOE de 23 de noviembre).</p>
+    <p class="parrafo">Orden ECO 697/2004, de 11 de marzo, sobre la Central de Riesgos.</p>
+    <p class="parrafo">Circular del Banco de España 3/1995, de 25 de septiembre (BOE de 7 de octubre), y modificaciones posteriores.</p>
+    <p class="parrafo_2">Finalidad del fichero y usos previstos del mismo:</p>
+    <p class="parrafo_2">Registro y control de los derechos de acceso, rectificación y cancelación que los solicitantes efectúan sobre los datos que figuran en la Central de Información de Riesgos (CIR).</p>
+    <p class="parrafo">Envío y notificación de datos a quienes ejercen los derechos de acceso, rectificación y cancelación.</p>
+    <p class="parrafo_2">Personas físicas afectadas:</p>
+    <p class="parrafo_2">Personas físicas que ejercen el derecho de acceso, rectificación y cancelación de datos a la CIR.</p>
+    <p class="parrafo">Representantes de personas físicas y jurídicas que ejercen el derecho de acceso, rectificación y cancelación a la CIR.</p>
+    <p class="parrafo">Notarios ante los que se hayan otorgado los poderes a los representantes de las personas físicas y jurídicas.</p>
+    <p class="parrafo_2">Procedencia y procedimiento de recogida de los datos de carácter personal:</p>
+    <p class="parrafo_2">Los datos proceden de los propios solicitantes.</p>
+    <p class="parrafo">El soporte utilizado para la obtención de los datos es papel.</p>
+    <p class="parrafo_2">Estructura básica del fichero y tipos de datos de carácter personal incluidos en él:</p>
+    <p class="parrafo_2">DNI, NIF, NIE (número personal de identificación de extranjero) o pasaporte de los titulares y sus representantes.</p>
+    <p class="parrafo">Nombre y apellidos de los titulares, de sus representantes y de los notarios ante los que se otorguen los poderes.</p>
+    <p class="parrafo">País del titular, en su caso.</p>
+    <p class="parrafo">Fecha de nacimiento del titular, en su caso.</p>
+    <p class="parrafo">Domicilio a efectos de notificación, en su caso.</p>
+    <p class="parrafo">Teléfono de contacto, en su caso.</p>
+    <p class="parrafo_2">Cesiones de datos de carácter personal:</p>
+    <p class="parrafo_2">Excepcionalmente se cede el domicilio a las entidades declarantes a las que la CIR haya dado traslado de una solicitud de rectificación o cancelación, al objeto de dar cumplimiento a lo establecido en el párrafo segundo del Art. 65 de la Ley 44/2002, de 22 de noviembre.</p>
+    <p class="parrafo_2">Transferencias de datos de carácter personal a países terceros:</p>
+    <p class="parrafo_2">No se producen.</p>
+    <p class="parrafo_2">Responsable del fichero:</p>
+    <p class="parrafo_2">Banco de España.</p>
+    <p class="parrafo_2">Servicio o unidad ante el que se pueden ejercer los derechos de acceso, rectificación y cancelación:</p>
+    <p class="parrafo_2">Departamento de Información Financiera y Central de Riesgos.</p>
+    <p class="parrafo_2">Medidas de Seguridad:</p>
+    <p class="parrafo_2">Nivel: Básico.</p>
+    <p class="parrafo_2">Fichero.</p>
+    <p class="parrafo_2">Central de Información de Riesgos. Normativa de referencia:</p>
+    <p class="parrafo_2">Capítulo VI de la Ley 44/2002, de 22 de noviembre, de Medidas de Reforma del Sistema Financiero (BOE de 23 de noviembre).</p>
+    <p class="parrafo">Orden ECO 697/2004, de 11 de marzo sobre la Central de Riesgos.</p>
+    <p class="parrafo">Circular del Banco de España 3/1995, de 25 de septiembre (BOE de 7 de octubre) y modificaciones posteriores.</p>
+    <p class="parrafo_2">Finalidad del fichero y usos previstos del mismo:</p>
+    <p class="parrafo_2">Control de los riesgos contraídos por las entidades declarantes, de acuerdo con las normas publicadas por el Banco de España.</p>
+    <p class="parrafo">Se devuelve a las entidades la información agregada del riesgo contraído por sus clientes declarados en el conjunto del sistema financiero. Informes de titulares no declarados por la entidad, con conocimiento del interesado.</p>
+    <p class="parrafo_2">Personas físicas afectadas:</p>
+    <p class="parrafo_2">Aquellas con las que el sistema crediticio contrae riesgos susceptibles de declaración.</p>
+    <p class="parrafo">Procedencia y procedimiento de recogida de los datos de carácter personal:</p>
+    <p class="parrafo">De las propias entidades declarantes a la Central de Riesgos.</p>
+    <p class="parrafo">El soporte utilizado para su obtención es:</p>
+    <p class="parrafo_2">1. Archivos enviados mediante transmisión electrónica por vía telemática.</p>
+    <p class="parrafo">2. Excepcionalmente, archivos enviados mediante soporte magnético/informático o papel.</p>
+    <p class="parrafo_2">Estructura básica del fichero y tipos de datos de carácter personal incluidos en él:</p>
+    <p class="parrafo_2">DNI, NIF o número personal de identificación de extranjero.</p>
+    <p class="parrafo">Nombre y apellidos.</p>
+    <p class="parrafo">Fecha de nacimiento.</p>
+    <p class="parrafo">Domicilio (país, ciudad, nombre de la vía, número y código postal).</p>
+    <p class="parrafo">Sector.</p>
+    <p class="parrafo">Actividad económica.</p>
+    <p class="parrafo">Localización.</p>
+    <p class="parrafo">Créditos, préstamos, riesgos de firma y riesgos indirectos, con detalle por monedas y plazos.</p>
+    <p class="parrafo">Garantías.</p>
+    <p class="parrafo">Situación de morosidad.</p>
+    <p class="parrafo">Situaciones concursales.</p>
+    <p class="parrafo">Sociedades regulares colectivas, comanditarias simples o agrupaciones de interés económico con riesgos declarables a la que pertenezca la persona afectada.</p>
+    <p class="parrafo">Número de pasaporte, de identidad u otros códigos válidos en el país de origen (sólo no residentes).</p>
+    <p class="parrafo">Grupo económico.</p>
+    <p class="parrafo">Categoría a efectos de recursos propios.</p>
+    <p class="parrafo_2">Cesiones de datos de carácter personal:</p>
+    <p class="parrafo_2">Las cesiones, actuales o previstas, tienen como destinatarios:</p>
+    <p class="parrafo_2">Entidades declarantes a la Central de Información de Riesgos.</p>
+    <p class="parrafo">Cesiones previstas en el Art. 6 del Real Decreto 1298/1986, de 28 de junio, redactado según la Ley 37/1998, de 16 de noviembre.</p>
+    <p class="parrafo_2">Transferencias de datos de carácter personal a países terceros:</p>
+    <p class="parrafo_2">Entidades declarantes a las Centrales de Riesgos de los estados miembros de la Unión Europea.</p>
+    <p class="parrafo">Organismos de supervisión bancaria de los países de la Unión Europea, según el Tratado de la Unión Europea.</p>
+    <p class="parrafo_2">Responsable del fichero:</p>
+    <p class="parrafo_2">Banco de España.</p>
+    <p class="parrafo_2">Servicio o unidad ante el que se pueden ejercer los derechos de acceso, rectificación y cancelación:</p>
+    <p class="parrafo_2">Departamento de Información Financiera y Central de Riesgos.</p>
+    <p class="parrafo_2">Medidas de seguridad:</p>
+    <p class="parrafo_2">Nivel: Medio.</p>
+    <p class="parrafo">Fichero.</p>
+    <p class="parrafo_2">Tasadores más activos y principales clientes de las sociedades y servicios de tasación.</p>
+    <p class="parrafo_2">Normativa de referencia:</p>
+    <p class="parrafo_2">Orden ECO/805/2003, de 27 de marzo (BOE de 9 de abril).</p>
+    <p class="parrafo">Circular 3/1998, de 27 de enero (BOE de 13 de febrero). Circular 5/2003, de 19 de diciembre (BOE de 8 de enero).</p>
+    <p class="parrafo_2">Finalidad del fichero y usos previstos del mismo:</p>
+    <p class="parrafo_2">Disponer de la información actualizada de los tasadores más activos por valor de tasación de las sociedades y servicios de tasación y de los principales clientes de dichas sociedades y servicios de tasación.</p>
+    <p class="parrafo_2">Personas físicas afectadas:</p>
+    <p class="parrafo_2">Los tasadores más activos por valor de tasación de las sociedades y servicios de tasación, según los requisitos del anejo (estado VII) de la Circular 5/2003.</p>
+    <p class="parrafo">Los principales clientes de las sociedades y servicios de tasación, según los requisitos del anejo (estado VIII) de la Circular 5/2003.</p>
+    <p class="parrafo_2">Procedencia y procedimiento de recogida de los datos de carácter personal:</p>
+    <p class="parrafo_2">Los datos proceden de las sociedades y servicios de tasación.</p>
+    <p class="parrafo">El soporte utilizado para su obtención es:</p>
+    <p class="parrafo_2">Archivos enviados mediante soporte electrónico por vía telemática.</p>
+    <p class="parrafo_2">Estructura básica del fichero y tipos de datos de carácter personal incluidos en él:</p>
+    <p class="parrafo_2">Tasadores más activos por valor de tasación:</p>
+    <p class="parrafo_2">NIF, NIE o código de no residente.</p>
+    <p class="parrafo">Número de tasaciones. Valor de tasación.</p>
+    <p class="parrafo_2">Principales clientes:</p>
+    <p class="parrafo_2">NIF, NIE o código de no residente.</p>
+    <p class="parrafo">Nombre y apellidos. Importe facturado.</p>
+    <p class="parrafo_2">Cesiones de datos de carácter personal:</p>
+    <p class="parrafo_2">Las previstas en el art. 6 del Real Decreto Legislativo 1298/1986, de 28 de junio, redactado según la Ley 37/1998, de 16 de noviembre.</p>
+    <p class="parrafo_2">Transferencias de datos de carácter personal a países terceros:</p>
+    <p class="parrafo_2">No se prevén transferencias.</p>
+    <p class="parrafo_2">Responsable del fichero:</p>
+    <p class="parrafo_2">Banco de España.</p>
+    <p class="parrafo_2">Servicio o unidad ante el que se pueden ejercer los derechos de acceso, rectificación, cancelación y oposición:</p>
+    <p class="parrafo_2">Departamento de Información Financiera y Central de Riesgos.</p>
+    <p class="parrafo_2">Medidas de seguridad:</p>
+    <p class="parrafo_2">Nivel: Básico.</p>
+  </texto>
+</documento>

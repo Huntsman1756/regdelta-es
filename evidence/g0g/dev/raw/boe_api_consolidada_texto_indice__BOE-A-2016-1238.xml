@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>p</id>
+      <titulo/>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/p</url>
+    </bloque>
+    <bloque>
+      <id>pr</id>
+      <titulo>[preambulo]</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/pr</url>
+    </bloque>
+    <bloque>
+      <id>c1</id>
+      <titulo>CAPÍTULO 1</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/c1</url>
+    </bloque>
+    <bloque>
+      <id>n1</id>
+      <titulo>Norma 1</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1</url>
+    </bloque>
+    <bloque>
+      <id>n2</id>
+      <titulo>Norma 2</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2</url>
+    </bloque>
+    <bloque>
+      <id>n3</id>
+      <titulo>Norma 3</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3</url>
+    </bloque>
+    <bloque>
+      <id>n4</id>
+      <titulo>Norma 4</titulo>
+      <fecha_actualizacion>20231114</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4</url>
+    </bloque>
+    <bloque>
+      <id>c2</id>
+      <titulo>CAPÍTULO 2</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/c2</url>
+    </bloque>
+    <bloque>
+      <id>n5</id>
+      <titulo>Norma 5</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n5</url>
+    </bloque>
+    <bloque>
+      <id>c3</id>
+      <titulo>CAPÍTULO 3</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/c3</url>
+    </bloque>
+    <bloque>
+      <id>n6</id>
+      <titulo>Norma 6</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6</url>
+    </bloque>
+    <bloque>
+      <id>n7</id>
+      <titulo>Norma 7</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n7</url>
+    </bloque>
+    <bloque>
+      <id>n8</id>
+      <titulo>Norma 8</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n8</url>
+    </bloque>
+    <bloque>
+      <id>n9</id>
+      <titulo>Norma 9</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n9</url>
+    </bloque>
+    <bloque>
+      <id>n1-2</id>
+      <titulo>Norma 10</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1-2</url>
+    </bloque>
+    <bloque>
+      <id>n1-3</id>
+      <titulo>Norma 11</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1-3</url>
+    </bloque>
+    <bloque>
+      <id>n1-4</id>
+      <titulo>Norma 12</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1-4</url>
+    </bloque>
+    <bloque>
+      <id>n1-12</id>
+      <titulo>Norma 12 bis</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1-12</url>
+    </bloque>
+    <bloque>
+      <id>n1-5</id>
+      <titulo>Norma 13</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1-5</url>
+    </bloque>
+    <bloque>
+      <id>n1-6</id>
+      <titulo>Norma 14</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1-6</url>
+    </bloque>
+    <bloque>
+      <id>n1-7</id>
+      <titulo>Norma 15</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1-7</url>
+    </bloque>
+    <bloque>
+      <id>n1-8</id>
+      <titulo>Norma 16</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1-8</url>
+    </bloque>
+    <bloque>
+      <id>n1-9</id>
+      <titulo>Norma 17</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1-9</url>
+    </bloque>
+    <bloque>
+      <id>n1-10</id>
+      <titulo>Norma 18</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1-10</url>
+    </bloque>
+    <bloque>
+      <id>n1-11</id>
+      <titulo>Norma 19</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n1-11</url>
+    </bloque>
+    <bloque>
+      <id>n2-2</id>
+      <titulo>Norma 20</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2-2</url>
+    </bloque>
+    <bloque>
+      <id>n2-3</id>
+      <titulo>Norma 21</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2-3</url>
+    </bloque>
+    <bloque>
+      <id>n2-4</id>
+      <titulo>Norma 22</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2-4</url>
+    </bloque>
+    <bloque>
+      <id>n2-5</id>
+      <titulo>Norma 23</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2-5</url>
+    </bloque>
+    <bloque>
+      <id>n2-6</id>
+      <titulo>Norma 24</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2-6</url>
+    </bloque>
+    <bloque>
+      <id>n2-12</id>
+      <titulo>Norma 24 bis</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2-12</url>
+    </bloque>
+    <bloque>
+      <id>n2-7</id>
+      <titulo>Norma 25</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2-7</url>
+    </bloque>
+    <bloque>
+      <id>c4</id>
+      <titulo>CAPÍTULO 4</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/c4</url>
+    </bloque>
+    <bloque>
+      <id>s1</id>
+      <titulo>Sección 1</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/s1</url>
+    </bloque>
+    <bloque>
+      <id>n2-8</id>
+      <titulo>Norma 26</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2-8</url>
+    </bloque>
+    <bloque>
+      <id>n2-9</id>
+      <titulo>Norma 27</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2-9</url>
+    </bloque>
+    <bloque>
+      <id>n2-10</id>
+      <titulo>Norma 28</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2-10</url>
+    </bloque>
+    <bloque>
+      <id>n2-11</id>
+      <titulo>Norma 29</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n2-11</url>
+    </bloque>
+    <bloque>
+      <id>s2</id>
+      <titulo>Sección 2</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/s2</url>
+    </bloque>
+    <bloque>
+      <id>n3-2</id>
+      <titulo>Norma 30</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-2</url>
+    </bloque>
+    <bloque>
+      <id>n3-3</id>
+      <titulo>Norma 31</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-3</url>
+    </bloque>
+    <bloque>
+      <id>n3-4</id>
+      <titulo>Norma 32</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-4</url>
+    </bloque>
+    <bloque>
+      <id>n3-5</id>
+      <titulo>Norma 33</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-5</url>
+    </bloque>
+    <bloque>
+      <id>n3-6</id>
+      <titulo>Norma 34</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-6</url>
+    </bloque>
+    <bloque>
+      <id>n3-7</id>
+      <titulo>Norma 35</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-7</url>
+    </bloque>
+    <bloque>
+      <id>n3-12</id>
+      <titulo>Norma 35 bis</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-12</url>
+    </bloque>
+    <bloque>
+      <id>n3-13</id>
+      <titulo>Norma 35 ter</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-13</url>
+    </bloque>
+    <bloque>
+      <id>n3-14</id>
+      <titulo>Norma 35 quater</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-14</url>
+    </bloque>
+    <bloque>
+      <id>s3</id>
+      <titulo>Sección 3</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/s3</url>
+    </bloque>
+    <bloque>
+      <id>n3-8</id>
+      <titulo>Norma 36</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-8</url>
+    </bloque>
+    <bloque>
+      <id>n3-9</id>
+      <titulo>Norma 37</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-9</url>
+    </bloque>
+    <bloque>
+      <id>n3-10</id>
+      <titulo>Norma 38</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-10</url>
+    </bloque>
+    <bloque>
+      <id>n3-11</id>
+      <titulo>Norma 39</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n3-11</url>
+    </bloque>
+    <bloque>
+      <id>n4-2</id>
+      <titulo>Norma 40</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-2</url>
+    </bloque>
+    <bloque>
+      <id>n4-3</id>
+      <titulo>Norma 41</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-3</url>
+    </bloque>
+    <bloque>
+      <id>n4-4</id>
+      <titulo>Norma 42</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-4</url>
+    </bloque>
+    <bloque>
+      <id>s4</id>
+      <titulo>Sección 4</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/s4</url>
+    </bloque>
+    <bloque>
+      <id>n4-5</id>
+      <titulo>Norma 43</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-5</url>
+    </bloque>
+    <bloque>
+      <id>n4-12</id>
+      <titulo>Norma 43 bis</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-12</url>
+    </bloque>
+    <bloque>
+      <id>n4-13</id>
+      <titulo>Norma 43 ter</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-13</url>
+    </bloque>
+    <bloque>
+      <id>n4-14</id>
+      <titulo>Norma 43 quater</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-14</url>
+    </bloque>
+    <bloque>
+      <id>n4-15</id>
+      <titulo>Norma 43 quinquies</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-15</url>
+    </bloque>
+    <bloque>
+      <id>n4-16</id>
+      <titulo>Norma 43 sexies</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-16</url>
+    </bloque>
+    <bloque>
+      <id>n4-17</id>
+      <titulo>Norma 43 septies</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-17</url>
+    </bloque>
+    <bloque>
+      <id>c5</id>
+      <titulo>CAPÍTULO 5</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/c5</url>
+    </bloque>
+    <bloque>
+      <id>n4-6</id>
+      <titulo>Norma 44</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-6</url>
+    </bloque>
+    <bloque>
+      <id>n4-7</id>
+      <titulo>Norma 45</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-7</url>
+    </bloque>
+    <bloque>
+      <id>c6</id>
+      <titulo>CAPÍTULO 6</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/c6</url>
+    </bloque>
+    <bloque>
+      <id>n4-8</id>
+      <titulo>Norma 46</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-8</url>
+    </bloque>
+    <bloque>
+      <id>n4-9</id>
+      <titulo>Norma 47</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-9</url>
+    </bloque>
+    <bloque>
+      <id>n4-10</id>
+      <titulo>Norma 48</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-10</url>
+    </bloque>
+    <bloque>
+      <id>n4-11</id>
+      <titulo>Norma 49</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n4-11</url>
+    </bloque>
+    <bloque>
+      <id>n5-2</id>
+      <titulo>Norma 50</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n5-2</url>
+    </bloque>
+    <bloque>
+      <id>n5-3</id>
+      <titulo>Norma 51</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n5-3</url>
+    </bloque>
+    <bloque>
+      <id>n5-4</id>
+      <titulo>Norma 52</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n5-4</url>
+    </bloque>
+    <bloque>
+      <id>c7</id>
+      <titulo>CAPÍTULO 7</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/c7</url>
+    </bloque>
+    <bloque>
+      <id>n5-5</id>
+      <titulo>Norma 53</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n5-5</url>
+    </bloque>
+    <bloque>
+      <id>n5-6</id>
+      <titulo>Norma 54</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n5-6</url>
+    </bloque>
+    <bloque>
+      <id>n5-7</id>
+      <titulo>Norma 55</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n5-7</url>
+    </bloque>
+    <bloque>
+      <id>n5-8</id>
+      <titulo>Norma 56</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n5-8</url>
+    </bloque>
+    <bloque>
+      <id>n5-9</id>
+      <titulo>Norma 57</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n5-9</url>
+    </bloque>
+    <bloque>
+      <id>n5-10</id>
+      <titulo>Norma 58</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n5-10</url>
+    </bloque>
+    <bloque>
+      <id>c8</id>
+      <titulo>CAPÍTULO 8</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/c8</url>
+    </bloque>
+    <bloque>
+      <id>n5-11</id>
+      <titulo>Norma 59</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n5-11</url>
+    </bloque>
+    <bloque>
+      <id>n6-2</id>
+      <titulo>Norma 60</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-2</url>
+    </bloque>
+    <bloque>
+      <id>n6-3</id>
+      <titulo>Norma 61</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-3</url>
+    </bloque>
+    <bloque>
+      <id>c9</id>
+      <titulo>CAPÍTULO 9</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/c9</url>
+    </bloque>
+    <bloque>
+      <id>n6-4</id>
+      <titulo>Norma 62</titulo>
+      <fecha_actualizacion>20231114</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-4</url>
+    </bloque>
+    <bloque>
+      <id>n6-5</id>
+      <titulo>Norma 63</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-5</url>
+    </bloque>
+    <bloque>
+      <id>n6-6</id>
+      <titulo>Norma 64</titulo>
+      <fecha_actualizacion>20231114</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-6</url>
+    </bloque>
+    <bloque>
+      <id>n6-12</id>
+      <titulo>Norma 64 bis</titulo>
+      <fecha_actualizacion>20231114</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-12</url>
+    </bloque>
+    <bloque>
+      <id>n6-13</id>
+      <titulo>Norma 64 ter</titulo>
+      <fecha_actualizacion>20231114</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-13</url>
+    </bloque>
+    <bloque>
+      <id>n6-7</id>
+      <titulo>Norma 65</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-7</url>
+    </bloque>
+    <bloque>
+      <id>n6-8</id>
+      <titulo>Norma 66</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-8</url>
+    </bloque>
+    <bloque>
+      <id>n6-9</id>
+      <titulo>Norma 67</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-9</url>
+    </bloque>
+    <bloque>
+      <id>c1-2</id>
+      <titulo>CAPÍTULO 10</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/c1-2</url>
+    </bloque>
+    <bloque>
+      <id>n6-10</id>
+      <titulo>Norma 68</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-10</url>
+    </bloque>
+    <bloque>
+      <id>n6-11</id>
+      <titulo>Norma 69</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n6-11</url>
+    </bloque>
+    <bloque>
+      <id>n7-2</id>
+      <titulo>Norma 70</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n7-2</url>
+    </bloque>
+    <bloque>
+      <id>n7-3</id>
+      <titulo>Norma 71</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n7-3</url>
+    </bloque>
+    <bloque>
+      <id>n7-4</id>
+      <titulo>Norma 72</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n7-4</url>
+    </bloque>
+    <bloque>
+      <id>n7-5</id>
+      <titulo>Norma 73</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n7-5</url>
+    </bloque>
+    <bloque>
+      <id>n7-6</id>
+      <titulo>Norma 74</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n7-6</url>
+    </bloque>
+    <bloque>
+      <id>c1-3</id>
+      <titulo>CAPÍTULO 11</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/c1-3</url>
+    </bloque>
+    <bloque>
+      <id>n7-7</id>
+      <titulo>Norma 75</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n7-7</url>
+    </bloque>
+    <bloque>
+      <id>n7-8</id>
+      <titulo>Norma 76</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/n7-8</url>
+    </bloque>
+    <bloque>
+      <id>da</id>
+      <titulo>Disposición adicional única</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/da</url>
+    </bloque>
+    <bloque>
+      <id>dt</id>
+      <titulo>Disposición transitoria primera</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/dt</url>
+    </bloque>
+    <bloque>
+      <id>dt-2</id>
+      <titulo>Disposición transitoria segunda</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/dt-2</url>
+    </bloque>
+    <bloque>
+      <id>dt-3</id>
+      <titulo>Disposición transitoria tercera</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/dt-3</url>
+    </bloque>
+    <bloque>
+      <id>dt-4</id>
+      <titulo>Disposición transitoria cuarta</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/dt-4</url>
+    </bloque>
+    <bloque>
+      <id>dt-5</id>
+      <titulo>Disposición transitoria quinta</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/dt-5</url>
+    </bloque>
+    <bloque>
+      <id>dt-6</id>
+      <titulo>Disposición transitoria sexta</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/dt-6</url>
+    </bloque>
+    <bloque>
+      <id>dt-7</id>
+      <titulo>Disposición transitoria séptima</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/dt-7</url>
+    </bloque>
+    <bloque>
+      <id>dd</id>
+      <titulo>Disposición derogatoria</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/dd</url>
+    </bloque>
+    <bloque>
+      <id>df</id>
+      <titulo>Disposición final primera</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/df</url>
+    </bloque>
+    <bloque>
+      <id>df-2</id>
+      <titulo>Disposición final segunda</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/df-2</url>
+    </bloque>
+    <bloque>
+      <id>df-3</id>
+      <titulo>Disposición final tercera</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/df-3</url>
+    </bloque>
+    <bloque>
+      <id>df-4</id>
+      <titulo>Disposición final cuarta</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/df-4</url>
+    </bloque>
+    <bloque>
+      <id>fi</id>
+      <titulo>[firma]</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/fi</url>
+    </bloque>
+    <bloque>
+      <id>ai</id>
+      <titulo>ANEJO I</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/ai</url>
+    </bloque>
+    <bloque>
+      <id>ai-2</id>
+      <titulo>ANEJO II</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/ai-2</url>
+    </bloque>
+    <bloque>
+      <id>ai-3</id>
+      <titulo>ANEJO III</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/ai-3</url>
+    </bloque>
+    <bloque>
+      <id>ai-4</id>
+      <titulo>ANEJO IV</titulo>
+      <fecha_actualizacion>20231114</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/ai-4</url>
+    </bloque>
+    <bloque>
+      <id>av</id>
+      <titulo>ANEJO V</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/av</url>
+    </bloque>
+    <bloque>
+      <id>av-2</id>
+      <titulo>ANEJO VI</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/av-2</url>
+    </bloque>
+    <bloque>
+      <id>av-3</id>
+      <titulo>ANEJO VII</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/av-3</url>
+    </bloque>
+    <bloque>
+      <id>av-4</id>
+      <titulo>ANEJO VIII</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/av-4</url>
+    </bloque>
+    <bloque>
+      <id>ai-5</id>
+      <titulo>ANEJO IX</titulo>
+      <fecha_actualizacion>20211223</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2016-1238/texto/bloque/ai-5</url>
+    </bloque>
+  </data>
+</response>

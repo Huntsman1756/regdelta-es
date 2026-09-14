@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251218T210449Z</fecha_actualizacion>
+      <identificador>BOE-A-2005-4749</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20050225</fecha_disposicion>
+      <numero_oficial>2/2005</numero_oficial>
+      <titulo>Circular 2/2005, de 25 de febrero, sobre ficheros automatizados con datos de carácter personal gestionados por el Banco de España.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20050322</fecha_publicacion>
+      <diario_numero>69</diario_numero>
+      <fecha_vigencia>20050322</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2005/02/25/2</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2005-4749</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

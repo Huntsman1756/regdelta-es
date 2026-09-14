@@ -1,0 +1,15 @@
+{
+  "aggregate_bytes": 161495794,
+  "aggregate_sha256": "c77cd381d199f111944597f59a011be787b0eb67064b98d1860659aa5dd496bf",
+  "artifact_count": 385,
+  "capture_script_sha256": "0b9263b5418e808e381671e62b0b2625c32e3823a2f9e63b06999a37feeac0a4",
+  "manifest_sha256": "9e96b32109b42f61f1b966e7dc8345babd19ae42c4571cfb228e33033897ef06",
+  "rule": "no source/test/eval code may read these manifests until G0-G.2",
+  "sealed_at_head": "ef58530f5ba8787879ab897fecfc2dd9c424ce69",
+  "targets": [
+    "BOE-A-2013-5720",
+    "BOE-A-2016-1238",
+    "BOE-A-2021-19805",
+    "BOE-A-2021-21220"
+  ]
+}

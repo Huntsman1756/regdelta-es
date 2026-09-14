@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20151120</fecha_publicacion>
+      </metadatos>
+      <diario numero="278">
+        <sumario_diario>
+          <identificador>BOE-S-2015-278</identificador>
+          <url_pdf szBytes="260072" szKBytes="254">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-S-2015-278.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Estatuto Básico del Empleado Público">
+              <item>
+                <identificador>BOE-A-2015-12525</identificador>
+                <control>2015/12549</control>
+                <titulo>Corrección de errores del Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público.</titulo>
+                <url_pdf szBytes="154204" szKBytes="151" pagina_inicial="109573" pagina_final="109573">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12525.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12525</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12525</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuenta General de las Entidades Locales">
+              <item>
+                <identificador>BOE-A-2015-12526</identificador>
+                <control>2015/12455</control>
+                <titulo>Resolución de 13 de noviembre de 2015, de la Intervención General de la Administración del Estado, por la que se recomienda un nuevo formato normalizado de la Cuenta General de las Entidades Locales en soporte informático para su rendición.</titulo>
+                <url_pdf szBytes="190362" szKBytes="186" pagina_inicial="109574" pagina_final="109578">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12526.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12526</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12526</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Servicios públicos. Acceso electrónico">
+              <item>
+                <identificador>BOE-A-2015-12527</identificador>
+                <control>2015/12456</control>
+                <titulo>Resolución de 13 de noviembre de 2015, de la Autoridad Independiente de Responsabilidad Fiscal, por la que se crea la sede electrónica de la entidad.</titulo>
+                <url_pdf szBytes="170332" szKBytes="166" pagina_inicial="109579" pagina_final="109581">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12527.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12527</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12527</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <epigrafe nombre="Sanidad animal">
+              <item>
+                <identificador>BOE-A-2015-12528</identificador>
+                <control>2015/12551</control>
+                <titulo>Orden AAA/2444/2015, de 19 de noviembre, por la que se establecen medidas de emergencia preventivas frente a la fiebre aftosa en el Magreb.</titulo>
+                <url_pdf szBytes="178916" szKBytes="175" pagina_inicial="109582" pagina_final="109585">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12528.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12528</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12528</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Cajas de ahorros. Fundaciones bancarias">
+              <item>
+                <identificador>BOE-A-2015-12529</identificador>
+                <control>2015/12552</control>
+                <titulo>Circular 6/2015, de 17 de noviembre, del Banco de España, a las cajas de ahorros y fundaciones bancarias, sobre determinados aspectos de los informes de remuneraciones y gobierno corporativo de las cajas de ahorros que no emitan valores admitidos a negociación en mercados oficiales de valores y sobre las obligaciones de las fundaciones bancarias derivadas de sus participaciones en entidades de crédito.</titulo>
+                <url_pdf szBytes="849779" szKBytes="830" pagina_inicial="109586" pagina_final="109632">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12529.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12529</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12529</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2015-12530</identificador>
+                <control>2015/12553</control>
+                <titulo>Acuerdo de 12 de noviembre de 2015, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se nombran Magistrados suplentes y Jueces sustitutos para el año judicial 2015/2016, en el ámbito de los Tribunales Superiores de Justicia de las Illes Balears y Comunitat Valenciana.</titulo>
+                <url_pdf szBytes="155661" szKBytes="152" pagina_inicial="109633" pagina_final="109633">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12530.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12530</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12530</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2015-12531</identificador>
+                <control>2015/12558</control>
+                <titulo>Orden HAP/2445/2015, de 12 de noviembre, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Orden HAP/1855/2015, de 9 de septiembre.</titulo>
+                <url_pdf szBytes="161112" szKBytes="157" pagina_inicial="109634" pagina_final="109635">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12531.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12531</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12531</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2015-12532</identificador>
+                <control>2015/12436</control>
+                <titulo>Orden FOM/2446/2015, de 6 de noviembre, por la que se resuelve la convocatoria de libre designación, efectuada por Orden FOM/1990/2015, de 21 de septiembre.</titulo>
+                <url_pdf szBytes="159597" szKBytes="156" pagina_inicial="109636" pagina_final="109637">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12532.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12532</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12532</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2015-12533</identificador>
+                <control>2015/12437</control>
+                <titulo>Orden ESS/2447/2015, de 29 de octubre, por la que se resuelve la convocatoria de libre designación, efectuada por Orden ESS/1722/2015, de 6 de agosto.</titulo>
+                <url_pdf szBytes="156835" szKBytes="153" pagina_inicial="109638" pagina_final="109638">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12533.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12533</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12533</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2015-12534</identificador>
+                <control>2015/12438</control>
+                <titulo>Resolución de 10 de noviembre de 2015, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 8 de octubre de 2015.</titulo>
+                <url_pdf szBytes="157731" szKBytes="154" pagina_inicial="109639" pagina_final="109639">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12534.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12534</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12534</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2015-12538</identificador>
+                <control>2015/12355</control>
+                <titulo>Resolución de 3 de noviembre de 2015, de la Universidad Pablo de Olavide, por la que se nombra Catedrática de Universidad a doña María del Valle Gómez de Terreros Guardiola.</titulo>
+                <url_pdf szBytes="152948" szKBytes="149" pagina_inicial="109643" pagina_final="109643">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12538.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12538</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12538</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12539</identificador>
+                <control>2015/12467</control>
+                <titulo>Resolución de 3 de noviembre de 2015, de la Universidad de Granada, por la que se nombra Profesor Titular de Universidad a don Simón Verley.</titulo>
+                <url_pdf szBytes="151934" szKBytes="148" pagina_inicial="109644" pagina_final="109644">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12539.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12539</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12539</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12540</identificador>
+                <control>2015/12357</control>
+                <titulo>Resolución de 4 de noviembre de 2015, de la Universidad de Alcalá, por la que se nombra Catedrática de Universidad a doña María Castellano Arroyo.</titulo>
+                <url_pdf szBytes="152546" szKBytes="149" pagina_inicial="109645" pagina_final="109645">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12540.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12540</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12540</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12541</identificador>
+                <control>2015/12358</control>
+                <titulo>Resolución de 4 de noviembre de 2015, de la Universidad de Alcalá, por la que se nombra Profesor Titular de Universidad a don José Luis Pérez Díaz.</titulo>
+                <url_pdf szBytes="152853" szKBytes="149" pagina_inicial="109646" pagina_final="109646">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12541.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12541</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12541</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12542</identificador>
+                <control>2015/12470</control>
+                <titulo>Resolución de 6 de noviembre de 2015, de la Universidad Nacional de Educación a Distancia, por la que se nombra Profesora Titular de Universidad a doña Blanca Sánchez-Robles Rute.</titulo>
+                <url_pdf szBytes="150638" szKBytes="147" pagina_inicial="109647" pagina_final="109647">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12542.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12542</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12542</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Integraciones">
+              <item>
+                <identificador>BOE-A-2015-12535</identificador>
+                <control>2015/12460</control>
+                <titulo>Resolución de 23 de octubre de 2015, de la Universidad Politécnica de Cartagena, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a don Gregorio Munuera Saura.</titulo>
+                <url_pdf szBytes="156219" szKBytes="153" pagina_inicial="109640" pagina_final="109640">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12535.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12535</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12535</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12536</identificador>
+                <control>2015/12461</control>
+                <titulo>Resolución de 26 de octubre de 2015, de la Universidad de Jaén, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a don Antonio Abarca Álvarez.</titulo>
+                <url_pdf szBytes="153186" szKBytes="150" pagina_inicial="109641" pagina_final="109641">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12536.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12536</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12536</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12537</identificador>
+                <control>2015/12349</control>
+                <titulo>Resolución de 28 de octubre de 2015, de la Universidad de Sevilla, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a doña María José Charlo Molina.</titulo>
+                <url_pdf szBytes="155024" szKBytes="151" pagina_inicial="109642" pagina_final="109642">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12537.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12537</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12537</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Funcionarios de administración local con habilitación de carácter nacional">
+              <item>
+                <identificador>BOE-A-2015-12544</identificador>
+                <control>2015/12570</control>
+                <titulo>Resolución de 13 de noviembre de 2015, de la Dirección General de la Función Pública, por la que se publica la convocatoria del concurso unitario de provisión de puestos de trabajo reservados a funcionarios de administración local con habilitación de carácter nacional, en el ámbito de la Comunidad Autónoma del País Vasco.</titulo>
+                <url_pdf szBytes="277248" szKBytes="271" pagina_inicial="109649" pagina_final="109652">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12544.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12544</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12544</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Funcionarios de las Administraciones Públicas">
+              <item>
+                <identificador>BOE-A-2015-12543</identificador>
+                <control>2015/12565</control>
+                <titulo>Orden HAP/2448/2015, de 12 de noviembre, por la que se declara desierto puesto de trabajo de libre designación, convocado por Orden HAP/1985/2015, de 28 de septiembre.</titulo>
+                <url_pdf szBytes="152196" szKBytes="149" pagina_inicial="109648" pagina_final="109648">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12543.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12543</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12543</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <epigrafe nombre="Escala Técnica de Gestión de Organismos Autónomos">
+              <item>
+                <identificador>BOE-A-2015-12545</identificador>
+                <control>2015/12576</control>
+                <titulo>Orden SSI/2449/2015, de 10 de noviembre, por la que se convoca proceso selectivo para ingreso, por el sistema de promoción interna, en la Escala Técnica de Gestión de Organismos Autónomos, especialidad de Sanidad y Consumo.</titulo>
+                <url_pdf szBytes="372709" szKBytes="364" pagina_inicial="109653" pagina_final="109669">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12545.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12545</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12545</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia">
+              <item>
+                <identificador>BOE-A-2015-12546</identificador>
+                <control>2015/12578</control>
+                <titulo>Resolución de 6 de noviembre de 2015, del Departamento de Justicia, por la que se modifica la de 16 de octubre de 2015, por la que se convoca concurso específico para la provisión de puestos de trabajo, como consecuencia de la implantación de la oficina judicial en Amposta.</titulo>
+                <url_pdf szBytes="156025" szKBytes="152" pagina_inicial="109670" pagina_final="109670">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12546.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12546</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12546</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2015-12547</identificador>
+                <control>2015/12364</control>
+                <titulo>Resolución de 30 de octubre de 2015, de la Universitat de València, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="379051" szKBytes="370" pagina_inicial="109671" pagina_final="109682">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12547.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12547</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12547</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12548</identificador>
+                <control>2015/12365</control>
+                <titulo>Resolución de 3 de noviembre de 2015, de la Universidad de Córdoba, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="391808" szKBytes="383" pagina_inicial="109683" pagina_final="109696">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12548.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12548</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12548</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12549</identificador>
+                <control>2015/12440</control>
+                <titulo>Resolución de 9 de noviembre de 2015, de la Universidad Miguel Hernández, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="271953" szKBytes="266" pagina_inicial="109697" pagina_final="109705">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12549.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12549</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12549</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Tribunales Superiores de Justicia. Elecciones">
+              <item>
+                <identificador>BOE-A-2015-12550</identificador>
+                <control>2015/12366</control>
+                <titulo>Acuerdo de 29 de octubre de 2015, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se convocan elecciones parciales con el fin de cubrir una vacante de miembro titular electo con la categoría de Juez, así como la de su correspondiente sustituto, para integrarse en la Sala de Gobierno del Tribunal Superior de Justicia de Navarra.</titulo>
+                <url_pdf szBytes="150762" szKBytes="147" pagina_inicial="109706" pagina_final="109706">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12550.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12550</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12550</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12551</identificador>
+                <control>2015/12367</control>
+                <titulo>Acuerdo de 29 de octubre de 2015, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se convocan elecciones parciales con el fin de cubrir una vacante de miembro titular electo con la categoría de Juez, así como la de su correspondiente sustituto, para integrarse en la Sala de Gobierno del Tribunal Superior de Justicia de Madrid.</titulo>
+                <url_pdf szBytes="150554" szKBytes="147" pagina_inicial="109707" pagina_final="109707">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12551.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12551</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12551</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Datos de carácter personal">
+              <item>
+                <identificador>BOE-A-2015-12552</identificador>
+                <control>2015/12280</control>
+                <titulo>Orden DEF/2450/2015, de 6 de noviembre, por la que se modifica la Orden DEF/226/2012, de 3 de febrero, por la que se crean y suprimen ficheros de datos de carácter personal de diversos órganos de la Dirección General de Personal.</titulo>
+                <url_pdf szBytes="159151" szKBytes="155" pagina_inicial="109708" pagina_final="109709">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12552.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12552</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12552</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Mercado de tabacos">
+              <item>
+                <identificador>BOE-A-2015-12553</identificador>
+                <control>2015/12595</control>
+                <titulo>Circular 1/2015, de 11 de noviembre, del Comisionado para el Mercado de Tabacos, por la que se delimita el alcance y contenido de determinadas actividades promocionales.</titulo>
+                <url_pdf szBytes="165974" szKBytes="162" pagina_inicial="109710" pagina_final="109712">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12553.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12553</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12553</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12554</identificador>
+                <control>2015/12596</control>
+                <titulo>Circular 2/2015, de 11 de noviembre, del Comisionado para el Mercado de Tabacos, sobre el procedimiento de comunicación de precios de venta al público de los distintos tipos, marcas y modalidades de productos de tabaco.</titulo>
+                <url_pdf szBytes="244135" szKBytes="238" pagina_inicial="109713" pagina_final="109718">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12554.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12554</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12554</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Fundaciones">
+              <item>
+                <identificador>BOE-A-2015-12555</identificador>
+                <control>2015/12370</control>
+                <titulo>Orden ECD/2451/2015, de 2 de noviembre, por la que se inscribe en el Registro de Fundaciones la Fundación Ana Cristina Placer Peralta.</titulo>
+                <url_pdf szBytes="163278" szKBytes="159" pagina_inicial="109719" pagina_final="109720">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12555.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12555</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12555</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Premios">
+              <item>
+                <identificador>BOE-A-2015-12556</identificador>
+                <control>2015/12371</control>
+                <titulo>Orden ECD/2452/2015, de 5 de noviembre, por la que se concede el Premio Velázquez de las Artes Plásticas correspondiente a 2015.</titulo>
+                <url_pdf szBytes="150944" szKBytes="147" pagina_inicial="109721" pagina_final="109721">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12556.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12556</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12556</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12557</identificador>
+                <control>2015/12372</control>
+                <titulo>Orden ECD/2453/2015, de 6 de noviembre, por la que se concede el Premio Nacional de Tauromaquia correspondiente al año 2015.</titulo>
+                <url_pdf szBytes="150455" szKBytes="147" pagina_inicial="109722" pagina_final="109722">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12557.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12557</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12557</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-12558</identificador>
+                <control>2015/12376</control>
+                <titulo>Resolución de 27 de octubre de 2015, de la Secretaría de Estado de Cultura, por la que se resuelve el concurso nacional para la concesión del Premio a las Mejores Encuadernaciones Artísticas de 2015.</titulo>
+                <url_pdf szBytes="235552" szKBytes="230" pagina_inicial="109723" pagina_final="109725">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12558.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12558</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12558</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9219" nombre="MINISTERIO DE INDUSTRIA, ENERGÍA Y TURISMO">
+            <epigrafe nombre="Telecomunicaciones">
+              <item>
+                <identificador>BOE-A-2015-12559</identificador>
+                <control>2015/12293</control>
+                <titulo>Resolución de 6 de noviembre de 2015, de la Secretaría de Estado de Telecomunicaciones y para la Sociedad de la Información, por la que se publican los requisitos técnicos de las interfaces reglamentadas IR- 234 a IR- 239, relativas a los equipos de radioaficionados.</titulo>
+                <url_pdf szBytes="271748" szKBytes="265" pagina_inicial="109726" pagina_final="109732">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12559.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12559</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12559</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <epigrafe nombre="Impacto ambiental">
+              <item>
+                <identificador>BOE-A-2015-12560</identificador>
+                <control>2015/12609</control>
+                <titulo>Corrección de errores de la Resolución de 30 de septiembre de 2015, de la Dirección General del Agua, por la que se publica el Acuerdo del Consejo de Ministros de 18 de septiembre de 2015, por el que se declaran excluidas del trámite de evaluación ambiental diversas actuaciones relativas a obras de emergencia destinadas a la mejora de la seguridad ante inundaciones en núcleos urbanos de la cuenca del río Ebro, fase 1, en las Comunidades Autónomas de Castilla y León, La Rioja y Foral de Navarra.</titulo>
+                <url_pdf szBytes="154569" szKBytes="151" pagina_inicial="109733" pagina_final="109733">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12560.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12560</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12560</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2015-12561</identificador>
+                <control>2015/12392</control>
+                <titulo>Resolución de 10 de noviembre de 2015, de la Secretaría de Estado de Investigación, Desarrollo e Innovación, por la que se publican ayudas concedidas en la convocatoria EMPLEA 2014 en las modalidades titulados universitarios y titulados no universitarios con formación profesional de grado superior o equivalente, convocadas por Resolución de 5 de noviembre de 2013.</titulo>
+                <url_pdf szBytes="897476" szKBytes="876" pagina_inicial="109734" pagina_final="109740">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12561.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12561</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12561</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Deuda del Estado">
+              <item>
+                <identificador>BOE-A-2015-12562</identificador>
+                <control>2015/12610</control>
+                <titulo>Resolución de 17 de noviembre de 2015, de la Secretaría General del Tesoro y Política Financiera, por la que se corrigen errores en la de 22 de octubre de 2015, por la que se publican los resultados de las subastas de Letras del Tesoro a tres y nueve meses correspondientes a las emisiones de fecha 23 de octubre de 2015.</titulo>
+                <url_pdf szBytes="150775" szKBytes="147" pagina_inicial="109741" pagina_final="109741">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12562.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12562</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12562</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2015-12563</identificador>
+                <control>2015/12301</control>
+                <titulo>Resolución de 29 de octubre de 2015, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publican ayudas concedidas a entidades privadas sin fines de lucro y de ámbito estatal, con cargo al Fondo de Bienes decomisados por tráfico ilícito de drogas y otros delitos relacionados, en aplicación de la Ley 17/2003, de 29 de mayo, para la realización de programas supracomunitarios sobre drogodependencias en el año 2015.</titulo>
+                <url_pdf szBytes="303414" szKBytes="296" pagina_inicial="109742" pagina_final="109752">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12563.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12563</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12563</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2015-12564</identificador>
+                <control>2015/12612</control>
+                <titulo>Resolución de 19 de noviembre de 2015, del Banco de España, por la que se publican los cambios del euro correspondientes al día 19 de noviembre de 2015, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="176365" szKBytes="172" pagina_inicial="109753" pagina_final="109753">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-A-2015-12564.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-12564</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12564</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9552" nombre="AUDIENCIA NACIONAL">
+            <item>
+              <identificador>BOE-B-2015-34801</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="160383" szKBytes="157" pagina_inicial="48489" pagina_final="48489">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34801.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34801</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34801</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2015-34802</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="161565" szKBytes="158" pagina_inicial="48490" pagina_final="48490">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34802.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34802</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34802</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2015-34803</identificador>
+              <titulo>ALMERÍA</titulo>
+              <url_pdf szBytes="166238" szKBytes="162" pagina_inicial="48491" pagina_final="48491">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34803.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34803</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34803</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Contratación del Sector Público">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2015-34804</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de la Sección Económico Administrativa 22 - Base Aérea de Torrejón (Agrupación de Base). Objeto: adquisición de productos alimenticios 7 lotes. Expediente: 4220015066600.</titulo>
+              <url_pdf szBytes="175214" szKBytes="171" pagina_inicial="48492" pagina_final="48492">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34804.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34804</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34804</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34805</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de la Sección Económico Administrativa 22 - Base Aérea de Torrejón (Agrupación de Base). Objeto: adquisición de productos alimenticios 7 lotes. Expediente: 4220015066600.</titulo>
+              <url_pdf szBytes="175078" szKBytes="171" pagina_inicial="48493" pagina_final="48493">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34805.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34805</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34805</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34806</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de la Sección Económico Administrativa 22 - Base Aérea de Torrejón (Agrupación de Base). Objeto: adquisición de productos alimenticios 7 lotes. Expediente: 4220015066600.</titulo>
+              <url_pdf szBytes="175311" szKBytes="171" pagina_inicial="48494" pagina_final="48494">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34806.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34806</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34806</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34807</identificador>
+              <titulo>Anuncio del Órgano de Contratación de la Dirección de Abastecimiento y Transportes de la Armada por la que se anuncia la formalización del expediente 2412/15 para la adquisición de cuatro (4) aviones SCRAB-II y material asociado.</titulo>
+              <url_pdf szBytes="173350" szKBytes="169" pagina_inicial="48495" pagina_final="48495">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34807.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34807</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34807</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34808</identificador>
+              <titulo>Resolución del Órgano de Contratación de la SAECO del Parque y Centro de Mantenimiento de Helicópteros, por la que se anuncia la licitación para el Mantenimiento de equipos de salvamento para tripulaciones de helicópteros. Expediente 2006515029600.</titulo>
+              <url_pdf szBytes="178668" szKBytes="174" pagina_inicial="48496" pagina_final="48496">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34808.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34808</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34808</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34809</identificador>
+              <titulo>Resolución del Órgano de Contratación de la SAECO del Parque y Centro de Mantenimiento de Helicópteros, por la que se anuncia la licitación para el mantenimiento torres de control y sistemas de ayuda a la navegación NDB,s. Expediente: 2006515028500.</titulo>
+              <url_pdf szBytes="178974" szKBytes="175" pagina_inicial="48497" pagina_final="48497">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34809.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34809</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34809</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2015-34810</identificador>
+              <titulo>Anuncio de formalización de contratos de la División Económica y Técnica (Cuerpo Nacional de Policía). Objeto: Adquisición de diferentes prendas de uniformidad básica reglamentaria y nuevas divisas, con destino a los funcionarios del Cuerpo Nacional de Policía, formado por 14 lotes independientes, para los años 2015 y 2016. Expediente: 003/15/VE/01.</titulo>
+              <url_pdf szBytes="191820" szKBytes="187" pagina_inicial="48498" pagina_final="48502">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34810.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34810</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34810</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34811</identificador>
+              <titulo>Anuncio de formalización de contratos de la Subdirección General de Servicios Penitenciarios. Objeto: Servicio de mantenimiento integral en el Centro Penitenciario de Madrid V, Soto del Real, dependiente de la Secretaría General de Instituciones Penitenciarias. Expediente: 020120140181.</titulo>
+              <url_pdf szBytes="175767" szKBytes="172" pagina_inicial="48503" pagina_final="48503">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34811.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34811</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34811</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34812</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de Gestión Económica y Patrimonial. Objeto: Suministro de energía eléctrica con destino a los centros del Ministerio del Interior. Expediente: 14V051.</titulo>
+              <url_pdf szBytes="174678" szKBytes="171" pagina_inicial="48504" pagina_final="48504">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34812.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34812</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34812</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34813</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de Gestión Económica y Patrimonial. Objeto: Suministro de energía eléctrica con destino a los centros del Ministerio del Interior. Expediente: 14V051.</titulo>
+              <url_pdf szBytes="174756" szKBytes="171" pagina_inicial="48505" pagina_final="48505">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34813.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34813</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34813</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2015-34814</identificador>
+              <titulo>Anuncio de formalización de contratos de la Dirección General de Carreteras. Objeto: Ejecución de diversas operaciones de conservación y explotación en las carreteras A-2 de L.P. de Huesca a L.P. de Barcelona, pk. 443,758 al 530,722; LL-11 de autovía A-2 a tramo cedido al Ayuntamiento de Lleida, pk. 0,000 al 8,000; N-II de L.P. de Huesca a tramo cedido a la Generalitat de Catalunya pk. 443,600 a 448,100; N-II de calzadas laterales de la autovía A-2 a tramo cedido al Ayuntamiento de Tárrega pk. 503,000 al 504,750; E-22 Tramo de conexión entre el enlace de Sidamon y la N-II; E-23 Tramo de conexión entre el enlace de Mollerussa y la N-II; E-25 Tramo de conexión entre el semienlace de Els Alamús y la N-II. Provincia de Lleida. Ponderación de la puntuación técnica: 0,30. Ponderación de la puntuación económica: 0,70. Expediente: 30.11/15-2; 51-L-0405.</titulo>
+              <url_pdf szBytes="182635" szKBytes="178" pagina_inicial="48506" pagina_final="48507">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34814.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34814</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34814</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34815</identificador>
+              <titulo>Anuncio de licitación de la Presidencia del Consejo de Administración de la Autoridad Portuaria de Barcelona (PORT DE BARCELONA). Objeto: Remediación del Subsuelo del Muelle Contradique (2ª FASE).- Clave de expediente: OB-GP-P-0738/2013. Expediente: 190/2015.</titulo>
+              <url_pdf szBytes="187454" szKBytes="183" pagina_inicial="48508" pagina_final="48509">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34815.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34815</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34815</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34816</identificador>
+              <titulo>Anuncio de rectificación de la resolución de ENAIRE, por la que se anuncia la licitación para la adquisición de vales de comida canjeables para el acceso a restaurantes para el personal de los servicios centrales de Enaire. Expediente DNA 379/2015.</titulo>
+              <url_pdf szBytes="167208" szKBytes="163" pagina_inicial="48510" pagina_final="48510">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34816.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34816</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34816</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <item>
+              <identificador>BOE-B-2015-34817</identificador>
+              <titulo>Anuncio de la Dirección de Servicios del Departamento de Desarrollo Económico y Competitividad por el que se hace pública la formalización del contrato que tiene por objeto la contratación de los servicios de planificación y compra de espacios publicitarios de la campaña de sensibilización y valorización social del comercio minorista y el papel social de las actividades de distribución.</titulo>
+              <url_pdf szBytes="173903" szKBytes="170" pagina_inicial="48511" pagina_final="48511">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34817.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34817</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34817</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2015-34818</identificador>
+              <titulo>Anuncio de la Comisión Central de Suministros de la Generalitat de Catalunya de formalización de los contratos del Acuerdo Marco de los servicios de prevención de riesgos laborales ajenos.</titulo>
+              <url_pdf szBytes="176819" szKBytes="173" pagina_inicial="48512" pagina_final="48513">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34818.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34818</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34818</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <item>
+              <identificador>BOE-B-2015-34819</identificador>
+              <titulo>Resolución de 16 de noviembre de 2015, de la Dirección Gerencia del Servicio Andaluz de Salud, por la que se publica formalización del contrato de suministro de material genérico de curas: gasas y compresas, para los centros vinculados a la Plataforma de Logística Sanitaria de Jaén.</titulo>
+              <url_pdf szBytes="176261" szKBytes="172" pagina_inicial="48514" pagina_final="48514">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34819.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34819</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34819</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34820</identificador>
+              <titulo>Resolución de 16 de noviembre de 2015, de la Dirección Gerencia del Servicio Andaluz de Salud, por la que se publica formalización del contrato de suministro de utensilios de cocina y comedor para los centros vinculados a la Plataforma de Logística Sanitaria de Granada.</titulo>
+              <url_pdf szBytes="175027" szKBytes="171" pagina_inicial="48515" pagina_final="48515">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34820.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34820</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34820</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34821</identificador>
+              <titulo>Resolución de 16 de noviembre de 2015, de la Dirección Gerencia del Servicio Andaluz de Salud, por la que se publica formalización del contrato de suministro de material de incontinencia urinaria para los centros vinculados a la Plataforma de Logística Sanitaria de Jaén.</titulo>
+              <url_pdf szBytes="175334" szKBytes="171" pagina_inicial="48516" pagina_final="48516">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34821.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34821</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34821</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34822</identificador>
+              <titulo>Resolución de 30 de octubre de 2015 del Patronato de la Alhambra y Generalife por la que se anuncia licitación para la adjudicación del contrato administrativo de servicio de gestión del sistema integral de venta de entradas del Patronato de la Alhambra y Generalife.</titulo>
+              <url_pdf szBytes="182294" szKBytes="178" pagina_inicial="48517" pagina_final="48518">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34822.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34822</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34822</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8100" nombre="COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA">
+            <item>
+              <identificador>BOE-B-2015-34823</identificador>
+              <titulo>Anuncio de la Dirección Gerencia del Servicio Murciano de Salud sobre rectificación de errores del anuncio de licitación para la contratación del servicio de traslado, almacenamiento, archivo, custodia y gestión del archivo pasivo de historias clínicas y documentación administrativa del Hospital Clínico Universitario Virgen de la Arrixaca.</titulo>
+              <url_pdf szBytes="170056" szKBytes="166" pagina_inicial="48519" pagina_final="48519">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34823.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34823</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34823</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <item>
+              <identificador>BOE-B-2015-34824</identificador>
+              <titulo>Resolución de la Conselleria de Educación, Investigación, Cultura y Deporte por la que se hace pública la licitación del suministro de gas y mantenimiento de las instalaciones de Cheste.</titulo>
+              <url_pdf szBytes="182646" szKBytes="178" pagina_inicial="48520" pagina_final="48521">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34824.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34824</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34824</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2015-34825</identificador>
+              <titulo>Anuncio del Ayuntamiento de l'Hospitalet de Llobregat por el que se convoca licitación pública para los servicios de diversos seguros.</titulo>
+              <url_pdf szBytes="181993" szKBytes="178" pagina_inicial="48522" pagina_final="48523">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34825.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34825</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34825</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34826</identificador>
+              <titulo>Anuncio del Ilustre Ayuntamiento de Osuna, de licitación para el suministro de materiales de construcción y afines destinados e las obras del PFEA 2015 de Osuna.</titulo>
+              <url_pdf szBytes="174151" szKBytes="170" pagina_inicial="48524" pagina_final="48524">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34826.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34826</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34826</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34827</identificador>
+              <titulo>Anuncio de licitación de la Presidencia de la Mancomunidad L'Horta Nord. Objeto: Servicio de mensajería de la Mancomunitat de L'Horta Nord, con arreglo a lo dispuesto en el Pliego de Prescripciones Técnicas. Expediente: 2/2015.</titulo>
+              <url_pdf szBytes="181234" szKBytes="177" pagina_inicial="48525" pagina_final="48526">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34827.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34827</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34827</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2015-34828</identificador>
+              <titulo>Resolución de la Universidad de Oviedo por la que se anuncia la formalización de contrato de servicio de comunicaciones unificadas para esta Universidad (Dos lotes).</titulo>
+              <url_pdf szBytes="172454" szKBytes="168" pagina_inicial="48527" pagina_final="48527">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34828.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34828</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34828</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34829</identificador>
+              <titulo>Anuncio de la Universidad de Castilla-La Mancha por la que se hace público la formalización del servicio de póliza de seguro de accidentes y responsabilidad civil de los estudiantes de la Universidad de Castilla-La Mancha.</titulo>
+              <url_pdf szBytes="174433" szKBytes="170" pagina_inicial="48528" pagina_final="48528">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34829.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34829</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34829</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34830</identificador>
+              <titulo>Resolución de 16 de noviembre de 2015 de la Universidade da Coruña, por la que se anuncia la licitación del contrato del "Servicio de impresión y personalización de Títulos Oficiales y su Suplemento Europeo (SET)" (expediente 2015/4011).</titulo>
+              <url_pdf szBytes="186397" szKBytes="182" pagina_inicial="48529" pagina_final="48530">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34830.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34830</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34830</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2015-34831</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT), de licitación para la ejecución de la obra: "Proyecto de reparación de los puentes : Puente de los Cobos sobre el río Adaja en la N-502 y puente sobre el arroyo de los Diezgos en la N-403. Carretera: N-502 de Ávila a Córdoba y N-403 de Toledo a Ávila, PP.KK. 18+900 y 154+100. Tramo: Solosancho y Santo Domingo de las Posadas. Provincia de Ávila".</titulo>
+              <url_pdf szBytes="187312" szKBytes="183" pagina_inicial="48531" pagina_final="48532">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34831.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34831</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34831</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34832</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Proyecto de mejora de la seguridad vial. Implantación de paso peatonal semaforizado en la glorieta N-550 P.K. 142+700 con N-555 P.k. 0+000, y ampliación de plataforma e implantación de aceras en la carretera N-555. Tramos puntuales PP.KK. 1+860 a 1+880, 2+070, y 2+140 y 2+400 a 3+020. Término municipal de Redondela. Provincia de Pontevedra".</titulo>
+              <url_pdf szBytes="187656" szKBytes="183" pagina_inicial="48533" pagina_final="48534">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34832.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34832</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34832</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34833</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Adecuación y mejora de barreras de protección en la Provincia de Cuenca".</titulo>
+              <url_pdf szBytes="182908" szKBytes="179" pagina_inicial="48535" pagina_final="48536">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34833.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34833</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34833</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34834</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT), de licitación para la ejecución de la obra: "Reconstrucción del firme de la Autovía A-66 entre los PP.KK. 799,400 y 803,500 y rehabilitación del firme de la SE-30 entre los PP.KK. 0 y 22,450. Tramos varios (Sevilla)".</titulo>
+              <url_pdf szBytes="186867" szKBytes="182" pagina_inicial="48537" pagina_final="48538">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34834.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34834</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34834</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34835</identificador>
+              <titulo>Anuncio de Aena, S.A. de corrección de errores de los pliegos correspondientes a la licitación para la contratación de la "Tasación de los activos inmobiliarios en los Aeropuertos de la red de Aena".</titulo>
+              <url_pdf szBytes="166225" szKBytes="162" pagina_inicial="48539" pagina_final="48539">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34835.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34835</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34835</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2015-34836</identificador>
+              <titulo>Resolución del Departamento de Empresa y Empleo Secretaria General Servicios Territoriales en Lleida, EMO/ /2015, de 16 de octubre, por la que se otorga a la empresa Gas Natural Distribución SDG, S.A., la autorización administrativa y la aprobación del proyecto ejecutivo de las instalaciones correspondientes al Proyecto de transformación a gas natural de las instalaciones existentes de GLP, construcción de la red de distribución, planta satélite de GNL y planta provisional de GLP, en el término municipal de Ponts (DICT 25-00019074/86-2015).</titulo>
+              <url_pdf szBytes="192547" szKBytes="188" pagina_inicial="48540" pagina_final="48543">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34836.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34836</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34836</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-34837</identificador>
+              <titulo>Anuncio del Departamento de Empresa y Empleo, Dirección General de Energía, Minas y Seguridad Industrial, de información pública sobre la aprobación del proyecto de ejecución para la distribución de gas natural en el término municipal de Santa Eulalia de Ronçana. (Exp. DICT08-00020186/2015).</titulo>
+              <url_pdf szBytes="177835" szKBytes="174" pagina_inicial="48544" pagina_final="48545">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34837.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34837</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34837</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8060" nombre="COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA">
+            <item>
+              <identificador>BOE-B-2015-34838</identificador>
+              <titulo>Anuncio de 6/10/2015, de la Dirección Provincial de Economía, Empresas y Empleo de Albacete, sobre solicitud del permiso de investigación Valparaiso n.º 1928.</titulo>
+              <url_pdf szBytes="170325" szKBytes="166" pagina_inicial="48546" pagina_final="48546">https://www.boe.es/boe/dias/2015/11/20/pdfs/BOE-B-2015-34838.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-34838</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-34838</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

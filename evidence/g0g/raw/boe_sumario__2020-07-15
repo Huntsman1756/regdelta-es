@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20200715</fecha_publicacion>
+      </metadatos>
+      <diario numero="193">
+        <sumario_diario>
+          <identificador>BOE-S-2020-193</identificador>
+          <url_pdf szBytes="471372" szKBytes="460">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-S-2020-193.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2020-7861</identificador>
+                <control>2020/8082</control>
+                <titulo>Orden AUC/640/2020, de 26 de junio, por la que se reorganiza la Red de Consulados Honorarios de España en Canadá.</titulo>
+                <url_pdf szBytes="220707" szKBytes="216" pagina_inicial="51241" pagina_final="51241">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7861.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7861</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7861</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Juzgados de violencia sobre la mujer">
+              <item>
+                <identificador>BOE-A-2020-7862</identificador>
+                <control>2020/8151</control>
+                <titulo>Real Decreto 663/2020, de 14 de julio, por el que se extiende la jurisdicción del Juzgado de Violencia sobre la Mujer de Algeciras a los Partidos Judiciales de La Línea de La Concepción y de San Roque.</titulo>
+                <url_pdf szBytes="343012" szKBytes="335" pagina_inicial="51242" pagina_final="51247">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7862.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7862</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7862</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5140" nombre="MINISTERIO DE HACIENDA">
+            <epigrafe nombre="Presupuestos">
+              <item>
+                <identificador>BOE-A-2020-7863</identificador>
+                <control>2020/8083</control>
+                <titulo>Orden HAC/641/2020, de 14 de julio, por la que se dictan las normas para la elaboración de los Presupuestos Generales del Estado para 2021.</titulo>
+                <url_pdf szBytes="774545" szKBytes="756" pagina_inicial="51248" pagina_final="51289">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7863.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7863</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7863</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9573" nombre="MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL">
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2020-7864</identificador>
+                <control>2020/8167</control>
+                <titulo>Real Decreto 664/2020, de 14 de julio, por el que se regula la concesión directa de determinadas subvenciones en el ámbito del empleo y de la formación profesional para el empleo, para el ejercicio presupuestario 2020.</titulo>
+                <url_pdf szBytes="297334" szKBytes="290" pagina_inicial="51290" pagina_final="51301">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7864.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7864</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7864</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9561" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Comunidad Autónoma del País Vasco. Traspaso de funciones y servicios">
+              <item>
+                <identificador>BOE-A-2020-7865</identificador>
+                <control>2020/8152</control>
+                <titulo>Real Decreto 665/2020, de 14 de julio, de traspaso de funciones y servicios de la Administración del Estado a la Comunidad Autónoma del País Vasco en materia de ejecución de la legislación laboral: ayudas previas a la jubilación ordinaria a trabajadores afectados por expedientes de despido colectivo.</titulo>
+                <url_pdf szBytes="248005" szKBytes="242" pagina_inicial="51302" pagina_final="51305">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7865.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7865</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7865</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7866</identificador>
+                <control>2020/8153</control>
+                <titulo>Real Decreto 666/2020, de 14 de julio, de traspaso de funciones y servicios de la Administración del Estado a la Comunidad Autónoma del País Vasco en materia de ejecución de la legislación del Estado sobre productos farmacéuticos.</titulo>
+                <url_pdf szBytes="243176" szKBytes="237" pagina_inicial="51306" pagina_final="51309">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7866.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7866</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7866</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7867</identificador>
+                <control>2020/8154</control>
+                <titulo>Real Decreto 667/2020, de 14 de julio, de traspaso a la Comunidad Autónoma del País Vasco de los medios adscritos a la gestión de las prestaciones sanitarias del seguro escolar.</titulo>
+                <url_pdf szBytes="241846" szKBytes="236" pagina_inicial="51310" pagina_final="51313">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7867.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7867</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7867</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2020-7868</identificador>
+                <control>2020/8155</control>
+                <titulo>Real Decreto 668/2020, de 14 de julio, por el que se regula la concesión directa de diversas subvenciones al Instituto de España, a las Reales Academias y a otras entidades.</titulo>
+                <url_pdf szBytes="272960" szKBytes="267" pagina_inicial="51314" pagina_final="51321">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7868.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7868</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7868</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2020-7869</identificador>
+                <control>2020/7497</control>
+                <titulo>Circular 4/2020, de 26 de junio, del Banco de España, sobre publicidad de los productos y servicios bancarios.</titulo>
+                <url_pdf szBytes="339608" szKBytes="332" pagina_inicial="51322" pagina_final="51341">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7869.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7869</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7869</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2020-7870</identificador>
+                <control>2020/7911</control>
+                <titulo>Resolución de 29 de mayo de 2020, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 21 de noviembre de 2019.</titulo>
+                <url_pdf szBytes="234559" szKBytes="229" pagina_inicial="51342" pagina_final="51342">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7870.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7870</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7870</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7871</identificador>
+                <control>2020/7912</control>
+                <titulo>Resolución de 16 de junio de 2020, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 25 de febrero de 2020.</titulo>
+                <url_pdf szBytes="233263" szKBytes="228" pagina_inicial="51343" pagina_final="51343">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7871.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7871</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7871</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7872</identificador>
+                <control>2020/7913</control>
+                <titulo>Resolución de 25 de junio de 2020, de la Subsecretaría, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Resolución de 6 de febrero de 2020.</titulo>
+                <url_pdf szBytes="233402" szKBytes="228" pagina_inicial="51344" pagina_final="51344">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7872.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7872</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7872</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7873</identificador>
+                <control>2020/7914</control>
+                <titulo>Resolución de 30 de junio de 2020, de la Subsecretaría, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Resolución de 22 de enero de 2020.</titulo>
+                <url_pdf szBytes="232475" szKBytes="227" pagina_inicial="51345" pagina_final="51345">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7873.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7873</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7873</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Ascensos">
+              <item>
+                <identificador>BOE-A-2020-7874</identificador>
+                <control>2020/8156</control>
+                <titulo>Real Decreto 669/2020, de 14 de julio, por el que se promueve al empleo superior, con carácter honorífico y a título póstumo, a personal fallecido de las Fuerzas Armadas.</titulo>
+                <url_pdf szBytes="215743" szKBytes="211" pagina_inicial="51346" pagina_final="51346">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7874.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7874</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7874</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5250" nombre="MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2020-7875</identificador>
+                <control>2020/8157</control>
+                <titulo>Real Decreto 670/2020, de 14 de julio, por el que se dispone el cese de doña Isabel María Oliver Sagreras como Secretaria de Estado de Turismo.</titulo>
+                <url_pdf szBytes="214708" szKBytes="210" pagina_inicial="51347" pagina_final="51347">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7875.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7875</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7875</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7876</identificador>
+                <control>2020/8158</control>
+                <titulo>Real Decreto 671/2020, de 14 de julio, por el que se dispone el cese de don Fernando Valdés Verelst como Subsecretario de Industria, Comercio y Turismo.</titulo>
+                <url_pdf szBytes="213505" szKBytes="209" pagina_inicial="51348" pagina_final="51348">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7876.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7876</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7876</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7877</identificador>
+                <control>2020/8159</control>
+                <titulo>Real Decreto 672/2020, de 14 de julio, por el que se dispone el cese de don Pablo Garde Lobo como Secretario General Técnico.</titulo>
+                <url_pdf szBytes="213133" szKBytes="208" pagina_inicial="51349" pagina_final="51349">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7877.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7877</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7877</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2020-7878</identificador>
+                <control>2020/8160</control>
+                <titulo>Real Decreto 673/2020, de 14 de julio, por el que se nombra Secretario de Estado de Turismo a don Fernando Valdés Verelst.</titulo>
+                <url_pdf szBytes="212368" szKBytes="207" pagina_inicial="51350" pagina_final="51350">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7878.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7878</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7878</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7879</identificador>
+                <control>2020/8161</control>
+                <titulo>Real Decreto 674/2020, de 14 de julio, por el que se nombra Subsecretario de Industria, Comercio y Turismo a don Pablo Garde Lobo.</titulo>
+                <url_pdf szBytes="213227" szKBytes="208" pagina_inicial="51351" pagina_final="51351">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7879.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7879</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7879</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7880</identificador>
+                <control>2020/8162</control>
+                <titulo>Real Decreto 675/2020, de 14 de julio, por el que se nombra Director General del Instituto de Turismo de España (TURESPAÑA) a don Miguel Ángel Sanz Castedo.</titulo>
+                <url_pdf szBytes="216626" szKBytes="212" pagina_inicial="51352" pagina_final="51352">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7880.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7880</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7880</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2020-7881</identificador>
+                <control>2020/7917</control>
+                <titulo>Resolución de 7 de julio de 2020, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 12 de marzo de 2020, en las Oficinas Económicas y Comerciales en el exterior.</titulo>
+                <url_pdf szBytes="251886" szKBytes="246" pagina_inicial="51353" pagina_final="51354">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7881.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7881</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7881</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3120" nombre="MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2020-7882</identificador>
+                <control>2020/8021</control>
+                <titulo>Orden APA/642/2020, de 10 de julio, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 13 de mayo de 2020.</titulo>
+                <url_pdf szBytes="261793" szKBytes="256" pagina_inicial="51355" pagina_final="51357">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7882.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7882</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7882</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9574" nombre="MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2020-7883</identificador>
+                <control>2020/8163</control>
+                <titulo>Real Decreto 676/2020, de 14 de julio, por el que se nombra Interventor General de la Defensa al General de División Interventor del Cuerpo Militar de Intervención don José Luis Gómez Corral.</titulo>
+                <url_pdf szBytes="214904" szKBytes="210" pagina_inicial="51358" pagina_final="51358">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7883.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7883</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7883</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2020-7884</identificador>
+                <control>2020/8022</control>
+                <titulo>Resolución de 9 de julio de 2020, de la Subsecretaría, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Resolución de 27 de febrero de 2020.</titulo>
+                <url_pdf szBytes="236094" szKBytes="231" pagina_inicial="51359" pagina_final="51360">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7884.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7884</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7884</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9576" nombre="MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2020-7885</identificador>
+                <control>2020/8026</control>
+                <titulo>Resolución de 9 de julio de 2020, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 19 de mayo de 2020.</titulo>
+                <url_pdf szBytes="236494" szKBytes="231" pagina_inicial="51361" pagina_final="51362">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7885.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7885</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7885</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4510" nombre="MINISTERIO FISCAL">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2020-7886</identificador>
+                <control>2020/6959</control>
+                <titulo>Decreto de 12 de junio de 2020, de la Fiscal General del Estado, por el que se nombra Fiscal Delegada de Criminalidad Informática de la Fiscalía Provincial de Guipúzcoa a doña Odei Cuesta Palomeque.</titulo>
+                <url_pdf szBytes="226916" szKBytes="222" pagina_inicial="51363" pagina_final="51364">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7886.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7886</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7886</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2020-7887</identificador>
+                <control>2020/7639</control>
+                <titulo>Resolución de 2 de julio de 2020, de la Universidad de Sevilla, por la que se nombra Profesor Titular de Universidad a don Federico Perea Rojas-Marcos.</titulo>
+                <url_pdf szBytes="218172" szKBytes="213" pagina_inicial="51365" pagina_final="51365">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7887.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7887</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7887</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7888</identificador>
+                <control>2020/7646</control>
+                <titulo>Resolución de 2 de julio de 2020, de la Universidad Nacional de Educación a Distancia, por la que se nombra Profesora Titular de Universidad a doña Pastora Martínez Castilla.</titulo>
+                <url_pdf szBytes="215329" szKBytes="210" pagina_inicial="51366" pagina_final="51366">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7888.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7888</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7888</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Funcionarios de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2020-7889</identificador>
+                <control>2020/8078</control>
+                <titulo>Resolución de 8 de julio de 2020, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="242934" szKBytes="237" pagina_inicial="51367" pagina_final="51369">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7889.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7889</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7889</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7890</identificador>
+                <control>2020/8079</control>
+                <titulo>Resolución de 8 de julio de 2020, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="259259" szKBytes="253" pagina_inicial="51370" pagina_final="51373">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7890.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7890</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7890</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7891</identificador>
+                <control>2020/8028</control>
+                <titulo>Resolución de 9 de julio de 2020, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación, en la Carrera Diplomática.</titulo>
+                <url_pdf szBytes="293565" szKBytes="287" pagina_inicial="51374" pagina_final="51377">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7891.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7891</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7891</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Funcionarios de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2020-7892</identificador>
+                <control>2020/8080</control>
+                <titulo>Resolución 430/38199/2020, de 10 de julio, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="253222" szKBytes="247" pagina_inicial="51378" pagina_final="51380">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7892.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7892</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7892</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5140" nombre="MINISTERIO DE HACIENDA">
+            <epigrafe nombre="Funcionarios de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2020-7893</identificador>
+                <control>2020/8029</control>
+                <titulo>Resolución de 30 de junio de 2020, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="305646" szKBytes="298" pagina_inicial="51381" pagina_final="51386">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7893.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7893</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7893</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Funcionarios de las Administraciones Públicas">
+              <item>
+                <identificador>BOE-A-2020-7894</identificador>
+                <control>2020/8030</control>
+                <titulo>Resolución de 10 de julio de 2020, de la Subsecretaría, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación, en la Oficina Independiente de Regulación y Supervisión de la Contratación.</titulo>
+                <url_pdf szBytes="224325" szKBytes="219" pagina_inicial="51387" pagina_final="51389">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7894.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7894</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7894</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Funcionarios de los Subgrupos C1 y C2">
+              <item>
+                <identificador>BOE-A-2020-7895</identificador>
+                <control>2020/8165</control>
+                <titulo>Resolución de 13 de julio de 2020, de la Subsecretaría, por la que se convoca concurso general para la provisión de puestos de trabajo.</titulo>
+                <url_pdf szBytes="883083" szKBytes="862" pagina_inicial="51390" pagina_final="51426">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7895.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7895</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7895</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <epigrafe nombre="Cuerpo de Ingenieros Técnicos en Topografía">
+              <item>
+                <identificador>BOE-A-2020-7896</identificador>
+                <control>2020/8003</control>
+                <titulo>Corrección de errores de la Resolución de 14 de junio de 2020, por la que se convoca el proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en el Cuerpo de Ingenieros Técnicos en Topografía.</titulo>
+                <url_pdf szBytes="215388" szKBytes="210" pagina_inicial="51427" pagina_final="51427">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7896.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7896</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7896</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Funcionarios de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2020-7897</identificador>
+                <control>2020/7801</control>
+                <titulo>Resolución de 1 de julio de 2020, de la Dirección de la Agencia Estatal de Seguridad Aérea, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="251383" szKBytes="245" pagina_inicial="51428" pagina_final="51434">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7897.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7897</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7897</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9563" nombre="MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL">
+            <epigrafe nombre="Funcionarios de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2020-7898</identificador>
+                <control>2020/7650</control>
+                <titulo>Resolución de 3 de julio de 2020, de la Subsecretaría, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="232947" szKBytes="227" pagina_inicial="51435" pagina_final="51437">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7898.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7898</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7898</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3120" nombre="MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN">
+            <epigrafe nombre="Funcionarios de las Administraciones Públicas">
+              <item>
+                <identificador>BOE-A-2020-7899</identificador>
+                <control>2020/8032</control>
+                <titulo>Resolución de 10 de julio de 2020, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="252929" szKBytes="247" pagina_inicial="51438" pagina_final="51441">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7899.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7899</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7899</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9574" nombre="MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA">
+            <epigrafe nombre="Funcionarios de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2020-7900</identificador>
+                <control>2020/8033</control>
+                <titulo>Resolución de 9 de julio de 2020, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="300716" szKBytes="294" pagina_inicial="51442" pagina_final="51445">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7900.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7900</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7900</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9561" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Cuerpo General Auxiliar de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2020-7901</identificador>
+                <control>2020/8150</control>
+                <titulo>Corrección de erratas de la Resolución de 9 de julio de 2020, de la Secretaría de Estado de Política Territorial y Función Pública, por la que se publica la relación definitiva de aspirantes que han superado las pruebas selectivas para ingreso, por el sistema general de acceso libre, al Cuerpo General Auxiliar de la Administración del Estado, convocado por Resolución de 14 de junio de 2019.</titulo>
+                <url_pdf szBytes="2510349" szKBytes="2452" pagina_inicial="51446" pagina_final="51484">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7901.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7901</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7901</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Funcionarios de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2020-7902</identificador>
+                <control>2020/7928</control>
+                <titulo>Resolución de 8 de julio de 2020, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="263044" szKBytes="257" pagina_inicial="51485" pagina_final="51487">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7902.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7902</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7902</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Funcionarios de las Administraciones Públicas">
+              <item>
+                <identificador>BOE-A-2020-7903</identificador>
+                <control>2020/8034</control>
+                <titulo>Resolución de 9 de julio de 2020, de la Subsecretaría, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="289247" szKBytes="282" pagina_inicial="51488" pagina_final="51491">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7903.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7903</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7903</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4335" nombre="MINISTERIO DE SANIDAD">
+            <epigrafe nombre="Cuerpo de Veterinarios Titulares">
+              <item>
+                <identificador>BOE-A-2020-7904</identificador>
+                <control>2020/8036</control>
+                <titulo>Resolución de 6 de julio de 2020, de la Subsecretaría, por la que se aprueba la relación provisional de admitidos y excluidos y se anuncia fecha, hora y lugar de celebración del primer ejercicio del proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Veterinarios Titulares, convocado por Resolución de 30 de enero de 2020.</titulo>
+                <url_pdf szBytes="279953" szKBytes="273" pagina_inicial="51492" pagina_final="51494">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7904.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7904</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7904</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Funcionarios de las Administraciones Públicas">
+              <item>
+                <identificador>BOE-A-2020-7905</identificador>
+                <control>2020/8037</control>
+                <titulo>Resolución de 6 de julio de 2020, de la Subsecretaría, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="222219" szKBytes="217" pagina_inicial="51495" pagina_final="51497">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7905.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7905</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7905</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9577" nombre="MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030">
+            <epigrafe nombre="Funcionarios de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2020-7906</identificador>
+                <control>2020/7809</control>
+                <titulo>Orden DSA/643/2020, de 2 de julio, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="222777" szKBytes="218" pagina_inicial="51498" pagina_final="51501">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7906.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7906</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7906</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <epigrafe nombre="Funcionarios de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2020-7907</identificador>
+                <control>2020/7739</control>
+                <titulo>Resolución de 6 de julio de 2020, de la Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="198903" szKBytes="194" pagina_inicial="51502" pagina_final="51504">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7907.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7907</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7907</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1420" nombre="TRIBUNAL DE CUENTAS">
+            <epigrafe nombre="Funcionarios de las Administraciones Públicas">
+              <item>
+                <identificador>BOE-A-2020-7908</identificador>
+                <control>2020/8040</control>
+                <titulo>Resolución de 9 de julio de 2020, de la Presidencia del Tribunal de Cuentas, por la que se convoca la provisión de puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="261991" szKBytes="256" pagina_inicial="51505" pagina_final="51508">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7908.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7908</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7908</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8121" nombre="COMUNIDAD AUTÓNOMA DE LAS ILLES BALEARS">
+            <epigrafe nombre="Funcionarios de las Administraciones Públicas">
+              <item>
+                <identificador>BOE-A-2020-7909</identificador>
+                <control>2020/8041</control>
+                <titulo>Resolución de 7 de julio de 2020, de la Oficina de Prevención y Lucha contra la Corrupción de las Illes Balears, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="253665" szKBytes="248" pagina_inicial="51509" pagina_final="51511">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7909.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7909</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7909</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario">
+              <item>
+                <identificador>BOE-A-2020-7910</identificador>
+                <control>2020/7518</control>
+                <titulo>Resolución de 25 de junio de 2020, del Ayuntamiento de Utrera (Sevilla), referente a la convocatoria para proveer puesto de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="215006" szKBytes="210" pagina_inicial="51512" pagina_final="51512">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7910.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7910</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7910</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7911</identificador>
+                <control>2020/7522</control>
+                <titulo>Resolución de 26 de junio de 2020, del Ayuntamiento de A Coruña, referente a la convocatoria para la provisión de puesto de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="214207" szKBytes="209" pagina_inicial="51513" pagina_final="51513">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7911.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7911</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7911</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7912</identificador>
+                <control>2020/7942</control>
+                <titulo>Resolución de 8 de julio de 2020, de la Diputación de Jaén, referente a la convocatoria para proveer puestos de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="212940" szKBytes="208" pagina_inicial="51514" pagina_final="51514">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7912.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7912</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7912</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2020-7913</identificador>
+                <control>2020/8008</control>
+                <titulo>Resolución de 25 de junio de 2020, del Ayuntamiento de Narón (A Coruña), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="217739" szKBytes="213" pagina_inicial="51515" pagina_final="51515">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7913.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7913</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7913</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7914</identificador>
+                <control>2020/8042</control>
+                <titulo>Resolución de 30 de junio de 2020, del Ayuntamiento de Medio Cudeyo (Cantabria), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="214159" szKBytes="209" pagina_inicial="51516" pagina_final="51516">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7914.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7914</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7914</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7915</identificador>
+                <control>2020/8043</control>
+                <titulo>Resolución de 6 de julio de 2020, de la Diputación Provincial de Palencia, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="213711" szKBytes="209" pagina_inicial="51517" pagina_final="51517">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7915.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7915</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7915</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7916</identificador>
+                <control>2020/8044</control>
+                <titulo>Resolución de 6 de julio de 2020, de la Diputación Provincial de Palencia, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="214529" szKBytes="210" pagina_inicial="51518" pagina_final="51518">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7916.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7916</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7916</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7917</identificador>
+                <control>2020/8045</control>
+                <titulo>Resolución de 8 de julio de 2020, del Ayuntamiento de Medio Cudeyo (Cantabria), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="213969" szKBytes="209" pagina_inicial="51519" pagina_final="51519">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7917.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7917</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7917</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2020-7918</identificador>
+                <control>2020/8046</control>
+                <titulo>Resolución de 25 de junio de 2020, de la Universidad de Córdoba, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="319843" szKBytes="312" pagina_inicial="51520" pagina_final="51531">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7918.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7918</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7918</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7919</identificador>
+                <control>2020/8047</control>
+                <titulo>Resolución de 6 de julio de 2020, de la Universidad de Alicante, por la que se corrigen errores en la de 2 de junio de 2020, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="213882" szKBytes="209" pagina_inicial="51532" pagina_final="51532">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7919.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7919</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7919</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="5140" nombre="MINISTERIO DE HACIENDA">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2020-7920</identificador>
+                <control>2020/7755</control>
+                <titulo>Resolución de 7 de julio de 2020, de la Dirección General del Catastro, por la que se publica el Convenio con la Diputación Provincial de Málaga en materia de gestión catastral.</titulo>
+                <url_pdf szBytes="346234" szKBytes="338" pagina_inicial="51533" pagina_final="51548">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7920.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7920</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7920</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9573" nombre="MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL">
+            <epigrafe nombre="Convenios colectivos de trabajo">
+              <item>
+                <identificador>BOE-A-2020-7921</identificador>
+                <control>2020/7661</control>
+                <titulo>Resolución de 2 de julio de 2020, de la Dirección General de Trabajo, por la que se registra y publica el Acuerdo de modificación del Convenio colectivo de T-Systems ITC Iberia, SAU.</titulo>
+                <url_pdf szBytes="238343" szKBytes="233" pagina_inicial="51549" pagina_final="51552">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7921.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7921</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7921</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7922</identificador>
+                <control>2020/7662</control>
+                <titulo>Resolución de 2 de julio de 2020, de la Dirección General de Trabajo, por la que se registra y publica el Convenio colectivo de Cor Outsourcing, SL.</titulo>
+                <url_pdf szBytes="400230" szKBytes="391" pagina_inicial="51553" pagina_final="51577">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7922.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7922</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7922</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7923</identificador>
+                <control>2020/7663</control>
+                <titulo>Resolución de 2 de julio de 2020, de la Dirección General de Trabajo, por la que se registra y publica el IV Convenio colectivo del grupo de empresas Distribuidora Internacional de Alimentación, SA, y Dia Retail España, SAU.</titulo>
+                <url_pdf szBytes="606893" szKBytes="593" pagina_inicial="51578" pagina_final="51626">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7923.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7923</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7923</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7924</identificador>
+                <control>2020/7664</control>
+                <titulo>Resolución de 2 de julio de 2020, de la Dirección General de Trabajo, por la que se registra y publica el XXI Convenio colectivo del personal de tierra de Iberia, Líneas Aéreas de España, SA, Operadora S Unipersonal.</titulo>
+                <url_pdf szBytes="9554276" szKBytes="9330" pagina_inicial="51627" pagina_final="51857">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7924.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7924</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7924</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5250" nombre="MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2020-7925</identificador>
+                <control>2020/8061</control>
+                <titulo>Resolución de 9 de julio de 2020, de ICEX España Exportación e Inversiones, E.P.E., M.P., por la que se publica el Convenio con la Federación de Industrias del Calzado Español, para la organización del programa Global Through Innovation para la internacionalización del sector del calzado español.</titulo>
+                <url_pdf szBytes="322153" szKBytes="315" pagina_inicial="51858" pagina_final="51872">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7925.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7925</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7925</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3120" nombre="MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN">
+            <epigrafe nombre="Comunidad Autónoma de Galicia. Convenio">
+              <item>
+                <identificador>BOE-A-2020-7926</identificador>
+                <control>2020/7762</control>
+                <titulo>Resolución de 29 de junio de 2020, de la Dirección General de Producciones y Mercados Agrarios, por la que se publica el Convenio con la Xunta de Galicia, para el depósito y custodia de material genético de animales de razas puras, consignado en el Banco Nacional de Germoplasma Animal.</titulo>
+                <url_pdf szBytes="255787" szKBytes="250" pagina_inicial="51873" pagina_final="51878">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7926.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7926</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7926</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Pesca marítima">
+              <item>
+                <identificador>BOE-A-2020-7927</identificador>
+                <control>2020/7763</control>
+                <titulo>Resolución de 3 de julio de 2020, de la Secretaría General de Pesca, por la que se lleva a cabo el reparto de la cuota adicional de merluza sur (HKE/8C3411) obtenida para 2020 por intercambios con Portugal y Francia.</titulo>
+                <url_pdf szBytes="500140" szKBytes="488" pagina_inicial="51879" pagina_final="51887">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7927.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7927</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7927</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9574" nombre="MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2020-7928</identificador>
+                <control>2020/8062</control>
+                <titulo>Resolución de 9 de junio de 2020, del Instituto de la Mujer y para la Igualdad de Oportunidades, por la que se publica el Convenio con Nuevo Microbank, SAU, para realizar actuaciones de promoción y apoyo a las mujeres emprendedoras y empresarias enmarcadas en el desarrollo del programa de microcréditos.</titulo>
+                <url_pdf szBytes="277884" szKBytes="271" pagina_inicial="51888" pagina_final="51896">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7928.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7928</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7928</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9561" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2020-7929</identificador>
+                <control>2020/8065</control>
+                <titulo>Resolución de 7 de julio de 2020, de la Mutualidad General de Funcionarios Civiles del Estado, por la que se convoca la concesión de ayudas de protección sociosanitaria durante el año 2020.</titulo>
+                <url_pdf szBytes="502234" szKBytes="490" pagina_inicial="51897" pagina_final="51921">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7929.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7929</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7929</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2020-7930</identificador>
+                <control>2020/7693</control>
+                <titulo>Resolución de 30 de junio de 2020, del Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria, O.A., M.P., por la que se publica el Convenio con la Asociación Interprofesional del Cerdo Ibérico, para la realización de actividades conjuntas en el Centro de I+D en Cerdo Ibérico de Zafra.</titulo>
+                <url_pdf szBytes="268702" szKBytes="262" pagina_inicial="51922" pagina_final="51928">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7930.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7930</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7930</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7931</identificador>
+                <control>2020/7694</control>
+                <titulo>Resolución de 1 de julio de 2020, de la Presidencia del Consejo Superior de Investigaciones Científicas, M.P., por la que se publica el Convenio con la Fundació Institut de Recerca de l'Hospital de la Santa Creu i Sant Pau, para la colaboración en el proyecto de I+D+i "Variabilidad en genes de respuesta inmune y predicción de infección grave por SARSCoV-2".</titulo>
+                <url_pdf szBytes="279840" szKBytes="273" pagina_inicial="51929" pagina_final="51937">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7931.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7931</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7931</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7932</identificador>
+                <control>2020/7695</control>
+                <titulo>Resolución de 1 de julio de 2020, de la Presidencia del Consejo Superior de Investigaciones Científicas, M.P., por la que se publica el Convenio con la Fundación los Álamos del Valle de Ricote, para el proyecto "Escritos de Floridablanca".</titulo>
+                <url_pdf szBytes="262154" szKBytes="256" pagina_inicial="51938" pagina_final="51942">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7932.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7932</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7932</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2020-7933</identificador>
+                <control>2020/8147</control>
+                <titulo>Resolución de 14 de julio de 2020, del Banco de España, por la que se publican los cambios del euro correspondientes al día 14 de julio de 2020, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="309694" szKBytes="302" pagina_inicial="51943" pagina_final="51944">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7933.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7933</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7933</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9534" nombre="COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA">
+            <epigrafe nombre="Sistema gasista">
+              <item>
+                <identificador>BOE-A-2020-7934</identificador>
+                <control>2020/7621</control>
+                <titulo>Resolución de 1 de julio de 2020, de la Comisión Nacional de los Mercados y la Competencia, por la que se aprueba la metodología de cálculo de tarifas de desbalance diario y el procedimiento de liquidación de desbalances de los usuarios y de acciones de balance y gestión de desbalances del gestor técnico del sistema.</titulo>
+                <url_pdf szBytes="1204817" szKBytes="1177" pagina_inicial="51945" pagina_final="51966">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7934.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7934</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7934</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8110" nombre="COMUNIDAD AUTÓNOMA DE LA RIOJA">
+            <epigrafe nombre="Bienes de interés cultural">
+              <item>
+                <identificador>BOE-A-2020-7935</identificador>
+                <control>2020/7992</control>
+                <titulo>Resolución de 22 de junio de 2020, de la Dirección General de Cultura, de la Consejería de Educación y Cultura, por la que se incoa expediente de declaración de bien de interés cultural, con la categoría de monumento, de la Iglesia Parroquial de San Adrián y Santa Natalia de Autol y su entorno de protección.</titulo>
+                <url_pdf szBytes="1424059" szKBytes="1391" pagina_inicial="51967" pagina_final="51978">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7935.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7935</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7935</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2020-7936</identificador>
+                <control>2020/7993</control>
+                <titulo>Resolución de 24 de junio de 2020, de la Dirección General de Cultura, de la Consejería de Educación y Cultura, por la que se incoa expediente de declaración de bien de interés cultural, con la categoría de monumento, de la obra de ingeniería civil del viaducto de San Martín en Ortigosa de Cameros y su entorno de protección.</titulo>
+                <url_pdf szBytes="1448160" szKBytes="1414" pagina_inicial="51979" pagina_final="51988">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-A-2020-7936.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-7936</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2020-7936</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2020-22122</identificador>
+              <titulo>BARBATE</titulo>
+              <url_pdf szBytes="165136" szKBytes="161" pagina_inicial="29493" pagina_final="29493">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22122.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22122</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22122</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22123</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="168090" szKBytes="164" pagina_inicial="29494" pagina_final="29494">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22123.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22123</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22123</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22124</identificador>
+              <titulo>BURGOS</titulo>
+              <url_pdf szBytes="167295" szKBytes="163" pagina_inicial="29495" pagina_final="29495">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22124.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22124</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22124</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22125</identificador>
+              <titulo>BURGOS</titulo>
+              <url_pdf szBytes="167248" szKBytes="163" pagina_inicial="29496" pagina_final="29496">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22125.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22125</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22125</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22126</identificador>
+              <titulo>DOS HERMANAS</titulo>
+              <url_pdf szBytes="168740" szKBytes="165" pagina_inicial="29497" pagina_final="29497">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22126.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22126</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22126</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22127</identificador>
+              <titulo>EL PUERTO DE SANTA MARÍA</titulo>
+              <url_pdf szBytes="168853" szKBytes="165" pagina_inicial="29498" pagina_final="29498">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22127.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22127</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22127</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22128</identificador>
+              <titulo>LUGO</titulo>
+              <url_pdf szBytes="166897" szKBytes="163" pagina_inicial="29499" pagina_final="29499">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22128.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22128</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22128</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22129</identificador>
+              <titulo>MOLINA DE SEGURA</titulo>
+              <url_pdf szBytes="166941" szKBytes="163" pagina_inicial="29500" pagina_final="29500">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22129.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22129</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22129</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22130</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="166260" szKBytes="162" pagina_inicial="29501" pagina_final="29501">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22130.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22130</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22130</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22131</identificador>
+              <titulo>TORREJÓN DE ARDOZ</titulo>
+              <url_pdf szBytes="167604" szKBytes="164" pagina_inicial="29502" pagina_final="29502">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22131.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22131</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22131</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22132</identificador>
+              <titulo>TORREJÓN DE ARDOZ</titulo>
+              <url_pdf szBytes="166645" szKBytes="163" pagina_inicial="29503" pagina_final="29503">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22132.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22132</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22132</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2020-22133</identificador>
+              <titulo>A CORUÑA</titulo>
+              <url_pdf szBytes="166166" szKBytes="162" pagina_inicial="29504" pagina_final="29504">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22133.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22133</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22133</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22134</identificador>
+              <titulo>A CORUÑA</titulo>
+              <url_pdf szBytes="168739" szKBytes="165" pagina_inicial="29505" pagina_final="29505">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22134.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22134</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22134</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22135</identificador>
+              <titulo>ALBACETE</titulo>
+              <url_pdf szBytes="164867" szKBytes="161" pagina_inicial="29506" pagina_final="29506">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22135.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22135</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22135</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22136</identificador>
+              <titulo>ALBACETE</titulo>
+              <url_pdf szBytes="163959" szKBytes="160" pagina_inicial="29507" pagina_final="29507">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22136.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22136</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22136</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22137</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="167360" szKBytes="163" pagina_inicial="29508" pagina_final="29508">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22137.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22137</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22137</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22138</identificador>
+              <titulo>ALMERÍA</titulo>
+              <url_pdf szBytes="164416" szKBytes="161" pagina_inicial="29509" pagina_final="29509">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22138.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22138</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22138</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22139</identificador>
+              <titulo>ALMERÍA</titulo>
+              <url_pdf szBytes="163237" szKBytes="159" pagina_inicial="29510" pagina_final="29510">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22139.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22139</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22139</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22140</identificador>
+              <titulo>ALMERÍA</titulo>
+              <url_pdf szBytes="163792" szKBytes="160" pagina_inicial="29511" pagina_final="29511">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22140.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22140</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22140</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22141</identificador>
+              <titulo>BADAJOZ</titulo>
+              <url_pdf szBytes="165713" szKBytes="162" pagina_inicial="29512" pagina_final="29512">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22141.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22141</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22141</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22142</identificador>
+              <titulo>BADAJOZ</titulo>
+              <url_pdf szBytes="170428" szKBytes="166" pagina_inicial="29513" pagina_final="29513">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22142.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22142</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22142</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22143</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="163904" szKBytes="160" pagina_inicial="29514" pagina_final="29514">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22143.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22143</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22143</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22144</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="171534" szKBytes="168" pagina_inicial="29515" pagina_final="29516">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22144.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22144</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22144</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22145</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="168330" szKBytes="164" pagina_inicial="29517" pagina_final="29517">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22145.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22145</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22145</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22146</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="167924" szKBytes="164" pagina_inicial="29518" pagina_final="29518">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22146.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22146</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22146</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22147</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="164692" szKBytes="161" pagina_inicial="29519" pagina_final="29519">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22147.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22147</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22147</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22148</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="169775" szKBytes="166" pagina_inicial="29520" pagina_final="29520">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22148.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22148</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22148</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22149</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="167813" szKBytes="164" pagina_inicial="29521" pagina_final="29521">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22149.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22149</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22149</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22150</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="164069" szKBytes="160" pagina_inicial="29522" pagina_final="29522">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22150.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22150</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22150</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22151</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="168011" szKBytes="164" pagina_inicial="29523" pagina_final="29523">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22151.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22151</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22151</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22152</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="167534" szKBytes="164" pagina_inicial="29524" pagina_final="29524">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22152.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22152</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22152</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22153</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="168376" szKBytes="164" pagina_inicial="29525" pagina_final="29525">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22153.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22153</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22153</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22154</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="169639" szKBytes="166" pagina_inicial="29526" pagina_final="29526">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22154.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22154</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22154</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22155</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="169195" szKBytes="165" pagina_inicial="29527" pagina_final="29527">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22155.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22155</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22155</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22156</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="163736" szKBytes="160" pagina_inicial="29528" pagina_final="29528">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22156.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22156</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22156</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22157</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="163032" szKBytes="159" pagina_inicial="29529" pagina_final="29529">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22157.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22157</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22157</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22158</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="163420" szKBytes="160" pagina_inicial="29530" pagina_final="29530">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22158.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22158</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22158</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22159</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="167809" szKBytes="164" pagina_inicial="29531" pagina_final="29531">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22159.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22159</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22159</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22160</identificador>
+              <titulo>BURGOS</titulo>
+              <url_pdf szBytes="165762" szKBytes="162" pagina_inicial="29532" pagina_final="29532">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22160.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22160</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22160</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22161</identificador>
+              <titulo>GIRONA</titulo>
+              <url_pdf szBytes="162016" szKBytes="158" pagina_inicial="29533" pagina_final="29533">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22161.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22161</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22161</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22162</identificador>
+              <titulo>GIRONA</titulo>
+              <url_pdf szBytes="168058" szKBytes="164" pagina_inicial="29534" pagina_final="29534">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22162.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22162</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22162</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22163</identificador>
+              <titulo>HUELVA</titulo>
+              <url_pdf szBytes="166887" szKBytes="163" pagina_inicial="29535" pagina_final="29535">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22163.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22163</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22163</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22164</identificador>
+              <titulo>HUESCA</titulo>
+              <url_pdf szBytes="165387" szKBytes="162" pagina_inicial="29536" pagina_final="29536">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22164.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22164</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22164</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22165</identificador>
+              <titulo>LLEIDA</titulo>
+              <url_pdf szBytes="163417" szKBytes="160" pagina_inicial="29537" pagina_final="29537">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22165.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22165</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22165</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22166</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="164057" szKBytes="160" pagina_inicial="29538" pagina_final="29538">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22166.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22166</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22166</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22167</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="167238" szKBytes="163" pagina_inicial="29539" pagina_final="29539">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22167.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22167</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22167</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22168</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="165392" szKBytes="162" pagina_inicial="29540" pagina_final="29540">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22168.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22168</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22168</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22169</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="162890" szKBytes="159" pagina_inicial="29541" pagina_final="29541">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22169.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22169</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22169</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22170</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163221" szKBytes="159" pagina_inicial="29542" pagina_final="29542">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22170.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22170</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22170</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22171</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="164895" szKBytes="161" pagina_inicial="29543" pagina_final="29543">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22171.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22171</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22171</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22172</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="166599" szKBytes="163" pagina_inicial="29544" pagina_final="29544">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22172.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22172</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22172</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22173</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="164116" szKBytes="160" pagina_inicial="29545" pagina_final="29545">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22173.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22173</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22173</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22174</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163402" szKBytes="160" pagina_inicial="29546" pagina_final="29546">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22174.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22174</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22174</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22175</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163772" szKBytes="160" pagina_inicial="29547" pagina_final="29547">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22175.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22175</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22175</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22176</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="164112" szKBytes="160" pagina_inicial="29548" pagina_final="29548">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22176.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22176</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22176</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22177</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="164421" szKBytes="161" pagina_inicial="29549" pagina_final="29549">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22177.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22177</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22177</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22178</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="166386" szKBytes="162" pagina_inicial="29550" pagina_final="29550">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22178.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22178</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22178</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22179</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="164089" szKBytes="160" pagina_inicial="29551" pagina_final="29551">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22179.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22179</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22179</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22180</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="167362" szKBytes="163" pagina_inicial="29552" pagina_final="29552">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22180.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22180</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22180</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22181</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="164537" szKBytes="161" pagina_inicial="29553" pagina_final="29553">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22181.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22181</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22181</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22182</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="164698" szKBytes="161" pagina_inicial="29554" pagina_final="29554">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22182.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22182</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22182</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22183</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="167387" szKBytes="163" pagina_inicial="29555" pagina_final="29555">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22183.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22183</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22183</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22184</identificador>
+              <titulo>MÁLAGA</titulo>
+              <url_pdf szBytes="169192" szKBytes="165" pagina_inicial="29556" pagina_final="29556">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22184.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22184</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22184</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22185</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="165328" szKBytes="161" pagina_inicial="29557" pagina_final="29557">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22185.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22185</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22185</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22186</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="165308" szKBytes="161" pagina_inicial="29558" pagina_final="29558">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22186.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22186</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22186</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22187</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="164460" szKBytes="161" pagina_inicial="29559" pagina_final="29559">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22187.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22187</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22187</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22188</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="165142" szKBytes="161" pagina_inicial="29560" pagina_final="29560">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22188.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22188</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22188</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22189</identificador>
+              <titulo>PONTEVEDRA</titulo>
+              <url_pdf szBytes="167728" szKBytes="164" pagina_inicial="29561" pagina_final="29561">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22189.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22189</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22189</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22190</identificador>
+              <titulo>SALAMANCA</titulo>
+              <url_pdf szBytes="164999" szKBytes="161" pagina_inicial="29562" pagina_final="29562">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22190.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22190</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22190</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22191</identificador>
+              <titulo>SAN SEBASTIÁN</titulo>
+              <url_pdf szBytes="164946" szKBytes="161" pagina_inicial="29563" pagina_final="29563">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22191.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22191</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22191</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22192</identificador>
+              <titulo>SAN SEBASTIÁN</titulo>
+              <url_pdf szBytes="169080" szKBytes="165" pagina_inicial="29564" pagina_final="29564">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22192.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22192</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22192</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22193</identificador>
+              <titulo>SANTANDER</titulo>
+              <url_pdf szBytes="166449" szKBytes="163" pagina_inicial="29565" pagina_final="29565">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22193.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22193</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22193</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22194</identificador>
+              <titulo>SANTANDER</titulo>
+              <url_pdf szBytes="166517" szKBytes="163" pagina_inicial="29566" pagina_final="29566">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22194.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22194</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22194</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22195</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="167274" szKBytes="163" pagina_inicial="29567" pagina_final="29567">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22195.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22195</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22195</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22196</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="167796" szKBytes="164" pagina_inicial="29568" pagina_final="29568">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22196.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22196</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22196</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22197</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="168049" szKBytes="164" pagina_inicial="29569" pagina_final="29569">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22197.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22197</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22197</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22198</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="167632" szKBytes="164" pagina_inicial="29570" pagina_final="29570">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22198.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22198</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22198</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22199</identificador>
+              <titulo>TOLEDO</titulo>
+              <url_pdf szBytes="163052" szKBytes="159" pagina_inicial="29571" pagina_final="29571">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22199.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22199</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22199</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22200</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="166407" szKBytes="163" pagina_inicial="29572" pagina_final="29572">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22200.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22200</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22200</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22201</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="167693" szKBytes="164" pagina_inicial="29573" pagina_final="29573">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22201.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22201</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22201</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22202</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="165043" szKBytes="161" pagina_inicial="29574" pagina_final="29574">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22202.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22202</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22202</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22203</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="165216" szKBytes="161" pagina_inicial="29575" pagina_final="29575">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22203.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22203</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22203</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22204</identificador>
+              <titulo>VALLADOLID</titulo>
+              <url_pdf szBytes="166697" szKBytes="163" pagina_inicial="29576" pagina_final="29576">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22204.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22204</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22204</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22205</identificador>
+              <titulo>VALLADOLID</titulo>
+              <url_pdf szBytes="168050" szKBytes="164" pagina_inicial="29577" pagina_final="29577">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22205.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22205</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22205</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22206</identificador>
+              <titulo>VALLADOLID</titulo>
+              <url_pdf szBytes="167877" szKBytes="164" pagina_inicial="29578" pagina_final="29578">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22206.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22206</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22206</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9549" nombre="TRIBUNALES MILITARES TERRITORIALES">
+            <item>
+              <identificador>BOE-B-2020-22207</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="161265" szKBytes="157" pagina_inicial="29579" pagina_final="29579">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22207.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22207</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22207</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Contratación del Sector Público">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2020-22208</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de Asuntos Económicos del Estado Mayor de la Defensa. Objeto: Servicios de conserjería en el Centro de Excelencia contra artefactos explosivos improvisados del Estado Mayor de la Defensa. Expediente: 10013200116.</titulo>
+              <url_pdf szBytes="178530" szKBytes="174" pagina_inicial="29580" pagina_final="29580">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22208.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22208</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22208</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22209</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección de Adquisiciones del Mando de Apoyo Logístico del Ejército del Aire. Objeto: 20204023 Repuesto armamento terrestre. Expediente: 4023020014200.</titulo>
+              <url_pdf szBytes="182988" szKBytes="179" pagina_inicial="29581" pagina_final="29582">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22209.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22209</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22209</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22210</identificador>
+              <titulo>Anuncio de licitación de: Intendente de San Fernando. Objeto: Coordinación de Actividades Empresariales y Coordinación de Seguridad y Salud en Obras y Servicios en Dependencias Apoyadas por el Arsenal de Cádiz. Expediente: 37543/20/0165/00 (2020/AR43U/00000936).</titulo>
+              <url_pdf szBytes="188723" szKBytes="184" pagina_inicial="29583" pagina_final="29584">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22210.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22210</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22210</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22211</identificador>
+              <titulo>Anuncio de licitación de: Jefatura de Asuntos Económicos del Mando de Personal. Objeto: Concesión del Servicio de Restauración, bar y cafetería en la Rmasd. "Fernando Primo de Rivera", de Jerez de la Frontera. Expediente: 2093320003800.</titulo>
+              <url_pdf szBytes="176499" szKBytes="172" pagina_inicial="29585" pagina_final="29585">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22211.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22211</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22211</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22212</identificador>
+              <titulo>Anuncio de la Cuarta Subinspección General del Ejército, por el que se hace pública la licitación de una autorización demanial para aprovechamiento de eucaliptos en la propiedades militar del Acuartelamiento Cabo Noval en Siero, Asturias.</titulo>
+              <url_pdf szBytes="179530" szKBytes="175" pagina_inicial="29586" pagina_final="29587">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22212.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22212</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22212</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22213</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Defensa. Objeto: Acuerdo Marco para la selección de la empresa que preste servicios de gestión de los centros de educación infantil del Ministerio de Defensa. Expediente: 2019/JCMDEF/00000177.</titulo>
+              <url_pdf szBytes="177948" szKBytes="174" pagina_inicial="29588" pagina_final="29588">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22213.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22213</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22213</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22214</identificador>
+              <titulo>Anuncio de licitación de: Jefatura de la Sección Económico Administrativa 24 de la Base Aérea de Morón. Objeto: Adquisición de material aeronáutico para los sistemas de armas HE.24 y HE.25. Expediente: 42400/20/0048/00 (2020/EA24/00000325).</titulo>
+              <url_pdf szBytes="195764" szKBytes="191" pagina_inicial="29589" pagina_final="29591">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22214.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22214</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22214</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="5140" nombre="MINISTERIO DE HACIENDA">
+            <item>
+              <identificador>BOE-B-2020-22215</identificador>
+              <titulo>Anuncio de formalización de contratos de: Delegación Especial de la Agencia Estatal de Administración Tributaria en Castilla La Mancha. Objeto: Instalación y explotación de una máquina expendedora de bebidas frías y agua, y otra de bebidas calientes en la Administración de la AEAT de Alcázar de San Juan, durante 2 años. Expediente: 20130021100.</titulo>
+              <url_pdf szBytes="179605" szKBytes="175" pagina_inicial="29592" pagina_final="29592">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22215.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22215</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22215</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2020-22216</identificador>
+              <titulo>Anuncio de licitación de: Gerencia de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo. Objeto: Servicio de gestión de las cuentas corrientes de la Entidad Estatal de Derecho Público Trabajo Penitenciario y Formación para el Empleo, M.P. Expediente: 2020/00079.</titulo>
+              <url_pdf szBytes="197944" szKBytes="193" pagina_inicial="29593" pagina_final="29595">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22216.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22216</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22216</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22217</identificador>
+              <titulo>Resolución de la Comandancia de la Guardia Civil de Bizkaia por la que se anuncia subasta de armas largas y armas cortas.</titulo>
+              <url_pdf szBytes="167493" szKBytes="164" pagina_inicial="29596" pagina_final="29596">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22217.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22217</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22217</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <item>
+              <identificador>BOE-B-2020-22218</identificador>
+              <titulo>Anuncio de la Agencia Estatal de Seguridad Aérea de enajenación mediante subasta de 9 aeronaves.</titulo>
+              <url_pdf szBytes="171090" szKBytes="167" pagina_inicial="29597" pagina_final="29597">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22218.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22218</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22218</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22219</identificador>
+              <titulo>Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Adquisición de equipos de seguimiento y medición (esym´s) para clientes de laboratorio central de Adif Villaverde Bajo. Expediente: 3.19/07504.0023.</titulo>
+              <url_pdf szBytes="193400" szKBytes="189" pagina_inicial="29598" pagina_final="29599">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22219.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22219</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22219</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22220</identificador>
+              <titulo>Anuncio de licitación de: Presidencia del Consejo de Administración de la Autoridad Portuaria de Barcelona (Port de Barcelona). Objeto: Servicio de mantenimiento preventivo y correctivo de las instalaciones eléctricas de la Autoridad Portuaria de Barcelona. Clave de expediente: 2020I07009. Expediente: 2020-00180.</titulo>
+              <url_pdf szBytes="195848" szKBytes="191" pagina_inicial="29600" pagina_final="29602">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22220.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22220</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22220</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22221</identificador>
+              <titulo>Anuncio de licitación de: ADIF - Presidencia. Objeto: Servicio de mantenimiento integral de aparatos elevadores en estaciones de Adif y Adif alta velocidad dependientes de la Subdirección de estaciones centro. Expediente: 2.20/30108.0163.</titulo>
+              <url_pdf szBytes="189482" szKBytes="185" pagina_inicial="29603" pagina_final="29604">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22221.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22221</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22221</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22222</identificador>
+              <titulo>Anuncio de cambio de fecha de la apertura económica de: Presidencia de la Autoridad Portuaria de Valencia. Objeto: Mejora del trazado de la red ferroviaria y viaria incluyendo nueva playa de vías, eliminación de pasos a nivel y reordenación de la red viaria entre el muelle de poniente y el Muelle Costa del Puerto de Valencia en el marco del proyecto Connecting Europe Facility-Connect Valenciaport. Expediente: EC19-C02-14920.</titulo>
+              <url_pdf szBytes="170050" szKBytes="166" pagina_inicial="29605" pagina_final="29605">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22222.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22222</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22222</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22223</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General del Instituto Geográfico Nacional. Objeto: Suministro para sistema de impresión de producción digital y maquinaria auxiliar para edición de libros a demanda para el Instituto Geográfico Nacional. Expediente: 2019-1718136.</titulo>
+              <url_pdf szBytes="201180" szKBytes="196" pagina_inicial="29606" pagina_final="29608">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22223.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22223</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22223</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22224</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Contratación de la Subsecretaría de Fomento. Objeto: Servicio de mantenimiento y conservación de los jardines en el Observatorio Geofísico de Santiago de Compostela y en el Observatorio Sismológico de Málaga. Expediente: 012062PT0014.</titulo>
+              <url_pdf szBytes="188450" szKBytes="184" pagina_inicial="29609" pagina_final="29610">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22224.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22224</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22224</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9573" nombre="MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL">
+            <item>
+              <identificador>BOE-B-2020-22225</identificador>
+              <titulo>Anuncio de licitación de: Dirección del Organismo Estatal Inspección de Trabajo y Seguridad Social. Objeto: Servicio de vigilancia de los locales ocupados por la IPTSS de Álava compartido al 50% con la Comunidad Autónoma del País Vasco. Expediente: 645/2020.</titulo>
+              <url_pdf szBytes="177299" szKBytes="173" pagina_inicial="29611" pagina_final="29611">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22225.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22225</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22225</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22226</identificador>
+              <titulo>Anuncio de licitación de: Secretaría General del Fondo de Garantía Salarial (FOGASA). Objeto: Servicios de mantenimiento de sistemas y producción. Expediente: 54/2020.</titulo>
+              <url_pdf szBytes="194493" szKBytes="190" pagina_inicial="29612" pagina_final="29614">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22226.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22226</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22226</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22227</identificador>
+              <titulo>Anuncio de licitación de: Dirección del Organismo Estatal Inspección de Trabajo y Seguridad Social. Objeto: Servicio de vigilancia de los locales ocupados por la IPTSS de Guipúzcoa compartido al 50% con la Inspección de Trabajo de la Comunidad Autónoma del País Vasco. Expediente: 646/2020.</titulo>
+              <url_pdf szBytes="177687" szKBytes="174" pagina_inicial="29615" pagina_final="29615">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22227.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22227</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22227</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22228</identificador>
+              <titulo>Anuncio de licitación de: Secretaría General del Fondo de Garantía Salarial (FOGASA). Objeto: Servicios de mantenimiento de microinformática y redes de área local del Fondo de Garantía Salarial. Expediente: 53/2020.</titulo>
+              <url_pdf szBytes="194666" szKBytes="190" pagina_inicial="29616" pagina_final="29618">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22228.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22228</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22228</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22229</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Trabajo y Economía Social. Objeto: Asistencia técnica de apoyo a la Subdirección General de Programación y Evaluación del Fondo Social Europeo para la realización del informe de evaluación temática sobre inclusión social en las actuaciones del Fondo Social Europeo 2014-2020. Expediente: 30000002/2020.</titulo>
+              <url_pdf szBytes="186181" szKBytes="182" pagina_inicial="29619" pagina_final="29620">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22229.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22229</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22229</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9574" nombre="MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA">
+            <item>
+              <identificador>BOE-B-2020-22230</identificador>
+              <titulo>Anuncio de formalización de contratos de: Consejo de Administración del Patrimonio Nacional. Objeto: Reposición de maquinaria en distintos centros de trabajo del CAPN. Expediente: 2019/ASG0013.</titulo>
+              <url_pdf szBytes="199794" szKBytes="195" pagina_inicial="29621" pagina_final="29624">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22230.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22230</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22230</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22231</identificador>
+              <titulo>Anuncio de formalización de contratos de: Presidencía del Centro de Investigaciones Sociológicas. Objeto: Alquiler de los software necesario para la realización de encuestas telefónicas (CATI). Expediente: 2020/26.</titulo>
+              <url_pdf szBytes="189886" szKBytes="185" pagina_inicial="29625" pagina_final="29626">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22231.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22231</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22231</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22232</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de la Oficina Presupuestaria y de Gestión Económica. Objeto: Servicio de limpieza y mantenimiento de limas y canalones de los edificios del Complejo de la Moncloa del año 2020. Expediente: 75/20.</titulo>
+              <url_pdf szBytes="188584" szKBytes="184" pagina_inicial="29627" pagina_final="29628">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22232.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22232</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22232</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9561" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA">
+            <item>
+              <identificador>BOE-B-2020-22233</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de Administración Financiera y Patrimonio de la Administración General del Estado en el Territorio. Objeto: Obra de rehabilitación de fachadas y subsanación de deficiencias en el edificio del Parque Móvil de Asturias, C/ Doctor Bellmunt 4. Expediente: 20020.</titulo>
+              <url_pdf szBytes="180814" szKBytes="177" pagina_inicial="29629" pagina_final="29629">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22233.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22233</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22233</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <item>
+              <identificador>BOE-B-2020-22234</identificador>
+              <titulo>Anuncio de licitación de: Presidencia de la Confederación Hidrográfica del Guadalquivir. Objeto: Contrato de servicios para el seguimiento y soporte jurídico-técnico en procedimientos del Área Jurídica de la Confederación Hidrográfica del Guadalquivir. Expediente: CU(SG)-6382.</titulo>
+              <url_pdf szBytes="178466" szKBytes="174" pagina_inicial="29630" pagina_final="29630">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22234.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22234</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22234</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22235</identificador>
+              <titulo>Anuncio de formalización de contratos de: Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla. Objeto: Suministro de antenas, baterías, equipos de adquisición y envío de datos de lectura (Mu/Cartagena). Expediente: S-06/19-10.</titulo>
+              <url_pdf szBytes="192173" szKBytes="188" pagina_inicial="29631" pagina_final="29632">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22235.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22235</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22235</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22236</identificador>
+              <titulo>Anuncio de formalización de contratos de: Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla. Objeto: Suministro de antenas, baterías, equipos de adquisición y envío de datos de lectura (Mu/Cartagena). Expediente: S-06/19-10.</titulo>
+              <url_pdf szBytes="192061" szKBytes="188" pagina_inicial="29633" pagina_final="29634">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22236.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22236</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22236</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22237</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de Sostenibilidad de la Costa y del Mar. Objeto: Proyecto de rehabilitación de los astilleros Mendieta, TM Lekeitio (Vizcaya). Expediente: 48--0187.</titulo>
+              <url_pdf szBytes="185058" szKBytes="181" pagina_inicial="29635" pagina_final="29636">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22237.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22237</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22237</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9576" nombre="MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL">
+            <item>
+              <identificador>BOE-B-2020-22238</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de la Entidad Pública Empresarial RED.ES. Objeto: Servicio de soporte especializado y apoyo a la gestión de la iniciativa aporta. Expediente: 018/20-ED.</titulo>
+              <url_pdf szBytes="178058" szKBytes="174" pagina_inicial="29637" pagina_final="29637">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22238.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22238</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22238</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22239</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de la Entidad Pública Empresarial RED.ES. Objeto: Servicio de apoyo para la articulación de medidas para la digitalización y la implementación de desarrollos de inteligencia artificial. Expediente: 033/20-DG.</titulo>
+              <url_pdf szBytes="195725" szKBytes="191" pagina_inicial="29638" pagina_final="29640">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22239.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22239</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22239</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22240</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de la Entidad Pública Empresarial RED.ES. Objeto: Suministro de una solución de redes internas y conectividad a Internet con banda ancha ultrarrápida para el proyecto Escuelas Conectadas en la Comunidad de Cantabria. Expediente: 052/19-SP.</titulo>
+              <url_pdf szBytes="191567" szKBytes="187" pagina_inicial="29641" pagina_final="29642">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22240.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22240</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22240</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22241</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de la Entidad Pública Empresarial RED.ES. Objeto: Servicio de soporte, mantenimiento y evolutivos de la plataforma de licitación electrónica de Red.es". Expediente: 031/20-SI.</titulo>
+              <url_pdf szBytes="192705" szKBytes="188" pagina_inicial="29643" pagina_final="29644">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22241.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22241</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22241</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22242</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de la Entidad Pública Empresarial RED.ES. Objeto: Servicio de mantenimiento, monitorización y soporte de la red ip/ethernet de rediris. Expediente: 045/20-RI.</titulo>
+              <url_pdf szBytes="191332" szKBytes="187" pagina_inicial="29645" pagina_final="29646">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22242.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22242</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22242</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22243</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de la Entidad Pública Empresarial RED.ES. Objeto: Suministro para el desarrollo de la iniciativa "adeje dti, destino turístico inteligente". Expediente: 024/20-SP.</titulo>
+              <url_pdf szBytes="195728" szKBytes="191" pagina_inicial="29647" pagina_final="29649">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22243.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22243</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22243</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22244</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de la Entidad Pública Empresarial RED.ES. Objeto: Servicio de atención y soporte a usuarios. Expediente: 050/20-SI.</titulo>
+              <url_pdf szBytes="191588" szKBytes="187" pagina_inicial="29650" pagina_final="29651">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22244.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22244</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22244</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22245</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de la Entidad Pública Empresarial RED.ES. Objeto: Servicio de Soporte a la Oficina de Atención al Usuario de Telecomunicaciones". Expediente: 041/20-SI.</titulo>
+              <url_pdf szBytes="192272" szKBytes="188" pagina_inicial="29652" pagina_final="29653">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22245.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22245</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22245</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22246</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de la Entidad Pública Empresarial RED.ES. Objeto: Servicio de gestión y operación del servicio de seguridad DDoS de RedIRIS. Expediente: 092/19-RI.</titulo>
+              <url_pdf szBytes="189540" szKBytes="185" pagina_inicial="29654" pagina_final="29655">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22246.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22246</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22246</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22247</identificador>
+              <titulo>Anuncio de licitación de: Instituto Nacional de Estadística INE. Objeto: Servicios de desarrollo y mantenimiento de aplicaciones Java para administración electrónica e intranet y gestión documental con destino al INE. Expediente: 2019N0074088.</titulo>
+              <url_pdf szBytes="199908" szKBytes="195" pagina_inicial="29656" pagina_final="29658">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22247.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22247</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22247</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <item>
+              <identificador>BOE-B-2020-22248</identificador>
+              <titulo>Anuncio de formalización de contratos de: Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P. Objeto: Suministro e instalación de un sistema de reacción catalítico automatizado y un sistema analítico asociado destinado al Instituto de Tecnología Química. Expediente: LOT32/20.</titulo>
+              <url_pdf szBytes="195087" szKBytes="191" pagina_inicial="29659" pagina_final="29661">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22248.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22248</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22248</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22249</identificador>
+              <titulo>Anuncio de licitación de: Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P. Objeto: Suministro e instalación por lotes de equipamiento para toma de datos de radiometría de campo y toma de verdad-terreno con alta precisión sobre cubiertas naturales, destinado a la Estación Biológica de Doñana. Expediente: LOT55/20.</titulo>
+              <url_pdf szBytes="206774" szKBytes="202" pagina_inicial="29662" pagina_final="29665">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22249.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22249</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22249</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22250</identificador>
+              <titulo>Anuncio de formalización de contratos de: Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P. Objeto: Suministro e instalación de un sistema de gestión de agua de lastre destinado al Buque Sarmiento de Gamboa. Expediente: 154/20.</titulo>
+              <url_pdf szBytes="188929" szKBytes="185" pagina_inicial="29666" pagina_final="29667">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22250.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22250</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22250</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4620" nombre="MINISTERIO DE IGUALDAD">
+            <item>
+              <identificador>BOE-B-2020-22251</identificador>
+              <titulo>Anuncio de licitación de: Instituto de la Mujer y para la Igualdad de Oportunidades. Objeto: Servicio gratuito de información sobre los derechos y recursos para las mujeres y víctimas de discriminación por razón de sexo. Expediente: 20CO0002.</titulo>
+              <url_pdf szBytes="176636" szKBytes="172" pagina_inicial="29668" pagina_final="29668">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22251.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22251</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22251</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9579" nombre="MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES">
+            <item>
+              <identificador>BOE-B-2020-22252</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social por la que se anuncia Subasta Pública para la enajenación de dos inmuebles en León.</titulo>
+              <url_pdf szBytes="176948" szKBytes="173" pagina_inicial="29669" pagina_final="29670">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22252.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22252</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22252</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22253</identificador>
+              <titulo>Anuncio de formalización de contratos de: INSS-Dirección Provincial de Málaga. Objeto: Servicios de mantenimiento y revisión de los sistemas contra incendios de la Dirección Provincial del Instituto Nacional de la Seguridad Social (INSS) y de sus centros dependientes urbanos y comarcales, durante el año 2020, que se describen en el Pliego de Prescripciones Técnicas que se acompaña. Expediente: 29 VC 246/2020.</titulo>
+              <url_pdf szBytes="187854" szKBytes="183" pagina_inicial="29671" pagina_final="29672">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22253.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22253</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22253</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22254</identificador>
+              <titulo>Anuncio de formalización de contratos de: INSS-Dirección provincial de Alicante. Objeto: Realización de las pruebas diagnósticas, reconocimiento osteomuscular y oftalmológico a los empleados de la Dirección Provincial del Instituto Nacional de la Seguridad Social de Alicante en 2020. Expediente: 03/VC-05/20.</titulo>
+              <url_pdf szBytes="187440" szKBytes="183" pagina_inicial="29673" pagina_final="29674">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22254.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22254</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22254</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22255</identificador>
+              <titulo>Anuncio de licitación de: TGSS-Dirección provincial de Guipúzcoa. Objeto: Vigilancia y Seguridad y el Control por medio de los sistemas de CCTV instalados, incluida la conexión de los sistemas de alarmas de intrusión y de incendios a la Central Receptora de alarmas de la empresa adjudicataria y el Servicio de Acuda ante alarmas de intrusión y de incendios. Expediente: 20-20/0046.</titulo>
+              <url_pdf szBytes="180592" szKBytes="176" pagina_inicial="29675" pagina_final="29675">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22255.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22255</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22255</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22256</identificador>
+              <titulo>Anuncio de licitación de: TGSS-Dirección provincial de Ciudad Real. Objeto: servicio de limpieza de las oficinas y locales dependientes de la Dirección Provincial de la TGSS/INS de Ciudad Real, para el período 01-12-2020 a 30-12-2021. Expediente: 13/VC2/2020.</titulo>
+              <url_pdf szBytes="197012" szKBytes="192" pagina_inicial="29676" pagina_final="29678">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22256.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22256</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22256</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22257</identificador>
+              <titulo>Anuncio de licitación de: TGSS-Dirección provincial de Ciudad Real. Objeto: servicios para la vigilancia y seguridad de las oficinas y locales dependientes de la Dirección Provincial de la TGSS/INSS de Ciudad Real. Expediente: 13/VC4/2020.</titulo>
+              <url_pdf szBytes="178460" szKBytes="174" pagina_inicial="29679" pagina_final="29679">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22257.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22257</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22257</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9534" nombre="COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA">
+            <item>
+              <identificador>BOE-B-2020-22258</identificador>
+              <titulo>Anuncio de formalización de contratos de: Presidencia de la Comisión Nacional de los Mercados y la Competencia. Objeto: Seguros para la Comisión Nacional de los Mercados y la Competencia. Expediente: 190259.</titulo>
+              <url_pdf szBytes="192318" szKBytes="188" pagina_inicial="29680" pagina_final="29681">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22258.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22258</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22258</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2020-22259</identificador>
+              <titulo>Anuncio de Metro de Madrid, Sociedad Anónima, por el que se convoca la licitación para la contratación de un Acuerdo Marco para los suministros de mascarillas FFP2 y quirúrgicas para la protección sanitaria del personal de Metro Madrid (Expediente 6012000217).</titulo>
+              <url_pdf szBytes="199082" szKBytes="194" pagina_inicial="29682" pagina_final="29686">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22259.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22259</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22259</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22260</identificador>
+              <titulo>Anuncio de Metro de Madrid, Sociedad Anónima, por el que se convoca la licitación para la contratación de un suministro de "Bidones de hidrogel 5 litros" para la higiene y desinfección de manos de los trabajadores de Metro de Madrid (Expediente 6012000214).</titulo>
+              <url_pdf szBytes="198014" szKBytes="193" pagina_inicial="29687" pagina_final="29690">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22260.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22260</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22260</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <item>
+              <identificador>BOE-B-2020-22261</identificador>
+              <titulo>Anuncio de la Demarcación de Carreteras del Estado en Galicia por el que se publica la Resolución del Ministerio de Transportes, Movilidad y Agenda Urbana por la que se aprueba provisionalmente el Proyecto de Construcción "Reposición de Viario en Chapela. (T.M. de Redondela). Autopista AP-9. Tramo: Enlace de O Morrazo – enlace de Teis". Provincia de Pontevedra. Clave: 19-PO-4920.</titulo>
+              <url_pdf szBytes="226419" szKBytes="221" pagina_inicial="29691" pagina_final="29693">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22261.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22261</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22261</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22262</identificador>
+              <titulo>Anuncio de la Demarcación de Carreteras del Estado en Castilla y León Oriental por el que se comunica la reanudación del expediente de expropiación forzosa del Proyecto Modificado Nº 2 de la obra "Autovía del Duero A-11. Tramo: Venta Nueva-Enlace de Santiuste. Términos Municipales de Burgo de Osma-Ciudad de Osma, Rioseco de Soria y Calatañazor. Provincia de Soria. Clave Proyecto: 12-SO-3080" y la señalización de fechas para levantamiento de Actas Previas a la Ocupación de los bienes y derechos afectados por la ejecución de las obras.</titulo>
+              <url_pdf szBytes="182374" szKBytes="178" pagina_inicial="29694" pagina_final="29695">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22262.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22262</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22262</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22263</identificador>
+              <titulo>Anuncio de la Autoridad Portuaria de Cartagena por la que se inicia trámite de competencia de proyectos en relación con la solicitud presentada por "TERMINAL MARÍTIMA DE CARTAGENA, S.L.", para el otorgamiento de concesión administrativa con destino a "Construcción y Explotación de Nave para la Manipulación y Almacenamiento de Gráneles Solidos en la Dársena de Escombreras".</titulo>
+              <url_pdf szBytes="172171" szKBytes="168" pagina_inicial="29696" pagina_final="29696">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22263.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22263</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22263</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9561" nombre="MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA">
+            <item>
+              <identificador>BOE-B-2020-22264</identificador>
+              <titulo>Anuncio del Área de Industria y Energía de la Delegación del Gobierno en Extremadura por el que se somete a información pública la solicitud de la Autorización Administrativa de Construcción, con Declaración, en concreto, de Utilidad Pública de la Adenda al Proyecto de Ejecución de una Planta Generadora Fotovoltaica, denominada "Fotovoltaica Oriol", y sus infraestructuras de evacuación.</titulo>
+              <url_pdf szBytes="299246" szKBytes="292" pagina_inicial="29697" pagina_final="29702">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22264.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22264</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22264</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2020-22265</identificador>
+              <titulo>Anuncio de la Universidad de Santiago de Compostela sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="165384" szKBytes="162" pagina_inicial="29703" pagina_final="29703">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22265.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22265</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22265</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22266</identificador>
+              <titulo>Anuncio de la E.T.S. de Ingeniería de la Universidad de Sevilla sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="166245" szKBytes="162" pagina_inicial="29704" pagina_final="29704">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22266.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22266</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22266</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22267</identificador>
+              <titulo>Anuncio de la Secretaría General de la Universidad de Málaga sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="167803" szKBytes="164" pagina_inicial="29705" pagina_final="29705">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22267.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22267</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22267</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22268</identificador>
+              <titulo>Anuncio de Centro Universitario de Enfermería de Cruz Roja adscrito a la Universidad de Sevilla sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="167011" szKBytes="163" pagina_inicial="29706" pagina_final="29706">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22268.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22268</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22268</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2020-22269</identificador>
+              <titulo>Anuncio de la Facultad de Derecho de la Universidad Complutense de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="165161" szKBytes="161" pagina_inicial="29707" pagina_final="29707">https://www.boe.es/boe/dias/2020/07/15/pdfs/BOE-B-2020-22269.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2020-22269</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2020-22269</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

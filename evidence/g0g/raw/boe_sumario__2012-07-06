@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20120706</fecha_publicacion>
+      </metadatos>
+      <diario numero="161">
+        <sumario_diario>
+          <identificador>BOE-S-2012-161</identificador>
+          <url_pdf szBytes="254741" szKBytes="249">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-S-2012-161.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2012-9058</identificador>
+                <control>2012/8892</control>
+                <titulo>Circular 5/2012, de 27 de junio, del Banco de España, a entidades de crédito y proveedores de servicios de pago, sobre transparencia de los servicios bancarios y responsabilidad en la concesión de préstamos.</titulo>
+                <url_pdf szBytes="981518" szKBytes="959" pagina_inicial="48855" pagina_final="48906">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9058.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9058</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9058</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Código Civil">
+              <item>
+                <identificador>BOE-A-2012-9059</identificador>
+                <control>2012/8946</control>
+                <titulo>Ley 7/2012, de 15 de junio, de modificación del libro tercero del Código civil de Cataluña, relativo a las personas jurídicas.</titulo>
+                <url_pdf szBytes="191203" szKBytes="187" pagina_inicial="48907" pagina_final="48914">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9059.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9059</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9059</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Caza. Reservas">
+              <item>
+                <identificador>BOE-A-2012-9060</identificador>
+                <control>2012/8947</control>
+                <titulo>Ley 8/2012, de 25 de junio, de modificación de los límites y la denominación de la Reserva Nacional de Caza del Alto Pallars-Arán.</titulo>
+                <url_pdf szBytes="152888" szKBytes="149" pagina_inicial="48915" pagina_final="48917">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9060.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9060</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9060</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8090" nombre="COMUNIDAD AUTÓNOMA DE GALICIA">
+            <epigrafe nombre="Bibliotecas">
+              <item>
+                <identificador>BOE-A-2012-9061</identificador>
+                <control>2012/8948</control>
+                <titulo>Ley 5/2012, de 15 de junio, de bibliotecas de Galicia.</titulo>
+                <url_pdf szBytes="286445" szKBytes="280" pagina_inicial="48918" pagina_final="48934">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9061.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9061</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9061</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <epigrafe nombre="Medidas urgentes">
+              <item>
+                <identificador>BOE-A-2012-9062</identificador>
+                <control>2012/9038</control>
+                <titulo>Ley 2/2012, de 14 de junio, de Medidas Urgentes de Apoyo a la Iniciativa Empresarial y los Emprendedores, Microempresas y Pequeñas y Medianas Empresas de la Comunitat Valenciana.</titulo>
+                <url_pdf szBytes="320424" szKBytes="313" pagina_inicial="48935" pagina_final="48952">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9062.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9062</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9062</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8020" nombre="COMUNIDAD AUTÓNOMA DE ARAGÓN">
+            <epigrafe nombre="Estabilidad presupuestaria">
+              <item>
+                <identificador>BOE-A-2012-9063</identificador>
+                <control>2012/8895</control>
+                <titulo>Ley 5/2012, de 7 de junio, de Estabilidad Presupuestaria de Aragón.</titulo>
+                <url_pdf szBytes="194349" szKBytes="190" pagina_inicial="48953" pagina_final="48960">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9063.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9063</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9063</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Medidas fiscales y administrativas">
+              <item>
+                <identificador>BOE-A-2012-9064</identificador>
+                <control>2012/8896</control>
+                <titulo>Corrección de errores de la Ley 3/2012, de 8 de marzo, de Medidas Fiscales y Administrativas de la Comunidad Autónoma de Aragón.</titulo>
+                <url_pdf szBytes="148843" szKBytes="145" pagina_inicial="48961" pagina_final="48963">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9064.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9064</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9064</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9065</identificador>
+                <control>2012/8897</control>
+                <titulo>Corrección de errores de la Ley 3/2012, de 8 de marzo, de Medidas Fiscales y Administrativas de la Comunidad Autónoma de Aragón.</titulo>
+                <url_pdf szBytes="138875" szKBytes="136" pagina_inicial="48964" pagina_final="48964">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9065.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9065</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9065</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8080" nombre="COMUNIDAD AUTÓNOMA DE EXTREMADURA">
+            <epigrafe nombre="Medidas urgentes">
+              <item>
+                <identificador>BOE-A-2012-9066</identificador>
+                <control>2012/9039</control>
+                <titulo>Decreto-ley 1/2012, de 25 de junio, de medidas urgentes para contención del gasto público y la adaptación del funcionamiento de los servicios públicos a la realidad económica y social en Extremadura.</titulo>
+                <url_pdf szBytes="196489" szKBytes="192" pagina_inicial="48965" pagina_final="48972">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9066.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9066</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9066</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2012-9067</identificador>
+                <control>2012/7557</control>
+                <titulo>Real Decreto 822/2012, de 18 de mayo, por el que se declara la jubilación forzosa de don Eugenio Santiago Dobarro Ramos, al cumplir la edad legalmente establecida.</titulo>
+                <url_pdf szBytes="134617" szKBytes="131" pagina_inicial="48973" pagina_final="48973">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9067.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9067</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9067</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2012-9068</identificador>
+                <control>2012/8900</control>
+                <titulo>Orden JUS/1471/2012, de 7 de junio, por la que se resuelve la convocatoria de libre designación, efectuada por Orden JUS/897/2012, de 24 de abril.</titulo>
+                <url_pdf szBytes="140217" szKBytes="137" pagina_inicial="48974" pagina_final="48975">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9068.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9068</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9068</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2012-9069</identificador>
+                <control>2012/8952</control>
+                <titulo>Orden DEF/1472/2012, de 29 de junio, por la que se dispone el cese del General de División del Cuerpo General del Ejército de Tierra don José Monasterio Renteria como Subdirector General de Personal Militar.</titulo>
+                <url_pdf szBytes="133403" szKBytes="130" pagina_inicial="48976" pagina_final="48976">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9069.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9069</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9069</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2012-9070</identificador>
+                <control>2012/9045</control>
+                <titulo>Orden INT/1473/2012, de 3 de julio, por la que se resuelve la convocatoria de libre designación, efectuada por Orden INT/1153/2012, de 25 de mayo.</titulo>
+                <url_pdf szBytes="137056" szKBytes="134" pagina_inicial="48977" pagina_final="48977">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9070.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9070</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9070</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2012-9071</identificador>
+                <control>2012/8905</control>
+                <titulo>Orden ESS/1474/2012, de 20 de junio, por la que se resuelve la convocatoria de libre designación, efectuada por Orden ESS/1012/2012, de 7 de mayo.</titulo>
+                <url_pdf szBytes="153601" szKBytes="150" pagina_inicial="48978" pagina_final="48980">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9071.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9071</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9071</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2012-9072</identificador>
+                <control>2012/8804</control>
+                <titulo>Resolución de 18 de junio de 2012, de la Oficina Judicial y Fiscal, del Departamento de Justicia y Administración Pública, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 27 de febrero de 2012.</titulo>
+                <url_pdf szBytes="152172" szKBytes="149" pagina_inicial="48981" pagina_final="48982">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9072.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9072</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9072</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2012-9074</identificador>
+                <control>2012/8911</control>
+                <titulo>Resolución de 21 de junio de 2012, de la Universidad de Las Palmas de Gran Canaria, por la que se nombra Catedrática de Universidad a doña Petra María De Saa Pérez.</titulo>
+                <url_pdf szBytes="137162" szKBytes="134" pagina_inicial="48984" pagina_final="48984">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9074.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9074</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9074</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9075</identificador>
+                <control>2012/8912</control>
+                <titulo>Resolución de 21 de junio de 2012, de la Universidad de Las Palmas de Gran Canaria, por la que se nombra Catedrático de Universidad a don Juan Manuel Palerm Salazar.</titulo>
+                <url_pdf szBytes="137116" szKBytes="134" pagina_inicial="48985" pagina_final="48985">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9075.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9075</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9075</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9076</identificador>
+                <control>2012/8913</control>
+                <titulo>Resolución de 21 de junio de 2012, de la Universidad de Las Palmas de Gran Canaria, por la que se nombra Profesor Titular de Universidad a don José Ismael Gutiérrez Gutiérrez.</titulo>
+                <url_pdf szBytes="136161" szKBytes="133" pagina_inicial="48986" pagina_final="48986">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9076.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9076</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9076</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9077</identificador>
+                <control>2012/8914</control>
+                <titulo>Resolución de 21 de junio de 2012, de la Universidad de Las Palmas de Gran Canaria, por la que se nombra Profesora Titular de Universidad a doña Carmen Márquez Montes.</titulo>
+                <url_pdf szBytes="136615" szKBytes="133" pagina_inicial="48987" pagina_final="48987">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9077.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9077</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9077</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9078</identificador>
+                <control>2012/8915</control>
+                <titulo>Resolución de 22 de junio de 2012, de la Universidad de Sevilla, por la que se nombra Profesora Titular de Universidad a doña Madelyn Rosa Marrero Meléndez.</titulo>
+                <url_pdf szBytes="133800" szKBytes="131" pagina_inicial="48988" pagina_final="48988">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9078.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9078</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9078</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Integraciones">
+              <item>
+                <identificador>BOE-A-2012-9073</identificador>
+                <control>2012/9047</control>
+                <titulo>Resolución de 4 de junio de 2012, de la Universidad Politécnica de Madrid, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a don Neftalí Núñez Mendoza.</titulo>
+                <url_pdf szBytes="135442" szKBytes="132" pagina_inicial="48983" pagina_final="48983">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9073.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9073</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9073</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <epigrafe nombre="Escala de Ayudantes de Investigación de los Organismos Públicos de Investigación">
+              <item>
+                <identificador>BOE-A-2012-9079</identificador>
+                <control>2012/8975</control>
+                <titulo>Orden ECC/1475/2012, de 21 de junio, por la que se publica la relación de aspirantes que han superado las pruebas selectivas para el acceso, por promoción interna, a la Escala de Ayudantes de Investigación de los Organismos Públicos de Investigación, convocadas por Orden CIN/2442/2011, de 30 de agosto.</titulo>
+                <url_pdf szBytes="161946" szKBytes="158" pagina_inicial="48989" pagina_final="48990">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9079.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9079</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9079</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2012-9080</identificador>
+                <control>2012/8919</control>
+                <titulo>Resolución de 19 de junio de 2012, del Ayuntamiento de Lloret de Mar (Girona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="132062" szKBytes="129" pagina_inicial="48991" pagina_final="48991">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9080.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9080</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9080</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9081</identificador>
+                <control>2012/8920</control>
+                <titulo>Resolución de 25 de junio de 2012, de la Diputación Provincial de Zaragoza, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="130454" szKBytes="127" pagina_inicial="48992" pagina_final="48992">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9081.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9081</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9081</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9082</identificador>
+                <control>2012/8921</control>
+                <titulo>Resolución de 25 de junio de 2012, del Ayuntamiento de Peal de Becerro (Jaén), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="131334" szKBytes="128" pagina_inicial="48993" pagina_final="48993">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9082.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9082</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9082</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2012-9083</identificador>
+                <control>2012/9061</control>
+                <titulo>Resolución de 14 de junio de 2012, de la Universidad Politécnica de Madrid, por la que se declaran desiertas plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="132042" szKBytes="129" pagina_inicial="48994" pagina_final="48994">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9083.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9083</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9083</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9084</identificador>
+                <control>2012/8922</control>
+                <titulo>Resolución de 18 de junio de 2012, de la Universidad de Valencia, por la que se convoca concurso de acceso a plaza de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="301408" szKBytes="294" pagina_inicial="48995" pagina_final="49006">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9084.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9084</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9084</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Personal de administración y servicios">
+              <item>
+                <identificador>BOE-A-2012-9085</identificador>
+                <control>2012/8976</control>
+                <titulo>Resolución de 19 de junio de 2012, de la Universidad de Cádiz, por la que se convoca proceso selectivo para cubrir plaza de Técnico Auxiliar de Laboratorio Tipo C por concurso-oposición libre.</titulo>
+                <url_pdf szBytes="261015" szKBytes="255" pagina_inicial="49007" pagina_final="49015">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9085.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9085</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9085</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2012-9086</identificador>
+                <control>2012/8923</control>
+                <titulo>Resolución de 25 de junio de 2012, de la Secretaría de Estado de Asuntos Exteriores, por la que se convocan subvenciones correspondientes al año 2012 para la realización de actividades dirigidas a la divulgación, promoción y defensa de los derechos humanos.</titulo>
+                <url_pdf szBytes="180144" szKBytes="176" pagina_inicial="49016" pagina_final="49021">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9086.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9086</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9086</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Enseñanzas deportivas">
+              <item>
+                <identificador>BOE-A-2012-9087</identificador>
+                <control>2012/8928</control>
+                <titulo>Resolución de 25 de mayo de 2012, de la Presidencia del Consejo Superior de Deportes, por la que se publica el plan formativo de la modalidad deportiva de fútbol americano.</titulo>
+                <url_pdf szBytes="284575" szKBytes="278" pagina_inicial="49022" pagina_final="49036">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9087.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9087</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9087</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2012-9088</identificador>
+                <control>2012/9119</control>
+                <titulo>Resolución de 4 de julio de 2012, de la Dirección General de Migraciones, por la que se convocan subvenciones para programas de retorno voluntario de personas inmigrantes.</titulo>
+                <url_pdf szBytes="835510" szKBytes="816" pagina_inicial="49037" pagina_final="49075">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9088.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9088</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9088</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2012-9089</identificador>
+                <control>2012/9122</control>
+                <titulo>Resolución de 5 de julio de 2012, del Banco de España, por la que se publican los cambios del euro correspondientes al día 5 de julio de 2012, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="160939" szKBytes="157" pagina_inicial="49076" pagina_final="49076">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9089.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9089</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9089</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Bienes de interés cultural">
+              <item>
+                <identificador>BOE-A-2012-9090</identificador>
+                <control>2012/8868</control>
+                <titulo>Acuerdo GOV/48/2012, de 29 de mayo, por el que se declara bien cultural de interés nacional, en la categoría de zona arqueológica, la vía romana de Parpers, en Argentona.</titulo>
+                <url_pdf szBytes="733450" szKBytes="716" pagina_inicial="49077" pagina_final="49081">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9090.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9090</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9090</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9091</identificador>
+                <control>2012/8869</control>
+                <titulo>Acuerdo GOV/49/2012, de 29 de mayo, por el que se declara bien cultural de interés nacional, en la categoría de monumento histórico, la iglesia de Santa Maria, en Sanaüja, y se delimita su entorno de protección.</titulo>
+                <url_pdf szBytes="335404" szKBytes="328" pagina_inicial="49082" pagina_final="49085">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9091.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9091</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9091</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Planes de estudios">
+              <item>
+                <identificador>BOE-A-2012-9092</identificador>
+                <control>2012/9001</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Graduado en Economía.</titulo>
+                <url_pdf szBytes="193418" szKBytes="189" pagina_inicial="49086" pagina_final="49087">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9092.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9092</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9092</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9093</identificador>
+                <control>2012/9002</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Graduado en Educación Infantil.</titulo>
+                <url_pdf szBytes="209722" szKBytes="205" pagina_inicial="49088" pagina_final="49090">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9093.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9093</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9093</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9094</identificador>
+                <control>2012/9003</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Graduado en Educación Primaria.</titulo>
+                <url_pdf szBytes="209938" szKBytes="205" pagina_inicial="49091" pagina_final="49093">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9094.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9094</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9094</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9095</identificador>
+                <control>2012/9004</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Graduado en Gestión Deportiva.</titulo>
+                <url_pdf szBytes="202796" szKBytes="198" pagina_inicial="49094" pagina_final="49095">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9095.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9095</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9095</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9096</identificador>
+                <control>2012/9005</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Graduado en Ingeniería de la Energía.</titulo>
+                <url_pdf szBytes="207797" szKBytes="203" pagina_inicial="49096" pagina_final="49098">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9096.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9096</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9096</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9097</identificador>
+                <control>2012/9006</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Actividad Física y Salud.</titulo>
+                <url_pdf szBytes="155787" szKBytes="152" pagina_inicial="49099" pagina_final="49100">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9097.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9097</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9097</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9098</identificador>
+                <control>2012/9007</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Córnea y Lentes de Contacto.</titulo>
+                <url_pdf szBytes="142384" szKBytes="139" pagina_inicial="49101" pagina_final="49101">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9098.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9098</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9098</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9099</identificador>
+                <control>2012/9008</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Derecho Deportivo.</titulo>
+                <url_pdf szBytes="145038" szKBytes="142" pagina_inicial="49102" pagina_final="49102">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9099.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9099</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9099</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9100</identificador>
+                <control>2012/9009</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Dirección de Entidades Deportivas MBA.</titulo>
+                <url_pdf szBytes="147946" szKBytes="144" pagina_inicial="49103" pagina_final="49103">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9100.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9100</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9100</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9101</identificador>
+                <control>2012/9010</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Dirección Internacional de la Seguridad y la Protección Civil.</titulo>
+                <url_pdf szBytes="147938" szKBytes="144" pagina_inicial="49104" pagina_final="49104">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9101.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9101</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9101</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9102</identificador>
+                <control>2012/9011</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Dirección Patrimonial y Gestión Integrada en Servicios, Instalaciones y Estructuras. Facility Management.</titulo>
+                <url_pdf szBytes="148403" szKBytes="145" pagina_inicial="49105" pagina_final="49105">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9102.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9102</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9102</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9103</identificador>
+                <control>2012/9012</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Dolor Craneofacial y Disfunciones Cervicocraneomandibulares.</titulo>
+                <url_pdf szBytes="148831" szKBytes="145" pagina_inicial="49106" pagina_final="49106">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9103.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9103</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9103</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9104</identificador>
+                <control>2012/9013</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Educación Superior.</titulo>
+                <url_pdf szBytes="146811" szKBytes="143" pagina_inicial="49107" pagina_final="49107">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9104.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9104</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9104</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9105</identificador>
+                <control>2012/9014</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Enfermería Escolar y Consultoría en Salud en Centros Educativos.</titulo>
+                <url_pdf szBytes="146353" szKBytes="143" pagina_inicial="49108" pagina_final="49108">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9105.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9105</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9105</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9106</identificador>
+                <control>2012/9015</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Gestión de Proyectos de Edificación (Project Management).</titulo>
+                <url_pdf szBytes="149135" szKBytes="146" pagina_inicial="49109" pagina_final="49109">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9106.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9106</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9106</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9107</identificador>
+                <control>2012/9016</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Gestión y Atención en la Oficina de Farmacia.</titulo>
+                <url_pdf szBytes="147056" szKBytes="144" pagina_inicial="49110" pagina_final="49110">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9107.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9107</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9107</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9108</identificador>
+                <control>2012/9017</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Técnicas Avanzadas de Fisioterapia para Pacientes Oncológicos.</titulo>
+                <url_pdf szBytes="144978" szKBytes="142" pagina_inicial="49111" pagina_final="49111">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9108.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9108</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9108</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2012-9109</identificador>
+                <control>2012/9018</control>
+                <titulo>Resolución de 7 de junio de 2012, de la Universidad Europea de Madrid, por la que se publica el plan de estudios de Máster en Valoraciones Inmobiliarias, Tasaciones y Peritaje Judicial.</titulo>
+                <url_pdf szBytes="145741" szKBytes="142" pagina_inicial="49112" pagina_final="49112">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-A-2012-9109.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-9109</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2012-9109</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2012-23622</identificador>
+              <titulo>PAMPLONA</titulo>
+              <url_pdf szBytes="156394" szKBytes="153" pagina_inicial="31874" pagina_final="31874">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23622.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23622</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23622</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2012-23623</identificador>
+              <titulo>CIUDAD REAL</titulo>
+              <url_pdf szBytes="159677" szKBytes="156" pagina_inicial="31875" pagina_final="31875">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23623.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23623</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23623</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23624</identificador>
+              <titulo>LEÓN</titulo>
+              <url_pdf szBytes="157081" szKBytes="153" pagina_inicial="31876" pagina_final="31876">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23624.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23624</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23624</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23625</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="155661" szKBytes="152" pagina_inicial="31877" pagina_final="31877">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23625.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23625</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23625</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Anuncios de licitaciones públicas y adjudicaciones">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2012-23626</identificador>
+              <titulo>Anuncio de formalización de contratos de la Jefatura de la Sección Económico-Administrativa 15 Agrupación del Cuartel General del Ejército del Aire. Objeto: Acuerdo Marco para el Mantenimiento y Logística de Equipos de Apoyo Sanitario para el funcionamiento de hospitales desplegables. Expediente: 4150012003200.</titulo>
+              <url_pdf szBytes="166914" szKBytes="163" pagina_inicial="31878" pagina_final="31878">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23626.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23626</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23626</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23627</identificador>
+              <titulo>Resolución del Órgano de Contratación del Arsenal de La Carraca por la que se anuncia licitación para la contratación por procedimiento abierto de "adquisición velamen para el B.E. "Juan Sebastián de Elcano".</titulo>
+              <url_pdf szBytes="171289" szKBytes="167" pagina_inicial="31879" pagina_final="31880">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23627.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23627</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23627</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23628</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General del INTA. Objeto: Seguro de Responsabilidad Civil de ensayos de turborreactores. Expediente: 500080207593.</titulo>
+              <url_pdf szBytes="165504" szKBytes="162" pagina_inicial="31881" pagina_final="31881">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23628.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23628</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23628</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2012-23629</identificador>
+              <titulo>Anuncio de formalización de contratos de: Delegación del Gobierno en Castilla-La Mancha. Objeto: Limpieza de las distintas sedes de la Delegación del Gobierno en Castilla-La Mancha y de la Subdelegación del Gobierno en Toledo. Expediente: 450045000002.</titulo>
+              <url_pdf szBytes="167178" szKBytes="163" pagina_inicial="31882" pagina_final="31882">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23629.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23629</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23629</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23630</identificador>
+              <titulo>Resolución del Consorcio de la Zona Franca de Cádiz por la que se formaliza el contrato de "Contratación de los servicios de limpieza en edificios, instalaciones y urbanización del Consorcio de la Zona Franca de Cádiz en el Recinto Interior y Fondo Norte del Edificio Carranza".</titulo>
+              <url_pdf szBytes="162855" szKBytes="159" pagina_inicial="31883" pagina_final="31883">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23630.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23630</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23630</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2012-23631</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subsecretaría del Ministerio de Educación, Cultura y Deporte. Objeto: Contratación de un servicio de prevención ajeno para la vigilancia de la salud, dentro de la especialidad preventiva de medicina del trabajo, de los empleados públicos del Ministerio de Educación, Cultura y Deporte destinados en Madrid-ciudad y provincia, en las ciudades autónomas de Ceuta y Melilla y para los profesores de religión competencia del Departamento. Expediente: 120009.</titulo>
+              <url_pdf szBytes="166639" szKBytes="163" pagina_inicial="31884" pagina_final="31884">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23631.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23631</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23631</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <item>
+              <identificador>BOE-B-2012-23632</identificador>
+              <titulo>Resolución del Instituto Nacional de Seguridad e Higiene en el Trabajo por el que se convoca la licitación siguiente: Empresa que proporcione personal de servicio de auxiliares polifuncionales en el Centro Nacional de Condiciones de Trabajo, de Barcelona, INSHT.</titulo>
+              <url_pdf szBytes="172217" szKBytes="168" pagina_inicial="31885" pagina_final="31886">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23632.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23632</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23632</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23633</identificador>
+              <titulo>Resolución de la Dirección Provincial del Instituto Nacional de la Seguridad Social por la que se aprueba el expediente 03/VC-01/13, para la contratación de los servicios de limpieza de los centros de la Dirección Provincial del Instituto Nacional de la Seguridad Social de Alicante en 2013.</titulo>
+              <url_pdf szBytes="175696" szKBytes="172" pagina_inicial="31887" pagina_final="31888">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23633.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23633</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23633</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2012-23634</identificador>
+              <titulo>Resolución del Consorci Sanitari Integral por la formalización de contratos de un procedimiento abierto para la contratación del servicio de alergia medicamentosa del Consorci Sanitari Integral.</titulo>
+              <url_pdf szBytes="162109" szKBytes="158" pagina_inicial="31889" pagina_final="31889">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23634.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23634</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23634</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23635</identificador>
+              <titulo>Anuncio de la Corporació Sanitària Parc Taulí de ampliación del plazo de publicidad en relación al procedimiento para la contratación del suministro de gasas (13SM0006P).</titulo>
+              <url_pdf szBytes="162589" szKBytes="159" pagina_inicial="31890" pagina_final="31890">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23635.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23635</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23635</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <item>
+              <identificador>BOE-B-2012-23636</identificador>
+              <titulo>Anuncio de Agencia de Medio Ambiente y Agua de Andalucía por el que se formaliza la contratación del NET537524/1/5: Suministro de guantes de protección. Lotes 1 y 4.</titulo>
+              <url_pdf szBytes="164307" szKBytes="160" pagina_inicial="31891" pagina_final="31891">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23636.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23636</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23636</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23637</identificador>
+              <titulo>Anuncio de Agencia de Medio Ambiente y Agua de Andalucía por el que se formaliza la contratación del NET537524/3: Suministro de guantes de protección. Lote 5.</titulo>
+              <url_pdf szBytes="164184" szKBytes="160" pagina_inicial="31892" pagina_final="31892">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23637.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23637</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23637</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23638</identificador>
+              <titulo>Anuncio de Agencia de Medio Ambiente y Agua de Andalucía por el que se formaliza la contratación del NET537524/4: Suministro de guantes de protección. Lote 2.</titulo>
+              <url_pdf szBytes="164189" szKBytes="160" pagina_inicial="31893" pagina_final="31893">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23638.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23638</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23638</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23639</identificador>
+              <titulo>Resolución de 3 de julio de 2012, de la Delegación Provincial de Empleo de Jaén, por la que se anuncia la contratación por procedimiento abierto, del servicio de limpieza de la sede de la Delegación Provincial de Empleo de Jaén. Número de expediente: 22700.32A/2012-3.</titulo>
+              <url_pdf szBytes="174115" szKBytes="170" pagina_inicial="31894" pagina_final="31895">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23639.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23639</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23639</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23640</identificador>
+              <titulo>Anuncio de Agencia de Medio Ambiente y Agua de Andalucía por el que se formaliza la contratación del NET337466/2: Suministro de vestuario de trabajo. Lote 1.</titulo>
+              <url_pdf szBytes="164727" szKBytes="161" pagina_inicial="31896" pagina_final="31896">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23640.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23640</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23640</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23641</identificador>
+              <titulo>Anuncio de Agencia de Medio Ambiente y Agua de Andalucía por el que se formaliza la contratación del NET337466/6: Suministro de vestuario de trabajo. Lote 3.</titulo>
+              <url_pdf szBytes="164519" szKBytes="161" pagina_inicial="31897" pagina_final="31897">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23641.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23641</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23641</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23642</identificador>
+              <titulo>Anuncio de Agencia de Medio Ambiente y Agua de Andalucía por el que se formaliza la contratación del NET730263: Acuerdo Marco servicio de "Recopilación y organización de la información necesaria para la planificación y gestión de la Red Natura 2000".</titulo>
+              <url_pdf szBytes="164866" szKBytes="161" pagina_inicial="31898" pagina_final="31898">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23642.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23642</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23642</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23643</identificador>
+              <titulo>Anuncio de Agencia de Medio Ambiente y Agua de Andalucía por el que se formaliza la contratación del Acuerdo Marco NET130262: Servicio de alojamiento, desarrollo y mantenimiento de aplicaciones de difusión y puesta en valor de la información ambiental de la Red de Información Ambiental de Andalucía.</titulo>
+              <url_pdf szBytes="165380" szKBytes="162" pagina_inicial="31899" pagina_final="31899">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23643.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23643</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23643</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8100" nombre="COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA">
+            <item>
+              <identificador>BOE-B-2012-23644</identificador>
+              <titulo>Anuncio de la Consejería de Sanidad y Política Social por el que se publica la formalización del contrato relativo al suministro de vacuna antivaricelosa para el programa de vacunaciones de la Región de Murcia correspondiente al año 2012.</titulo>
+              <url_pdf szBytes="166252" szKBytes="162" pagina_inicial="31900" pagina_final="31900">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23644.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23644</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23644</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2012-23645</identificador>
+              <titulo>Anuncio de corrección de errores del anuncio del Ayuntamiento de Barcelona por el que se convoca procedimiento abierto relativo al servicio de seguridad y salud de los trabajos de los contratos de mantenimiento de alumbrado público, túneles urbanos y conexiones para actos cívicos, en la ciudad de Barcelona (2012-2013).</titulo>
+              <url_pdf szBytes="160362" szKBytes="157" pagina_inicial="31901" pagina_final="31901">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23645.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23645</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23645</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23646</identificador>
+              <titulo>Anuncio del Ayuntamiento de Aretxabaleta para la licitación del servicio de limpieza de edificios públicos de Aretxabaleta.</titulo>
+              <url_pdf szBytes="172581" szKBytes="169" pagina_inicial="31902" pagina_final="31903">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23646.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23646</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23646</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23647</identificador>
+              <titulo>Anuncio de la Resolución del Ayuntamiento de Madrid por la que se hace pública la convocatoria para la adjudicación por procedimiento abierto del contrato de servicios denominado "Impartición de acciones formativas en materia de conducción de vehículos (5 lotes)".</titulo>
+              <url_pdf szBytes="178838" szKBytes="175" pagina_inicial="31904" pagina_final="31906">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23647.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23647</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23647</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2012-23648</identificador>
+              <titulo>Anuncio de la Universidad de Alcalá por el que se convoca licitación para la adjudicación del contrato de servicios de desarrollo de la Fase B2 de la cámara infrarroja de la misión espacial JEM-EUSO.</titulo>
+              <url_pdf szBytes="173311" szKBytes="169" pagina_inicial="31907" pagina_final="31908">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23648.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23648</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23648</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2012-23649</identificador>
+              <titulo>Corrección del anuncio de Empresa de Gestión Medioambiental, S. A. (Egmasa), por el que se licita por el procedimiento abierto mediante la forma de concurso sin variantes, la «Ejecución de la obra del ramal a Rota y Sanlúcar de Barrameda, variante del primer tramo (Cádiz)». (NET 159762).</titulo>
+              <url_pdf szBytes="160996" szKBytes="157" pagina_inicial="31909" pagina_final="31909">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23649.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23649</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23649</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23650</identificador>
+              <titulo>Anuncio de subasta notarial de la Notario de Sagunto Rosa María Pérez Guillot.</titulo>
+              <url_pdf szBytes="163908" szKBytes="160" pagina_inicial="31910" pagina_final="31910">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23650.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23650</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23650</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23651</identificador>
+              <titulo>Anuncio de corrección de errores del concurso convocado por "Centro Intermodal de Logística, S.A.", para la contratación de los servicios de limpieza en el Service Center y otras instalaciones de la ZAL del Puerto de Barcelona.</titulo>
+              <url_pdf szBytes="159917" szKBytes="156" pagina_inicial="31911" pagina_final="31911">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23651.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23651</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23651</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23652</identificador>
+              <titulo>Anuncio de la notaría de Sant Vicenç de Castellet de subasta extrajudicial.</titulo>
+              <url_pdf szBytes="160030" szKBytes="156" pagina_inicial="31912" pagina_final="31912">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23652.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23652</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23652</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23653</identificador>
+              <titulo>Anuncio del Notario don Pedro Eugenio Botella Torres subasta extrajudicial artículo 129 Ley Hipotecaria.</titulo>
+              <url_pdf szBytes="163611" szKBytes="160" pagina_inicial="31913" pagina_final="31913">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23653.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23653</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23653</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23654</identificador>
+              <titulo>Anuncio de la Notaría de Almonte de Doña María de los Reyes Sánchez Blanco, de subasta notarial.</titulo>
+              <url_pdf szBytes="165458" szKBytes="162" pagina_inicial="31914" pagina_final="31914">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23654.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23654</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23654</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23655</identificador>
+              <titulo>Anuncio de la Sociedad de Promoción del Turismo de Castilla y León, SOTUR, S.A., por el que se convoca el procedimiento abierto para la adjudicación del contrato para la realización de la planificación, ejecución, diseño, creatividad, producción y medición de resultados de la campaña de promoción turística y cultural de Castilla y León.</titulo>
+              <url_pdf szBytes="173544" szKBytes="169" pagina_inicial="31915" pagina_final="31916">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23655.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23655</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23655</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23656</identificador>
+              <titulo>Anuncio de FREMAP, Mutua de Accidentes de Trabajo y Enfermedades Profesionales de la Seguridad Social n.º 61 por la que se convoca licitación mediante procedimiento abierto para la contratación del suministro de equipos de destrucción de documentos con alimentación automática para FREMAP.</titulo>
+              <url_pdf szBytes="173432" szKBytes="169" pagina_inicial="31917" pagina_final="31918">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23656.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23656</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23656</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23657</identificador>
+              <titulo>Resolución de fecha 27 de Marzo de 2012, de Aena Aeropuertos, S.A., por la que se anuncia la apertura de proposiciones económicas de contratos de Servicios, por el procedimiento abierto y adjudicación con varios criterios. Expediente Número: MAD 24/12. Título: Mantenimiento y operación de los sistemas de inspección de equipaje de bodega.- Aeropuerto Madrid/Barajas.</titulo>
+              <url_pdf szBytes="163980" szKBytes="160" pagina_inicial="31919" pagina_final="31919">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23657.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23657</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23657</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23658</identificador>
+              <titulo>Resolución de fecha 27 de Junio de 2012, de Aena Aeropuertos, S.A., por la que se anuncia la licitación de contratos de Servicios, por el procedimiento negociado con anuncio de licitación previa. Expediente Número: DSI 146/12. Título: Servicios para la escisión de los sistemas que dan soporte a los procesos de gestión de las sociedades Aena Aeropuertos y Aena EPE.</titulo>
+              <url_pdf szBytes="169899" szKBytes="166" pagina_inicial="31920" pagina_final="31921">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23658.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23658</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23658</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23659</identificador>
+              <titulo>Resolución de fecha 29 de mayo de 2012, de Aena Aeropuertos, S.A., por la que se anuncia la licitación de contratos de servicios, por el procedimiento abierto y adjudicación con varios criterios. Expediente número: MAD 8/12. Título: Servicio de mantenimiento H24 de servidores y equipamiento informático de Madrid/Barajas.</titulo>
+              <url_pdf szBytes="170277" szKBytes="166" pagina_inicial="31922" pagina_final="31923">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23659.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23659</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23659</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23660</identificador>
+              <titulo>Resolución de fecha 14 de junio de 2012, de Aena Aeropuertos, S.A., por la que se anuncia la licitación de contratos de Servicios, por el procedimiento negociado con anuncio de licitación previa. Expediente número: DSI 145/12. Título: Servicio de mantenimiento del sistema ATIS en los aeropuertos.</titulo>
+              <url_pdf szBytes="168936" szKBytes="165" pagina_inicial="31924" pagina_final="31925">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23660.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23660</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23660</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23661</identificador>
+              <titulo>Resolución de fecha 29 de Mayo de 2012, de Aena Aeropuertos, S.A., por la que se anuncia la licitación de contratos de Servicios, por el procedimiento abierto y adjudicación con varios criterios. Expediente Número: MAD 25/12. Título: Servicio de soporte y gestión de técnica de sistemas – Aeropuerto de Madrid/Barajas.</titulo>
+              <url_pdf szBytes="170449" szKBytes="166" pagina_inicial="31926" pagina_final="31927">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23661.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23661</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23661</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2012-23662</identificador>
+              <titulo>Anuncio de la Agencia para el Aceite de Oliva por el que se procede a la publicación oficial del extracto de actos administrativos de expedientes sancionadores tramitados y cuya notificación se ha intentado sin que se haya podido practicar.</titulo>
+              <url_pdf szBytes="167265" szKBytes="163" pagina_inicial="31928" pagina_final="31928">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23662.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23662</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23662</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23663</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Segura publicación de actos de trámite no notificados personalmente en expedientes de aprovechamientos de aguas.</titulo>
+              <url_pdf szBytes="172682" szKBytes="169" pagina_inicial="31929" pagina_final="31929">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23663.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23663</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23663</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23664</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Segura relativo a notificaciones de resoluciones en procedimientos de aprovechamientos de aguas.</titulo>
+              <url_pdf szBytes="170025" szKBytes="166" pagina_inicial="31930" pagina_final="31930">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23664.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23664</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23664</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="1011" nombre="AGENCIA ESPAÑOLA DE PROTECCIÓN DE DATOS">
+            <item>
+              <identificador>BOE-B-2012-23665</identificador>
+              <titulo>Resolución de la Agencia Española de Protección de Datos por la que se procede a la publicación oficial de Resoluciones de Recursos de Reposición de Procedimientos de Archivos, ante la imposibilidad de notificación en domicilio.</titulo>
+              <url_pdf szBytes="164993" szKBytes="161" pagina_inicial="31931" pagina_final="31931">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23665.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23665</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23665</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23666</identificador>
+              <titulo>Resolución de la Agencia Española de Protección de Datos por la que se procede a la publicación oficial de Resoluciones de Procedimientos Sancionadores, Resolución de Apercibimiento y Resoluciones de Archivo ante la imposibilidad de notificación en domicilio.</titulo>
+              <url_pdf szBytes="175732" szKBytes="172" pagina_inicial="31932" pagina_final="31933">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23666.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23666</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23666</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23667</identificador>
+              <titulo>Resolución de la Agencia Española de Protección de Datos por la que se procede a la publicación oficial de Resoluciones de Tutelas de Derechos, ante la imposibilidad de notificación en domicilio.</titulo>
+              <url_pdf szBytes="168319" szKBytes="164" pagina_inicial="31934" pagina_final="31935">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23667.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23667</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23667</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="ANUNCIOS PARTICULARES">
+            <item>
+              <identificador>BOE-B-2012-23668</identificador>
+              <titulo>CAJA DE AHORROS MUNICIPAL DE BURGOS</titulo>
+              <url_pdf szBytes="161669" szKBytes="158" pagina_inicial="31936" pagina_final="31937">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23668.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23668</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23668</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2012-23669</identificador>
+              <titulo>CAJA LABORAL POPULAR COOPERATIVA DE CRÉDITO IPAR KUTXA RURAL, SOCIEDAD COOPERATIVA DE CRÉDITO (ENTIDADES FUSIONADAS) CAJA LABORAL POPULAR COOPERATIVA DE CRÉDITO (ENTIDAD DE NUEVA CREACIÓN)</titulo>
+              <url_pdf szBytes="163811" szKBytes="160" pagina_inicial="31938" pagina_final="31939">https://www.boe.es/boe/dias/2012/07/06/pdfs/BOE-B-2012-23669.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2012-23669</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2012-23669</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

@@ -1,0 +1,2250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20160711</fecha_publicacion>
+      </metadatos>
+      <diario numero="166">
+        <sumario_diario>
+          <identificador>BOE-S-2016-166</identificador>
+          <url_pdf szBytes="320099" szKBytes="313">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-S-2016-166.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2016-6606</identificador>
+                <control>2016/12510</control>
+                <titulo>Circular 6/2016, de 30 de junio, del Banco de España, a las entidades de crédito y a los establecimientos financieros de crédito, por la que se determinan el contenido y el formato del documento "Información Financiera-PYME" y se especifica la metodología de calificación del riesgo previstos en la Ley 5/2015, de 27 de abril, de fomento de la financiación empresarial.</titulo>
+                <url_pdf szBytes="673146" szKBytes="657" pagina_inicial="48186" pagina_final="48213">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6606.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6606</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6606</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2016-6607</identificador>
+                <control>2016/12551</control>
+                <titulo>Acuerdo de 30 de junio de 2016, del Pleno del Consejo General del Poder Judicial, por el que se resuelve el concurso de méritos, convocado por Acuerdo de 17 de marzo de 2016, de la Comisión Permanente, para la provisión de puesto de trabajo en la Escuela Judicial.</titulo>
+                <url_pdf szBytes="153802" szKBytes="150" pagina_inicial="48214" pagina_final="48214">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6607.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6607</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6607</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2016-6608</identificador>
+                <control>2016/12422</control>
+                <titulo>Orden AEC/1113/2016, de 29 de junio, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Orden AEC/637/2016, de 22 de abril.</titulo>
+                <url_pdf szBytes="158034" szKBytes="154" pagina_inicial="48215" pagina_final="48215">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6608.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6608</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6608</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2016-6609</identificador>
+                <control>2016/12423</control>
+                <titulo>Orden JUS/1114/2016, de 14 de junio, por la que, en estimación de recurso, se modifican las Órdenes JUS/2973/2010, de 5 de noviembre y JUS/1664/2009, de 8 de junio, por las que se nombran funcionarios del Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia, en relación con el proceso selectivo convocado por Orden JUS/2976/2006, de 15 de septiembre.</titulo>
+                <url_pdf szBytes="183768" szKBytes="179" pagina_inicial="48216" pagina_final="48220">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6609.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6609</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6609</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2016-6610</identificador>
+                <control>2016/12513</control>
+                <titulo>Orden HAP/1115/2016, de 1 de julio, por la que se nombran funcionarios de la Escala de administración local con habilitación de carácter nacional, Subescala Intervención-Tesorería, categoría superior.</titulo>
+                <url_pdf szBytes="207808" szKBytes="203" pagina_inicial="48221" pagina_final="48223">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6610.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6610</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6610</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6611</identificador>
+                <control>2016/12555</control>
+                <titulo>Orden HAP/1116/2016, de 1 de julio, por la que se nombran funcionarios de la Escala de administración local con habilitación de carácter nacional, subescala Secretaría, categoría superior.</titulo>
+                <url_pdf szBytes="182221" szKBytes="178" pagina_inicial="48224" pagina_final="48225">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6611.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6611</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6611</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6614</identificador>
+                <control>2016/12471</control>
+                <titulo>Resolución de 24 de junio de 2016, de la Secretaría de Estado de Administraciones Públicas, por la que se nombran funcionarios de carrera, por el sistema general de acceso libre y por promoción interna, de la Escala Superior de Técnicos de Tráfico.</titulo>
+                <url_pdf szBytes="230384" szKBytes="225" pagina_inicial="48316" pagina_final="48318">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6614.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6614</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6614</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2016-6612</identificador>
+                <control>2016/12556</control>
+                <titulo>Orden HAP/1117/2016, de 6 de julio, por la que se resuelve el concurso específico, convocado por Orden HAP/357/2016, de 10 de marzo.</titulo>
+                <url_pdf szBytes="723542" szKBytes="707" pagina_inicial="48226" pagina_final="48278">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6612.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6612</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6612</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6613</identificador>
+                <control>2016/12557</control>
+                <titulo>Orden HAP/1118/2016, de 6 de julio, por la que se resuelve el concurso general, convocado por Orden HAP/358/2016, de 10 de marzo.</titulo>
+                <url_pdf szBytes="561869" szKBytes="549" pagina_inicial="48279" pagina_final="48315">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6613.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6613</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6613</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2016-6616</identificador>
+                <control>2016/12428</control>
+                <titulo>Resolución de 21 de junio de 2016, de la Secretaría de Estado de Seguridad, por la que se nombra funcionario de carrera del Cuerpo Nacional de Policía, Escala Básica, segunda categoría al Policía Alumno don Natanael Casares Zamorano.</titulo>
+                <url_pdf szBytes="160386" szKBytes="157" pagina_inicial="48321" pagina_final="48322">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6616.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6616</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6616</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2016-6615</identificador>
+                <control>2016/12427</control>
+                <titulo>Orden INT/1119/2016, de 28 de junio, por la que, en ejecución de sentencia, se modifica la Orden INT/777/2015, de 23 de abril, por la que se resuelve el concurso, convocado por Orden INT/2250/2014, de 20 de noviembre, en la Jefatura Central de Tráfico.</titulo>
+                <url_pdf szBytes="159254" szKBytes="156" pagina_inicial="48319" pagina_final="48320">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6615.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6615</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6615</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6617</identificador>
+                <control>2016/12429</control>
+                <titulo>Resolución de 30 de junio de 2016, de la Secretaría de Estado de Seguridad, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 26 de mayo de 2016, en los Servicios Periféricos de la Secretaría General de Instituciones Penitenciarias.</titulo>
+                <url_pdf szBytes="154851" szKBytes="151" pagina_inicial="48323" pagina_final="48323">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6617.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6617</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6617</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2016-6618</identificador>
+                <control>2016/12472</control>
+                <titulo>Resolución de 27 de junio de 2016, de la Secretaría de Estado de Cultura, por la que se resuelve el concurso específico, convocado por Resolución de 15 de abril de 2016, en el Instituto de la Cinematografía y de las Artes Audiovisuales.</titulo>
+                <url_pdf szBytes="271387" szKBytes="265" pagina_inicial="48324" pagina_final="48329">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6618.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6618</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6618</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2016-6619</identificador>
+                <control>2016/12430</control>
+                <titulo>Resolución de 27 de junio de 2016, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 22 de abril de 2016.</titulo>
+                <url_pdf szBytes="160530" szKBytes="157" pagina_inicial="48330" pagina_final="48331">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6619.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6619</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6619</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1840" nombre="CONSEJO DE SEGURIDAD NUCLEAR">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2016-6620</identificador>
+                <control>2016/12473</control>
+                <titulo>Resolución de 29 de junio de 2016, del Consejo de Seguridad Nuclear, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 17 de mayo de 2016.</titulo>
+                <url_pdf szBytes="155263" szKBytes="152" pagina_inicial="48332" pagina_final="48332">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6620.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6620</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6620</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2016-6621</identificador>
+                <control>2016/12475</control>
+                <titulo>Resolución de 20 de junio de 2016, conjunta de la Universidad Autónoma de Madrid y la Fundación Jiménez Díaz, por la que se nombra Profesor Titular de Universidad con plaza vinculada a don Jesús Miguel García-Foncillas López.</titulo>
+                <url_pdf szBytes="155853" szKBytes="152" pagina_inicial="48333" pagina_final="48333">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6621.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6621</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6621</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Personal laboral">
+              <item>
+                <identificador>BOE-A-2016-6622</identificador>
+                <control>2016/12560</control>
+                <titulo>Resolución de 6 de julio de 2016, de la Dirección General de la Función Pública, por la que se excluye a una aspirante del proceso selectivo para ingreso, por promoción interna, como personal laboral fijo con las categorías de Técnico Superior de Gestión y Servicios Comunes y Oficial de Gestión y Servicios Comunes, convocado por Resolución de 14 de diciembre de 2015.</titulo>
+                <url_pdf szBytes="163352" szKBytes="160" pagina_inicial="48334" pagina_final="48335">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6622.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6622</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6622</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <epigrafe nombre="Pruebas selectivas">
+              <item>
+                <identificador>BOE-A-2016-6623</identificador>
+                <control>2016/12518</control>
+                <titulo>Orden AAA/1120/2016, de 28 de junio, por la que se declara inhábil el mes de agosto a efectos del cómputo de plazos en las pruebas selectivas correspondientes a la Oferta de Empleo Público de 2016.</titulo>
+                <url_pdf szBytes="155533" szKBytes="152" pagina_inicial="48336" pagina_final="48336">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6623.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6623</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6623</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2016-6624</identificador>
+                <control>2016/12442</control>
+                <titulo>Resolución de 22 de junio de 2016, del Ayuntamiento de Oiartzun (Gipuzkoa), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="149076" szKBytes="146" pagina_inicial="48337" pagina_final="48337">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6624.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6624</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6624</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6625</identificador>
+                <control>2016/12443</control>
+                <titulo>Resolución de 23 de junio de 2016, del Ayuntamiento de Meaño (Pontevedra), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="149813" szKBytes="146" pagina_inicial="48338" pagina_final="48338">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6625.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6625</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6625</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6626</identificador>
+                <control>2016/12483</control>
+                <titulo>Resolución de 29 de junio de 2016, del Consorcio de Seguridad, Emergencia, Salvamento, Prevención y Extinción de Incendios de Lanzarote (Las Palmas), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="150035" szKBytes="147" pagina_inicial="48339" pagina_final="48339">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6626.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6626</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6626</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6627</identificador>
+                <control>2016/12484</control>
+                <titulo>Resolución de 30 de junio de 2016, del Ayuntamiento de Ribamontán al Mar (Cantabria), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="149825" szKBytes="146" pagina_inicial="48340" pagina_final="48340">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6627.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6627</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6627</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6628</identificador>
+                <control>2016/12485</control>
+                <titulo>Resolución de 1 de julio de 2016, del Ayuntamiento de Icod de los Vinos (Santa Cruz de Tenerife), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="151195" szKBytes="148" pagina_inicial="48341" pagina_final="48341">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6628.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6628</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6628</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6629</identificador>
+                <control>2016/12486</control>
+                <titulo>Resolución de 1 de julio de 2016, del Ayuntamiento de Villanueva de Córdoba (Córdoba), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="148448" szKBytes="145" pagina_inicial="48342" pagina_final="48342">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6629.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6629</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6629</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2016-6630</identificador>
+                <control>2016/12487</control>
+                <titulo>Resolución de 27 de junio de 2016, de la Universidad de Almería, por la que se corrigen errores en la de 7 de junio de 2016, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="155319" szKBytes="152" pagina_inicial="48343" pagina_final="48343">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6630.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6630</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6630</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6631</identificador>
+                <control>2016/12488</control>
+                <titulo>Resolución de 27 de junio de 2016, de la Universidad de Almería, por la que se corrigen errores en la de 7 de junio de 2016, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="156873" szKBytes="153" pagina_inicial="48344" pagina_final="48344">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6631.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6631</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6631</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6632</identificador>
+                <control>2016/12489</control>
+                <titulo>Resolución de 28 de junio de 2016, de la Universidad de Jaén, por la que se corrigen errores en la de 26 de mayo de 2016, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="148971" szKBytes="145" pagina_inicial="48345" pagina_final="48345">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6632.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6632</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6632</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Fondo Estatal para el Empleo y la Sostenibilidad Local. Cuentas anuales">
+              <item>
+                <identificador>BOE-A-2016-6633</identificador>
+                <control>2016/12394</control>
+                <titulo>Resolución de 28 de junio de 2016, de la Dirección General de Coordinación de Competencias con las Comunidades Autónomas y las Entidades Locales, por la que se publican las cuentas anuales del Fondo Estatal para el Empleo y la Sostenibilidad Local del ejercicio 2015 y el informe de auditoría.</titulo>
+                <url_pdf szBytes="707868" szKBytes="691" pagina_inicial="48346" pagina_final="48373">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6633.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6633</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6633</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Mutualidad General de Funcionarios Civiles del Estado. Cuentas anuales">
+              <item>
+                <identificador>BOE-A-2016-6634</identificador>
+                <control>2016/12526</control>
+                <titulo>Resolución de 4 de julio de 2016, de la Mutualidad General de Funcionarios Civiles del Estado, por la que se publican las cuentas anuales del ejercicio 2015 y el informe de auditoría.</titulo>
+                <url_pdf szBytes="1517537" szKBytes="1482" pagina_inicial="48374" pagina_final="48439">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6634.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6634</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6634</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Comunidad Autónoma de Aragón. Convenio">
+              <item>
+                <identificador>BOE-A-2016-6635</identificador>
+                <control>2016/12527</control>
+                <titulo>Resolución de 27 de mayo de 2016, de la Secretaría General Técnica, por la que se publica la Adenda relativa a las condiciones de ejecución durante 2016 y modificación parcial del Convenio de colaboración y coordinación con la Comunidad Autónoma de Aragón en materia de seguridad en los edificios de la Administración de Justicia de Aragón.</titulo>
+                <url_pdf szBytes="183530" szKBytes="179" pagina_inicial="48440" pagina_final="48443">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6635.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6635</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6635</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9219" nombre="MINISTERIO DE INDUSTRIA, ENERGÍA Y TURISMO">
+            <epigrafe nombre="Instalaciones eléctricas">
+              <item>
+                <identificador>BOE-A-2016-6636</identificador>
+                <control>2016/12455</control>
+                <titulo>Resolución de 23 de junio de 2016, de la Dirección General de Política Energética y Minas, por la que se deja sin efecto la de 13 de febrero de 2014, por la que se autoriza a Iberdrola Generación SAU la instalación de un nuevo grupo termoeléctrico de ciclo combinado, denominado Aceca 4, en la central térmica Aceca, en el término municipal de Villaseca de la Sagra, en la provincia de Toledo.</titulo>
+                <url_pdf szBytes="173539" szKBytes="169" pagina_inicial="48444" pagina_final="48446">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6636.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6636</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6636</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6637</identificador>
+                <control>2016/12456</control>
+                <titulo>Resolución de 23 de junio de 2016, de la Dirección General de Política Energética y Minas, por la que se deja sin efecto la de 15 de diciembre de 2011, por la que se autoriza a Endesa Generación SA la instalación de la central térmica de ciclo combinado de La Pereda, en el término municipal de Mieres (Asturias).</titulo>
+                <url_pdf szBytes="174617" szKBytes="171" pagina_inicial="48447" pagina_final="48449">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6637.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6637</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6637</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6638</identificador>
+                <control>2016/12457</control>
+                <titulo>Resolución de 23 de junio de 2016, de la Dirección General de Política Energética y Minas, por la que se deja sin efecto la de 17 de enero de 2013, por la que se autoriza a Fuerzas Eléctricas de Navarra SAU la instalación del segundo grupo (Grupo-2) de la central térmica de ciclo combinado de Castejón, en el término municipal de Castejón (Navarra).</titulo>
+                <url_pdf szBytes="175364" szKBytes="171" pagina_inicial="48450" pagina_final="48452">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6638.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6638</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6638</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6639</identificador>
+                <control>2016/12458</control>
+                <titulo>Resolución de 23 de junio de 2016, de la Dirección General de Política Energética y Minas, por la que se deja sin efecto la de 17 de octubre de 2012, por la que se autoriza a Endesa Generación SA el proyecto "Sustitución del grupo generador de la central térmica de Foix por un nuevo grupo de ciclo combinado de 500 MW eléctricos", en el término municipal de Cubelles (Barcelona).</titulo>
+                <url_pdf szBytes="178613" szKBytes="174" pagina_inicial="48453" pagina_final="48456">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6639.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6639</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6639</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6640</identificador>
+                <control>2016/12459</control>
+                <titulo>Resolución de 23 de junio de 2016, de la Dirección General de Política Energética y Minas, por la que se deja sin efecto la de 28 de octubre de 2002, por la que se autoriza a Unión Fenosa Generación SA la instalación de una central termoeléctrica de ciclo combinado, situada en el término municipal de Osera de Ebro (Zaragoza), y se declara, en concreto, su utilidad pública.</titulo>
+                <url_pdf szBytes="175160" szKBytes="171" pagina_inicial="48457" pagina_final="48459">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6640.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6640</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6640</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6641</identificador>
+                <control>2016/12460</control>
+                <titulo>Resolución de 23 de junio de 2016, de la Dirección General de Política Energética y Minas, por la que se deja sin efecto la de 3 de octubre de 2011, por la que se autoriza a Iberdrola Generación SAU la instalación de la central térmica de ciclo combinado de Alange, en el término municipal de Alange (Badajoz), y se declara su utilidad pública.</titulo>
+                <url_pdf szBytes="174428" szKBytes="170" pagina_inicial="48460" pagina_final="48462">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6641.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6641</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6641</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6642</identificador>
+                <control>2016/12461</control>
+                <titulo>Resolución de 23 de junio de 2016, de la Dirección General de Política Energética y Minas, por la que se deja sin efecto la de 22 de marzo de 2010, por la que se autoriza a Endesa Generación SA la instalación de la central térmica de ciclo combinado de Compostilla, grupos 6 y 7, en el término municipal de Cubillos del Sil (León), y se declara, en concreto, su utilidad pública.</titulo>
+                <url_pdf szBytes="174674" szKBytes="171" pagina_inicial="48463" pagina_final="48465">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6642.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6642</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6642</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6643</identificador>
+                <control>2016/12462</control>
+                <titulo>Resolución de 24 de junio de 2016, de la Dirección General de Política Energética y Minas, por la que se otorga a Aguas de las Cuencas de España SA autorización administrativa previa para la instalación de una línea eléctrica a 25 kV entre los términos municipales de Pobla de Massaluca (Tarragona) y Fayón (Zaragoza).</titulo>
+                <url_pdf szBytes="166874" szKBytes="163" pagina_inicial="48466" pagina_final="48467">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6643.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6643</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6643</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2016-6644</identificador>
+                <control>2016/12463</control>
+                <titulo>Resolución de 24 de junio de 2016, de la Dirección General de Política Energética y Minas, por la que se otorga a Red Eléctrica de España SAU autorización administrativa previa para la instalación de una reactancia de 150 MVAr en el parque de 400 kV de la subestación de Mezquita 400/220 kV, en el término municipal de Mezquita de Jarque, en la provincia de Teruel.</titulo>
+                <url_pdf szBytes="165610" szKBytes="162" pagina_inicial="48468" pagina_final="48469">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6644.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6644</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6644</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <epigrafe nombre="Becas">
+              <item>
+                <identificador>BOE-A-2016-6645</identificador>
+                <control>2016/12502</control>
+                <titulo>Resolución de 29 de junio de 2016, de la Dirección General de la Industria Alimentaria, por la que se publican las becas de alta formación de gestores y directivos de empresas de la cadena alimentaria concedidas en el ejercicio 2015, convocadas por Orden AAA/990/2015, de 20 de mayo.</titulo>
+                <url_pdf szBytes="158005" szKBytes="154" pagina_inicial="48470" pagina_final="48470">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-A-2016-6645.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-6645</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2016-6645</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="1420" nombre="TRIBUNAL DE CUENTAS">
+            <item>
+              <identificador>BOE-B-2016-33452</identificador>
+              <titulo>SECCIÓN DE ENJUICIAMIENTO</titulo>
+              <url_pdf szBytes="167850" szKBytes="164" pagina_inicial="41014" pagina_final="41014">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33452.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33452</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33452</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9551" nombre="AUDIENCIAS PROVINCIALES">
+            <item>
+              <identificador>BOE-B-2016-33453</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="160021" szKBytes="156" pagina_inicial="41015" pagina_final="41015">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33453.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33453</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33453</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33454</identificador>
+              <titulo>SANTIAGO DE COMPOSTELA</titulo>
+              <url_pdf szBytes="162313" szKBytes="159" pagina_inicial="41016" pagina_final="41016">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33454.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33454</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33454</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2016-33455</identificador>
+              <titulo>A CORUÑA</titulo>
+              <url_pdf szBytes="161621" szKBytes="158" pagina_inicial="41017" pagina_final="41017">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33455.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33455</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33455</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33456</identificador>
+              <titulo>ALCALÁ DE HENARES</titulo>
+              <url_pdf szBytes="163018" szKBytes="159" pagina_inicial="41018" pagina_final="41018">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33456.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33456</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33456</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33457</identificador>
+              <titulo>ALGECIRAS</titulo>
+              <url_pdf szBytes="162675" szKBytes="159" pagina_inicial="41019" pagina_final="41019">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33457.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33457</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33457</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33458</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="161550" szKBytes="158" pagina_inicial="41020" pagina_final="41020">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33458.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33458</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33458</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33459</identificador>
+              <titulo>ALMERÍA</titulo>
+              <url_pdf szBytes="161617" szKBytes="158" pagina_inicial="41021" pagina_final="41021">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33459.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33459</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33459</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33460</identificador>
+              <titulo>ALMERÍA</titulo>
+              <url_pdf szBytes="161309" szKBytes="158" pagina_inicial="41022" pagina_final="41022">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33460.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33460</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33460</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33461</identificador>
+              <titulo>AMPOSTA</titulo>
+              <url_pdf szBytes="162426" szKBytes="159" pagina_inicial="41023" pagina_final="41023">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33461.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33461</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33461</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33462</identificador>
+              <titulo>AOIZ/AGOITZ</titulo>
+              <url_pdf szBytes="162023" szKBytes="158" pagina_inicial="41024" pagina_final="41024">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33462.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33462</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33462</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33463</identificador>
+              <titulo>ARGANDA DEL REY</titulo>
+              <url_pdf szBytes="162595" szKBytes="159" pagina_inicial="41025" pagina_final="41025">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33463.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33463</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33463</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33464</identificador>
+              <titulo>ARRECIFE DE LANZAROTE</titulo>
+              <url_pdf szBytes="162831" szKBytes="159" pagina_inicial="41026" pagina_final="41026">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33464.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33464</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33464</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33465</identificador>
+              <titulo>AVILÉS</titulo>
+              <url_pdf szBytes="161585" szKBytes="158" pagina_inicial="41027" pagina_final="41027">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33465.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33465</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33465</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33466</identificador>
+              <titulo>BARAKALDO</titulo>
+              <url_pdf szBytes="164500" szKBytes="161" pagina_inicial="41028" pagina_final="41028">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33466.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33466</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33466</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33467</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="161575" szKBytes="158" pagina_inicial="41029" pagina_final="41029">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33467.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33467</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33467</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33468</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="161385" szKBytes="158" pagina_inicial="41030" pagina_final="41030">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33468.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33468</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33468</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33469</identificador>
+              <titulo>CERVERA</titulo>
+              <url_pdf szBytes="161311" szKBytes="158" pagina_inicial="41031" pagina_final="41031">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33469.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33469</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33469</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33470</identificador>
+              <titulo>CIUDAD REAL</titulo>
+              <url_pdf szBytes="162379" szKBytes="159" pagina_inicial="41032" pagina_final="41032">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33470.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33470</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33470</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33471</identificador>
+              <titulo>CIUTADELLA DE MENORCA</titulo>
+              <url_pdf szBytes="162925" szKBytes="159" pagina_inicial="41033" pagina_final="41033">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33471.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33471</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33471</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33472</identificador>
+              <titulo>CÓRDOBA</titulo>
+              <url_pdf szBytes="161137" szKBytes="157" pagina_inicial="41034" pagina_final="41034">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33472.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33472</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33472</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33473</identificador>
+              <titulo>CORIA DEL RÍO</titulo>
+              <url_pdf szBytes="162256" szKBytes="158" pagina_inicial="41035" pagina_final="41035">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33473.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33473</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33473</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33474</identificador>
+              <titulo>CUENCA</titulo>
+              <url_pdf szBytes="161785" szKBytes="158" pagina_inicial="41036" pagina_final="41036">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33474.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33474</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33474</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33475</identificador>
+              <titulo>CUENCA</titulo>
+              <url_pdf szBytes="161892" szKBytes="158" pagina_inicial="41037" pagina_final="41037">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33475.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33475</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33475</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33476</identificador>
+              <titulo>DENIA</titulo>
+              <url_pdf szBytes="160870" szKBytes="157" pagina_inicial="41038" pagina_final="41038">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33476.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33476</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33476</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33477</identificador>
+              <titulo>DENIA</titulo>
+              <url_pdf szBytes="161093" szKBytes="157" pagina_inicial="41039" pagina_final="41039">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33477.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33477</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33477</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33478</identificador>
+              <titulo>ELCHE</titulo>
+              <url_pdf szBytes="160519" szKBytes="157" pagina_inicial="41040" pagina_final="41040">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33478.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33478</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33478</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33479</identificador>
+              <titulo>ELCHE</titulo>
+              <url_pdf szBytes="160427" szKBytes="157" pagina_inicial="41041" pagina_final="41041">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33479.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33479</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33479</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33480</identificador>
+              <titulo>ELCHE</titulo>
+              <url_pdf szBytes="160741" szKBytes="157" pagina_inicial="41042" pagina_final="41042">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33480.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33480</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33480</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33481</identificador>
+              <titulo>FIGUERES</titulo>
+              <url_pdf szBytes="162878" szKBytes="159" pagina_inicial="41043" pagina_final="41043">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33481.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33481</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33481</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33482</identificador>
+              <titulo>FRAGA</titulo>
+              <url_pdf szBytes="161529" szKBytes="158" pagina_inicial="41044" pagina_final="41044">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33482.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33482</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33482</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33483</identificador>
+              <titulo>FUENLABRADA</titulo>
+              <url_pdf szBytes="162041" szKBytes="158" pagina_inicial="41045" pagina_final="41045">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33483.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33483</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33483</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33484</identificador>
+              <titulo>GERNIKA-LUMO</titulo>
+              <url_pdf szBytes="163388" szKBytes="160" pagina_inicial="41046" pagina_final="41046">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33484.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33484</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33484</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33485</identificador>
+              <titulo>GIRONA</titulo>
+              <url_pdf szBytes="161722" szKBytes="158" pagina_inicial="41047" pagina_final="41047">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33485.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33485</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33485</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33486</identificador>
+              <titulo>GIRONA</titulo>
+              <url_pdf szBytes="161530" szKBytes="158" pagina_inicial="41048" pagina_final="41048">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33486.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33486</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33486</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33487</identificador>
+              <titulo>GRANADA</titulo>
+              <url_pdf szBytes="161988" szKBytes="158" pagina_inicial="41049" pagina_final="41049">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33487.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33487</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33487</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33488</identificador>
+              <titulo>GRANADA</titulo>
+              <url_pdf szBytes="161870" szKBytes="158" pagina_inicial="41050" pagina_final="41050">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33488.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33488</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33488</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33489</identificador>
+              <titulo>GRANADA</titulo>
+              <url_pdf szBytes="161661" szKBytes="158" pagina_inicial="41051" pagina_final="41051">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33489.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33489</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33489</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33490</identificador>
+              <titulo>GRANADA</titulo>
+              <url_pdf szBytes="161325" szKBytes="158" pagina_inicial="41052" pagina_final="41052">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33490.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33490</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33490</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33491</identificador>
+              <titulo>HUELVA</titulo>
+              <url_pdf szBytes="161311" szKBytes="158" pagina_inicial="41053" pagina_final="41053">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33491.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33491</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33491</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33492</identificador>
+              <titulo>HUESCA</titulo>
+              <url_pdf szBytes="162634" szKBytes="159" pagina_inicial="41054" pagina_final="41054">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33492.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33492</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33492</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33493</identificador>
+              <titulo>IBI</titulo>
+              <url_pdf szBytes="160901" szKBytes="157" pagina_inicial="41055" pagina_final="41055">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33493.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33493</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33493</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33494</identificador>
+              <titulo>ICOD DE LOS VINOS</titulo>
+              <url_pdf szBytes="162955" szKBytes="159" pagina_inicial="41056" pagina_final="41056">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33494.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33494</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33494</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33495</identificador>
+              <titulo>JEREZ FRONTERA</titulo>
+              <url_pdf szBytes="162538" szKBytes="159" pagina_inicial="41057" pagina_final="41057">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33495.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33495</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33495</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33496</identificador>
+              <titulo>LA PALMA DEL CONDADO</titulo>
+              <url_pdf szBytes="163010" szKBytes="159" pagina_inicial="41058" pagina_final="41058">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33496.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33496</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33496</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33497</identificador>
+              <titulo>LEON</titulo>
+              <url_pdf szBytes="161401" szKBytes="158" pagina_inicial="41059" pagina_final="41059">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33497.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33497</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33497</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33498</identificador>
+              <titulo>LEÓN</titulo>
+              <url_pdf szBytes="161588" szKBytes="158" pagina_inicial="41060" pagina_final="41060">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33498.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33498</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33498</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33499</identificador>
+              <titulo>LEÓN</titulo>
+              <url_pdf szBytes="160845" szKBytes="157" pagina_inicial="41061" pagina_final="41061">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33499.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33499</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33499</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33500</identificador>
+              <titulo>L'HOSPITALET DE LLOBREGAT</titulo>
+              <url_pdf szBytes="163467" szKBytes="160" pagina_inicial="41062" pagina_final="41062">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33500.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33500</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33500</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33501</identificador>
+              <titulo>L'HOSPITALET DE LLOBREGAT</titulo>
+              <url_pdf szBytes="163295" szKBytes="159" pagina_inicial="41063" pagina_final="41063">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33501.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33501</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33501</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33502</identificador>
+              <titulo>LLEIDA</titulo>
+              <url_pdf szBytes="161030" szKBytes="157" pagina_inicial="41064" pagina_final="41064">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33502.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33502</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33502</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33503</identificador>
+              <titulo>LOGROÑO</titulo>
+              <url_pdf szBytes="162016" szKBytes="158" pagina_inicial="41065" pagina_final="41065">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33503.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33503</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33503</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33504</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="174143" szKBytes="170" pagina_inicial="41066" pagina_final="41067">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33504.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33504</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33504</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33505</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="161793" szKBytes="158" pagina_inicial="41068" pagina_final="41068">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33505.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33505</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33505</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33506</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="161372" szKBytes="158" pagina_inicial="41069" pagina_final="41069">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33506.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33506</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33506</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33507</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="161326" szKBytes="158" pagina_inicial="41070" pagina_final="41070">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33507.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33507</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33507</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33508</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="161486" szKBytes="158" pagina_inicial="41071" pagina_final="41071">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33508.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33508</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33508</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33509</identificador>
+              <titulo>MÁLAGA</titulo>
+              <url_pdf szBytes="162462" szKBytes="159" pagina_inicial="41072" pagina_final="41072">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33509.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33509</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33509</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33510</identificador>
+              <titulo>MÁLAGA</titulo>
+              <url_pdf szBytes="161620" szKBytes="158" pagina_inicial="41073" pagina_final="41073">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33510.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33510</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33510</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33511</identificador>
+              <titulo>MÁLAGA</titulo>
+              <url_pdf szBytes="162038" szKBytes="158" pagina_inicial="41074" pagina_final="41074">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33511.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33511</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33511</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33512</identificador>
+              <titulo>MÁLAGA</titulo>
+              <url_pdf szBytes="161194" szKBytes="157" pagina_inicial="41075" pagina_final="41075">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33512.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33512</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33512</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33513</identificador>
+              <titulo>MANACOR</titulo>
+              <url_pdf szBytes="161811" szKBytes="158" pagina_inicial="41076" pagina_final="41076">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33513.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33513</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33513</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33514</identificador>
+              <titulo>MANRESA</titulo>
+              <url_pdf szBytes="162494" szKBytes="159" pagina_inicial="41077" pagina_final="41077">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33514.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33514</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33514</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33515</identificador>
+              <titulo>MARBELLA</titulo>
+              <url_pdf szBytes="161818" szKBytes="158" pagina_inicial="41078" pagina_final="41078">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33515.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33515</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33515</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33516</identificador>
+              <titulo>MARCHENA</titulo>
+              <url_pdf szBytes="162524" szKBytes="159" pagina_inicial="41079" pagina_final="41079">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33516.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33516</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33516</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33517</identificador>
+              <titulo>MATARÓ</titulo>
+              <url_pdf szBytes="161808" szKBytes="158" pagina_inicial="41080" pagina_final="41080">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33517.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33517</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33517</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33518</identificador>
+              <titulo>MIRANDA DE EBRO</titulo>
+              <url_pdf szBytes="163321" szKBytes="159" pagina_inicial="41081" pagina_final="41081">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33518.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33518</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33518</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33519</identificador>
+              <titulo>MISLATA</titulo>
+              <url_pdf szBytes="162598" szKBytes="159" pagina_inicial="41082" pagina_final="41082">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33519.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33519</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33519</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33520</identificador>
+              <titulo>OLOT</titulo>
+              <url_pdf szBytes="161038" szKBytes="157" pagina_inicial="41083" pagina_final="41083">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33520.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33520</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33520</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33521</identificador>
+              <titulo>ORIHUELA</titulo>
+              <url_pdf szBytes="161613" szKBytes="158" pagina_inicial="41084" pagina_final="41084">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33521.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33521</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33521</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33522</identificador>
+              <titulo>ORIHUELA</titulo>
+              <url_pdf szBytes="161604" szKBytes="158" pagina_inicial="41085" pagina_final="41085">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33522.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33522</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33522</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33523</identificador>
+              <titulo>PALMA CONDADO</titulo>
+              <url_pdf szBytes="163036" szKBytes="159" pagina_inicial="41086" pagina_final="41086">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33523.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33523</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33523</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33524</identificador>
+              <titulo>PATERNA</titulo>
+              <url_pdf szBytes="162543" szKBytes="159" pagina_inicial="41087" pagina_final="41087">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33524.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33524</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33524</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33525</identificador>
+              <titulo>PLAYA DE LOS CRISTIANOS</titulo>
+              <url_pdf szBytes="163423" szKBytes="160" pagina_inicial="41088" pagina_final="41088">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33525.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33525</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33525</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33526</identificador>
+              <titulo>PLAYA DE LOS CRISTIANOS</titulo>
+              <url_pdf szBytes="163539" szKBytes="160" pagina_inicial="41089" pagina_final="41089">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33526.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33526</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33526</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33527</identificador>
+              <titulo>PONTEVEDRA</titulo>
+              <url_pdf szBytes="162112" szKBytes="158" pagina_inicial="41090" pagina_final="41090">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33527.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33527</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33527</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33528</identificador>
+              <titulo>POZOBLANCO</titulo>
+              <url_pdf szBytes="163320" szKBytes="159" pagina_inicial="41091" pagina_final="41091">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33528.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33528</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33528</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33529</identificador>
+              <titulo>PUERTO DEL ROSARIO</titulo>
+              <url_pdf szBytes="162969" szKBytes="159" pagina_inicial="41092" pagina_final="41092">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33529.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33529</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33529</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33530</identificador>
+              <titulo>ROQUETAS DE MAR</titulo>
+              <url_pdf szBytes="163243" szKBytes="159" pagina_inicial="41093" pagina_final="41093">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33530.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33530</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33530</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33531</identificador>
+              <titulo>SABADELL</titulo>
+              <url_pdf szBytes="161314" szKBytes="158" pagina_inicial="41094" pagina_final="41094">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33531.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33531</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33531</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33532</identificador>
+              <titulo>SAN CRISTOBAL LAGUNA</titulo>
+              <url_pdf szBytes="163172" szKBytes="159" pagina_inicial="41095" pagina_final="41095">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33532.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33532</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33532</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33533</identificador>
+              <titulo>SANT VICENT DEL RASPEIG</titulo>
+              <url_pdf szBytes="163704" szKBytes="160" pagina_inicial="41096" pagina_final="41096">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33533.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33533</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33533</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33534</identificador>
+              <titulo>SANTA CRUZ DE TENERIFE</titulo>
+              <url_pdf szBytes="163229" szKBytes="159" pagina_inicial="41097" pagina_final="41097">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33534.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33534</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33534</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33535</identificador>
+              <titulo>SANTA FÉ</titulo>
+              <url_pdf szBytes="162659" szKBytes="159" pagina_inicial="41098" pagina_final="41098">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33535.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33535</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33535</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33536</identificador>
+              <titulo>SANTA FÉ</titulo>
+              <url_pdf szBytes="161896" szKBytes="158" pagina_inicial="41099" pagina_final="41099">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33536.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33536</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33536</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33537</identificador>
+              <titulo>SEGOVIA</titulo>
+              <url_pdf szBytes="162194" szKBytes="158" pagina_inicial="41100" pagina_final="41100">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33537.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33537</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33537</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33538</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="161646" szKBytes="158" pagina_inicial="41101" pagina_final="41101">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33538.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33538</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33538</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33539</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="161531" szKBytes="158" pagina_inicial="41102" pagina_final="41102">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33539.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33539</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33539</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33540</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="160908" szKBytes="157" pagina_inicial="41103" pagina_final="41103">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33540.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33540</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33540</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33541</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="161034" szKBytes="157" pagina_inicial="41104" pagina_final="41104">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33541.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33541</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33541</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33542</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="161050" szKBytes="157" pagina_inicial="41105" pagina_final="41105">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33542.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33542</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33542</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33543</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="161203" szKBytes="157" pagina_inicial="41106" pagina_final="41106">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33543.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33543</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33543</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33544</identificador>
+              <titulo>TERRASSA</titulo>
+              <url_pdf szBytes="161100" szKBytes="157" pagina_inicial="41107" pagina_final="41107">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33544.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33544</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33544</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33545</identificador>
+              <titulo>TERUEL</titulo>
+              <url_pdf szBytes="166785" szKBytes="163" pagina_inicial="41108" pagina_final="41108">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33545.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33545</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33545</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33546</identificador>
+              <titulo>TORREMOLINOS</titulo>
+              <url_pdf szBytes="161955" szKBytes="158" pagina_inicial="41109" pagina_final="41109">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33546.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33546</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33546</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33547</identificador>
+              <titulo>TORRENT</titulo>
+              <url_pdf szBytes="161556" szKBytes="158" pagina_inicial="41110" pagina_final="41110">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33547.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33547</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33547</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33548</identificador>
+              <titulo>TORREVIEJA</titulo>
+              <url_pdf szBytes="162039" szKBytes="158" pagina_inicial="41111" pagina_final="41111">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33548.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33548</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33548</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33549</identificador>
+              <titulo>TORREVIEJA</titulo>
+              <url_pdf szBytes="162012" szKBytes="158" pagina_inicial="41112" pagina_final="41112">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33549.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33549</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33549</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33550</identificador>
+              <titulo>UTRERA</titulo>
+              <url_pdf szBytes="161622" szKBytes="158" pagina_inicial="41113" pagina_final="41113">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33550.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33550</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33550</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33551</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="161427" szKBytes="158" pagina_inicial="41114" pagina_final="41114">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33551.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33551</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33551</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33552</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="161128" szKBytes="157" pagina_inicial="41115" pagina_final="41115">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33552.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33552</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33552</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33553</identificador>
+              <titulo>VALLADOLID</titulo>
+              <url_pdf szBytes="161099" szKBytes="157" pagina_inicial="41116" pagina_final="41116">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33553.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33553</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33553</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33554</identificador>
+              <titulo>VALLADOLID</titulo>
+              <url_pdf szBytes="161435" szKBytes="158" pagina_inicial="41117" pagina_final="41117">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33554.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33554</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33554</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33555</identificador>
+              <titulo>VALLADOLID</titulo>
+              <url_pdf szBytes="161357" szKBytes="158" pagina_inicial="41118" pagina_final="41118">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33555.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33555</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33555</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33556</identificador>
+              <titulo>VALLADOLID</titulo>
+              <url_pdf szBytes="161288" szKBytes="158" pagina_inicial="41119" pagina_final="41119">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33556.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33556</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33556</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33557</identificador>
+              <titulo>VALLADOLID</titulo>
+              <url_pdf szBytes="161103" szKBytes="157" pagina_inicial="41120" pagina_final="41120">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33557.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33557</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33557</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33558</identificador>
+              <titulo>VÉLEZ MÁLAGA</titulo>
+              <url_pdf szBytes="163428" szKBytes="160" pagina_inicial="41121" pagina_final="41121">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33558.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33558</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33558</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33559</identificador>
+              <titulo>VILANOVA I LA GELTRU</titulo>
+              <url_pdf szBytes="162928" szKBytes="159" pagina_inicial="41122" pagina_final="41122">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33559.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33559</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33559</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33560</identificador>
+              <titulo>VITORIA GASTEIZ</titulo>
+              <url_pdf szBytes="162404" szKBytes="159" pagina_inicial="41123" pagina_final="41123">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33560.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33560</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33560</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33561</identificador>
+              <titulo>VITORIA-GASTEIZ</titulo>
+              <url_pdf szBytes="162448" szKBytes="159" pagina_inicial="41124" pagina_final="41124">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33561.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33561</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33561</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2016-33562</identificador>
+              <titulo>A CORUÑA</titulo>
+              <url_pdf szBytes="166118" szKBytes="162" pagina_inicial="41125" pagina_final="41125">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33562.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33562</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33562</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33563</identificador>
+              <titulo>A CORUÑA</titulo>
+              <url_pdf szBytes="161814" szKBytes="158" pagina_inicial="41126" pagina_final="41126">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33563.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33563</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33563</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33564</identificador>
+              <titulo>A CORUÑA</titulo>
+              <url_pdf szBytes="161552" szKBytes="158" pagina_inicial="41127" pagina_final="41127">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33564.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33564</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33564</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33565</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="167249" szKBytes="163" pagina_inicial="41128" pagina_final="41128">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33565.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33565</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33565</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33566</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="161363" szKBytes="158" pagina_inicial="41129" pagina_final="41129">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33566.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33566</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33566</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33567</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="161306" szKBytes="158" pagina_inicial="41130" pagina_final="41130">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33567.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33567</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33567</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33568</identificador>
+              <titulo>ALICANTE</titulo>
+              <url_pdf szBytes="161903" szKBytes="158" pagina_inicial="41131" pagina_final="41131">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33568.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33568</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33568</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33569</identificador>
+              <titulo>ALMERÍA</titulo>
+              <url_pdf szBytes="167116" szKBytes="163" pagina_inicial="41132" pagina_final="41132">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33569.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33569</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33569</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33570</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="162899" szKBytes="159" pagina_inicial="41133" pagina_final="41133">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33570.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33570</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33570</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33571</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="164478" szKBytes="161" pagina_inicial="41134" pagina_final="41134">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33571.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33571</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33571</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33572</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="167944" szKBytes="164" pagina_inicial="41135" pagina_final="41135">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33572.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33572</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33572</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33573</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="163344" szKBytes="160" pagina_inicial="41136" pagina_final="41136">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33573.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33573</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33573</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33574</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="165052" szKBytes="161" pagina_inicial="41137" pagina_final="41137">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33574.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33574</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33574</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33575</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="168272" szKBytes="164" pagina_inicial="41138" pagina_final="41138">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33575.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33575</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33575</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33576</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="164908" szKBytes="161" pagina_inicial="41139" pagina_final="41139">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33576.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33576</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33576</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33577</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="161821" szKBytes="158" pagina_inicial="41140" pagina_final="41140">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33577.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33577</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33577</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33578</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="164435" szKBytes="161" pagina_inicial="41141" pagina_final="41141">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33578.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33578</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33578</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33579</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="161159" szKBytes="157" pagina_inicial="41142" pagina_final="41142">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33579.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33579</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33579</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33580</identificador>
+              <titulo>CASTELLÓN DE LA PLANA</titulo>
+              <url_pdf szBytes="168045" szKBytes="164" pagina_inicial="41143" pagina_final="41143">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33580.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33580</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33580</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33581</identificador>
+              <titulo>CASTELLÓN DE LA PLANA</titulo>
+              <url_pdf szBytes="168661" szKBytes="165" pagina_inicial="41144" pagina_final="41144">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33581.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33581</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33581</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33582</identificador>
+              <titulo>LAS PALMAS DE GRAN CANARIA</titulo>
+              <url_pdf szBytes="171415" szKBytes="167" pagina_inicial="41145" pagina_final="41145">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33582.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33582</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33582</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33583</identificador>
+              <titulo>LAS PALMAS DE GRAN CANARIA</titulo>
+              <url_pdf szBytes="170397" szKBytes="166" pagina_inicial="41146" pagina_final="41146">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33583.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33583</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33583</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33584</identificador>
+              <titulo>LLEIDA</titulo>
+              <url_pdf szBytes="164196" szKBytes="160" pagina_inicial="41147" pagina_final="41147">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33584.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33584</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33584</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33585</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="165303" szKBytes="161" pagina_inicial="41148" pagina_final="41148">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33585.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33585</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33585</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33586</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163352" szKBytes="160" pagina_inicial="41149" pagina_final="41149">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33586.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33586</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33586</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33587</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="162034" szKBytes="158" pagina_inicial="41150" pagina_final="41150">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33587.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33587</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33587</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33588</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="161795" szKBytes="158" pagina_inicial="41151" pagina_final="41151">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33588.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33588</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33588</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33589</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="163119" szKBytes="159" pagina_inicial="41152" pagina_final="41152">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33589.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33589</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33589</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33590</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="166529" szKBytes="163" pagina_inicial="41153" pagina_final="41153">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33590.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33590</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33590</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33591</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="164457" szKBytes="161" pagina_inicial="41154" pagina_final="41154">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33591.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33591</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33591</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33592</identificador>
+              <titulo>OURENSE</titulo>
+              <url_pdf szBytes="165938" szKBytes="162" pagina_inicial="41155" pagina_final="41155">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33592.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33592</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33592</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33593</identificador>
+              <titulo>PALMA DE MALLORCA</titulo>
+              <url_pdf szBytes="162354" szKBytes="159" pagina_inicial="41156" pagina_final="41156">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33593.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33593</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33593</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33594</identificador>
+              <titulo>PONTEVEDRA</titulo>
+              <url_pdf szBytes="167608" szKBytes="164" pagina_inicial="41157" pagina_final="41157">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33594.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33594</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33594</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33595</identificador>
+              <titulo>SANTA CRUZ DE TENERIFE</titulo>
+              <url_pdf szBytes="168008" szKBytes="164" pagina_inicial="41158" pagina_final="41158">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33595.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33595</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33595</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33596</identificador>
+              <titulo>TARRAGONA</titulo>
+              <url_pdf szBytes="167062" szKBytes="163" pagina_inicial="41159" pagina_final="41159">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33596.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33596</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33596</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33597</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="165501" szKBytes="162" pagina_inicial="41160" pagina_final="41160">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33597.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33597</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33597</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33598</identificador>
+              <titulo>VITORIA</titulo>
+              <url_pdf szBytes="165218" szKBytes="161" pagina_inicial="41161" pagina_final="41161">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33598.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33598</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33598</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33599</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="163932" szKBytes="160" pagina_inicial="41162" pagina_final="41162">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33599.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33599</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33599</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33600</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="163965" szKBytes="160" pagina_inicial="41163" pagina_final="41163">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33600.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33600</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33600</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9553" nombre="JUZGADOS DE LO PENAL">
+            <item>
+              <identificador>BOE-B-2016-33601</identificador>
+              <titulo>LEON</titulo>
+              <url_pdf szBytes="159568" szKBytes="156" pagina_inicial="41164" pagina_final="41164">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33601.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33601</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33601</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9548" nombre="JUZGADOS DE LO SOCIAL">
+            <item>
+              <identificador>BOE-B-2016-33602</identificador>
+              <titulo>CUENCA</titulo>
+              <url_pdf szBytes="159784" szKBytes="156" pagina_inicial="41165" pagina_final="41165">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33602.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33602</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33602</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33603</identificador>
+              <titulo>MÁLAGA</titulo>
+              <url_pdf szBytes="160407" szKBytes="157" pagina_inicial="41166" pagina_final="41166">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33603.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33603</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33603</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9549" nombre="TRIBUNALES MILITARES TERRITORIALES">
+            <item>
+              <identificador>BOE-B-2016-33604</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="164360" szKBytes="161" pagina_inicial="41167" pagina_final="41167">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33604.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33604</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33604</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33605</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163388" szKBytes="160" pagina_inicial="41168" pagina_final="41168">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33605.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33605</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33605</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33606</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="162671" szKBytes="159" pagina_inicial="41169" pagina_final="41169">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33606.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33606</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33606</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33607</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163404" szKBytes="160" pagina_inicial="41170" pagina_final="41170">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33607.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33607</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33607</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33608</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="163597" szKBytes="160" pagina_inicial="41171" pagina_final="41171">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33608.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33608</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33608</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9556" nombre="ANULACIONES">
+            <item>
+              <identificador>BOE-B-2016-33609</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES MILITARES</titulo>
+              <url_pdf szBytes="164787" szKBytes="161" pagina_inicial="41172" pagina_final="41172">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33609.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33609</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33609</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33610</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES MILITARES</titulo>
+              <url_pdf szBytes="164471" szKBytes="161" pagina_inicial="41173" pagina_final="41173">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33610.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33610</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33610</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9550" nombre="UNIDAD DE SUBASTAS">
+            <item>
+              <identificador>BOE-B-2016-33611</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="159896" szKBytes="156" pagina_inicial="41174" pagina_final="41174">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33611.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33611</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33611</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33612</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="159537" szKBytes="156" pagina_inicial="41175" pagina_final="41175">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33612.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33612</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33612</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33613</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="159808" szKBytes="156" pagina_inicial="41176" pagina_final="41176">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33613.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33613</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33613</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33614</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="159387" szKBytes="156" pagina_inicial="41177" pagina_final="41177">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33614.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33614</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33614</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33615</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="160502" szKBytes="157" pagina_inicial="41178" pagina_final="41178">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33615.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33615</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33615</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33616</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="160143" szKBytes="156" pagina_inicial="41179" pagina_final="41179">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33616.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33616</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33616</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Contratación del Sector Público">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <item>
+              <identificador>BOE-B-2016-33617</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subsecretaría del Ministerio de Justicia. Objeto: Obras de ampliación de instalación de climatización para el Centro de Proceso de Datos en la C/ Ocaña, 157, de Madrid. Expediente: NOB/2015/098.</titulo>
+              <url_pdf szBytes="176964" szKBytes="173" pagina_inicial="41180" pagina_final="41180">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33617.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33617</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33617</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2016-33618</identificador>
+              <titulo>Anuncio de la Sección Económico Financiera de la Dirección General de Infraestructura por la que se convoca la licitación para la actualización ampliación y soporte técnico de las licencias software antimalware para la protección de la infraestructura integral de información de la Defensa I3D.</titulo>
+              <url_pdf szBytes="176717" szKBytes="173" pagina_inicial="41181" pagina_final="41181">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33618.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33618</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33618</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33619</identificador>
+              <titulo>Resolución de la Mesa de Contratación del Ejército de Tierra por la que se anuncia licitación para la contratación pública de: "Adquisición de artículos, prendas y materias primas de vestuario y uniformidad".</titulo>
+              <url_pdf szBytes="182231" szKBytes="178" pagina_inicial="41182" pagina_final="41183">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33619.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33619</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33619</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33620</identificador>
+              <titulo>Anuncio de la Dirección de Abastecimiento y Transportes por la que se modifica el expediente 2016/AR40U/00000319, para el suministro de pertrechos de carácter general con destino a buques y dependencias de la Armada.</titulo>
+              <url_pdf szBytes="169462" szKBytes="165" pagina_inicial="41184" pagina_final="41184">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33620.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33620</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33620</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33621</identificador>
+              <titulo>Resolución de la Jefatura de Asuntos Económicos del Estado Mayor de la Defensa por la que se anuncia la licitación pública del expediente de servicio mantenimiento de las instalaciones de climatización, agua y combustible en la Base de Retamares.</titulo>
+              <url_pdf szBytes="181524" szKBytes="177" pagina_inicial="41185" pagina_final="41186">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33621.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33621</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33621</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33622</identificador>
+              <titulo>Resolución de la Jefatura de Asuntos Económicos del Estado Mayor de la Defensa por la que se anuncia la licitación pública del expediente de servicio mantenimiento de las instalaciones eléctricas en la Base de Retamares.</titulo>
+              <url_pdf szBytes="180878" szKBytes="177" pagina_inicial="41187" pagina_final="41188">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33622.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33622</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33622</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2016-33623</identificador>
+              <titulo>Anuncio de Licitación: Subdelegación del Gobierno en Jaén. Objeto: Limpieza del Edificio. Expediente: 2016230005.</titulo>
+              <url_pdf szBytes="184008" szKBytes="180" pagina_inicial="41189" pagina_final="41190">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33623.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33623</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33623</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33624</identificador>
+              <titulo>Anuncio de formalización de contratos de la Dirección del Servicio de Gestión Económica de la Agencia Estatal de la Administración Tributaria. Objeto: Suministro de dos Hidrojets Hamilton HJ 403 con destino a los patrulleros del Departamento de Aduanas e II. Expediente: 16710029900.</titulo>
+              <url_pdf szBytes="175799" szKBytes="172" pagina_inicial="41191" pagina_final="41191">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33624.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33624</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33624</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33625</identificador>
+              <titulo>Anuncio de la Agencia Estatal de Administración Tributaria, de licitación para la contratación del servicio de mantenimiento y actualización de licencias de uso de SAP SYBASE IQ y del soporte de las mismas para garantizar el correcto funcionamiento de las herramientas de análisis de información del Departamento de Informática Tributaria de la Agencia Estatal de Administración Tributaria.</titulo>
+              <url_pdf szBytes="181827" szKBytes="178" pagina_inicial="41192" pagina_final="41193">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33625.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33625</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33625</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2016-33626</identificador>
+              <titulo>Resolución de la Subdirección General de Servicios Penitenciarios por lo que se convoca licitación pública para el servicio de mantenimiento del sistema antivirus de la Secretaría General de Instituciones Penitenciarias.</titulo>
+              <url_pdf szBytes="179079" szKBytes="175" pagina_inicial="41194" pagina_final="41195">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33626.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33626</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33626</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33627</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de Servicios Penitenciarios. Objeto: Servicio de mantenimiento integral en los establecimientos penitenciarios de Sevilla, Hospital Psiquiátrico Penitenciario de Sevilla, CIS Sevilla, Unidad de Madres de Sevilla, Alcalá de Guadaíra, UAR Hospital San Lázaro y UAR Hospital Virgen del Rocío. Expediente: 020120150262.</titulo>
+              <url_pdf szBytes="176555" szKBytes="172" pagina_inicial="41196" pagina_final="41196">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33627.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33627</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33627</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33628</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de Servicios Penitenciarios. Objeto: Servicio de mantenimiento integral en el establecimiento penitenciario de Algeciras, CIS de Algeciras y UAR Hospital Punta de Europa. Expediente: 020120150228.</titulo>
+              <url_pdf szBytes="175787" szKBytes="172" pagina_inicial="41197" pagina_final="41197">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33628.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33628</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33628</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33629</identificador>
+              <titulo>Anuncio de formalización de contratos de la Dirección General de Tráfico. Objeto: Suministro de repuestos para helicópteros EC-135, AS355N y AS355NP para 2016 para la Dirección General de Tráfico. Expediente: 0100DGT27752.</titulo>
+              <url_pdf szBytes="175521" szKBytes="171" pagina_inicial="41198" pagina_final="41198">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33629.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33629</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33629</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33630</identificador>
+              <titulo>Anuncio de licitación de: División Económica y Técnica (Cuerpo Nacional de Policía). Objeto: Suministro de repuestos originales de diversas marcas con destino a los vehículos pertenecientes al Parque Automovilístico de la Dirección General de la Policía. Expediente: 002/16/AU/03.</titulo>
+              <url_pdf szBytes="184449" szKBytes="180" pagina_inicial="41199" pagina_final="41200">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33630.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33630</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33630</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33631</identificador>
+              <titulo>Anuncio de licitación de la División Económica y Técnica (Cuerpo Nacional de Policía). Objeto: Suministro de neumáticos y baterías con destino a los vehículos pertenecientes al Parque Automovilístico de la Dirección General de la Policía. Expediente: 003/16/AU/03.</titulo>
+              <url_pdf szBytes="183576" szKBytes="179" pagina_inicial="41201" pagina_final="41202">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33631.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33631</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33631</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33632</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de Tráfico. Objeto: Suministro de puentes de señalización óptico acústica con cartel para vehículos de cuatro ruedas de la Agrupación de Tráfico de la Guardia Civil. Expediente: 0100DGT28702.</titulo>
+              <url_pdf szBytes="182386" szKBytes="178" pagina_inicial="41203" pagina_final="41204">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33632.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33632</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33632</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2016-33633</identificador>
+              <titulo>Anuncio de la Dirección General de Transporte Terrestre de formalización del contrato de gestión de servicio público de transporte regular de uso general de viajeros por carretera entre Cuenca y Barcelona.</titulo>
+              <url_pdf szBytes="172650" szKBytes="169" pagina_inicial="41205" pagina_final="41205">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33633.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33633</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33633</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33634</identificador>
+              <titulo>Anuncio de licitación de: Presidencia del Consejo de Administración de la Autoridad Portuaria de Barcelona (Port de Barcelona). Objeto: Acuerdo Marco para el Servicio de Programación sobre la Plataforma Tecnológica de la Autoridad Portuaria de Barcelona. Clave de expediente: 2016R360004. Ref. Servicio de Contratación: 101/2016. Expediente: 101/16.</titulo>
+              <url_pdf szBytes="186340" szKBytes="182" pagina_inicial="41206" pagina_final="41207">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33634.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33634</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33634</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33635</identificador>
+              <titulo>Resolución de la Entidad Pública Empresarial Administrador de Infraestructuras Ferroviarias, por la que se anuncia la licitación del contrato de "servicios de limpiezas de dependencias en el ámbito de Red Convencional".</titulo>
+              <url_pdf szBytes="184919" szKBytes="181" pagina_inicial="41208" pagina_final="41209">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33635.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33635</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33635</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33636</identificador>
+              <titulo>Acuerdo de la Autoridad Portuaria de Las Palmas, de 21 de junio de 2016, por el que se ordena la licitación del contrato de "Acondicionamiento de nave en la Avenida de Las Petrolíferas s/n, Zona IV-B, Parcela C-11, Puerto de Las Palmas". Número de expediente: I-2016/12.</titulo>
+              <url_pdf szBytes="184758" szKBytes="180" pagina_inicial="41210" pagina_final="41211">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33636.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33636</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33636</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2016-33637</identificador>
+              <titulo>Resolución de la Secretaría de Estado de Educación, Formación Profesional y Universidades del Ministerio de Educación, Cultura y Deporte por la que se anuncia licitación para la contratación de la "Elaboración de material didáctico para la impartición del nivel A1, según el marco común europeo de referencia de las lenguas (MCERL), del idioma alemán en la modalidad a distancia y semipresencial, por la Subdirección General de Aprendizaje a lo Largo de la Vida".</titulo>
+              <url_pdf szBytes="185386" szKBytes="181" pagina_inicial="41212" pagina_final="41213">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33637.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33637</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33637</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33638</identificador>
+              <titulo>Anuncio de licitación de: Dirección General del Instituto Nacional de las Artes Escénicas y de la Música. Objeto: Servicio de transporte por vía terrestre y carga y descarga para giras, representaciones musicales y teatrales, del material escenográfico, técnico, vestuario e instrumentos musicales de los centros dependientes del Instituto Nacional de las Artes Escénicas y de la Música. Expediente: M160009.</titulo>
+              <url_pdf szBytes="184232" szKBytes="180" pagina_inicial="41214" pagina_final="41215">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33638.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33638</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33638</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <item>
+              <identificador>BOE-B-2016-33639</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Toledo por la que se anuncia licitación pública para la contratación del servicio de limpieza de sus oficinas, en toda la provincia. 5101606002813.</titulo>
+              <url_pdf szBytes="175830" szKBytes="172" pagina_inicial="41216" pagina_final="41216">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33639.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33639</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33639</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33640</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social por la que anuncia licitación pública para la contratación de los servicios de mantenimiento de las instalaciones técnicas de los edificios que albergan sus diferentes oficinas administrativas, en toda la provincia. 5101606014394.</titulo>
+              <url_pdf szBytes="175496" szKBytes="171" pagina_inicial="41217" pagina_final="41217">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33640.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33640</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33640</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33641</identificador>
+              <titulo>Anuncio de formalización de contratos de la Dirección General del Servicio Público de Empleo Estatal. Objeto: Adquisición, actualización y soporte técnico de productos Microsoft con destino al Servicio Público de Empleo Estatal. Expediente: IPA 5/16.</titulo>
+              <url_pdf szBytes="176246" szKBytes="172" pagina_inicial="41218" pagina_final="41218">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33641.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33641</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33641</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33642</identificador>
+              <titulo>Anuncio de la Dirección Provincial de la Tesorería General de la Seguridad Social de Valencia sobre formalización de la contratación del servicio de seguridad y vigilancia para las personas, instalaciones y objetos que se encuentren en los edificios dependientes de la Dirección Provincial de la Tesorería General de la Seguridad Social de Valencia.</titulo>
+              <url_pdf szBytes="172653" szKBytes="169" pagina_inicial="41219" pagina_final="41219">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33642.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33642</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33642</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2016-33643</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General del Agua. Objeto: Servicios para el mantenimiento de software y asistencia a la explotación del sistema de gestión de información hidrológica WISKI, en la Dirección General del Agua y las Confederaciones Hidrográficas del Cantábrico, Miño-Sil, Tajo, Guadiana, Guadalquivir, Segura, Júcar y Ebro, durante un periodo de dos años. Expediente: 21.803-0931/0411.</titulo>
+              <url_pdf szBytes="180048" szKBytes="176" pagina_inicial="41220" pagina_final="41220">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33643.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33643</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33643</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33644</identificador>
+              <titulo>Resolución de la Presidencia de la Confederación Hidrográfica del Miño-Sil, por la que se anuncia la licitación del contrato de servicios relativo a las "Telecomunicaciones de la Confederación Hidrográfica del Miño-Sil".</titulo>
+              <url_pdf szBytes="182527" szKBytes="178" pagina_inicial="41221" pagina_final="41222">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33644.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33644</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33644</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <item>
+              <identificador>BOE-B-2016-33645</identificador>
+              <titulo>Anuncio de la Agencia Estatal Consejo Superior de Investigaciones Científicas, por el que se publica licitación para contratar el servicio para el modelo de ingeniería de la tarjeta "Módulo de Potencia" del instrumento Gala de la Misión Espacial Juice de la Agencia Espacial Europea, destinado al Instituto de Astrofísica de Andalucía. Equipamiento de infraestructura cofinanciado con Fondo Feder.</titulo>
+              <url_pdf szBytes="180357" szKBytes="176" pagina_inicial="41223" pagina_final="41224">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33645.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33645</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33645</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33646</identificador>
+              <titulo>Anuncio de la Agencia Estatal Consejo Superior de Investigaciones Científicas, por el que se publica licitación para contratar el servicio de laboratorio de análisis clínicos para las actividades sanitarias del Área de Prevención de Riesgos Laborales del Consejo.</titulo>
+              <url_pdf szBytes="178345" szKBytes="174" pagina_inicial="41225" pagina_final="41226">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33646.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33646</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33646</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <item>
+              <identificador>BOE-B-2016-33647</identificador>
+              <titulo>Anuncio del Instituto de Mayores y Servicios Sociales de licitación para la contratación de los Servicios generales complementarios para la atención de usuarios y de necesidades generales de funcionamiento del Centro Polivalente de Servicios para Personas Mayores de Melilla.</titulo>
+              <url_pdf szBytes="183624" szKBytes="179" pagina_inicial="41227" pagina_final="41228">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33647.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33647</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33647</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="1840" nombre="CONSEJO DE SEGURIDAD NUCLEAR">
+            <item>
+              <identificador>BOE-B-2016-33648</identificador>
+              <titulo>Resolución del Consejo de Seguridad Nuclear por la que se hace pública la formalización del contrato referido a la licitación convocada por este organismo para la contratación de un servicio de apoyo técnico a la gestión local de emergencias y a la gestión de la instrumentación radiométrica asociada.</titulo>
+              <url_pdf szBytes="173844" szKBytes="170" pagina_inicial="41229" pagina_final="41229">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33648.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33648</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33648</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <item>
+              <identificador>BOE-B-2016-33649</identificador>
+              <titulo>Anuncio de la Dirección Gerencia de la OSI Bilbao-Basurto -Osakidetza- por la que se anuncia la licitación para el suministro de material desechable para el Servicio de Neonatología para la OSI Bilbao-Basurto.</titulo>
+              <url_pdf szBytes="184385" szKBytes="180" pagina_inicial="41230" pagina_final="41231">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33649.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33649</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33649</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33650</identificador>
+              <titulo>Resolución del Ente Público Osakidetza-Servicio Vasco de Salud, por la que se anuncia la licitación para el "Adquisición e implantación de un sistema para la gestión y planificación de turnos de personal en Osakidetza".</titulo>
+              <url_pdf szBytes="189962" szKBytes="186" pagina_inicial="41232" pagina_final="41234">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33650.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33650</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33650</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33651</identificador>
+              <titulo>Resolución del Ente Público Osakidetza-Servicio Vasco de Salud por la que se anuncia la licitación para la contratación de los "Servicios de actualización y soporte técnico de licencias HPE Service Manager, Project Portfolio Management e IT Bus Analytics".</titulo>
+              <url_pdf szBytes="191286" szKBytes="187" pagina_inicial="41235" pagina_final="41237">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33651.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33651</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33651</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33652</identificador>
+              <titulo>Resolución del Ente Público Osakidetza-Servicio Vasco de Salud por la que se anuncia la licitación para el "Servicio de análisis, desarrollo e implantación de un sistema de gestión de petitorios de material en Osakidetza".</titulo>
+              <url_pdf szBytes="189243" szKBytes="185" pagina_inicial="41238" pagina_final="41240">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33652.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33652</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33652</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33653</identificador>
+              <titulo>Resolución del Ente Público Osakidetza-Servicio Vasco de Salud por la que se anuncia la licitación para el "Suministro de marcapasos, desfibriladores, holters y electrodos para las organizaciones de servicios de Osakidetza".</titulo>
+              <url_pdf szBytes="190374" szKBytes="186" pagina_inicial="41241" pagina_final="41243">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33653.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33653</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33653</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33654</identificador>
+              <titulo>Anuncio de la Dirección de Patrimonio y Contratación por el que se da publicidad a la licitación del contrato de servicios que tiene por objeto el servicio de información y atención de Lanbide. Expediente C02/010/2016.</titulo>
+              <url_pdf szBytes="184671" szKBytes="180" pagina_inicial="41244" pagina_final="41245">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33654.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33654</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33654</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33655</identificador>
+              <titulo>Resolución de Osakidetza-Servicio Vasco de Salud por la que se hace pública la formalización del contrato de "Suministro de Nintedanib (DOE)".</titulo>
+              <url_pdf szBytes="174611" szKBytes="171" pagina_inicial="41246" pagina_final="41246">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33655.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33655</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33655</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33656</identificador>
+              <titulo>Resolución de Osakidetza-Servicio Vasco de Salud por la que se hace pública la formalización del contrato de "Contratación de las licencias de uso de recursos electrónicos Wiley".</titulo>
+              <url_pdf szBytes="174792" szKBytes="171" pagina_inicial="41247" pagina_final="41247">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33656.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33656</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33656</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33657</identificador>
+              <titulo>Anuncio de la Dirección de Patrimonio y Contratación, de modificación del anuncio de licitación del contrato que tiene por objeto los trabajos de mantenimiento, conservación, recuperación, restauración y mejora medioambiental de cauces y márgenes de ríos y arroyos y del litoral de la Comunidad Autónoma del País Vasco.(Expediente C02/006/2016).</titulo>
+              <url_pdf szBytes="173036" szKBytes="169" pagina_inicial="41248" pagina_final="41248">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33657.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33657</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33657</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2016-33658</identificador>
+              <titulo>Anuncio del Departamento de Salud de formalización del contrato de suministro de 1.200.000 dosis de vacuna antigripal para la campaña 2016-2017.</titulo>
+              <url_pdf szBytes="172598" szKBytes="169" pagina_inicial="41249" pagina_final="41249">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33658.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33658</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33658</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33659</identificador>
+              <titulo>Anuncio del Institut Català de la Salut por el que se convoca licitación pública para el suministro agregado de catéteres intravasculares no intervencionistas: catéteres arteriales de acceso femoral y arteriales de acceso radial para los centros del ICS.</titulo>
+              <url_pdf szBytes="172767" szKBytes="169" pagina_inicial="41250" pagina_final="41250">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33659.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33659</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33659</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33660</identificador>
+              <titulo>Resolución del Consorci Sanitari del Maresme para la corrección de errores en el anuncio de licitación del expediente CSdM 4/16-SG, correspondiente al servicio de vigilancia y seguridad y de la prestación del servicio de auxiliares de servicios del Consorci Sanitari del Maresme.</titulo>
+              <url_pdf szBytes="169085" szKBytes="165" pagina_inicial="41251" pagina_final="41251">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33660.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33660</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33660</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33661</identificador>
+              <titulo>Resolución del Consorci Sanitari del Maresme para la corrección de errores en el anuncio de licitación del expediente CSdM 9/16-C correspondiente al suministro y gestión de material de un solo uso para cobertura quirúrgica del Consorci Sanitari del Maresme.</titulo>
+              <url_pdf szBytes="169120" szKBytes="165" pagina_inicial="41252" pagina_final="41252">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33661.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33661</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33661</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8090" nombre="COMUNIDAD AUTÓNOMA DE GALICIA">
+            <item>
+              <identificador>BOE-B-2016-33662</identificador>
+              <titulo>Resolución de 28 de junio de 2016 de la Secretaría General Técnica de la Consellería de Presidencia, Administraciones Públicas y Justicia, por la que se anuncia la formalización del contrato relativo a las obras de construcción del nuevo edificio judicial de Pontevedra.</titulo>
+              <url_pdf szBytes="175841" szKBytes="172" pagina_inicial="41253" pagina_final="41253">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33662.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33662</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33662</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33663</identificador>
+              <titulo>Resolución de 13 de junio de 2016 de la Gerencia de Gestión Integrada de Santiago de Compostela por la que se anuncia la licitación del suministro sucesivo de lácteos.</titulo>
+              <url_pdf szBytes="183450" szKBytes="179" pagina_inicial="41254" pagina_final="41255">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33663.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33663</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33663</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <item>
+              <identificador>BOE-B-2016-33664</identificador>
+              <titulo>Resolución de la Secretaría General Técnica de la Consejería de Cultura, por la que se convoca licitación para la contratación del Servicio de vigilancia, contra intrusión y riesgos derivados en el Museo de Málaga-Palacio La Aduana.</titulo>
+              <url_pdf szBytes="183081" szKBytes="179" pagina_inicial="41256" pagina_final="41257">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33664.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33664</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33664</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8150" nombre="COMUNIDAD AUTÓNOMA DEL PRINCIPADO DE ASTURIAS">
+            <item>
+              <identificador>BOE-B-2016-33665</identificador>
+              <titulo>Anuncio del Órgano de Contratación del Área Sanitaria IV-Oviedo por el que se hace pública la formalización del contrato de Servicio de mantenimiento integral del equipo de braquiterapia de alta tasa, modelo Saginova y módulos asociados, para el Servicio de Oncología Radioterápica del Hospital Universitario Central de Asturias.</titulo>
+              <url_pdf szBytes="175912" szKBytes="172" pagina_inicial="41258" pagina_final="41258">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33665.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33665</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33665</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8110" nombre="COMUNIDAD AUTÓNOMA DE LA RIOJA">
+            <item>
+              <identificador>BOE-B-2016-33666</identificador>
+              <titulo>Anuncio del Servicio de Coordinación y Contratación Centralizada de la Consejería de Administración Pública y Hacienda por el que se comunica la formalización del contrato para la contratación del expediente n.º 05-3-2.01-0001/2016, adquisición de uniformes y equipos de protección individual para personal de la Dirección General de Medio Natural.</titulo>
+              <url_pdf szBytes="176828" szKBytes="173" pagina_inicial="41259" pagina_final="41259">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33666.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33666</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33666</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8080" nombre="COMUNIDAD AUTÓNOMA DE EXTREMADURA">
+            <item>
+              <identificador>BOE-B-2016-33667</identificador>
+              <titulo>Anuncio de 10 de junio de 2016, de la Dirección del Ente Público Extremeño de Servicios Educativos Complementarios de la Consejería de Educación y Empleo, por el que se da publicidad a la convocatoria de la contratación mediante acuerdo marco del servicio de acompañante de transporte a centros docentes de la Comunidad Autónoma de Extremadura para los cursos escolares 2016/2017 y 2017/2018.</titulo>
+              <url_pdf szBytes="175593" szKBytes="171" pagina_inicial="41260" pagina_final="41260">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33667.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33667</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33667</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8131" nombre="COMUNIDAD DE MADRID">
+            <item>
+              <identificador>BOE-B-2016-33668</identificador>
+              <titulo>Resolución de la Dirección Gerencia del Hospital Universitario de Getafe, por la que se dispone la publicación de la formalización del contrato de "Mantenimiento del equipamiento de endoscopia digestiva del Hospital Universitario de Getafe (MEN PAPC 2016-8-5).</titulo>
+              <url_pdf szBytes="175023" szKBytes="171" pagina_inicial="41261" pagina_final="41261">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33668.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33668</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33668</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9531" nombre="COMUNIDAD DE CASTILLA Y LEÓN">
+            <item>
+              <identificador>BOE-B-2016-33669</identificador>
+              <titulo>Resolución de la Dirección Gerencia del Complejo Asistencial Universitario de Burgos por la que se convoca licitación pública del servicio de laboratorios externos para este Organismo.</titulo>
+              <url_pdf szBytes="183063" szKBytes="179" pagina_inicial="41262" pagina_final="41263">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33669.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33669</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33669</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2016-33670</identificador>
+              <titulo>Anuncio del Ayuntamiento de Errenteria de licitación para la contratación del "Servicio de limpieza y gestión de residuos recogidos selectivamente de los edificios públicos de Errenteria".</titulo>
+              <url_pdf szBytes="184619" szKBytes="180" pagina_inicial="41264" pagina_final="41265">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33670.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33670</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33670</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33671</identificador>
+              <titulo>Anuncio de licitación de la Diputación Foral de Gipuzkoa para la contratación de servicios de acogimiento residencial de menores en situación de desprotección en el Centro Amara San Sebastián.</titulo>
+              <url_pdf szBytes="172141" szKBytes="168" pagina_inicial="41266" pagina_final="41266">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33671.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33671</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33671</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33672</identificador>
+              <titulo>Resolución de la Diputación Provincial de Sevilla por la que se convoca licitación pública para el suministro de vestuario con destino a Bomberos de la provincia de Sevilla.</titulo>
+              <url_pdf szBytes="182651" szKBytes="178" pagina_inicial="41267" pagina_final="41268">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33672.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33672</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33672</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33673</identificador>
+              <titulo>Anuncio del Ayuntamiento de O Porriño por el que se convoca licitación pública para el suministro de energía eléctrica.</titulo>
+              <url_pdf szBytes="172377" szKBytes="168" pagina_inicial="41269" pagina_final="41269">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33673.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33673</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33673</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33674</identificador>
+              <titulo>Anuncio del Ayuntamiento de Donostia/San Sebastián por el que se convoca licitación del contrato para el suministro, puesta en servicio y mantenimiento mediante arrendamiento (renting) con opción de compra de cuatro vehículos para la Guardia Municipal.</titulo>
+              <url_pdf szBytes="173806" szKBytes="170" pagina_inicial="41270" pagina_final="41270">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33674.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33674</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33674</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33675</identificador>
+              <titulo>Anuncio del Ayuntamiento de Donostia-San Sebastián por el que se convoca la licitación del contrato del servicio de agencia de medios para el gabinete de comunicación del Ayuntamiento.</titulo>
+              <url_pdf szBytes="172367" szKBytes="168" pagina_inicial="41271" pagina_final="41271">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33675.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33675</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33675</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33676</identificador>
+              <titulo>Anuncio de la Diputación Provincial de Alicante por el que se convoca licitación pública de suministro e instalación para renovación de la Infraestructura de Red de CPD, distribución y acceso de la Diputación de Alicante.</titulo>
+              <url_pdf szBytes="184825" szKBytes="180" pagina_inicial="41272" pagina_final="41273">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33676.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33676</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33676</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33677</identificador>
+              <titulo>Anuncio del Ayuntamiento de Fuenlabrada por el que se hace pública la licitación del contrato de servicio de conservación de las instalaciones de alumbrado público situadas en la Junta Municipal de Distrito de Loranca, Nuevo Versalles y Parque Miraflores en el término municipal de Fuenlabrada.</titulo>
+              <url_pdf szBytes="185416" szKBytes="181" pagina_inicial="41274" pagina_final="41275">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33677.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33677</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33677</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33678</identificador>
+              <titulo>Resolución del Ayuntamiento de Arganda del Rey (Madrid), por el que se anuncia licitación del contrato de servicios "Los primeros del cole" y "Juegos y merienda".</titulo>
+              <url_pdf szBytes="182435" szKBytes="178" pagina_inicial="41276" pagina_final="41277">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33678.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33678</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33678</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33679</identificador>
+              <titulo>Anuncio del Ayuntamiento de Madrid por el que se hace pública la formalización del contrato de "Suministro de fabricación y montaje de la exposición permanente del Museo de San Isidro. Los Orígenes de Madrid".</titulo>
+              <url_pdf szBytes="174794" szKBytes="171" pagina_inicial="41278" pagina_final="41278">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33679.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33679</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33679</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33680</identificador>
+              <titulo>Anuncio de la EMD de Valldoreix por el que se hace pública la formalización del contrato de limpieza de los edificios públicos de la EMD de Valldoreix.</titulo>
+              <url_pdf szBytes="171422" szKBytes="167" pagina_inicial="41279" pagina_final="41279">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33680.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33680</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33680</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33681</identificador>
+              <titulo>Anuncio de la Diputación de Barcelona sobre la formalización del contrato de acuerdo marco para la selección de un máximo de cuatro empresas auditoras para la posterior adjudicación de contratos derivados de prestación de servicios, consistentes en la realización de trabajos de control financiero para dar soporte al órgano interventor.</titulo>
+              <url_pdf szBytes="174127" szKBytes="170" pagina_inicial="41280" pagina_final="41280">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33681.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33681</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33681</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2016-33682</identificador>
+              <titulo>Anuncio del Consorci de Biblioteques Universitàries de Catalunya (CSUC) por el que se publica la contratación de la suscripción al suministro de las revistas e-ScienceDirect de Elsevier 2016.</titulo>
+              <url_pdf szBytes="173294" szKBytes="169" pagina_inicial="41281" pagina_final="41281">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33682.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33682</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33682</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33683</identificador>
+              <titulo>Anuncio de la Universidad de Cádiz de licitación para la contratación de Acuerdo marco de suministro de fabricación, distribución y, en su caso, diseño de artículos de la Universidad de Cádiz.</titulo>
+              <url_pdf szBytes="180065" szKBytes="176" pagina_inicial="41282" pagina_final="41283">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33683.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33683</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33683</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2016-33684</identificador>
+              <titulo>Anuncio de la Sociedad Estatal Correos y Telégrafos, Sociedad Anónima, de licitación del expediente "Contratación de un servicio de laboratorio para la realización de análisis clínicos que han de formar parte de los reconocimientos médicos para la vigilancia de la salud del personal de la Sociedad Estatal Correos y Telégrafos, S.A.".</titulo>
+              <url_pdf szBytes="175064" szKBytes="171" pagina_inicial="41284" pagina_final="41284">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33684.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33684</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33684</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33685</identificador>
+              <titulo>Anuncio del Consorcio de la Zona Franca de Barcelona de formalización de contrato de: Servicios de limpieza, desinfección, desinsectación y desratización de los edificios del Consorcio de la Zona Franca de Barcelona.</titulo>
+              <url_pdf szBytes="171479" szKBytes="167" pagina_inicial="41285" pagina_final="41285">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33685.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33685</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33685</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33686</identificador>
+              <titulo>Anuncio de Tractament i Selecció de Residus, S.A., sobre formalización de contrato de los servicios de prevención ajena para las cuatro especialidades para TERSA, SIRESA y SEMESA: Seguridad de trabajo, higiene industrial. Ergonomía, psicosociología aplicada y vigilancia de la salud.</titulo>
+              <url_pdf szBytes="175414" szKBytes="171" pagina_inicial="41286" pagina_final="41286">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33686.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33686</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33686</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33687</identificador>
+              <titulo>Anuncio de la Empresa de Servicios Municipales de Alcorcón, S.A.U. por el que se hace pública la licitación para la contratación del suministro de productos de pintura, utillaje y otros productos químicos destinados al servicio de limpieza de fachadas de esta Empresa.</titulo>
+              <url_pdf szBytes="179927" szKBytes="176" pagina_inicial="41287" pagina_final="41288">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33687.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33687</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33687</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2016-33688</identificador>
+              <titulo>Anuncio de la Demarcación de Carreteras del Estado en Galicia sobre Resolución del Ministerio de Fomento de aprobación provisional y orden de inicio de información pública del "Anteproyecto de construcción y explotación área de servicio de Barreiros en la Autovía A-8". Clave: A-37-LU-4080. Provincia: Lugo.</titulo>
+              <url_pdf szBytes="173774" szKBytes="170" pagina_inicial="41289" pagina_final="41289">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33688.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33688</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33688</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33689</identificador>
+              <titulo>Anuncio de la Autoridad Portuaria de Vigo, por el que se convoca concurso público para la selección de una oferta para la tramitación del otorgamiento en régimen de concesión administrativa para ocupar una nave industrial (3.330 m² aproximadamente, de proyección en planta) situada entre la avenida Beiramar y la calle Jacinto Benavente, con esquina calle Severo Ochoa de Vigo, dentro de la zona de servicio del Puerto de Vigo, con destino a industria frigorífica y actividades complementarias de la misma, o vinculación a la interacción Puerto - Ciudad.</titulo>
+              <url_pdf szBytes="169937" szKBytes="166" pagina_inicial="41290" pagina_final="41290">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33689.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33689</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33689</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33690</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de Barcelona por la que se hace público el otorgamiento de una concesión a favor de Galp Energía España, Sociedad Anónima (Unipersonal). Exp. 120/16.</titulo>
+              <url_pdf szBytes="171730" szKBytes="168" pagina_inicial="41291" pagina_final="41291">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33690.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33690</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33690</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33691</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de la Bahía de Algeciras por la que se somete a información pública la solicitud de ampliación del plazo inicial de la concesión de "APM Terminal Algeciras SAU", con destino a la explotación de una terminal de contenedores.</titulo>
+              <url_pdf szBytes="170607" szKBytes="167" pagina_inicial="41292" pagina_final="41292">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33691.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33691</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33691</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2016-33692</identificador>
+              <titulo>Anuncio de información pública de los Servicios Territoriales de Tarragona del Departamento de Empresa y Conocimiento, sobre la autorización administrativa, aprobación del proyecto y declaración de utilidad pública de la ejecución de las instalaciones para la conexión a la industria Guissona desde la red de gas natural RAA-07.04, en el término municipal de Reus (ref. XDF-190).</titulo>
+              <url_pdf szBytes="200245" szKBytes="196" pagina_inicial="41293" pagina_final="41295">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33692.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33692</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33692</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2016-33693</identificador>
+              <titulo>Anuncio de la Escuela de Ingeniería de Gipuzkoa de la Universidad del País Vasco/Euskal Herriko Unibertsitatea sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="166739" szKBytes="163" pagina_inicial="41296" pagina_final="41296">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33693.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33693</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33693</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33694</identificador>
+              <titulo>Anuncio de la Facultad de Ciencias de Ourense de la Universidad de Vigo sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="165329" szKBytes="161" pagina_inicial="41297" pagina_final="41297">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33694.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33694</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33694</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33695</identificador>
+              <titulo>Anuncio de Facultad de Derecho de la Universidad de Granada sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="165742" szKBytes="162" pagina_inicial="41298" pagina_final="41298">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33695.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33695</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33695</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33696</identificador>
+              <titulo>Anuncio de Facultad de Educación de la Universidad Complutense de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="164403" szKBytes="161" pagina_inicial="41299" pagina_final="41299">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33696.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33696</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33696</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33697</identificador>
+              <titulo>Anuncio de la Facultad de Medicina de la Universidad de Sevilla sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="165240" szKBytes="161" pagina_inicial="41300" pagina_final="41300">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33697.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33697</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33697</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33698</identificador>
+              <titulo>Anuncio de extravío del título de Maestro Especialista en Lengua Extranjera de la Facultad de Psicología, Magisterio y Ciencias de la Educación.</titulo>
+              <url_pdf szBytes="165691" szKBytes="162" pagina_inicial="41301" pagina_final="41301">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33698.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33698</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33698</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2016-33699</identificador>
+              <titulo>Anuncio de la Facultad de Humanidades de la Universidad de La Laguna sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="165127" szKBytes="161" pagina_inicial="41302" pagina_final="41302">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33699.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33699</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33699</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="ANUNCIOS PARTICULARES">
+            <item>
+              <identificador>BOE-B-2016-33700</identificador>
+              <titulo>NOTARÍA DE TERESA CASTILLO MORENO</titulo>
+              <url_pdf szBytes="159915" szKBytes="156" pagina_inicial="41303" pagina_final="41303">https://www.boe.es/boe/dias/2016/07/11/pdfs/BOE-B-2016-33700.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2016-33700</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2016-33700</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

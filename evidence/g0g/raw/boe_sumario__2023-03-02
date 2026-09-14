@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20230302</fecha_publicacion>
+      </metadatos>
+      <diario numero="52">
+        <sumario_diario>
+          <identificador>BOE-S-2023-52</identificador>
+          <url_pdf szBytes="378117" szKBytes="369">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-S-2023-52.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="7723" nombre="JEFATURA DEL ESTADO">
+            <epigrafe nombre="Presupuestos">
+              <item>
+                <identificador>BOE-A-2023-5478</identificador>
+                <control>2023/5841</control>
+                <titulo>Corrección de errores de la Ley 31/2022, de 23 de diciembre, de Presupuestos Generales del Estado para el año 2023.</titulo>
+                <url_pdf szBytes="214485" szKBytes="209" pagina_inicial="31060" pagina_final="31062">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5478.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5478</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5478</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1430" nombre="TRIBUNAL SUPREMO">
+            <epigrafe nombre="Sentencias">
+              <item>
+                <identificador>BOE-A-2023-5479</identificador>
+                <control>2023/5311</control>
+                <titulo>Sentencia de 26 de enero de 2023, de la Sala Tercera del Tribunal Supremo, que declara estimar parcialmente el recurso contencioso-administrativo número 164/2021, contra el Real Decreto 867/2020, de 29 de septiembre, por el que se regulan los productos zoosanitarios de reactivos de diagnóstico de uso veterinario, los sistemas de control de parámetros fisiológicos en animales y los productos destinados al mantenimiento del material reproductivo animal; y se declaran nulos el artículo 1, párrafo primero; el artículo 1, párrafo segundo, primera frase del segundo párrafo y la disposición adicional primera.</titulo>
+                <url_pdf szBytes="197208" szKBytes="193" pagina_inicial="31063" pagina_final="31063">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5479.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5479</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5479</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5480</identificador>
+                <control>2023/5312</control>
+                <titulo>Sentencia de 2 de febrero de 2023, de la Sala Tercera del Tribunal Supremo, que declara estimar el recurso contencioso-administrativo número 431/2022 contra el Real Decreto 210/2022, de 22 de marzo, por el que se establecen las normas reguladoras del Bono Cultural Joven y anular la expresión "y taurinos" de su artículo 8.2.</titulo>
+                <url_pdf szBytes="196904" szKBytes="192" pagina_inicial="31064" pagina_final="31064">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5480.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5480</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5480</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2023-5481</identificador>
+                <control>2023/5592</control>
+                <titulo>Circular 1/2023, de 24 de febrero, del Banco de España, a entidades de crédito, sucursales en España de entidades de crédito autorizadas en otro Estado miembro de la Unión Europea y establecimientos financieros de crédito, sobre la información que se ha de remitir al Banco de España sobre los bonos garantizados y otros instrumentos de movilización de préstamos, y por la que se modifican la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 4/2019, de 26 de noviembre, a establecimientos financieros de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+                <url_pdf szBytes="1163347" szKBytes="1136" pagina_inicial="31065" pagina_final="31105">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5481.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5481</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5481</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <epigrafe nombre="Medidas fiscales, administrativas y financieras. Organización">
+              <item>
+                <identificador>BOE-A-2023-5482</identificador>
+                <control>2023/5440</control>
+                <titulo>Ley 8/2022, de 29 de diciembre, de medidas fiscales, de gestión administrativa y financiera, y de organización de la Generalitat.</titulo>
+                <url_pdf szBytes="1479499" szKBytes="1445" pagina_inicial="31106" pagina_final="31298">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5482.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5482</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5482</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Presupuestos">
+              <item>
+                <identificador>BOE-A-2023-5483</identificador>
+                <control>2023/5441</control>
+                <titulo>Ley 9/2022, de 30 de diciembre, de Presupuestos de la Generalitat para el ejercicio 2023.</titulo>
+                <url_pdf szBytes="859264" szKBytes="839" pagina_inicial="31299" pagina_final="31384">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5483.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5483</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5483</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2023-5484</identificador>
+                <control>2023/5663</control>
+                <titulo>Acuerdo de 23 de febrero de 2023, del Pleno del Consejo General del Poder Judicial, por el que se nombra Letrada del Gabinete Técnico al servicio del Tribunal Supremo.</titulo>
+                <url_pdf szBytes="194864" szKBytes="190" pagina_inicial="31385" pagina_final="31385">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5484.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5484</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5484</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2023-5485</identificador>
+                <control>2023/5442</control>
+                <titulo>Resolución 400/38078/2023, de 22 de febrero, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución 400/38487/2022, de 19 de diciembre.</titulo>
+                <url_pdf szBytes="226297" szKBytes="221" pagina_inicial="31386" pagina_final="31387">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5485.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5485</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5485</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2023-5486</identificador>
+                <control>2023/5768</control>
+                <titulo>Orden HFP/198/2023, de 27 de febrero, por la que se renueva el nombramiento de Vocal del Consejo para la Defensa del Contribuyente.</titulo>
+                <url_pdf szBytes="193548" szKBytes="189" pagina_inicial="31388" pagina_final="31388">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5486.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5486</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5486</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5487</identificador>
+                <control>2023/5443</control>
+                <titulo>Resolución de 23 de febrero de 2023, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, del Cuerpo Facultativo de Conservadores de Museos.</titulo>
+                <url_pdf szBytes="474726" szKBytes="464" pagina_inicial="31389" pagina_final="31396">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5487.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5487</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5487</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2023-5488</identificador>
+                <control>2023/5444</control>
+                <titulo>Resolución de 16 de febrero de 2023, de la Dirección de la Agencia Estatal de Seguridad Aérea, por la que se resuelve concurso específico, convocado por Resolución de 23 de noviembre de 2022.</titulo>
+                <url_pdf szBytes="299072" szKBytes="292" pagina_inicial="31397" pagina_final="31401">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5488.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5488</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5488</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9523" nombre="MINISTERIO DE POLÍTICA TERRITORIAL">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2023-5489</identificador>
+                <control>2023/5445</control>
+                <titulo>Resolución de 14 de febrero de 2023, de la Delegación del Gobierno en la Comunidad Autónoma de Cataluña, por la que se nombra Subdelegado del Gobierno en Tarragona a don Santiago José Castellá Surribas.</titulo>
+                <url_pdf szBytes="195492" szKBytes="191" pagina_inicial="31402" pagina_final="31402">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5489.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5489</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5489</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2023-5490</identificador>
+                <control>2023/5446</control>
+                <titulo>Resolución de 21 de febrero de 2023, de la Subsecretaría, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Resolución de 26 de octubre de 2022.</titulo>
+                <url_pdf szBytes="218817" szKBytes="214" pagina_inicial="31403" pagina_final="31404">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5490.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5490</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5490</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5491</identificador>
+                <control>2023/5447</control>
+                <titulo>Resolución de 21 de febrero de 2023, de la Subsecretaría, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Resolución de 28 de noviembre de 2022.</titulo>
+                <url_pdf szBytes="218640" szKBytes="214" pagina_inicial="31405" pagina_final="31406">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5491.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5491</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5491</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2023-5492</identificador>
+                <control>2023/5448</control>
+                <titulo>Resolución de 23 de febrero de 2023, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 23 de noviembre de 2022.</titulo>
+                <url_pdf szBytes="263312" szKBytes="257" pagina_inicial="31407" pagina_final="31409">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5492.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5492</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5492</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2023-5493</identificador>
+                <control>2023/5842</control>
+                <titulo>Resolución de 15 de febrero de 2023, de la Universidad de Málaga, por la que se nombra Profesor Titular de Universidad a don Francisco Javier Castellano Pulido.</titulo>
+                <url_pdf szBytes="192663" szKBytes="188" pagina_inicial="31410" pagina_final="31410">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5493.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5493</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5493</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5494</identificador>
+                <control>2023/5206</control>
+                <titulo>Resolución de 16 de febrero de 2023, de la Universidad Politécnica de Cartagena, por la que se nombra Profesor Titular de Universidad a don Ricardo Carcelén González.</titulo>
+                <url_pdf szBytes="198552" szKBytes="194" pagina_inicial="31411" pagina_final="31412">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5494.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5494</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5494</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5495</identificador>
+                <control>2023/5092</control>
+                <titulo>Resolución de 20 de febrero de 2023, de la Universidad Autónoma de Barcelona, por la que se nombra Catedrático de Universidad a don Juan José Perona Páez.</titulo>
+                <url_pdf szBytes="194777" szKBytes="190" pagina_inicial="31413" pagina_final="31413">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5495.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5495</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5495</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5496</identificador>
+                <control>2023/5093</control>
+                <titulo>Resolución de 20 de febrero de 2023, de la Universidad Autónoma de Barcelona, por la que se nombra Profesora Titular de Universidad a doña Adoración Moreno Martínez.</titulo>
+                <url_pdf szBytes="194934" szKBytes="190" pagina_inicial="31414" pagina_final="31414">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5496.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5496</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5496</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5497</identificador>
+                <control>2023/5094</control>
+                <titulo>Resolución de 20 de febrero de 2023, de la Universidad Autónoma de Barcelona, por la que se nombra Profesora Titular de Universidad a doña María del Pilar Casado Lechuga.</titulo>
+                <url_pdf szBytes="195219" szKBytes="191" pagina_inicial="31415" pagina_final="31415">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5497.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5497</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5497</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5498</identificador>
+                <control>2023/5095</control>
+                <titulo>Resolución de 20 de febrero de 2023, de la Universidad de Barcelona, por la que se nombra Catedrático de Universidad a don Alejandro Sánchez Pla.</titulo>
+                <url_pdf szBytes="193272" szKBytes="189" pagina_inicial="31416" pagina_final="31416">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5498.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5498</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5498</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5499</identificador>
+                <control>2023/5097</control>
+                <titulo>Resolución de 20 de febrero de 2023, de la Universidad de Jaén, por la que se nombran Profesores y Profesoras Titulares de Universidad.</titulo>
+                <url_pdf szBytes="194998" szKBytes="190" pagina_inicial="31417" pagina_final="31417">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5499.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5499</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5499</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5500</identificador>
+                <control>2023/5098</control>
+                <titulo>Resolución de 20 de febrero de 2023, de la Universidad de Zaragoza, por la que se nombra Catedrático de Universidad a don José Antonio Domínguez Navarro.</titulo>
+                <url_pdf szBytes="195848" szKBytes="191" pagina_inicial="31418" pagina_final="31418">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5500.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5500</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5500</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5501</identificador>
+                <control>2023/5207</control>
+                <titulo>Resolución de 21 de febrero de 2023, de la Universidad de Salamanca, por la que se nombra Profesora Titular de Universidad a doña Olivia Rivero Vilá.</titulo>
+                <url_pdf szBytes="195735" szKBytes="191" pagina_inicial="31419" pagina_final="31419">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5501.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5501</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5501</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5502</identificador>
+                <control>2023/5208</control>
+                <titulo>Resolución de 21 de febrero de 2023, de la Universidad de Zaragoza, por la que se nombra Catedrático de Universidad a don José Cegoñino Banzo.</titulo>
+                <url_pdf szBytes="195904" szKBytes="191" pagina_inicial="31420" pagina_final="31420">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5502.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5502</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5502</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5503</identificador>
+                <control>2023/5209</control>
+                <titulo>Resolución de 21 de febrero de 2023, de la Universidad de Zaragoza, por la que se nombra Profesor Titular de Universidad a don Jesús Valero Gil.</titulo>
+                <url_pdf szBytes="195815" szKBytes="191" pagina_inicial="31421" pagina_final="31421">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5503.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5503</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5503</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5504</identificador>
+                <control>2023/5210</control>
+                <titulo>Resolución de 21 de febrero de 2023, de la Universidad del País Vasco/Euskal Herriko Unibertsitatea, por la que se nombra Catedrático de Universidad a don Alejandro Cearreta Bilbao.</titulo>
+                <url_pdf szBytes="193263" szKBytes="189" pagina_inicial="31422" pagina_final="31422">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5504.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5504</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5504</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5505</identificador>
+                <control>2023/5211</control>
+                <titulo>Resolución de 21 de febrero de 2023, de la Universidad Jaume I, por la que se nombra Catedrática de Universidad a doña Laura Márquez Ramos.</titulo>
+                <url_pdf szBytes="196892" szKBytes="192" pagina_inicial="31423" pagina_final="31423">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5505.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5505</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5505</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5506</identificador>
+                <control>2023/5843</control>
+                <titulo>Corrección de errores de la Resolución de 10 de febrero de 2023, de la Universidad de Sevilla, por la que se nombra Profesora Titular de Universidad a doña Alicia Alonso Carrillo.</titulo>
+                <url_pdf szBytes="191540" szKBytes="187" pagina_inicial="31424" pagina_final="31424">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5506.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5506</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5506</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Integraciones">
+              <item>
+                <identificador>BOE-A-2023-5507</identificador>
+                <control>2023/5091</control>
+                <titulo>Resolución de 20 de febrero de 2023, de la Universidad de Huelva, por la que se integra en el Cuerpo de Profesores Titulares de Universidad a doña Isabel Serrano Czaia.</titulo>
+                <url_pdf szBytes="200172" szKBytes="195" pagina_inicial="31425" pagina_final="31425">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5507.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5507</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5507</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Funcionarios de administración local con habilitación de carácter nacional">
+              <item>
+                <identificador>BOE-A-2023-5508</identificador>
+                <control>2023/5781</control>
+                <titulo>Orden HFP/199/2023, de 28 de febrero, por la que se modifica y se corrigen errores en la Orden HFP/5/2023, de 8 de enero, por la que se designa el Tribunal calificador de las pruebas selectivas para el acceso, por el sistema general de acceso libre, a la subescala de Intervención-Tesorería, categoría de Entrada, de la Escala de funcionarios de administración local con habilitación de carácter nacional, convocadas por Orden HFP/1077/2022, de 7 de noviembre.</titulo>
+                <url_pdf szBytes="201167" szKBytes="196" pagina_inicial="31426" pagina_final="31427">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5508.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5508</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5508</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3120" nombre="MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN">
+            <epigrafe nombre="Cuerpo Nacional Veterinario">
+              <item>
+                <identificador>BOE-A-2023-5509</identificador>
+                <control>2023/5102</control>
+                <titulo>Resolución de 10 de febrero de 2023, de la Subsecretaría, por la que se publica la relación de personas admitidas y excluidas y se corrigen errores en el proceso selectivo para la estabilización de empleo temporal en el Cuerpo Nacional Veterinario, convocado por Resolución de 23 de diciembre de 2022.</titulo>
+                <url_pdf szBytes="336428" szKBytes="329" pagina_inicial="31428" pagina_final="31431">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5509.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5509</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5509</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Personal laboral">
+              <item>
+                <identificador>BOE-A-2023-5510</identificador>
+                <control>2023/5103</control>
+                <titulo>Resolución de 15 de febrero de 2023, de la Subsecretaría, por la que se publica la relación de personas admitidas y excluidas y se corrigen errores en el proceso selectivo para la provisión de plaza de personal laboral fijo, con la categoría profesional M3 y especialidad Ciencias de la Información, sujeta al IV Convenio único para personal laboral de la Administración General del Estado en el marco de la estabilización de empleo temporal, convocado por Resolución de 27 de diciembre de 2022.</titulo>
+                <url_pdf szBytes="344201" szKBytes="336" pagina_inicial="31432" pagina_final="31434">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5510.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5510</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5510</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9523" nombre="MINISTERIO DE POLÍTICA TERRITORIAL">
+            <epigrafe nombre="Funcionarios de la Administración del Estado">
+              <item>
+                <identificador>BOE-A-2023-5511</identificador>
+                <control>2023/5463</control>
+                <titulo>Resolución de 22 de febrero de 2023, de la Subsecretaría, por la que se declara desierto puesto de trabajo de libre designación, convocado por Resolución de 28 de noviembre de 2022.</titulo>
+                <url_pdf szBytes="195205" szKBytes="191" pagina_inicial="31435" pagina_final="31435">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5511.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5511</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5511</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5512</identificador>
+                <control>2023/5465</control>
+                <titulo>Resolución de 23 de febrero de 2023, de la Subsecretaría, por la que se declara desierto puesto de trabajo de libre designación, convocado por Resolución de 12 de septiembre de 2022.</titulo>
+                <url_pdf szBytes="195093" szKBytes="191" pagina_inicial="31436" pagina_final="31436">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5512.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5512</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5512</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <epigrafe nombre="Cuerpo de Ingenieros de Montes del Estado">
+              <item>
+                <identificador>BOE-A-2023-5513</identificador>
+                <control>2023/5618</control>
+                <titulo>Resolución de 24 de febrero de 2023, de la Subsecretaría, por la que se deja sin efecto la Resolución de 17 de febrero de 2023, por la que se modifica la composición del Tribunal calificador del proceso selectivo para ingreso, por el sistema de acceso libre y por promoción interna, en el Cuerpo de Ingenieros de Montes del Estado, convocado por Resolución de 14 de diciembre de 2022.</titulo>
+                <url_pdf szBytes="195937" szKBytes="191" pagina_inicial="31437" pagina_final="31437">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5513.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5513</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5513</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuerpo de Observadores de Meteorología del Estado">
+              <item>
+                <identificador>BOE-A-2023-5514</identificador>
+                <control>2023/5619</control>
+                <titulo>Resolución de 24 de febrero de 2023, de la Subsecretaría, por la que se corrigen errores y se modifica la de 20 de enero de 2023, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Observadores de Meteorología del Estado.</titulo>
+                <url_pdf szBytes="199765" szKBytes="195" pagina_inicial="31438" pagina_final="31439">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5514.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5514</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5514</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Escala de Técnicos Facultativos Superiores de Organismos Autónomos del Ministerio de Medio Ambiente">
+              <item>
+                <identificador>BOE-A-2023-5515</identificador>
+                <control>2023/5620</control>
+                <titulo>Resolución de 24 de febrero de 2023, de la Subsecretaría, por la que se modifica la composición del Tribunal calificador del proceso selectivo para el ingreso, por el sistema general de acceso libre y promoción interna, en la Escala de Técnicos Facultativos Superiores de Organismos Autónomos del Ministerio de Medio Ambiente, convocado por Resolución de 23 de diciembre de 2022.</titulo>
+                <url_pdf szBytes="196151" szKBytes="192" pagina_inicial="31440" pagina_final="31440">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5515.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5515</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5515</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9579" nombre="MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES">
+            <epigrafe nombre="Personal laboral">
+              <item>
+                <identificador>BOE-A-2023-5516</identificador>
+                <control>2023/5912</control>
+                <titulo>Resolución de 28 de febrero de 2023, de la Subsecretaría, por la que se aprueba la relación provisional de personas admitidas y excluidas en el proceso selectivo extraordinario para la estabilización de empleo temporal a través del sistema selectivo de ingreso mediante concurso de méritos en el Ministerio de Inclusión, Seguridad Social y Migraciones, convocado por Resolución de 30 de diciembre de 2022.</titulo>
+                <url_pdf szBytes="476242" szKBytes="465" pagina_inicial="31441" pagina_final="31449">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5516.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5516</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5516</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1810" nombre="CONSEJO DE ESTADO">
+            <epigrafe nombre="Funcionarios de los Subgrupos A2 y C1">
+              <item>
+                <identificador>BOE-A-2023-5517</identificador>
+                <control>2023/5624</control>
+                <titulo>Resolución de 23 de febrero de 2023, de la Presidencia del Consejo de Estado, por la que se modifica la de 3 de febrero de 2023, por la que se convoca concurso específico para la provisión de puesto de trabajo.</titulo>
+                <url_pdf szBytes="199957" szKBytes="195" pagina_inicial="31450" pagina_final="31451">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5517.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5517</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5517</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <epigrafe nombre="Cuerpo de Médicos Forenses">
+              <item>
+                <identificador>BOE-A-2023-5518</identificador>
+                <control>2023/5793</control>
+                <titulo>Resolución de 27 de febrero de 2023, de la Dirección General de Modernización y Relaciones con la Administración de Justicia, de la Conselleria de Justica, Interior y Administración Pública, por la que se corrigen errores en la de 25 de enero de 2023, por la que se convoca concurso de traslados para la provisión de puestos de trabajo genéricos en los Institutos de Medicina Legal y Ciencias Forenses de la Comunitat Valenciana, para el Cuerpo de Médicos Forenses.</titulo>
+                <url_pdf szBytes="207370" szKBytes="203" pagina_inicial="31452" pagina_final="31452">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5518.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5518</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5518</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario">
+              <item>
+                <identificador>BOE-A-2023-5519</identificador>
+                <control>2023/5303</control>
+                <titulo>Resolución de 17 de febrero de 2023, del Ayuntamiento de L'Hospitalet de Llobregat (Barcelona), referente a la convocatoria para proveer puestos de trabajo por el sistema de concurso.</titulo>
+                <url_pdf szBytes="196300" szKBytes="192" pagina_inicial="31453" pagina_final="31453">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5519.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5519</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5519</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2023-5520</identificador>
+                <control>2023/5747</control>
+                <titulo>Resolución de 28 de diciembre de 2022, de la Entidad Local Autónoma de Guadalcacín (Cádiz), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="195682" szKBytes="191" pagina_inicial="31454" pagina_final="31454">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5520.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5520</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5520</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5521</identificador>
+                <control>2023/5273</control>
+                <titulo>Resolución de 29 de diciembre de 2022, del Ayuntamiento de Alhaurín el Grande, Organismo Autónomo Fahala (Málaga), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="195945" szKBytes="191" pagina_inicial="31455" pagina_final="31455">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5521.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5521</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5521</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5522</identificador>
+                <control>2023/5274</control>
+                <titulo>Resolución de 29 de diciembre de 2022, del Ayuntamiento de Parets del Vallès (Barcelona), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="192885" szKBytes="188" pagina_inicial="31456" pagina_final="31456">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5522.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5522</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5522</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5523</identificador>
+                <control>2023/5666</control>
+                <titulo>Resolución de 30 de enero de 2023, de la Diputación Provincial de Badajoz, Consorcio para la Gestión de Servicios Medioambientales, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="195715" szKBytes="191" pagina_inicial="31457" pagina_final="31457">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5523.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5523</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5523</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5524</identificador>
+                <control>2023/5278</control>
+                <titulo>Resolución de 10 de febrero de 2023, del Cabildo Insular de La Palma, Organismo Autónomo Escuela Insular de Música (Santa Cruz de Tenerife), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="193033" szKBytes="189" pagina_inicial="31458" pagina_final="31458">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5524.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5524</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5524</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5525</identificador>
+                <control>2023/5280</control>
+                <titulo>Resolución de 13 de febrero de 2023, del Ayuntamiento de Quart (Girona), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="191992" szKBytes="187" pagina_inicial="31459" pagina_final="31459">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5525.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5525</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5525</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5526</identificador>
+                <control>2023/5281</control>
+                <titulo>Resolución de 14 de febrero de 2023, del Ayuntamiento de Bustarviejo (Madrid), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="191559" szKBytes="187" pagina_inicial="31460" pagina_final="31460">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5526.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5526</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5526</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5527</identificador>
+                <control>2023/5282</control>
+                <titulo>Resolución de 14 de febrero de 2023, del Ayuntamiento de Vega de San Mateo (Las Palmas), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="193961" szKBytes="189" pagina_inicial="31461" pagina_final="31461">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5527.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5527</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5527</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5528</identificador>
+                <control>2023/5283</control>
+                <titulo>Resolución de 14 de febrero de 2023, del Ayuntamiento de Vilches (Jaén), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="192541" szKBytes="188" pagina_inicial="31462" pagina_final="31462">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5528.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5528</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5528</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5529</identificador>
+                <control>2023/5284</control>
+                <titulo>Resolución de 15 de febrero de 2023, del Ayuntamiento de Bustarviejo (Madrid), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="191516" szKBytes="187" pagina_inicial="31463" pagina_final="31463">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5529.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5529</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5529</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5530</identificador>
+                <control>2023/5286</control>
+                <titulo>Resolución de 15 de febrero de 2023, del Ayuntamiento de Almacelles (Lleida), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="200640" szKBytes="196" pagina_inicial="31464" pagina_final="31465">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5530.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5530</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5530</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5531</identificador>
+                <control>2023/5287</control>
+                <titulo>Resolución de 15 de febrero de 2023, del Ayuntamiento de Piélagos (Cantabria), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="192131" szKBytes="188" pagina_inicial="31466" pagina_final="31466">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5531.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5531</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5531</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5532</identificador>
+                <control>2023/5288</control>
+                <titulo>Resolución de 15 de febrero de 2023, del Ayuntamiento de Piélagos (Cantabria), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="192254" szKBytes="188" pagina_inicial="31467" pagina_final="31467">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5532.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5532</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5532</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5533</identificador>
+                <control>2023/5289</control>
+                <titulo>Resolución de 15 de febrero de 2023, del Ayuntamiento de Puentes Viejas (Madrid), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="195802" szKBytes="191" pagina_inicial="31468" pagina_final="31468">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5533.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5533</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5533</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5534</identificador>
+                <control>2023/5290</control>
+                <titulo>Resolución de 15 de febrero de 2023, del Ayuntamiento de Ronda (Málaga), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="192008" szKBytes="188" pagina_inicial="31469" pagina_final="31469">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5534.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5534</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5534</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5535</identificador>
+                <control>2023/5291</control>
+                <titulo>Resolución de 15 de febrero de 2023, del Ayuntamiento de San Antonio de Benagéber (Valencia), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="192862" szKBytes="188" pagina_inicial="31470" pagina_final="31470">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5535.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5535</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5535</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5536</identificador>
+                <control>2023/5292</control>
+                <titulo>Resolución de 15 de febrero de 2023, del Ayuntamiento de Villastar (Teruel), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="192260" szKBytes="188" pagina_inicial="31471" pagina_final="31471">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5536.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5536</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5536</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5537</identificador>
+                <control>2023/5294</control>
+                <titulo>Resolución de 16 de febrero de 2023, del Ayuntamiento de La Vall d'Uixó (Castellón), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="192864" szKBytes="188" pagina_inicial="31472" pagina_final="31472">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5537.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5537</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5537</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5538</identificador>
+                <control>2023/5295</control>
+                <titulo>Resolución de 16 de febrero de 2023, del Ayuntamiento de Pradoluengo (Burgos), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="192404" szKBytes="188" pagina_inicial="31473" pagina_final="31473">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5538.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5538</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5538</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5539</identificador>
+                <control>2023/5296</control>
+                <titulo>Resolución de 16 de febrero de 2023, del Ayuntamiento de Pradoluengo (Burgos), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="192474" szKBytes="188" pagina_inicial="31474" pagina_final="31474">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5539.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5539</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5539</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5540</identificador>
+                <control>2023/5297</control>
+                <titulo>Resolución de 16 de febrero de 2023, del Ayuntamiento de Riogordo (Málaga), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="192600" szKBytes="188" pagina_inicial="31475" pagina_final="31475">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5540.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5540</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5540</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5541</identificador>
+                <control>2023/5298</control>
+                <titulo>Resolución de 16 de febrero de 2023, del Ayuntamiento de Vélez Rubio (Almería), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="196786" szKBytes="192" pagina_inicial="31476" pagina_final="31476">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5541.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5541</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5541</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5542</identificador>
+                <control>2023/5299</control>
+                <titulo>Resolución de 16 de febrero de 2023, del Ayuntamiento de Vilalba dels Arcs (Tarragona), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="197704" szKBytes="193" pagina_inicial="31477" pagina_final="31477">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5542.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5542</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5542</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5543</identificador>
+                <control>2023/5300</control>
+                <titulo>Resolución de 16 de febrero de 2023, del Ayuntamiento de Zaidín (Huesca), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="192685" szKBytes="188" pagina_inicial="31478" pagina_final="31478">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5543.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5543</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5543</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5544</identificador>
+                <control>2023/5301</control>
+                <titulo>Resolución de 17 de febrero de 2023, del Ayuntamiento de Fuentes (Cuenca), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="192298" szKBytes="188" pagina_inicial="31479" pagina_final="31479">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5544.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5544</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5544</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5545</identificador>
+                <control>2023/5302</control>
+                <titulo>Resolución de 17 de febrero de 2023, del Ayuntamiento de Fuentes (Cuenca), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="192216" szKBytes="188" pagina_inicial="31480" pagina_final="31480">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5545.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5545</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5545</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5546</identificador>
+                <control>2023/5304</control>
+                <titulo>Resolución de 21 de febrero de 2023, del Ayuntamiento La Pobla de Vallbona (Valencia), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="195757" szKBytes="191" pagina_inicial="31481" pagina_final="31481">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5546.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5546</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5546</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5547</identificador>
+                <control>2023/5709</control>
+                <titulo>Resolución de 21 de febrero de 2023, del Ayuntamiento de Riudoms (Tarragona), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="191940" szKBytes="187" pagina_inicial="31482" pagina_final="31482">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5547.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5547</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5547</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5548</identificador>
+                <control>2023/5741</control>
+                <titulo>Resolución de 24 de febrero de 2023, de la Entidad Local Autónoma Marismillas (Sevilla), que deja sin efecto la de 13 de diciembre de 2022, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="191330" szKBytes="187" pagina_inicial="31483" pagina_final="31483">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5548.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5548</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5548</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5549</identificador>
+                <control>2023/5744</control>
+                <titulo>Resolución de 24 de febrero de 2023, del Ayuntamiento de Palafrugell (Girona), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="191446" szKBytes="187" pagina_inicial="31484" pagina_final="31484">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5549.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5549</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5549</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5550</identificador>
+                <control>2023/5903</control>
+                <titulo>Resolución de 24 de febrero de 2023, del Ayuntamiento de Cogollos de la Vega (Granada), que deja sin efecto la de 9 de febrero de 2023, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="191337" szKBytes="187" pagina_inicial="31485" pagina_final="31485">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5550.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5550</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5550</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5551</identificador>
+                <control>2023/5285</control>
+                <titulo>Resolución de 15 de febrero de 2023, del Ayuntamiento de Peñarroya-Pueblonuevo (Córdoba), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="192360" szKBytes="188" pagina_inicial="31486" pagina_final="31486">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5551.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5551</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5551</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5552</identificador>
+                <control>2023/5680</control>
+                <titulo>Resolución de 17 de febrero de 2023, del Ayuntamiento de Retamoso de la Jara (Toledo), de corrección de errores de la de 9 de enero de 2023, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="192342" szKBytes="188" pagina_inicial="31487" pagina_final="31487">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5552.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5552</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5552</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5553</identificador>
+                <control>2023/5700</control>
+                <titulo>Resolución de 21 de febrero de 2023, del Ayuntamiento de Los Montesinos (Alicante), de corrección de errores de la de 30 de enero de 2023, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="191220" szKBytes="187" pagina_inicial="31488" pagina_final="31488">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5553.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5553</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5553</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5554</identificador>
+                <control>2023/5705</control>
+                <titulo>Resolución de 21 de febrero de 2023, del Ayuntamiento de San Fulgencio (Alicante), de corrección de errores de la de 7 de febrero de 2023, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="196464" szKBytes="192" pagina_inicial="31489" pagina_final="31489">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5554.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5554</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5554</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5555</identificador>
+                <control>2023/5867</control>
+                <titulo>Resolución de 22 de febrero de 2023, del Ayuntamiento de Huétor Tájar (Granada), Agencia Pública Administrativa Orientación y Asesoramiento Local, de corrección de errores de la de 31 de enero de 2023, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="192615" szKBytes="188" pagina_inicial="31490" pagina_final="31490">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5555.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5555</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5555</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5556</identificador>
+                <control>2023/5868</control>
+                <titulo>Resolución de 22 de febrero de 2023, del Ayuntamiento de Huétor Tájar (Granada), Agencia Pública Administrativa Orientación y Asesoramiento Local, de corrección de errores de la de 31 de enero de 2023, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="192811" szKBytes="188" pagina_inicial="31491" pagina_final="31491">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5556.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5556</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5556</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Personal de administración y servicios">
+              <item>
+                <identificador>BOE-A-2023-5557</identificador>
+                <control>2023/4622</control>
+                <titulo>Resolución de 15 de febrero de 2023, de la Universidad de Valladolid, por la que se modifica la de 7 de julio de 2022, por la que se convoca proceso selectivo para ingreso como personal laboral fijo, Grupo III.</titulo>
+                <url_pdf szBytes="201032" szKBytes="196" pagina_inicial="31492" pagina_final="31493">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5557.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5557</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5557</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5558</identificador>
+                <control>2023/4924</control>
+                <titulo>Resolución de 16 de febrero de 2023, de la Universidad de Valladolid, por la que se modifica la de 7 de julio de 2022, por la que se convoca proceso selectivo para ingreso como personal laboral fijo, Grupo I.</titulo>
+                <url_pdf szBytes="199237" szKBytes="195" pagina_inicial="31494" pagina_final="31495">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5558.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5558</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5558</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5559</identificador>
+                <control>2023/4929</control>
+                <titulo>Resolución de 16 de febrero de 2023, de la Universidad de Valladolid, por la que se modifica la de 8 de noviembre de 2022, por la que se convoca proceso selectivo para la provisión, por el sistema general de acceso libre, de plazas de personal laboral fijo, Grupo I.</titulo>
+                <url_pdf szBytes="199610" szKBytes="195" pagina_inicial="31496" pagina_final="31497">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5559.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5559</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5559</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5560</identificador>
+                <control>2023/5478</control>
+                <titulo>Resolución de 23 de febrero de 2023, de la Universidad Pablo de Olavide, por la que se convocan pruebas selectivas para ingreso, por el sistema general de acceso libre, en las Escalas de Gestión de Sistemas e Informática, Ayudantes Técnicos de Informática y Ayudantes de Archivos, Bibliotecas y Museos.</titulo>
+                <url_pdf szBytes="299157" szKBytes="292" pagina_inicial="31498" pagina_final="31513">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5560.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5560</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5560</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2023-5561</identificador>
+                <control>2023/5231</control>
+                <titulo>Resolución 160/38071/2023, de 20 de febrero, de la Jefatura de Enseñanza de la Guardia Civil, por la que se emplaza a las personas interesadas en el recurso contencioso-administrativo 115/2023, interpuesto ante el Tribunal Superior de Justicia de Madrid, Sala de lo Contencioso-Administrativo, Sección Sexta.</titulo>
+                <url_pdf szBytes="193406" szKBytes="189" pagina_inicial="31514" pagina_final="31514">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5561.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5561</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5561</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5562</identificador>
+                <control>2023/5232</control>
+                <titulo>Resolución 160/38072/2023, de 20 de febrero, de la Jefatura de Enseñanza de la Guardia Civil, por la que se emplaza a las personas interesadas en el recurso contencioso-administrativo 165/2023, interpuesto ante el Tribunal Superior de Justicia de Andalucía, Sala de lo Contencioso-Administrativo, con sede en Granada.</titulo>
+                <url_pdf szBytes="195997" szKBytes="191" pagina_inicial="31515" pagina_final="31515">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5562.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5562</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5562</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5563</identificador>
+                <control>2023/5233</control>
+                <titulo>Resolución 160/38073/2023, de 20 de febrero, de la Jefatura de Enseñanza de la Guardia Civil, por la que se emplaza a las personas interesadas en el recurso contencioso-administrativo 121/2023, interpuesto ante el Tribunal Superior de Justicia de Andalucía, Sala de lo Contencioso-Administrativo, con sede en Granada.</titulo>
+                <url_pdf szBytes="193042" szKBytes="189" pagina_inicial="31516" pagina_final="31516">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5563.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5563</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5563</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5564</identificador>
+                <control>2023/5234</control>
+                <titulo>Resolución 160/38074/2023, de 20 de febrero, de la Jefatura de Enseñanza de la Guardia Civil, por la que se emplaza a las personas interesadas en el recurso contencioso-administrativo 51/2023, interpuesto ante el Tribunal Superior de Justicia de Murcia, Sala de lo Contencioso-Administrativo.</titulo>
+                <url_pdf szBytes="193526" szKBytes="189" pagina_inicial="31517" pagina_final="31517">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5564.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5564</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5564</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5565</identificador>
+                <control>2023/5235</control>
+                <titulo>Resolución 160/38075/2023, de 20 de febrero, de la Jefatura de Enseñanza de la Guardia Civil, por la que se emplaza a las personas interesadas en el recurso contencioso-administrativo 81/2023 interpuesto ante el Tribunal Superior de Justicia de Extremadura, Sala de lo Contencioso-Administrativo, Sección Primera.</titulo>
+                <url_pdf szBytes="193188" szKBytes="189" pagina_inicial="31518" pagina_final="31518">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5565.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5565</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5565</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2023-5566</identificador>
+                <control>2023/5355</control>
+                <titulo>Resolución de 21 de febrero de 2023, de la Dirección General del Catastro, por la que se publica el Convenio con el Colegio Oficial de Graduados Sociales de Granada.</titulo>
+                <url_pdf szBytes="234130" szKBytes="229" pagina_inicial="31519" pagina_final="31525">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5566.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5566</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5566</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5567</identificador>
+                <control>2023/5356</control>
+                <titulo>Resolución de 22 de febrero de 2023, de la Dirección General del Catastro, por la que se publica el Convenio con el Colegio Oficial de Ingenieros Técnicos Agrícolas de Almería.</titulo>
+                <url_pdf szBytes="245096" szKBytes="239" pagina_inicial="31526" pagina_final="31533">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5567.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5567</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5567</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2023-5568</identificador>
+                <control>2023/5357</control>
+                <titulo>Resolución de 22 de febrero de 2023, de la Dirección General del Catastro, por la que se publica el Convenio con el Colegio Oficial de Peritos e Ingenieros Técnicos Industriales de Madrid.</titulo>
+                <url_pdf szBytes="239035" szKBytes="233" pagina_inicial="31534" pagina_final="31540">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5568.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5568</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5568</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <epigrafe nombre="Líneas ferroviarias">
+              <item>
+                <identificador>BOE-A-2023-5569</identificador>
+                <control>2023/5844</control>
+                <titulo>Resolución de 23 de febrero de 2023, de la Dirección General de Planificación y Evaluación de la Red Ferroviaria, por la que se publica el Acuerdo del Consejo de Ministros de 21 de febrero de 2023, por el que se clausura el tramo ferroviario entre Tarancón y Utiel de la línea 03-310 Aranjuez-Valencia Fuente de San Luis.</titulo>
+                <url_pdf szBytes="202634" szKBytes="198" pagina_inicial="31541" pagina_final="31542">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5569.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5569</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5569</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9563" nombre="MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL">
+            <epigrafe nombre="Conciertos educativos">
+              <item>
+                <identificador>BOE-A-2023-5570</identificador>
+                <control>2023/5243</control>
+                <titulo>Orden EFP/200/2023, de 22 de febrero, por la que se dictan normas para la aplicación del régimen de conciertos educativos a partir del curso académico 2023/2024 en las ciudades de Ceuta y Melilla, para las enseñanzas de educación primaria.</titulo>
+                <url_pdf szBytes="306086" szKBytes="299" pagina_inicial="31543" pagina_final="31551">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5570.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5570</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5570</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="5250" nombre="MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2023-5571</identificador>
+                <control>2023/5642</control>
+                <titulo>Resolución de 21 de febrero de 2023, de ICEX España Exportación e Inversiones, E.P.E., por la que se publica el Convenio con la Fundación Foro de Marcas Renombradas Españolas, para la colaboración en el desarrollo del proyecto Conexión España.</titulo>
+                <url_pdf szBytes="259527" szKBytes="253" pagina_inicial="31552" pagina_final="31562">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5571.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5571</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5571</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3120" nombre="MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN">
+            <epigrafe nombre="Pesca marítima">
+              <item>
+                <identificador>BOE-A-2023-5572</identificador>
+                <control>2023/5644</control>
+                <titulo>Orden APA/201/2023, de 26 de febrero, por la que se establece un plan de gestión para la pesca de la langosta («palinurus spp») en las aguas exteriores adyacentes a las Illes Balears.</titulo>
+                <url_pdf szBytes="466620" szKBytes="456" pagina_inicial="31563" pagina_final="31571">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5572.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5572</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5572</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Sanidad animal">
+              <item>
+                <identificador>BOE-A-2023-5573</identificador>
+                <control>2023/5245</control>
+                <titulo>Resolución de 20 de febrero de 2023, de la Dirección General de Sanidad de la Producción Agraria, por la que se modifican los Anexos I y II de la Orden APA/1251/2020, de 21 de diciembre, por la que se establecen medidas específicas de protección en relación con la lengua azul.</titulo>
+                <url_pdf szBytes="209994" szKBytes="205" pagina_inicial="31572" pagina_final="31574">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5573.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5573</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5573</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2023-5574</identificador>
+                <control>2023/5376</control>
+                <titulo>Resolución de 22 de febrero de 2023, de la Dirección General del Libro y Fomento de la Lectura, por la que se publica el Convenio con el Ayuntamiento de Murcia, para regular el suministro de metadatos y miniaturas.</titulo>
+                <url_pdf szBytes="241482" szKBytes="236" pagina_inicial="31575" pagina_final="31581">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5574.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5574</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5574</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2023-5575</identificador>
+                <control>2023/5126</control>
+                <titulo>Resolución de 23 de febrero de 2023, del Banco de España, por la que se publican las sanciones de multa por la comisión de infracción muy grave impuestas a Tecnitasa Técnicos en Tasación, SA, y a sus cargos de administración y dirección don José Antonio Muro Calero, don Luis Elías Rodríguez-Viña González, don José María Basáñez Agarrado y don Manuel Ramos Letrán.</titulo>
+                <url_pdf szBytes="201124" szKBytes="196" pagina_inicial="31582" pagina_final="31583">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5575.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5575</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5575</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2023-5576</identificador>
+                <control>2023/5829</control>
+                <titulo>Resolución de 1 de marzo de 2023, del Banco de España, por la que se publican los cambios del euro correspondientes al día 1 de marzo de 2023, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="222145" szKBytes="217" pagina_inicial="31584" pagina_final="31585">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5576.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5576</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5576</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Préstamos hipotecarios. Índices">
+              <item>
+                <identificador>BOE-A-2023-5577</identificador>
+                <control>2023/5913</control>
+                <titulo>Resolución de 1 de marzo de 2023, del Banco de España, por la que se publican determinados tipos de interés oficiales de referencia del mercado hipotecario.</titulo>
+                <url_pdf szBytes="206514" szKBytes="202" pagina_inicial="31586" pagina_final="31586">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5577.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5577</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5577</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Planes de estudios">
+              <item>
+                <identificador>BOE-A-2023-5578</identificador>
+                <control>2023/5386</control>
+                <titulo>Resolución de 14 de febrero de 2023, de la Universidad de Navarra, por la que se publica la modificación del plan de estudios de Máster Universitario en Comunicación Política y Corporativa.</titulo>
+                <url_pdf szBytes="216291" szKBytes="211" pagina_inicial="31587" pagina_final="31588">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-A-2023-5578.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5578</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2023-5578</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Contratación del Sector Público">
+          <departamento codigo="1220" nombre="CORTES GENERALES">
+            <item>
+              <identificador>BOE-B-2023-6110</identificador>
+              <titulo>Anuncio de formalización de contratos de: Mesa del Congreso de los Diputados. Objeto: Suministro de un sistema de transcripción automática de audio a texto, así como instalación, soporte y mantenimiento. Expediente: CON-P2022/5401896.0.</titulo>
+              <url_pdf szBytes="161477" szKBytes="158" pagina_inicial="9397" pagina_final="9398">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6110.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6110</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6110</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <item>
+              <identificador>BOE-B-2023-6111</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección de la Agencia Española de Cooperación Internacional para el Desarrollo (AECID). Objeto: Suministro de licencias productos SAP. Expediente: 2021/CTR/0900354.</titulo>
+              <url_pdf szBytes="162814" szKBytes="159" pagina_inicial="9399" pagina_final="9400">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6111.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6111</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6111</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2023-6112</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección de Adquisiciones del Mando de Apoyo Logístico del Ejército del Aire. Objeto: 20224019 Adquisición de repuestos de FN. Expediente: 2022/EA02/00001762E .</titulo>
+              <url_pdf szBytes="157485" szKBytes="154" pagina_inicial="9401" pagina_final="9402">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6112.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6112</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6112</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6113</identificador>
+              <titulo>Anuncio de formalización de contratos de: Sección de Asuntos Económicos de la Jefatura Sistemas de Información, Telecomunicaciones y Asistencia Técnica. Objeto: Adquisición e instalación de antena LOGPER, estación HF NRDC-ESP. Expediente: 2022/ETSAE0904/00001421E.</titulo>
+              <url_pdf szBytes="156970" szKBytes="153" pagina_inicial="9403" pagina_final="9404">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6113.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6113</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6113</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6114</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de Intendencia de Asuntos Económicos Este. Objeto: Concesión de servicios de peluquería en el Acuartelamiento Sancho Ramírez de Huesca. Expediente: 2022/ETSAE0327/00004995E.</titulo>
+              <url_pdf szBytes="156693" szKBytes="153" pagina_inicial="9405" pagina_final="9406">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6114.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6114</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6114</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <item>
+              <identificador>BOE-B-2023-6115</identificador>
+              <titulo>Anuncio de licitación de: Delegación de Economía y Hacienda en Murcia. Objeto: Servicio de Vigilancia y Seguridad del edificio de la Delegación de Economía y Hacienda en Murcia. Expediente: 301502SE23.</titulo>
+              <url_pdf szBytes="149501" szKBytes="146" pagina_inicial="9407" pagina_final="9407">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6115.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6115</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6115</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6116</identificador>
+              <titulo>Anuncio de licitación de: Dirección del Servicio de Gestión Económica de la Agencia Estatal de la Administración Tributaria. Objeto: Mantenimiento centralizado SAIs (2). Expediente: 22700114100.</titulo>
+              <url_pdf szBytes="166970" szKBytes="163" pagina_inicial="9408" pagina_final="9410">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6116.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6116</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6116</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6117</identificador>
+              <titulo>Anuncio de formalización de contratos de: Delegación Especial de la Agencia Estatal de Administración Tributaria en Cataluña. Objeto: Servicio de mantenimiento preventivo y correctivo de las instalaciones de climatización de los edificios dependientes de la Delegación Especial de la Agencia Estatal de Administración Tributaria de Cataluña en la provincia de Barcelona. Expediente: 22A90100400.</titulo>
+              <url_pdf szBytes="161285" szKBytes="158" pagina_inicial="9411" pagina_final="9412">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6117.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6117</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6117</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6118</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Contratación de los Servicios Centrales en el Ministerio de Hacienda y Función Pública. Objeto: Servicios de carácter informático para el soporte y mantenimiento del sistema de almacenamiento "SAN", con destino a la Dirección General del Catastro. Expediente: 2022-24.</titulo>
+              <url_pdf szBytes="161479" szKBytes="158" pagina_inicial="9413" pagina_final="9414">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6118.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6118</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6118</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2023-6119</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de Planificación y Gestión Económica. Objeto: Acuerdo Marco de suministro de TRIUMEQ a los Centros Penitenciarios dependientes de la Secretaria General de Instituciones Penitenciarias. Expediente: 02012023AF28.</titulo>
+              <url_pdf szBytes="160995" szKBytes="157" pagina_inicial="9415" pagina_final="9416">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6119.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6119</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6119</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <item>
+              <identificador>BOE-B-2023-6120</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de Carreteras. Objeto: 33-LO-5660; 54.27/23. Humanización de la N-232a en Tirgo entre los p.k. 455+000 y 458+000. Provincia de La Rioja. Plan de Recuperación, Transformación y Resiliencia, Next Generation EU. Expediente: 254232656000.</titulo>
+              <url_pdf szBytes="167473" szKBytes="164" pagina_inicial="9417" pagina_final="9419">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6120.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6120</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6120</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6121</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de la Marina Mercante. Objeto: Servicio para la celebración de los exámenes teóricos de la Dirección General de la Marina Mercante para la obtención de titulaciones náuticas para el gobierno de embarcaciones de recreo. Expediente: 202217320194.</titulo>
+              <url_pdf szBytes="152259" szKBytes="149" pagina_inicial="9420" pagina_final="9420">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6121.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6121</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6121</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6122</identificador>
+              <titulo>Anuncio de formalización de contratos de: Consejo de Administración SEPES Entidad Pública Empresarial de Suelo. Objeto: Servicios Auxiliares en las dependencias de SEPES, Entidad Pública Empresarial de Suelo, sitas en el Pº de la Castellana nº 91 de Madrid. Expediente: 129864.</titulo>
+              <url_pdf szBytes="151957" szKBytes="148" pagina_inicial="9421" pagina_final="9421">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6122.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6122</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6122</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6123</identificador>
+              <titulo>Anuncio de licitación de: ADIF Alta Velocidad - Presidencia. Objeto: Servicios para la redacción del proyecto básico y de construcción del Corredor Norte-Noroeste de Alta Velocidad. Línea de Alta Velocidad Madrid-Galicia. Tramo: Pedralba-Vilavella. Vía izquierda. Obra civil, vía y electrificación y acondicionamientodel túnl de Padornelo existente. Expediente: 3.22/30830.0250.</titulo>
+              <url_pdf szBytes="164163" szKBytes="160" pagina_inicial="9422" pagina_final="9423">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6123.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6123</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6123</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6124</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de Carreteras. Objeto: 17-H-5020; 54.282/22 Autovía A-49, del V Centenario. Vía de servicio. Acceso al centro hospitalario de alto rendimiento de la costa occidental de Huelva. Expediente: 654222150200.</titulo>
+              <url_pdf szBytes="160591" szKBytes="157" pagina_inicial="9424" pagina_final="9425">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6124.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6124</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6124</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6125</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Transportes, Movilidad y Agenda Urbana. Objeto: Servicio de mantenimiento de ascensores de los servicios centrales y periféricos de la Dirección General de la Marina Mercante. Expediente: 22PPS2MM0209.</titulo>
+              <url_pdf szBytes="185039" szKBytes="181" pagina_inicial="9426" pagina_final="9429">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6125.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6125</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6125</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9523" nombre="MINISTERIO DE POLÍTICA TERRITORIAL">
+            <item>
+              <identificador>BOE-B-2023-6132</identificador>
+              <titulo>Anuncio de licitación de: Secretaría General de Coordinación Territorial. Objeto: Servicio de Soporte a Entornos de Red de Área Local en Sedes y de Atención a Usuarios para la SGAD 4413. Expediente: 202282000040.</titulo>
+              <url_pdf szBytes="166975" szKBytes="163" pagina_inicial="9447" pagina_final="9449">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6132.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6132</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6132</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2023-6126</identificador>
+              <titulo>Anuncio de licitación de: Gerencia de Infraestructuras y Equipamientos de Cultura O.A. Objeto: Servicio para la redacción del proyecto de ejecución de las obras de subsanación de deficiencias y mejora de la eficiencia energética en el Instituto Español "Juan Ramón Jiménez" en Casablanca (Marruecos). Expediente: 23/001 SE.</titulo>
+              <url_pdf szBytes="167158" szKBytes="163" pagina_inicial="9430" pagina_final="9432">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6126.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6126</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6126</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6127</identificador>
+              <titulo>Anuncio de licitación de: Gerencia de Infraestructuras y Equipamientos de Cultura O.A. Objeto: Servicio para la redacción del proyecto de ejecución de las obras de subsanación de deficiencias y mejora de la eficiencia energética en el Instituto Español "Severo Ochoa" en Tánger (Marruecos). Expediente: 23/002 SE.</titulo>
+              <url_pdf szBytes="167088" szKBytes="163" pagina_inicial="9433" pagina_final="9435">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6127.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6127</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6127</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6128</identificador>
+              <titulo>Anuncio de licitación de: Gerencia de Infraestructuras y Equipamientos de Cultura O.A. Objeto: Servicio para la redacción del proyecto de ejecución de las obras de subsanación de deficiencias y mejora de la eficiencia energética en el Colegio Español "La Paz" en El Aaiun (Marruecos). Expediente: 23/003 SE.</titulo>
+              <url_pdf szBytes="167227" szKBytes="163" pagina_inicial="9436" pagina_final="9438">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6128.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6128</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6128</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6129</identificador>
+              <titulo>Anuncio de licitación de: Gerencia de Infraestructuras y Equipamientos de Cultura O.A. Objeto: Servicio para la redacción del proyecto de ejecución de las obras de subsanación de deficiencias y mejora de la eficiencia energética en el Instituto Español "Lope de Vega" en Nador (Marruecos). Expediente: 23/004 SE.</titulo>
+              <url_pdf szBytes="167095" szKBytes="163" pagina_inicial="9439" pagina_final="9441">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6129.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6129</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6129</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6130</identificador>
+              <titulo>Anuncio de licitación de: Gerencia de Infraestructuras y Equipamientos de Cultura O.A. Objeto: Servicio para la redacción del proyecto de ejecución de las obras de subsanación de deficiencias y mejora de la eficiencia energética en el Instituto Español "Melchor de Jovellanos" en Alhucemas (Marruecos). Expediente: 23/005 SE.</titulo>
+              <url_pdf szBytes="167229" szKBytes="163" pagina_inicial="9442" pagina_final="9444">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6130.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6130</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6130</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6131</identificador>
+              <titulo>Anuncio de licitación de: Gerencia de Infraestructuras y Equipamientos de Cultura O.A. Objeto: Servicio para la redacción del proyecto de ejecución de las obras de subsanación de deficiencias y mejora de la eficiencia energética en el Instituto Español "Juan de la Cierva" en Tetuán (Marruecos). Expediente: 23/006 SE.</titulo>
+              <url_pdf szBytes="165070" szKBytes="161" pagina_inicial="9445" pagina_final="9446">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6131.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6131</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6131</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4335" nombre="MINISTERIO DE SANIDAD">
+            <item>
+              <identificador>BOE-B-2023-6133</identificador>
+              <titulo>Anuncio de licitación de: Gerencia de Atención Sanitaria del Instituto Nacional de Gestión Sanitaria en Ceuta. Objeto: Servicio de realización de pruebas diagnósticas de PET/TAC, a pacientes del Área de Atención Sanitaria de Ceuta . Expediente: PA/2023/006/GCE.</titulo>
+              <url_pdf szBytes="149943" szKBytes="146" pagina_inicial="9450" pagina_final="9450">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6133.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6133</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6133</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9577" nombre="MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030">
+            <item>
+              <identificador>BOE-B-2023-6134</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de Oficialía Mayor. Objeto: Contratación de los servicios técnicos profesionales necesarios para redactar un proyecto que permita definir con precisión la retirada y sustitución del actual sistema contra incendios en el CPD y la instalación de un nuevo agente extintor más eficaz y optimizar el acondicionamiento de los espacios así como la dirección facultativa de la ejecución de las obras. Expediente: 222901PASX02.</titulo>
+              <url_pdf szBytes="158523" szKBytes="155" pagina_inicial="9451" pagina_final="9452">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6134.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6134</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6134</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <item>
+              <identificador>BOE-B-2023-6135</identificador>
+              <titulo>Anuncio de licitación de: Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P. Objeto: Suministro e instalación de un sistema de espectrometría de masas de alta resolución y un nano-cromatógrafo líquido de alta presión destinado al Centro Nacional de Biotecnología, de la Agencia Estatal Consejo Superior de Investigaciones Científicas. Expediente: 30727/23.</titulo>
+              <url_pdf szBytes="169461" szKBytes="165" pagina_inicial="9453" pagina_final="9455">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6135.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6135</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6135</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9579" nombre="MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES">
+            <item>
+              <identificador>BOE-B-2023-6136</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Inclusión, Seguridad Social y Migraciones. Objeto: Servicio de conservación y mantenimiento de los jardines y plantas de interior de los edificios de José Abascal, 39 y Valenzuela, 5 del Ministerio de Inclusión, Seguridad Social y Migraciones en Madrid, por un periodo de 24 meses prorrogables. Expediente: 202201000159.</titulo>
+              <url_pdf szBytes="161811" szKBytes="158" pagina_inicial="9456" pagina_final="9457">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6136.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6136</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6136</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6137</identificador>
+              <titulo>Anuncio de licitación de: Instituto Social de la Marina -Dirección Provincial de A Coruña. Objeto: Suministro de gas natural como combustible. Expediente: 152023PA1001.</titulo>
+              <url_pdf szBytes="165727" szKBytes="162" pagina_inicial="9458" pagina_final="9460">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6137.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6137</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6137</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6138</identificador>
+              <titulo>Anuncio de formalización de contratos de: INSS-Dirección provincial de Ourense. Objeto: Mantenimiento de los sistemas y equipos contra incendios y la conexión a Central Receptora de Alarmas instalados en los centros dependientes de la DPINSS de Ourense. Expediente: 32/PASA-0004/23.</titulo>
+              <url_pdf szBytes="157104" szKBytes="153" pagina_inicial="9461" pagina_final="9462">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6138.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6138</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6138</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6139</identificador>
+              <titulo>Anuncio de formalización de contratos de: TGSS-Dirección provincial de Castellón. Objeto: Servicio de mantenimiento y conservación de las instalaciones de protección contra incendios y sistemas de seguridad de la Dirección Provincial de la Tesorería General de la Seguridad Social de Castellón y los centros dependientes de la misma. Expediente: 12T/ASS-2/2023.</titulo>
+              <url_pdf szBytes="158236" szKBytes="155" pagina_inicial="9463" pagina_final="9464">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6139.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6139</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6139</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6140</identificador>
+              <titulo>Anuncio de formalización de contratos de: TGSS-Dirección provincial de Asturias. Objeto: Suministro de gas natural edificios dependientes de la Dirección Provincial de la Tesorería General de la Seguridad Social de Asturias, durante el período 1 de marzo de 2023 a 29 de febrero de 2024. Expediente: PA SARA 4019/2023.</titulo>
+              <url_pdf szBytes="160282" szKBytes="157" pagina_inicial="9465" pagina_final="9466">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6140.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6140</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6140</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6141</identificador>
+              <titulo>Anuncio de formalización de contratos de: TGSS-Dirección provincial de Castellón. Objeto: Prórroga del servicio de mantenimiento de las puertas automáticas y enrollables de la sede de la Dirección Provincial de la Tesorería General de la Seguridad Social de Castellón y los centros dependientes de la misma. Expediente: 12T/PR-4/2023.</titulo>
+              <url_pdf szBytes="156743" szKBytes="153" pagina_inicial="9467" pagina_final="9468">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6141.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6141</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6141</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6142</identificador>
+              <titulo>Anuncio de formalización de contratos de: INSS-Servicios Centrales-Subdirección General de Gestión Económico-Presupuestaria y Estudios Económicos. Objeto: Servicios para la realización de exámenes de salud médicos preventivos para el personal dependiente de los Servicios Centrales del Instituto Nacional de la Seguridad Social (5 lotes). Expediente: 60/VC-17/23.</titulo>
+              <url_pdf szBytes="165182" szKBytes="161" pagina_inicial="9469" pagina_final="9470">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6142.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6142</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6142</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6143</identificador>
+              <titulo>Anuncio de formalización de contratos de: TGSS-Dirección provincial de Córdoba. Objeto: Servicios de control de acceso y servicios auxiliares en las Administraciones y Unidades de Recaudación Ejecutiva dependientes de esta Dirección Provincial de Córdoba de la TGSS. Expediente: 2023_0007_AS.</titulo>
+              <url_pdf szBytes="157890" szKBytes="154" pagina_inicial="9471" pagina_final="9472">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6143.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6143</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6143</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9580" nombre="MINISTERIO DE UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2023-6144</identificador>
+              <titulo>Anuncio de licitación de: Subsecretaría del Ministerio de Universidades. Objeto: Servicio de administración de sistemas, comunicaciones y atención a usuarios. Expediente: 202200000099.</titulo>
+              <url_pdf szBytes="171869" szKBytes="168" pagina_inicial="9473" pagina_final="9475">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6144.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6144</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6144</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="1040" nombre="COMISIÓN NACIONAL DEL MERCADO DE VALORES">
+            <item>
+              <identificador>BOE-B-2023-6145</identificador>
+              <titulo>Anuncio de formalización de contratos de: Comisión Nacional del Mercado de Valores. Objeto: suministro e instalación de baterías de los sistemas de alimentación ininterrumpida de la Comisión Nacional del Mercado de Valores. Expediente: 06/23/SA.</titulo>
+              <url_pdf szBytes="155224" szKBytes="152" pagina_inicial="9476" pagina_final="9477">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6145.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6145</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6145</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2023-6146</identificador>
+              <titulo>Anuncio de Metro de Madrid, S.A. de ampliación de plazo de presentación de ofertas de la licitación de servicios profesionales tecnológicos de apoyo para el plan de migración al nuevo centro de proceso de datos (CPD) (expediente 6012300023).</titulo>
+              <url_pdf szBytes="152057" szKBytes="148" pagina_inicial="9478" pagina_final="9479">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6146.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6146</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6146</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2023-6147</identificador>
+              <titulo>Resolución de la Junta Delegada de Enajenaciones y Liquidadora de Material de Cartagena, por la que se anuncia la venta por subasta pública del Submarino "MISTRAL". Enajenación 2/23.</titulo>
+              <url_pdf szBytes="147950" szKBytes="144" pagina_inicial="9480" pagina_final="9480">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6147.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6147</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6147</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <item>
+              <identificador>BOE-B-2023-6148</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de Gijón sobre actualización de las tarifas máximas previstas en los Pliegos de Prescripciones Técnicas para la Prestación de los Servicios Portuarios de Amarre y Desamarre, Remolque y Practicaje en el Puerto de Gijón.</titulo>
+              <url_pdf szBytes="146605" szKBytes="143" pagina_inicial="9481" pagina_final="9481">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6148.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6148</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6148</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3120" nombre="MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN">
+            <item>
+              <identificador>BOE-B-2023-6149</identificador>
+              <titulo>Resolución de la Dirección General de Desarrollo Rural, Innovación y Formación Agroalimentaria del Ministerio de Agricultura, Pesca y Alimentación, por la que se acuerda someter a información pública el Estudio de Impacto Ambiental y Proyecto de modernización integral de la Comunidad de Regantes Nº V de los Riegos de Bardenas (zona 1) (Zaragoza).</titulo>
+              <url_pdf szBytes="148561" szKBytes="145" pagina_inicial="9482" pagina_final="9482">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6149.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6149</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6149</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6150</identificador>
+              <titulo>Resolución de la Dirección General de Desarrollo Rural, Innovación y Formación Agroalimentaria por la que se somete a Información Pública el "Proyecto de construcción de generador fotovoltaico y balsa de regulación para el bombeo del canal a la balsa de la mesa en la Comunidad de Regantes del sector 3º, Tramo III del canal de la margen izquierda del río Najerilla (La Rioja)".</titulo>
+              <url_pdf szBytes="147839" szKBytes="144" pagina_inicial="9483" pagina_final="9483">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6150.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6150</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6150</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <item>
+              <identificador>BOE-B-2023-6151</identificador>
+              <titulo>Anuncio de la Demarcación de Costas en Cantabria sobre solicitud de autorización para instalación de una terraza de hostelería en el paseo marítimo de Unquera, en el término municipal de Val de San Vicente. Peticionario: Hermanos Junco, S.L. Expediente AUT01/23/39/0012.</titulo>
+              <url_pdf szBytes="147076" szKBytes="144" pagina_inicial="9484" pagina_final="9484">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6151.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6151</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6151</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6152</identificador>
+              <titulo>Anuncio de la Demarcación de Costas en Murcia para el trámite de información pública en el expediente administrativo incoado a instancia la concejalía de Servicios del Litoral del Ayuntamiento de Mazarrón para la obtención de concesión administrativa. Expediente de referencia: CNC02/21/30/0016.</titulo>
+              <url_pdf szBytes="148742" szKBytes="145" pagina_inicial="9485" pagina_final="9485">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6152.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6152</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6152</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6153</identificador>
+              <titulo>Anuncio de la Demarcación de Costas en Cantabria sobre solicitud de autorización para navegación de grupos de canoas por la ría de Tinamayor e instalación de un pantalán anclado a la escollera existente en El Llance (Unquera), en el término municipal de Val de San Vicente. Peticionario: DevaTur Turismo Activo, S.L. Expediente AUT02/23/39/0015.</titulo>
+              <url_pdf szBytes="147471" szKBytes="144" pagina_inicial="9486" pagina_final="9486">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6153.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6153</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6153</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2023-6154</identificador>
+              <titulo>Extracto de la Resolución de 28 de febrero de 2023 del Instituto Nacional de las Artes Escénicas y de la Música, por la que se convocan ayudas al teatro y al circo correspondientes al año 2023</titulo>
+              <url_pdf szBytes="160528" szKBytes="157" pagina_inicial="9487" pagina_final="9489">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6154.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6154</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6154</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6155</identificador>
+              <titulo>Extracto de la resolución de 28 de febrero de 2023 del Instituto Nacional de las Artes Escénicas y de la Música por la que se convocan ayudas a la danza, la lírica y la música correspondientes a 2023</titulo>
+              <url_pdf szBytes="159922" szKBytes="156" pagina_inicial="9490" pagina_final="9492">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6155.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6155</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6155</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9576" nombre="MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL">
+            <item>
+              <identificador>BOE-B-2023-6156</identificador>
+              <titulo>Extracto de la Resolución de 28 de febrero de 2023 de la Dirección General de la entidad pública empresarial Red.es, M.P por la que se modifica la convocatoria de las ayudas destinadas a la digitalización de empresas del segmento I en el marco de la agenda España digital 2025, Programa Kit Digital, para ampliar el plazo de presentación de solicitudes.</titulo>
+              <url_pdf szBytes="148337" szKBytes="145" pagina_inicial="9493" pagina_final="9493">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6156.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6156</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6156</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6157</identificador>
+              <titulo>Extracto de la Resolución de 28 de febrero de 2023 de la Dirección General de la entidad pública empresarial Red.es, M.P. por la que se modifica la convocatoria de las ayudas destinadas a la digitalización de empresas del segmento III en el marco de la agenda España digital 2026, Programa Kit Digital, para ampliar el plazo de presentación de solicitudes.</titulo>
+              <url_pdf szBytes="148359" szKBytes="145" pagina_inicial="9494" pagina_final="9494">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6157.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6157</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6157</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6158</identificador>
+              <titulo>Extracto de la Resolución de 28 de febrero de 2023 de la Dirección General de la entidad pública empresarial Red.es, M.P por la que se modifica la convocatoria de las ayudas destinadas a la digitalización de empresas del segmento II en el marco de la agenda España digital 2025, Programa Kit Digital, para ampliar el plazo de presentación de solicitudes.</titulo>
+              <url_pdf szBytes="148438" szKBytes="145" pagina_inicial="9495" pagina_final="9495">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6158.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6158</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6158</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8040" nombre="COMUNIDAD AUTÓNOMA DE CANTABRIA">
+            <item>
+              <identificador>BOE-B-2023-6159</identificador>
+              <titulo>Resolución de la Dirección General de Industria, Energía y Minas de la Consejería de Industria, Turismo, Innovación, Transporte y Comercio del Gobierno de Cantabria por la que se otorga autorización administrativa previa, autorización de construcción y declaración, en concreto, de utilidad pública de las instalaciones correspondientes al expediente AT-135-2022.</titulo>
+              <url_pdf szBytes="166984" szKBytes="163" pagina_inicial="9496" pagina_final="9499">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6159.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6159</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6159</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8080" nombre="COMUNIDAD AUTÓNOMA DE EXTREMADURA">
+            <item>
+              <identificador>BOE-B-2023-6160</identificador>
+              <titulo>Anuncio de corrección de errores de la Resolución de 16 de enero de 2023, de la Dirección General de Agricultura y Ganadería de la Junta de Extremadura, por la que se da publicidad a la solicitud de modificación de la Unión del pliego de condiciones de la DOP "Dehesa de Extremadura".</titulo>
+              <url_pdf szBytes="146511" szKBytes="143" pagina_inicial="9500" pagina_final="9500">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6160.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6160</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6160</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2023-6161</identificador>
+              <titulo>Resolución de 1 de febrero de 2023, de la Universidad de Málaga, por la que se emplaza a los posibles interesados, en el Recurso Contencioso-Administrativo, Procedimiento Abreviado nº 290/2022, promovido por Dª. Antonia Jesús Bandera Bandera, ante el Juzgado de lo Contencioso- Administrativo núm. Seis de Málaga.</titulo>
+              <url_pdf szBytes="147868" szKBytes="144" pagina_inicial="9501" pagina_final="9501">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6161.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6161</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6161</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6162</identificador>
+              <titulo>Anuncio de la Facultad de Farmacia de la Universidad de Granada sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="142765" szKBytes="139" pagina_inicial="9502" pagina_final="9502">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6162.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6162</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6162</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6163</identificador>
+              <titulo>Anuncio de la Facultad de Educación y Deporte de la Universidad del País Vasco sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143502" szKBytes="140" pagina_inicial="9503" pagina_final="9503">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6163.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6163</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6163</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6164</identificador>
+              <titulo>Anuncio de la Universidad de las Palmas de Gran Canaria sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143233" szKBytes="140" pagina_inicial="9504" pagina_final="9504">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6164.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6164</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6164</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6165</identificador>
+              <titulo>Anuncio de la Universidad de las Palmas de Gran Canaria, sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143342" szKBytes="140" pagina_inicial="9505" pagina_final="9505">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6165.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6165</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6165</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6166</identificador>
+              <titulo>Anuncio de la Facultad de Medicina de la Universidad Autónoma de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143065" szKBytes="140" pagina_inicial="9506" pagina_final="9506">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6166.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6166</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6166</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6167</identificador>
+              <titulo>Anuncio de la Universidad Miguel Hernández de Elche sobre extravío de título universitario de Licenciada en Farmacia.</titulo>
+              <url_pdf szBytes="143790" szKBytes="140" pagina_inicial="9507" pagina_final="9507">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6167.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6167</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6167</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6168</identificador>
+              <titulo>Anuncio de la Facultad de Química de la Universidad de Vigo sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143371" szKBytes="140" pagina_inicial="9508" pagina_final="9508">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6168.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6168</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6168</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6169</identificador>
+              <titulo>Anuncio de corrección de errores Facultad de Educación de la Universidad de Salamanca sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143483" szKBytes="140" pagina_inicial="9509" pagina_final="9509">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6169.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6169</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6169</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6170</identificador>
+              <titulo>Anuncio de corrección de errores Facultad de Educación de la Universidad de Salamanca sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143518" szKBytes="140" pagina_inicial="9510" pagina_final="9510">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6170.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6170</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6170</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6171</identificador>
+              <titulo>Anuncio de corrección de errores Facultad de Educación de la Universidad de Salamanca sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143504" szKBytes="140" pagina_inicial="9511" pagina_final="9511">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6171.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6171</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6171</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6172</identificador>
+              <titulo>Anuncio de la Universidad de Santiago de Compostela sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="142909" szKBytes="140" pagina_inicial="9512" pagina_final="9512">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6172.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6172</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6172</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6173</identificador>
+              <titulo>Anuncio de la Facultad de Ciencias Sociales y Humanas de la Universidad de Deusto sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143545" szKBytes="140" pagina_inicial="9513" pagina_final="9513">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6173.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6173</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6173</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6174</identificador>
+              <titulo>Anuncio de la Facultad de Ciencias de la Educación de la Universidad de Sevilla sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143330" szKBytes="140" pagina_inicial="9514" pagina_final="9514">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6174.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6174</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6174</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6175</identificador>
+              <titulo>Anuncio de la Facultad de Química de la Universidad de Valencia sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143620" szKBytes="140" pagina_inicial="9515" pagina_final="9515">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6175.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6175</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6175</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6176</identificador>
+              <titulo>Anuncio de la Facultad de Ciencias Físicas de la Universidad Complutense de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="142862" szKBytes="140" pagina_inicial="9516" pagina_final="9516">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6176.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6176</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6176</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2023-6177</identificador>
+              <titulo>Anuncio de la Universidad de Córdoba sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143141" szKBytes="140" pagina_inicial="9517" pagina_final="9517">https://www.boe.es/boe/dias/2023/03/02/pdfs/BOE-B-2023-6177.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2023-6177</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2023-6177</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

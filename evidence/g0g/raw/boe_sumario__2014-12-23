@@ -1,0 +1,1824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20141223</fecha_publicacion>
+      </metadatos>
+      <diario numero="309">
+        <sumario_diario>
+          <identificador>BOE-S-2014-309</identificador>
+          <url_pdf szBytes="318307" szKBytes="311">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-S-2014-309.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="7723" nombre="JEFATURA DEL ESTADO">
+            <epigrafe nombre="Metrología">
+              <item>
+                <identificador>BOE-A-2014-13359</identificador>
+                <control>2014/13377</control>
+                <titulo>Ley 32/2014, de 22 de diciembre, de Metrología.</titulo>
+                <url_pdf szBytes="372111" szKBytes="363" pagina_inicial="104386" pagina_final="104408">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13359.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13359</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13359</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2014-13360</identificador>
+                <control>2014/13383</control>
+                <titulo>Real Decreto 1072/2014, de 19 de diciembre, por el que se crea la Agencia Estatal de Seguridad Ferroviaria y se aprueba su Estatuto.</titulo>
+                <url_pdf szBytes="373069" szKBytes="364" pagina_inicial="104409" pagina_final="104432">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13360.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13360</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13360</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2014-13361</identificador>
+                <control>2014/13304</control>
+                <titulo>Orden HAP/2415/2014, de 17 de diciembre, por la que se modifica la Orden PRE/3581/2007, de 10 de diciembre, por la que se establecen los departamentos de la Agencia Estatal de Administración Tributaria y se les atribuyen funciones y competencias.</titulo>
+                <url_pdf szBytes="158008" szKBytes="154" pagina_inicial="104433" pagina_final="104435">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13361.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13361</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13361</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <epigrafe nombre="Personas con discapacidad">
+              <item>
+                <identificador>BOE-A-2014-13362</identificador>
+                <control>2014/13384</control>
+                <titulo>Real Decreto 1056/2014, de 12 de diciembre, por el que se regulan las condiciones básicas de emisión y uso de la tarjeta de estacionamiento para personas con discapacidad.</titulo>
+                <url_pdf szBytes="187598" szKBytes="183" pagina_inicial="104436" pagina_final="104442">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13362.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13362</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13362</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2014-13363</identificador>
+                <control>2014/13309</control>
+                <titulo>Orden SSI/2416/2014, de 17 de diciembre, por la que se crea y regula el Centro de Referencia Estatal de Atención Psicosocial a Personas con Trastorno Mental Grave, en Valencia.</titulo>
+                <url_pdf szBytes="177322" szKBytes="173" pagina_inicial="104443" pagina_final="104447">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13363.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13363</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13363</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Medicamentos">
+              <item>
+                <identificador>BOE-A-2014-13364</identificador>
+                <control>2014/13385</control>
+                <titulo>Resolución de 15 de diciembre de 2014, de la Dirección General de Cartera Básica de Servicios del Sistema Nacional de Salud y Farmacia, por la que se procede a la actualización de la cuantía máxima correspondiente a los medicamentos pertenecientes a los grupos ATC de aportación reducida, y se actualizan los límites máximos de aportación mensual para las personas que ostenten la condición de asegurado como pensionistas de la Seguridad Social y sus beneficiarios en la prestación farmacéutica ambulatoria.</titulo>
+                <url_pdf szBytes="153197" szKBytes="150" pagina_inicial="104448" pagina_final="104449">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13364.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13364</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13364</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades financieras">
+              <item>
+                <identificador>BOE-A-2014-13365</identificador>
+                <control>2014/12891</control>
+                <titulo>Circular 5/2014, de 28 de noviembre, del Banco de España, por la que se modifican la Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, la Circular 1/2010, de 27 de enero, a entidades de crédito, sobre estadísticas de los tipos de interés que se aplican a los depósitos y a los créditos frente a los hogares y las sociedades no financieras, y la Circular 1/2013, de 24 de mayo, sobre la Central de Información de Riesgos.</titulo>
+                <url_pdf szBytes="17779266" szKBytes="17363" pagina_inicial="104450" pagina_final="104798">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13365.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13365</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13365</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Impuestos. Sector audiovisual">
+              <item>
+                <identificador>BOE-A-2014-13366</identificador>
+                <control>2014/13311</control>
+                <titulo>Ley 15/2014, de 4 de diciembre, del impuesto sobre la provisión de contenidos por parte de prestadores de servicios de comunicaciones electrónicas y de fomento del sector audiovisual y la difusión cultural digital.</titulo>
+                <url_pdf szBytes="181412" szKBytes="177" pagina_inicial="104799" pagina_final="104803">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13366.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13366</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13366</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Acción exterior">
+              <item>
+                <identificador>BOE-A-2014-13367</identificador>
+                <control>2014/13312</control>
+                <titulo>Ley 16/2014, de 4 de diciembre, de acción exterior y de relaciones con la Unión Europea.</titulo>
+                <url_pdf szBytes="289574" szKBytes="283" pagina_inicial="104804" pagina_final="104820">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13367.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13367</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13367</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8100" nombre="COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA">
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2014-13368</identificador>
+                <control>2014/13313</control>
+                <titulo>Ley 7/2014, de 21 de noviembre, de modificación de la Ley 6/2004, de 28 de diciembre, del Estatuto del Presidente y del Consejo de Gobierno de la Región de Murcia.</titulo>
+                <url_pdf szBytes="147442" szKBytes="144" pagina_inicial="104821" pagina_final="104821">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13368.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13368</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13368</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Medidas tributarias, administrativas y de función pública">
+              <item>
+                <identificador>BOE-A-2014-13369</identificador>
+                <control>2014/13314</control>
+                <titulo>Ley 8/2014, de 21 de noviembre, de Medidas Tributarias, de Simplificación Administrativa y en materia de Función Pública.</titulo>
+                <url_pdf szBytes="299500" szKBytes="292" pagina_inicial="104822" pagina_final="104839">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13369.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13369</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13369</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Ayudas. Medidas extraordinarias">
+              <item>
+                <identificador>BOE-A-2014-13370</identificador>
+                <control>2014/13315</control>
+                <titulo>Ley 9/2014, de 27 de noviembre, por la que se modifican la Ley 2/2012, de 11 de mayo, para la regulación del régimen de presupuestación y control en la Región de Murcia de las ayudas concedidas para reparar los daños causados por los movimientos sísmicos en Lorca, y la Ley 5/2011, de 26 de diciembre, de Medidas Fiscales Extraordinarias para el municipio de Lorca como consecuencia del terremoto del 11 de mayo de 2011.</titulo>
+                <url_pdf szBytes="176934" szKBytes="173" pagina_inicial="104840" pagina_final="104844">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13370.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13370</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13370</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Transporte público. Automóviles de turismo">
+              <item>
+                <identificador>BOE-A-2014-13371</identificador>
+                <control>2014/13316</control>
+                <titulo>Ley 10/2014, de 27 de noviembre, reguladora del transporte público de personas en vehículos de turismo por medio de taxi de la Comunidad Autónoma de la Región de Murcia.</titulo>
+                <url_pdf szBytes="291933" szKBytes="285" pagina_inicial="104845" pagina_final="104861">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13371.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13371</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13371</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Turismo">
+              <item>
+                <identificador>BOE-A-2014-13372</identificador>
+                <control>2014/13317</control>
+                <titulo>Ley 11/2014, de 27 de noviembre, de modificación de la Ley 12/2013, de 20 de diciembre, de Turismo de la Región de Murcia.</titulo>
+                <url_pdf szBytes="161543" szKBytes="158" pagina_inicial="104862" pagina_final="104864">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13372.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13372</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13372</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2014-13373</identificador>
+                <control>2014/13440</control>
+                <titulo>Corrección de errores del Acuerdo de 18 de diciembre de 2014, del Pleno del Consejo General del Poder Judicial, por el que se resuelve el concurso de méritos convocado por Acuerdo de la Comisión Permanente de 26 de diciembre de 2013, para la provisión del puesto de trabajo de Jefe del Servicio Central, en ejecución de la sentencia de la Sala Tercera del Tribunal Supremo de 3 de noviembre de 2014, dictada en el recurso contencioso-administrativo 2/161/2014</titulo>
+                <url_pdf szBytes="141171" szKBytes="138" pagina_inicial="104865" pagina_final="104865">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13373.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13373</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13373</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2014-13374</identificador>
+                <control>2014/13386</control>
+                <titulo>Orden JUS/2417/2014, de 16 de diciembre, por la que se resuelve el concurso general, convocado por Orden JUS/1553/2014, de 27 de agosto.</titulo>
+                <url_pdf szBytes="214606" szKBytes="210" pagina_inicial="104866" pagina_final="104871">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13374.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13374</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13374</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2014-13375</identificador>
+                <control>2014/13387</control>
+                <titulo>Orden JUS/2418/2014, de 18 de diciembre, por la que se resuelve el concurso específico, convocado por Orden JUS/1552/2014, de 27 de agosto.</titulo>
+                <url_pdf szBytes="203237" szKBytes="198" pagina_inicial="104872" pagina_final="104876">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13375.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13375</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13375</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2014-13376</identificador>
+                <control>2014/13395</control>
+                <titulo>Orden INT/2419/2014, de 16 de diciembre, por la que se nombra Subdirector General de Gestión de la Movilidad a don Jaime Alberto Moreno García-Cano.</titulo>
+                <url_pdf szBytes="142461" szKBytes="139" pagina_inicial="104877" pagina_final="104877">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13376.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13376</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13376</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2014-13377</identificador>
+                <control>2014/13237</control>
+                <titulo>Resolución de 15 de diciembre de 2014, de la Secretaría de Estado de Educación, Formación Profesional y Universidades, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 13 de noviembre de 2014.</titulo>
+                <url_pdf szBytes="151232" szKBytes="148" pagina_inicial="104878" pagina_final="104879">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13377.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13377</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13377</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2014-13378</identificador>
+                <control>2014/13408</control>
+                <titulo>Orden ECC/2420/2014, de 12 de diciembre, por la que se resuelve la convocatoria de libre designación, efectuada por Orden ECC/2027/2014, de 14 de octubre.</titulo>
+                <url_pdf szBytes="213954" szKBytes="209" pagina_inicial="104880" pagina_final="104881">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13378.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13378</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13378</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Carrera Fiscal">
+              <item>
+                <identificador>BOE-A-2014-13379</identificador>
+                <control>2014/13409</control>
+                <titulo>Orden JUS/2421/2014, de 18 de diciembre, por la que se modifica la Orden JUS/2333/2014, de 3 de diciembre, por la que se convoca concurso de traslados para la cobertura de plazas en el Ministerio Fiscal.</titulo>
+                <url_pdf szBytes="151470" szKBytes="148" pagina_inicial="104882" pagina_final="104883">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13379.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13379</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13379</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Cuerpo de Ayudantes de Archivos, Bibliotecas y Museos">
+              <item>
+                <identificador>BOE-A-2014-13380</identificador>
+                <control>2014/13411</control>
+                <titulo>Orden ECD/2422/2014, de 12 de diciembre, por la que se aprueba la lista de admitidos y excluidos y se anuncia la fecha y lugar de celebración del primer ejercicio del proceso selectivo para acceso, por el sistema de promoción interna, al Cuerpo de Ayudantes de Archivos, Bibliotecas y Museos, convocado por Orden ECD/1979/2014, de 20 de octubre.</titulo>
+                <url_pdf szBytes="147464" szKBytes="144" pagina_inicial="104884" pagina_final="104884">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13380.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13380</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13380</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuerpo Facultativo de Archiveros, Bibliotecarios y Arqueólogos">
+              <item>
+                <identificador>BOE-A-2014-13381</identificador>
+                <control>2014/13412</control>
+                <titulo>Orden ECD/2423/2014, de 12 de diciembre, por la que se aprueba la lista de admitidos y excluidos y se anuncia la fecha y lugar de celebración del primer ejercicio del proceso selectivo para acceso, por el sistema de promoción interna, al Cuerpo Facultativo de Archiveros, Bibliotecarios y Arqueólogos, convocado por Orden ECD/1980/2014, de 20 de octubre.</titulo>
+                <url_pdf szBytes="152767" szKBytes="149" pagina_inicial="104885" pagina_final="104886">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13381.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13381</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13381</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuerpo Facultativo de Conservadores de Museos">
+              <item>
+                <identificador>BOE-A-2014-13382</identificador>
+                <control>2014/13413</control>
+                <titulo>Orden ECD/2424/2014, de 12 de diciembre, por la que se aprueba la lista de admitidos y excluidos y se anuncia la fecha y lugar de celebración del primer ejercicio del proceso selectivo para acceso, por el sistema de promoción interna, al Cuerpo Facultativo de Conservadores de Museos, convocado por Orden ECD/2001/2014, de 20 de octubre.</titulo>
+                <url_pdf szBytes="147439" szKBytes="144" pagina_inicial="104887" pagina_final="104887">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13382.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13382</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13382</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Cuerpo de Gestión Procesal y Administrativa de la Administración de Justicia">
+              <item>
+                <identificador>BOE-A-2014-13383</identificador>
+                <control>2014/13244</control>
+                <titulo>Resolución de 2 de diciembre de 2014, del Departamento de Justicia, por la que se resuelve la convocatoria del concurso específico, para la provisión de puestos de trabajo en la oficina judicial en Cornellà de Llobregat, convocado por Resolución de 10 de noviembre de 2014.</titulo>
+                <url_pdf szBytes="145564" szKBytes="142" pagina_inicial="104888" pagina_final="104888">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13383.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13383</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13383</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2014-13384</identificador>
+                <control>2014/13249</control>
+                <titulo>Resolución de 11 de diciembre de 2014, del Ayuntamiento de Jarandilla de la Vera (Cáceres), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="137959" szKBytes="135" pagina_inicial="104889" pagina_final="104889">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13384.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13384</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13384</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2014-13385</identificador>
+                <control>2014/13250</control>
+                <titulo>Resolución de 11 de diciembre de 2014, del Ayuntamiento de La Pobla del Duc (Valencia), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="137944" szKBytes="135" pagina_inicial="104890" pagina_final="104890">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13385.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13385</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13385</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="1220" nombre="CORTES GENERALES">
+            <epigrafe nombre="Becas">
+              <item>
+                <identificador>BOE-A-2014-13386</identificador>
+                <control>2014/13323</control>
+                <titulo>Acuerdo de 9 de diciembre de 2014, de la Mesa del Congreso de los Diputados, por el que se conceden becas para la formación práctica de Archiveros, Bibliotecarios y Documentalistas, convocadas por Acuerdo de 7 de octubre de 2014.</titulo>
+                <url_pdf szBytes="148877" szKBytes="145" pagina_inicial="104891" pagina_final="104892">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13386.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13386</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13386</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Registros de la Propiedad, Mercantiles y de Bienes Muebles">
+              <item>
+                <identificador>BOE-A-2014-13387</identificador>
+                <control>2014/13420</control>
+                <titulo>Instrucción de 15 de diciembre de 2014, de la Dirección General de los Registros y del Notariado, por la que se modifica la de 31 de mayo de 2012, por la que se aprueban las normas para la designación de registrador interino y accidental.</titulo>
+                <url_pdf szBytes="143544" szKBytes="140" pagina_inicial="104893" pagina_final="104893">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13387.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13387</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13387</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Cartas de servicios">
+              <item>
+                <identificador>BOE-A-2014-13388</identificador>
+                <control>2014/13186</control>
+                <titulo>Resolución de 11 de diciembre de 2014, de la Subsecretaría, por la que se actualiza la Carta de servicios de la Subdelegación del Gobierno en Segovia.</titulo>
+                <url_pdf szBytes="141536" szKBytes="138" pagina_inicial="104894" pagina_final="104894">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13388.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13388</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13388</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma de Aragón. Convenio">
+              <item>
+                <identificador>BOE-A-2014-13389</identificador>
+                <control>2014/13185</control>
+                <titulo>Resolución de 9 de diciembre de 2014, de la Secretaría de Estado de Administraciones Públicas, por la que se publica el Acuerdo de prórroga al Convenio marco con la Comunidad Autónoma de Aragón para la implantación de una red de oficinas integradas de atención al ciudadano.</titulo>
+                <url_pdf szBytes="160313" szKBytes="157" pagina_inicial="104895" pagina_final="104897">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13389.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13389</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13389</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma de Cataluña. Convenio">
+              <item>
+                <identificador>BOE-A-2014-13390</identificador>
+                <control>2014/13184</control>
+                <titulo>Resolución de 2 de diciembre de 2014, de la Secretaría de Estado de Administraciones Públicas, por la que se publica el Acuerdo de prórroga al Convenio marco con la Generalidad de Cataluña para la implantación de un modelo integrado de atención al ciudadano.</titulo>
+                <url_pdf szBytes="159398" szKBytes="156" pagina_inicial="104898" pagina_final="104900">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13390.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13390</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13390</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad de Madrid. Convenio">
+              <item>
+                <identificador>BOE-A-2014-13391</identificador>
+                <control>2014/13187</control>
+                <titulo>Resolución de 12 de diciembre de 2014, de la Dirección General del Patrimonio del Estado, por la que se publica el Convenio de colaboración con la Comunidad de Madrid sobre diversas actuaciones de coordinación en materia de contratación pública.</titulo>
+                <url_pdf szBytes="218095" szKBytes="213" pagina_inicial="104901" pagina_final="104910">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13391.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13391</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13391</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Delegación de competencias">
+              <item>
+                <identificador>BOE-A-2014-13392</identificador>
+                <control>2014/13182</control>
+                <titulo>Orden HAP/2425/2014, de 15 de diciembre, sobre delegación de la gestión censal del Impuesto sobre Actividades Económicas.</titulo>
+                <url_pdf szBytes="148495" szKBytes="145" pagina_inicial="104911" pagina_final="104912">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13392.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13392</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13392</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2014-13393</identificador>
+                <control>2014/13183</control>
+                <titulo>Orden HAP/2426/2014, de 15 de diciembre, sobre delegación de la inspección del Impuesto sobre Actividades Económicas.</titulo>
+                <url_pdf szBytes="162867" szKBytes="159" pagina_inicial="104913" pagina_final="104915">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13393.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13393</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13393</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2014-13394</identificador>
+                <control>2014/13422</control>
+                <titulo>Resolución de 19 de diciembre de 2014, de la Dirección General de Tráfico, por la que se resuelve la convocatoria de subvenciones destinadas al desarrollo de actividades y proyectos de investigación en el área de tráfico, movilidad y seguridad vial, correspondientes al ejercicio 2014.</titulo>
+                <url_pdf szBytes="281966" szKBytes="275" pagina_inicial="104916" pagina_final="104921">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13394.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13394</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13394</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Ayudas">
+              <item>
+                <identificador>BOE-A-2014-13395</identificador>
+                <control>2014/13198</control>
+                <titulo>Resolución de 3 de diciembre de 2014, de la Secretaría de Estado de Cultura, por la que se conceden ayudas, en régimen de concurrencia competitiva, para el fomento de la traducción a lenguas extranjeras.</titulo>
+                <url_pdf szBytes="302054" szKBytes="295" pagina_inicial="104922" pagina_final="104930">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13395.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13395</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13395</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cartas de servicios">
+              <item>
+                <identificador>BOE-A-2014-13396</identificador>
+                <control>2014/13200</control>
+                <titulo>Resolución de 10 de diciembre de 2014, de la Subsecretaría, por la que se aprueba la actualización de la Carta de servicios del Archivo Histórico Nacional.</titulo>
+                <url_pdf szBytes="141231" szKBytes="138" pagina_inicial="104931" pagina_final="104931">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13396.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13396</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13396</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Enseñanzas deportivas">
+              <item>
+                <identificador>BOE-A-2014-13397</identificador>
+                <control>2014/13197</control>
+                <titulo>Resolución de 2 de diciembre de 2014, de la Presidencia del Consejo Superior de Deportes, por la que se publica el plan formativo de la especialidad deportiva de Hapkido.</titulo>
+                <url_pdf szBytes="321475" szKBytes="314" pagina_inicial="104932" pagina_final="104948">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13397.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13397</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13397</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Museo Nacional del Prado. Precios públicos">
+              <item>
+                <identificador>BOE-A-2014-13398</identificador>
+                <control>2014/12733</control>
+                <titulo>Resolución de 27 de noviembre de 2014, del Museo Nacional del Prado, por la que se publica el Acuerdo de la Comisión Permanente del Real Patronato por el que se modifica la Resolución de 22 de febrero de 2013, por la que se establecen los precios por prestación de servicios y actividades del Museo.</titulo>
+                <url_pdf szBytes="150674" szKBytes="147" pagina_inicial="104949" pagina_final="104950">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13398.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13398</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13398</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <epigrafe nombre="Becas">
+              <item>
+                <identificador>BOE-A-2014-13399</identificador>
+                <control>2014/13208</control>
+                <titulo>Orden AAA/2427/2014, de 24 de noviembre, por la que se convocan, para el ejercicio 2015, becas de formación práctica en el área de desarrollo rural y política forestal, para titulados superiores.</titulo>
+                <url_pdf szBytes="270137" szKBytes="264" pagina_inicial="104951" pagina_final="104956">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13399.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13399</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13399</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2014-13400</identificador>
+                <control>2014/13211</control>
+                <titulo>Resolución de 9 de diciembre de 2014, de la Entidad Estatal de Seguros Agrarios, por la que se prorroga la beca de formación práctica en materia de seguros agrarios, convocada por Orden AAA/831/2014, de 12 de mayo.</titulo>
+                <url_pdf szBytes="145063" szKBytes="142" pagina_inicial="104957" pagina_final="104957">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13400.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13400</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13400</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <epigrafe nombre="Instituto de Salud Carlos III. Cuentas anuales">
+              <item>
+                <identificador>BOE-A-2014-13401</identificador>
+                <control>2014/13213</control>
+                <titulo>Resolución de 25 de noviembre de 2014, del Instituto de Salud Carlos III, por la que se publican las cuentas anuales del ejercicio 2013 y el informe de auditoría.</titulo>
+                <url_pdf szBytes="2061017" szKBytes="2013" pagina_inicial="104958" pagina_final="105013">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13401.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13401</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13401</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <epigrafe nombre="Subvenciones">
+              <item>
+                <identificador>BOE-A-2014-13402</identificador>
+                <control>2014/13216</control>
+                <titulo>Resolución de 5 de diciembre de 2014, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica la concesión de subvenciones dirigidas a la pequeña y mediana empresa y otras entidades para la elaboración e implantación de planes de igualdad, correspondientes al año 2014, convocadas por Resolución de 13 de mayo de 2014.</titulo>
+                <url_pdf szBytes="313395" szKBytes="306" pagina_inicial="105014" pagina_final="105018">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13402.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13402</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13402</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1430" nombre="TRIBUNAL SUPREMO">
+            <epigrafe nombre="Conflictos de jurisdicción">
+              <item>
+                <identificador>BOE-A-2014-13403</identificador>
+                <control>2014/13217</control>
+                <titulo>Conflicto de jurisdicción n.º 2/2014, suscitado entre el Juzgado Togado Militar Central n.º 1 de Madrid y el Juzgado de Instrucción n.º 23 de Barcelona.</titulo>
+                <url_pdf szBytes="267159" szKBytes="261" pagina_inicial="105019" pagina_final="105032">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13403.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13403</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13403</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1440" nombre="TRIBUNAL DE CONFLICTOS DE JURISDICCIÓN">
+            <epigrafe nombre="Conflictos de jurisdicción">
+              <item>
+                <identificador>BOE-A-2014-13404</identificador>
+                <control>2014/13220</control>
+                <titulo>Conflicto de jurisdicción n.º 6/2014, suscitado entre el Juzgado de lo Mercantil n.º 9 de Madrid y la Tesorería General de la Seguridad Social de Madrid.</titulo>
+                <url_pdf szBytes="187719" szKBytes="183" pagina_inicial="105033" pagina_final="105039">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13404.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13404</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13404</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2014-13405</identificador>
+                <control>2014/13218</control>
+                <titulo>Conflicto de jurisdicción n.º 7/2014, suscitado por el Ayuntamiento de Cortegana y el Juzgado de Primera Instancia e Instrucción n.º 1 de Aracena.</titulo>
+                <url_pdf szBytes="163282" szKBytes="159" pagina_inicial="105040" pagina_final="105043">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13405.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13405</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13405</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2014-13406</identificador>
+                <control>2014/13219</control>
+                <titulo>Conflicto de jurisdicción n.º 8/2014, suscitado por el Ayuntamiento de Cortegana y el Juzgado de Primera Instancia e Instrucción n.º 1 de Aracena.</titulo>
+                <url_pdf szBytes="173053" szKBytes="169" pagina_inicial="105044" pagina_final="105048">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13406.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13406</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13406</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2014-13407</identificador>
+                <control>2014/13436</control>
+                <titulo>Resolución de 22 de diciembre de 2014, del Banco de España, por la que se publican los cambios del euro correspondientes al día 22 de diciembre de 2014, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="167036" szKBytes="163" pagina_inicial="105049" pagina_final="105049">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13407.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13407</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13407</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1040" nombre="COMISIÓN NACIONAL DEL MERCADO DE VALORES">
+            <epigrafe nombre="Sociedades de valores">
+              <item>
+                <identificador>BOE-A-2014-13408</identificador>
+                <control>2014/13224</control>
+                <titulo>Resolución de 5 de diciembre de 2014, de la Comisión Nacional del Mercado de Valores, por la que se publica la baja de la agencia de valores, Gesmosa-GBI, Agencia de Valores, SA en el correspondiente Registro.</titulo>
+                <url_pdf szBytes="139188" szKBytes="136" pagina_inicial="105050" pagina_final="105050">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13408.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13408</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13408</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2014-13409</identificador>
+                <control>2014/13225</control>
+                <titulo>Resolución de 5 de diciembre de 2014, de la Comisión Nacional del Mercado de Valores, por la que se publica la baja de la sociedad de valores, Aca, SA, Sociedad de Valores, SA en el correspondiente Registro.</titulo>
+                <url_pdf szBytes="137864" szKBytes="135" pagina_inicial="105051" pagina_final="105051">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13409.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13409</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13409</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8080" nombre="COMUNIDAD AUTÓNOMA DE EXTREMADURA">
+            <epigrafe nombre="Competencias profesionales">
+              <item>
+                <identificador>BOE-A-2014-13410</identificador>
+                <control>2014/13343</control>
+                <titulo>Orden de 12 de diciembre de 2014, de las Consejerías de Empleo, Mujer y Políticas Sociales y de Educación y Cultura, por la que se publica la convocatoria de procedimiento de reconocimiento, evaluación y acreditación de competencias profesionales, adquiridas a través de la experiencia laboral o de vías no formales de formación.</titulo>
+                <url_pdf szBytes="186646" szKBytes="182" pagina_inicial="105052" pagina_final="105053">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-A-2014-13410.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-13410</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-13410</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2014-45041</identificador>
+              <titulo>ALMERÍA</titulo>
+              <url_pdf szBytes="158961" szKBytes="155" pagina_inicial="60981" pagina_final="60981">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45041.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45041</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45041</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45042</identificador>
+              <titulo>CUENCA</titulo>
+              <url_pdf szBytes="160373" szKBytes="157" pagina_inicial="60982" pagina_final="60983">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45042.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45042</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45042</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45043</identificador>
+              <titulo>LUGO</titulo>
+              <url_pdf szBytes="155317" szKBytes="152" pagina_inicial="60984" pagina_final="60984">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45043.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45043</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45043</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45044</identificador>
+              <titulo>LUGO</titulo>
+              <url_pdf szBytes="154808" szKBytes="151" pagina_inicial="60985" pagina_final="60985">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45044.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45044</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45044</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45045</identificador>
+              <titulo>LUGO</titulo>
+              <url_pdf szBytes="155319" szKBytes="152" pagina_inicial="60986" pagina_final="60986">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45045.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45045</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45045</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45046</identificador>
+              <titulo>LUGO</titulo>
+              <url_pdf szBytes="155444" szKBytes="152" pagina_inicial="60987" pagina_final="60987">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45046.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45046</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45046</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45047</identificador>
+              <titulo>LUGO</titulo>
+              <url_pdf szBytes="155362" szKBytes="152" pagina_inicial="60988" pagina_final="60988">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45047.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45047</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45047</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45048</identificador>
+              <titulo>LUGO</titulo>
+              <url_pdf szBytes="155101" szKBytes="151" pagina_inicial="60989" pagina_final="60989">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45048.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45048</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45048</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45049</identificador>
+              <titulo>MARBELLA</titulo>
+              <url_pdf szBytes="157382" szKBytes="154" pagina_inicial="60990" pagina_final="60990">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45049.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45049</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45049</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45050</identificador>
+              <titulo>SEGOVIA</titulo>
+              <url_pdf szBytes="157665" szKBytes="154" pagina_inicial="60991" pagina_final="60991">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45050.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45050</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45050</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45051</identificador>
+              <titulo>SEGOVIA</titulo>
+              <url_pdf szBytes="155072" szKBytes="151" pagina_inicial="60992" pagina_final="60992">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45051.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45051</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45051</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45052</identificador>
+              <titulo>SORIA</titulo>
+              <url_pdf szBytes="155960" szKBytes="152" pagina_inicial="60993" pagina_final="60993">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45052.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45052</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45052</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45053</identificador>
+              <titulo>VILLABLINO</titulo>
+              <url_pdf szBytes="157953" szKBytes="154" pagina_inicial="60994" pagina_final="60994">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45053.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45053</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45053</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2014-45054</identificador>
+              <titulo>ALMERÍA</titulo>
+              <url_pdf szBytes="153892" szKBytes="150" pagina_inicial="60995" pagina_final="60995">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45054.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45054</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45054</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45055</identificador>
+              <titulo>ALMERÍA</titulo>
+              <url_pdf szBytes="153769" szKBytes="150" pagina_inicial="60996" pagina_final="60996">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45055.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45055</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45055</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45056</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="158724" szKBytes="155" pagina_inicial="60997" pagina_final="60997">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45056.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45056</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45056</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45057</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="153444" szKBytes="150" pagina_inicial="60998" pagina_final="60998">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45057.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45057</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45057</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45058</identificador>
+              <titulo>BILBAO</titulo>
+              <url_pdf szBytes="155556" szKBytes="152" pagina_inicial="60999" pagina_final="60999">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45058.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45058</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45058</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45059</identificador>
+              <titulo>CIUDAD REAL</titulo>
+              <url_pdf szBytes="155469" szKBytes="152" pagina_inicial="61000" pagina_final="61000">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45059.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45059</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45059</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45060</identificador>
+              <titulo>CIUDAD REAL</titulo>
+              <url_pdf szBytes="159259" szKBytes="156" pagina_inicial="61001" pagina_final="61001">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45060.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45060</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45060</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45061</identificador>
+              <titulo>CIUDAD REAL</titulo>
+              <url_pdf szBytes="157255" szKBytes="154" pagina_inicial="61002" pagina_final="61002">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45061.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45061</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45061</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45062</identificador>
+              <titulo>CÓRDOBA</titulo>
+              <url_pdf szBytes="156138" szKBytes="152" pagina_inicial="61003" pagina_final="61003">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45062.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45062</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45062</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45063</identificador>
+              <titulo>LOGROÑO</titulo>
+              <url_pdf szBytes="156007" szKBytes="152" pagina_inicial="61004" pagina_final="61004">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45063.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45063</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45063</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45064</identificador>
+              <titulo>LUGO</titulo>
+              <url_pdf szBytes="154947" szKBytes="151" pagina_inicial="61005" pagina_final="61005">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45064.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45064</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45064</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45065</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="157096" szKBytes="153" pagina_inicial="61006" pagina_final="61006">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45065.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45065</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45065</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45066</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="157630" szKBytes="154" pagina_inicial="61007" pagina_final="61007">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45066.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45066</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45066</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45067</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="157783" szKBytes="154" pagina_inicial="61008" pagina_final="61008">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45067.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45067</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45067</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45068</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="157214" szKBytes="154" pagina_inicial="61009" pagina_final="61009">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45068.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45068</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45068</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45069</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="157604" szKBytes="154" pagina_inicial="61010" pagina_final="61010">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45069.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45069</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45069</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45070</identificador>
+              <titulo>MADRID</titulo>
+              <url_pdf szBytes="157606" szKBytes="154" pagina_inicial="61011" pagina_final="61011">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45070.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45070</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45070</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45071</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="159670" szKBytes="156" pagina_inicial="61012" pagina_final="61012">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45071.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45071</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45071</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45072</identificador>
+              <titulo>MURCIA</titulo>
+              <url_pdf szBytes="153361" szKBytes="150" pagina_inicial="61013" pagina_final="61013">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45072.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45072</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45072</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45073</identificador>
+              <titulo>PONTEVEDRA</titulo>
+              <url_pdf szBytes="154167" szKBytes="151" pagina_inicial="61014" pagina_final="61014">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45073.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45073</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45073</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45074</identificador>
+              <titulo>SANTANDER</titulo>
+              <url_pdf szBytes="158060" szKBytes="154" pagina_inicial="61015" pagina_final="61015">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45074.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45074</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45074</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45075</identificador>
+              <titulo>SANTANDER</titulo>
+              <url_pdf szBytes="156716" szKBytes="153" pagina_inicial="61016" pagina_final="61016">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45075.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45075</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45075</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45076</identificador>
+              <titulo>SEVILLA</titulo>
+              <url_pdf szBytes="156374" szKBytes="153" pagina_inicial="61017" pagina_final="61017">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45076.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45076</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45076</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45077</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="156793" szKBytes="153" pagina_inicial="61018" pagina_final="61018">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45077.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45077</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45077</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45078</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="155991" szKBytes="152" pagina_inicial="61019" pagina_final="61019">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45078.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45078</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45078</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45079</identificador>
+              <titulo>VALENCIA</titulo>
+              <url_pdf szBytes="158087" szKBytes="154" pagina_inicial="61020" pagina_final="61020">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45079.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45079</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45079</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45080</identificador>
+              <titulo>ZARAGOZA</titulo>
+              <url_pdf szBytes="154409" szKBytes="151" pagina_inicial="61021" pagina_final="61021">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45080.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45080</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45080</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9545" nombre="REQUISITORIAS">
+            <item>
+              <identificador>BOE-B-2014-45081</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES CIVILES</titulo>
+              <url_pdf szBytes="156726" szKBytes="153" pagina_inicial="61022" pagina_final="61022">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45081.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45081</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45081</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9556" nombre="ANULACIONES">
+            <item>
+              <identificador>BOE-B-2014-45082</identificador>
+              <titulo>JUZGADOS Y TRIBUNALES MILITARES</titulo>
+              <url_pdf szBytes="156210" szKBytes="153" pagina_inicial="61023" pagina_final="61023">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45082.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45082</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45082</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Anuncios de licitaciones públicas y adjudicaciones">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2014-45083</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de la Unidad de Contratación y Gestión Económica del Ejército del Aire. Objeto: Suministro hangar desplegable para SEADA/B.A. Morón/Sevilla (20147207). Expediente: 4023014013800.</titulo>
+              <url_pdf szBytes="168306" szKBytes="164" pagina_inicial="61024" pagina_final="61024">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45083.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45083</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45083</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45084</identificador>
+              <titulo>Anuncio de formalización de contratos de: Sección de Asuntos Económicos de las Fuerzas Ligeras. Objeto: Adquisición materiales ejecución edificio PCZURB CMT "Batiellas". Expediente: 20140034400280.</titulo>
+              <url_pdf szBytes="167325" szKBytes="163" pagina_inicial="61025" pagina_final="61025">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45084.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45084</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45084</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45085</identificador>
+              <titulo>Anuncio de formalización de contratos de: Sección de Asuntos Económicos de las Fuerzas Ligeras. Objeto: Adquisición materiales ejecución edificio PCZURB CMT "Batiellas". Expediente: 20140034400280.</titulo>
+              <url_pdf szBytes="167538" szKBytes="164" pagina_inicial="61026" pagina_final="61026">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45085.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45085</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45085</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45086</identificador>
+              <titulo>Anuncio de formalización de contratos de: Sección de Asuntos Económicos de las Fuerzas Ligeras. Objeto: Adquisición materiales ejecución edificio PCZURB CMT "Batiellas". Expediente: 20140034400280.</titulo>
+              <url_pdf szBytes="167519" szKBytes="164" pagina_inicial="61027" pagina_final="61027">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45086.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45086</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45086</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45087</identificador>
+              <titulo>Anuncio de formalización de contratos de: Sección de Asuntos Económicos de las Fuerzas Ligeras. Objeto: Adquisición materiales ejecución edificio PCZURB CMT "Batiellas". Expediente: 20140034400280.</titulo>
+              <url_pdf szBytes="167842" szKBytes="164" pagina_inicial="61028" pagina_final="61028">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45087.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45087</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45087</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45088</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de la Unidad de Contratación y Gestión Económica del Ejército del Aire. Objeto: Suministro edificio modular desmontable multipropósito para el Seada/B.A. Morón/Sevilla (20147210). Expediente: 4023014014900.</titulo>
+              <url_pdf szBytes="167126" szKBytes="163" pagina_inicial="61029" pagina_final="61029">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45088.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45088</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45088</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45089</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de Adquisiciones de Armamento y Material DGAM. Objeto: Optimización, adaptación y fabricación de un prototipo operativo de kit de guiado por láser semiactivo, con sistema de guiado, navegación y control (GNC), compatible con el cohete Aire-Tierra de 70 mm. Expediente: 1003214013400.</titulo>
+              <url_pdf szBytes="168295" szKBytes="164" pagina_inicial="61030" pagina_final="61030">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45089.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45089</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45089</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45090</identificador>
+              <titulo>Anuncio de licitación de: Inspección General de Sanidad de la Defensa. Objeto: Mantenimiento de instalaciones de climatización frío-calor, sistemas contraincendios y electrónico (no electromedicina) 2015 HGD Zaragoza. Expediente: 2014/SP01410010/00000306.</titulo>
+              <url_pdf szBytes="176644" szKBytes="173" pagina_inicial="61031" pagina_final="61032">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45090.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45090</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45090</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45091</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de la Unidad de Contratación y Gestión Económica del Ejército del Aire. Objeto: Mantenimiento de rotables de aviones E.24 (20145221). Expediente: 4023014016400.</titulo>
+              <url_pdf szBytes="166114" szKBytes="162" pagina_inicial="61033" pagina_final="61033">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45091.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45091</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45091</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45092</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Contratación del Ejército del Aire. Objeto: Acuerdo Marco para el suministro de productos alimenticios no perecederos en diversas unidades, centros y organismos (UCOS´s) del Ejército del Aire. Expediente: 4049814000200.</titulo>
+              <url_pdf szBytes="174394" szKBytes="170" pagina_inicial="61034" pagina_final="61036">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45092.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45092</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45092</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45093</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de la Sección Económico- Financiera de la Dirección General de Infraestructura. Objeto: Actualización y soporte técnico de las licencias software corporativas Microsoft del Ministerio de Defensa. Expediente: 1/00/42/14/0223.</titulo>
+              <url_pdf szBytes="167220" szKBytes="163" pagina_inicial="61037" pagina_final="61037">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45093.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45093</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45093</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45094</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de la Sección Económico-Administrativa 22 - Base Aérea de Torrejón (Agrupación de base). Objeto: Servicio de mantenimiento y reparación en instalaciones e infraestructuras del campo de golf. Expediente: 4220014052400.</titulo>
+              <url_pdf szBytes="166519" szKBytes="163" pagina_inicial="61038" pagina_final="61038">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45094.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45094</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45094</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45095</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de la Sección Económico-Administrativa 22 - Base Aérea de Torrejón (Agrupación de Base). Objeto: Adquisición de productos cárnicos para el comedor de la Base Aérea de Torrejón. Expediente: 4220014047800.</titulo>
+              <url_pdf szBytes="166264" szKBytes="162" pagina_inicial="61039" pagina_final="61039">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45095.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45095</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45095</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2014-45096</identificador>
+              <titulo>Anuncio de formalización de contratos de: Delegación Especial de la Agencia Tributaria en Extremadura. Objeto: Servicio limpieza Delegación Especial Extremadura y Admnes. de su ámbito. Expediente: 14B00135400.</titulo>
+              <url_pdf szBytes="165400" szKBytes="162" pagina_inicial="61040" pagina_final="61040">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45096.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45096</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45096</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45097</identificador>
+              <titulo>Anuncio de licitación de: Junta de Contratación del Ministerio de Hacienda y Administraciones Públicas. Objeto: Servicio de conservación de diversos inmuebles adscritos al Ministerio de Hacienda y Administraciones Públicas. Expediente: 100/14/01.</titulo>
+              <url_pdf szBytes="175152" szKBytes="171" pagina_inicial="61041" pagina_final="61042">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45097.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45097</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45097</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45098</identificador>
+              <titulo>Resolución de la Delegación de Economía y Hacienda en Córdoba por la que se convoca subasta pública de bienes inmuebles urbanos el día veinticuatro de febrero de 2015.</titulo>
+              <url_pdf szBytes="191109" szKBytes="187" pagina_inicial="61043" pagina_final="61047">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45098.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45098</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45098</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45099</identificador>
+              <titulo>Resolución de la Delegación Especial de Castilla y León de la Agencia Tributaria por la que se anuncia procedimiento abierto para contratar el servicio de limpieza de la Delegación de León y de las Administraciones de Astorga y Ponferrada.</titulo>
+              <url_pdf szBytes="173005" szKBytes="169" pagina_inicial="61048" pagina_final="61049">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45099.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45099</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45099</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2014-45100</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de Carreteras. Objeto: Ejecución de diversas operaciones de conservación y explotación en la A-30., pp.kk. 151,0000 al 193,0260 (Puerto de la Cadena-Cartagena). Expediente: 30.69/14-2; 51-MU-0306.</titulo>
+              <url_pdf szBytes="168724" szKBytes="165" pagina_inicial="61050" pagina_final="61050">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45100.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45100</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45100</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45101</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de Carreteras. Objeto: Ejecución de diversas operaciones de conservación y explotación en la A-23 (autovía Mudéjar). Expediente: 30.1/14-2; 51-TE-0205.</titulo>
+              <url_pdf szBytes="167457" szKBytes="164" pagina_inicial="61051" pagina_final="61051">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45101.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45101</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45101</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45102</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de Carreteras. Objeto: Ejecución de diversas operaciones de conservación y explotación en la N-240 de Tarragona a San Sebastián. Expediente: 30.66/14-2; 51-HU-0603.</titulo>
+              <url_pdf szBytes="169238" szKBytes="165" pagina_inicial="61052" pagina_final="61052">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45102.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45102</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45102</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45103</identificador>
+              <titulo>Resolución de la Entidad Pública Empresarial Administrador de Infraestructuras Ferroviarias por la que se anuncia la licitación por procedimiento abierto con un solo criterio de adjudicación del contrato de "servicio de maniobras ferroviarias en el complejo ferroportuario de Valencia".</titulo>
+              <url_pdf szBytes="172491" szKBytes="168" pagina_inicial="61053" pagina_final="61054">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45103.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45103</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45103</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45104</identificador>
+              <titulo>Anuncio de la Autoridad Portuaria de Ferrol-San Cibrao de licitación por procedimiento abierto para la adjudicación de los trabajos de "Asistencia técnica de coordinación de seguridad y salud en las obras y proyectos de construcción promovidos por la Autoridad Portuaria de Ferrol-San Cibrao y apoyo en seguridad (años 2015-2017)".</titulo>
+              <url_pdf szBytes="177501" szKBytes="173" pagina_inicial="61055" pagina_final="61056">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45104.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45104</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45104</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45105</identificador>
+              <titulo>Acuerdo del Consejo de Administración de la Autoridad Portuaria de Santander, de 17 de diciembre de 2014, por el que se convoca concurso para la selección de una oferta para la tramitación de expediente de concesión de la caseta de bombas del dique de Gamazo, con destino a instalación de hostelería y centro de interpretación.</titulo>
+              <url_pdf szBytes="161159" szKBytes="157" pagina_inicial="61057" pagina_final="61057">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45105.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45105</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45105</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2014-45106</identificador>
+              <titulo>Resolución de la Gerencia de Infraestructuras y Equipamientos, de fecha 9 diciembre de 2014, por la que se hace pública la formalización del contrato por procedimiento abierto con varios criterios de adjudicación del suministro de fabricación e instalación del proyecto expositivo de las salas de Bellas Artes del Museo de Mallorca, Palma de Mallorca (Illes Balears).</titulo>
+              <url_pdf szBytes="167573" szKBytes="164" pagina_inicial="61058" pagina_final="61058">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45106.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45106</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45106</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45107</identificador>
+              <titulo>Resolución de la Gerencia de Infraestructuras y Equipamientos, de fecha 9 de diciembre de 2014, por la que se hace pública la formalización del contrato por procedimiento abierto, con varios criterios de adjudicación, para la contratación del servicio para la redacción del anteproyecto, de los proyectos básico, de ejecución y de actividad, realización de trabajos complementarios y dirección y coordinación de seguridad y salud en fase de ejecución de las obras de rehabilitación arquitectónica del Museo Arqueológico Provincial de Ourense.</titulo>
+              <url_pdf szBytes="167617" szKBytes="164" pagina_inicial="61059" pagina_final="61059">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45107.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45107</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45107</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45108</identificador>
+              <titulo>Resolución del Instituto Nacional de las Artes Escénicas y de la Música por la que se hace pública la formalización del contrato del procedimiento abierto para el servicio de transporte por vía terrestre para giras, representaciones musicales y teatrales del material escenográfico, técnico, vestuario e instrumentos musicales de los centros dependientes del Instituto Nacional de las Artes Escénicas y de la Música. (M140014).</titulo>
+              <url_pdf szBytes="166854" szKBytes="163" pagina_inicial="61060" pagina_final="61060">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45108.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45108</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45108</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45109</identificador>
+              <titulo>Resolución de la Dirección General de Evaluación y Cooperación Territorial por la que se anuncia procedimiento abierto para la contratación de los "Servicios de mantenimiento de sistemas de comunicación telemática, sistemas servidores de Internet, administración de bases de datos y apoyo a la implantación de proyectos de Internet y a la gestión técnica de aplicaciones alojadas en el Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado".</titulo>
+              <url_pdf szBytes="175492" szKBytes="171" pagina_inicial="61061" pagina_final="61062">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45109.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45109</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45109</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45110</identificador>
+              <titulo>Resolución de la Dirección General de Evaluación y Cooperación Territorial por la que se anuncia procedimiento abierto para la contratación de un "Servicio de mantenimiento de mecanización de salas de juntas y aulas de formación, redes de datos, microinformática y gestión de inventario del Instituto Nacional de Tecnologías Educativas y de Formación del Profesorado".</titulo>
+              <url_pdf szBytes="175548" szKBytes="171" pagina_inicial="61063" pagina_final="61064">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45110.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45110</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45110</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45111</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General del Instituto Nacional de las Artes Escénicas y de la Música. Objeto: Contratación de una orquesta para las temporadas 2015-2017 por parte del Teatro de la Zarzuela. Expediente: 14C2056.</titulo>
+              <url_pdf szBytes="167249" szKBytes="163" pagina_inicial="61065" pagina_final="61065">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45111.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45111</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45111</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <item>
+              <identificador>BOE-B-2014-45112</identificador>
+              <titulo>Resolución de la Dirección Provincial del Instituto Nacional de la Seguridad Social de A Coruña, de 04/12/2014, por la que se anuncia la formalización del contrato para el suministro de energía eléctrica de la Dirección Provincial de INSS y sus Centros dependientes de A Coruña.</titulo>
+              <url_pdf szBytes="167905" szKBytes="164" pagina_inicial="61066" pagina_final="61066">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45112.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45112</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45112</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45113</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Valladolid por la que se anuncia la formalización del contrato relativo al expediente 2-47/VC-2/15, para el servicio de mantenimiento de las DD.PP de la Tesorería General de la Seguridad Social y del Instituto Nacional de la Seguridad Social en Valladolid y provincia.</titulo>
+              <url_pdf szBytes="166570" szKBytes="163" pagina_inicial="61067" pagina_final="61067">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45113.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45113</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45113</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45114</identificador>
+              <titulo>Anuncio de la Dirección General de la Tesorería General de la Seguridad Social mediante el que se hace pública la licitación del expediente de contratación 7001/15G, para la realización del suministro de treinta mil tarjetas de control de presencia con destino a la Gerencia de Informática de la Seguridad Social.</titulo>
+              <url_pdf szBytes="175049" szKBytes="171" pagina_inicial="61068" pagina_final="61069">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45114.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45114</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45114</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9219" nombre="MINISTERIO DE INDUSTRIA, ENERGÍA Y TURISMO">
+            <item>
+              <identificador>BOE-B-2014-45115</identificador>
+              <titulo>Anuncio del Instituto para la Reestructuración de la Minería del Carbón y Desarrollo Alternativo de las Comarcas Mineras.Objeto: Servicio relacionado con el pago de ayudas por costes laborales mediante prejubilaciones derivadas de los planes del carbón y el pago de ayudas destinados a cubrir costes excepionales al amparo de la Decisión 2010/787/UE del Consejo, de 10 de diciembre de 2010.</titulo>
+              <url_pdf szBytes="172392" szKBytes="168" pagina_inicial="61070" pagina_final="61071">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45115.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45115</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45115</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2014-45116</identificador>
+              <titulo>Anuncio de la Dirección General de Sostenibilidad de la Costa y del Mar, de formalización del contrato de servicios "Apoyo técnico y científico para el desarrollo y demostración de métodos de erradicación y control de la especie invasora Carybdea Marsupialis.</titulo>
+              <url_pdf szBytes="165814" szKBytes="162" pagina_inicial="61072" pagina_final="61072">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45116.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45116</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45116</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45117</identificador>
+              <titulo>Resolución de la Confederación Hidrográfica del Tajo, por la que se hace pública la formalización del contrato, por procedimiento abierto con un solo criterio de adjudicación, el precio del proyecto de acondicionamiento del entorno de cauces y riberas para el fomento de la biodiversidad en municipios del Alberche y otros. Grupo 1. Provincia de Toledo. El presente expediente tiene prevista su financiación a través de Fondos de la Unión Europea.</titulo>
+              <url_pdf szBytes="167408" szKBytes="163" pagina_inicial="61073" pagina_final="61073">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45117.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45117</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45117</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45118</identificador>
+              <titulo>Anuncio de la Dirección General de Sostenibilidad de la Costa y del Mar de formalización del contrato de obras: "Proyecto de Protección de un tramo de acantilado en la playa de Peñarrubia. T.M. Gijón (Asturias)"</titulo>
+              <url_pdf szBytes="166285" szKBytes="162" pagina_inicial="61074" pagina_final="61074">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45118.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45118</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45118</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45119</identificador>
+              <titulo>Resolución de la Confederación Hidrográfica del Tajo por la que se hace pública la formalización del contrato, por procedimiento abierto con un único criterio de adjudicación, del "Proyecto de actuaciones de restauración hidrológico forestal en terrenos gestionados por la Confederación Hidrográfica del Tajo en repoblaciones del A.T.S. y embalse de Buendía". El presente expediente tiene prevista su financiación con cargo a Fondos de la Unión Europea.</titulo>
+              <url_pdf szBytes="167871" szKBytes="164" pagina_inicial="61075" pagina_final="61075">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45119.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45119</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45119</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45120</identificador>
+              <titulo>Resolución de la Confederación Hidrográfica del Tajo, por la que se hace pública la formalización del contrato por el procedimiento negociado sin publicidad del expediente de obras "Proyecto de Seccionador y OCR Telemando para la línea de suministro eléctrico a la estación de bombeo La Sagra II (Toledo)".</titulo>
+              <url_pdf szBytes="166520" szKBytes="163" pagina_inicial="61076" pagina_final="61076">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45120.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45120</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45120</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45121</identificador>
+              <titulo>Anuncio de formalización de contratos de: Presidencia de la Confederación Hidrográfica del Ebro. Objeto: Ejecución de drenajes lineales y protecciones de plataforma del camino de acceso a los desagües de fondo de la presa de Montearagón (Huesca). Gasto plurianual. Expediente: 060/14-ONS.</titulo>
+              <url_pdf szBytes="167799" szKBytes="164" pagina_inicial="61077" pagina_final="61077">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45121.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45121</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45121</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45122</identificador>
+              <titulo>Anuncio de licitación de: Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla. Objeto: Servicio para la realización de inspecciones periódicas preceptivas, mantenimiento correctivo y atención a averías en los centros de transformación y líneas de alta tensión de la Mancomunidad de los Canales del Taibilla (Va/Varios). Expediente: V-10/14-01.</titulo>
+              <url_pdf szBytes="175327" szKBytes="171" pagina_inicial="61078" pagina_final="61079">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45122.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45122</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45122</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45123</identificador>
+              <titulo>Anuncio de licitación de: Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla. Objeto: Servicios de carga, transporte a gestor autorizado y gestión de los fangos deshidratados procedentes de las potabilizadoras de la Mancomunidad de los Canales del Taibilla. 2015-2016. Expediente: V-07/14-05.</titulo>
+              <url_pdf szBytes="176196" szKBytes="172" pagina_inicial="61080" pagina_final="61081">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45123.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45123</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45123</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45124</identificador>
+              <titulo>Anuncio de licitación de: Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla. Objeto: Servicio de prevención ajeno para desarrollo de actividades técnicas y recursos preventivos en la Mancomunidad de los Canales del Taibilla durante 24 meses. Expediente: V-07/14-16.</titulo>
+              <url_pdf szBytes="173890" szKBytes="170" pagina_inicial="61082" pagina_final="61083">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45124.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45124</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45124</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45125</identificador>
+              <titulo>Anuncio de formalización de contratos de: Organismo Autónomo Parques Nacionales. Objeto: Aprovechamiento de 4 lotes de madera en pie de pino silvestre procedente de cortas en los cantones 248, 110, 109 y 76 del Monte Pinar de Valsaín n.º 2 del C.U.P. de la provincia de Segovia, en el T. M. de San Ildefonso (Segovia). Expediente: 13P/14.</titulo>
+              <url_pdf szBytes="173133" szKBytes="169" pagina_inicial="61084" pagina_final="61085">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45125.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45125</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45125</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <item>
+              <identificador>BOE-B-2014-45126</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Economía y Competitividad. Objeto: Adquisición de licencias de bases de datos y servidores de aplicaciones Oracle para el MINECO. Expediente: J14.023.01.</titulo>
+              <url_pdf szBytes="167469" szKBytes="164" pagina_inicial="61086" pagina_final="61086">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45126.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45126</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45126</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45127</identificador>
+              <titulo>Anuncio del Consorcio para el Equipamiento y Explotación del Laboratorio Subterráneo de Canfranc por el que se convoca licitación pública para la adjudicación del contrato para la adquisición de un detector de germanio HPGe de tipo "Well" de ultra bajo fondo para el Laboratorio Subterráneo de Canfranc.</titulo>
+              <url_pdf szBytes="175418" szKBytes="171" pagina_inicial="61087" pagina_final="61088">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45127.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45127</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45127</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45128</identificador>
+              <titulo>Anuncio de licitación de: Dirección del Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA). Objeto: Soporte de las licencias de uso del software modular para gestión empresarial SAP. Expediente: PA 14/237 TA.</titulo>
+              <url_pdf szBytes="174274" szKBytes="170" pagina_inicial="61089" pagina_final="61090">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45128.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45128</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45128</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <item>
+              <identificador>BOE-B-2014-45129</identificador>
+              <titulo>Anuncio de licitación de: Subdirección General de Programación y Gestión Económico Financiera. Objeto: Arrendamiento del sistema de agrupación de pacientes, denominado Core Grouping Systems GRD-AP, APR e IR, para la clasificación de pacientes y procesos clínicos. Expediente: 2014/401PA008.</titulo>
+              <url_pdf szBytes="175823" szKBytes="172" pagina_inicial="61091" pagina_final="61092">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45129.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45129</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45129</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <item>
+              <identificador>BOE-B-2014-45130</identificador>
+              <titulo>Anuncio del Hospital San Eloy por el que se informa la formalización de contrato del concurso para obras de protección de incendios y climatización para OSI Barakaldo-Sestao.</titulo>
+              <url_pdf szBytes="163908" szKBytes="160" pagina_inicial="61093" pagina_final="61093">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45130.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45130</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45130</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <item>
+              <identificador>BOE-B-2014-45131</identificador>
+              <titulo>Anuncio del Departamento de Enseñanza de la Generalidad de Cataluña por el que se convoca la licitación pública del arrendamiento, con opción de compra, de una edificación escolar industrializada modular recuperable con destinación a aularios de la Escuela Les Codinetes, en la Nou de Gaià, exp. BD 2608/2014; ED-2014-165.</titulo>
+              <url_pdf szBytes="181373" szKBytes="177" pagina_inicial="61094" pagina_final="61096">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45131.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45131</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45131</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45132</identificador>
+              <titulo>Anuncio del Departamento de Enseñanza por el que se hace pública la licitación para la adjudicación del servicio de traslado, reparaciones, almacenaje, custodia y desguace de edificios prefabricados con destino a aularios para los centros educativos de Cataluña. (Expte. ED-2014-635; BD 0603/15).</titulo>
+              <url_pdf szBytes="180730" szKBytes="176" pagina_inicial="61097" pagina_final="61098">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45132.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45132</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45132</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45133</identificador>
+              <titulo>Resolución del Consorci de Salut i d'Atenció Social de Catalunya para la licitación del procedimiento de acuerdo marco para el suministro de papel para los entes adheridos al Consorci de Salut i d'Atenció Social de Catalunya.</titulo>
+              <url_pdf szBytes="168756" szKBytes="165" pagina_inicial="61099" pagina_final="61100">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45133.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45133</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45133</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45134</identificador>
+              <titulo>Anuncio del Centro de Telecomunicaciones y Tecnologías de la Información de la Generalitat de Catalunya por el que se hace pública la licitación de un contrato de suministro mediante arrendamiento con opción de compra de 2.619 terminales para la Red de Radiocomunicaciones de Emergencias y Seguridad de Catalunya y de los elementos necesarios para la transformación de 1.930 accesorios especiales para adecuarlos a los nuevos terminales.</titulo>
+              <url_pdf szBytes="177056" szKBytes="173" pagina_inicial="61101" pagina_final="61102">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45134.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45134</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45134</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45135</identificador>
+              <titulo>Anuncio del Centro de Telecomunicaciones y Tecnologías de la Información de la Generalitat de Catalunya por el que se hace pública la licitación de un contrato de de contenido mixto de renovación de terminales portátiles de radiocomunicación y su mantenimiento, así como el mantenimiento de terminales móviles y fijos y accesorios especiales y el suministro de módulos de RF y accesorios complementarios de la red RESCAT.</titulo>
+              <url_pdf szBytes="176716" szKBytes="173" pagina_inicial="61103" pagina_final="61104">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45135.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45135</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45135</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <item>
+              <identificador>BOE-B-2014-45136</identificador>
+              <titulo>Resolución de 11 de diciembre de 2014, de la Agencia Pública de Puertos de Andalucía, por la que se anuncia la contratación de servicios por el procedimiento abierto con múltiples criterios de adjudicación denominado prestación del servicio auxiliar portuario en instalaciones portuarias de gestión directa de la Agencia Pública de Puertos de Andalucía.</titulo>
+              <url_pdf szBytes="171546" szKBytes="168" pagina_inicial="61105" pagina_final="61106">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45136.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45136</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45136</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45137</identificador>
+              <titulo>Resolución de la Dirección General de la Agencia Pública Andaluza de Educación y Formación, por la que se anuncia la licitación para la contratación del servicio de redacción de proyecto, dirección de obra, dirección de ejecución de obra y coordinación de seguridad y salud, y estudio geotécnico para las obras para la fase 2 de la sustitución del CEIP Raimundo Lulio en Camas (Sevilla), expediente número 00329/ISE/2014/SC.</titulo>
+              <url_pdf szBytes="175659" szKBytes="172" pagina_inicial="61107" pagina_final="61108">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45137.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45137</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45137</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45138</identificador>
+              <titulo>Resolución de la Dirección General de Infraestructuras, por la que anuncia la licitación pública de los servicios de diversas operaciones de conservación en varios tramos de carreteras de la zona este de la provincia de Almería.</titulo>
+              <url_pdf szBytes="164645" szKBytes="161" pagina_inicial="61109" pagina_final="61109">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45138.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45138</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45138</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45139</identificador>
+              <titulo>Resolución de la Dirección General de Infraestructuras, por la que anuncia la licitación pública de los servicios de diversas operaciones de conservación en varios tramos de carreteras de la zona oeste del área metropolitana de la provincia de Sevilla.</titulo>
+              <url_pdf szBytes="164395" szKBytes="161" pagina_inicial="61110" pagina_final="61110">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45139.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45139</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45139</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45140</identificador>
+              <titulo>Resolución de la Dirección General de Infraestructuras, por la que anuncia la licitación pública de los servicios de diversas operaciones de conservación en varios tramos de carreteras de la zona suroeste de la provincia de Huelva.</titulo>
+              <url_pdf szBytes="164606" szKBytes="161" pagina_inicial="61111" pagina_final="61111">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45140.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45140</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45140</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8100" nombre="COMUNIDAD AUTÓNOMA DE LA REGIÓN DE MURCIA">
+            <item>
+              <identificador>BOE-B-2014-45141</identificador>
+              <titulo>Anuncio del Servicio Murciano de Salud por el que se convoca licitación pública para el servicio de limpieza de los locales de los órganos centrales del Servicio Murciano de Salud ubicados en edificio Habitamia I y calle Pinares y desratización, desinfección y desinsectación del edificio sito en calle Pinares, 4, Murcia.</titulo>
+              <url_pdf szBytes="177073" szKBytes="173" pagina_inicial="61112" pagina_final="61113">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45141.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45141</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45141</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <item>
+              <identificador>BOE-B-2014-45142</identificador>
+              <titulo>Anuncio de la Generalitat Valenciana, Consellería de Sanidad, Departamento de Salud de Xàtiva/Ontinyent. Formalización del contrato n.º 287/2014. Adquisición de aparataje para diversos servicios del Departamento de Salud Xàtiva/Ontinyent.</titulo>
+              <url_pdf szBytes="171229" szKBytes="167" pagina_inicial="61114" pagina_final="61115">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45142.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45142</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45142</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45143</identificador>
+              <titulo>Resolución de la Dirección General de Recursos Económicos de la Conselleria de Sanitat de la Generalitat Valenciana por la que se resuelve el desistimiento del expediente 222/2014 Acuerdo Marco para el suministro de medicamentos antivirales.</titulo>
+              <url_pdf szBytes="158431" szKBytes="155" pagina_inicial="61116" pagina_final="61116">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45143.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45143</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45143</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45144</identificador>
+              <titulo>Resolución de la Conselleria de Gobernación y Justicia por la que se anuncia la licitación de la contratación del suministro de reactivos y material, así como la cesión de instrumentación y equipos para realizar las determinaciones analíticas de los institutos de medicina legal, de conformidad con lo establecido en el Pliego de Prescripciones Técnicas.</titulo>
+              <url_pdf szBytes="176928" szKBytes="173" pagina_inicial="61117" pagina_final="61118">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45144.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45144</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45144</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8060" nombre="COMUNIDAD AUTÓNOMA DE CASTILLA-LA MANCHA">
+            <item>
+              <identificador>BOE-B-2014-45145</identificador>
+              <titulo>Resolución de la Gerencia de Atención Primaria de Toledo SESCAM por la que se hace público el resultado del procedimiento abierto de servicios sujeto a regulación armonizada para la contratación del servicio de limpieza, desratización y desinsectación de edificios, servicio de lavandería y recogida y transporte de residuos biosanitarios.</titulo>
+              <url_pdf szBytes="166934" szKBytes="163" pagina_inicial="61119" pagina_final="61119">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45145.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45145</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45145</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45146</identificador>
+              <titulo>Resolución de 16/12/2014, de la Dirección General de Agricultura y Ganadería de la Consejería de Agricultura, por la que se convoca procedimiento abierto, para el suministro de agujas y tubos de plástico para la obtención estéril y al vacío de muestras de sangre para la realización de los programas de control y erradicación de enfermedades animales, así como los correspondientes portatubos y destaponadores previstos en el pliego de prescripciones técnicas.</titulo>
+              <url_pdf szBytes="167416" szKBytes="163" pagina_inicial="61120" pagina_final="61120">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45146.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45146</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45146</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45147</identificador>
+              <titulo>Resolucion de 18 de diciembre de 2014 de la Secretaria General de la Consejería de Fomento, por la que se hace pública la formalización del contrato correspondiente al expediente 1701TO14SER01012 denominado "Mantenimiento de la Plataforma de Administración Electrónica CESAR que da soporte a la Administración Electrónica de la Junta de Comunidades de Castilla-La Mancha".</titulo>
+              <url_pdf szBytes="168923" szKBytes="165" pagina_inicial="61121" pagina_final="61121">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45147.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45147</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45147</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8080" nombre="COMUNIDAD AUTÓNOMA DE EXTREMADURA">
+            <item>
+              <identificador>BOE-B-2014-45148</identificador>
+              <titulo>Resolución de 5 de diciembre de 2014, de la Dirección Gerencia de la Fundación Centro de Cirugía de Mínima Invasión "Jesús Usón", por la que se anuncia la formalización del contrato de "Servicio de limpieza y lavandería del Centro de Cirugía de Mínima Invasión Jesús Usón". Expediente 01/2014.</titulo>
+              <url_pdf szBytes="168361" szKBytes="164" pagina_inicial="61122" pagina_final="61122">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45148.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45148</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45148</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9531" nombre="COMUNIDAD DE CASTILLA Y LEÓN">
+            <item>
+              <identificador>BOE-B-2014-45149</identificador>
+              <titulo>Resolución de 11 de diciembre de 2014, de la Dirección General de Carreteras e Infraestructuras de la Consejería de Fomento y Medio Ambiente, por la que se anuncia la contratación del expediente clave: SC-2015: Suministro de carburantes de automoción de vehículos dependientes de la Dirección General de Carreteras e Infraestructuras de la Consejería de Fomento y Medio Ambiente.</titulo>
+              <url_pdf szBytes="184204" szKBytes="180" pagina_inicial="61123" pagina_final="61125">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45149.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45149</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45149</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2014-45150</identificador>
+              <titulo>Anuncio del Ayuntamiento de Salamanca sobre formalización del contrato de concesión de obra pública para la terminación de la ampliación, reforma y explotación del Parque Deportivo de la Aldehuela (Complejo Deportivo Municipal La Aldehuela).</titulo>
+              <url_pdf szBytes="165917" szKBytes="162" pagina_inicial="61126" pagina_final="61126">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45150.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45150</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45150</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45151</identificador>
+              <titulo>Anuncio del Ayuntamiento de A Coruña por el que se convoca licitación para la contratación del servicio de limpieza de las bibliotecas municipales de Sagrada Familia, Castrillón, Monte Alto, Rosales y edificio cultural Salvador de Madariaga.</titulo>
+              <url_pdf szBytes="168171" szKBytes="164" pagina_inicial="61127" pagina_final="61127">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45151.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45151</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45151</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45152</identificador>
+              <titulo>Anuncio del Ayuntamiento de A Coruña por el que se convoca licitación para la contratación del servicio de retirada, inmovilización y depósito de vehículos estacionados en la vía pública.</titulo>
+              <url_pdf szBytes="166631" szKBytes="163" pagina_inicial="61128" pagina_final="61128">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45152.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45152</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45152</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45153</identificador>
+              <titulo>Anuncio del Ayuntamiento de La Oliva para la convocatoria de licitación del contrato de servicios "Seguros del Ayuntamiento de La Oliva (3 Lotes)". Expte. SEPA 09/2014.</titulo>
+              <url_pdf szBytes="167873" szKBytes="164" pagina_inicial="61129" pagina_final="61129">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45153.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45153</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45153</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45154</identificador>
+              <titulo>Anuncio del Ayuntamiento de Aspe de licitación de la contratación del suministro de carburantes del Ayuntamiento de Aspe.</titulo>
+              <url_pdf szBytes="164186" szKBytes="160" pagina_inicial="61130" pagina_final="61130">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45154.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45154</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45154</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45155</identificador>
+              <titulo>Anuncio del Ayuntamiento de la Anteiglesia de Erandio de corrección de errores del anuncio de contratación del servicio de control, funcionamiento, mantenimiento, conservación y adecuación de las instalaciones actuales de alumbrado público y reguladoras de tráfico en Erandio.</titulo>
+              <url_pdf szBytes="160123" szKBytes="156" pagina_inicial="61131" pagina_final="61131">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45155.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45155</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45155</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45156</identificador>
+              <titulo>Anuncio de la Resolución del Ayuntamiento de Madrid, Área de Gobierno de Familia, Servicios Sociales y Participación Ciudadana, por el que se hace pública la convocatoria para la licitación del contrato de servicios denominado "Formación informática para socios de los Centros Municipales de Mayores en 65 aulas".</titulo>
+              <url_pdf szBytes="174373" szKBytes="170" pagina_inicial="61132" pagina_final="61133">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45156.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45156</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45156</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45157</identificador>
+              <titulo>Anuncio de la Resolución del Ayuntamiento de Madrid, Área de Gobierno de Familia, Servicios Sociales y Participación Ciudadana, por el que se hace pública la convocatoria para la licitación del contrato de servicios denominado "Asesoramiento integral a Asociaciones de la ciudad de Madrid".</titulo>
+              <url_pdf szBytes="174056" szKBytes="170" pagina_inicial="61134" pagina_final="61135">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45157.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45157</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45157</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45158</identificador>
+              <titulo>Anuncio del OAL Viviendas Municipales de Bilbao por el que se convoca concurso para la contratación de las pólizas de seguros privados.</titulo>
+              <url_pdf szBytes="171592" szKBytes="168" pagina_inicial="61136" pagina_final="61137">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45158.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45158</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45158</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45159</identificador>
+              <titulo>Anuncio de licitación de: Pleno del Ayuntamiento de Ampuero. Objeto: Servicio de limpieza viaria, recogida de residuos urbanos del término municipal y transporte hasta el vertedero autorizado. Expediente: 18/2014.</titulo>
+              <url_pdf szBytes="183673" szKBytes="179" pagina_inicial="61138" pagina_final="61140">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45159.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45159</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45159</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45160</identificador>
+              <titulo>Anuncio del Ayuntamiento de Algemesí por el que se suspende la licitación convocada del contrato de del servicio de redacción, impresión, edición, acabado y reparto del Bim Berca (Expediente n.º PODCH 2/2014).</titulo>
+              <url_pdf szBytes="158917" szKBytes="155" pagina_inicial="61141" pagina_final="61141">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45160.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45160</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45160</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45161</identificador>
+              <titulo>Anuncio del Consorcio del Mercado del Val de formalización del contrato mixto de obra de rehabilitación del Mercado de Val y concesión de dominio público de espacio bajo rasante</titulo>
+              <url_pdf szBytes="167976" szKBytes="164" pagina_inicial="61142" pagina_final="61143">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45161.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45161</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45161</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2014-45162</identificador>
+              <titulo>Resolución de la Universidad de Vigo, de 16 de diciembre, por la que se anuncia procedimiento abierto, mediante tramitación ordinaria, para la contratación de una póliza de seguros de daños materiales para los bienes de la Universidad de Vigo. (expediente P5/14).</titulo>
+              <url_pdf szBytes="175204" szKBytes="171" pagina_inicial="61144" pagina_final="61145">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45162.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45162</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45162</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45163</identificador>
+              <titulo>Anuncio de la Universidad de Granada por el que se hace pública la formalización del contrato de suministro para la adquisición de cromatógrafo de líquidos (u-hplc), acoplado a sistema de espectrometría de masas de alta resolución y masa exacta (orbitrap) (Cofinanciación FEDER -1E_56894).</titulo>
+              <url_pdf szBytes="167322" szKBytes="163" pagina_inicial="61146" pagina_final="61146">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45163.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45163</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45163</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45164</identificador>
+              <titulo>Anuncio de la Universidad Complutense de Madrid por el que se convoca el procedimiento abierto P-58/14 "Servicios relativos a la colaboración en materia de vigilancia de la salud laboral y asistencia sanitaria a los trabajadores de la Universidad Complutense de Madrid".</titulo>
+              <url_pdf szBytes="175405" szKBytes="171" pagina_inicial="61147" pagina_final="61148">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45164.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45164</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45164</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45165</identificador>
+              <titulo>Anuncio de la Universidad Complutense de Madrid por el que se convoca el procedimiento abierto P-57/14 "Servicio de realización de pruebas analíticas al personal de la Universidad Complutense de Madrid".</titulo>
+              <url_pdf szBytes="174532" szKBytes="170" pagina_inicial="61149" pagina_final="61150">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45165.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45165</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45165</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45166</identificador>
+              <titulo>Resolución de la Universidad de Castilla-La Mancha, de fecha 17/12/2014, por la que se anuncia licitación, mediante procedimiento abierto, para la contratación del suministro de gas natural para los edificios de la Universidad de Castilla-La Mancha.</titulo>
+              <url_pdf szBytes="175767" szKBytes="172" pagina_inicial="61151" pagina_final="61152">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45166.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45166</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45166</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45167</identificador>
+              <titulo>Anuncio de la Resolución de Rectorado de la Universidad de Granada por la que se convoca licitación pública para la contratación de suministro equipamiento laboratorios nueva Facultad de Medicina en Campus Universitario Ciencias de la Salud. Universidad de Granada.</titulo>
+              <url_pdf szBytes="169616" szKBytes="166" pagina_inicial="61153" pagina_final="61154">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45167.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45167</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45167</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45168</identificador>
+              <titulo>Anuncio de la Universidad de Alcalá por el que se convoca licitación para la adjudicación del contrato de suministro e instalación del material audiovisual y de iluminación para un laboratorio de grabación y dos laboratorios de radio.</titulo>
+              <url_pdf szBytes="170750" szKBytes="167" pagina_inicial="61155" pagina_final="61156">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45168.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45168</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45168</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2014-45169</identificador>
+              <titulo>Anuncio de Servicios de Txingudi - Txingudiko Zerbitzuak, S.A. sobre contratación del suministro de gasóleo (clase A) para Servicios de Txingudi - Txingudiko Zerbitzuak, S.A.</titulo>
+              <url_pdf szBytes="166922" szKBytes="163" pagina_inicial="61157" pagina_final="61157">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45169.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45169</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45169</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45170</identificador>
+              <titulo>Anuncio de formalización de contratos de la "Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima" (SEITTSA). Objeto: "Proyecto Constructivo para el recrecido de andenes, nueva iluminación y rehabilitación del paso inferior y traslado de megafonía en la Estación de Reus". Expediente: 20141003-F.</titulo>
+              <url_pdf szBytes="167263" szKBytes="163" pagina_inicial="61158" pagina_final="61158">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45170.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45170</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45170</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45171</identificador>
+              <titulo>Anuncio de la Notaría de D. José María Varela Pastor sobre subasta extrajudicial (expediente 2/2.014).</titulo>
+              <url_pdf szBytes="166139" szKBytes="162" pagina_inicial="61159" pagina_final="61159">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45171.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45171</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45171</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45172</identificador>
+              <titulo>Resolución del Consorci de Salut i d'Atenció Social de Catalunya, S.A., para la ampliación de plazo, para el servicio integral de comunicaciones, servicios TIC y Cloud Computing para el Consorci de Salut i d'Atenció Social de Catalunya, S.A.</titulo>
+              <url_pdf szBytes="158972" szKBytes="155" pagina_inicial="61160" pagina_final="61160">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45172.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45172</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45172</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <item>
+              <identificador>BOE-B-2014-45173</identificador>
+              <titulo>Anuncio de la Subsecretaría (División de Derechos de Gracia y otros Derechos), sobre solicitud de sucesión por cesión en el título de Conde de Garvey.</titulo>
+              <url_pdf szBytes="158003" szKBytes="154" pagina_inicial="61161" pagina_final="61161">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45173.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45173</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45173</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2014-45174</identificador>
+              <titulo>Anuncio de la Sección Económico-Administrativa de la Agrupación Base Aérea de Zaragoza, por el que se notifica, mediante su publicación, la iniciación de expediente de reintegro de pagos indebidos número 201400900 726, instruido por la citada Sección y se da trámite de audiencia al interesado.</titulo>
+              <url_pdf szBytes="161568" szKBytes="158" pagina_inicial="61162" pagina_final="61162">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45174.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45174</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45174</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2014-45175</identificador>
+              <titulo>Anuncio de la Dirección General de Ordenación del Juego sobre notificación de expediente administrativo de carácter sancionador por la comisión de una infracción tipificada en la Ley 13/2011, de 27 de mayo, de Regulación del Juego.</titulo>
+              <url_pdf szBytes="162261" szKBytes="158" pagina_inicial="61163" pagina_final="61163">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45175.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45175</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45175</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45176</identificador>
+              <titulo>Anuncio del Comisionado para el Mercado de Tabacos de notificación del escrito de subsanación de la declaración responsable para la habilitación como importador y distribuidor de labores de tabaco.</titulo>
+              <url_pdf szBytes="159208" szKBytes="155" pagina_inicial="61164" pagina_final="61164">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45176.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45176</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45176</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <item>
+              <identificador>BOE-B-2014-45177</identificador>
+              <titulo>Anuncio de la Jefatura Provincial de Tráfico de A Coruña por el que se notifican las resoluciones de la Dirección General de Tráfico de los recursos contra declaraciones de pérdida de vigencia de las autorizaciones administrativas para conducir por la pérdida total de los puntos asignados.</titulo>
+              <url_pdf szBytes="162491" szKBytes="159" pagina_inicial="61165" pagina_final="61165">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45177.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45177</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45177</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2014-45178</identificador>
+              <titulo>Anuncio de la Demarcación de Carreteras del Estado en Cataluña de información pública sobre el levantamiento de actas previas a la ocupación de bienes o derechos afectados por las obras del Proyecto: "Mejora de las conexiones del nuevo Enlace de Castellbisbal con la Autovía A-2 y la Autopista AP-7 y otras obras complementarias. Provincia de Barcelona". Clave: 45-B-4111. Provincia de Barcelona.</titulo>
+              <url_pdf szBytes="189513" szKBytes="185" pagina_inicial="61166" pagina_final="61167">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45178.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45178</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45178</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45179</identificador>
+              <titulo>Anuncio del ADIF-Alta Velocidad por el que se somete a información pública, a efectos de expropiaciones, el Proyecto Básico de Accesos y Zonas de Instalaciones de la Línea de Alta Velocidad Madrid-Galicia entre Lubián y Taboadela.</titulo>
+              <url_pdf szBytes="1519559" szKBytes="1484" pagina_inicial="61168" pagina_final="61188">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45179.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45179</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45179</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45180</identificador>
+              <titulo>Anuncio de la Autoridad Portuaria de Vigo por el que se inicia el trámite de competencia de proyectos correspondiente a la concesión administrativa solicitada por el CÍRCULO CULTURAL RECREATIVO DE CHAPELA.</titulo>
+              <url_pdf szBytes="160770" szKBytes="157" pagina_inicial="61189" pagina_final="61189">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45180.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45180</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45180</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45181</identificador>
+              <titulo>Anuncio de la Autoridad Portuaria de Ferrol-San Cibrao por el que se somete a información pública la solicitud de concesión C-792 presentada por la empresa "Pérez Torres Marítima, S.L.".</titulo>
+              <url_pdf szBytes="160733" szKBytes="157" pagina_inicial="61190" pagina_final="61190">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45181.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45181</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45181</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2014-45182</identificador>
+              <titulo>Anuncio de la Subdirección General de Títulos y Reconocimiento de Cualificaciones, a efectos de notificación del trámite de audiencia en expedientes de homologación de títulos.</titulo>
+              <url_pdf szBytes="166038" szKBytes="162" pagina_inicial="61191" pagina_final="61191">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45182.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45182</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45182</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45183</identificador>
+              <titulo>Anuncio de la Subdirección General de Títulos y Reconocimiento de Cualificaciones, a efectos de notificación de la resolución recaída en expedientes de homologación de títulos.</titulo>
+              <url_pdf szBytes="166757" szKBytes="163" pagina_inicial="61192" pagina_final="61192">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45183.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45183</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45183</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45184</identificador>
+              <titulo>Anuncio de la Subdirección General de Títulos y Reconocimiento de Cualificaciones sobre extravío de un título de Médico Especialista en Oftalmología.</titulo>
+              <url_pdf szBytes="160485" szKBytes="157" pagina_inicial="61193" pagina_final="61193">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45184.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45184</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45184</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9219" nombre="MINISTERIO DE INDUSTRIA, ENERGÍA Y TURISMO">
+            <item>
+              <identificador>BOE-B-2014-45185</identificador>
+              <titulo>Resolución de la Delegación del Gobierno en la Comunidad de Madrid, Área Funcional de Industria y Energía, por la que se convoca el levantamiento de actas previas a la ocupación de las fincas afectadas por ejecución del proyecto denominado "Línea subterránea media tensión Cierre Valdepiélagos (Madrid), con doble circuito Urbanización Caraquiz, en el término municipal de El Casar (Guadalajara)". Expediente: LAT/06/12.</titulo>
+              <url_pdf szBytes="172393" szKBytes="168" pagina_inicial="61194" pagina_final="61195">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45185.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45185</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45185</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <item>
+              <identificador>BOE-B-2014-45186</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Guadiana relativo a notificaciones de Trámite de Audiencia y Propuesta de Resolución en el procedimiento sancionador ES.-91/2014/CO incoado a JOSÉ LUIS TIRADO VALENCIA, ESV.10068/2014 incoado a FLORIN SARACILA, ALEXANDRU DINCA Y MARIANA RAMONA DUDUIANU Y ESV.-10069/2014/BA incoado a VIJAR CRISTI MALACU por infracción a la Ley de Aguas.</titulo>
+              <url_pdf szBytes="167787" szKBytes="164" pagina_inicial="61196" pagina_final="61196">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45186.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45186</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45186</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45187</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Guadiana sobre notificación de Resolución dictada relativo a procedimiento sancionador incoado por infracción al texto refundido de la Ley de Aguas del expediente: E.S. 96/13/BA.</titulo>
+              <url_pdf szBytes="164612" szKBytes="161" pagina_inicial="61197" pagina_final="61197">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45187.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45187</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45187</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45188</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Guadiana sobre notificación de Pliego de Cargos relativo a procedimiento sancionador incoado por infracción al texto refundido de la Ley de Aguas del expediente: E.S. 183/14/BA.</titulo>
+              <url_pdf szBytes="162619" szKBytes="159" pagina_inicial="61198" pagina_final="61198">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45188.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45188</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45188</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45189</identificador>
+              <titulo>Anuncio de la Confederación Hidrográfica del Guadiana sobre notificación de propuesta de resolución de expediente sancionador, contra D. Silviu Stefan Vacaru, incoado por infracción de la Ley 33/2003, de 3 de noviembre, de Patrimonio de las Administraciones Públicas del expediente: 21/36-14.</titulo>
+              <url_pdf szBytes="164088" szKBytes="160" pagina_inicial="61199" pagina_final="61199">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45189.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45189</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45189</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9534" nombre="COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA">
+            <item>
+              <identificador>BOE-B-2014-45190</identificador>
+              <titulo>Anuncio de la Comisión Nacional de los Mercados y la Competencia por el que se hace público el inicio del procedimiento administrativo de aprobación de la Oferta de Interconexión de Referencia de Telefónica de España, S.A.U., para la provisión del servicio de terminación de llamadas mediante interconexión IP.</titulo>
+              <url_pdf szBytes="164133" szKBytes="160" pagina_inicial="61200" pagina_final="61200">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45190.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45190</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45190</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45191</identificador>
+              <titulo>Anuncio de la Comisión Nacional de los Mercados y la Competencia por el que se notifica la apertura del procedimiento para la definición y análisis del mercado de acceso local al por mayor facilitado en una ubicación fija y los mercados de acceso de banda ancha al por mayor, la designación de operadores con poder significativo de mercado y la imposición de obligaciones específicas, así como la apertura del trámite de información pública.</titulo>
+              <url_pdf szBytes="166668" szKBytes="163" pagina_inicial="61201" pagina_final="61202">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45191.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45191</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45191</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2014-45192</identificador>
+              <titulo>Edicto del Ayuntamiento de Gandia por el que se da a conocer el operador telefónico para el servicio de información de las administraciones locales mediante la marcación reducida O10.</titulo>
+              <url_pdf szBytes="160694" szKBytes="157" pagina_inicial="61203" pagina_final="61203">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45192.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45192</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45192</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2014-45193</identificador>
+              <titulo>Anuncio de la Universidad Alfonso X El Sabio sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156244" szKBytes="153" pagina_inicial="61204" pagina_final="61204">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45193.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45193</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45193</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45194</identificador>
+              <titulo>Anuncio de Facultad de Farmacia de la Universidad Complutense de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156508" szKBytes="153" pagina_inicial="61205" pagina_final="61205">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45194.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45194</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45194</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45195</identificador>
+              <titulo>Anuncio de la facultad de Ciencias Matemáticas de la Universidad Complutense de Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="155520" szKBytes="152" pagina_inicial="61206" pagina_final="61206">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45195.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45195</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45195</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45196</identificador>
+              <titulo>Anuncio de Facultad de Ciencias del Deporte y la Educación Física de la Universidad A Coruña sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156961" szKBytes="153" pagina_inicial="61207" pagina_final="61207">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45196.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45196</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45196</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45197</identificador>
+              <titulo>Anuncio de Facultad de Enfermería Fisioterapia y Podología de la Universidad de Sevilla sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156331" szKBytes="153" pagina_inicial="61208" pagina_final="61208">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45197.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45197</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45197</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45198</identificador>
+              <titulo>Anuncio de la Escuela Universitaria de Enfermería de la Universidad de Barcelona sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156429" szKBytes="153" pagina_inicial="61209" pagina_final="61209">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45198.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45198</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45198</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45199</identificador>
+              <titulo>Anuncio de la Facultad de Ciencia y Tecnología de la Universidad del País Vasco/Euskal Herriko Unibertsitatea sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="158492" szKBytes="155" pagina_inicial="61210" pagina_final="61210">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45199.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45199</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45199</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45200</identificador>
+              <titulo>Anuncio de Facultad de Humanidades y Ciencias de la Educación de la Universidad de Jaén sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="157205" szKBytes="154" pagina_inicial="61211" pagina_final="61211">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45200.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45200</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45200</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45201</identificador>
+              <titulo>Anuncio de E.U. Arquitectura Técnica de la Universidad de A Coruña sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="156848" szKBytes="153" pagina_inicial="61212" pagina_final="61212">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45201.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45201</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45201</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="ANUNCIOS PARTICULARES">
+            <item>
+              <identificador>BOE-B-2014-45202</identificador>
+              <titulo>ARTISTAS INTÉRPRETES O EJECUTANTES, SOCIEDAD DE GESTIÓN DE ESPAÑA (AIE)</titulo>
+              <url_pdf szBytes="156807" szKBytes="153" pagina_inicial="61213" pagina_final="61213">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45202.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45202</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45202</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45203</identificador>
+              <titulo>FUNDACIÓN ESPAÑOLA PARA LA CIENCIA Y LA TECNOLOGÍA (FECYT)</titulo>
+              <url_pdf szBytes="156534" szKBytes="153" pagina_inicial="61214" pagina_final="61214">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45203.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45203</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45203</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45204</identificador>
+              <titulo>ILUSTRE COLEGIO NOTARIAL DE LAS ISLAS CANARIAS</titulo>
+              <url_pdf szBytes="154736" szKBytes="151" pagina_inicial="61215" pagina_final="61215">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45204.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45204</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45204</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2014-45205</identificador>
+              <titulo>SOCIEDAD COOPERATIVA DE MAYORISTAS DEL NORTE DE PAPEL "COMAYPA", S. COOP.</titulo>
+              <url_pdf szBytes="156469" szKBytes="153" pagina_inicial="61216" pagina_final="61216">https://www.boe.es/boe/dias/2014/12/23/pdfs/BOE-B-2014-45205.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2014-45205</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2014-45205</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

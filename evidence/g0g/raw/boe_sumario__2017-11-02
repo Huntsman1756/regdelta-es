@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20171102</fecha_publicacion>
+      </metadatos>
+      <diario numero="266">
+        <sumario_diario>
+          <identificador>BOE-S-2017-266</identificador>
+          <url_pdf szBytes="245928" szKBytes="240">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-S-2017-266.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Formación profesional. Convalidaciones">
+              <item>
+                <identificador>BOE-A-2017-12559</identificador>
+                <control>2017/12443</control>
+                <titulo>Orden ECD/1055/2017, de 26 de octubre, por la que se modifica la Orden ECD/2159/2014, de 7 de noviembre, por la que se establecen convalidaciones entre módulos profesionales de formación profesional del Sistema Educativo Español y medidas para su aplicación y se modifica la Orden de 20 de diciembre de 2001, por la que se determinan convalidaciones de estudios de formación profesional específica derivada de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo.</titulo>
+                <url_pdf szBytes="2072616" szKBytes="2024" pagina_inicial="104704" pagina_final="104818">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12559.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12559</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12559</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9277" nombre="MINISTERIO DE LA PRESIDENCIA Y PARA LAS ADMINISTRACIONES TERRITORIALES">
+            <epigrafe nombre="Organización de la Generalitat de Cataluña">
+              <item>
+                <identificador>BOE-A-2017-12560</identificador>
+                <control>2017/12607</control>
+                <titulo>Real Decreto 954/2017, de 31 de octubre, por el que se dispone, en virtud de las medidas autorizadas con fecha 27 de octubre de 2017 por el Pleno del Senado respecto de la Generalitat de Cataluña en aplicación del artículo 155 de la Constitución, la adopción de diversas medidas respecto de la organización de la Generalitat de Cataluña y el cese de distintos altos cargos de la Generalitat de Cataluña.</titulo>
+                <url_pdf szBytes="173032" szKBytes="169" pagina_inicial="104819" pagina_final="104821">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12560.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12560</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12560</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1430" nombre="TRIBUNAL SUPREMO">
+            <epigrafe nombre="Sentencias">
+              <item>
+                <identificador>BOE-A-2017-12561</identificador>
+                <control>2017/12445</control>
+                <titulo>Sentencia de 5 de septiembre de 2017, de la Sala Tercera del Tribunal Supremo, que estima en parte el recurso interpuesto contra la Orden IET/2444/2014, de 19 de diciembre, por la que se determinan los peajes de acceso de energía eléctrica para 2015, y anula su artículo 5 conforme a lo indicado en el fundamento de derecho cuarto.</titulo>
+                <url_pdf szBytes="152696" szKBytes="149" pagina_inicial="104822" pagina_final="104822">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12561.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12561</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12561</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2017-12562</identificador>
+                <control>2017/12533</control>
+                <titulo>Circular 3/2017, de 24 de octubre, del Banco de España, por la que se modifica la Circular 2/2014, de 31 de enero.</titulo>
+                <url_pdf szBytes="188403" szKBytes="184" pagina_inicial="104823" pagina_final="104827">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12562.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12562</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12562</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2017-12563</identificador>
+                <control>2017/12534</control>
+                <titulo>Resolución de 26 de octubre de 2017, de la Dirección General de los Registros y del Notariado, por la que se resuelve el concurso ordinario n.º 297 para la provisión de Registros de la Propiedad, Mercantiles y de Bienes Muebles vacantes, convocado por Resolución de 20 de septiembre de 2017, y se dispone su comunicación a las comunidades autónomas para que se proceda a los nombramientos.</titulo>
+                <url_pdf szBytes="265699" szKBytes="259" pagina_inicial="104828" pagina_final="104830">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12563.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12563</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12563</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2017-12564</identificador>
+                <control>2017/12447</control>
+                <titulo>Resolución de 26 de octubre de 2017, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 14 de septiembre de 2017.</titulo>
+                <url_pdf szBytes="157388" szKBytes="154" pagina_inicial="104831" pagina_final="104832">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12564.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12564</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12564</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9280" nombre="MINISTERIO DE AGRICULTURA Y PESCA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2017-12565</identificador>
+                <control>2017/12448</control>
+                <titulo>Resolución de 26 de octubre de 2017, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 24 de julio de 2017.</titulo>
+                <url_pdf szBytes="210769" szKBytes="206" pagina_inicial="104833" pagina_final="104834">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12565.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12565</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12565</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2017-12566</identificador>
+                <control>2017/12541</control>
+                <titulo>Resolución de 26 de octubre de 2017, de la Dirección General de Derecho y Entidades Jurídicas, del Departamento de Justicia, por la que se resuelve el concurso n.º 297 para la provisión de Registros de la Propiedad, Mercantiles y de Bienes Muebles, convocado por Resolución de 20 de septiembre de 2017.</titulo>
+                <url_pdf szBytes="222968" szKBytes="218" pagina_inicial="104835" pagina_final="104835">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12566.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12566</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12566</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2017-12567</identificador>
+                <control>2017/12389</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Universidad de Granada, por la que se nombra Catedrático de Universidad a don Julio José Ochoa Herrera.</titulo>
+                <url_pdf szBytes="216476" szKBytes="211" pagina_inicial="104836" pagina_final="104836">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12567.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12567</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12567</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12568</identificador>
+                <control>2017/12390</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Universidad de Granada, por la que se nombra Profesor Titular de Universidad a don Francisco Antonio Serrano Bernardo.</titulo>
+                <url_pdf szBytes="218720" szKBytes="214" pagina_inicial="104837" pagina_final="104837">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12568.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12568</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12568</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12569</identificador>
+                <control>2017/12391</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Universidad de Granada, por la que se nombra Profesora Titular de Universidad a doña María Isabel Rodríguez Rojas.</titulo>
+                <url_pdf szBytes="219946" szKBytes="215" pagina_inicial="104838" pagina_final="104838">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12569.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12569</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12569</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12570</identificador>
+                <control>2017/12392</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Universidad de Granada, por la que se nombra Profesora Titular de Universidad a doña Vera Ferrón Vílchez.</titulo>
+                <url_pdf szBytes="216429" szKBytes="211" pagina_inicial="104839" pagina_final="104839">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12570.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12570</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12570</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12571</identificador>
+                <control>2017/12393</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Universidad de Granada, por la que se nombra Profesora Titular de Universidad a doña Yolanda Román Montoya.</titulo>
+                <url_pdf szBytes="218811" szKBytes="214" pagina_inicial="104840" pagina_final="104840">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12571.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12571</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12571</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Cuerpos de funcionarios al servicio de la Administración de Justicia">
+              <item>
+                <identificador>BOE-A-2017-12572</identificador>
+                <control>2017/12405</control>
+                <titulo>Orden JUS/1056/2017, de 3 de octubre, por la que se corrigen errores en la Orden JUS/875/2017, de 8 de septiembre, por la que se establecen las bases comunes que regirán los procesos selectivos para el ingreso o acceso a los cuerpos de funcionarios al servicio de la Administración de Justicia.</titulo>
+                <url_pdf szBytes="154263" szKBytes="151" pagina_inicial="104841" pagina_final="104841">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12572.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12572</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12572</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Cuerpos de funcionarios docentes">
+              <item>
+                <identificador>BOE-A-2017-12573</identificador>
+                <control>2017/12210</control>
+                <titulo>Resolución de 17 de octubre de 2017, de la Subsecretaría, por la que se convoca concurso de traslados de funcionarios docentes de los Cuerpos de Catedráticos y Profesores de Enseñanza Secundaria, Profesores Técnicos de Formación Profesional, Catedráticos y Profesores de Escuelas Oficiales de Idiomas, Profesores de Música y Artes Escénicas, Catedráticos, Profesores y Maestros de Taller de Artes Plásticas y Diseño, y de Maestros, para la provisión de plazas en el ámbito de gestión territorial del Ministerio de Educación, Cultura y Deporte.</titulo>
+                <url_pdf szBytes="950273" szKBytes="928" pagina_inicial="104842" pagina_final="104886">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12573.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12573</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12573</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2017-12574</identificador>
+                <control>2017/12460</control>
+                <titulo>Resolución de 5 de octubre de 2017, del Consorcio del Parque Natural de la Sierra de Collserola (Barcelona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="218157" szKBytes="213" pagina_inicial="104887" pagina_final="104887">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12574.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12574</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12574</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12575</identificador>
+                <control>2017/12282</control>
+                <titulo>Resolución de 10 de octubre de 2017, del Ayuntamiento de Massamagrell (Valencia), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="216274" szKBytes="211" pagina_inicial="104888" pagina_final="104888">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12575.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12575</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12575</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12576</identificador>
+                <control>2017/12461</control>
+                <titulo>Resolución de 10 de octubre de 2017, del Ayuntamiento de Vilafranca del Penedès (Barcelona), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="214511" szKBytes="209" pagina_inicial="104889" pagina_final="104889">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12576.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12576</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12576</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12577</identificador>
+                <control>2017/12462</control>
+                <titulo>Resolución de 11 de octubre de 2017, del Ayuntamiento de Burgos, referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="217356" szKBytes="212" pagina_inicial="104890" pagina_final="104890">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12577.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12577</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12577</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12578</identificador>
+                <control>2017/12284</control>
+                <titulo>Resolución de 13 de octubre de 2017, del Ayuntamiento de Padrón (A Coruña), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="215488" szKBytes="210" pagina_inicial="104891" pagina_final="104891">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12578.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12578</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12578</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12579</identificador>
+                <control>2017/12285</control>
+                <titulo>Resolución de 16 de octubre de 2017, de la Diputación Provincial de Valladolid, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="214244" szKBytes="209" pagina_inicial="104892" pagina_final="104892">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12579.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12579</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12579</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12580</identificador>
+                <control>2017/12463</control>
+                <titulo>Resolución de 16 de octubre de 2017, de la Diputación Foral de Álava, Organismo Autónomo Bomberos Forales de Álava, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="216293" szKBytes="211" pagina_inicial="104893" pagina_final="104893">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12580.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12580</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12580</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12581</identificador>
+                <control>2017/12286</control>
+                <titulo>Resolución de 16 de octubre de 2017, del Ayuntamiento de Zaragoza, referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="214375" szKBytes="209" pagina_inicial="104894" pagina_final="104894">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12581.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12581</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12581</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12582</identificador>
+                <control>2017/12289</control>
+                <titulo>Resolución de 17 de octubre de 2017, del Ayuntamiento de Yecla (Murcia), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="215941" szKBytes="211" pagina_inicial="104895" pagina_final="104895">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12582.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12582</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12582</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12583</identificador>
+                <control>2017/12464</control>
+                <titulo>Resolución de 18 de octubre de 2017, del Cabildo Insular de Fuerteventura (Las Palmas), referente a la convocatoria para proveer varias plazas.</titulo>
+                <url_pdf szBytes="219053" szKBytes="214" pagina_inicial="104896" pagina_final="104896">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12583.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12583</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12583</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12584</identificador>
+                <control>2017/12295</control>
+                <titulo>Resolución de 19 de octubre de 2017, del Ayuntamiento de Torrejón del Rey (Guadalajara), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="215420" szKBytes="210" pagina_inicial="104897" pagina_final="104897">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12584.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12584</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12584</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12585</identificador>
+                <control>2017/12468</control>
+                <titulo>Resolución de 26 de octubre de 2017, del Ayuntamiento de Lobeira (Ourense), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="214312" szKBytes="209" pagina_inicial="104898" pagina_final="104898">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12585.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12585</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12585</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2017-12586</identificador>
+                <control>2017/12411</control>
+                <titulo>Resolución de 17 de octubre de 2017, de la Universidad de Valladolid, por la que se convoca concurso de acceso a plazas de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="823266" szKBytes="804" pagina_inicial="104899" pagina_final="104924">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12586.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12586</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12586</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Comunidad Autónoma de Andalucía. Convenio">
+              <item>
+                <identificador>BOE-A-2017-12587</identificador>
+                <control>2017/12303</control>
+                <titulo>Resolución de 19 de octubre de 2017, de la Secretaría de Estado de Justicia, por la que se publica el Convenio de colaboración con el Consejo General del Poder Judicial, la Comunidad Autónoma de Andalucía y la Universidad Pablo de Olavide de Sevilla, para la realización de prácticas externas en juzgados y tribunales.</titulo>
+                <url_pdf szBytes="294771" szKBytes="288" pagina_inicial="104925" pagina_final="104933">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12587.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12587</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12587</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma de Galicia. Convenio">
+              <item>
+                <identificador>BOE-A-2017-12588</identificador>
+                <control>2017/12304</control>
+                <titulo>Resolución de 19 de octubre de 2017, de la Secretaría de Estado de Justicia, por la que se publica el Convenio de colaboración con el Consejo General del Poder Judicial, la Comunidad Autónoma de Galicia y la Universidad de Vigo, para la realización de prácticas externas en juzgados y tribunales.</titulo>
+                <url_pdf szBytes="295792" szKBytes="289" pagina_inicial="104934" pagina_final="104941">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12588.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12588</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12588</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad de Madrid. Convenio">
+              <item>
+                <identificador>BOE-A-2017-12589</identificador>
+                <control>2017/12142</control>
+                <titulo>Resolución de 10 de octubre de 2017, de la Secretaría de Estado de Justicia, por la que se publica el Convenio de colaboración con el Consejo General del Poder Judicial, la Comunidad de Madrid y la Universidad Carlos III de Madrid, para la realización de prácticas externas en juzgados y tribunales.</titulo>
+                <url_pdf szBytes="283803" szKBytes="277" pagina_inicial="104942" pagina_final="104950">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12589.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12589</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12589</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2017-12590</identificador>
+                <control>2017/12143</control>
+                <titulo>Resolución de 10 de octubre de 2017, de la Secretaría de Estado de Justicia, por la que se publica el Convenio de colaboración con la Universidad Pontificia Comillas, para la realización de prácticas externas.</titulo>
+                <url_pdf szBytes="220010" szKBytes="215" pagina_inicial="104951" pagina_final="104959">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12590.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12590</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12590</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Encomienda de gestión">
+              <item>
+                <identificador>BOE-A-2017-12591</identificador>
+                <control>2017/12412</control>
+                <titulo>Resolución de 17 de octubre de 2017, de la Dirección General de los Registros y del Notariado, por la que se publica la encomienda de gestión al Colegio de Registradores de la Propiedad, Mercantiles y de Bienes Muebles de España, para la tramitación de expedientes de nacionalidad por residencia del segundo semestre de 2015.</titulo>
+                <url_pdf szBytes="207858" szKBytes="203" pagina_inicial="104960" pagina_final="104966">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12591.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12591</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12591</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2017-12592</identificador>
+                <control>2017/12480</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Secretaría General de Financiación Autonómica y Local, por la que se publica el Convenio con el Ayuntamiento de Almería por el que se instrumenta la subvención nominativa prevista en los Presupuestos Generales del Estado de 2017, para cofinanciar la construcción de una nueva biblioteca municipal.</titulo>
+                <url_pdf szBytes="182777" szKBytes="178" pagina_inicial="104967" pagina_final="104970">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12592.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12592</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12592</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <epigrafe nombre="Renfe-Operadora. Cuentas anuales">
+              <item>
+                <identificador>BOE-A-2017-12593</identificador>
+                <control>2017/12364</control>
+                <titulo>Resolución de 28 de septiembre de 2017, de Renfe-Operadora, por la que se publican las cuentas anuales consolidadas del ejercicio 2016 y el informe de auditoría.</titulo>
+                <url_pdf szBytes="2130400" szKBytes="2080" pagina_inicial="104971" pagina_final="105090">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12593.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12593</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12593</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12594</identificador>
+                <control>2017/12365</control>
+                <titulo>Resolución de 28 de septiembre de 2017, de Renfe-Operadora, por la que se publican las cuentas anuales del ejercicio 2016 y el informe de auditoría.</titulo>
+                <url_pdf szBytes="1050561" szKBytes="1026" pagina_inicial="105091" pagina_final="105169">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12594.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12594</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12594</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Comunidad de Castilla y León. Convenio">
+              <item>
+                <identificador>BOE-A-2017-12595</identificador>
+                <control>2017/12414</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Secretaría General Técnica, por la que se publica el Convenio de colaboración con la Universidad de Salamanca, para la realización de prácticas de grado y postgrado por los alumnos universitarios en el Centro Documental de la Memoria Histórica, Archivo General de Simancas y Archivo de la Real Chancillería de Valladolid.</titulo>
+                <url_pdf szBytes="188924" szKBytes="184" pagina_inicial="105170" pagina_final="105174">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12595.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12595</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12595</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2017-12596</identificador>
+                <control>2017/12415</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Secretaría General Técnica, por la que se publica el Convenio de colaboración entre el Banco de España y el Museo Nacional del Prado, para la restauración de varias obras pertenecientes a la colección del Banco de España.</titulo>
+                <url_pdf szBytes="195901" szKBytes="191" pagina_inicial="105175" pagina_final="105180">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12596.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12596</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12596</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12597</identificador>
+                <control>2017/12416</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Secretaría General Técnica, por la que se publica el Convenio de colaboración entre la Universidad Internacional Menéndez Pelayo y Álava Reyes Consultores, SL, para el desarrollo del Título Oficial de Máster Universitario en Psicología General Sanitaria.</titulo>
+                <url_pdf szBytes="428193" szKBytes="418" pagina_inicial="105181" pagina_final="105198">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12597.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12597</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12597</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12598</identificador>
+                <control>2017/12417</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Secretaría General Técnica, por la que se publica el Convenio de colaboración para estudio técnico, restauración y exhibición del retrato de Pantaleón Pérez de Nenín, entre el Museo Nacional del Prado, el Museo de Bellas Artes de Bilbao y BBVA.</titulo>
+                <url_pdf szBytes="200417" szKBytes="196" pagina_inicial="105199" pagina_final="105204">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12598.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12598</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12598</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12599</identificador>
+                <control>2017/12419</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Secretaría General Técnica, por la que se publica el Convenio entre Renfe Viajeros Sociedad Mercantil Estatal, SA y la Biblioteca Nacional de España, para el desarrollo del Programa Tren+Museo de la Biblioteca Nacional de España.</titulo>
+                <url_pdf szBytes="207772" szKBytes="203" pagina_inicial="105205" pagina_final="105211">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12599.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12599</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12599</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12600</identificador>
+                <control>2017/12420</control>
+                <titulo>Resolución de 20 de octubre de 2017, de la Secretaría General Técnica, por la que se publica la Adenda por la que se prorroga el Convenio de colaboración entre el Instituto de la Cinematografía y las Artes Audiovisuales y la Corporación de Radio y Televisión Española, Sociedad Anónima, para la puesta en marcha en Radio 3 del ciclo "Perlas de la Filmoteca".</titulo>
+                <url_pdf szBytes="164710" szKBytes="161" pagina_inicial="105212" pagina_final="105213">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12600.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12600</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12600</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2017-12601</identificador>
+                <control>2017/12422</control>
+                <titulo>Resolución de 17 de octubre de 2017, de la Secretaría General Técnica, por la que se publica el Convenio entre el Instituto Nacional de la Seguridad Social y Mutua Universal Mugenat, Mutua Colaboradora con la Seguridad Social n.º 10, para el acceso telemático a la historia clínica de sus asegurados en los supuestos de prestaciones de la Seguridad Social que requieran un control y seguimiento por parte del INSS.</titulo>
+                <url_pdf szBytes="185109" szKBytes="181" pagina_inicial="105214" pagina_final="105218">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12601.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12601</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12601</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12602</identificador>
+                <control>2017/12423</control>
+                <titulo>Resolución de 17 de octubre de 2017, de la Secretaría General Técnica, por la que se publica el Convenio marco de colaboración entre el Instituto Nacional de la Seguridad Social y la Asociación Española de Pediatría.</titulo>
+                <url_pdf szBytes="182447" szKBytes="178" pagina_inicial="105219" pagina_final="105223">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12602.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12602</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12602</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9280" nombre="MINISTERIO DE AGRICULTURA Y PESCA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <epigrafe nombre="Comunidad Autónoma de Cantabria. Convenio">
+              <item>
+                <identificador>BOE-A-2017-12603</identificador>
+                <control>2017/12492</control>
+                <titulo>Resolución de 17 de octubre de 2017, del Fondo Español de Garantía Agraria, por la que se publica el Convenio por el que en calidad de autoridad de certificación del Fondo Europeo Marítimo y de la Pesca, encomienda a la Comunidad Autónoma de Cantabria la gestión de determinadas funciones, en su condición de organismo intermedio de certificación.</titulo>
+                <url_pdf szBytes="194802" szKBytes="190" pagina_inicial="105224" pagina_final="105229">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12603.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12603</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12603</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma de Cataluña. Convenio">
+              <item>
+                <identificador>BOE-A-2017-12604</identificador>
+                <control>2017/12493</control>
+                <titulo>Resolución de 17 de octubre de 2017, del Fondo Español de Garantía Agraria, por la que se publica el Convenio por el que en calidad de autoridad de certificación del Fondo Europeo Marítimo y de la Pesca, encomienda a la Comunidad Autónoma de Cataluña la gestión de determinadas funciones, en su condición de organismo intermedio de certificación.</titulo>
+                <url_pdf szBytes="192177" szKBytes="188" pagina_inicial="105230" pagina_final="105235">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12604.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12604</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12604</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Comunidad Autónoma del País Vasco. Convenio">
+              <item>
+                <identificador>BOE-A-2017-12605</identificador>
+                <control>2017/12494</control>
+                <titulo>Resolución de 17 de octubre de 2017, del Fondo Español de Garantía Agraria, por la que se publica el Convenio por el que en calidad de autoridad de certificación del Fondo Europeo Marítimo y de la Pesca, encomienda a la Comunidad Autónoma del País Vasco la gestión de determinadas funciones, en su condición de organismo intermedio de certificación.</titulo>
+                <url_pdf szBytes="196946" szKBytes="192" pagina_inicial="105236" pagina_final="105241">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12605.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12605</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12605</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2017-12606</identificador>
+                <control>2017/12491</control>
+                <titulo>Resolución de 25 de septiembre de 2017, de la Confederación Hidrográfica del Guadiana, por la que se publica el Convenio de encomienda de gestión con la Mancomunidad de Aguas y Servicios de la Comarca de Llerena, para la explotación de la obra de mejora del sistema de abastecimiento de la Comarca de Azuaga.</titulo>
+                <url_pdf szBytes="261758" szKBytes="256" pagina_inicial="105242" pagina_final="105249">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12606.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12606</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12606</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9281" nombre="MINISTERIO DE ECONOMÍA, INDUSTRIA Y COMPETITIVIDAD">
+            <epigrafe nombre="Comunidad Autónoma de Canarias. Convenio">
+              <item>
+                <identificador>BOE-A-2017-12607</identificador>
+                <control>2017/12499</control>
+                <titulo>Resolución de 17 de octubre de 2017, de la Secretaría de Estado de Comercio, por la que se publica el Convenio con el Gobierno de Canarias, sobre la presentación telemática de certificados de ayuda, coordinación en materia de registro de operadores e intercambio de información en el marco del Régimen Específico de Abastecimiento.</titulo>
+                <url_pdf szBytes="179299" szKBytes="175" pagina_inicial="105250" pagina_final="105253">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12607.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12607</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12607</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2017-12608</identificador>
+                <control>2017/12155</control>
+                <titulo>Resolución de 9 de octubre de 2017, del Centro de Investigación Biomédica en Red, por la que se publica el Convenio de colaboración con la Institución IDIAP Jordi Gol.</titulo>
+                <url_pdf szBytes="251580" szKBytes="246" pagina_inicial="105254" pagina_final="105265">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12608.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12608</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12608</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12609</identificador>
+                <control>2017/12156</control>
+                <titulo>Resolución de 11 de octubre de 2017, del Centro de Investigación Biomédica en Red, por la que se publica el Convenio de colaboración con la Institución Fundación Centro de Cirugía de Mínima Invasión Jesús Usón.</titulo>
+                <url_pdf szBytes="254541" szKBytes="249" pagina_inicial="105266" pagina_final="105277">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12609.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12609</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12609</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2017-12610</identificador>
+                <control>2017/12498</control>
+                <titulo>Resolución de 11 de octubre de 2017, del Consorcio Centro de Investigación Biomédica en Red, por la que se publica el Convenio de colaboración con la Fundación para el Fomento en Asturias de la Investigación Científica Aplicada y la Tecnología.</titulo>
+                <url_pdf szBytes="254335" szKBytes="248" pagina_inicial="105278" pagina_final="105289">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12610.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12610</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12610</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Fundación Escuela de Organización Industrial. Cuentas anuales">
+              <item>
+                <identificador>BOE-A-2017-12611</identificador>
+                <control>2017/12501</control>
+                <titulo>Resolución de 19 de octubre de 2017, de la Secretaría General de Industria y de la Pequeña y Mediana Empresa, por la que se publican las cuentas anuales de la Fundación Escuela de Organización Industrial del ejercicio 2016 y el informe de auditoría.</titulo>
+                <url_pdf szBytes="1373816" szKBytes="1342" pagina_inicial="105290" pagina_final="105346">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12611.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12611</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12611</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2017-12612</identificador>
+                <control>2017/12431</control>
+                <titulo>Resolución de 16 de octubre de 2017, de la Secretaría General de Sanidad y Consumo, por la que se publica el Convenio entre la Agencia Española de Medicamentos y Productos Sanitarios y la Fundación ONCE, por el que se canaliza la subvención nominativa establecida en los presupuestos generales del Estado para el año 2017, para la informatización de varios campos de RAEVET que tengan un impacto directo en el nomenclátor veterinario y en la prescripción veterinaria electrónica y en el módulo de consultas de la web (CIMAVET).</titulo>
+                <url_pdf szBytes="199746" szKBytes="195" pagina_inicial="105347" pagina_final="105352">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-A-2017-12612.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12612</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-12612</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Contratación del Sector Público">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2017-63917</identificador>
+              <titulo>Anuncio de formalización de contratos de: Jefatura de Administración Económica del Estado Mayor de la Defensa. Objeto: Repuestos para mantenimiento del sistema de calibración y adiestramiento, perteneciente al sistema conjunto Santiago. Expediente: 10013170413.</titulo>
+              <url_pdf szBytes="173148" szKBytes="169" pagina_inicial="79235" pagina_final="79235">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-B-2017-63917.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2017-63917</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2017-63917</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2017-63918</identificador>
+              <titulo>Anuncio de la Universidad Alcalá de Henares sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="164009" szKBytes="160" pagina_inicial="79236" pagina_final="79236">https://www.boe.es/boe/dias/2017/11/02/pdfs/BOE-B-2017-63918.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2017-63918</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2017-63918</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

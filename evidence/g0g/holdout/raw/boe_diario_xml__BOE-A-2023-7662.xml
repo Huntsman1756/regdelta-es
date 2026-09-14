@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251220175601">
+  <metadatos>
+    <identificador>BOE-A-2023-7662</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20230317</fecha_disposicion>
+    <numero_oficial>2/2023</numero_oficial>
+    <titulo>Circular 2/2023, de 17 de marzo, del Banco de España, por la que se modifica la Circular 1/2013, de 24 de mayo, sobre la Central de Información de Riesgos.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20230325</fecha_publicacion>
+    <diario_numero>72</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>44257</pagina_inicial>
+    <pagina_final>44371</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2023/03/25/pdfs/BOE-A-2023-7662.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2023-7662</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20230701</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2023/03/17/2</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2023/03/17/2">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2023-7662</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-17</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/689"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2023/03/17/2/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2023-7662</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-17</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/689"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2023/03/17/2"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2023/03/17/2/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2023, de 17 de marzo, del Banco de España, por la que se modifica la Circular 1/2013, de 24 de mayo, sobre la Central de Información de Riesgos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-03-25</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2023/03/17/2/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2023/03/17/2/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2023/03/17/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2023/03/17/2/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2023/03/17/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2023/03/17/2/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2023/03/17/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2023/03/17/2/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2023/03/17/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="689" orden="">Central de Información de Riesgos</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="1757" orden="">Créditos</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="3472" orden="">Estados financieros</materia>
+      <materia codigo="6242" orden="">Riesgos</materia>
+    </materias>
+    <notas>
+      <nota codigo="10" orden="200">Entrada en vigor: el 1 de julio de 2023, salvo lo indicado de la disposición final única, que lo hará el 26 de marzo de 2023.</nota>
+    </notas>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2013-5720" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>, con los efectos indicados, determinados preceptos y SUSTITUYE los anejos 1 y 2 de la Circular 1/2013, de 24 de mayo</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2004-4969" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la Orden ECO/697/2004, de 11 de marzo</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2002-22807" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la Ley 44/2002, de 22 de noviembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2022-10808" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Orden ETD/600/2022, de 29 de junio</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="centro_redonda">I</p>
+    <p class="parrafo_2">El objetivo principal de la presente circular es adaptar la Circular 1/2013, de 24 de mayo, del Banco de España, sobre la Central de Información de Riesgos (en adelante, Circular 1/2013) a los cambios introducidos por la Orden ETD 600/2022, de 29 de junio, que modifica las fechas de entrada en vigor para la reducción de las exenciones de declaración individualizada a la CIR que establecía la Orden ETD/699/2020, de 24 de julio. Este cambio supone que, a partir del 2 de enero de 2023, las entidades declarantes deberán reportar a la CIR, de forma individualizada, todas las operaciones de los titulares cuyo riesgo acumulado en la entidad sea igual o superior a 3.000 euros.</p>
+    <p class="centro_redonda">II</p>
+    <p class="parrafo_2">Esta circular consta de una norma, una disposición final única y dos anejos. La norma actualiza la Circular 1/2013, la disposición final única establece la entrada en vigor de la presente circular y los anejos actualizan los anejos 1 y 2 de la Circular 1/2013.</p>
+    <p class="parrafo">La Orden ETD/699/2020, de 24 de julio, de regulación del crédito revolvente (en adelante, OM de crédito revolvente), introdujo cambios en la Orden ECO/697/2004, de 11 de marzo, sobre la Central de Información de Riesgos (en adelante, OM de la CIR) que afectan a distintos aspectos del funcionamiento de la Central de Información de Riesgos (CIR) y puso en marcha un proceso de revisión y adaptación de su normativa reglamentaria orientado a ampliar la información de la que disponen las entidades declarantes. Algunos de estos cambios entraron en vigor en enero de 2021 y, en julio de 2022, estaba prevista la entrada en vigor de otras modificaciones. En concreto, la reducción a 1.000 euros del umbral de exención de declaración y el adelanto al día 7 de cada mes de la fecha límite para el envío de la información al Banco de España.</p>
+    <p class="parrafo">El Banco de España, para dar cumplimiento a lo establecido en la disposición adicional segunda de la mencionada OM, remitió al Ministerio de Economía y Transformación digital (METD) en noviembre de 2021 un informe analizando determinados aspectos del funcionamiento de la CIR. En él se presentaron distintas propuestas que tenían en cuenta las opiniones de las entidades declarantes recogidas a través de la encuesta que la CIR les remitió con este propósito.</p>
+    <p class="parrafo">En este contexto, el 30 de junio de 2022 se publicó en el «Boletín Oficial del Estado» (BOE) la Orden ETD 600/2022, por la que se retrasa la fecha de entrada en vigor de la bajada del umbral de exención de declaración a 1.000 euros hasta enero de 2027, estableciendo un período transitorio por el cual, a partir del 2 de enero de 2023, las entidades declarantes deberán reportar a la CIR, de forma individualizada, todas las operaciones de los titulares cuyo riesgo acumulado en la entidad sea igual o superior a 3.000 euros.</p>
+    <p class="parrafo">Por otra parte, el Código de Buenas Prácticas para el marco de renegociación para clientes con financiación avalada previsto en el Real Decreto-ley 5/2021, de 12 de marzo, de medidas extraordinarias de apoyo a la solvencia empresarial en respuesta a la pandemia de la COVID-19 (en adelante, Código de Buenas Prácticas), establece que las entidades financieras deben señalar en sus sistemas de contabilidad y de gestión del riesgo las operaciones acogidas a alguna de las tres medidas que éste contempla –la extensión del plazo de vencimiento, la transformación en préstamos participativos y la reducción del principal pendiente–, e incorporar esta señalización a la CIR del Banco de España.</p>
+    <p class="parrafo">Igualmente, el acuerdo del Consejo de Ministros de 10 de mayo de 2022, por el que se establecen los términos y condiciones del primer tramo de la línea de avales del Real Decreto-ley 6/2022, de 29 de marzo, por el que se adoptan medidas urgentes en el marco del Plan Nacional de respuesta a las consecuencias económicas y sociales de la guerra en Ucrania, prevé que las entidades identifiquen estas operaciones en su declaración a la CIR del Banco de España.</p>
+    <p class="parrafo">Por otro lado, el Banco de España integró en la Circular 1/2017, de 30 de junio, del Banco de España, por la que se modifica la Circular 1/2013 los requerimientos de información establecidos en el Reglamento (UE) 2016/867 del Banco Central Europeo, de 18 de mayo de 2016, sobre la recopilación de datos granulares de crédito y de riesgo crediticio (BCE/2016/13) (en adelante, Reglamento de AnaCredit), lo que hace necesario incorporar algunas modificaciones en la CIR para mantener alineados ambos esquemas de información.</p>
+    <p class="parrafo">Por último, la experiencia adquirida en la gestión de la CIR hace aconsejable introducir algún cambio adicional para aclarar la información que se debe remitir relativa a determinadas operaciones, simplificar la forma en que se presenta la información en algunos módulos e introducir alguna dimensión adicional o extender el ámbito para el que se solicita determinada información. Este es, por ejemplo, el caso de la incorporación, entre los requerimientos de información a la CIR, de los datos contables de los préstamos a personas físicas que, desde 2018, se solicitan para las personas jurídicas y de la solicitud de información sobre la renta disponible anual del titular al inicio de la operación para los préstamos a hogares. Esta información se considera muy relevante para el adecuado ejercicio de las competencias de supervisión prudencial y de conducta que tiene asignado el Banco de España y, además, contribuirá al correcto desarrollo de las restantes funciones que tiene atribuidas el Banco de España, cumpliendo así con las finalidades encomendadas a la CIR en la Ley 44/2002.</p>
+    <p class="centro_redonda">III</p>
+    <p class="parrafo_2">En esta circular se da cumplimiento a los principios de necesidad, eficacia, proporcionalidad, seguridad jurídica y eficiencia regulados en el artículo 129 de la Ley 39/2015, de 1 de octubre, del procedimiento administrativo común de las Administraciones Públicas, en cuanto que con ella se consiguen los fines perseguidos sin imponer cargas innecesarias o accesorias, regulando de forma coherente con el resto del ordenamiento exclusivamente los aspectos imprescindibles.</p>
+    <p class="centro_redonda">IV</p>
+    <p class="parrafo_2">La habilitación del Banco de España para modificar la Circular 1/2013 proviene de la Ley 44/2002, de 22 de noviembre, de medidas de reforma del sistema financiero, y de la Orden ECO/697/2004, de 11 de marzo, sobre la CIR, que la desarrolla.</p>
+    <p class="parrafo">En cumplimiento del apartado cuarto del artículo 8 del Reglamento Interno del Banco de España y siguiendo el principio de transparencia, durante la elaboración de la presente circular se ha llevado a cabo una consulta pública previa a las personas y a entidades potencialmente afectadas, y se ha sometido el proyecto de circular al trámite de audiencia e información públicas. Ambos procesos, regulados en el artículo 133 de la Ley 39/2015, de 1 de octubre, se han llevado a cabo mediante su publicación en la página web del Banco de España y la remisión de escritos informativos a las asociaciones representativas del sector y a los organismos públicos interesados, dando oportunidad de manifestar sus observaciones a los destinatarios de la norma, a los organismos competentes y a los interesados en general.</p>
+    <p class="parrafo">En consecuencia, en uso de las facultades que tiene concedidas, el Consejo de Gobierno del Banco de España, a propuesta de la Comisión Ejecutiva y de acuerdo con el Consejo de Estado, ha aprobado la presente circular, que contiene la siguiente Norma:</p>
+    <p class="articulo"><strong>Norma única</strong>. Modificación de la Circular 1/2013, de 24 de mayo, del Banco de España, sobre la Central de Información de Riesgos.</p>
+    <p class="parrafo">Se introducen las siguientes modificaciones en la Circular 1/2013, de 24 de mayo:</p>
+    <p class="parrafo_2">Uno. En la norma segunda «Riesgos declarables», se modifica el apartado 3, que queda redactado en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«3. Los riesgos declarables se deben declarar de forma individualizada a la CIR, es decir, operación a operación. Para ello, las entidades declarantes asignarán a cada operación –o a cada parte en la que se tenga que dividir conforme a lo dispuesto en la norma tercera, apartado 3– un código único, que se debe mantener invariable durante su vida. Dicho código no se podrá reutilizar en el futuro para declarar otras operaciones. Cuando, por motivos de gestión interna, resulte estrictamente necesario, el Banco de España podrá permitir un cambio de código. En este caso, las entidades se atendrán a lo dispuesto en la norma undécima, letra A).</p>
+      <p class="parrafo">No obstante lo indicado en el párrafo anterior, no se declararán las operaciones cuando se trate de préstamos a plazo (siempre que su finalidad sea el consumo, su importe al inicio de la operación no supere los 3.000 euros y su plazo original sea igual o inferior a veinticuatro meses), <em>factoring</em> sin recurso, tarjetas de crédito, descubiertos, anticipos de pensiones o nóminas o resto de préstamos a la vista, y, además, todos los titulares cumplan los siguientes criterios:</p>
+      <p class="parrafo_2">a) Pertenezcan al sector institucional hogares o sean sociedades no financieras, o instituciones sin fines de lucro al servicio de los hogares, en las que no participen, en su capital o vía derechos de voto, entidades que tengan la consideración de sector público español, conforme a lo dispuesto en el artículo 2 de la Ley Orgánica 2/2012, de 27 de abril, de estabilidad presupuestaria y sostenibilidad financiera;</p>
+      <p class="parrafo">b) no tengan otro tipo de operaciones declarables a la CIR;</p>
+      <p class="parrafo">c) su riesgo acumulado, directo e indirecto, en la entidad declarante sea inferior a 3.000 euros, y</p>
+      <p class="parrafo">d) no tengan importes calificados como normales en vigilancia especial o dudosos, o el importe total de las operaciones con dichas calificaciones sea inferior a 100 euros.»</p>
+    </blockquote>
+    <p class="parrafo_2">Dos. En la norma tercera «Titulares y otras personas declarables», se modifican los apartados 5 y 6, que quedan redactados en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«5. Los titulares de riesgos, directos e indirectos, se declararán de forma individualizada a la CIR, cualquiera que sea el importe de su riesgo en la entidad declarante, excepto cuando sus operaciones no sean declarables, conforme a lo dispuesto en la norma segunda, apartado 3. Excepcionalmente, se podrán excluir de la declaración del riesgo indirecto a nombre de un titular los efectos en los que haya comprometido su firma, siempre que su importe sea inferior a 3.000 euros y formen parte de una operación de crédito comercial con recurso. Asimismo, las entidades sujetas a declaración reducida no declararán a los titulares de riesgo indirecto que intervengan en la operación en calidad de contraparte de un derivado de crédito comprado, de garante sin conocimiento del titular o de tercero comprometido a pagar importes en una operación de arrendamiento financiero.</p>
+      <p class="parrafo">Los datos de los titulares, incluidos los de sus operaciones, cuyo riesgo acumulado en la entidad declarante sea inferior a 1.000 euros se declaran exclusivamente con la finalidad prevista en el artículo 60, apartado cuarto, letra a), de la Ley 44/2002. A estos efectos, el riesgo acumulado es el importe de las operaciones en las que la persona intervenga como titular de riesgo, directo o indirecto, con las siguientes precisiones:</p>
+      <p class="parrafo_2">a) No se incluyen en el cálculo del riesgo acumulado los importes de las operaciones que se declaren como:</p>
+      <p class="parrafo_2">1. Garantías financieras instrumentadas como derivados de crédito o compromisos de riesgo de crédito de arrendamientos financieros para el arrendador.</p>
+      <p class="parrafo">2. Otros compromisos con riesgo de crédito instrumentados como compromisos de riesgo de crédito de arrendamientos operativos para el arrendador.</p>
+      <p class="parrafo">3. Otros arrendamientos, según la definición de otros arrendamientos establecida en la dimensión "Tipo de producto" del módulo B.2 del anejo 2.</p>
+      <p class="parrafo_2">b) El importe del riesgo directo asumido en las operaciones es la suma de los importes dispuestos (principal, intereses y comisiones vencidos, intereses de demora y gastos exigibles) pendientes de cobro más los importes disponibles (con disponibilidad inmediata y condicionada).</p>
+      <p class="parrafo">c) El importe del riesgo indirecto que computa como riesgo acumulado es el riesgo máximo que garantiza el titular de las operaciones en las que interviene exclusivamente como garante o porque haya comprometido su firma en operaciones de cartera comercial o efectos financieros. Cuando el titular haya comprometido su firma en efectos que forman parte de operaciones de cartera comercial con recurso que no se declaren a la CIR conforme a lo dispuesto en el primer párrafo de este apartado, el riesgo no declarado por este motivo no se computará a estos efectos.</p>
+      <p class="parrafo">d) En los préstamos sindicados y demás préstamos en los que varios prestamistas participan de forma mancomunada, cada entidad declarante computará como riesgo acumulado exclusivamente el importe del riesgo que asuma de las operaciones. En los diferentes módulos se declarará exclusivamente el importe del riesgo que la entidad asuma en estos préstamos, sin perjuicio del tratamiento específico para las garantías con las que, en su caso, cuenten, que se declararán conforme a lo señalado en la norma octava, apartados 3, 8 y 11.</p>
+      <p class="parrafo">e) En las garantías financieras y avales y cauciones no financieros prestados concedidos solidariamente por varias entidades, cada entidad declarante computará como riesgo acumulado el importe total de la operación.</p>
+      <p class="parrafo">f) En el riesgo acumulado, además de los importes que asume directamente la entidad declarante con el titular, se incluirán los que haya transferido a terceros de las operaciones en las que continúa con su gestión frente al titular, aunque los haya dado de baja del activo, así como los que tenga registrados en los libros de sus sociedades instrumentales residentes en España.</p>
+      <p class="parrafo">g) En el riesgo acumulado de las entidades que hayan adquirido operaciones que continúe declarando a la CIR otra entidad, también se incluyen los importes que hayan asumido en dichas operaciones, aunque, conforme a lo dispuesto en la norma decimocuarta, letra B), no los declaren a la CIR como datos dinámicos de los riesgos directos e indirectos.</p>
+      <p class="parrafo">h) En el riesgo acumulado no se incluirán los importes de las operaciones a las que se refiere la norma segunda, apartado 1 bis.</p>
+      <p class="parrafo_2">6. No obstante lo señalado en el apartado anterior, el Banco de España, el Fondo de Garantía de Depósitos de Entidades de Crédito, la Sociedad Anónima Estatal de Caución Agraria (SAECA), las entidades de crédito que operen en régimen de libre prestación de servicios y los prestamistas inmobiliarios solo declararán las operaciones cuyos titulares pertenezcan a los sectores institucionales hogares, sociedades no financieras o instituciones sin fines de lucro al servicio de los hogares cuyo riesgo acumulado sea igual o superior a 3.000 euros.»</p>
+    </blockquote>
+    <p class="parrafo_2">Tres. En la norma cuarta, «Módulos de datos y disposiciones generales», se modifican los apartados 1 y 2, que quedan redactados en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«1. Las entidades declarantes estarán obligadas a remitir al Banco de España los siguientes módulos de datos, en tanto les sean aplicables, conforme a lo dispuesto en las normas de este capítulo:</p>
+      <table class="tabla_ancha" data-omitir-repetir-tfoot="true">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <thead>
+          <tr>
+            <th class="cabeza_tabla">Módulo</th>
+            <th class="cabeza_tabla">Denominación</th>
+            <th class="cabeza_tabla">Periodicidad</th>
+            <th class="cabeza_tabla">Plazo máximo de presentación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cuerpo_tabla_centro">A</td>
+            <td class="cuerpo_tabla_izq">Datos de personas y solicitud de código.</td>
+            <td class="cuerpo_tabla_izq"> </td>
+            <td class="cuerpo_tabla_izq"> </td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">A.1</td>
+            <td class="cuerpo_tabla_izq">Datos que identifican a las personas.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq">Día 5 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">A.2</td>
+            <td class="cuerpo_tabla_izq">Solicitud de código de identificación de personas no residentes en España.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq"> </td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">B</td>
+            <td class="cuerpo_tabla_izq">Datos básicos de las operaciones y de las relaciones con las personas.</td>
+            <td class="cuerpo_tabla_izq"> </td>
+            <td class="cuerpo_tabla_izq"> </td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">B.1</td>
+            <td class="cuerpo_tabla_izq">Datos básicos que relacionan a las personas con las operaciones.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq">Día 5 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">B.2</td>
+            <td class="cuerpo_tabla_izq">Datos básicos de las operaciones.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq">Día 5 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">B.3</td>
+            <td class="cuerpo_tabla_izq">Datos básicos complementaros de los préstamos a personas jurídicas.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq">Día 5 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">C</td>
+            <td class="cuerpo_tabla_izq">Datos dinámicos de las operaciones.</td>
+            <td class="cuerpo_tabla_izq"> </td>
+            <td class="cuerpo_tabla_izq"> </td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">C.1</td>
+            <td class="cuerpo_tabla_izq">Datos dinámicos de los riesgos directos.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">C.2</td>
+            <td class="cuerpo_tabla_izq">Datos dinámicos de los riesgos indirectos.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">C.3</td>
+            <td class="cuerpo_tabla_izq">Datos dinámicos financieros de los préstamos a personas jurídicas.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">C.4</td>
+            <td class="cuerpo_tabla_izq">Datos de los préstamos a personas jurídicas sobre las responsabilidades conjuntas.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">D</td>
+            <td class="cuerpo_tabla_izq">Datos sobre garantías recibidas.</td>
+            <td class="cuerpo_tabla_izq"> </td>
+            <td class="cuerpo_tabla_izq"> </td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">D.1</td>
+            <td class="cuerpo_tabla_izq">Datos básicos que relacionan las operaciones con las garantías recibidas.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">D.1.1</td>
+            <td class="cuerpo_tabla_izq">Datos básicos de las garantías recibidas.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">D.2</td>
+            <td class="cuerpo_tabla_izq">Datos básicos de los inmuebles recibidos en garantía.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">D.3</td>
+            <td class="cuerpo_tabla_izq">Datos básicos de los activos financieros recibidos en garantía.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">D.4</td>
+            <td class="cuerpo_tabla_izq">Datos dinámicos que relacionan las operaciones con las garantías recibidas.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">D.5</td>
+            <td class="cuerpo_tabla_izq">Datos dinámicos de los edificios en construcción y de las promociones inmobiliarias recibidos en garantía.</td>
+            <td class="cuerpo_tabla_izq">Trimestral.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">E</td>
+            <td class="cuerpo_tabla_izq">Datos sobre tipos de interés de los préstamos.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">F</td>
+            <td class="cuerpo_tabla_izq">Datos de transferencias y titulizaciones sintéticas de activos financieros.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">G</td>
+            <td class="cuerpo_tabla_izq">Datos que vinculan códigos.</td>
+            <td class="cuerpo_tabla_izq">No periódico.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">H</td>
+            <td class="cuerpo_tabla_izq">Información prudencial complementaria.</td>
+            <td class="cuerpo_tabla_izq"> </td>
+            <td class="cuerpo_tabla_izq"> </td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">H.1</td>
+            <td class="cuerpo_tabla_izq">Datos contables de los préstamos.</td>
+            <td class="cuerpo_tabla_izq">Trimestral.</td>
+            <td class="cuerpo_tabla_izq">Día 15 del segundo mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">H.2</td>
+            <td class="cuerpo_tabla_izq">Datos sobre el riesgo de los titulares de los préstamos que sean personas jurídicas.</td>
+            <td class="cuerpo_tabla_izq">Trimestral.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">H.3</td>
+            <td class="cuerpo_tabla_izq">Datos sobre la situación de impago (<em>default</em>) de los titulares de riesgo de los préstamos que sean personas jurídicas.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro">I</td>
+            <td class="cuerpo_tabla_izq">Datos dinámicos sobre la actividad de las entidades sujetas a declaración reducida.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 10 del mes siguiente.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="parrafo">Los módulos de datos se incluyen como anejo 1, y las instrucciones para su elaboración, en el anejo 2. Adicionalmente, el Banco de España podrá elaborar aplicaciones técnicas para facilitar la confección de los diferentes módulos. En todo caso, la declaración de las dimensiones de la CIR que sean coincidentes con las que figuran en el Reglamento de AnaCredit, en lo no contemplado expresamente en esta circular o en las aplicaciones técnicas, se hará aplicando los criterios que, en su caso, publique el BCE.</p>
+      <p class="parrafo">Cuando el día del plazo máximo de presentación de los módulos sea festivo en Madrid, los datos se podrán enviar el primer día hábil en dicha localidad posterior al día máximo de presentación.</p>
+      <p class="parrafo">Los datos dinámicos (es decir, los que tienen frecuencia mensual o trimestral) serán los correspondientes a la situación del último día del mes o trimestre natural al que se refiera la declaración.</p>
+      <p class="parrafo">Los importes se declararán en unidades de euros. Los importes denominados en monedas diferentes del euro se declararán por su contravalor en euros, utilizando para los datos básicos el tipo de cambio aplicable en la fecha de formalización de las operaciones y para los datos dinámicos el tipo de cambio de cierre correspondiente a la fecha a la que se refieran los datos, que coincidirá con el tipo que se utilice para la elaboración de los estados financieros.</p>
+      <p class="parrafo_2">2. Las siguientes entidades declarantes no tendrán que declarar los módulos que se indican a continuación, aunque tengan datos susceptibles de declarar en ellos:</p>
+      <p class="parrafo_2">a) Las entidades de crédito españolas y las sucursales en España de entidades de crédito extranjeras cuya sede social no esté radicada en otro país del Espacio Económico Europeo no declararán el módulo I.</p>
+      <p class="parrafo">b) Las sucursales en España de entidades de crédito extranjeras cuya sede social esté radicada en otro Estado miembro informador no declararán los módulos D, H e I. No obstante, el Banco de España podrá requerir el envío de los módulos D y H cuando la información de estos módulos fuese necesaria para cumplir con las obligaciones establecidas por el Reglamento de AnaCredit. En este caso, la información a enviar sobre el módulo D será la misma que se requiere para las sucursales en España de entidades de crédito extranjeras cuya sede social esté radicada en otro país del Espacio Económico Europeo que no sea estado miembro informador. El requerimiento se efectuará por escrito, con una antelación mínima de tres meses antes del primer envío.</p>
+      <p class="parrafo">c) Las sucursales en España de entidades de crédito extranjeras cuya sede social esté radicada en otro país del Espacio Económico Europeo que no sea Estado miembro informador no declararán los módulos D.3, D.5 e I.</p>
+      <p class="parrafo">d) Las sociedades de garantía recíproca no declararán los módulos B.3, C.3, C.4, E, F, H e I.</p>
+      <p class="parrafo">e) El Banco de España, el Fondo de Garantía de Depósitos de Entidades de Crédito, las sociedades de reafianzamiento y la Sociedad Anónima Estatal de Caución Agraria (SAECA) no declararán los módulos B.3, C.3, C.4, D, E, F, G, H e I.</p>
+      <p class="parrafo">f) La Sociedad de Gestión de Activos Procedentes de la Reestructuración Bancaria, SA (SAREB) y los establecimientos financieros de crédito, no declararán los módulos B.3, C.3, C.4, H e I.</p>
+      <p class="parrafo">g) Las entidades sujetas a declaración reducida no declararán los módulos B, C, D, E, F, G y H.»</p>
+    </blockquote>
+    <p class="parrafo_2">Cuatro. En la norma sexta, «Datos básicos de las operaciones y de las relaciones con las personas», se modifica el apartado 1, que queda redactado en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«1. El módulo B.1, "Datos básicos que relacionan a las personas con las operaciones", se enviará para vincular las operaciones que se han de declarar de forma individualizada, conforme a lo dispuesto en la norma segunda, apartado 3, con todos sus titulares, por riesgo tanto directo como indirecto, así como con el resto de las personas que intervengan en ellas, excepto con las contrapartes que vendan protección crediticia en titulizaciones sintéticas, que se vincularán con las operaciones en el módulo F, "Datos de transferencias y titulizaciones sintéticas de activos financieros", y con las contrapartes que sean proveedores de garantías, que se vincularán con las garantías en el módulo D.1.1, "Datos básicos de las garantías recibidas".»</p>
+    </blockquote>
+    <p class="parrafo_2">Cinco. En la norma undécima, «Vinculación de códigos», se elimina el título del apartado A) Datos básicos que vinculan códigos y los apartados 7, 8, 9 y 10. Adicionalmente, se modifican los apartados 1, 3, 4, 5, y 6, que quedan redactados en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«1. El módulo G, Datos que vinculan códigos, se enviará para vincular los nuevos códigos con otros códigos declarados a la CIR por la propia entidad o por otras entidades declarantes por los motivos que se indican en los siguientes apartados. Los datos del módulo se tendrán que remitir cuando se realice la primera declaración de los códigos que se han de vincular.»</p>
+      <p class="parrafo">«3. El código de una operación de la entidad declarante se vinculará con los códigos de operaciones declaradas a la CIR por otras entidades cuando:</p>
+      <p class="parrafo_2">a) Las operaciones sean garantías financieras o avales y cauciones no financieros prestados ante otra entidad declarante.</p>
+      <p class="parrafo">b) Las operaciones tengan como origen la adquisición de operaciones a otra entidad declarante que mantenga la gestión frente a los titulares.</p>
+      <p class="parrafo">c) Las operaciones tengan como origen una fusión, traspaso de la actividad financiera o adquisición de negocio realizada con otra entidad declarante.</p>
+      <p class="parrafo_2">4. En el módulo G también se vincularán los códigos que se utilicen para identificar los códigos de los valores, transferencias de activos, garantías reales de máximo, garantías recibidas y promociones inmobiliarias cuando se tengan que modificar.</p>
+      <p class="parrafo">5. El Banco de España, siempre que sea necesario para facilitar la gestión de los datos que le declaren las entidades, podrá solicitarles que vinculen en el módulo G cualquier código nuevo con el que se hubiese utilizado para declararlo previamente por ella u otra entidad.</p>
+      <p class="parrafo">6. Cuando en el módulo G por razones de gestión, fusión, traspaso total de la actividad financiera o adquisición de negocio se vinculen por cambio de código dos códigos de operación, de garantías recibidas o de activos adjudicados, el nuevo código no se declarará como variación de datos en los restantes módulos.»</p>
+    </blockquote>
+    <p class="parrafo_2">Seis. En la norma duodécima, «Información prudencial complementaria», se modifica el título del apartado A y los apartados 1, 2 y 3, que quedan redactados en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«A) Datos contables de los préstamos.</p>
+      <p class="parrafo_2">1. El módulo H.1, Datos contables de los préstamos, se declarará para informar sobre datos contables de los préstamos.</p>
+      <p class="parrafo">Los importes que se han informar, en su caso, serán exclusivamente los que correspondan al riesgo asumido por la entidad.</p>
+      <p class="parrafo_2">B) Datos sobre el riesgo de las personas jurídicas que sean contrapartes en préstamos.</p>
+      <p class="parrafo_2">2. El módulo H.2, Datos sobre el riesgo de los titulares de los préstamos que sean personas jurídicas, se enviará para informar sobre la probabilidad de impago (default) de las personas jurídicas y entidades sin personalidad jurídica que sean titulares de riesgo directo e indirecto de los préstamos declarados a la CIR, excepto para aquellos titulares de riesgo indirecto que intervengan en la operación en calidad de tercero comprometido a pagar importes en una operación de arrendamiento financiero.</p>
+      <p class="parrafo">Este módulo lo enviarán las entidades exclusivamente cuando estimen dicha probabilidad para las contrapartes conforme a los artículos 160, 163, 179 y 180 del Reglamento (UE) n.º 575/2013.</p>
+      <p class="parrafo_2">C) Datos sobre la situación de impago de las personas jurídicas que sean contrapartes en préstamos.</p>
+      <p class="parrafo_2">3. El módulo H.3, Datos sobre la situación de impago (default) de los titulares de riesgo de los préstamos que sean personas jurídicas, se enviará para informar sobre la situación de impago de las personas jurídicas y entidades sin personalidad jurídica que sean titulares de riesgo directo e indirecto de los préstamos declarados a la CIR, excepto para aquellos titulares de riesgo indirecto que intervengan en la operación en calidad de tercero comprometido a pagar importes en una operación de arrendamiento financiero.</p>
+      <p class="parrafo">En este módulo se declararán exclusivamente las contrapartes para las que la entidad haya determinado su situación de impago en base a sus obligaciones totales conforme al artículo 178 del Reglamento (UE) n.º 575/2013.»</p>
+    </blockquote>
+    <p class="parrafo_2">Siete. En la norma decimocuarta, «Operaciones transferidas a terceros», se modifican los apartados 1 y 3, que quedan redactados en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«1. Las entidades declarantes que transfieran operaciones a terceros (en adelante, entidades cedentes), si retienen la gestión frente a los titulares, tienen que continuar declarándolas a la CIR en los diferentes módulos, con las precisiones que, en su caso, les sean aplicables, como si no las hubiesen transferido, con independencia de si las mantienen íntegramente en el balance o las han dado de baja total o parcialmente conforme a la normativa contable aplicable a las transferencias de activos, salvo cuando las operaciones cedidas no fuesen declarables individualmente a la CIR conforme a lo dispuesto en la norma segunda, apartado 3.</p>
+      <p class="parrafo">Además, las entidades cedentes tienen que comunicar la transferencia en el módulo F, Datos de transferencias y titulizaciones sintéticas de activos financieros, conforme a lo señalado en la norma décima.</p>
+      <p class="parrafo">Los datos dinámicos de los riesgos directos e indirectos los declararán las entidades cedentes en los módulos C.1, C.2 y, cuando proceda, C.3, asignando los importes a la propia entidad declarante o a los terceros a los que se les hayan transferido, conforme a lo señalado en la norma séptima.</p>
+      <p class="parrafo">Cuando la operación se haya transferido a otro agente observado que sea declarante a la CIR, las entidades cedentes dejarán de enviar, en su caso, los módulos H.</p>
+      <p class="parrafo">Cuando la operación se haya transferido a otro agente observado que no sea declarante a la CIR, las entidades cedentes dejarán de enviar, en su caso, los módulos B.3, C.3, C.4 y H y, respecto de los datos sobre garantías recibidas, la parte 2 del módulo D.1.1 y la parte 2 del módulo D.4.</p>
+      <p class="parrafo">Sin perjuicio de lo dispuesto en la norma cuarta, cuando la operación transferida sea un préstamo a persona jurídica:</p>
+      <p class="parrafo_2">a) Si la entidad cedente no es una entidad de crédito ni una sucursal en España de una entidad de crédito extranjera y la entidad adquirente es un agente observado declarante a la CIR, la entidad cedente declarará también los módulos B.3, C.3, C.4 y, respecto de los datos sobre garantías recibidas, la parte 2 del módulo D.1.1 y la parte 2 del módulo D.4.</p>
+      <p class="parrafo">b) Si la entidad cedente es una sucursal en España de una entidad de crédito extranjera cuya sede social esté radicada en otro Estado miembro informador y la entidad adquirente es un agente observado declarante a la CIR distinto de una sucursal en España de una entidad de crédito extranjera cuya sede social esté radicada en otro Estado Miembro informador, la entidad cedente declarará también el módulo D.1, el módulo D.1.1, el módulo D.2 –excepto las partes 1 a 5– y la parte 2 del módulo D.4.»</p>
+      <p class="parrafo_2">«3. Las entidades declarantes que hayan adquirido préstamos a otras entidades que continúen con su gestión frente a los titulares actuarán de la siguiente forma:</p>
+      <p class="parrafo_2">a) Si la entidad cedente declara a la CIR, la entidad adquirente deberá relacionar en el módulo G, Datos que vinculan códigos, los códigos que asigne a las operaciones con los códigos que utilice para ellas la entidad cedente. La entidad adquirente tendrá que declarar exclusivamente el módulo H, Información prudencial complementaria, cuando cumpla con los requisitos establecidos para su declaración.</p>
+      <p class="parrafo">b) Si la entidad cedente no declara a la CIR las operaciones cedidas, porque no sea una entidad declarante o porque, siéndolo, no tuviese que declararlas individualmente, la entidad adquirente declarará todos los módulos como si ella tuviera la gestión directa del riesgo. Los importes que se declararen en los diferentes módulos serán los que correspondan al riesgo que asuma la entidad en las operaciones.»</p>
+    </blockquote>
+    <p class="parrafo_2">Ocho. En la norma decimoquinta, «Combinaciones de negocios», se modifican los apartados 1 y 2, que quedan redactados en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«1. Las entidades que adquieran operaciones como consecuencia de una fusión, traspaso de la actividad financiera u otra combinación de negocios realizada con otras entidades declarantes relacionarán en el módulo G, Datos que vinculan códigos, los códigos que asignen a las operaciones que hayan adquirido con los códigos utilizados para ellas por las entidades cedentes, pero no tienen que declarar, en el momento de la adquisición, los datos de los módulos A, B y D, relativos a las operaciones adquiridas y personas que intervienen en ellas, sin perjuicio de que realicen las actualizaciones que, en su caso, procedan. No obstante, cuando la entidad cedente no haya declarado individualmente las operaciones a la CIR, estas no se tendrán que declarar en el módulo G, debiendo la entidad adquirente realizar la declaración completa de las personas y operaciones que cumplan con los requisitos para declararlas individualmente.</p>
+      <p class="parrafo">2. Las entidades que adquieran operaciones en una combinación de negocios a otras entidades declarantes que continúen inscritas con el mismo código en el registro de entidades del Banco de España pueden solicitar, junto con la entidad cedente, que se les autorice a que esta última continúe declarando transitoriamente las operaciones por un máximo de seis meses desde la fecha de la cesión mientras mantenga su gestión informática como si no las hubiese cedido. En el caso de adquisición de operaciones como consecuencia de fusiones u otras combinaciones de negocios que conlleven la extinción de al menos una de las entidades declarantes, la entidad adquirente de las operaciones podrá solicitar que se le autorice a declarar transitoriamente y por un máximo de seis meses desde la fecha de la combinación de negocios las operaciones procedentes de la entidad o entidades extinguidas con el código de entidad que esta o estas venían utilizando. En el caso de una escisión total de una entidad declarante en el que dos o más entidades adquieren las operaciones, estas podrán solicitar que se les autorice a declarar de manera conjunta y transitoria, y por un máximo de seis meses desde la fecha de la escisión, las operaciones procedentes de la entidad extinguida con el código de entidad que esta venía utilizando.»</p>
+    </blockquote>
+    <p class="parrafo_2">Nueve. En la norma decimoséptima, «Cesión de datos al Ministerio de Hacienda y Función Pública», se modifica el apartado 1, que queda redactado en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«1. El Banco de España facilitará al Ministerio de Hacienda y Función Pública la siguiente información declarada a nombre de titulares de riesgos, directos e indirectos, que pertenezcan a los sectores institucionales Administraciones Públicas españolas o sean entidades dependientes de dichas administraciones: datos que identifican a las personas, datos básicos de las operaciones y de las relaciones con las personas, datos dinámicos de las operaciones en las que intervengan, datos sobre tipos de interés y datos que vinculan códigos. Adicionalmente, también enviará los datos que relacionan a los titulares con las entidades que integran el sector público español.»</p>
+    </blockquote>
+    <p class="parrafo_2">Diez. En la disposición adicional única, se modifica el apartado 3, que queda redactado en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«3. El módulo G. Datos que vinculan códigos, de la presente circular también se utilizará para relacionar códigos declarados en cualquier estado o información requeridos por otras circulares del Banco de España, de acuerdo con las especificaciones técnicas que se publiquen a tal efecto.»</p>
+    </blockquote>
+    <p class="parrafo_2">Once. El «Anejo 1. Módulos de datos» y el «Anejo 2. Instrucciones para elaborar los módulos de datos» de la presente circular sustituyen a los correspondientes anejos de la Circular 1/2013.</p>
+    <p class="articulo"><strong>Disposición final única.</strong> Entrada en vigor.</p>
+    <p class="parrafo">La presente circular entrará en vigor el 1 de julio de 2023.</p>
+    <p class="parrafo">Como excepción entrará en vigor, al día siguiente de su publicación en el BOE (i) lo establecido en los puntos 1 y 2 de la norma única, de acuerdo con lo establecido por la Orden ETD 600/2022, de 29 de junio, y (ii) la declaración de los nuevos requerimientos relativos al Código de Buenas Prácticas (Real decreto-ley 5/2021), así como la de los correspondientes a los avales del Real Decreto-ley 6/2022, en tanto que resulte aplicable.</p>
+    <p class="parrafo_2">Madrid, 17 de marzo de 2023.–El Gobernador del Banco de España, Pablo Hernández de Cos.</p>
+    <p class="anexo_num">ANEJO 1</p>
+    <p class="anexo_tit">Módulos de datos</p>
+    <p class="centro_cursiva">A. Datos de personas y solicitud de código</p>
+    <p class="centro_redonda">A.1 Datos que identifican a las personas</p>
+    <p class="parrafo_2">Parte 1. Datos de la persona:</p>
+    <p class="parrafo_2">– Código de la persona.</p>
+    <p class="parrafo">– Motivo por el que se declara a la persona.</p>
+    <p class="parrafo">– Nombre.</p>
+    <p class="parrafo">– Domicilio.</p>
+    <p class="parrafo">– Provincia de la persona.</p>
+    <p class="parrafo">– Sector institucional.</p>
+    <p class="parrafo">– Parte vinculada.</p>
+    <p class="parrafo">– Actividad económica.</p>
+    <p class="parrafo">– Estado del procedimiento legal.</p>
+    <p class="parrafo">– Fecha de incoación del procedimiento legal.</p>
+    <p class="parrafo_2">Datos adicionales para las personas físicas:</p>
+    <p class="parrafo_2">– Fecha de nacimiento.</p>
+    <p class="parrafo">– País de nacimiento.</p>
+    <p class="parrafo">– Sexo.</p>
+    <p class="parrafo_2">Datos adicionales para las personas jurídicas y entidades sin personalidad jurídica:</p>
+    <p class="parrafo_2">– Forma jurídica.</p>
+    <p class="parrafo">– Código LEI.</p>
+    <p class="parrafo">– Sede central.</p>
+    <p class="parrafo">– Código de la entidad matriz inmediata.</p>
+    <p class="parrafo">– Código de la entidad matriz última.</p>
+    <p class="parrafo">– Vinculación con Administraciones Públicas españolas.</p>
+    <p class="parrafo_2">Datos adicionales para empresas:</p>
+    <p class="parrafo_2">– Tamaño de la empresa.</p>
+    <p class="parrafo">– Fecha del tamaño de la empresa.</p>
+    <p class="parrafo">– Número de empleados.</p>
+    <p class="parrafo">– Balance total.</p>
+    <p class="parrafo">– Importe neto de la cifra de negocio en los estados financieros individuales.</p>
+    <p class="parrafo">– Fecha de los datos financieros individuales.</p>
+    <p class="parrafo">– Importe neto de la cifra de negocio en los estados financieros consolidados.</p>
+    <p class="parrafo">– Fecha de los datos financieros consolidados.</p>
+    <p class="parrafo_2">Datos adicionales para las personas con varios códigos:</p>
+    <p class="parrafo_2">– Código NIF o NIE anterior.</p>
+    <p class="parrafo">– Código asignado por el Banco de España.</p>
+    <p class="parrafo_2">Parte 2. Datos de los titulares colectivos:</p>
+    <p class="parrafo_2">– Código de la sociedad o AIE.</p>
+    <p class="parrafo">– Código del socio colectivo o integrante de la AIE.</p>
+    <p class="parrafo_2">Parte 3. Datos que relacionan a los titulares con las entidades que integran el Sector Público Español:</p>
+    <p class="parrafo_2">– Código del titular.</p>
+    <p class="parrafo">– Código de la entidad que integra el sector público español.</p>
+    <p class="parrafo_2">Parte 4. Datos que vinculan a los titulares con los grupos de clientes relacionados:</p>
+    <p class="parrafo_2">– Código del titular.</p>
+    <p class="parrafo">– Código del grupo de clientes relacionados.</p>
+    <p class="centro_redonda">A.2 Solicitud de código de identificación de personas no residentes en España</p>
+    <p class="parrafo_2">– Motivo por el que se solicita un código para la persona.</p>
+    <p class="parrafo">– Naturaleza de la persona.</p>
+    <p class="parrafo">– Nombre.</p>
+    <p class="parrafo">– Domicilio.</p>
+    <p class="parrafo">– Sector institucional.</p>
+    <p class="parrafo">– País de residencia.</p>
+    <p class="parrafo_2">Datos adicionales para las personas físicas:</p>
+    <p class="parrafo_2">– Fecha de nacimiento.</p>
+    <p class="parrafo">– País de nacimiento.</p>
+    <p class="parrafo">– Sexo.</p>
+    <p class="parrafo">– Número de pasaporte o de identidad válido en el país de origen de la persona.</p>
+    <p class="parrafo">– Código NIE o NIF.</p>
+    <p class="parrafo">– Código asignado por el Banco de España.</p>
+    <p class="parrafo_2">Datos adicionales para las personas jurídicas y entidades sin personalidad jurídica:</p>
+    <p class="parrafo_2">– Código LEI.</p>
+    <p class="parrafo">– Identificador nacional.</p>
+    <p class="parrafo">– Tipo de identificador.</p>
+    <p class="parrafo">– Forma jurídica (código).</p>
+    <p class="parrafo">– Forma jurídica (abreviatura).</p>
+    <p class="parrafo">– Código SWIFT.</p>
+    <p class="parrafo_2">Datos adicionales para emisores de valores cotizados:</p>
+    <p class="parrafo_2">– Código ISIN.</p>
+    <p class="parrafo_2">Otros datos:</p>
+    <p class="parrafo_2">– Información cualitativa.</p>
+    <p class="centro_cursiva">B. Datos básicos de las operaciones y de las relaciones con las personas</p>
+    <p class="centro_redonda">B.1 Datos básicos que relacionan a las personas con las operaciones</p>
+    <p class="parrafo_2">Parte 1. Datos básicos que relacionan a los titulares de riesgos con las operaciones:</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Código de la persona.</p>
+    <p class="parrafo">– Naturaleza de la intervención en la operación.</p>
+    <p class="parrafo_2">Parte 2. Datos básicos que relacionan a las personas distintas de los titulares de riesgos con las operaciones:</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Código de la persona.</p>
+    <p class="parrafo">– Naturaleza de la intervención en la operación.</p>
+    <p class="centro_redonda">B.2 Datos básicos de las operaciones</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Relación entre contrato y operación.</p>
+    <p class="parrafo">– Código del valor.</p>
+    <p class="parrafo">– Es ISIN.</p>
+    <p class="parrafo">– Localización de la actividad (país de la operación).</p>
+    <p class="parrafo_2">Parte 1. Datos que deben declarar todas las entidades declarantes:</p>
+    <p class="parrafo_2">– Tipo de producto.</p>
+    <p class="parrafo">– Subordinación del producto.</p>
+    <p class="parrafo">– Operación para la financiación de un proyecto.</p>
+    <p class="parrafo">– Tipo de riesgo asociado a los derivados.</p>
+    <p class="parrafo">– Finalidad de la operación.</p>
+    <p class="parrafo">– Trámites legales realizados para recuperar la operación.</p>
+    <p class="parrafo">– Principal o nocional al inicio de la operación.</p>
+    <p class="parrafo">– Límite máximo a disposición del prestatario al inicio de la operación.</p>
+    <p class="parrafo">– Fecha de formalización o emisión.</p>
+    <p class="parrafo">– Fecha de vencimiento.</p>
+    <p class="parrafo">– Operación reestructurada por Real Decreto-ley 5/2021. Aumento de plazo.</p>
+    <p class="parrafo">– Operación reestructurada por Real Decreto-ley 5/2021. Aumento de plazo. Fecha de aplicación.</p>
+    <p class="parrafo">– Operación reestructurada por Real Decreto-ley 5/2021. Transformación en préstamos participativos.</p>
+    <p class="parrafo">– Operación reestructurada por Real Decreto-ley 5/2021. Transformación en préstamos participativos. Fecha de aplicación.</p>
+    <p class="parrafo">– Operación reestructurada por Real Decreto-ley 5/2021. Reducción de principal.</p>
+    <p class="parrafo">– Operación reestructurada por Real Decreto-ley 5/2021. Reducción de principal. Fecha de aplicación.</p>
+    <p class="parrafo_2">Parte 2. Datos adicionales que deben declarar las entidades de crédito, las sucursales en España de entidades de crédito extranjeras y los establecimientos financieros de crédito:</p>
+    <p class="parrafo_2">– Origen de la operación.</p>
+    <p class="parrafo">– Estado de refinanciaciones y reestructuraciones.</p>
+    <p class="parrafo">– Fecha del estado de refinanciaciones y reestructuraciones.</p>
+    <p class="parrafo">– Canal de contratación.</p>
+    <p class="parrafo">– Canal de distribución.</p>
+    <p class="parrafo">– Código del agente o intermediario registrado.</p>
+    <p class="parrafo">– Operación pre-concedida.</p>
+    <p class="parrafo">– Provincia en la que se realiza la inversión.</p>
+    <p class="parrafo">– Esquema de amortización.</p>
+    <p class="parrafo">– Porcentaje de participación en los préstamos sindicados (%).</p>
+    <p class="parrafo">– Valores adquiridos temporalmente o prestados. Nominal.</p>
+    <p class="parrafo">– Financiación de construcciones o promociones inmobiliarias. Estado de la construcción.</p>
+    <p class="parrafo">– Financiación de construcciones o promociones inmobiliarias. Licencia.</p>
+    <p class="parrafo">– Financiación de construcciones o promociones inmobiliarias. Número de viviendas previstas.</p>
+    <p class="parrafo">– Financiación de construcciones o promociones inmobiliarias. Código de la promoción inmobiliaria.</p>
+    <p class="parrafo">– Subvención de la operación.</p>
+    <p class="parrafo">– Renta disponible anual del titular al inicio de la operación.</p>
+    <p class="parrafo">– Moratoria COVID-19.</p>
+    <p class="parrafo">– Fecha de comienzo de la moratoria COVID-19.</p>
+    <p class="parrafo">– Fecha de finalización de la moratoria COVID-19.</p>
+    <p class="parrafo">– Modificación de los términos de las operaciones. Real Decreto-ley 34/2020.</p>
+    <p class="parrafo">– Fecha de la modificación. Real Decreto-ley 34/2020.</p>
+    <p class="centro_redonda">B.3 Datos básicos complementarios de los préstamos a personas jurídicas</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Clasificación de las operaciones de la norma segunda, 1 bis.</p>
+    <p class="parrafo">– Importe del compromiso al inicio.</p>
+    <p class="parrafo">– Identificador de contrato sindicado.</p>
+    <p class="parrafo">– Instrumento fiduciario.</p>
+    <p class="parrafo">– Recurso.</p>
+    <p class="parrafo">– Derechos de reembolso.</p>
+    <p class="parrafo">– Fecha de liquidación.</p>
+    <p class="parrafo">– Frecuencia de pago.</p>
+    <p class="parrafo">– Cambios en el valor razonable debidos a cambios en el riesgo crediticio antes de la adquisición.</p>
+    <p class="centro_cursiva">C. Datos dinámicos de las operaciones</p>
+    <p class="centro_redonda">C.1 Datos dinámicos de los riesgos directos</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo_2">Parte 1. Datos de todos los riesgos directos:</p>
+    <p class="parrafo_2">– Moneda.</p>
+    <p class="parrafo">– Plazo residual.</p>
+    <p class="parrafo">– Garantía real principal. Tipo de garantía real principal.</p>
+    <p class="parrafo">– Garantía real principal. Cobertura de la garantía real principal.</p>
+    <p class="parrafo">– Garantía personal principal. Tipo de garantía personal principal.</p>
+    <p class="parrafo">– Garantía personal principal. Cobertura de la garantía personal principal.</p>
+    <p class="parrafo">– Situación de la operación.</p>
+    <p class="parrafo">– Fecha del primer incumplimiento.</p>
+    <p class="parrafo">– Pro memoria: fecha del primer incumplimiento antes de la refinanciación o reestructuración.</p>
+    <p class="parrafo">– Pro memoria: fecha del primer incumplimiento excluyendo fallidos parciales.</p>
+    <p class="parrafo">– Fecha del último incumplimiento.</p>
+    <p class="parrafo_2">Parte 2. Datos de los riesgos directos asumidos por la entidad declarante:</p>
+    <p class="parrafo_2">– Principal asumido por la entidad. Importe no vencido.</p>
+    <p class="parrafo">– Principal asumido por la entidad. Importe vencido.</p>
+    <p class="parrafo">– Intereses y comisiones vencidos asumidos por la entidad. Importe registrado en el activo.</p>
+    <p class="parrafo">– Intereses y comisiones vencidos asumidos por la entidad. Importe no registrado en el activo.</p>
+    <p class="parrafo">– Intereses de demora asumidos por la entidad. Importe registrado en el activo.</p>
+    <p class="parrafo">– Intereses de demora asumidos por la entidad. Importe no registrado en el activo.</p>
+    <p class="parrafo">– Gastos exigibles asumidos por la entidad.</p>
+    <p class="parrafo">– Límite actual del riesgo asumido por la entidad.</p>
+    <p class="parrafo">– Riesgo disponible asumido por la entidad. Disponibilidad inmediata.</p>
+    <p class="parrafo">– Riesgo disponible asumido por la entidad. Disponibilidad condicionada.</p>
+    <p class="parrafo">– Pro memoria: importe vencido antes de la refinanciación o reestructuración asumido por la entidad.</p>
+    <p class="parrafo">– Pro memoria: importe de los fallidos parciales.</p>
+    <p class="parrafo_2">Parte 3. Datos que deben declarar las entidades de crédito, las sucursales en España de entidades de crédito extranjeras, los establecimientos financieros de crédito y la Sareb para los préstamos:</p>
+    <p class="parrafo_2">– Principal vencido cobrado en efectivo.</p>
+    <p class="parrafo">– Principal vencido subvencionado.</p>
+    <p class="parrafo">– Amortización anticipada. Importe por el que se reduce el principal.</p>
+    <p class="parrafo">– Reducción del principal Real Decreto-ley 5/2021. Importe asumido por el avalista.</p>
+    <p class="parrafo">– Condonación o prescripción del derecho de cobro. Importe por el que se reduce la deuda.</p>
+    <p class="parrafo">– Activos adjudicados o recibidos en pago. Tipo de activo.</p>
+    <p class="parrafo">– Activos adjudicados o recibidos en pago. Importe por el que se reduce la deuda.</p>
+    <p class="parrafo">– Operación subrogada o segregada. Tipo de subrogación o segregación.</p>
+    <p class="parrafo">– Operación subrogada o segregada. Importe por el que se reduce la deuda.</p>
+    <p class="parrafo">– Refinanciación o renovación. Tipo de refinanciación o renovación.</p>
+    <p class="parrafo">– Refinanciación o renovación. Importe por el que se reduce la deuda.</p>
+    <p class="parrafo">– Operación transferida, incluida la gestión. Importe por el que se reduce la deuda.</p>
+    <p class="parrafo">– Fecha de la última liquidación de intereses.</p>
+    <p class="parrafo">– Fecha de la próxima liquidación de intereses.</p>
+    <p class="parrafo">– Fecha de la última liquidación de principal.</p>
+    <p class="parrafo">– Fecha de la próxima liquidación de principal.</p>
+    <p class="parrafo">– Número de cuotas impagadas.</p>
+    <p class="parrafo">– Tipo efectivo de definición restringida (TEDR).</p>
+    <p class="parrafo">– Signo del tipo efectivo de definición restringida (TEDR).</p>
+    <p class="parrafo">– Fecha de la próxima revisión del tipo de interés.</p>
+    <p class="parrafo">– Clasificación de las operaciones en función del riesgo de crédito por insolvencia.</p>
+    <p class="parrafo">– Carácter revolving.</p>
+    <p class="parrafo">– Pro memoria: Reducción del principal Real Decreto-ley 5/2021. Avales ejecutados.</p>
+    <p class="parrafo_2">Parte 4. Datos de los riesgos directos asumidos por terceros:</p>
+    <p class="parrafo_2">– Principal asumido por terceros. Importe no vencido.</p>
+    <p class="parrafo">– Principal asumido por terceros. Importe vencido.</p>
+    <p class="parrafo">– Intereses y comisiones vencidos asumidos por terceros.</p>
+    <p class="parrafo">– Intereses de demora asumidos por terceros.</p>
+    <p class="parrafo">– Gastos exigibles asumidos por terceros.</p>
+    <p class="parrafo">– Pro memoria: importe vencido antes de la refinanciación o reestructuración asumido por terceros.</p>
+    <p class="parrafo">– Límite actual del riesgo asumido por terceros.</p>
+    <p class="parrafo">– Riesgo disponible asumido por terceros. Disponibilidad inmediata.</p>
+    <p class="parrafo">– Riesgo disponible asumido por terceros. Disponibilidad condicionada.</p>
+    <p class="centro_redonda">C.2 Datos dinámicos de los riesgos indirectos</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Código del titular del riesgo indirecto.</p>
+    <p class="parrafo_2">Parte 1. Datos de los riesgos indirectos asumidos por la entidad declarante:</p>
+    <p class="parrafo_2">– Riesgo máximo garantizado asumido por la entidad.</p>
+    <p class="parrafo">– Riesgo dispuesto garantizado asumido por la entidad. Importe total.</p>
+    <p class="parrafo">– Riesgo dispuesto garantizado asumido por la entidad. Importe vencido.</p>
+    <p class="parrafo">– Riesgo dispuesto garantizado asumido por la entidad. Intereses de demora y gastos exigibles.</p>
+    <p class="parrafo_2">Parte 2. Datos de los riesgos indirectos asumidos por terceros:</p>
+    <p class="parrafo_2">– Riesgo máximo garantizado asumido por terceros.</p>
+    <p class="parrafo">– Riesgo dispuesto garantizado asumido por terceros. Importe total.</p>
+    <p class="parrafo">– Riesgo dispuesto garantizado asumido por terceros. Importe vencido.</p>
+    <p class="parrafo">– Riesgo dispuesto garantizado asumido por terceros. Intereses de demora y gastos exigibles.</p>
+    <p class="centro_redonda">C.3 Datos dinámicos financieros de los préstamos a personas jurídicas</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Importe transferido.</p>
+    <p class="parrafo">– Situación de impago <em>(default)</em> de la operación.</p>
+    <p class="parrafo">– Fecha de la situación de impago <em>(default)</em> de la operación.</p>
+    <p class="parrafo">– Importes vencidos de la operación.</p>
+    <p class="parrafo">– Saldo vivo nominal.</p>
+    <p class="parrafo">– Saldo fuera de balance.</p>
+    <p class="parrafo">– Interés devengado.</p>
+    <p class="centro_redonda">C.4 Datos de los préstamos a personas jurídicas sobre las responsabilidades conjuntas</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Código de la persona.</p>
+    <p class="parrafo">– Importe de la responsabilidad conjunta.</p>
+    <p class="centro_cursiva">D. Datos sobre garantías recibidas</p>
+    <p class="centro_redonda">D.1 Datos básicos que relacionan las operaciones con las garantías recibidas</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Código de la garantía recibida.</p>
+    <p class="parrafo">– Garantía real principal asignada a la operación.</p>
+    <p class="parrafo_2">D.1.1 Datos básicos de las garantías recibidas:</p>
+    <p class="parrafo_2">– Código de la garantía recibida.</p>
+    <p class="parrafo_2">Parte 1. Datos de las garantías recibidas:</p>
+    <p class="parrafo_2">– Tipo de garantía.</p>
+    <p class="parrafo">– Tipo de activo o garantía financiera.</p>
+    <p class="parrafo">– Alcance de la garantía real.</p>
+    <p class="parrafo">– Código de la garantía real de máximo.</p>
+    <p class="parrafo">– Orden de prelación de la garantía.</p>
+    <p class="parrafo_2">Parte 2. Datos adicionales de las garantías recibidas para préstamos a personas jurídicas:</p>
+    <p class="parrafo_2">– Código del proveedor de la garantía.</p>
+    <p class="parrafo">– Valor de la garantía.</p>
+    <p class="parrafo">– Tipo de valor de la garantía.</p>
+    <p class="parrafo">– Método de valoración de la garantía.</p>
+    <p class="parrafo">– Fecha del valor de la garantía.</p>
+    <p class="parrafo">– Fecha de vencimiento de la garantía.</p>
+    <p class="parrafo">– Valor original de la garantía.</p>
+    <p class="parrafo">– Fecha de la valoración original de la garantía.</p>
+    <p class="centro_redonda">D.2 Datos básicos de los inmuebles recibidos en garantía</p>
+    <p class="parrafo_2">– Código de la garantía recibida.</p>
+    <p class="parrafo">– Consideración del inmueble en la normativa europea aplicable para el cálculo del coeficiente de recursos propios.</p>
+    <p class="parrafo">– Localización del inmueble. País.</p>
+    <p class="parrafo">– Localización del inmueble. Código postal.</p>
+    <p class="parrafo">– Localización del inmueble. Código NUTS 3.</p>
+    <p class="parrafo_2">Parte 1. Datos para los inmuebles:</p>
+    <p class="parrafo_2">– Inmueble integrado por varias fincas.</p>
+    <p class="parrafo">– Identificador único registral (IDUFIR/CRU).</p>
+    <p class="parrafo">– Identificador registral.</p>
+    <p class="parrafo">– Referencia catastral.</p>
+    <p class="parrafo">– Importe de las cargas previas comprometidas con terceros.</p>
+    <p class="parrafo">– Importe de la responsabilidad hipotecaria. Principal.</p>
+    <p class="parrafo">– Importe de la responsabilidad hipotecaria. Intereses y costas.</p>
+    <p class="parrafo">– Activos en garantía de financiaciones de promociones inmobiliarias.</p>
+    <p class="parrafo">– Última tasación completa. Fecha de la última tasación.</p>
+    <p class="parrafo">– Última tasación completa. Código de la sociedad de tasación o valoración.</p>
+    <p class="parrafo">– Última tasación completa. Número de tasación.</p>
+    <p class="parrafo">– Última tasación completa. Conforme a la Ley del Mercado Hipotecario.</p>
+    <p class="parrafo">– Última tasación completa. Método de valoración (valor).</p>
+    <p class="parrafo">– Última tasación completa. Condicionantes.</p>
+    <p class="parrafo">– Última tasación completa. Advertencias.</p>
+    <p class="parrafo">– Última tasación completa. Visita al interior del inmueble.</p>
+    <p class="parrafo">– Última tasación completa. Tipo de datos utilizados de inmuebles comparables.</p>
+    <p class="parrafo">– Última tasación completa. Método residual dinámico. Tipo de actualización (%).</p>
+    <p class="parrafo">– Última tasación completa. Método residual dinámico. Tasa anualizada homogénea (%).</p>
+    <p class="parrafo">– Última tasación completa. Método residual dinámico. Tasa anual media de variación del precio de mercado del activo (%). Importe positivo.</p>
+    <p class="parrafo">– Última tasación completa. Método residual dinámico. Tasa anual media de variación del precio de mercado del activo (%). Importe negativo.</p>
+    <p class="parrafo">– Última tasación completa. Método residual dinámico. Plazo máximo para finalizar la construcción (meses).</p>
+    <p class="parrafo">– Última tasación completa. Método residual dinámico. Plazo máximo para finalizar la comercialización (meses).</p>
+    <p class="parrafo">– Última tasación completa. Método residual estático. Margen de beneficio del promotor (%).</p>
+    <p class="parrafo">– Última tasación completa. Valor de tasación.</p>
+    <p class="parrafo">– Última tasación completa. Valor hipotecario.</p>
+    <p class="parrafo">– Última tasación completa. Valor en hipótesis de edificio terminado.</p>
+    <p class="parrafo">– Última tasación completa. Valor del terreno.</p>
+    <p class="parrafo">– Última tasación por métodos estadísticos. Fecha de la tasación.</p>
+    <p class="parrafo">– Última tasación por métodos estadísticos. Código de la sociedad de tasación o valoración.</p>
+    <p class="parrafo">– Última tasación por métodos estadísticos. Número de tasación.</p>
+    <p class="parrafo">– Última tasación por métodos estadísticos. Método de valoración.</p>
+    <p class="parrafo">– Última tasación por métodos estadísticos. Valor de tasación.</p>
+    <p class="parrafo_2">Parte 2. Datos adicionales para los edificios y elementos de edificios:</p>
+    <p class="parrafo_2">– Fecha de la construcción.</p>
+    <p class="parrafo">– Fecha de la última rehabilitación integral.</p>
+    <p class="parrafo">– Estado de la construcción.</p>
+    <p class="parrafo">– Licencia.</p>
+    <p class="parrafo">– Vivienda habitual del prestatario.</p>
+    <p class="parrafo">– Valor del terreno ajustado.</p>
+    <p class="parrafo">– Número de viviendas.</p>
+    <p class="parrafo_2">Parte 3. Datos adicionales para el suelo urbano y urbanizable:</p>
+    <p class="parrafo_2">– Tipo de suelo.</p>
+    <p class="parrafo">– Desarrollo del planeamiento.</p>
+    <p class="parrafo">– Sistema de gestión.</p>
+    <p class="parrafo">– Fase de gestión.</p>
+    <p class="parrafo">– Paralización de la urbanización.</p>
+    <p class="parrafo">– Porcentaje de la urbanización ejecutado (%).</p>
+    <p class="parrafo">– Porcentaje del ámbito valorado (%).</p>
+    <p class="parrafo">– Proximidad respecto del núcleo urbano.</p>
+    <p class="parrafo">– Proyecto de obra.</p>
+    <p class="parrafo">– Superficie del terreno (m<sup>2</sup>).</p>
+    <p class="parrafo">– Aprovechamiento (m<sup>2</sup>).</p>
+    <p class="parrafo">– Producto que se prevé desarrollar.</p>
+    <p class="parrafo_2">Parte 4. Datos adicionales para las fincas rústicas:</p>
+    <p class="parrafo_2">– Finca rústica con expectativas urbanísticas.</p>
+    <p class="parrafo_2">Parte 5. Datos del valor de las garantías:</p>
+    <p class="parrafo_2">– Valor de la garantía a efectos del cálculo del <em>loan to value.</em> Importe de la garantía.</p>
+    <p class="parrafo">– Valor de la garantía a efectos del cálculo del <em>loan to value.</em> Forma de obtención.</p>
+    <p class="parrafo">– Valor de la garantía a efectos del cálculo del deterioro. Importe de la garantía.</p>
+    <p class="parrafo">– Valor de la garantía a efectos del cálculo del deterioro. Porcentaje de descuento (%).</p>
+    <p class="centro_redonda">D.3 Datos básicos de los activos financieros recibidos en garantía</p>
+    <p class="parrafo_2">– Código de la garantía recibida.</p>
+    <p class="parrafo">– Código del emisor de los activos financieros recibidos en garantía.</p>
+    <p class="parrafo">– Código del valor.</p>
+    <p class="parrafo">– Cotización.</p>
+    <p class="parrafo">– Nominal.</p>
+    <p class="centro_redonda">D.4 Datos dinámicos que relacionan las operaciones con las garantías recibidas</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Código de la garantía recibida.</p>
+    <p class="parrafo_2">Parte 1. Datos para las operaciones garantizadas con inmuebles y activos financieros:</p>
+    <p class="parrafo_2">– Importe de la garantía a efectos del cálculo del <em>loan to value</em> atribuido a la operación.</p>
+    <p class="parrafo_2">Parte 2. Datos adicionales sobre las garantías de los préstamos a personas jurídicas.</p>
+    <p class="parrafo_2">– Valor de la garantía asignado a la operación.</p>
+    <p class="parrafo">– Derechos de cobro preferentes de terceros contra la garantía.</p>
+    <p class="centro_redonda">D.5 Datos dinámicos de los edificios en construcción y de las promociones inmobiliarias recibidos en garantía</p>
+    <p class="parrafo_2">– Código de la garantía recibida.</p>
+    <p class="parrafo">– Edificios en construcción o rehabilitación. Fecha del último grado de avance estimado.</p>
+    <p class="parrafo">– Edificios en construcción o rehabilitación. Código de la sociedad de tasación o valoración que estimó el grado de avance.</p>
+    <p class="parrafo">– Edificios en construcción o rehabilitación. Porcentaje construido (%).</p>
+    <p class="parrafo">– Edificios en construcción o rehabilitación. Importe de los gastos de desarrollo.</p>
+    <p class="parrafo">– Promociones inmobiliarias. Porcentaje de ventas formalizadas (%).</p>
+    <p class="parrafo">– Promociones inmobiliarias. Porcentaje de subrogaciones o cancelaciones por entrega de vivienda a comprador final (%).</p>
+    <p class="centro_cursiva">E.  Datos sobre tipos de interés de los préstamos</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Modalidad de tipo de interés.</p>
+    <p class="parrafo">– Frecuencia de revisión del tipo de interés.</p>
+    <p class="parrafo">– Tipo de referencia..</p>
+    <p class="parrafo">– Tipo de referencia. Vencimiento..</p>
+    <p class="parrafo">– Tipo de referencia sustitutivo.</p>
+    <p class="parrafo">– Diferencial/margen del tipo de interés.</p>
+    <p class="parrafo">– Signo del diferencial/margen del tipo de interés.</p>
+    <p class="parrafo">– Tipo de interés máximo.</p>
+    <p class="parrafo">– Tipo de interés mínimo.</p>
+    <p class="parrafo">– Fecha final del período de solo interés.</p>
+    <p class="centro_cursiva">F. Datos de transferencias y titulizaciones sintéticas de activos financieros</p>
+    <p class="parrafo_2">Parte 1. Datos que identifican las transferencias y titulizaciones sintéticas:</p>
+    <p class="parrafo_2">– Código de la transferencia.</p>
+    <p class="parrafo">– Código del cesionario o vendedor de protección.</p>
+    <p class="parrafo">– Fecha de la transferencia.</p>
+    <p class="parrafo">– Tipo de transferencia.</p>
+    <p class="parrafo">– Forma jurídica de la transferencia.</p>
+    <p class="parrafo">– Operaciones transferidas. Tratamiento contable.</p>
+    <p class="parrafo">– Operaciones transferidas. Tratamiento a efectos de recursos propios.</p>
+    <p class="parrafo_2">Parte 2. Datos que vinculan las transferencias y titulizaciones sintéticas con las operaciones:</p>
+    <p class="parrafo_2">– Código de la transferencia.</p>
+    <p class="parrafo">– Código de la operación transferida.</p>
+    <p class="parrafo">– Porcentaje transferido de la operación (%).</p>
+    <p class="centro_cursiva">G. Datos que vinculan códigos</p>
+    <p class="parrafo_2">– Tipo de código que se vincula.</p>
+    <p class="parrafo">– Código que se vincula.</p>
+    <p class="parrafo">– Tipo de vinculación.</p>
+    <p class="parrafo">– Código REN de la entidad declarante del código vinculado.</p>
+    <p class="parrafo">– Código vinculado.</p>
+    <p class="centro_cursiva">H. Información prudencial complementaria</p>
+    <p class="centro_redonda">H.1 Datos contables de los préstamos</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Clasificación contable de las operaciones.</p>
+    <p class="parrafo">– Activos no corrientes en venta.</p>
+    <p class="parrafo">– Reconocimiento en el balance.</p>
+    <p class="parrafo">– Fallidos acumulados.</p>
+    <p class="parrafo">– Importe del deterioro de valor acumulado.</p>
+    <p class="parrafo">– Tipo de deterioro de valor.</p>
+    <p class="parrafo">– Método de evaluación del deterioro de valor.</p>
+    <p class="parrafo">– Fuentes de cargas.</p>
+    <p class="parrafo">– Cambios acumulados en el valor razonable debidos al riesgo crediticio.</p>
+    <p class="parrafo">– Clasificación de la operación en función del riesgo de crédito.</p>
+    <p class="parrafo">– Fecha de la clasificación de la operación en función del riesgo de crédito.</p>
+    <p class="parrafo">– Provisiones asociadas a exposiciones fuera de balance.</p>
+    <p class="parrafo">– Estado de reestructuración o refinanciación y renegociación.</p>
+    <p class="parrafo">– Fecha del estado de reestructuración o refinanciación y renegociación.</p>
+    <p class="parrafo">– Importes recuperados acumulados desde la situación de impago...</p>
+    <p class="parrafo">– Cartera prudencial.</p>
+    <p class="parrafo">– Importe en libros.</p>
+    <p class="centro_redonda">H.2 Datos sobre el riesgo de los titulares de los préstamos que sean personas jurídicas</p>
+    <p class="parrafo_2">– Código de la persona.</p>
+    <p class="parrafo">– Probabilidad de impago <em>(default</em>).</p>
+    <p class="centro_redonda">H.3 Datos sobre la situación de impago <em>(default)</em> de los titulares de riesgo de los préstamos que sean personas jurídicas</p>
+    <p class="parrafo_2">– Código de la persona.</p>
+    <p class="parrafo">– Situación de impago <em>(default)</em> de la persona.</p>
+    <p class="parrafo">– Fecha de la situación de impago <em>(default)</em> de la persona.</p>
+    <p class="parrafo_2">I. Datos dinámicos sobre la actividad de las entidades sujetas a declaración reducida.</p>
+    <p class="parrafo_2">Parte 1. Datos de los riesgos directos e indirectos:</p>
+    <p class="parrafo_2">– Código de la operación.</p>
+    <p class="parrafo">– Código del titular de riesgo.</p>
+    <p class="parrafo">– Naturaleza de la intervención en la operación.</p>
+    <p class="parrafo">– Tipo de producto.</p>
+    <p class="parrafo">– Moneda.</p>
+    <p class="parrafo">– Plazo residual.</p>
+    <p class="parrafo">– Garantía real principal. Tipo de garantía real principal.</p>
+    <p class="parrafo">– Garantía real principal. Cobertura de la garantía real principal.</p>
+    <p class="parrafo">– Garantía personal principal. Tipo de garantía personal principal.</p>
+    <p class="parrafo">– Garantía personal principal. Cobertura de la garantía personal principal.</p>
+    <p class="parrafo">– Situación de la operación.</p>
+    <p class="parrafo">– Garantía especial del Estado.</p>
+    <p class="parrafo">– Modificación de los términos de las operaciones. Real Decreto-ley 34/2020.</p>
+    <p class="parrafo_2">Parte 2. Datos de los riesgos directos:</p>
+    <p class="parrafo_2">– Riesgo directo dispuesto. Total.</p>
+    <p class="parrafo">– Riesgo directo dispuesto. Total. Del que: Importes vencidos.</p>
+    <p class="parrafo">– Riesgo directo dispuesto. Total. Del que: Intereses de demora y gastos exigibles.</p>
+    <p class="parrafo">– Riesgo directo disponible.</p>
+    <p class="parrafo_2">Parte 3. Datos de los riesgos indirectos:</p>
+    <p class="parrafo_2">– Riesgo indirecto dispuesto. Total.</p>
+    <p class="parrafo">– Riesgo indirecto dispuesto. Total. Del que: Importes vencidos.</p>
+    <p class="parrafo">– Riesgo indirecto dispuesto. Total. Del que: Intereses de demora y gastos exigibles.</p>
+    <p class="parrafo">– Riesgo indirecto disponible.</p>
+    <p class="anexo_num">ANEJO 2</p>
+    <p class="anexo_tit"> Instrucciones para elaborar los módulos de datos</p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_1.png" width="2126" height="2639"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_2.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_3.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_4.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_5.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_6.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_7.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_8.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_9.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_10.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_11.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_12.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_13.png" width="2050" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_14.png" width="1954" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_15.png" width="1998" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_16.png" width="1997" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_17.png" width="2082" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_18.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_19.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_20.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_21.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_22.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_23.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_24.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_25.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_26.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_27.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_28.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_29.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_30.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_31.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_32.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_33.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_34.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_35.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_36.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_37.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_38.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_39.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_40.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_41.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_42.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_43.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_44.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_45.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_46.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_47.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_48.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_49.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_50.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_51.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_52.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_53.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_54.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_55.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_56.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_57.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_58.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_59.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_60.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_61.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_62.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_63.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_64.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_65.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_66.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_67.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_68.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_69.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_70.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_71.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_72.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_73.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_74.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_75.png" width="2071" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_76.png" width="1946" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_77.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_78.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_79.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_80.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_81.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_82.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_83.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_84.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_85.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_86.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_87.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_88.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_89.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_90.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_91.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_92.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_93.png" width="2106" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="07752_revisado.pdf" src="/datos/imagenes/disp/2023/72/7662_12976654_94.png" width="2106" height="2776"/>
+    </p>
+  </texto>
+</documento>

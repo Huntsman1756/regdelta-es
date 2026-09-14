@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20151002</fecha_publicacion>
+      </metadatos>
+      <diario numero="236">
+        <sumario_diario>
+          <identificador>BOE-S-2015-236</identificador>
+          <url_pdf szBytes="276123" szKBytes="270">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-S-2015-236.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="7723" nombre="JEFATURA DEL ESTADO">
+            <epigrafe nombre="Administraciones Públicas. Procedimiento administrativo">
+              <item>
+                <identificador>BOE-A-2015-10565</identificador>
+                <control>2015/10624</control>
+                <titulo>Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas.</titulo>
+                <url_pdf szBytes="1198080" szKBytes="1170" pagina_inicial="89343" pagina_final="89410">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10565.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10565</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10565</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Sector Público. Régimen jurídico">
+              <item>
+                <identificador>BOE-A-2015-10566</identificador>
+                <control>2015/10625</control>
+                <titulo>Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público.</titulo>
+                <url_pdf szBytes="2828364" szKBytes="2762" pagina_inicial="89411" pagina_final="89530">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10566.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10566</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10566</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Educación de adultos">
+              <item>
+                <identificador>BOE-A-2015-10567</identificador>
+                <control>2015/10555</control>
+                <titulo>Orden ECD/2008/2015, de 28 de septiembre, por la que se regulan las enseñanzas de bachillerato para personas adultas en régimen nocturno, a distancia y a distancia virtual, en el ámbito de gestión del Ministerio de Educación, Cultura y Deporte.</titulo>
+                <url_pdf szBytes="523975" szKBytes="512" pagina_inicial="89531" pagina_final="89550">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10567.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10567</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10567</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Títulos académicos">
+              <item>
+                <identificador>BOE-A-2015-10568</identificador>
+                <control>2015/10423</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Traducción e Interpretación.</titulo>
+                <url_pdf szBytes="177392" szKBytes="173" pagina_inicial="89551" pagina_final="89554">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10568.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10568</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10568</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10569</identificador>
+                <control>2015/10424</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Ingeniero Técnico de Telecomunicación Especialidad en Sistemas de Telecomunicación.</titulo>
+                <url_pdf szBytes="177644" szKBytes="173" pagina_inicial="89555" pagina_final="89558">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10569.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10569</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10569</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10570</identificador>
+                <control>2015/10425</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Ingeniero Técnico de Telecomunicación Especialidad en Telemática.</titulo>
+                <url_pdf szBytes="177592" szKBytes="173" pagina_inicial="89559" pagina_final="89562">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10570.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10570</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10570</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10571</identificador>
+                <control>2015/10426</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Ingeniero de Telecomunicación.</titulo>
+                <url_pdf szBytes="177313" szKBytes="173" pagina_inicial="89563" pagina_final="89566">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10571.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10571</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10571</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10572</identificador>
+                <control>2015/10427</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Antropología Social y Cultural.</titulo>
+                <url_pdf szBytes="177423" szKBytes="173" pagina_inicial="89567" pagina_final="89570">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10572.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10572</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10572</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10573</identificador>
+                <control>2015/10428</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Ingeniero Técnico de Telecomunicación Especialidad en Sistemas Electrónicos.</titulo>
+                <url_pdf szBytes="178000" szKBytes="174" pagina_inicial="89571" pagina_final="89574">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10573.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10573</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10573</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10574</identificador>
+                <control>2015/10429</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Química.</titulo>
+                <url_pdf szBytes="179000" szKBytes="175" pagina_inicial="89575" pagina_final="89578">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10574.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10574</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10574</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10575</identificador>
+                <control>2015/10430</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Psicopedagogía.</titulo>
+                <url_pdf szBytes="177482" szKBytes="173" pagina_inicial="89579" pagina_final="89582">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10575.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10575</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10575</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10576</identificador>
+                <control>2015/10431</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Psicología.</titulo>
+                <url_pdf szBytes="177415" szKBytes="173" pagina_inicial="89583" pagina_final="89586">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10576.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10576</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10576</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10577</identificador>
+                <control>2015/10432</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Pedagogía.</titulo>
+                <url_pdf szBytes="177098" szKBytes="173" pagina_inicial="89587" pagina_final="89590">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10577.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10577</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10577</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10578</identificador>
+                <control>2015/10433</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Odontología.</titulo>
+                <url_pdf szBytes="176956" szKBytes="173" pagina_inicial="89591" pagina_final="89594">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10578.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10578</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10578</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10579</identificador>
+                <control>2015/10434</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Farmacia.</titulo>
+                <url_pdf szBytes="177340" szKBytes="173" pagina_inicial="89595" pagina_final="89598">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10579.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10579</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10579</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10580</identificador>
+                <control>2015/10435</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Ciencias Ambientales.</titulo>
+                <url_pdf szBytes="177208" szKBytes="173" pagina_inicial="89599" pagina_final="89602">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10580.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10580</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10580</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10581</identificador>
+                <control>2015/10436</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Criminología.</titulo>
+                <url_pdf szBytes="177145" szKBytes="173" pagina_inicial="89603" pagina_final="89606">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10581.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10581</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10581</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10582</identificador>
+                <control>2015/10437</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Derecho.</titulo>
+                <url_pdf szBytes="177383" szKBytes="173" pagina_inicial="89607" pagina_final="89610">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10582.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10582</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10582</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10583</identificador>
+                <control>2015/10438</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Diplomado en Logopedia.</titulo>
+                <url_pdf szBytes="177209" szKBytes="173" pagina_inicial="89611" pagina_final="89614">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10583.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10583</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10583</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10584</identificador>
+                <control>2015/10439</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Diplomado en Educación Social.</titulo>
+                <url_pdf szBytes="177303" szKBytes="173" pagina_inicial="89615" pagina_final="89618">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10584.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10584</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10584</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10585</identificador>
+                <control>2015/10440</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Filosofía.</titulo>
+                <url_pdf szBytes="177066" szKBytes="173" pagina_inicial="89619" pagina_final="89622">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10585.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10585</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10585</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10586</identificador>
+                <control>2015/10441</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Ingeniero Aeronáutico.</titulo>
+                <url_pdf szBytes="174987" szKBytes="171" pagina_inicial="89623" pagina_final="89625">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10586.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10586</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10586</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10587</identificador>
+                <control>2015/10442</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Ingeniero Naval y Oceánico.</titulo>
+                <url_pdf szBytes="177785" szKBytes="174" pagina_inicial="89626" pagina_final="89629">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10587.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10587</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10587</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10588</identificador>
+                <control>2015/10443</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Ingeniero Técnico Naval Especialidad en Estructuras Marinas.</titulo>
+                <url_pdf szBytes="177639" szKBytes="173" pagina_inicial="89630" pagina_final="89633">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10588.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10588</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10588</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10589</identificador>
+                <control>2015/10444</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Ingeniero Técnico Naval Especialidad en Propulsión y Servicios de Buque.</titulo>
+                <url_pdf szBytes="178468" szKBytes="174" pagina_inicial="89634" pagina_final="89637">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10589.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10589</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10589</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10590</identificador>
+                <control>2015/10445</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Lingüística.</titulo>
+                <url_pdf szBytes="177543" szKBytes="173" pagina_inicial="89638" pagina_final="89641">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10590.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10590</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10590</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10591</identificador>
+                <control>2015/10446</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Ingeniero Técnico de Telecomunicación Especialidad en Sonido e Imagen.</titulo>
+                <url_pdf szBytes="177803" szKBytes="174" pagina_inicial="89642" pagina_final="89645">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10591.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10591</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10591</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10592</identificador>
+                <control>2015/10556</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Arquitecto.</titulo>
+                <url_pdf szBytes="174657" szKBytes="171" pagina_inicial="89646" pagina_final="89648">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10592.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10592</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10592</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10593</identificador>
+                <control>2015/10557</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Arquitecto Técnico.</titulo>
+                <url_pdf szBytes="174742" szKBytes="171" pagina_inicial="89649" pagina_final="89651">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10593.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10593</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10593</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10594</identificador>
+                <control>2015/10558</control>
+                <titulo>Resolución de 14 de septiembre de 2015, de la Dirección General de Política Universitaria, por la que se publica el Acuerdo del Consejo de Ministros de 4 de septiembre de 2015, por el que se determina el nivel de correspondencia al nivel del Marco Español de Cualificaciones para la Educación Superior del Título Universitario Oficial de Licenciado en Física.</titulo>
+                <url_pdf szBytes="174894" szKBytes="171" pagina_inicial="89652" pagina_final="89654">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10594.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10594</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10594</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <epigrafe nombre="Seguridad Social">
+              <item>
+                <identificador>BOE-A-2015-10595</identificador>
+                <control>2015/10559</control>
+                <titulo>Orden ESS/2009/2015, de 24 de septiembre, por la que se fijan para el ejercicio 2015 las bases normalizadas de cotización a la Seguridad Social, por contingencias comunes, en el Régimen Especial de la Seguridad Social para la Minería del Carbón.</titulo>
+                <url_pdf szBytes="361343" szKBytes="353" pagina_inicial="89655" pagina_final="89662">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10595.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10595</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10595</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Sociedades de capital">
+              <item>
+                <identificador>BOE-A-2015-10596</identificador>
+                <control>2015/10560</control>
+                <titulo>Circular 5/2015, de 30 de septiembre, del Banco de España, por la que se desarrollan las especificidades contables de la Sociedad de Gestión de Activos Procedentes de la Reestructuración Bancaria, S. A.</titulo>
+                <url_pdf szBytes="201753" szKBytes="197" pagina_inicial="89663" pagina_final="89669">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10596.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10596</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10596</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2015-10597</identificador>
+                <control>2015/10448</control>
+                <titulo>Orden AEC/2010/2015, de 21 de septiembre, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Orden AEC/1292/2015, de 23 de junio.</titulo>
+                <url_pdf szBytes="206121" szKBytes="201" pagina_inicial="89670" pagina_final="89671">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10597.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10597</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10597</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10598</identificador>
+                <control>2015/10449</control>
+                <titulo>Orden AEC/2011/2015, de 22 de septiembre, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Orden AEC/1407/2015, de 6 de julio.</titulo>
+                <url_pdf szBytes="202514" szKBytes="198" pagina_inicial="89672" pagina_final="89673">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10598.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10598</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10598</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10599</identificador>
+                <control>2015/10450</control>
+                <titulo>Resolución de 22 de septiembre de 2015, de la Dirección de la Agencia Española de Cooperación Internacional para el Desarrollo, por la que se publica el Acuerdo del Consejo Rector, por el que se resuelve la convocatoria de libre designación, efectuada por Resolución de 8 de mayo de 2015.</titulo>
+                <url_pdf szBytes="161523" szKBytes="158" pagina_inicial="89674" pagina_final="89675">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10599.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10599</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10599</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2015-10600</identificador>
+                <control>2015/10519</control>
+                <titulo>Orden HAP/2012/2015, de 25 de septiembre, por la que se dispone el cese del Presidente del Consejo para la Defensa del Contribuyente.</titulo>
+                <url_pdf szBytes="149285" szKBytes="146" pagina_inicial="89676" pagina_final="89676">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10600.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10600</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10600</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Ceses y nombramientos">
+              <item>
+                <identificador>BOE-A-2015-10601</identificador>
+                <control>2015/10518</control>
+                <titulo>Orden HAP/2013/2015, de 25 de septiembre, por la que se dispone el cese y nombramiento de Vocal miembro del Consejo para la Defensa del Contribuyente.</titulo>
+                <url_pdf szBytes="151445" szKBytes="148" pagina_inicial="89677" pagina_final="89677">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10601.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10601</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10601</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2015-10602</identificador>
+                <control>2015/10520</control>
+                <titulo>Orden INT/2014/2015, de 29 de septiembre, por la que se dispone el cese del Teniente General de la Guardia Civil, don Adolfo Gómez Rico Romero del Hombre Bueno en el Mando de la Subdirección General de Apoyo (Madrid).</titulo>
+                <url_pdf szBytes="152204" szKBytes="149" pagina_inicial="89678" pagina_final="89678">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10602.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10602</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10602</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2015-10603</identificador>
+                <control>2015/10521</control>
+                <titulo>Orden INT/2015/2015, de 29 de septiembre, por la que se destina al Teniente General de la Guardia Civil, don Pedro Vázquez Jarava, para el Mando de la Subdirección General de Apoyo (Madrid).</titulo>
+                <url_pdf szBytes="150787" szKBytes="147" pagina_inicial="89679" pagina_final="89679">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10603.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10603</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10603</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4220" nombre="MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE">
+            <epigrafe nombre="Ceses y nombramientos">
+              <item>
+                <identificador>BOE-A-2015-10604</identificador>
+                <control>2015/10331</control>
+                <titulo>Orden ECD/2016/2015, de 15 de septiembre, por la que se dispone el cese y nombramiento de Consejeros titulares y Consejeros sustitutos del Consejo Escolar del Estado, por el grupo de representantes de la Administración Educativa del Estado.</titulo>
+                <url_pdf szBytes="154130" szKBytes="151" pagina_inicial="89680" pagina_final="89680">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10604.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10604</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10604</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10605</identificador>
+                <control>2015/10332</control>
+                <titulo>Orden ECD/2017/2015, de 15 de septiembre, por la que se dispone el cese y nombramiento de Consejeros titulares y Consejeros sustitutos del Consejo Escolar del Estado, por renovación bienal.</titulo>
+                <url_pdf szBytes="155334" szKBytes="152" pagina_inicial="89681" pagina_final="89682">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10605.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10605</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10605</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9220" nombre="MINISTERIO DE AGRICULTURA, ALIMENTACIÓN Y MEDIO AMBIENTE">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2015-10606</identificador>
+                <control>2015/10454</control>
+                <titulo>Resolución de 23 de septiembre de 2015, de la Presidencia de la Agencia Estatal de Meteorología, por la que se resuelve el concurso general, convocado por Resolución de 6 de febrero de 2015.</titulo>
+                <url_pdf szBytes="353165" szKBytes="345" pagina_inicial="89683" pagina_final="89693">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10606.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10606</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10606</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Cuerpo Superior de Gestión Catastral">
+              <item>
+                <identificador>BOE-A-2015-10607</identificador>
+                <control>2015/10576</control>
+                <titulo>Orden HAP/2018/2015, de 24 de septiembre, por la que se modifica la composición del Tribunal calificador de los procesos selectivos para ingreso, por el sistema general de acceso libre y por el sistema de promoción interna, en el Cuerpo Superior de Gestión Catastral.</titulo>
+                <url_pdf szBytes="152046" szKBytes="148" pagina_inicial="89694" pagina_final="89694">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10607.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10607</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10607</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuerpo Técnico de Auditoría y Contabilidad">
+              <item>
+                <identificador>BOE-A-2015-10608</identificador>
+                <control>2015/10534</control>
+                <titulo>Orden HAP/2019/2015, de 24 de septiembre, por la que se corrige error en la Orden HAP/1795/2015, de 1 de septiembre, por la que se convocan procesos selectivos para ingreso, por el sistema general de acceso libre y acceso por el sistema de promoción interna, en el Cuerpo Técnico de Auditoría y Contabilidad.</titulo>
+                <url_pdf szBytes="151660" szKBytes="148" pagina_inicial="89695" pagina_final="89695">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10608.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10608</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10608</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuerpo Técnico de Gestión Catastral">
+              <item>
+                <identificador>BOE-A-2015-10609</identificador>
+                <control>2015/10535</control>
+                <titulo>Orden HAP/2020/2015, de 24 de septiembre, por la que se modifica la composición del Tribunal calificador de los procesos selectivos para ingreso, por el sistema general de acceso libre y por el sistema de promoción interna, en el Cuerpo Técnico de Gestión Catastral.</titulo>
+                <url_pdf szBytes="150957" szKBytes="147" pagina_inicial="89696" pagina_final="89696">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10609.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10609</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10609</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Funcionarios de las Administraciones Públicas">
+              <item>
+                <identificador>BOE-A-2015-10610</identificador>
+                <control>2015/10577</control>
+                <titulo>Orden HAP/2021/2015, de 1 de octubre, por la que se corrige error en la Orden HAP/1985/2015, de 28 de septiembre, por la que se convoca la provisión de puesto de trabajo por el sistema de libre designación.</titulo>
+                <url_pdf szBytes="150544" szKBytes="147" pagina_inicial="89697" pagina_final="89697">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10610.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10610</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10610</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="7120" nombre="MINISTERIO DE ASUNTOS EXTERIORES Y DE COOPERACIÓN">
+            <epigrafe nombre="Comunidad de Castilla y León. Convenio">
+              <item>
+                <identificador>BOE-A-2015-10611</identificador>
+                <control>2015/10397</control>
+                <titulo>Resolución de 18 de septiembre de 2015, del Instituto Cervantes, por la que se publica la adenda de modificación del Acuerdo específico de colaboración con la Universidad Nacional Autónoma de México y la Universidad de Salamanca.</titulo>
+                <url_pdf szBytes="176081" szKBytes="172" pagina_inicial="89698" pagina_final="89700">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10611.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10611</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10611</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Comunidad de Madrid. Convenio">
+              <item>
+                <identificador>BOE-A-2015-10612</identificador>
+                <control>2015/10398</control>
+                <titulo>Resolución 420/38138/2015, de 23 de septiembre, de la Secretaría General Técnica, por la que se publica el Convenio específico de colaboración con la Universidad Rey Juan Carlos para el desarrollo de diversas actividades relacionadas con la seguridad y la defensa.</titulo>
+                <url_pdf szBytes="226281" szKBytes="221" pagina_inicial="89701" pagina_final="89706">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10612.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10612</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10612</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <epigrafe nombre="Aduanas">
+              <item>
+                <identificador>BOE-A-2015-10613</identificador>
+                <control>2015/10492</control>
+                <titulo>Resolución de 22 de septiembre de 2015, de la Presidencia de la Agencia Estatal de Administración Tributaria, por la que se habilita el recinto aduanero de los muelles del Puerto Exterior de Ferrol.</titulo>
+                <url_pdf szBytes="155101" szKBytes="151" pagina_inicial="89707" pagina_final="89707">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10613.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10613</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10613</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Incentivos regionales">
+              <item>
+                <identificador>BOE-A-2015-10614</identificador>
+                <control>2015/10491</control>
+                <titulo>Orden HAP/2022/2015, de 18 de septiembre, por la que se resuelve la modificación de condiciones de un expediente de concesión de incentivos regionales previstos en la Ley 50/1985, de 27 de diciembre, para la realización de proyectos de inversión.</titulo>
+                <url_pdf szBytes="162896" szKBytes="159" pagina_inicial="89708" pagina_final="89708">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10614.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10614</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10614</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Datos de carácter personal">
+              <item>
+                <identificador>BOE-A-2015-10615</identificador>
+                <control>2015/10342</control>
+                <titulo>Orden INT/2023/2015, de 4 de septiembre, por la que se modifica la Orden INT/1202/2011, de 4 de mayo, por la que se regulan los ficheros de datos de carácter personal del Ministerio del Interior.</titulo>
+                <url_pdf szBytes="161339" szKBytes="158" pagina_inicial="89709" pagina_final="89710">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10615.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10615</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10615</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7710" nombre="MINISTERIO DE LA PRESIDENCIA">
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2015-10616</identificador>
+                <control>2015/10266</control>
+                <titulo>Resolución de 17 de septiembre de 2015, de la Secretaría General Técnica-Secretariado del Gobierno, por la que se acuerda la remisión del expediente administrativo correspondiente al recurso contencioso-administrativo 1/755/2015, interpuesto contra el Real Decreto 198/2015, de 23 de marzo, ante la Sala de lo Contencioso-Administrativo del Tribunal Supremo, Sección 101.</titulo>
+                <url_pdf szBytes="150875" szKBytes="147" pagina_inicial="89711" pagina_final="89711">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10616.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10616</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10616</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9221" nombre="MINISTERIO DE ECONOMÍA Y COMPETITIVIDAD">
+            <epigrafe nombre="Comunidad de Castilla y León. Convenio">
+              <item>
+                <identificador>BOE-A-2015-10617</identificador>
+                <control>2015/10415</control>
+                <titulo>Resolución de 10 de septiembre de 2015, de la Secretaría de Estado de Investigación, Desarrollo e Innovación, por la que se publica el Convenio específico de colaboración con la Gerencia Regional de Salud de Castilla y León, para la evaluación científico-técnica de la convocatoria de los proyectos de investigación en biomedicina, gestión sanitaria y atención sociosanitaria, financiables por la Gerencia Regional de Salud mediante convocatorias públicas, a realizar por la Agencia Nacional de Evaluación y Prospectiva.</titulo>
+                <url_pdf szBytes="209864" szKBytes="205" pagina_inicial="89712" pagina_final="89716">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10617.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10617</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10617</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9222" nombre="MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD">
+            <epigrafe nombre="Organización Nacional de Ciegos Españoles. Juegos">
+              <item>
+                <identificador>BOE-A-2015-10618</identificador>
+                <control>2015/10619</control>
+                <titulo>Resolución de 21 de septiembre de 2015, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica el Acuerdo de la Comisión Ejecutiva Permanente del Consejo General de la Organización Nacional de Ciegos Españoles de 26 de junio de 2015, sobre la aprobación de un nuevo Reglamento regulador de los productos de la modalidad de lotería denominada "Cupón de la ONCE".</titulo>
+                <url_pdf szBytes="576724" szKBytes="563" pagina_inicial="89717" pagina_final="89747">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10618.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10618</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10618</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10619</identificador>
+                <control>2015/10620</control>
+                <titulo>Resolución de 21 de septiembre de 2015, de la Secretaría de Estado de Servicios Sociales e Igualdad, por la que se publica el Acuerdo de la Comisión Ejecutiva Permanente del Consejo General de la Organización Nacional de Ciegos Españoles de 26 de junio de 2015, sobre la aprobación de un nuevo Reglamento regulador de los productos de la modalidad de lotería denominada "Juego Activo de la ONCE".</titulo>
+                <url_pdf szBytes="1790892" szKBytes="1749" pagina_inicial="89748" pagina_final="89785">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10619.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10619</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10619</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2015-10620</identificador>
+                <control>2015/10270</control>
+                <titulo>Resolución de 16 de septiembre de 2015, de la Secretaría General Técnica, por la que se emplaza a los interesados en el procedimiento ordinario 204/2015, promovido por la Fundación Yébenes-Velo, sobre autorización previa para la enajenación de un inmueble propiedad de la fundación.</titulo>
+                <url_pdf szBytes="151000" szKBytes="147" pagina_inicial="89786" pagina_final="89786">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10620.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10620</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10620</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2015-10621</identificador>
+                <control>2015/10622</control>
+                <titulo>Resolución de 1 de octubre de 2015, del Banco de España, por la que se publican los cambios del euro correspondientes al día 1 de octubre de 2015, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="175711" szKBytes="172" pagina_inicial="89787" pagina_final="89787">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10621.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10621</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10621</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Préstamos hipotecarios. Índices">
+              <item>
+                <identificador>BOE-A-2015-10622</identificador>
+                <control>2015/10626</control>
+                <titulo>Resolución de 1 de octubre de 2015, del Banco de España, por la que se publican determinados tipos de referencia oficiales del mercado hipotecario.</titulo>
+                <url_pdf szBytes="154457" szKBytes="151" pagina_inicial="89788" pagina_final="89788">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10622.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10622</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10622</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Planes de estudios">
+              <item>
+                <identificador>BOE-A-2015-10623</identificador>
+                <control>2015/10274</control>
+                <titulo>Resolución de 10 de septiembre de 2015, de la Universidad de Córdoba, por la que se publica el plan de estudios de Máster en Ingeniería Agronómica.</titulo>
+                <url_pdf szBytes="211911" szKBytes="207" pagina_inicial="89789" pagina_final="89791">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10623.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10623</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10623</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10624</identificador>
+                <control>2015/10275</control>
+                <titulo>Resolución de 10 de septiembre de 2015, de la Universidad de Córdoba, por la que se publica el plan de estudios de Máster en Ingeniería de Montes.</titulo>
+                <url_pdf szBytes="205019" szKBytes="200" pagina_inicial="89792" pagina_final="89794">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10624.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10624</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10624</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10625</identificador>
+                <control>2015/10276</control>
+                <titulo>Resolución de 10 de septiembre de 2015, de la Universidad de Córdoba, por la que se publica el plan de estudios de Máster en Ingeniería Industrial.</titulo>
+                <url_pdf szBytes="236265" szKBytes="231" pagina_inicial="89795" pagina_final="89797">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10625.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10625</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10625</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10626</identificador>
+                <control>2015/10277</control>
+                <titulo>Resolución de 10 de septiembre de 2015, de la Universidad de Deusto, por la que se publica el plan de estudios de Graduado en Lenguas Modernas y Gestión.</titulo>
+                <url_pdf szBytes="221105" szKBytes="216" pagina_inicial="89798" pagina_final="89800">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10626.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10626</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10626</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10627</identificador>
+                <control>2015/10278</control>
+                <titulo>Resolución de 10 de septiembre de 2015, de la Universidad de Deusto, por la que se publica el plan de estudios de Graduado en Lenguas Modernas.</titulo>
+                <url_pdf szBytes="214208" szKBytes="209" pagina_inicial="89801" pagina_final="89802">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10627.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10627</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10627</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10628</identificador>
+                <control>2015/10317</control>
+                <titulo>Resolución de 15 de septiembre de 2015, de la Universidad Antonio de Nebrija, por la que se publica el plan de estudios de Graduado en Comunicación Audiovisual.</titulo>
+                <url_pdf szBytes="234667" szKBytes="229" pagina_inicial="89803" pagina_final="89805">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10628.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10628</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10628</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10629</identificador>
+                <control>2015/10318</control>
+                <titulo>Resolución de 15 de septiembre de 2015, de la Universidad Antonio de Nebrija, por la que se publica el plan de estudios de Graduado en Seguridad.</titulo>
+                <url_pdf szBytes="246835" szKBytes="241" pagina_inicial="89806" pagina_final="89809">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10629.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10629</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10629</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10630</identificador>
+                <control>2015/10319</control>
+                <titulo>Resolución de 15 de septiembre de 2015, de la Universidad Antonio de Nebrija, por la que se publica el plan de estudios de Máster en Periodismo Digital.</titulo>
+                <url_pdf szBytes="192450" szKBytes="188" pagina_inicial="89810" pagina_final="89811">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10630.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10630</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10630</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10631</identificador>
+                <control>2015/10320</control>
+                <titulo>Resolución de 15 de septiembre de 2015, de la Universidad Antonio de Nebrija, por la que se publica el plan de estudios de Máster en Psicología General Sanitaria.</titulo>
+                <url_pdf szBytes="188652" szKBytes="184" pagina_inicial="89812" pagina_final="89813">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10631.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10631</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10631</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2015-10632</identificador>
+                <control>2015/10321</control>
+                <titulo>Resolución de 15 de septiembre de 2015, de la Universidad Antonio de Nebrija, por la que se publica el plan de estudios de Máster en Seguridad y Defensa.</titulo>
+                <url_pdf szBytes="182615" szKBytes="178" pagina_inicial="89814" pagina_final="89815">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-A-2015-10632.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-10632</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-10632</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="4" nombre="IV. Administración de Justicia">
+          <departamento codigo="9546" nombre="JUZGADOS DE PRIMERA INSTANCIA E INSTRUCCIÓN">
+            <item>
+              <identificador>BOE-B-2015-29355</identificador>
+              <titulo>SANTANDER</titulo>
+              <url_pdf szBytes="164373" szKBytes="161" pagina_inicial="41028" pagina_final="41028">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29355.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29355</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29355</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29356</identificador>
+              <titulo>SORIA</titulo>
+              <url_pdf szBytes="164670" szKBytes="161" pagina_inicial="41029" pagina_final="41029">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29356.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29356</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29356</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9547" nombre="JUZGADOS DE LO MERCANTIL">
+            <item>
+              <identificador>BOE-B-2015-29357</identificador>
+              <titulo>BARCELONA</titulo>
+              <url_pdf szBytes="163825" szKBytes="160" pagina_inicial="41030" pagina_final="41030">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29357.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29357</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29357</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29358</identificador>
+              <titulo>CÓRDOBA</titulo>
+              <url_pdf szBytes="163143" szKBytes="159" pagina_inicial="41031" pagina_final="41031">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29358.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29358</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29358</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29359</identificador>
+              <titulo>LEÓN</titulo>
+              <url_pdf szBytes="166891" szKBytes="163" pagina_inicial="41032" pagina_final="41032">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29359.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29359</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29359</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Contratación del Sector Público">
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2015-29360</identificador>
+              <titulo>Resolución de la Mesa de Contratación del Ejército de Tierra por la que se anuncia licitación para la contratación pública de: Adecuación edificio aulas y transeúntes (Plmm, Armerías y cuartos de material sensible GEO "Granada II")-Acto Alférez Rojas Navarrete, Rabasa, Alicante.</titulo>
+              <url_pdf szBytes="183055" szKBytes="179" pagina_inicial="41033" pagina_final="41034">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29360.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29360</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29360</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29361</identificador>
+              <titulo>Anuncio del Órgano de Contratación de la Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica, por el que se convoca licitación para suministro y adecuación de equipos para la virtualización para la estación central del sistema SCATER-ZC (C).</titulo>
+              <url_pdf szBytes="178311" szKBytes="174" pagina_inicial="41035" pagina_final="41035">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29361.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29361</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29361</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29362</identificador>
+              <titulo>Anuncio del Órgano de Contratación de la Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica, por el que se convoca licitación para suministro de material de ferretería.</titulo>
+              <url_pdf szBytes="176050" szKBytes="172" pagina_inicial="41036" pagina_final="41036">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29362.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29362</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29362</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29363</identificador>
+              <titulo>Anuncio del Órgano de Contratación de la Jefatura de los Sistemas de Información, Telecomunicaciones y Asistencia Técnica, por el que se convoca licitación para suministro de SAI,s.</titulo>
+              <url_pdf szBytes="175709" szKBytes="172" pagina_inicial="41037" pagina_final="41037">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29363.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29363</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29363</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29364</identificador>
+              <titulo>Resolución de la Dirección de Adquisiciones del Mando de Apoyo Logístico del Ejército del Aire, por la que se convoca licitación para la obra "León/Virgen del Camino/Remodelación y construcción de instalaciones deportivas/Academia Básica del Aire (20157031)".</titulo>
+              <url_pdf szBytes="177043" szKBytes="173" pagina_inicial="41038" pagina_final="41038">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29364.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29364</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29364</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="3210" nombre="MINISTERIO DE FOMENTO">
+            <item>
+              <identificador>BOE-B-2015-29365</identificador>
+              <titulo>Anuncio de licitación de: Dirección General de Carreteras. Objeto: Implantación de un nuevo sistema de gestión unificada de expedientes de la Dirección General de Carreteras. Expediente: 30.95/15-9; AT-DGC-001; 712/15.</titulo>
+              <url_pdf szBytes="183321" szKBytes="179" pagina_inicial="41039" pagina_final="41040">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29365.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29365</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29365</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9218" nombre="MINISTERIO DE EMPLEO Y SEGURIDAD SOCIAL">
+            <item>
+              <identificador>BOE-B-2015-29366</identificador>
+              <titulo>Resolución de la Tesorería General de la Seguridad Social mediante la que se hace pública la licitación para las obras e instalaciones necesarias para la ejecución del nuevo centro de seccionamiento, los retranqueos necesarios para la conexión de la red existente, las líneas subterráneas en media tensión y las conexiones a los centros de transformación de abonado en el interior del complejo.</titulo>
+              <url_pdf szBytes="182521" szKBytes="178" pagina_inicial="41041" pagina_final="41042">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29366.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29366</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29366</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <item>
+              <identificador>BOE-B-2015-29367</identificador>
+              <titulo>Anuncio del Departamento de Hacienda y Finanzas por el que se convoca la licitación del contrato para la prestación de servicios técnicos, administrativos y de gestión conducentes a la eficaz limpieza de varios edificios del Gobierno Vasco en Vitoria-Gasteiz (2016-2017).</titulo>
+              <url_pdf szBytes="183101" szKBytes="179" pagina_inicial="41043" pagina_final="41044">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29367.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29367</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29367</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29368</identificador>
+              <titulo>Anuncio del Departamento de Educación, Política Lingüística y Cultura del Gobierno Vasco por el que se hace pública la formalización del contrato de servicios que tiene por objeto el servicio de apoyo técnico al Centro Coordinador de Información y Documentación Juvenil de Euskadi. Expediente K-08/2015.</titulo>
+              <url_pdf szBytes="174757" szKBytes="171" pagina_inicial="41045" pagina_final="41045">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29368.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29368</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29368</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29369</identificador>
+              <titulo>Anuncio de la Dirección de Patrimonio y Contratación de formalización del contrato que tiene por objeto "Implantación y desarrollo de un sistema de control y verificación en relación al cumplimiento de las intervenciones comunitarias financiadas por el FEDER en la Comunidad Autónoma del País Vasco para el periodo 2014-2020".</titulo>
+              <url_pdf szBytes="176346" szKBytes="172" pagina_inicial="41046" pagina_final="41046">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29369.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29369</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29369</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8090" nombre="COMUNIDAD AUTÓNOMA DE GALICIA">
+            <item>
+              <identificador>BOE-B-2015-29370</identificador>
+              <titulo>Resolución del 29 de septiembre de 2015, de la Dirección de la Agencia Gallega de Infraestructuras de la Consellería de Medio Ambiente, Territorio e Infraestructuras por la que se anuncia la licitación del contrato de elaboración del proyecto y ejecución de la obra: reforma y ampliación del Hospital da Costa, Burela (Lugo). Clave LU/15/096.01. (E/026/2015).</titulo>
+              <url_pdf szBytes="185858" szKBytes="182" pagina_inicial="41047" pagina_final="41048">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29370.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29370</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29370</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8162" nombre="COMUNITAT VALENCIANA">
+            <item>
+              <identificador>BOE-B-2015-29371</identificador>
+              <titulo>Resolución de la Conselleria de Educación, Investigación, Cultura y Deporte por la que se hace pública la licitación del suministro de mobiliario escolar homologado.</titulo>
+              <url_pdf szBytes="181496" szKBytes="177" pagina_inicial="41049" pagina_final="41050">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29371.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29371</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29371</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8131" nombre="COMUNIDAD DE MADRID">
+            <item>
+              <identificador>BOE-B-2015-29372</identificador>
+              <titulo>Resolución de 23 de septiembre de 2015, de la Dirección Gerencia del Hospital Universitario Puerta de Hierro de Majadahonda, Madrid, por la que se hace pública la formalización del contrato GCASU 2015-1-FAR: Suministro de radiofármacos en el Hospital Universitario Puerta de Hierro de Majadahonda, Madrid.</titulo>
+              <url_pdf szBytes="177661" szKBytes="173" pagina_inicial="41051" pagina_final="41051">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29372.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29372</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29372</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29373</identificador>
+              <titulo>Resolución de 23 de septiembre de 2015, de la Dirección Gerencia del Hospital Universitario Puerta de Hierro de Majadahonda, Madrid, por la que se hace pública la formalización del contrato GCASU 2015-41: Suministro de suturas manuales en el Hospital Universitario Puerta de Hierro de Majadahonda, Madrid.</titulo>
+              <url_pdf szBytes="177392" szKBytes="173" pagina_inicial="41052" pagina_final="41052">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29373.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29373</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29373</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <item>
+              <identificador>BOE-B-2015-29374</identificador>
+              <titulo>Anuncio de licitación del Consorcio Provincial de Bomberos de Castellón para el suministro de chaquetones y pantalones de intervención.</titulo>
+              <url_pdf szBytes="171743" szKBytes="168" pagina_inicial="41053" pagina_final="41053">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29374.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29374</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29374</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29375</identificador>
+              <titulo>Anuncio del Excmo. Ayuntamiento de Algeciras por el que se convoca licitación para la adjudicación del servicio de "Renovación y mantenimiento del actual sistema de infraestructuras de telefonía, IP, Datainternet y telefonía móvil de este Excmo. Ayuntamiento de Algeciras.</titulo>
+              <url_pdf szBytes="183810" szKBytes="180" pagina_inicial="41054" pagina_final="41055">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29375.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29375</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29375</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29376</identificador>
+              <titulo>Anuncio del Ayuntamiento de L'Hospitalet de Llobregat por el que se convoca licitación pública para el suministro y distribución de las comidas en los comedores de los casales de gente mayor.</titulo>
+              <url_pdf szBytes="182341" szKBytes="178" pagina_inicial="41056" pagina_final="41057">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29376.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29376</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29376</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29377</identificador>
+              <titulo>Anuncio del Ayuntamiento de Manresa por el que se convoca la licitación del servicio de mantenimiento y limpieza de plazas y espacios verdes del municipio de Manresa - Sector 1.</titulo>
+              <url_pdf szBytes="181693" szKBytes="177" pagina_inicial="41058" pagina_final="41059">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29377.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29377</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29377</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2015-29378</identificador>
+              <titulo>Anuncio de la Universidad de Jaén por el que se hace pública la formalización del contrato de suministro e instalación de microscopios petrográficos y estereoscópicos para el Centro de Estudios Avanzados en Ciencias de la Tierra.</titulo>
+              <url_pdf szBytes="172872" szKBytes="169" pagina_inicial="41060" pagina_final="41060">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29378.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29378</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29378</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29379</identificador>
+              <titulo>Anuncio de la Universitat Politècnica de Catalunya por el cual se hace pública la formalización del contrato de la concesión del espacio para la instalación de una estación base de telefonía móvil multioperadora en el Campus Nord de la UPC.</titulo>
+              <url_pdf szBytes="173604" szKBytes="170" pagina_inicial="41061" pagina_final="41061">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29379.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29379</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29379</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9207" nombre="OTROS PODERES ADJUDICADORES">
+            <item>
+              <identificador>BOE-B-2015-29380</identificador>
+              <titulo>Anuncio de Renfe Fabricación y Mantenimiento, S.A., por el que se comunica la licitación del expediente número: 2014-02068 para: Renovación alumbrado de las Bases de Mantenimiento de Fuencarral Alta Velocidad, Fuencarral Motor - Autop. y Málaga Alta Velocidad.</titulo>
+              <url_pdf szBytes="198243" szKBytes="194" pagina_inicial="41062" pagina_final="41066">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29380.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29380</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29380</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29381</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Rehabilitación del firme de la autovía A-45 entre los pp.kk. 99+200 y 99+950; enlace 124 y 118+000 y 142+100. Málaga".</titulo>
+              <url_pdf szBytes="187264" szKBytes="183" pagina_inicial="41067" pagina_final="41068">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29381.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29381</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29381</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29382</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Reparación de taludes y cunetas en la carretera N-113, tramo: p.k. 51+700 al p.k. 62+000. Soria".</titulo>
+              <url_pdf szBytes="185764" szKBytes="181" pagina_inicial="41069" pagina_final="41070">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29382.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29382</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29382</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29383</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Seguridad vial. Supresión de terminales de barrera cola de pez en la red de carreteras convencionales de la provincia de A Coruña. Carreteras: N-525, N-550, N-634, N-634a, N-651, N-VI y N-VIa pp.kk. Varias. Provincia de A Coruña".</titulo>
+              <url_pdf szBytes="187321" szKBytes="183" pagina_inicial="41071" pagina_final="41072">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29383.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29383</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29383</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29384</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Rehabilitación superficial del firme de la carretera A-30 en varios puntos entre los pp.kk. 84+130 y 193+260. Murcia".</titulo>
+              <url_pdf szBytes="187009" szKBytes="183" pagina_inicial="41073" pagina_final="41074">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29384.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29384</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29384</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29385</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Repintado de marcas viales en diversos puntos de la red de carreteras del Estado. Carreteras A-7, A-30, MU-30, CT-32 y CT-33. Murcia".</titulo>
+              <url_pdf szBytes="185256" szKBytes="181" pagina_inicial="41075" pagina_final="41076">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29385.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29385</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29385</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29386</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Rehabilitación del firme de la autovía A-7 entre los puntos kilométricos 254+000 y 272+000. Málaga".</titulo>
+              <url_pdf szBytes="186636" szKBytes="182" pagina_inicial="41077" pagina_final="41078">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29386.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29386</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29386</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29387</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Rehabilitación del firme de la carretera A-54 entre los puntos kilométricos 0+000 y 9+000. A Coruña".</titulo>
+              <url_pdf szBytes="185700" szKBytes="181" pagina_inicial="41079" pagina_final="41080">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29387.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29387</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29387</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29388</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Rehabilitación superficial del firme de la carretera N-120 en varios puntos entre los pp.kk. 322+500 y 324+000. tramo: Villadangos del Páramo. Provincia de León".</titulo>
+              <url_pdf szBytes="186807" szKBytes="182" pagina_inicial="41081" pagina_final="41082">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29388.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29388</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29388</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29389</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Rehabilitación estructural del firme de la carretera N-113 entre los pp.kk. 62+800 al 68+300. Provincia de la Rioja".</titulo>
+              <url_pdf szBytes="185894" szKBytes="182" pagina_inicial="41083" pagina_final="41084">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29389.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29389</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29389</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29390</identificador>
+              <titulo>Resolución de "Aena, S.A." por la que se anuncia la licitación para la asistencia técnica de proyecto y asistencia técnica para la dirección de obra y control y vigilancia de nuevos apartaderos de espera pista 30.- Aeropuerto de Bilbao. (Expediente DIN 378/15).</titulo>
+              <url_pdf szBytes="178249" szKBytes="174" pagina_inicial="41085" pagina_final="41086">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29390.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29390</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29390</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29391</identificador>
+              <titulo>Resolución de "Aena, S.A.", por la que se anuncia la licitación para la asistencia técnica para la elaboración de informes técnicos de investigación y patologías (Expediente DIN 426/15).</titulo>
+              <url_pdf szBytes="178533" szKBytes="174" pagina_inicial="41087" pagina_final="41088">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29391.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29391</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29391</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29392</identificador>
+              <titulo>Resolución de "Aena, S.A.", por la que se anuncia la licitación para la asistencia técnica redacción de proyecto y asistencia técnica para la dirección de obra y control y vigilancia de recrecido de pavimento de pista de vuelo. Aeropuerto de Sevilla (Expediente DIN 375/15).</titulo>
+              <url_pdf szBytes="177826" szKBytes="174" pagina_inicial="41089" pagina_final="41090">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29392.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29392</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29392</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29393</identificador>
+              <titulo>Resolución de "Aena, S.A.", por la que se anuncia la licitación para la asistencia técnica redacción de proyecto y asistencia técnica para la dirección de obra y control y vigilancia de recrecido de pavimento de pista 12-30. Aeropuerto de Bilbao (Expediente DIN 423/15).</titulo>
+              <url_pdf szBytes="178304" szKBytes="174" pagina_inicial="41091" pagina_final="41092">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29393.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29393</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29393</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29394</identificador>
+              <titulo>Resolución de "Aena, S.A.", por la que se anuncia la licitación para la asistencia técnica para la dirección de obra y control y vigilancia de nuevas cabinas CELT. Aeropuerto de Barcelona - El Prat (Expediente DIN 396/15).</titulo>
+              <url_pdf szBytes="178344" szKBytes="174" pagina_inicial="41093" pagina_final="41094">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29394.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29394</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29394</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29395</identificador>
+              <titulo>Resolución de "Aena, S.A.", por la que se anuncia la licitación para la redacción de proyecto y suministro e instalación de una depuradora. Aeropuerto de Badajoz. (Expediente DIN 424/15).</titulo>
+              <url_pdf szBytes="177628" szKBytes="173" pagina_inicial="41095" pagina_final="41096">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29395.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29395</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29395</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29396</identificador>
+              <titulo>Resolución de "Aena, S.A." por la que se anuncia la licitación para el seguimiento y control de precios en las tiendas libres de impuestos de los aeropuertos de Aena, S.A. (Expediente DIC 469/15).</titulo>
+              <url_pdf szBytes="177720" szKBytes="174" pagina_inicial="41097" pagina_final="41098">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29396.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29396</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29396</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29397</identificador>
+              <titulo>Resolución de "Aena, S.A." por la que se anuncia la licitación para el estudio de seguimiento y control del nivel de calidad de los servicios de restauración en el Aeropuerto Adolfo Suárez Madrid/Barajas. (Expediente DIC 470/15).</titulo>
+              <url_pdf szBytes="178638" szKBytes="174" pagina_inicial="41099" pagina_final="41100">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29397.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29397</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29397</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29398</identificador>
+              <titulo>Anuncio de la Sociedad Estatal de Infraestructuras del Transporte Terrestre, Sociedad Anónima (SEITT) de licitación para la ejecución de la obra: "Instalación de pantallas acústicas. Ejecución de pantallas fonoabsorbentes en la M-40 de los puntos kilométricos 45+850 al 46+045, calle Peñalara. Pozuelo de Alarcón. Provincia de Madrid".</titulo>
+              <url_pdf szBytes="186197" szKBytes="182" pagina_inicial="41101" pagina_final="41102">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29398.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29398</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29398</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="9216" nombre="MINISTERIO DE HACIENDA Y ADMINISTRACIONES PÚBLICAS">
+            <item>
+              <identificador>BOE-B-2015-29399</identificador>
+              <titulo>Resolución de la Delegación Especial de Economía y Hacienda de Asturias -Sede de Gijón- sobre prescripción de depósitos constituidos en 1994.</titulo>
+              <url_pdf szBytes="171259" szKBytes="167" pagina_inicial="41103" pagina_final="41103">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29399.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29399</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29399</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="ANUNCIOS PARTICULARES">
+            <item>
+              <identificador>BOE-B-2015-29400</identificador>
+              <titulo>NOTARÍA DE D. JOSÉ MARÍA CHINER VIVES (PALAFRUGELL-GIRONA).</titulo>
+              <url_pdf szBytes="169547" szKBytes="166" pagina_inicial="41104" pagina_final="41104">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29400.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29400</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29400</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2015-29401</identificador>
+              <titulo>NOTARÍA DE DON JORGE JIMÉNEZ COMA (VALDERROBRES).</titulo>
+              <url_pdf szBytes="166832" szKBytes="163" pagina_inicial="41105" pagina_final="41105">https://www.boe.es/boe/dias/2015/10/02/pdfs/BOE-B-2015-29401.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2015-29401</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2015-29401</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

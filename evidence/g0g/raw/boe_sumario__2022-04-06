@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <sumario>
+      <metadatos>
+        <publicacion>BOE</publicacion>
+        <fecha_publicacion>20220406</fecha_publicacion>
+      </metadatos>
+      <diario numero="82">
+        <sumario_diario>
+          <identificador>BOE-S-2022-82</identificador>
+          <url_pdf szBytes="395342" szKBytes="386">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-S-2022-82.pdf</url_pdf>
+        </sumario_diario>
+        <seccion codigo="1" nombre="I. Disposiciones generales">
+          <departamento codigo="7723" nombre="JEFATURA DEL ESTADO">
+            <epigrafe nombre="Medidas urgentes">
+              <item>
+                <identificador>BOE-A-2022-5516</identificador>
+                <control>2022/5625</control>
+                <titulo>Real Decreto-ley 8/2022, de 5 de abril, por el que se adoptan medidas urgentes en el ámbito de la contratación laboral del Sistema Español de Ciencia, Tecnología e Innovación.</titulo>
+                <url_pdf szBytes="246628" szKBytes="241" pagina_inicial="45922" pagina_final="45930">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5516.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5516</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5516</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1220" nombre="CORTES GENERALES">
+            <epigrafe nombre="Medidas urgentes">
+              <item>
+                <identificador>BOE-A-2022-5517</identificador>
+                <control>2022/5504</control>
+                <titulo>Resolución de 31 de marzo de 2022, del Congreso de los Diputados, por la que se ordena la publicación del Acuerdo de convalidación del Real Decreto-ley 4/2022, de 15 de marzo, por el que se adoptan medidas urgentes de apoyo al sector agrario por causa de la sequía.</titulo>
+                <url_pdf szBytes="190074" szKBytes="186" pagina_inicial="45931" pagina_final="45931">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5517.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5517</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5517</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Organización">
+              <item>
+                <identificador>BOE-A-2022-5518</identificador>
+                <control>2022/5626</control>
+                <titulo>Real Decreto 241/2022, de 5 de abril, por el que se modifica el Real Decreto 453/2020, de 10 de marzo, por el que se desarrolla la estructura orgánica básica del Ministerio de Justicia, y se modifica el Reglamento del Servicio Jurídico del Estado, aprobado por el Real Decreto 997/2003, de 25 de julio; el Real Decreto 500/2020, de 28 de abril, por el que se desarrolla la estructura orgánica básica del Ministerio para la Transición Ecológica y el Reto Demográfico, y se modifica el Real Decreto 139/2020, de 28 de enero, por el que se establece la estructura orgánica básica de los departamentos ministeriales; y el Real Decreto 372/2020, de 18 de febrero, por el que se desarrolla la estructura orgánica básica del Ministerio de Defensa.</titulo>
+                <url_pdf szBytes="301557" szKBytes="294" pagina_inicial="45932" pagina_final="45949">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5518.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5518</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5518</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Aduanas. Documento Único Administrativo">
+              <item>
+                <identificador>BOE-A-2022-5519</identificador>
+                <control>2022/5393</control>
+                <titulo>Resolución de 29 de marzo de 2022, del Departamento de Aduanas e Impuestos Especiales de la Agencia Estatal de Administración Tributaria, por la que se modifica la de 11 de julio de 2014, en la que se recogen las instrucciones para la formalización del documento único administrativo (DUA).</titulo>
+                <url_pdf szBytes="1854017" szKBytes="1811" pagina_inicial="45950" pagina_final="46042">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5519.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5519</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5519</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <epigrafe nombre="Transportes terrestres">
+              <item>
+                <identificador>BOE-A-2022-5520</identificador>
+                <control>2022/5627</control>
+                <titulo>Real Decreto 242/2022, de 5 de abril, por el que se modifican el Reglamento de la Ley de Ordenación de los Transportes Terrestres, aprobado por el Real Decreto 1211/1990, de 28 de septiembre, y el Real Decreto 284/2021, de 20 de abril, por el que se regula la cualificación inicial y la formación continua de los conductores de determinados vehículos destinados al transporte por carretera.</titulo>
+                <url_pdf szBytes="217248" szKBytes="212" pagina_inicial="46043" pagina_final="46046">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5520.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5520</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5520</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9563" nombre="MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL">
+            <epigrafe nombre="Bachillerato">
+              <item>
+                <identificador>BOE-A-2022-5521</identificador>
+                <control>2022/5628</control>
+                <titulo>Real Decreto 243/2022, de 5 de abril, por el que se establecen la ordenación y las enseñanzas mínimas del Bachillerato.</titulo>
+                <url_pdf szBytes="2442227" szKBytes="2385" pagina_inicial="46047" pagina_final="46408">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5521.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5521</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5521</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9576" nombre="MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL">
+            <epigrafe nombre="Medidas financieras">
+              <item>
+                <identificador>BOE-A-2022-5522</identificador>
+                <control>2022/5622</control>
+                <titulo>Resolución de 5 de abril de 2022, de la Secretaría General del Tesoro y Financiación Internacional, por la que se actualiza el Anexo 1 de la Resolución de 4 de julio de 2017, de la Secretaría General del Tesoro y Política Financiera, por la que se define el principio de prudencia financiera aplicable a las operaciones de endeudamiento y derivados de las comunidades autónomas y entidades locales.</titulo>
+                <url_pdf szBytes="276978" szKBytes="270" pagina_inicial="46409" pagina_final="46411">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5522.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5522</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5522</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4335" nombre="MINISTERIO DE SANIDAD">
+            <epigrafe nombre="Fronteras. Control sanitario">
+              <item>
+                <identificador>BOE-A-2022-5523</identificador>
+                <control>2022/5394</control>
+                <titulo>Resolución de 1 de abril de 2022, de la Dirección General de Salud Pública, relativa a los controles sanitarios a realizar en los puntos de entrada de España.</titulo>
+                <url_pdf szBytes="228777" szKBytes="223" pagina_inicial="46412" pagina_final="46417">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5523.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5523</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5523</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Entidades de crédito">
+              <item>
+                <identificador>BOE-A-2022-5524</identificador>
+                <control>2022/5221</control>
+                <titulo>Circular 3/2022, de 30 de marzo, del Banco de España, por la que se modifican la Circular 2/2016, de 2 de febrero, a las entidades de crédito, sobre supervisión y solvencia, que completa la adaptación del ordenamiento jurídico español a la Directiva 2013/36/UE y al Reglamento (UE) n.º 575/2013; la Circular 2/2014, de 31 de enero, a las entidades de crédito, sobre el ejercicio de diversas opciones regulatorias contenidas en el Reglamento (UE) n.º 575/2013, del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012; y la Circular 5/2012, de 27 de junio, a entidades de crédito y proveedores de servicios de pago, sobre transparencia de los servicios bancarios y responsabilidad en la concesión de préstamos.</titulo>
+                <url_pdf szBytes="837301" szKBytes="818" pagina_inicial="46418" pagina_final="46487">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5524.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5524</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5524</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Consultas populares">
+              <item>
+                <identificador>BOE-A-2022-5525</identificador>
+                <control>2022/5280</control>
+                <titulo>Decreto-ley 2/2022, de 15 de marzo, de modificación del artículo 4 de la Ley 10/2014, de 26 de septiembre, de consultas populares no referendarias y otras formas de participación ciudadana.</titulo>
+                <url_pdf szBytes="206780" szKBytes="202" pagina_inicial="46488" pagina_final="46490">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5525.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5525</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5525</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2A" nombre="II. Autoridades y personal. - A. Nombramientos, situaciones e incidencias">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2022-5526</identificador>
+                <control>2022/5500</control>
+                <titulo>Acuerdo de 24 de marzo de 2022, del Pleno del Consejo General del Poder Judicial, por el que se nombra Letrada del Gabinete Técnico al servicio del Tribunal Supremo, en el orden contencioso-administrativo.</titulo>
+                <url_pdf szBytes="191648" szKBytes="187" pagina_inicial="46491" pagina_final="46491">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5526.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5526</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5526</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Situaciones">
+              <item>
+                <identificador>BOE-A-2022-5527</identificador>
+                <control>2022/4169</control>
+                <titulo>Acuerdo de 24 de noviembre de 2021, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se declara la jubilación voluntaria del Magistrado don Miguel Ángel Olarte Madero.</titulo>
+                <url_pdf szBytes="190947" szKBytes="186" pagina_inicial="46492" pagina_final="46492">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5527.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5527</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5527</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Designaciones">
+              <item>
+                <identificador>BOE-A-2022-5528</identificador>
+                <control>2022/5629</control>
+                <titulo>Real Decreto 244/2022, de 5 de abril, por el que se designa Embajador de España en el Estado de Eritrea a don Isidro Antonio González Afonso.</titulo>
+                <url_pdf szBytes="190572" szKBytes="186" pagina_inicial="46493" pagina_final="46493">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5528.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5528</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5528</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5529</identificador>
+                <control>2022/5630</control>
+                <titulo>Real Decreto 245/2022, de 5 de abril, por el que se designa Embajador de España en la República de Liberia a don Rafael Soriano Ortiz.</titulo>
+                <url_pdf szBytes="190593" szKBytes="186" pagina_inicial="46494" pagina_final="46494">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5529.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5529</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5529</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5530</identificador>
+                <control>2022/5631</control>
+                <titulo>Real Decreto 246/2022, de 5 de abril, por el que se designa Embajador en Misión Especial para la Candidatura Expo Málaga 2027 a don Juan José Escobar Stemmann.</titulo>
+                <url_pdf szBytes="190875" szKBytes="186" pagina_inicial="46495" pagina_final="46495">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5530.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5530</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5530</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2022-5531</identificador>
+                <control>2022/5395</control>
+                <titulo>Resolución de 28 de marzo de 2022, de la Subsecretaría, por la que se resuelve parcialmente la convocatoria de libre designación, efectuada por Resolución de 17 de febrero de 2022, en la Abogacía General del Estado-Dirección del Servicio Jurídico del Estado.</titulo>
+                <url_pdf szBytes="213483" szKBytes="208" pagina_inicial="46496" pagina_final="46497">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5531.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5531</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5531</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2022-5532</identificador>
+                <control>2022/5288</control>
+                <titulo>Resolución de 30 de marzo de 2022, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, de la Escala de Titulados de Escuelas Técnicas de Grado Medio de Organismos Autónomos del Ministerio de Medio Ambiente.</titulo>
+                <url_pdf szBytes="435433" szKBytes="425" pagina_inicial="46498" pagina_final="46506">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5532.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5532</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5532</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5533</identificador>
+                <control>2022/5396</control>
+                <titulo>Resolución de 31 de marzo de 2022, de la Secretaría de Estado de Función Pública, por la que se nombra personal funcionario de carrera, por el sistema general de acceso libre y promoción interna, del Cuerpo General Administrativo de la Administración del Estado, especialidad Estadística.</titulo>
+                <url_pdf szBytes="459136" szKBytes="448" pagina_inicial="46507" pagina_final="46518">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5533.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5533</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5533</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2022-5534</identificador>
+                <control>2022/5623</control>
+                <titulo>Resolución de 1 de abril de 2022, de la Presidencia de la Agencia Estatal de Administración Tributaria, por la que se resuelve el concurso específico, convocado por Resolución de 9 de octubre de 2021.</titulo>
+                <url_pdf szBytes="199696" szKBytes="195" pagina_inicial="46519" pagina_final="46520">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5534.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5534</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5534</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2022-5535</identificador>
+                <control>2022/5397</control>
+                <titulo>Resolución de 31 de marzo de 2022, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 24 de enero de 2022.</titulo>
+                <url_pdf szBytes="208785" szKBytes="204" pagina_inicial="46521" pagina_final="46522">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5535.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5535</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5535</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9563" nombre="MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL">
+            <epigrafe nombre="Ceses">
+              <item>
+                <identificador>BOE-A-2022-5536</identificador>
+                <control>2022/5632</control>
+                <titulo>Real Decreto 247/2022, de 5 de abril, por el que se dispone el cese de don Fernando Gurrea Casamayor como Subsecretario de Educación y Formación Profesional.</titulo>
+                <url_pdf szBytes="190327" szKBytes="186" pagina_inicial="46523" pagina_final="46523">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5536.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5536</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5536</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5537</identificador>
+                <control>2022/5633</control>
+                <titulo>Real Decreto 248/2022, de 5 de abril, por el que se dispone el cese de don Liborio López García como Secretario General Técnico.</titulo>
+                <url_pdf szBytes="190126" szKBytes="186" pagina_inicial="46524" pagina_final="46524">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5537.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5537</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5537</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2022-5538</identificador>
+                <control>2022/5634</control>
+                <titulo>Real Decreto 249/2022, de 5 de abril, por el que se nombra Subsecretario de Educación y Formación Profesional a don Liborio López García.</titulo>
+                <url_pdf szBytes="190805" szKBytes="186" pagina_inicial="46525" pagina_final="46525">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5538.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5538</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5538</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5539</identificador>
+                <control>2022/5635</control>
+                <titulo>Real Decreto 250/2022, de 5 de abril, por el que se nombra Secretario General Técnico a don Santiago Antonio Roura Gómez.</titulo>
+                <url_pdf szBytes="189997" szKBytes="186" pagina_inicial="46526" pagina_final="46526">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5539.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5539</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5539</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2022-5540</identificador>
+                <control>2022/5291</control>
+                <titulo>Resolución de 30 de marzo de 2022, de la Subsecretaría, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 5 de febrero de 2022.</titulo>
+                <url_pdf szBytes="222539" szKBytes="217" pagina_inicial="46527" pagina_final="46528">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5540.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5540</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5540</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2022-5541</identificador>
+                <control>2022/5292</control>
+                <titulo>Resolución de 30 de marzo de 2022, de la Subsecretaría, por la que se resuelve el concurso general, convocado por Resolución de 25 de enero de 2022, en el Instituto de la Cinematografía y de las Artes Audiovisuales.</titulo>
+                <url_pdf szBytes="244275" szKBytes="239" pagina_inicial="46529" pagina_final="46531">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5541.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5541</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5541</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9534" nombre="COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA">
+            <epigrafe nombre="Destinos">
+              <item>
+                <identificador>BOE-A-2022-5542</identificador>
+                <control>2022/5294</control>
+                <titulo>Resolución de 30 de marzo de 2022, de la Comisión Nacional de los Mercados y la Competencia, por la que se resuelve la convocatoria de libre designación, efectuada por Resolución de 22 de febrero de 2022.</titulo>
+                <url_pdf szBytes="221883" szKBytes="217" pagina_inicial="46532" pagina_final="46533">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5542.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5542</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5542</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Nombramientos">
+              <item>
+                <identificador>BOE-A-2022-5543</identificador>
+                <control>2022/5101</control>
+                <titulo>Resolución de 22 de marzo de 2022, de la Universidad de Almería, por la que se nombra Catedrática de Universidad a doña María Rut Jiménez Liso.</titulo>
+                <url_pdf szBytes="191860" szKBytes="187" pagina_inicial="46534" pagina_final="46534">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5543.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5543</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5543</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5544</identificador>
+                <control>2022/4981</control>
+                <titulo>Resolución de 24 de marzo de 2022, de la Universidad de La Laguna, por la que se nombra Profesora Titular de Universidad a doña Carolina Mallol Duque.</titulo>
+                <url_pdf szBytes="192035" szKBytes="188" pagina_inicial="46535" pagina_final="46535">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5544.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5544</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5544</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5545</identificador>
+                <control>2022/4983</control>
+                <titulo>Resolución de 25 de marzo de 2022, de la Universidad de Sevilla, por la que se nombra Catedrático de Universidad a don Ángel Francisco Villarejo Ramos.</titulo>
+                <url_pdf szBytes="191934" szKBytes="187" pagina_inicial="46536" pagina_final="46536">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5545.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5545</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5545</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5546</identificador>
+                <control>2022/5156</control>
+                <titulo>Resolución de 25 de marzo de 2022, de la Universidad Rovira i Virgili, por la que se nombra Profesor Titular de Universidad a don Antonio Nomdedeu Rull.</titulo>
+                <url_pdf szBytes="192380" szKBytes="188" pagina_inicial="46537" pagina_final="46537">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5546.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5546</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5546</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5547</identificador>
+                <control>2022/5400</control>
+                <titulo>Resolución de 25 de marzo de 2022, de la Universidad de Sevilla, por la que se nombra Profesora Titular de Universidad a doña Inés Ortega Feliu.</titulo>
+                <url_pdf szBytes="193876" szKBytes="189" pagina_inicial="46538" pagina_final="46538">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5547.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5547</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5547</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="2B" nombre="II. Autoridades y personal. - B. Oposiciones y concursos">
+          <departamento codigo="1820" nombre="CONSEJO GENERAL DEL PODER JUDICIAL">
+            <epigrafe nombre="Letrados al servicio del Tribunal Supremo">
+              <item>
+                <identificador>BOE-A-2022-5548</identificador>
+                <control>2022/5501</control>
+                <titulo>Acuerdo de 31 de marzo de 2022, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se aprueba la relación definitiva de admitidos/as y excluidos/as para participar en el concurso para provisión de plaza de Letrado/a del Gabinete Técnico al servicio del Tribunal Supremo, convocado por Acuerdo de 2 de diciembre de 2021.</titulo>
+                <url_pdf szBytes="192697" szKBytes="188" pagina_inicial="46539" pagina_final="46539">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5548.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5548</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5548</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5549</identificador>
+                <control>2022/5502</control>
+                <titulo>Acuerdo de 31 de marzo de 2022, de la Comisión Permanente del Consejo General del Poder Judicial, por el que se aprueba la relación provisional de admitidos/as y excluidos/as para participar en el concurso para provisión de plaza de Letrado/a del Gabinete Técnico al servicio del Tribunal Supremo, convocado por Acuerdo de 17 de febrero de 2022.</titulo>
+                <url_pdf szBytes="195914" szKBytes="191" pagina_inicial="46540" pagina_final="46541">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5549.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5549</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5549</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Personal laboral">
+              <item>
+                <identificador>BOE-A-2022-5550</identificador>
+                <control>2022/5304</control>
+                <titulo>Resolución de 27 de marzo de 2022, de la Dirección de la Agencia Española de Cooperación Internacional para el Desarrollo, por la que se aprueban las bases y se convoca la provisión de plazas de Coordinadores/as Generales de la Cooperación Española.</titulo>
+                <url_pdf szBytes="263469" szKBytes="257" pagina_inicial="46542" pagina_final="46549">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5550.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5550</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5550</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5551</identificador>
+                <control>2022/5305</control>
+                <titulo>Resolución de 27 de marzo de 2022, de la Dirección de la Agencia Española de Cooperación Internacional para el Desarrollo, por la que se aprueban las bases y se convoca la provisión de plaza de Director/a de Centros de Formación de la Cooperación Española.</titulo>
+                <url_pdf szBytes="317936" szKBytes="310" pagina_inicial="46550" pagina_final="46557">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5551.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5551</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5551</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5552</identificador>
+                <control>2022/5306</control>
+                <titulo>Resolución de 27 de marzo de 2022, de la Dirección de la Agencia Española de Cooperación Internacional para el Desarrollo, por la que se aprueban las bases y se convoca la provisión de plazas de Directores/as de Centros Culturales de la Cooperación Española.</titulo>
+                <url_pdf szBytes="248614" szKBytes="243" pagina_inicial="46558" pagina_final="46565">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5552.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5552</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5552</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <epigrafe nombre="Personal laboral">
+              <item>
+                <identificador>BOE-A-2022-5553</identificador>
+                <control>2022/5624</control>
+                <titulo>Resolución de 5 de abril de 2022, de la Secretaría de Estado de Función Pública, por la que se corrigen errores de la de 29 de marzo de 2022, por la que se convoca proceso selectivo para ingreso como personal laboral fijo, en el grupo profesional E0, especialidad Tareas Complementarias de Apoyo, sujeto al IV Convenio colectivo único para el personal laboral de la Administración General del Estado, en plazas reservadas para ser cubiertas por personas que acrediten discapacidad intelectual.</titulo>
+                <url_pdf szBytes="205887" szKBytes="201" pagina_inicial="46566" pagina_final="46566">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5553.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5553</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5553</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <epigrafe nombre="Cuerpo de Ingenieros de Caminos, Canales y Puertos del Estado">
+              <item>
+                <identificador>BOE-A-2022-5554</identificador>
+                <control>2022/5308</control>
+                <titulo>Resolución de 29 de marzo de 2022, de la Subsecretaría, por la que se aprueba la relación provisional de admitidos y excluidos, se anuncia fecha, hora y lugar de celebración del primer ejercicio, se corrigen errores y se declara inhábil el mes de agosto, del proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en el Cuerpo de Ingenieros de Caminos, Canales y Puertos del Estado, convocado por Resolución de 24 de enero de 2022.</titulo>
+                <url_pdf szBytes="259386" szKBytes="253" pagina_inicial="46567" pagina_final="46570">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5554.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5554</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5554</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Cuerpo de Ingenieros Técnicos de Obras Públicas">
+              <item>
+                <identificador>BOE-A-2022-5555</identificador>
+                <control>2022/5309</control>
+                <titulo>Resolución de 29 de marzo de 2022, de la Subsecretaría, por la que se aprueba la relación provisional de admitidos y excluidos, se anuncia fecha, hora y lugar de celebración del primer ejercicio, y se declara inhábil el mes de agosto, del proceso selectivo para ingreso, por el sistema general de acceso libre, en el Cuerpo de Ingenieros Técnicos de Obras Públicas, convocado por Resolución de 26 de enero de 2022.</titulo>
+                <url_pdf szBytes="339522" szKBytes="332" pagina_inicial="46571" pagina_final="46576">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5555.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5555</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5555</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Escala de Titulados de Escuelas Técnicas de Grado Medio de Organismos Autónomos del Ministerio de Fomento">
+              <item>
+                <identificador>BOE-A-2022-5556</identificador>
+                <control>2022/5310</control>
+                <titulo>Resolución de 29 de marzo de 2022, de la Subsecretaría, por la que se aprueba la relación provisional de admitidos y excluidos, se anuncia fecha, hora y lugar de celebración del primer ejercicio, y se declara inhábil el mes de agosto, del proceso selectivo para ingreso, por el sistema general de acceso libre y promoción interna, en la Escala de Titulados de Escuelas Técnicas de Grado Medio de Organismos Autónomos del Ministerio de Fomento, convocado por Resolución de 2 de febrero de 2022.</titulo>
+                <url_pdf szBytes="251867" szKBytes="246" pagina_inicial="46577" pagina_final="46580">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5556.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5556</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5556</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9573" nombre="MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL">
+            <epigrafe nombre="Escala de Titulados Superiores del Instituto Nacional de Seguridad e Higiene en el Trabajo">
+              <item>
+                <identificador>BOE-A-2022-5557</identificador>
+                <control>2022/5523</control>
+                <titulo>Resolución de 1 de abril de 2022, de la Subsecretaría, por la que se aprueba la relación provisional de admitidos y excluidos y se anuncia fecha, hora y lugar de celebración del primer ejercicio del proceso selectivo para ingreso, por el sistema general de acceso libre, en la Escala de Titulados Superiores del Instituto Nacional de Seguridad e Higiene en el Trabajo, convocado por Resolución de 16 de febrero de 2022.</titulo>
+                <url_pdf szBytes="220206" szKBytes="215" pagina_inicial="46581" pagina_final="46583">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5557.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5557</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5557</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Funcionarios de los Subgrupos A1, A2, C1 y C2">
+              <item>
+                <identificador>BOE-A-2022-5558</identificador>
+                <control>2022/5524</control>
+                <titulo>Resolución de 1 de abril de 2022, de la Subsecretaría, por la que se corrigen errores en la de 30 de noviembre de 2021, por la que se convoca concurso general para la provisión de puestos de trabajo en el Organismo Estatal Inspección de Trabajo y Seguridad Social.</titulo>
+                <url_pdf szBytes="190903" szKBytes="186" pagina_inicial="46584" pagina_final="46584">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5558.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5558</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5558</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <epigrafe nombre="Escala de Ayudantes de Investigación de los Organismos Públicos de Investigación">
+              <item>
+                <identificador>BOE-A-2022-5559</identificador>
+                <control>2022/5312</control>
+                <titulo>Resolución de 31 de marzo de 2022, de la Subsecretaría, por la que, en estimación de recurso, se modifica la de 23 de febrero de 2022, por la que se convoca proceso selectivo para ingreso, por el sistema de promoción interna, en la Escala de Ayudantes de Investigación de los Organismos Públicos de Investigación.</titulo>
+                <url_pdf szBytes="204130" szKBytes="199" pagina_inicial="46585" pagina_final="46587">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5559.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5559</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5559</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9525" nombre="ADMINISTRACIÓN LOCAL">
+            <epigrafe nombre="Personal funcionario y laboral">
+              <item>
+                <identificador>BOE-A-2022-5560</identificador>
+                <control>2022/5338</control>
+                <titulo>Resolución de 30 de marzo de 2022, del Ayuntamiento de Vélez de Benaudalla (Granada), referente a la convocatoria para proveer una plaza.</titulo>
+                <url_pdf szBytes="190573" szKBytes="186" pagina_inicial="46588" pagina_final="46588">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5560.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5560</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5560</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Cuerpos docentes universitarios">
+              <item>
+                <identificador>BOE-A-2022-5561</identificador>
+                <control>2022/5554</control>
+                <titulo>Resolución de 30 de marzo de 2022, de la Universidad Nacional de Educación a Distancia, por la que se convoca concurso de acceso a plaza de cuerpos docentes universitarios.</titulo>
+                <url_pdf szBytes="234053" szKBytes="229" pagina_inicial="46589" pagina_final="46596">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5561.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5561</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5561</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="3" nombre="III. Otras disposiciones">
+          <departamento codigo="7786" nombre="PRESIDENCIA DEL GOBIERNO">
+            <epigrafe nombre="Condecoraciones">
+              <item>
+                <identificador>BOE-A-2022-5562</identificador>
+                <control>2022/5636</control>
+                <titulo>Real Decreto 251/2022, de 5 de abril, por el que se concede la Gran Cruz de la Real y Distinguida Orden Española de Carlos III al Excelentísimo Señor don Juan José González Rivas.</titulo>
+                <url_pdf szBytes="190659" szKBytes="186" pagina_inicial="46597" pagina_final="46597">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5562.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5562</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5562</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <epigrafe nombre="Encomienda de gestión">
+              <item>
+                <identificador>BOE-A-2022-5563</identificador>
+                <control>2022/5342</control>
+                <titulo>Resolución de 29 de marzo de 2022, del Instituto Cervantes, por la que se publica el Anejo al Convenio de encomienda de gestión al Patronato de la Universidad Popular Municipal de Albacete, para la realización de las pruebas de Conocimientos Constitucionales y Socioculturales de España y para la obtención de los Diplomas de Español como Lengua Extranjera.</titulo>
+                <url_pdf szBytes="206538" szKBytes="202" pagina_inicial="46598" pagina_final="46600">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5563.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5563</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5563</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="4810" nombre="MINISTERIO DE JUSTICIA">
+            <epigrafe nombre="Indultos">
+              <item>
+                <identificador>BOE-A-2022-5564</identificador>
+                <control>2022/5637</control>
+                <titulo>Real Decreto 252/2022, de 5 de abril, por el que se indulta a don Neculai Aciobanitei.</titulo>
+                <url_pdf szBytes="189991" szKBytes="186" pagina_inicial="46601" pagina_final="46601">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5564.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5564</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5564</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5565</identificador>
+                <control>2022/5638</control>
+                <titulo>Real Decreto 253/2022, de 5 de abril, por el que se indulta a don José Enrique Campos Heredia.</titulo>
+                <url_pdf szBytes="189928" szKBytes="185" pagina_inicial="46602" pagina_final="46602">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5565.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5565</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5565</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5566</identificador>
+                <control>2022/5639</control>
+                <titulo>Real Decreto 254/2022, de 5 de abril, por el que se indulta a don Bernardo García Sánchez.</titulo>
+                <url_pdf szBytes="190100" szKBytes="186" pagina_inicial="46603" pagina_final="46603">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5566.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5566</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5566</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5567</identificador>
+                <control>2022/5640</control>
+                <titulo>Real Decreto 255/2022, de 5 de abril, por el que se indulta a don Francisco Jesús Gómez Campos.</titulo>
+                <url_pdf szBytes="190271" szKBytes="186" pagina_inicial="46604" pagina_final="46604">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5567.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5567</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5567</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5568</identificador>
+                <control>2022/5641</control>
+                <titulo>Real Decreto 256/2022, de 5 de abril, por el que se indulta a doña Margarita Rosendo Carol.</titulo>
+                <url_pdf szBytes="190174" szKBytes="186" pagina_inicial="46605" pagina_final="46605">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5568.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5568</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5568</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5569</identificador>
+                <control>2022/5642</control>
+                <titulo>Real Decreto 257/2022, de 5 de abril, por el que se indulta a doña Francisca Sánchez González.</titulo>
+                <url_pdf szBytes="190423" szKBytes="186" pagina_inicial="46606" pagina_final="46606">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5569.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5569</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5569</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5570</identificador>
+                <control>2022/5643</control>
+                <titulo>Real Decreto 258/2022, de 5 de abril, por el que se indulta a don Millán Carlos Server Javaloyes.</titulo>
+                <url_pdf szBytes="190512" szKBytes="186" pagina_inicial="46607" pagina_final="46607">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5570.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5570</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5570</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5571</identificador>
+                <control>2022/5644</control>
+                <titulo>Real Decreto 259/2022, de 5 de abril, por el que se indulta a doña Maia Usobiaga Lacunza.</titulo>
+                <url_pdf szBytes="190920" szKBytes="186" pagina_inicial="46608" pagina_final="46608">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5571.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5571</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5571</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5572</identificador>
+                <control>2022/5645</control>
+                <titulo>Real Decreto 260/2022, de 5 de abril, por el que se indulta a doña Gyulyay Nedzhmieva Yusein.</titulo>
+                <url_pdf szBytes="190510" szKBytes="186" pagina_inicial="46609" pagina_final="46609">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5572.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5572</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5572</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Nacionalidad española">
+              <item>
+                <identificador>BOE-A-2022-5573</identificador>
+                <control>2022/5463</control>
+                <titulo>Instrucción de 31 de marzo de 2022, de la Dirección General de Seguridad Jurídica y Fe Pública, por la que se acuerdan los criterios para la aplicación del Convenio de nacionalidad entre el Reino de España y la República Francesa.</titulo>
+                <url_pdf szBytes="207190" szKBytes="202" pagina_inicial="46610" pagina_final="46613">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5573.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5573</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5573</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Recursos">
+              <item>
+                <identificador>BOE-A-2022-5574</identificador>
+                <control>2022/5116</control>
+                <titulo>Resolución de 25 de marzo de 2022, de la Dirección General para el Servicio Público de Justicia, por la que se emplaza a los interesados en el recurso contencioso-administrativo 295/2022, interpuesto ante el Tribunal Superior de Justicia de Madrid, Sala de lo Contencioso-Administrativo, Sección Séptima.</titulo>
+                <url_pdf szBytes="190986" szKBytes="187" pagina_inicial="46614" pagina_final="46614">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5574.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5574</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5574</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <epigrafe nombre="Condecoraciones">
+              <item>
+                <identificador>BOE-A-2022-5575</identificador>
+                <control>2022/5646</control>
+                <titulo>Real Decreto 261/2022, de 5 de abril, por el que se concede la Gran Cruz del Mérito Aeronáutico con distintivo blanco al General del Aire, Comandante en Jefe de la Fuerza Aérea de Chile, señor Arturo Merino Núñez.</titulo>
+                <url_pdf szBytes="190448" szKBytes="186" pagina_inicial="46615" pagina_final="46615">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5575.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5575</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5575</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="7320" nombre="MINISTERIO DEL INTERIOR">
+            <epigrafe nombre="Condecoraciones">
+              <item>
+                <identificador>BOE-A-2022-5576</identificador>
+                <control>2022/5647</control>
+                <titulo>Real Decreto 262/2022, de 5 de abril, por el que se concede, a título póstumo, la Gran Cruz de la Real Orden de Reconocimiento Civil a las Víctimas del Terrorismo a don José Pablo García Lorenzo.</titulo>
+                <url_pdf szBytes="190830" szKBytes="186" pagina_inicial="46616" pagina_final="46616">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5576.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5576</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5576</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5577</identificador>
+                <control>2022/5648</control>
+                <titulo>Real Decreto 263/2022, de 5 de abril, por el que se concede la Gran Cruz de la Orden del Mérito de la Guardia Civil al General de Ejército, Comandante General del Arma de los Carabineros de Italia, señor Teo Luzi.</titulo>
+                <url_pdf szBytes="190403" szKBytes="186" pagina_inicial="46617" pagina_final="46617">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5577.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5577</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5577</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5578</identificador>
+                <control>2022/5649</control>
+                <titulo>Real Decreto 264/2022, de 5 de abril, por el que se concede la Gran Cruz de la Orden del Mérito de la Guardia Civil al General de Ejército, Director General de la Gendarmería Nacional Francesa, señor Christian Rodríguez.</titulo>
+                <url_pdf szBytes="190698" szKBytes="186" pagina_inicial="46618" pagina_final="46618">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5578.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5578</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5578</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5579</identificador>
+                <control>2022/5650</control>
+                <titulo>Real Decreto 265/2022, de 5 de abril, por el que se concede la Gran Cruz de la Orden del Mérito de la Guardia Civil al Director General de la Seguridad Interior Francesa, señor Nicolás Lerner.</titulo>
+                <url_pdf szBytes="190450" szKBytes="186" pagina_inicial="46619" pagina_final="46619">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5579.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5579</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5579</url_xml>
+              </item>
+            </epigrafe>
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2022-5580</identificador>
+                <control>2022/5475</control>
+                <titulo>Resolución de 30 de marzo de 2022, de la Secretaría General Técnica, por la que se publica el Convenio entre la Secretaría de Estado de Seguridad y el Ayuntamiento de Albox, en materia de seguridad.</titulo>
+                <url_pdf szBytes="226301" szKBytes="221" pagina_inicial="46620" pagina_final="46625">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5580.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5580</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5580</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5581</identificador>
+                <control>2022/5476</control>
+                <titulo>Resolución de 1 de abril de 2022, de la Secretaría General Técnica, por la que se publica el Convenio entre la Secretaría de Estado de Seguridad y el Ayuntamiento de Trujillo, en materia de seguridad.</titulo>
+                <url_pdf szBytes="226274" szKBytes="221" pagina_inicial="46626" pagina_final="46631">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5581.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5581</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5581</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <epigrafe nombre="Puertos">
+              <item>
+                <identificador>BOE-A-2022-5582</identificador>
+                <control>2022/5202</control>
+                <titulo>Orden TMA/271/2022, de 14 de marzo, por la que se aprueba la modificación sustancial puntual de la delimitación de espacios y usos portuarios del puerto de la Bahía de Cádiz, adscripción El Trocadero.</titulo>
+                <url_pdf szBytes="327245" szKBytes="320" pagina_inicial="46632" pagina_final="46637">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5582.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5582</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5582</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9574" nombre="MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2022-5583</identificador>
+                <control>2022/5229</control>
+                <titulo>Resolución de 31 de marzo de 2022, de la Subsecretaría, por la que se publica el Convenio entre la Agencia Estatal de Administración Tributaria y la Agencia Estatal de Meteorología, para la recaudación en vía ejecutiva de los recursos de naturaleza pública de dicho ente.</titulo>
+                <url_pdf szBytes="943939" szKBytes="922" pagina_inicial="46638" pagina_final="46672">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5583.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5583</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5583</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5584</identificador>
+                <control>2022/5231</control>
+                <titulo>Resolución de 31 de marzo de 2022, de la Subsecretaría, por la que se publica el Convenio entre la Agencia Estatal de Administración Tributaria y la Autoridad Portuaria de A Coruña, para la recaudación en vía ejecutiva de los recursos de naturaleza pública de dicho ente.</titulo>
+                <url_pdf szBytes="941801" szKBytes="920" pagina_inicial="46673" pagina_final="46708">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5584.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5584</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5584</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <epigrafe nombre="Instalaciones eléctricas">
+              <item>
+                <identificador>BOE-A-2022-5585</identificador>
+                <control>2022/5127</control>
+                <titulo>Resolución de 18 de marzo de 2022, de la Dirección General de Política Energética y Minas, por la que se otorga a Iberdrola Renovables Castilla la Mancha, SA, autorización administrativa previa y autorización administrativa de construcción para la línea subterránea de media tensión a 30 kV ST FV Puertollano II - Planta H2 Verde, en el término municipal de Puertollano (Ciudad Real).</titulo>
+                <url_pdf szBytes="216515" szKBytes="211" pagina_inicial="46709" pagina_final="46712">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5585.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5585</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5585</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2022-5586</identificador>
+                <control>2022/5131</control>
+                <titulo>Resolución de 28 de marzo de 2022, del Instituto Nacional de las Artes Escénicas y de la Música, por la que se publica el Convenio con Cube, Space and Lighting, SL, para la organización de prácticas para alumnos del Centro de Tecnología del Espectáculo.</titulo>
+                <url_pdf szBytes="240088" szKBytes="234" pagina_inicial="46713" pagina_final="46719">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5586.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5586</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5586</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5587</identificador>
+                <control>2022/5132</control>
+                <titulo>Resolución de 28 de marzo de 2022, del Instituto Nacional de las Artes Escénicas y de la Música, por la que se publica la Adenda al Convenio con la Sociedad Municipal Zaragoza Cultural, SAU, para la organización del Encuentro I-2022 y dos conciertos de la Joven Orquesta Nacional de España.</titulo>
+                <url_pdf szBytes="249444" szKBytes="244" pagina_inicial="46720" pagina_final="46725">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5587.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5587</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5587</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="9579" nombre="MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES">
+            <epigrafe nombre="Convenios">
+              <item>
+                <identificador>BOE-A-2022-5588</identificador>
+                <control>2022/5212</control>
+                <titulo>Resolución de 29 de marzo de 2022, de la Secretaría General Técnica, por la que se publica el Convenio entre la Dirección Provincial de la Tesorería General de la Seguridad Social de Valencia y la Dirección Provincial del Instituto Nacional de la Seguridad Social de Valencia, para la administración y participación en gastos de inmuebles de uso compartido.</titulo>
+                <url_pdf szBytes="273122" szKBytes="267" pagina_inicial="46726" pagina_final="46732">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5588.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5588</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5588</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="1020" nombre="BANCO DE ESPAÑA">
+            <epigrafe nombre="Mercado de divisas">
+              <item>
+                <identificador>BOE-A-2022-5589</identificador>
+                <control>2022/5621</control>
+                <titulo>Resolución de 5 de abril de 2022, del Banco de España, por la que se publican los cambios del euro correspondientes al día 5 de abril de 2022, publicados por el Banco Central Europeo, que tendrán la consideración de cambios oficiales, de acuerdo con lo dispuesto en el artículo 36 de la Ley 46/1998, de 17 de diciembre, sobre la Introducción del Euro.</titulo>
+                <url_pdf szBytes="217802" szKBytes="213" pagina_inicial="46733" pagina_final="46734">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5589.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5589</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5589</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8140" nombre="COMUNIDAD AUTÓNOMA DEL PAÍS VASCO">
+            <epigrafe nombre="Homologaciones">
+              <item>
+                <identificador>BOE-A-2022-5590</identificador>
+                <control>2022/5135</control>
+                <titulo>Resolución de 18 de marzo de 2022, de la Delegación Territorial de Administración Industrial de Bizkaia, del Departamento de Desarrollo Económico, Sostenibilidad y Medio Ambiente, en relación a la autorización a Končar-Instrument Transformers INC, de transformadores eléctricos de medida para su uso e instalación en la red.</titulo>
+                <url_pdf szBytes="212830" szKBytes="208" pagina_inicial="46735" pagina_final="46738">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5590.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5590</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5590</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="8070" nombre="COMUNIDAD AUTÓNOMA DE CATALUÑA">
+            <epigrafe nombre="Denominaciones de origen">
+              <item>
+                <identificador>BOE-A-2022-5591</identificador>
+                <control>2022/5136</control>
+                <titulo>Resolución de 15 de marzo de 2022, del Instituto Catalán de la Viña y el Vino, por la que se resuelve favorablemente la solicitud de modificación del pliego de condiciones de la Denominación de Origen Protegida Priorat.</titulo>
+                <url_pdf szBytes="193818" szKBytes="189" pagina_inicial="46739" pagina_final="46739">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5591.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5591</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5591</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <epigrafe nombre="Planes de estudios">
+              <item>
+                <identificador>BOE-A-2022-5592</identificador>
+                <control>2022/5215</control>
+                <titulo>Resolución de 28 de marzo de 2022, de la Universidad de Sevilla, por la que se publica el plan de estudios de Máster Universitario Erasmus Mundus en Física Nuclear/Erasmus Mundus Master in Nuclear Physics [Máster conjunto de las universidades Autónoma de Madrid, Complutense de Madrid, Barcelona, Sevilla, Università degli Studi di Catania (Italia), Università degli Studi di Padova (Italia) y Université de Caen Basse-Normandie (Francia)].</titulo>
+                <url_pdf szBytes="235949" szKBytes="230" pagina_inicial="46740" pagina_final="46742">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5592.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5592</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5592</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5593</identificador>
+                <control>2022/5216</control>
+                <titulo>Resolución de 28 de marzo de 2022, de la Universidad de Sevilla, por la que se publica la modificación del plan de estudios de Graduado o Graduada en Estudios de Asia Oriental (Grado conjunto de las universidades de Sevilla y Málaga).</titulo>
+                <url_pdf szBytes="381683" szKBytes="373" pagina_inicial="46743" pagina_final="46750">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5593.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5593</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5593</url_xml>
+              </item>
+              <item>
+                <identificador>BOE-A-2022-5594</identificador>
+                <control>2022/5217</control>
+                <titulo>Resolución de 28 de marzo de 2022, de la Universidad de Sevilla, por la que se publica la modificación del plan de estudios de Graduado o Graduada en Filosofía.</titulo>
+                <url_pdf szBytes="307360" szKBytes="300" pagina_inicial="46751" pagina_final="46755">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-A-2022-5594.pdf</url_pdf>
+                <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-5594</url_html>
+                <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-A-2022-5594</url_xml>
+              </item>
+            </epigrafe>
+          </departamento>
+        </seccion>
+        <seccion codigo="5A" nombre="V. Anuncios. - A. Contratación del Sector Público">
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <item>
+              <identificador>BOE-B-2022-10823</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General del Servicio Exterior. Objeto: Obra de reforma de la instalación del ascensor, escalera A, de la Embajada de España ante la Santa Sede. Expediente: OBR-21.003.</titulo>
+              <url_pdf szBytes="155573" szKBytes="152" pagina_inicial="16485" pagina_final="16486">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10823.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10823</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10823</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10824</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General del Servicio Exterior. Objeto: Obras de rehabilitación del Consulado General de España en Oporto. Expediente: OBR-21.002.</titulo>
+              <url_pdf szBytes="156395" szKBytes="153" pagina_inicial="16487" pagina_final="16488">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10824.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10824</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10824</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2022-10825</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección de Asuntos Económicos del Ejército. Objeto: AM para el mantenimiento preventivo, conductivo, legal e inspecciones reglamentarias de cubiertas de las UCO´s del ARG JDIRAC-SUIGECEN. Expediente: 2021/ETSAE0921/00000328E.</titulo>
+              <url_pdf szBytes="169785" szKBytes="166" pagina_inicial="16489" pagina_final="16491">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10825.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10825</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10825</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10826</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Contratación del Ejército de Tierra. Objeto: Acuerdo Marco para la adquisición de granadas de 40x53 mm para LAG-40 y MK-19. Expediente: 60004 20 0012 00.</titulo>
+              <url_pdf szBytes="181749" szKBytes="177" pagina_inicial="16492" pagina_final="16495">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10826.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10826</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10826</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10827</identificador>
+              <titulo>Anuncio de licitación de: Intendente de Cartagena. Objeto: JEMAN - YSABEL (T.A. 2022).- Contrato de servicios de navalización buque Ysabel.- Ampliación de la zona de habitabilidad en la cubierta intermedia. Expediente: 2021/AR44U/00004038E.</titulo>
+              <url_pdf szBytes="170904" szKBytes="167" pagina_inicial="16496" pagina_final="16498">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10827.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10827</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10827</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10828</identificador>
+              <titulo>Anuncio de licitación de: Subdirección General de Servicios Económicos y Pagadurías. Objeto: Campaña de prevención de enfermedades urológicas masculinas y la campaña de prevención de enfermedades ginecológicas para el personal de la Sede Central del Ministerio de Defensa. Expediente: 2022/SP01010020/00000060.</titulo>
+              <url_pdf szBytes="151325" szKBytes="148" pagina_inicial="16499" pagina_final="16499">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10828.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10828</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10828</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10829</identificador>
+              <titulo>Anuncio de licitación de: Jefatura de la Sección de Asuntos Económicos de la Unidad Militar de Emergencias. Objeto: Mantenimiento de Equipos de Detección Química de dotación en la UME. Expediente: 2022/SP03038000/00000127E.</titulo>
+              <url_pdf szBytes="168355" szKBytes="164" pagina_inicial="16500" pagina_final="16502">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10829.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10829</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10829</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10830</identificador>
+              <titulo>Anuncio de licitación de: Subdirección General de Gestión Económica. Objeto: Servicios bancarios para la gestión de tesorería del Ministerio de Defensa. Expediente: 2022/SP03032001/00000010.</titulo>
+              <url_pdf szBytes="169931" szKBytes="166" pagina_inicial="16503" pagina_final="16505">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10830.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10830</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10830</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9279" nombre="MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA">
+            <item>
+              <identificador>BOE-B-2022-10831</identificador>
+              <titulo>Anuncio de licitación de: Dirección del Instituto de Estudios Fiscales. Objeto: Servicios para el soporte técnico de los sistemas de información del Instituto de Estudios Fiscales. Expediente: 20220042.</titulo>
+              <url_pdf szBytes="166403" szKBytes="163" pagina_inicial="16506" pagina_final="16508">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10831.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10831</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10831</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10832</identificador>
+              <titulo>Anuncio de formalización de contratos de: Delegación Especial de la Agencia Tributaria en Extremadura. Objeto: Servicio Limpieza inmuebles de la Delegación AEAT Extremadura. Expediente: 21B00085800.</titulo>
+              <url_pdf szBytes="164599" szKBytes="161" pagina_inicial="16509" pagina_final="16510">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10832.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10832</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10832</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10833</identificador>
+              <titulo>Anuncio de licitación de: Presidencia de la Autoridad Independiente de Responsabilidad Fiscal. Objeto: Servicio de traducción simltánea. Expediente: 2022/013 PA.</titulo>
+              <url_pdf szBytes="162836" szKBytes="159" pagina_inicial="16511" pagina_final="16512">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10833.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10833</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10833</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10834</identificador>
+              <titulo>Anuncio de formalización de contratos de: Delegación Especial de la Agencia Tributaria en Madrid. Objeto: Servicios de mantenimiento y conservación de las instalaciones de la Delegación Especial de la AEAT de Madrid y sus centros dependientes. Expediente: 21B20025500.</titulo>
+              <url_pdf szBytes="167135" szKBytes="163" pagina_inicial="16513" pagina_final="16515">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10834.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10834</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10834</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <item>
+              <identificador>BOE-B-2022-10835</identificador>
+              <titulo>Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Asistencia técnica para el control y vigilancia de las obras de Renovación de vía Zafra-Huelva.Valdelamusa-Huelva. Expediente: 3.21/27506.0018.</titulo>
+              <url_pdf szBytes="157550" szKBytes="154" pagina_inicial="16516" pagina_final="16517">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10835.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10835</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10835</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10836</identificador>
+              <titulo>Anuncio de licitación de: ADIF - Presidencia. Objeto: Servicio de mantenimiento integral de puertas automáticas peatonales en estaciones dependientes de la Subdirección de Estaciones Norte. Expediente: 2.22/24108.0017.</titulo>
+              <url_pdf szBytes="165723" szKBytes="162" pagina_inicial="16518" pagina_final="16520">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10836.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10836</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10836</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10837</identificador>
+              <titulo>Anuncio de la Entidad Pública Empresarial Administrador de Infraestructuras Ferroviarias (ADIF), por el que se comunica la nueva fecha de apertura de ofertas económicas del procedimiento de contratación del "Mantenimiento correctivo, evolutivo y adaptativo, bajo modelo de acuerdo de niveles de servicio, para aplicaciones del ámbito económico-financiero, SAP ERP Y SAP HR de Adif". (Expediente: 4.21/41110.0191).</titulo>
+              <url_pdf szBytes="145998" szKBytes="143" pagina_inicial="16521" pagina_final="16521">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10837.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10837</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10837</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10838</identificador>
+              <titulo>Anuncio de formalización de contratos de: ADIF - Presidencia. Objeto: Mantenimiento de los sistemas contraincendios de estaciones dependientes de la Jefatura de Estaciones Madrid Sur: Madrid Puerta de Atocha, Toledo, Guadalajara Yebes, Ciudad Real, Puertollano y Alcázar de San Juan. Expediente: 2.21/30108.0011.</titulo>
+              <url_pdf szBytes="157464" szKBytes="154" pagina_inicial="16522" pagina_final="16523">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10838.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10838</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10838</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10839</identificador>
+              <titulo>Anuncio de licitación de: ADIF - Presidencia. Objeto: Suministro y transporte de traviesas de madera para la implantación del ancho estándar en el corredor mediterráneo. tramo: Castellbisbal - Murcia. subtramos: Martorell - Sant Vicenç de Calders y Sant Vicenç de Calders - Villaseca. Expediente: 3.22/06110.0040.</titulo>
+              <url_pdf szBytes="161600" szKBytes="158" pagina_inicial="16524" pagina_final="16525">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10839.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10839</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10839</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10840</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección General de Carreteras. Objeto: 30.634/21-2; AC-543/21 Responsable de Seguridad en fase de explotación para los túneles en las carreteras de la Red del Estado en Cantabria". Expediente: 230213927941.</titulo>
+              <url_pdf szBytes="163361" szKBytes="160" pagina_inicial="16526" pagina_final="16527">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10840.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10840</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10840</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10841</identificador>
+              <titulo>Anuncio de la Entidad Pública Empresarial Administrador de Infraestructuras Ferroviarias (ADIF), por el que se comunica la nueva fecha de apertura de ofertas económicas del procedimiento de contratación del "Mantenimiento de los edificios y dependencias dedicados al mantenimiento de la Red Ferroviaria de Interés General (RFIG). 7 Lotes". (Expediente: 4.21/27520.0170).</titulo>
+              <url_pdf szBytes="145487" szKBytes="142" pagina_inicial="16528" pagina_final="16528">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10841.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10841</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10841</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9574" nombre="MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA">
+            <item>
+              <identificador>BOE-B-2022-10842</identificador>
+              <titulo>Anuncio de licitación de: Consejo de Administración del Patrimonio Nacional. Objeto: Mantenimiento de instalaciones de climatización, equipos de aire acondicionado y calderas del Palacio Real de Madrid. Expediente: 2220PACAR049 .</titulo>
+              <url_pdf szBytes="167555" szKBytes="164" pagina_inicial="16529" pagina_final="16531">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10842.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10842</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10842</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10843</identificador>
+              <titulo>Anuncio de licitación de: Consejo de Administración del Patrimonio Nacional. Objeto: Restauración de un conjunto de cuatro columnas salomónicas pertenecientes a las Colecciones Reales del Patrimonio Nacional. Expediente: 2270PACRR043 .</titulo>
+              <url_pdf szBytes="149312" szKBytes="146" pagina_inicial="16532" pagina_final="16532">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10843.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10843</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10843</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <item>
+              <identificador>BOE-B-2022-10844</identificador>
+              <titulo>Anuncio de formalización de contratos de: Presidencia de la Agencia Estatal de Meteorología. Objeto: Servicio de gestión de red para la Agencia Estatal de Meteorología. Expediente: 202100000156.</titulo>
+              <url_pdf szBytes="161971" szKBytes="158" pagina_inicial="16533" pagina_final="16534">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10844.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10844</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10844</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10845</identificador>
+              <titulo>Anuncio corrección de errores: Dirección General del Agua. Objeto: Contratación de servicios para asistencia para el control y vigilancia y coordinación de seguridad y salud de las obras de saneamiento y depuración en Villafranca de los Barros (Badajoz). Expediente: 04.306-0591/0611.</titulo>
+              <url_pdf szBytes="146358" szKBytes="143" pagina_inicial="16535" pagina_final="16535">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10845.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10845</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10845</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10846</identificador>
+              <titulo>Anuncio de formalización de contratos de: Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla. Objeto: Servicio de gestión e inspección en seguridad industrial según el R.D. 840/2015 en las ETAP de la Mancomunidad de los Canales del Taibilla, 2022-2024 (Varios). Expediente: V-07/21-10.</titulo>
+              <url_pdf szBytes="163412" szKBytes="160" pagina_inicial="16536" pagina_final="16537">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10846.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10846</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10846</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10847</identificador>
+              <titulo>Anuncio de formalización de contratos de: Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla. Objeto: Contrato con Servicio de Prevención ajeno para desarrollo de actividades técnicas, acciones de coordinación de seguridad y salud en obras de construcción y presencia de recursos preventivos en la Mancomunidad de los Canales del Taibilla durante un periodo de 24 meses. Expediente: V-07/21-01.</titulo>
+              <url_pdf szBytes="163999" szKBytes="160" pagina_inicial="16538" pagina_final="16539">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10847.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10847</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10847</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10848</identificador>
+              <titulo>Anuncio de formalización de contratos de: Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla. Objeto: Servicio de explotación, mantenimiento y conservación de la planta desalinizadora de San Pedro del Pinatar (Mu/ San Pedro del Pinatar). Expediente: V-08/21-01.</titulo>
+              <url_pdf szBytes="161459" szKBytes="158" pagina_inicial="16540" pagina_final="16541">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10848.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10848</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10848</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10849</identificador>
+              <titulo>Anuncio de formalización de contratos de: Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla. Objeto: Servicio de mantenimiento preventivo, predictivo y correctivo de variadores de velocidad y arrancadores estáticos existentes en las potabilizadoras de la Mancomunidad de los Canales del Taibilla 2022-2024 (VARIOS). Expediente: V-07/21-03.</titulo>
+              <url_pdf szBytes="163129" szKBytes="159" pagina_inicial="16542" pagina_final="16543">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10849.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10849</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10849</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10850</identificador>
+              <titulo>Anuncio de formalización de contratos de: Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla. Objeto: Servicio para redacción de informes técnicos en materia de expedientes de expropiación forzosa, defensa del dominio público y gestión patrimonial de los bienes del Organismo - Período 2022-2024. Expediente: V-06/21-11.</titulo>
+              <url_pdf szBytes="161851" szKBytes="158" pagina_inicial="16544" pagina_final="16545">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10850.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10850</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10850</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2022-10851</identificador>
+              <titulo>Anuncio de licitación de: Junta de Contratación del Ministerio de Cultura y Deporte. Objeto: Servicio de mantenimiento integral de las instalaciones del Museo Arqueológico Nacional. Expediente: J220007.</titulo>
+              <url_pdf szBytes="166645" szKBytes="163" pagina_inicial="16546" pagina_final="16548">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10851.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10851</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10851</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10852</identificador>
+              <titulo>Anuncio de licitación de: Dirección del Museo Nacional del Prado. Objeto: Servicio de montaje y desmontaje de la exposición temporal "Otro Renacimiento. Artistas españoles en Nápoles a comienzos del Cinquecento". Expediente: 22CA0073.</titulo>
+              <url_pdf szBytes="150355" szKBytes="147" pagina_inicial="16549" pagina_final="16549">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10852.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10852</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10852</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10853</identificador>
+              <titulo>Anuncio de licitación de: Dirección del Museo Nacional del Prado. Objeto: Servicio de transporte de obras de la exposición "Otro Renacimiento. Artistas españoles en Nápoles a comienzos del Cinquecento". Expediente: 22CA0071.</titulo>
+              <url_pdf szBytes="170331" szKBytes="166" pagina_inicial="16550" pagina_final="16552">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10853.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10853</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10853</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9576" nombre="MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL">
+            <item>
+              <identificador>BOE-B-2022-10854</identificador>
+              <titulo>Anuncio de formalización de contratos de: Junta de Contratación del Ministerio de Asuntos Económicos y Transformación Digital . Objeto: Servicio de desarrollo y gestión de los sistemas de información que soportan las actividades de las funciones de análisis de la situación de solvencia, financiera y control de la actividad de los supervisados que desempeña la DGSFP. (2 LOTES). Expediente: 202100000016.</titulo>
+              <url_pdf szBytes="165181" szKBytes="161" pagina_inicial="16553" pagina_final="16554">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10854.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10854</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10854</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4335" nombre="MINISTERIO DE SANIDAD">
+            <item>
+              <identificador>BOE-B-2022-10855</identificador>
+              <titulo>Anuncio de formalización de contratos de: Dirección del Instituto Nacional de Gestión Sanitaria (INGESA). Objeto: Suministro, respetuoso con el medio ambiente, de medicamentos de Factor VIII de coagulación recombinante. Expediente: AM 2021/063.1.</titulo>
+              <url_pdf szBytes="205880" szKBytes="201" pagina_inicial="16555" pagina_final="16560">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10855.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10855</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10855</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10856</identificador>
+              <titulo>Anuncio de corrección de errores de: Dirección General de Salud Digital y Sistemas de Información del Sistema Nacional de Salud. Objeto: Servicio de mantenimiento de los equipos CISCO Y NETSCOUT del Ministerio de Sanidad. Expediente: 202105PA0006 .</titulo>
+              <url_pdf szBytes="145777" szKBytes="142" pagina_inicial="16561" pagina_final="16561">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10856.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10856</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10856</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4245" nombre="MINISTERIO DE CIENCIA E INNOVACIÓN">
+            <item>
+              <identificador>BOE-B-2022-10857</identificador>
+              <titulo>Anuncio de formalización de contratos de: Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P. Objeto: Servicio de varada y mantenimiento general del Buque Oceanográfico García del Cid dependiente de la Unidad de Tecnología Marina. Expediente: 1770/22.</titulo>
+              <url_pdf szBytes="162039" szKBytes="158" pagina_inicial="16562" pagina_final="16563">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10857.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10857</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10857</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10858</identificador>
+              <titulo>Anuncio de licitación de: Presidencia de la Agencia Estatal Consejo Superior de Investigaciones Científicas, M.P. Objeto: Suministro e instalación de un microscopio de efecto túnel y de fuerzas atómicas de baja temperatura para su acoplamiento a un sistema de ultra-alto vacío ya existente, así como una unidad de control para mejorar las prestaciones de un microscopio de fuerzas atómicas AFM Nanowizard ya existente, destinado al Instituto de Ciencia de Materiales de Madrid. Expediente: LOT28/22.</titulo>
+              <url_pdf szBytes="173078" szKBytes="169" pagina_inicial="16564" pagina_final="16566">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10858.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10858</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10858</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10859</identificador>
+              <titulo>Anuncio de corrección de errores de: Dirección del Consorcio para el Diseño, la Construcción, el Equipamiento y la Explotación de la Plataforma Oceánica de Canarias. Objeto: El objeto del contrato será servicio de embarcación para transporte de personal y material y la realización de trabajos marítimos que PLOCAN requiere en su plataforma offshore y en su banco de ensayos. Expediente: L-CPS-PA-7-2021.</titulo>
+              <url_pdf szBytes="147266" szKBytes="144" pagina_inicial="16567" pagina_final="16567">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10859.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10859</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10859</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10860</identificador>
+              <titulo>Anuncio de licitación de: Dirección del Consorcio para el Diseño, la Construcción, el Equipamiento y la Explotación de la Plataforma Oceánica de Canarias. Objeto: El objeto del contrato es la adquisición de un vehículo autónomo no tripulado de observación marina superficial (ASV). Expediente: L-CSU-PA-1-2022.</titulo>
+              <url_pdf szBytes="166366" szKBytes="162" pagina_inicial="16568" pagina_final="16570">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10860.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10860</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10860</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10861</identificador>
+              <titulo>Anuncio de licitación de: Dirección del Consorcio para el Diseño, la Construcción, el Equipamiento y la Explotación de la Plataforma Oceánica de Canarias. Objeto: Servicio de la elaboración y redacción de un proyecto de diseño conceptual/básico de una plataforma offshore para el lanzamiento de mini/microsatélites desde aguas cercanas al Archipiélago Canario. Expediente: L-CPS-PA-3-2022.</titulo>
+              <url_pdf szBytes="167331" szKBytes="163" pagina_inicial="16571" pagina_final="16573">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10861.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10861</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10861</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="4620" nombre="MINISTERIO DE IGUALDAD">
+            <item>
+              <identificador>BOE-B-2022-10862</identificador>
+              <titulo>Anuncio de formalización de contratos de: Instituto de las Mujeres. Objeto: Servicio para el diseño de la creatividad y la producción de una campaña de sensibilización contra los estereotipos de género basados en los cánones de belleza femeninos, dirigida a la población general. Expediente: 21CO0005.</titulo>
+              <url_pdf szBytes="160446" szKBytes="157" pagina_inicial="16574" pagina_final="16575">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10862.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10862</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10862</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9579" nombre="MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES">
+            <item>
+              <identificador>BOE-B-2022-10863</identificador>
+              <titulo>Anuncio de formalización de contratos de: TGSS-Dirección provincial de Cantabria. Objeto: Suministro e instalación de luminarias y lámparas para la renovación del actual sistema de iluminación de los edificios dependientes de la Dirección Provincial de la TGSS y de la Dirección Provincial del INSS de Cantabria con el fin de mejorar su eficiencia energética. Expediente: 39/VC-02/22.</titulo>
+              <url_pdf szBytes="172440" szKBytes="168" pagina_inicial="16576" pagina_final="16578">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10863.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10863</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10863</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10864</identificador>
+              <titulo>Anuncio de formalización de contratos de: Subdirección General de Gestión Económica y Oficina Presupuestaria, del Ministerio de Inclusión, Seguridad Social y Migraciones. Objeto: Suministro, instalación, gestión y mantenimiento de equipamiento de red LAN y WIFI en el contexto de proporcionar conectividad a los Centros de Refugiados en Pozuelo y Barcelona del Ministerio de Inclusión, Seguridad Social y Migraciones, debido a la emergencia suscitada por el conflicto bélico ucraniano-ruso. Expediente: 202201EME002.</titulo>
+              <url_pdf szBytes="158203" szKBytes="154" pagina_inicial="16579" pagina_final="16580">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10864.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10864</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10864</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10865</identificador>
+              <titulo>Anuncio de formalización de contratos de: INSS-Servicios Centrales-Subdirección General de Gestion Económico - Presupuestaria y Estudios Económicos. Objeto: Suministro de pan, bollería, leche y yogures para la cafetería-comedor de los Servicios Centrales del Instituto Nacional de la Seguridad Social. Expediente: 60/VC-142/22.</titulo>
+              <url_pdf szBytes="173254" szKBytes="169" pagina_inicial="16581" pagina_final="16583">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10865.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10865</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10865</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10866</identificador>
+              <titulo>Anuncio de licitación de: Secretaria General de la Tesorería General de la Seguridad Social. Objeto: Suministro de gasóleo de calefacción clase C con destino a los Servicios Centrales de la Tesorería General de la Seguridad Social. Expediente: 2022/0295PA.</titulo>
+              <url_pdf szBytes="164373" szKBytes="161" pagina_inicial="16584" pagina_final="16585">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10866.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10866</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10866</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5B" nombre="V. Anuncios. - B. Otros anuncios oficiales">
+          <departamento codigo="9562" nombre="MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN">
+            <item>
+              <identificador>BOE-B-2022-10867</identificador>
+              <titulo>Extracto de la Orden de 4 abril de 2022 por la que se convocan subvenciones a instituciones asistenciales que prestan ayuda a españoles en situación de necesidad en el extranjero para el ejercicio 2022.</titulo>
+              <url_pdf szBytes="147733" szKBytes="144" pagina_inicial="16586" pagina_final="16586">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10867.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10867</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10867</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="6110" nombre="MINISTERIO DE DEFENSA">
+            <item>
+              <identificador>BOE-B-2022-10868</identificador>
+              <titulo>Anuncio del Instituto Nacional de Técnica Aeroespacial "Esteban Terradas", relativo a la aprobación del proyecto "Centro de Ensayos de UAS" (CEUS) en Huelva.</titulo>
+              <url_pdf szBytes="146124" szKBytes="143" pagina_inicial="16587" pagina_final="16587">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10868.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10868</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10868</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10869</identificador>
+              <titulo>Extracto de la Resolución 550/MADOC/JAE-2022003, de 29 de marzo de 2022, del Mando de Adiestramiento y Doctrina, por la que se convocan las becas para la obtención del Certificado de Profesionalidad de Transporte Sanitario durante el curso 2022/2023.</titulo>
+              <url_pdf szBytes="151434" szKBytes="148" pagina_inicial="16588" pagina_final="16589">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10869.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10869</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10869</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9572" nombre="MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA">
+            <item>
+              <identificador>BOE-B-2022-10870</identificador>
+              <titulo>Resolución de la Autoridad Portuaria de Santander por el que se renueva la Licencia del Servicio Portuario de Practicaje en el Puerto de Santander a la Corporación de Prácticos de Santander.</titulo>
+              <url_pdf szBytes="144742" szKBytes="141" pagina_inicial="16590" pagina_final="16590">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10870.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10870</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10870</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10871</identificador>
+              <titulo>Resolución de la Dirección General de Planificación y Evaluación de la Red Ferroviaria por la que se abre Información Pública correspondiente al Expediente de Expropiación Forzosa 003ADIF2222 motivado por las obras de "Proyecto de Construcción de Mejora Integral de la Infraestructura de la Línea de Alta Velocidad Madrid – Sevilla. Tramo B: Yeles – Guadalmez" en los términos municipales de Yeles, Esquivias, Numancia de la Sagra, Pantoja, Cobeja, Alameda de la Sagra, Toledo, Nambroca, Almonacid de Toledo, Mora, Manzaneque, Consuegra, Los Yébenes (Toledo), Malagón, Fernán Caballero, Ciudad Real, Cañada de Calatrava, Almodóvar del Campo y Brazatortas (Ciudad Real).</titulo>
+              <url_pdf szBytes="1242408" szKBytes="1213" pagina_inicial="16591" pagina_final="16611">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10871.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10871</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10871</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9563" nombre="MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL">
+            <item>
+              <identificador>BOE-B-2022-10872</identificador>
+              <titulo>Extracto de la Resolución de 4 de abril de 2022 de la Secretaría de Estado de Educación, por la que se convocan plazas de profesorado en secciones bilingües de español en centros educativos de Bulgaria, China, Eslovaquia, Hungría, Polonia, República Checa, Rumanía y Rusia para el curso 2022-2023.</titulo>
+              <url_pdf szBytes="148972" szKBytes="145" pagina_inicial="16612" pagina_final="16612">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10872.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10872</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10872</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9523" nombre="MINISTERIO DE POLÍTICA TERRITORIAL">
+            <item>
+              <identificador>BOE-B-2022-10873</identificador>
+              <titulo>Anuncio del Área de Industria y Energía de la Subdelegación del Gobierno en Valladolid, por el que se somete a información pública la solicitud de Autorización Administrativa Previa, Autorización Administrativa de Construcción y Declaración de Impacto Ambiental para las Plantas Solares Fotovoltaicas "Valle 1" de 108,9 MW de potencia instalada y "Valle 2" de 108,9 MW de potencia instalada, así como sus infraestructuras de evacuación en los términos municipales de Valladolid, Fuensaldaña, Mucientes, Santovenia de Pisuerga, Cistérniga, Laguna de Duero, Tudela de Duero, Boecillo y Aldeamayor de San Martín, en la provincia de Valladolid.</titulo>
+              <url_pdf szBytes="159388" szKBytes="156" pagina_inicial="16613" pagina_final="16615">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10873.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10873</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10873</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10874</identificador>
+              <titulo>Anuncio del Área Funcional de Industria y Energía de la Subdelegación del Gobierno en Zaragoza por el que se somete a información pública la solicitud de autorización administrativa de construcción y declaración de utilidad pública del expediente PFot-321 que comprende el parque solar fotovoltaico "TERRER SOLAR", de 130 MWp / 124,72 MWn / 107,5 MWac, así como sus infraestructuras de evacuación, en la provincia de Zaragoza.</titulo>
+              <url_pdf szBytes="871619" szKBytes="851" pagina_inicial="16616" pagina_final="16632">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10874.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10874</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10874</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10875</identificador>
+              <titulo>Resolución de la Delegación del Gobierno en Extremadura por la que se convoca el levantamiento de actas previas a la ocupación de las fincas afectadas por la construcción de la instalación fotovoltaica denominada Francisco Pizarro y sus infraestructuras de evacuación.</titulo>
+              <url_pdf szBytes="283737" szKBytes="277" pagina_inicial="16633" pagina_final="16636">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10875.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10875</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10875</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10876</identificador>
+              <titulo>Anuncio del Área Funcional de Industria y Energía de la Subdelegación del Gobierno en Zaragoza, de la Subdelegación del Gobierno en Teruel y de la Subdelegación del Gobierno en Barcelona por el que se somete a información pública la solicitud de autorización administrativa previa y declaración de impacto ambiental del proyecto PEol-687 AC que comprende los parques eólicos AES, AELO, CALASI, AEQUITAS, ARVALES, AUGUR, ALBUENA, ANTEO, ARETE, AXILO, CARMENTA, INSITOR, HALIO, CANDELARIA y sus infraestructuras de evacuación, en las provincias de Teruel, Zaragoza y Barcelona.</titulo>
+              <url_pdf szBytes="170919" szKBytes="167" pagina_inicial="16637" pagina_final="16641">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10876.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10876</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10876</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9575" nombre="MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO">
+            <item>
+              <identificador>BOE-B-2022-10877</identificador>
+              <titulo>Anuncio de la Demarcación de Costas en Murcia sobre otorgamiento de concesión administrativa de ocupación de dominio público marítimo-terrestre, con destino a legalización de una boya océano meteorológica, sita frente a la Bahía de Cartagena, en el término municipal de Cartagena (Murcia).</titulo>
+              <url_pdf szBytes="146425" szKBytes="143" pagina_inicial="16642" pagina_final="16642">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10877.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10877</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10877</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10878</identificador>
+              <titulo>Anuncio de la Demarcación de Costas en Cantabria sobre solicitud de autorización para utilización del dominio público marítimo-terrestre con destino a rutas turísticas con embarcación en la ría del Asón, entre los puertos de Laredo y Colindres. Peticionario: D. Luis Escarda Álvaro. Expediente AUT02/22/39/0012 –AUT03/01.</titulo>
+              <url_pdf szBytes="146607" szKBytes="143" pagina_inicial="16643" pagina_final="16643">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10878.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10878</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10878</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9570" nombre="MINISTERIO DE CULTURA Y DEPORTE">
+            <item>
+              <identificador>BOE-B-2022-10879</identificador>
+              <titulo>Extracto de la Orden de 1 de abril de 2022 del Ministerio de Cultura y Deporte, por la que se convocan las ayudas para la modernización e innovación de las industrias culturales y creativas correspondientes al año 2022.</titulo>
+              <url_pdf szBytes="152059" szKBytes="148" pagina_inicial="16644" pagina_final="16645">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10879.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10879</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10879</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9579" nombre="MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES">
+            <item>
+              <identificador>BOE-B-2022-10880</identificador>
+              <titulo>Resolución de la Dirección Provincial de la Tesorería General de la Seguridad Social de Sevilla por la que se anuncia segunda subasta pública de un bien inmueble de su propiedad.</titulo>
+              <url_pdf szBytes="156834" szKBytes="153" pagina_inicial="16646" pagina_final="16647">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10880.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10880</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10880</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="9534" nombre="COMISIÓN NACIONAL DE LOS MERCADOS Y LA COMPETENCIA">
+            <item>
+              <identificador>BOE-B-2022-10881</identificador>
+              <titulo>Anuncio de la Dirección de Transportes y del Sector Postal de la Comisión Nacional de los Mercados y la Competencia por el que se notifica la apertura de trámite de audiencia en el procedimiento sobre la determinación del modo de entrega de los Envíos postales ordinarios en la urbanización Can Güel, referencia STP/DTSP/004/22 perteneciente al término municipal de Torrelles de Llobregat (Barcelona).</titulo>
+              <url_pdf szBytes="147411" szKBytes="144" pagina_inicial="16648" pagina_final="16648">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10881.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10881</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10881</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10882</identificador>
+              <titulo>Anuncio de la Dirección de Transportes y del Sector Postal de la Comisión Nacional de los Mercados y la Competencia por el que se notifica la apertura de trámite de audiencia en el procedimiento sobre la determinación del modo de entrega de los Envíos postales ordinarios en la urbanización Can Guey, referencia STP/DTSP/005/22 perteneciente al término municipal de Torrelles de Llobregat (Barcelona).</titulo>
+              <url_pdf szBytes="147245" szKBytes="144" pagina_inicial="16649" pagina_final="16649">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10882.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10882</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10882</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10883</identificador>
+              <titulo>Anuncio de la Dirección de Transportes y del Sector Postal de la Comisión Nacional de los Mercados y la Competencia por el que se notifica la apertura de trámite de audiencia en el procedimiento sobre la determinación del modo de entrega de los Envíos postales ordinarios en la urbanización Cesalpina, referencia STP/DTSP/006/22 perteneciente al término municipal de Torrelles de Llobregat (Barcelona).</titulo>
+              <url_pdf szBytes="147186" szKBytes="144" pagina_inicial="16650" pagina_final="16650">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10883.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10883</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10883</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="8010" nombre="COMUNIDAD AUTÓNOMA DE ANDALUCÍA">
+            <item>
+              <identificador>BOE-B-2022-10884</identificador>
+              <titulo>Anuncio de la Delegación del Gobierno de la Junta de Andalucía en Cádiz, por el que se convoca al levantamiento de Actas Previas a la Ocupación de determinadas fincas, afectadas por el proyecto "Paso a doble circuito y cambio de conductor a línea aérea de alta tensión 66 kV s/c S.E.T. Casares/S.E.T. Corchado, en los términos municipales de Jimena de la Frontera (Cádiz), Gaucín y Casares (Málaga)".</titulo>
+              <url_pdf szBytes="151439" szKBytes="148" pagina_inicial="16651" pagina_final="16651">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10884.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10884</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10884</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10885</identificador>
+              <titulo>Resolución de 28 de marzo de 2022 de la Dirección General de Patrimonio, por la que se anuncia la enajenación de diversos inmuebles propiedad de la Comunidad Autónoma de Andalucía, mediante subasta convocada por la Consejería de Hacienda y Financiación Europea.</titulo>
+              <url_pdf szBytes="154625" szKBytes="151" pagina_inicial="16652" pagina_final="16653">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10885.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10885</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10885</url_xml>
+            </item>
+          </departamento>
+          <departamento codigo="310" nombre="UNIVERSIDADES">
+            <item>
+              <identificador>BOE-B-2022-10886</identificador>
+              <titulo>Anuncio de la Facultad de Ciencias de la Educación de la Universidad de Granada sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="142782" szKBytes="139" pagina_inicial="16654" pagina_final="16654">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10886.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10886</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10886</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10887</identificador>
+              <titulo>Anuncio de la Escuela de Ingeniería de Bilbao de la Universidad del País Vasco/Euskal Herriko Unibertsitatea sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143437" szKBytes="140" pagina_inicial="16655" pagina_final="16655">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10887.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10887</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10887</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10888</identificador>
+              <titulo>Anuncio de la Facultad de Bellas Artes de la Universitat Politècnica de València sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143020" szKBytes="140" pagina_inicial="16656" pagina_final="16656">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10888.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10888</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10888</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10889</identificador>
+              <titulo>Anuncio de Escuela Universitaria del Profesorado de EGB "Pablo Montesinos" de la Universidad Complutense Madrid sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143541" szKBytes="140" pagina_inicial="16657" pagina_final="16657">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10889.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10889</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10889</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10890</identificador>
+              <titulo>Anuncio de la Facultad de Ciencias Sociales y Humanas de la Universidad de Deusto sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143708" szKBytes="140" pagina_inicial="16658" pagina_final="16658">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10890.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10890</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10890</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10891</identificador>
+              <titulo>Anuncio de la Facultad de Medicina y Ciencias de la Salud de la Universidad de Barcelona sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143499" szKBytes="140" pagina_inicial="16659" pagina_final="16659">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10891.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10891</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10891</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10892</identificador>
+              <titulo>Anuncio de la Secretaría General de la Universidad de Málaga sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143299" szKBytes="140" pagina_inicial="16660" pagina_final="16660">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10892.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10892</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10892</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10893</identificador>
+              <titulo>Anuncio de la Facultad de Derecho de San Sebastián de la Universidad del País Vasco / Euskal Herriko Unibertsitatea sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="143588" szKBytes="140" pagina_inicial="16661" pagina_final="16661">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10893.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10893</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10893</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10894</identificador>
+              <titulo>Anuncio de la Facultad de Educación y Trabajo Social de Ourense de la Universidad de Vigo sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="144095" szKBytes="141" pagina_inicial="16662" pagina_final="16662">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10894.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10894</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10894</url_xml>
+            </item>
+            <item>
+              <identificador>BOE-B-2022-10895</identificador>
+              <titulo>Anuncio de la Facultad de Ciencias de la Educación de la Universidad de Granada sobre extravío de título universitario.</titulo>
+              <url_pdf szBytes="142855" szKBytes="140" pagina_inicial="16663" pagina_final="16663">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10895.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10895</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10895</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+        <seccion codigo="5C" nombre="V. Anuncios. - C. Anuncios particulares">
+          <departamento codigo="9202" nombre="ANUNCIOS PARTICULARES">
+            <item>
+              <identificador>BOE-B-2022-10896</identificador>
+              <titulo>CAIXABANK EURO TOP IDEAS, FI (FONDO ABSORBENTE) CAIXABANK BOLSA GESTIÓN EURO, FI (FONDO ABSORBIDO).</titulo>
+              <url_pdf szBytes="145221" szKBytes="142" pagina_inicial="16664" pagina_final="16664">https://www.boe.es/boe/dias/2022/04/06/pdfs/BOE-B-2022-10896.pdf</url_pdf>
+              <url_html>https://www.boe.es/diario_boe/txt.php?id=BOE-B-2022-10896</url_html>
+              <url_xml>https://www.boe.es/diario_boe/xml.php?id=BOE-B-2022-10896</url_xml>
+            </item>
+          </departamento>
+        </seccion>
+      </diario>
+    </sumario>
+  </data>
+</response>

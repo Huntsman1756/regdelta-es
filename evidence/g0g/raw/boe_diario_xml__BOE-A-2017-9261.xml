@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219205601">
+  <metadatos>
+    <identificador>BOE-A-2017-9261</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20170728</fecha_disposicion>
+    <numero_oficial>2/2017</numero_oficial>
+    <titulo>Circular 2/2017, de 28 de julio, del Banco de España, por la que se modifica la Circular 5/2015, de 30 de septiembre, por la que se desarrollan las especificidades contables de la Sociedad de Gestión de Activos Procedentes de la Reestructuración Bancaria, SA.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20170804</fecha_publicacion>
+    <diario_numero>185</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>76625</pagina_inicial>
+    <pagina_final>76626</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2017/08/04/pdfs/BOE-A-2017-9261.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2017-9261</url_epub>
+    </url_epub>
+    <url_pdf_catalan>/boe_catalan/dias/2017/08/04/pdfs/BOE-A-2017-9261-C.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego>/boe_gallego/dias/2017/08/04/pdfs/BOE-A-2017-9261-G.pdf</url_pdf_gallego>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20170805</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2017/07/28/2</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2017/07/28/2">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-9261</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-28</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/438"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/9170"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2017/07/28/2/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-9261</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-07-28</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/438"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/9170"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2017/07/28/2"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2017, de 28 de julio, del Banco de España, por la que se modifica la Circular 5/2015, de 30 de septiembre, por la que se desarrollan las especificidades contables de la Sociedad de Gestión de Activos Procedentes de la Reestructuración Bancaria, SA.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-08-04</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2017/07/28/2/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2017, de 28 de juliol, del Banc d'Espanya, per la qual es modifica la Circular 5/2015, de 30 de setembre, per la qual es desenvolupen les especificitats comptables de la Sociedad de Gestión de Activos Procedentes de la Reestructuración Bancaria, SA.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-08-04</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2017/07/28/2/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/glg">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2017, do 28 de xullo, do Banco de España, pola que se modifica a Circular 5/2015, do 30 de setembro, pola que se desenvolven as especificidades contables da Sociedad de Gestión de Activos Procedentes de la Reestructuración Bancaria, S.A.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-08-04</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2017/07/28/2/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/glg/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/07/28/2/dof/glg"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="60" orden="">Activos financieros</materia>
+      <materia codigo="438" orden="">Banca</materia>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="3472" orden="">Estados financieros</materia>
+      <materia codigo="9170" orden="">Sociedades de capital</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2015-10596" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>la norma 3.1 y 2 de la Circular 5/2015, de 30 de septiembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2012-14062" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la disposición adicional 7 de la Ley 9/2012, de 14 de noviembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El apartado 10 de la disposición adicional séptima de la Ley 9/2012, de 14 de noviembre, de reestructuración y resolución de entidades de crédito, reguló las especificidades contables que aplicaría la Sociedad de Gestión de Activos Procedentes de la Reestructuración Bancaria, S. A. (en adelante, Sareb), en la elaboración de sus cuentas anuales, referidas al registro contable inicial de los activos transferidos, a la determinación de sus valores actualizados, al cálculo de las correcciones valorativas y al reconocimiento de los ingresos generados como consecuencia del proceso de gestión y liquidación ordenada de todos los activos. De acuerdo con la habilitación prevista en la disposición adicional antes mencionada, el Banco de España desarrolló las especificidades anteriores y, especialmente, los criterios en que habría de basarse la metodología desarrollada por la Sareb para estimar el valor de los activos, mediante la Circular del Banco de España 5/2015, de 30 de septiembre, por la que se desarrollan las especificidades contables de la Sociedad de Gestión de Activos Procedentes de la Reestructuración Bancaria, S. A.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El Real Decreto-ley 4/2016, de 2 de diciembre, de medidas urgentes en materia financiera, ha modificado la letra c) del apartado 10 de la disposición adicional séptima de la Ley 9/2012, con el fin de establecer, entre otros aspectos, un nuevo criterio de registro del deterioro de los activos de la Sareb. En concreto, se prevé que el reconocimiento de las correcciones valorativas por deterioro de valor de los activos deberá realizarse con cargo directamente al patrimonio neto de la entidad, y que estos ajustes permanecerán en el patrimonio neto hasta que, cuando el resultado del ejercicio sea positivo, se produzca su imputación a la cuenta de pérdidas y ganancias. El real decreto-ley preveía también, en su exposición de motivos, que los efectos de la aplicación de la nueva norma se tratarían como cambio de criterio contable.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente circular tiene como finalidad incorporar a la Circular 5/2015 los nuevos criterios de registro contable del deterioro, así como concretar las reglas de su reversión. La adecuación del contenido de las circulares del Banco de España a las normas de rango superior debe considerarse <em>per se</em> una cuestión de interés general. Tras la modificación introducida por el Real Decreto-ley 4/2016, se procede, por lo tanto, a recomponer esta adecuación a través del único instrumento disponible: la modificación de la propia circular del Banco de España siguiendo los trámites procedimentales pertinentes. En consecuencia, esta circular se adecua a los principios de necesidad y eficacia exigidos por el artículo 129.1 de la Ley 39/2015, de 1 de octubre, del procedimiento administrativo común de las Administraciones Públicas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se atiende también a los principios de proporcionalidad, seguridad jurídica y eficiencia establecidos en la norma citada, porque, al regularse lo que ya está establecido en una norma de rango superior, sin imponer nuevas obligaciones, la circular tiene el contenido imprescindible para atender la necesidad identificada, pretende asegurar la coherencia del ordenamiento jurídico contribuyendo a la generación de un marco normativo integrado y claro, y evita cargas innecesarias.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El principio de transparencia en la elaboración de esta norma se respeta mediante las explicaciones que este preámbulo incorpora, la consulta a los sectores interesados y el trámite de audiencia pública a través de la web del Banco de España realizados en el curso de su elaboración.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Esta circular consta de una norma única, por la que se modifica la norma tercera de la Circular 5/2015 en lo relativo al reconocimiento del deterioro.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En consecuencia, en uso de las facultades que tiene concedidas, el Consejo de Gobierno del Banco de España, a propuesta de la Comisión Ejecutiva y de acuerdo con el Consejo de Estado, ha aprobado la presente circular, que contiene la siguiente norma:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo"><strong>Norma única.</strong> Modificación de la Circular 5/2015.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se modifican los apartados 1 y 2 de la norma tercera de la Circular 5/2015, que quedan redactados en los siguientes términos:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«1. Al cierre de cada ejercicio, o cada vez que la entidad deba proporcionar información pública sobre su situación financiera referida a otra fecha, la Sareb evaluará la necesidad de efectuar correcciones valorativas por deterioro de valor de cada una de las “unidades de activos”. Para ello, deberá analizar, con la mejor información disponible, si el valor en libros de la “unidad de activos” (incluido, en su caso, el devengo de intereses para los activos financieros representativos de deuda y deducido el deterioro de valor acumulado previamente reconocido) resulta superior al valor estimado de la “unidad de activos” en su conjunto, conforme a la metodología desarrollada por la Sareb según los criterios establecidos en la norma cuarta de esta circular. El deterioro de valor acumulado se reflejará en el balance asociado a cada “unidad de activos” en su conjunto. La Sareb reconocerá el deterioro de valor, neto de su efecto fiscal, con cargo a una cuenta del epígrafe “Ajustes por cambio de valor” del patrimonio neto. El saldo deudor de esta cuenta se imputará a la cuenta de pérdidas y ganancias cuando el resultado del ejercicio sea positivo, por la totalidad de este importe. A estos efectos, se considerará el beneficio antes de impuestos de la Sareb, sin considerar el eventual devengo de la retribución de la financiación subordinada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">2.  El deterioro de valor de cada “unidad de activos” podrá revertirse cuando se evidencie que se ha recuperado el valor de los activos de la “unidad de activos”, conforme a la metodología desarrollada por la Sareb, con el límite del valor que tendría la “unidad de activos” de no haberse registrado ningún deterioro. Dicha reversión se hará reduciendo en primer lugar el saldo de la cuenta del epígrafe “Ajustes por cambio de valor” del patrimonio neto. Una vez que el saldo de esta cuenta sea cero, se abonará, en su caso, en la cuenta de pérdidas y ganancias por el importe de la reversión pendiente de reconocimiento.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo"><strong>Disposición final única.</strong> Entrada en vigor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente circular entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Madrid, 28 de julio de 2017.–El Gobernador del Banco de España, Luis María Linde de Castro.</p>
+  </texto>
+</documento>

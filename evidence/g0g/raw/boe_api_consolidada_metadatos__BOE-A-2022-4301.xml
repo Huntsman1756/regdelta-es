@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T151324Z</fecha_actualizacion>
+      <identificador>BOE-A-2022-4301</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20220315</fecha_disposicion>
+      <numero_oficial>2/2022</numero_oficial>
+      <titulo>Circular 2/2022, de 15 de marzo, del Banco de España, sobre normas para el envío al Banco de España de estadísticas de pagos por parte de proveedores de servicios de pago y operadores de sistemas de pago.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20220318</fecha_publicacion>
+      <diario_numero>66</diario_numero>
+      <fecha_vigencia>20220319</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2022/03/15/2</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2022-4301</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

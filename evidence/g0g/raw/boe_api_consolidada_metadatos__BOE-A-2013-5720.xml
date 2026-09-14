@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20260102T125617Z</fecha_actualizacion>
+      <identificador>BOE-A-2013-5720</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20130524</fecha_disposicion>
+      <numero_oficial>1/2013</numero_oficial>
+      <titulo>Circular 1/2013, de 24 de mayo, del Banco de España, sobre la Central de Información de Riesgos y por la que se modifica la Circular 4/2004, de 22 de diciembre, a las entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20130531</fecha_publicacion>
+      <diario_numero>130</diario_numero>
+      <fecha_vigencia>20131231</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2013/05/24/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2013-5720</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

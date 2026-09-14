@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T181227Z</fecha_actualizacion>
+      <identificador>BOE-A-2024-1867</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20240126</fecha_disposicion>
+      <numero_oficial>1/2024</numero_oficial>
+      <titulo>Circular 1/2024, de 26 de enero, del Banco de España, a bancos, cooperativas de crédito y otras entidades supervisadas, relativa a la información sobre la estructura de capital y por la que se modifica la Circular 1/2009, de 18 de diciembre, a entidades de crédito y otras supervisadas, en relación con la información sobre la estructura de capital y cuotas participativas de las entidades de crédito, y sobre sus oficinas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20240201</fecha_publicacion>
+      <diario_numero>28</diario_numero>
+      <fecha_vigencia>20240221</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2024/01/26/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2024-1867</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>
