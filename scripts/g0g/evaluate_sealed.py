@@ -218,6 +218,9 @@ def main() -> int:
     ap.add_argument("--attempts-log", type=Path, default=None,
                     help="append one attempt record per invocation")
     ap.add_argument("--run-id", default="sealed")
+    ap.add_argument("--official", action="store_true",
+                    help="mark this invocation as the official run in "
+                         "the attempts log")
     ap.add_argument("--targets", nargs="*", default=None,
                     help="restrict to a subset of the split's targets")
     args = ap.parse_args()
@@ -251,6 +254,29 @@ def main() -> int:
                               capture_output=True, text=True,
                               cwd=ROOT).stdout.strip()
 
+    attempt = {
+        "run_id": args.run_id, "split": args.split,
+        "runtime_head": head,
+        "runner_sha256": _sha256(Path(__file__).read_bytes()),
+        "evaluator_sha256": _sha256(
+            (ROOT / "scripts" / "g0g" / "evaluate_dev.py").read_bytes()),
+        "manifest_sha256": _sha256(args.manifest.read_bytes()),
+        "selection_sha256": _sha256(args.selection.read_bytes()),
+        "gold_sha256": _sha256(args.gold.read_bytes()),
+        "targets": sorted(allow),
+        "official": bool(args.official),
+        "output": str(args.output),
+        "started_at": started,
+    }
+
+    def record_attempt(extra: dict) -> None:
+        if args.attempts_log is None:
+            return
+        args.attempts_log.parent.mkdir(parents=True, exist_ok=True)
+        with args.attempts_log.open("a", encoding="utf-8") as fh:
+            fh.write(json.dumps({**attempt, **extra},
+                                ensure_ascii=False) + "\n")
+
     # evaluate_target resolves evidence_fetch from its own module
     # namespace; bind the CLI-parameterized fetch there so every byte
     # served is EVIDENCE_IMPORT from the chosen manifest.
@@ -258,8 +284,14 @@ def main() -> int:
         urls, args.evidence_root)
 
     audit_path = args.audit or (args.output / "audit.jsonl")
-    result = run_split(allow, by_url, gold, args.run_id,
-                       args.output, audit_path)
+    try:
+        result = run_split(allow, by_url, gold, args.run_id,
+                           args.output, audit_path)
+    except Exception:
+        record_attempt({
+            "status": "failed",
+            "finished_at": datetime.now(timezone.utc).isoformat()})
+        raise
     finished = datetime.now(timezone.utc).isoformat()
 
     run = {
@@ -279,18 +311,11 @@ def main() -> int:
     (args.output / "run.json").write_text(json.dumps(
         run, indent=2, sort_keys=True), encoding="utf-8")
 
-    if args.attempts_log is not None:
-        args.attempts_log.parent.mkdir(parents=True, exist_ok=True)
-        with args.attempts_log.open("a", encoding="utf-8") as fh:
-            fh.write(json.dumps({
-                "run_id": args.run_id, "split": args.split,
-                "runtime_head": head,
-                "runner_sha256": run["runner_sha256"],
-                "evaluator_sha256": run["evaluator_sha256"],
-                "manifest_sha256": run["manifest_sha256"],
-                "started_at": started, "finished_at": finished,
-                "output": str(args.output),
-            }, ensure_ascii=False) + "\n")
+    record_attempt({
+        "status": "completed", "finished_at": finished,
+        "audit_rows": result["audit_rows"],
+        "combined_ok": result["combined"]["ok"],
+    })
 
     print(json.dumps({"run_dir": str(args.output),
                       "aggregate": result["metrics"],
