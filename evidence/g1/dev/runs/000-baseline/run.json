@@ -1,0 +1,52 @@
+{
+  "aggregate": {
+    "applicability_extraction": {
+      "den": 11,
+      "num": 10,
+      "value": 0.9090909090909091
+    },
+    "chain_reconstruction": {
+      "den": 19,
+      "num": 12,
+      "value": 0.631578947368421
+    },
+    "declared_modifier_recall": {
+      "den": 39,
+      "num": 39,
+      "value": 1.0
+    },
+    "false_binding_count": 77,
+    "false_positive_facts": 138,
+    "old_false_fact_reproduction_count": 72,
+    "operation_parsing_rate": {
+      "den": 219,
+      "num": 219,
+      "value": 1.0
+    },
+    "query_execution": {
+      "den": 60,
+      "num": 60,
+      "value": 1.0
+    },
+    "representation_binding": {
+      "den": 219,
+      "num": 156,
+      "value": 0.7123287671232876
+    },
+    "source_limitations": 0,
+    "subject_locator_resolution": {
+      "den": 219,
+      "num": 178,
+      "value": 0.8127853881278538
+    }
+  },
+  "audit_rows": 219,
+  "corpus_73_sha256": "7e9afbe098caadf5cc1611456abed3c72ecf4732aed425588527d8c2ebef94d6",
+  "dev_manifest_sha256": "21ca37d547abd5dfc583a16d28ffe109097eee079757ca377cf5f8758e90fd20",
+  "evaluator_sha256": "dd5228636fb94b5d11dfcfdd495f1b77ca4d70296adb25c5e08b7b3360c19718",
+  "finished_at": "2026-09-14T12:03:30.882072+00:00",
+  "run_id": "000-baseline",
+  "runtime_head": "d47f48a758f9496cfbb40a8ca5b830026eda3021",
+  "src_tree_sha": "a9adb45cc40f41926920cbc431bbfc8365ad97a3",
+  "started_at": "2026-09-14T12:03:02.734077+00:00"
+}
