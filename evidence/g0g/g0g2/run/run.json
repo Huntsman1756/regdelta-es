@@ -1,0 +1,54 @@
+{
+  "aggregate": {
+    "applicability_extraction": {
+      "den": 9,
+      "num": 8,
+      "value": 0.8888888888888888
+    },
+    "chain_reconstruction": {
+      "den": 19,
+      "num": 12,
+      "value": 0.631578947368421
+    },
+    "declared_modifier_recall": {
+      "den": 20,
+      "num": 20,
+      "value": 1.0
+    },
+    "false_positive_facts": 73,
+    "operation_parsing_rate": {
+      "den": 168,
+      "num": 168,
+      "value": 1.0
+    },
+    "query_execution": {
+      "den": 20,
+      "num": 20,
+      "value": 1.0
+    },
+    "representation_binding": {
+      "den": 168,
+      "num": 120,
+      "value": 0.7142857142857143
+    },
+    "source_limitations": 0,
+    "subject_locator_resolution": {
+      "den": 168,
+      "num": 137,
+      "value": 0.8154761904761905
+    }
+  },
+  "audit_rows": 168,
+  "combined_ok": true,
+  "evaluator_sha256": "99ff575e6968cbd879866a9f9aa9e5db5ec8db97e79080be72a39f969af93dc8",
+  "finished_at": "2026-09-14T09:19:27.221833+00:00",
+  "gold_sha256": "71f0e1594b01a932fb25109417d1bbf5db34ca6782e974553ada74c026edb5f2",
+  "manifest_sha256": "9e96b32109b42f61f1b966e7dc8345babd19ae42c4571cfb228e33033897ef06",
+  "run_id": "g0g2-sealed",
+  "runner_sha256": "84b769da282f8096fe201858ad69667fc5dcbfec908fa96675c131685a086b52",
+  "runtime_head": "b7906213095239626b06deafa9ca0586ff81c58a",
+  "selection_sha256": "b4cee41435bf213263665f2a4c0a8d644339f5a197c77b1df7b650688f36ecb7",
+  "split": "SEALED_HOLDOUT",
+  "src_tree_sha": "a9adb45cc40f41926920cbc431bbfc8365ad97a3",
+  "started_at": "2026-09-14T09:19:11.267471+00:00"
+}

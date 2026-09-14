@@ -1,0 +1,369 @@
+{
+  "BOE-A-2013-5720": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 2,
+        "CHAIN_NOT_PROVABLE": 2,
+        "CHAIN_PROVEN": 11,
+        "broken_locator_keys": [
+          "anejo:1",
+          "anejo:2"
+        ],
+        "multi_hop_subjects": 15
+      },
+      "discovered_count": 13,
+      "gold_count": 13,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 13,
+      "unexpected_declared_modifier_candidates": []
+    },
+    "app_eligible": [
+      "BOE-A-2025-26847",
+      "BOE-A-2023-7662",
+      "BOE-A-2017-7985",
+      "BOE-A-2015-9107",
+      "BOE-A-2015-9054",
+      "BOE-A-2014-13365"
+    ],
+    "cell": "TEXTxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 23,
+      "app_clauses": 35,
+      "kind": {
+        "MODIFICATION": 137
+      },
+      "operations": {
+        "ADD": 41,
+        "DELETE": 3,
+        "MODIFY": 45,
+        "SUBSTITUTE": 48
+      },
+      "relations": 137,
+      "representations": 140,
+      "resolution": {
+        "PARTIAL": 35,
+        "RESOLVED": 91,
+        "UNRESOLVED": 11
+      },
+      "subjects": 55,
+      "transitions": {
+        "NULL->NULL": 13,
+        "NULL->TEXT": 17,
+        "TABLE->TABLE": 7,
+        "TABLE->TEXT": 1,
+        "TEXT->NULL": 21,
+        "TEXT->TABLE": 2,
+        "TEXT->TEXT": 76
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 9,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 137,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 137,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 137,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 0,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2025-26847",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2023-7662",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2021-1352",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2020-1653",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2018-17880",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2017-7985",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2016-11483",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2016-4356",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2015-9107",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2015-9054",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2014-13365",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2013-11729",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2013-6046",
+          "kind": "CORRECTION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  },
+  "BOE-A-2016-1238": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 3,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 1,
+        "broken_locator_keys": [
+          "norma:14",
+          "norma:4",
+          "norma:64"
+        ],
+        "multi_hop_subjects": 4
+      },
+      "discovered_count": 5,
+      "gold_count": 5,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 5,
+      "unexpected_declared_modifier_candidates": []
+    },
+    "app_eligible": [
+      "BOE-A-2023-23052",
+      "BOE-A-2022-5524",
+      "BOE-A-2021-21220"
+    ],
+    "cell": "VISUALxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 3,
+      "app_clauses": 4,
+      "kind": {
+        "CORRECTION": 1,
+        "MODIFICATION": 30
+      },
+      "operations": {
+        "ADD": 6,
+        "DELETE": 3,
+        "MODIFY": 21,
+        "SUBSTITUTE": 1
+      },
+      "relations": 31,
+      "representations": 49,
+      "resolution": {
+        "PARTIAL": 1,
+        "RESOLVED": 29,
+        "UNRESOLVED": 1
+      },
+      "subjects": 24,
+      "transitions": {
+        "NULL->NULL": 1,
+        "NULL->TEXT": 1,
+        "TABLE->TEXT": 1,
+        "TEXT->NULL": 3,
+        "TEXT->TEXT": 25
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 4,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 31,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 31,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 31,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 0,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2023-23052",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2022-5524",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2021-21220",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2016-7305",
+          "kind": "CORRECTION"
+        },
+        {
+          "boe_id": "BOE-A-2022-10810",
+          "kind": "MODIFICATION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  },
+  "BOE-A-2021-19805": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 1,
+      "unexpected_declared_modifier_candidates": []
+    },
+    "app_eligible": [],
+    "cell": "TEXTxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 0,
+      "app_clauses": 0,
+      "kind": {},
+      "operations": {},
+      "relations": 0,
+      "representations": 0,
+      "resolution": {},
+      "subjects": 0,
+      "transitions": {}
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 0,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2022-9029",
+          "kind": "CORRECTION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  },
+  "BOE-A-2021-21220": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 1,
+      "unexpected_declared_modifier_candidates": []
+    },
+    "app_eligible": [],
+    "cell": "VISUALxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 0,
+      "app_clauses": 0,
+      "kind": {},
+      "operations": {},
+      "relations": 0,
+      "representations": 0,
+      "resolution": {},
+      "subjects": 0,
+      "transitions": {}
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 0,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2021-21796",
+          "kind": "CORRECTION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  }
+}

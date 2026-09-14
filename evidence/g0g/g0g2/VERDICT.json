@@ -1,0 +1,59 @@
+{
+  "gate": "G0-G.2",
+  "runtime_head": "d30d40f3dda1af2b4821788fd262f9a76fa7c357",
+  "evaluation_head": "b7906213095239626b06deafa9ca0586ff81c58a",
+  "evaluator_code_head": "0e4acdc28c9615ed85a1cedfd6206cf39ba492c3",
+  "opened_at": "2026-09-14T09:19:11.267471+00:00",
+  "finished_at": "2026-09-14T09:19:27.221833+00:00",
+  "attempts": 1,
+  "protocol_integrity": "PASS",
+  "false_fact_gate": "FAIL",
+  "g0g2_verdict": "FAIL",
+  "claim": null,
+  "integrity_checks": {
+    "src_tree_unchanged_since_d30d40f": true,
+    "evaluator_committed_before_open": true,
+    "dev_equivalence_before_open": true,
+    "seal_verified_before_open": true,
+    "seal_sha256_unchanged_after_run": true,
+    "sealed_manifest_sha256_unchanged_after_run": true,
+    "sealed_aggregate_sha256_unchanged_after_run": true,
+    "runner_sha256_matches_preopen": true,
+    "evaluator_sha256_matches_preopen": true,
+    "selection_gold_unchanged": true,
+    "zero_network": true,
+    "audit_coverage": "168/168 emitted relations audited",
+    "no_code_change_after_open": true
+  },
+  "targets": {
+    "BOE-A-2013-5720": {
+      "cell": "TEXTxCONSOLIDATED",
+      "gold_modifiers": 13,
+      "relations_emitted": 137,
+      "relations_audited": 137,
+      "false_facts": 68
+    },
+    "BOE-A-2016-1238": {
+      "cell": "VISUALxCONSOLIDATED",
+      "gold_modifiers": 5,
+      "relations_emitted": 31,
+      "relations_audited": 31,
+      "false_facts": 5
+    },
+    "BOE-A-2021-19805": {
+      "cell": "TEXTxNON_CONSOLIDATED",
+      "gold_modifiers": 1,
+      "relations_emitted": 0,
+      "relations_audited": 0,
+      "false_facts": 0
+    },
+    "BOE-A-2021-21220": {
+      "cell": "VISUALxNON_CONSOLIDATED",
+      "gold_modifiers": 1,
+      "relations_emitted": 0,
+      "relations_audited": 0,
+      "false_facts": 0
+    }
+  },
+  "note": "Per protocol section 20, a single target with FALSE_FACT>0 fails the gate. Fixes are prohibited under this gate; corrective work belongs to a new preregistered gate."
+}

@@ -1,0 +1,401 @@
+{
+  "aggregate": {
+    "applicability_extraction": {
+      "den": 9,
+      "num": 8,
+      "value": 0.8888888888888888
+    },
+    "chain_reconstruction": {
+      "den": 19,
+      "num": 12,
+      "value": 0.631578947368421
+    },
+    "declared_modifier_recall": {
+      "den": 20,
+      "num": 20,
+      "value": 1.0
+    },
+    "false_positive_facts": 73,
+    "operation_parsing_rate": {
+      "den": 168,
+      "num": 168,
+      "value": 1.0
+    },
+    "query_execution": {
+      "den": 20,
+      "num": 20,
+      "value": 1.0
+    },
+    "representation_binding": {
+      "den": 168,
+      "num": 120,
+      "value": 0.7142857142857143
+    },
+    "source_limitations": 0,
+    "subject_locator_resolution": {
+      "den": 168,
+      "num": 137,
+      "value": 0.8154761904761905
+    }
+  },
+  "by_cell": {
+    "TEXTxCONSOLIDATED": {
+      "metrics": {
+        "applicability_extraction": {
+          "den": 6,
+          "num": 5,
+          "value": 0.8333333333333334
+        },
+        "chain_reconstruction": {
+          "CHAIN_BROKEN": 2,
+          "CHAIN_NOT_PROVABLE": 2,
+          "CHAIN_PROVEN": 11,
+          "den": 15,
+          "num": 11,
+          "value": 0.7333333333333333
+        },
+        "declared_modifier_recall": {
+          "den": 13,
+          "num": 13,
+          "value": 1.0
+        },
+        "false_positive_facts": 68,
+        "operation_parsing_rate": {
+          "den": 137,
+          "num": 137,
+          "value": 1.0
+        },
+        "query_execution": {
+          "den": 5,
+          "num": 5,
+          "value": 1.0
+        },
+        "representation_binding": {
+          "den": 137,
+          "num": 91,
+          "value": 0.6642335766423357
+        },
+        "source_limitations": 0,
+        "subject_locator_resolution": {
+          "den": 137,
+          "num": 107,
+          "value": 0.781021897810219
+        }
+      },
+      "targets": [
+        "BOE-A-2013-5720"
+      ]
+    },
+    "TEXTxNON_CONSOLIDATED": {
+      "metrics": {
+        "applicability_extraction": {
+          "den": 0,
+          "num": 0,
+          "value": null
+        },
+        "chain_reconstruction": {
+          "CHAIN_BROKEN": 0,
+          "CHAIN_NOT_PROVABLE": 0,
+          "CHAIN_PROVEN": 0,
+          "den": 0,
+          "num": 0,
+          "value": null
+        },
+        "declared_modifier_recall": {
+          "den": 1,
+          "num": 1,
+          "value": 1.0
+        },
+        "false_positive_facts": 0,
+        "operation_parsing_rate": {
+          "den": 0,
+          "num": 0,
+          "value": null
+        },
+        "query_execution": {
+          "den": 5,
+          "num": 5,
+          "value": 1.0
+        },
+        "representation_binding": {
+          "den": 0,
+          "num": 0,
+          "value": null
+        },
+        "source_limitations": 0,
+        "subject_locator_resolution": {
+          "den": 0,
+          "num": 0,
+          "value": null
+        }
+      },
+      "targets": [
+        "BOE-A-2021-19805"
+      ]
+    },
+    "VISUALxCONSOLIDATED": {
+      "metrics": {
+        "applicability_extraction": {
+          "den": 3,
+          "num": 3,
+          "value": 1.0
+        },
+        "chain_reconstruction": {
+          "CHAIN_BROKEN": 3,
+          "CHAIN_NOT_PROVABLE": 0,
+          "CHAIN_PROVEN": 1,
+          "den": 4,
+          "num": 1,
+          "value": 0.25
+        },
+        "declared_modifier_recall": {
+          "den": 5,
+          "num": 5,
+          "value": 1.0
+        },
+        "false_positive_facts": 5,
+        "operation_parsing_rate": {
+          "den": 31,
+          "num": 31,
+          "value": 1.0
+        },
+        "query_execution": {
+          "den": 5,
+          "num": 5,
+          "value": 1.0
+        },
+        "representation_binding": {
+          "den": 31,
+          "num": 29,
+          "value": 0.9354838709677419
+        },
+        "source_limitations": 0,
+        "subject_locator_resolution": {
+          "den": 31,
+          "num": 30,
+          "value": 0.967741935483871
+        }
+      },
+      "targets": [
+        "BOE-A-2016-1238"
+      ]
+    },
+    "VISUALxNON_CONSOLIDATED": {
+      "metrics": {
+        "applicability_extraction": {
+          "den": 0,
+          "num": 0,
+          "value": null
+        },
+        "chain_reconstruction": {
+          "CHAIN_BROKEN": 0,
+          "CHAIN_NOT_PROVABLE": 0,
+          "CHAIN_PROVEN": 0,
+          "den": 0,
+          "num": 0,
+          "value": null
+        },
+        "declared_modifier_recall": {
+          "den": 1,
+          "num": 1,
+          "value": 1.0
+        },
+        "false_positive_facts": 0,
+        "operation_parsing_rate": {
+          "den": 0,
+          "num": 0,
+          "value": null
+        },
+        "query_execution": {
+          "den": 5,
+          "num": 5,
+          "value": 1.0
+        },
+        "representation_binding": {
+          "den": 0,
+          "num": 0,
+          "value": null
+        },
+        "source_limitations": 0,
+        "subject_locator_resolution": {
+          "den": 0,
+          "num": 0,
+          "value": null
+        }
+      },
+      "targets": [
+        "BOE-A-2021-21220"
+      ]
+    }
+  },
+  "per_target": {
+    "BOE-A-2013-5720": {
+      "applicability_extraction": {
+        "den": 6,
+        "num": 5,
+        "value": 0.8333333333333334
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 2,
+        "CHAIN_NOT_PROVABLE": 2,
+        "CHAIN_PROVEN": 11,
+        "den": 15,
+        "num": 11,
+        "value": 0.7333333333333333
+      },
+      "declared_modifier_recall": {
+        "den": 13,
+        "num": 13,
+        "value": 1.0
+      },
+      "false_positive_facts": 68,
+      "operation_parsing_rate": {
+        "den": 137,
+        "num": 137,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 137,
+        "num": 91,
+        "value": 0.6642335766423357
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 137,
+        "num": 107,
+        "value": 0.781021897810219
+      }
+    },
+    "BOE-A-2016-1238": {
+      "applicability_extraction": {
+        "den": 3,
+        "num": 3,
+        "value": 1.0
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 3,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 1,
+        "den": 4,
+        "num": 1,
+        "value": 0.25
+      },
+      "declared_modifier_recall": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "false_positive_facts": 5,
+      "operation_parsing_rate": {
+        "den": 31,
+        "num": 31,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 31,
+        "num": 29,
+        "value": 0.9354838709677419
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 31,
+        "num": 30,
+        "value": 0.967741935483871
+      }
+    },
+    "BOE-A-2021-19805": {
+      "applicability_extraction": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "false_positive_facts": 0,
+      "operation_parsing_rate": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      }
+    },
+    "BOE-A-2021-21220": {
+      "applicability_extraction": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "false_positive_facts": 0,
+      "operation_parsing_rate": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      }
+    }
+  }
+}
