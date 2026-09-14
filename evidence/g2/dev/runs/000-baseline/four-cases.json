@@ -1,0 +1,83 @@
+{
+  "cases": [
+    {
+      "expected_root_cause": "RUNTIME_WRONG_TARGET_ATTRIBUTION",
+      "locator_key": "disp:final.primera",
+      "matched_locator_keys": [
+        "disp:final.primera"
+      ],
+      "matched_relation_ids": [
+        "0dcde453e170d0b37cd0b18d2cf859fabd5703e241ff054a342289f0bdfd1483",
+        "e4c75192a90248d368b9b208950cf2b1e4c886b620c9cdc1d7307951cf7bb224"
+      ],
+      "modifier": "BOE-A-2019-6888",
+      "new_root_cause_classes": [
+        "QUERY_EVALUATION_FAILURE",
+        "RUNTIME_WRONG_TARGET_ATTRIBUTION"
+      ],
+      "old_relation_id": "0dcde453e170d0b37cd0b18d2cf859fabd5703e241ff054a342289f0bdfd1483",
+      "outcome": "REPRODUCED_FALSE_FACT",
+      "target": "BOE-A-2012-9058"
+    },
+    {
+      "expected_root_cause": "RUNTIME_WRONG_TARGET_ATTRIBUTION",
+      "locator_key": "disp:final.primera",
+      "matched_locator_keys": [
+        "disp:final.primera"
+      ],
+      "matched_relation_ids": [
+        "0dcde453e170d0b37cd0b18d2cf859fabd5703e241ff054a342289f0bdfd1483",
+        "e4c75192a90248d368b9b208950cf2b1e4c886b620c9cdc1d7307951cf7bb224"
+      ],
+      "modifier": "BOE-A-2019-6888",
+      "new_root_cause_classes": [
+        "QUERY_EVALUATION_FAILURE",
+        "RUNTIME_WRONG_TARGET_ATTRIBUTION"
+      ],
+      "old_relation_id": "e4c75192a90248d368b9b208950cf2b1e4c886b620c9cdc1d7307951cf7bb224",
+      "outcome": "REPRODUCED_FALSE_FACT",
+      "target": "BOE-A-2012-9058"
+    },
+    {
+      "expected_root_cause": "RUNTIME_WRONG_LOCATOR",
+      "locator_key": "norma:11.apartado:1.letra:c",
+      "matched_locator_keys": [
+        "norma:11.apartado:1.letra:c"
+      ],
+      "matched_relation_ids": [
+        "149762c5a18bb955e7d91b73dd8676e23e3d46ae5a956aae166141d62353ba99"
+      ],
+      "modifier": "BOE-A-2022-5524",
+      "new_root_cause_classes": [
+        "QUERY_EVALUATION_FAILURE",
+        "RUNTIME_WRONG_LOCATOR"
+      ],
+      "old_relation_id": "149762c5a18bb955e7d91b73dd8676e23e3d46ae5a956aae166141d62353ba99",
+      "outcome": "REPRODUCED_FALSE_FACT",
+      "target": "BOE-A-2012-9058"
+    },
+    {
+      "expected_root_cause": "RUNTIME_WRONG_LOCATOR",
+      "locator_key": "norma:11.apartado:9",
+      "matched_locator_keys": [
+        "norma:11.apartado:9"
+      ],
+      "matched_relation_ids": [
+        "704ffae9f4df9f1cb18cacfa576ed752f58d92318314af9735a65e1c01cf58b4",
+        "737eaff471173ed573dbc5b8e8f0b676548dc5c5d1363734b939cb034098f628"
+      ],
+      "modifier": "BOE-A-2022-5524",
+      "new_root_cause_classes": [
+        "QUERY_EVALUATION_FAILURE",
+        "RUNTIME_WRONG_LOCATOR"
+      ],
+      "old_relation_id": "704ffae9f4df9f1cb18cacfa576ed752f58d92318314af9735a65e1c01cf58b4",
+      "outcome": "REPRODUCED_FALSE_FACT",
+      "target": "BOE-A-2012-9058"
+    }
+  ],
+  "counts": {
+    "REPRODUCED_FALSE_FACT": 4
+  },
+  "total": 4
+}

@@ -79,11 +79,15 @@ def test_sealed_holdout_integrity() -> None:
         p = ROOT / entry["path"]
         assert p.exists() and _sha256(p) == entry["sha256"], name
 
-    # seal records the head at which it was created
+    # seal records the head at which it was created — necessarily an
+    # ancestor-or-equal of HEAD (the seal predates its own commit)
     head = subprocess.run(["git", "rev-parse", "HEAD"],
                           capture_output=True, text=True,
                           cwd=ROOT).stdout.strip()
-    assert seal["sealed_at_head"] == head
+    anc = subprocess.run(["git", "merge-base", "--is-ancestor",
+                          seal["sealed_at_head"], head],
+                         capture_output=True, cwd=ROOT).returncode == 0
+    assert seal["sealed_at_head"] == head or anc
 
 
 def test_seen_set_unchanged_since_g20() -> None:

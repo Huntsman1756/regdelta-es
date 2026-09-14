@@ -1,0 +1,70 @@
+{
+  "expected_unique_count": 16,
+  "targets": {
+    "BOE-A-2005-4749": {
+      "cell": "TEXTxCONSOLIDATED",
+      "provenance": "G0G_DEV"
+    },
+    "BOE-A-2010-12488": {
+      "cell": "VISUALxCONSOLIDATED",
+      "provenance": "G0G_DEV"
+    },
+    "BOE-A-2010-15521": {
+      "cell": "G1_TEXT",
+      "provenance": "G1_2_SEALED_OPENED"
+    },
+    "BOE-A-2010-1824": {
+      "cell": "VISUALxCONSOLIDATED",
+      "provenance": "G0G_DEV"
+    },
+    "BOE-A-2011-2378": {
+      "cell": "TEXTxNON_CONSOLIDATED",
+      "provenance": "G0G_DEV"
+    },
+    "BOE-A-2012-3169": {
+      "cell": "VISUALxNON_CONSOLIDATED",
+      "provenance": "G0G_DEV"
+    },
+    "BOE-A-2012-9058": {
+      "cell": "G1_VISUAL",
+      "provenance": "G1_2_SEALED_OPENED"
+    },
+    "BOE-A-2013-5720": {
+      "cell": "TEXTxCONSOLIDATED",
+      "provenance": "G0G_FORMER_SEALED_OPENED"
+    },
+    "BOE-A-2013-7467": {
+      "cell": "TEXTxNON_CONSOLIDATED",
+      "provenance": "G0G_DEV"
+    },
+    "BOE-A-2014-1183": {
+      "cell": "G1_TEXT",
+      "provenance": "G1_2_SEALED_OPENED"
+    },
+    "BOE-A-2016-1238": {
+      "cell": "VISUALxCONSOLIDATED",
+      "provenance": "G0G_FORMER_SEALED_OPENED"
+    },
+    "BOE-A-2016-4356": {
+      "cell": "VISUALxNON_CONSOLIDATED",
+      "provenance": "G0G_DEV"
+    },
+    "BOE-A-2017-14334": {
+      "cell": "CORE",
+      "provenance": "G0C_CORE_C4_2017"
+    },
+    "BOE-A-2019-17286": {
+      "cell": "TEXTxCONSOLIDATED",
+      "provenance": "G0G_DEV"
+    },
+    "BOE-A-2021-19805": {
+      "cell": "TEXTxNON_CONSOLIDATED",
+      "provenance": "G0G_FORMER_SEALED_OPENED"
+    },
+    "BOE-A-2021-21220": {
+      "cell": "VISUALxNON_CONSOLIDATED",
+      "provenance": "G0G_FORMER_SEALED_OPENED"
+    }
+  },
+  "unique_count": 16
+}
