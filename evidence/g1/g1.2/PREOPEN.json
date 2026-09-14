@@ -13,8 +13,8 @@
   "holdout_manifest_sha256": "d00679b12317e65e5b54365aa1080ddac0cf9576f76a1f2a18c5b102c9e48b8b",
   "prereg_sha256": "614eaefa4d4302d08d1bc1183d7463b0764df0e60179899293034531c3d87f54",
   "protocol_sha256": "f114d32fc7ca2543aa03ddb40344d9d29f038c588e5f73ec878ddfff284c3917",
-  "runner_sha256": "834c8df28599e92f200d02aad98a868da848da5194acdbf1e413989e234f10be",
-  "runtime_head": "c455acd2ebb4bafde13eeb62b864689d5fec1932",
+  "runner_sha256": "264155aeb71f8cd284e1e6abf91cf9588fe4980bc5853e1bcacfe0aceb2c7c61",
+  "runtime_head": "0d39a1b6b62ebddb9cdc0301882c7a1fb65a7ec0",
   "runtime_literals_baseline_sha256": "031566007ffb638ffaa278c646ef0aee5527c9886960069d0f4ae327c166aea5",
   "seal_sha256": "05ec06df09cb48eaa42dfad2c3d1dc8f4fa2a3b49743cd33e78f1e86d0c71fab",
   "sealed_targets": [

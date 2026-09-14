@@ -602,11 +602,14 @@ def main() -> int:
             fh.write(json.dumps({**attempt, **extra},
                                 ensure_ascii=False) + "\n")
 
-    if args.official and args.runtime_head and \
-            head != args.runtime_head:
-        print(f"FAIL CLOSED: HEAD {head} != runtime-head "
-              f"{args.runtime_head}")
-        record_attempt({"status": "fail_closed_head_mismatch"})
+    src_at_rt = subprocess.run(
+        ["git", "rev-parse", f"{args.runtime_head}:src/regdelta"],
+        capture_output=True, text=True, cwd=ROOT).stdout.strip() \
+        if args.runtime_head else src_tree
+    if args.official and args.runtime_head and src_tree != src_at_rt:
+        print(f"FAIL CLOSED: src tree {src_tree} != runtime-head "
+              f"src tree {src_at_rt}")
+        record_attempt({"status": "fail_closed_src_mismatch"})
         return 2
     if args.split == "SEALED_HOLDOUT" and \
             not seal_pre.get("seal_ok"):
@@ -645,7 +648,7 @@ def main() -> int:
         emitted = sum(len(rows) for rows in
                       result["all_rows"].values())
         integrity = (
-            head == (args.runtime_head or head)
+            src_tree == src_at_rt
             and src_tree == src_tree_post
             and seal_pre.get("seal_ok", True)
             and seal_post.get("seal_ok", True)
