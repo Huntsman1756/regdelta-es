@@ -1,0 +1,12 @@
+{
+  "dev_manifest_sha256": "ea1b46b8f0d205afbac808c42bb819e03cd512ca5aabbca6201344136219f5bf",
+  "evaluator_sha256": "5e2124333bd8e4028f3124bda165fc6e480ebff4e7d5c4c325fdd8fa0506d8b6",
+  "finished_at": "2026-09-14T05:44:38.212122+00:00",
+  "gold_sha256": "71f0e1594b01a932fb25109417d1bbf5db34ca6782e974553ada74c026edb5f2",
+  "run_id": "000",
+  "runtime_head": "3e8e27df8999307bf4cbce42f77891a5827b4d81",
+  "selection_sha256": "b4cee41435bf213263665f2a4c0a8d644339f5a197c77b1df7b650688f36ecb7",
+  "slug": "baseline",
+  "src_tree_sha": "0bf827f4648acf074213046bbafe7b3623555d7a",
+  "started_at": "2026-09-14T05:44:27.725610+00:00"
+}

@@ -1,0 +1,182 @@
+{
+  "ok": true,
+  "per_target_queries": {
+    "BOE-A-2005-4749": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "BOE-A-2010-12488": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "BOE-A-2010-1824": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "BOE-A-2011-2378": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "BOE-A-2012-3169": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "BOE-A-2013-7467": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "BOE-A-2016-4356": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 12,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 12,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 12,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "BOE-A-2019-17286": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    }
+  },
+  "problems": []
+}
