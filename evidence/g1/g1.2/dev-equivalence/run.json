@@ -1,0 +1,98 @@
+{
+  "aggregate": {
+    "abstentions": {
+      "by_reason": {
+        "candidate_count>1": 2,
+        "clause scopes below the recorded subject locator": 181,
+        "declared literals; no full replacement representation": 3,
+        "following content is governed by a different sub-clause": 15,
+        "no annex candidates": 5,
+        "no operation-owned content link": 11,
+        "no_structural_candidate": 15,
+        "subject state UNKNOWN; predecessor representation not provable": 9
+      },
+      "by_side": {
+        "after": {
+          "BOUND": 72,
+          "NOT_APPLICABLE": 9,
+          "NOT_FOUND": 5,
+          "NOT_PROVABLE": 133
+        },
+        "before": {
+          "AMBIGUOUS": 2,
+          "BOUND": 61,
+          "NOT_APPLICABLE": 55,
+          "NOT_FOUND": 15,
+          "NOT_PROVABLE": 86
+        }
+      }
+    },
+    "applicability_extraction": {
+      "den": 11,
+      "num": 11,
+      "value": 1.0
+    },
+    "binding_invariant_failures": {
+      "B1": 0,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0,
+      "B5": 0,
+      "B6": 0
+    },
+    "chain_reconstruction": {
+      "den": 19,
+      "num": 3,
+      "value": 0.15789473684210525
+    },
+    "declared_modifier_recall": {
+      "den": 39,
+      "num": 39,
+      "value": 1.0
+    },
+    "false_binding_count": 0,
+    "false_positive_facts": 0,
+    "old_false_fact_reproduction_count": 0,
+    "operation_parsing_rate": {
+      "den": 219,
+      "num": 219,
+      "value": 1.0
+    },
+    "query_execution": {
+      "den": 60,
+      "num": 60,
+      "value": 1.0
+    },
+    "representation_binding": {
+      "den": 219,
+      "num": 67,
+      "value": 0.3059360730593607
+    },
+    "source_limitations": 0,
+    "subject_locator_resolution": {
+      "den": 219,
+      "num": 192,
+      "value": 0.8767123287671232
+    }
+  },
+  "audit_rows": 219,
+  "combined_ok": true,
+  "evaluator_sha256": "255ec0f608edff948f6ce5b2fb036d5159d4a49c5dba2d7823b0ef0e62ff3a6e",
+  "finished_at": "2026-09-14T14:39:02.134392+00:00",
+  "g0g_evaluator_sha256": "99ff575e6968cbd879866a9f9aa9e5db5ec8db97e79080be72a39f969af93dc8",
+  "gold_sha256": "71f0e1594b01a932fb25109417d1bbf5db34ca6782e974553ada74c026edb5f2",
+  "manifest_sha256": "21ca37d547abd5dfc583a16d28ffe109097eee079757ca377cf5f8758e90fd20",
+  "run_id": "dev-equivalence",
+  "runner_sha256": "834c8df28599e92f200d02aad98a868da848da5194acdbf1e413989e234f10be",
+  "runtime_head": "c455acd2ebb4bafde13eeb62b864689d5fec1932",
+  "seal_post": {
+    "seal_present": false
+  },
+  "seal_pre": {
+    "seal_present": false
+  },
+  "selection_sha256": "ff161df25fc5f99c421c13ae7c7199f40bcab993578ba2952d72469f03a5ad16",
+  "split": "DEV",
+  "src_tree_sha": "aabe620969a774623c85e8a3ae0dd6b9000eeedd",
+  "started_at": "2026-09-14T14:38:28.112292+00:00"
+}

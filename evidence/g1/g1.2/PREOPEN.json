@@ -1,0 +1,28 @@
+{
+  "aggregate_holdout_sha256": "146f52bef6ab26715a3c1d9382e8c258d40a4661d4d34e2ea3961aa8b90203d2",
+  "corpus_73_sha256": "7e9afbe098caadf5cc1611456abed3c72ecf4732aed425588527d8c2ebef94d6",
+  "dev_equivalence_artifact_sha256": "c410f43d55c3564f5c0806be268ad7795a77cdc10f6e55270b2a7eace512c474",
+  "dev_manifest_sha256": "21ca37d547abd5dfc583a16d28ffe109097eee079757ca377cf5f8758e90fd20",
+  "evaluation_head": null,
+  "evaluator_contract_sha256": "7a263e9cd2308c85f84865e02bec99a56992133a57447e5ffc567c9eba40383d",
+  "evaluator_sha256": "255ec0f608edff948f6ce5b2fb036d5159d4a49c5dba2d7823b0ef0e62ff3a6e",
+  "g0g_evaluator_sha256": "99ff575e6968cbd879866a9f9aa9e5db5ec8db97e79080be72a39f969af93dc8",
+  "g1_0b_amendment_sha256": "060a3772b6485b0c8f0a9983a9c25227d0d48a822ea807848e73617f72ba771d",
+  "gate": "G1.2",
+  "gold_sha256": "31b25f3e9ad1c89cafbf8d358daf1fd3a34cf215541945a067c2324fd84d3efc",
+  "holdout_manifest_sha256": "d00679b12317e65e5b54365aa1080ddac0cf9576f76a1f2a18c5b102c9e48b8b",
+  "prereg_sha256": "614eaefa4d4302d08d1bc1183d7463b0764df0e60179899293034531c3d87f54",
+  "protocol_sha256": "f114d32fc7ca2543aa03ddb40344d9d29f038c588e5f73ec878ddfff284c3917",
+  "runner_sha256": "834c8df28599e92f200d02aad98a868da848da5194acdbf1e413989e234f10be",
+  "runtime_head": "c455acd2ebb4bafde13eeb62b864689d5fec1932",
+  "runtime_literals_baseline_sha256": "031566007ffb638ffaa278c646ef0aee5527c9886960069d0f4ae327c166aea5",
+  "seal_sha256": "05ec06df09cb48eaa42dfad2c3d1dc8f4fa2a3b49743cd33e78f1e86d0c71fab",
+  "sealed_targets": [
+    "BOE-A-2010-15521",
+    "BOE-A-2012-9058",
+    "BOE-A-2014-1183"
+  ],
+  "selection_v2_sha256": "ff161df25fc5f99c421c13ae7c7199f40bcab993578ba2952d72469f03a5ad16",
+  "semantic_seen_set_sha256": "cffaa52091b8703edd8ccd047867b3f3d04bc567b2c2969a759d5a116de1e171",
+  "src_tree_sha256": "851eaa55c8b1261f933df366055a4e7395d8055ccbea57bb1f98ccc19e8550dc"
+}
