@@ -1,0 +1,52 @@
+{
+  "aggregate": {
+    "applicability_extraction": {
+      "den": 11,
+      "num": 10,
+      "value": 0.9090909090909091
+    },
+    "chain_reconstruction": {
+      "den": 19,
+      "num": 8,
+      "value": 0.42105263157894735
+    },
+    "declared_modifier_recall": {
+      "den": 39,
+      "num": 39,
+      "value": 1.0
+    },
+    "false_binding_count": 59,
+    "false_positive_facts": 140,
+    "old_false_fact_reproduction_count": 70,
+    "operation_parsing_rate": {
+      "den": 219,
+      "num": 219,
+      "value": 1.0
+    },
+    "query_execution": {
+      "den": 60,
+      "num": 60,
+      "value": 1.0
+    },
+    "representation_binding": {
+      "den": 219,
+      "num": 140,
+      "value": 0.639269406392694
+    },
+    "source_limitations": 0,
+    "subject_locator_resolution": {
+      "den": 219,
+      "num": 178,
+      "value": 0.8127853881278538
+    }
+  },
+  "audit_rows": 219,
+  "corpus_73_sha256": "7e9afbe098caadf5cc1611456abed3c72ecf4732aed425588527d8c2ebef94d6",
+  "dev_manifest_sha256": "21ca37d547abd5dfc583a16d28ffe109097eee079757ca377cf5f8758e90fd20",
+  "evaluator_sha256": "7934573f1ed2eeb4c4a6967f1fe414f51b1d62d2f6c0999cfefd370929423459",
+  "finished_at": "2026-09-14T12:43:53.922456+00:00",
+  "run_id": "001-binder-v1",
+  "runtime_head": "cbef5a88e2a50399a6f839f26d54297ffdd29317",
+  "src_tree_sha": "040e00fc863c7cccef73c544085490f97a99daf7",
+  "started_at": "2026-09-14T12:43:33.532241+00:00"
+}

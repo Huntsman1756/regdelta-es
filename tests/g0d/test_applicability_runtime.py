@@ -875,26 +875,35 @@ def test_g0c_counts_unchanged(built):
     #   new fail-closed behavior: coverage sacrificed is exactly the
     #     set of relations whose proof says AMBIGUOUS / NOT_FOUND /
     #     NOT_PROVABLE — auditable via binding_proof.
+    # G1_INTENTIONAL_SEMANTIC_CHANGE (G1.1 §32, second pass):
+    #   representations 320 -> 189, UNRESOLVED 39 -> 123: the subject-
+    #   scope rule now also abstains when the clause acts on an
+    #   unmodelled sub-element (nota/párrafo/numeral/columna/dimensión
+    #   inside the recorded subject) or on a differently-qualified
+    #   entity ('norma N ter'), and the content-owner rule refuses
+    #   following content governed by a different sub-clause. Every
+    #   sampled abstention was verified honest — these clauses were the
+    #   historical FALSE_FACT class.
     conn, _, _ = built
     assert conn.execute(
         "SELECT COUNT(*) FROM subjects").fetchone()[0] == 221
     assert conn.execute(
-        "SELECT COUNT(*) FROM representations").fetchone()[0] == 320
+        "SELECT COUNT(*) FROM representations").fetchone()[0] == 189
     assert conn.execute(
         "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 292
     dist = dict(conn.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution").fetchall())
-    assert dist == {"RESOLVED": 172, "PARTIAL": 81, "UNRESOLVED": 39}
+    assert dist == {"RESOLVED": 89, "PARTIAL": 80, "UNRESOLVED": 123}
     kinds = dict(conn.execute(
         "SELECT kind, COUNT(*) FROM anomalies GROUP BY kind").fetchall())
     assert kinds.get(applicability.ANOMALY_TARGET_UNBOUND, 0) == 0
     # abstention anomalies explain the coverage loss
-    assert sum(kinds.values()) == 217
-    assert kinds["BINDING_NOT_FOUND"] == 68
-    assert kinds["BINDING_NOT_PROVABLE"] == 80
-    assert kinds["CHAIN_DISCONTINUITY"] == 27
-    assert kinds["UNBOUND_SUBJECT"] == 39
+    assert sum(kinds.values()) == 448
+    assert kinds["BINDING_NOT_FOUND"] == 49
+    assert kinds["BINDING_NOT_PROVABLE"] == 251
+    assert kinds["CHAIN_DISCONTINUITY"] == 22
+    assert kinds["UNBOUND_SUBJECT"] == 123
     assert kinds["OUT_OF_TARGET_OPS"] == 3
 
 

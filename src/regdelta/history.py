@@ -203,7 +203,7 @@ def _resolution(op_kind: str, before_status: str, after_status: str,
     if op_kind == "SUBSTITUTE":
         if b and a:
             return "RESOLVED", None
-        res = "PARTIAL" if (b or a) else "UNRESOLVED"
+        res = "PARTIAL" if (b or a or has_lit) else "UNRESOLVED"
     else:  # MODIFY, CORRECT, or anything else
         if b and (a or has_lit):
             return "RESOLVED", None
@@ -486,6 +486,107 @@ def _bind_first_before(ctx: _Ctx, target: boe_diario.DiarioDoc,
     return binding.decide(cands, "UNIQUE_STRUCTURAL_TARGET", key)
 
 
+# operative qualifiers that scope an operation below the locator model:
+# a clause acting on a módulo/dimensión/cuadro/etc. targets an element
+# the locator cannot express, so the recorded (parent) subject's
+# representation is not what the operation touches (B3/§32)
+_SUB_SCOPE_RE = re.compile(
+    r"\b(?:m[oó]dulo|dimensi[oó]n|apartado|letra|punto|numeral|nota|"
+    r"secci[oó]n|cuadro|tabla|p[aá]rrafo|[íi]ndice|fila|columna)\b",
+    re.IGNORECASE)
+
+# unmodelled ordinal qualifiers that make a recorded locator coarser
+# than the actual subject: 'norma 64 bis', 'apartado 2.e)', 'punto 4 ter'
+_QUALIFIER_SRC = r"(?:\.\s*[a-z]\b|\s+(?:bis|ter|qu[aá]ter|quinquies|" \
+    r"sexies|septies|octies|nonies|decies)\b)"
+
+_KIND_WORDS = {
+    "apartado": r"apartados?", "letra": r"letras?", "punto": r"puntos?",
+    "numeral": r"numerales?", "nota": r"notas?", "norma": r"normas?",
+    "anejo": r"(?:anejos?|anexos?)", "seccion": r"secciones?",
+    "indice": r"[íi]ndices?",
+}
+
+
+def _has_unmodelled_qualifier(masked: str, key: str) -> bool:
+    """The recorded locator's mention carries a suffix the model cannot
+    express — 'norma N ter', 'apartado N.x)' — so the real subject is a
+    different (sub-)entity than the recorded parent locator."""
+    for part in key.split("."):
+        kind, _, val = part.partition(":")
+        kind_rx = _KIND_WORDS.get(kind)
+        if not val or kind_rx is None:
+            continue
+        vals = {re.escape(val)}
+        if val.isdigit():
+            vals |= {re.escape(w) for w, n in
+                     operations._ORDINALS.items() if n == int(val)}
+        pat = re.compile(rf"\b{kind_rx}\s+(?:{'|'.join(sorted(vals))})"
+                         rf"{_QUALIFIER_SRC}", re.IGNORECASE)
+        if pat.search(masked):
+            return True
+    return False
+
+
+def _masked_clause(text: str) -> str:
+    """Quoted spans blanked position-preserving — offsets in the result
+    still index the original clause."""
+    return operations._QUOTED_SPAN_RE.sub(
+        lambda mm: " " * len(mm.group(0)), text)
+
+
+def _seg_keys(raw: str, masked: str,
+              op: operations.Operation) -> list[set[str]]:
+    """Composed locator keys per sub-clause, with parser-style context
+    threaded across segments ('en la norma 14 ... apartado 1 y a la
+    letra b) del apartado 3': the second segment inherits 'norma 14')."""
+    ctx = dict(op.context or {})
+    out: list[set[str]] = []
+    cursor = 0
+    for seg in (s for s in operations._SEG_SPLIT_RE.split(masked)
+                if s.strip()):
+        start = masked.find(seg, cursor)
+        raw_seg = raw[start:start + len(seg)]
+        cursor = start + len(seg)
+        seg_mentions = operations._extract_mentions(raw_seg)
+        out.append({s.locator_key for s in
+                    operations._compose_keys(seg_mentions, ctx)})
+        ctx = operations._context_update(ctx, seg_mentions)
+    return out
+
+
+def _clause_scope_provable(op: operations.Operation, key: str) -> bool:
+    """True when the clause demonstrably targets the recorded subject.
+
+    The subject must be named by the clause's own locator mentions
+    (inherited context composes them — 'se añade el apartado 4' under a
+    'norma N' context composes the norma's apartado-4 key) and the
+    sub-clauses governing THIS subject must not introduce operative
+    qualifiers the locator cannot express — 'se suprimen las
+    dimensiones «X»' under an anejo subject targets a dimension, not
+    the anejo, so neither side of the anejo is provable. A qualifier in
+    a different sub-clause ('primer párrafo del apartado 1 y a la letra
+    b) del apartado 3') does not taint this subject.
+    """
+    mentions = operations._extract_mentions(op.clause_text)
+    keys = {s.locator_key for s in
+            operations._compose_keys(mentions, op.context)}
+    if key not in keys:
+        return False
+    masked = _masked_clause(op.clause_text)
+    if _has_unmodelled_qualifier(masked, key):
+        return False
+    key_kinds = {p.split(":", 1)[0] for p in key.split(".")}
+    key_kinds |= {"norma", "anejo", "estado", "fichero", "disp",
+                  "disposicion", "pagina"}
+    segs = [s for s in operations._SEG_SPLIT_RE.split(masked)
+            if s.strip()]
+    zone = " ".join(s for s, ks in zip(segs, _seg_keys(
+        op.clause_text, masked, op)) if key in ks) or masked
+    return not any(m.group(0).lower() not in key_kinds
+                   for m in _SUB_SCOPE_RE.finditer(zone))
+
+
 def chain_update(chain: dict[str, "SubjectState"], key: str,
                  op_kind: str, after_status: str, after_id: str | None,
                  relation_id: str, literals) -> None:
@@ -576,6 +677,32 @@ def _bind_annex_after(ctx: _Ctx, key: str, sid: str, mboe: str,
                          key, "no annex candidates")
 
 
+def _subject_owns_content(op: operations.Operation, key: str,
+                          pos: int) -> bool:
+    """The content pointer (or inline quote) at *pos* is owned by the
+    subject mentioned in its own sub-clause. In a mixed clause —
+    'en la letra a) se sustituye X; se modifica la letra c) y se añade
+    la letra e), que quedan redactadas' — the quoted block belongs to
+    c)/e), not a) (B3/§18). When the pointer's segment names no
+    subject, ownership falls to the nearest preceding subject segment.
+    """
+    masked = _masked_clause(op.clause_text)
+    segs = [s for s in operations._SEG_SPLIT_RE.split(masked)
+            if s.strip()]
+    seg_keys = _seg_keys(op.clause_text, masked, op)
+    cursor = 0
+    pointer_seg = len(segs) - 1
+    for i, seg in enumerate(segs):
+        start = masked.find(seg, cursor)
+        if start <= pos < start + len(seg):
+            pointer_seg = i
+        cursor = start + len(seg)
+    owner = pointer_seg
+    while owner >= 0 and not seg_keys[owner]:
+        owner -= 1
+    return owner >= 0 and key in seg_keys[owner]
+
+
 def _bind_content_after(ctx: _Ctx, key: str, sid: str, mboe: str,
                         mdoc: boe_diario.DiarioDoc,
                         op: operations.Operation,
@@ -584,6 +711,19 @@ def _bind_content_after(ctx: _Ctx, key: str, sid: str, mboe: str,
     lookup for the same locator is never used."""
     method = op.content_link_method
     s, e = op.content_span
+    if method in ("INLINE_QUOTED_CONTENT", "EXPLICIT_FOLLOWING_CONTENT"):
+        masked = _masked_clause(op.clause_text)
+        pm = operations._CONTENT_POINTER_RE.search(masked)
+        pos = pm.start() if pm else len(masked)
+        if method == "INLINE_QUOTED_CONTENT" and op.inline_content:
+            qp = op.clause_text.find(op.inline_content)
+            if qp >= 0:
+                pos = qp
+        if not _subject_owns_content(op, key, pos):
+            return binding.abstain(
+                binding.NOT_PROVABLE, "CONTENT_POINTER_SCOPE", key,
+                "following content is governed by a different "
+                "sub-clause")
     if method == "INLINE_QUOTED_CONTENT":
         kind_, text = "TEXT", op.inline_content
         ns = op.node_index if text else s
@@ -807,6 +947,7 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                 op_kind = operations.subject_operation_kind(
                     op.clause_text, key, op.operation_kind)
                 snaps = [pm["snapshot"], xml_art.snapshot_id]
+                scope_provable = _clause_scope_provable(op, key)
 
                 # ----- before binding (G1 §15) -------------------------------
                 before_id = None
@@ -814,6 +955,11 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                 if op_kind == "ADD":
                     bres = binding.BindingResult(
                         binding.NOT_APPLICABLE, "ADD_NO_BEFORE", key, 0)
+                elif not scope_provable:
+                    bres = binding.abstain(
+                        binding.NOT_PROVABLE, "SUBJECT_SCOPE", key,
+                        "clause scopes below the recorded subject "
+                        "locator")
                 elif key in chain:
                     st = chain[key]
                     if st.status == "PRESENT" \
@@ -874,6 +1020,11 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                     ares = binding.BindingResult(
                         binding.NOT_APPLICABLE, "DELETE_NO_AFTER",
                         key, 0)
+                elif not scope_provable:
+                    ares = binding.abstain(
+                        binding.NOT_PROVABLE, "SUBJECT_SCOPE", key,
+                        "clause scopes below the recorded subject "
+                        "locator")
                 elif op.annex_ref:
                     ares = _bind_annex_after(
                         ctx, key, sid, mboe, mdoc, pm["snapshot"],
@@ -944,8 +1095,15 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                 stats["relations"] += 1
 
                 # ----- chain update (G1 §27–28) ------------------------------
-                chain_update(chain, key, op_kind, ares.status, after_id,
-                             rid, literals)
+                if not scope_provable:
+                    # a proven operation on an unrepresentable
+                    # sub-element: the subject's representation changed
+                    # in a way we cannot show (it is NOT deleted, even
+                    # for a sub-element DELETE)
+                    chain[key] = SubjectState("UNKNOWN", None, rid)
+                else:
+                    chain_update(chain, key, op_kind, ares.status,
+                                 after_id, rid, literals)
 
     _persist_anomalies(ctx)
     stats["representations"] = conn.execute(

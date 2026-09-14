@@ -23,14 +23,14 @@ from .operations import _alpha_value, _marker_parts
 from .sources.boe_diario import DiarioDoc
 
 PARSER_NAME = "applicability"
-PARSER_VERSION = "g0d-v2"
+PARSER_VERSION = "g0d-v3"
 
 # disposición headings are discovered, not enumerated: the code is
 # type-prefix + ordinal word so any N-th disposición parses ('dt1',
 # 'df2', 'da3', 'ddu')
 _DISP_HEAD_RE = re.compile(
-    r"^\s*disposici[oó]n\s+(transitoria|final|adicional|derogatoria)\s+"
-    r"(\w+)", re.IGNORECASE)
+    r"^\s*disposici[oó]n\s+(transitoria|final|adicional|derogatoria)"
+    r"(?:\s+(\w+))?", re.IGNORECASE)
 _DISP_PREFIX = {"transitoria": "dt", "final": "df", "adicional": "da",
                 "derogatoria": "dd"}
 _DISP_ORDINAL = {
@@ -360,8 +360,11 @@ def section_nodes(doc: DiarioDoc) -> dict:
         m = _DISP_HEAD_RE.match(a.text)
         if m is None:
             continue
-        code = _DISP_PREFIX[m.group(1).lower()] + _DISP_ORDINAL.get(
-            m.group(2).lower(), m.group(2).lower())
+        code = _DISP_PREFIX[m.group(1).lower()] + (
+            _DISP_ORDINAL.get(m.group(2).lower(), m.group(2).lower())
+            if m.group(2) else "u")
+        if code in spans:  # second unnumbered provision of same type
+            code = f"{code}.{sum(1 for k in spans if k.split('.')[0] == code)}"
         head = a.index
         nxt = min([n.index for n in arts if n.index > head] + [sig])
         nodes = [n for n in doc.nodes[head + 1:nxt] if n.kind == "p"]

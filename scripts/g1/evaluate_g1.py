@@ -28,6 +28,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import subprocess
 import sys
 import tempfile
@@ -39,7 +40,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]
                     / "scripts" / "g0g"))
 
-from regdelta import applicability, db as dbm, history  # noqa: E402
+from regdelta import applicability, binding, db as dbm, history, \
+    operations  # noqa: E402
 from regdelta.sources import boe_diario  # noqa: E402
 import evaluate_dev as ev  # noqa: E402
 
@@ -127,6 +129,28 @@ def _locator_mentions(key: str) -> tuple[list[str], list[str]]:
     return heads, deep
 
 
+def _has_sub_locator(key: str) -> bool:
+    """True when the key carries a 'kind:val' sub-part ('apartado:3',
+    'letra:b'). 'disp:transitoria.primera' has none — 'primera' is the
+    ordinal of the head, not a sub-locator."""
+    return any(":" in p for p in key.split(".")[1:])
+
+
+def _covers_token_alts(key: str) -> list[str]:
+    """Normalized alternatives for the span-coverage check. The token
+    must account for ordinal-word headings ('Norma decimocuarta' for
+    norma:14) and dotted kinds ('transitoria.primera' ->
+    'transitoria primera')."""
+    token = ev._norm(ev._locator_token(key))
+    alts = {token, token.replace(".", " ")}
+    head_kind = key.split(":", 1)[0].split(".", 1)[0]
+    if head_kind in ("norma", "anejo", "anexo", "disp", "disposicion") \
+            and token.isdigit():
+        alts |= {ev._norm(w) for w, v in binding._ORDINALS.items()
+                 if v == int(token)}
+    return [a for a in alts if a]
+
+
 def find_op_clause(mdoc: boe_diario.DiarioDoc,
                    key: str) -> str | None:
     """Locate the operative clause in the modifier that governs the
@@ -150,33 +174,93 @@ def find_op_clause(mdoc: boe_diario.DiarioDoc,
     return scored[0][2]
 
 
-def _expected_op_for_subject(clause: str, key: str) -> str | None:
-    """Verb check scoped to the sub-clause governing *this* subject.
+def _expected_op_g1(text: str) -> str | None:
+    """Expected op under the runtime's own verb vocabulary
+    (operations._OP_KINDS) — the audit must apply the same lexicon the
+    parser claims to use, not the frozen G0 ruleset whose 'redact' maps
+    'dar nueva redacción' to MODIFY while the runtime classifies it
+    SUBSTITUTE."""
+    masked = operations._QUOTED_SPAN_RE.sub(" ", text)
+    best: tuple[int, str] | None = None
+    for kind, rx in operations._OP_KINDS:
+        m = rx.search(masked)
+        if m and (best is None or m.start() < best[0]):
+            best = (m.start(), kind)
+    return best[1] if best else None
 
-    A single operative paragraph may hold several operations
-    ("se modifica el apartado 3 y se añade el apartado 4"). The deep
-    locator mention selects the governing segment; if that segment has
-    no verb (shared-verb lists like "se modifican los apartados 2 y 4"),
-    the search expands backwards until a verb is found.
+
+def _deep_hit(seg_norm: str, deep: list[str]) -> bool:
+    """Subject mention inside a normalized segment. Short tokens
+    ('a', '2') require a following ')' or '.' — a bare 'a' would match
+    every 'a continuación'."""
+    for d in deep:
+        if not d:
+            continue
+        if len(d) >= 3:
+            if re.search(rf"(?<!\w){re.escape(d)}(?!\w)", seg_norm):
+                return True
+        elif re.search(rf"(?<!\w){re.escape(d)}(?=[).])", seg_norm):
+            return True
+    return False
+
+
+def _expected_op_for_subject(clause: str, key: str) -> str | None:
+    """Verb check scoped to this subject's mention — mirrors the
+    runtime's nearest-preceding-verb rule. A mixed clause ("se
+    sustituye la letra a); se añade la letra e)") scopes each verb to
+    the mention it governs; pointer tails ("que quedan redactadas")
+    never outrank the operative verb before the mention.
     """
     _, deep = _locator_mentions(key)
-    import re as _re
-    segs = [s for s in _re.split(r"\s+y\s+|\s+e\s+|;\s*|\.\s+",
-                               clause) if s.strip()]
-    if len(segs) <= 1:
-        return ev._expected_op(clause)
-    hit = None
-    for i, s in enumerate(segs):
-        t = ev._norm(s)
-        if any(d in t for d in deep):
-            hit = i
-    if hit is None:
-        return ev._expected_op(clause)
-    for j in range(hit, -1, -1):
-        exp = ev._expected_op(" ".join(segs[j:hit + 1]))
-        if exp is not None:
-            return exp
-    return ev._expected_op(clause)
+    masked = operations._QUOTED_SPAN_RE.sub(
+        lambda m: " " * len(m.group(0)), clause)
+    # lowercase keeps positions aligned with the raw clause while
+    # _OP_KINDS patterns stay accent-aware (ñ, á) — _norm would both
+    # shift offsets and break 'añade'
+    low = masked.lower()
+    mpos = None
+    for d in deep:
+        if not d:
+            continue
+        rx = (rf"(?<!\w){re.escape(d)}(?!\w)" if len(d) >= 3
+              else rf"(?<!\w){re.escape(d)}(?=[).])")
+        for m in re.finditer(rx, low):
+            mpos = m.start() if mpos is None \
+                else max(mpos, m.start())
+    if mpos is None:
+        return _expected_op_g1(clause)
+    verbs: list[tuple[int, str]] = []
+    for kind, rx in operations._OP_KINDS:
+        verbs.extend((m.start(), kind) for m in rx.finditer(low))
+    verbs.sort()
+    prev = [v for v in verbs if v[0] <= mpos]
+    if prev:
+        return prev[-1][1]
+    nxt = [v for v in verbs if v[0] > mpos]
+    return nxt[0][1] if nxt else _expected_op_g1(clause)
+
+
+def _locator_resolves_g1(doc: boe_diario.DiarioDoc, key: str) -> bool:
+    """locator_resolves with full ordinal-word coverage — the frozen
+    evaluator's table only has spaced forms ('decima cuarta') while the
+    corpus writes compact forms ('decimocuarta')."""
+    parts = key.split(".")
+    kind, _, body = parts[0].partition(":")
+    if kind == "norma" and body.isdigit():
+        num = int(body)
+        alts = {body} | {ev._norm(w) for w, v in
+                         binding._ORDINALS.items() if v == num}
+        head_alt = "|".join(re.escape(a) for a in sorted(alts))
+        span = ev._head_span(
+            doc, re.compile(
+                rf"^(?:\[[^\]]*\]\s*)?norma\s+(?:{head_alt})\b"),
+            articulo_only=True)
+        if span is None:
+            return False
+        return all(":" in p and ev._sub_present(
+            doc, span, p.split(":")[0], p.split(":")[1])
+            for p in parts[1:])
+    return ev.locator_resolves(doc, key)
 
 
 # ---------------------------------------------------------------------------
@@ -187,7 +271,8 @@ def _expected_op_for_subject(clause: str, key: str) -> str | None:
 def audit_relation(r: dict, docs: dict[str, boe_diario.DiarioDoc],
                    by_url: dict[str, dict], gold_ids: set,
                    gold_palabra: dict, meta_texts: set,
-                   chain_ctx: dict, target: str) -> dict:
+                   chain_ctx: dict, target: str,
+                   rows_by_id: dict[str, dict] | None = None) -> dict:
     claims: dict[str, str] = {}
     evidence: dict = {}
     notes: list[str] = []
@@ -206,24 +291,35 @@ def audit_relation(r: dict, docs: dict[str, boe_diario.DiarioDoc],
     # -- operation verb ----------------------------------------------------
     raw = (r.get("relation_raw") or "").strip()
     raw_is_meta = bool(raw) and raw in meta_texts
-    clause = raw
     if raw_is_meta:
+        notes.append("relation_raw_is_metadata")
+    # the operative clause is locator_raw; relation_raw is posteriores
+    # metadata and can never supply the verb (G1 §30)
+    clause = (r.get("locator_raw") or "").strip()
+    clause_source = "locator_raw" if clause else None
+    if not clause:
         mdoc = docs.get(r["modifier_boe"])
         clause = find_op_clause(mdoc, r["locator_key"]) \
             if mdoc else None
-        notes.append("relation_raw_is_metadata")
-        if clause is None:
-            claims["operation_verb_consistent"] = "NOT_CHECKABLE"
+        clause_source = "doc_search" if clause else None
     if clause is not None:
-        exp = _expected_op_for_subject(clause, r["locator_key"])
-        if exp is None:
+        # the governing verb is identifiable only when the clause names
+        # this subject — a clause acting on unmodelled sub-elements
+        # leaves the per-subject verb unverifiable
+        heads, deep = _locator_mentions(r["locator_key"])
+        cnorm = ev._norm(clause)
+        named = _deep_hit(cnorm, heads + deep)
+        if not named:
             claims["operation_verb_consistent"] = "NOT_CHECKABLE"
         else:
-            claims["operation_verb_consistent"] = (
-                "VERIFIED" if exp == r["operation_kind"]
-                else "CONTRADICTED")
-        evidence["clause_source"] = ("metadata_relation_raw"
-                                     if raw_is_meta else "relation_raw")
+            exp = _expected_op_for_subject(clause, r["locator_key"])
+            if exp is None:
+                claims["operation_verb_consistent"] = "NOT_CHECKABLE"
+            else:
+                claims["operation_verb_consistent"] = (
+                    "VERIFIED" if exp == r["operation_kind"]
+                    else "CONTRADICTED")
+        evidence["clause_source"] = clause_source
 
     # -- target locator ----------------------------------------------------
     tdoc = docs.get(target)
@@ -231,9 +327,26 @@ def audit_relation(r: dict, docs: dict[str, boe_diario.DiarioDoc],
         claims["target_locator_resolves"] = "NOT_CHECKABLE"
         claims["subject_in_target"] = "NOT_CHECKABLE"
     else:
-        claims["target_locator_resolves"] = (
-            "VERIFIED" if ev.locator_resolves(tdoc, r["locator_key"])
-            else "CONTRADICTED")
+        resolves = _locator_resolves_g1(tdoc, r["locator_key"])
+        prev_hop = chain_ctx.get(r["locator_key"])
+        born_by_chain = (prev_hop is not None and bool(
+            prev_hop.get("after_id"))) or chain_ctx.get("_ancestor_born")
+        proof_b = (r.get("binding_proof") or {}).get("before") or {}
+        head_kind = r["locator_key"].split(":", 1)[0].split(".", 1)[0]
+        if resolves or proof_b.get("status") == "BOUND":
+            # a BOUND before is itself structural proof the subject
+            # resolves (textual span or annex page mapping)
+            claims["target_locator_resolves"] = "VERIFIED"
+        elif r["operation_kind"] == "ADD" or born_by_chain:
+            # an ADD subject legitimately does not pre-exist; a
+            # chain-born subject exists only in introduced content
+            claims["target_locator_resolves"] = "NOT_CHECKABLE"
+        elif head_kind in ("estado", "anejo"):
+            # visual-scope locators may live only in annex images —
+            # absence from XML text is not proof of absence
+            claims["target_locator_resolves"] = "NOT_CHECKABLE"
+        else:
+            claims["target_locator_resolves"] = "CONTRADICTED"
         claims["subject_in_target"] = "VERIFIED" if tdoc is not None \
             else "NOT_CHECKABLE"
 
@@ -250,8 +363,19 @@ def audit_relation(r: dict, docs: dict[str, boe_diario.DiarioDoc],
         # instrument scope: a before-image cannot come from the document
         # that declares the change unless it is the proven predecessor's
         # after; new content cannot pre-exist in the target document.
-        chain_ok = (side == "before" and prev is not None
-                    and rep == prev.get("after_id"))
+        # The authoritative predecessor is the one the runtime proved
+        # and recorded in binding_proof — verify, don't re-guess.
+        proof = r.get("binding_proof") or {}
+        chain_ok = False
+        if side == "before" and rows_by_id is not None:
+            pb = proof.get("before") or {}
+            pred_id = pb.get("predecessor_relation_id")
+            pred = rows_by_id.get(pred_id) if pred_id else None
+            chain_ok = (
+                pb.get("method") == "CHAIN_PREDECESSOR"
+                and pred is not None
+                and pb.get("predecessor_representation_id") == rep
+                and pred.get("after_representation_id") == rep)
         if side == "before" and inst == r["modifier_boe"] \
                 and not chain_ok:
             claims[claim] = "BINDING_FALSE"
@@ -291,8 +415,19 @@ def audit_relation(r: dict, docs: dict[str, boe_diario.DiarioDoc],
                     ev._fichero_norm(text) or all(
                         t in ev._fichero_tokens(text)
                         for t in ev._fichero_tokens(token))
+            elif _has_sub_locator(r["locator_key"]) or \
+                    r["locator_key"].split(":", 1)[0] in (
+                        "estado", "punto", "apartado", "letra",
+                        "numeral", "nota", "indice"):
+                # coverage proves identity only for sub-locators and
+                # code kinds — a whole-subject replacement need not
+                # restate its heading ('disposición transitoria
+                # primera se sustituye por: «1. Las entidades ...»')
+                tnorm = ev._norm(text)
+                covers = any(a in tnorm
+                             for a in _covers_token_alts(r["locator_key"]))
             else:
-                covers = ev._norm(token) in ev._norm(text)
+                covers = True
             claims[claim] = "BINDING_CORRECT" if (ok and covers) \
                 else "BINDING_FALSE"
             evidence[f"{side}_span"] = loc["node_span"]
@@ -330,7 +465,29 @@ def audit_relation(r: dict, docs: dict[str, boe_diario.DiarioDoc],
         "VERIFIED" if exp_res == r["resolution"] else "CONTRADICTED")
 
     # -- chain predecessor --------------------------------------------------
-    if prev is not None and prev["after_id"]:
+    # The runtime records its proven predecessor in binding_proof; the
+    # evaluator verifies it rather than re-deriving order from dates.
+    proof_b = (r.get("binding_proof") or {}).get("before") or {}
+    pred_id = proof_b.get("predecessor_relation_id")
+    if proof_b.get("method") == "CHAIN_PREDECESSOR" and rows_by_id:
+        pred = rows_by_id.get(pred_id)
+        ok = (pred is not None
+              and pred.get("after_representation_id")
+              == r["before_representation_id"]
+              and proof_b.get("predecessor_representation_id")
+              == r["before_representation_id"])
+        claims["chain_predecessor"] = "VERIFIED" if ok else "CONTRADICTED"
+        evidence["predecessor_relation_id"] = pred_id
+    elif r["operation_kind"] == "ADD":
+        # an ADD's before is legitimately NOT_APPLICABLE even when a
+        # prior hop bound an after (e.g. re-add after DELETE)
+        pass
+    elif prev is not None and prev["after_id"] \
+            and rows_by_id is not None \
+            and r["before_representation_id"]:
+        # previous hop had a bound after and this before IS bound but
+        # bypassed the proven chain — re-deriving the predecessor from
+        # date order is only meaningful when the bound before disagrees
         claims["chain_predecessor"] = (
             "VERIFIED" if r["before_representation_id"]
             == prev["after_id"] else "CONTRADICTED")
@@ -380,6 +537,16 @@ def evaluate_target(target: str, cell: str, by_url: dict[str, dict],
                 "failures": failures}
 
     rows = ev.relation_rows(conn)
+    proof_by_rid = {}
+    try:
+        proof_by_rid = {r[0]: json.loads(r[1]) for r in conn.execute(
+            "SELECT relation_id, binding_proof"
+            " FROM modification_relations")}
+    except Exception:
+        pass  # pre-G1 databases have no binding_proof column
+    for r in rows:
+        r["binding_proof"] = proof_by_rid.get(r["relation_id"], {})
+    rows_by_id = {r["relation_id"]: r for r in rows}
     gdecl = gold.get(target, {}).get("declared", [])
     gold_ids = {d["modifier_boe_id"] for d in gdecl}
     gold_palabra = {d["modifier_boe_id"]: d["palabra"] for d in gdecl}
@@ -476,12 +643,28 @@ def evaluate_target(target: str, cell: str, by_url: dict[str, dict],
                     "after_id": hops[i - 1]["after_representation_id"],
                     "relation_id": hops[i - 1]["relation_id"]}} \
                 if i > 0 else {}
+    # an ancestor subject rewritten earlier (e.g. norma:3 SUBSTITUTE
+    # in 2017) may have introduced this sub-locator's current text —
+    # the subject then legitimately does not resolve in the base doc
+    for r in rows:
+        parts = r["locator_key"].split(".")
+        ancestors = {".".join(parts[:i]) for i in
+                     range(1, len(parts))}
+        born = any(
+            h["after_representation_id"]
+            and (h["publication_date"] or "")
+            < (r["publication_date"] or "")
+            for a in ancestors
+            for h in by_sub.get(a, []))
+        if born:
+            chain_ctxs.setdefault(r["relation_id"], {})[
+                "_ancestor_born"] = True
 
     audit_rows, bindings_rows = [], []
     for r in rows:
         ctx = chain_ctxs.get(r["relation_id"], {})
         a = audit_relation(r, docs, by_url, gold_ids, gold_palabra,
-                           meta_texts, ctx, target)
+                           meta_texts, ctx, target, rows_by_id)
         a.update(run_id=run_id, target=target,
                  relation_id=r["relation_id"],
                  locator_key=r["locator_key"],
@@ -651,6 +834,8 @@ def reclassify_corpus(corpus: dict, all_rows: dict[str, list[dict]],
                     row is None
                     or a["truth_verdict"] == "FALSE_FACT"):
                 outcome = "REPRODUCED_FALSE_FACT"
+            elif outcome == "REPRODUCED_FALSE_FACT" or row is None:
+                pass
             else:
                 emitted = c.get("emitted_representation") or {}
                 identical, lost = True, False

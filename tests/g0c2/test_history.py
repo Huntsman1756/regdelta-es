@@ -206,6 +206,11 @@ def test_s2_declared_text_visual_predecessor(built):
     #   new fail-closed behavior: before abstains (NULL, proof
     #     NOT_APPLICABLE); the declared addition is proven by the
     #     operation-owned after representation instead.
+    # G1_INTENTIONAL_SEMANTIC_CHANGE (G1.1 §32, subject-scope):
+    #   also new: the after no longer binds — the clause adds 'la nota
+    #   (b) en la columna de «...»', a sub-element the locator model
+    #   cannot express, so the note text is not a representation of the
+    #   whole estado (SUBJECT_SCOPE abstention).
     conn, _ = built
     rels = [r for r in _rels(conn, "estado:FI 131-2.2")
             if r["modifier_boe"] == "BOE-A-2018-2041"]
@@ -214,10 +219,14 @@ def test_s2_declared_text_visual_predecessor(built):
     assert r["kind"] == "CORRECTION"
     assert r["operation_kind"] == "ADD"
     assert r["before_representation_id"] is None
-    assert r["akind"] in ("TEXT", "TABLE")
+    assert r["akind"] is None
+    proof = json.loads(r["binding_proof"])
+    assert proof["before"]["status"] == "NOT_APPLICABLE"
+    assert proof["after"]["status"] == "NOT_PROVABLE"
+    assert proof["after"]["method"] == "SUBJECT_SCOPE"
+    assert r["resolution"] == "UNRESOLVED"
     levels = json.loads(r["diff_levels"])
-    assert "DECLARED_CHANGE_PROVEN" in levels or "TEXT_DIFF_PROVEN" \
-        in levels or "SEMANTIC_DIFF_NOT_AVAILABLE" in levels
+    assert "SEMANTIC_DIFF_NOT_AVAILABLE" in levels
 
 
 def test_s3_chained_image_table_table(built):
@@ -267,13 +276,24 @@ def test_s5_image_to_image(built):
 
 
 def test_s6_region_declared_change(built):
+    # G1_INTENTIONAL_SEMANTIC_CHANGE (G1.1 §32, subject-scope):
+    #   old expected: before=IMAGE, after=TEXT — the pre-binder runtime
+    #     bound the whole estado's image and the note text.
+    #   why not provable: 'se modifica el primer párrafo de la nota (a)'
+    #     acts on a sub-element the locator cannot express; neither side
+    #     of the estado-level representation is what the operation
+    #     touches (SUBJECT_SCOPE abstention on both sides).
     conn, _ = built
     rels = [r for r in _rels(conn, "estado:FI 106-1.1")
             if r["modifier_boe"] == "BOE-A-2018-17880"]
     assert rels
     r = rels[0]
-    assert r["bkind"] == "IMAGE"
-    assert r["akind"] in ("TEXT", "TABLE")
+    assert r["bkind"] is None and r["akind"] is None
+    proof = json.loads(r["binding_proof"])
+    assert proof["before"]["status"] == "NOT_PROVABLE"
+    assert proof["before"]["method"] == "SUBJECT_SCOPE"
+    assert proof["after"]["status"] == "NOT_PROVABLE"
+    assert r["resolution"] == "UNRESOLVED"
     assert "nota" in r["locator_raw"].lower()
 
 

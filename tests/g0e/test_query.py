@@ -567,13 +567,13 @@ def test_g0c_g0d_invariants(ro):
     # (tests/g0d/test_applicability_runtime.py).
     assert ro.execute("SELECT COUNT(*) FROM subjects").fetchone()[0] == 221
     assert ro.execute(
-        "SELECT COUNT(*) FROM representations").fetchone()[0] == 320
+        "SELECT COUNT(*) FROM representations").fetchone()[0] == 189
     assert ro.execute(
         "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 292
     assert dict(ro.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution").fetchall()) == {
-        "RESOLVED": 172, "PARTIAL": 81, "UNRESOLVED": 39}
+        "RESOLVED": 89, "PARTIAL": 80, "UNRESOLVED": 123}
     assert ro.execute(
         "SELECT COUNT(*) FROM applicability_clauses").fetchone()[0] == 26
     assert ro.execute(
@@ -581,4 +581,4 @@ def test_g0c_g0d_invariants(ro):
     assert ro.execute(
         "SELECT COUNT(*) FROM applicability_targets").fetchone()[0] == 98
     assert ro.execute(
-        "SELECT COUNT(*) FROM anomalies").fetchone()[0] == 217
+        "SELECT COUNT(*) FROM anomalies").fetchone()[0] == 448

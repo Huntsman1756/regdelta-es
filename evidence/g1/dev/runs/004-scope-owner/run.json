@@ -1,0 +1,52 @@
+{
+  "aggregate": {
+    "applicability_extraction": {
+      "den": 11,
+      "num": 10,
+      "value": 0.9090909090909091
+    },
+    "chain_reconstruction": {
+      "den": 19,
+      "num": 3,
+      "value": 0.15789473684210525
+    },
+    "declared_modifier_recall": {
+      "den": 39,
+      "num": 39,
+      "value": 1.0
+    },
+    "false_binding_count": 1,
+    "false_positive_facts": 3,
+    "old_false_fact_reproduction_count": 3,
+    "operation_parsing_rate": {
+      "den": 219,
+      "num": 219,
+      "value": 1.0
+    },
+    "query_execution": {
+      "den": 60,
+      "num": 60,
+      "value": 1.0
+    },
+    "representation_binding": {
+      "den": 219,
+      "num": 67,
+      "value": 0.3059360730593607
+    },
+    "source_limitations": 0,
+    "subject_locator_resolution": {
+      "den": 219,
+      "num": 192,
+      "value": 0.8767123287671232
+    }
+  },
+  "audit_rows": 219,
+  "corpus_73_sha256": "7e9afbe098caadf5cc1611456abed3c72ecf4732aed425588527d8c2ebef94d6",
+  "dev_manifest_sha256": "21ca37d547abd5dfc583a16d28ffe109097eee079757ca377cf5f8758e90fd20",
+  "evaluator_sha256": "8e19558cfe79349cf2b1d0410036bdb434acbb6554647f214996bd9f7290e465",
+  "finished_at": "2026-09-14T13:21:49.097011+00:00",
+  "run_id": "004-scope-owner",
+  "runtime_head": "cbef5a88e2a50399a6f839f26d54297ffdd29317",
+  "src_tree_sha": "040e00fc863c7cccef73c544085490f97a99daf7",
+  "started_at": "2026-09-14T13:21:32.650431+00:00"
+}

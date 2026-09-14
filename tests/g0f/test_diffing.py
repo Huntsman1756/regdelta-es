@@ -231,28 +231,33 @@ def test_diff_correction_delete(ro):
 def test_diff_correction_image_to_text(ro):
     """F6 — estado:FI 131-2.2: CORRECTION + ADD.
 
-    G1_INTENTIONAL_SEMANTIC_CHANGE: an ADD has no before (§15.1), so
-    the declared addition is now reported as DECLARED_ADDITION instead
-    of pretending a visual predecessor comparison."""
+    G1_INTENTIONAL_SEMANTIC_CHANGE: an ADD has no before (§15.1) and
+    this clause's 'nota (b) en la columna' is an unmodelled sub-scope
+    (§32), so the after abstains too — the diff honestly reports
+    INSUFFICIENT_REPRESENTATION_EVIDENCE."""
     out = _diff_subject(ro, "estado:FI 131-2.2", date(2018, 2, 14),
                         date(2018, 2, 16))
     assert out["summary"]["relation_count"] == 1
     r = out["results"][0]
     assert r["kind"] == "CORRECTION"
-    assert r["comparison"]["strategy"] == "DECLARED_ADDITION"
+    assert r["comparison"]["strategy"] == (
+        "INSUFFICIENT_REPRESENTATION_EVIDENCE")
     assert r["comparison"]["content_diff_available"] is False
     assert r["before"] is None
-    assert r["after"]["representation_kind"] == "TEXT"
+    assert r["after"] is None
 
 
 def test_diff_partial_is_not_invented(ro):
-    """F7 — estado:FI 105 MODIFY PARTIAL: missing after rep is
-    INSUFFICIENT_REPRESENTATION_EVIDENCE, not a fabricated diff."""
+    """F7 — estado:FI 105: the 'pasa a denominarse' renames scope to the
+    cuadro/índice (unmodelled sub-scope → UNRESOLVED under §32); only
+    the SUBSTITUTE with a proven annex after is PARTIAL."""
     out = _diff_subject(ro, "estado:FI 105", date(2025, 12, 28),
                         date(2025, 12, 29))
     partial = [r for r in out["results"] if r["resolution"] == "PARTIAL"]
-    assert len(partial) == 2
-    for r in partial:
+    assert len(partial) == 1
+    assert partial[0]["operation_kind"] == "SUBSTITUTE"
+    assert partial[0]["after"]["representation_kind"] == "TABLE"
+    for r in out["results"]:
         assert r["comparison"]["strategy"] == (
             "INSUFFICIENT_REPRESENTATION_EVIDENCE")
         assert r["comparison"]["hunks"] == []
@@ -261,17 +266,20 @@ def test_diff_partial_is_not_invented(ro):
 
 
 def test_diff_unresolved_is_not_invented(ro):
-    """F8 — estado:FI 140-3 UNRESOLVED correction: result returned
-    without exception, comparison is INSUFFICIENT_REPRESENTATION_EVIDENCE."""
+    """F8 — estado:FI 140-3 UNRESOLVED corrections: the nota/columna
+    clauses are unmodelled sub-scopes (§32) and the chain is poisoned,
+    so two relations are UNRESOLVED and the literal-pair MODIFY is
+    PARTIAL — none fabricates a diff."""
     out = _diff_subject(ro, "estado:FI 140-3", date(2018, 2, 14),
                         date(2018, 2, 16))
     unres = [r for r in out["results"] if r["resolution"] == "UNRESOLVED"]
-    assert len(unres) == 1
-    r = unres[0]
-    assert r["comparison"]["strategy"] == (
-        "INSUFFICIENT_REPRESENTATION_EVIDENCE")
-    assert r["comparison"]["content_diff_available"] is False
-    assert r["before"] is None and r["after"] is None
+    assert len(unres) == 2
+    for r in out["results"]:
+        assert r["comparison"]["strategy"] == (
+            "INSUFFICIENT_REPRESENTATION_EVIDENCE")
+        assert r["comparison"]["content_diff_available"] is False
+    assert all(r["before"] is None and r["after"] is None
+               for r in unres)
 
 
 def test_diff_declared_addition(ro):
@@ -468,11 +476,11 @@ def test_g0c_g0d_g0e_invariants_unchanged(ro):
     # G1_INTENTIONAL_SEMANTIC_CHANGE: representations/anomalies shift
     # under the proof-or-abstain binder — see test_g0c_counts_unchanged
     assert counts == {
-        "subjects": 221, "representations": 320,
+        "subjects": 221, "representations": 189,
         "modification_relations": 292, "applicability_clauses": 26,
         "applicability_effects": 16, "applicability_targets": 98,
-        "anomalies": 217}
+        "anomalies": 448}
     res = dict(ro.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution"))
-    assert res == {"RESOLVED": 172, "PARTIAL": 81, "UNRESOLVED": 39}
+    assert res == {"RESOLVED": 89, "PARTIAL": 80, "UNRESOLVED": 123}

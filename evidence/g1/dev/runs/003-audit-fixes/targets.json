@@ -1,0 +1,1326 @@
+{
+  "BOE-A-2005-4749": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 7,
+      "gold_count": 7,
+      "reverse_cross_checked_count": 7
+    },
+    "app_eligible": [],
+    "cell": "TEXTxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 16,
+      "relations": 16,
+      "representations": 16,
+      "resolution": {
+        "PARTIAL": 1,
+        "RESOLVED": 10,
+        "UNRESOLVED": 5
+      },
+      "subjects": 16
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 7,
+        "num": 7,
+        "value": 1.0
+      },
+      "false_binding_count": 0,
+      "false_positive_facts": 0,
+      "operation_parsing_rate": {
+        "den": 16,
+        "num": 16,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 16,
+        "num": 10,
+        "value": 0.625
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 16,
+        "num": 12,
+        "value": 0.75
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 4,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 16,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 16,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 16,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2014-8654",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2013-7467",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2012-4804",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2011-2378",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2008-18886",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2007-15479",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2006-623",
+          "kind": "MODIFICATION"
+        }
+      ]
+    },
+    "target": "BOE-A-2005-4749"
+  },
+  "BOE-A-2010-12488": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 2,
+      "gold_count": 2,
+      "reverse_cross_checked_count": 2
+    },
+    "app_eligible": [],
+    "cell": "VISUALxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 1,
+      "relations": 1,
+      "representations": 2,
+      "resolution": {
+        "RESOLVED": 1
+      },
+      "subjects": 1
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 2,
+        "num": 2,
+        "value": 1.0
+      },
+      "false_binding_count": 0,
+      "false_positive_facts": 0,
+      "operation_parsing_rate": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2016-1238",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2010-12628",
+          "kind": "CORRECTION"
+        }
+      ]
+    },
+    "target": "BOE-A-2010-12488"
+  },
+  "BOE-A-2010-1824": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "reverse_cross_checked_count": 1
+    },
+    "app_eligible": [
+      "BOE-A-2014-13365"
+    ],
+    "cell": "VISUALxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 2,
+      "relations": 2,
+      "representations": 3,
+      "resolution": {
+        "PARTIAL": 1,
+        "RESOLVED": 1
+      },
+      "subjects": 2
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "false_binding_count": 0,
+      "false_positive_facts": 1,
+      "operation_parsing_rate": {
+        "den": 2,
+        "num": 2,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 2,
+        "num": 1,
+        "value": 0.5
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 2,
+        "num": 2,
+        "value": 1.0
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2014-13365",
+          "kind": "MODIFICATION"
+        }
+      ]
+    },
+    "target": "BOE-A-2010-1824"
+  },
+  "BOE-A-2011-2378": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 5,
+      "gold_count": 5,
+      "reverse_cross_checked_count": 5
+    },
+    "app_eligible": [],
+    "cell": "TEXTxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 10,
+      "relations": 11,
+      "representations": 15,
+      "resolution": {
+        "PARTIAL": 1,
+        "RESOLVED": 7,
+        "UNRESOLVED": 3
+      },
+      "subjects": 11
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "false_binding_count": 0,
+      "false_positive_facts": 0,
+      "operation_parsing_rate": {
+        "den": 11,
+        "num": 11,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 11,
+        "num": 7,
+        "value": 0.6363636363636364
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 11,
+        "num": 11,
+        "value": 1.0
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 3,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 11,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 11,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 11,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2015-13429",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2014-8654",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2013-7467",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2012-4804",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2011-2523",
+          "kind": "CORRECTION"
+        }
+      ]
+    },
+    "target": "BOE-A-2011-2378"
+  },
+  "BOE-A-2012-3169": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "reverse_cross_checked_count": 1
+    },
+    "app_eligible": [],
+    "cell": "VISUALxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 24,
+      "relations": 6,
+      "representations": 0,
+      "resolution": {
+        "UNRESOLVED": 6
+      },
+      "subjects": 6
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "false_binding_count": 0,
+      "false_positive_facts": 0,
+      "operation_parsing_rate": {
+        "den": 6,
+        "num": 6,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 6,
+        "num": 0,
+        "value": 0.0
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 6,
+        "num": 0,
+        "value": 0.0
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 6,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 6,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 6,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2012-3619",
+          "kind": "CORRECTION"
+        }
+      ]
+    },
+    "target": "BOE-A-2012-3169"
+  },
+  "BOE-A-2013-5720": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 8,
+        "CHAIN_PROVEN": 7,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 15
+      },
+      "discovered_count": 13,
+      "gold_count": 13,
+      "reverse_cross_checked_count": 13
+    },
+    "app_eligible": [
+      "BOE-A-2025-26847",
+      "BOE-A-2023-7662",
+      "BOE-A-2017-7985",
+      "BOE-A-2015-9107",
+      "BOE-A-2015-9054",
+      "BOE-A-2014-13365"
+    ],
+    "cell": "TEXTxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 268,
+      "relations": 137,
+      "representations": 71,
+      "resolution": {
+        "PARTIAL": 26,
+        "RESOLVED": 36,
+        "UNRESOLVED": 75
+      },
+      "subjects": 55
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 6,
+        "num": 5,
+        "value": 0.8333333333333334
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 8,
+        "CHAIN_PROVEN": 7,
+        "den": 15,
+        "num": 7,
+        "value": 0.4666666666666667
+      },
+      "declared_modifier_recall": {
+        "den": 13,
+        "num": 13,
+        "value": 1.0
+      },
+      "false_binding_count": 2,
+      "false_positive_facts": 4,
+      "operation_parsing_rate": {
+        "den": 137,
+        "num": 137,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 137,
+        "num": 36,
+        "value": 0.26277372262773724
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 137,
+        "num": 114,
+        "value": 0.8321167883211679
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 9,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 137,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 137,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 137,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2025-26847",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2023-7662",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2021-1352",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2020-1653",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2018-17880",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2017-7985",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2016-11483",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2016-4356",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2015-9107",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2015-9054",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2014-13365",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2013-11729",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2013-6046",
+          "kind": "CORRECTION"
+        }
+      ]
+    },
+    "target": "BOE-A-2013-5720"
+  },
+  "BOE-A-2013-7467": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "reverse_cross_checked_count": 1
+    },
+    "app_eligible": [],
+    "cell": "TEXTxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 4,
+      "relations": 3,
+      "representations": 3,
+      "resolution": {
+        "PARTIAL": 1,
+        "RESOLVED": 1,
+        "UNRESOLVED": 1
+      },
+      "subjects": 3
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "false_binding_count": 0,
+      "false_positive_facts": 0,
+      "operation_parsing_rate": {
+        "den": 3,
+        "num": 3,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 3,
+        "num": 1,
+        "value": 0.3333333333333333
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 3,
+        "num": 3,
+        "value": 1.0
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 3,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 3,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 3,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2014-8654",
+          "kind": "MODIFICATION"
+        }
+      ]
+    },
+    "target": "BOE-A-2013-7467"
+  },
+  "BOE-A-2016-1238": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 1,
+        "CHAIN_NOT_PROVABLE": 3,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [
+          "norma:64"
+        ],
+        "multi_hop_subjects": 4
+      },
+      "discovered_count": 5,
+      "gold_count": 5,
+      "reverse_cross_checked_count": 5
+    },
+    "app_eligible": [
+      "BOE-A-2023-23052",
+      "BOE-A-2022-5524",
+      "BOE-A-2021-21220"
+    ],
+    "cell": "VISUALxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 37,
+      "relations": 31,
+      "representations": 32,
+      "resolution": {
+        "RESOLVED": 19,
+        "UNRESOLVED": 12
+      },
+      "subjects": 24
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 3,
+        "num": 3,
+        "value": 1.0
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 1,
+        "CHAIN_NOT_PROVABLE": 3,
+        "CHAIN_PROVEN": 0,
+        "den": 4,
+        "num": 0,
+        "value": 0.0
+      },
+      "declared_modifier_recall": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "false_binding_count": 2,
+      "false_positive_facts": 4,
+      "operation_parsing_rate": {
+        "den": 31,
+        "num": 31,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 31,
+        "num": 19,
+        "value": 0.6129032258064516
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 31,
+        "num": 30,
+        "value": 0.967741935483871
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 4,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 31,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 31,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 31,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2023-23052",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2022-5524",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2021-21220",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2016-7305",
+          "kind": "CORRECTION"
+        },
+        {
+          "boe_id": "BOE-A-2022-10810",
+          "kind": "MODIFICATION"
+        }
+      ]
+    },
+    "target": "BOE-A-2016-1238"
+  },
+  "BOE-A-2016-4356": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "reverse_cross_checked_count": 1
+    },
+    "app_eligible": [],
+    "cell": "VISUALxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 13,
+      "relations": 10,
+      "representations": 4,
+      "resolution": {
+        "PARTIAL": 7,
+        "RESOLVED": 3
+      },
+      "subjects": 10
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "false_binding_count": 0,
+      "false_positive_facts": 0,
+      "operation_parsing_rate": {
+        "den": 10,
+        "num": 10,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 10,
+        "num": 3,
+        "value": 0.3
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 10,
+        "num": 10,
+        "value": 1.0
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 10,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 10,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 10,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2016-5724",
+          "kind": "CORRECTION"
+        }
+      ]
+    },
+    "target": "BOE-A-2016-4356"
+  },
+  "BOE-A-2019-17286": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 2,
+      "gold_count": 1,
+      "reverse_cross_checked_count": 1
+    },
+    "app_eligible": [
+      "BOE-A-2023-5481"
+    ],
+    "cell": "TEXTxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 2,
+      "relations": 2,
+      "representations": 2,
+      "resolution": {
+        "RESOLVED": 2
+      },
+      "subjects": 2
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "false_binding_count": 0,
+      "false_positive_facts": 0,
+      "operation_parsing_rate": {
+        "den": 2,
+        "num": 2,
+        "value": 1.0
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 2,
+        "num": 2,
+        "value": 1.0
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 2,
+        "num": 2,
+        "value": 1.0
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2023-5481",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2021-21666",
+          "kind": "MODIFICATION"
+        }
+      ]
+    },
+    "target": "BOE-A-2019-17286"
+  },
+  "BOE-A-2021-19805": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "reverse_cross_checked_count": 1
+    },
+    "app_eligible": [],
+    "cell": "TEXTxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 0,
+      "relations": 0,
+      "representations": 0,
+      "resolution": {},
+      "subjects": 0
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "false_binding_count": 0,
+      "false_positive_facts": 0,
+      "operation_parsing_rate": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2022-9029",
+          "kind": "CORRECTION"
+        }
+      ]
+    },
+    "target": "BOE-A-2021-19805"
+  },
+  "BOE-A-2021-21220": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "reverse_cross_checked_count": 1
+    },
+    "app_eligible": [],
+    "cell": "VISUALxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 0,
+      "relations": 0,
+      "representations": 0,
+      "resolution": {},
+      "subjects": 0
+    },
+    "metrics": {
+      "applicability_extraction": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "chain_reconstruction": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "declared_modifier_recall": {
+        "den": 1,
+        "num": 1,
+        "value": 1.0
+      },
+      "false_binding_count": 0,
+      "false_positive_facts": 0,
+      "operation_parsing_rate": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "query_execution": {
+        "den": 5,
+        "num": 5,
+        "value": 1.0
+      },
+      "representation_binding": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      },
+      "source_limitations": 0,
+      "subject_locator_resolution": {
+        "den": 0,
+        "num": 0,
+        "value": null
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2021-21796",
+          "kind": "CORRECTION"
+        }
+      ]
+    },
+    "target": "BOE-A-2021-21220"
+  }
+}
