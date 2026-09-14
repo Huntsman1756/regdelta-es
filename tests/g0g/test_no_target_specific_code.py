@@ -41,8 +41,11 @@ def _current_literals() -> set[tuple[str, str, str, int]]:
 
 def test_no_new_target_specific_literals() -> None:
     baseline = json.loads(BASELINE.read_text(encoding="utf-8"))
-    base = {(d["file"], d["pattern"], d["literal"], d["lineno"])
+    # lineno is excluded: legitimate edits above a baseline literal shift
+    # its line without making it new. The guard detects literals that did
+    # not exist anywhere in the frozen runtime.
+    base = {(d["file"], d["pattern"], d["literal"])
             for d in baseline["literals"]}
-    new = _current_literals() - base
+    new = {(f, p, lit) for f, p, lit, _ln in _current_literals()} - base
     assert new == set(), \
         f"new target-specific literals in runtime: {sorted(new)}"

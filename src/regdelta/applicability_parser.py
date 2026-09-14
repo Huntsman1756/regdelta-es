@@ -23,15 +23,26 @@ from .operations import _alpha_value, _marker_parts
 from .sources.boe_diario import DiarioDoc
 
 PARSER_NAME = "applicability"
-PARSER_VERSION = "g0d-v1"
+PARSER_VERSION = "g0d-v2"
 
-# section code → (heading prefix, item marker style)
-SECTIONS = [
-    ("dt1", "Disposición transitoria primera", "num"),
-    ("dt2", "Disposición transitoria segunda", "num"),
-    ("dt3", "Disposición transitoria tercera", "num"),
-    ("dfu", "Disposición final única", "alpha"),
-]
+# disposición headings are discovered, not enumerated: the code is
+# type-prefix + ordinal word so any N-th disposición parses ('dt1',
+# 'df2', 'da3', 'ddu')
+_DISP_HEAD_RE = re.compile(
+    r"^\s*disposici[oó]n\s+(transitoria|final|adicional|derogatoria)\s+"
+    r"(\w+)", re.IGNORECASE)
+_DISP_PREFIX = {"transitoria": "dt", "final": "df", "adicional": "da",
+                "derogatoria": "dd"}
+_DISP_ORDINAL = {
+    "única": "u", "unica": "u", "primera": "1", "primero": "1",
+    "segunda": "2", "segundo": "2", "tercera": "3", "tercero": "3",
+    "cuarta": "4", "cuarto": "4", "quinta": "5", "quinto": "5",
+    "sexta": "6", "sexto": "6", "séptima": "7", "septima": "7",
+    "séptimo": "7", "octava": "8", "octavo": "8", "novena": "9",
+    "noveno": "9", "décima": "10", "decima": "10", "décimo": "10",
+    "undécima": "11", "undecima": "11", "duodécima": "12",
+    "duodecima": "12",
+}
 
 MONTHS = {
     "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5,
@@ -345,14 +356,18 @@ def section_nodes(doc: DiarioDoc) -> dict:
                 if n.kind == "p" and SIGNATURE_RE.match(n.text)),
                len(doc.nodes))
     spans = {}
-    for code, title, style in SECTIONS:
-        head = next((n.index for n in arts if n.text.startswith(title)),
-                    None)
-        if head is None:
+    for a in arts:
+        m = _DISP_HEAD_RE.match(a.text)
+        if m is None:
             continue
+        code = _DISP_PREFIX[m.group(1).lower()] + _DISP_ORDINAL.get(
+            m.group(2).lower(), m.group(2).lower())
+        head = a.index
         nxt = min([n.index for n in arts if n.index > head] + [sig])
-        spans[code] = (head, [n for n in doc.nodes[head + 1:nxt]
-                              if n.kind == "p"], style)
+        nodes = [n for n in doc.nodes[head + 1:nxt] if n.kind == "p"]
+        style = ("num" if any(re.match(r"^\d+\.\s", n.text)
+                              for n in nodes) else "alpha")
+        spans[code] = (head, nodes, style)
     return spans
 
 
@@ -380,10 +395,7 @@ class Clause:
 def extract_clauses(doc: DiarioDoc) -> list[Clause]:
     spans = section_nodes(doc)
     clauses: list[Clause] = []
-    for code, _title, style in SECTIONS:
-        if code not in spans:
-            continue
-        _head, nodes, _ = spans[code]
+    for code, (head, nodes, style) in spans.items():
         items: list[tuple[str, list]] = []
         cur_label, cur_nodes = None, []
         item_re = (re.compile(r"^(\d+)\.\s") if style == "num"

@@ -101,12 +101,38 @@ _DISP_RE = re.compile(
     r"disposici[oó]n\s+(final|transitoria)", re.IGNORECASE)
 
 _VERB_RULES = [
-    ("SUBSTITUTE", re.compile(r"sustituy", re.I)),
-    ("ADD", re.compile(r"a[ñn]ad|adicion", re.I)),
-    ("DELETE", re.compile(r"suprim|derog", re.I)),
-    ("MODIFY", re.compile(r"modific|redact|queda", re.I)),
+    ("SUBSTITUTE", re.compile(
+        r"sustituy|debe\w*\s+sustituirse", re.I)),
+    ("ADD", re.compile(
+        r"a[ñn]ad|adicion|crea\w*\b|introduc|incorpor|inclu|"
+        r"debe\w*\s+(?:añadir|insertar|incluir|agregar|crear)se", re.I)),
+    ("DELETE", re.compile(
+        r"suprim|derog|elimin|debe\w*\s+(?:suprimir|eliminar)se", re.I)),
+    ("MODIFY", re.compile(
+        r"modific|redact|queda|pasa\s+a\s+ser|sombrea|realiza|"
+        r"desglos|inserta|donde\s+dice|debe\s+decir|"
+        r"debe\w*\s+modificarse", re.I)),
     ("CORRECT", re.compile(r"correg|correcci", re.I)),
 ]
+
+
+_QUOTED_RE = re.compile(r"«[^»]*»")
+
+
+def _expected_op(verb_text: str) -> str | None:
+    """The governing amendment verb is the earliest positional match —
+    a trailing 'la descripción ... sustituye a la del fichero ...'
+    boilerplate is descriptive, not the operative verb. Quoted «...»
+    spans are stripped first: they cite titles/rubrics and literals,
+    never the operative verb ('sobre «Modificaciones en las normas de
+    la Circular 4/2004»')."""
+    t = _norm(_QUOTED_RE.sub("", verb_text))
+    best: tuple[int, str] | None = None
+    for op, pat in _VERB_RULES:
+        m = pat.search(t)
+        if m and (best is None or m.start() < best[0]):
+            best = (m.start(), op)
+    return best[1] if best else None
 
 
 def modifier_declares_applicability(xml: bytes) -> bool:
@@ -121,13 +147,6 @@ def modifier_declares_applicability(xml: bytes) -> bool:
     return False
 
 
-def _expected_op(verb_text: str) -> str | None:
-    t = _norm(verb_text)
-    for op, pat in _VERB_RULES:
-        if pat.search(t):
-            return op
-    return None
-
 
 def _locator_token(key: str) -> str:
     """Distinguishing suffix: estado:FI 100-14 -> 'fi 100-14';
@@ -135,16 +154,132 @@ def _locator_token(key: str) -> str:
     return key.split(":")[-1]
 
 
+def _fichero_norm(text: str) -> str:
+    """Independent fichero-name compare: _norm + hyphen spacing +
+    footnote marks ('(*)')."""
+    t = re.sub(r"\s*-\s*", "-", _norm(text))
+    return re.sub(r"\s*\(\s*\*+\s*\)\s*$", "", t)
+
+
+_FICHERO_CONNECTORS = frozenset(
+    {"a", "ante", "con", "de", "del", "e", "el", "en", "la", "las",
+     "los", "para", "por", "sobre", "y"})
+
+
+def _fichero_tokens(text: str) -> tuple[str, ...]:
+    return tuple(t for t in re.split(r"[^\w]+", _fichero_norm(text))
+                 if t and t not in _FICHERO_CONNECTORS)
+
+
+def _fichero_eq(a: str, b: str) -> bool:
+    """Exact normalized name, or equal content tokens — annex titles and
+    clause citations can differ in connectors ('de' vs 'del')."""
+    return _fichero_norm(a) == _fichero_norm(b) \
+        or _fichero_tokens(a) == _fichero_tokens(b)
+
+
+_ORDINAL_WORDS = {
+    "1": "primera", "2": "segunda", "3": "tercera", "4": "cuarta",
+    "5": "quinta", "6": "sexta", "7": "septima", "8": "octava",
+    "9": "novena", "10": "decima", "11": "undecima", "12": "duodecima",
+    "13": "decima tercera", "14": "decima cuarta", "15": "decima quinta",
+    "16": "decima sexta", "17": "decima septima", "18": "decima octava",
+    "19": "decima novena", "20": "vigesima",
+}
+
+
+def _head_span(doc: boe_diario.DiarioDoc, pat: re.Pattern,
+               articulo_only: bool) -> tuple[int, int] | None:
+    start = None
+    for n in doc.nodes:
+        if start is None:
+            ok = (n.cls == "articulo" if articulo_only else n.kind == "p")
+            if ok and pat.search(_norm(n.text)):
+                start = n.index
+        elif n.cls == "articulo":
+            return (start, n.index)
+    return (start, len(doc.nodes)) if start is not None else None
+
+
+def _sub_present(doc: boe_diario.DiarioDoc, span: tuple[int, int],
+                 kind: str, val: str) -> bool:
+    """A 'kind:val' sub-locator resolves iff a node inside the parent
+    span carries the value token with the kind prefix consistent."""
+    v = _norm(val)
+    if kind == "apartado":
+        pats = (re.compile(rf"^{re.escape(v)}\s*\.\s"),
+                re.compile(rf"\bapartados?\s+{re.escape(v)}\b"))
+    elif kind == "punto":
+        pats = (re.compile(rf"^{re.escape(v)}\s*\.\s"),
+                re.compile(rf"\bpuntos?\s+{re.escape(v)}\b"))
+    elif kind in ("letra", "nota"):
+        pats = (re.compile(rf"^\(?{re.escape(v)}\)"),
+                re.compile(rf"\b{kind}s?\s+\(?{re.escape(v)}\)?"))
+    elif kind == "numeral":
+        pats = (re.compile(rf"^{re.escape(v)}\s*[.)]"),)
+    else:
+        pats = (re.compile(rf"\b{re.escape(v)}\b"),)
+    for i in range(*span):
+        n = doc.nodes[i]
+        if n.text and any(p.search(_norm(n.text)) for p in pats):
+            return True
+    return False
+
+
 def locator_resolves(doc: boe_diario.DiarioDoc, key: str) -> bool:
     """Independent locator check over the official target document.
 
     norma:N -> a node whose text starts 'norma N'; anejo:N -> 'anejo N';
-    estado/others -> the raw token appears in any node text, or (for
-    estado codes embedded in images) in the index/enumeration text.
+    disp:tipo.ordinal -> 'disposición <tipo> <ordinal>' heading;
+    fichero:<name> -> a 'fichero: <name>' heading or a centered title
+    node equal to the name; estado/others -> the raw token appears in
+    any node text. Composed keys resolve hierarchically: head span must
+    exist and each 'kind:val' part must occur inside it.
     """
-    kind, _, body = key.partition(":")
+    parts = key.split(".")
+    kind, _, body = parts[0].partition(":")
+    if kind == "disp":
+        tipo = body
+        ordinal = parts[1] if len(parts) > 1 and ":" not in parts[1] \
+            else None
+        pat = re.compile(
+            rf"^(?:\[[^\]]*\]\s*)?disposici[oó]n\s+"
+            rf"{re.escape(_norm(tipo))}"
+            rf"\s+{re.escape(_norm(ordinal or ''))}\b")
+        span = _head_span(doc, pat, articulo_only=True)
+        if span is None:
+            return False
+        rest = parts[2:] if ordinal is not None else parts[1:]
+        return all(":" in p and _sub_present(
+            doc, span, p.split(":")[0], p.split(":")[1]) for p in rest)
+    if kind == "fichero":
+        fhead = re.compile(r"^fichero\s*:\s*(.*)$")
+        for n in doc.nodes:
+            t = _fichero_norm(n.text)
+            m = fhead.match(t)
+            if m and _fichero_eq(m.group(1), body):
+                return True
+            if (n.cls.startswith("centro")
+                    or n.cls in ("capitulo_tit", "anexo_tit")) \
+                    and _fichero_eq(t, body):
+                return True
+        return False
+    if kind == "norma":
+        num = _norm(body)
+        word = _ORDINAL_WORDS.get(num)
+        head_alt = rf"(?:{re.escape(num)}|{re.escape(word)})" \
+            if word else re.escape(num)
+        span = _head_span(
+            doc, re.compile(
+                rf"^(?:\[[^\]]*\]\s*)?norma\s+{head_alt}\b"),
+            articulo_only=True)
+        if span is None:
+            return False
+        return all(":" in p and _sub_present(
+            doc, span, p.split(":")[0], p.split(":")[1])
+            for p in parts[1:])
     token = _norm(body.split(".")[0] if "." in body else body)
-    if kind in ("norma", "anejo", "disposicion", "titulo", "capitulo",
+    if kind in ("anejo", "disposicion", "titulo", "capitulo",
                 "seccion", "apartado", "nota"):
         pat = re.compile(rf"^{re.escape(kind)}\s+{re.escape(token)}\b")
     else:
@@ -226,10 +361,22 @@ def audit_relation(r: dict, docs: dict[str, boe_diario.DiarioDoc],
 
     # target locator
     tdoc = docs.get(target_boe)
-    claims["target_locator_resolves"] = (
-        "NOT_CHECKABLE" if tdoc is None else
-        "VERIFIED" if locator_resolves(tdoc, r["locator_key"])
-        else "CONTRADICTED")
+    if tdoc is None:
+        claims["target_locator_resolves"] = "NOT_CHECKABLE"
+    elif locator_resolves(tdoc, r["locator_key"]):
+        claims["target_locator_resolves"] = "VERIFIED"
+    elif r["operation_kind"] == "ADD":
+        # an ADD asserts the subject comes to exist; its absence from
+        # the pre-change target is expected, not a contradiction
+        claims["target_locator_resolves"] = "NOT_CHECKABLE"
+    elif r["locator_key"].startswith(("estado:", "pagina:")) \
+            and any(n.img_src for n in tdoc.nodes):
+        # the code/page may live inside annex images, which are not
+        # mechanically readable (no OCR) — the image evidence chain is
+        # checked separately under before_binding
+        claims["target_locator_resolves"] = "NOT_CHECKABLE"
+    else:
+        claims["target_locator_resolves"] = "CONTRADICTED"
 
     claims["subject_in_target"] = (
         "VERIFIED" if r["subject_instrument_boe"] == target_boe
@@ -258,7 +405,12 @@ def audit_relation(r: dict, docs: dict[str, boe_diario.DiarioDoc],
             ok = _norm(text) == _norm(r[f"{side}_text"] or "")
             # the claimed span must also cover the locator's region
             token = _locator_token(r["locator_key"])
-            covers = _norm(token) in _norm(text)
+            if r["locator_key"].startswith("fichero:"):
+                covers = _fichero_norm(token) in _fichero_norm(text) \
+                    or all(t in _fichero_tokens(text)
+                           for t in _fichero_tokens(token))
+            else:
+                covers = _norm(token) in _norm(text)
             claims[claim] = "VERIFIED" if (ok and covers) \
                 else "CONTRADICTED"
             ev[f"{side}_span"] = loc["node_span"]

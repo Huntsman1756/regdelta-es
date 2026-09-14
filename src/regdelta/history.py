@@ -26,7 +26,7 @@ from .sources import boe_diario, boe_doc, boe_pdf
 from .util import canonical_date, sha256_hex, sha256_hex_text
 
 PARSER_NAME = "history"
-PARSER_VERSION = "v1"
+PARSER_VERSION = "v2"
 
 BOE_BASE = "https://www.boe.es"
 XML_URL = BOE_BASE + "/diario_boe/xml.php?id={boe}"
@@ -163,20 +163,56 @@ class Acquirer:
 # ---------------------------------------------------------------------------
 
 
-def _norma_span(doc: boe_diario.DiarioDoc, num: str) -> tuple[int, int] | None:
+_ARTICULO_HEAD_RE = re.compile(
+    r"^(?:\[[^\]]*\]\s*)?([A-Za-zÁÉÍÓÚáéíóúñü]+)\s+(\S+)",
+    re.IGNORECASE)
+
+
+def _ordinal_alt(ordinal: str) -> str:
+    """Regex alternation matching an ordinal written as digit or
+    linguistic word (feminine forms: normas/disposiciones)."""
+    from regdelta.operations import _ORDINALS, _ordinal_num
+    num = _ordinal_num(ordinal)
+    if num is None:
+        return re.escape(ordinal)
+    words = {w for w, v in _ORDINALS.items() if v == num}
+    return "(?:" + "|".join(
+        re.escape(w) for w in sorted(words | {str(num)})) + ")"
+
+
+def _articulo_span(doc: boe_diario.DiarioDoc, head_word: str,
+                   ordinal: str) -> tuple[int, int] | None:
+    """Span of an articulo-class heading 'Norma cuarta.' / 'Disposición
+    transitoria primera.': optional bracket tag prefix, digit or
+    linguistic ordinal."""
+    from regdelta.operations import _ordinal_num
+    want = _ordinal_num(ordinal)
     start = None
     for n in doc.nodes:
-        if n.cls == "articulo" and re.match(rf"Norma\s+{num}\b", n.text):
-            start = n.index
-        elif start is not None and n.cls == "articulo":
-            return (start, n.index)
+        if n.cls == "articulo":
+            m = _ARTICULO_HEAD_RE.match(n.text)
+            hit = bool(m) and m.group(1).lower() == head_word \
+                and _ordinal_num(m.group(2).rstrip(".")) == want
+            if hit and start is None:
+                start = n.index
+            elif start is not None:
+                return (start, n.index)
     return (start, len(doc.nodes)) if start is not None else None
+
+
+def _norma_span(doc: boe_diario.DiarioDoc, num: str) -> tuple[int, int] | None:
+    return _articulo_span(doc, "norma", num)
 
 
 def _disp_span(doc: boe_diario.DiarioDoc, tipo: str,
                ordinal: str) -> tuple[int, int] | None:
+    """Span of 'Disposición <tipo> <ordinal>.' — the heading is two
+    words ('disposición transitoria'), so match on the ordinal after
+    the tipo word."""
     pat = re.compile(
-        rf"Disposici[oó]n\s+{tipo}\s+{ordinal}\b", re.IGNORECASE)
+        rf"^(?:\[[^\]]*\]\s*)?Disposici[oó]n\s+{tipo}\s+"
+        rf"{_ordinal_alt(ordinal)}\b",
+        re.IGNORECASE)
     start = None
     for n in doc.nodes:
         if n.cls == "articulo" and pat.search(n.text):
@@ -184,6 +220,65 @@ def _disp_span(doc: boe_diario.DiarioDoc, tipo: str,
         elif start is not None and n.cls == "articulo":
             return (start, n.index)
     return (start, len(doc.nodes)) if start is not None else None
+
+
+def _fichero_name(text: str) -> str:
+    """Case/punctuation-insensitive fichero name for heading compare:
+    casefold, collapse spaces around hyphens, drop footnote marks."""
+    t = re.sub(r"\s*-\s*", "-", text.strip().casefold())
+    return re.sub(r"\s*\(\s*\*+\s*\)\s*$", "", t)
+
+
+_FICHERO_CONNECTORS = frozenset(
+    {"a", "ante", "con", "de", "del", "e", "el", "en", "la", "las",
+     "los", "para", "por", "sobre", "y"})
+
+
+def _fichero_tokens(text: str) -> tuple[str, ...]:
+    """Content tokens of a fichero name. Annex titles and clause
+    citations differ in connectors only ('Selección y Formación de
+    personal' vs 'Selección y formación del personal')."""
+    return tuple(t for t in re.split(r"[^\wáéíóúñü]+",
+                                     _fichero_name(text))
+                 if t and t not in _FICHERO_CONNECTORS)
+
+
+def _fichero_eq(a: str, b: str) -> bool:
+    return _fichero_name(a) == _fichero_name(b) \
+        or _fichero_tokens(a) == _fichero_tokens(b)
+
+
+def _fichero_span(doc: boe_diario.DiarioDoc,
+                  name: str) -> tuple[int, int] | None:
+    """Node span of a data-file description block.
+
+    Official heading shapes: 'Fichero: <name>'; a centered bare '<name>'
+    title under a 'FICHERO' label; and the pair 'Fichero' (capitulo_num)
+    + '<name>' (capitulo_tit). The block closes at the next fichero
+    heading or label, the next articulo heading, or the signature."""
+    head = re.compile(r"^fichero\s*:")
+    boundary = re.compile(r"^(?:fichero\s*:|madrid\s*,)")
+    nodes = doc.nodes
+    start = None
+    for k, n in enumerate(nodes):
+        txt = _fichero_name(n.text)
+        if start is None:
+            if n.kind != "p":
+                continue
+            if head.match(txt) \
+                    and _fichero_eq(txt[head.match(txt).end():], name):
+                start = n.index
+            elif n.cls.startswith("centro") and _fichero_eq(txt, name):
+                start = n.index
+            elif n.cls == "capitulo_num" and txt == "fichero" \
+                    and k + 1 < len(nodes) \
+                    and nodes[k + 1].cls == "capitulo_tit" \
+                    and _fichero_eq(nodes[k + 1].text, name):
+                start = n.index
+        elif n.cls == "articulo" or boundary.match(txt) \
+                or (txt == "fichero" and n.cls != "parrafo"):
+            return (start, n.index)
+    return (start, len(nodes)) if start is not None else None
 
 
 def _sub_region(doc: boe_diario.DiarioDoc, span: tuple[int, int],
@@ -214,6 +309,8 @@ def text_region(doc: boe_diario.DiarioDoc,
     elif head.startswith("disp:"):
         tipo, _, ordinal = head[5:].partition(".")
         span = _disp_span(doc, tipo, ordinal)
+    elif head.startswith("fichero:"):
+        span = _fichero_span(doc, head[8:])
     else:
         return None
     if span is None:
@@ -720,6 +817,22 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                 if op_kind == "DELETE":
                     pass
                 elif op.annex_ref:
+                    if key.startswith("fichero:"):
+                        # '...que consta en el anejo de esta circular':
+                        # the modifier's own annex holds the new fichero
+                        # description block
+                        fspan = _fichero_span(mdoc, key[8:])
+                        if fspan is not None:
+                            kind_, text = region_text(mdoc, fspan)
+                            after_id = _insert_representation(
+                                ctx, sid, kind_, text,
+                                {"instrument": mboe, "type": "xml_nodes",
+                                 "node_span": [fspan[0], fspan[1]]},
+                                pm["snapshot"], "DECLARED",
+                                {"rule": "fichero description block in "
+                                         "modifier annex",
+                                 "node_span": list(fspan)})
+                            after_kind = kind_
                     code = (key[7:] if key.startswith("estado:")
                             else key[6:] if key.startswith("anejo:")
                             else None)

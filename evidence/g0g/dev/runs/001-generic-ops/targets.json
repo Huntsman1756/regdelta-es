@@ -1,0 +1,626 @@
+{
+  "BOE-A-2005-4749": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 7,
+      "gold_count": 7,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 7,
+      "unexpected_declared_modifier_candidates": []
+    },
+    "app_eligible": [],
+    "cell": "TEXTxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 5,
+      "app_clauses": 0,
+      "kind": {
+        "MODIFICATION": 16
+      },
+      "operations": {
+        "ADD": 4,
+        "DELETE": 1,
+        "MODIFY": 11
+      },
+      "relations": 16,
+      "representations": 13,
+      "resolution": {
+        "PARTIAL": 9,
+        "RESOLVED": 4,
+        "UNRESOLVED": 3
+      },
+      "subjects": 16,
+      "transitions": {
+        "NULL->NULL": 3,
+        "NULL->TEXT": 13
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 4,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 16,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 16,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 16,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 0,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2014-8654",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2013-7467",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2012-4804",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2011-2378",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2008-18886",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2007-15479",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2006-623",
+          "kind": "MODIFICATION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  },
+  "BOE-A-2010-12488": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 2,
+      "gold_count": 2,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 2,
+      "unexpected_declared_modifier_candidates": []
+    },
+    "app_eligible": [],
+    "cell": "VISUALxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 1,
+      "app_clauses": 0,
+      "kind": {},
+      "operations": {},
+      "relations": 0,
+      "representations": 0,
+      "resolution": {},
+      "subjects": 0,
+      "transitions": {}
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 0,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 0,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2016-1238",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2010-12628",
+          "kind": "CORRECTION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  },
+  "BOE-A-2010-1824": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 1,
+      "unexpected_declared_modifier_candidates": []
+    },
+    "app_eligible": [
+      "BOE-A-2014-13365"
+    ],
+    "cell": "VISUALxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 1,
+      "app_clauses": 5,
+      "kind": {
+        "MODIFICATION": 2
+      },
+      "operations": {
+        "SUBSTITUTE": 2
+      },
+      "relations": 2,
+      "representations": 2,
+      "resolution": {
+        "PARTIAL": 2
+      },
+      "subjects": 2,
+      "transitions": {
+        "NULL->TEXT": 2
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 0,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2014-13365",
+          "kind": "MODIFICATION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  },
+  "BOE-A-2011-2378": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 5,
+      "gold_count": 5,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 5,
+      "unexpected_declared_modifier_candidates": []
+    },
+    "app_eligible": [],
+    "cell": "TEXTxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 1,
+      "app_clauses": 0,
+      "kind": {
+        "MODIFICATION": 11
+      },
+      "operations": {
+        "ADD": 2,
+        "MODIFY": 9
+      },
+      "relations": 11,
+      "representations": 21,
+      "resolution": {
+        "PARTIAL": 1,
+        "RESOLVED": 10
+      },
+      "subjects": 11,
+      "transitions": {
+        "TEXT->NULL": 1,
+        "TEXT->TEXT": 10
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 3,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 11,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 11,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 11,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 0,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2015-13429",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2014-8654",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2013-7467",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2012-4804",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2011-2523",
+          "kind": "CORRECTION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  },
+  "BOE-A-2012-3169": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 1,
+      "unexpected_declared_modifier_candidates": []
+    },
+    "app_eligible": [],
+    "cell": "VISUALxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 9,
+      "app_clauses": 0,
+      "kind": {
+        "CORRECTION": 5
+      },
+      "operations": {
+        "MODIFY": 5
+      },
+      "relations": 5,
+      "representations": 1,
+      "resolution": {
+        "PARTIAL": 1,
+        "UNRESOLVED": 4
+      },
+      "subjects": 5,
+      "transitions": {
+        "NULL->NULL": 4,
+        "NULL->TEXT": 1
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 5,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 5,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 5,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 5,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2012-3619",
+          "kind": "CORRECTION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  },
+  "BOE-A-2013-7467": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 1,
+      "unexpected_declared_modifier_candidates": []
+    },
+    "app_eligible": [],
+    "cell": "TEXTxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 1,
+      "app_clauses": 0,
+      "kind": {
+        "MODIFICATION": 3
+      },
+      "operations": {
+        "ADD": 2,
+        "MODIFY": 1
+      },
+      "relations": 3,
+      "representations": 5,
+      "resolution": {
+        "PARTIAL": 1,
+        "RESOLVED": 2
+      },
+      "subjects": 3,
+      "transitions": {
+        "TEXT->NULL": 1,
+        "TEXT->TEXT": 2
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 3,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 3,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 3,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 0,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2014-8654",
+          "kind": "MODIFICATION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  },
+  "BOE-A-2016-4356": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 1,
+      "gold_count": 1,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 1,
+      "unexpected_declared_modifier_candidates": []
+    },
+    "app_eligible": [],
+    "cell": "VISUALxNON_CONSOLIDATED",
+    "inventory": {
+      "anomalies": 0,
+      "app_clauses": 0,
+      "kind": {
+        "CORRECTION": 10
+      },
+      "operations": {
+        "ADD": 3,
+        "MODIFY": 1,
+        "SUBSTITUTE": 6
+      },
+      "relations": 10,
+      "representations": 9,
+      "resolution": {
+        "PARTIAL": 6,
+        "RESOLVED": 4
+      },
+      "subjects": 10,
+      "transitions": {
+        "NULL->NULL": 5,
+        "TEXT->NULL": 1,
+        "TEXT->TEXT": 4
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 10,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 10,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 10,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 0,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2016-5724",
+          "kind": "CORRECTION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  },
+  "BOE-A-2019-17286": {
+    "NON_GATE_DIAGNOSTIC": {
+      "chains": {
+        "CHAIN_BROKEN": 0,
+        "CHAIN_NOT_PROVABLE": 0,
+        "CHAIN_PROVEN": 0,
+        "broken_locator_keys": [],
+        "multi_hop_subjects": 0
+      },
+      "discovered_count": 2,
+      "gold_count": 1,
+      "missing_gold_modifiers": [],
+      "not_reverse_checked": [],
+      "reverse_cross_checked_count": 1,
+      "unexpected_declared_modifier_candidates": [
+        "BOE-A-2021-21666"
+      ]
+    },
+    "app_eligible": [
+      "BOE-A-2023-5481"
+    ],
+    "cell": "TEXTxCONSOLIDATED",
+    "inventory": {
+      "anomalies": 2,
+      "app_clauses": 3,
+      "kind": {
+        "MODIFICATION": 2
+      },
+      "operations": {
+        "DELETE": 2
+      },
+      "relations": 2,
+      "representations": 2,
+      "resolution": {
+        "RESOLVED": 2
+      },
+      "subjects": 2,
+      "transitions": {
+        "TEXT->NULL": 2
+      }
+    },
+    "query_execution": {
+      "affects": {
+        "result_count": 1,
+        "status": "OK"
+      },
+      "as_of": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "changes": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "diff": {
+        "result_count": 2,
+        "status": "OK"
+      },
+      "upcoming": {
+        "result_count": 0,
+        "status": "OK"
+      }
+    },
+    "report": {
+      "anchors": 0,
+      "modifiers": [
+        {
+          "boe_id": "BOE-A-2023-5481",
+          "kind": "MODIFICATION"
+        },
+        {
+          "boe_id": "BOE-A-2021-21666",
+          "kind": "MODIFICATION"
+        }
+      ],
+      "target_annex_anchored": false
+    }
+  }
+}

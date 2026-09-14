@@ -33,7 +33,7 @@ from dataclasses import dataclass, field
 from .sources.boe_diario import DiarioDoc, Node, normalize
 
 PARSER_NAME = "boe_operations"
-PARSER_VERSION = "v1"
+PARSER_VERSION = "v2"
 
 # ---------------------------------------------------------------------------
 # markers / verbs / patterns
@@ -46,7 +46,10 @@ _MARKER_RE = re.compile(
 _AMEND_VERB_RE = re.compile(
     r"se\s+(modifica\w*|sustituye\w*|suprime\w*|elimina\w*|añade\w*|"
     r"introduce\w*|incorpora\w*|incluye\w*|realiza\w*|desglosa\w*|"
-    r"inserta\w*)|"
+    r"inserta\w*|crea\w*)|"
+    r"debe\w*\s+(modificarse|sustituirse|suprimirse|eliminarse|"
+    r"añadirse|introducirse|incorporarse|incluirse|insertarse|"
+    r"crearse)|"
     r"queda\w*\s+redactad|pasa\w*\s+a\s+(?:ser|denominarse)|"
     r"donde\s+dice|debe\s+decir|se\s+sombrea",
     re.IGNORECASE,
@@ -81,7 +84,41 @@ _CONTAINER_RE = re.compile(
     re.IGNORECASE,
 )
 
-_TARGET_RE = re.compile(r"Circular\s+(\d+)\s*/\s*(\d{4})", re.IGNORECASE)
+_TARGET_RE = re.compile(
+    r"Circular\s+(?:del\s+Banco\s+de\s+Espa[ñn]a\s+)?(\d+)\s*/\s*(\d{4})",
+    re.IGNORECASE)
+
+
+def _target_refs(text: str) -> list[tuple[int, int]]:
+    """All 'Circular N/AAAA' references in text, incl. the
+    'Circular del Banco de España N/AAAA' word order."""
+    return [(int(a), int(b)) for a, b in _TARGET_RE.findall(text)]
+
+
+# "...que consta en el anejo de la Circular del Banco de España
+# 4/2008, de actualización de la Circular 2/2005" — the ref governed by
+# "anejo de la Circular" names the instrument whose annex holds the
+# fichero; a second ref nested in its description is not an owner.
+_FICHERO_OWNER_RE = re.compile(
+    r"anejo\s+de\s+la\s+Circular\s+(?:del\s+Banco\s+de\s+Espa[ñn]a\s+)?"
+    r"(\d+)\s*/\s*(\d{4})", re.IGNORECASE)
+
+
+def _clause_targets(text: str) -> list[tuple[int, int]]:
+    """Circular refs that attribute a clause to another instrument.
+
+    An owner construction ('...que consta/figura en el anejo de la
+    Circular N/AAAA') wins over every other mention; without it, only a
+    single unambiguous ref attributes the clause — multiple competing
+    refs are descriptive, not attributive.
+    """
+    owners = [(int(m.group(1)), int(m.group(2)))
+              for m in _FICHERO_OWNER_RE.finditer(text)]
+    if owners:
+        return owners
+    refs = _target_refs(_QUOTED_SPAN_RE.sub("", text))
+    uniq = list(dict.fromkeys(refs))
+    return uniq if len(uniq) == 1 else []
 
 _ORDINALS = {
     "primera": 1, "primero": 1, "primer": 1, "segunda": 2, "segundo": 2,
@@ -122,6 +159,17 @@ _QUOTED_STATE_RE = re.compile(
 _QUOTED_CODE_RE = re.compile(
     r"«\s*(FI|FC|PI|PC|PA|UEM|AVE)\s*(\d[\d.\-]*)")
 
+# data-file subjects: 'el fichero «Expedientes sancionadores»'
+_FICHERO_RE = re.compile(r"\bficheros?\s+«([^»]+)»", re.IGNORECASE)
+# parenthetical errata locators: "en la página 18938 (Estado T.17-2)"
+_PAREN_STATE_RE = re.compile(r"\(\s*estados?\s+([^)]*)\)", re.IGNORECASE)
+_PAREN_CODE_RE = re.compile(r"([A-ZÁÉÍÓÚÑ]{1,5})\s*\.?\s*(\d[\d.\-]*)")
+# non-operative qualifier that closes an unmarked clause's subject zone:
+# "se suprimen los apartados 4 y 5 ..., sin que se introduzca ningún
+# cambio en los apartados 1 a 3"
+_NON_OP_TAIL_RE = re.compile(r"[,;.]\s*sin\s+(?:que|perjuicio)\b",
+                             re.IGNORECASE)
+
 _PATTERNS = {
     "norma": re.compile(
         r"\bnormas?\s+(\d+|" + "|".join(_ORDINALS) + r")", re.IGNORECASE),
@@ -158,10 +206,15 @@ _ANNEX_REF_RE = re.compile(
 )
 
 _OP_KINDS = [
-    ("SUBSTITUTE", re.compile(r"se\s+sustituye\w*", re.IGNORECASE)),
-    ("DELETE", re.compile(r"se\s+(?:suprime\w*|elimina\w*)", re.IGNORECASE)),
+    ("SUBSTITUTE", re.compile(
+        r"se\s+sustituye\w*|debe\w*\s+sustituirse", re.IGNORECASE)),
+    ("DELETE", re.compile(
+        r"se\s+(?:suprime\w*|elimina\w*)|debe\w*\s+(?:suprimirse|"
+        r"eliminarse)", re.IGNORECASE)),
     ("ADD", re.compile(
-        r"se\s+(?:añade\w*|introduce\w*|incorpora\w*|incluye\w*)",
+        r"se\s+(?:añade\w*|introduce\w*|incorpora\w*|incluye\w*|crea\w*)|"
+        r"debe\w*\s+(?:añadirse|introducirse|incorporarse|incluirse|"
+        r"insertarse|crearse)",
         re.IGNORECASE)),
     ("MODIFY", re.compile(
         r"se\s+(?:modifica\w*|realiza\w*|sombrea)|queda\w*\s+redactad|"
@@ -192,6 +245,9 @@ def subject_operation_kind(clause_text: str, locator_key: str,
         pat = re.compile(
             r"\b(?:norma|anejo)\s+" + re.escape(key_body) + r"(?![\d.])",
             re.IGNORECASE)
+    elif locator_key.startswith("fichero:"):
+        pat = re.compile(r"\bfichero\s+«?\s*" + re.escape(key_body),
+                         re.IGNORECASE)
     else:
         return default
     verbs: list[tuple[int, str]] = []
@@ -201,14 +257,25 @@ def subject_operation_kind(clause_text: str, locator_key: str,
     m = pat.search(clause_text)
     if m is None or not verbs:
         return default
+    preceding = [v for v in verbs if v[0] <= m.start()]
+    following = [v for v in verbs if v[0] > m.start()]
+    if locator_key.startswith("fichero:"):
+        # "Se <verb> el fichero «X»": the «name» is the direct object of
+        # a preceding verb; a later verb opens a coordinated action on a
+        # different subject ('Se modifica el fichero «X» ... y se incluye
+        # un nuevo apartado' leaves X MODIFY, not ADD).
+        if preceding:
+            return preceding[-1][1]
+        if following:
+            return following[0][1]
+        return default
     # Spanish orderings: "se eliminan los estados X" (verb before mention)
     # and "el estado X pasa a denominarse" (verb after mention). The
     # subject adopts the first verb following its mention; if none, the
     # last verb preceding it.
-    for pos, vk in verbs:
-        if pos > m.start():
-            return vk
-    return verbs[-1][1]
+    if following:
+        return following[0][1]
+    return preceding[-1][1]
 
 
 # ---------------------------------------------------------------------------
@@ -240,6 +307,9 @@ class Operation:
     context: dict[str, str]     # inherited context used for resolution
     section_index: int          # articulo index opening the section
     inline_content: str = ""    # quoted content fused into the locator node
+    targets: list[tuple[int, int]] = field(default_factory=list)
+    # circular refs the clause itself names (unmarked ops inside
+    # sections whose heading names no circular)
 
 
 @dataclass
@@ -374,11 +444,23 @@ def _extract_mentions(text: str) -> dict[str, object]:
             continue
         if code not in estados:
             estados.append(code)
+    for pm in _PAREN_STATE_RE.finditer(stripped):
+        for cm in _PAREN_CODE_RE.finditer(pm.group(1)):
+            pos = pm.start(1) + cm.start()
+            if any(a <= pos < b for a, b in anchor_spans):
+                continue
+            code = _norm_state_code(cm.group(1), cm.group(2))
+            if code not in estados:
+                estados.append(code)
     for code in quoted_states:
         if code not in estados:
             estados.append(code)
     if estados:
         out["estado"] = estados
+    ficheros = [re.sub(r"\s+", " ", m.group(1)).strip()
+                for m in _FICHERO_RE.finditer(text)]
+    if ficheros:
+        out["fichero"] = ficheros
     return out
 
 
@@ -391,6 +473,13 @@ def _compose_keys(mentions: dict[str, object],
     for code in estados:
         subs.append(SubjectRef(f"estado:{code}", f"estado {code}", "ESTADO"))
     if estados:
+        return subs
+
+    ficheros = mentions.get("fichero") or []
+    for name in ficheros:
+        subs.append(SubjectRef(f"fichero:{name}", f"fichero {name}",
+                               "FICHERO"))
+    if ficheros:
         return subs
 
     def first(key):
@@ -412,12 +501,18 @@ def _compose_keys(mentions: dict[str, object],
         anejo_n = ctx.get("anejo")
 
     disp = first("disposicion")
+    disp_key = None
     if disp:
         tipo = str(disp[0]).lower()
         ordinal = str(disp[1]).lower()
-        subs.append(SubjectRef(
-            f"disp:{tipo}.{ordinal}", f"disposición {tipo} {ordinal}",
-            "DISPOSICION"))
+        disp_key = f"disp:{tipo}.{ordinal}"
+        # a sub-locator under a disposición composes with it
+        # ('apartado 1 de la disposición transitoria primera'); the bare
+        # disposición key is emitted only when it is itself the subject
+        if not any(mentions.get(k) for k in
+                   ("apartado", "punto", "letra", "numeral", "nota")):
+            subs.append(SubjectRef(
+                disp_key, f"disposición {tipo} {ordinal}", "DISPOSICION"))
 
     indice = mentions.get("indice")
     if indice is not None and anejo_n:
@@ -432,7 +527,9 @@ def _compose_keys(mentions: dict[str, object],
             lo = int(p[0])
             hi = int(p[1]) if len(p) > 1 and p[1] else lo
             for v in range(lo, hi + 1):
-                if anejo_n:
+                if disp_key is not None:
+                    punto_keys.append(f"{disp_key}.punto:{v}")
+                elif anejo_n:
                     punto_keys.append(f"anejo:{anejo_n}.punto:{v}")
                 elif norma_n:
                     punto_keys.append(f"norma:{norma_n}.punto:{v}")
@@ -449,7 +546,9 @@ def _compose_keys(mentions: dict[str, object],
         nums = [str(v) for v in _expand_numlist(raw)]
         values = nums or [raw]
         for n in values:
-            if norma_n is not None:
+            if disp_key is not None:
+                key = f"{disp_key}.apartado:{n}"
+            elif norma_n is not None:
                 key = f"norma:{norma_n}.apartado:{n}"
             elif anejo_n is not None and n.isdigit():
                 # numbered units inside an anejo are its "puntos" even
@@ -545,6 +644,48 @@ def _literals(text: str) -> list[tuple[str, str]]:
     return pairs
 
 
+def _mentions_or_literals(text: str) -> dict[str, object] | None:
+    mentions = _extract_mentions(text)
+    if mentions or _literals(text):
+        return mentions
+    return None
+
+
+def _unmarked_op(node: Node) -> tuple[str, str] | None:
+    """Recognize an operative paragraph without a list marker.
+
+    BdE instruments carry three unmarked shapes inside the dispositive
+    part: (a) a container intro fused with the first operation —
+    "Se introducen las siguientes modificaciones en la Circular N/AAAA:
+    se suprimen los apartados ..."; (b) a direct amendment clause —
+    "Se modifica el fichero «X» ..." or "En la página N ... donde
+    dice". Exposición prose before the first articulo is out of scope:
+    unmarked ops are only sought inside sections, and a subject mention
+    or a declared literal pair is mandatory.
+
+    Returns ``(context_prefix, clause)`` — the prefix feeds section
+    context/targets — or None if the paragraph is not operative.
+    """
+    if node.kind != "p" or node.cls not in _LOCATOR_CLASSES:
+        return None
+    text = node.text
+    if not _AMEND_VERB_RE.search(text):
+        return None
+    if _CONTAINER_RE.search(text):
+        idx = text.find(":")
+        if idx < 0 or not _AMEND_VERB_RE.search(text[idx + 1:]):
+            return None
+        clause = text[idx + 1:].strip()
+        if _mentions_or_literals(clause) is None:
+            return None
+        return text[:idx + 1], clause
+    if re.match(r"(?:en\s+(?:la|el|los|las)\s+\w|se\s+\w)", text,
+                re.IGNORECASE) \
+            and _mentions_or_literals(text) is not None:
+        return "", text
+    return None
+
+
 # ---------------------------------------------------------------------------
 # main entry
 # ---------------------------------------------------------------------------
@@ -563,25 +704,74 @@ def split_sections(doc: DiarioDoc) -> list[Section]:
     return sections
 
 
+def _preamble_targets(doc: DiarioDoc, sec: Section) -> list[tuple[int, int]]:
+    """Circular refs in a section's leading preamble paragraphs.
+
+    Sections like "Norma segunda." carry no target in the heading; the
+    operative announcement paragraph does — "Se introducen las
+    siguientes modificaciones en la Circular N/AAAA:". Only leading
+    preamble-shaped nodes (ending ':' or announcing 'siguientes') count,
+    so a circular cited as replacement content is never read as a
+    target.
+    """
+    out: list[tuple[int, int]] = []
+    for n in doc.nodes[sec.node_start + 1:sec.node_end]:
+        if n.kind != "p" or n.cls not in ("parrafo", "parrafo_2") \
+                or _marker_parts(n.text) is not None:
+            break
+        text = n.text.rstrip()
+        if not (text.endswith(":") or "siguientes" in text.lower()):
+            break
+        for m in _TARGET_RE.finditer(_QUOTED_SPAN_RE.sub("", n.text)):
+            ref = (int(m.group(1)), int(m.group(2)))
+            if ref not in out:
+                out.append(ref)
+    return out
+
+
 def parse_operations(doc: DiarioDoc,
                      target_ref: tuple[int, int] | None) -> OpsResult:
     """Parse amendment operations targeting ``target_ref``=(num, year).
 
     ``target_ref=None`` matches every section (used for the correction
     document whose preamble names the target in prose, not headings).
+    A section belongs to the target when its heading or leading
+    preamble names it; in sections naming no circular at all, an
+    operation that names the target in its own clause is still kept.
     """
     sections = split_sections(doc)
     target_sections: list[Section] = []
     out_of_target = 0
 
+    selected: list[tuple[Section, list[Operation]]] = []
     if sections:
         for s in sections:
+            for ref in _preamble_targets(doc, s):
+                if ref not in s.targets:
+                    s.targets.append(ref)
             if target_ref is None or target_ref in s.targets:
                 target_sections.append(s)
+                selected.append((s, _parse_section(doc, s)))
+            elif not s.targets and target_ref is not None:
+                # unnamed section: an inline ref attributes the op only
+                # when its subjects are named entities owned by that
+                # circular ('Se modifica el fichero «X» ... que consta
+                # en el anejo de la Circular N/AAAA'). A structural
+                # locator plus an inline ref is a cross-reference —
+                # e.g. transitoria items citing 'los apartados 1 a 9 de
+                # la disposición transitoria primera de la Circular X'.
+                kept = [op for op in _parse_section(doc, s)
+                        if target_ref in op.targets and op.subjects
+                        and all(sub.kind == "FICHERO"
+                                for sub in op.subjects)]
+                if kept:
+                    selected.append((s, kept))
     else:
         # no articulo structure (e.g. correction orders): the whole body is
         # one implicit section; caller must ensure target naming upstream
         target_sections = [Section("", 0, len(doc.nodes), [])]
+        selected.append((target_sections[0],
+                         _parse_section(doc, target_sections[0])))
 
     # count marker+verb paragraphs outside target sections for auditing
     target_ranges = [(s.node_start, s.node_end) for s in target_sections]
@@ -591,17 +781,18 @@ def parse_operations(doc: DiarioDoc,
             out_of_target += 1
 
     operations: list[Operation] = []
-    for sec in target_sections:
-        operations.extend(_parse_section(doc, sec))
+    for _, ops in selected:
+        operations.extend(ops)
 
     # content spans: a leaf op's content runs until the next locator of
     # the same section or the section end
     locator_idx = {op.node_index for op in operations}
     sec_end = {op.node_index: sec.node_end
-               for sec in target_sections for op in operations
-               if sec.node_start <= op.node_index < sec.node_end}
+               for sec, ops in selected for op in ops}
     for op in operations:
-        if op.is_container:
+        if op.is_container or not op.marker:
+            # unmarked clauses are self-contained: their content is the
+            # clause's own literals/inline spans, never trailing nodes
             op.content_span = (op.node_index + 1, op.node_index + 1)
             continue
         end = sec_end.get(op.node_index, len(doc.nodes))
@@ -650,6 +841,43 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
             continue
         parts = _marker_parts(n.text)
         if parts is None:
+            unmarked = _unmarked_op(n)
+            if unmarked is not None:
+                prefix, clause = unmarked
+                op_targets = _target_refs(_QUOTED_SPAN_RE.sub("", prefix))
+                if prefix:
+                    base_ctx = _context_update(
+                        base_ctx, _extract_mentions(prefix))
+                tail = _NON_OP_TAIL_RE.search(clause)
+                zone = clause[:tail.start()] if tail else clause
+                mentions = _extract_mentions(zone)
+                ctx = merged_ctx()
+                subjects = _compose_keys(mentions, ctx)
+                page = mentions.get("pagina")
+                page_ref = int(str(page[0][0])) if page else (
+                    int(ctx["pagina"]) if "pagina" in ctx else None)
+                if page_ref:
+                    subjects = [SubjectRef(s.locator_key, s.label, s.kind,
+                                           s.page_ref or page_ref)
+                                for s in subjects]
+                for ref in _clause_targets(clause):
+                    if ref not in op_targets:
+                        op_targets.append(ref)
+                ops.append(Operation(
+                    node_index=i,
+                    marker="",
+                    clause_text=clause,
+                    operation_kind=_op_kind(clause),
+                    subjects=subjects,
+                    content_span=(i + 1, i + 1),
+                    is_container=False,
+                    annex_ref=bool(_ANNEX_REF_RE.search(n.text)),
+                    literals=_literals(clause),
+                    context=ctx,
+                    section_index=sec.node_start,
+                    targets=op_targets,
+                ))
+                continue
             # preamble context setter, e.g. "Se introducen los siguientes
             # cambios en el anejo 9 ... :" before lettered point clauses
             if n.cls in ("parrafo", "parrafo_2") and (
@@ -741,6 +969,8 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
             context=ctx,
             section_index=sec.node_start,
             inline_content=inline,
+            targets=[(int(a), int(b)) for a, b in _TARGET_RE.findall(
+                _QUOTED_SPAN_RE.sub("", n.text))],
         ))
         prev_container = container
 
