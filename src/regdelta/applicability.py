@@ -374,7 +374,7 @@ def build(conn: sqlite3.Connection, data_dir: Path,
 
     # ---- anomalies --------------------------------------------------------
     for u in unbound:
-        aid = sha256_hex(
+        aid = sha256_hex_text(
             f"anomaly|{ANOMALY_TARGET_UNBOUND}|{modifier_boe}"
             f"|{u['clause_key']}|{u['locator_key']}")
         conn.execute(

@@ -379,6 +379,33 @@ def test_unbound_explicit_target_creates_anomaly_not_general_only(built):
         conn, rid)["classification"] == "GENERAL_ONLY"
 
 
+def test_build_persists_unbound_target_anomaly(built):
+    """End-to-end: when a cited locator loses its relation, build must
+    persist an APPLICABILITY_TARGET_UNBOUND anomaly — not crash, not
+    degrade silently."""
+    conn, data_dir, _ = built
+    key = "norma:31.apartado:3"
+    rids = _relation_ids(conn, key)
+    assert rids
+    conn.execute("SAVEPOINT sp_unbound_build")
+    try:
+        ph = ",".join("?" * len(rids))
+        conn.execute(
+            "DELETE FROM applicability_targets"
+            f" WHERE modification_relation_id IN ({ph})", rids)
+        conn.execute(
+            "DELETE FROM modification_relations"
+            f" WHERE relation_id IN ({ph})", rids)
+        applicability.build(conn, data_dir, MODIFIER, TARGET)
+        anoms = [json.loads(r[0]) for r in conn.execute(
+            "SELECT detail FROM anomalies WHERE kind=?",
+            (applicability.ANOMALY_TARGET_UNBOUND,))]
+        assert any(a["locator_key"] == key for a in anoms)
+    finally:
+        conn.execute("ROLLBACK TO sp_unbound_build")
+        conn.execute("RELEASE sp_unbound_build")
+
+
 # ---------------------------------------------------------------------------
 # frequency provenance (D3–D5 mechanism)
 # ---------------------------------------------------------------------------
