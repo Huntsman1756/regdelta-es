@@ -1,0 +1,4826 @@
+{
+  "cases": [
+    {
+      "claim_types": [
+        "operation_verb_consistent",
+        "target_locator_resolves"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": null
+      },
+      "expected_evidence_span": {},
+      "failure_id": "186ee4776d244319a600b7f4aa20014b6d269f2fdb43ad133dd4aebb859de356",
+      "locator_key": "anejo:1",
+      "modifier": "BOE-A-2013-11729",
+      "operation_kind": "DELETE",
+      "relation_id": "186ee4776d244319a600b7f4aa20014b6d269f2fdb43ad133dd4aebb859de356",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            394,
+            395
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            392,
+            393
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          394,
+          395
+        ],
+        "before_span": [
+          392,
+          393
+        ]
+      },
+      "failure_id": "289499d8f249107109c05f1a745697426cdf099b9c99ca1e9d0bbc209a23b611",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2013-11729",
+      "operation_kind": "ADD",
+      "relation_id": "289499d8f249107109c05f1a745697426cdf099b9c99ca1e9d0bbc209a23b611",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                394,
+                395
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            445,
+            452
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            406,
+            444
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          445,
+          452
+        ],
+        "before_span": [
+          406,
+          444
+        ]
+      },
+      "failure_id": "38870d14d76321a6800aa552b04d90da3c10e3060c3471a0a94dcf8b22e84803",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2013-11729",
+      "operation_kind": "ADD",
+      "relation_id": "38870d14d76321a6800aa552b04d90da3c10e3060c3471a0a94dcf8b22e84803",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                406,
+                444
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                445,
+                452
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            331,
+            333
+          ],
+          "type": "xml_nodes"
+        },
+        "before": null
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          331,
+          333
+        ]
+      },
+      "failure_id": "472f8d689669c21df25d96529c031fabf0ccbe715b179bb132dcf0a9ce6a3814",
+      "locator_key": "disp:transitoria.primera",
+      "modifier": "BOE-A-2013-11729",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "472f8d689669c21df25d96529c031fabf0ccbe715b179bb132dcf0a9ce6a3814",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                331,
+                333
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "operation_verb_consistent",
+        "target_locator_resolves"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            326,
+            328
+          ],
+          "type": "xml_nodes"
+        },
+        "before": null
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          326,
+          328
+        ]
+      },
+      "failure_id": "592765710b6976053e8a82dd2fe3dea244ae3d6d4686f82761743e02aafad1cb",
+      "locator_key": "norma:14.apartado:3.letra:b",
+      "modifier": "BOE-A-2013-11729",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "592765710b6976053e8a82dd2fe3dea244ae3d6d4686f82761743e02aafad1cb",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            394,
+            395
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "before_span": [
+          394,
+          395
+        ]
+      },
+      "failure_id": "5cd185e3ea846d7b572edd576c000595755554699424b7ff94623417c3e970fd",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2013-11729",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "5cd185e3ea846d7b572edd576c000595755554699424b7ff94623417c3e970fd",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                394,
+                395
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            456,
+            459
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            454,
+            455
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          456,
+          459
+        ],
+        "before_span": [
+          454,
+          455
+        ]
+      },
+      "failure_id": "788e9da0295899350a5ee7a008d5d04c28bfd66ca2b504bd0405dfb5556000da",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2013-11729",
+      "operation_kind": "ADD",
+      "relation_id": "788e9da0295899350a5ee7a008d5d04c28bfd66ca2b504bd0405dfb5556000da",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                454,
+                455
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                456,
+                459
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "operation_verb_consistent",
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            445,
+            452
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "before_span": [
+          445,
+          452
+        ]
+      },
+      "failure_id": "9a43192e3b10475ab8c381b3fd2a835831feb6a4813b7354fcd57bc368b889e0",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2013-11729",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "9a43192e3b10475ab8c381b3fd2a835831feb6a4813b7354fcd57bc368b889e0",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                445,
+                452
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            454,
+            455
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            445,
+            452
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          454,
+          455
+        ],
+        "before_span": [
+          445,
+          452
+        ]
+      },
+      "failure_id": "b9a7a306921b99652e98d4bde3fcf8fa67a2d3a5818b73dfe789e8ee4e917b1f",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2013-11729",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "b9a7a306921b99652e98d4bde3fcf8fa67a2d3a5818b73dfe789e8ee4e917b1f",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                445,
+                452
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                454,
+                455
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "operation_verb_consistent",
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            406,
+            444
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            394,
+            395
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          406,
+          444
+        ],
+        "before_span": [
+          394,
+          395
+        ]
+      },
+      "failure_id": "f14c41924fdd9782d96c9d041f246a7bcb2c41a7d649def279c8df242d21a785",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2013-11729",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "f14c41924fdd9782d96c9d041f246a7bcb2c41a7d649def279c8df242d21a785",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                394,
+                395
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                406,
+                444
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            877,
+            878
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            875,
+            876
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          877,
+          878
+        ],
+        "before_span": [
+          875,
+          876
+        ]
+      },
+      "failure_id": "1bb6858eda1d93c1b70b8f1103afebe3064e06c103138a6876296e03ab091b0c",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "ADD",
+      "relation_id": "1bb6858eda1d93c1b70b8f1103afebe3064e06c103138a6876296e03ab091b0c",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                877,
+                878
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            786,
+            789
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            779,
+            780
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          786,
+          789
+        ],
+        "before_span": [
+          779,
+          780
+        ]
+      },
+      "failure_id": "225d95003d5e805c3518c00ee7b54976da46a12e1e095eeffda4d502ec7c38e0",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "225d95003d5e805c3518c00ee7b54976da46a12e1e095eeffda4d502ec7c38e0",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                779,
+                780
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                786,
+                789
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            873,
+            874
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            865,
+            867
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          873,
+          874
+        ],
+        "before_span": [
+          865,
+          867
+        ]
+      },
+      "failure_id": "22f961cb4983ef50fa4e106b1de3b9ffe87f48e84da096077be93012dc7912e2",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "ADD",
+      "relation_id": "22f961cb4983ef50fa4e106b1de3b9ffe87f48e84da096077be93012dc7912e2",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                873,
+                874
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            832,
+            833
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "before_span": [
+          832,
+          833
+        ]
+      },
+      "failure_id": "298fa29a9ea9982c1ef84fc971763abc901fb7397887a0bb851ca2395f21c35c",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "298fa29a9ea9982c1ef84fc971763abc901fb7397887a0bb851ca2395f21c35c",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                832,
+                833
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            837,
+            838
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            835,
+            836
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          837,
+          838
+        ],
+        "before_span": [
+          835,
+          836
+        ]
+      },
+      "failure_id": "2cb941e6739192f47985bfa6d55a4cc120a3cf4537e3333257d329c89d1411f1",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "2cb941e6739192f47985bfa6d55a4cc120a3cf4537e3333257d329c89d1411f1",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                835,
+                836
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                837,
+                838
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            832,
+            833
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            792,
+            795
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          832,
+          833
+        ],
+        "before_span": [
+          792,
+          795
+        ]
+      },
+      "failure_id": "36d04635870176d5e2dbe9644488fb33d7a73953aa56d2a0e45c5c5a847a2e16",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "ADD",
+      "relation_id": "36d04635870176d5e2dbe9644488fb33d7a73953aa56d2a0e45c5c5a847a2e16",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                792,
+                795
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                832,
+                833
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            835,
+            836
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            832,
+            833
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          835,
+          836
+        ],
+        "before_span": [
+          832,
+          833
+        ]
+      },
+      "failure_id": "3e2cdb531807553bb82f6acde8f73894b939fc7dd5c286655d5a432be26e8cb1",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "3e2cdb531807553bb82f6acde8f73894b939fc7dd5c286655d5a432be26e8cb1",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                832,
+                833
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                835,
+                836
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": null
+      },
+      "expected_evidence_span": {},
+      "failure_id": "474282e82099ca08d301a0ccbbbef8afee7710534e94298c05367940df091b88",
+      "locator_key": "anejo:1",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "MODIFY",
+      "relation_id": "474282e82099ca08d301a0ccbbbef8afee7710534e94298c05367940df091b88",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            790,
+            791
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            786,
+            789
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          790,
+          791
+        ],
+        "before_span": [
+          786,
+          789
+        ]
+      },
+      "failure_id": "64cbac39884edb25601c24370995de78bedb1982309c743613d7cf50d28d4f83",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "64cbac39884edb25601c24370995de78bedb1982309c743613d7cf50d28d4f83",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                786,
+                789
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                790,
+                791
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            779,
+            780
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            771,
+            772
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          779,
+          780
+        ],
+        "before_span": [
+          771,
+          772
+        ]
+      },
+      "failure_id": "6c9bddbd1c09fff650d364b313b51069f8042ce5f0a2bd034ea2a6470b06dc2e",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "ADD",
+      "relation_id": "6c9bddbd1c09fff650d364b313b51069f8042ce5f0a2bd034ea2a6470b06dc2e",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                771,
+                772
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                779,
+                780
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            771,
+            772
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-11729",
+          "node_span": [
+            456,
+            459
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          771,
+          772
+        ],
+        "before_span": [
+          456,
+          459
+        ]
+      },
+      "failure_id": "72a7330cfca217a91481c2b13b2f6fbfdbff9887ae1d9ea821679a7df522f553",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "ADD",
+      "relation_id": "72a7330cfca217a91481c2b13b2f6fbfdbff9887ae1d9ea821679a7df522f553",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-11729",
+            "locator": {
+              "instrument": "BOE-A-2013-11729",
+              "node_span": [
+                456,
+                459
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-11729"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                771,
+                772
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "operation_verb_consistent"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            886,
+            893
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "before_span": [
+          886,
+          893
+        ]
+      },
+      "failure_id": "75b247d7e6d089b796bf4e5379de8748804f399da7f83dcf028c20e928df3678",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "75b247d7e6d089b796bf4e5379de8748804f399da7f83dcf028c20e928df3678",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            840,
+            846
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            837,
+            838
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          840,
+          846
+        ],
+        "before_span": [
+          837,
+          838
+        ]
+      },
+      "failure_id": "7a79a1eda8ad3818734f7f483fafae9c33421422d5cc1a76f09079318b9b88eb",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "ADD",
+      "relation_id": "7a79a1eda8ad3818734f7f483fafae9c33421422d5cc1a76f09079318b9b88eb",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                837,
+                838
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                840,
+                846
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            877,
+            878
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "before_span": [
+          877,
+          878
+        ]
+      },
+      "failure_id": "7b6d4f5ababccee40f2454de071dadedab0a9f9b61963702e86f16925cf9aec2",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "7b6d4f5ababccee40f2454de071dadedab0a9f9b61963702e86f16925cf9aec2",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                877,
+                878
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": null
+      },
+      "expected_evidence_span": {},
+      "failure_id": "8b54b5a1e608a6bccf86c7f556b902561bce94e44e43387db97e213528549d93",
+      "locator_key": "anejo:1",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "8b54b5a1e608a6bccf86c7f556b902561bce94e44e43387db97e213528549d93",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            861,
+            862
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            848,
+            850
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          861,
+          862
+        ],
+        "before_span": [
+          848,
+          850
+        ]
+      },
+      "failure_id": "a0c124794f8965ffb7b318414b1f0e8464166c16b140016785f8e79a6cf0dc63",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "ADD",
+      "relation_id": "a0c124794f8965ffb7b318414b1f0e8464166c16b140016785f8e79a6cf0dc63",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                848,
+                850
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            792,
+            795
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            790,
+            791
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          792,
+          795
+        ],
+        "before_span": [
+          790,
+          791
+        ]
+      },
+      "failure_id": "af63714acb3eb138b463dee6d702b692398ca4262e9863dceca87079970a3050",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "ADD",
+      "relation_id": "af63714acb3eb138b463dee6d702b692398ca4262e9863dceca87079970a3050",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                790,
+                791
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                792,
+                795
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            837,
+            838
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "before_span": [
+          837,
+          838
+        ]
+      },
+      "failure_id": "b5b48e4a7538e0dff0f1ff0ef0069fd00b78cbe44ef6be68003412798df3e592",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "MODIFY",
+      "relation_id": "b5b48e4a7538e0dff0f1ff0ef0069fd00b78cbe44ef6be68003412798df3e592",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                837,
+                838
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            667,
+            668
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            225,
+            226
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          667,
+          668
+        ],
+        "before_span": [
+          225,
+          226
+        ]
+      },
+      "failure_id": "c8aad7a260d97cd0ac3d23f8b09dba0c0e19d437e324a71e9a531ce70173e86f",
+      "locator_key": "norma:11.apartado:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "c8aad7a260d97cd0ac3d23f8b09dba0c0e19d437e324a71e9a531ce70173e86f",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                667,
+                668
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            875,
+            876
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            873,
+            874
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          875,
+          876
+        ],
+        "before_span": [
+          873,
+          874
+        ]
+      },
+      "failure_id": "dd1f0b1261a8748b565616e8d6b4833001da2979da78ae5ac48023a398ce65bc",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "ADD",
+      "relation_id": "dd1f0b1261a8748b565616e8d6b4833001da2979da78ae5ac48023a398ce65bc",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                873,
+                874
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            848,
+            850
+          ],
+          "type": "xml_nodes"
+        },
+        "before": null
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          848,
+          850
+        ]
+      },
+      "failure_id": "e27e12277e7f700aeab427725c1bf55673e686f2ae7e303b4eefa328295f8f5d",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "e27e12277e7f700aeab427725c1bf55673e686f2ae7e303b4eefa328295f8f5d",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                848,
+                850
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            880,
+            881
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            877,
+            878
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          880,
+          881
+        ],
+        "before_span": [
+          877,
+          878
+        ]
+      },
+      "failure_id": "ef338c382d699c7ffc26d42c7b2dc4aaa4590047548b62139bfead5628048068",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "ADD",
+      "relation_id": "ef338c382d699c7ffc26d42c7b2dc4aaa4590047548b62139bfead5628048068",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                877,
+                878
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            840,
+            846
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "before_span": [
+          840,
+          846
+        ]
+      },
+      "failure_id": "f313a9e44bde1c838efe49f15770177e71a5140f10e12460abe03bab2a9d82d1",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2014-13365",
+      "operation_kind": "DELETE",
+      "relation_id": "f313a9e44bde1c838efe49f15770177e71a5140f10e12460abe03bab2a9d82d1",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2014-13365",
+            "locator": {
+              "instrument": "BOE-A-2014-13365",
+              "node_span": [
+                840,
+                846
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2014-13365"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": null
+      },
+      "expected_evidence_span": {},
+      "failure_id": "9ec39c4e85eddafcc233d1f1b1faa05e672fcfb6b3f66340064fcc7f96a566af",
+      "locator_key": "anejo:1",
+      "modifier": "BOE-A-2016-4356",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "9ec39c4e85eddafcc233d1f1b1faa05e672fcfb6b3f66340064fcc7f96a566af",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2017-7985",
+          "node_span": [
+            98,
+            105
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            36,
+            66
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          98,
+          105
+        ],
+        "before_span": [
+          36,
+          66
+        ]
+      },
+      "failure_id": "0f08d688361446761ff308d0cde4224de215891a4d8128ceb5f29e296e94da4d",
+      "locator_key": "norma:2",
+      "modifier": "BOE-A-2017-7985",
+      "operation_kind": "MODIFY",
+      "relation_id": "0f08d688361446761ff308d0cde4224de215891a4d8128ceb5f29e296e94da4d",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2017-7985",
+            "locator": {
+              "instrument": "BOE-A-2017-7985",
+              "node_span": [
+                98,
+                105
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2017-7985"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves",
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2017-7985",
+          "node_span": [
+            236,
+            238
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            321,
+            324
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          236,
+          238
+        ],
+        "before_span": [
+          321,
+          324
+        ]
+      },
+      "failure_id": "1550be13cfd74148b33837d6690a421851eb146b308522ff9324980f1628969e",
+      "locator_key": "norma:17",
+      "modifier": "BOE-A-2017-7985",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "1550be13cfd74148b33837d6690a421851eb146b308522ff9324980f1628969e",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-5720",
+            "locator": {
+              "instrument": "BOE-A-2013-5720",
+              "node_span": [
+                321,
+                324
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-5720"
+          },
+          "mechanism": "locator_absent",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2017-7985",
+            "locator": {
+              "instrument": "BOE-A-2017-7985",
+              "node_span": [
+                236,
+                238
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2017-7985"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2017-7985",
+          "node_span": [
+            134,
+            155
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            167,
+            181
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          134,
+          155
+        ],
+        "before_span": [
+          167,
+          181
+        ]
+      },
+      "failure_id": "2f6cfd95ccaec73366993c84d9917fa8a2d96de9afcd25e06dcd45fd8e6f19f0",
+      "locator_key": "norma:7",
+      "modifier": "BOE-A-2017-7985",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "2f6cfd95ccaec73366993c84d9917fa8a2d96de9afcd25e06dcd45fd8e6f19f0",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-5720",
+            "locator": {
+              "instrument": "BOE-A-2013-5720",
+              "node_span": [
+                167,
+                181
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 1,
+            "candidate_count_roman": 1,
+            "candidates": [
+              [
+                167,
+                181
+              ]
+            ],
+            "instrument": "BOE-A-2013-5720"
+          },
+          "mechanism": "global_vs_local_span_lookup",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2017-7985",
+          "node_span": [
+            208,
+            218
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            250,
+            273
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          208,
+          218
+        ],
+        "before_span": [
+          250,
+          273
+        ]
+      },
+      "failure_id": "5527874d20f66e76eba28cc891f9be70160ad29529582fc65818e4595b5cfd12",
+      "locator_key": "norma:12",
+      "modifier": "BOE-A-2017-7985",
+      "operation_kind": "ADD",
+      "relation_id": "5527874d20f66e76eba28cc891f9be70160ad29529582fc65818e4595b5cfd12",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-5720",
+            "locator": {
+              "instrument": "BOE-A-2013-5720",
+              "node_span": [
+                250,
+                273
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 1,
+            "candidate_count_roman": 1,
+            "candidates": [
+              [
+                250,
+                273
+              ]
+            ],
+            "instrument": "BOE-A-2013-5720"
+          },
+          "mechanism": "global_vs_local_span_lookup",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2017-7985",
+            "locator": {
+              "instrument": "BOE-A-2017-7985",
+              "node_span": [
+                208,
+                218
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2017-7985"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves",
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2017-7985",
+          "node_span": [
+            219,
+            235
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            283,
+            295
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          219,
+          235
+        ],
+        "before_span": [
+          283,
+          295
+        ]
+      },
+      "failure_id": "96afb0a397c2fec930a25d0bc535c653b3e7f15eb2528a1b2bba9c3ec364d0c3",
+      "locator_key": "norma:14",
+      "modifier": "BOE-A-2017-7985",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "96afb0a397c2fec930a25d0bc535c653b3e7f15eb2528a1b2bba9c3ec364d0c3",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-5720",
+            "locator": {
+              "instrument": "BOE-A-2013-5720",
+              "node_span": [
+                283,
+                295
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-5720"
+          },
+          "mechanism": "locator_absent",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2017-7985",
+            "locator": {
+              "instrument": "BOE-A-2017-7985",
+              "node_span": [
+                219,
+                235
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2017-7985"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2017-7985",
+          "node_span": [
+            197,
+            199
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            206,
+            211
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          197,
+          199
+        ],
+        "before_span": [
+          206,
+          211
+        ]
+      },
+      "failure_id": "cbc9586a3d1aef533d2c7c874cb936c96e280e07e63b13b97890db076f8f91d4",
+      "locator_key": "norma:9",
+      "modifier": "BOE-A-2017-7985",
+      "operation_kind": "ADD",
+      "relation_id": "cbc9586a3d1aef533d2c7c874cb936c96e280e07e63b13b97890db076f8f91d4",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-5720",
+            "locator": {
+              "instrument": "BOE-A-2013-5720",
+              "node_span": [
+                206,
+                211
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 1,
+            "candidate_count_roman": 1,
+            "candidates": [
+              [
+                206,
+                211
+              ]
+            ],
+            "instrument": "BOE-A-2013-5720"
+          },
+          "mechanism": "global_vs_local_span_lookup",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2017-7985",
+            "locator": {
+              "instrument": "BOE-A-2017-7985",
+              "node_span": [
+                197,
+                199
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2017-7985"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2017-7985",
+          "node_span": [
+            239,
+            241
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            222,
+            250
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          239,
+          241
+        ],
+        "before_span": [
+          222,
+          250
+        ]
+      },
+      "failure_id": "ee2e82a5f24a4029de43d526f3c8deacb6e86887d57f8b37a47ee483581317b8",
+      "locator_key": "norma:11",
+      "modifier": "BOE-A-2017-7985",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "ee2e82a5f24a4029de43d526f3c8deacb6e86887d57f8b37a47ee483581317b8",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-5720",
+            "locator": {
+              "instrument": "BOE-A-2013-5720",
+              "node_span": [
+                222,
+                250
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 1,
+            "candidate_count_roman": 1,
+            "candidates": [
+              [
+                222,
+                250
+              ]
+            ],
+            "instrument": "BOE-A-2013-5720"
+          },
+          "mechanism": "global_vs_local_span_lookup",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2017-7985",
+            "locator": {
+              "instrument": "BOE-A-2017-7985",
+              "node_span": [
+                239,
+                241
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2017-7985"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            456,
+            457
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            454,
+            455
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          456,
+          457
+        ],
+        "before_span": [
+          454,
+          455
+        ]
+      },
+      "failure_id": "02b3a3ccff17e0e70cd551fce6b4feb900e671a5021608ac6f22319b5a905a1e",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "ADD",
+      "relation_id": "02b3a3ccff17e0e70cd551fce6b4feb900e671a5021608ac6f22319b5a905a1e",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                454,
+                455
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                456,
+                457
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            458,
+            460
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "before_span": [
+          458,
+          460
+        ]
+      },
+      "failure_id": "26358384007162431d3d222ff11bccdf4bb33a0466897fe0e87a718c2fa4727d",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "26358384007162431d3d222ff11bccdf4bb33a0466897fe0e87a718c2fa4727d",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                458,
+                460
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            397,
+            398
+          ],
+          "type": "xml_nodes"
+        },
+        "before": null
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          397,
+          398
+        ]
+      },
+      "failure_id": "30dfbc8a992b4256d7992dfef7f13eb4384f0c16a3083c696ec644a60920f639",
+      "locator_key": "norma:3.apartado:7.letra:l",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "30dfbc8a992b4256d7992dfef7f13eb4384f0c16a3083c696ec644a60920f639",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            469,
+            470
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            467,
+            468
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          469,
+          470
+        ],
+        "before_span": [
+          467,
+          468
+        ]
+      },
+      "failure_id": "37c43306240948587336a2261488efdd947a090ae8f048bff4e75bf8e47276e6",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "37c43306240948587336a2261488efdd947a090ae8f048bff4e75bf8e47276e6",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                469,
+                470
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            451,
+            453
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2014-13365",
+          "node_span": [
+            886,
+            893
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          451,
+          453
+        ],
+        "before_span": [
+          886,
+          893
+        ]
+      },
+      "failure_id": "5cda729960430dff0973120d3e77d5b73f4a4353c0b1d1c4664adaf4d41da23f",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "5cda729960430dff0973120d3e77d5b73f4a4353c0b1d1c4664adaf4d41da23f",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                451,
+                453
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            471,
+            472
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            469,
+            470
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          471,
+          472
+        ],
+        "before_span": [
+          469,
+          470
+        ]
+      },
+      "failure_id": "5ddfa166e97d8ae3bebb57b0be76b8e35116a6fa88a9ac2eb9ae575679cc2c07",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "5ddfa166e97d8ae3bebb57b0be76b8e35116a6fa88a9ac2eb9ae575679cc2c07",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                469,
+                470
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                471,
+                472
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": {
+          "instrument": "BOE-A-2017-7985",
+          "node_span": [
+            239,
+            241
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "before_span": [
+          239,
+          241
+        ]
+      },
+      "failure_id": "648c56c6d7bc92897c0a89c966fab82eba967313a16f9352826a9c24ee1ef30c",
+      "locator_key": "norma:11",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "DELETE",
+      "relation_id": "648c56c6d7bc92897c0a89c966fab82eba967313a16f9352826a9c24ee1ef30c",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2017-7985",
+            "locator": {
+              "instrument": "BOE-A-2017-7985",
+              "node_span": [
+                239,
+                241
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2017-7985"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            475,
+            476
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            473,
+            474
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          475,
+          476
+        ],
+        "before_span": [
+          473,
+          474
+        ]
+      },
+      "failure_id": "765a1ba82334e03349b183ed435f9f9939f42e855f9840ca27f6806fa5ad24f1",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "765a1ba82334e03349b183ed435f9f9939f42e855f9840ca27f6806fa5ad24f1",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                473,
+                474
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                475,
+                476
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            454,
+            455
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            451,
+            453
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          454,
+          455
+        ],
+        "before_span": [
+          451,
+          453
+        ]
+      },
+      "failure_id": "8e8852626a18b299b0d13fb8b50c69f0acab840a7451876cb10459f1068314ea",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "8e8852626a18b299b0d13fb8b50c69f0acab840a7451876cb10459f1068314ea",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                451,
+                453
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                454,
+                455
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            465,
+            466
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            462,
+            463
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          465,
+          466
+        ],
+        "before_span": [
+          462,
+          463
+        ]
+      },
+      "failure_id": "b108355f91e7b0fd45b332b1dc3d1ad84e808fc1c900eda3c511209d9675cdef",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "b108355f91e7b0fd45b332b1dc3d1ad84e808fc1c900eda3c511209d9675cdef",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                462,
+                463
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            473,
+            474
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            471,
+            472
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          473,
+          474
+        ],
+        "before_span": [
+          471,
+          472
+        ]
+      },
+      "failure_id": "b8ab8fbc66eca5338a253d75383525e610d340c22b9e1cfa86ac9cb2477c14d7",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "b8ab8fbc66eca5338a253d75383525e610d340c22b9e1cfa86ac9cb2477c14d7",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                471,
+                472
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                473,
+                474
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves",
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            428,
+            447
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            422,
+            427
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          428,
+          447
+        ],
+        "before_span": [
+          422,
+          427
+        ]
+      },
+      "failure_id": "ba5d2ce0c0d86f32fd51a8661cc83572372e0f03582e177c48753a025d77cee8",
+      "locator_key": "anejo:1",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "ba5d2ce0c0d86f32fd51a8661cc83572372e0f03582e177c48753a025d77cee8",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                422,
+                427
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            408,
+            409
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            297,
+            300
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          408,
+          409
+        ],
+        "before_span": [
+          297,
+          300
+        ]
+      },
+      "failure_id": "babf4abadb9365ddf97de9a52011154f8843698dd8cd8614e191debd0acfe59d",
+      "locator_key": "norma:15.apartado:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "babf4abadb9365ddf97de9a52011154f8843698dd8cd8614e191debd0acfe59d",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": null,
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            462,
+            463
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "before_span": [
+          462,
+          463
+        ]
+      },
+      "failure_id": "c30d3044ae1255be1446319998bea07897e547906a343663eb84f403e73edb2b",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "c30d3044ae1255be1446319998bea07897e547906a343663eb84f403e73edb2b",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                462,
+                463
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            411,
+            421
+          ],
+          "type": "xml_nodes"
+        },
+        "before": null
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          411,
+          421
+        ]
+      },
+      "failure_id": "dfa4fd4f2dae439aa744d06412332ac415c9692b907beb2db7e5ebcf56852c84",
+      "locator_key": "anejo:1",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "dfa4fd4f2dae439aa744d06412332ac415c9692b907beb2db7e5ebcf56852c84",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                411,
+                421
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            458,
+            460
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            456,
+            457
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          458,
+          460
+        ],
+        "before_span": [
+          456,
+          457
+        ]
+      },
+      "failure_id": "e7dd66e1790720eebe8ed280413dafd35ae009256e6171dbdd43e158c737ebf7",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "e7dd66e1790720eebe8ed280413dafd35ae009256e6171dbdd43e158c737ebf7",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                456,
+                457
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                458,
+                460
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            462,
+            463
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            458,
+            460
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          462,
+          463
+        ],
+        "before_span": [
+          458,
+          460
+        ]
+      },
+      "failure_id": "f0afe0c340e63a5bcae32bbbb17bb90bf2abaf17e49f455c85366543ab1ae664",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "f0afe0c340e63a5bcae32bbbb17bb90bf2abaf17e49f455c85366543ab1ae664",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                458,
+                460
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                462,
+                463
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves",
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            422,
+            427
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            411,
+            421
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          422,
+          427
+        ],
+        "before_span": [
+          411,
+          421
+        ]
+      },
+      "failure_id": "f525d34abfbc747e918483308f0a06cb79490c313b2c6c3e9c27fb944740ead0",
+      "locator_key": "anejo:1",
+      "modifier": "BOE-A-2018-17880",
+      "operation_kind": "MODIFY",
+      "relation_id": "f525d34abfbc747e918483308f0a06cb79490c313b2c6c3e9c27fb944740ead0",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                411,
+                421
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                422,
+                427
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves",
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2020-1653",
+          "node_span": [
+            116,
+            140
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            300,
+            321
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          116,
+          140
+        ],
+        "before_span": [
+          300,
+          321
+        ]
+      },
+      "failure_id": "3ee0d25006bf60ff5bd0c9abbcb15c80ed1f5dfa028233b263f817d94e7ccf52",
+      "locator_key": "norma:16",
+      "modifier": "BOE-A-2020-1653",
+      "operation_kind": "SUBSTITUTE",
+      "relation_id": "3ee0d25006bf60ff5bd0c9abbcb15c80ed1f5dfa028233b263f817d94e7ccf52",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-5720",
+            "locator": {
+              "instrument": "BOE-A-2013-5720",
+              "node_span": [
+                300,
+                321
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-5720"
+          },
+          "mechanism": "locator_absent",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2020-1653",
+            "locator": {
+              "instrument": "BOE-A-2020-1653",
+              "node_span": [
+                116,
+                140
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2020-1653"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2020-1653",
+          "node_span": [
+            107,
+            115
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            285,
+            289
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          107,
+          115
+        ],
+        "before_span": [
+          285,
+          289
+        ]
+      },
+      "failure_id": "4b39d86f0b2d9ad800f8d9c4a9344f5687f36b8baa348ab3acb5adfd17e34b09",
+      "locator_key": "norma:14.apartado:1",
+      "modifier": "BOE-A-2020-1653",
+      "operation_kind": "MODIFY",
+      "relation_id": "4b39d86f0b2d9ad800f8d9c4a9344f5687f36b8baa348ab3acb5adfd17e34b09",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves",
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2020-1653",
+          "node_span": [
+            141,
+            143
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2020-1653",
+          "node_span": [
+            116,
+            140
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          141,
+          143
+        ],
+        "before_span": [
+          116,
+          140
+        ]
+      },
+      "failure_id": "67c15fa0123f9dd9293a36cd90b93a0f4ea8b83baf184987106ffbcb690bef30",
+      "locator_key": "norma:16",
+      "modifier": "BOE-A-2020-1653",
+      "operation_kind": "MODIFY",
+      "relation_id": "67c15fa0123f9dd9293a36cd90b93a0f4ea8b83baf184987106ffbcb690bef30",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2020-1653",
+            "locator": {
+              "instrument": "BOE-A-2020-1653",
+              "node_span": [
+                116,
+                140
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2020-1653"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2020-1653",
+            "locator": {
+              "instrument": "BOE-A-2020-1653",
+              "node_span": [
+                141,
+                143
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2020-1653"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "operation_verb_consistent"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2020-1653",
+          "node_span": [
+            56,
+            58
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            149,
+            150
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          56,
+          58
+        ],
+        "before_span": [
+          149,
+          150
+        ]
+      },
+      "failure_id": "a42221d926a9b696e19f690d2bc7d4cb458f5a7c6a998b8ed23da2222dba733d",
+      "locator_key": "norma:5.apartado:4",
+      "modifier": "BOE-A-2020-1653",
+      "operation_kind": "ADD",
+      "relation_id": "a42221d926a9b696e19f690d2bc7d4cb458f5a7c6a998b8ed23da2222dba733d",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2020-1653",
+          "node_span": [
+            98,
+            106
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            273,
+            283
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          98,
+          106
+        ],
+        "before_span": [
+          273,
+          283
+        ]
+      },
+      "failure_id": "b4b97d322ddd2613acdab141b9748a7cd0d6776496279888c2ab50ee9490498b",
+      "locator_key": "norma:13",
+      "modifier": "BOE-A-2020-1653",
+      "operation_kind": "ADD",
+      "relation_id": "b4b97d322ddd2613acdab141b9748a7cd0d6776496279888c2ab50ee9490498b",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2013-5720",
+            "locator": {
+              "instrument": "BOE-A-2013-5720",
+              "node_span": [
+                273,
+                283
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2013-5720"
+          },
+          "mechanism": "locator_absent",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        },
+        {
+          "emitted": {
+            "instrument": "BOE-A-2020-1653",
+            "locator": {
+              "instrument": "BOE-A-2020-1653",
+              "node_span": [
+                98,
+                106
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2020-1653"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2020-1653",
+          "node_span": [
+            59,
+            60
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            165,
+            167
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          59,
+          60
+        ],
+        "before_span": [
+          165,
+          167
+        ]
+      },
+      "failure_id": "d71790b20ef0bd50c4caf1924d0275675c38bf65c47b2e241264cc3635806a85",
+      "locator_key": "norma:6.apartado:7",
+      "modifier": "BOE-A-2020-1653",
+      "operation_kind": "MODIFY",
+      "relation_id": "d71790b20ef0bd50c4caf1924d0275675c38bf65c47b2e241264cc3635806a85",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2020-1653",
+            "locator": {
+              "instrument": "BOE-A-2020-1653",
+              "node_span": [
+                59,
+                60
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2020-1653"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "operation_verb_consistent"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2021-1352",
+          "node_span": [
+            87,
+            109
+          ],
+          "type": "xml_nodes"
+        },
+        "before": null
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          87,
+          109
+        ]
+      },
+      "failure_id": "7857ae62a75c975ece4d1a0b4454647f3b80c70bbdebaab816ab16f9361b46f9",
+      "locator_key": "norma:16.apartado:7",
+      "modifier": "BOE-A-2021-1352",
+      "operation_kind": "ADD",
+      "relation_id": "7857ae62a75c975ece4d1a0b4454647f3b80c70bbdebaab816ab16f9361b46f9",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "target_locator_resolves"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2021-1352",
+          "node_span": [
+            84,
+            86
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2013-5720",
+          "node_span": [
+            275,
+            276
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          84,
+          86
+        ],
+        "before_span": [
+          275,
+          276
+        ]
+      },
+      "failure_id": "9d48299bafba2d6b7024533a1709ba73bef680dab53572f03c5be9b9e3dffeab",
+      "locator_key": "norma:13.apartado:1",
+      "modifier": "BOE-A-2021-1352",
+      "operation_kind": "MODIFY",
+      "relation_id": "9d48299bafba2d6b7024533a1709ba73bef680dab53572f03c5be9b9e3dffeab",
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2025-26847",
+          "node_span": [
+            181,
+            182
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2018-17880",
+          "node_span": [
+            475,
+            476
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          181,
+          182
+        ],
+        "before_span": [
+          475,
+          476
+        ]
+      },
+      "failure_id": "64014a1e20ebbcd02784253f85c4e1424de913574c860d6d33a0252ff8fc3769",
+      "locator_key": "anejo:2",
+      "modifier": "BOE-A-2025-26847",
+      "operation_kind": "MODIFY",
+      "relation_id": "64014a1e20ebbcd02784253f85c4e1424de913574c860d6d33a0252ff8fc3769",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2018-17880",
+            "locator": {
+              "instrument": "BOE-A-2018-17880",
+              "node_span": [
+                475,
+                476
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2018-17880"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2013-5720",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2022-5524",
+          "node_span": [
+            87,
+            88
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2022-5524",
+          "node_span": [
+            83,
+            84
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          87,
+          88
+        ],
+        "before_span": [
+          83,
+          84
+        ]
+      },
+      "failure_id": "622532279774c541986931833831e4bad68b13b585e788640be2560301ce53c5",
+      "locator_key": "norma:14",
+      "modifier": "BOE-A-2022-5524",
+      "operation_kind": "MODIFY",
+      "relation_id": "622532279774c541986931833831e4bad68b13b585e788640be2560301ce53c5",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2022-5524",
+            "locator": {
+              "instrument": "BOE-A-2022-5524",
+              "node_span": [
+                87,
+                88
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2022-5524"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2016-1238",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2022-5524",
+          "node_span": [
+            50,
+            52
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2022-5524",
+          "node_span": [
+            48,
+            49
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          50,
+          52
+        ],
+        "before_span": [
+          48,
+          49
+        ]
+      },
+      "failure_id": "64e3245945f718aef82930c941966264327f7cff1ffb9e2c6781bf78eeac25fe",
+      "locator_key": "norma:1",
+      "modifier": "BOE-A-2022-5524",
+      "operation_kind": "ADD",
+      "relation_id": "64e3245945f718aef82930c941966264327f7cff1ffb9e2c6781bf78eeac25fe",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2022-5524",
+            "locator": {
+              "instrument": "BOE-A-2022-5524",
+              "node_span": [
+                50,
+                52
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 1,
+            "candidate_count_roman": 1,
+            "candidates": [
+              [
+                41,
+                186
+              ]
+            ],
+            "instrument": "BOE-A-2022-5524"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2016-1238",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "before_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2022-5524",
+          "node_span": [
+            70,
+            71
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2022-5524",
+          "node_span": [
+            64,
+            65
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          70,
+          71
+        ],
+        "before_span": [
+          64,
+          65
+        ]
+      },
+      "failure_id": "693e6c11328a1bf2d4437996ac06cf7069e89dc837942a610260e23f6f44e72c",
+      "locator_key": "norma:4",
+      "modifier": "BOE-A-2022-5524",
+      "operation_kind": "ADD",
+      "relation_id": "693e6c11328a1bf2d4437996ac06cf7069e89dc837942a610260e23f6f44e72c",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2022-5524",
+            "locator": {
+              "instrument": "BOE-A-2022-5524",
+              "node_span": [
+                64,
+                65
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2022-5524"
+          },
+          "mechanism": "before_span_in_modifier_doc",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "before"
+        }
+      ],
+      "target": "BOE-A-2016-1238",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2022-5524",
+          "node_span": [
+            64,
+            65
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2016-1238",
+          "node_span": [
+            194,
+            241
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          64,
+          65
+        ],
+        "before_span": [
+          194,
+          241
+        ]
+      },
+      "failure_id": "e2296f244585fdedb873cdc11918d86c1853354b518dc888a7ff0db7f3334749",
+      "locator_key": "norma:4",
+      "modifier": "BOE-A-2022-5524",
+      "operation_kind": "MODIFY",
+      "relation_id": "e2296f244585fdedb873cdc11918d86c1853354b518dc888a7ff0db7f3334749",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2022-5524",
+            "locator": {
+              "instrument": "BOE-A-2022-5524",
+              "node_span": [
+                64,
+                65
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2022-5524"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2016-1238",
+      "truth_verdict": "FALSE_FACT"
+    },
+    {
+      "claim_types": [
+        "after_binding"
+      ],
+      "emitted_representation": {
+        "after": {
+          "instrument": "BOE-A-2023-23052",
+          "node_span": [
+            26,
+            27
+          ],
+          "type": "xml_nodes"
+        },
+        "before": {
+          "instrument": "BOE-A-2016-1238",
+          "node_span": [
+            859,
+            874
+          ],
+          "type": "xml_nodes"
+        }
+      },
+      "expected_evidence_span": {
+        "after_span": [
+          26,
+          27
+        ],
+        "before_span": [
+          859,
+          874
+        ]
+      },
+      "failure_id": "b8d9c49d5578d2692a4b82b7e7849313d7efa221e66002df5afc302849967cdf",
+      "locator_key": "norma:62",
+      "modifier": "BOE-A-2023-23052",
+      "operation_kind": "MODIFY",
+      "relation_id": "b8d9c49d5578d2692a4b82b7e7849313d7efa221e66002df5afc302849967cdf",
+      "root_detail": [
+        {
+          "emitted": {
+            "instrument": "BOE-A-2023-23052",
+            "locator": {
+              "instrument": "BOE-A-2023-23052",
+              "node_span": [
+                26,
+                27
+              ],
+              "type": "xml_nodes"
+            }
+          },
+          "expected": {
+            "candidate_count": 0,
+            "candidate_count_roman": 0,
+            "candidates": [],
+            "instrument": "BOE-A-2023-23052"
+          },
+          "mechanism": "after_span_modifier_scope_unproven",
+          "root_cause_class": "REPRESENTATION_BINDING_FAILURE",
+          "side": "after"
+        }
+      ],
+      "target": "BOE-A-2016-1238",
+      "truth_verdict": "FALSE_FACT"
+    }
+  ],
+  "count": 73,
+  "required_by": "G1.1 hard requirement: OLD_FALSE_FACT_REPRODUCTION_COUNT = 0",
+  "source_audit": "evidence/g0g/g0g2/audit.jsonl"
+}

@@ -1,0 +1,26 @@
+{
+  "dev": "G1 DEV = the 12 already-seen G0-G targets (8 GENERALIZATION_DEV + 4 former SEALED_HOLDOUT); no fresh instrument may enter DEV",
+  "groups": {
+    "TEXT": {
+      "SEALED_HOLDOUT": [
+        "BOE-A-2014-1183",
+        "BOE-A-2010-15521"
+      ],
+      "ranked": [
+        "BOE-A-2014-1183",
+        "BOE-A-2010-15521"
+      ]
+    },
+    "VISUAL": {
+      "SEALED_HOLDOUT": [
+        "BOE-A-2012-9058"
+      ],
+      "STOP": "fewer than 2 eligible candidates",
+      "ranked": [
+        "BOE-A-2012-9058"
+      ]
+    }
+  },
+  "rule": "per group: modifying_count DESC, anejo_refs DESC, sha256(seed|boe_id) ASC; top 2 -> SEALED_HOLDOUT",
+  "seed": "regdelta-g1-v1"
+}

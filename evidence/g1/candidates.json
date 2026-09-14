@@ -1,0 +1,54 @@
+{
+  "frozen_index_sha256": "5ec993cd256ffb09f44af6ff66a2b93efe2369ab7ad5950f61ecb368526cec36",
+  "index_source": "evidence/g0g/raw/bde_circulares_indice_cronologico.html",
+  "pool": [
+    {
+      "boe_id": "BOE-A-2014-1183",
+      "boe_pub_date": "2014-02-05",
+      "circular": "2/2014",
+      "consolidated": true,
+      "declared_modifying_instrument_count": 4,
+      "explicit_anejo_refs_in_posteriores": 0,
+      "g1_rank_key": "7e6a28b33d27a3c260cde42eb527f950ad66ba23646cdf4cde639a6f9d0414d4",
+      "group": "TEXT",
+      "modifying_instruments": [
+        "BOE-A-2014-8189",
+        "BOE-A-2016-1238",
+        "BOE-A-2017-12562",
+        "BOE-A-2022-5524"
+      ]
+    },
+    {
+      "boe_id": "BOE-A-2012-9058",
+      "boe_pub_date": "2012-07-06",
+      "circular": "5/2012",
+      "consolidated": true,
+      "declared_modifying_instrument_count": 6,
+      "explicit_anejo_refs_in_posteriores": 6,
+      "g1_rank_key": "fe5a83265fdf7f951e9a9ce6b76ce0600cb6a46a301a4492d0f8b6058382ed7b",
+      "group": "VISUAL",
+      "modifying_instruments": [
+        "BOE-A-2015-9107",
+        "BOE-A-2018-51",
+        "BOE-A-2019-4955",
+        "BOE-A-2021-1352",
+        "BOE-A-2021-8104",
+        "BOE-A-2022-5524"
+      ]
+    },
+    {
+      "boe_id": "BOE-A-2010-15521",
+      "boe_pub_date": "2010-10-11",
+      "circular": "6/2010",
+      "consolidated": true,
+      "declared_modifying_instrument_count": 2,
+      "explicit_anejo_refs_in_posteriores": 0,
+      "g1_rank_key": "77614b9a9f8d913248bb5572e855ca389f6994f43a2dd648f480eb99f73460ca",
+      "group": "TEXT",
+      "modifying_instruments": [
+        "BOE-A-2014-8189",
+        "BOE-A-2020-7869"
+      ]
+    }
+  ]
+}

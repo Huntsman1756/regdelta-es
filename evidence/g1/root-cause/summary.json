@@ -1,0 +1,29 @@
+{
+  "by_invariant": {
+    "B1": 17,
+    "B2": 4,
+    "B3": 44,
+    "B4": 38,
+    "B6": 7
+  },
+  "by_mechanism": {
+    "after:after_span_modifier_scope_unproven": 44,
+    "before:before_span_in_modifier_doc": 38,
+    "before:global_vs_local_span_lookup": 4,
+    "before:locator_absent": 4,
+    "locator_absent": 8,
+    "locator_partially_resolves": 1,
+    "locator_renumbered_roman": 7,
+    "verb_check_on_metadata_text": 7
+  },
+  "by_root_cause_class": {
+    "LOCATOR_RESOLUTION_FAILURE": 16,
+    "QUERY_EVALUATION_FAILURE": 7,
+    "REPRESENTATION_BINDING_FAILURE": 61
+  },
+  "by_target": {
+    "BOE-A-2013-5720": 68,
+    "BOE-A-2016-1238": 5
+  },
+  "total_false_facts": 73
+}
