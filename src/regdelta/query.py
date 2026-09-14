@@ -419,7 +419,7 @@ def upcoming(conn: sqlite3.Connection, *, from_date: date, days: int,
     for rel in relations:
         out = applicability.applicability_for_relation(
             conn, rel["relation_id"])
-        for tree in out["specific_clause_trees"]:
+        for tree in out["instrument_rules"] + out["specific_clause_trees"]:
             for n in _walk(tree):
                 for eid in effects_by_clause.get(
                         n["clause"]["clause_id"], ()):

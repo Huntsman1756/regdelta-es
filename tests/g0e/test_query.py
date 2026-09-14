@@ -348,6 +348,68 @@ def test_upcoming_effective_targets_follow_scoped_applicability(ro):
             assert rid_a not in r["effective_targets"]["modification_relations"]
 
 
+def _pair_relations(conn):
+    return {r[0] for r in conn.execute(
+        """SELECT mr.relation_id FROM modification_relations mr
+           JOIN instruments mi ON mi.instrument_id = mr.modifier_instrument_id
+           JOIN subjects s ON s.subject_id = mr.target_subject_id
+           JOIN instruments ti ON ti.instrument_id = s.instrument_id
+           WHERE mi.boe_id=? AND ti.boe_id=?""",
+        (MODIFIER, TARGET))}
+
+
+def test_upcoming_general_entry_target_filtered(ro):
+    """Instrument-level entry-into-force applies to every relation of the
+    pair, including GENERAL_ONLY ones that own no specific clause."""
+    out = query.upcoming(ro, from_date=date(2025, 12, 30), days=0,
+                         target="Circular 4/2017")
+    entry = [x for x in out["results"]
+             if x["temporal_effect"] == "INSTRUMENT_EFFECTIVE_FROM"
+             and x["date_value"] == "2025-12-30"]
+    assert len(entry) == 1
+    eff = entry[0]["effective_targets"]
+    assert MODIFIER in eff["instruments"]
+    assert set(eff["modification_relations"]) == _pair_relations(ro)
+
+
+def test_upcoming_general_entry_unfiltered_single_row(ro):
+    """The shared instrument rule emits exactly one result row even when
+    it applies to dozens of relations."""
+    out = query.upcoming(ro, from_date=date(2025, 12, 30), days=0)
+    entry = [x for x in out["results"]
+             if x["temporal_effect"] == "INSTRUMENT_EFFECTIVE_FROM"
+             and x["date_value"] == "2025-12-30"]
+    assert len(entry) == 1
+    assert entry[0]["target_count"] == (
+        len(entry[0]["effective_targets"]["instruments"])
+        + len(entry[0]["effective_targets"]["modification_relations"]))
+
+
+def test_upcoming_instrument_rules_no_specific_leak(ro):
+    """Walking instrument_rules too must not bleed specific-branch
+    effects into sibling relations: dfu:e's effect still excludes the
+    dfu:b-bound relation, and now also covers the GENERAL_ONLY one."""
+    rid_b = ro.execute(
+        """SELECT mr.relation_id FROM modification_relations mr
+           JOIN subjects s ON s.subject_id = mr.target_subject_id
+           WHERE s.locator_key='norma:22.apartado:2'""").fetchone()[0]
+    rid_general = ro.execute(
+        """SELECT mr.relation_id FROM modification_relations mr
+           JOIN subjects s ON s.subject_id = mr.target_subject_id
+           WHERE s.locator_key='norma:18.apartado:4'""").fetchone()[0]
+    out = query.upcoming(ro, from_date=date(2025, 12, 30), days=0)
+    entry = [x for x in out["results"]
+             if x["temporal_effect"] == "INSTRUMENT_EFFECTIVE_FROM"][0]
+    assert {rid_b, rid_general} <= set(
+        entry["effective_targets"]["modification_relations"])
+    out = query.upcoming(ro, from_date=date(2026, 3, 1), days=31)
+    specific = [x for x in out["results"]
+                if x["date_value"] == "2026-03-31"
+                and x["clause"]["clause_key"] == "dfu:e:s1"][0]
+    rels = specific["effective_targets"]["modification_relations"]
+    assert rid_b not in rels and rid_general not in rels
+
+
 # ---------------------------------------------------------------------------
 # as-of
 # ---------------------------------------------------------------------------
