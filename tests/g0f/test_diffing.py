@@ -179,17 +179,21 @@ def test_diff_table_to_table(ro):
 
 
 def test_diff_image_to_table(ro):
-    """F3 — estado:FI 105 SUBSTITUTE (Circular 1/2025): IMAGE→TABLE is
-    VISUAL_PREDECESSOR; no pretended semantic comparison."""
+    """F3 — estado:FI 105 SUBSTITUTE (Circular 1/2025).
+
+    G1_INTENTIONAL_SEMANTIC_CHANGE: the before binding now abstains
+    (the FI 105 chain went UNKNOWN after unproven renames — see
+    test_s4_image_to_table). Per G1.1 §48 diff must honestly surface
+    INSUFFICIENT_REPRESENTATION_EVIDENCE rather than fabricate a
+    fallback or pretend a comparison."""
     out = _diff_subject(ro, "estado:FI 105", date(2025, 12, 28),
                         date(2025, 12, 29))
     sub = [r for r in out["results"] if r["operation_kind"] == "SUBSTITUTE"]
     assert len(sub) == 1
     cmp_ = sub[0]["comparison"]
-    assert cmp_["strategy"] == "VISUAL_PREDECESSOR"
+    assert cmp_["strategy"] == "INSUFFICIENT_REPRESENTATION_EVIDENCE"
     assert cmp_["content_diff_available"] is False
     assert cmp_["hunks"] == []
-    assert sub[0]["before"]["representation_kind"] == "IMAGE"
     assert sub[0]["after"]["representation_kind"] == "TABLE"
 
 
@@ -225,17 +229,19 @@ def test_diff_correction_delete(ro):
 
 
 def test_diff_correction_image_to_text(ro):
-    """F6 — estado:FI 131-2.2: CORRECTION keeps declared literals;
-    IMAGE→TEXT is VISUAL_PREDECESSOR (kind-pair wins over the ADD
-    operation shape since before is present)."""
+    """F6 — estado:FI 131-2.2: CORRECTION + ADD.
+
+    G1_INTENTIONAL_SEMANTIC_CHANGE: an ADD has no before (§15.1), so
+    the declared addition is now reported as DECLARED_ADDITION instead
+    of pretending a visual predecessor comparison."""
     out = _diff_subject(ro, "estado:FI 131-2.2", date(2018, 2, 14),
                         date(2018, 2, 16))
     assert out["summary"]["relation_count"] == 1
     r = out["results"][0]
     assert r["kind"] == "CORRECTION"
-    assert r["comparison"]["strategy"] == "VISUAL_PREDECESSOR"
+    assert r["comparison"]["strategy"] == "DECLARED_ADDITION"
     assert r["comparison"]["content_diff_available"] is False
-    assert r["before"]["representation_kind"] == "IMAGE"
+    assert r["before"] is None
     assert r["after"]["representation_kind"] == "TEXT"
 
 
@@ -459,12 +465,14 @@ def test_g0c_g0d_g0e_invariants_unchanged(ro):
                         "modification_relations", "applicability_clauses",
                         "applicability_effects", "applicability_targets",
                         "anomalies")}
+    # G1_INTENTIONAL_SEMANTIC_CHANGE: representations/anomalies shift
+    # under the proof-or-abstain binder — see test_g0c_counts_unchanged
     assert counts == {
-        "subjects": 221, "representations": 335,
+        "subjects": 221, "representations": 320,
         "modification_relations": 292, "applicability_clauses": 26,
         "applicability_effects": 16, "applicability_targets": 98,
-        "anomalies": 23}
+        "anomalies": 217}
     res = dict(ro.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution"))
-    assert res == {"RESOLVED": 182, "PARTIAL": 93, "UNRESOLVED": 17}
+    assert res == {"RESOLVED": 172, "PARTIAL": 81, "UNRESOLVED": 39}

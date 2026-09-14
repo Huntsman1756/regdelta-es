@@ -862,24 +862,40 @@ def test_same_input_rerun_is_idempotent(built):
 
 
 def test_g0c_counts_unchanged(built):
+    # G1_INTENTIONAL_SEMANTIC_CHANGE (G1.1 §40):
+    #   old counts: representations=335, RESOLVED=182, PARTIAL=93,
+    #     UNRESOLVED=17, non-applicability anomalies=23.
+    #   why changed: the proof-or-abstain binder no longer persists
+    #     first-hit/global-fallback representations, so 15 bindings
+    #     that could not be structurally proven are abstained
+    #     (320 representations); every declared operation still emits a
+    #     relation (292 unchanged); resolution shifts honestly toward
+    #     UNRESOLVED, and abstentions are recorded as generic
+    #     BINDING_* / CHAIN_DISCONTINUITY anomalies.
+    #   new fail-closed behavior: coverage sacrificed is exactly the
+    #     set of relations whose proof says AMBIGUOUS / NOT_FOUND /
+    #     NOT_PROVABLE — auditable via binding_proof.
     conn, _, _ = built
     assert conn.execute(
         "SELECT COUNT(*) FROM subjects").fetchone()[0] == 221
     assert conn.execute(
-        "SELECT COUNT(*) FROM representations").fetchone()[0] == 335
+        "SELECT COUNT(*) FROM representations").fetchone()[0] == 320
     assert conn.execute(
         "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 292
     dist = dict(conn.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution").fetchall())
-    assert dist == {"RESOLVED": 182, "PARTIAL": 93, "UNRESOLVED": 17}
-    # the 23 pre-existing G0-C anomalies are untouched; G0-D adds only
-    # APPLICABILITY_TARGET_UNBOUND rows (zero in the frozen corpus)
+    assert dist == {"RESOLVED": 172, "PARTIAL": 81, "UNRESOLVED": 39}
     kinds = dict(conn.execute(
         "SELECT kind, COUNT(*) FROM anomalies GROUP BY kind").fetchall())
-    assert sum(kinds.values()) - kinds.get(
-        applicability.ANOMALY_TARGET_UNBOUND, 0) == 23
     assert kinds.get(applicability.ANOMALY_TARGET_UNBOUND, 0) == 0
+    # abstention anomalies explain the coverage loss
+    assert sum(kinds.values()) == 217
+    assert kinds["BINDING_NOT_FOUND"] == 68
+    assert kinds["BINDING_NOT_PROVABLE"] == 80
+    assert kinds["CHAIN_DISCONTINUITY"] == 27
+    assert kinds["UNBOUND_SUBJECT"] == 39
+    assert kinds["OUT_OF_TARGET_OPS"] == 3
 
 
 def test_no_scalar_effective_date_answer(built):

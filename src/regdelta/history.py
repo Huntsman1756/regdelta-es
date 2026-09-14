@@ -19,14 +19,14 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from uuid import uuid4
 
-from . import annexmap, operations
+from . import annexmap, binding, operations
 from .http import LIVE_FETCH
 from .rawstore import store_blob
 from .sources import boe_diario, boe_doc, boe_pdf
 from .util import canonical_date, sha256_hex, sha256_hex_text
 
 PARSER_NAME = "history"
-PARSER_VERSION = "v2"
+PARSER_VERSION = "v3"
 
 BOE_BASE = "https://www.boe.es"
 XML_URL = BOE_BASE + "/diario_boe/xml.php?id={boe}"
@@ -34,8 +34,6 @@ DOC_URL = BOE_BASE + "/buscar/doc.php?id={boe}"
 PDF_URL = BOE_BASE + "/boe/dias/{y}/{m}/{d}/pdfs/{boe}.pdf"
 
 _CIRCULAR_RE = re.compile(r"Circular\s+(\d+)\s*/\s*(\d{4})", re.IGNORECASE)
-_ANNEX_CODE_HEADER_RE = re.compile(
-    r"^(FI|FC|PI|PC|PA|UEM|AVE)\s+(\d[\d.\-]*)")
 
 ANOMALY_FETCH = "FETCH_ERROR"
 ANOMALY_PARSE = "PARSE_INVALID"
@@ -43,6 +41,10 @@ ANOMALY_ANCHOR = "ANCHOR_MISMATCH"
 ANOMALY_UNBOUND = "UNBOUND_SUBJECT"
 ANOMALY_ANNEX = "ANNEX_REFERENCE_UNRESOLVED"
 ANOMALY_OUT_OF_TARGET = "OUT_OF_TARGET_OPS"
+ANOMALY_AMBIGUOUS = "AMBIGUOUS_BINDING"
+ANOMALY_BIND_NOT_FOUND = "BINDING_NOT_FOUND"
+ANOMALY_NOT_PROVABLE = "BINDING_NOT_PROVABLE"
+ANOMALY_CHAIN = "CHAIN_DISCONTINUITY"
 
 
 # ---------------------------------------------------------------------------
@@ -159,182 +161,8 @@ class Acquirer:
 
 
 # ---------------------------------------------------------------------------
-# text region extraction (before-side TEXT bindings)
+# span materialization
 # ---------------------------------------------------------------------------
-
-
-_ARTICULO_HEAD_RE = re.compile(
-    r"^(?:\[[^\]]*\]\s*)?([A-Za-zÁÉÍÓÚáéíóúñü]+)\s+(\S+)",
-    re.IGNORECASE)
-
-
-def _ordinal_alt(ordinal: str) -> str:
-    """Regex alternation matching an ordinal written as digit or
-    linguistic word (feminine forms: normas/disposiciones)."""
-    from regdelta.operations import _ORDINALS, _ordinal_num
-    num = _ordinal_num(ordinal)
-    if num is None:
-        return re.escape(ordinal)
-    words = {w for w, v in _ORDINALS.items() if v == num}
-    return "(?:" + "|".join(
-        re.escape(w) for w in sorted(words | {str(num)})) + ")"
-
-
-def _articulo_span(doc: boe_diario.DiarioDoc, head_word: str,
-                   ordinal: str) -> tuple[int, int] | None:
-    """Span of an articulo-class heading 'Norma cuarta.' / 'Disposición
-    transitoria primera.': optional bracket tag prefix, digit or
-    linguistic ordinal."""
-    from regdelta.operations import _ordinal_num
-    want = _ordinal_num(ordinal)
-    start = None
-    for n in doc.nodes:
-        if n.cls == "articulo":
-            m = _ARTICULO_HEAD_RE.match(n.text)
-            hit = bool(m) and m.group(1).lower() == head_word \
-                and _ordinal_num(m.group(2).rstrip(".")) == want
-            if hit and start is None:
-                start = n.index
-            elif start is not None:
-                return (start, n.index)
-    return (start, len(doc.nodes)) if start is not None else None
-
-
-def _norma_span(doc: boe_diario.DiarioDoc, num: str) -> tuple[int, int] | None:
-    return _articulo_span(doc, "norma", num)
-
-
-def _disp_span(doc: boe_diario.DiarioDoc, tipo: str,
-               ordinal: str) -> tuple[int, int] | None:
-    """Span of 'Disposición <tipo> <ordinal>.' — the heading is two
-    words ('disposición transitoria'), so match on the ordinal after
-    the tipo word."""
-    pat = re.compile(
-        rf"^(?:\[[^\]]*\]\s*)?Disposici[oó]n\s+{tipo}\s+"
-        rf"{_ordinal_alt(ordinal)}\b",
-        re.IGNORECASE)
-    start = None
-    for n in doc.nodes:
-        if n.cls == "articulo" and pat.search(n.text):
-            start = n.index
-        elif start is not None and n.cls == "articulo":
-            return (start, n.index)
-    return (start, len(doc.nodes)) if start is not None else None
-
-
-def _fichero_name(text: str) -> str:
-    """Case/punctuation-insensitive fichero name for heading compare:
-    casefold, collapse spaces around hyphens, drop footnote marks."""
-    t = re.sub(r"\s*-\s*", "-", text.strip().casefold())
-    return re.sub(r"\s*\(\s*\*+\s*\)\s*$", "", t)
-
-
-_FICHERO_CONNECTORS = frozenset(
-    {"a", "ante", "con", "de", "del", "e", "el", "en", "la", "las",
-     "los", "para", "por", "sobre", "y"})
-
-
-def _fichero_tokens(text: str) -> tuple[str, ...]:
-    """Content tokens of a fichero name. Annex titles and clause
-    citations differ in connectors only ('Selección y Formación de
-    personal' vs 'Selección y formación del personal')."""
-    return tuple(t for t in re.split(r"[^\wáéíóúñü]+",
-                                     _fichero_name(text))
-                 if t and t not in _FICHERO_CONNECTORS)
-
-
-def _fichero_eq(a: str, b: str) -> bool:
-    return _fichero_name(a) == _fichero_name(b) \
-        or _fichero_tokens(a) == _fichero_tokens(b)
-
-
-def _fichero_span(doc: boe_diario.DiarioDoc,
-                  name: str) -> tuple[int, int] | None:
-    """Node span of a data-file description block.
-
-    Official heading shapes: 'Fichero: <name>'; a centered bare '<name>'
-    title under a 'FICHERO' label; and the pair 'Fichero' (capitulo_num)
-    + '<name>' (capitulo_tit). The block closes at the next fichero
-    heading or label, the next articulo heading, or the signature."""
-    head = re.compile(r"^fichero\s*:")
-    boundary = re.compile(r"^(?:fichero\s*:|madrid\s*,)")
-    nodes = doc.nodes
-    start = None
-    for k, n in enumerate(nodes):
-        txt = _fichero_name(n.text)
-        if start is None:
-            if n.kind != "p":
-                continue
-            if head.match(txt) \
-                    and _fichero_eq(txt[head.match(txt).end():], name):
-                start = n.index
-            elif n.cls.startswith("centro") and _fichero_eq(txt, name):
-                start = n.index
-            elif n.cls == "capitulo_num" and txt == "fichero" \
-                    and k + 1 < len(nodes) \
-                    and nodes[k + 1].cls == "capitulo_tit" \
-                    and _fichero_eq(nodes[k + 1].text, name):
-                start = n.index
-        elif n.cls == "articulo" or boundary.match(txt) \
-                or (txt == "fichero" and n.cls != "parrafo"):
-            return (start, n.index)
-    return (start, len(nodes)) if start is not None else None
-
-
-def _sub_region(doc: boe_diario.DiarioDoc, span: tuple[int, int],
-                pattern: re.Pattern) -> tuple[int, int] | None:
-    """First node matching ``pattern`` inside span, until the next sibling
-    marker (a numbered/lettered paragraph) or span end."""
-    start = None
-    for i in range(*span):
-        n = doc.nodes[i]
-        if n.kind != "p":
-            continue
-        if start is None:
-            if pattern.match(n.text):
-                start = i
-        elif re.match(r"^(?:\d+\.|[a-z]\)|[ivxlcdm]+\s*[.)])",
-                      n.text, re.IGNORECASE):
-            return (start, i)
-    return (start, span[1]) if start is not None else None
-
-
-def text_region(doc: boe_diario.DiarioDoc,
-                locator_key: str) -> tuple[int, int] | None:
-    """Node span of a textual subject in the target document."""
-    parts = locator_key.split(".")
-    head = parts[0]
-    if head.startswith("norma:"):
-        span = _norma_span(doc, head[6:])
-    elif head.startswith("disp:"):
-        tipo, _, ordinal = head[5:].partition(".")
-        span = _disp_span(doc, tipo, ordinal)
-    elif head.startswith("fichero:"):
-        span = _fichero_span(doc, head[8:])
-    else:
-        return None
-    if span is None:
-        return None
-    for part in parts[1:]:
-        kind, _, val = part.partition(":")
-        if kind == "apartado":
-            span = _sub_region(doc, span,
-                               re.compile(rf"^{re.escape(val)}\s*\."))
-        elif kind == "letra":
-            span = _sub_region(doc, span,
-                               re.compile(rf"^{re.escape(val)}\)"))
-        elif kind == "numeral":
-            span = _sub_region(
-                doc, span,
-                re.compile(rf"^{re.escape(val)}\s*[.)]", re.IGNORECASE))
-        elif kind == "nota":
-            span = _sub_region(doc, span, re.compile(
-                rf"^[«(]+\s*\(?{re.escape(val)}\)?", re.IGNORECASE))
-        else:
-            return None
-        if span is None:
-            return None
-    return span
 
 
 def region_text(doc: boe_diario.DiarioDoc,
@@ -355,75 +183,38 @@ def region_text(doc: boe_diario.DiarioDoc,
 
 
 # ---------------------------------------------------------------------------
-# modifier annex handling
+# resolution — binding statuses, not bare presence (G1 §25)
 # ---------------------------------------------------------------------------
 
 
-def structured_annex(doc: boe_diario.DiarioDoc) -> dict[str, tuple[int, int]]:
-    """Estado-code -> node span inside the modifier's own annex.
-
-    A state region opens at a paragraph whose text starts with a state code
-    (``FI 105 DESGLOSE ...`` — ``anexo`` or ``centro_*`` classes in the
-    corpus) and closes at the next such paragraph. Regions are DECLARED by
-    the document structure itself.
-    """
-    annex_start = None
-    for n in doc.nodes:
-        if n.cls == "anexo" or (
-                n.kind == "p" and n.text.strip() == "ANEJO"):
-            annex_start = n.index
-            break
-    if annex_start is None:
-        return {}
-    starts: list[tuple[int, str]] = []
-    for i in range(annex_start, len(doc.nodes)):
-        n = doc.nodes[i]
-        if n.kind == "p" and _ANNEX_CODE_HEADER_RE.match(n.text):
-            m = _ANNEX_CODE_HEADER_RE.match(n.text)
-            code = annexmap._norm_code(m.group(1), m.group(2))
-            starts.append((i, code))
-    regions: dict[str, tuple[int, int]] = {}
-    for pos, (i, code) in enumerate(starts):
-        end = starts[pos + 1][0] if pos + 1 < len(starts) else len(doc.nodes)
-        regions.setdefault(code, (i, end))
-    return regions
-
-
-def _resolution(op_kind: str, before_id: str | None, after_id: str | None,
+def _resolution(op_kind: str, before_status: str, after_status: str,
                 literals) -> tuple[str, str | None]:
-    """RESOLVED only when the evidence this operation class requires exists.
-
-    ``PARTIAL`` means a required side is missing while some evidence was
-    produced; ``UNRESOLVED`` means none. Legitimate absence is not partial:
-    ADD creates the after-side (before NULL by definition), DELETE removes
-    it (after NULL by definition). For MODIFY, the officially declared
-    literal pair (donde dice/debe decir) counts as after-evidence when the
-    modifier supplies no new structured representation.
-    """
+    """RESOLVED only when the bindings this operation class requires are
+    BOUND. Notes name the abstention reason (ambiguous / not_provable /
+    not_found), not merely 'missing'."""
     has_lit = bool(literals)
-    missing: list[str] = []
+    b, a = before_status == "BOUND", after_status == "BOUND"
     if op_kind == "ADD":
-        if after_id is None:
-            missing.append("after_representation")
-    elif op_kind == "DELETE":
-        if before_id is None:
-            missing.append("before_representation")
-    elif op_kind == "SUBSTITUTE":
-        if before_id is None:
-            missing.append("before_representation")
-        if after_id is None:
-            missing.append("after_representation")
-    else:  # MODIFY, CORRECT, or anything else: both sides required
-        if before_id is None:
-            missing.append("before_representation")
-        if after_id is None and not has_lit:
-            missing.append("after_representation_or_literals")
-    if not missing:
-        return "RESOLVED", None
-    notes = "missing " + ", ".join(missing)
-    if before_id or after_id or has_lit:
-        return "PARTIAL", notes
-    return "UNRESOLVED", notes
+        return ("RESOLVED", None) if a else (
+            "UNRESOLVED", f"after: {after_status}")
+    if op_kind == "DELETE":
+        return ("RESOLVED", None) if b else (
+            "UNRESOLVED", f"before: {before_status}")
+    if op_kind == "SUBSTITUTE":
+        if b and a:
+            return "RESOLVED", None
+        res = "PARTIAL" if (b or a) else "UNRESOLVED"
+    else:  # MODIFY, CORRECT, or anything else
+        if b and (a or has_lit):
+            return "RESOLVED", None
+        res = "PARTIAL" if (b or a or has_lit) else "UNRESOLVED"
+    notes = "; ".join(
+        f"{side}: {st}" for side, st in
+        (("before", before_status), ("after", after_status))
+        if st != "BOUND" and st != "NOT_APPLICABLE")
+    if not a and has_lit and not b:
+        notes = (notes + "; " if notes else "") + "literals_only"
+    return res, notes or None
 
 
 # ---------------------------------------------------------------------------
@@ -450,6 +241,21 @@ def _anomaly(ctx: _Ctx, kind: str, snapshot_id: str | None,
              detail: dict) -> None:
     ctx.anomalies.append(
         {"kind": kind, "snapshot_id": snapshot_id, "detail": detail})
+
+
+def _unique_anomalies(anomalies: list) -> list:
+    """The run's anomalies deduplicated by their deterministic id —
+    what actually persists (identical abstentions collapse to one row)."""
+    seen: set[str] = set()
+    out = []
+    for a in anomalies:
+        aid = sha256_hex_text(
+            f"anomaly|{a['kind']}|{a['snapshot_id'] or '-'}"
+            f"|{_canonical_json(a['detail'])}")
+        if aid not in seen:
+            seen.add(aid)
+            out.append(a)
+    return out
 
 
 def _persist_anomalies(ctx: _Ctx) -> None:
@@ -590,23 +396,233 @@ def _image_representation(ctx: _Ctx, sid: str, boe_id: str,
                                   snaps[0], binding, evidence)
 
 
-def _structured_annex_repr(ctx: _Ctx, sid: str, modifier_boe: str,
-                           mdoc: boe_diario.DiarioDoc, code: str,
-                           snapshot_id: str) -> str | None:
-    regions = structured_annex(mdoc)
-    span = regions.get(code)
-    if span is None:
-        # try root code ("FI 142" annex header serving "FI 142-1.1")
-        span = regions.get(annexmap.estado_root(code))
-    if span is None:
+# ---------------------------------------------------------------------------
+# G1 binder integration: BindingResult -> persisted representation iff BOUND
+# ---------------------------------------------------------------------------
+
+
+@dataclass
+class SubjectState:
+    """Chain state per subject (G1 §27): PRESENT carries the proven
+    representation; DELETED a proven delete; UNKNOWN a proven operation
+    whose new representation could not be proven — a later non-ADD must
+    NOT resurrect the old representation."""
+    status: str                      # PRESENT | DELETED | UNKNOWN
+    representation_id: str | None
+    relation_id: str | None
+
+
+def _xml_candidate(doc: boe_diario.DiarioDoc, boe: str,
+                   span: tuple[int, int], scope: str, snap: str,
+                   source: str) -> binding.Candidate:
+    kind, text = region_text(doc, span)
+    return binding.Candidate(
+        instrument_boe_id=boe, snapshot_id=snap,
+        representation_kind=kind, structural_scope=scope,
+        node_span=span,
+        locator={"instrument": boe, "type": "xml_nodes",
+                 "node_span": [span[0], span[1]]},
+        source=source, text=text)
+
+
+def _materialize(ctx: _Ctx, sid: str, res: binding.BindingResult,
+                 key: str, snapshot_id: str,
+                 binding_label: str = "DECLARED") -> tuple[str, str] | None:
+    """Persist the chosen candidate iff the result is BOUND. Returns
+    (representation_id, representation_kind) or None."""
+    if res.status != binding.BOUND or res.chosen is None:
         return None
-    kind, text = region_text(mdoc, span)
-    locator = {"instrument": modifier_boe, "type": "xml_nodes",
-               "node_span": [span[0], span[1]]}
-    return _insert_representation(
-        ctx, sid, kind, text, locator, snapshot_id, "DECLARED",
-        {"rule": "estado code header in modifier annex",
-         "node_span": list(span)})
+    cand = res.chosen
+    if cand.representation_id is not None:
+        return cand.representation_id, cand.representation_kind
+    text = cand.text
+    rid = _insert_representation(
+        ctx, sid, cand.representation_kind, text, cand.locator,
+        snapshot_id, binding_label,
+        {"proof_version": "g1-binding-v1", "status": "BOUND",
+         "method": res.method, "requested_locator": key,
+         "scope": cand.structural_scope, "candidate_count": 1,
+         "chosen_candidate": cand.brief()})
+    return rid, cand.representation_kind
+
+
+def _bind_first_before(ctx: _Ctx, target: boe_diario.DiarioDoc,
+                       target_boe: str, key: str, sid: str,
+                       amap, snapshot_id: str
+                       ) -> binding.BindingResult:
+    """First-occurrence before: visual annex mapping, else hierarchical
+    textual candidates in the target document (B1/B2)."""
+    pages = amap.subject_pages(key) if amap else None
+    if pages:
+        rid = _image_representation(
+            ctx, sid, target_boe, pages, amap,
+            "ANCHORED_DERIVED" if amap.anchored else "UNANCHORED_DERIVED",
+            {"rule": "alt sequence + /Pages order + embedded page "
+                     "numbers",
+             "anchors": len(amap.anchors),
+             "anchors_matching": sum(
+                 1 for a in amap.anchors if a["match"])})
+        if rid is None:
+            return binding.abstain(
+                binding.NOT_PROVABLE, "ANNEX_PAGE_MAPPING", key,
+                "image fetch failed")
+        loc = conn_locator(ctx.conn, rid)
+        cand = binding.Candidate(
+            instrument_boe_id=target_boe, snapshot_id=snapshot_id,
+            representation_kind="IMAGE", structural_scope="annex_pages",
+            node_span=None, locator=loc, source="annex_page_mapping",
+            representation_id=rid)
+        return binding.BindingResult(
+            binding.BOUND, "ANNEX_PAGE_MAPPING", key, 1, (cand,), cand,
+            predecessor_representation_id=rid)
+    spans: list[tuple[int, int]] = []
+    if key.startswith("estado:"):
+        spans = binding.annex_code_regions(target).get(key[7:], [])
+    else:
+        spans = binding.text_region_candidates(target, key)
+    cands = [_xml_candidate(target, target_boe, sp, key, snapshot_id,
+                            "locator resolved in target xml")
+             for sp in spans]
+    return binding.decide(cands, "UNIQUE_STRUCTURAL_TARGET", key)
+
+
+def chain_update(chain: dict[str, "SubjectState"], key: str,
+                 op_kind: str, after_status: str, after_id: str | None,
+                 relation_id: str, literals) -> None:
+    """Subject chain state transition (G1 §28).
+
+    A proven operation whose new representation cannot be proven poisons
+    the chain to UNKNOWN — the subject was verifiably replaced by
+    something we cannot show, so a later non-ADD must not resurrect the
+    old representation. Declared literal corrections do not replace
+    representation identity and keep the proven state.
+    """
+    if op_kind == "DELETE":
+        chain[key] = SubjectState("DELETED", None, relation_id)
+    elif after_status == binding.BOUND:
+        chain[key] = SubjectState("PRESENT", after_id, relation_id)
+    elif op_kind == "SUBSTITUTE" or (
+            op_kind in ("MODIFY", "CORRECT") and not literals):
+        chain[key] = SubjectState("UNKNOWN", None, relation_id)
+    elif op_kind == "ADD":
+        chain[key] = SubjectState("UNKNOWN", None, relation_id)
+    # MODIFY/CORRECT with declared literals keeps the proven state
+
+
+def conn_locator(conn, rid: str) -> dict:
+    row = conn.execute(
+        "SELECT artifact_locator FROM representations"
+        " WHERE representation_id=?", (rid,)).fetchone()
+    return json.loads(row[0]) if row else {}
+
+
+def _bind_annex_after(ctx: _Ctx, key: str, sid: str, mboe: str,
+                      mdoc: boe_diario.DiarioDoc, snap: str,
+                      modifier_map_getter) -> binding.BindingResult:
+    """after from the modifier's own annex — only when the operation
+    explicitly points there (B3/§20). Candidates are enumerated; a
+    root-code span alone is NOT_PROVABLE, never silently elevated."""
+    if key.startswith("fichero:"):
+        spans = binding.fichero_spans(mdoc, key[8:])
+        res = binding.decide(
+            [_xml_candidate(mdoc, mboe, sp, key, snap,
+                            "fichero description block in modifier annex")
+             for sp in spans], "EXPLICIT_ANNEX_REFERENCE", key)
+        if res.status != binding.NOT_FOUND:
+            return res
+    code = (key[7:] if key.startswith("estado:")
+            else key[6:] if key.startswith("anejo:") else None)
+    if code:
+        regions = binding.annex_code_regions(mdoc)
+        spans = regions.get(code, [])
+        res = binding.decide(
+            [_xml_candidate(mdoc, mboe, sp, key, snap,
+                            "estado code header in modifier annex")
+             for sp in spans], "EXPLICIT_ANNEX_REFERENCE", key)
+        if res.status != binding.NOT_FOUND:
+            return res
+        root = annexmap.estado_root(code)
+        if root != code and regions.get(root):
+            return binding.abstain(
+                binding.NOT_PROVABLE, "EXPLICIT_ANNEX_REFERENCE", key,
+                "only broader root annex span provable")
+    # visual fallback inside the modifier annex (deterministic page map)
+    mmap = modifier_map_getter()
+    if mmap is not None:
+        mpages = mmap.subject_pages(key)
+        if mpages:
+            rid = _image_representation(
+                ctx, sid, mboe, mpages, mmap, "UNANCHORED_DERIVED",
+                {"rule": "modifier annex images; no independent anchors",
+                 "anchors": 0})
+            if rid is None:
+                return binding.abstain(
+                    binding.NOT_PROVABLE, "MODIFIER_ANNEX_PAGES", key,
+                    "image fetch failed")
+            cand = binding.Candidate(
+                instrument_boe_id=mboe, snapshot_id=snap,
+                representation_kind="IMAGE",
+                structural_scope="modifier_annex_pages", node_span=None,
+                locator=conn_locator(ctx.conn, rid),
+                source="modifier_annex_page_mapping",
+                representation_id=rid)
+            return binding.BindingResult(
+                binding.BOUND, "MODIFIER_ANNEX_PAGES", key, 1,
+                (cand,), cand)
+        return binding.abstain(
+            binding.NOT_FOUND, "MODIFIER_ANNEX_PAGES", key,
+            "no annex candidates")
+    return binding.abstain(binding.NOT_FOUND, "EXPLICIT_ANNEX_REFERENCE",
+                         key, "no annex candidates")
+
+
+def _bind_content_after(ctx: _Ctx, key: str, sid: str, mboe: str,
+                        mdoc: boe_diario.DiarioDoc,
+                        op: operations.Operation,
+                        snap: str) -> binding.BindingResult:
+    """after from operation-owned content only (B3). A modifier-global
+    lookup for the same locator is never used."""
+    method = op.content_link_method
+    s, e = op.content_span
+    if method == "INLINE_QUOTED_CONTENT":
+        kind_, text = "TEXT", op.inline_content
+        ns = op.node_index if text else s
+        if e > s:
+            kind_, span_text = region_text(mdoc, (s, e))
+            text = "\n".join(t for t in (text, span_text) if t)
+        cand = binding.Candidate(
+            instrument_boe_id=mboe, snapshot_id=snap,
+            representation_kind=kind_, structural_scope=key,
+            node_span=(ns, e),
+            locator={"instrument": mboe, "type": "xml_nodes",
+                     "node_span": [ns, e]},
+            source="operation inline quoted content", text=text)
+        return binding.BindingResult(
+            binding.BOUND, "INLINE_QUOTED_CONTENT", key, 1,
+            (cand,), cand)
+    if method == "EXPLICIT_FOLLOWING_CONTENT":
+        kind_, text = region_text(mdoc, (s, e))
+        if not text.strip():
+            return binding.abstain(
+                binding.NOT_PROVABLE, "EXPLICIT_FOLLOWING_CONTENT", key,
+                "empty content span")
+        cand = binding.Candidate(
+            instrument_boe_id=mboe, snapshot_id=snap,
+            representation_kind=kind_, structural_scope=key,
+            node_span=(s, e),
+            locator={"instrument": mboe, "type": "xml_nodes",
+                     "node_span": [s, e]},
+            source="operation following content span", text=text)
+        return binding.BindingResult(
+            binding.BOUND, "EXPLICIT_FOLLOWING_CONTENT", key, 1,
+            (cand,), cand)
+    if method == "DECLARED_LITERAL_ONLY":
+        return binding.abstain(
+            binding.NOT_PROVABLE, "DECLARED_LITERAL_ONLY", key,
+            "declared literals; no full replacement representation")
+    return binding.abstain(
+        binding.NOT_PROVABLE, "NO_PROVEN_CONTENT", key,
+        "no operation-owned content link")
 
 
 def _target_annex_map(ctx: _Ctx, boe_id: str,
@@ -736,8 +752,6 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
     # --- target annex map (anchored by the correction citations) -----------
     ctx.pending_anchors[target_boe_id] = anchors
     amap = _target_annex_map(ctx, target_boe_id, target)
-    target_binding = ("ANCHORED_DERIVED" if (amap and amap.anchored)
-                      else "UNANCHORED_DERIVED")
     if amap:
         for a in amap.anchors:
             if not a["match"]:
@@ -748,15 +762,40 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
     ordered = sorted(
         (pm for pm in parsed_mods if pm["doc"] is not None),
         key=lambda pm: (pm["pub"], pm["boe_id"]))
-    current: dict[str, str | None] = {}   # subject key -> repr id | None
+    chain: dict[str, SubjectState] = {}
     stats = {"relations": 0, "representations": 0}
+
+    _ABSTENTION_ANOMALY = {
+        binding.AMBIGUOUS: ANOMALY_AMBIGUOUS,
+        binding.NOT_FOUND: ANOMALY_BIND_NOT_FOUND,
+        binding.NOT_PROVABLE: ANOMALY_NOT_PROVABLE,
+    }
+
+    def _abstention_anomaly(res: binding.BindingResult, side: str,
+                            op_kind: str, mboe: str, snap,
+                            clause: str) -> None:
+        kind = _ABSTENTION_ANOMALY.get(res.status)
+        if kind is None:
+            return
+        _anomaly(ctx, kind, snap, {
+            "subject": res.locator_key, "modifier": mboe, "side": side,
+            "operation_kind": op_kind,
+            "candidate_count": res.candidate_count,
+            "candidates": [c.brief() for c in res.candidates][:5],
+            "reason": res.reason, "clause": clause[:200]})
 
     for pm in ordered:
         mboe = pm["boe_id"]
         mdoc = pm["doc"]
-        annex_regions = structured_annex(mdoc)
         modifier_map: annexmap.AnnexMap | None = None
         modifier_map_done = False
+
+        def _mmap_getter():
+            nonlocal modifier_map, modifier_map_done
+            if not modifier_map_done:
+                modifier_map_done = True
+                modifier_map = _target_annex_map(ctx, mboe, mdoc)
+            return modifier_map
 
         for op in pm["ops"]:
             if op.is_container or not op.subjects:
@@ -769,119 +808,90 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                     op.clause_text, key, op.operation_kind)
                 snaps = [pm["snapshot"], xml_art.snapshot_id]
 
-                # ----- before representation ------------------------------
+                # ----- before binding (G1 §15) -------------------------------
                 before_id = None
                 before_kind = None
-                if key in current:
-                    before_id = current[key]
-                    if before_id:
+                if op_kind == "ADD":
+                    bres = binding.BindingResult(
+                        binding.NOT_APPLICABLE, "ADD_NO_BEFORE", key, 0)
+                elif key in chain:
+                    st = chain[key]
+                    if st.status == "PRESENT" \
+                            and st.representation_id:
                         row = conn.execute(
-                            "SELECT representation_kind FROM representations"
+                            "SELECT representation_kind, artifact_locator"
+                            " FROM representations"
                             " WHERE representation_id=?",
-                            (before_id,)).fetchone()
+                            (st.representation_id,)).fetchone()
+                        cand = binding.Candidate(
+                            instrument_boe_id=target_boe_id,
+                            snapshot_id=None,
+                            representation_kind=row[0] if row else "TEXT",
+                            structural_scope="chain_predecessor",
+                            node_span=None,
+                            locator=json.loads(row[1]) if row else {},
+                            source="chain predecessor after",
+                            representation_id=st.representation_id)
+                        bres = binding.BindingResult(
+                            binding.BOUND, "CHAIN_PREDECESSOR", key, 1,
+                            (cand,), cand,
+                            predecessor_relation_id=st.relation_id,
+                            predecessor_representation_id=
+                            st.representation_id)
+                        before_id = st.representation_id
                         before_kind = row[0] if row else None
-                else:
-                    pages = amap.subject_pages(key) if amap else None
-                    if pages:
-                        before_id = _image_representation(
-                            ctx, sid, target_boe_id, pages, amap,
-                            target_binding,
-                            {"rule": "alt sequence + /Pages order + "
-                                     "embedded page numbers",
-                             "anchors": len(amap.anchors),
-                             "anchors_matching": sum(
-                                 1 for a in amap.anchors if a["match"])})
-                        before_kind = "IMAGE" if before_id else None
-                        if before_id is None:
-                            _anomaly(ctx, ANOMALY_UNBOUND, None,
-                                     {"subject": key, "modifier": mboe,
-                                      "operation_kind": op_kind,
-                                      "reason": "image fetch failed"})
+                    elif st.status == "DELETED":
+                        bres = binding.abstain(
+                            binding.NOT_PROVABLE, "CHAIN_STATE", key,
+                            "subject state DELETED; non-ADD cannot "
+                            "resurrect the old representation")
+                        _anomaly(ctx, ANOMALY_CHAIN, pm["snapshot"],
+                                 {"subject": key, "modifier": mboe,
+                                  "operation_kind": op_kind,
+                                  "reason": "deleted_state"})
                     else:
-                        span = text_region(target, key)
-                        if span is not None:
-                            kind_, text = region_text(target, span)
-                            before_id = _insert_representation(
-                                ctx, sid, kind_, text,
-                                {"instrument": target_boe_id,
-                                 "type": "xml_nodes",
-                                 "node_span": [span[0], span[1]]},
-                                xml_art.snapshot_id, "DECLARED",
-                                {"rule": "locator resolved in target xml",
-                                 "node_span": list(span)})
-                            before_kind = kind_
+                        bres = binding.abstain(
+                            binding.NOT_PROVABLE, "CHAIN_STATE", key,
+                            "subject state UNKNOWN; predecessor "
+                            "representation not provable")
+                        _anomaly(ctx, ANOMALY_CHAIN, pm["snapshot"],
+                                 {"subject": key, "modifier": mboe,
+                                  "operation_kind": op_kind,
+                                  "reason": "unknown_state"})
+                else:
+                    bres = _bind_first_before(
+                        ctx, target, target_boe_id, key, sid, amap,
+                        xml_art.snapshot_id)
+                    m = _materialize(ctx, sid, bres, key,
+                                     xml_art.snapshot_id)
+                    if m:
+                        before_id, before_kind = m
 
-                # ----- after representation -------------------------------
+                # ----- after binding (G1 §17–20) -----------------------------
                 after_id = None
                 after_kind = None
                 if op_kind == "DELETE":
-                    pass
+                    ares = binding.BindingResult(
+                        binding.NOT_APPLICABLE, "DELETE_NO_AFTER",
+                        key, 0)
                 elif op.annex_ref:
-                    if key.startswith("fichero:"):
-                        # '...que consta en el anejo de esta circular':
-                        # the modifier's own annex holds the new fichero
-                        # description block
-                        fspan = _fichero_span(mdoc, key[8:])
-                        if fspan is not None:
-                            kind_, text = region_text(mdoc, fspan)
-                            after_id = _insert_representation(
-                                ctx, sid, kind_, text,
-                                {"instrument": mboe, "type": "xml_nodes",
-                                 "node_span": [fspan[0], fspan[1]]},
-                                pm["snapshot"], "DECLARED",
-                                {"rule": "fichero description block in "
-                                         "modifier annex",
-                                 "node_span": list(fspan)})
-                            after_kind = kind_
-                    code = (key[7:] if key.startswith("estado:")
-                            else key[6:] if key.startswith("anejo:")
-                            else None)
-                    if code and annex_regions:
-                        after_id = _structured_annex_repr(
-                            ctx, sid, mboe, mdoc, code, pm["snapshot"])
-                        if after_id:
-                            row = conn.execute(
-                                "SELECT representation_kind FROM"
-                                " representations WHERE representation_id=?",
-                                (after_id,)).fetchone()
-                            after_kind = row[0] if row else None
-                    if after_id is None and not modifier_map_done:
-                        modifier_map_done = True
-                        modifier_map = _target_annex_map(ctx, mboe, mdoc)
-                    if after_id is None and modifier_map is not None:
-                        mpages = modifier_map.subject_pages(key)
-                        if mpages:
-                            after_id = _image_representation(
-                                ctx, sid, mboe, mpages, modifier_map,
-                                "UNANCHORED_DERIVED",
-                                {"rule": "modifier annex images; no "
-                                         "independent anchors",
-                                 "anchors": 0})
-                            after_kind = "IMAGE" if after_id else None
-                    if after_id is None:
-                        _anomaly(ctx, ANOMALY_ANNEX, pm["snapshot"],
-                                 {"subject": key, "modifier": mboe,
-                                  "operation_kind": op_kind,
-                                  "clause": op.clause_text[:200]})
+                    ares = _bind_annex_after(
+                        ctx, key, sid, mboe, mdoc, pm["snapshot"],
+                        _mmap_getter)
+                    m = _materialize(ctx, sid, ares, key, pm["snapshot"])
+                    if m:
+                        after_id, after_kind = m
                 else:
-                    s, e = op.content_span
-                    # a fused blockquote locator carries its quoted
-                    # content inline: its span begins at the locator node
-                    kind_, text = "TEXT", op.inline_content
-                    ns = op.node_index if text else s
-                    if e > s:
-                        kind_, span_text = region_text(mdoc, (s, e))
-                        text = "\n".join(
-                            t for t in (text, span_text) if t)
-                    if text:
-                        after_id = _insert_representation(
-                            ctx, sid, kind_, text,
-                            {"instrument": mboe, "type": "xml_nodes",
-                             "node_span": [ns, e]},
-                            pm["snapshot"], "DECLARED",
-                            {"rule": "operation content span",
-                             "node_span": [ns, e]})
-                        after_kind = kind_
+                    ares = _bind_content_after(
+                        ctx, key, sid, mboe, mdoc, op, pm["snapshot"])
+                    m = _materialize(ctx, sid, ares, key, pm["snapshot"])
+                    if m:
+                        after_id, after_kind = m
+
+                _abstention_anomaly(bres, "before", op_kind, mboe,
+                                    pm["snapshot"], op.clause_text)
+                _abstention_anomaly(ares, "after", op_kind, mboe,
+                                    pm["snapshot"], op.clause_text)
 
                 # ----- relation --------------------------------------------
                 literals = op.literals or None
@@ -900,7 +910,7 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                 rid = modification_relation_id(
                     mboe, key, op.clause_text, before_id, after_id)
                 resolution, resolution_notes = _resolution(
-                    op_kind, before_id, after_id, literals)
+                    op_kind, bres.status, ares.status, literals)
                 if resolution == "UNRESOLVED":
                     _anomaly(ctx, ANOMALY_UNBOUND, pm["snapshot"],
                              {"subject": key, "modifier": mboe,
@@ -908,6 +918,8 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                               "relation_id": rid,
                               "clause": op.clause_text[:200]})
 
+                proof = {"version": "g1-binding-v1",
+                         "before": bres.proof, "after": ares.proof}
                 conn.execute(
                     "INSERT OR IGNORE INTO modification_relations"
                     " (relation_id, kind, operation_kind, target_subject_id,"
@@ -916,8 +928,9 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                     " publication_date, instrument_effective_date,"
                     " declared_literals,"
                     " diff_levels, resolution, resolution_notes,"
-                    " source_snapshot_ids, parser_name, parser_version)"
-                    " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                    " source_snapshot_ids, parser_name, parser_version,"
+                    " binding_proof)"
+                    " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                     (rid, pm["kind"], op_kind, sid,
                      instrument_id(mboe), op.clause_text, pm["ref"].texto,
                      before_id, after_id, pm["pub"],
@@ -926,17 +939,13 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                      if literals else None,
                      json.dumps(levels), resolution,
                      resolution_notes,
-                     json.dumps(snaps), PARSER_NAME, PARSER_VERSION))
+                     json.dumps(snaps), PARSER_NAME, PARSER_VERSION,
+                     _canonical_json(proof)))
                 stats["relations"] += 1
 
-                # ----- chain update -----------------------------------------
-                if op_kind == "DELETE":
-                    current[key] = None
-                elif after_id is not None:
-                    current[key] = after_id
-                # ops producing no new representation leave the last proven
-                # representation standing (the declared change is recorded
-                # in the relation itself)
+                # ----- chain update (G1 §27–28) ------------------------------
+                chain_update(chain, key, op_kind, ares.status, after_id,
+                             rid, literals)
 
     _persist_anomalies(ctx)
     stats["representations"] = conn.execute(
@@ -947,13 +956,14 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
         "SELECT COUNT(*) FROM instruments").fetchone()[0]
     stats["instrument_relations"] = conn.execute(
         "SELECT COUNT(*) FROM instrument_relations").fetchone()[0]
-    stats["anomaly_count"] = len(ctx.anomalies)
+    stats["anomaly_count"] = conn.execute(
+        "SELECT COUNT(*) FROM anomalies").fetchone()[0]
     return {
         "target": target_boe_id,
         "modifiers": [{"boe_id": b, "kind": k} for b, k, _ in modifiers],
         "target_annex_anchored": bool(amap and amap.anchored),
         "anchors": len(amap.anchors) if amap else 0,
         "fetch_errors": ctx.acquirer.errors,
-        "anomalies": ctx.anomalies,
+        "anomalies": _unique_anomalies(ctx.anomalies),
         **stats,
     }

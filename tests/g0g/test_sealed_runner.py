@@ -110,10 +110,14 @@ def test_metric_names_and_taxonomy_frozen():
 
 
 def test_runner_dev_equivalence(tmp_path):
-    """The sealed runner on the DEV split must reproduce the frozen
-    G0-G.1 final state: same aggregate metrics, same per-target
-    relation counts and resolution distribution. The run must not
-    mutate the source evidence manifest."""
+    """The sealed runner on the DEV split executes deterministically
+    and audits 100% of emitted relations without mutating evidence.
+
+    G1_INTENTIONAL_SEMANTIC_CHANGE: equality with the frozen G0-G.1
+    metrics (runs/005) is no longer asserted — that state was produced
+    by the pre-binder runtime and encodes the false bindings G1.1
+    removes. The frozen artifact remains immutable history; the G1
+    comparison point is evidence/g1/dev/runs/000-baseline + final."""
     before = hashlib.sha256(DEV_MANIFEST.read_bytes()).hexdigest()
     out = tmp_path / "equiv"
     r = _run(_base_args(out))
@@ -121,16 +125,12 @@ def test_runner_dev_equivalence(tmp_path):
     assert hashlib.sha256(DEV_MANIFEST.read_bytes()).hexdigest() \
         == before
 
-    got = json.loads((out / "metrics.json").read_text(encoding="utf-8"))
-    frozen = json.loads(FROZEN_005.read_text(encoding="utf-8"))
-    assert got["aggregate"] == frozen["aggregate"]
-    assert got["per_target"] == frozen["per_target"]
-
     tg = json.loads((out / "targets.json").read_text(encoding="utf-8"))
     ft = json.loads((G0G / "dev" / "runs" / "005-redaccion-verb"
                      / "targets.json").read_text(encoding="utf-8"))
     for t, v in ft.items():
-        assert tg[t]["inventory"] == v["inventory"], t
+        assert tg[t]["inventory"]["relations"] \
+            == v["inventory"]["relations"], t
     # audit coverage: one row per emitted relation
     rels = sum(v["inventory"]["relations"] for v in tg.values())
     audit = (out / "audit.jsonl").read_text(encoding="utf-8")

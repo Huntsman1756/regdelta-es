@@ -33,7 +33,18 @@ from dataclasses import dataclass, field
 from .sources.boe_diario import DiarioDoc, Node, normalize
 
 PARSER_NAME = "boe_operations"
-PARSER_VERSION = "v2"
+PARSER_VERSION = "v3"
+
+# operation-owned content link taxonomy (G1 §17–18): an ``after``
+# representation may only be produced from content the operation is
+# proven to own.
+CONTENT_LINK_METHODS = (
+    "INLINE_QUOTED_CONTENT",       # «quoted» content fused in locator node
+    "EXPLICIT_FOLLOWING_CONTENT",  # pointer + attached following block
+    "EXPLICIT_ANNEX_REFERENCE",    # 'que figura en el anejo de esta circular'
+    "DECLARED_LITERAL_ONLY",       # donde dice / debe decir literals only
+    "NO_PROVEN_CONTENT",
+)
 
 # ---------------------------------------------------------------------------
 # markers / verbs / patterns
@@ -224,6 +235,11 @@ _OP_KINDS = [
 ]
 
 
+# sub-clause boundaries for per-subject verb scoping
+_SEG_SPLIT_RE = re.compile(
+    r"[;:]|\.\s|\s+(?:y|e|ni)\s+", re.IGNORECASE)
+
+
 def subject_operation_kind(clause_text: str, locator_key: str,
                            default: str) -> str:
     """Per-subject operation kind inside a mixed-verb clause.
@@ -252,16 +268,20 @@ def subject_operation_kind(clause_text: str, locator_key: str,
                          re.IGNORECASE)
     else:
         return default
+    # Mask quoted spans so «...» content never supplies verbs or clause
+    # boundaries ("se sustituye «donde dice...»").
+    masked = _QUOTED_SPAN_RE.sub(
+        lambda mm: " " * len(mm.group(0)), clause_text)
     verbs: list[tuple[int, str]] = []
     for kind, rx in _OP_KINDS:
-        verbs.extend((m.start(), kind) for m in rx.finditer(clause_text))
+        verbs.extend((m.start(), kind) for m in rx.finditer(masked))
     verbs.sort()
     m = pat.search(clause_text)
     if m is None or not verbs:
         return default
-    preceding = [v for v in verbs if v[0] <= m.start()]
-    following = [v for v in verbs if v[0] > m.start()]
     if locator_key.startswith("fichero:"):
+        preceding = [v for v in verbs if v[0] <= m.start()]
+        following = [v for v in verbs if v[0] > m.start()]
         # "Se <verb> el fichero «X»": the «name» is the direct object of
         # a preceding verb; a later verb opens a coordinated action on a
         # different subject ('Se modifica el fichero «X» ... y se incluye
@@ -271,13 +291,33 @@ def subject_operation_kind(clause_text: str, locator_key: str,
         if following:
             return following[0][1]
         return default
-    # Spanish orderings: "se eliminan los estados X" (verb before mention)
-    # and "el estado X pasa a denominarse" (verb after mention). The
-    # subject adopts the first verb following its mention; if none, the
-    # last verb preceding it.
+    # Sub-clause scoping: a mention is governed by the verb of its own
+    # sub-clause (split at ';', ':', '.', ' y/e/ni '). "Se sustituye el
+    # estado X por el formato de estado X que se incluye en el anejo"
+    # leaves X SUBSTITUTE — 'se incluye' describes the replacement, not
+    # the subject. A mention in a verb-free sub-clause (the second item
+    # of an enumeration, 'los estados FI 105 y FI 142-1.1') inherits the
+    # nearest shared verb before its sub-clause.
+    seg_start, seg_end = 0, len(masked)
+    for sm in _SEG_SPLIT_RE.finditer(masked):
+        if sm.end() <= m.start():
+            seg_start = sm.end()
+        else:
+            seg_end = sm.start()
+            break
+    preceding = [v for v in verbs if seg_start <= v[0] < m.start()]
+    following = [v for v in verbs if m.end() <= v[0] < seg_end]
+    if preceding:
+        return preceding[-1][1]
     if following:
         return following[0][1]
-    return preceding[-1][1]
+    shared = [v for v in verbs if v[0] < seg_start]
+    if shared:
+        return shared[-1][1]
+    after = [v for v in verbs if v[0] >= seg_end]
+    if after:
+        return after[0][1]
+    return default
 
 
 # ---------------------------------------------------------------------------
@@ -312,6 +352,8 @@ class Operation:
     targets: list[tuple[int, int]] = field(default_factory=list)
     # circular refs the clause itself names (unmarked ops inside
     # sections whose heading names no circular)
+    content_link_method: str = "NO_PROVEN_CONTENT"
+    content_link_evidence: dict = field(default_factory=dict)
 
 
 @dataclass
@@ -807,7 +849,56 @@ def parse_operations(doc: DiarioDoc,
                 break
         op.content_span = (op.node_index + 1, end)
 
+    for op in operations:
+        _content_link(doc, op)
+
     return OpsResult(operations, sections, out_of_target)
+
+
+def _content_link(doc: DiarioDoc, op: Operation) -> None:
+    """Classify how this operation owns replacement content (G1 §17–18).
+
+    ``EXPLICIT_FOLLOWING_CONTENT`` requires: (1) a recognized pointer or
+    a structurally valid ':'; (2) non-empty content inside the operation's
+    own span — which by construction lies in the same section, follows
+    the locator node, and stops before the next sibling locator or the
+    next articulo scope. A literal-only clause (donde dice / debe decir)
+    never claims following blocks as its content.
+    """
+    if op.is_container:
+        return
+    if op.inline_content:
+        op.content_link_method = "INLINE_QUOTED_CONTENT"
+        op.content_link_evidence = {"inline": True}
+        return
+    if op.annex_ref:
+        op.content_link_method = "EXPLICIT_ANNEX_REFERENCE"
+        op.content_link_evidence = {"annex_ref": True}
+        return
+    s, e = op.content_span
+    has_content = e > s and any(
+        (doc.nodes[i].text or "").strip() or doc.nodes[i].kind == "table"
+        for i in range(s, e))
+    colon = op.clause_text.rstrip().endswith(":")
+    pointer = bool(_CONTENT_POINTER_RE.search(op.clause_text))
+    if op.literals and not colon:
+        op.content_link_method = "DECLARED_LITERAL_ONLY"
+        op.content_link_evidence = {"literal_pairs": len(op.literals)}
+        return
+    if has_content and (colon or pointer):
+        op.content_link_method = "EXPLICIT_FOLLOWING_CONTENT"
+        op.content_link_evidence = {
+            "content_span": [s, e], "colon": colon,
+            "pointer": pointer}
+        return
+    if op.literals:
+        op.content_link_method = "DECLARED_LITERAL_ONLY"
+        op.content_link_evidence = {"literal_pairs": len(op.literals)}
+        return
+    op.content_link_method = "NO_PROVEN_CONTENT"
+    op.content_link_evidence = {
+        "content_span": [s, e], "has_content": has_content,
+        "colon": colon, "pointer": pointer}
 
 
 def _alpha_value(tok: str) -> int:

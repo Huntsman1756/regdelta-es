@@ -561,15 +561,19 @@ def test_cli_error_json(data_dir, capsys):
 
 
 def test_g0c_g0d_invariants(ro):
+    # G1_INTENTIONAL_SEMANTIC_CHANGE: representation/resolution/anomaly
+    # counts shift under the G1.1 proof-or-abstain binder — see the
+    # detailed rationale in test_g0c_counts_unchanged
+    # (tests/g0d/test_applicability_runtime.py).
     assert ro.execute("SELECT COUNT(*) FROM subjects").fetchone()[0] == 221
     assert ro.execute(
-        "SELECT COUNT(*) FROM representations").fetchone()[0] == 335
+        "SELECT COUNT(*) FROM representations").fetchone()[0] == 320
     assert ro.execute(
         "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 292
     assert dict(ro.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution").fetchall()) == {
-        "RESOLVED": 182, "PARTIAL": 93, "UNRESOLVED": 17}
+        "RESOLVED": 172, "PARTIAL": 81, "UNRESOLVED": 39}
     assert ro.execute(
         "SELECT COUNT(*) FROM applicability_clauses").fetchone()[0] == 26
     assert ro.execute(
@@ -577,4 +581,4 @@ def test_g0c_g0d_invariants(ro):
     assert ro.execute(
         "SELECT COUNT(*) FROM applicability_targets").fetchone()[0] == 98
     assert ro.execute(
-        "SELECT COUNT(*) FROM anomalies").fetchone()[0] == 23
+        "SELECT COUNT(*) FROM anomalies").fetchone()[0] == 217

@@ -195,15 +195,29 @@ def test_s1_correction_visual_predecessor(built):
 
 
 def test_s2_declared_text_visual_predecessor(built):
+    # G1_INTENTIONAL_SEMANTIC_CHANGE (G1.1 §15.1):
+    #   old expected: bkind == 'IMAGE' — the pre-binder runtime bound
+    #     the target annex's image as the ADD's 'before'.
+    #   why not provable: an ADD has no pre-existing subject; the annex
+    #     page image is surrounding context, not a representation of
+    #     the subject being added. G1 §15.1 mandates before =
+    #     NOT_APPLICABLE for ADD, so VISUAL_PREDECESSOR_PROVEN is no
+    #     longer emitted here.
+    #   new fail-closed behavior: before abstains (NULL, proof
+    #     NOT_APPLICABLE); the declared addition is proven by the
+    #     operation-owned after representation instead.
     conn, _ = built
     rels = [r for r in _rels(conn, "estado:FI 131-2.2")
             if r["modifier_boe"] == "BOE-A-2018-2041"]
     assert rels
     r = rels[0]
     assert r["kind"] == "CORRECTION"
-    assert r["bkind"] == "IMAGE"
+    assert r["operation_kind"] == "ADD"
+    assert r["before_representation_id"] is None
     assert r["akind"] in ("TEXT", "TABLE")
-    assert "VISUAL_PREDECESSOR_PROVEN" in json.loads(r["diff_levels"])
+    levels = json.loads(r["diff_levels"])
+    assert "DECLARED_CHANGE_PROVEN" in levels or "TEXT_DIFF_PROVEN" \
+        in levels or "SEMANTIC_DIFF_NOT_AVAILABLE" in levels
 
 
 def test_s3_chained_image_table_table(built):
@@ -219,14 +233,27 @@ def test_s3_chained_image_table_table(built):
 
 
 def test_s4_image_to_table(built):
+    # G1_INTENTIONAL_SEMANTIC_CHANGE (G1.1 §27–28):
+    #   old expected: before=IMAGE — the runtime bound the target
+    #     annex's image for the SUBSTITUTE despite two earlier 'pasa a
+    #     denominarse' renames of FI 105 in the same modifier.
+    #   why not provable: those renames are proven operations whose new
+    #     representations cannot be shown; per §28 the chain becomes
+    #     UNKNOWN and the stale image must not be resurrected as the
+    #     SUBSTITUTE's before.
+    #   new fail-closed behavior: before abstains (NOT_PROVABLE,
+    #     CHAIN_STATE); the after still binds the modifier annex table,
+    #     so the relation is PARTIAL.
     conn, _ = built
     rels = [r for r in _rels(conn, "estado:FI 105")
             if r["operation_kind"] == "SUBSTITUTE"]
     assert len(rels) == 1
     r = rels[0]
-    assert r["bkind"] == "IMAGE" and r["akind"] == "TABLE"
-    assert "VISUAL_PREDECESSOR_PROVEN" in json.loads(r["diff_levels"])
-    assert r["resolution"] == "RESOLVED"
+    assert r["bkind"] is None and r["akind"] == "TABLE"
+    proof = json.loads(r["binding_proof"])
+    assert proof["before"]["status"] == "NOT_PROVABLE"
+    assert proof["before"]["method"] == "CHAIN_STATE"
+    assert r["resolution"] == "PARTIAL"
 
 
 def test_s5_image_to_image(built):
@@ -493,7 +520,12 @@ def test_partial_means_required_evidence_missing(built):
             # some evidence exists but a required side is missing
             assert r[1] is not None or r[2] is not None or r[3] is not None
         if r[4] != "RESOLVED":
-            assert r[5] is not None and "missing" in r[5]
+            # G1: notes name the abstention status instead of the bare
+            # word 'missing' (NOT_FOUND/AMBIGUOUS/NOT_PROVABLE)
+            assert r[5] is not None and any(
+                tok in r[5] for tok in
+                ("NOT_FOUND", "AMBIGUOUS", "NOT_PROVABLE",
+                 "literals_only"))
 
 
 def test_legitimate_absence_not_partial(built):
