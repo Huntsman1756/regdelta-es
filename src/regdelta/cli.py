@@ -6,7 +6,7 @@ import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from . import query
+from . import diffing, query
 from .util import madrid_local_date
 from .watcher import run
 
@@ -63,6 +63,16 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--subject", help="exact locator_key")
     p.add_argument("--data-dir", default="data")
 
+    p = subparsers.add_parser(
+        "diff", help="representation-aware deltas in a publication window")
+    p.add_argument("target", help="BOE-A-* id or 'Circular N/YYYY'")
+    p.add_argument("--from", dest="from_date", required=True,
+                   help="YYYY-MM-DD (exclusive baseline)")
+    p.add_argument("--to", dest="to_date", required=True,
+                   help="YYYY-MM-DD (inclusive)")
+    p.add_argument("--subject", help="exact locator_key")
+    p.add_argument("--data-dir", default="data")
+
     args = parser.parse_args(argv)
     if args.command == "watch":
         summary = run(args.date, Path(args.data_dir))
@@ -91,6 +101,11 @@ def main(argv: list[str] | None = None) -> int:
                 out = query.as_of(conn, target=args.target,
                                   as_of_date=_iso(args.date),
                                   subject=args.subject)
+            elif args.command == "diff":
+                out = diffing.diff(conn, target=args.target,
+                                   from_date=_iso(args.from_date),
+                                   to_date=_iso(args.to_date),
+                                   subject=args.subject)
             else:  # pragma: no cover - argparse enforces choices
                 return 1
         finally:
