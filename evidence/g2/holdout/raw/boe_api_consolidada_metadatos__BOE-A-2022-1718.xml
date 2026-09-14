@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T151326Z</fecha_actualizacion>
+      <identificador>BOE-A-2022-1718</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20220124</fecha_disposicion>
+      <numero_oficial>1/2022</numero_oficial>
+      <titulo>Circular 1/2022, de 24 de enero, del Banco de España, a los establecimientos financieros de crédito, sobre liquidez, normas prudenciales y obligaciones de información, y que modifica la Circular 1/2009, de 18 de diciembre, a entidades de crédito y otras supervisadas, en relación con la información sobre la estructura de capital y cuotas participativas de las entidades de crédito, y sobre sus oficinas, así como sobre los altos cargos de las entidades supervisadas, y la Circular 3/2019, de 22 de octubre, por la que se ejerce la facultad conferida por el Reglamento (UE) 575/2013 de definir el umbral de significatividad de las obligaciones crediticias vencidas.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20220203</fecha_publicacion>
+      <diario_numero>29</diario_numero>
+      <fecha_vigencia>20220503</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2022/01/24/1</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2022-1718</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

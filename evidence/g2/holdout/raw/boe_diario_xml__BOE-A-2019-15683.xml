@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251220122601">
+  <metadatos>
+    <identificador>BOE-A-2019-15683</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20191022</fecha_disposicion>
+    <numero_oficial>3/2019</numero_oficial>
+    <titulo>Circular 3/2019, de 22 de octubre, del Banco de España, por la que se ejerce la facultad conferida por el Reglamento (UE) 575/2013 de definir el umbral de significatividad de las obligaciones crediticias vencidas.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20191101</fecha_publicacion>
+    <diario_numero>263</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>121206</pagina_inicial>
+    <pagina_final>121208</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2019/11/01/pdfs/BOE-A-2019-15683.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2019-15683</url_epub>
+    </url_epub>
+    <url_pdf_catalan>/boe_catalan/dias/2019/11/01/pdfs/BOE-A-2019-15683-C.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego>/boe_gallego/dias/2019/11/01/pdfs/BOE-A-2019-15683-G.pdf</url_pdf_gallego>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20191121</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2019/10/22/3</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2019/10/22/3">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2019-15683</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-22</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4518"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5645"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2019/10/22/3/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2019-15683</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-22</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4518"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5645"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2019/10/22/3"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2019, de 22 de octubre, del Banco de España, por la que se ejerce la facultad conferida por el Reglamento (UE) 575/2013 de definir el umbral de significatividad de las obligaciones crediticias vencidas.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-01</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2019/10/22/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2019, de 22 d'octubre, del Banc d'Espanya, per la qual s'exerceix la facultat conferida pel Reglament (UE) 575/2013 de definir el llindar de rellevància de les obligacions creditícies vençudes.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-01</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2019/10/22/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/glg">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2019, do 22 de outubro, do Banco de España, pola que se exerce a facultade conferida polo Regulamento (UE) 575/2013 de definir o limiar de significatividade das obrigacións crediticias vencidas.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-01</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2019/10/22/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/glg/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2019/10/22/3/dof/glg"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="1757" orden="">Créditos</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="4518" orden="">Inversiones</materia>
+      <materia codigo="5645" orden="">Política económica</materia>
+      <materia codigo="6242" orden="">Riesgos</materia>
+    </materias>
+    <notas>
+      <nota codigo="37" orden="215">Aplicable según lo indicado.</nota>
+    </notas>
+    <referencias>
+      <anteriores>
+        <anterior referencia="DOUE-L-2013-81261" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>el art. 178 del Reglamento (UE) 575/2013</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2022-1718" orden="">
+          <palabra codigo="270">SE MODIFICA</palabra>
+          <texto>, con efectos desde el 3 de mayo de 2022, la norma 4.3, por Circular 1/2022, de 24 de enero</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">El título II de la parte tercera del Reglamento (UE) n.º 575/2013 del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012 [en adelante, el «Reglamento (UE) n.º 575/2013»], regula los requerimientos de fondos propios por riesgo de crédito que deben cumplir las entidades de crédito.</p>
+    <p class="parrafo">El cálculo de esos requerimientos exige que las entidades determinen el importe de las exposiciones ponderadas por riesgo, bien mediante la aplicación del método estándar, o bien, si así lo permiten las autoridades competentes, mediante el método basado en calificaciones internas. Entre esas exposiciones se encuentran, en concreto, las exposiciones en situación de impago.</p>
+    <p class="parrafo">El artículo 178, apartado 1, del Reglamento (UE) n.º 575/2013 concreta las circunstancias conforme a las cuales se considera que se produce una situación de impago del deudor en relación con sus obligaciones crediticias frente a la entidad, la empresa matriz o cualquiera de sus filiales, a saber: i) la existencia de dudas razonables sobre el pago de la totalidad de sus obligaciones crediticias, sin que la entidad recurra a acciones tales como la ejecución de garantías, o ii) que el deudor mantenga importes vencidos durante más de 90 días con respecto a cualquier obligación crediticia significativa [<em>material</em> en la versión en inglés del Reglamento (UE) n.º 575/2013].</p>
+    <p class="parrafo">Añade el artículo 178, apartado 1, que, en el caso de las exposiciones minoristas, las entidades podrán aplicar la definición de impago antes señalada al nivel de una operación individual [<em>individual credit facility</em> en la versión en inglés del Reglamento (UE) n.º 575/2013], en lugar de hacerlo en relación con las obligaciones totales de un prestatario.</p>
+    <p class="parrafo">El mismo artículo 178, en su apartado 2, letra d), faculta a las autoridades competentes para definir un importe mínimo con el que evaluar la significatividad de una obligación crediticia vencida. Al establecer este umbral, las autoridades competentes deberán cumplir las condiciones que la Comisión Europea ha especificado en el Reglamento Delegado (UE) n.º 2018/171, de 19 de octubre de 2017, por el que se completa el Reglamento (UE) n.º 575/2013 en lo que se refiere a las normas técnicas de regulación relativas al umbral de significatividad de las obligaciones crediticias vencidas.</p>
+    <p class="parrafo">El Banco Central Europeo adoptó, el 21 de noviembre de 2018, el Reglamento (UE) n.º 2018/1845, sobre el ejercicio de la facultad prevista en el artículo 178, apartado 2, letra d), del Reglamento (UE) n.º 575/2013 de definir el umbral de significatividad de las obligaciones vencidas. Las previsiones de este reglamento resultan de aplicación exclusivamente a las entidades significativas, bajo la supervisión directa del Banco Central Europeo. Ello resulta de las atribuciones que le confiere el Reglamento (UE) n.º 1024/2013, de 15 de octubre de 2013, que encomienda al Banco Central Europeo tareas específicas respecto de políticas relacionadas con la supervisión prudencial de las entidades de crédito [en adelante, el «Reglamento (UE) n.º 1024/2013»].</p>
+    <p class="parrafo">No existen, sin embargo, hasta la fecha actual, previsiones relativas a la definición del umbral de significatividad aplicables a las entidades de crédito españolas menos significativas, bajo la supervisión directa del Banco de España. El marco jurídico antes descrito se encuentra, por tanto, incompleto, y procede, por ello, que el Banco de España adopte una circular al efecto.</p>
+    <p class="parrafo">De acuerdo con lo expuesto, esta circular cumple con los principios de necesidad y eficacia exigidos por el artículo 129.1 de la Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. Atiende también a los principios de proporcionalidad, seguridad jurídica, transparencia y eficiencia establecidos en la citada ley, puesto que, sin imponer obligaciones adicionales, la circular tiene el contenido imprescindible para atender a la finalidad que se identifica y pretende garantizar una aplicación homogénea de los requisitos prudenciales referidos al cálculo del riesgo de crédito de las entidades de crédito menos significativas, mejorando, al mismo tiempo, la comparabilidad de los requerimientos de fondos propios.</p>
+    <p class="parrafo">De forma adicional, y a fin de salvaguardar las expectativas legítimas de las entidades de crédito supervisadas, tanto las entidades que apliquen el método estándar como las que apliquen el método basado en calificaciones internas deben disponer de un período transitorio apropiado. Por tanto, las entidades de crédito deberán aplicar, a partir del 31 de diciembre de 2020 a más tardar, el umbral de significatividad de las obligaciones crediticias vencidas establecido en la presente circular, y deberán notificar al Banco de España, antes del 31 de diciembre de 2019, la fecha exacta en la que empezarán a aplicarlo.</p>
+    <p class="parrafo">En consecuencia, en uso de las facultades que tiene conferidas, el Consejo de Gobierno del Banco de España, a propuesta de la Comisión Ejecutiva y de acuerdo con el Consejo de Estado, ha aprobado la presente circular, que contiene las siguientes normas:</p>
+    <p class="articulo">Norma 1. Objeto.</p>
+    <p class="parrafo">La presente circular tiene por objeto ejercer la facultad que el artículo 178, apartado 2, letra d), del Reglamento (UE) n.º 575/2013 atribuye a las autoridades competentes de definir el umbral de significatividad de las obligaciones crediticias vencidas.</p>
+    <p class="articulo">Norma 2. Ámbito de aplicación.</p>
+    <p class="parrafo">1. Lo dispuesto en esta circular será de aplicación a las entidades y grupos referidos en los apartados a) y b) siguientes, siempre que se consideren menos significativos según el Reglamento (UE) n.º 1024/2013:</p>
+    <p class="parrafo_2">a) Los grupos y subgrupos consolidables de entidades de crédito, definidos en el Reglamento (UE) n.º 575/2013, cuya matriz esté establecida en España y responda a alguna de las definiciones de los párrafos 28, 30 o 32 del artículo 4.1 del Reglamento (UE) n.º 575/2013.</p>
+    <p class="parrafo">b) Las entidades de crédito individuales constituidas en España, integradas o no en un grupo consolidable de entidades de crédito.</p>
+    <p class="parrafo_2">2. Lo dispuesto en esta circular también será de aplicación a las sucursales en España de entidades de crédito con sede en Estados no miembros de la Unión Europea, siempre que no hayan sido eximidas del cumplimiento de las partes tercera, cuarta y séptima del Reglamento (UE) n.º 575/2013 en aplicación de la norma 4 de la Circular 2/2016, de 2 de febrero, del Banco de España, a las entidades de crédito, sobre supervisión y solvencia, que completa la adaptación del ordenamiento jurídico español a la Directiva 2013/36/UE y al Reglamento (UE) n.º 575/2013.</p>
+    <p class="articulo">Norma 3. Definiciones.</p>
+    <p class="parrafo">A efectos de la presente circular, serán de aplicación las definiciones del artículo 4 del Reglamento (UE) n.º 575/2013 y del artículo 2 del Reglamento (UE) n.º 1024/2013.</p>
+    <p class="articulo">Norma 4. Umbral de significatividad de las obligaciones crediticias vencidas a que se refiere el artículo 178, apartado 2, letra d), del Reglamento (UE) n.º 575/2013.</p>
+    <p class="parrafo">1. A efectos del artículo 178, apartado 2, letra d), del Reglamento (UE) n.º 575/2013, las entidades de crédito evaluarán la significatividad de las obligaciones crediticias vencidas por referencia al siguiente umbral, que consta de dos componentes:</p>
+    <p class="parrafo_2">a) Un límite expresado como la suma de todos los importes de las obligaciones crediticias vencidas que el deudor mantiene frente a la entidad de crédito, su empresa matriz o cualquiera de sus filiales (en lo sucesivo, «la obligación crediticia vencida»), e igual a:</p>
+    <p class="parrafo_2">i) 100 euros, o el equivalente de dicho importe en la moneda nacional pertinente, para las exposiciones minoristas;</p>
+    <p class="parrafo">ii) 500 euros, o el equivalente de dicho importe en la moneda nacional pertinente, para exposiciones distintas de las minoristas.</p>
+    <p class="parrafo_2">b) Un límite expresado como el importe de la obligación crediticia vencida en relación con el importe total de las exposiciones frente a ese deudor en el balance de la entidad de crédito, su empresa matriz o cualquiera de sus filiales, excluidas las exposiciones de renta variable, igual al 1 %.</p>
+    <p class="parrafo_2">2. Para las entidades de crédito que, en el caso de exposiciones minoristas, apliquen la definición de impago del artículo 178, apartado 1, párrafo primero, letras a) y b), del Reglamento (UE) n.º 575/2013 al nivel de una operación individual, el umbral del apartado 1 se aplicará al nivel de la operación individual otorgada al deudor por la entidad de crédito, su empresa matriz o cualquiera de sus filiales.</p>
+    <p class="parrafo">3. Se considerará que se ha producido un impago cuando ambos límites del apartado 1, letras a) y b), se sobrepasen durante 90 días consecutivos.</p>
+    <p class="articulo">Disposición final única. Entrada en vigor y fecha de aplicación del umbral de significatividad.</p>
+    <p class="parrafo">1. La presente circular entrará en vigor el vigésimo día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+    <p class="parrafo">2. Las entidades de crédito aplicarán, a partir del 31 de diciembre de 2020 a más tardar, el umbral de significatividad de las obligaciones crediticias vencidas establecido en esta circular, y deberán notificar al Banco de España, antes del 31 de diciembre de 2019, la fecha exacta en la que empezarán a aplicarlo.</p>
+    <p class="parrafo_2">Madrid, 22 de octubre de 2019.–El Gobernador del Banco de España, Pablo Hernández de Cos.</p>
+  </texto>
+</documento>

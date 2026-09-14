@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251217192601">
+  <metadatos>
+    <identificador>BOE-A-1990-23233</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>19900907</fecha_disposicion>
+    <numero_oficial>8/1990</numero_oficial>
+    <titulo>Circular número 8/1990, de 7 de septiembre, a Entidades de Crédito, sobre transparencia de las operaciones y protección de la clientela.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>19900920</fecha_publicacion>
+    <diario_numero>226</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>27498</pagina_inicial>
+    <pagina_final>27508</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/1990/09/20/pdfs/A27498-27508.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/1990/09/07/8</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/1990/09/07/8">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1990-23233</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-09-07</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/438"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/453"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/561"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/563"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1712"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1755"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4012"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4505"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4518"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5680"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/1990/09/07/8/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1990-23233</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-09-07</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/438"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/453"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/561"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/563"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1320"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1712"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1755"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4012"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4505"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4518"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5680"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/1990/09/07/8"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/1990/09/07/8/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular número 8/1990, de 7 de septiembre, a Entidades de Crédito, sobre transparencia de las operaciones y protección de la clientela.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-09-20</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/1990/09/07/8/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1990/09/07/8/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1990/09/07/8/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1990/09/07/8/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1990/09/07/8/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1990/09/07/8/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1990/09/07/8/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="438" orden="1">Banca</materia>
+      <materia codigo="449" orden="2">Banco de España</materia>
+      <materia codigo="453" orden="3">Banco Exterior de España</materia>
+      <materia codigo="561" orden="4">Caja Postal de Ahorros</materia>
+      <materia codigo="563" orden="5">Cajas de Ahorro</materia>
+      <materia codigo="1320" orden="6">Comunidades Autónomas</materia>
+      <materia codigo="1712" orden="7">Cooperativas de crédito</materia>
+      <materia codigo="1755" orden="8">Crédito Oficial</materia>
+      <materia codigo="1757" orden="9">Créditos</materia>
+      <materia codigo="4012" orden="10">Hipoteca</materia>
+      <materia codigo="4505" orden="11">Intereses</materia>
+      <materia codigo="4518" orden="12">Inversiones</materia>
+      <materia codigo="5680" orden="13">Préstamos</materia>
+      <materia codigo="6896" orden="14">Títulos valores</materia>
+    </materias>
+    <notas>
+      <nota codigo="10" orden="200">Entrada en vigor:, con las Excepciones indicadas, el 20 de septiembre de 1990.</nota>
+    </notas>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-1988-29701" orden="1010">
+          <palabra codigo="210">DEROGA</palabra>
+          <texto>Circular 16/1988, de 29 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1988-28607" orden="1010">
+          <palabra codigo="210">DEROGA</palabra>
+          <texto>Circular 15/1988, de 5 de diciembre</texto>
+        </anterior>
+        <anterior referencia="---" orden="1010">
+          <palabra codigo="210">DEROGA</palabra>
+          <texto>circulares 7/1973, de 17 de diciembre, del Banco de España</texto>
+        </anterior>
+        <anterior referencia="---" orden="1010">
+          <palabra codigo="210">DEROGA</palabra>
+          <texto>Circular 24/1987, de 21 de julio, del Banco de España</texto>
+        </anterior>
+        <anterior referencia="---" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>la norma sexta de la Circular 20/1987, de 9 de junio, del Banco de España</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1989-29754" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la Orden de 12 de diciembre de 1989</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1990-15273" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Real Decreto 825/1990, de 22 de junio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1988-26156" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Ley 34/1988, de 11 de noviembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1988-18845" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Ley 26/1988, de 29 de julio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1988-18764" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Ley 24/1988, de 28 de junio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1987-5790" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Orden de 3 de marzo de 1987</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1985-14880" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Ley 19/1985, de 16 de julio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1958-11341" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Ley sobre procedimiento administrativo, de 17 de julio de 1958 (Gazeta)</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2012-9058" orden="">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>con la excepción indicada , por Circular 5/2012, de 27 de junio</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2010-15521" orden="">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>la norma 9, por Circular 6/2010, de 28 de septiembre</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2009-21183" orden="">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>la norma 29, por Circular 1/2009, de 18 de diciembre</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2004-3878" orden="1">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>las normas 11 a 27, por Real Decreto 303/2004, de 20 de febrero</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2001-18732" orden="3">
+          <palabra codigo="270">SE MODIFICA</palabra>
+          <texto>las normas 3 a 7, 9 y los anexos IV, VI, VII y X, por Circular 3/2001, de 24 de septiembre</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2000-2675" orden="4">
+          <palabra codigo="270">SE MODIFICA</palabra>
+          <texto>, por Circular 1/2000, de 28 de enero</texto>
+        </posterior>
+        <posterior referencia="BOE-A-1999-7735" orden="6">
+          <palabra codigo="270">SE MODIFICA</palabra>
+          <texto>las normas indicadas y se añade una disposición transitoria, por Circular 3/1999 de 24 de marzo</texto>
+        </posterior>
+        <posterior referencia="BOE-A-1998-3312" orden="7">
+          <palabra codigo="270">SE MODIFICA</palabra>
+          <texto>las normas primera a cuarta, sexta, Septima y Anexo VI y se añaden los Anexos II bis y III bis, por Circular 4/1998, de 27 de enero</texto>
+        </posterior>
+        <posterior referencia="BOE-A-1996-5846" orden="8">
+          <palabra codigo="270">SE MODIFICA</palabra>
+          <texto>por Circular 3/1996, de 27 de febrero</texto>
+        </posterior>
+        <posterior referencia="BOE-A-1994-18121" orden="9">
+          <palabra codigo="270">SE MODIFICA</palabra>
+          <texto>, por Circular 5/1994, de 22 de julio</texto>
+        </posterior>
+        <posterior referencia="BOE-A-1993-31179" orden="10">
+          <palabra codigo="270">SE MODIFICA</palabra>
+          <texto>por Circular 13/1993, de 21 de diciembre</texto>
+        </posterior>
+        <posterior referencia="BOE-A-1999-15109" orden="5">
+          <palabra codigo="407">SE AÑADE</palabra>
+          <texto>la norma sexta bis y se modifica el anexo VIII, por Circular 7/1999, de 29 de junio</texto>
+        </posterior>
+        <posterior referencia="BOE-A-1992-28573" orden="11">
+          <palabra codigo="407">SE AÑADE</palabra>
+          <texto>la norma primera bis y los apartados G) y H) a la norma quinta, por Circular 22/1992, de 18 de diciembre</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2002-13016" orden="2">
+          <palabra codigo="235">SE SUPRIME</palabra>
+          <texto>el apartado 5 de la norma 28, los anejos II.bis, III, III.bis y lo indicado del VIII, se sustituye el anejo II y se modifica la norma 2, por Circular 4/2002, de 25 de junio</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas/>
+  </analisis>
+  <texto>
+    <p class="parrafo">BANCO DE ESPAÑA</p>
+    <p class="parrafo">CIRCULAR NUMERO 8/1990, DE 7 DE SEPTIEMBRE</p>
+    <p class="parrafo">ENTIDADES DE CREDITO</p>
+    <p class="parrafo">TRANSPARENCIA DE LAS OPERACIONES Y PROTECCION DE LA CLIENTELA</p>
+    <p class="parrafo">LA ORDEN DE 12 DE DICIEMBRE DE 1989, SOBRE TIPOS DE INTERES Y COMISIONES, NORMAS DE ACTUACION, INFORMACION A CLIENTES Y PUBLICIDAD DE LAS ENTIDADES DE CREDITO (EN LO SUCESIVO, LA ORDEN), DE CONFORMIDAD CON LO PREVISTO EN EL ARTICULO 48.2 DE LA LEY 26/1988, DE 29 DE JULIO, SOBRE DISCIPLINA E INTERVENCION DE LAS ENTIDADES DE CREDITO, HACE EXTENSIVA AL CONJUNTO DE ESTAS ENTIDADES LAS NORMAS QUE HABIA ESTABLECIDO PARA LAS ENTIDADES DE DEPOSITO LA ORDEN DE 3 DE MARZO DE 1987, A LA VEZ QUE INTRODUCE ALGUNAS MODIFICACIONES EN LA REGULACION APLICABLE EN LA MATERIA, Y LIBERALIZA LA MAYOR PARTE DE LA PUBLICIDAD QUE REALICEN LAS ENTIDADES DE CREDITO. DEL MISMO MODO, EXTIENDE EL AMBITO DE COMPETENCIA DEL SERVICIO DE RECLAMACIONES DEL BANCO DE ESPAÑA A LAS QUE PUDIERAN FORMULAR LOS CLIENTES DE TODAS LAS ENTIDADES DE CREDITO SOBRE LAS ACTUACIONES DE LAS MISMAS QUE PUEDAN QUEBRANTAR LAS REFERIDAS NORMAS DE DISCIPLINA O LAS BUENAS PRACTICAS Y USOS BANCARIOS.</p>
+    <p class="parrafo">POR ELLO, SE HACE NECESARIO MODIFICAR LAS CIRCULARES 15/1988, DE 5 DE DICIEMBRE, Y 24/1987, DE 21 DE JULIO, QUE REGULABAN LAS CUESTIONES CITADAS EN EL PARRAFO ANTERIOR EN RELACION CON LAS ENTIDADES DE DEPOSITO, EXTENDIENDO SU APLICACION A TODAS LAS ENTIDADES DE CREDITO, E INTRODUCIENDO LAS MODIFICACIONES O PRECISIONES ACONSEJADAS POR LA EXPERIENCIA ADQUIRIDA Y POR LA NECESARIA PROGRESION EN LA PROTECCION DEL INTERES DE LOS USUARIOS DE SERVICIOS BANCARIOS. LA COMUNIDAD DE OBJETIVOS DE AMBAS CIRCULARES ACONSEJA SU PRESENTACION EN UN SOLO TEXTO.</p>
+    <p class="parrafo">EN PARTICULAR, CONFORME A LO PREVISTO EN LA ORDEN, EN ESTA CIRCULAR SE INTRODUCE, COMO PRINCIPAL NOVEDAD DEL PROCEDIMIENTO DE TRAMITACION DE LAS RECLAMACIONES, SU PREVIA FORMULACION ANTE EL DEFENSOR DEL CLIENTE U ORGANO EQUIVALENTE DE LA ENTIDAD DE CREDITO, CUYA GENERAL IMPLANTACION SE ESTIMA DE GRAN INTERES.</p>
+    <p class="parrafo">EL ESTABLECIMIENTO DE ESTE NUEVO TRAMITE ENCUENTRA SU JUSTIFICACION, DE UN LADO, EN LA PROPIA EXPERIENCIA DEL SERVICIO DE RECLAMACIONES, LA CUAL HA PUESTO DE MANIFIESTO UN ELEVADO NUMERO DE ALLANAMIENTOS DE LAS ENTIDADES ANTE LAS PRETENSIONES DE LOS RECLAMANTES, Y DE OTRO, EN LA ESTIMABLE PROPORCION DE RECLAMACIONES RESUELTAS A SATISFACCION DE LOS CLIENTES, POR LOS DEFENSORES DEL CLIENTE QUE YA VIENEN OPERANDO EN ALGUNAS ENTIDADES. EN DEFINITIVA, SE TIENDE CON ELLO A AGILIZAR LA RESOLUCION DE NUMEROSAS RECLAMACIONES QUE CON GRAN PROBABILIDAD SERAN ATENDIDAS SIN NECESIDAD DE UNA ULTERIOR Y MAS COMPLEJA ACTUACION ADMINISTRATIVA, QUE EN CUALQUIER CASO RESULTARA BENEFICIADA POR ESTE TRAMITE PREVIO, AL RECIBIR LA RECLAMACION MAS DOCUMENTADA.</p>
+    <p class="parrafo">EN CONSECUENCIA, EN USO DE LAS FACULTADES QUE TIENE CONFERIDAS, EL BANCO DE ESPAÑA HA DISPUESTO:</p>
+    <p class="parrafo">CAPITULO PRIMERO</p>
+    <p class="parrafo">TIPOS DE INTERES, COMISIONES, PUBLICIDAD Y NORMAS DE ACTUACION</p>
+    <p class="parrafo">CON LA CLIENTELA</p>
+    <p class="parrafo">NORMA PRIMERA</p>
+    <p class="parrafo">PUBLICACION DE TIPOS DE INTERES</p>
+    <p class="parrafo">1. LAS ENTIDADES DE DEPOSITO (BANCOS, CAJAS DE AHORRO Y COOPERATIVAS DE CREDITO) Y LAS ENTIDADES OFICIALES DE CREDITO PUBLICARAN EN LA FORMA ESTABLECIDA EN LA NORMA QUINTA LAS INFORMACIONES SIGUIENTES:</p>
+    <p class="parrafo">A) TIPO DE INTERES PREFERENCIAL.</p>
+    <p class="parrafo">B) TIPOS APLICABLES EN LOS DESCUBIERTOS EN CUENTA CORRIENTE.</p>
+    <p class="parrafo">C) TIPOS APLICABLES EN LOS EXCEDIDOS EN CUENTA DE CREDITO, O DIFERENCIAL PENALIZADOR SOBRE EL TIPO DE INTERES PACTADO PARA EL CREDITO CORRESPONDIENTE.</p>
+    <p class="parrafo">LOS TIPOS PUBLICADOS A QUE SE REFIEREN LOS APARTADOS B) Y C) SERAN DE OBLIGADA APLICACION A TODAS LAS OPERACIONES DE ESA NATURALEZA QUE NO TUVIESEN FIJADOS CONTRACTUALMENTE OTROS INFERIORES. CUANDO LA ENTIDAD PREVEA EL CARGO DE COMISIONES, LA PUBLICACION INCLUIRA UNA REFERENCIA A LAS MISMAS.</p>
+    <p class="parrafo">2. A LOS EFECTOS DEL APARTADO ANTERIOR SE ENTENDERA POR TIPO PREFERENCIAL EL TIPO DE INTERES QUE LAS ENTIDADES APLIQUEN, EN CADA MOMENTO, A SUS CLIENTES CON MAYOR SOLVENCIA INCLUIDOS EN EL SECTOR PRIVADO EN LA CONTRATACION DE OPERACIONES DE CREDITO EN PESETAS, CUALQUIERA QUE SEA SU MODALIDAD, A CORTO PLAZO Y DE IMPORTANTE CUANTIA. A ESTOS EFECTOS, LA DEFINICION DE SECTOR PRIVADO SERA LA CONTENIDA EN LA CIRCULAR 22/1987, DE 29 DE JUNIO, DEL BANCO DE ESPAÑA A LAS ENTIDADES DE DEPOSITO.</p>
+    <p class="parrafo">SE CONSIDERARAN DE IMPORTANTE CUANTIA AQUELLOS CREDITOS CUYO PRINCIPAL SUPERE LOS 100 MILLONES DE PESETAS, O EL 5 POR 100 DE LOS RECURSOS PROPIOS DE LA ENTIDAD. SE ENTENDERAN OPERACIONES A CORTO PLAZO AQUELLAS CUYA DURACION ORIGINAL NO SEA SUPERIOR A UN AÑO.</p>
+    <p class="parrafo">EL TIPO DE INTERES PREFERENCIAL DE LAS COOPERATIVAS DE CREDITO SE REFERIRA, EXCLUSIVAMENTE, A LAS OPERACIONES CREDITICIAS CON TERCEROS NO SOCIOS, INDICANDO EN LA PUBLICACION &lt;NO PRACTICADO&gt; CUANDO NO SE OPERE CON TERCEROS.</p>
+    <p class="parrafo">3. LAS ENTIDADES MENCIONADAS EN EL APARTADO 1 PRECEDENTE PUBLICARAN ASIMISMO, EN LA FORMA ESTABLECIDA POR LA NORMA QUINTA, LOS TIPOS DE REFERENCIA CORRESPONDIENTES A OTROS APOYOS FINANCIEROS O PLAZOS QUE CONSIDEREN COMO MAS HABITUALES O REPRESENTATIVOS ENTRE LOS QUE ESTEN DISPUESTOS A CONCEDER, Y EN PARTICULAR LOS QUE AFECTEN AL CONSUMO Y A LA ADQUISICION HIPOTECARIA DE VIVIENDAS. ESTA INFORMACION TENDRA CARACTER ORIENTATIVO PARA LOS CLIENTES, Y NO LIMITARA LA LIBERTAD DE CONTRATACION DE LAS PARTES RECONOCIDA EN EL NUMERO PRIMERO DE LA ORDEN.</p>
+    <p class="parrafo">4. LAS ENTIDADES MENCIONADAS EN EL APARTADO 1 PRECEDENTE COMUNICARAN AL BANCO DE ESPAÑA LAS INFORMACIONES ALLI REQUERIDAS, O LAS QUE EVENTUALMENTE PUBLIQUEN SEGUN LO ESTABLECIDO EN EL APARTADO 3, ASI COMO SUS MODIFICACIONES, INDICANDO LA FECHA DESDE LA QUE SE APLIQUEN LOS NUEVOS TIPOS. ESTAS COMUNICACIONES SE PODRAN REALIZAR POR TELEX, AL QUE SEGUIRA CONFIRMACION ESCRITA, O POR TELEFAX.</p>
+    <p class="parrafo">ESA INFORMACION SE PRESENTARA EN EL FORMATO RECOGIDO EN EL ANEXO I DE ESTA CIRCULAR.</p>
+    <p class="parrafo">EL TIPO PREFERENCIAL SE EXPRESARA UNICAMENTE EN TASA ANUAL A TERMINO VENCIDO EQUIVALENTE.</p>
+    <p class="parrafo">NORMA SEGUNDA</p>
+    <p class="parrafo">INFORMACION SOBRE TIPOS DE INTERES APLICADOS</p>
+    <p class="parrafo">LOS BANCOS, CAJAS DE AHORRO, ENTIDADES OFICIALES DE CREDITO Y SOCIEDADES DE CREDITO HIPOTECARIO REMITIRAN AL BANCO DE ESPAÑA, DENTRO DE LOS QUINCE PRIMEROS DIAS DE CADA MES, INFORMACION DE LOS TIPOS MEDIOS DE LAS OPERACIONES DE CREDITO Y DE DEPOSITO EN PESETAS REALIZADAS EN ESPAÑA, QUE HAYAN SIDO INICIADAS O RENOVADAS EL MES ANTERIOR. ESA INFORMACION SE PRESENTARA EN LOS FORMATOS RECOGIDOS COMO ANEXOS II Y III DE ESTA CIRCULAR. LAS SOCIEDADES DE CREDITO HIPOTECARIO CUMPLIMENTARAN UNICAMENTE EL ANEXO II.</p>
+    <p class="parrafo">LOS TIPOS MEDIOS SE CALCULARAN A PARTIR DE LOS TIPOS DE TODAS LAS OPERACIONES EFECTIVAMENTE REALIZADAS EN EL PERIODO DE REFERENCIA, PONDERADOS POR SUS PRINCIPALES, EN EL CASO DE LOS PRESTAMOS Y CUENTAS DE CREDITO, Y POR SUS IMPORTES NOMINALES EN LOS DEMAS CASOS, Y CALCULADOS DE ACUERDO CON LOS PROCEDIMIENTOS SEÑALADOS EN LA NORMA OCTAVA.</p>
+    <p class="parrafo">NORMA TERCERA</p>
+    <p class="parrafo">TARIFAS DE COMISIONES</p>
+    <p class="parrafo">1. TODAS LAS ENTIDADES DE CREDITO ESTABLECERAN LIBREMENTE SUS TARIFAS DE COMISIONES, CONDICIONES Y GASTOS REPERCUTIBLES A LA CLIENTELA POR LAS OPERACIONES O SERVICIOS REALIZADOS O INICIADOS EN ESPAÑA, SIN OTRAS LIMITACIONES QUE LAS CONTENIDAS EN LA ORDEN Y EN LA PRESENTE CIRCULAR.</p>
+    <p class="parrafo">LAS TARIFAS COMPRENDERAN TODAS LAS OPERACIONES O SERVICIOS QUE LA ENTIDAD REALIZA HABITUALMENTE.</p>
+    <p class="parrafo">PODRAN EXCLUIRSE DE LAS TARIFAS LAS COMISIONES DERIVADAS DE SERVICIOS FINANCIEROS DE CARACTER EXCEPCIONAL O SINGULAR, Y LAS QUE PUEDAN CORRESPONDER A GARANTIAS CREDITICIAS, A ASEGURAMIENTO DE EMISIONES PRIVADAS Y A SERVICIOS DE FACTORAJE SIN RECURSO. NO OBSTANTE, PODRAN INCLUIRSE EN LAS TARIFAS, CON CARACTER INDICATIVO, COMISIONES PARA ESTOS SERVICIOS, SIN PERJUICIO DE QUE SE LES APLIQUE EN CADA CASO EL TIPO PACTADO.</p>
+    <p class="parrafo">EN LAS TARIFAS DE COMISIONES Y GASTOS REPERCUTIBLES SE INDICARAN LOS SUPUESTOS Y, EN SU CASO, PERIODICIDAD CON QUE SERAN APLICABLES. NO SE TARIFARAN SERVICIOS U OPERACIONES NO PRACTICADOS.</p>
+    <p class="parrafo">2. LAS ENTIDADES NO PODRAN CARGAR CANTIDADES SUPERIORES A LAS QUE SE DERIVEN DE LAS TARIFAS, APLICANDO CONDICIONES MAS GRAVOSAS, O REPERCUTIENDO GASTOS NO PREVISTOS. SE EXCEPTUAN DE ESTA REGLA LAS COMISIONES SEEXPRESAMENTE COMO INDICATIVAS, SEGUN LO DISPUESTO EN EL PENULTIMO PARRAFO DEL APARTADO PRECEDENTE.</p>
+    <p class="parrafo">3. LAS COMISIONES Y GASTOS REPERCUTIDOS DEBEN RESPONDER A SERVICIOS EFECTIVAMENTE PRESTADOS O GASTOS HABIDOS. EN NINGUN CASO PODRAN CARGARSE COMISIONES O GASTOS POR SERVICIOS NO ACEPTADOS O SOLICITADOS EN FIRME POR EL CLIENTE.</p>
+    <p class="parrafo">CONSECUENTEMENTE, NO PODRAN EXIGIRSE COMISIONES DE APERTURA O SIMILARES EN LOS DESCUBIERTOS EN CUENTA CORRIENTE POR VALORACION, O REITERARSE SU APLICACION EN OTROS DESCUBIERTOS NO PACTADOS QUE SE PRODUZCAN ANTES DE LA SIGUIENTE LIQUIDACION DE LA CUENTA.</p>
+    <p class="parrafo">DEL MISMO MODO, TAMPOCO PODRAN APLICARSE COMISIONES DE CAMBIO EN LOS ADEUDOS O ABONOS EN CUENTAS DE PESETAS CONVERTIBLES CUANDO NO EXISTA CAMBIO A MONEDA DISTINTA DE LA PESETA, NI REALIZAR EN LAS OPERACIONES EN MONEDA EXTRANJERA (DIVISAS O BILLETES) CONVERSIONES ARTIFICIALES O INNECESARIAS A TRAVES DE LA PESETA U OTRA MONEDA, AUNQUE SI PODRA REPERCUTIRSE EL COSTE DEL SERVICIO ADMINISTRATIVO DE TRAMITACION Y COMUNICACION AL BANCO DE ESPAÑA ANEJO A TALES OPERACIONES, O DE OTROS SERVICIOS QUE SEAN NECESARIOS PARA SU REALIZACION.</p>
+    <p class="parrafo">4. LAS TARIFAS SE RECOGERAN EN UN FOLLETO QUE SE REDACTARA DE FORMA CLARA, CONCRETA Y FACILMENTE COMPRENSIBLE PARA LA CLIENTELA, EVITANDO LA INCLUSION DE CONCEPTOS INNECESARIOS O IRRELEVANTES. TALES FOLLETOS SE REMITIRAN POR DUPLICADO, CON TODAS SUS HOJAS NUMERADAS Y SELLADAS, AL BANCO DE ESPAÑA ANTES DE SU APLICACION PARA QUE COMPRUEBE ESOS EXTREMOS, ENTENDIENDOSE CONFORMES CUANDO TRANSCURRA EL PLAZO DE QUINCE DIAS, CONTADOS A PARTIR DE SU RECEPCION, SIN HABER EFECTUADO EL BANCO NINGUNA MANIFESTACION EXPRESA, OBJECION O RECOMENDACION AL RESPECTO.</p>
+    <p class="parrafo">CUANDO UNA OPERACION O CONTRATO ESPECIFICO PUEDA DAR LUGAR A LA APLICACION DE COMISIONES O GASTOS INCLUIDOS EN MAS DE UN EPIGRAFE DEL FOLLETO, SE ESTABLECERA EN CADA UNO DE ELLOS LA REFERENCIA CRUZADA CON LOS RESTANTES.</p>
+    <p class="parrafo">5. LAS ENTIDADES PODRAN CONFECCIONAR FOLLETOS PARCIALES QUE RECOJAN DE FORMA INTEGRA Y TEXTUAL TODOS LOS CONCEPTOS DEL FOLLETO GENERAL QUE SEAN DE APLICACION A UNA O VARIAS OPERACIONES DE USO COMUN DE LA CLIENTELA. ESOS FOLLETOS MENCIONARAN EXPRESAMENTE SU CONDICION DE PARCIALES.</p>
+    <p class="parrafo">LOS FOLLETOS PARCIALES DEBERAN REMITIRSE AL BANCO DE ESPAÑA PARA SU COMPROBACION CONFORME A LO DISPUESTO EN EL APARTADO PRECEDENTE.</p>
+    <p class="parrafo">6. CADA VEZ QUE SE PRODUZCAN MODIFICACIONES O ACTUALIZACIONES DEL FOLLETO, LA ENTIDAD REMITIRA AL BANCO DE ESPAÑA LA PAGINA O PAGINAS MODIFICADAS, SIENDO DE APLICACION EL PROCEDIMIENTO DE COMPROBACION DISPUESTO EN EL APARTADO 4.</p>
+    <p class="parrafo">7. EL FOLLETO, Y EN SU CASO LOS FOLLETOS PARCIALES EN LO QUE LES AFECTEN, INCLUIRAN ASIMISMO LAS REGLAS DE VALORACION Y LIQUIDACION QUE APLIQUE LA ENTIDAD.</p>
+    <p class="parrafo">8. A EFECTOS DE LA APLICACION DE COMISIONES AL COBRO DE DOCUMENTOS EN CARTERA, SE ENTENDERA POR DOMICILIACION BANCARIA LA INDICACION DE QUE SU PAGO SE HA DE HACER CON CARGO A UNA CUENTA ABIERTA EN UNA ENTIDAD DE DEPOSITO. PARA ELLO SE ESTARA A LO DISPUESTO EN LA LEY 19/1985, CAMBIARIA Y DEL CHEQUE, SOBRE DOMICILIACION DE LETRAS DE CAMBIO, QUE, A LOS EFECTOS DE ESTA CIRCULAR, SERA APLICABLE A CUALQUIER DOCUMENTO DE COBRO.</p>
+    <p class="parrafo">NORMA CUARTA</p>
+    <p class="parrafo">CONDICIONES DE VALORACION</p>
+    <p class="parrafo">1. LAS CONDICIONES DE VALORACION QUE ESTABLEZCAN LAS ENTIDADES DE CREDITO SE AJUSTARAN A LAS LIMITACIONES CONTENIDAS EN EL ANEXO IV DE LA PRESENTE CIRCULAR. EN EL CASO DE LAS ENTIDADES QUE NO ESTEN AUTORIZADAS A MANTENER DEPOSITOS A LA VISTA, AQUELLAS LIMITACIONES REGIRAN EN LO QUE PUEDA SERLES DE APLICACION.</p>
+    <p class="parrafo">2.</p>
+    <p class="parrafo">PARA LAS OPERACIONES NO CONTEMPLADAS EXPRESAMENTE EN EL REFERIDO ANEXO IV, LOS ADEUDOS Y ABONOS SE VALORARAN EL MISMO DIA EN QUE SE EFECTUE EL APUNTE, SI NO SE PRODUCE MOVIMIENTO DE FONDOS FUERA DE LA ENTIDAD; SI SE PRODUJESE, LOS ABONOS SE VALORARAN NO MAS TARDE DEL DIA HABIL SIGUIENTE A LA FECHA DEL APUNTE.</p>
+    <p class="parrafo">3. EN LAS OPERACIONES CON DEUDA ANOTADA, TANTO A LA EMISION Y AMORTIZACION DE LOS VALORES COMO EN EL PAGO DE INTERESES, LAS ENTIDADES GESTORAS APLICARAN A SUS CLIENTES, EN LAS LIQUIDACIONES DE EFECTIVO, FECHA VALOR COINCIDENTE CON LA APLICADA POR LA CENTRAL DE ANOTACIONES.</p>
+    <p class="parrafo">4. EN TODAS LAS OPERACIONES, Y CON INDEPENDENCIA DE APLICAR PUNTUALMENTE LAS NORMAS DE VALORACION CORRESPONDIENTES, LAS ENTIDADES PONDRAN LOS MEDIOS NECESARIOS PARA ABONAR O ADEUDAR LAS CUENTAS DE LOS CLIENTES SIN DEMORAS O RETRASOS, APLICANDO LA MAXIMA DILIGENCIA EN FACILITARLES LA DISPONIBILIDAD PRONTA DE LOS FONDOS. LAS ORDENES DE TRANSFERENCIA DE FONDOS SE CURSARAN, A MAS TARDAR, EL DIA HABIL SIGUIENTE A SU RECEPCION.</p>
+    <p class="parrafo">NORMA QUINTA</p>
+    <p class="parrafo">TABLON DE ANUNCIOS</p>
+    <p class="parrafo">LAS ENTIDADES DISPONDRAN, EN TODAS Y CADA UNA DE LAS OFICINAS ABIERTAS AL PUBLICO, DE UN TABLON DE ANUNCIOS PERMANENTE, QUE SE SITUARA EN LUGAR DESTACADO DE FORMA QUE ATRAIGA LA ATENCION DEL PUBLICO, Y SU CONTENIDO RESULTE FACILMENTE LEGIBLE.</p>
+    <p class="parrafo">EN EL TABLON SE RECOGERA TODA AQUELLA INFORMACION QUE LAS ENTIDADES DEBAN PONER EN CONOCIMIENTO DE SUS CLIENTES, Y EN PARTICULAR LA SIGUIENTE:</p>
+    <p class="parrafo">A) LA INFORMACION A QUE SE REFIEREN LOS APARTADOS 1 Y 3 DE LA NORMA PRIMERA, QUE SE PRESENTARA EN EL FORMATO RECOGIDO EN EL ANEXO I DE ESTA CIRCULAR.</p>
+    <p class="parrafo">B) LA EXISTENCIA Y DISPONIBILIDAD DE UN FOLLETO DE TARIFAS Y NORMAS DE VALORACION, DE FORMA QUE SE INVITE A SU CONSULTA.</p>
+    <p class="parrafo">C) LAS MODIFICACIONES DEL TIPO DE INTERES, COMISIONES O GASTOS REPERCUTIBLES, EN CONTRATOS DE DURACION INDEFINIDA, A QUE SE REFIERE EL APARTADO 8 DE LA NORMA SEXTA.</p>
+    <p class="parrafo">D) LAS MODIFICACIONES DE TIPOS DE INTERES DE TITULOS EMITIDOS A TIPO VARIABLE, A QUE SE REFIERE EL APARTADO 9 DE LA NORMA SEXTA.</p>
+    <p class="parrafo">E) REFERENCIA AL SERVICIO DE RECLAMACIONES DEL BANCO DE ESPAÑA Y EN SU CASO LA DIRECCION DEL DEFENSOR DEL CLIENTE, U ORGANO EQUIVALENTE, CUANDO LA ENTIDAD DISPONGA DE EL.</p>
+    <p class="parrafo">F) REFERENCIA A LA NORMATIVA QUE REGULA LA TRANSPARENCIA DE LAS OPERACIONES BANCARIAS Y LA PROTECCION DE LA CLIENTELA, Y EN PARTICULAR A LA ORDEN Y A LA PRESENTE CIRCULAR, CON SU FECHA Y LA DEL &lt;BOLETIN OFICIAL DEL ESTADO&gt; EN QUE SE PUBLICARON.</p>
+    <p class="parrafo">NORMA SEXTA</p>
+    <p class="parrafo">ENTREGA DE DOCUMENTOS CONTRACTUALES Y DE TARIFAS DE COMISIONES Y NORMAS DE VALORACION</p>
+    <p class="parrafo">1. LA ENTREGA DEL DOCUMENTO CONTRACTUAL, RELATIVO A LA OPERACION EFECTUADA, A QUE SE REFIERE EL NUMERO SEPTIMO DE LA ORDEN, SERA OBLIGATORIA PARA LAS ENTIDADES EN LOS CASOS SIGUIENTES:</p>
+    <p class="parrafo">A) EN LA APERTURA DE CUENTAS CORRIENTES A LA VISTA O CUENTAS DE AHORRO.</p>
+    <p class="parrafo">B) EN LAS OPERACIONES SIGUIENTES, CUANDO SU IMPORTE SEA INFERIOR A 10 MILLONES DE PESETAS:</p>
+    <p class="parrafo">OPERACIONES DE DEPOSITO A PLAZO, O CAPTACION DE FONDOS MEDIANTE PAGARES BANCARIOS O INSTRUMENTOS SIMILARES.</p>
+    <p class="parrafo">OPERACIONES DE COMPRAVENTA CON PACTO DE RETROCESION DE ACTIVOS FINANCIEROS INCORPORADOS A VALORES NEGOCIABLES.</p>
+    <p class="parrafo">OPERACIONES DE PRESTAMO O CREDITO.</p>
+    <p class="parrafo">C) EN LAS OPERACIONES DE ARRENDAMIENTO FINANCIERO.</p>
+    <p class="parrafo">D) EN LAS CESIONES DE ACTIVOS NO INCORPORADOS A VALORES NEGOCIABLES, O DE DERECHOS O CUOTAS SOBRE CUALQUIER CLASE DE ACTIVO.</p>
+    <p class="parrafo">E) SIEMPRE QUE LO PIDA EL CLIENTE.</p>
+    <p class="parrafo">EN LAS OPERACIONES FORMALIZADAS EN DOCUMENTO NOTARIAL SE ESTARA, EN CUANTO A LA OBTENCION DE COPIAS POR LAS PARTES, A LO DISPUESTO EN LA NORMATIVA NOTARIAL.</p>
+    <p class="parrafo">2. LA ENTIDAD RETENDRA Y CONSERVARA COPIA FIRMADA POR EL CLIENTE DEL DOCUMENTO CONTRACTUAL; SE EXCEPTUAN DE ESTE REQUISITO LOS DEPOSITOS INSTRUMENTADOS EN LIBRETAS CUANDO ESTAS SEAN EL DOCUMENTO CONTRACTUAL. TAMBIEN CONSERVARA EL RECIBI DEL CLIENTE A LA COPIA DEL DOCUMENTO QUE LE HAYA SIDO ENTREGADA. CUANDO LOS CONTRATOS SEAN INTERVENIDOS POR FEDATARIO PUBLICO, LA ENTIDAD PODRA ENVIAR POR CORREO EL CONTRATO INTERVENIDO; EN ESOS CASOS, EL RECIBI DEL CLIENTE VENDRA CONSTITUIDO POR EL CORRESPONDIENTE ACUSE DE RECIBO DEL ENVIO.</p>
+    <p class="parrafo">3. NO SERA PRECEPTIVA LA ENTREGA DE DOCUMENTO CONTRACTUAL EN LAS OPERACIONES DE CREDITO QUE CONSISTAN EN DESCUBIERTOS EN CUENTA CORRIENTE, O EN LA CONCESION DE ANTICIPOS A EMPLEADOS DE LA PROPIA ENTIDAD, SALVO CUANDO LO PIDA EL INTERESADO.</p>
+    <p class="parrafo">4. EN EL DESCUENTO COMERCIAL SE ENTENDERA QUE LA FACTURA DE PRESENTACION, COMPLEMENTADA POR EL DOCUMENTO DE LIQUIDACION DE LA MISMA, CUMPLE LA FUNCION DE DOCUMENTO CONTRACTUAL, A LOS EFECTOS PREVISTOS EN EL APARTADO 1 DE ESTA NORMA.</p>
+    <p class="parrafo">5. EN LOS CASOS PREVISTOS EN EL APARTADO 1 ANTERIOR SE ENTREGARA UN EJEMPLAR DE LAS TARIFAS DE COMISIONES Y GASTOS REPERCUTIBLES Y LAS NORMAS SOBRE FECHAS DE VALORACION QUE SEAN DE APLICACION A LA OPERACION CONCERTADA. PARA ELLO BASTARA ENTREGAR LA HOJA U HOJAS DEL FOLLETO EN QUE FIGUREN TODOS LOS CONCEPTOS DE APLICACION A ESA OPERACION, O LOS FOLLETOS PARCIALES MENCIONADOS EN EL APARTADO 5 DE LA NORMA TERCERA, CUANDO EXISTAN.</p>
+    <p class="parrafo">6. LOS DOCUMENTOS CONTRACTUALES RELATIVOS A OPERACIONES ACTIVAS O PASIVAS EN LAS QUE INTERVENGA EL TIEMPO DEBERAN RECOGER DE FORMA EXPLICITA Y CLARA LOS SIGUIENTES EXTREMOS:</p>
+    <p class="parrafo">A) EL TIPO DE INTERES NOMINAL QUE SE UTILIZARA PARA LA LIQUIDACION DE INTERESES O, EN EL CASO DE OPERACIONES AL DESCUBIERTO, LOS PRECIOS EFECTIVOS INICIAL Y FINAL DE LA OPERACION.</p>
+    <p class="parrafo">B) LA PERIODICIDAD CON QUE SE PRODUCIRA EL DEVENGO DE INTERESES, LAS FECHAS DE DEVENGO Y LIQUIDACION DE LOS MISMOS O, EN SU CASO, DE LOS PRECIOS EFECTIVOS CITADOS EN LA LETRA ANTERIOR, LA FORMULA O METODOS UTILIZADOS PARA OBTENER, A PARTIR DEL TIPO DE INTERES NOMINAL, EL IMPORTE ABSOLUTO DE LOS INTERESES DEVENGADOS Y, EN GENERAL, CUALQUIER OTRO DATO NECESARIO PARA EL CALCULO DE DICHO IMPORTE.</p>
+    <p class="parrafo">C) LAS COMISIONES QUE SEAN DE APLICACION, CON INDICACION CONCRETA DE SU CONCEPTO, CUANTIA, FECHAS DE DEVENGO Y LIQUIDACION, ASI COMO EN GENERAL CUALQUIER OTRO DATO NECESARIO PARA EL CALCULO DEL IMPORTE ABSOLUTO DE TALES CONCEPTOS. NO SERAN ADMISIBLES LAS REMISIONES GENERICAS A LAS TARIFAS.</p>
+    <p class="parrafo">D) LOS DERECHOS QUE CONTRACTUALMENTE CORRESPONDAN A LA ENTIDAD DE CREDITO EN ORDEN A LA MODIFICACION DEL TIPO DE INTERES PACTADO O DE LAS COMISIONES O GASTOS REPERCUTIBLES APLICADOS; EL PROCEDIMIENTO A QUE DEBERAN AJUSTARSE TALES MODIFICACIONES, QUE, EN TODO CASO, DEBERAN SER COMUNICADAS A LA CLIENTELA CON ANTELACION RAZONABLE A SU APLICACION, Y LOS DERECHOS DE QUE, EN SU CASO, GOCE EL CLIENTE CUANDO SE PRODUZCA TAL MODIFICACION.</p>
+    <p class="parrafo">E) LOS DERECHOS DEL CLIENTE EN CUANTO AL POSIBLE REEMBOLSO ANTICIPADO DE LA OPERACION.</p>
+    <p class="parrafo">F) LOS DEMAS QUE DEBAN INCLUIRSE DE ACUERDO CON LA NORMATIVA ESPECIFICA DE CADA ENTIDAD DE CREDITO.</p>
+    <p class="parrafo">G) EN CUANTO A LOS GASTOS REPERCUTIBLES, CUANDO SU CUANTIA NO PUEDA DETERMINARSE EN EL MOMENTO DE LA FIRMA DEL CONTRATO, FIGURARA AL MENOS SU CONCEPTO. CUANDO SE REPERCUTAN GASTOS QUE LA ENTIDAD HAYA SATISFECHO DE FORMA GLOBALIZADA Y RESULTE IMPOSIBLE SU INDIVIDUALIZACION, LOS FOLLETOS DE TARIFAS DEBERAN RECOGER LAS CUANTIAS REPERCUTIBLES.</p>
+    <p class="parrafo">EN EL CASO DE CUENTAS DE AHORRO O IMPOSICIONES A PLAZO INSTRUMENTADAS EN LIBRETAS, LOS EXTREMOS RECOGIDOS EN LAS LETRAS ANTERIORES PODRAN INCORPORARSE A LA PROPIA LIBRETA O A UN DOCUMENTO CONTRACTUAL DIFERENTE.</p>
+    <p class="parrafo">7. EN LAS OPERACIONES ACTIVAS O PASIVAS CONCERTADAS A TIPO DE INTERES VARIABLE, LOS TIPOS PUBLICADOS O PRACTICADOS POR LA PROPIA ENTIDAD DE CREDITO, O POR OTRAS DE SU GRUPO, NO PODRAN SER UTILIZADOS COMO REFERENCIA POR NINGUNA DE ESTAS ENTIDADES. LOS NUEVOS TIPOS RESULTANTES DE LA VARIACION DEL DE REFERENCIA DEBERAN COMUNICARSE AL CLIENTE, SEA DE FORMA INDIVIDUAL, SEA POR LOS PROCEDIMIENTOS ESTABLECIDOS EN EL SIGUIENTE APARTADO, CUANDO SEAN DE APLICACION.</p>
+    <p class="parrafo">8. LA OBLIGACION DE COMUNICACION PREVIA A LA CLIENTELA DE LAS MODIFICACIONES DEL TIPO DE INTERES, A QUE SE REFIERE LA LETRA D) DEL APARTADO 6 ANTERIOR, PODRA SUSTITUIRSE POR SU PUBLICACION, CON ANTELACION RAZONABLE A SU APLICACION, EN UN DIARIO DE GENERAL DIFUSION, SIEMPRE QUE ASI SE PREVEA EXPRESAMENTE EN EL CONTRATO, QUE DEBERA EN TAL CASO INDICAR EL DIARIO EN QUE SE ANUNCIARA. EN CASO DE INTERRUPCION DE LA PUBLICACION DE ESE DIARIO, DEBERA NOTIFICARSE A LOS CLIENTES SU SUSTITUCION, BIEN DIRECTAMENTE, BIEN POR EL PROCEDIMIENTO SEÑALADO EN EL PARRAFO SIGUIENTE.</p>
+    <p class="parrafo">EN LOS CONTRATOS DE DURACION INDEFINIDA, LA COMUNICACION DE LAS MODIFICACIONES DEL TIPO DE INTERES, COMISIONES O GASTOS REPERCUTIBLES PODRA TAMBIEN SER REALIZADA MEDIANTE LA PUBLICACION DE LAS NUEVAS CONDICIONES, EN LA FORMA PREVISTA EN LA NORMA QUINTA, DURANTE LOS DOS MESES SIGUIENTES A LA REFERIDA MODIFICACION, NO PUDIENDO APLICARLAS HASTA TRANSCURRIDO ESE PLAZO. LAS TARIFAS PUBLICADAS SERAN, NO OBSTANTE, DE INMEDIATA APLICACION EN LAS OPERACIONES DERIVADAS DE PETICIONES CONCRETAS E INDIVIDUALIZADAS DE LOS CLIENTES.</p>
+    <p class="parrafo">SIN PERJUICIO DE LO DISPUESTO EN LOS PARRAFOS ANTERIORES, LA INFORMACION SOBRE MODIFICACIONES DEBERA FACILITARSE A LA CLIENTELA AFECTADA EN LA PRIMERA COMUNICACION QUE, EN EL MARCO DE LA RELACION CONTRACTUAL, SE DIRIJA AL CLIENTE.</p>
+    <p class="parrafo">SI LAS MODIFICACIONES DEL TIPO DE INTERES, COMISIONES O GASTOS REPERCUTIBLES IMPLICASEN CLARAMENTE UN BENEFICIO PARA EL CLIENTE PODRAN SER APLICADAS INMEDIATAMENTE.</p>
+    <p class="parrafo">9. LA MODIFICACION DE LOS TIPOS DE INTERES DE LAS OBLIGACIONES, BONOS U OTROS TITULOS AL PORTADOR DECIDIDA EN ASAMBLEA DE OBLIGACIONISTAS, BONISTAS O TENEDORES SOBRE TITULOS EMITIDOS ORIGINALMENTE A TIPO FIJO SE SUJETARA A LA REGLA ESPECIAL ESTABLECIDA PARA LOS CONTRATOS DE DURACION INDEFINIDA EN EL PARRAFO SEGUNDO DEL APARTADO ANTERIOR. CUANDO LOS TITULOS SE EMITAN A TIPO VARIABLE, LOS NUEVOS TIPOS RESULTANTES DE LA VARIACION DEL DE REFERENCIA PODRAN APLICARSE DE MODO INMEDIATO, SI BIEN SE PUBLICARAN EN LOS TABLONES DE ANUNCIOS DE LA ENTIDAD.</p>
+    <p class="parrafo">10. ADICIONALMENTE A LA ENTREGA DEL CONTRATO, EN LOS CASOS EN QUE ESTA SEA OBLIGATORIA, O CUANDO ASI LO SOLICITE EL CLIENTE, LAS ENTIDADES DE CREDITO HARAN CONSTAR, SEPARADAMENTE Y A EFECTOS INFORMATIVOS, CON REFERENCIA A LOS TERMINOS DEL CONTRATO Y AL IMPORTE EFECTIVO DE LA OPERACION, LA EQUIVALENCIA ENTRE LA SUMA DE INTERESES, COMISIONES Y GASTOS REPERCUTIBLES, CON EXCLUSION DE LOS IMPUESTOS Y GASTOS SUPLIDOS A CARGO DEL CLIENTE, Y UN TIPO DE INTERES EFECTIVO ANUAL POSTPAGABLE CALCULADO CON ARREGLO A LAS DISPOSICIONES QUE SE CONTIENEN EN LA NORMA OCTAVA DE ESTA CIRCULAR. DICHO TIPO NO PODRA DIFERIR EN VALOR ABSOLUTO EN MAS DE UN UNO POR MIL DEL QUE PUEDE OBTENERSE POR APLICACION DE LAS FORMULAS QUE FIGURAN EN EL ANEXO V.</p>
+    <p class="parrafo">LA FORMULA UTILIZADA PARA OBTENER LA EQUIVALENCIA DEBERA HACERSE EXPLICITA, YA SEA DIRECTAMENTE O POR REFERENCIA AL &lt;BOLETIN OFICIAL DEL ESTADO&gt; EN QUE SE PUBLIQUE LA PRESENTE CIRCULAR, INCLUYENDO LAS ESPECIFICACIONES QUE PERMITAN SU FACIL LOCALIZACION.</p>
+    <p class="parrafo">NORMA SEPTIMA</p>
+    <p class="parrafo">DOCUMENTOS DE LIQUIDACION DE OPERACIONES</p>
+    <p class="parrafo">LAS COMUNICACIONES A LOS CLIENTES PREVISTAS EN EL NUMERO OCTAVO DE LA ORDEN SE AJUSTARAN A LAS NORMAS CONTENIDAS EN EL ANEXO VI DE ESTA CIRCULAR.</p>
+    <p class="parrafo">EN LOS CASOS EN QUE LA OPERACION DE LUGAR UNICAMENTE A PAGOS PERIODICOS PREFIJADOS, LA ENTREGA DE LOS SUCESIVOS DOCUMENTOS DE LIQUIDACION PODRA SUSTITUIRSE POR LA INCLUSION EN EL CONTRATO DE UNA TABLA CON TODOS LOS PAGOS O AMORTIZACIONES, CON SUS RESPECTIVAS FECHAS, ASI COMO CON LOS DEMAS DATOS PREVISTOS EN EL ANEXO CITADO, SIN PERJUICIO DE LA ENTREGA DE LOS JUSTIFICANTES DE CADA PAGO. EN CASO DE MODIFICACION DE CUALQUIERA DE LOS DATOS DE LA TABLA DEBERA ENTREGARSE UN NUEVO DOCUMENTO INTEGRO QUE INCORPORE LOS NUEVOS DATOS.</p>
+    <p class="parrafo">CUANDO SE TRATE DE PRESTAMOS A LARGO PLAZO CON LIQUIDACIONES PERIODICAS Y DE IGUAL CUANTIA, LOS DOCUMENTOS DE LIQUIDACION QUE CORRESPONDAN A PERIODOS INFERIORES AL AÑO PODRAN SUSTITUIRSE POR OTRO UNICO DE CARACTER ANUAL QUE LOS RESUMA.</p>
+    <p class="parrafo">NORMA OCTAVA</p>
+    <p class="parrafo">COSTE Y RENDIMIENTO EFECTIVOS DE LAS OPERACIONES</p>
+    <p class="parrafo">1. EL TIPO DE INTERES, COSTE O RENDIMIENTO EFECTIVO DEBERAN EXPRESARSE OBLIGATORIAMENTE EN LOS DOCUMENTOS CONTRACTUALES A QUE SE REFIERE EL APARTADO 1 DE LA NORMA SEXTA DE ESTA CIRCULAR Y EN LOS SIGUIENTES CASOS:</p>
+    <p class="parrafo">A) TIPO DE INTERES PREFERENCIAL Y DE DESCUBIERTOS EN CUENTA CORRIENTE Y EXCEDIDOS EN CUENTA DE CREDITO A QUE SE REFIERE EL APARTADO 1 DE LA NORMA PRIMERA DE ESTA CIRCULAR.</p>
+    <p class="parrafo">B) TIPOS DE INTERES DE REFERENCIA QUE SE MENCIONAN EN EL APARTADO 3 DE LA NORMA PRIMERA DE ESTA CIRCULAR.</p>
+    <p class="parrafo">C) PUBLICIDAD EN QUE SE HAGA REFERENCIA IMPLICITA O EXPLICITA A COSTES O RENDIMIENTOS DE OPERACIONES BANCARIAS.</p>
+    <p class="parrafo">D) DOCUMENTOS DE LIQUIDACION DE OPERACIONES ACTIVAS O PASIVAS.</p>
+    <p class="parrafo">2. PARA LA CONFECCION Y PUBLICACION DEL TIPO DE INTERES, COSTE O RENDIMIENTO EFECTIVO A QUE SE REFIERE EL APARTADO ANTERIOR, LAS ENTIDADES DEBERAN ATENERSE A LAS SIGUIENTES REGLAS, QUE SE DESARROLLAN EN EL ANEXO V PARA LAS OPERACIONES ACTIVAS MAS FRECUENTES:</p>
+    <p class="parrafo">A) LOS TIPOS DE INTERES, COSTES O RENDIMIENTOS SE EXPRESARAN EN TASAS PORCENTUALES ANUALES PAGADERAS A TERMINO VENCIDO EQUIVALENTES.</p>
+    <p class="parrafo">B) LA TASA PORCENTUAL EQUIVALENTE ES AQUELLA QUE IGUALA EN CUALQUIER FECHA EL VALOR ACTUAL DE LOS EFECTIVOS RECIBIDOS Y ENTREGADOS A LO LARGO DE LA OPERACION, POR TODOS LOS CONCEPTOS, INCLUIDO EL SALDO REMANENTE A SU TERMINO, CON LAS EXCEPCIONES E INDICACIONES QUE SE RECOGEN EN LOS SIGUIENTES APARTADOS.</p>
+    <p class="parrafo">3. EN LA PUBLICACION DE LOS TIPOS MENCIONADOS EN EL APARTADO 1, LETRAS A) Y B) PRECEDENTES, EL CALCULO DEL TIPO DE INTERES EFECTIVO NO INCLUIRA CARGA ALGUNA POR COMISIONES O GASTOS REPERCUTIBLES, EXTREMO QUE SE SEÑALARA EXPRESAMENTE.</p>
+    <p class="parrafo">4. EN LAS OPERACIONES ACTIVAS SE APLICARAN LAS REGLAS SIGUIENTES:</p>
+    <p class="parrafo">A) EN EL CALCULO DEL COSTE EFECTIVO SE INCLUIRAN LAS COMISIONES Y DEMAS GASTOS CUYO DEVENGO SEA A FAVOR DE LA ENTIDAD. NO SE CONSIDERARAN A ESTOS EFECTOS LOS GASTOS COMPLEMENTARIOS O SUPLIDOS (TIMBRES, CORRETAJES A FAVOR DE TERCEROS, GASTOS NOTARIALES, ETC.), AUN CUANDO DEBE QUEDAR EXPRESA Y CLARAMENTE INDICADO QUE LA TASA ANUAL EFECTIVA DE COSTE NO INCLUYE TALES GASTOS, QUE HAN DE DETALLARSE UNO A UNO.</p>
+    <p class="parrafo">EN AQUELLOS CASOS EN QUE LA ENTIDAD RECIBA AYUDAS, SUBSIDIOS O SUBVENCIONES DE CARACTER PUBLICO, SOLO SE TENDRAN EN CUENTA PARA EL CALCULO DE LA TASA ANUAL EQUIVALENTE LOS IMPORTES EFECTIVAMENTE REINTEGRADOS POR EL BENEFICIARIO, DE FORMA QUE AQUELLAS SUBVENCIONES RESULTEN EXCLUIDAS DE SUS COSTES.</p>
+    <p class="parrafo">B) LAS LIQUIDACIONES CORRESPONDIENTES A CUALQUIER CLASE DE MOROSIDAD (YA SEAN DE CUOTAS DE INTERES O DE PRINCIPAL) SE TRATARAN DE FORMA INDEPENDIENTE, CON SEÑALAMIENTO DE LAS VARIABLES A QUE SE REFIERE LA LIQUIDACION.</p>
+    <p class="parrafo">C) EN EL CASO DE LAS CUENTAS DE CREDITO, LAS COMISIONES DE APERTURA U OTROS GASTOS INICIALES DEBERAN DISTRIBUIRSE DURANTE TODA LA VIDA CONTRACTUAL DEL CREDITO, Y SU INTEGRACION COMO COMPONENTE DEL COSTE EFECTIVO ANUAL SE HARA CALCULANDOLOS SOBRE EL LIMITE DEL CREDITO, AUNQUE NO HAYA SIDO TOTALMENTE DISPUESTO. SI NO SE HUBIESE ESTABLECIDO PLAZO, SE DISTRIBUIRAN EN LAS LIQUIDACIONES DE INTERESES CORRESPONDIENTES AL PRIMER AÑO DE VIGENCIA.</p>
+    <p class="parrafo">NO SE INCLUIRA EN EL COSTE LA COMISION QUE PUEDA COBRARSE POR DISPONIBILIDAD, AUN CUANDO TAL CIRCUNSTANCIA DEBE QUEDAR EXPRESAMENTE SEÑALADA, CON INDICACION DEL IMPORTE TOTAL A QUE DICHA COMISION SE ELEVE.</p>
+    <p class="parrafo">EN LA DOCUMENTACION CONTRACTUAL RELATIVA A ESTAS OPERACIONES, EL COSTE EFECTIVO A REFLEJAR A EFECTOS INFORMATIVOS</p>
+    <p class="parrafo">SE CALCULARA BAJO EL SUPUESTO DE LA DISPOSICION TOTAL DEL CREDITO A SU CONCESION.</p>
+    <p class="parrafo">EN LA LIQUIDACION DE ESTOS CREDITOS, LOS CALCULOS SE EFECTUARAN SOBRE LOS SALDOS MEDIOS EFECTIVAMENTE DISPUESTOS. NO SE CONSIDERARAN COMO DISPOSICIONES LOS CARGOS INICIALES POR COMISIONES Y GASTOS.</p>
+    <p class="parrafo">D) EN EL DESCUENTO DE PAPEL COMERCIAL, EL COSTE EFECTIVO SE CUMPLIMENTARA POR CADA FACTURA LIQUIDADA COMO SIGUE:</p>
+    <p class="parrafo">SOLO SE INTEGRARA EN EL COSTE EL IMPORTE DE LAS COMISIONES QUE, POR CADA EFECTO, EXCEDA DE LOS MINIMOS TARIFADOS POR CADA ENTIDAD. ESTA CIRCUNSTANCIA DEBE QUEDAR EXPRESAMENTE SEÑALADA EN LA LIQUIDACION.</p>
+    <p class="parrafo">LOS EFECTOS A MENOS DE QUINCE DIAS NO SE ENTENDERAN DESCONTADOS A ESTOS FINES, CONSIDERANDOSE TODOS SUS COSTES COMO INHERENTES AL SERVICIO DE COBRANZA. SERAN LIQUIDADOS SEPARADAMENTE.</p>
+    <p class="parrafo">E) EN LAS OPERACIONES DE ARRENDAMIENTO FINANCIERO SE CONSIDERARA COMO EFECTIVO RECIBIDO EL IMPORTE DEL PRINCIPAL DEL CREDITO MAS EL VALOR RESIDUAL DEL BIEN. EL IMPORTE, EN SU CASO, DE LAS FIANZAS RECIBIDAS SE TENDRA EN CUENTA COMO SUSTRAENDO, A FIN DE ESTABLECER EL EFECTIVO PUESTO A DISPOSICION DEL CLIENTE.</p>
+    <p class="parrafo">F) EN LAS OPERACIONES DE &lt;FACTORING&gt;, EN LAS QUE SE PRESTE, AL MENOS, EL SERVICIO DE ADMINISTRACION, LA TASA ANUAL EQUIVALENTE CORRESPONDIENTE A LA FINANCIACION NO INCLUIRA LAS COMISIONES DE FACTORAJE. EN EL CASO DE QUE LA FINANCIACION SE INSTRUMENTE COMO UN DESCUENTO COMERCIAL, NO SE APLICARAN LAS EXCEPCIONES CONTENIDAS EN LA ANTERIOR LETRA D).</p>
+    <p class="parrafo">5. EN LAS OPERACIONES PASIVAS SE APLICARAN LAS REGLAS SIGUIENTES:</p>
+    <p class="parrafo">A) EL CALCULO DEL TIPO DE RENDIMIENTO EFECTIVO SE REFERIRA A LOS IMPORTES BRUTOS LIQUIDADOS, SIN TENER EN CUENTA, EN SU CASO, LAS DEDUCCIONES POR IMPUESTOS A CARGO DEL PERCEPTOR, NI LAS VENTAJAS FISCALES POR DESGRAVACIONES QUE PUEDAN BENEFICIARLE. LA ENTIDAD PODRA AÑADIR, SI LO CONSIDERA CONVENIENTE, LOS TIPOS NETOS QUE PUEDAN RESULTAR PARA EL CLIENTE, TENIENDO EN CUENTA ESAS CIRCUNSTANCIAS FISCALES.</p>
+    <p class="parrafo">B) SI DURANTE EL PERIODO DE LIQUIDACION SE HUBIESEN PRODUCIDO DESCUBIERTOS, SE PROCEDERA A EFECTUAR LA CORRESPONDIENTE SEPARACION DE SALDOS MEDIOS DE SIGNOS CONTRARIOS POR LOS DIAS QUE A CADA UNO CORRESPONDAN, APLICANDOSE A AQUELLOS LAS NORMAS SOBRE CREDITOS EN CUENTA CORRIENTE.</p>
+    <p class="parrafo">C) EN LA DOCUMENTACION CONTRACTUAL Y EN LAS LIQUIDACIONES RELATIVAS A LAS CUENTAS CORRIENTES A LA VISTA O CUENTAS DE AHORRO, EL CALCULO DE SU RENDIMIENTO EFECTIVO NO INCLUIRA LOS EVENTUALES CARGOS QUE POR COMISIONES O GASTOS PUEDAN DERIVARSE DEL SERVICIO DE CAJA VINCULADO A TALES CONTRATOS.</p>
+    <p class="parrafo">D) EN LAS CUENTAS CORRIENTES Y DE AHORRO CON TIPO DE INTERES NOMINAL IGUAL O INFERIOR AL 2,5 POR 100, LAS ENTIDADES PODRAN TOMAR COMO TIPO DE INTERES ANUAL EFECTIVO EL PROPIO NOMINAL, EXPRESANDOLO ASI EN LOS DOCUMENTOS CONTRACTUALES Y DE LIQUIDACION.</p>
+    <p class="parrafo">6. EN LAS OPERACIONES A TIPO DE INTERES VARIABLE, EL CALCULO DEL COSTE O RENDIMIENTO EFECTIVOS, A REFLEJAR EN LA DOCUMENTACION CONTRACTUAL, GIRARA SOBRE EL PRIMER TIPO APLICABLE. CUANDO LOS PERIODOS DE INTERES SEAN IGUALES O INFERIORES A UN TRIMESTRE, NO SERA NECESARIO INCORPORAR LA INFORMACION SOBRE EL TIPO EFECTIVO.</p>
+    <p class="parrafo">NORMA NOVENA</p>
+    <p class="parrafo">PUBLICIDAD</p>
+    <p class="parrafo">1. LA PUBLICIDAD QUE REALICEN LAS ENTIDADES DE CREDITO SOBRE OPERACIONES, SERVICIOS O PRODUCTOS FINANCIEROS EN LA QUE SE HAGA REFERENCIA, EXPLICITA O IMPLICITA, A SU COSTE O RENDIMIENTO PARA EL PUBLICO, DEBERA SER SOMETIDA A LA AUTORIZACION PREVIA DEL BANCO DE ESPAÑA, PRESENTANDO LA SOLICITUD EN EL REGISTRO GENERAL DEL MISMO. SE EXCEPTUA DE ESA AUTORIZACION LA PUBLICIDAD QUE ESTE SOMETIDA AL CONTROL DE LAS COMUNIDADES AUTONOMAS, DE ACUERDO CON SUS COMPETENCIAS EN ESTA MATERIA, EN EL MARCO DE LO DISPUESTO EN EL ARTICULO 48, NUMERO 3, DE LA LEY 26/1988, DE 29 DE JULIO, Y SIEMPRE QUE EL AMBITO DE DIFUSION DE LOS ANUNCIOS NO EXCEDA DEL DE DICHAS COMUNIDADES AUTONOMAS.</p>
+    <p class="parrafo">TENDRA LA CONSIDERACION DE PUBLICIDAD TODA FORMA DE COMUNICACION POR LA QUE SE OFREZCAN OPERACIONES, SERVICIOS O PRODUCTOS FINANCIEROS, O SE DIVULGUE INFORMACION SOBRE ELLOS, CUALQUIERA QUE SEA EL MEDIO QUE SE UTILICE:</p>
+    <p class="parrafo">PRENSA, RADIO, TELEVISION, FILMACIONES, CARTELES INTERIORES O EXTERIORES, VALLAS, FOLLETOS, CIRCULARES, ETC., INCLUYENDO LAS CIRCULARES Y CARTAS PERSONALIZADAS QUE FORMEN PARTE DE UNA CAMPAÑA DE DIFUSION.</p>
+    <p class="parrafo">2. LOS PROYECTOS DE CAMPAÑAS PUBLICITARIAS SOMETIDAS A AUTORIZACION SE PRESENTARAN POR DUPLICADO, Y DEBERAN CONSISTIR EN UNA REPRODUCCION ADECUADA, SEGUN EL MEDIO DE DIFUSION, DE LOS TEXTOS, BOCETOS, COMPOSICION GRAFICA, CUÑAS RADIOFONICAS O FILMACIONES, EN SU CASO, CON INDICACION DE LOS TAMAÑOS Y TIEMPOS TOTALES Y RELATIVOS DE LA COMPOSICION INTERNA DE LOS MISMOS.</p>
+    <p class="parrafo">LA PUBLICIDAD DE LAS ENTIDADES DE CREDITO, PARA SER AUTORIZADA, DEBERA PRESENTAR AL PUBLICO, CON CLARIDAD, PRECISION Y RESPETO DE LA COMPETENCIA, LAS CARACTERISTICAS DE LA OFERTA FINANCIERA, DEBIENDO CONTENER UNA DESCRIPCION SUFICIENTE DEL PRODUCTO OFERTADO, QUE MUESTRE LOS ASPECTOS MAS SIGNIFICATIVOS DEL MISMO.</p>
+    <p class="parrafo">3. EL BANCO DE ESPAÑA RESOLVERA SOBRE LAS AUTORIZACIONES EN EL PLAZO MAXIMO DE OCHO DIAS HABILES, CONTADOS A PARTIR DE LA RECEPCION DE LA SOLICITUD, ENTENDIENDOSE AUTORIZADA LA PUBLICIDAD SI TRANSCURRIDO ESE PLAZO NO SE HUBIERSE PRODUCIDO COMUNICACION AL INTERESADO. ESTE PLAZO QUEDARA INTERRUMPIDO AL SER REQUERIDA LA ENTIDAD PARA CUALQUIER MODIFICACION O INFORMACION ADICIONAL. TODA DENEGACION DE SOLICITUD DE AUTORIZACION SERA MOTIVADA.</p>
+    <p class="parrafo">EN TODA PUBLICIDAD AUTORIZADA EXPRESAMENTE DEBERA CONSTAR LA EXPRESION &lt;REGISTRADO EN EL BANCO DE ESPAÑA CON EL N. &gt;, O SU ABREVIATURA &lt;RBE N. &gt;.</p>
+    <p class="parrafo">ESTAS AUTORIZACIONES NO IMPLICAN RECOMENDACION A FAVOR DE LAS OPERACIONES, PRODUCTOS O SERVICIOS ANUNCIADOS, POR LO QUE LAS ENTIDADES NO HARAN REFERENCIA A DICHA AUTORIZACION EN FORMA TAL QUE PUEDA INDUCIR A ERROR. EN OTRO CASO DEBERA CONSTAR LA EXPRESION &lt;REGISTRO DE ENTRADA EN EL BANCO DE ESPAÑA N. &gt;, O SU ABREVIATURA &lt;REBE N. &gt;.</p>
+    <p class="parrafo">4. EL BANCO DE ESPAÑA PODRA REQUERIR DE LAS ENTIDADES DE CREDITO LA RECTIFICACION O EL CESE DE AQUELLA PUBLICIDAD QUE NO RESPETE LAS CONDICIONES DE AUTORIZACION, O QUE NO LA HUBIESE OBTENIDO SIENDO EXIGIBLE. IGUALMENTE, EL BANCO DE ESPAÑA PODRA EJERCER LAS ACCIONES A QUE HACE REFERENCIA EL TITULO IV DE LA LEY 34/1988, DE 11 DE NOVIEMBRE, GENERAL DE PUBLICIDAD.</p>
+    <p class="parrafo">POR SU PARTE, LAS ASOCIACIONES DE CONSUMIDORES Y USUARIOS QUE FIGUREN INSCRITAS EN EL REGISTRO A QUE SE REFIERE EL NUMERO 1 DEL ARTICULO 1. DEL REAL DECRETO 825/1990, DE 22 DE JUNIO, SOBRE EL DERECHO DE REPRESENTACION, CONSULTA Y PARTICIPACION DE LOS CONSUMIDORES Y USUARIOS A TRAVES DE SUS ASOCIACIONES, PODRAN DENUNCIAR ANTE EL BANCO DE ESPAÑA LOS INCUMPLIMIENTOS DE LAS DISPOSICIONES CONTENIDAS EN LA PRESENTE NORMA.</p>
+    <p class="parrafo">5. SI SE PRODUJERAN HECHOS O CIRCUNSTANCIAS QUE PUDIERAN SUPONER UN CAMBIO EN LA OPERACION A QUE SE REFIERE LA PUBLICIDAD AUTORIZADA DEBERAN COMUNICARSE TALES ALTERACIONES AL BANCO DE ESPAÑA, QUE PODRA, DE FORMA MOTIVADA, REVOCAR LA AUTORIZACION CONCEDIDA.</p>
+    <p class="parrafo">LA AUTORIZACION TAMBIEN PODRA REVOCARSE CUANDO LLEGUEN A CONOCIMIENTO DEL BANCO DE ESPAÑA NUEVOS ELEMENTOS DE JUICIO QUE ALTEREN SUSTANCIALMENTE LAS BASES SOBRE LAS QUE SE CONCEDIO DICHA AUTORIZACION, SIN PERJUICIO, EN SU CASO, DE LAS RESPONSABILIDADES QUE PUEDAN EXIGIRSE A LA ENTIDAD POR OMISION O INEXACTITUD DE LOS DATOS APORTADOS.</p>
+    <p class="parrafo">6. CUANDO LA PUBLICIDAD DE UNA ENTIDAD DE CREDITO ENGLOBE CUALQUIER TIPO DE OFERTA DE OPERACIONES O SERVICIOS A REALIZAR POR OTRA ENTIDAD DISTINTA DE AQUELLA DEBERA CONTENER MENCION EXPRESA DE LA ENTIDAD QUE PRESTE CADA SERVICIO. SI LA PUBLICIDAD DE ALGUNO DE TALES SERVICIOS U OPERACIONES PRESTADOS POR ENTIDAD DISTINTA DE LA DE CREDITO ESTA SUJETA, A SU VEZ, A CONTROL ADMINISTRATIVO, LA AUTORIZACION QUE EL BANCO DE ESPAÑA OTORGUE NO EXIMIRA DEL CUMPLIMIENTO DE LOS REQUISITOS ESTABLECIDOS POR EL ORGANISMO DE CONTROL DE DICHA ENTIDAD. EN LOS CASOS EN QUE NO SE PRECISE AUTORIZACION DEL BANCO DE ESPAÑA, LA PROPIA ENTIDAD DE CREDITO VELARA PORQUE LA OFERTA DE LA OPERACION O SERVICIO A REALIZAR POR ENTIDAD QUE NO SEA DE CREDITO, PERO QUE SE ENGLOBE EN LA PUBLICIDAD DE AQUELLA, CUMPLA LOS REQUISITOS ESTABLECIDOS, EN SU CASO, POR EL ORGANISMO DE CONTROL DE ESTA.</p>
+    <p class="parrafo">7. LAS ENTIDADES DE CREDITO CUYOS SERVICIOS SE OFREZCAN, DIRECTA O INDIRECTAMENTE, EN LA PUBLICIDAD REALIZADA POR UNA EMPRESA QUE NO SEA ENTIDAD DE CREDITO, QUEDARAN OBLIGADAS A TRAMITAR ANTE EL BANCO DE ESPAÑA, CUANDO ASI PROCEDA, SEGUN EL APARTADO 1 DE ESTA NORMA, LA AUTORIZACION DE LA CAMPAÑA PUBLICITARIA.</p>
+    <p class="parrafo">NORMA DECIMA</p>
+    <p class="parrafo">REMISION DE COMUNICACIONES Y DOCUMENTOS</p>
+    <p class="parrafo">1. LAS TARIFAS DE COMISIONES Y REGLAS DE VALORACION Y LAS COMUNICACIONES Y ESTADOS SOBRE TIPOS DE INTERES, ASI COMO LAS SOLICITUDES DE AUTORIZACION DE PUBLICIDAD REGULADAS POR ESTA CIRCULAR, SE DIRIGIRAN A LA OFICINA DE INSTITUCIONES FINANCIERAS DEL BANCO DE ESPAÑA, QUE IGUALMENTE TRAMITARA LAS DUDAS QUE PUEDAN PRESENTARSE PARA UNA CORRECTA INTERPRETACION DE LAS NORMAS DEL CAPITULO I DE ESTA CIRCULAR.</p>
+    <p class="parrafo">2. TODAS LAS COMUNICACIONES RELATIVAS A LOS CONTENIDOS DESCRITOS EN EL APARTADO ANTERIOR DEBERAN PRESENTARSE SUSCRITAS POR FIRMA CON PODER BASTANTE Y CON EL SELLO DE LA ENTIDAD.</p>
+    <p class="parrafo">CAPITULO II</p>
+    <p class="parrafo">ORGANIZACION Y FUNCIONAMIENTO DEL SERVICIO DE RECLAMACIONES</p>
+    <p class="parrafo">NORMA UNDECIMA</p>
+    <p class="parrafo">EL SERVICIO DE RECLAMACIONES, REGULADO POR EL NUMERO NOVENO DE LA ORDEN, ES UNA UNIDAD DE TRABAJO INCARDINADA EN LOS SERVICIOS JURIDICOS DEL BANCO DE ESPAÑA, DE CUYA JEFATURA DEPENDE SU ORGANIZACION Y FUNCIONAMIENTO.</p>
+    <p class="parrafo">EL SERVICIO DE RECLAMACIONES ADECUARA SUS ACTUACIONES A LAS DIRECTRICES QUE EMANEN DEL CONSEJO EJECUTIVO DEL BANCO DE ESPAÑA.</p>
+    <p class="parrafo">EL SERVICIO NO FACILITARA INFORMACION GENERAL SOBRE ENTIDADES DE CREDITO O SERVICIOS BANCARIOS.</p>
+    <p class="parrafo">NORMA DUODECIMA</p>
+    <p class="parrafo">CON INDEPENDENCIA DE SU ESTRUCTURA FUNCIONAL PROPIA, EN LOS CASOS EN QUE EL JEFE DE LOS SERVICIOS JURIDICOS LO CONSIDERE NECESARIO, CUALESQUIERA DE LAS OFICINAS DEL BANCO QUE PARA ELLO SEAN REQUERIDAS INFORMARAN SOBRE ASPECTOS CONCRETOS DE LOS EXPEDIENTES EN CURSO.</p>
+    <p class="parrafo">NORMA DECIMOTERCERA</p>
+    <p class="parrafo">EL SERVICIO DE RECLAMACIONES PODRA RECABAR TODA CLASE DE INFORMACION DE LAS ENTIDADES SOMETIDAS A SU COMPETENCIA RELACIONADA CON LOS EXPEDIENTES QUE TRAMITE. EL JEFE DE LOS SERVICIOS JURIDICOS, A QUIEN EXPRESAMENTE SE LE CONFIEREN LAS NECESARIAS FACULTADES, PODRA ACORDAR LAS COMPROBACIONES PRECISAS PARA LA OBTENCION DE DATOS Y DOCUMENTOS DIRECTAMENTE EN EL DOMICILIO U OFICINAS DE AQUELLAS, EN CUYO CASO ACTUARA INVESTIDO DE LAS FACULTADES DE INSPECCION QUE LE CORRESPONDEN AL BANCO DE ESPAÑA. EN EL REQUERIMIENTO EN QUE ASI LO ACUERDE, HARA CONSTAR LOS EXTREMOS SOBRE LOS QUE VERSEN LAS COMPROBACIONES Y EL NOMBRE DE LAS PERSONAS QUE LAS HAYAN DE LLEVAR A CABO.</p>
+    <p class="parrafo">NORMA DECIMOCUARTA</p>
+    <p class="parrafo">1. PARA LA ADMISION Y TRAMITACION DE RECLAMACIONES ANTE EL SERVICIO SERA IMPRESCINDIBLE ACREDITAR HABERLAS FORMULADO PREVIAMENTE POR ESCRITO ANTE EL &lt;DEFENSOR DEL CLIENTE&gt; (U ORGANO EQUIVALENTE) DE LA ENTIDAD DE CREDITO, CASO DE EXISTIR. EL DEFENSOR DEL CLIENTE DEBERA ACUSAR RECIBO POR ESCRITO DE LAS RECLAMACIONES QUE SE LE PRESENTEN.</p>
+    <p class="parrafo">SI EL DEFENSOR DEL CLIENTE DENEGARA LA ADMISION DE LA RECLAMACION, DENEGACION QUE EN TODO CASO DEBERA SER MOTIVADA, O SE PRODUJESE RESOLUCION NO SATISFACTORIA PARA EL RECLAMANTE, O HUBIERAN TRANSCURRIDO DOS MESES DESDE LA FECHA DE SU PRESENTACION SIN RESOLUCION EL INTERESADO PODRA INTERPONER SU RECLAMACION ANTE EL SERVICIO.</p>
+    <p class="parrafo">2. A EFECTOS DE LO PRECEPTUADO EN EL APARTADO PRIMERO DE ESTA NORMA, SE CONSIDERARA QUE EXISTE DEFENSOR DEL CLIENTE CUANDO UNA ENTIDAD O CONJUNTO DE ENTIDADES TENGA ESTABLECIDA O SE SOMETA FORMALMENTE A INSTITUCION U ORGANO CREADO CON FINALIDAD DE SALVAGUARDA DE LOS DERECHOS E INTERESES DE SUS CLIENTES, Y DEBIDAMENTE COMUNICADO AL BANCO DE ESPAÑA.</p>
+    <p class="parrafo">NORMA DECIMOQUINTA</p>
+    <p class="parrafo">EL PROCEDIMIENTO DE RECLAMACION SE INICIARA A INSTANCIA DE PERSONA INTERESADA, MEDIANTE ESCRITO DIRIGIDO AL SERVICIO DE RECLAMACIONES DEL BANCO DE ESPAÑA, EN QUE SE HARA CONSTAR:</p>
+    <p class="parrafo">A) NOMBRE, APELLIDOS Y DOMICILIO DEL INTERESADO Y, EN SU CASO, ADEMAS, DE LA PERSONA QUE LO REPRESENTE, JUSTIFICANDO LA REPRESENTACION. NUMERO DE DNI PARA LAS PERSONAS FISICAS Y DATOS REFERIDOS A REGISTRO PUBLICO PARA LAS JURIDICAS.</p>
+    <p class="parrafo">B) DENOMINACION O RAZON SOCIAL DE LA ENTIDAD A QUE SE REFIERE EL ESCRITO DE RECLAMACION, Y OFICINA U OFICINAS DONDE SE HUBIERAN PRODUCIDO LOS HECHOS OBJETO DE LA RECLAMACION.</p>
+    <p class="parrafo">C) HECHOS, RAZONES Y SOLICITUD EN QUE SE CONCRETEN, CON CLARIDAD, LAS CUESTIONES SOBRE LAS QUE SE SOLICITA EL PRONUNCIAMIENTO DEL SERVICIO, HACIENDO CONSTAR EXPRESAMENTE QUE LAS MISMAS NO SON OBJETO DE LITIGIO ANTE LOS TRIBUNALES ORDINARIOS DE JUSTICIA.</p>
+    <p class="parrafo">D) FECHA EN QUE FUE PRESENTADA LA RECLAMACION AL DEFENSOR DEL CLIENTE DE LA ENTIDAD RECLAMADA, CASO DE EXISTIR, JUSTIFICANDO DOCUMENTALMENTE DICHA PRESENTACION O, EN SU CASO, LA DENEGACION DE SU ADMISION O LA RESOLUCION EMITIDA.</p>
+    <p class="parrafo">E) LUGAR, FECHA Y FIRMA.</p>
+    <p class="parrafo">ADEMAS, EL RECLAMANTE DEBERA APORTAR LAS PRUEBAS DOCUMENTALES EN QUE APOYE SU RECLAMACION.</p>
+    <p class="parrafo">SOLAMENTE SE TRAMITARAN LAS RECLAMACIONES QUE SE FORMULEN POR ESCRITO Y SE REFIERAN A OPERACIONES CONCRETAS.</p>
+    <p class="parrafo">NORMA DECIMOSEXTA</p>
+    <p class="parrafo">LAS RECLAMACIONES PODRAN PRESENTARSE DIRECTAMENTE EN EL SERVICIO, RADICADO EN LA SEDE CENTRAL DEL BANCO DE ESPAÑA, O EN LAS SUCURSALES DE ESTE. LAS PRESENTADAS EN SUCURSALES SERAN INMEDIATAMENTE REMITIDAS A LA CENTRAL, SERVICIOS JURIDICOS, RETENIENDO AQUELLAS UNA FOTOCOPIA JUSTIFICATIVA.</p>
+    <p class="parrafo">NORMA DECIMOSEPTIMA</p>
+    <p class="parrafo">RECIBIDA LA RECLAMACION POR EL SERVICIO SE PROCEDERA A LA APERTURA DE EXPEDIENTE. SI NO SE ENCONTRASE SUFICIENTEMENTE JUSTIFICADA LA IDENTIDAD DEL RECLAMANTE O DE LA ENTIDAD AFECTADA, NO PUDIESEN ESTABLECERSE CON CLARIDAD LOS HECHOS OBJETO DE AQUELLA, O NO SE ACREDITASE HABERLA FORMULADO PREVIAMENTE AL DEFENSOR DEL CLIENTE, SE REQUERIRA AL FIRMANTE, CONFORME AL ARTICULO 71 DE LA LEY DE PROCEDIMIENTO ADMINISTRATIVO, PARA COMPLETAR LA INFORMACION EN PLAZO DE DIEZ DIAS, CON APERCIBIMIENTO DE QUE SI ASI NO LO HICIESE SE ARCHIVARA LA RECLAMACION SIN MAS TRAMITE.</p>
+    <p class="parrafo">LAS PARTES TENDRAN ACCESO AL CORRESPONDIENTE EXPEDIENTE.</p>
+    <p class="parrafo">LAS RECLAMACIONES ADMITIDAS A TRAMITE QUE SE REFIERAN A OPERACIONES SOBRE ACTIVOS FINANCIEROS EMITIDOS POR UN TERCERO SE PONDRAN EN CONOCIMIENTO DEL EMISOR DE ESOS ACTIVOS.</p>
+    <p class="parrafo">NORMA DECIMOCTAVA</p>
+    <p class="parrafo">CONFORME A LO ESTABLECIDO EN EL ARTICULO 73 DE LA LEY DE PROCEDIMIENTO ADMINISTRATIVO, EL JEFE DE LOS SERVICIOS JURIDICOS PODRA DISPONER LA ACUMULACION DE EXPEDIENTES QUE GUARDEN INTIMA CONEXION.</p>
+    <p class="parrafo">NORMA DECIMONOVENA</p>
+    <p class="parrafo">ANTES DE LA FINALIZACION DEL EXPEDIENTE, LA ENTIDAD A QUIEN SE REFIERA LA RECLAMACION DEBERA SER OIDA, SIN PERJUICIO DE LOS DATOS QUE DE LA MISMA PUEDA RECABAR EL SERVICIO. TODOS LOS REQUERIMIENTOS QUE SE FORMULEN A LA ENTIDAD DEBERAN SER CUMPLIMENTADOS EN PLAZO DE QUINCE DIAS HABILES, TRANSCURRIDOS LOS CUALES SIN CONTESTACION SE TENDRAN POR INCUMPLIDOS A LOS EFECTOS PROCEDENTES, PUDIENDO CONTINUAR EL PROCEDIMIENTO.</p>
+    <p class="parrafo">NORMA VIGESIMA</p>
+    <p class="parrafo">EL EXPEDIENTE DEBERA RESOLVERSE EN PLAZO MAXIMO DE TRES MESES DESDE LA ULTIMA ACTUACION QUE EN EL CONSTE. SI ELLO NO FUESE POSIBLE, DEBERAN HACERSE CONSTAR EXPRESAMENTE EN EL INFORME FINAL LAS CAUSAS QUE LO HAN IMPEDIDO.</p>
+    <p class="parrafo">NORMA VIGESIMA PRIMERA</p>
+    <p class="parrafo">EL EXPEDIENTE CONCLUIRA CON EL INFORME A QUE SE REFIERE EL APARTADO C) DEL NUMERO NOVENO DE LA ORDEN. TAL INFORME, QUE SERA MOTIVADO, DEBERA CONTENER UNAS CONCLUSIONES CLARAS EN LAS QUE, AL MENOS, SE HAGA CONSTAR SI DE LO ACTUADO SE DESPRENDE QUEBRANTAMIENTO DE NORMAS DE DISCIPLINA Y SI LA ENTIDAD SE HA AJUSTADO O NO A LAS BUENAS PRACTICAS Y USOS BANCARIOS.</p>
+    <p class="parrafo">NORMA VIGESIMA SEGUNDA</p>
+    <p class="parrafo">EL INFORME SE NOTIFICARA A LAS PARTES.</p>
+    <p class="parrafo">EL SERVICIO INFORMARA REGULARMENTE AL CONSEJO EJECUTIVO, EN LA FORMA QUE ESTE DETERMINE, DE LA SITUACION GENERAL DE LOS TRAMITES Y DE LAS INCIDENCIAS MAS IMPORTANTES.</p>
+    <p class="parrafo">NORMA VIGESIMA TERCERA</p>
+    <p class="parrafo">SI A LA VISTA DEL INFORME EMITIDO EN EL EXPEDIENTE DE RECLAMACION, DEL QUE SE DEDUJERE QUE HA EXISTIDO PERJUICIO PARA EL RECLAMANTE EN SUS RELACIONES CON LA ENTIDAD DE CREDITO, ESTA RECTIFICASE SU SITUACION CON AQUEL, CONFORME A LO PREVISTO EN LAS CONCLUSIONES, DEBERA PONERLO EN CONOCIMIENTO DEL BANCO DE ESPAÑA Y JUSTIFICARLO DOCUMENTALMENTE EN EL PLAZO MAXIMO DE UN MES, A CONTAR DE LA NOTIFICACION DEL INFORME, PROCEDIENDOSE A SU ARCHIVO. DE NO RECIBIRSE NOTICIAS EN DICHO PLAZO, SE PROCEDERA ASIMISMO AL ARCHIVO DE LA RECLAMACION, QUEDANDO EL EXPEDIENTE COMO ANTECEDENTE A LOS EFECTOS LEGALES QUE PROCEDAN. EL ARCHIVO DECRETADO SE ENTENDERA SIN PERJUICIO DE LAS RESPONSABILIDADES ADMINISTRATIVAS O DE OTRO ORDEN EN QUE HAYA PODIDO INCURRIR LA ENTIDAD.</p>
+    <p class="parrafo">SI LA RECTIFICACION SE PRODUJESE EN CUALQUIER MOMENTO ANTERIOR DEL EXPEDIENTE Y FUERE A SATISFACCION DEL RECLAMANTE, DEBERA TAMBIEN JUSTIFICARSE DOCUMENTALMENTE, SALVO QUE EXISTIERE DESISTIMIENTO EXPRESO DEL INTERESADO. EN TALES CASOS SE PROCEDERA AL ARCHIVO DE LA RECLAMACION SIN MAS TRAMITE, SALVO LO ESTABLECIDO EN LA NORMA SIGUIENTE.</p>
+    <p class="parrafo">NORMA VIGESIMA CUARTA</p>
+    <p class="parrafo">SI DE LAS ACTUACIONES PRACTICADAS SE DEDUJERE EL QUEBRANTAMIENTO DE NORMAS DE DISCIPLINA O SE DETECTAREN INDICIOS DE CONDUCTAS DELICTIVAS, O DE INFRACCIONES TRIBUTARIAS, DE CONTROL DE CAMBIOS, DE CONSUMO O COMPETENCIA, O DE OTRA NATURALEZA, LOS SERVICIOS JURIDICOS DARAN CUENTA AL CONSEJO EJECUTIVO A LOS EFECTOS OPORTUNOS.</p>
+    <p class="parrafo">ADEMAS, EN CASO DE ALLANAMIENTO O DESISTIMIENTO DE LAS PARTES, SIN PERJUICIO DE LAS RESPONSABILIDADES DISCIPLINARIAS O DE OTRO ORDEN QUE CORRESPONDAN, EL SERVICIO PODRA FORMULAR A LA ENTIDAD LAS INDICACIONES QUE ESTIME PERTINENTES.</p>
+    <p class="parrafo">NORMA VIGESIMA QUINTA</p>
+    <p class="parrafo">EL SERVICIO DE RECLAMACIONES MANTENDRA UN FICHERO DE ENTIDADES Y RECLAMANTES EN EL QUE SE HARAN CONSTAR, A LOS EFECTOS PROCEDENTES, LAS RECLAMACIONES ESTIMADAS Y LAS DESESTIMADAS.</p>
+    <p class="parrafo">NORMA VIGESIMA SEXTA</p>
+    <p class="parrafo">EL SERVICIO RECHAZARA LAS RECLAMACIONES SOBRE LAS QUE YA HUBIESE RECAIDO EL INFORME PREVISTO EN LAS PRESENTES NORMAS, Y LAS QUE SEAN OBJETO DE LITIGIO ANTE LOS TRIBUNALES DE JUSTICIA.</p>
+    <p class="parrafo">SE RECHAZARAN ASIMISMO LAS RECLAMACIONES QUE FORMULEN LOS CLIENTES DE LAS ENTIDADES DE CREDITO DISTINTAS DE LAS DE DEPOSITO Y QUE SE REFIERAN A OPERACIONES CONCERTADAS O HECHOS ACAECIDOS CON ANTERIORIDAD A LA ENTRADA EN VIGOR DE LA LEY 26/1988, DE 29 DE JULIO.</p>
+    <p class="parrafo">NORMA VIGESIMA SEPTIMA</p>
+    <p class="parrafo">EN LO NO PREVISTO EXPRESAMENTE EN LA ORDEN Y EN LAS ANTERIORES NORMAS, SERA DE APLICACION A LAS ACTUACIONES DEL SERVICIO DE RECLAMACIONES LA LEY DE PROCEDIMIENTO ADMINISTRATIVO.</p>
+    <p class="parrafo">NORMAS FINALES</p>
+    <p class="parrafo">NORMA VIGESIMA OCTAVA</p>
+    <p class="parrafo">ENTRADA EN VIGOR Y NORMAS TRANSITORIAS</p>
+    <p class="parrafo">LA PRESENTE CIRCULAR ENTRARA EN VIGOR EL DIA DE SU PUBLICACION EN EL &lt;BOLETIN OFICIAL DEL ESTADO&gt;, SIN PERJUICIO DE LAS OBLIGACIONES DERIVADAS DIRECTAMENTE DE LA ORDEN, QUE TIENEN VIGENCIA DESDE EL DIA 1 DE ENERO DE 1990. NO OBSTANTE LO ANTERIOR, SE ESTABLECEN LAS SIGUIENTES NORMAS TRANSITORIAS:</p>
+    <p class="parrafo">1. LA ENTREGA DE DOCUMENTOS CONTRACTUALES, QUE OBLIGABA A LAS ENTIDADES DE DEPOSITO DESDE EL DIA 1 DE MARZO DE 1989 EN VIRTUD DE LA NORMATIVA ANTERIOR, SE APLICARA POR LAS ENTIDADES DE CREDITO DISTINTAS DE LAS DE DEPOSITO A TODAS LAS OPERACIONES QUE SE FORMALICEN A PARTIR DEL DIA 1 DE NOVIEMBRE DE 1990.</p>
+    <p class="parrafo">2. ANTES DE 1 DE ENERO DE 1993, TODAS LAS ENTIDADES DE CREDITO DEBERAN TENER A DISPOSICION DE QUIENES, A 1 DE ENERO DE 1990, FUESEN TITULARES DE OPERACIONES DE DURACION INDETERMINADA, DE LAS PREVISTAS EN EL APARTADO 1 DE LA NORMA SEXTA DE ESTA CIRCULAR, LOS CORRESPONDIENTES DOCUMENTOS CONTRACTUALES, DEBIENDO COMUNICAR A LOS TITULARES SU DERECHO A OBTENER DICHOS DOCUMENTOS. NO OBSTANTE, SI EL CLIENTE LO SOLICITARA ANTES, DEBERA PROCEDERSE A SU ENTREGA DENTRO DE LOS TREINTA DIAS SIGUIENTES A LA SOLICITUD.</p>
+    <p class="parrafo">3. LAS ENTIDADES DE CREDITO DISTINTAS DE LAS DE DEPOSITO NO ESTARAN OBLIGADAS A DAR CUMPLIMIENTO A LO DISPUESTO EN LAS NORMAS SEXTA Y SEPTIMA DE LA PRESENTE CIRCULAR, HASTA EL 1 DE NOVIEMBRE DE 1990.</p>
+    <p class="parrafo">4. LAS NORMAS DE VALORACION CONTENIDAS EN EL ANEXO IV ENTRARAN EN VIGOR EL 1 DE ENERO DE 1991, APLICANDOSE HASTA ENTONCES LAS ANTERIORMENTE VIGENTES.</p>
+    <p class="parrafo">5. LAS ENTIDADES DE DEPOSITO TENDRAN DE PLAZO HASTA EL 1 DE NOVIEMBRE DE 1990 PARA PUBLICAR Y REMITIR AL BANCO DE ESPAÑA LAS DECLARACIONES OBLIGATORIAS DE TIPOS DE OPERACIONES ACTIVAS AJUSTADAS A LO DISPUESTO EN LA NORMA PRIMERA DE ESTA CIRCULAR. LAS MODIFICACIONES INTRODUCIDAS EN LAS INFORMACIONES A QUE SE REFIERE LA NORMA SEGUNDA (ANEXOS II Y III) DEBERAN INCORPORARSE A LAS DECLARACIONES CORRESPONDIENTES AL MES DE NOVIEMBRE DE 1990.</p>
+    <p class="parrafo">NORMA VIGESIMA NOVENA</p>
+    <p class="parrafo">NORMAS COMPLEMENTARIAS</p>
+    <p class="parrafo">1. LA NORMA SEXTA DE LA CIRCULAR DEL BANCO DE ESPAÑA 20/1987, DE 9 DE JUNIO, A LAS ENTIDADES GESTORAS DE ANOTACIONES EN CUENTA, QUEDA REDACTADA COMO SIGUE:</p>
+    <p class="parrafo">&lt;1. LAS ENTIDADES GESTORAS ESTABLECERAN LAS TARIFAS DE COMISIONES A APLICAR A SUS CLIENTES POR LA GESTION DE SALDOS DE VALORES DE DEUDA ANOTADA. DICHAS TARIFAS FIGURARAN EN EPIGRAFE APARTE DENTRO DE LAS GENERALES DE LA ENTIDAD Y ESTARAN SUJETAS A LAS CONDICIONES DE PUBLICIDAD Y COMUNICACION AL BANCO DE ESPAÑA ESTABLECIDAS PARA LAS ENTIDADES DE CREDITO EN LA CIRCULAR 8/1990, DE 7 DE SEPTIEMBRE.</p>
+    <p class="parrafo">2. CON ARREGLO A LO DISPUESTO EN EL PARRAFO SEGUNDO DEL ARTICULO 8 DE LA LEY 24/1988, DE 28 DE JUNIO, DEL MERCADO DE VALORES, NO PODRAN APLICARSE COMISIONES POR LA INSCRIPCION Y MANTENIMIENTO EN EL CORRESPONDIENTE REGISTRO, A FAVOR DE LOS SUSCRIPTORES, DE LOS VALORES REPRESENTADOS POR MEDIO DE ANOTACIONES EN CUENTA.</p>
+    <p class="parrafo">3. LAS ENTIDADES GESTORAS DE ANOTACIONES EN CUENTA DEBERAN ESPECIFICAR EN LA TARIFA LAS COMISIONES APLICABLES A LAS OPERACIONES DE ESTA NATURALEZA, ENTENDIENDOSE LA FALTA DE ESTA ESPECIFICACION COMO GRATUIDAD DEL SERVICIO. LA REMUNERACION POR EL SERVICIO DE SUSCRIPCION NO PODRA QUEDAR ENGLOBADA EN EL PRECIO CARGADO AL CLIENTE, QUE HABRA DE COINCIDIR NECESARIAMENTE CON EL DE ADJUDICACION A LA ENTIDAD GESTORA EN LA SUBASTA.&gt;</p>
+    <p class="parrafo">2. TODAS LAS ENTIDADES DE CREDITO COMUNICARAN AL BANCO DE ESPAÑA (SERVICIOS DE INSPECCION), TAN PRONTO COMO SE PRODUZCAN, LAS APERTURAS DE OFICINAS DENTRO DEL TERRITORIO NACIONAL, ASI COMO LOS CAMBIOS DE DOMICILIO, CESIONES, TRASPASOS Y CIERRES DE OFICINAS.</p>
+    <p class="parrafo">NORMA TRIGESIMA</p>
+    <p class="parrafo">DEROGACIONES</p>
+    <p class="parrafo">A LA ENTRADA EN VIGOR DE LA PRESENTE QUEDARAN DEROGADAS LAS CIRCULARES SIGUIENTES:</p>
+    <p class="parrafo">NUMERO 7, DE 17 DE DICIEMBRE DE 1973, A LAS CAJAS DE AHORRO, SOBRE PUBLICIDAD.</p>
+    <p class="parrafo">NUMERO 7, DE 17 DE DICIEMBRE DE 1973, A LAS COOPERATIVAS DE CREDITO, SOBRE PUBLICIDAD.</p>
+    <p class="parrafo">24/1987, DE 21 DE JULIO. ORGANIZACION Y FUNCIONAMIENTO DEL SERVICIO DE RECLAMACIONES.</p>
+    <p class="parrafo">15/1988, DE 5 DE DICIEMBRE.</p>
+    <p class="parrafo">ENTIDADES DE DEPOSITO. TIPOS DE INTERES, COMISIONES Y NORMAS DE ACTUACION CON LA CLIENTELA.</p>
+    <p class="parrafo">16/1988, DE 29 DE DICIEMBRE. ENTIDADES DE DEPOSITO. ENTRADA EN VIGOR DE LA CIRCULAR 15/1988, DE 5 DE DICIEMBRE.</p>
+    <p class="parrafo">MADRID, 7 DE SEPTIEMBRE DE 1990. EL GOBERNADOR, MARIANO RUBIO.</p>
+    <p class="parrafo">(ANEXOS I, II, III, IV, V Y VI OMITIDOS)</p>
+  </texto>
+</documento>

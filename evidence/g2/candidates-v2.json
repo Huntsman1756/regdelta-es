@@ -1,0 +1,614 @@
+{
+  "ambiguous_corrigenda": [],
+  "amendment": "G2.0b",
+  "chain_ranked": [
+    {
+      "boe_id": "BOE-A-2004-21845",
+      "corrigendum_risk_event_count": 8,
+      "declared_modifier_count": 23,
+      "distinct_corrected_instrument_count": 8,
+      "events": [
+        "0b39629fe0d9e6c3b59622798ac5767b14e09ccd228d9a250a27f399d8600f11",
+        "1103f531ae624541fde2197d60e726347496bf3355e4ca730867724d9036097c",
+        "5f4a8111341dd78b079f95a325978954ab5689cc5f85fea0664b1ce25d4fd9f7",
+        "8245f2930d8f9c240fd46c67150ef2249ebe727ac379a79f3a5fdb60f429f0ac",
+        "85168d8fcc4e90e92d4a885555b9d2e96e246c8a4ae51790aab31b767d894dcb",
+        "a2b420c15d0182c18f09c1263a390615502f8fd29db555e8dcb2530c10e82332",
+        "ad5f780c4e334cf058146b74e9b8f9942cdbffa28914b4c56c0113935ccf5c5b",
+        "d6d704e14e62e8658a75fe98d0ec7bc1cf76ebcfcbce1f9f2a46bf0c48df903c"
+      ],
+      "g2b_rank_key": "4c0881a98899735313c72031a683d0291a0d517e1d59bf6f594ea36169fb79b2"
+    },
+    {
+      "boe_id": "BOE-A-2008-9915",
+      "corrigendum_risk_event_count": 1,
+      "declared_modifier_count": 8,
+      "distinct_corrected_instrument_count": 1,
+      "events": [
+        "ca3f2d235e77711ba03ae3f101741c744a1b824d522bafd85384a69d666f9fce"
+      ],
+      "g2b_rank_key": "a412a2ae1a59b0e7b55a7a6374ae091e42b4258a11f8a7bde626481010a93a05"
+    },
+    {
+      "boe_id": "BOE-A-1995-22113",
+      "corrigendum_risk_event_count": 1,
+      "declared_modifier_count": 6,
+      "distinct_corrected_instrument_count": 1,
+      "events": [
+        "2d1d3596ac8397bb9f6e7e89f9d365409ccfe84c1743cf0a7e13fb6a0791f09b"
+      ],
+      "g2b_rank_key": "acf9b4246ff5a6fb836979cf2676a989c1cd2666eb39bfdb4a189efd24d4e9a3"
+    },
+    {
+      "boe_id": "BOE-A-2015-5749",
+      "corrigendum_risk_event_count": 1,
+      "declared_modifier_count": 1,
+      "distinct_corrected_instrument_count": 1,
+      "events": [
+        "146ea16ff28163813b0927e7d257b640ef31cbcb5cb62cb1760b7b81ab1999df"
+      ],
+      "g2b_rank_key": "1a07f63d8f2c092cf43e901717fc63f545a526d91e7b9d0804ba2b19cfa3be7a"
+    },
+    {
+      "boe_id": "BOE-A-2010-18686",
+      "corrigendum_risk_event_count": 1,
+      "declared_modifier_count": 1,
+      "distinct_corrected_instrument_count": 1,
+      "events": [
+        "1ce77481c55ac1ee146b89b3051978f50a90fa312b29637651675b506a881e05"
+      ],
+      "g2b_rank_key": "d8e1fa120e8cdecf235ab7b4d00c812a6a3c3ab1631ce850afa3c6b9ef2cf10b"
+    },
+    {
+      "boe_id": "BOE-A-2003-1413",
+      "corrigendum_risk_event_count": 1,
+      "declared_modifier_count": 1,
+      "distinct_corrected_instrument_count": 1,
+      "events": [
+        "dd14f628013b62087ba63636c979f8be36f7c23471e8e4eb5d21032b2b574b2a"
+      ],
+      "g2b_rank_key": "e09bc0eca35cdd24203eedab2d071ea43f70a3eb91c72eb90e4a2686bfad03e2"
+    }
+  ],
+  "corrigendum_propagation_events": [
+    {
+      "corrected_instrument": "BOE-A-2013-5720",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2013-5720",
+            "texto": "y erratas, con rectificación del título, de la Circular 1/2013, de 24 de mayo"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2013/05/24/1/corrigendum/20130607",
+        "corrigendum_sha256": "76d901dc7d9b83bdc68706c7d9b69b8f2367bb9f3b1511557a6461222ccbc4e7",
+        "corrigendum_source": "evidence\\g0g\\holdout\\raw\\boe_diario_xml__BOE-A-2013-6046.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2013-6046",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "las normas 66, 67, 68, 69, 71, 72, los anexos IV, V, VII, X y SUSTITUYE el anexo VIII de la Circular 4/2004, de 22 de diciembre"
+        },
+        "corrected_sha256": "7c5ccb626d26a540b8a8ca627f1e629dc09379fbeda50ab8891de0b4a4dc3ed4",
+        "corrected_source": "evidence\\g0g\\holdout\\raw\\boe_diario_xml__BOE-A-2013-5720.xml"
+      },
+      "downstream_target": "BOE-A-2004-21845",
+      "event_id": "0b39629fe0d9e6c3b59622798ac5767b14e09ccd228d9a250a27f399d8600f11",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 23,
+        "source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2004-21845.xml",
+        "source_sha256": "93e0684c39107422a2cdcda20727a7bd7a8c81a48c809c50eb1543523cb6e1b1",
+        "titulo": "Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada y modelos de estados financieros."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2012-3169",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2012-3169",
+            "texto": "de la Circular 2/2012, de 29 de febrero"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2012/02/29/2/corrigendum/20120314",
+        "corrigendum_sha256": "928bc272195265056b08e5dc38806425e7362dd471613e4ced6f56df21763634",
+        "corrigendum_source": "evidence\\g0g\\dev\\raw\\boe_diario_xml__BOE-A-2012-3619.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2012-3619",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "las normas 67 a 69 y los anejos IV, V, IX y X de la Circular 4/2004, de 22 de diciembre"
+        },
+        "corrected_sha256": "aa6a0d822398e7785e7d223034169c35fa261ea202b7091c9e655573e4ad2686",
+        "corrected_source": "evidence\\g0g\\dev\\raw\\boe_diario_xml__BOE-A-2012-3169.xml"
+      },
+      "downstream_target": "BOE-A-2004-21845",
+      "event_id": "1103f531ae624541fde2197d60e726347496bf3355e4ca730867724d9036097c",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 23,
+        "source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2004-21845.xml",
+        "source_sha256": "93e0684c39107422a2cdcda20727a7bd7a8c81a48c809c50eb1543523cb6e1b1",
+        "titulo": "Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada y modelos de estados financieros."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2022-4301",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2022-4301",
+            "texto": "en la Circular 2/2022, de 15 de marzo"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2022/03/15/2/corrigendum/20220413",
+        "corrigendum_sha256": "c311d23c08d64c906d60c356a0795d62c24b0c2c5e930ae7823f1c756e2cb489",
+        "corrigendum_source": "evidence\\g2\\discovery-raw\\boe_diario_xml__BOE-A-2022-6051.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2022-6051",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "DEROGA",
+          "referencia": "BOE-A-2015-5749",
+          "texto": "la Circular 2/2015, de 22 de mayo"
+        },
+        "corrected_sha256": "768387e826ba08c198637143f4356508c88ab97f3bb018a92b8fb0c37089c072",
+        "corrected_source": "evidence\\g0g\\raw\\boe_diario_xml__BOE-A-2022-4301.xml"
+      },
+      "downstream_target": "BOE-A-2015-5749",
+      "event_id": "146ea16ff28163813b0927e7d257b640ef31cbcb5cb62cb1760b7b81ab1999df",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 1,
+        "source": "evidence\\g0g\\raw\\boe_diario_xml__BOE-A-2015-5749.xml",
+        "source_sha256": "8cbbcc76603b19add924ad549184185cc78d08b3231b82c2ffa022c7aa5e1d7c",
+        "titulo": "Circular 2/2015, de 22 de mayo, del Banco de España, sobre normas para el envío al Banco de España de las estadísticas de pagos y sistemas de pagos recogidas en el Reglamento (UE) 1409/2013, del Banco Central Europeo, de 28 de noviembre de 2013, sobre estadísticas de pagos por parte de los proveedores de servicios de pago y los operadores de sistemas de pago."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2014-8189",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2014-8189",
+            "texto": "de la Circular 3/2014, de 30 de julio"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912",
+        "corrigendum_sha256": "2aa6847b19a4a9d1aebffe8437364e029e44bbe70971758e9f29e23ed02ec486",
+        "corrigendum_source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2014-9293.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2014-9293",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2010-18686",
+          "texto": "El título y la norma 1 y AÑADE las normas 4 a 6 a la Circular 7/2010, de 30 de noviembre"
+        },
+        "corrected_sha256": "4857ca566d46a3fafd8e0958bcb846290c34d76e3839e05262f0711aa05c5958",
+        "corrected_source": "evidence\\g1\\holdout\\raw\\boe_diario_xml__BOE-A-2014-8189.xml"
+      },
+      "downstream_target": "BOE-A-2010-18686",
+      "event_id": "1ce77481c55ac1ee146b89b3051978f50a90fa312b29637651675b506a881e05",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 1,
+        "source": "evidence\\g0g\\raw\\boe_diario_xml__BOE-A-2010-18686.xml",
+        "source_sha256": "d7eb67f596f00c3a88dcc7d02e57ee002f0248431df0c79ba376bef600be6501",
+        "titulo": "Circular 7/2010, de 30 de noviembre, del Banco de España, a entidades de crédito, sobre desarrollo de determinados aspectos del mercado hipotecario."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2013-5720",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2013-5720",
+            "texto": "y erratas, con rectificación del título, de la Circular 1/2013, de 24 de mayo"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2013/05/24/1/corrigendum/20130607",
+        "corrigendum_sha256": "76d901dc7d9b83bdc68706c7d9b69b8f2367bb9f3b1511557a6461222ccbc4e7",
+        "corrigendum_source": "evidence\\g0g\\holdout\\raw\\boe_diario_xml__BOE-A-2013-6046.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2013-6046",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "DEROGA",
+          "referencia": "BOE-A-1995-22113",
+          "texto": "Circular 3/1995, de 25 de septiembre"
+        },
+        "corrected_sha256": "7c5ccb626d26a540b8a8ca627f1e629dc09379fbeda50ab8891de0b4a4dc3ed4",
+        "corrected_source": "evidence\\g0g\\holdout\\raw\\boe_diario_xml__BOE-A-2013-5720.xml"
+      },
+      "downstream_target": "BOE-A-1995-22113",
+      "event_id": "2d1d3596ac8397bb9f6e7e89f9d365409ccfe84c1743cf0a7e13fb6a0791f09b",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 6,
+        "source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-1995-22113.xml",
+        "source_sha256": "92412a89156a95c04250b5b0556830aec7996a0867d0f4f9c417e8ef306fc01b",
+        "titulo": "Circular 3/1995, de 25 de septiembre, a entidades de crédito, sobre la Central de Información de Riesgos."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2014-8189",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2014-8189",
+            "texto": "de la Circular 3/2014, de 30 de julio"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912",
+        "corrigendum_sha256": "2aa6847b19a4a9d1aebffe8437364e029e44bbe70971758e9f29e23ed02ec486",
+        "corrigendum_source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2014-9293.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2014-9293",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "Sección C.5) de la norma 14, norma 60 y el anejo IX.1 de la Circular 4/2004, de 22 de diciembre"
+        },
+        "corrected_sha256": "4857ca566d46a3fafd8e0958bcb846290c34d76e3839e05262f0711aa05c5958",
+        "corrected_source": "evidence\\g1\\holdout\\raw\\boe_diario_xml__BOE-A-2014-8189.xml"
+      },
+      "downstream_target": "BOE-A-2004-21845",
+      "event_id": "5f4a8111341dd78b079f95a325978954ab5689cc5f85fea0664b1ce25d4fd9f7",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 23,
+        "source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2004-21845.xml",
+        "source_sha256": "93e0684c39107422a2cdcda20727a7bd7a8c81a48c809c50eb1543523cb6e1b1",
+        "titulo": "Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada y modelos de estados financieros."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2016-11483",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRIGE errores",
+            "referencia": "BOE-A-2016-11483",
+            "texto": "en la Circular 7/2016, de 29 de noviembre"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/res/2017/03/28/(1)",
+        "corrigendum_sha256": "b063208b1163375e9db6a22cf80d0f5ae9142b52516b651fdb84d74448bded23",
+        "corrigendum_source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2017-3368.xml",
+        "method": "UNIQUE_CORRECTION_RELATION"
+      },
+      "corrigendum": "BOE-A-2017-3368",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "las normas 4, 5, 64, 67, 71, la disposición adicional 1.6 y los anejos I, III, IV, V, IX de la Circular 4/2004, de 22 de diciembre"
+        },
+        "corrected_sha256": "f6726f3f509b503cdc565526a7c6c14f953f977e48ebb08ddb89cc1266f12021",
+        "corrected_source": "evidence\\g0g\\holdout\\raw\\boe_diario_xml__BOE-A-2016-11483.xml"
+      },
+      "downstream_target": "BOE-A-2004-21845",
+      "event_id": "8245f2930d8f9c240fd46c67150ef2249ebe727ac379a79f3a5fdb60f429f0ac",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 23,
+        "source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2004-21845.xml",
+        "source_sha256": "93e0684c39107422a2cdcda20727a7bd7a8c81a48c809c50eb1543523cb6e1b1",
+        "titulo": "Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada y modelos de estados financieros."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2017-14334",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2017-14334",
+            "texto": "y erratas de la Circular 4/2017, de 27 de noviembre"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215",
+        "corrigendum_sha256": "5c223ae4d24c4408c3468f3cd87fc93a942e038686f9bdf03fa2678a44fb7696",
+        "corrigendum_source": "evidence\\g0c\\raw\\boe_diario_xml__BOE-A-2018-2041.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2018-2041",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "DEROGA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "la Circular 4/2004, de 22 de diciembre"
+        },
+        "corrected_sha256": "4f995cd7d647216658ec9a1cfe5b0096b25281b3efbc11f35aff9faa8dce38b2",
+        "corrected_source": "evidence\\g0c\\raw\\boe_diario_xml__BOE-A-2017-14334.xml"
+      },
+      "downstream_target": "BOE-A-2004-21845",
+      "event_id": "85168d8fcc4e90e92d4a885555b9d2e96e246c8a4ae51790aab31b767d894dcb",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 23,
+        "source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2004-21845.xml",
+        "source_sha256": "93e0684c39107422a2cdcda20727a7bd7a8c81a48c809c50eb1543523cb6e1b1",
+        "titulo": "Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada y modelos de estados financieros."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2013-11729",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2013-11729",
+            "texto": "de la Circular 5/2013, de 30 de octubre"
+          },
+          {
+            "palabra": "CORRIGE errores",
+            "referencia": "BOE-A-2004-21845",
+            "texto": "de la Circular 4/2004, de 22 de diciembre"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2013/10/30/5/corrigendum/20131211",
+        "corrigendum_sha256": "05daa2e80787b64419c42760f4fe108eaaab0f3ccc1224609bb4ae13a9cca93c",
+        "corrigendum_source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2013-12918.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2013-12918",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "determinados preceptos de la Circular 4/2004, de 22 de diciembre"
+        },
+        "corrected_sha256": "c7d9074f9ba6aaa4cba6f7082949904ccc33baebd9242a008664dbc2b244cf1f",
+        "corrected_source": "evidence\\g0g\\holdout\\raw\\boe_diario_xml__BOE-A-2013-11729.xml"
+      },
+      "downstream_target": "BOE-A-2004-21845",
+      "event_id": "a2b420c15d0182c18f09c1263a390615502f8fd29db555e8dcb2530c10e82332",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 23,
+        "source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2004-21845.xml",
+        "source_sha256": "93e0684c39107422a2cdcda20727a7bd7a8c81a48c809c50eb1543523cb6e1b1",
+        "titulo": "Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada y modelos de estados financieros."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2016-1238",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2016-1238",
+            "texto": "de la Circular 2/2016, de 2 de febrero"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2016/02/02/2/corrigendum/20160729",
+        "corrigendum_sha256": "28bed67a62750f2e38e0daf837bd3ad92fe50482aa4d107c0c6f41bdf6ac8a42",
+        "corrigendum_source": "evidence\\g0g\\holdout\\raw\\boe_diario_xml__BOE-A-2016-7305.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2016-7305",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "la norma 60.S.2 de la Circular 4/2004, de 22 de diciembre"
+        },
+        "corrected_sha256": "ba876d3afc65e54034d643fb20a9bb4a789bd82e4252f7f634dd85fcfdaad4e0",
+        "corrected_source": "evidence\\g0g\\dev\\raw\\boe_diario_xml__BOE-A-2016-1238.xml"
+      },
+      "downstream_target": "BOE-A-2004-21845",
+      "event_id": "ad5f780c4e334cf058146b74e9b8f9942cdbffa28914b4c56c0113935ccf5c5b",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 23,
+        "source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2004-21845.xml",
+        "source_sha256": "93e0684c39107422a2cdcda20727a7bd7a8c81a48c809c50eb1543523cb6e1b1",
+        "titulo": "Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada y modelos de estados financieros."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2016-1238",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2016-1238",
+            "texto": "de la Circular 2/2016, de 2 de febrero"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2016/02/02/2/corrigendum/20160729",
+        "corrigendum_sha256": "28bed67a62750f2e38e0daf837bd3ad92fe50482aa4d107c0c6f41bdf6ac8a42",
+        "corrigendum_source": "evidence\\g0g\\holdout\\raw\\boe_diario_xml__BOE-A-2016-7305.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2016-7305",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "DEROGA",
+          "referencia": "BOE-A-2008-9915",
+          "texto": "con la excepción indicada, la Circular 3/2008, de 22 de mayo"
+        },
+        "corrected_sha256": "ba876d3afc65e54034d643fb20a9bb4a789bd82e4252f7f634dd85fcfdaad4e0",
+        "corrected_source": "evidence\\g0g\\dev\\raw\\boe_diario_xml__BOE-A-2016-1238.xml"
+      },
+      "downstream_target": "BOE-A-2008-9915",
+      "event_id": "ca3f2d235e77711ba03ae3f101741c744a1b824d522bafd85384a69d666f9fce",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 8,
+        "source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2008-9915.xml",
+        "source_sha256": "7658971c2ce357527bb054e7987b82cc9c7658df1b60c44197f9e7f7c82a2ddb",
+        "titulo": "Circular 3/2008, de 22 de mayo, del Banco de España, a entidades de crédito, sobre determinación y control de los recursos propios mínimos."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2016-4356",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2016-4356",
+            "texto": "de la Circular 4/2016, de 27 de abril"
+          },
+          {
+            "palabra": "CORRIGE errores",
+            "referencia": "BOE-A-2004-21845",
+            "texto": "de la Circular 4/2004, de 22 de diciembre"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2016/04/27/4/corrigendum/20160611",
+        "corrigendum_sha256": "e7e9821732e8f27bfbba84419bcfb0b7db02fd5e4b98ced0de770390bebd5795",
+        "corrigendum_source": "evidence\\g0g\\dev\\raw\\boe_diario_xml__BOE-A-2016-5724.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2016-5724",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "las normas 8, 22, 28, 30, 33, 60, 64, 66, 67, 69, 72, disposición adicional 2, anejos I, III, IV, V y IX de la Circular 4/2004, de 22 de diciembre"
+        },
+        "corrected_sha256": "1567d6a8f41ce831074bb1812a877c36d986d7720d8489835f03d499006bb613",
+        "corrected_source": "evidence\\g0g\\dev\\raw\\boe_diario_xml__BOE-A-2016-4356.xml"
+      },
+      "downstream_target": "BOE-A-2004-21845",
+      "event_id": "d6d704e14e62e8658a75fe98d0ec7bc1cf76ebcfcbce1f9f2a46bf0c48df903c",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 23,
+        "source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2004-21845.xml",
+        "source_sha256": "93e0684c39107422a2cdcda20727a7bd7a8c81a48c809c50eb1543523cb6e1b1",
+        "titulo": "Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada y modelos de estados financieros."
+      }
+    },
+    {
+      "corrected_instrument": "BOE-A-2010-12488",
+      "correction_relation_evidence": {
+        "correction_anteriores": [
+          {
+            "palabra": "CORRECCIÓN de errores",
+            "referencia": "BOE-A-2010-12488",
+            "texto": "de la Circular 4/2010, de 30 de julio"
+          }
+        ],
+        "corrigendum_eli": "https://www.boe.es/eli/es/cir/2010/07/30/4/corrigendum/20100806",
+        "corrigendum_sha256": "91fbdeec66f7e9ae5c44560da0de7c61c9951fe2c21a4a83b0fa08102c0ab173",
+        "corrigendum_source": "evidence\\g0g\\dev\\raw\\boe_diario_xml__BOE-A-2010-12628.xml",
+        "method": "ELI_CORRECTS"
+      },
+      "corrigendum": "BOE-A-2010-12628",
+      "downstream_relation_evidence": {
+        "anterior": {
+          "palabra": "DEROGA",
+          "referencia": "BOE-A-2003-1413",
+          "texto": "la Circular 6/2002, de 20 de diciembre"
+        },
+        "corrected_sha256": "1e78f67c3ad21fb77b131286e82a0f762ba8e82ecb30393601f756bb4bca53d5",
+        "corrected_source": "evidence\\g0g\\dev\\raw\\boe_diario_xml__BOE-A-2010-12488.xml"
+      },
+      "downstream_target": "BOE-A-2003-1413",
+      "event_id": "dd14f628013b62087ba63636c979f8be36f7c23471e8e4eb5d21032b2b574b2a",
+      "target_evidence": {
+        "bde_circular": true,
+        "posteriores_count": 1,
+        "source": "evidence\\g2\\discovery-v2\\raw\\boe_diario_xml__BOE-A-2003-1413.xml",
+        "source_sha256": "e76477c69c331211e5702c3ae1a80ea43e0635fed10c19666d0df6e130cc7c9d",
+        "titulo": "Circular 6/2002, de 20 de diciembre, a Entidades de Crédito, relativa a información sobre agentes de las Entidades de Crédito y acuerdos celebrados para la prestación habitual de servicios financieros."
+      }
+    }
+  ],
+  "corrigendum_universe_size": 20,
+  "multi_ranked": [
+    {
+      "boe_id": "BOE-A-2016-5203",
+      "circular": "5/2016",
+      "declared_modifier_count": 2,
+      "events": [
+        {
+          "modified_instruments": [
+            "BOE-A-2015-14084",
+            "BOE-A-2016-5203"
+          ],
+          "modifier": "BOE-A-2018-1749",
+          "source": "evidence\\g0g\\raw\\boe_diario_xml__BOE-A-2018-1749.xml"
+        }
+      ],
+      "g2_rank_key": "62507c69f1479bf39e092113754ecfa72f182f6482d5858689ed5045b8c15c71",
+      "risk_event_count": 1
+    },
+    {
+      "boe_id": "BOE-A-2019-15683",
+      "circular": "3/2019",
+      "declared_modifier_count": 1,
+      "events": [
+        {
+          "modified_instruments": [
+            "BOE-A-2009-21183",
+            "BOE-A-2019-15683"
+          ],
+          "modifier": "BOE-A-2022-1718",
+          "source": "evidence\\g0g\\raw\\boe_diario_xml__BOE-A-2022-1718.xml"
+        }
+      ],
+      "g2_rank_key": "0d58f0ffd4037c4b51a6a6c92fa136130cc8564e9bc4e80d1974dc13a62aeb53",
+      "risk_event_count": 1
+    },
+    {
+      "boe_id": "BOE-A-2010-18686",
+      "circular": "7/2010",
+      "declared_modifier_count": 1,
+      "events": [
+        {
+          "modified_instruments": [
+            "BOE-A-1998-3311",
+            "BOE-A-2004-21845",
+            "BOE-A-2010-15521",
+            "BOE-A-2010-18686",
+            "BOE-A-2014-1183"
+          ],
+          "modifier": "BOE-A-2014-8189",
+          "source": "evidence\\g1\\holdout\\raw\\boe_diario_xml__BOE-A-2014-8189.xml"
+        }
+      ],
+      "g2_rank_key": "14befd7113b7db8967fbc49cf2289bc3f69ae826d7ceafdde9fb8457efbf4b9f",
+      "risk_event_count": 1
+    },
+    {
+      "boe_id": "BOE-A-2022-1718",
+      "circular": "1/2022",
+      "declared_modifier_count": 1,
+      "events": [
+        {
+          "modified_instruments": [
+            "BOE-A-2016-1238",
+            "BOE-A-2022-1718"
+          ],
+          "modifier": "BOE-A-2023-23052",
+          "source": "evidence\\g0g\\holdout\\raw\\boe_diario_xml__BOE-A-2023-23052.xml"
+        }
+      ],
+      "g2_rank_key": "a722b38c9c298d26ddc2c89231432087ea016d03e339cf3802491505033e7248",
+      "risk_event_count": 1
+    }
+  ]
+}

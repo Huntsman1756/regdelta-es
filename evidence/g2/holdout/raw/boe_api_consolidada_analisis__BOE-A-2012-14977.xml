@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="1627">Contabilidad</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="3472">Estados financieros</materia>
+        <materia codigo="5912">Recursos propios</materia>
+        <materia codigo="6674">Sociedades</materia>
+      </materias>
+      <notas>
+        <nota>Entrada en vigor, con la salvedad indicada, el 1 de enero de 2013.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2011-4124</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Circular 2/2011, de 4 de marzo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2008-9915</id_norma>
+            <relacion codigo="407">AÑADE</relacion>
+            <texto>la disposición adicional 23 a la Circular 3/2008, de 22 de mayo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2012-14062</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la disposición final 20 de la Ley 9/2012, de 14 de noviembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2014-1183</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Circular 2/2014, de 31 de enero</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

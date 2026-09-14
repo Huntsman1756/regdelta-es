@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219205601">
+  <metadatos>
+    <identificador>BOE-A-2017-3368</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1370">Resolución</rango>
+    <fecha_disposicion>20170328</fecha_disposicion>
+    <numero_oficial/>
+    <titulo>Resolución de 28 de marzo de 2017, del Banco de España, por la que se corrigen errores en la Circular 7/2016, de 29 de noviembre, por la que se desarrollan las especificidades contables que han de aplicar las fundaciones bancarias, y por la que se modifican la Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 1/2013, de 24 de mayo, sobre la Central de Información de Riesgos.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20170329</fecha_publicacion>
+    <diario_numero>75</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>23369</pagina_inicial>
+    <pagina_final>23369</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2017/03/29/pdfs/BOE-A-2017-3368.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2017-3368</url_epub>
+    </url_epub>
+    <url_pdf_catalan>/boe_catalan/dias/2017/03/29/pdfs/BOE-A-2017-3368-C.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego>/boe_gallego/dias/2017/03/29/pdfs/BOE-A-2017-3368-G.pdf</url_pdf_gallego>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/res/2017/03/28/(1)</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/res/2017/03/28/(1)">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/res"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-3368</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-03-28</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/438"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3861"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/res"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-3368</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-03-28</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(1)</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/438"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3861"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/res/2017/03/28/(1)"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resolución de 28 de marzo de 2017, del Banco de España, por la que se corrigen errores en la Circular 7/2016, de 29 de noviembre, por la que se desarrollan las especificidades contables que han de aplicar las fundaciones bancarias, y por la que se modifican la Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 1/2013, de 24 de mayo, sobre la Central de Información de Riesgos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-03-29</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resolució de 28 de març de 2017, del Banc d'Espanya, per la qual es corregeixen errors a la Circular 7/2016, de 29 de novembre, per la qual es desenvolupen les especificitats comptables que han d'aplicar les fundacions bancàries, i per la qual es modifiquen la Circular 4/2004, de 22 de desembre, a entitats de crèdit, sobre normes d'informació financera pública i reservada, i models d'estats financers, i la Circular 1/2013, de 24 de maig, sobre la Central d'Informació de Riscos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-03-29</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/glg">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resolución do 28 de marzo de 2017, do Banco de España, pola que se corrixen erros na Circular 7/2016, do 29 de novembro, pola que se desenvolven as especificidades contables que aplicarán as fundacións bancarias, e pola que se modifican a Circular 4/2004, do 22 de decembro, a entidades de crédito, sobre normas de información financeira pública e reservada, e modelos de estados financeiros, e a Circular 1/2013, do 24 de maio, sobre a Central de Información de Riscos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-03-29</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/glg/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/res/2017/03/28/(1)/dof/glg"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="438" orden="">Banca</materia>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="3472" orden="">Estados financieros</materia>
+      <materia codigo="3861" orden="">Fundaciones</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="6242" orden="">Riesgos</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2016-11483" orden="2140">
+          <palabra codigo="203">CORRIGE errores</palabra>
+          <texto>en la Circular 7/2016, de 29 de noviembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Advertido error en la Circular 7/2016, de 29 de noviembre, del Banco de España, por la que se desarrollan las especificidades contables que han de aplicar las fundaciones bancarias, y por la que se modifican la Circular 4/2004, de 22 de diciembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 1/2013, de 24 de mayo, sobre la Central de Información de Riesgos, publicada en el «Boletín Oficial del Estado» número 292, de 3 de diciembre de 2016, procede efectuar la siguiente corrección:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">En la página 84866, en la nota (a) del estado FB.3 «Desglose de la inversión en activos financieros por contraparte», donde dice «(a) Se informará de la inversión en activos financieros, diferentes de aquellos que presenten una elevada liquidez y calidad crediticia, mantenidos directamente en el balance por la fundación bancaria con cada una de las contrapartes distintas de la entidad de crédito participada por la fundación, cuando el importe en libros agregado de las inversiones con cada una de dichas contrapartes sea mayor o igual al 5 % del patrimonio neto de la fundación», debe decir «(a) Se informará de la inversión en activos financieros, diferentes de aquellos que presenten una elevada liquidez y calidad crediticia, mantenidos directamente en el balance por la fundación bancaria o indirectamente a través de una sociedad intermedia con cada una de las contrapartes distintas de la entidad de crédito participada por la fundación, cuando el importe en libros agregado de las inversiones con cada una de dichas contrapartes sea mayor o igual al 5 % del patrimonio neto de la fundación».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Madrid, 28 de marzo de 2017.–El Secretario General del Banco de España, Francisco Javier Priego Pérez.</p>
+  </texto>
+</documento>

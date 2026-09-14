@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219145601">
+  <metadatos>
+    <identificador>BOE-A-2012-3169</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20120229</fecha_disposicion>
+    <numero_oficial>2/2012</numero_oficial>
+    <titulo>Circular 2/2012, de 29 de febrero, del Banco de España, de modificación de la Circular 4/2004, de 22 de diciembre, a entidades de crédito sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20120306</fecha_publicacion>
+    <diario_numero>56</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>18930</pagina_inicial>
+    <pagina_final>18954</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2012/03/06/pdfs/BOE-A-2012-3169.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2012-3169</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20120307</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2012/02/29/2</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2012/02/29/2">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-3169</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-02-29</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3887"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4273"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2012/02/29/2/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-3169</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-02-29</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3887"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4273"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/cir/2012/02/29/2/corrigendum/20120314/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2012/02/29/2"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2012/02/29/2/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2012, de 29 de febrero, del Banco de España, de modificación de la Circular 4/2004, de 22 de diciembre, a entidades de crédito sobre normas de información financiera pública y reservada, y modelos de estados financieros.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-03-06</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2012/02/29/2/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2012/02/29/2/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2012/02/29/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2012/02/29/2/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2012/02/29/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2012/02/29/2/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2012/02/29/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2012/02/29/2/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2012/02/29/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="3472" orden="">Estados financieros</materia>
+      <materia codigo="3887" orden="">Garantías</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="4273" orden="">Inmobiliarias</materia>
+      <materia codigo="6242" orden="">Riesgos</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2004-21845" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>las normas 67 a 69 y los anejos IV, V, IX y X de la Circular 4/2004, de 22 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2012-1674" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la disposición final 6 del Real Decreto-ley 2/2012, de 3 de febrero</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2012-3619" orden="">
+          <palabra codigo="201">CORRECCIÓN de errores</palabra>
+          <texto>en BOE núm. 63, de 14 de marzo de 2012</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El Real Decreto-ley 2/2012, de 3 de febrero, de saneamiento del sector financiero (en lo sucesivo, el Real Decreto-ley), establece en su título I determinados requerimientos de provisiones y de capital adicionales a los hasta ahora requeridos por las normas aplicables a las entidades de crédito en relación con los activos vinculados a la actividad inmobiliaria. Como quiera que dichas medidas, en lo referido a la determinación del deterioro de dichos activos, tienen carácter complementario de la normativa contenida en la Circular 4/2004, de 22 de diciembre, sobre normas de información financiera pública y reservada, y modelos de estados financieros (en lo sucesivo, la Circular 4/2004), la disposición final sexta del Real Decreto-ley contiene un mandato al Banco de España para que este apruebe las modificaciones que resulten pertinentes para acomodar la Circular 4/2004 a lo dispuesto en dicho Real Decreto-ley.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En virtud de dicho mandato, cuyo cumplimiento es el principal objetivo de la presente Circular, se introduce una nueva sección V en el anejo IX de la Circular 4/2004, en la cual se reproducen, prácticamente con literalidad, los apartados 1 y 2 del artículo 1 y el Anexo I del Real Decreto-ley. La única excepción la constituye la previsión contenida en el apartado 1 de dicho Anexo I, relativa a que los activos inmobiliarios adjudicados o recibidos en pago de deudas por las entidades de crédito y que cuenten con una antigüedad en balance superior a 36 meses tendrán un porcentaje de cobertura de al menos el 40 %, que se ha considerado conveniente incorporar al tratamiento general para dichos activos previsto en la sección IV del citado anejo IX (tratamiento general que es asimismo objeto de algunos cambios y aclaraciones) y no limitarlo a los activos de aquella naturaleza existentes a 31 de diciembre de 2011.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Entre las disposiciones que se incorporan a la sección V, antes citada, cabe destacar la exigencia de constituir, por una sola vez, una cobertura del 7 % del saldo vivo a 31 de diciembre de 2011 del conjunto de las financiaciones relacionadas con el suelo para promoción inmobiliaria y con las construcciones o promociones inmobiliarias, que se mantendrá indefinidamente salvo por su utilización, sin limitación y hasta su total agotamiento, en la cuantía precisa para la constitución de las coberturas que resulten necesarias como consecuencia de la reclasificación posterior de dichas financiaciones como activos dudosos o subestándar o de la adjudicación o recepción de activos en pago de dichas deudas. Esta provisión, que es independiente de la provisión genérica y, por tanto, adicional a la misma, no podrá ser computada como recursos propios, aunque sí deducida de los valores de las exposiciones sujetas a ponderación o límites.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La adaptación de la Circular 4/2004 que se realiza es fiel reflejo del Real Decreto-ley y de sus objetivos, así como de la complementariedad antes mencionada. Por ello, no debe caber duda de que las coberturas que resulten necesarias de conformidad con las disposiciones del Real Decreto-ley y del anejo IX de la Circular 4/2004 según la situación de las financiaciones a 31 de diciembre de 2011 no podrán verse mermadas por su refinanciación o por una reclasificación a una categoría de riesgo para la que las normas contemplan un porcentaje de cobertura inferior, salvo por la parte en que se haya producido una efectiva recuperación de las cantidades adeudadas. Del mismo modo, excepto por las ventas que se lleven a efecto, tampoco deberán reducirse las coberturas necesarias por los activos adjudicados o recibidos en pago de deudas por el hecho de que la entidad haya iniciado o continuado el desarrollo inmobiliario de dichos activos, decisiones que deben tener carácter excepcional por cuanto la prioridad ha de ser la liberación –con la mayor rapidez posible– de los recursos invertidos en ellos en beneficio de la actividad típica de las entidades de crédito.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Al margen de esta adaptación de la Circular 4/2004 a lo dispuesto en el Real Decreto-ley, aunque en cierta forma relacionado con él, se modifica la composición de las clases de riesgo en que deben clasificarse las operaciones incluidas en la categoría de riesgo normal (que luego se tienen en cuenta a la hora de determinar la cobertura genérica del riesgo de crédito) para reflejar el mayor riesgo apreciado en las operaciones concedidas para la financiación de suelo para promoción inmobiliaria o de construcciones o promociones inmobiliarias, aun cuando cuenten con garantía real de dichos bienes.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Finalmente, la Circular modifica los estados reservados actualmente en vigor y añade algunos nuevos, e introduce en el Registro Contable Especial de Operaciones Hipotecarias los cambios precisos para dar soporte a la nueva información necesaria con fines supervisores surgida de las modificaciones incorporadas al anejo IX de la Circular 4/2004.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En consecuencia, en uso de las facultades que tiene concedidas, el Consejo de Gobierno del Banco de España, a propuesta de la Comisión Ejecutiva, ha aprobado la presente Circular, que contiene las siguientes normas:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma primera.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se introducen las siguientes modificaciones en el anejo IX de la Circular 4/2004, de 22 de diciembre, a las entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros (en adelante, Circular 4/2004):</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">1. Se da nueva redacción a los numerales (iii) y (v) de la letra a) del apartado 7, que quedan redactados como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«(iii) Riesgo medio-bajo. Comprende las siguientes operaciones: las de arrendamiento financiero y los riesgos que cuenten con alguna garantía real diferente de las indicadas en los riesgos enumerados en los puntos anteriores, siempre que el valor estimado de los bienes cedidos en arrendamiento financiero y de las garantías reales cubra plenamente el riesgo vivo, y no estén incluidas en otras clases de riesgo.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">«(v) Riesgo medio-alto. Comprende las siguientes operaciones, salvo que cumplan los criterios para clasificarlas en la clase de riesgo alto: los créditos a personas físicas para la adquisición de bienes de consumo duradero y de otros bienes y servicios corrientes, no afectos a una actividad empresarial, salvo que estén inscritos en el Registro de Ventas a Plazo de Bienes Muebles; los riesgos concedidos para la financiación de suelo para promoción inmobiliaria o de construcciones o promociones inmobiliarias, aun cuando cuenten con garantía real de dichos bienes; y los riesgos con obligados finales residentes en países incluidos en los grupos 3 a 6 a efectos de riesgo-país excluidos de cobertura de dicho riesgo, que no estén comprendidos en otras clases.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">2. Se modifican los apartados 32 y 35, que tendrán la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«32. El valor por el que deben ser reconocidos los activos inmobiliarios adjudicados o recibidos en pago de deudas, con independencia de la forma jurídica utilizada, será el menor importe entre:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">a) el valor contable de los activos financieros aplicados, esto es, su coste amortizado, teniendo en cuenta el deterioro estimado con la metodología de la sección III de este anejo, y en todo caso un mínimo del 10 %, y</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">b) el valor de tasación de mercado del activo recibido en su estado actual menos los costes estimados de venta, que en ningún caso serán inferiores al 10 % de dicho valor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">El importe neto de ambos conceptos será considerado como el coste inicial del activo adjudicado o recibido en pago de deudas.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">«35. A efectos de determinar el deterioro mínimo posterior, se tendrá en cuenta que la antigüedad en balance de los activos adjudicados o recibidos en pago de deudas es un indicio inequívoco de deterioro. En consecuencia, las correcciones valorativas se calcularán de acuerdo con la metodología establecida en el apartado 32, si bien el porcentaje de cobertura del 10 % señalado en la letra a) de dicho apartado pasará a ser el reflejado en el cuadro siguiente, en función de la antigüedad de su incorporación al balance.</p>
+    <table xmlns:xhtml="http://www.w3.org/1999/xhtml" class="ning_n_estilo_de_tabla">
+      <colgroup>
+        <col class="row_column_1"/>
+        <col class="row_column_2"/>
+      </colgroup>
+      <thead>
+        <tr class="row_column_3">
+          <td>
+            <p class="cabeza_tabla">Plazo desde la adquisición</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">%</p>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row_column_4">
+          <td>
+            <p class="cuerpo_tabla_izq">Más de 12 meses, sin exceder de 24	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_der">20</p>
+          </td>
+        </tr>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">Más de 24 meses, sin exceder de 36	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_der">30</p>
+          </td>
+        </tr>
+        <tr class="row_column_4">
+          <td>
+            <p class="cuerpo_tabla_izq">Más de 36 meses	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_der">40»</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">3. Se añade una nueva sección V, bajo el título «Tratamiento de las exposiciones al riesgo inmobiliario existentes a 31 de diciembre de 2011 (Real Decreto-ley 2/2012)», con el siguiente contenido:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«37. De acuerdo con lo previsto en el artículo 1 del Real Decreto-ley 2/2012, de 3 de febrero, de saneamiento del sector financiero, y sin perjuicio de lo dispuesto en los apartados precedentes del presente anejo, a las financiaciones y activos adjudicados o recibidos en pago de deudas relacionados con el suelo para promoción inmobiliaria y con las construcciones o promociones inmobiliarias, correspondientes a negocios en España de las entidades de crédito, tanto los existentes a 31 de diciembre de 2011 como los procedentes de la refinanciación de los mismos en una fecha posterior, y que a la referida fecha tuvieran una clasificación distinta de riesgo normal, les serán de aplicación los apartados 38 a 41 siguientes para estimar su deterioro.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">38. Las coberturas que, según los apartados 17 y 22 anteriores, correspondan por operaciones calificadas como dudosas destinadas a la financiación de construcciones o promociones inmobiliarias de todo tipo de activos, que se encuentren terminadas, en ningún caso podrán ser inferiores al 25 % del importe del riesgo vivo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">39. Las coberturas que, según el apartado 23 anterior, correspondan por operaciones calificadas como subestándar destinadas a la financiación de construcciones o promociones inmobiliarias de todo tipo de activos, que se encuentren terminadas, en ningún caso podrán ser inferiores al 20 % del importe del riesgo vivo. Este porcentaje será del 24 % para aquellas operaciones que no cuenten con garantía real.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">40. Las coberturas que, según los apartados 17, 22 y 23 anteriores, correspondan por operaciones calificadas como dudosas o como subestándar, destinadas a la financiación de suelo para promoción inmobiliaria o de construcciones o promociones inmobiliarias de todo tipo de activos, que se encuentren en curso, en ningún caso podrán ser inferiores a los porcentajes que se indican a continuación:</p>
+    <table xmlns:xhtml="http://www.w3.org/1999/xhtml" class="ning_n_estilo_de_tabla">
+      <colgroup>
+        <col class="row_column_6"/>
+        <col class="row_column_7"/>
+        <col class="row_column_8"/>
+      </colgroup>
+      <thead>
+        <tr class="row_column_3">
+          <td>
+            <p class="cabeza_tabla">Clase de activo</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Dudoso</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Subestándar</p>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row_column_4">
+          <td>
+            <p class="cuerpo_tabla_izq">Financiación de suelo para promoción inmobiliaria	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_centro">60 %</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_centro">60 %</p>
+          </td>
+        </tr>
+        <tr class="row_column_9">
+          <td>
+            <p class="cuerpo_tabla_izq">Financiación de construcción o promoción inmobiliaria en curso con obra parada	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_centro">50 %</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_centro">50 %</p>
+          </td>
+        </tr>
+        <tr class="row_column_10">
+          <td>
+            <p class="cuerpo_tabla_izq">Financiación de construcción o promoción inmobiliaria en curso con obra en marcha	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_centro">50 %</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_centro">24 %</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">41. Los porcentajes mínimos de cobertura a que se refiere la sección IV del presente anejo IX no podrán ser inferiores a los siguientes:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">a) Activos consistentes en construcciones o promociones inmobiliarias terminadas, así como viviendas, procedentes de financiaciones a los hogares, que no hayan sido residencia habitual de los prestatarios</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">El porcentaje a que se refiere la letra a) del apartado 32 será del 25 %, y los porcentajes mínimos de cobertura en función de la antigüedad de su incorporación al balance a que se refiere el apartado 35 serán los recogidos en el siguiente cuadro:</p>
+    <table xmlns:xhtml="http://www.w3.org/1999/xhtml" class="ning_n_estilo_de_tabla">
+      <colgroup>
+        <col class="row_column_11"/>
+        <col class="row_column_12"/>
+      </colgroup>
+      <thead>
+        <tr class="row_column_3">
+          <td>
+            <p class="cabeza_tabla">Plazo desde la adquisición</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">%</p>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row_column_4">
+          <td>
+            <p class="cuerpo_tabla_izq">Más de 12 meses, sin exceder de 24	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_centro">30</p>
+          </td>
+        </tr>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">Más de 24 meses, sin exceder de 36	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_centro">40</p>
+          </td>
+        </tr>
+        <tr class="row_column_4">
+          <td>
+            <p class="cuerpo_tabla_izq">Más de 36 meses	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_centro">50</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">b) Activos consistentes en suelo para promoción inmobiliaria o construcciones o promociones inmobiliarias en curso, con independencia de la antigüedad de su incorporación al balance:</p>
+    <table xmlns:xhtml="http://www.w3.org/1999/xhtml" class="ning_n_estilo_de_tabla">
+      <colgroup>
+        <col class="row_column_13"/>
+        <col class="row_column_14"/>
+      </colgroup>
+      <thead>
+        <tr class="row_column_3">
+          <td>
+            <p class="cabeza_tabla">Clase de activo</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">%</p>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row_column_4">
+          <td>
+            <p class="cuerpo_tabla_izq">Suelo para promoción inmobiliaria	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_centro">60</p>
+          </td>
+        </tr>
+        <tr class="row_column_4">
+          <td>
+            <p class="cuerpo_tabla_izq">Construcción o promoción inmobiliaria en curso	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_centro">50</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">42. Sobre el total de las financiaciones de la naturaleza que se indica en el apartado 37 anterior que a 31 de diciembre de 2011 estuviesen clasificadas como riesgo normal, se constituirá, por una sola vez, una cobertura del 7 % de su saldo vivo en dicha fecha. El importe de dicha cobertura podrá ser utilizado por las entidades exclusivamente para la constitución de las coberturas específicas que resulten necesarias como consecuencia de la reclasificación posterior como activos dudosos o subestándar de cualesquiera de dichas financiaciones o de la adjudicación o recepción de activos en pago de dichas deudas.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma segunda.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se introducen las siguientes modificaciones en las normas sexagésima séptima, sexagésima octava y sexagésima novena, y en los anejos IV, V y X de la Circular 4/2004:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">1. Se modifican las normas sexagésima séptima y sexagésima octava para introducir, en los cuadros contenidos en sus respectivos apartados 1, dos nuevos estados, denominados T.17 financiación relacionada con la construcción o promoción inmobiliaria (negocios en España) y T.18 activos inmobiliarios adjudicados o recibidos en pago de deudas procedentes de la financiación relacionada con la construcción o promoción inmobiliaria y a los hogares con una clasificación distinta de riesgo normal a 31 de diciembre de 2011 (negocios en España), ambos con periodicidad trimestral y plazo máximo de presentación el día 20 del mes siguiente, que se incluyen en el anejo de esta Circular y que formarán parte del anejo IV antes citado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">2. Se modifica la norma sexagésima novena para introducir en el cuadro contenido en su apartado 1 dos nuevos estados, denominados C.19 financiación relacionada con la construcción o promoción inmobiliaria concedida por las entidades de crédito (negocios en España) y C.20 activos inmobiliarios adjudicados o recibidos en pago de deudas procedentes de la financiación concedida por las entidades de crédito relacionada con la construcción o promoción inmobiliaria y a los hogares con una clasificación distinta de riesgo normal a 31 de diciembre de 2011 (negocios en España), ambos con periodicidad trimestral, que se incluyen en el anejo de esta Circular y que formarán parte del anejo V antes citado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">3. Los estados T.10-3 cobertura del riesgo de crédito y T.10-8 activos inmobiliarios e instrumentos de capital adjudicados o recibidos en pago de deudas del anejo IV se sustituyen por los de igual numeración y título que se incluyen en el anejo de esta Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">4. Los estados C.6-3 cobertura del riesgo de crédito y C.6-7 activos inmobiliarios e instrumentos de capital adjudicados o recibidos en pago de deudas del anejo V se sustituyen por los de igual numeración y título que se incluyen en el anejo de esta Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">5. En los estados T.10-5 y C.6-5, primera y segunda parte, ambos denominados cobertura genérica del riesgo de crédito por insolvencia del cliente, se añade la partida «Del que: Financiación de suelo para promoción inmobiliaria o de construcciones o promociones inmobiliarias» debajo de la partida «Del que: Para adquisición de bienes y servicios» de la línea «Riesgo medio-alto».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">6. Se introducen las siguientes modificaciones en el Registro Contable Especial de Operaciones Hipotecarias del anejo X, Registros contables especiales de la actividad hipotecaria:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">a) En el apartado «Datos de la operación» se incluye la dimensión «Clasificación por provincias del crédito» a continuación de la dimensión «Moneda».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">b) El contenido del apartado «Finalidad de la operación» se sustituye por el siguiente:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«Finalidad de la operación</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– Finalidad</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">• Personas jurídicas y físicas que la destinen a su actividad empresarial (financiación de construcción o promoción inmobiliaria: viviendas de protección oficial; financiación de construcción o promoción inmobiliaria: otras viviendas primera residencia; financiación de construcción o promoción inmobiliaria: resto de viviendas; financiación de construcción o promoción inmobiliaria: oficinas, locales y naves polivalentes; financiación de construcción o promoción inmobiliaria: resto de inmuebles; financiación de construcción o promoción inmobiliaria: actividad general; financiación de suelo para promoción inmobiliaria: uso predominantemente residencial; financiación de suelo para promoción inmobiliaria: resto de usos; financiación de construcción de obra civil; financiación de activos inmobiliarios para uso propio; financiación de activos inmobiliarios para cesión en arrendamiento a terceros; financiación de terrenos; financiación de activos inmobiliarios para otras finalidades; financiación de fusiones y adquisiciones de participaciones en empresas; financiación de actividades agrícolas y ganaderas; financiación de activos adjudicados o recibidos en pago de deudas; financiación de otros activos no corrientes; financiación de circulante; financiación de exportaciones; financiación de importaciones; resto de finalidades).</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">• Resto de hogares [consumo: adquisición de bienes de consumo duradero; consumo: adquisición de otros bienes y servicios corrientes; vivienda: adquisición por primera vez de vivienda habitual (vivienda protegida); vivienda: adquisición por primera vez de vivienda habitual (vivienda libre); vivienda: resto de adquisiciones de viviendas habituales; vivienda: adquisición de viviendas para su alquiler a terceros; vivienda: resto de adquisiciones; vivienda: rehabilitación; otros fines: adquisición de terrenos; otros fines: adquisición de garajes y trasteros no asociados a la adquisición de la vivienda; otros fines: adquisición de valores; otros fines: reunificación de deudas; otros fines: resto].</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– Estado de la construcción o promoción inmobiliaria (terminada; en construcción: obra en marcha; en construcción: obra parada).</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– Número de viviendas previstas (para la financiación a la construcción o promoción inmobiliaria, incluida la financiación del suelo para uso predominantemente residencial).»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">c) En el apartado «Garantía hipotecaria», las dimensiones «Tipo de garantía real» y «Estado de los activos» se sustituyen por las siguientes:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– «Tipo de garantía real (viviendas residencia habitual del prestatario, viviendas de hogares no residencia habitual, garajes y trasteros de viviendas residencia habitual del prestatario, garajes y trasteros de viviendas no residencia habitual, viviendas y edificios de uso residencial de primera residencia, viviendas y edificios de uso residencial de segunda residencia, oficinas polivalentes, edificios de oficinas polivalentes, locales comerciales polivalentes, edificios de uso comercial polivalentes, naves polivalentes, edificios de oficinas no polivalentes, locales comerciales no polivalentes, edificios de uso comercial no polivalentes, naves no polivalentes, hoteles, edificios de garajes, resto de inmuebles no polivalentes, fincas rústicas en explotación, suelo urbano consolidado, suelo urbano no consolidado, suelo urbanizable delimitado/sectorizado/programado, suelo urbanizable no delimitado/sectorizado/programado, suelo no urbanizable o rústico valorado con expectativas urbanísticas, resto de terrenos, otros activos materiales).»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– «Estado de los activos (terminado; en construcción: obra en marcha; en construcción: obra parada).»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición transitoria primera.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Los primeros estados T.17, T.18, C.19 y C.20 que hayan de rendir las entidades serán los correspondientes a la situación a 31 de diciembre de 2011, que se enviarán no más tarde de la fecha límite para remitir los estados correspondientes a 31 de marzo de 2012.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Hasta los estados correspondientes a 30 de septiembre de 2012 inclusive, podrán realizarse estimaciones para los datos de los estados citados en el párrafo anterior, así como para los incorporados en los estados T.10 y C.6, mientras no se pueda completar la actualización de los registros contables individualizados de los activos y operaciones. Si se realizan estimaciones, se comunicarán por escrito al Banco de España los datos que hayan sido estimados. Tan pronto concluya la actualización de los registros contables, los estados para los que se hubieran enviado estimaciones volverán a presentarse al Banco de España con los datos definitivos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición transitoria segunda.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Las modificaciones en el anejo X, Registros contables especiales de la actividad hipotecaria, deberán incorporarse no más tarde del 31 de diciembre de 2012.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición final primera. Aplicación.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">De acuerdo con lo dispuesto en el apartado 6 de la norma octava de la Circular 4/2004, las modificaciones introducidas por la presente Circular en los criterios de determinación de las coberturas necesarias por los riesgos se aplicarán prospectivamente y su efecto inicial formará parte del resultado del ejercicio 2012. Ello se entiende sin perjuicio de lo establecido en el apartado 1 del artículo 2 del Real Decreto-ley 2/2012, antes citado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición final segunda. Entrada en vigor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente Circular entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Madrid, 29 de febrero de 2012.–El Gobernador del Banco de España, Miguel Ángel Fernández Ordóñez.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-15" alt="1" src="/datos/imagenes/disp/2012/56/03169_7493.png" width="1967" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-16" alt="2" src="/datos/imagenes/disp/2012/56/03169_7530.png" width="1938" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-17" alt="3" src="/datos/imagenes/disp/2012/56/03169_7563.png" width="1772" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-18" alt="4" src="/datos/imagenes/disp/2012/56/03169_7596.png" width="1825" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-19" alt="5" src="/datos/imagenes/disp/2012/56/03169_7629.png" width="1530" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-20" alt="6" src="/datos/imagenes/disp/2012/56/03169_7664.png" width="1968" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-21" alt="7" src="/datos/imagenes/disp/2012/56/03169_7697.png" width="1926" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-22" alt="8" src="/datos/imagenes/disp/2012/56/03169_7730.png" width="1943" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-23" alt="9" src="/datos/imagenes/disp/2012/56/03169_7764.png" width="1843" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-24" alt="10" src="/datos/imagenes/disp/2012/56/03169_7798.png" width="1170" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-23" alt="11" src="/datos/imagenes/disp/2012/56/03169_7832.png" width="1843" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-25" alt="12" src="/datos/imagenes/disp/2012/56/03169_7866.png" width="1766" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-26" alt="13" src="/datos/imagenes/disp/2012/56/03169_7899.png" width="1890" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-26" alt="14" src="/datos/imagenes/disp/2012/56/03169_7932.png" width="1890" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-27" alt="15" src="/datos/imagenes/disp/2012/56/03169_7966.png" width="1737" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-21" alt="16" src="/datos/imagenes/disp/2012/56/03169_8002.png" width="1926" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-19" alt="17" src="/datos/imagenes/disp/2012/56/03169_8036.png" width="1530" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-28" alt="18" src="/datos/imagenes/disp/2012/56/03169_8069.png" width="1583" height="2776"/>
+    </p>
+  </texto>
+</documento>

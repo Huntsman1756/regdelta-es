@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219145601">
+  <metadatos>
+    <identificador>BOE-A-2012-12293</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20120928</fecha_disposicion>
+    <numero_oficial>6/2012</numero_oficial>
+    <titulo>Circular n.º 6/2012, de 28 de septiembre, del Banco de España, a entidades de crédito, de modificación de la Circular 4/2004, de 22 de diciembre, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20121002</fecha_publicacion>
+    <diario_numero>237</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>69858</pagina_inicial>
+    <pagina_final>69880</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2012/10/02/pdfs/BOE-A-2012-12293.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2012-12293</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2012/09/28/6</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2012/09/28/6">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-12293</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-09-28</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/503"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3887"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2012/09/28/6/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2012-12293</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-09-28</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/503"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3887"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/cir/2012/09/28/6/corrigendum/20121012/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2012/09/28/6"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2012/09/28/6/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular n.º 6/2012, de 28 de septiembre, del Banco de España, a entidades de crédito, de modificación de la Circular 4/2004, de 22 de diciembre, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-10-02</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2012/09/28/6/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2012/09/28/6/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2012/09/28/6/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2012/09/28/6/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2012/09/28/6/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2012/09/28/6/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2012/09/28/6/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2012/09/28/6/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2012/09/28/6/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="60" orden="">Activos financieros</materia>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="503" orden="">Bienes inmuebles</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="1757" orden="">Créditos</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="3472" orden="">Estados financieros</materia>
+      <materia codigo="3807" orden="">Formularios administrativos</materia>
+      <materia codigo="3887" orden="">Garantías</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="6242" orden="">Riesgos</materia>
+    </materias>
+    <notas>
+      <nota codigo="9" orden="210">Entrada en vigor, con la salvedad indicada, el 3 de octubre de 2012.</nota>
+    </notas>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2004-21845" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>las normas 4, 5, 60, 61, 67, 69 y los anexos IV, V y VII a X de la Circular 4/2004, de 22 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2012-6280" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>Real Decreto-ley 18/2012, de 11 de mayo</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2012-12764" orden="">
+          <palabra codigo="201">CORRECCIÓN de errores</palabra>
+          <texto>en BOE núm. 246, de 12 de octubre de 2012</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+      <alerta codigo="137" orden="">Vivienda y urbanismo</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El Real Decreto-ley 18/2012, de 11 de mayo, sobre saneamiento y venta de los activos inmobiliarios del sector financiero (en lo sucesivo, el Real Decreto-ley), establece en su artículo 1 determinados requerimientos de provisiones adicionales a los hasta ahora requeridos por las normas aplicables a las entidades de crédito en relación con determinados activos vinculados a la actividad inmobiliaria. Como quiera que dichas medidas, en lo referido a la determinación del deterioro de dichos activos, tienen carácter complementario de la normativa contenida en la Circular 4/2004, de 22 de diciembre, sobre normas de información financiera pública y reservada, y modelos de estados financieros (en lo sucesivo, la Circular 4/2004), la disposición final séptima del citado Real Decreto-ley contiene un mandato al Banco de España para que este apruebe las modificaciones que resulten pertinentes para acomodar la Circular 4/2004 a lo dispuesto en dicho Real Decreto-ley.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Así pues, en virtud de dicho mandato, se introduce una nueva sección VI en el anejo IX de la Circular 4/2004, en la cual se reproducen el apartado 1 del artículo 1 y el anexo del Real Decreto-ley 18/2012, con las necesarias adaptaciones de su redacción al marco normativo en el que se incardina.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Al margen de esta adaptación de la Circular 4/2004 a lo dispuesto en el Real Decreto-ley, la presente Circular aborda también la inclusión, entre las normas relativas a la información que las entidades de crédito deben divulgar en sus cuentas anuales tanto individuales como consolidadas, de determinada información relacionada con las operaciones de refinanciación y reestructuración, así como con la concentración de riesgos tanto sectorial como geográfica. Ambos aspectos han sido foco de interés en los últimos años por parte de los usuarios de la información financiera, pero también por parte de las autoridades europeas, que han recomendado al Banco de España la inclusión de esta información entre la que las entidades de crédito han de divulgar.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Asimismo, se completan los requerimientos de transparencia asociados a la exposición de las entidades al sector de la construcción y la promoción inmobiliaria (en su día objeto, de la modificación de la Circular 4/2004 por parte de la Circular 5/2011, de 30 de noviembre) con información relativa a los activos adjudicados o recibidos en pago de deudas que se transfieran a sociedades para la gestión de dichos activos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Adicionalmente, de manera coherente con todas estas novedades, la Circular modifica los estados reservados actualmente en vigor y añade algunos nuevos, e introduce asimismo en el Registro contable especial de operaciones hipotecarias los cambios precisos para dar soporte tanto a la nueva información necesaria con fines supervisores como a la que se requiere divulgar en las cuentas anuales de las entidades de crédito.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Finalmente, se aprovecha esta Circular para introducir algunos cambios precisos en los estados UEM, que son aquellos que responden a los requerimientos estadísticos de la Unión Económica y Monetaria y que constituyen la base para remitir información de esa naturaleza al Banco Central Europeo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En consecuencia, en uso de las facultades que tiene concedidas, el Consejo de Gobierno del Banco de España, a propuesta de la Comisión Ejecutiva, ha aprobado la presente Circular, que contiene las siguientes normas:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma primera.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se introducen las siguientes modificaciones en la Circular 4/2004, de 22 de diciembre, a las entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros (en adelante, Circular 4/2004):</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">1. Se modifica el primer párrafo del apartado 5 de la norma cuarta, que queda redactado de la siguiente forma:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«5. Con independencia de lo señalado en los apartados anteriores, las entidades de crédito publicarán, al menos para los datos de cada 30 de junio, como mínimo, la información cualitativa y cuantitativa sobre el mercado hipotecario, las financiaciones a la construcción, promoción inmobiliaria y adquisición de viviendas, y la relativa a los activos recibidos en pago de deudas, correspondiente a negocios en España a que se refiere la norma sexagésima de esta Circular, así como la información sobre las operaciones de refinanciación, refinanciadas y reestructuradas regulada en el apartado 6 ter de la citada norma.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">2. Se modifica el primer párrafo del apartado 4 de la norma quinta, que queda redactado de la siguiente forma:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«4. Con independencia de lo señalado en los apartados anteriores, las entidades de crédito publicarán, al menos para los datos de cada 30 de junio, como mínimo, la información cualitativa y cuantitativa correspondiente a negocios en España, sobre financiaciones a la construcción, promoción inmobiliaria y adquisición de viviendas realizadas por las entidades de crédito del grupo, así como la relativa a los activos recibidos en pago de deudas por el grupo de entidades de crédito, a la que se refiere la norma sexagésima primera de esta Circular, así como la información sobre las operaciones de refinanciación, refinanciadas y reestructuradas regulada en el apartado 6 ter de la norma sexagésima.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">3. Se añaden los apartados 6 ter y 6 quáter a la sección D.1), Riesgo de crédito, de la norma sexagésima, con la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«6 ter. La entidad revelará el importe bruto de las operaciones de refinanciación, refinanciadas y reestructuradas -según la definición contenida en la letra g) del apartado 1 del anejo IX de la presente Circular-, con detalle de su clasificación como riesgo en seguimiento especial, subestándar o dudoso (distinguiendo la parte que cuenta con garantía real de la que no la tiene), así como de sus respectivas coberturas por riesgo de crédito, y desglosado asimismo por las distintas contrapartes y finalidad previstas en el estado T.10-1 (bis), Saldos vigentes de refinanciaciones y reestructuraciones. El desglose y la presentación de la información cuantitativa que se ha de publicar en la memoria conforme a lo dispuesto en este apartado se realizarán de acuerdo con el formato del estado T.10-1 (bis), antes citado, en lo que a esta información se refiere.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">Asimismo, con el mismo desglose por contrapartes y finalidad señalado en el párrafo anterior, se indicará el importe de las operaciones que, con posterioridad a la refinanciación o reestructuración, han sido clasificadas como dudosas en el ejercicio.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">Adicionalmente, aquellas entidades que tengan autorizado el uso de modelos internos para el cálculo de los requerimientos de recursos propios por riesgo de crédito deberán indicar, con el mismo desglose por contrapartes y finalidad, la probabilidad de incumplimiento media de dichos conjuntos de operaciones a la fecha a que se refieren los estados financieros.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">Por otra parte, la entidad incluirá un breve resumen de su política de refinanciación y reestructuración de operaciones, indicando cuáles son las principales características de las medidas de refinanciación y reestructuración que utiliza la entidad para los distintos tipos de préstamos y créditos, así como una explicación de los criterios que utiliza para valorar la sostenibilidad de las medidas aplicadas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">6 quáter. La entidad revelará el valor en libros de sus financiaciones totales (con un detalle de las que cuenten con garantía inmobiliaria y de las que cuenten con otras garantías reales) concedidas a su clientela, desglosada esta en Administraciones Públicas, otras instituciones financieras, sociedades no financieras y empresarios individuales (distinguiendo, en función de su finalidad, entre construcción y promoción inmobiliaria, construcción de obra civil y resto de finalidades; y, para estas últimas, entre las concedidas a grandes empresas, por un lado, y a pequeñas y medianas empresas y empresarios individuales, por otro), y resto de hogares e instituciones sin fines de lucro al servicio de los hogares (distinguiendo, en función de su finalidad, entre vivienda, consumo y otros fines). Adicionalmente, el importe de todas las financiaciones con garantía real se distribuirá, con el mismo desglose de la clientela, en los siguientes tramos en función del porcentaje del valor en libros de las financiaciones sobre el importe de la última tasación o valoración de la garantía disponible <em>(loan to value)</em>: inferior o igual al 40 %, superior al 40 % e inferior o igual al 60 %, superior al 60 % e inferior o igual al 80 %, superior al 80 % e inferior o igual al 100 %, y superior al 100 %. Además, para el total de las financiaciones a la clientela, se proporcionará una pro memoria, con igual distribución, para las operaciones de refinanciación, refinanciadas y reestructuradas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">El desglose y la presentación de la información cuantitativa que se ha de publicar en la memoria conforme a lo dispuesto en este apartado se realizarán de acuerdo con el formato del estado S.9, Distribución del crédito a la clientela por actividad.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">4. Se añade un último párrafo al apartado 16 de la sección D.5), Concentraciones de riesgos, de la norma sexagésima, con la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«Sin perjuicio de lo anterior, la entidad proporcionará información agregada sobre su concentración de riesgos (incluyendo el valor en libros de los activos y el nominal de los riesgos contingentes), desglosada por área geográfica de actuación y segmento de actividad, distribuyendo esta entre actividad con entidades de crédito, Administraciones Públicas (distinguiendo entre Administración Central y resto), otras instituciones financieras, sociedades no financieras y empresarios individuales (distinguiendo, en función de su finalidad, entre construcción y promoción inmobiliaria, construcción de obra civil y resto de finalidades; y, para estas últimas, entre grandes empresas, por un lado, y pequeñas y medianas empresas y empresarios individuales, por otro), y resto de hogares e instituciones sin fines de lucro al servicio de los hogares (distinguiendo, en función de la finalidad, entre vivienda, consumo y otros fines).</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">El desglose y la presentación de la información cuantitativa que se ha de publicar en la memoria conforme a lo dispuesto en este apartado se realizarán de acuerdo con el formato del estado S.10, Concentración de riesgos por actividad y área geográfica, en lo que a esta información se refiere. A estos efectos, se podrán presentar agrupadas, bajo un título suficientemente informativo de la agrupación practicada, aquellas áreas geográficas que, en su conjunto, no representen más de un 10 % del total.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">5 Se añade un último párrafo al apartado 55 bis) de la sección K), Activos no corrientes en venta, de la norma sexagésima, con la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«La anterior información se complementará con una descripción de las sociedades para la gestión de estos activos que la entidad haya creado o de la que sea partícipe (incluyendo el porcentaje de su participación en el capital de dichas sociedades), acompañada asimismo de la siguiente información:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– Volumen acumulado, hasta la fecha de las cuentas anuales, de los activos entregados a dichas sociedades (dicho volumen se computará considerando el valor en libros de tales activos en la fecha de su entrega);</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– valor en libros –a la fecha de las cuentas anuales– de los activos financieros recibidos a cambio (distinguiendo entre instrumentos de deuda y de capital);</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– volumen de los activos entregados y de los activos financieros (distinguiendo entre instrumentos de deuda y de capital) recibidos a cambio en el ejercicio al que se refieren las cuentas anuales y el impacto de tales operaciones en la cuenta de pérdidas y ganancias de dicho ejercicio, y</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– una descripción de las líneas de financiación que les tenga otorgadas, con indicación de su finalidad, importe, condiciones financieras y calificación contable.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">6. Se añade un apartado 5 bis a la sección A), Estados financieros consolidados, de la norma sexagésima primera, con la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«5 bis. El desglose y la presentación de la información cuantitativa sobre distribución del crédito a la clientela por actividad a la que se refiere el apartado 6 quáter de la norma sexagésima se realizarán de acuerdo con el formato del estado C.21, Distribución del crédito a la clientela por actividad.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">7. Se modifica el apartado 12 de la sección F), Concentraciones de riesgos, de la norma sexagésima primera, que queda redactado de la siguiente forma:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«12 El desglose y la presentación de la información cuantitativa sobre concentración de riesgos con la clientela por actividad y área geográfica a la que se refiere el apartado 16 de la norma sexagésima se realizarán de acuerdo con el formato del estado C.22, Concentración de riesgos por actividad y área geográfica. A estos efectos, se podrán presentar agrupadas, bajo un título suficientemente informativo de la agrupación practicada, aquellas áreas geográficas que, en su conjunto, no representen más de un 10 % del total.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">La información a la que se refiere el apartado 16 bis de la norma sexagésima incluirá, como mínimo, de forma agregada, la actividad de las entidades de crédito correspondiente a sus negocios en España. Su desglose y presentación se realizarán de acuerdo con el formato del estado C.17, Información sobre financiaciones realizadas por las entidades de crédito a la construcción, promoción inmobiliaria y adquisición de viviendas, en lo que a aquella información se refiere.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">8. Se añaden en el cuadro del apartado 1 de las normas sexagésima séptima y sexagésima octava los estados S.9, Distribución del crédito a la clientela por actividad, y S.10, Concentración de riesgos por actividad y área geográfica, ambos con periodicidad semestral y con plazo máximo de presentación el fin del mes siguiente.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">9. Se añaden en el cuadro del apartado 1 de la norma sexagésima novena los estados C.21, Distribución del crédito a la clientela por actividad, y C.22, Concentración de riesgos por actividad y área geográfica, ambos con periodicidad semestral. Asimismo, en la citada norma, el apartado 8 pasa a ser el 9 y se añade el apartado 8, con el siguiente texto:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«8. La información de los estados C.21 y C.22 se refiere a la actividad que tiene que reflejar la entidad en su balance público.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma segunda.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se introducen las siguientes modificaciones en el anejo IX de la Circular 4/2004:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">1. Se modifica la letra g) del apartado 1, que queda redactada de la siguiente forma:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«g) Disponer de una política de refinanciación, reestructuración, renovación o renegociación de las operaciones que aborde los requisitos que deben reunir para ello y que, además de la exigencia de realizar un análisis actualizado de la situación económica y financiera de los prestatarios y garantes, de su capacidad de pago de las operaciones con las nuevas condiciones financieras, así como de la eficacia de las garantías aportadas (nuevas y originales) y de la clasificación crediticia de las operaciones a efectos contables, incluya aspectos tales como la experiencia mínima con el prestatario con que se debe contar, la existencia de un historial de cumplimiento suficientemente extenso o, en su defecto, de un importe de amortización del principal prestado que sea equivalente, así como el establecimiento de un límite a la frecuencia de modificación de las condiciones de las operaciones en un período de tiempo suficientemente amplio.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">A los efectos del presente anejo, se considerará:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– Operación de refinanciación: operación que, cualquiera que sea su titular o garantías, se concede o se utiliza por razones económicas o legales relacionadas con dificultades financieras –actuales o previsibles– del titular (o titulares) para cancelar una o varias operaciones concedidas, por la propia entidad o por otras entidades de su grupo, al titular (o titulares) o a otra u otras empresas de su grupo económico, o por la que se pone a dichas operaciones total o parcialmente al corriente de pagos, con el fin de facilitar a los titulares de las operaciones canceladas o refinanciadas el pago de su deuda (principal e intereses) porque no puedan, o se prevea que no vayan a poder, cumplir en tiempo y forma con sus condiciones.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– Operación refinanciada: operación que se pone total o parcialmente al corriente de pago como consecuencia de una operación de refinanciación realizada por la propia entidad u otra entidad de su grupo económico.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– Operación reestructurada: operación en la que, por razones económicas o legales relacionadas con dificultades financieras, actuales o previsibles, del titular (o titulares), se modifican sus condiciones financieras con el fin de facilitar el pago de la deuda (principal e intereses) porque el titular no pueda, o se prevea que no vaya a poder, cumplir en tiempo y forma con dichas condiciones, aun cuando dicha modificación estuviese prevista en el contrato. En todo caso, se consideran como reestructuradas las operaciones en las que se realiza una quita o se reciben activos para reducir la deuda, o en las que se modifican sus condiciones para alargar su plazo de vencimiento, variar el cuadro de amortización para minorar el importe de las cuotas en el corto plazo o disminuir su frecuencia, o establecer o alargar el plazo de carencia de principal, de intereses o de ambos, salvo cuando se pueda probar que las condiciones se modifican por motivos diferentes de las dificultades financieras de los titulares y sean análogas a las que se apliquen en el mercado en la fecha de su modificación a las operaciones que se concedan a clientes con similar perfil de riesgo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– Operación de renovación: operación formalizada para sustituir a otra concedida previamente por la propia entidad, sin que el prestatario tenga, o se prevea que pueda tener en el futuro, dificultades financieras; es decir, la operación se formaliza por motivos diferentes de la refinanciación.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– Operación renegociada: operación en la que se modifican sus condiciones financieras sin que el prestatario tenga, o se prevea que pueda tener en el futuro, dificultades financieras; es decir, cuando se modifican las condiciones por motivos diferentes de la reestructuración.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">En todo caso, para calificar a una operación como de renovación o renegociada, los titulares deben tener capacidad para obtener en el mercado, en la fecha de la renovación o renegociación, operaciones por un importe y con unas condiciones financieras análogas a las que le aplique la entidad, y estar estas ajustadas a las que se concedan en esa fecha a clientes con similar perfil de riesgo.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">2. Se añade una letra e) en el apartado 2, con la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«e) La refinanciación, reestructuración, renovación o renegociación de operaciones son instrumentos de gestión del riesgo de crédito que deben ser utilizados adecuadamente, sin que el uso de dichos instrumentos deba desvirtuar el oportuno reconocimiento del riesgo de incumplimiento. Así, en lo que se refiere a la refinanciación o reestructuración de operaciones:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– Las políticas de refinanciación y reestructuración deben enfocarse a la recuperación de todos los importes debidos, lo que implica la necesidad de reconocer inmediatamente las cantidades que, en su caso, se estimen irrecuperables. La utilización de la refinanciación o de la reestructuración con otros objetivos, como pueda ser el retrasar el reconocimiento inmediato de las pérdidas, es contraria a las buenas prácticas de gestión.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– Las decisiones de refinanciación y reestructuración deben partir de un análisis individualizado de la operación a un nivel adecuado de la organización que sea distinto del que la concedió originalmente o, siendo el mismo, sometido a una revisión por un nivel u órgano de decisión superior. Periódicamente habrán de revisarse las decisiones adoptadas, con el fin de comprobar el adecuado cumplimiento de las políticas de refinanciación y reestructuración.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– En caso de aportación de nuevas garantías, se deberá tener en cuenta su eficacia, tal como se contempla en la letra c) del apartado 7 posterior.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– La entidad debe contar en su sistema interno de información con mecanismos que permitan una adecuada individualización y seguimiento de las operaciones de refinanciación, refinanciadas y reestructuradas.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">3. Se modifica el último párrafo de la letra a) del apartado 7, que queda redactado como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«Dentro de esta categoría será necesario identificar las operaciones que merecen un seguimiento especial, entendiendo por tales aquellas que presentan debilidades que, sin llegar a exigir mayores coberturas que las establecidas para las operaciones de riesgo normal, aconsejan un seguimiento especial por la entidad. Entre las operaciones que cabe identificar como en seguimiento especial se incluirán: hasta su extinción, las operaciones de refinanciación, refinanciadas o reestructuradas, así como las correspondientes a clientes declarados en concurso de acreedores que se hubiesen reclasificado desde alguna de las categorías de dudosos por cumplir los requisitos señalados en ellas; y las operaciones clasificadas como normales de clientes que tengan alguna operación clasificada como dudosa por razón de morosidad. No obstante lo dispuesto anteriormente, las operaciones de refinanciación, refinanciadas o reestructuradas se dejarán de identificar como en seguimiento especial cuando se haya concluido, después de una revisión exhaustiva de su situación patrimonial y financiera, que no es previsible que el titular pueda tener dificultades financieras y, por tanto, podrá cumplir con el pago de la deuda (principal e intereses) de todas sus operaciones en la entidad en tiempo y forma, y, además, haya pagado las cuotas de principal y los intereses devengados desde la fecha en la que se formalizó la operación de reestructuración o refinanciación y hayan trascurrido al menos dos años desde la misma, y haya reducido el principal de la operación en, al menos, un 20% y satisfecho todos los importes (principal e intereses) que se hallasen impagados al tiempo de la operación de reestructuración o refinanciación.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">4. Se modifica el sexto párrafo de la letra c) del apartado 7, que queda redactado como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«La refinanciación o reestructuración de las operaciones que no se encuentren al corriente de pagos no interrumpe su morosidad, ni producirá su reclasificación a una de las categorías anteriores, salvo que exista una razonable certeza de que el cliente puede hacer frente a su pago en el calendario previsto o se aporten nuevas garantías eficaces, y, en ambos casos, se perciban, al menos, los intereses ordinarios pendientes de cobro, sin tener en cuenta los intereses de demora.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">5. En el tercer párrafo de la letra d) del apartado 7 se sustituye la expresión «la suspensión de pagos» por «el concurso»; y en ese mismo párrafo, así como en el segundo párrafo del apartado 22, se sustituye la expresión «declarados en convenio de acreedores» por «declarados en concurso de acreedores».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">6. Se añade un último párrafo a la letra a) del apartado 17, con el siguiente contenido:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«Cuando se trate de operaciones de refinanciación o refinanciadas, si continúan calificadas como dudosas por no cumplir los requisitos para su reclasificación a otra categoría, se considerará como fecha para el cálculo del porcentaje de cobertura la del importe vencido más antiguo que se haya refinanciado que permanezca impagado, con independencia de que, como consecuencia de la refinanciación, las operaciones no tengan importes impagados.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">7. Se añade una nueva sección VI, bajo el título «Disposiciones relativas al Real Decreto-ley 18/2012», con el siguiente contenido:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«1. Coberturas adicionales por riesgo de crédito.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">43. Sobre el saldo vivo a 31 de diciembre de 2011 de las financiaciones a que se refiere el apartado 42, clasificadas como riesgo normal, se constituirán, por una sola vez, los porcentajes de cobertura que se indican en el siguiente cuadro, que son adicionales al porcentaje establecido en dicho apartado, con igual naturaleza que este y que podrán ser utilizadas en la forma prevista en dicho apartado.</p>
+    <table xmlns:xhtml="http://www.w3.org/1999/xhtml" class="ning_n_estilo_de_tabla">
+      <colgroup>
+        <col class="row_column_1"/>
+        <col class="row_column_2"/>
+        <col class="row_column_3"/>
+      </colgroup>
+      <thead>
+        <tr class="row_column_4">
+          <td colspan="2">
+            <p class="cabeza_tabla">Tipo de financiación de construcción o promoción inmobiliaria</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">%</p>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row_column_5">
+          <td rowspan="3">
+            <p class="cuerpo_tabla_izq">Con garantía real.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Suelo	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_der">45</p>
+          </td>
+        </tr>
+        <tr class="row_column_6">
+          <td>
+            <p class="cuerpo_tabla_izq">Promoción en curso	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_der">22</p>
+          </td>
+        </tr>
+        <tr class="row_column_6">
+          <td>
+            <p class="cuerpo_tabla_izq">Promoción terminada	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_der">7</p>
+          </td>
+        </tr>
+        <tr class="row_column_4">
+          <td colspan="2">
+            <p class="cuerpo_tabla_izq">Sin garantía real	</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_der">45»</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma tercera.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se introducen las siguientes modificaciones en los anejos IV, V y X de la Circular 4/2004:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">1. En los estados T.10-1 y C.6-1, Clasifición de los instrumentos de deuda en función de su deterioro por riesgo de crédito, se suprimen las partidas «Pro memoria: Reestructurados».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">2. En los estados T.10-3 y C.6-3, Cobertura del riesgo de crédito, se modifica la partida 1.1.3, que pasará a denominarse «1.1.3 Cobertura apartados 42 y 43 anejo IX CBE 4/2004».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">3. En el estado T.10-7, Movimiento de la cuenta «activos fallidos» durante el ejercicio corriente, la partida «Por reestructuración de deuda» pasa a denominarse «Por refinanciación o reestructuración de deuda».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">4. En el estado T.10-8, Activos inmobiliarios e instrumentos de capital adjudicados o recibidos en pago de deudas, se añade al final el estado T.10-8 (ter), con el contenido que se incluye en el anejo de esta Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">5. Se sustituyen los estados T.17-3, Financiación relacionada con la construcción o promoción inmobiliaria (negocios en España). Utilización de la cobertura del apartado 42 del anejo IX; C.6-7 (ter), Activos inmobiliarios e instrumentos de capital adjudicados o recibidos en pago de deudas, y C.19-3, Financiación relacionada con la construcción o promoción inmobiliaria concedida por las entidades de crédito (negocios en España). utilización de la cobertura del apartado 42 del anejo IX, por los que se incluyen en el anejo de esta Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">6. Se añaden los estados T.10-1 (bis) y C.6-1 (bis), Saldos vigentes de refinanciaciones y reestructuraciones.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">7. Se añaden los estados S.9 y C.21, Distribución del crédito a la clientela por actividad.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">8. Se añaden los estados S.10 y C.22, Concentración de riesgos por actividad y área geográfica.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">9. En el Registro contable especial de operaciones hipotecarias del anejo X, Registros contables especiales de la actividad hipotecaria, se realizan las siguientes modificaciones:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«a) En la dimensión “Finalidad de la operación”, dentro de la finalidad correspondiente al resto de hogares, se sustituye el valor “otros fines: reunificación de deudas” por los valores “otros fines: reunificación de deudas conforme al Real Decreto-ley 6/2012” y “otros fines: resto de reunificaciones de deudas”.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">b) Dentro del apartado “Datos de la operación”, a continuación de “Origen de la operación”, se incluye la dimensión “Novaciones y refinanciaciones (operación de refinanciación de otras operaciones de la entidad, operación de refinanciación de operaciones de otras entidades declarantes a la CIR del mismo grupo económico, operación de refinanciación de operaciones de otras entidades no declarantes a la CIR del mismo grupo económico, operación refinanciada por la propia entidad, operación refinanciada por otras entidades declarantes a la CIR del mismo grupo económico, operación refinanciada por otras entidades no declarantes a la CIR del mismo grupo económico, operación reestructurada conforme al Real Decreto-ley 6/2012, resto de operaciones reestructuradas, operación de renovación, operación renegociada, resto de situaciones)”».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma cuarta.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se introducen las siguientes modificaciones en los anejos VII y VIII de la Circular 4/2004:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«1. En el estado UEM. 8, Detalle del resto de instituciones financieras no monetarias residentes en españa (negocios en España), del anejo VII, se suprime la partida Fondos de Garantía de Depósitos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">2. En el estado UEM.11, Titulizaciones y otras transferencias de préstamos. Datos mensuales (negocios en españa), del anejo VII, se añaden la columna “Saldos vivos de préstamos transferidos dados de baja del balance (f)”, con las celdas abiertas para enviar datos exclusivamente para “Residentes en España”, y la nota “(f)”, con el siguiente texto: “(f) En esta columna se recogen los saldos vivos a final de mes de los préstamos y créditos titulizados o transferidos de otra forma (incluidos los vendidos en firme), que se hayan dado de baja del balance y que la entidad continúe gestionando ante sus titulares. No se incluirán los préstamos y créditos transferidos a otras Instituciones Financieras Monetarias (IFM) residentes en España.”</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">3. En el apartado B), Auxiliares financieros, del Anejo VIII.2, Entidades clasificadas como “Otros intermediarios financieros” y “Auxiliares financieros”, se suprime la línea “1. Fondos de Garantía de Depósitos”, y las líneas “2 a 17” se renumeran como “1 a 16”».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición transitoria primera.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presentación comparativa con datos del ejercicio inmediato anterior, para la información contemplada en los apartados 3, 4 y 5 de la norma primera de la presente Circular, será exigible desde las cuentas anuales correspondientes al ejercicio que comienza el 1 de enero de 2013.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición transitoria segunda.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Los primeros estados T.10, T.17, C.6 y C.19 que se han de remitir al Banco de España con las modificaciones introducidas en esta Circular serán los correspondientes a 30 de septiembre de 2012, los cuales se enviarán no más tarde del 8 de enero de 2013. Excepcionalmente, también se enviarán dichos estados sin incluir las modificaciones introducidas por la presente Circular dentro del plazo máximo de presentación establecido para ellos en la Circular 4/2004.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición transitoria tercera.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Las modificaciones en el anejo X, Registros contables especiales de la actividad hipotecaria, deberán incorporarse no más tarde del 31 de diciembre de 2012.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición final primera. Aplicación.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">De acuerdo con lo dispuesto en el apartado 6 de la norma octava de la Circular 4/2004, las modificaciones introducidas por la presente Circular en los criterios de determinación de las coberturas necesarias por los riesgos se aplicarán prospectivamente y su efecto inicial formará parte del resultado del ejercicio 2012. Ello se entiende sin perjuicio de lo establecido en el apartado 1 del artículo 2 del Real Decreto-ley 2/2012, de 3 de febrero, de saneamiento del sector financiero.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición final segunda. Entrada en vigor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Sin perjuicio de lo dispuesto en la disposición transitoria segunda, la presente Circular entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado»<em>, </em>con la excepción de las modificaciones introducidas en el estado UEM.11, que serán aplicables por primera vez al estado correspondiente a los datos del mes de noviembre de 2012.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Madrid, 28 de septiembre de 2012.–El Gobernador del Banco de España, Luis María Linde de Castro.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-7" alt="5055.png" src="/datos/imagenes/disp/2012/237/12293_5055.png" width="2776" height="1619"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-8" alt="5171.png" src="/datos/imagenes/disp/2012/237/12293_5171.png" width="2776" height="1796"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-9" alt="5242.png" src="/datos/imagenes/disp/2012/237/12293_5242.png" width="2776" height="1743"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-10" alt="5314.png" src="/datos/imagenes/disp/2012/237/12293_5314.png" width="2776" height="1873"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-11" alt="5386.png" src="/datos/imagenes/disp/2012/237/12293_5386.png" width="2776" height="1660"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-12" alt="5457.png" src="/datos/imagenes/disp/2012/237/12293_5457.png" width="2776" height="1613"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-13" alt="5529.png" src="/datos/imagenes/disp/2012/237/12293_5529.png" width="2776" height="1607"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-14" alt="5601.png" src="/datos/imagenes/disp/2012/237/12293_5601.png" width="2776" height="1961"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-15" alt="5674.png" src="/datos/imagenes/disp/2012/237/12293_5674.png" width="2776" height="1749"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-16" alt="5745.png" src="/datos/imagenes/disp/2012/237/12293_5745.png" width="2776" height="1878"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-10" alt="5816.png" src="/datos/imagenes/disp/2012/237/12293_5816.png" width="2776" height="1873"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-11" alt="5888.png" src="/datos/imagenes/disp/2012/237/12293_5888.png" width="2776" height="1660"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-17" alt="5959.png" src="/datos/imagenes/disp/2012/237/12293_5959.png" width="2776" height="1648"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-18" alt="6031.png" src="/datos/imagenes/disp/2012/237/12293_6031.png" width="2776" height="1642"/>
+    </p>
+  </texto>
+</documento>

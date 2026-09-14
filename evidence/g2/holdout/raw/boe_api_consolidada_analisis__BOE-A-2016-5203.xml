@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="1627">Contabilidad</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="3752">Fondo de Garantía de Depósitos</materia>
+        <materia codigo="6242">Riesgos</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2011-16173</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el art. 6 del Real Decreto-ley 16/2011, de 14 de octubre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2018-1749</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>determinados preceptos, por Circular 1/2018, de 31 de enero</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2016-5532</id_norma>
+            <relacion codigo="202">CORRECCIÓN de erratas</relacion>
+            <texto>en BOE num. 137 de 7 de junio de 2016</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

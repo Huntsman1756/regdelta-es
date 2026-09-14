@@ -364,3 +364,6 @@ G2.0 = STOP   (CORRIGENDUM_CHAIN eligible = 0 < 2 in the frozen
 The recorded STOP is the gate outcome. Any continuation requires a
 new preregistration (corpus extension or revised stress design) and a
 new unseen holdout.
+
+Superseded by `G2.0b-AMENDMENT.md` (event-centric discovery +
+scarcity rule); the STOP record itself is unchanged.

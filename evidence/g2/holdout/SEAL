@@ -1,0 +1,30 @@
+{
+  "aggregate_bytes": 246253630,
+  "aggregate_sha256": "3934b3e0577f10d8544d59241fd5b19f7a160672022f6ce5144cfaf7a8ad0c30",
+  "artifact_count": 784,
+  "capture_script_sha256": "c5d75f95ecde76a44715137add070f0e60986726fad14d1391c7846232f37867",
+  "gate": "G2.0b",
+  "manifest_sha256": "59ec28a0f22ed42767e9901e59e94b364a8e4d9b5d56ed2e07a0183fa3d83648",
+  "ownership_gold_sha256": "9c6b68c482cc8de7ba4631909a87dd5d770be301415bfab1d101ea5438ab5180",
+  "risk_event_ids": [
+    "0b39629fe0d9e6c3b59622798ac5767b14e09ccd228d9a250a27f399d8600f11",
+    "1103f531ae624541fde2197d60e726347496bf3355e4ca730867724d9036097c",
+    "5f4a8111341dd78b079f95a325978954ab5689cc5f85fea0664b1ce25d4fd9f7",
+    "8245f2930d8f9c240fd46c67150ef2249ebe727ac379a79f3a5fdb60f429f0ac",
+    "85168d8fcc4e90e92d4a885555b9d2e96e246c8a4ae51790aab31b767d894dcb",
+    "a2b420c15d0182c18f09c1263a390615502f8fd29db555e8dcb2530c10e82332",
+    "ad5f780c4e334cf058146b74e9b8f9942cdbffa28914b4c56c0113935ccf5c5b",
+    "ca3f2d235e77711ba03ae3f101741c744a1b824d522bafd85384a69d666f9fce",
+    "d6d704e14e62e8658a75fe98d0ec7bc1cf76ebcfcbce1f9f2a46bf0c48df903c"
+  ],
+  "rule": "no source/test/eval code may read these manifests semantically until G2.2",
+  "sealed_at_head": "f106547f08fcfd4ef19de09b8d5d63ecad2e753b",
+  "selection_v2_sha256": "830cc170391e1be2f75bf1296f63859d1feb6277320111aaf7f7e3a31ecc2cf6",
+  "semantic_seen_set_sha256": "b7eb934bfe7a83da8489761e347f61df8c7d7ee909c35e85ffa249e4c23b52ac",
+  "targets": [
+    "BOE-A-2004-21845",
+    "BOE-A-2008-9915",
+    "BOE-A-2016-5203",
+    "BOE-A-2019-15683"
+  ]
+}

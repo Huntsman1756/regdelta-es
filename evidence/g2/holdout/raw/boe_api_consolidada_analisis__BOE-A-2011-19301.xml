@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="3239">Entidades financieras</materia>
+        <materia codigo="5912">Recursos propios</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2008-9915</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>determinados preceptos de la Circular 3/2008, de 22 de mayo</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2011-9731</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Real Decreto 771/2011, de 3 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2011-6548</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Ley 6/2011, de 11 de abril</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-2010-82306</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Directiva 2010/76/UE, de 24 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-2009-82166</id_norma>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Directiva 2009/111/CE, de 16 de septiembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2011-19505</id_norma>
+            <relacion codigo="202">CORRECCIÓN de erratas</relacion>
+            <texto>en BOE num. 300 de 14 de diciembre de 2011</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

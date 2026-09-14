@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251220175601">
+  <metadatos>
+    <identificador>BOE-A-2023-8226</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1590">Corrección (errores o erratas)</rango>
+    <fecha_disposicion/>
+    <numero_oficial/>
+    <titulo>Corrección de erratas de la Circular 1/2023, de 24 de febrero, del Banco de España, a entidades de crédito, sucursales en España de entidades de crédito autorizadas en otro Estado miembro de la Unión Europea y establecimientos financieros de crédito, sobre la información que se ha de remitir al Banco de España sobre los bonos garantizados y otros instrumentos de movilización de préstamos, y por la que se modifican la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 4/2019, de 26 de noviembre, a establecimientos financieros de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20230401</fecha_publicacion>
+    <diario_numero>78</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>48038</pagina_inicial>
+    <pagina_final>48055</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2023/04/01/pdfs/BOE-A-2023-8226.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2023-8226</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2023-8226</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-24</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4012"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2023-8226</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-02-24</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4012"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:corrects rdf:resource="https://www.boe.es/eli/es/cir/2023/02/24/1/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corrección de erratas de la Circular 1/2023, de 24 de febrero, del Banco de España, a entidades de crédito, sucursales en España de entidades de crédito autorizadas en otro Estado miembro de la Unión Europea y establecimientos financieros de crédito, sobre la información que se ha de remitir al Banco de España sobre los bonos garantizados y otros instrumentos de movilización de préstamos, y por la que se modifican la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 4/2019, de 26 de noviembre, a establecimientos financieros de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-04-01</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2023/02/24/1/corrigendum/20230401/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="1757" orden="">Créditos</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="3239" orden="">Entidades financieras</materia>
+      <materia codigo="3472" orden="">Estados financieros</materia>
+      <materia codigo="4012" orden="">Hipoteca</materia>
+      <materia codigo="4165" orden="">Información</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2023-5481" orden="2130">
+          <palabra codigo="202">CORRECCIÓN de erratas</palabra>
+          <texto>de la Circular 1/2023, de 24 de febrero</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">Advertidas erratas en los anejos de la Circular 1/2023, de 24 de febrero, del Banco de España, a entidades de crédito, sucursales en España de entidades de crédito autorizadas en otro Estado miembro de la Unión Europea y establecimientos financieros de crédito, sobre la información que se ha de remitir al Banco de España sobre los bonos garantizados y otros instrumentos de movilización de préstamos, y por la que se modifican la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, y la Circular 4/2019, de 26 de noviembre, a establecimientos financieros de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, publicada en el «Boletín Oficial del Estado» número 52, de 2 de marzo de 2023, se procede a publicar los anejos 1 a 5, íntegros y debidamente rectificados:</p>
+    <p class="anexo_num">ANEJO 1</p>
+    <p class="anexo_tit">Información periódica que se ha de remitir en materia de admisibilidad de los activos y requisitos del conjunto de cobertura para el programa de bonos garantizados</p>
+    <p class="imagen">
+      <img class="frame" data-pdf="1_Anejo_1_a_5_CBE_1_2023__primera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13013825_1.png" width="1725" height="478"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="1_Anejo_1_a_5_CBE_1_2023__primera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13013825_2.png" width="2126" height="1518"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="1_Anejo_1_a_5_CBE_1_2023__primera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13013825_3.png" width="2126" height="1638"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="1_Anejo_1_a_5_CBE_1_2023__primera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13013825_4.png" width="2126" height="1578"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="1_Anejo_1_a_5_CBE_1_2023__primera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13013825_5.png" width="2126" height="521"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="1_Anejo_1_a_5_CBE_1_2023__primera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13013825_6.png" width="2126" height="441"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="1_Anejo_1_a_5_CBE_1_2023__primera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13013825_7.png" width="2126" height="1199"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="2_Anejo_1_a_5_CBE_1_2023__segunda_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015307_1.png" width="2126" height="2287"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="2_Anejo_1_a_5_CBE_1_2023__segunda_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015307_2.png" width="2126" height="2081"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="2_Anejo_1_a_5_CBE_1_2023__segunda_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015307_3.png" width="1812" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="2_Anejo_1_a_5_CBE_1_2023__segunda_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015307_4.png" width="2126" height="1380"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="2_Anejo_1_a_5_CBE_1_2023__segunda_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015307_5.png" width="2126" height="890"/>
+    </p>
+    <p class="anexo_num">ANEJO 2</p>
+    <p class="anexo_tit">Información periódica que se ha de remitir sobre el requisito de colchón de liquidez del conjunto de cobertura para el programa de bonos garantizados</p>
+    <p class="imagen">
+      <img class="frame" data-pdf="2_Anejo_1_a_5_CBE_1_2023__segunda_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015307_6.png" width="2012" height="160"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="3_Anejo_1_a_5_CBE_1_2023__tercera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015466_1.png" width="1966" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="3_Anejo_1_a_5_CBE_1_2023__tercera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015466_2.png" width="1258" height="921"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="3_Anejo_1_a_5_CBE_1_2023__tercera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015466_3.png" width="1481" height="596"/>
+    </p>
+    <p class="anexo_num">ANEJO 3</p>
+    <p class="anexo_tit">Información periódica que se ha de remitir sobre los instrumentos de movilización de créditos o préstamos garantizados con primera hipoteca mobiliaria o primera prenda sin desplazamiento</p>
+    <p class="imagen">
+      <img class="frame" data-pdf="3_Anejo_1_a_5_CBE_1_2023__tercera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015466_4.png" width="2126" height="267"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="3_Anejo_1_a_5_CBE_1_2023__tercera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015466_5.png" width="2126" height="1056"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="3_Anejo_1_a_5_CBE_1_2023__tercera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015466_6.png" width="2126" height="1048"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="3_Anejo_1_a_5_CBE_1_2023__tercera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015466_7.png" width="2126" height="554"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="3_Anejo_1_a_5_CBE_1_2023__tercera_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015466_8.png" width="2126" height="1051"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="4_Anejo_1_a_5_CBE_1_2023__cuarta_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015309_1.png" width="2126" height="1009"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="4_Anejo_1_a_5_CBE_1_2023__cuarta_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015309_2.png" width="2126" height="884"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="4_Anejo_1_a_5_CBE_1_2023__cuarta_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015309_3.png" width="2126" height="572"/>
+    </p>
+    <p class="anexo_num">ANEJO 4</p>
+    <p class="anexo_tit">Información que se ha de remitir sobre el requisito de colchón de liquidez del conjunto de cobertura para los instrumentos de movilización de créditos o préstamos garantizados con primera hipoteca mobiliaria o primera prenda sin desplazamiento</p>
+    <p class="imagen">
+      <img class="frame" data-pdf="4_Anejo_1_a_5_CBE_1_2023__cuarta_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015309_4.png" width="2015" height="230"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="4_Anejo_1_a_5_CBE_1_2023__cuarta_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015309_5.png" width="1918" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="4_Anejo_1_a_5_CBE_1_2023__cuarta_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015309_6.png" width="1365" height="1045"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="4_Anejo_1_a_5_CBE_1_2023__cuarta_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015309_7.png" width="1433" height="645"/>
+    </p>
+    <p class="anexo_num">ANEJO 5</p>
+    <p class="anexo_tit">Información que se ha de remitir sobre las emisiones de participaciones hipotecarias y certificados de transmisión de hipoteca</p>
+    <p class="imagen">
+      <img class="frame" data-pdf="4_Anejo_1_a_5_CBE_1_2023__cuarta_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015309_8.png" width="1658" height="178"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" data-pdf="4_Anejo_1_a_5_CBE_1_2023__cuarta_parte__1.pdf" src="/datos/imagenes/disp/2023/78/8226_13015309_9.png" width="2126" height="1027"/>
+    </p>
+  </texto>
+</documento>

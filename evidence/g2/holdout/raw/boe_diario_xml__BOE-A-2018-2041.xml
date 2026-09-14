@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251220115601">
+  <metadatos>
+    <identificador>BOE-A-2018-2041</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1590">Corrección (errores o erratas)</rango>
+    <fecha_disposicion/>
+    <numero_oficial/>
+    <titulo>Corrección de errores y erratas de la Circular 4/2017, de 27 de noviembre, del Banco de España, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20180215</fecha_publicacion>
+    <diario_numero>41</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>18182</pagina_inicial>
+    <pagina_final>18183</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2018/02/15/pdfs/BOE-A-2018-2041.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2018-2041</url_epub>
+    </url_epub>
+    <url_pdf_catalan>/boe_catalan/dias/2018/02/15/pdfs/BOE-A-2018-2041-C.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego>/boe_gallego/dias/2018/02/15/pdfs/BOE-A-2018-2041-G.pdf</url_pdf_gallego>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2018-2041</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-27</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2018-2041</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-27</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:corrects rdf:resource="https://www.boe.es/eli/es/cir/2017/11/27/4/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corrección de errores y erratas de la Circular 4/2017, de 27 de noviembre, del Banco de España, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-15</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Correcció d'errors i d'errades de la Circular 4/2017, de 27 de novembre, del Banc d'Espanya, a entitats de crèdit, sobre normes d'informació financera pública i reservada, i models d'estats financers.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-15</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/glg">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corrección de erros e erratas da Circular 4/2017, do 27 de novembro, do Banco de España, a entidades de crédito, sobre normas de información financeira pública e reservada, e modelos de estados financeiros.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-02-15</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/glg/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/11/27/4/corrigendum/20180215/dof/glg"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="3239" orden="">Entidades financieras</materia>
+      <materia codigo="3472" orden="">Estados financieros</materia>
+      <materia codigo="4165" orden="">Información</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2017-14334" orden="2120">
+          <palabra codigo="201">CORRECCIÓN de errores</palabra>
+          <texto>y erratas de la Circular 4/2017, de 27 de noviembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">Advertidos errores y erratas en la Circular 4/2017, de 27 de noviembre, a entidades de crédito, sobre normas de información financiera pública y reservada, y modelos de estados financieros, publicada en el BOE n.º 296, de 6 de diciembre de 2017, procede efectuar las siguientes rectificaciones:</p>
+    <p class="parrafo_2">1. En la página 119679, en el apartado 9 de la norma 64, donde dice: «norma 54», debe decir: «norma 53».</p>
+    <p class="parrafo">2. En la página 119684, en el tercer párrafo del apartado 3 de la norma 65, donde dice: «apartado 17», debe decir: «apartado 16».</p>
+    <p class="parrafo">3. En la página 119699, en el numeral ii), de la letra b), del apartado 2 de la norma 69 donde dice: «apartado 7», debe decir: «apartado 6».</p>
+    <p class="parrafo">4. En la página 119822, en el estado FI 101, en las notas (t) y (u) donde dice: «en situación normal o dudosas», debe decir: «dudosas o no».</p>
+    <p class="parrafo">5. En la página 119824, en el estado FI 102-2 se eliminan las líneas «Valorados por su coste» y «Valorados por su valor razonable» a continuación de la línea «No cotizados» del bloque correspondiente a «Activos financieros a valor razonable con cambios en otro resultado global».</p>
+    <p class="parrafo">6. En la página 119827, en el estado FI 103-2, en la nota (a) donde dice: «como delatante de», debe decir: «como» y en la nota (j) donde dice: «inputs», debe decir: «los inputs».</p>
+    <p class="parrafo">7. En la página 119862, en estado FI 131-1.1, se eliminan los sombreados que figuran en las celdas correspondientes a Préstamos y anticipos y se añade la nota (b) en las columnas correspondientes al «Importe en libros bruto. Riesgo de insolvencia» con el siguiente texto:</p>
+    <p class="parrafo_2">«(b) Recoge el importe en libros bruto de los instrumentos de deuda distintos de los activos financieros mantenidos para negociar que no estén sujetos a cobertura por riesgo país. Los sujetos a cobertura por riesgo país, se incluirán íntegramente en la columna siguiente, con independencia de que sus coberturas se detallen separando la parte correspondiente a riesgo de insolvencia y la parte correspondiente a riesgo país.»</p>
+    <p class="parrafo_2">8. En la página 119864, en el estado FI 131-2.1:</p>
+    <p class="parrafo_2">i) Se añade la nota (b) en la columna correspondiente al «Importe en libros bruto. Riesgo de insolvencia» con el mismo texto del apartado 7 anterior. Las notas (b) y (c) pasan a ser (c) y (d), respectivamente.</p>
+    <p class="parrafo">ii) Se eliminan los sombreados que figuran en las celdas correspondientes a préstamos y anticipos, salvo los correspondientes a la columna de fallidos.</p>
+    <p class="parrafo_2">9. En la página 119865, en el estado FI 131-2.2 se añade la nota (b) en la columna de «Exposiciones. Riesgo de insolvencia», con el siguiente texto:</p>
+    <p class="parrafo_2">«(b) Recoge las exposiciones fuera de balance que no estén sujetas a cobertura por riesgo país. Las sujetas a cobertura por riesgo país, se incluirán íntegramente en la columna siguiente, con independencia de que sus provisiones se detallen separando la parte correspondiente a riesgo de insolvencia y la parte correspondiente a riesgo país.»</p>
+    <p class="parrafo_2">10. En la página 119882, en el estado FI 132:</p>
+    <p class="parrafo_2">i) En la nota (b) donde dice: «67.ª», debe decir: «67».</p>
+    <p class="parrafo">ii) En la nota (c) donde dice: «VII», debe decir: «7».</p>
+    <p class="parrafo">iii) En la nota (d) donde dice: «64.ª», debe decir: «64».</p>
+    <p class="parrafo">iv) En la nota (e) donde dice: «67.ª», debe decir: «67».</p>
+    <p class="parrafo_2">11. En la página 119901, en el estado FI 140-3:</p>
+    <p class="parrafo_2">i) En la nota (c) se elimina la expresión «, anticipos distintos de préstamos y compromisos concedidos».</p>
+    <p class="parrafo">ii) Se sombrean todas las columnas salvo la de Total para las filas desde «Exposición total según la contraparte final» hasta «Resto de exposiciones exentas de cobertura por riesgo-país».</p>
+    <p class="parrafo">iii) donde dice: «Coberturas con estimación colectiva por soluciones alternativas», debe decir: «Exposiciones/Coberturas con estimación colectiva por soluciones alternativas».</p>
+    <p class="parrafo_2">12. En la página 119914, en el estado FI 150-7, donde dice: «Normales», debe decir: «No dudosos».</p>
+    <p class="parrafo">13. En la página 119938, en el estado FC 140-3 se realiza el cambio que figura en el numeral i) del apartado 11 anterior.</p>
+    <p class="parrafo">14. En página 119971, las líneas correspondientes a «Administraciones Autonómicas o Regionales» y «Administraciones Locales» deberán figurar al mismo nivel que las correspondientes a «Administraciones de la Seguridad Social» y los «Organismos internacionales y supranacionales (excepto bancos multilaterales de desarrollo). Administraciones Públicas».</p>
+  </texto>
+</documento>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>no</id>
+      <titulo/>
+      <fecha_actualizacion>20111209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2011-19301/texto/bloque/no</url>
+    </bloque>
+    <bloque>
+      <id>pr</id>
+      <titulo>[preambulo]</titulo>
+      <fecha_actualizacion>20111209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2011-19301/texto/bloque/pr</url>
+    </bloque>
+    <bloque>
+      <id>nu</id>
+      <titulo>NORMA ÚNICA</titulo>
+      <fecha_actualizacion>20111209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2011-19301/texto/bloque/nu</url>
+    </bloque>
+    <bloque>
+      <id>df</id>
+      <titulo>Disposición final</titulo>
+      <fecha_actualizacion>20111209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2011-19301/texto/bloque/df</url>
+    </bloque>
+    <bloque>
+      <id>fi</id>
+      <titulo>[firma]</titulo>
+      <fecha_actualizacion>20111209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2011-19301/texto/bloque/fi</url>
+    </bloque>
+    <bloque>
+      <id>an</id>
+      <titulo>ANEXOS</titulo>
+      <fecha_actualizacion>20111209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2011-19301/texto/bloque/an</url>
+    </bloque>
+  </data>
+</response>

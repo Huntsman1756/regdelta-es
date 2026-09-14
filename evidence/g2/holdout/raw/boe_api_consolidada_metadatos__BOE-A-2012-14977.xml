@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251219T133049Z</fecha_actualizacion>
+      <identificador>BOE-A-2012-14977</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20121130</fecha_disposicion>
+      <numero_oficial>7/2012</numero_oficial>
+      <titulo>Circular 7/2012, de 30 de noviembre, del Banco de España, a entidades de crédito, sobre requerimientos mínimos de capital principal.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20121211</fecha_publicacion>
+      <diario_numero>297</diario_numero>
+      <fecha_vigencia>20130101</fecha_vigencia>
+      <estatus_derogacion>S</estatus_derogacion>
+      <fecha_derogacion>20140206</fecha_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>S</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2012/11/30/7</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2012-14977</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>

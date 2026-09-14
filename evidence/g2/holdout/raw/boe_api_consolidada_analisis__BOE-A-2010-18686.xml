@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="403">Aval</materia>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="503">Bienes inmuebles</materia>
+        <materia codigo="1627">Contabilidad</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="3472">Estados financieros</materia>
+        <materia codigo="3887">Garantías</materia>
+        <materia codigo="4012">Hipoteca</materia>
+        <materia codigo="6693">Tasación</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2004-21845</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>la norma 60 de la Circular 4/2004, de 22 de diciembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2009-7352</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Real Decreto 716/2009, de 24 de abril</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-1989-9056</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>art. 1 de la Orden de 31 de marzo de 1989</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2014-8189</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>lo indicado y la norma 1 y SE AÑADE las normas 4 a 6, por Circular  3/2014, de 30 de julio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

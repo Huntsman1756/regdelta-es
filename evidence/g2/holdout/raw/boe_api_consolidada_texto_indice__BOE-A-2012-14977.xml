@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>no</id>
+      <titulo/>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/no</url>
+    </bloque>
+    <bloque>
+      <id>preambulo</id>
+      <titulo/>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/preambulo</url>
+    </bloque>
+    <bloque>
+      <id>normaprimera</id>
+      <titulo>Norma primera</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/normaprimera</url>
+    </bloque>
+    <bloque>
+      <id>normasegunda</id>
+      <titulo>Norma segunda</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/normasegunda</url>
+    </bloque>
+    <bloque>
+      <id>normatercera</id>
+      <titulo>Norma tercera</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/normatercera</url>
+    </bloque>
+    <bloque>
+      <id>normacuaa</id>
+      <titulo>Norma cuarta</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/normacuaa</url>
+    </bloque>
+    <bloque>
+      <id>normaquinta</id>
+      <titulo>Norma quinta</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/normaquinta</url>
+    </bloque>
+    <bloque>
+      <id>normasexta</id>
+      <titulo>Norma sexta</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/normasexta</url>
+    </bloque>
+    <bloque>
+      <id>normaseptima</id>
+      <titulo>Norma séptima</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/normaseptima</url>
+    </bloque>
+    <bloque>
+      <id>dtprimera</id>
+      <titulo>Disposición transitoria primera</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/dtprimera</url>
+    </bloque>
+    <bloque>
+      <id>dtsegunda</id>
+      <titulo>Disposición transitoria segunda</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/dtsegunda</url>
+    </bloque>
+    <bloque>
+      <id>dd</id>
+      <titulo>Disposición derogatoria</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/dd</url>
+    </bloque>
+    <bloque>
+      <id>dfprimera</id>
+      <titulo>Disposición final primera</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/dfprimera</url>
+    </bloque>
+    <bloque>
+      <id>dfsegunda</id>
+      <titulo>Disposición final segunda</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/dfsegunda</url>
+    </bloque>
+    <bloque>
+      <id>firma</id>
+      <titulo/>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/firma</url>
+    </bloque>
+    <bloque>
+      <id>an</id>
+      <titulo>ANEXO</titulo>
+      <fecha_actualizacion>20121211</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-14977/texto/bloque/an</url>
+    </bloque>
+  </data>
+</response>

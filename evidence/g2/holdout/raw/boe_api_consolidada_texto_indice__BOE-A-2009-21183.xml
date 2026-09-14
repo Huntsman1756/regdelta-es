@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>preambulo</id>
+      <titulo/>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/preambulo</url>
+    </bloque>
+    <bloque>
+      <id>ci</id>
+      <titulo>CAPÍTULO I</titulo>
+      <fecha_actualizacion>20240201</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/ci</url>
+    </bloque>
+    <bloque>
+      <id>normaprimera</id>
+      <titulo>Norma primera</titulo>
+      <fecha_actualizacion>20240201</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/normaprimera</url>
+    </bloque>
+    <bloque>
+      <id>normasegunda</id>
+      <titulo>Norma segunda</titulo>
+      <fecha_actualizacion>20240201</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/normasegunda</url>
+    </bloque>
+    <bloque>
+      <id>cii</id>
+      <titulo>CAPÍTULO II</titulo>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/cii</url>
+    </bloque>
+    <bloque>
+      <id>normatercera</id>
+      <titulo>Norma tercera</titulo>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/normatercera</url>
+    </bloque>
+    <bloque>
+      <id>ciii</id>
+      <titulo>CAPÍTULO III</titulo>
+      <fecha_actualizacion>20240201</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/ciii</url>
+    </bloque>
+    <bloque>
+      <id>normacuaa</id>
+      <titulo>Norma cuarta</titulo>
+      <fecha_actualizacion>20240201</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/normacuaa</url>
+    </bloque>
+    <bloque>
+      <id>normaquinta</id>
+      <titulo>Norma quinta</titulo>
+      <fecha_actualizacion>20240201</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/normaquinta</url>
+    </bloque>
+    <bloque>
+      <id>civ</id>
+      <titulo>CAPÍTULO IV</titulo>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/civ</url>
+    </bloque>
+    <bloque>
+      <id>normasexta</id>
+      <titulo>Norma sexta</titulo>
+      <fecha_actualizacion>20240201</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/normasexta</url>
+    </bloque>
+    <bloque>
+      <id>dtprimera</id>
+      <titulo>Disposición transitoria primera</titulo>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/dtprimera</url>
+    </bloque>
+    <bloque>
+      <id>dtsegunda</id>
+      <titulo>Disposición transitoria segunda</titulo>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/dtsegunda</url>
+    </bloque>
+    <bloque>
+      <id>daprimera</id>
+      <titulo>Disposición adicional primera</titulo>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/daprimera</url>
+    </bloque>
+    <bloque>
+      <id>dasegunda</id>
+      <titulo>Disposición adicional segunda</titulo>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/dasegunda</url>
+    </bloque>
+    <bloque>
+      <id>dd</id>
+      <titulo>Disposición derogatoria</titulo>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/dd</url>
+    </bloque>
+    <bloque>
+      <id>dfunica</id>
+      <titulo>Disposición final única</titulo>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/dfunica</url>
+    </bloque>
+    <bloque>
+      <id>firma</id>
+      <titulo/>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/firma</url>
+    </bloque>
+    <bloque>
+      <id>anejoi</id>
+      <titulo>ANEJO I</titulo>
+      <fecha_actualizacion>20240201</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/anejoi</url>
+    </bloque>
+    <bloque>
+      <id>anejoii</id>
+      <titulo>ANEJO II</titulo>
+      <fecha_actualizacion>20240201</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/anejoii</url>
+    </bloque>
+    <bloque>
+      <id>anejoiii</id>
+      <titulo>ANEJO III</titulo>
+      <fecha_actualizacion>20240201</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/anejoiii</url>
+    </bloque>
+    <bloque>
+      <id>anejoiv</id>
+      <titulo>ANEJO IV</titulo>
+      <fecha_actualizacion>20091231</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/anejoiv</url>
+    </bloque>
+    <bloque>
+      <id>anejov</id>
+      <titulo>ANEJO V</titulo>
+      <fecha_actualizacion>20240201</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2009-21183/texto/bloque/anejov</url>
+    </bloque>
+  </data>
+</response>

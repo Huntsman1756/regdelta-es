@@ -1,0 +1,434 @@
+{
+  "BOE-A-2004-21845": {
+    "corrigendum_risk_events": [
+      {
+        "corrected_instrument": "BOE-A-2013-5720",
+        "corrigendum": "BOE-A-2013-6046",
+        "downstream_relation": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "las normas 66, 67, 68, 69, 71, 72, los anexos IV, V, VII, X y SUSTITUYE el anexo VIII de la Circular 4/2004, de 22 de diciembre"
+        },
+        "event_id": "0b39629fe0d9e6c3b59622798ac5767b14e09ccd228d9a250a27f399d8600f11"
+      },
+      {
+        "corrected_instrument": "BOE-A-2012-3169",
+        "corrigendum": "BOE-A-2012-3619",
+        "downstream_relation": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "las normas 67 a 69 y los anejos IV, V, IX y X de la Circular 4/2004, de 22 de diciembre"
+        },
+        "event_id": "1103f531ae624541fde2197d60e726347496bf3355e4ca730867724d9036097c"
+      },
+      {
+        "corrected_instrument": "BOE-A-2014-8189",
+        "corrigendum": "BOE-A-2014-9293",
+        "downstream_relation": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "Sección C.5) de la norma 14, norma 60 y el anejo IX.1 de la Circular 4/2004, de 22 de diciembre"
+        },
+        "event_id": "5f4a8111341dd78b079f95a325978954ab5689cc5f85fea0664b1ce25d4fd9f7"
+      },
+      {
+        "corrected_instrument": "BOE-A-2016-11483",
+        "corrigendum": "BOE-A-2017-3368",
+        "downstream_relation": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "las normas 4, 5, 64, 67, 71, la disposición adicional 1.6 y los anejos I, III, IV, V, IX de la Circular 4/2004, de 22 de diciembre"
+        },
+        "event_id": "8245f2930d8f9c240fd46c67150ef2249ebe727ac379a79f3a5fdb60f429f0ac"
+      },
+      {
+        "corrected_instrument": "BOE-A-2017-14334",
+        "corrigendum": "BOE-A-2018-2041",
+        "downstream_relation": {
+          "palabra": "DEROGA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "la Circular 4/2004, de 22 de diciembre"
+        },
+        "event_id": "85168d8fcc4e90e92d4a885555b9d2e96e246c8a4ae51790aab31b767d894dcb"
+      },
+      {
+        "corrected_instrument": "BOE-A-2013-11729",
+        "corrigendum": "BOE-A-2013-12918",
+        "downstream_relation": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "determinados preceptos de la Circular 4/2004, de 22 de diciembre"
+        },
+        "event_id": "a2b420c15d0182c18f09c1263a390615502f8fd29db555e8dcb2530c10e82332"
+      },
+      {
+        "corrected_instrument": "BOE-A-2016-1238",
+        "corrigendum": "BOE-A-2016-7305",
+        "downstream_relation": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "la norma 60.S.2 de la Circular 4/2004, de 22 de diciembre"
+        },
+        "event_id": "ad5f780c4e334cf058146b74e9b8f9942cdbffa28914b4c56c0113935ccf5c5b"
+      },
+      {
+        "corrected_instrument": "BOE-A-2016-4356",
+        "corrigendum": "BOE-A-2016-5724",
+        "downstream_relation": {
+          "palabra": "MODIFICA",
+          "referencia": "BOE-A-2004-21845",
+          "texto": "las normas 8, 22, 28, 30, 33, 60, 64, 66, 67, 69, 72, disposición adicional 2, anejos I, III, IV, V y IX de la Circular 4/2004, de 22 de diciembre"
+        },
+        "event_id": "d6d704e14e62e8658a75fe98d0ec7bc1cf76ebcfcbce1f9f2a46bf0c48df903c"
+      }
+    ],
+    "declared_posteriores": [
+      {
+        "palabra": "SE DEROGA",
+        "referencia": "BOE-A-2017-14334",
+        "texto": ", por Circular  de 27 de noviembre de 2017"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2016-11483",
+        "texto": "las normas 4, 5, 64, 67, 71, la disposición adicional 1.6 y los anejos I, III, IV, V, IX, por Circular  de 29 de noviembre de 2016"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2016-4356",
+        "texto": "las normas 8, 22, 28, 30, 33, 60, 64, 66, 67, 69, 72, disposición adicional 2, anejos I, III, IV, V y IX, por Circular  de 27 de abril de 2016"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2016-1238",
+        "texto": "la norma 60.S.2, por Circular 2/2016, de 2 de febrero"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2015-9107",
+        "texto": ", con los efectos indicados, las normas 4, 60, 72, anejos I y VII y SE AÑADE los anejos XI y XII , por Circular 4/2015 de 29 de julio"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2015-9054",
+        "texto": ", con los efectos indicados, las normas 60, 67 y 69, según redacción dada a la norma 1 de la Circular 5/2014, de 28 de noviembre, por Circular 3/2015, de 29 de julio"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2014-13365",
+        "texto": "determinados preceptos AÑADE la disposición adicional 3, SUSTITUYE los anejos I a V, VII y VIII  y SUPRIME las normas 68, 70 y el anejo VI, por Circular 5/2014, de 28 de noviembre"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2014-8189",
+        "texto": "la sección C.5) de la norma 14, norma 60 y el anejo IX.1, por Circular 3/2014, de 30 de julio"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2014-1182",
+        "texto": "el anejo IX y lo indicado, por Circular 1/2014, de 31 de enero"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2013-11729",
+        "texto": "determinados preceptos , por Circular 5/2013, de 30 de octubre"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2013-5720",
+        "texto": "las normas 66, 67, 68, 69, 71, 72, los anexos IV, V, VII, X y SE SUSTITUYE el anexo VIII, por Circular 1/2013, de 24 de mayo"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2012-12293",
+        "texto": ", con los efectos indicados, las normas 4, 5, 60, 61, 67, 69 y los anexos IV, V y VII a X, por Circular 6/2012, de 28 de septiembre"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2012-3169",
+        "texto": "las normas 67 a 69 y los anejos IV, V, IX y X, por Circular 2/2012, de 29 de febrero"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2011-19302",
+        "texto": "las normas 4, 5, 60, 61, 65, 67 a 69 y el anexo IV, por Circular 5/2011, de 30 de noviembre"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2010-20070",
+        "texto": "determinados preceptos , por Circular de 22 de diciembre de 2010"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2010-18686",
+        "texto": "la norma 60, por Circular 7/2010, de 30 de noviembre"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2010-11095",
+        "texto": "la norma 34 y lo indicado los anexos IV, V y IX, por Circular de 29 de junio de 2010"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2010-1825",
+        "texto": "las normas 64 a 69 y 71 y los anejos IV, VII, VIII.1 y X.1, por Circular 2/2010, de 27 de enero"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2009-21183",
+        "texto": "la disposición adicional primera apartados 6 y 13, por Circular 1/2009, de 18 de diciembre"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2008-19921",
+        "texto": "determinados preceptos, SE SUPRIME la norma 50 y SE AÑADE el anejo X, por Circular 6/2008, de 26 de noviembre"
+      },
+      {
+        "palabra": "CORRECCIÓN de errores",
+        "referencia": "BOE-A-2006-11493",
+        "texto": "en BOE núm. 153, de 28 de junio de 2006"
+      },
+      {
+        "palabra": "SE CORRIGEN errores",
+        "referencia": "BOE-A-2016-5724",
+        "texto": ", con variación de preceptos modificadores, de la Circular 4/2016, de 27 de abril, en BOE núm. 141 de 11 de junio de 2016"
+      },
+      {
+        "palabra": "SE CORRIGEN errores",
+        "referencia": "BOE-A-2013-12918",
+        "texto": ", con modificación de la norma.13 y 21, de la Circular 5/2013, de 30 de octubre, en BOE núm. 296, de 11 de diciembre de 2013"
+      }
+    ],
+    "multi_target_events": [
+      {
+        "modified_instruments": [
+          "BOE-A-2004-21845",
+          "BOE-A-2013-5720"
+        ],
+        "modifier": "BOE-A-2016-11483"
+      },
+      {
+        "modified_instruments": [
+          "BOE-A-2004-21845",
+          "BOE-A-2013-5720"
+        ],
+        "modifier": "BOE-A-2016-4356"
+      },
+      {
+        "modified_instruments": [
+          "BOE-A-2004-21845",
+          "BOE-A-2010-12488"
+        ],
+        "modifier": "BOE-A-2016-1238"
+      },
+      {
+        "modified_instruments": [
+          "BOE-A-2004-21845",
+          "BOE-A-2012-9058",
+          "BOE-A-2013-5720"
+        ],
+        "modifier": "BOE-A-2015-9107"
+      },
+      {
+        "modified_instruments": [
+          "BOE-A-2004-21845",
+          "BOE-A-2013-5720",
+          "BOE-A-2014-13365"
+        ],
+        "modifier": "BOE-A-2015-9054"
+      },
+      {
+        "modified_instruments": [
+          "BOE-A-2004-21845",
+          "BOE-A-2010-1824",
+          "BOE-A-2013-5720"
+        ],
+        "modifier": "BOE-A-2014-13365"
+      },
+      {
+        "modified_instruments": [
+          "BOE-A-1998-3311",
+          "BOE-A-2004-21845",
+          "BOE-A-2010-15521",
+          "BOE-A-2010-18686",
+          "BOE-A-2014-1183"
+        ],
+        "modifier": "BOE-A-2014-8189"
+      },
+      {
+        "modified_instruments": [
+          "BOE-A-2004-21845",
+          "BOE-A-2013-5720"
+        ],
+        "modifier": "BOE-A-2013-11729"
+      },
+      {
+        "modified_instruments": [
+          "BOE-A-2004-21845",
+          "BOE-A-2008-9915"
+        ],
+        "modifier": "BOE-A-2009-21183"
+      }
+    ],
+    "reverse_check": {
+      "BOE-A-2006-11493": true,
+      "BOE-A-2008-19921": true,
+      "BOE-A-2009-21183": true,
+      "BOE-A-2010-11095": true,
+      "BOE-A-2010-1825": true,
+      "BOE-A-2010-18686": true,
+      "BOE-A-2010-20070": true,
+      "BOE-A-2011-19302": true,
+      "BOE-A-2012-12293": true,
+      "BOE-A-2012-3169": true,
+      "BOE-A-2013-11729": true,
+      "BOE-A-2013-12918": true,
+      "BOE-A-2013-5720": true,
+      "BOE-A-2014-1182": true,
+      "BOE-A-2014-13365": true,
+      "BOE-A-2014-8189": true,
+      "BOE-A-2015-9054": true,
+      "BOE-A-2015-9107": true,
+      "BOE-A-2016-11483": true,
+      "BOE-A-2016-1238": true,
+      "BOE-A-2016-4356": true,
+      "BOE-A-2016-5724": true,
+      "BOE-A-2017-14334": true,
+      "event:0b39629fe0d9e6c3:c_to_t": true,
+      "event:1103f531ae624541:c_to_t": true,
+      "event:5f4a8111341dd78b:c_to_t": true,
+      "event:8245f2930d8f9c24:c_to_t": true,
+      "event:85168d8fcc4e90e9:c_to_t": true,
+      "event:a2b420c15d0182c1:c_to_t": true,
+      "event:ad5f780c4e334cf0:c_to_t": true,
+      "event:d6d704e14e62e865:c_to_t": true
+    }
+  },
+  "BOE-A-2008-9915": {
+    "corrigendum_risk_events": [
+      {
+        "corrected_instrument": "BOE-A-2016-1238",
+        "corrigendum": "BOE-A-2016-7305",
+        "downstream_relation": {
+          "palabra": "DEROGA",
+          "referencia": "BOE-A-2008-9915",
+          "texto": "con la excepción indicada, la Circular 3/2008, de 22 de mayo"
+        },
+        "event_id": "ca3f2d235e77711ba03ae3f101741c744a1b824d522bafd85384a69d666f9fce"
+      }
+    ],
+    "declared_posteriores": [
+      {
+        "palabra": "SE DEROGA",
+        "referencia": "BOE-A-2016-1238",
+        "texto": "con la excepción indicada, por Circular 2/2016, de 2 de febrero"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2013-10612",
+        "texto": "el apartado 2.a), por Circular 4/2013, de 27 de septiembre"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2011-19301",
+        "texto": "determinados preceptos , por Circular 4/2011, de 30 de noviembre"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2010-20071",
+        "texto": "determinados preceptos , por Circular de 22 de diciembre de 2010"
+      },
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2009-21183",
+        "texto": "la norma 121.7, por Circular 1/2009, de 18 de diciembre"
+      },
+      {
+        "palabra": "SE AÑADE",
+        "referencia": "BOE-A-2012-14977",
+        "texto": "la disposición adicional 23, por Circular 7/2012, de 30 de noviembre"
+      },
+      {
+        "palabra": "CORRECCIÓN de errores",
+        "referencia": "BOE-A-2008-12818",
+        "texto": "en BOE num. 180 de 26 de julio de 2008"
+      }
+    ],
+    "multi_target_events": [
+      {
+        "modified_instruments": [
+          "BOE-A-2004-21845",
+          "BOE-A-2010-12488"
+        ],
+        "modifier": "BOE-A-2016-1238"
+      },
+      {
+        "modified_instruments": [
+          "BOE-A-2004-21845",
+          "BOE-A-2008-9915"
+        ],
+        "modifier": "BOE-A-2009-21183"
+      }
+    ],
+    "reverse_check": {
+      "BOE-A-2008-12818": true,
+      "BOE-A-2009-21183": true,
+      "BOE-A-2010-20071": true,
+      "BOE-A-2011-19301": true,
+      "BOE-A-2012-14977": true,
+      "BOE-A-2013-10612": true,
+      "BOE-A-2016-1238": true,
+      "event:ca3f2d235e77711b:c_to_t": true
+    }
+  },
+  "BOE-A-2016-5203": {
+    "corrigendum_risk_events": [],
+    "declared_posteriores": [
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2018-1749",
+        "texto": "determinados preceptos, por Circular 1/2018, de 31 de enero"
+      },
+      {
+        "palabra": "CORRECCIÓN de erratas",
+        "referencia": "BOE-A-2016-5532",
+        "texto": "en BOE num. 137 de 7 de junio de 2016"
+      }
+    ],
+    "multi_target_events": [
+      {
+        "modified_instruments": [
+          "BOE-A-2015-14084",
+          "BOE-A-2016-5203"
+        ],
+        "modifier": "BOE-A-2018-1749"
+      }
+    ],
+    "reverse_check": {
+      "BOE-A-2016-5532": true,
+      "BOE-A-2018-1749": true
+    }
+  },
+  "BOE-A-2019-15683": {
+    "corrigendum_risk_events": [],
+    "declared_posteriores": [
+      {
+        "palabra": "SE MODIFICA",
+        "referencia": "BOE-A-2022-1718",
+        "texto": ", con efectos desde el 3 de mayo de 2022, la norma 4.3, por Circular 1/2022, de 24 de enero"
+      }
+    ],
+    "multi_target_events": [
+      {
+        "modified_instruments": [
+          "BOE-A-2009-21183",
+          "BOE-A-2019-15683"
+        ],
+        "modifier": "BOE-A-2022-1718"
+      }
+    ],
+    "reverse_check": {
+      "BOE-A-2022-1718": true
+    }
+  }
+}

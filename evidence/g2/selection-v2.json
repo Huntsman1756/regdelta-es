@@ -1,0 +1,59 @@
+{
+  "amendment": "G2.0b",
+  "groups": {
+    "CORRIGENDUM_PROPAGATION_RISK": {
+      "eligible": [
+        "BOE-A-2004-21845",
+        "BOE-A-2008-9915",
+        "BOE-A-1995-22113",
+        "BOE-A-2015-5749",
+        "BOE-A-2010-18686",
+        "BOE-A-2003-1413"
+      ],
+      "eligible_count": 6
+    },
+    "MULTI_TARGET_MODIFIER": {
+      "eligible": [
+        "BOE-A-2016-5203",
+        "BOE-A-2019-15683",
+        "BOE-A-2010-18686",
+        "BOE-A-2022-1718"
+      ],
+      "eligible_count": 4
+    }
+  },
+  "rule": "exactly 4 unique fresh targets; >=1 per risk class; top-1 per class then best normalized within-group rank (rank/eligible_count), tie -> fill seed hash",
+  "seeds": {
+    "chain": "regdelta-g2b-v1",
+    "event": "g2-corr-risk-v1",
+    "fill": "regdelta-g2b-fill-v1",
+    "multi": "regdelta-g2-v1"
+  },
+  "selected": [
+    {
+      "boe_id": "BOE-A-2004-21845",
+      "risk_classes": [
+        "CORRIGENDUM_PROPAGATION_RISK"
+      ]
+    },
+    {
+      "boe_id": "BOE-A-2016-5203",
+      "risk_classes": [
+        "MULTI_TARGET_MODIFIER"
+      ]
+    },
+    {
+      "boe_id": "BOE-A-2008-9915",
+      "risk_classes": [
+        "CORRIGENDUM_PROPAGATION_RISK"
+      ]
+    },
+    {
+      "boe_id": "BOE-A-2019-15683",
+      "risk_classes": [
+        "MULTI_TARGET_MODIFIER"
+      ]
+    }
+  ],
+  "status": "PASS"
+}

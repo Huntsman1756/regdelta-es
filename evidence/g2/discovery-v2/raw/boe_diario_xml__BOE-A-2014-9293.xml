@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219192602">
+  <metadatos>
+    <identificador>BOE-A-2014-9293</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1590">Corrección (errores o erratas)</rango>
+    <fecha_disposicion/>
+    <numero_oficial/>
+    <titulo>Corrección de errores de la Circular 3/2014, de 30 de julio, del Banco de España, a las entidades de crédito y sociedades y servicios de tasación homologados, por la que se establecen medidas para fomentar la independencia de la actividad de tasación mediante la modificación de las Circulares 7/2010, 3/1998 y 4/2004, y se ejercitan opciones regulatorias en relación con la deducción de activos intangibles mediante la modificación de la Circular 2/2014.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20140912</fecha_publicacion>
+    <diario_numero>222</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>71206</pagina_inicial>
+    <pagina_final>71206</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2014/09/12/pdfs/BOE-A-2014-9293.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2014-9293</url_epub>
+    </url_epub>
+    <url_pdf_catalan>/boe_catalan/dias/2014/09/12/pdfs/BOE-A-2014-9293-C.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego>/boe_gallego/dias/2014/09/12/pdfs/BOE-A-2014-9293-G.pdf</url_pdf_gallego>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-9293</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-07-30</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1624"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5680"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6674"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6693"/>
+        <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-9293</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-07-30</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1624"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5680"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6674"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6693"/>
+            <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:corrects rdf:resource="https://www.boe.es/eli/es/cir/2014/07/30/3/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corrección de errores de la Circular 3/2014, de 30 de julio, del Banco de España, a las entidades de crédito y sociedades y servicios de tasación homologados, por la que se establecen medidas para fomentar la independencia de la actividad de tasación mediante la modificación de las Circulares 7/2010, 3/1998 y 4/2004, y se ejercitan opciones regulatorias en relación con la deducción de activos intangibles mediante la modificación de la Circular 2/2014.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-09-12</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Correcció d'errors de la Circular 3/2014, de 30 de juliol, del Banc d'Espanya, a les entitats de crèdit i societats i serveis de taxació homologats, per la qual s'estableixen mesures per fomentar la independència de l'activitat de taxació mitjançant la modificació de les circulars 7/2010, 3/1998 i 4/2004, i s'exerciten opcions regulatòries en relació amb la deducció d'actius intangibles mitjançant la modificació de la Circular 2/2014.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-09-12</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/glg">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corrección de erros da Circular 3/2014, do 30 de xullo, do Banco de España, ás entidades de crédito e sociedades e servizos de taxación homologados, pola que se establecen medidas para fomentar a independencia da actividade de taxación mediante a modificación das circulares 7/2010, 3/1998 e 4/2004, e se exercen opcións regulatorias en relación coa dedución de activos intanxibles mediante a modificación da Circular 2/2014.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-09-12</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/glg/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/07/30/3/corrigendum/20140912/dof/glg"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="1624" orden="">Consumidores y usuarios</materia>
+      <materia codigo="1757" orden="">Créditos</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="5680" orden="">Préstamos</materia>
+      <materia codigo="6674" orden="">Sociedades</materia>
+      <materia codigo="6693" orden="">Tasación</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2014-8189" orden="2120">
+          <palabra codigo="201">CORRECCIÓN de errores</palabra>
+          <texto>de la Circular 3/2014, de 30 de julio</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="106" orden="">Consumidores y usuarios</alerta>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">Advertido un error en la Circular 3/2014, de 30 de julio, del Banco de España, a las entidades de crédito y sociedades y servicios de tasación homologados, por la que se establecen medidas para fomentar la independencia de la actividad de tasación mediante la modificación de las Circulares 7/2010, 3/1998 y 4/2004, y se ejercitan opciones regulatorias en relación con la deducción de activos intangibles mediante la modificación de la Circular 2/2014, publicada en el «Boletín Oficial del Estado» número 185, de 31 de julio de 2014, procede efectuar la siguiente rectificación:</p>
+    <p class="parrafo_2">En la página 61129, norma tercera, apartado 2, el párrafo numerado como 74 debe numerarse como 73 bis.</p>
+  </texto>
+</documento>

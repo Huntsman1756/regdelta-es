@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>co</id>
+      <titulo/>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/co</url>
+    </bloque>
+    <bloque>
+      <id>preambulo</id>
+      <titulo/>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/preambulo</url>
+    </bloque>
+    <bloque>
+      <id>cprimero</id>
+      <titulo>CAPÍTULO I</titulo>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/cprimero</url>
+    </bloque>
+    <bloque>
+      <id>normaprimera</id>
+      <titulo>Norma primera</titulo>
+      <fecha_actualizacion>20210130</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normaprimera</url>
+    </bloque>
+    <bloque>
+      <id>normasegunda</id>
+      <titulo>Norma segunda</titulo>
+      <fecha_actualizacion>20230325</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normasegunda</url>
+    </bloque>
+    <bloque>
+      <id>normatercera</id>
+      <titulo>Norma tercera</titulo>
+      <fecha_actualizacion>20230325</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normatercera</url>
+    </bloque>
+    <bloque>
+      <id>csegundo</id>
+      <titulo>CAPÍTULO II</titulo>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/csegundo</url>
+    </bloque>
+    <bloque>
+      <id>normacuaa</id>
+      <titulo>Norma cuarta</titulo>
+      <fecha_actualizacion>20230325</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normacuaa</url>
+    </bloque>
+    <bloque>
+      <id>normaquinta</id>
+      <titulo>Norma quinta</titulo>
+      <fecha_actualizacion>20210130</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normaquinta</url>
+    </bloque>
+    <bloque>
+      <id>normasexta</id>
+      <titulo>Norma sexta</titulo>
+      <fecha_actualizacion>20230325</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normasexta</url>
+    </bloque>
+    <bloque>
+      <id>normaseptima</id>
+      <titulo>Norma séptima</titulo>
+      <fecha_actualizacion>20170708</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normaseptima</url>
+    </bloque>
+    <bloque>
+      <id>normaoctava</id>
+      <titulo>Norma octava</titulo>
+      <fecha_actualizacion>20200205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normaoctava</url>
+    </bloque>
+    <bloque>
+      <id>normanovena</id>
+      <titulo>Norma novena</titulo>
+      <fecha_actualizacion>20170708</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normanovena</url>
+    </bloque>
+    <bloque>
+      <id>normadecima</id>
+      <titulo>Norma décima</titulo>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normadecima</url>
+    </bloque>
+    <bloque>
+      <id>normaundecima</id>
+      <titulo>Norma undécima</titulo>
+      <fecha_actualizacion>20230325</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normaundecima</url>
+    </bloque>
+    <bloque>
+      <id>normaduodecima</id>
+      <titulo>Norma duodécima</titulo>
+      <fecha_actualizacion>20230325</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normaduodecima</url>
+    </bloque>
+    <bloque>
+      <id>normadecimotercera</id>
+      <titulo>Norma decimotercera</titulo>
+      <fecha_actualizacion>20210130</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normadecimotercera</url>
+    </bloque>
+    <bloque>
+      <id>normadecimocuaa</id>
+      <titulo>Norma decimocuarta</titulo>
+      <fecha_actualizacion>20230325</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normadecimocuaa</url>
+    </bloque>
+    <bloque>
+      <id>normadecimoquinta</id>
+      <titulo>Norma decimoquinta</titulo>
+      <fecha_actualizacion>20230325</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normadecimoquinta</url>
+    </bloque>
+    <bloque>
+      <id>ctercero</id>
+      <titulo>CAPÍTULO III</titulo>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/ctercero</url>
+    </bloque>
+    <bloque>
+      <id>normadecimosexta</id>
+      <titulo>Norma decimosexta</titulo>
+      <fecha_actualizacion>20210130</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normadecimosexta</url>
+    </bloque>
+    <bloque>
+      <id>normadecimoseptima</id>
+      <titulo>Norma decimoséptima</titulo>
+      <fecha_actualizacion>20230325</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normadecimoseptima</url>
+    </bloque>
+    <bloque>
+      <id>normadecimoctava</id>
+      <titulo>Norma decimoctava</titulo>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normadecimoctava</url>
+    </bloque>
+    <bloque>
+      <id>ccuao</id>
+      <titulo>CAPÍTULO IV</titulo>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/ccuao</url>
+    </bloque>
+    <bloque>
+      <id>normadecimonovena</id>
+      <titulo>Norma decimonovena</titulo>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normadecimonovena</url>
+    </bloque>
+    <bloque>
+      <id>normavigesima</id>
+      <titulo>Norma vigésima</titulo>
+      <fecha_actualizacion>20210130</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/normavigesima</url>
+    </bloque>
+    <bloque>
+      <id>daunica</id>
+      <titulo>Disposición adicional única</titulo>
+      <fecha_actualizacion>20230325</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/daunica</url>
+    </bloque>
+    <bloque>
+      <id>dtprimera</id>
+      <titulo>Disposición transitoria primera</titulo>
+      <fecha_actualizacion>20150812</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/dtprimera</url>
+    </bloque>
+    <bloque>
+      <id>dtsegunda</id>
+      <titulo>Disposición transitoria segunda</titulo>
+      <fecha_actualizacion>20131109</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/dtsegunda</url>
+    </bloque>
+    <bloque>
+      <id>dd</id>
+      <titulo>Disposición derogatoria</titulo>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/dd</url>
+    </bloque>
+    <bloque>
+      <id>dfprimera</id>
+      <titulo>Disposición final primera</titulo>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/dfprimera</url>
+    </bloque>
+    <bloque>
+      <id>dfsegunda</id>
+      <titulo>Disposición final segunda</titulo>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/dfsegunda</url>
+    </bloque>
+    <bloque>
+      <id>firma</id>
+      <titulo/>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/firma</url>
+    </bloque>
+    <bloque>
+      <id>anejo1</id>
+      <titulo>ANEJO 1</titulo>
+      <fecha_actualizacion>20251229</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/anejo1</url>
+    </bloque>
+    <bloque>
+      <id>anejo2</id>
+      <titulo>ANEJO 2</titulo>
+      <fecha_actualizacion>20251229</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/anejo2</url>
+    </bloque>
+    <bloque>
+      <id>anejo3</id>
+      <titulo>ANEJO 3</titulo>
+      <fecha_actualizacion>20200205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/anejo3</url>
+    </bloque>
+    <bloque>
+      <id>anejosdelacircular4/2004</id>
+      <titulo>ANEJOS DE LA CIRCULAR 4/2004</titulo>
+      <fecha_actualizacion>20130531</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2013-5720/texto/bloque/anejosdelacircular4/2004</url>
+    </bloque>
+  </data>
+</response>
