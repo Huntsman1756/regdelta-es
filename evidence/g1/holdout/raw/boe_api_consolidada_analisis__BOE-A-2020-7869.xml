@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="438">Banca</materia>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="1624">Consumidores y usuarios</materia>
+        <materia codigo="2503">Dinero electrónico</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="3443">Establecimientos de cambio de moneda</materia>
+        <materia codigo="5794">Publicidad</materia>
+      </materias>
+      <notas>
+        <nota>Entrada en vigor, con la salvedad indicada en la disposición final 3, el 15 de octubre de 2020.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2010-15521</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Circular 6/2010, de 28 de septiembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2001-21296</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>la norma 9 de la Circular 6/2001, de 29 de octubre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2010-10315</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 4 y 5 de la Orden EHA/1718/2010, de 11 de junio</texto>
+          </anterior>
+        </anteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

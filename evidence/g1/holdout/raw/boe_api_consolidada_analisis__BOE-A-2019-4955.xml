@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="1624">Consumidores y usuarios</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="4165">Información</materia>
+        <materia codigo="4506">Internet</materia>
+        <materia codigo="5343">Pagos</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2012-9058</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>las normas 3.1; 5.1; 11.2 y 5; 16 y los anejos 1 y 5 de la Circular 5/2012, de 27 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2019-3113</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la Orden ECE/228/2019, de 28 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2017-13644</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Real Decreto-ley 19/2017, de 24 de noviembre</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2021-19805</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>la norma 12.1, por Circular 4/2021, de 25 de noviembre de 2021</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2019-6888</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>, con variación de preceptos modificadores, en BOE núm. 112, de 10 de mayo de 2019</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

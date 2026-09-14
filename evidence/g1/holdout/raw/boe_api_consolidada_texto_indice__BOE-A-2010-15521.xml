@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>no</id>
+      <titulo/>
+      <fecha_actualizacion>20200715</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-15521/texto/bloque/no</url>
+    </bloque>
+    <bloque>
+      <id>preambulo</id>
+      <titulo/>
+      <fecha_actualizacion>20101011</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-15521/texto/bloque/preambulo</url>
+    </bloque>
+    <bloque>
+      <id>normaprimera</id>
+      <titulo>Norma primera</titulo>
+      <fecha_actualizacion>20101011</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-15521/texto/bloque/normaprimera</url>
+    </bloque>
+    <bloque>
+      <id>normasegunda</id>
+      <titulo>Norma segunda</titulo>
+      <fecha_actualizacion>20140731</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-15521/texto/bloque/normasegunda</url>
+    </bloque>
+    <bloque>
+      <id>normatercera</id>
+      <titulo>Norma tercera</titulo>
+      <fecha_actualizacion>20101011</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-15521/texto/bloque/normatercera</url>
+    </bloque>
+    <bloque>
+      <id>normacuaa</id>
+      <titulo>Norma cuarta</titulo>
+      <fecha_actualizacion>20101011</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-15521/texto/bloque/normacuaa</url>
+    </bloque>
+    <bloque>
+      <id>normaderogatoria</id>
+      <titulo>Norma derogatoria</titulo>
+      <fecha_actualizacion>20101011</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-15521/texto/bloque/normaderogatoria</url>
+    </bloque>
+    <bloque>
+      <id>normafinal</id>
+      <titulo>Norma final</titulo>
+      <fecha_actualizacion>20101011</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-15521/texto/bloque/normafinal</url>
+    </bloque>
+    <bloque>
+      <id>firma</id>
+      <titulo/>
+      <fecha_actualizacion>20101011</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-15521/texto/bloque/firma</url>
+    </bloque>
+    <bloque>
+      <id>anejo</id>
+      <titulo>ANEJO</titulo>
+      <fecha_actualizacion>20101011</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2010-15521/texto/bloque/anejo</url>
+    </bloque>
+  </data>
+</response>

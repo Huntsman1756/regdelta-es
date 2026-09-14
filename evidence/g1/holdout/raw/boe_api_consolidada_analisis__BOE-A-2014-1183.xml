@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="60">Activos financieros</materia>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="1627">Contabilidad</materia>
+        <materia codigo="3229">Entidades aseguradoras</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="5912">Recursos propios</materia>
+        <materia codigo="6242">Riesgos</materia>
+        <materia codigo="6687">Sociedades de Inversión</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2012-14977</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la Circular 7/2012, de 30 de noviembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>DOUE-L-2013-81261</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>Reglamento (UE) 575/2013, de 26 de junio de 2013</texto>
+          </anterior>
+          <anterior>
+            <id_norma/>
+            <relacion codigo="330">CITA</relacion>
+            <texto>Directiva 2013/36/UE, de 26 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2016-1238</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>la sección undécima, por Circular 2/2016, de 2 de febrero</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2022-5524</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>, SE SUPRIME y SE AÑADE determinados preceptos, por Circular 3/2022, de 30 de marzo</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2014-8189</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>la norma 7 y 14.1 y AÑADE la norma 7 bis, por Circular 3/2014, de 30 de julio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2017-12562</id_norma>
+            <relacion codigo="235">SE SUPRIME</relacion>
+            <texto>, MODIFICA y AÑADE, con los efectos indicados, determinados preceptos, por Circular de 24 de octubre de 2017</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

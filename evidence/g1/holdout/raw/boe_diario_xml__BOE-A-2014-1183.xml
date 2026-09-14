@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219192602">
+  <metadatos>
+    <identificador>BOE-A-2014-1183</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20140131</fecha_disposicion>
+    <numero_oficial>2/2014</numero_oficial>
+    <titulo>Circular 2/2014, de 31 de enero, del Banco de España, a las entidades de crédito, sobre el ejercicio de diversas opciones regulatorias contenidas en el Reglamento (UE) n.º 575/2013, del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20140205</fecha_publicacion>
+    <diario_numero>31</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>8929</pagina_inicial>
+    <pagina_final>8938</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2014/02/05/pdfs/BOE-A-2014-1183.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2014-1183</url_epub>
+    </url_epub>
+    <url_pdf_catalan>/boe_catalan/dias/2014/02/05/pdfs/BOE-A-2014-1183-C.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego>/boe_gallego/dias/2014/02/05/pdfs/BOE-A-2014-1183-G.pdf</url_pdf_gallego>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20140206</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2014/01/31/2</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-1183</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-31</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3229"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5912"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-1183</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-31</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3229"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5912"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2"/>
+            <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20220406"/>
+            <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20171102"/>
+            <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20160209"/>
+            <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140731"/>
+            <eli:consolidated_by rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140205"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2014, de 31 de enero, del Banco de España, a las entidades de crédito, sobre el ejercicio de diversas opciones regulatorias contenidas en el Reglamento (UE) n.º 575/2013, del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-02-05</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2014, de 31 de gener, del Banc d'Espanya, a les entitats de crèdit, sobre l'exercici de diverses opcions reguladores que conté el Reglament (UE) núm. 575/2013, del Parlament Europeu i del Consell, de 26 de juny de 2013, sobre els requisits prudencials de les entitats de crèdit i les empreses d'inversió, i pel qual es modifica el Reglament (UE) núm. 648/2012.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-02-05</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/glg">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2014, do 31 de xaneiro, do Banco de España, ás entidades de crédito, sobre o exercicio de diversas opcións regulatorias contidas no Regulamento (UE) n.º 575/2013 do Parlamento Europeo e do Consello, do 26 de xuño de 2013, sobre os requisitos prudenciais das entidades de crédito e das empresas de investimento, e polo que se modifica o Regulamento (UE) n.º 648/2012.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-02-05</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/glg/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof/glg"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20220406">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-1183</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-31</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3229"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5912"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+            <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-04-06</eli:version_date>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2"/>
+            <eli:consolidates rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20220406/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2014, de 31 de enero, del Banco de España, a las entidades de crédito, sobre el ejercicio de diversas opciones regulatorias contenidas en el Reglamento (UE) n.º 575/2013, del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20220406"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20220406/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20220406/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20171102">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-1183</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-31</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3229"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5912"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+            <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-02</eli:version_date>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2"/>
+            <eli:consolidates rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20171102/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2014, de 31 de enero, del Banco de España, a las entidades de crédito, sobre el ejercicio de diversas opciones regulatorias contenidas en el Reglamento (UE) n.º 575/2013, del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20171102"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20171102/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20171102/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20160209">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-1183</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-31</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3229"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5912"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+            <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-02-09</eli:version_date>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2"/>
+            <eli:consolidates rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20160209/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2014, de 31 de enero, del Banco de España, a las entidades de crédito, sobre el ejercicio de diversas opciones regulatorias contenidas en el Reglamento (UE) n.º 575/2013, del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20160209"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20160209/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20160209/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140731">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-1183</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-31</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3229"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5912"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+            <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-07-31</eli:version_date>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2"/>
+            <eli:consolidates rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140731/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2014, de 31 de enero, del Banco de España, a las entidades de crédito, sobre el ejercicio de diversas opciones regulatorias contenidas en el Reglamento (UE) n.º 575/2013, del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140731"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140731/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140731/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140205">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2014-1183</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-31</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3229"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5912"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/con"/>
+            <eli:version_date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-02-05</eli:version_date>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2"/>
+            <eli:consolidates rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/dof"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140205/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2014, de 31 de enero, del Banco de España, a las entidades de crédito, sobre el ejercicio de diversas opciones regulatorias contenidas en el Reglamento (UE) n.º 575/2013, del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140205"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140205/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2014/01/31/2/con/20140205/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="60" orden="">Activos financieros</materia>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="3229" orden="">Entidades aseguradoras</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="5912" orden="">Recursos propios</materia>
+      <materia codigo="6242" orden="">Riesgos</materia>
+      <materia codigo="6687" orden="">Sociedades de Inversión</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2012-14977" orden="1010">
+          <palabra codigo="210">DEROGA</palabra>
+          <texto>la Circular 7/2012, de 30 de noviembre</texto>
+        </anterior>
+        <anterior referencia="DOUE-L-2013-81261" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>Reglamento (UE) 575/2013, de 26 de junio de 2013</texto>
+        </anterior>
+        <anterior referencia="---" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Directiva 2013/36/UE, de 26 de junio</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2016-1238" orden="">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>la sección undécima, por Circular 2/2016, de 2 de febrero</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2022-5524" orden="">
+          <palabra codigo="270">SE MODIFICA</palabra>
+          <texto>, SE SUPRIME y SE AÑADE determinados preceptos, por Circular 3/2022, de 30 de marzo</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2014-8189" orden="">
+          <palabra codigo="270">SE MODIFICA</palabra>
+          <texto>la norma 7 y 14.1 y AÑADE la norma 7 bis, por Circular 3/2014, de 30 de julio</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2017-12562" orden="">
+          <palabra codigo="235">SE SUPRIME</palabra>
+          <texto>, MODIFICA y AÑADE, con los efectos indicados, determinados preceptos, por Circular de 24 de octubre de 2017</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">El Real Decreto-ley 14/2013, de 29 de noviembre, de medidas urgentes para la adaptación del derecho español a la normativa de la Unión Europea en materia de supervisión y solvencia de entidades financieras (en adelante, el RDL), ha venido a 1) realizar las adaptaciones más urgentes del ordenamiento jurídico español a las novedades derivadas de la Directiva 2013/36/UE, de 26 de junio, del Parlamento Europeo y del Consejo, relativa al acceso a la actividad de las entidades de crédito y las empresas de inversión y a la supervisión prudencial de las entidades de crédito y las empresas de inversión, por la que se modifica la Directiva 2002/87/CE y se derogan las directivas 2006/48/CE y 2006/49/CE, y del Reglamento (UE) n.º 575/2013, de 26 de junio de 2013, del Parlamento Europeo y del Consejo, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012, y 2) a abordar otras reformas de carácter urgente.</p>
+    <p class="parrafo">Dicho RDL solo ha realizado una transposición parcial al derecho español de la Directiva 2013/36/UE y ha habilitado al Banco de España, en su disposición final quinta, para hacer uso de las opciones que se atribuyen a las autoridades competentes nacionales en el Reglamento (UE) n.º 575/2013.</p>
+    <p class="parrafo">El objeto de esta circular es establecer, de acuerdo con las facultades conferidas, qué opciones, que el Reglamento (UE) n.º 575/2013 atribuye a las autoridades competentes nacionales, van a tener que cumplir inmediatamente, desde la entrada en vigor del nuevo marco regulatorio de la solvencia, los grupos consolidables de entidades de crédito y las entidades de crédito españolas integradas o no en un grupo consolidable, y con qué alcance.</p>
+    <p class="parrafo">Para ello, en esta circular, el Banco de España hace uso de algunas de las opciones regulatorias de carácter permanente previstas en el Reglamento (UE) n.º 575/2013, en general con el fin de permitir una continuidad en el tratamiento que la normativa española había venido dando a determinadas cuestiones antes de la entrada en vigor de dicha norma comunitaria, cuya justificación, en algún caso, viene por el modelo de negocio que tradicionalmente han seguido las entidades españolas. Ello no excluye el ejercicio futuro de otras opciones previstas para las autoridades competentes en el Reglamento (UE) n.º 575/2013, en muchos casos, principalmente cuando se trate de opciones de carácter no general, por aplicación directa del Reglamento (UE) n.º 575/2013, sin necesidad de plasmación en una circular del Banco de España.</p>
+    <p class="parrafo">Asimismo, en uso de la citada habilitación conferida, el Banco de España también determina en esta circular la forma en que las entidades tendrán que cumplir las opciones regulatorias de carácter transitorio previstas en el Reglamento (UE) n.º 575/2013.</p>
+    <p class="parrafo">Como el objetivo del regulador comunitario, en relación con estas últimas, ha sido facilitar, durante un período transitorio, una adaptación progresiva y suave a los nuevos requerimientos derivados de la introducción del marco de Basilea III en la Unión Europea, como regla general, el Banco de España ha optado por tomar los plazos más largos permitidos por el Reglamento (UE) n.º 575/2013 y los coeficientes correctores menos exigentes, a los efectos de cumplir de la manera más eficaz la finalidad pretendida. No obstante, en ciertos casos en que la normativa española, en particular, en la Circular del Banco de España 3/2008, de 22 de mayo, sobre determinación y control de los recursos propios mínimos (en adelante, CBE 3/2008), venía siendo más exigente que la permitida por el Reglamento (UE) n.º 575/2013, esta se ha considerado un suelo, a partir del cual se ejercitaría la opción.</p>
+    <p class="parrafo">Asimismo, se precisa el tratamiento que las entidades deberán seguir aplicando para ciertas cuestiones, hasta la entrada en vigor de las normas técnicas de regulación que está elaborando la Autoridad Bancaria Europea.</p>
+    <p class="parrafo">En consecuencia, en uso de las facultades que tiene concedidas, el Consejo de Gobierno del Banco de España, a propuesta de la Comisión Ejecutiva y de acuerdo con el Consejo de Estado, ha aprobado la presente circular, que contiene las siguientes normas:</p>
+    <p class="articulo">[precepto]Norma primera. Ámbito de aplicación y definiciones.</p>
+    <p class="parrafo">1. Lo dispuesto en esta Circular será de aplicación a los grupos consolidables de entidades de crédito, sujetos a supervisión del Banco de España, de acuerdo con el Reglamento (UE) n.º 575/2013, del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012, así como a las entidades de crédito individuales de nacionalidad española, integradas o no en un grupo consolidable de entidades de crédito.</p>
+    <p class="parrafo">2. Los términos y conceptos utilizados en la presente circular se entenderán de acuerdo con las definiciones recogidas en el Reglamento (UE) n.º 575/2013, la Directiva 36/2013/UE, del Parlamento Europeo y del Consejo, de 26 de junio de 2013, relativa al acceso a la actividad de las entidades de crédito y a la supervisión prudencial de las entidades de crédito y las empresas de inversión, por la que se modifica la Directiva 2002/87/CE y se derogan las directivas 2006/48/CE y 2006/49/CE (en adelante, CRD) y sus normas de transposición al derecho español.</p>
+    <p class="capitulo_num">CAPÍTULO 1</p>
+    <p class="capitulo_tit">Cuestiones generales</p>
+    <p class="articulo">[precepto]Norma segunda. Tratamiento de determinadas participaciones.</p>
+    <p class="parrafo">1. En el caso de las tenencias de instrumentos de fondos propios de un ente del sector financiero en el que las entidades tengan una inversión significativa, el Banco de España, de acuerdo con lo dispuesto en el artículo 49.1 del Reglamento (UE) n.º 575/2013, podrá autorizar que las entidades no deduzcan de sus fondos propios dichas tenencias, en cuyo caso las someterán a ponderación a efectos del cálculo de los requisitos de recursos propios según se indica en el artículo 49.4 del Reglamento (UE) n.º 575/2013.</p>
+    <p class="parrafo">2. En el caso de las participaciones cualificadas en entidades de carácter no financiero, de conformidad con lo dispuesto en el artículo 89.3 del Reglamento (UE) n.º 575/2013, y de acuerdo con lo establecido en él sobre el tratamiento de las participaciones cualificadas en entidades de carácter no financiero, las entidades deberán aplicar el tratamiento previsto en su letra a), esto es, aplicar la ponderación del 1.250% en ella establecida.</p>
+    <p class="articulo">[precepto]Norma tercera. Tratamiento de determinadas exposiciones.</p>
+    <p class="parrafo">Para la determinación del valor de ciertas exposiciones en relación con la cobertura del riesgo de contraparte, en virtud de lo previsto en el artículo 282.6 del Reglamento (UE) n.º 575/2013, las entidades utilizarán el método establecido el artículo 274 del Reglamento (UE) n.º 575/2013. En estos casos no se reconocerá la compensación y el valor de exposición se determinará como si existiera un conjunto de operaciones compensables que comprendiera solo una operación.</p>
+    <p class="capitulo_num">CAPÍTULO 2</p>
+    <p class="capitulo_tit">Ejercicio por el Banco de España de opciones regulatorias de carácter transitorio previstas en el reglamento (UE) n.º 575/2013</p>
+    <p class="seccion">Sección primera. Requisitos de recursos propios</p>
+    <p class="articulo">[precepto]Norma cuarta. Requisitos de recursos propios.</p>
+    <p class="parrafo">De acuerdo con lo dispuesto en el artículo 465 del Reglamento (UE) n.º 575/2013, entre el 1 de enero y el 31 de diciembre de 2014, las entidades deberán, en todo momento, cumplir con los siguientes requisitos de recursos propios:</p>
+    <p class="parrafo_2">a) una ratio de capital de nivel 1 ordinario del 4,5%, y</p>
+    <p class="parrafo">b) una ratio de capital de nivel 1 del 6%.</p>
+    <p class="seccion">Sección segunda. Ajustes y filtros prudenciales</p>
+    <p class="articulo">[precepto]Norma quinta. Pérdidas y ganancias valoradas a valor razonable.</p>
+    <p class="parrafo">1. De acuerdo con lo dispuesto en el artículo 467 del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades solo incluirán en el cálculo de sus elementos del capital de nivel 1 ordinario el siguiente porcentaje de las pérdidas correspondientes a activos financieros disponibles para la venta registradas como ajustes por valoración en el patrimonio neto, excluyendo las contempladas en el artículo 33 del Reglamento (UE) n.º 575/2013:</p>
+    <p class="parrafo_2">a) el 20% durante el período comprendido entre el 1 de enero de 2014 y el 31 de diciembre de 2014;</p>
+    <p class="parrafo">b) el 40% durante el período comprendido entre el 1 de enero de 2015 y el 31 de diciembre de 2015;</p>
+    <p class="parrafo">c) el 60% durante el período comprendido entre el 1 de enero de 2016 y el 31 de diciembre de 2016, y</p>
+    <p class="parrafo">d) el 80% durante el período comprendido entre el 1 de enero de 2017 y el 31 de diciembre de 2017.</p>
+    <p class="parrafo_2">2. De acuerdo con lo dispuesto en el artículo 467 del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades deberán mantener en el cálculo de sus elementos del capital de nivel 1 ordinario el 100% de las pérdidas y de las ganancias correspondientes a activos y pasivos financieros contabilizados en la cartera de negociación.</p>
+    <p class="parrafo">3. De acuerdo con lo dispuesto en el artículo 468 del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades deberán eliminar de sus elementos del capital de nivel 1 ordinario el siguiente porcentaje de ganancias correspondientes a activos financieros disponibles para la venta registradas como ajustes por valoración en el patrimonio neto, excluyendo las contempladas en el artículo 33 del Reglamento (UE) n.º 575/2013, y todas las demás ganancias no realizadas, exceptuando aquellas que pudieran derivarse de inversiones inmobiliarias y que se hubieran registrado en la cuenta de pérdidas y ganancias:</p>
+    <p class="parrafo_2">a) el 100% durante el período comprendido entre 1 de enero de 2014 y el 31 de diciembre de 2014;</p>
+    <p class="parrafo">b) el 60% durante el período comprendido entre el 1 de enero de 2015 y el 31 de diciembre de 2015;</p>
+    <p class="parrafo">c) el 40% durante el período comprendido entre el 1 de enero de 2016 y el 31 de diciembre de 2016, y</p>
+    <p class="parrafo">d) el 20% durante el período comprendido entre el 1 de enero de 2017 y el 31 de diciembre de 2017.</p>
+    <p class="parrafo_2">El importe residual resultante no se eliminará de los elementos del capital de nivel 1 ordinario.</p>
+    <p class="parrafo">4. No obstante lo dispuesto en los apartados 1 y 3, las entidades que hubieran optado, de acuerdo con el régimen previsto en la letra d) del apartado 1 de la norma octava de la CBE 3/2008, de 22 de mayo, sobre determinación y control de los recursos propios mínimos (en adelante, CBE 3/2008), por no integrar importe alguno de las ganancias no realizadas a que se refiere dicha letra y que procedan de valores representativos de deuda frente a Administraciones centrales contabilizados por su valor razonable como activos disponibles para la venta, tendrán la opción de seguir no incluyendo en sus fondos propios las ganancias no realizadas que procedan de dichos valores. En ese caso, y siempre que hubieran comunicado previamente su intención al Banco de España, conforme a lo previsto en dicha norma de la CBE 3/2008, las entidades podrán, igualmente, dejar de asimilar a los resultados negativos las pérdidas no realizadas generadas por dichos valores representativos de deuda frente a Administraciones centrales. Este tratamiento se aplicará hasta que la Comisión haya adoptado un reglamento, basado en el Reglamento (CE) n.º 1606/2002, por el que refrende la norma internacional de información financiera que sustituya a la norma NIC 39.</p>
+    <p class="articulo">[precepto]Norma sexta. Ganancias y pérdidas valoradas al valor razonable, procedentes de pasivos derivados, resultantes de su propio riesgo de crédito.</p>
+    <p class="parrafo">De acuerdo con lo dispuesto en el artículo 468.4 del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades excluirán de sus fondos propios el 100% de las ganancias o pérdidas valoradas al valor razonable procedentes de pasivos derivados y resultantes de cambios en la situación crediticia de la propia entidad.</p>
+    <p class="seccion">Sección tercera. Deducciones en los elementos del capital de nivel 1 ordinario</p>
+    <p class="articulo">[precepto]Norma séptima. Mantenimiento del nivel de deducción de ciertos elementos durante el período transitorio.</p>
+    <p class="parrafo">1. De acuerdo con lo dispuesto en el artículo 469.1(a) del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades deberán deducir de los elementos de capital de nivel 1 ordinario el 100% de los importes a que se refieren las letras (a), (f) y (g) del apartado 1 del artículo 36 del Reglamento (UE) n.º 575/2013.</p>
+    <p class="parrafo">2. En relación con los activos intangibles a que se refiere la letra (b) del apartado 1 del artículo 36 del Reglamento (UE) n.º 575/2013, las entidades deberán deducir de los elementos de capital de nivel 1 ordinario el 100% de los importes correspondientes al fondo de comercio procedente de combinaciones de negocio, de consolidación o de la aplicación del método de la participación. Para el resto de los activos intangibles, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades deberán deducir de los elementos de capital de nivel 1 ordinario los porcentajes establecidos en el apartado 1 de la norma decimocuarta y del capital de nivel 1 la parte residual hasta completar el 100%.</p>
+    <p class="articulo">[precepto]Norma octava. Deducción de los importes negativos resultantes del cálculo del importe de las pérdidas esperadas durante el período transitorio.</p>
+    <p class="parrafo">1. De acuerdo con lo dispuesto en el artículo 469.1(a) del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades deberán deducir de los elementos de capital de nivel 1 ordinario los porcentajes establecidos en el apartado 1 de la norma decimocuarta referidos a los importes negativos a que se refiere el artículo 36.1(d) del Reglamento (UE) n.º 575/2013, resultantes del cálculo de las pérdidas esperadas referido en los artículos 158 y 159 del Reglamento (UE) n.º 575/2013, en el caso de las entidades que calculen las exposiciones ponderadas por riesgo utilizando el método basado en las calificaciones internas.</p>
+    <p class="parrafo">2. Los importes residuales no deducidos que resulten de la aplicación del párrafo anterior se deducirán en un 50% de los elementos de capital de nivel 1 y en el 50% restante de los elementos del capital de nivel 2.</p>
+    <p class="articulo">[precepto]Norma novena. Deducción de los activos de fondos de pensión de prestaciones definidas durante el período transitorio.</p>
+    <p class="parrafo">1. De acuerdo con lo dispuesto en el artículo 469.1(a) del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades deberán deducir de los elementos de capital de nivel 1 ordinario los porcentajes establecidos en el apartado 1 de la norma decimocuarta referidos a los activos de fondos de pensión de prestaciones definidas en el balance de la entidad a que se refiere el artículo 36.1(e) del Reglamento (UE) n.º 575/2013.</p>
+    <p class="parrafo">2. Los importes residuales no deducidos que resulten de la aplicación del párrafo anterior no se deducirán de ningún elemento de los fondos propios.</p>
+    <p class="articulo">[precepto]Norma décima. Deducción, durante el período transitorio, de las tenencias de instrumentos de capital de nivel 1 ordinario de entes del sector financiero cuando la entidad no tenga una inversión significativa en un ente del sector financiero.</p>
+    <p class="parrafo">1. De acuerdo con lo dispuesto en el artículo 469.1.(a) del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades deberán deducir de los elementos de capital de nivel 1 ordinario los porcentajes establecidos en el apartado 1 de la norma decimocuarta referidos al importe de los instrumentos que la entidad posea, directa, indirecta o sintéticamente, del capital de nivel 1 ordinario de entes del sector financiero cuando la entidad no mantenga una inversión significativa en esos entes, de acuerdo con lo dispuesto en el artículo 36.1(h) del Reglamento (UE) n.º 575/2013. Para ello, las entidades distinguirán entre las tenencias directas, por un lado, y las indirectas o sintéticas, por otro. El porcentaje a deducir se aplicará a prorrata entre ambas categorías.</p>
+    <p class="parrafo">2. Los importes residuales no deducidos que resulten de la aplicación del apartado anterior que correspondan a la categoría de tenencias directas se deducirán el 50% de los elementos del capital de nivel 1 y el otro 50% de los elementos del capital de nivel 2. Por su parte, los importes que correspondan a la categoría de tenencias indirectas o sintéticas estarán sujetos a una ponderación de riesgo de conformidad con la parte tercera, título II, capítulos 2 o 3, y a los requisitos establecidos en la parte tercera, título IV, del Reglamento (UE) n.º 575/2013, según proceda.</p>
+    <p class="articulo">[precepto]Norma undécima. Tratamiento durante el período transitorio de las deducciones de activos fiscales diferidos y participaciones significativas en entes del sector financiero.</p>
+    <p class="parrafo">1. De acuerdo con lo dispuesto en el artículo 469.1(c) del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2023, las entidades deducirán de los elementos del capital de nivel 1 ordinario el porcentaje aplicable que se indica en el apartado 2 de la norma decimocuarta del importe correspondiente a activos por impuestos diferidos que dependen de rendimientos futuros y existían con anterioridad al 1 de enero de 2014 y que, tras aplicar lo establecido en los artículos 470 y 469.2 del Reglamento (UE) n.º 575/2013, resulten a deducir; y, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades deducirán el porcentaje aplicable del mismo importe que se indica en el apartado 1 de la norma decimocuarta, para los que se generaran con posterioridad al 1 de enero de 2014.</p>
+    <p class="parrafo">2. Los importes residuales no deducidos que resulten de la aplicación del párrafo anterior no se deducirán de los fondos propios y recibirán una ponderación de riesgo del 0%.</p>
+    <p class="parrafo">3. De acuerdo con lo dispuesto en el artículo 469.1(c) del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades deducirán de los elementos del capital de nivel 1 ordinario el porcentaje aplicable que se indica en el apartado 1 de la norma decimocuarta del importe correspondiente a los instrumentos que la entidad posea, directa, indirecta o sintéticamente, de capital de nivel 1 ordinario de entes del sector financiero cuando la entidad mantenga una inversión significativa en esos entes que, tras aplicar lo establecido en los artículos 470 y 469.3, resulte a deducir. Para ello, las entidades distinguirán entre las tenencias directas, por un lado, y las indirectas o sintéticas, por otro. El porcentaje a deducir se aplicará a prorrata entre ambas categorías.</p>
+    <p class="parrafo">4. Los importes residuales no deducidos que resulten de la aplicación del apartado anterior que correspondan a la categoría de tenencias directas se deducirán el 50% de los elementos del capital de nivel 1 y el otro 50% de los elementos del capital de nivel 2. Por su parte, los importes que correspondan a la categoría de tenencias indirectas o sintéticas estarán sujetos a una ponderación de riesgo de conformidad con la parte tercera, título II, capítulos 2 o 3, y a los requisitos establecidos en la parte tercera, título IV, del Reglamento (UE) n.º 575/2013, según proceda.</p>
+    <p class="articulo">[precepto]Norma duodécima. Tratamiento durante el período transitorio de participaciones en entidades aseguradoras.</p>
+    <p class="parrafo">1. De acuerdo con lo dispuesto en el artículo 471 del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2022, el Banco de España podrá autorizar a las entidades, previa solicitud motivada, a no deducir las participaciones en el capital de empresas de seguros, empresas de reaseguros y sociedades de cartera de seguros, siempre y cuando se cumplan los siguientes requisitos:</p>
+    <p class="parrafo_2">a) las condiciones establecidas en el artículo 49, apartado 1, letras a), c) y e) del Reglamento (UE) n.º 575/2013;</p>
+    <p class="parrafo">b) que el Banco de España evalúe como satisfactorio el nivel de los procedimientos de control del riesgo y de análisis financiero adoptados específicamente por la entidad con objeto de supervisar la inversión en la empresa aseguradora, reaseguradora o sociedad de cartera;</p>
+    <p class="parrafo">c) que la participación de capital de la entidad en la empresa de seguros, empresa de reaseguros o sociedad de cartera de seguros no supere el 15% de los instrumentos de capital de nivel 1 ordinario emitidos por dicha entidad de seguros a 31 de diciembre de 2012 y durante el período comprendido entre el 1 de enero de 2013 y el 31 de diciembre de 2022;</p>
+    <p class="parrafo">d) que el importe de la participación de capital no deducida no supere el importe de la participación en los instrumentos de capital de nivel 1 ordinario de la empresa de seguros, empresa de reaseguros o sociedad de cartera de seguros a 31 de diciembre de 2012.</p>
+    <p class="parrafo_2">2. La participación en capital que no se deduzca de conformidad con el apartado 1 se considerará como exposición, y se le aplicará una ponderación de riesgo del 370%.</p>
+    <p class="parrafo">3. De acuerdo con lo previsto en el artículo 481.2 del Reglamento (UE) n.º 575/2013, el Banco de España podrá autorizar a las entidades que, así lo soliciten a aplicar los métodos considerados en el artículo 49.1 del Reglamento (UE) n.º 575/2013 en lugar de la deducción prevista en el artículo 36.1 del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2014. A dichos efectos, el coeficiente aplicable, de acuerdo con el artículo 481.4 del Reglamento (UE) n.º 575/2013 será del 50%.</p>
+    <p class="seccion">Sección cuarta. Deducciones en los elementos de capital de nivel 1 adicional y de capital de nivel 2</p>
+    <p class="articulo">[precepto]Norma decimotercera. Deducciones en los elementos del capital de nivel 1 adicional y de capital de nivel 2.</p>
+    <p class="parrafo">1. De acuerdo con lo dispuesto en los artículos 474 y 476 del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades deberán deducir de los elementos de capital de nivel 1 adicional y de capital de nivel 2, respectivamente, el 100% de los importes a que se refieren las letras (a) y (b) de los artículos 56 y 66 del Reglamento (UE) n.º 575/2013.</p>
+    <p class="parrafo">2. De acuerdo con lo dispuesto en los artículos 474 y 476 del Reglamento (UE) n.º 575/2013, entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades deberán deducir de los elementos de capital de nivel 1 adicional y de capital de nivel 2, respectivamente, los porcentajes establecidos en el apartado 1 de la norma decimocuarta referidos al importe de los instrumentos que la entidad posea, directa, indirecta o sintéticamente, del capital de nivel 1 adicional o capital de nivel 2 de entidades del sector financiero cuando la entidad mantenga una inversión, sea esta significativa o no, en esas entidades, a que se refieren las letras c) y d) de los artículos 56 y 66 del Reglamento (UE) n.º 575/2013. Para ello, las entidades distinguirán entre las tenencias directas, por un lado, y las indirectas o sintéticas, por otro. El porcentaje a deducir se aplicará a prorrata entre ambas categorías.</p>
+    <p class="parrafo">3. Los importes residuales no deducidos que resulten de la aplicación del apartado anterior que correspondan a la categoría de tenencias directas se deducirán el 50% de los elementos del capital de nivel 1 y el otro 50% de los elementos del capital de nivel 2. Por su parte, los importes que correspondan a la categoría de tenencias indirectas o sintéticas estarán sujetos a una ponderación de riesgo de conformidad con la parte tercera, título II, capítulos 2 o 3, y a los requisitos establecidos en la parte tercera, título IV, del Reglamento (UE) n.º 575/2013, según proceda.</p>
+    <p class="seccion">Sección quinta. Porcentajes aplicables a las deducciones</p>
+    <p class="articulo">[precepto]Norma decimocuarta. Porcentajes aplicables para la deducción de distintos epígrafes de fondos propios.</p>
+    <p class="parrafo">1. El porcentaje aplicable a efectos del apartado 2 de la norma séptima y las normas octava, novena, décima, undécima y decimotercera será:</p>
+    <p class="parrafo_2">a) del 20% durante el período comprendido entre el 1 de enero de 2014 y el 31 de diciembre de 2014;</p>
+    <p class="parrafo">b) del 40% durante el período comprendido entre el 1 de enero de 2015 y el 31 de diciembre de 2015;</p>
+    <p class="parrafo">c) del 60% durante el período comprendido entre el 1 de enero de 2016 y el 31 de diciembre de 2016;</p>
+    <p class="parrafo">d) del 80% durante el período comprendido entre el 1 de enero de 2017 y el 31 de diciembre de 2017.</p>
+    <p class="parrafo_2">2. El porcentaje aplicable a efectos del apartado 1 de la norma undécima a los importes correspondientes a los activos por impuestos diferidos que dependen de rendimientos futuros y existían con anterioridad al 1 de enero de 2014 y que, después de aplicar lo establecido en los apartados 1 y 2 de dicha norma, resulten a deducir, será:</p>
+    <p class="parrafo_2">a) del 0% durante el período comprendido entre el 1 de enero de 2014 y el 31 de diciembre de 2014;</p>
+    <p class="parrafo">b) del 10% durante el período comprendido entre el 1 de enero de 2015 y el 31 de diciembre de 2015;</p>
+    <p class="parrafo">c) del 20% durante el período comprendido entre el 1 de enero de 2016 y el 31 de diciembre de 2016;</p>
+    <p class="parrafo">d) del 30% durante el período comprendido entre el 1 de enero de 2017 y el 31 de diciembre de 2017;</p>
+    <p class="parrafo">e) del 40% durante el período comprendido entre el 1 de enero de 2018 y el 31 de diciembre de 2018;</p>
+    <p class="parrafo">f)	del 50% durante el período comprendido entre el 1 de enero de 2019 y el 31 de diciembre de 2019;</p>
+    <p class="parrafo">g) del 60% durante el período comprendido entre el 1 de enero de 2020 y el 31 de diciembre de 2020;</p>
+    <p class="parrafo">h) del 70% durante el período comprendido entre el 1 de enero de 2021 y el 31 de diciembre de 2021;</p>
+    <p class="parrafo">i)	del 80% durante el período comprendido entre el 1 de enero de 2022 y el 31 de diciembre de 2022;</p>
+    <p class="parrafo">j)	del 90% durante el período comprendido entre el 1 de enero de 2023 y el 31 de diciembre de 2023.</p>
+    <p class="seccion">Sección sexta. Intereses minoritarios e instrumentos de capital de nivel 1 adicional y de capital de nivel 2 emitidos por filiales</p>
+    <p class="articulo">[precepto]Norma decimoquinta. Reconocimiento en los fondos propios consolidados durante el período transitorio.</p>
+    <p class="parrafo">1. No obstante lo dispuesto en la parte segunda, título II, del Reglamento (UE) n.º 575/2013, y de acuerdo con el artículo 479 del Reglamento (UE) n.º 575/2013, durante el período comprendido entre el 1 de enero de 2014 y el 31 de diciembre de 2017, las entidades podrán computar en el capital de nivel 1 ordinario consolidado el porcentaje establecido en el apartado 2 siguiente de aquellos elementos que fueron computables como reservas consolidadas o asimilados a estas, de acuerdo con el apartado 5 de la norma octava de la CBE 3/2008, como norma de transposición del artículo 65 de la Directiva 2006/48/CE, y que no cumplan las condiciones para ser computados como capital de nivel 1 ordinario consolidado de acuerdo con el Reglamento (UE) n.º 575/2013 por alguno de los motivos siguientes:</p>
+    <p class="parrafo_2">a) el instrumento no puede computarse como instrumento del capital de nivel 1 ordinario y las correspondientes ganancias acumuladas y cuentas de primas de emisión no pueden, por tanto, considerarse elementos del capital de nivel 1 ordinario consolidado;</p>
+    <p class="parrafo">b) los elementos no pueden computarse por aplicación del artículo 81, apartado 2, del Reglamento (UE) n.º 575/2013;</p>
+    <p class="parrafo">c) los elementos no pueden computarse porque la filial no es una entidad sujeta, en virtud de la legislación nacional aplicable, a lo dispuesto en el Reglamento (UE) n.º 575/2013 y en la Directiva 2013/36/UE;</p>
+    <p class="parrafo">d) los elementos no pueden computarse porque la filial no está consolidada por integración global con arreglo a la parte primera, título II, capítulo 2 del Reglamento (UE) n.º 575/2013.</p>
+    <p class="parrafo_2">2. Los porcentajes aplicables a efectos del apartado 1 serán:</p>
+    <p class="parrafo_2">a) el 80% durante el período comprendido entre el 1 de enero de 2014 y el 31 de diciembre de 2014;</p>
+    <p class="parrafo">b) el 60% durante el período comprendido entre el 1 de enero de 2015 y el 31 de diciembre de 2015;</p>
+    <p class="parrafo">c) el 40% durante el período comprendido entre el 1 de enero de 2016 y el 31 de diciembre de 2016;</p>
+    <p class="parrafo">d) el 20% durante el período comprendido entre el 1 de enero de 2017 y el 31 de diciembre de 2017.</p>
+    <p class="parrafo_2">3. De acuerdo con el artículo 480 del Reglamento (UE) n.º 575/2013, durante el período comprendido entre el 1 de enero de 2014 y el 31 de diciembre de 2017, los porcentajes contemplados en el artículo 84.1.b), el artículo 85.1.b) y el artículo 87.1.b) del Reglamento (UE) n.º 575/2013 se multiplicarán por los siguientes factores:</p>
+    <p class="parrafo_2">a) de 0,2 durante el período comprendido entre el 1 de enero de 2014 y el 31 de diciembre de 2014;</p>
+    <p class="parrafo">b) de 0,4 durante el período comprendido entre el 1 de enero de 2015 y el 31 de diciembre de 2015;</p>
+    <p class="parrafo">c) de 0,6 durante el período comprendido entre el 1 de enero de 2016 y el 31 de diciembre de 2016, y</p>
+    <p class="parrafo">d) de 0,8 durante el período comprendido entre el 1 de enero de 2017 y el 31 de diciembre de 2017.</p>
+    <p class="seccion">Sección séptima. Cómputo durante el periodo transitorio de instrumentos de capital emitidos con anterioridad al reglamento (ue) n.º 575/2013</p>
+    <p class="articulo">[precepto]Norma decimosexta. Porcentajes aplicables al cómputo transitorio como elementos de capital de nivel 1 ordinario, de nivel 1 adicional y de nivel 2, de instrumentos de capital emitidos con anterioridad al Reglamento (UE) n.º 575/2013.</p>
+    <p class="parrafo">De acuerdo con lo dispuesto en el artículo 486 del Reglamento (UE) n.º 575/2013, los porcentajes aplicables contemplados en los apartados 2 a 4 de dicho artículo que determinan el importe de los instrumentos a que se refieren los apartados 3 a 5, respectivamente, del artículo 484 del Reglamento (UE) n.º 575/2013 serán:</p>
+    <p class="parrafo_2">a) del 80% durante el período comprendido entre el 1 de enero de 2014 y el 31 de diciembre de 2014;</p>
+    <p class="parrafo">b) del 70% durante el período comprendido entre el 1 de enero de 2015 y el 31 de diciembre de 2015;</p>
+    <p class="parrafo">c) del 60% durante el período comprendido entre el 1 de enero de 2016 y el 31 de diciembre de 2016;</p>
+    <p class="parrafo">d) del 50% durante el período comprendido entre el 1 de enero de 2017 y el 31 de diciembre de 2017;</p>
+    <p class="parrafo">e) del 40% durante el período comprendido entre el 1 de enero de 2018 y el 31 de diciembre de 2018;</p>
+    <p class="parrafo">f)	del 30% durante el período comprendido entre el 1 de enero de 2019 y el 31 de diciembre de 2019;</p>
+    <p class="parrafo">g) del 20% durante el período comprendido entre el 1 de enero de 2020 y el 31 de diciembre de 2020;</p>
+    <p class="parrafo">h) del 10% durante el período comprendido entre el 1 de enero de 2021 y el 31 de diciembre de 2021.</p>
+    <p class="seccion">Sección octava. Grandes riesgos</p>
+    <p class="articulo">[precepto]Norma decimoséptima. Exenciones temporales a los grandes riesgos.</p>
+    <p class="parrafo">De acuerdo con lo dispuesto en el artículo 493.3 del Reglamento (UE) n.º 575/2013, las entidades podrán excluir del cumplimiento de los límites a sus grandes exposiciones las exposiciones referidas en dicho artículo, hasta la entrada en vigor de algún acto legislativo subsiguiente a la revisión a la que se refiere el artículo 507 del Reglamento (UE) n.º 575/2013 o hasta el 31 de diciembre de 2028, lo que antes ocurra. La exención será plena salvo para las exposiciones señaladas en las letras (a), (b), (f) y (j) del referido artículo, en las que dicha exención será del 50%.</p>
+    <p class="seccion">Sección novena. Ratio de apalancamiento</p>
+    <p class="articulo">[precepto]Norma decimoctava. Ratio de apalancamiento.</p>
+    <p class="parrafo">De acuerdo con el artículo 499.3 del Reglamento (UE) n.º 575/2013, hasta el 31 de diciembre de 2017, los grupos consolidables de entidades de crédito, así como las entidades de crédito de nacionalidad española, integradas o no en un grupo consolidable, salvo que hayan resultado exentas de acuerdo con el artículo 6 del Reglamento (UE) n.º 575/2013, calcularán la ratio de apalancamiento sobre la base de los datos correspondientes al último día del trimestre natural.</p>
+    <p class="seccion">Sección décima. Otras deducciones</p>
+    <p class="articulo">[precepto]Norma decimonovena. Otras deducciones y ajustes.</p>
+    <p class="parrafo">De acuerdo con el artículo 481.3 del Reglamento (UE) n.º 575/2013, hasta el 31 de diciembre de 2017, el porcentaje aplicable será del 0% para los posibles ajustes y deducciones que se hubieran incorporado en la normativa española con arreglo a los artículos 57, 61, 63, 63 bis, 64 y 66 de la Directiva 2006/48/CE y que no estén previstos de acuerdo con la parte segunda del Reglamento (UE) n.º 575/2013.</p>
+    <p class="seccion">Sección undécima. Otras opciones de carácter transitorio</p>
+    <p class="articulo">[precepto]Norma vigésima. Riesgos distintos del delta en instrumentos de cartera de negociación.</p>
+    <p class="parrafo">De acuerdo con lo previsto en el artículo 329.4 del Reglamento (UE) n.º 575/2013, las entidades podrán seguir utilizando el tratamiento que hubiesen venido aplicando de acuerdo con el tercer párrafo del apartado 8 de la norma octogésima sexta de la CBE 3/2008.</p>
+    <p class="articulo">[precepto]Norma vigésima primera. Índices bursátiles.</p>
+    <p class="parrafo">De acuerdo con lo previsto en el artículo 344.2 del Reglamento (UE) n.º 575/2013, las entidades podrán seguir aplicando el tratamiento contemplado en los artículos 344.3 y 344.4 del Reglamento (UE) n.º 575/2013.</p>
+    <p class="articulo">[precepto]Norma vigésima segunda. Riesgos distintos del delta en instrumentos sobre materias primas.</p>
+    <p class="parrafo">De acuerdo con lo previsto en el artículo 358.4 del Reglamento (UE) n.º 575/2013, las entidades podrán seguir utilizando el tratamiento que hubiesen venido aplicando de acuerdo con el tercer párrafo del apartado 13 de la norma nonagésima de la CBE 3/2008.</p>
+    <p class="articulo">Disposición derogatoria.</p>
+    <p class="parrafo">Queda derogada la Circular del Banco de España 7/2012, de 30 de noviembre, del Banco de España, a entidades de crédito, sobre requerimientos mínimos de capital principal.</p>
+    <p class="articulo">Disposición final única.</p>
+    <p class="parrafo">La presente circular entrará en vigor el día siguiente a su publicación en el «Boletín Oficial del Estado».</p>
+    <p class="parrafo_2">Madrid, 31 de enero de 2014.–El Gobernador del Banco de España, Luis María Linde de Castro.</p>
+  </texto>
+</documento>

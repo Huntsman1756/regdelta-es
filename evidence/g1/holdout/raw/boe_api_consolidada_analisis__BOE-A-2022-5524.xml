@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="60">Activos financieros</materia>
+        <materia codigo="1508">Administración electrónica</materia>
+        <materia codigo="397">Autorizaciones</materia>
+        <materia codigo="441">Banco Central Europeo</materia>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="1624">Consumidores y usuarios</materia>
+        <materia codigo="1627">Contabilidad</materia>
+        <materia codigo="1664">Contratos</materia>
+        <materia codigo="1677">Control financiero</materia>
+        <materia codigo="1757">Créditos</materia>
+        <materia codigo="2290">Delegación de atribuciones</materia>
+        <materia codigo="2429">Depósitos</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="3790">Fondos de dinero</materia>
+        <materia codigo="3807">Formularios administrativos</materia>
+        <materia codigo="4165">Información</materia>
+        <materia codigo="4506">Internet</materia>
+        <materia codigo="5343">Pagos</materia>
+        <materia codigo="5680">Préstamos</materia>
+        <materia codigo="5703">Procedimiento administrativo</materia>
+        <materia codigo="6015">Registros administrativos</materia>
+        <materia codigo="6230">Retribuciones</materia>
+        <materia codigo="6242">Riesgos</materia>
+        <materia codigo="7896">Sistema financiero</materia>
+        <materia codigo="6896">Títulos valores</materia>
+        <materia codigo="6909">Trabajadores</materia>
+        <materia codigo="6923">Transferencias bancarias</materia>
+        <materia codigo="6999">Unión Económica y Monetaria</materia>
+      </materias>
+      <notas>
+        <nota>Entrada en vigor: 7 de abril de 2022 y, para la norma 3: 6 de octubre de 2022.</nota>
+      </notas>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-2014-1183</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>, SUPRIME y AÑADE determinados preceptos a la Circular 2/2014, de 31 de enero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2012-9058</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>las normas 1, 6, 8 y 11, y los anejos 3 y 4 de la Circular 5/2012, de 27 de junio</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2016-1238</id_norma>
+            <relacion codigo="270">MODIFICA</relacion>
+            <texto>, SUPRIME Y AÑADE determinados preceptos y referencias de la Circular 2/2016, de 2 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2015-1455</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>el Real Decreto 84/2015, de 13 de febrero</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2014-6726</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>la Ley 10/2014, de 26 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2022-10810</id_norma>
+            <relacion codigo="201">CORRECCIÓN de errores</relacion>
+            <texto>en BOE núm. 156 de 30 de junio de 2022</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

@@ -53,6 +53,9 @@ def test_seal_integrity() -> None:
 
     manifest = json.loads(manifest_bytes)
     assert sorted(seal["targets"]) == seal["targets"]
+    v2 = json.loads((G1 / "selection-v2.json").read_text(
+        encoding="utf-8"))
+    assert seal["targets"] == sorted(v2["SEALED_HOLDOUT"])
     for name, entry in manifest["entries"].items():
         if "path" not in entry:
             assert entry.get("http_status") == 404, name

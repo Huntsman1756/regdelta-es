@@ -207,11 +207,12 @@ plus `PROTOCOL_INTEGRITY = PASS`. No post-hoc thresholds on RESOLVED
 rate, binding rate, locator resolution or applicability — they are
 reported, not gated.
 
-## 15. Claim if G1 passes
+## 15. Claim if G1 passes (updated by G1.0b)
 
-> Structural binding integrity is supported on a fresh, amendment-dense
-> sealed BdE holdout, with measured coverage and fail-closed
-> abstention.
+> Structural binding integrity is supported on the complete available
+> fresh amendment-dense BdE holdout selected under the preregistered
+> eligibility rule, including both textual and visual targets, with
+> measured coverage and fail-closed abstention.
 
 Not: fully general / complete legal recall / production-complete /
 100% regulatory coverage.

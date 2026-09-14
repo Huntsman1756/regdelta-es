@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <analisis>
+      <materias>
+        <materia codigo="449">Banco de España</materia>
+        <materia codigo="1624">Consumidores y usuarios</materia>
+        <materia codigo="1757">Créditos</materia>
+        <materia codigo="3233">Entidades de crédito</materia>
+        <materia codigo="4518">Inversiones</materia>
+        <materia codigo="5794">Publicidad</materia>
+      </materias>
+      <referencias>
+        <anteriores>
+          <anterior>
+            <id_norma>BOE-A-1990-23233</id_norma>
+            <relacion codigo="210">DEROGA</relacion>
+            <texto>la norma 9 de la Circular 8/1990, de 7 de septiembre</texto>
+          </anterior>
+          <anterior>
+            <id_norma>BOE-A-2010-10315</id_norma>
+            <relacion codigo="440">DE CONFORMIDAD con</relacion>
+            <texto>los arts. 4 y 5 de la Orden EHA/1718/2010, de 11 de junio</texto>
+          </anterior>
+        </anteriores>
+        <posteriores>
+          <posterior>
+            <id_norma>BOE-A-2020-7869</id_norma>
+            <relacion codigo="210">SE DEROGA</relacion>
+            <texto>, por Circular 4/2020, de 26 de junio</texto>
+          </posterior>
+          <posterior>
+            <id_norma>BOE-A-2014-8189</id_norma>
+            <relacion codigo="270">SE MODIFICA</relacion>
+            <texto>la norma 2, por Circular 3/2014, de 30 de julio</texto>
+          </posterior>
+        </posteriores>
+      </referencias>
+    </analisis>
+  </data>
+</response>

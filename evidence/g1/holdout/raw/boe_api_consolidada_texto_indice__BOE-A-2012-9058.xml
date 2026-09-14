@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>co</id>
+      <titulo/>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/co</url>
+    </bloque>
+    <bloque>
+      <id>preambulo</id>
+      <titulo/>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/preambulo</url>
+    </bloque>
+    <bloque>
+      <id>ci</id>
+      <titulo>CAPÍTULO I</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/ci</url>
+    </bloque>
+    <bloque>
+      <id>normaprimera</id>
+      <titulo>Norma primera</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normaprimera</url>
+    </bloque>
+    <bloque>
+      <id>normasegunda</id>
+      <titulo>Norma segunda</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normasegunda</url>
+    </bloque>
+    <bloque>
+      <id>cii</id>
+      <titulo>CAPÍTULO II</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/cii</url>
+    </bloque>
+    <bloque>
+      <id>normatercera</id>
+      <titulo>Norma tercera</titulo>
+      <fecha_actualizacion>20190404</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normatercera</url>
+    </bloque>
+    <bloque>
+      <id>normacuaa</id>
+      <titulo>Norma cuarta</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normacuaa</url>
+    </bloque>
+    <bloque>
+      <id>normaquinta</id>
+      <titulo>Norma quinta</titulo>
+      <fecha_actualizacion>20190404</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normaquinta</url>
+    </bloque>
+    <bloque>
+      <id>ciii</id>
+      <titulo>CAPÍTULO III</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/ciii</url>
+    </bloque>
+    <bloque>
+      <id>normasexta</id>
+      <titulo>Norma sexta</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normasexta</url>
+    </bloque>
+    <bloque>
+      <id>normaseptima</id>
+      <titulo>Norma séptima</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normaseptima</url>
+    </bloque>
+    <bloque>
+      <id>civ</id>
+      <titulo>CAPÍTULO IV</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/civ</url>
+    </bloque>
+    <bloque>
+      <id>normaoctava</id>
+      <titulo>Norma octava</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normaoctava</url>
+    </bloque>
+    <bloque>
+      <id>normanovena</id>
+      <titulo>Norma novena</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normanovena</url>
+    </bloque>
+    <bloque>
+      <id>normadecima</id>
+      <titulo>Norma décima</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normadecima</url>
+    </bloque>
+    <bloque>
+      <id>normaundecima</id>
+      <titulo>Norma undécima</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normaundecima</url>
+    </bloque>
+    <bloque>
+      <id>cv</id>
+      <titulo>CAPÍTULO V</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/cv</url>
+    </bloque>
+    <bloque>
+      <id>normaduodecima</id>
+      <titulo>Norma duodécima</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normaduodecima</url>
+    </bloque>
+    <bloque>
+      <id>cvi</id>
+      <titulo>CAPÍTULO VI</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/cvi</url>
+    </bloque>
+    <bloque>
+      <id>normadecimotercera</id>
+      <titulo>Norma decimotercera</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normadecimotercera</url>
+    </bloque>
+    <bloque>
+      <id>normadecimocuaa</id>
+      <titulo>Norma decimocuarta</titulo>
+      <fecha_actualizacion>20210130</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normadecimocuaa</url>
+    </bloque>
+    <bloque>
+      <id>normadecimoquinta</id>
+      <titulo>Norma decimoquinta</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normadecimoquinta</url>
+    </bloque>
+    <bloque>
+      <id>cvii</id>
+      <titulo>CAPÍTULO VII</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/cvii</url>
+    </bloque>
+    <bloque>
+      <id>normadecimosexta</id>
+      <titulo>Norma decimosexta</titulo>
+      <fecha_actualizacion>20190404</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/normadecimosexta</url>
+    </bloque>
+    <bloque>
+      <id>dtprimera</id>
+      <titulo>Disposición transitoria primera</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/dtprimera</url>
+    </bloque>
+    <bloque>
+      <id>dtsegunda</id>
+      <titulo>Disposición transitoria segunda</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/dtsegunda</url>
+    </bloque>
+    <bloque>
+      <id>dt</id>
+      <titulo>Disposición transitoria tercera</titulo>
+      <fecha_actualizacion>20210130</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/dt</url>
+    </bloque>
+    <bloque>
+      <id>dt-2</id>
+      <titulo>Disposición transitoria cuarta</titulo>
+      <fecha_actualizacion>20210130</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/dt-2</url>
+    </bloque>
+    <bloque>
+      <id>dd</id>
+      <titulo>Disposición derogatoria</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/dd</url>
+    </bloque>
+    <bloque>
+      <id>df</id>
+      <titulo>Disposición final</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/df</url>
+    </bloque>
+    <bloque>
+      <id>firma</id>
+      <titulo/>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/firma</url>
+    </bloque>
+    <bloque>
+      <id>anejo1</id>
+      <titulo>ANEJO 1</titulo>
+      <fecha_actualizacion>20190404</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/anejo1</url>
+    </bloque>
+    <bloque>
+      <id>anejo2</id>
+      <titulo>ANEJO 2</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/anejo2</url>
+    </bloque>
+    <bloque>
+      <id>anejo3</id>
+      <titulo>ANEJO 3</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/anejo3</url>
+    </bloque>
+    <bloque>
+      <id>anejo4</id>
+      <titulo>ANEJO 4</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/anejo4</url>
+    </bloque>
+    <bloque>
+      <id>anejo5</id>
+      <titulo>ANEJO 5</titulo>
+      <fecha_actualizacion>20190404</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/anejo5</url>
+    </bloque>
+    <bloque>
+      <id>anejo6</id>
+      <titulo>ANEJO 6</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/anejo6</url>
+    </bloque>
+    <bloque>
+      <id>anejo7</id>
+      <titulo>ANEJO 7</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/anejo7</url>
+    </bloque>
+    <bloque>
+      <id>anejo8</id>
+      <titulo>ANEJO 8</titulo>
+      <fecha_actualizacion>20210517</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/anejo8</url>
+    </bloque>
+    <bloque>
+      <id>anejo9</id>
+      <titulo>ANEJO 9</titulo>
+      <fecha_actualizacion>20120706</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9058/texto/bloque/anejo9</url>
+    </bloque>
+  </data>
+</response>

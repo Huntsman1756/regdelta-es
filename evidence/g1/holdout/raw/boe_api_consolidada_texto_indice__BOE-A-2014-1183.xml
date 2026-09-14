@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <bloque>
+      <id>preambulo</id>
+      <titulo/>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/preambulo</url>
+    </bloque>
+    <bloque>
+      <id>normaprimera</id>
+      <titulo>Norma primera</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normaprimera</url>
+    </bloque>
+    <bloque>
+      <id>c1</id>
+      <titulo>CAPÍTULO 1</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/c1</url>
+    </bloque>
+    <bloque>
+      <id>normasegunda</id>
+      <titulo>Norma segunda</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normasegunda</url>
+    </bloque>
+    <bloque>
+      <id>normatercera</id>
+      <titulo>Norma tercera</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normatercera</url>
+    </bloque>
+    <bloque>
+      <id>nt</id>
+      <titulo>Norma tercera bis</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/nt</url>
+    </bloque>
+    <bloque>
+      <id>nt-2</id>
+      <titulo>Norma tercera ter</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/nt-2</url>
+    </bloque>
+    <bloque>
+      <id>nt-3</id>
+      <titulo>Norma tercera quater</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/nt-3</url>
+    </bloque>
+    <bloque>
+      <id>nt-4</id>
+      <titulo>Norma tercera quinquies</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/nt-4</url>
+    </bloque>
+    <bloque>
+      <id>nt-5</id>
+      <titulo>Norma tercera sexies</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/nt-5</url>
+    </bloque>
+    <bloque>
+      <id>nt-6</id>
+      <titulo>Norma tercera septies</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/nt-6</url>
+    </bloque>
+    <bloque>
+      <id>nt-7</id>
+      <titulo>Norma tercera octies</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/nt-7</url>
+    </bloque>
+    <bloque>
+      <id>nt-8</id>
+      <titulo>Norma tercera nonies</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/nt-8</url>
+    </bloque>
+    <bloque>
+      <id>nt-9</id>
+      <titulo>Norma tercera decies</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/nt-9</url>
+    </bloque>
+    <bloque>
+      <id>c2</id>
+      <titulo>CAPÍTULO 2</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/c2</url>
+    </bloque>
+    <bloque>
+      <id>sprimera</id>
+      <titulo>Sección primera</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/sprimera</url>
+    </bloque>
+    <bloque>
+      <id>normacuaa</id>
+      <titulo>Norma cuarta</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normacuaa</url>
+    </bloque>
+    <bloque>
+      <id>ssegunda</id>
+      <titulo>Sección segunda</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/ssegunda</url>
+    </bloque>
+    <bloque>
+      <id>normaquinta</id>
+      <titulo>Norma quinta</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normaquinta</url>
+    </bloque>
+    <bloque>
+      <id>normasexta</id>
+      <titulo>Norma sexta</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normasexta</url>
+    </bloque>
+    <bloque>
+      <id>stercera</id>
+      <titulo>Sección tercera</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/stercera</url>
+    </bloque>
+    <bloque>
+      <id>normaseptima</id>
+      <titulo>Norma séptima</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normaseptima</url>
+    </bloque>
+    <bloque>
+      <id>normaseptimabis</id>
+      <titulo>Norma séptima bis</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normaseptimabis</url>
+    </bloque>
+    <bloque>
+      <id>normaoctava</id>
+      <titulo>Norma octava</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normaoctava</url>
+    </bloque>
+    <bloque>
+      <id>normanovena</id>
+      <titulo>Norma novena</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normanovena</url>
+    </bloque>
+    <bloque>
+      <id>nn</id>
+      <titulo>Norma novena bis</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/nn</url>
+    </bloque>
+    <bloque>
+      <id>normadecima</id>
+      <titulo>Norma décima</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normadecima</url>
+    </bloque>
+    <bloque>
+      <id>normaundecima</id>
+      <titulo>Norma undécima</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normaundecima</url>
+    </bloque>
+    <bloque>
+      <id>normaduodecima</id>
+      <titulo>Norma duodécima</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normaduodecima</url>
+    </bloque>
+    <bloque>
+      <id>scuaa</id>
+      <titulo>Sección cuarta</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/scuaa</url>
+    </bloque>
+    <bloque>
+      <id>normadecimotercera</id>
+      <titulo>Norma decimotercera</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normadecimotercera</url>
+    </bloque>
+    <bloque>
+      <id>squinta</id>
+      <titulo>Sección quinta</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/squinta</url>
+    </bloque>
+    <bloque>
+      <id>normadecimocuaa</id>
+      <titulo>Norma decimocuarta</titulo>
+      <fecha_actualizacion>20220406</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normadecimocuaa</url>
+    </bloque>
+    <bloque>
+      <id>ssexta</id>
+      <titulo>Sección sexta</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/ssexta</url>
+    </bloque>
+    <bloque>
+      <id>normadecimoquinta</id>
+      <titulo>Norma decimoquinta</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normadecimoquinta</url>
+    </bloque>
+    <bloque>
+      <id>sseptima</id>
+      <titulo>Sección séptima</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/sseptima</url>
+    </bloque>
+    <bloque>
+      <id>normadecimosexta</id>
+      <titulo>Norma decimosexta</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normadecimosexta</url>
+    </bloque>
+    <bloque>
+      <id>soctava</id>
+      <titulo>Sección octava</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/soctava</url>
+    </bloque>
+    <bloque>
+      <id>normadecimoseptima</id>
+      <titulo>Norma decimoséptima</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normadecimoseptima</url>
+    </bloque>
+    <bloque>
+      <id>snovena</id>
+      <titulo>Sección novena</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/snovena</url>
+    </bloque>
+    <bloque>
+      <id>normadecimoctava</id>
+      <titulo>Norma decimoctava</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normadecimoctava</url>
+    </bloque>
+    <bloque>
+      <id>sdecima</id>
+      <titulo>Sección décima</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/sdecima</url>
+    </bloque>
+    <bloque>
+      <id>normadecimonovena</id>
+      <titulo>Norma decimonovena</titulo>
+      <fecha_actualizacion>20171102</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normadecimonovena</url>
+    </bloque>
+    <bloque>
+      <id>sundecima</id>
+      <titulo>Sección undécima</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/sundecima</url>
+    </bloque>
+    <bloque>
+      <id>normavigesima</id>
+      <titulo>Norma vigésima</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normavigesima</url>
+    </bloque>
+    <bloque>
+      <id>normavigesimaprimera</id>
+      <titulo>Norma vigésima primera</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normavigesimaprimera</url>
+    </bloque>
+    <bloque>
+      <id>normavigesimasegunda</id>
+      <titulo>Norma vigésima segunda</titulo>
+      <fecha_actualizacion>20160209</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/normavigesimasegunda</url>
+    </bloque>
+    <bloque>
+      <id>dd</id>
+      <titulo>Disposición derogatoria</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/dd</url>
+    </bloque>
+    <bloque>
+      <id>dfunica</id>
+      <titulo>Disposición final única</titulo>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/dfunica</url>
+    </bloque>
+    <bloque>
+      <id>firma</id>
+      <titulo/>
+      <fecha_actualizacion>20140205</fecha_actualizacion>
+      <url>https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2014-1183/texto/bloque/firma</url>
+    </bloque>
+  </data>
+</response>

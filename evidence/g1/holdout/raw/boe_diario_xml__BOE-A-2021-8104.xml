@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251220155601">
+  <metadatos>
+    <identificador>BOE-A-2021-8104</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20210513</fecha_disposicion>
+    <numero_oficial>3/2021</numero_oficial>
+    <titulo>Circular 3/2021, de 13 de mayo, del Banco de España, por la que se modifica en lo que respecta a la definición del tipo de interés de referencia basado en el Euro short-term rate (€STR) la Circular 5/2012, de 27 de junio, a entidades de crédito y proveedores de servicios de pago, sobre transparencia de los servicios bancarios y responsabilidad en la concesión de préstamos.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20210517</fecha_publicacion>
+    <diario_numero>117</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>58395</pagina_inicial>
+    <pagina_final>58397</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2021/05/17/pdfs/BOE-A-2021-8104.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2021-8104</url_epub>
+    </url_epub>
+    <url_pdf_catalan>/boe_catalan/dias/2021/05/17/pdfs/BOE-A-2021-8104-C.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego>/boe_gallego/dias/2021/05/17/pdfs/BOE-A-2021-8104-G.pdf</url_pdf_gallego>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20210518</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2021/05/13/3</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2021/05/13/3">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2021-8104</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-13</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/441"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1624"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4012"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4505"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5680"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2021/05/13/3/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2021-8104</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-13</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/441"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1624"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4012"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4505"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5680"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2021/05/13/3"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2021, de 13 de mayo, del Banco de España, por la que se modifica en lo que respecta a la definición del tipo de interés de referencia basado en el Euro short-term rate (STR) la Circular 5/2012, de 27 de junio, a entidades de crédito y proveedores de servicios de pago, sobre transparencia de los servicios bancarios y responsabilidad en la concesión de préstamos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-17</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2021/05/13/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2021, de 13 de maig, del Banc d'Espanya, per la qual es modifica pel que fa a la definició del tipus d'interès de referència basat en l'Euro short-term rate (STR) la Circular 5/2012, de 27 de juny, a entitats de crèdit i proveïdors de serveis de pagament, sobre transparència dels serveis bancaris i responsabilitat en la concessió de préstecs.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-17</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2021/05/13/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/glg">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2021, do 13 de maio, do Banco de España, pola que se modifica no que respecta á definición do tipo de xuro de referencia baseado no Euro short-term rate (STR) a Circular 5/2012, do 27 de xuño, a entidades de crédito e provedores de servizos de pagamento, sobre transparencia dos servizos bancarios e responsabilidade na concesión de préstamos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-17</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2021/05/13/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/glg/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2021/05/13/3/dof/glg"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="441" orden="">Banco Central Europeo</materia>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="1624" orden="">Consumidores y usuarios</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="4012" orden="">Hipoteca</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="4505" orden="">Intereses</materia>
+      <materia codigo="5680" orden="">Préstamos</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2012-9058" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>el anejo 8.6 de la Circular 5/2021, de 27 de junio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2011-17015" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>el art. 27 de la Orden EHA/2899/2011, de 28 de octubre</texto>
+        </anterior>
+        <anterior referencia="DOUE-L-2021-80428" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Orientación (UE) 2021/565, de 17 de marzo</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="106" orden="">Consumidores y usuarios</alerta>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="centro_redonda">I</p>
+    <p class="parrafo_2">El objetivo principal de la presente circular es adaptar la definición del índice basado en el <em>Euro short-term rate</em> (€STR), a efectos de su consideración como tipo oficial, recogida en el anejo 8, apartado sexto, de la Circular 5/2012, de 27 de junio, a entidades de crédito y proveedores de servicios de pago, sobre transparencia de los servicios bancarios y responsabilidad en la concesión de préstamos, tras la publicación de la Orientación (UE) 2021/565 del Banco Central Europeo, de 17 de marzo de 2021, por la que se modifica la Orientación (UE) 2019/1265, sobre el tipo de interés a corto plazo del euro (€STR) (BCE/2021/10), por la que se establecen la elaboración y la publicación diaria, a partir del 15 de abril de 2021, de los tipos medios compuestos basados en el €STR.</p>
+    <p class="centro_redonda">II</p>
+    <p class="parrafo_2">Tras la modificación introducida por la Orden ETD/699/2020, de 24 de julio, de regulación del crédito revolvente, en el artículo 27 de la Orden EHA/2899/2011, de 28 de octubre, de transparencia y protección del cliente de servicios bancarios, ese precepto incluye en su apartado 1.f), entre los índices de referencia considerados tipos de interés oficiales, el «Tipo de interés de referencia basado en el<em> Euro short-term rate </em>(€STR)», habilitando esta orden al Banco de España para establecer la definición y el proceso de determinación de los tipos de interés oficiales [disposición final tercera, apartado 2.a)].</p>
+    <p class="parrafo">La Circular del Banco de España 1/2021, de 28 de enero, modificó la Circular 5/2012 para establecer, entre otras cuestiones, la definición, a efectos de su consideración como tipo oficial, del tipo de interés de referencia basado en el €STR, que se recoge en el apartado sexto del anejo 8 de dicha circular como «el tipo de interés a distintos plazos que el Banco Central Europeo elabora basado en el tipo de interés <em>Euro short-term rate</em> (€STR) y publica a través de su <em>Statistical Data Warehouse</em> (SDW), o en cualquier otro medio por el que difunda dicha información».</p>
+    <p class="parrafo">Como se explicaba en la exposición de motivos de la Circular 1/2021, de 28 de enero, en el momento de su publicación, el BCE, en su condición de administrador de ese índice, estaba finalizando la elaboración de un índice a distintos plazos basado en el €STR, que preveía publicar, siendo dicho índice a diferentes plazos el que adquiriría, una vez que el BCE comenzase su publicación, la consideración de tipo oficial de referencia basado en el €STR, al que se refiere el artículo 27.1.f) de la Orden EHA/2899/2011, de 28 de octubre.</p>
+    <p class="parrafo">A estos efectos, según ha hecho público el BCE en la Orientación BCE/2021/10, dicho índice a diferentes plazos basado en el €STR comenzará a publicarse a partir del 15 de abril.</p>
+    <p class="parrafo">La Orientación BCE/2021/10 describe la metodología utilizada por el BCE en el cálculo de los tipos compuestos basados en el €STR, determinando para el cálculo de estos tipos compuestos la utilización de la información histórica de los valores diarios del €STR y su obtención como la media de los datos observados del €STR a lo largo de un intervalo de tiempo, cuya amplitud es coincidente con los respectivos plazos (una semana, un mes, tres meses, seis meses y doce meses) para los que son calculados.</p>
+    <p class="parrafo">Dado que el BCE ha establecido en su Orientación BCE/2021/10 una difusión diaria del índice €STR en sus distintos plazos, se considera procedente que el tipo oficial basado en el índice €STR se defina por referencia al dato diario correspondiente al último día hábil del mes, según el calendario de TARGET2, para cada uno de los distintos plazos difundidos por el BCE, al considerarse la opción más adecuada por razones de sencillez y utilidad para el mercado.</p>
+    <p class="centro_redonda">III</p>
+    <p class="parrafo_2">La presente circular consta de una norma única y de una disposición final.</p>
+    <p class="parrafo">La norma única recoge la modificación que se propone introducir en la definición del índice €STR prevista en el apartado sexto del anejo 8 de la citada Circular 5/2012, de 27 de junio, tras la publicación de la Orientación BCE/2021/10, donde se recogen los procedimientos de determinación y las normas de difusión de los tipos medios compuestos basados en el €STR.</p>
+    <p class="parrafo">La disposición final única prevé que la presente circular entre en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado»<em>,</em> a fin de que la norma esté en vigor lo antes posible para que el Banco de España proceda a la publicación mensual de los tipos oficiales, tras el inicio de la publicación de tipos medios compuestos basados en el €STR por parte del BCE.</p>
+    <p class="parrafo">En esta circular se da cumplimiento a los principios de necesidad, eficacia, proporcionalidad, seguridad jurídica, transparencia y eficiencia regulados en el artículo 129 de la Ley 39/2015, de 1 de octubre, del procedimiento administrativo común de las Administraciones Públicas, en tanto que con ella se consiguen los fines perseguidos sin imponer cargas innecesarias o accesorias, regulando exclusivamente los aspectos imprescindibles, de forma coherente con el resto del ordenamiento.</p>
+    <p class="parrafo">De conformidad con lo previsto en el artículo 133.4 de la Ley 39/2015, de 1 de octubre, no se ha considerado necesario llevar a cabo un trámite de consulta pública previa, dado que la propuesta normativa no tiene un impacto significativo en la actividad económica, no impone obligaciones relevantes a los destinatarios y se limita a regular aspectos parciales del contenido de la Circular 5/2012, de 27 de junio (en concreto, la definición del tipo de referencia basado en el €STR, que es solo uno de los varios contemplados en el anejo 8 de esa circular); y por cuanto concurren razones de interés público que lo justifican, dada la conveniencia de su entrada en vigor lo antes posible para que el Banco de España proceda a la publicación mensual de los tipos oficiales.</p>
+    <p class="parrafo">Esta circular se ha sometido a los trámites de audiencia e información pública, con objeto de permitir la participación de los sectores afectados y de los ciudadanos en general.</p>
+    <p class="parrafo">En consecuencia, en uso de las facultades que tiene concedidas, el Consejo de Gobierno del Banco de España, a propuesta de la Comisión Ejecutiva, y de acuerdo con el Consejo de Estado, ha aprobado la presente circular, que contiene la siguiente norma:</p>
+    <p class="articulo">Norma única. Modificación de la Circular 5/2012, de 27 de junio, a entidades de crédito y proveedores de servicios de pago, sobre transparencia de los servicios bancarios y responsabilidad en la concesión de préstamos.</p>
+    <p class="parrafo">Se introduce la siguiente modificación en el apartado 6 del anejo 8, sobre «Tipos de interés oficiales de referencia del mercado hipotecario: definición y proceso de determinación», de la Circular 5/2012, de 27 de junio, que queda redactado en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«6. Tipo de interés de referencia basado en el <em>Euro short-term rate</em> (€STR).</p>
+      <p class="parrafo_2">Se define como el valor que el último día hábil del mes a efectos de TARGET2 tenga el tipo de interés medio compuesto a distintos plazos (una semana, un mes, tres meses, seis meses y doce meses) que el Banco Central Europeo elabora basado en el tipo de interés <em>Euro short-term rate</em> (€STR) y publica a través de su <em>Statistical Data Warehouse</em> (SDW), o en cualquier otro medio por el que difunda dicha información.»</p>
+    </blockquote>
+    <p class="articulo">Disposición final única. Entrada en vigor.</p>
+    <p class="parrafo">La presente circular entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado»<em>.</em></p>
+    <p class="parrafo_2">Madrid, 13 de mayo de 2021.–El Gobernador del Banco de España, Pablo Hernández de Cos.</p>
+  </texto>
+</documento>

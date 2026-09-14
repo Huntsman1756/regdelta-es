@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<response>
+  <status>
+    <code>200</code>
+    <text>ok</text>
+  </status>
+  <data>
+    <metadatos>
+      <fecha_actualizacion>20251220T151310Z</fecha_actualizacion>
+      <identificador>BOE-A-2022-5524</identificador>
+      <ambito codigo="1">Estatal</ambito>
+      <departamento codigo="1020">Banco de España</departamento>
+      <rango codigo="1390">Circular</rango>
+      <fecha_disposicion>20220330</fecha_disposicion>
+      <numero_oficial>3/2022</numero_oficial>
+      <titulo>Circular 3/2022, de 30 de marzo, del Banco de España, por la que se modifican la Circular 2/2016, de 2 de febrero, a las entidades de crédito, sobre supervisión y solvencia, que completa la adaptación del ordenamiento jurídico español a la Directiva 2013/36/UE y al Reglamento (UE) n.º 575/2013; la Circular 2/2014, de 31 de enero, a las entidades de crédito, sobre el ejercicio de diversas opciones regulatorias contenidas en el Reglamento (UE) n.º 575/2013, del Parlamento Europeo y del Consejo, de 26 de junio de 2013, sobre los requisitos prudenciales de las entidades de crédito y las empresas de inversión, y por el que se modifica el Reglamento (UE) n.º 648/2012; y la Circular 5/2012, de 27 de junio, a entidades de crédito y proveedores de servicios de pago, sobre transparencia de los servicios bancarios y responsabilidad en la concesión de préstamos.</titulo>
+      <diario>Boletín Oficial del Estado</diario>
+      <fecha_publicacion>20220406</fecha_publicacion>
+      <diario_numero>82</diario_numero>
+      <fecha_vigencia>20220407</fecha_vigencia>
+      <estatus_derogacion>N</estatus_derogacion>
+      <estatus_anulacion>N</estatus_anulacion>
+      <vigencia_agotada>N</vigencia_agotada>
+      <estado_consolidacion codigo="3">Finalizado</estado_consolidacion>
+      <url_eli>https://www.boe.es/eli/es/cir/2022/03/30/3</url_eli>
+      <url_html_consolidada>https://www.boe.es/buscar/act.php?id=BOE-A-2022-5524</url_html_consolidada>
+    </metadatos>
+  </data>
+</response>
