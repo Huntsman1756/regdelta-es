@@ -857,6 +857,18 @@ def main() -> int:
         record_attempt({"status": "fail_closed_seal"})
         return 2
 
+    # §32: register the opening record BEFORE the first semantic access
+    if args.split == "SEALED_HOLDOUT":
+        record_attempt({"status": "opened",
+                        "opened_at": started,
+                        "SEAL_sha256":
+                            seal_pre.get("seal_sha256"),
+                        "seal_manifest_sha256":
+                            seal_pre.get("manifest_sha256"),
+                        "seal_aggregate_sha256":
+                            seal_pre.get("aggregate_sha256"),
+                        "seal_artifact_count":
+                            seal_pre.get("artifact_count")})
     try:
         result = run_split(allow, by_url, gold, corpus, four,
                            args.run_id, args.output)
