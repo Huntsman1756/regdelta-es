@@ -1,0 +1,372 @@
+{
+  "dev": {
+    "audit": {
+      "rows": 520,
+      "truth_verdicts": {
+        "PASS": 520
+      }
+    },
+    "bindings": {
+      "verdicts": {
+        "after:BINDING_CORRECT": 172,
+        "after:NO_BINDING_CLAIM": 348,
+        "before:BINDING_CORRECT": 182,
+        "before:NO_BINDING_CLAIM": 338
+      }
+    },
+    "emission": {
+      "relations": 520,
+      "resolution": {
+        "PARTIAL": 117,
+        "RESOLVED": 172,
+        "UNRESOLVED": 231
+      },
+      "target_proven_zero_relation_ops": {
+        "NO_SUBJECT_CANDIDATES": 33,
+        "O2_FAILED": 3
+      }
+    },
+    "failures": {
+      "kind_breakdown": {
+        "ACQUISITION_FAILURE": 1,
+        "AMBIGUOUS_BINDING": 2,
+        "BINDING_NOT_FOUND": 75,
+        "BINDING_NOT_PROVABLE": 465,
+        "CHAIN_DISCONTINUITY": 33,
+        "UNBOUND_SUBJECT": 231
+      },
+      "kind_by_target": {
+        "BOE-A-2005-4749": {
+          "BINDING_NOT_FOUND": 1,
+          "BINDING_NOT_PROVABLE": 8,
+          "UNBOUND_SUBJECT": 4
+        },
+        "BOE-A-2010-15521": {
+          "BINDING_NOT_PROVABLE": 2,
+          "UNBOUND_SUBJECT": 1
+        },
+        "BOE-A-2010-1824": {
+          "AMBIGUOUS_BINDING": 1,
+          "BINDING_NOT_FOUND": 2,
+          "BINDING_NOT_PROVABLE": 4
+        },
+        "BOE-A-2011-2378": {
+          "BINDING_NOT_FOUND": 1,
+          "BINDING_NOT_PROVABLE": 6,
+          "UNBOUND_SUBJECT": 3
+        },
+        "BOE-A-2012-9058": {
+          "BINDING_NOT_FOUND": 10,
+          "BINDING_NOT_PROVABLE": 21,
+          "UNBOUND_SUBJECT": 15
+        },
+        "BOE-A-2013-5720": {
+          "BINDING_NOT_FOUND": 5,
+          "BINDING_NOT_PROVABLE": 126,
+          "CHAIN_DISCONTINUITY": 12,
+          "UNBOUND_SUBJECT": 64
+        },
+        "BOE-A-2013-7467": {
+          "BINDING_NOT_FOUND": 1,
+          "BINDING_NOT_PROVABLE": 2,
+          "UNBOUND_SUBJECT": 1
+        },
+        "BOE-A-2014-1183": {
+          "BINDING_NOT_PROVABLE": 7,
+          "UNBOUND_SUBJECT": 4
+        },
+        "BOE-A-2016-1238": {
+          "BINDING_NOT_FOUND": 1,
+          "BINDING_NOT_PROVABLE": 20,
+          "UNBOUND_SUBJECT": 12
+        },
+        "BOE-A-2016-4356": {
+          "AMBIGUOUS_BINDING": 1,
+          "BINDING_NOT_FOUND": 3,
+          "BINDING_NOT_PROVABLE": 9
+        },
+        "BOE-A-2017-14334": {
+          "ACQUISITION_FAILURE": 1,
+          "BINDING_NOT_FOUND": 50,
+          "BINDING_NOT_PROVABLE": 260,
+          "CHAIN_DISCONTINUITY": 21,
+          "UNBOUND_SUBJECT": 126
+        },
+        "BOE-A-2019-17286": {
+          "BINDING_NOT_FOUND": 1,
+          "UNBOUND_SUBJECT": 1
+        }
+      },
+      "problem_debt": {
+        "evidence-capture (out of oss-recon scope)": 1,
+        "representation-binding-evidence": 773,
+        "version-chains": 33
+      },
+      "total": 807
+    },
+    "lifecycle": {
+      "DELETED": 9,
+      "NOT_APPLICABLE": 75,
+      "PRESENT": 371,
+      "UNKNOWN": 65
+    },
+    "ownership": {
+      "top_unattributed_modifiers": {
+        "BOE-A-2005-4749|BOE-A-2012-4804": 7,
+        "BOE-A-2005-4749|BOE-A-2013-7467": 1,
+        "BOE-A-2005-4749|BOE-A-2014-8654": 1,
+        "BOE-A-2010-12488|BOE-A-2016-1238": 1,
+        "BOE-A-2011-2378|BOE-A-2012-4804": 7,
+        "BOE-A-2011-2378|BOE-A-2014-8654": 1,
+        "BOE-A-2011-2378|BOE-A-2015-13429": 1,
+        "BOE-A-2013-5720|BOE-A-2013-11729": 19,
+        "BOE-A-2013-5720|BOE-A-2016-11483": 9,
+        "BOE-A-2013-5720|BOE-A-2016-4356": 6
+      },
+      "unattributed_by_target": {
+        "BOE-A-2005-4749": 9,
+        "BOE-A-2010-12488": 1,
+        "BOE-A-2011-2378": 10,
+        "BOE-A-2013-5720": 34,
+        "BOE-A-2013-7467": 1,
+        "BOE-A-2014-1183": 1
+      }
+    },
+    "subject_outcomes": {
+      "non_emission_by_target": {
+        "BOE-A-2005-4749": {
+          "O1_FOREIGN_TARGET": 24,
+          "O1_NOT_PROVABLE": 11
+        },
+        "BOE-A-2010-12488": {
+          "NO_SUBJECT_CANDIDATES": 1,
+          "O1_NOT_PROVABLE": 1
+        },
+        "BOE-A-2010-15521": {
+          "O1_FOREIGN_TARGET": 15
+        },
+        "BOE-A-2010-1824": {
+          "NO_SUBJECT_CANDIDATES": 1,
+          "O1_FOREIGN_TARGET": 167
+        },
+        "BOE-A-2011-2378": {
+          "NO_SUBJECT_CANDIDATES": 1,
+          "O1_FOREIGN_TARGET": 31,
+          "O1_NOT_PROVABLE": 12
+        },
+        "BOE-A-2012-3169": {
+          "NO_SUBJECT_CANDIDATES": 6
+        },
+        "BOE-A-2012-9058": {
+          "O1_FOREIGN_TARGET": 60
+        },
+        "BOE-A-2013-5720": {
+          "NO_SUBJECT_CANDIDATES": 10,
+          "O1_AMBIGUOUS": 24,
+          "O1_FOREIGN_TARGET": 459,
+          "O1_NOT_PROVABLE": 15,
+          "O2_NOT_PROVABLE": 3
+        },
+        "BOE-A-2013-7467": {
+          "O1_FOREIGN_TARGET": 19,
+          "O1_NOT_PROVABLE": 1
+        },
+        "BOE-A-2014-1183": {
+          "NO_SUBJECT_CANDIDATES": 6,
+          "O1_FOREIGN_TARGET": 39,
+          "O1_NOT_PROVABLE": 1
+        },
+        "BOE-A-2016-1238": {
+          "NO_SUBJECT_CANDIDATES": 7,
+          "O1_FOREIGN_TARGET": 9
+        },
+        "BOE-A-2017-14334": {
+          "O1_FOREIGN_TARGET": 39
+        },
+        "BOE-A-2019-17286": {
+          "O1_FOREIGN_TARGET": 56
+        },
+        "BOE-A-2021-21220": {
+          "NO_SUBJECT_CANDIDATES": 1
+        }
+      },
+      "o2_by_target": {
+        "BOE-A-2005-4749": {
+          "PROVEN": 16
+        },
+        "BOE-A-2010-12488": {
+          "PROVEN": 1
+        },
+        "BOE-A-2010-15521": {
+          "PROVEN": 1
+        },
+        "BOE-A-2010-1824": {
+          "PROVEN": 6
+        },
+        "BOE-A-2011-2378": {
+          "PROVEN": 11
+        },
+        "BOE-A-2012-9058": {
+          "PROVEN": 21
+        },
+        "BOE-A-2013-5720": {
+          "NOT_PROVABLE": 3,
+          "PROVEN": 110
+        },
+        "BOE-A-2013-7467": {
+          "PROVEN": 3
+        },
+        "BOE-A-2014-1183": {
+          "PROVEN": 18
+        },
+        "BOE-A-2016-1238": {
+          "PROVEN": 28
+        },
+        "BOE-A-2016-4356": {
+          "PROVEN": 10
+        },
+        "BOE-A-2017-14334": {
+          "PROVEN": 292
+        },
+        "BOE-A-2019-17286": {
+          "PROVEN": 3
+        }
+      },
+      "rows": 1539
+    }
+  },
+  "sealed": {
+    "audit": {
+      "rows": 286,
+      "truth_verdicts": {
+        "PASS": 286
+      }
+    },
+    "bindings": {
+      "verdicts": {
+        "after:BINDING_CORRECT": 58,
+        "after:NO_BINDING_CLAIM": 228,
+        "before:BINDING_CORRECT": 14,
+        "before:NO_BINDING_CLAIM": 272
+      }
+    },
+    "emission": {
+      "relations": 286,
+      "resolution": {
+        "PARTIAL": 114,
+        "RESOLVED": 24,
+        "UNRESOLVED": 148
+      },
+      "target_proven_zero_relation_ops": {
+        "NO_SUBJECT_CANDIDATES": 88,
+        "O2_FAILED": 5
+      }
+    },
+    "failures": {
+      "kind_breakdown": {
+        "ACQUISITION_FAILURE": 2,
+        "AMBIGUOUS_BINDING": 2,
+        "BINDING_NOT_FOUND": 95,
+        "BINDING_NOT_PROVABLE": 321,
+        "CHAIN_DISCONTINUITY": 34,
+        "FETCH_ERROR": 1,
+        "UNBOUND_SUBJECT": 148,
+        "disposicion sections present but 0 clauses": 1
+      },
+      "kind_by_target": {
+        "BOE-A-2004-21845": {
+          "BINDING_NOT_FOUND": 90,
+          "BINDING_NOT_PROVABLE": 270,
+          "CHAIN_DISCONTINUITY": 33,
+          "UNBOUND_SUBJECT": 122,
+          "disposicion sections present but 0 clauses": 1
+        },
+        "BOE-A-2008-9915": {
+          "ACQUISITION_FAILURE": 2,
+          "BINDING_NOT_PROVABLE": 20,
+          "CHAIN_DISCONTINUITY": 1,
+          "FETCH_ERROR": 1,
+          "UNBOUND_SUBJECT": 5
+        },
+        "BOE-A-2016-5203": {
+          "AMBIGUOUS_BINDING": 2,
+          "BINDING_NOT_FOUND": 5,
+          "BINDING_NOT_PROVABLE": 30,
+          "UNBOUND_SUBJECT": 21
+        },
+        "BOE-A-2019-15683": {
+          "BINDING_NOT_PROVABLE": 1
+        }
+      },
+      "problem_debt": {
+        "amendment-actions": 1,
+        "evidence-capture (out of oss-recon scope)": 3,
+        "representation-binding-evidence": 566,
+        "version-chains": 34
+      },
+      "total": 604
+    },
+    "lifecycle": {
+      "DELETED": 8,
+      "NOT_APPLICABLE": 57,
+      "PRESENT": 43,
+      "UNKNOWN": 178
+    },
+    "ownership": {
+      "top_unattributed_modifiers": {
+        "BOE-A-2004-21845|BOE-A-2013-11729": 19,
+        "BOE-A-2004-21845|BOE-A-2013-5720": 25,
+        "BOE-A-2004-21845|BOE-A-2016-11483": 9,
+        "BOE-A-2004-21845|BOE-A-2016-1238": 1,
+        "BOE-A-2004-21845|BOE-A-2016-4356": 6,
+        "BOE-A-2004-21845|BOE-A-2017-14334": 44,
+        "BOE-A-2008-9915|BOE-A-2012-14977": 1,
+        "BOE-A-2008-9915|BOE-A-2016-1238": 1
+      },
+      "unattributed_by_target": {
+        "BOE-A-2004-21845": 104,
+        "BOE-A-2008-9915": 2
+      }
+    },
+    "subject_outcomes": {
+      "non_emission_by_target": {
+        "BOE-A-2004-21845": {
+          "NO_SUBJECT_CANDIDATES": 84,
+          "O1_AMBIGUOUS": 24,
+          "O1_FOREIGN_TARGET": 91,
+          "O1_NOT_PROVABLE": 113,
+          "O2_NOT_PROVABLE": 9
+        },
+        "BOE-A-2008-9915": {
+          "NO_SUBJECT_CANDIDATES": 2,
+          "O1_FOREIGN_TARGET": 3,
+          "O1_NOT_PROVABLE": 2,
+          "O2_NOT_PROVABLE": 1
+        },
+        "BOE-A-2016-5203": {
+          "NO_SUBJECT_CANDIDATES": 2
+        },
+        "BOE-A-2019-15683": {
+          "O1_FOREIGN_TARGET": 1
+        }
+      },
+      "o2_by_target": {
+        "BOE-A-2004-21845": {
+          "NOT_PROVABLE": 9,
+          "PROVEN": 244
+        },
+        "BOE-A-2008-9915": {
+          "NOT_PROVABLE": 1,
+          "PROVEN": 13
+        },
+        "BOE-A-2016-5203": {
+          "PROVEN": 28
+        },
+        "BOE-A-2019-15683": {
+          "PROVEN": 1
+        }
+      },
+      "rows": 618
+    }
+  }
+}
