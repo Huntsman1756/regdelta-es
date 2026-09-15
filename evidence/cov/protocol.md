@@ -63,6 +63,9 @@ FALSE_SUBJECT_ATTRIBUTION_COUNT    = 0   (per holdout target)
 FALSE_LOCATOR_DECLARATION_COUNT    = 0   (per holdout target)
 NON_TARGET_STRATUM_VOLUME          ≥ frozen baseline (DEV equivalence)
 TARGET_STRATUM_POSITIVE_ASSERTIONS ≥ preregistered minimum
+TARGET_STRATUM_VOLUME              ≥ frozen baseline (DEV equivalence:
+                                     relations, locator-proven ops,
+                                     leaf accounting = 100%)
 PROTOCOL_INTEGRITY                 = PASS
 ```
 

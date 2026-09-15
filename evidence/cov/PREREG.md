@@ -265,11 +265,18 @@ ordering rule as a deterministic prior to be re-proven per case.
 
 3. MINIMUM IMPROVEMENT on the target stratum
    (CURRENT_OPERATIONAL, DEV equivalence — exact same-corpus
-   comparison):
-     positive_binding_assertions ≥ ceil(354 × 1.25) = 443
-   i.e. ≥ +89 assertions ≥ +25% relative — converts ≥13% of the 684
-   currently-unclaimed CURR (relation, side) slots into proven
-   assertions, far below the addressable debt mass.
+   comparison), with target-stratum anti-abstention floors — the
+   improvement may only come from converting existing/unproven
+   claims into proven bindings, never from shrinking the factual
+   surface:
+
+     positive_binding_assertions ≥ 443   (= ceil(354 × 1.25); ≥ +89
+                                          assertions, ≥ +25%,
+                                          ≥13% of the 684 currently
+                                          unclaimed CURR slots)
+     relations_emitted           ≥ 519
+     locator_proven_ops          ≥ 445
+     leaf_operation_accounting   = 100%
 ```
 
 Statistical floor (frozen before runtime): a capability may not claim
@@ -313,19 +320,25 @@ instrument semantically loaded by the G2.2 sealed run.
 ```text
 eligible   declared_modifier_count ≥ 3 (official posteriores bearing
            MODIFICA|DEROGA|SUPRIME|AÑADE|SUSTITUYE over T)
-rank       declared_modifier_count DESC,
+strata     assigned BEFORE selection via §3 metadata rule
+rank       within each stratum: declared_modifier_count DESC,
            same_date_modifier_cluster_count DESC   (distinct
            publication dates with ≥2 declared modifiers — the EXP-L1
            stress axis),
            sha256("regdelta-cov-v1"|boe_id) ASC
-select     top 4
-scarcity   eligible < 4 → STOP (same rule family as G2.0b; no
-           relaxation after identities are known)
-```
 
-Regime strata of selected targets are assigned by §3 at seal time and
-reported per stratum; selection does not filter by stratum (both
-tracks remain represented if the corpus offers them).
+allocation (75% of holdout power to the operational objective):
+  require ≥ 3 fresh CURRENT_OPERATIONAL eligible targets
+  select   top 3 CURRENT_OPERATIONAL
+  if ≥1 HISTORICAL_PREDECESSOR eligible:
+      select top 1 HISTORICAL_PREDECESSOR
+  else:
+      select top 4th CURRENT_OPERATIONAL
+
+  if CURRENT_OPERATIONAL eligible < 3 → STOP
+  (same rule family as G2.0b; no relaxation after identities are
+  known)
+```
 
 ## 12. Anti-hardcoding & invariants
 
