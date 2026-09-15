@@ -1,0 +1,153 @@
+{
+  "claim": "Subject ownership, locator declaration and structural binding integrity are supported on a fresh sealed BdE corpus enriched for corrigendum propagation and multi-target amendment risk, with measured lifecycle coverage and fail-closed abstention.",
+  "evaluation_head": "4d9b87d08039fce80928e1564fceb77a8244bb87",
+  "false_binding_gate": "PASS",
+  "false_fact_gate": "PASS",
+  "false_locator_declaration_gate": "PASS",
+  "false_subject_attribution_gate": "PASS",
+  "g2_2_verdict": "PASS",
+  "gate": "G2.2",
+  "opened_at": "2026-09-15T02:59:41.490859+00:00",
+  "protocol_integrity": "PASS",
+  "runtime_head": "9dfb6fc03e0f92eba2b6083974019d80df76d822",
+  "src_tree_sha256": "6dd38af07b0b9d5db80a90b2a073f818817319f3",
+  "targets": {
+    "BOE-A-2004-21845": {
+      "false_bindings": 0,
+      "false_facts": 0,
+      "false_locator_declarations": 0,
+      "false_subject_attributions": 0,
+      "gold_modifier_ids": [
+        "BOE-A-2006-11493",
+        "BOE-A-2008-19921",
+        "BOE-A-2009-21183",
+        "BOE-A-2010-11095",
+        "BOE-A-2010-1825",
+        "BOE-A-2010-18686",
+        "BOE-A-2010-20070",
+        "BOE-A-2011-19302",
+        "BOE-A-2012-12293",
+        "BOE-A-2012-3169",
+        "BOE-A-2013-11729",
+        "BOE-A-2013-12918",
+        "BOE-A-2013-5720",
+        "BOE-A-2014-1182",
+        "BOE-A-2014-13365",
+        "BOE-A-2014-8189",
+        "BOE-A-2015-9054",
+        "BOE-A-2015-9107",
+        "BOE-A-2016-11483",
+        "BOE-A-2016-1238",
+        "BOE-A-2016-4356",
+        "BOE-A-2016-5724",
+        "BOE-A-2017-14334"
+      ],
+      "gold_modifiers": 23,
+      "leaf_ops": 438,
+      "o1_distribution": {
+        "AMBIGUOUS": 19,
+        "FOREIGN_TARGET": 81,
+        "NOT_PROVABLE": 85,
+        "TARGET_PROVEN": 253
+      },
+      "o2_distribution": {
+        "NOT_PROVABLE": 9,
+        "PROVEN": 244
+      },
+      "partial": 103,
+      "relations_audited": 244,
+      "relations_emitted": 244,
+      "resolved": 19,
+      "risk_class": "CORRIGENDUM_PROPAGATION_RISK",
+      "subject_candidates": 565,
+      "target_proven_zero_relation_ops": 88,
+      "unresolved": 122
+    },
+    "BOE-A-2008-9915": {
+      "false_bindings": 0,
+      "false_facts": 0,
+      "false_locator_declarations": 0,
+      "false_subject_attributions": 0,
+      "gold_modifier_ids": [
+        "BOE-A-2008-12818",
+        "BOE-A-2009-21183",
+        "BOE-A-2010-20071",
+        "BOE-A-2011-19301",
+        "BOE-A-2012-14977",
+        "BOE-A-2013-10612",
+        "BOE-A-2016-1238"
+      ],
+      "gold_modifiers": 7,
+      "leaf_ops": 20,
+      "o1_distribution": {
+        "FOREIGN_TARGET": 3,
+        "NOT_PROVABLE": 2,
+        "TARGET_PROVEN": 15
+      },
+      "o2_distribution": {
+        "NOT_PROVABLE": 1,
+        "PROVEN": 13
+      },
+      "partial": 7,
+      "relations_audited": 13,
+      "relations_emitted": 13,
+      "resolved": 1,
+      "risk_class": "CORRIGENDUM_PROPAGATION_RISK",
+      "subject_candidates": 21,
+      "target_proven_zero_relation_ops": 3,
+      "unresolved": 5
+    },
+    "BOE-A-2016-5203": {
+      "false_bindings": 0,
+      "false_facts": 0,
+      "false_locator_declarations": 0,
+      "false_subject_attributions": 0,
+      "gold_modifier_ids": [
+        "BOE-A-2016-5532",
+        "BOE-A-2018-1749"
+      ],
+      "gold_modifiers": 2,
+      "leaf_ops": 24,
+      "o1_distribution": {
+        "TARGET_PROVEN": 24
+      },
+      "o2_distribution": {
+        "PROVEN": 28
+      },
+      "partial": 3,
+      "relations_audited": 28,
+      "relations_emitted": 28,
+      "resolved": 4,
+      "risk_class": "MULTI_TARGET_MODIFIER",
+      "subject_candidates": 30,
+      "target_proven_zero_relation_ops": 2,
+      "unresolved": 21
+    },
+    "BOE-A-2019-15683": {
+      "false_bindings": 0,
+      "false_facts": 0,
+      "false_locator_declarations": 0,
+      "false_subject_attributions": 0,
+      "gold_modifier_ids": [
+        "BOE-A-2022-1718"
+      ],
+      "gold_modifiers": 1,
+      "leaf_ops": 2,
+      "o1_distribution": {
+        "FOREIGN_TARGET": 1,
+        "TARGET_PROVEN": 1
+      },
+      "o2_distribution": {
+        "PROVEN": 1
+      },
+      "partial": 1,
+      "relations_audited": 1,
+      "relations_emitted": 1,
+      "resolved": 0,
+      "risk_class": "MULTI_TARGET_MODIFIER",
+      "subject_candidates": 2,
+      "target_proven_zero_relation_ops": 0,
+      "unresolved": 0
+    }
+  }
+}
