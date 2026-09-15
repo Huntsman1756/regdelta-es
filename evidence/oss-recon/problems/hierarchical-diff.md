@@ -17,10 +17,12 @@ rather than flat text diff.
 
 ## Candidates
 
-- `projects/words-to-data.md` — version comparison over
-  hierarchical trees (a core feature, Rust core + Python bindings)
+- `projects/words-to-data.md` — evaluated Batch 1: PATTERN;
+  `Redesignations`/`TreeDiff` pairing is a PORT candidate gated on
+  its falsification experiment
 - `projects/leos.md` — comparison of legislation in production
-- `projects/indigo.md` — expression diffing for consolidation
+- `projects/indigo.md` — evaluated Batch 1: PATTERN; uses patched
+  `xmldiff` with attribute-ignore
 
 ## Open question
 

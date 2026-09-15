@@ -17,8 +17,9 @@ corrigenda, and gaps — so point-in-time state is provable.
 
 ## Candidates
 
-- `projects/indigo.md` — point-in-time consolidation, expression
-  versioning (declared production/stable)
+- `projects/indigo.md` — evaluated Batch 1: PATTERN; strongest
+  lifecycle prior art (work/expression/amendment edges,
+  commencements), human-curated evidence model
 - `projects/leos.md` — versioning and comparison at EU scale
 - `projects/legaldocml-akn.md` — FRBR work/expression/manifestation
   temporal model

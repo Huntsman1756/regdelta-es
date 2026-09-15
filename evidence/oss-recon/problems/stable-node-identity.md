@@ -24,7 +24,8 @@ first without touching the second.
 
 ## Candidates
 
-- `projects/words-to-data.md` — USLM-based stable identifiers
+- `projects/words-to-data.md` — evaluated Batch 1: PATTERN;
+  redesignation-edge continuity is the reference model
 - `projects/legaldocml-akn.md` — AKN `eId` / FRBR URIs / ELI
 - `projects/leos.md` — AKN4EU identity in production versioning
 - `projects/akn-pt.md` — national profile applying eId/ELI/FRBR

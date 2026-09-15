@@ -19,8 +19,10 @@ problems; every project verdict is evaluated per problem context.
 
 ## Status
 
-`PENDING` everywhere. No verdicts have been emitted. A verdict is
-recorded only after the ficha is complete, including a pre-registered
+Batch 1 (2026-09-15): `words-to-data` = PATTERN (PORT candidate for
+the redesignation-pairing algorithm, gated on its §8 experiment);
+`indigo` = PATTERN. All other verdicts PENDING. A verdict is recorded
+only after the ficha is complete, including a pre-registered
 falsification experiment where required.
 
 ## Flow into gates
