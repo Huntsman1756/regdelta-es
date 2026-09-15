@@ -1,0 +1,1436 @@
+{
+  "cases": [
+    {
+      "failure_id": "186ee4776d244319a600b7f4aa20014b6d269f2fdb43ad133dd4aebb859de356",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "operation_verb_consistent",
+        "target_locator_resolves"
+      ],
+      "old_relation_id": "186ee4776d244319a600b7f4aa20014b6d269f2fdb43ad133dd4aebb859de356",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:1",
+        "modifier": "BOE-A-2013-11729",
+        "operation_kind": "DELETE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "289499d8f249107109c05f1a745697426cdf099b9c99ca1e9d0bbc209a23b611",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "289499d8f249107109c05f1a745697426cdf099b9c99ca1e9d0bbc209a23b611",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2013-11729",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "38870d14d76321a6800aa552b04d90da3c10e3060c3471a0a94dcf8b22e84803",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "38870d14d76321a6800aa552b04d90da3c10e3060c3471a0a94dcf8b22e84803",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2013-11729",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "472f8d689669c21df25d96529c031fabf0ccbe715b179bb132dcf0a9ce6a3814",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "472f8d689669c21df25d96529c031fabf0ccbe715b179bb132dcf0a9ce6a3814",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "disp:transitoria.primera",
+        "modifier": "BOE-A-2013-11729",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "592765710b6976053e8a82dd2fe3dea244ae3d6d4686f82761743e02aafad1cb",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "operation_verb_consistent",
+        "target_locator_resolves"
+      ],
+      "old_relation_id": "592765710b6976053e8a82dd2fe3dea244ae3d6d4686f82761743e02aafad1cb",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:14.apartado:3.letra:b",
+        "modifier": "BOE-A-2013-11729",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "5cd185e3ea846d7b572edd576c000595755554699424b7ff94623417c3e970fd",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "5cd185e3ea846d7b572edd576c000595755554699424b7ff94623417c3e970fd",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2013-11729",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "788e9da0295899350a5ee7a008d5d04c28bfd66ca2b504bd0405dfb5556000da",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "788e9da0295899350a5ee7a008d5d04c28bfd66ca2b504bd0405dfb5556000da",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2013-11729",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "9a43192e3b10475ab8c381b3fd2a835831feb6a4813b7354fcd57bc368b889e0",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "operation_verb_consistent",
+        "before_binding"
+      ],
+      "old_relation_id": "9a43192e3b10475ab8c381b3fd2a835831feb6a4813b7354fcd57bc368b889e0",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2013-11729",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "b9a7a306921b99652e98d4bde3fcf8fa67a2d3a5818b73dfe789e8ee4e917b1f",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "b9a7a306921b99652e98d4bde3fcf8fa67a2d3a5818b73dfe789e8ee4e917b1f",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2013-11729",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "f14c41924fdd9782d96c9d041f246a7bcb2c41a7d649def279c8df242d21a785",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "operation_verb_consistent",
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "f14c41924fdd9782d96c9d041f246a7bcb2c41a7d649def279c8df242d21a785",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2013-11729",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "1bb6858eda1d93c1b70b8f1103afebe3064e06c103138a6876296e03ab091b0c",
+      "matched_relations": 12,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "1bb6858eda1d93c1b70b8f1103afebe3064e06c103138a6876296e03ab091b0c",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "225d95003d5e805c3518c00ee7b54976da46a12e1e095eeffda4d502ec7c38e0",
+      "matched_relations": 11,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "225d95003d5e805c3518c00ee7b54976da46a12e1e095eeffda4d502ec7c38e0",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "22f961cb4983ef50fa4e106b1de3b9ffe87f48e84da096077be93012dc7912e2",
+      "matched_relations": 12,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "22f961cb4983ef50fa4e106b1de3b9ffe87f48e84da096077be93012dc7912e2",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "298fa29a9ea9982c1ef84fc971763abc901fb7397887a0bb851ca2395f21c35c",
+      "matched_relations": 11,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "298fa29a9ea9982c1ef84fc971763abc901fb7397887a0bb851ca2395f21c35c",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "2cb941e6739192f47985bfa6d55a4cc120a3cf4537e3333257d329c89d1411f1",
+      "matched_relations": 11,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "2cb941e6739192f47985bfa6d55a4cc120a3cf4537e3333257d329c89d1411f1",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "36d04635870176d5e2dbe9644488fb33d7a73953aa56d2a0e45c5c5a847a2e16",
+      "matched_relations": 12,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "36d04635870176d5e2dbe9644488fb33d7a73953aa56d2a0e45c5c5a847a2e16",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "3e2cdb531807553bb82f6acde8f73894b939fc7dd5c286655d5a432be26e8cb1",
+      "matched_relations": 11,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "3e2cdb531807553bb82f6acde8f73894b939fc7dd5c286655d5a432be26e8cb1",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "474282e82099ca08d301a0ccbbbef8afee7710534e94298c05367940df091b88",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves"
+      ],
+      "old_relation_id": "474282e82099ca08d301a0ccbbbef8afee7710534e94298c05367940df091b88",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:1",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "64cbac39884edb25601c24370995de78bedb1982309c743613d7cf50d28d4f83",
+      "matched_relations": 11,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "64cbac39884edb25601c24370995de78bedb1982309c743613d7cf50d28d4f83",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "6c9bddbd1c09fff650d364b313b51069f8042ce5f0a2bd034ea2a6470b06dc2e",
+      "matched_relations": 12,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "6c9bddbd1c09fff650d364b313b51069f8042ce5f0a2bd034ea2a6470b06dc2e",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "72a7330cfca217a91481c2b13b2f6fbfdbff9887ae1d9ea821679a7df522f553",
+      "matched_relations": 12,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "72a7330cfca217a91481c2b13b2f6fbfdbff9887ae1d9ea821679a7df522f553",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "75b247d7e6d089b796bf4e5379de8748804f399da7f83dcf028c20e928df3678",
+      "matched_relations": 11,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "operation_verb_consistent"
+      ],
+      "old_relation_id": "75b247d7e6d089b796bf4e5379de8748804f399da7f83dcf028c20e928df3678",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "7a79a1eda8ad3818734f7f483fafae9c33421422d5cc1a76f09079318b9b88eb",
+      "matched_relations": 12,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "7a79a1eda8ad3818734f7f483fafae9c33421422d5cc1a76f09079318b9b88eb",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "7b6d4f5ababccee40f2454de071dadedab0a9f9b61963702e86f16925cf9aec2",
+      "matched_relations": 11,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "7b6d4f5ababccee40f2454de071dadedab0a9f9b61963702e86f16925cf9aec2",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "8b54b5a1e608a6bccf86c7f556b902561bce94e44e43387db97e213528549d93",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves"
+      ],
+      "old_relation_id": "8b54b5a1e608a6bccf86c7f556b902561bce94e44e43387db97e213528549d93",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:1",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "a0c124794f8965ffb7b318414b1f0e8464166c16b140016785f8e79a6cf0dc63",
+      "matched_relations": 12,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "a0c124794f8965ffb7b318414b1f0e8464166c16b140016785f8e79a6cf0dc63",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "af63714acb3eb138b463dee6d702b692398ca4262e9863dceca87079970a3050",
+      "matched_relations": 12,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "af63714acb3eb138b463dee6d702b692398ca4262e9863dceca87079970a3050",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "b5b48e4a7538e0dff0f1ff0ef0069fd00b78cbe44ef6be68003412798df3e592",
+      "matched_relations": 3,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "b5b48e4a7538e0dff0f1ff0ef0069fd00b78cbe44ef6be68003412798df3e592",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "c8aad7a260d97cd0ac3d23f8b09dba0c0e19d437e324a71e9a531ce70173e86f",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "c8aad7a260d97cd0ac3d23f8b09dba0c0e19d437e324a71e9a531ce70173e86f",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:11.apartado:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "dd1f0b1261a8748b565616e8d6b4833001da2979da78ae5ac48023a398ce65bc",
+      "matched_relations": 12,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "dd1f0b1261a8748b565616e8d6b4833001da2979da78ae5ac48023a398ce65bc",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "e27e12277e7f700aeab427725c1bf55673e686f2ae7e303b4eefa328295f8f5d",
+      "matched_relations": 11,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "e27e12277e7f700aeab427725c1bf55673e686f2ae7e303b4eefa328295f8f5d",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "ef338c382d699c7ffc26d42c7b2dc4aaa4590047548b62139bfead5628048068",
+      "matched_relations": 12,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "ef338c382d699c7ffc26d42c7b2dc4aaa4590047548b62139bfead5628048068",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "f313a9e44bde1c838efe49f15770177e71a5140f10e12460abe03bab2a9d82d1",
+      "matched_relations": 2,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "f313a9e44bde1c838efe49f15770177e71a5140f10e12460abe03bab2a9d82d1",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2014-13365",
+        "operation_kind": "DELETE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "9ec39c4e85eddafcc233d1f1b1faa05e672fcfb6b3f66340064fcc7f96a566af",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "target_locator_resolves"
+      ],
+      "old_relation_id": "9ec39c4e85eddafcc233d1f1b1faa05e672fcfb6b3f66340064fcc7f96a566af",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:1",
+        "modifier": "BOE-A-2016-4356",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "0f08d688361446761ff308d0cde4224de215891a4d8128ceb5f29e296e94da4d",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "0f08d688361446761ff308d0cde4224de215891a4d8128ceb5f29e296e94da4d",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:2",
+        "modifier": "BOE-A-2017-7985",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "1550be13cfd74148b33837d6690a421851eb146b308522ff9324980f1628969e",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves",
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "1550be13cfd74148b33837d6690a421851eb146b308522ff9324980f1628969e",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:17",
+        "modifier": "BOE-A-2017-7985",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "2f6cfd95ccaec73366993c84d9917fa8a2d96de9afcd25e06dcd45fd8e6f19f0",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "2f6cfd95ccaec73366993c84d9917fa8a2d96de9afcd25e06dcd45fd8e6f19f0",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:7",
+        "modifier": "BOE-A-2017-7985",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "5527874d20f66e76eba28cc891f9be70160ad29529582fc65818e4595b5cfd12",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "5527874d20f66e76eba28cc891f9be70160ad29529582fc65818e4595b5cfd12",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:12",
+        "modifier": "BOE-A-2017-7985",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "96afb0a397c2fec930a25d0bc535c653b3e7f15eb2528a1b2bba9c3ec364d0c3",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves",
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "96afb0a397c2fec930a25d0bc535c653b3e7f15eb2528a1b2bba9c3ec364d0c3",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:14",
+        "modifier": "BOE-A-2017-7985",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "cbc9586a3d1aef533d2c7c874cb936c96e280e07e63b13b97890db076f8f91d4",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "cbc9586a3d1aef533d2c7c874cb936c96e280e07e63b13b97890db076f8f91d4",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:9",
+        "modifier": "BOE-A-2017-7985",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "ee2e82a5f24a4029de43d526f3c8deacb6e86887d57f8b37a47ee483581317b8",
+      "matched_relations": 0,
+      "new_root_cause_class": null,
+      "new_truth_verdict": null,
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "ee2e82a5f24a4029de43d526f3c8deacb6e86887d57f8b37a47ee483581317b8",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:11",
+        "modifier": "BOE-A-2017-7985",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "02b3a3ccff17e0e70cd551fce6b4feb900e671a5021608ac6f22319b5a905a1e",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "02b3a3ccff17e0e70cd551fce6b4feb900e671a5021608ac6f22319b5a905a1e",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "26358384007162431d3d222ff11bccdf4bb33a0466897fe0e87a718c2fa4727d",
+      "matched_relations": 4,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "26358384007162431d3d222ff11bccdf4bb33a0466897fe0e87a718c2fa4727d",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "30dfbc8a992b4256d7992dfef7f13eb4384f0c16a3083c696ec644a60920f639",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves"
+      ],
+      "old_relation_id": "30dfbc8a992b4256d7992dfef7f13eb4384f0c16a3083c696ec644a60920f639",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:3.apartado:7.letra:l",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "37c43306240948587336a2261488efdd947a090ae8f048bff4e75bf8e47276e6",
+      "matched_relations": 9,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "37c43306240948587336a2261488efdd947a090ae8f048bff4e75bf8e47276e6",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "5cda729960430dff0973120d3e77d5b73f4a4353c0b1d1c4664adaf4d41da23f",
+      "matched_relations": 9,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "5cda729960430dff0973120d3e77d5b73f4a4353c0b1d1c4664adaf4d41da23f",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "5ddfa166e97d8ae3bebb57b0be76b8e35116a6fa88a9ac2eb9ae575679cc2c07",
+      "matched_relations": 9,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "5ddfa166e97d8ae3bebb57b0be76b8e35116a6fa88a9ac2eb9ae575679cc2c07",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "648c56c6d7bc92897c0a89c966fab82eba967313a16f9352826a9c24ee1ef30c",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "648c56c6d7bc92897c0a89c966fab82eba967313a16f9352826a9c24ee1ef30c",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:11",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "DELETE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "765a1ba82334e03349b183ed435f9f9939f42e855f9840ca27f6806fa5ad24f1",
+      "matched_relations": 9,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "765a1ba82334e03349b183ed435f9f9939f42e855f9840ca27f6806fa5ad24f1",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "8e8852626a18b299b0d13fb8b50c69f0acab840a7451876cb10459f1068314ea",
+      "matched_relations": 9,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "8e8852626a18b299b0d13fb8b50c69f0acab840a7451876cb10459f1068314ea",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "b108355f91e7b0fd45b332b1dc3d1ad84e808fc1c900eda3c511209d9675cdef",
+      "matched_relations": 9,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "b108355f91e7b0fd45b332b1dc3d1ad84e808fc1c900eda3c511209d9675cdef",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "b8ab8fbc66eca5338a253d75383525e610d340c22b9e1cfa86ac9cb2477c14d7",
+      "matched_relations": 9,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "b8ab8fbc66eca5338a253d75383525e610d340c22b9e1cfa86ac9cb2477c14d7",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "ba5d2ce0c0d86f32fd51a8661cc83572372e0f03582e177c48753a025d77cee8",
+      "matched_relations": 3,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves",
+        "before_binding"
+      ],
+      "old_relation_id": "ba5d2ce0c0d86f32fd51a8661cc83572372e0f03582e177c48753a025d77cee8",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:1",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "babf4abadb9365ddf97de9a52011154f8843698dd8cd8614e191debd0acfe59d",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves"
+      ],
+      "old_relation_id": "babf4abadb9365ddf97de9a52011154f8843698dd8cd8614e191debd0acfe59d",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:15.apartado:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "c30d3044ae1255be1446319998bea07897e547906a343663eb84f403e73edb2b",
+      "matched_relations": 4,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "c30d3044ae1255be1446319998bea07897e547906a343663eb84f403e73edb2b",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "dfa4fd4f2dae439aa744d06412332ac415c9692b907beb2db7e5ebcf56852c84",
+      "matched_relations": 3,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves",
+        "after_binding"
+      ],
+      "old_relation_id": "dfa4fd4f2dae439aa744d06412332ac415c9692b907beb2db7e5ebcf56852c84",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:1",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "e7dd66e1790720eebe8ed280413dafd35ae009256e6171dbdd43e158c737ebf7",
+      "matched_relations": 4,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "e7dd66e1790720eebe8ed280413dafd35ae009256e6171dbdd43e158c737ebf7",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "f0afe0c340e63a5bcae32bbbb17bb90bf2abaf17e49f455c85366543ab1ae664",
+      "matched_relations": 9,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "f0afe0c340e63a5bcae32bbbb17bb90bf2abaf17e49f455c85366543ab1ae664",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "f525d34abfbc747e918483308f0a06cb79490c313b2c6c3e9c27fb944740ead0",
+      "matched_relations": 3,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves",
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "f525d34abfbc747e918483308f0a06cb79490c313b2c6c3e9c27fb944740ead0",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:1",
+        "modifier": "BOE-A-2018-17880",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "3ee0d25006bf60ff5bd0c9abbcb15c80ed1f5dfa028233b263f817d94e7ccf52",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves",
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "3ee0d25006bf60ff5bd0c9abbcb15c80ed1f5dfa028233b263f817d94e7ccf52",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:16",
+        "modifier": "BOE-A-2020-1653",
+        "operation_kind": "SUBSTITUTE",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "4b39d86f0b2d9ad800f8d9c4a9344f5687f36b8baa348ab3acb5adfd17e34b09",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves"
+      ],
+      "old_relation_id": "4b39d86f0b2d9ad800f8d9c4a9344f5687f36b8baa348ab3acb5adfd17e34b09",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:14.apartado:1",
+        "modifier": "BOE-A-2020-1653",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "67c15fa0123f9dd9293a36cd90b93a0f4ea8b83baf184987106ffbcb690bef30",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves",
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "67c15fa0123f9dd9293a36cd90b93a0f4ea8b83baf184987106ffbcb690bef30",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:16",
+        "modifier": "BOE-A-2020-1653",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "a42221d926a9b696e19f690d2bc7d4cb458f5a7c6a998b8ed23da2222dba733d",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "operation_verb_consistent"
+      ],
+      "old_relation_id": "a42221d926a9b696e19f690d2bc7d4cb458f5a7c6a998b8ed23da2222dba733d",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:5.apartado:4",
+        "modifier": "BOE-A-2020-1653",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "b4b97d322ddd2613acdab141b9748a7cd0d6776496279888c2ab50ee9490498b",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding",
+        "after_binding"
+      ],
+      "old_relation_id": "b4b97d322ddd2613acdab141b9748a7cd0d6776496279888c2ab50ee9490498b",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:13",
+        "modifier": "BOE-A-2020-1653",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "d71790b20ef0bd50c4caf1924d0275675c38bf65c47b2e241264cc3635806a85",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "d71790b20ef0bd50c4caf1924d0275675c38bf65c47b2e241264cc3635806a85",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:6.apartado:7",
+        "modifier": "BOE-A-2020-1653",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "7857ae62a75c975ece4d1a0b4454647f3b80c70bbdebaab816ab16f9361b46f9",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "operation_verb_consistent"
+      ],
+      "old_relation_id": "7857ae62a75c975ece4d1a0b4454647f3b80c70bbdebaab816ab16f9361b46f9",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:16.apartado:7",
+        "modifier": "BOE-A-2021-1352",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "9d48299bafba2d6b7024533a1709ba73bef680dab53572f03c5be9b9e3dffeab",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "target_locator_resolves"
+      ],
+      "old_relation_id": "9d48299bafba2d6b7024533a1709ba73bef680dab53572f03c5be9b9e3dffeab",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:13.apartado:1",
+        "modifier": "BOE-A-2021-1352",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "64014a1e20ebbcd02784253f85c4e1424de913574c860d6d33a0252ff8fc3769",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "64014a1e20ebbcd02784253f85c4e1424de913574c860d6d33a0252ff8fc3769",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "anejo:2",
+        "modifier": "BOE-A-2025-26847",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2013-5720"
+      }
+    },
+    {
+      "failure_id": "622532279774c541986931833831e4bad68b13b585e788640be2560301ce53c5",
+      "matched_relations": 2,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "622532279774c541986931833831e4bad68b13b585e788640be2560301ce53c5",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:14",
+        "modifier": "BOE-A-2022-5524",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2016-1238"
+      }
+    },
+    {
+      "failure_id": "64e3245945f718aef82930c941966264327f7cff1ffb9e2c6781bf78eeac25fe",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "64e3245945f718aef82930c941966264327f7cff1ffb9e2c6781bf78eeac25fe",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:1",
+        "modifier": "BOE-A-2022-5524",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2016-1238"
+      }
+    },
+    {
+      "failure_id": "693e6c11328a1bf2d4437996ac06cf7069e89dc837942a610260e23f6f44e72c",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "before_binding"
+      ],
+      "old_relation_id": "693e6c11328a1bf2d4437996ac06cf7069e89dc837942a610260e23f6f44e72c",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:4",
+        "modifier": "BOE-A-2022-5524",
+        "operation_kind": "ADD",
+        "target": "BOE-A-2016-1238"
+      }
+    },
+    {
+      "failure_id": "e2296f244585fdedb873cdc11918d86c1853354b518dc888a7ff0db7f3334749",
+      "matched_relations": 2,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "e2296f244585fdedb873cdc11918d86c1853354b518dc888a7ff0db7f3334749",
+      "old_root_cause_class": null,
+      "outcome": "ALREADY_CORRECT_G0_EVALUATOR_ERROR",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:4",
+        "modifier": "BOE-A-2022-5524",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2016-1238"
+      }
+    },
+    {
+      "failure_id": "b8d9c49d5578d2692a4b82b7e7849313d7efa221e66002df5afc302849967cdf",
+      "matched_relations": 1,
+      "new_root_cause_class": [],
+      "new_truth_verdict": "PASS",
+      "old_claim_types": [
+        "after_binding"
+      ],
+      "old_relation_id": "b8d9c49d5578d2692a4b82b7e7849313d7efa221e66002df5afc302849967cdf",
+      "old_root_cause_class": null,
+      "outcome": "ABSTAINED",
+      "relation_raw_is_metadata": null,
+      "signature": {
+        "locator_key": "norma:62",
+        "modifier": "BOE-A-2023-23052",
+        "operation_kind": "MODIFY",
+        "target": "BOE-A-2016-1238"
+      }
+    }
+  ],
+  "counts": {
+    "ABSTAINED": 61,
+    "ALREADY_CORRECT_G0_EVALUATOR_ERROR": 12
+  },
+  "total": 73
+}

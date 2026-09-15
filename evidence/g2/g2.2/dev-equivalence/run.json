@@ -1,0 +1,94 @@
+{
+  "aggregate": {
+    "applicability_extraction": {
+      "den": 21,
+      "num": 21,
+      "value": 1.0
+    },
+    "chain_reconstruction": {
+      "den": 63,
+      "num": 11,
+      "value": 0.1746031746031746
+    },
+    "declared_modifier_recall": {
+      "den": 62,
+      "num": 62,
+      "value": 1.0
+    },
+    "evaluator_attribution_distribution": {
+      "AMBIGUOUS": 19,
+      "FOREIGN_TARGET": 744,
+      "NOT_PROVABLE": 37,
+      "TARGET_PROVEN": 482
+    },
+    "evaluator_lifecycle_distribution": {
+      "DELETED": 9,
+      "NOT_APPLICABLE": 75,
+      "PRESENT": 371,
+      "UNKNOWN": 65
+    },
+    "false_binding_count": 0,
+    "false_locator_declaration_count": 0,
+    "false_positive_facts": 0,
+    "false_subject_attribution_count": 0,
+    "g1_four_case_reproduction_count": 0,
+    "old_false_fact_reproduction_count": 0,
+    "operation_parsing_rate": {
+      "den": 520,
+      "num": 520,
+      "value": 1.0
+    },
+    "query_execution": {
+      "den": 80,
+      "num": 80,
+      "value": 1.0
+    },
+    "representation_binding": {
+      "den": 520,
+      "num": 172,
+      "value": 0.33076923076923076
+    },
+    "source_limitations": 0
+  },
+  "audit_rows": 520,
+  "combined_ok": true,
+  "dev_equivalence": {
+    "all_identical": true,
+    "files": {
+      "attribution.jsonl": "IDENTICAL",
+      "audit.jsonl": "IDENTICAL",
+      "bindings.jsonl": "IDENTICAL",
+      "corpus-73.json": "IDENTICAL",
+      "failures.jsonl": "IDENTICAL",
+      "four-cases.json": "IDENTICAL",
+      "lifecycle.jsonl": "IDENTICAL",
+      "metrics.json": "IDENTICAL",
+      "operations.jsonl": "IDENTICAL",
+      "relations.jsonl": "IDENTICAL",
+      "targets.json": "IDENTICAL"
+    },
+    "reference": "evidence\\g2\\dev\\runs\\001-g21"
+  },
+  "evaluation_head": "9dfb6fc03e0f92eba2b6083974019d80df76d822",
+  "evaluator_sha256": "721bf06e27f88654af2b07049c15e2e299605f2d0b62a51251f0b916118da46f",
+  "finished_at": "2026-09-15T02:50:07.589899+00:00",
+  "g0g_evaluator_sha256": "99ff575e6968cbd879866a9f9aa9e5db5ec8db97e79080be72a39f969af93dc8",
+  "g1_evaluator_sha256": "255ec0f608edff948f6ce5b2fb036d5159d4a49c5dba2d7823b0ef0e62ff3a6e",
+  "gold_sha256": "c64cf34eae90df1e0bfb3e1a7047fdd32eaf0d338898757b7d3f86d6ff8dc933",
+  "manifest_sha256": "af78fcac1e110e964d98a5900d9f79670768513aad75be75438a3d3c6c5f906e",
+  "run_id": "001-g21",
+  "runner": "evaluate_sealed_g2",
+  "runner_sha256": "c7d06461adb7ab71eea0396b9a62f27cb964537cce588a7167a4bffc7ce40a94",
+  "runner_version": "g2.2-v1",
+  "runtime_head": "9dfb6fc03e0f92eba2b6083974019d80df76d822",
+  "seal_post": {
+    "seal_present": false
+  },
+  "seal_pre": {
+    "seal_present": false
+  },
+  "selection_sha256": "830cc170391e1be2f75bf1296f63859d1feb6277320111aaf7f7e3a31ecc2cf6",
+  "split": "DEV",
+  "src_tree_sha256": "6dd38af07b0b9d5db80a90b2a073f818817319f3",
+  "started_at": "2026-09-15T02:47:03.540471+00:00"
+}
