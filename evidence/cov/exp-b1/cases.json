@@ -1,0 +1,2050 @@
+{
+  "case_count": 85,
+  "cases": [
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "39c4b20fd78433200570766928b533f73878bba0c3e9ce631950fa5e7e67a84b",
+      "edge_status": "NOT_ACTIONABLE_O1_NOT_PROVABLE",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Determinadas operaciones de efectivo"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2012-4804",
+      "new_code": "Operaciones de efectivo",
+      "new_key": "fichero:Operaciones de efectivo",
+      "node_index": 20,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "old_code": "Determinadas operaciones de efectivo",
+      "old_key": "fichero:Determinadas operaciones de efectivo",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2012-04-07",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2005-4749",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "29dec73e5c8e7b46ae90786b7dcb28f01df76a10fa1fe2b8c649dc42cd898c5a",
+      "edge_status": "ACTIONABLE",
+      "emitted_relation_ids": [
+        "d407675c3cea5bc1284c82af79d821b701db98b37e7aaec3f218d71f606fa1fd"
+      ],
+      "ledger_locators": [
+        "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "new_key": "fichero:Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "node_index": 14,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "old_key": "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "outcome": "CONFIRMED",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 1
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2005-4749",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "89e98a01baa533d615819a0164fc37e5f4eb3f51406a3cd381b4cc91c6d845c8",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Servicio de Reclamaciones"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Reclamaciones, quejas y consultas",
+      "new_key": "fichero:Reclamaciones, quejas y consultas",
+      "node_index": 37,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Servicio de Reclamaciones",
+      "old_key": "fichero:Servicio de Reclamaciones",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "UNKNOWN",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2005-4749",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "3a7a747f823874c6ed93c946a0eee2f95e15c58d979ce3bf3eeb7406dbe3f848",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Registro de agentes de entidades de crédito y de pago"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "new_key": "fichero:Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "node_index": 39,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Registro de agentes de entidades de crédito y de pago",
+      "old_key": "fichero:Registro de agentes de entidades de crédito y de pago",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2005-4749",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "NON_STRUCTURAL",
+      "clause_sha256": "5737aa690b1a34cb523a637fab2773bb605d3146e964ac646cb152f27160556d",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "c)",
+      "modifier": "BOE-A-2014-8189",
+      "node_index": 73,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-07-31",
+      "section_targets": [
+        "3/1998"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2010-15521",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "ea04ea016e3b25114c75fc4ad7f181e578944e6ac9c4a8d6f460e76c83766fc5",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "apartado:1"
+      ],
+      "marker": "q)",
+      "modifier": "BOE-A-2014-13365",
+      "new_code": null,
+      "node_index": 622,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "1",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "subject_kind": "apartado",
+      "target": "BOE-A-2010-1824",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "3dee6a79157582ba30651572d2c893ffe4d48049268117df48758b6f7424076e",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:1"
+      ],
+      "marker": "c)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 679,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2010-1824",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "f0dc5895475a624fc2065b5ee35afa1b17e07e4c11a8cdc0e12cd0a4bf6c7cc4",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:1"
+      ],
+      "marker": "e)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 685,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2010-1824",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "49cc7bccf00eab2268b6a2e1a7f30559cf0d0357b19d0d5760892c65fd304f27",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:1"
+      ],
+      "marker": "f)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 686,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2010-1824",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "c214515923d651f05dd54133fbdbed20c1824f4f14a55d69826959013884e61c",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:2"
+      ],
+      "marker": "q)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 838,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2010-1824",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "1ca4c8da5790c9b89f97ed3f780d093e5bc2f47d04dccb7294c4ba7546eac56a",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:2"
+      ],
+      "marker": "cc)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 876,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2010-1824",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "8e518b9c9545c5b53d3da707c0ca43625968bb26391b50c70bd5a63ad8d02681",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:2"
+      ],
+      "marker": "mm)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 903,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2010-1824",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "39c4b20fd78433200570766928b533f73878bba0c3e9ce631950fa5e7e67a84b",
+      "edge_status": "NOT_ACTIONABLE_O1_NOT_PROVABLE",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Determinadas operaciones de efectivo"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2012-4804",
+      "new_code": "Operaciones de efectivo",
+      "new_key": "fichero:Operaciones de efectivo",
+      "node_index": 20,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "old_code": "Determinadas operaciones de efectivo",
+      "old_key": "fichero:Determinadas operaciones de efectivo",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2012-04-07",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "29dec73e5c8e7b46ae90786b7dcb28f01df76a10fa1fe2b8c649dc42cd898c5a",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "new_key": "fichero:Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "node_index": 14,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "old_key": "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "89e98a01baa533d615819a0164fc37e5f4eb3f51406a3cd381b4cc91c6d845c8",
+      "edge_status": "ACTIONABLE",
+      "emitted_relation_ids": [
+        "c5f807519fbb8b2fb727a83fa17ca8ce9baf5fe998d7e7b13f8e53e9d7567740"
+      ],
+      "ledger_locators": [
+        "fichero:Servicio de Reclamaciones"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Reclamaciones, quejas y consultas",
+      "new_key": "fichero:Reclamaciones, quejas y consultas",
+      "node_index": 37,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "Servicio de Reclamaciones",
+      "old_key": "fichero:Servicio de Reclamaciones",
+      "outcome": "CONFIRMED",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 1
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "3a7a747f823874c6ed93c946a0eee2f95e15c58d979ce3bf3eeb7406dbe3f848",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Registro de agentes de entidades de crédito y de pago"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "new_key": "fichero:Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "node_index": 39,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Registro de agentes de entidades de crédito y de pago",
+      "old_key": "fichero:Registro de agentes de entidades de crédito y de pago",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "PRESENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "8b4438030b3fce9fb9b298198beb480bdc57d9f5e2fb35bab37c354de8e3b8bb",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2015-13429",
+      "new_code": "Reg agentes, promotores y comercializadores ent crédito, dinero electrónico y pago",
+      "new_key": "fichero:Reg agentes, promotores y comercializadores ent crédito, dinero electrónico y pago",
+      "node_index": 24,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "old_key": "fichero:Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2015-12-10",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "22b9e43b914fff97433c55b481fb02f3ec08d9700a8966a47aa1a279592e2f9a",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Registro de profesionales vinculados a las sociedades de tasación supervisadas por el Banco de España"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2015-13429",
+      "new_code": "Registro de profesionales vinculados a las sociedades de tasación",
+      "new_key": "fichero:Registro de profesionales vinculados a las sociedades de tasación",
+      "node_index": 26,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Registro de profesionales vinculados a las sociedades de tasación supervisadas por el Banco de España",
+      "old_key": "fichero:Registro de profesionales vinculados a las sociedades de tasación supervisadas por el Banco de España",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2015-12-10",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "PRESENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "eef523973b880e38705f146094b55e81b2da72ff509846c101c8089e885086e8",
+      "emitted_relation_ids": [
+        "190904a36e6778d4d32a3a47b766277a23c8ef06bbbb9fa3e0cdd24005c75859",
+        "2dfb81bcec12f9664cb022aae9c2b0cd27ca42bf0ba6d16c36c6a37c55a4253a",
+        "924b3ca3dbeeefa8798e24c3b02d2416b084da25440ad872d78a0b12c7d15303",
+        "944731571bd7c401bd4965694f95ad46619abb0a94e6eac509610b1ddbf3289e",
+        "f5aa0abb4af8cfef1a59eb24b888707468129bb3637ff0435f88a3223954bade"
+      ],
+      "ledger_locators": [
+        "norma:10.apartado:2.letra:c",
+        "norma:10.apartado:2.letra:d",
+        "norma:10.apartado:2.letra:e",
+        "norma:10.apartado:2.letra:f",
+        "norma:10.apartado:2.letra:y"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2012-12687",
+      "new_code": null,
+      "node_index": 1,
+      "o1_method": "CORRIGENDUM_CORRECTED_INSTRUMENT",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "décima",
+      "publication_date": "2012-10-11",
+      "section_targets": [],
+      "split": "dev",
+      "subject_kind": "norma",
+      "target": "BOE-A-2012-9058",
+      "verb": "pasan a ser"
+    },
+    {
+      "class": "NON_STRUCTURAL",
+      "clause_sha256": "cf88ab32e1ffe78a9bf143c9ed073bc0e2866aff0b93f5a8fee27944323d6df4",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "2.",
+      "modifier": "BOE-A-2015-9107",
+      "node_index": 24,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2015-08-13",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2012-9058",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "b19eb35826ac568f6f326c01ae909dc6872ce27763ab7d8a7ecfb2d69e66edb4",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "5.",
+      "modifier": "BOE-A-2015-9107",
+      "node_index": 73,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2015-08-13",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2012-9058",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "NON_STRUCTURAL",
+      "clause_sha256": "12f918141ac6cfdfdb8b0c65e852f9844f9a5cf3f30c7142f61115faac7b97fd",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "6.",
+      "modifier": "BOE-A-2013-11729",
+      "node_index": 113,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2013-11-09",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "e0134cc466d3f99df0a0ed1686bc1fa682fdaedd6b656e75ab7ca69bd461eff3",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "c)",
+      "modifier": "BOE-A-2013-11729",
+      "node_index": 297,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2013-11-09",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "234160e6105ce5ae26988e611c6400885e50825e4b3e0ea996115bce590a14a0",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "i)",
+      "modifier": "BOE-A-2013-11729",
+      "node_index": 312,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2013-11-09",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "ea04ea016e3b25114c75fc4ad7f181e578944e6ac9c4a8d6f460e76c83766fc5",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "apartado:1"
+      ],
+      "marker": "q)",
+      "modifier": "BOE-A-2014-13365",
+      "new_code": null,
+      "node_index": 622,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "1",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "subject_kind": "apartado",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "3dee6a79157582ba30651572d2c893ffe4d48049268117df48758b6f7424076e",
+      "emitted_relation_ids": [
+        "50b34537cfb885c57b60c7929c522f30348569e659029a0af984b778baf5ab88"
+      ],
+      "ledger_locators": [
+        "anejo:1"
+      ],
+      "marker": "c)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 679,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "f0dc5895475a624fc2065b5ee35afa1b17e07e4c11a8cdc0e12cd0a4bf6c7cc4",
+      "emitted_relation_ids": [
+        "c3e5ea183faffa6b4458886a421585a18e6beefa4c9dcaac0b9893913f5de110"
+      ],
+      "ledger_locators": [
+        "anejo:1"
+      ],
+      "marker": "e)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 685,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "49cc7bccf00eab2268b6a2e1a7f30559cf0d0357b19d0d5760892c65fd304f27",
+      "emitted_relation_ids": [
+        "474282e82099ca08d301a0ccbbbef8afee7710534e94298c05367940df091b88"
+      ],
+      "ledger_locators": [
+        "anejo:1"
+      ],
+      "marker": "f)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 686,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "c214515923d651f05dd54133fbdbed20c1824f4f14a55d69826959013884e61c",
+      "emitted_relation_ids": [
+        "64888d5a78b35977c2157a1a23c0503ed8f9f72195b1427280e353b6014ed2dc"
+      ],
+      "ledger_locators": [
+        "anejo:2"
+      ],
+      "marker": "q)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 838,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "1ca4c8da5790c9b89f97ed3f780d093e5bc2f47d04dccb7294c4ba7546eac56a",
+      "emitted_relation_ids": [
+        "8b87cc5f4e84b66841409b8c727c577b4ed86718a8f8dd65449e4aaa8280c026"
+      ],
+      "ledger_locators": [
+        "anejo:2"
+      ],
+      "marker": "cc)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 876,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "8e518b9c9545c5b53d3da707c0ca43625968bb26391b50c70bd5a63ad8d02681",
+      "emitted_relation_ids": [
+        "fcebde390f1d5d48cc6657bf5f59690ba0f33ccfe2ad66535f393467bb1cbfc0"
+      ],
+      "ledger_locators": [
+        "anejo:2"
+      ],
+      "marker": "mm)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 903,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "NON_STRUCTURAL",
+      "clause_sha256": "cf88ab32e1ffe78a9bf143c9ed073bc0e2866aff0b93f5a8fee27944323d6df4",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "2.",
+      "modifier": "BOE-A-2015-9107",
+      "node_index": 24,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2015-08-13",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "b19eb35826ac568f6f326c01ae909dc6872ce27763ab7d8a7ecfb2d69e66edb4",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "5.",
+      "modifier": "BOE-A-2015-9107",
+      "node_index": 73,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2015-08-13",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "ddb813d11c93bb8b0f2d4e2926481b57ada3d4d72a8c5b0f853999cc61b411db",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "estado:FI 101"
+      ],
+      "marker": "4.",
+      "modifier": "BOE-A-2016-11483",
+      "new_code": null,
+      "node_index": 74,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "FI 101",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "subject_kind": "estado",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "a701ffe7aa7a902283aac4d9a4ef7e7c2e06a687c3079f625abf50e5e1a1b212",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "estado:PI 7-1"
+      ],
+      "marker": "a)",
+      "modifier": "BOE-A-2016-11483",
+      "node_index": 86,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "2937da9465b5288912975f62ea0de833d60b861161b15de8ff687a17e53551d3",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "estado:PC 7-1"
+      ],
+      "marker": "a)",
+      "modifier": "BOE-A-2016-11483",
+      "node_index": 102,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "9a9f3deaf4454d75fd51b7d29e05de8339944d3b3c8c7173a21e052aebdd2c2e",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "estado:FI 16-1",
+        "estado:FI 16-1.2"
+      ],
+      "marker": "d)",
+      "modifier": "BOE-A-2016-11483",
+      "new_code": "FI 16-1.2",
+      "new_key": "estado:FI 16-1.2",
+      "node_index": 123,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "FI 16-1",
+      "old_key": "estado:FI 16-1",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "estado",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "52b359c4aab0427397552def4017108bccbd92782acee3e49e8e65b254c8dd85",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "estado:FI 131-4.2"
+      ],
+      "marker": "i)",
+      "modifier": "BOE-A-2016-11483",
+      "node_index": 138,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "b4c6af65409590a27a44fe3b074abad2276a02a5f2b78b70b0fc70690ebaa281",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "estado:FI 160-4.2"
+      ],
+      "marker": "q)",
+      "modifier": "BOE-A-2016-11483",
+      "node_index": 145,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "0ed434c3cc13ff16819b25237dafe2d746934dbf8c1c65e668e2e1e095ddcddc",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "apartado:15.letra:j",
+        "apartado:15.letra:k"
+      ],
+      "marker": "vi)",
+      "modifier": "BOE-A-2016-4356",
+      "new_code": null,
+      "node_index": 107,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "15",
+      "publication_date": "2016-05-06",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "dev",
+      "subject_kind": "apartado",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "RELABEL_SAME_CODE",
+      "clause_sha256": "5134384a2ea00323455ae3fe84892d5d0c8c831ab6732291084c7a46d0eca030",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "estado:FI 105",
+        "estado:FI 131",
+        "estado:FI 136",
+        "estado:FI 141"
+      ],
+      "marker": "ii)",
+      "modifier": "BOE-A-2025-26847",
+      "new_code": "FI 105",
+      "node_index": 109,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "FI 105",
+      "publication_date": "2025-12-29",
+      "section_targets": [
+        "4/2017"
+      ],
+      "split": "dev",
+      "subject_kind": "estado",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "RELABEL_SAME_CODE",
+      "clause_sha256": "087d8a880a9a10c01f9ae926d200c5da5b9b0d17a006cd3bd548f96b1a19f170",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "estado:FI 105",
+        "estado:FI 105-1",
+        "estado:FI 105-2",
+        "estado:FI 131",
+        "estado:FI 136",
+        "estado:FI 136-1",
+        "estado:FI 136-2",
+        "estado:FI 141"
+      ],
+      "marker": "i)",
+      "modifier": "BOE-A-2025-26847",
+      "new_code": "FI 105",
+      "node_index": 126,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "FI 105",
+      "publication_date": "2025-12-29",
+      "section_targets": [
+        "4/2017"
+      ],
+      "split": "dev",
+      "subject_kind": "estado",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "29dec73e5c8e7b46ae90786b7dcb28f01df76a10fa1fe2b8c649dc42cd898c5a",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "new_key": "fichero:Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "node_index": 14,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "old_key": "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2013-7467",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "89e98a01baa533d615819a0164fc37e5f4eb3f51406a3cd381b4cc91c6d845c8",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Servicio de Reclamaciones"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Reclamaciones, quejas y consultas",
+      "new_key": "fichero:Reclamaciones, quejas y consultas",
+      "node_index": 37,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Servicio de Reclamaciones",
+      "old_key": "fichero:Servicio de Reclamaciones",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2013-7467",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "3a7a747f823874c6ed93c946a0eee2f95e15c58d979ce3bf3eeb7406dbe3f848",
+      "edge_status": "ACTIONABLE",
+      "emitted_relation_ids": [
+        "d665aae96a9b6f51c27aeb314592ac2690183a44cf055af923382365fbc63b70"
+      ],
+      "ledger_locators": [
+        "fichero:Registro de agentes de entidades de crédito y de pago"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "new_key": "fichero:Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "node_index": 39,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "Registro de agentes de entidades de crédito y de pago",
+      "old_key": "fichero:Registro de agentes de entidades de crédito y de pago",
+      "outcome": "CONFIRMED",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 1
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2013-7467",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "NON_STRUCTURAL",
+      "clause_sha256": "5737aa690b1a34cb523a637fab2773bb605d3146e964ac646cb152f27160556d",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "c)",
+      "modifier": "BOE-A-2014-8189",
+      "node_index": 73,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-07-31",
+      "section_targets": [
+        "3/1998"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2014-1183",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "cb8468ce225c3699889e15dd8be0382b2a65f2e97b1bc13e3f55fa23dd7d731a",
+      "emitted_relation_ids": [
+        "bac9a5f3b1066b051d268f884f567f1e4b0c57826bb6d41f3bb7749b88b523c0"
+      ],
+      "ledger_locators": [
+        "estado:FI 131-2.1"
+      ],
+      "marker": "i)",
+      "modifier": "BOE-A-2018-2041",
+      "node_index": 10,
+      "o1_method": "CORRIGENDUM_CORRECTED_INSTRUMENT",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2018-02-15",
+      "section_targets": [],
+      "split": "dev",
+      "target": "BOE-A-2017-14334",
+      "verb": "pasan a ser"
+    },
+    {
+      "class": "RELABEL_SAME_CODE",
+      "clause_sha256": "9902c10a1d0ef1cbb8d8c9ea2762301743a96828f95d601b294a783b2db0e611",
+      "emitted_relation_ids": [
+        "7406ec924fcbb9b96e8ee7780ee3c0d41b00d461dd5731ae2df82e2fff94c363",
+        "7e96acc787dead0ed0bdd8e5f5ab3b96edd4f29b7a29b140ba2281b28db1a387"
+      ],
+      "ledger_locators": [
+        "disp:adicional.primera",
+        "disp:adicional.única"
+      ],
+      "marker": "c)",
+      "modifier": "BOE-A-2020-15602",
+      "new_code": "adicional",
+      "node_index": 240,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "adicional",
+      "publication_date": "2020-12-04",
+      "section_targets": [
+        "4/2017"
+      ],
+      "split": "dev",
+      "subject_kind": "disp",
+      "target": "BOE-A-2017-14334",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "30736b6404cb7867d014f07e5ac7f1d06cab0c6fa325d06b774826353e186067",
+      "emitted_relation_ids": [
+        "468147255a8e57b034dfb91a4f3169b1c4a929dcdfa496e88b56a597a677aaf7"
+      ],
+      "ledger_locators": [
+        "estado:FI 143"
+      ],
+      "marker": "ii)",
+      "modifier": "BOE-A-2020-6186",
+      "new_code": null,
+      "node_index": 56,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "FI 143",
+      "publication_date": "2020-06-16",
+      "section_targets": [
+        "4/2017"
+      ],
+      "split": "dev",
+      "subject_kind": "estado",
+      "target": "BOE-A-2017-14334",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "1bb8b07da53c326a6151a35690428df06e8bcd08dc12f46c7696a592ac85252d",
+      "emitted_relation_ids": [
+        "9e53ebe0cc9e58fb3ea69fb4a4a552059c823a55d93f46e52ae0827c0790e4f7"
+      ],
+      "ledger_locators": [
+        "anejo:9.apartado:II.B.2"
+      ],
+      "marker": "d)",
+      "modifier": "BOE-A-2020-6187",
+      "new_code": null,
+      "node_index": 42,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "II.B.2",
+      "publication_date": "2020-06-16",
+      "section_targets": [
+        "4/2017"
+      ],
+      "split": "dev",
+      "subject_kind": "apartado",
+      "target": "BOE-A-2017-14334",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "RELABEL_SAME_CODE",
+      "clause_sha256": "5134384a2ea00323455ae3fe84892d5d0c8c831ab6732291084c7a46d0eca030",
+      "emitted_relation_ids": [
+        "0b09671763e555581f70bf23c3c582ced5493032b31b52ca7fe03c590ccea2c8",
+        "15ccd600e6cc9a3c6dd66cd6dfcebc401a481b6434f704b37c9cc4ec63db5ddf",
+        "52cad854b1ff8fb0f0d135973d85ae7c96e7d73a77a319a8fc065c9b8525a909",
+        "8b591ba98af2c150c2c502a720bdf7f3e530155cd9fc47df91bc30a9fbcd9862"
+      ],
+      "ledger_locators": [
+        "estado:FI 105",
+        "estado:FI 131",
+        "estado:FI 136",
+        "estado:FI 141"
+      ],
+      "marker": "ii)",
+      "modifier": "BOE-A-2025-26847",
+      "new_code": "FI 105",
+      "node_index": 109,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "FI 105",
+      "publication_date": "2025-12-29",
+      "section_targets": [
+        "4/2017"
+      ],
+      "split": "dev",
+      "subject_kind": "estado",
+      "target": "BOE-A-2017-14334",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "RELABEL_SAME_CODE",
+      "clause_sha256": "087d8a880a9a10c01f9ae926d200c5da5b9b0d17a006cd3bd548f96b1a19f170",
+      "emitted_relation_ids": [
+        "1600e5f720e56760150d5ecdaf18b6f0ece76881bb4013f654ddc6277d19045c",
+        "5516483eaf307c85dbc53b222ea4804d98af107dd9ffb7f76acb42cca4cafdb7",
+        "76ed4382011ed2c7db5835b798edf97090ac218ca80f9c59be98c53a33000599",
+        "a0288d3ee05626a213ec247d36a7b1507af04c5af086c88c4115348ee30f7aae",
+        "bf675e13e539441de0aece256e1c5e7b2abe2ada07b0e6f80fae2e26f6799dfe",
+        "d0e3216c61f8cf59a46e3dcb17b22b86b7a3c6336d6f4a290afb6332686e1ce0",
+        "d7417311bfc33121a241dd1f04dd92d73344f7874da3753dfd1eff92dc6be6e0",
+        "fa968caa7e7aa005ae006045a92877303a02d4b213f2e30c02a9a3c1fd5e0dde"
+      ],
+      "ledger_locators": [
+        "estado:FI 105",
+        "estado:FI 105-1",
+        "estado:FI 105-2",
+        "estado:FI 131",
+        "estado:FI 136",
+        "estado:FI 136-1",
+        "estado:FI 136-2",
+        "estado:FI 141"
+      ],
+      "marker": "i)",
+      "modifier": "BOE-A-2025-26847",
+      "new_code": "FI 105",
+      "node_index": 126,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "FI 105",
+      "publication_date": "2025-12-29",
+      "section_targets": [
+        "4/2017"
+      ],
+      "split": "dev",
+      "subject_kind": "estado",
+      "target": "BOE-A-2017-14334",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "d355d7a29bc077c5757c9279353e6ce037e7843e440f5ee96480275ccbb70d19",
+      "emitted_relation_ids": [
+        "b882d0d79b0f5638d5f48785a7896933de5e8f63037e0ce93e3656abaffa264f",
+        "f396f221fe0317816b2cef32da05b131687f6e18da5c897d3db14e50778cb740"
+      ],
+      "ledger_locators": [
+        "apartado:1",
+        "apartado:8"
+      ],
+      "marker": "9.",
+      "modifier": "BOE-A-2012-12293",
+      "new_code": null,
+      "node_index": 35,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "1",
+      "publication_date": "2012-10-02",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "subject_kind": "apartado",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "2dcdfba497b862ef304b62c44ed8c324f66d74e2ef4d35b0742f2d84ad81759a",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "2.",
+      "modifier": "BOE-A-2012-12293",
+      "node_index": 68,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2012-10-02",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasará a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "bdaf64b1055f6443c1a60126a8ff592e261b4f1bc8e4ef656505990da84367ee",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "3.",
+      "modifier": "BOE-A-2012-12293",
+      "node_index": 69,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2012-10-02",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "NON_STRUCTURAL",
+      "clause_sha256": "12f918141ac6cfdfdb8b0c65e852f9844f9a5cf3f30c7142f61115faac7b97fd",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "6.",
+      "modifier": "BOE-A-2013-11729",
+      "node_index": 113,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2013-11-09",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "e0134cc466d3f99df0a0ed1686bc1fa682fdaedd6b656e75ab7ca69bd461eff3",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "c)",
+      "modifier": "BOE-A-2013-11729",
+      "node_index": 297,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2013-11-09",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "234160e6105ce5ae26988e611c6400885e50825e4b3e0ea996115bce590a14a0",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "i)",
+      "modifier": "BOE-A-2013-11729",
+      "node_index": 312,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2013-11-09",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "5f124ad2b529f00a556bc3e600258c957eb8c8b9551d342f43540bc671627ec5",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "apartado:1"
+      ],
+      "marker": "a)",
+      "modifier": "BOE-A-2013-5720",
+      "new_code": null,
+      "node_index": 406,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "old_code": "1",
+      "publication_date": "2013-05-31",
+      "section_targets": [],
+      "split": "sealed",
+      "subject_kind": "apartado",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "5de5880ebfe847fea25436ce0e6ece59e19f3af2194566b7d032d7bb336364fd",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "apartado:13",
+        "apartado:14",
+        "apartado:15",
+        "apartado:16"
+      ],
+      "marker": "c)",
+      "modifier": "BOE-A-2013-5720",
+      "new_code": null,
+      "node_index": 410,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "old_code": "13",
+      "publication_date": "2013-05-31",
+      "section_targets": [],
+      "split": "sealed",
+      "subject_kind": "apartado",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "7530b4954fb6e414c9fadf4fc5105c2b7611160d71226f7f40c30b0f7d5c5269",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "apartado:9"
+      ],
+      "marker": "b)",
+      "modifier": "BOE-A-2013-5720",
+      "new_code": null,
+      "node_index": 433,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "old_code": "9",
+      "publication_date": "2013-05-31",
+      "section_targets": [],
+      "split": "sealed",
+      "subject_kind": "apartado",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "NON_STRUCTURAL",
+      "clause_sha256": "2efb32d6e88a5190fff8cf38624d41da909eab9a114cd69aeffcdd726c68f5d4",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "a)",
+      "modifier": "BOE-A-2013-5720",
+      "node_index": 442,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "publication_date": "2013-05-31",
+      "section_targets": [],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasan a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "b9665ebf7d8a427a3957ba2cfd6342404ea99ef52cbc79193a4c7529e7588440",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "c)",
+      "modifier": "BOE-A-2013-5720",
+      "node_index": 444,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "publication_date": "2013-05-31",
+      "section_targets": [],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "ba7a34d1e66c4b9c206f1781f06c26c1a6299d3a65e7e75f9c2f25ea787eedd3",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "d)",
+      "modifier": "BOE-A-2013-5720",
+      "new_code": null,
+      "node_index": 445,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "old_code": "a",
+      "publication_date": "2013-05-31",
+      "section_targets": [],
+      "split": "sealed",
+      "subject_kind": "letra",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "60392053b83aaf18450dc3819ed70a2a90500a761952ada6749295d0fba089e2",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "f)",
+      "modifier": "BOE-A-2013-5720",
+      "node_index": 447,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "publication_date": "2013-05-31",
+      "section_targets": [],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "af6d7d020efc876726f5561f1fa9364fe0bb21e4eca51de5dd02bcb1fbb760d2",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "l)",
+      "modifier": "BOE-A-2013-5720",
+      "node_index": 455,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "publication_date": "2013-05-31",
+      "section_targets": [],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "ea04ea016e3b25114c75fc4ad7f181e578944e6ac9c4a8d6f460e76c83766fc5",
+      "emitted_relation_ids": [
+        "31b50911ecc55602f3e021d200d186a431ccc85f560d7e26d2c9b1febce6530f"
+      ],
+      "ledger_locators": [
+        "apartado:1"
+      ],
+      "marker": "q)",
+      "modifier": "BOE-A-2014-13365",
+      "new_code": null,
+      "node_index": 622,
+      "o1_method": "UNIQUE_SECTION_INHERITANCE",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "1",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "subject_kind": "apartado",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "3dee6a79157582ba30651572d2c893ffe4d48049268117df48758b6f7424076e",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:1"
+      ],
+      "marker": "c)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 679,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "f0dc5895475a624fc2065b5ee35afa1b17e07e4c11a8cdc0e12cd0a4bf6c7cc4",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:1"
+      ],
+      "marker": "e)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 685,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "49cc7bccf00eab2268b6a2e1a7f30559cf0d0357b19d0d5760892c65fd304f27",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:1"
+      ],
+      "marker": "f)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 686,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "c214515923d651f05dd54133fbdbed20c1824f4f14a55d69826959013884e61c",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:2"
+      ],
+      "marker": "q)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 838,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "1ca4c8da5790c9b89f97ed3f780d093e5bc2f47d04dccb7294c4ba7546eac56a",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:2"
+      ],
+      "marker": "cc)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 876,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "8e518b9c9545c5b53d3da707c0ca43625968bb26391b50c70bd5a63ad8d02681",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "anejo:2"
+      ],
+      "marker": "mm)",
+      "modifier": "BOE-A-2014-13365",
+      "node_index": 903,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-12-23",
+      "section_targets": [
+        "1/2013"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "NON_STRUCTURAL",
+      "clause_sha256": "5737aa690b1a34cb523a637fab2773bb605d3146e964ac646cb152f27160556d",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "c)",
+      "modifier": "BOE-A-2014-8189",
+      "node_index": 73,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "publication_date": "2014-07-31",
+      "section_targets": [
+        "3/1998"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "NON_STRUCTURAL",
+      "clause_sha256": "cf88ab32e1ffe78a9bf143c9ed073bc0e2866aff0b93f5a8fee27944323d6df4",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "2.",
+      "modifier": "BOE-A-2015-9107",
+      "node_index": 24,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2015-08-13",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "b19eb35826ac568f6f326c01ae909dc6872ce27763ab7d8a7ecfb2d69e66edb4",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "5.",
+      "modifier": "BOE-A-2015-9107",
+      "node_index": 73,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2015-08-13",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "ddb813d11c93bb8b0f2d4e2926481b57ada3d4d72a8c5b0f853999cc61b411db",
+      "emitted_relation_ids": [
+        "e411e26fc89ab5fa474cf6bf51666879457a3805e2f7a3e15154ca4cfc8325f7"
+      ],
+      "ledger_locators": [
+        "estado:FI 101"
+      ],
+      "marker": "4.",
+      "modifier": "BOE-A-2016-11483",
+      "new_code": null,
+      "node_index": 74,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "FI 101",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "subject_kind": "estado",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "a701ffe7aa7a902283aac4d9a4ef7e7c2e06a687c3079f625abf50e5e1a1b212",
+      "emitted_relation_ids": [
+        "07bc54ef900c7b043a082cc9de17fc96a38fed78734fcdd7a758eb611eafa7e4"
+      ],
+      "ledger_locators": [
+        "estado:PI 7-1"
+      ],
+      "marker": "a)",
+      "modifier": "BOE-A-2016-11483",
+      "node_index": 86,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "2937da9465b5288912975f62ea0de833d60b861161b15de8ff687a17e53551d3",
+      "emitted_relation_ids": [
+        "7e6654f29654efb0148ccd11c3e8a4d12a60029fe240724ae33efb034e1135c5"
+      ],
+      "ledger_locators": [
+        "estado:PC 7-1"
+      ],
+      "marker": "a)",
+      "modifier": "BOE-A-2016-11483",
+      "node_index": 102,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "9a9f3deaf4454d75fd51b7d29e05de8339944d3b3c8c7173a21e052aebdd2c2e",
+      "edge_status": "ACTIONABLE",
+      "emitted_relation_ids": [
+        "a591474bbb8f359f0dcd0ff45760cdbf4eb6d1d8ceb4cd21a5b13e88aa940f79",
+        "d060a0a704a77917ec642cb8bd87c3c57bc1cc96157e9180eee59a1779a37130"
+      ],
+      "ledger_locators": [
+        "estado:FI 16-1",
+        "estado:FI 16-1.2"
+      ],
+      "marker": "d)",
+      "modifier": "BOE-A-2016-11483",
+      "new_code": "FI 16-1.2",
+      "new_key": "estado:FI 16-1.2",
+      "node_index": 123,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "FI 16-1",
+      "old_key": "estado:FI 16-1",
+      "outcome": "REPAIRED",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 2
+      },
+      "split": "sealed",
+      "subject_kind": "estado",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "52b359c4aab0427397552def4017108bccbd92782acee3e49e8e65b254c8dd85",
+      "emitted_relation_ids": [
+        "02b366d9d8e9801730e014e8f014b408a48a32df40afc40605aca25a56d58d3c"
+      ],
+      "ledger_locators": [
+        "estado:FI 131-4.2"
+      ],
+      "marker": "i)",
+      "modifier": "BOE-A-2016-11483",
+      "node_index": 138,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "SUBFIELD_RENAME",
+      "clause_sha256": "b4c6af65409590a27a44fe3b074abad2276a02a5f2b78b70b0fc70690ebaa281",
+      "emitted_relation_ids": [
+        "c98b2aecd1fd47164547d1d7c3abf772c87602485cd7a255dbcbbaddf3cd1f8d"
+      ],
+      "ledger_locators": [
+        "estado:FI 160-4.2"
+      ],
+      "marker": "q)",
+      "modifier": "BOE-A-2016-11483",
+      "node_index": 145,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "0ed434c3cc13ff16819b25237dafe2d746934dbf8c1c65e668e2e1e095ddcddc",
+      "emitted_relation_ids": [
+        "e03c3ed4a57952dee64512efc7bd69b91119de958e3fc677a468e4dd5669fa1f",
+        "e36dc411c8b08e72c1ea8516715d90ebfabb89a3f7aeacfc9130090bd9a26048"
+      ],
+      "ledger_locators": [
+        "apartado:15.letra:j",
+        "apartado:15.letra:k"
+      ],
+      "marker": "vi)",
+      "modifier": "BOE-A-2016-4356",
+      "new_code": null,
+      "node_index": 107,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "15",
+      "publication_date": "2016-05-06",
+      "section_targets": [
+        "4/2004"
+      ],
+      "split": "sealed",
+      "subject_kind": "apartado",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "NON_STRUCTURAL",
+      "clause_sha256": "c872c75360e98cfe1ad9f6bea92f8db436572dc81f5449d3b9c0798c1872264a",
+      "emitted_relation_ids": [],
+      "ledger_locators": [],
+      "marker": "a)",
+      "modifier": "BOE-A-2017-14334",
+      "node_index": 1325,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "publication_date": "2017-12-06",
+      "section_targets": [],
+      "split": "sealed",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "UNPARSEABLE",
+      "clause_sha256": "eb9de62a9018068558ae39f8609594b39945f05ef3c39f6cee0601ad07795e4a",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "norma:22"
+      ],
+      "marker": "c)",
+      "modifier": "BOE-A-2017-14334",
+      "new_code": null,
+      "node_index": 2706,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "publication_date": "2017-12-06",
+      "section_targets": [],
+      "split": "sealed",
+      "subject_kind": "apartado",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasado a ser"
+    }
+  ],
+  "class_counts": {
+    "CODE_REDESIGNATION": 15,
+    "NON_STRUCTURAL": 10,
+    "RELABEL_SAME_CODE": 5,
+    "SUBFIELD_RENAME": 39,
+    "UNPARSEABLE": 16
+  },
+  "class_counts_by_split": {
+    "dev": {
+      "CODE_REDESIGNATION": 14,
+      "NON_STRUCTURAL": 5,
+      "RELABEL_SAME_CODE": 5,
+      "SUBFIELD_RENAME": 21,
+      "UNPARSEABLE": 7
+    },
+    "sealed": {
+      "CODE_REDESIGNATION": 1,
+      "NON_STRUCTURAL": 5,
+      "SUBFIELD_RENAME": 18,
+      "UNPARSEABLE": 9
+    }
+  },
+  "experiment": "EXP-B1"
+}

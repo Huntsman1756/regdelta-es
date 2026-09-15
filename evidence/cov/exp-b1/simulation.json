@@ -1,0 +1,559 @@
+{
+  "edges": [
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "39c4b20fd78433200570766928b533f73878bba0c3e9ce631950fa5e7e67a84b",
+      "edge_status": "NOT_ACTIONABLE_O1_NOT_PROVABLE",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Determinadas operaciones de efectivo"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2012-4804",
+      "new_code": "Operaciones de efectivo",
+      "new_key": "fichero:Operaciones de efectivo",
+      "node_index": 20,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "old_code": "Determinadas operaciones de efectivo",
+      "old_key": "fichero:Determinadas operaciones de efectivo",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2012-04-07",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2005-4749",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "29dec73e5c8e7b46ae90786b7dcb28f01df76a10fa1fe2b8c649dc42cd898c5a",
+      "edge_status": "ACTIONABLE",
+      "emitted_relation_ids": [
+        "d407675c3cea5bc1284c82af79d821b701db98b37e7aaec3f218d71f606fa1fd"
+      ],
+      "ledger_locators": [
+        "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "new_key": "fichero:Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "node_index": 14,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "old_key": "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "outcome": "CONFIRMED",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 1
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2005-4749",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "89e98a01baa533d615819a0164fc37e5f4eb3f51406a3cd381b4cc91c6d845c8",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Servicio de Reclamaciones"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Reclamaciones, quejas y consultas",
+      "new_key": "fichero:Reclamaciones, quejas y consultas",
+      "node_index": 37,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Servicio de Reclamaciones",
+      "old_key": "fichero:Servicio de Reclamaciones",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "UNKNOWN",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2005-4749",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "3a7a747f823874c6ed93c946a0eee2f95e15c58d979ce3bf3eeb7406dbe3f848",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Registro de agentes de entidades de crédito y de pago"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "new_key": "fichero:Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "node_index": 39,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Registro de agentes de entidades de crédito y de pago",
+      "old_key": "fichero:Registro de agentes de entidades de crédito y de pago",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2005-4749",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "39c4b20fd78433200570766928b533f73878bba0c3e9ce631950fa5e7e67a84b",
+      "edge_status": "NOT_ACTIONABLE_O1_NOT_PROVABLE",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Determinadas operaciones de efectivo"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2012-4804",
+      "new_code": "Operaciones de efectivo",
+      "new_key": "fichero:Operaciones de efectivo",
+      "node_index": 20,
+      "o1_method": null,
+      "o1_status": "NOT_PROVABLE",
+      "old_code": "Determinadas operaciones de efectivo",
+      "old_key": "fichero:Determinadas operaciones de efectivo",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2012-04-07",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "29dec73e5c8e7b46ae90786b7dcb28f01df76a10fa1fe2b8c649dc42cd898c5a",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "new_key": "fichero:Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "node_index": 14,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "old_key": "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "89e98a01baa533d615819a0164fc37e5f4eb3f51406a3cd381b4cc91c6d845c8",
+      "edge_status": "ACTIONABLE",
+      "emitted_relation_ids": [
+        "c5f807519fbb8b2fb727a83fa17ca8ce9baf5fe998d7e7b13f8e53e9d7567740"
+      ],
+      "ledger_locators": [
+        "fichero:Servicio de Reclamaciones"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Reclamaciones, quejas y consultas",
+      "new_key": "fichero:Reclamaciones, quejas y consultas",
+      "node_index": 37,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "Servicio de Reclamaciones",
+      "old_key": "fichero:Servicio de Reclamaciones",
+      "outcome": "CONFIRMED",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 1
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "3a7a747f823874c6ed93c946a0eee2f95e15c58d979ce3bf3eeb7406dbe3f848",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Registro de agentes de entidades de crédito y de pago"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "new_key": "fichero:Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "node_index": 39,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Registro de agentes de entidades de crédito y de pago",
+      "old_key": "fichero:Registro de agentes de entidades de crédito y de pago",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "PRESENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "8b4438030b3fce9fb9b298198beb480bdc57d9f5e2fb35bab37c354de8e3b8bb",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2015-13429",
+      "new_code": "Reg agentes, promotores y comercializadores ent crédito, dinero electrónico y pago",
+      "new_key": "fichero:Reg agentes, promotores y comercializadores ent crédito, dinero electrónico y pago",
+      "node_index": 24,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "old_key": "fichero:Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2015-12-10",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "22b9e43b914fff97433c55b481fb02f3ec08d9700a8966a47aa1a279592e2f9a",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Registro de profesionales vinculados a las sociedades de tasación supervisadas por el Banco de España"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2015-13429",
+      "new_code": "Registro de profesionales vinculados a las sociedades de tasación",
+      "new_key": "fichero:Registro de profesionales vinculados a las sociedades de tasación",
+      "node_index": 26,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Registro de profesionales vinculados a las sociedades de tasación supervisadas por el Banco de España",
+      "old_key": "fichero:Registro de profesionales vinculados a las sociedades de tasación supervisadas por el Banco de España",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2015-12-10",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "PRESENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2011-2378",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "9a9f3deaf4454d75fd51b7d29e05de8339944d3b3c8c7173a21e052aebdd2c2e",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "estado:FI 16-1",
+        "estado:FI 16-1.2"
+      ],
+      "marker": "d)",
+      "modifier": "BOE-A-2016-11483",
+      "new_code": "FI 16-1.2",
+      "new_key": "estado:FI 16-1.2",
+      "node_index": 123,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "FI 16-1",
+      "old_key": "estado:FI 16-1",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "estado",
+      "target": "BOE-A-2013-5720",
+      "verb": "pasa a denominarse"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "29dec73e5c8e7b46ae90786b7dcb28f01df76a10fa1fe2b8c649dc42cd898c5a",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "new_key": "fichero:Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "node_index": 14,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "old_key": "fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2013-7467",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "89e98a01baa533d615819a0164fc37e5f4eb3f51406a3cd381b4cc91c6d845c8",
+      "edge_status": "NOT_ACTIONABLE_O1_FOREIGN_TARGET",
+      "emitted_relation_ids": [],
+      "ledger_locators": [
+        "fichero:Servicio de Reclamaciones"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Reclamaciones, quejas y consultas",
+      "new_key": "fichero:Reclamaciones, quejas y consultas",
+      "node_index": 37,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "FOREIGN_TARGET",
+      "old_code": "Servicio de Reclamaciones",
+      "old_key": "fichero:Servicio de Reclamaciones",
+      "outcome": "NOT_ACTIONABLE",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 0
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2013-7467",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "3a7a747f823874c6ed93c946a0eee2f95e15c58d979ce3bf3eeb7406dbe3f848",
+      "edge_status": "ACTIONABLE",
+      "emitted_relation_ids": [
+        "d665aae96a9b6f51c27aeb314592ac2690183a44cf055af923382365fbc63b70"
+      ],
+      "ledger_locators": [
+        "fichero:Registro de agentes de entidades de crédito y de pago"
+      ],
+      "marker": "",
+      "modifier": "BOE-A-2014-8654",
+      "new_code": "Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "new_key": "fichero:Registro de agentes de entidades de crédito, de entidades de dinero electrónico y de entidades de pago",
+      "node_index": 39,
+      "o1_method": "EXPLICIT_CLAUSE_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "Registro de agentes de entidades de crédito y de pago",
+      "old_key": "fichero:Registro de agentes de entidades de crédito y de pago",
+      "outcome": "CONFIRMED",
+      "publication_date": "2014-08-11",
+      "section_targets": [],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": true,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 1
+      },
+      "split": "dev",
+      "subject_kind": "fichero",
+      "target": "BOE-A-2013-7467",
+      "verb": "pasa a ser"
+    },
+    {
+      "class": "CODE_REDESIGNATION",
+      "clause_sha256": "9a9f3deaf4454d75fd51b7d29e05de8339944d3b3c8c7173a21e052aebdd2c2e",
+      "edge_status": "ACTIONABLE",
+      "emitted_relation_ids": [
+        "a591474bbb8f359f0dcd0ff45760cdbf4eb6d1d8ceb4cd21a5b13e88aa940f79",
+        "d060a0a704a77917ec642cb8bd87c3c57bc1cc96157e9180eee59a1779a37130"
+      ],
+      "ledger_locators": [
+        "estado:FI 16-1",
+        "estado:FI 16-1.2"
+      ],
+      "marker": "d)",
+      "modifier": "BOE-A-2016-11483",
+      "new_code": "FI 16-1.2",
+      "new_key": "estado:FI 16-1.2",
+      "node_index": 123,
+      "o1_method": "EXPLICIT_SECTION_TARGET",
+      "o1_status": "TARGET_PROVEN",
+      "old_code": "FI 16-1",
+      "old_key": "estado:FI 16-1",
+      "outcome": "REPAIRED",
+      "publication_date": "2016-12-03",
+      "section_targets": [
+        "4/2004"
+      ],
+      "simulation": {
+        "discontinuities_on_edge_keys": 0,
+        "new_in_original": false,
+        "new_key_prior": "ABSENT",
+        "old_in_original": false,
+        "old_key_prior": "ABSENT",
+        "post_event_ops_on_new_key": 0,
+        "post_event_ops_on_old_key": 0,
+        "same_date_ops_on_edge_keys": 2
+      },
+      "split": "sealed",
+      "subject_kind": "estado",
+      "target": "BOE-A-2004-21845",
+      "verb": "pasa a denominarse"
+    }
+  ],
+  "outcome_counts": {
+    "CONFIRMED": 3,
+    "NOT_ACTIONABLE": 11,
+    "REPAIRED": 1
+  },
+  "outcome_counts_by_split": {
+    "dev": {
+      "CONFIRMED": 3,
+      "NOT_ACTIONABLE": 11
+    },
+    "sealed": {
+      "REPAIRED": 1
+    }
+  },
+  "verdict": "PORT"
+}

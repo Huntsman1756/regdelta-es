@@ -1,0 +1,3806 @@
+{
+  "experiment": "EXP-L1",
+  "frozen_order_classes": {
+    "FLOOR_CHANGED": 64,
+    "NOT_APPLICABLE": 31,
+    "REPRODUCED": 26,
+    "UNPROVEN_UNDER_ORDER": 3
+  },
+  "groups_untestable_scope": 31,
+  "groups_where_order_differs": 23,
+  "hard_contradictions": [],
+  "indigo_order_classes": {
+    "FLOOR_CHANGED": 66,
+    "NOT_APPLICABLE": 31,
+    "REPRODUCED": 21,
+    "UNPROVEN_UNDER_ORDER": 6
+  },
+  "inter_modifier_clusters": [
+    {
+      "date": "2020-06-16",
+      "deterministic": true,
+      "indigo_order": [
+        "BOE-A-2020-6186",
+        "BOE-A-2020-6187"
+      ],
+      "modifiers": [
+        "BOE-A-2020-6186",
+        "BOE-A-2020-6187"
+      ],
+      "split": "dev",
+      "target": "BOE-A-2017-14334",
+      "tuples": {
+        "BOE-A-2020-6186": [
+          "2020-06-16",
+          "20200611",
+          "Circular",
+          [
+            "",
+            2,
+            "/",
+            2020,
+            ""
+          ]
+        ],
+        "BOE-A-2020-6187": [
+          "2020-06-16",
+          "20200611",
+          "Circular",
+          [
+            "",
+            3,
+            "/",
+            2020,
+            ""
+          ]
+        ]
+      }
+    }
+  ],
+  "non_deterministic_clusters": [],
+  "order_sensitive_groups": [
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 678,
+          "operation_kind": "ADD",
+          "relation_id": "0555905d8c8ecea0ae357ed4f462ceee6520d933e0da125df147adf395f1170f",
+          "scope": "GLOBAL|anejo_ctx=1|sub=dimensión|módulo a.2,"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 686,
+          "operation_kind": "MODIFY",
+          "relation_id": "474282e82099ca08d301a0ccbbbef8afee7710534e94298c05367940df091b88",
+          "scope": "GLOBAL|anejo_ctx=1|sub=dimensión|módulo g.2,"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 679,
+          "operation_kind": "ADD",
+          "relation_id": "50b34537cfb885c57b60c7929c522f30348569e659029a0af984b778baf5ab88",
+          "scope": "GLOBAL|anejo_ctx=1|sub=dimensión|módulo b.2,"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 687,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "8b54b5a1e608a6bccf86c7f556b902561bce94e44e43387db97e213528549d93",
+          "scope": "GLOBAL|anejo_ctx=1"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 677,
+          "operation_kind": "ADD",
+          "relation_id": "a56cafbf9cc31d7384179ea5c2f007795141777f0d51fb267dd6e8ddc212ad2b",
+          "scope": "GLOBAL|anejo_ctx=1|sub=dimensión|módulo a.1,"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 685,
+          "operation_kind": "ADD",
+          "relation_id": "c3e5ea183faffa6b4458886a421585a18e6beefa4c9dcaac0b9893913f5de110",
+          "scope": "GLOBAL|anejo_ctx=1|sub=dimensión|módulo d.2,"
+        }
+      ],
+      "locator_key": "anejo:1",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=1": 1,
+          "GLOBAL|anejo_ctx=1|sub=dimensión|módulo a.1,": 1,
+          "GLOBAL|anejo_ctx=1|sub=dimensión|módulo a.2,": 1,
+          "GLOBAL|anejo_ctx=1|sub=dimensión|módulo b.2,": 1,
+          "GLOBAL|anejo_ctx=1|sub=dimensión|módulo d.2,": 1,
+          "GLOBAL|anejo_ctx=1|sub=dimensión|módulo g.2,": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2013-5720"
+    },
+    {
+      "date": "2018-12-28",
+      "hops": [
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 427,
+          "operation_kind": "MODIFY",
+          "relation_id": "22b09bf807b5ce16c7b334756024a6181e318c7747310f8068a93032d5a71606",
+          "scope": "GLOBAL|anejo_ctx=1|sub=módulo h.1,"
+        },
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 410,
+          "operation_kind": "MODIFY",
+          "relation_id": "26343420147a0987ae8bbd8e56cb5e620b18dbf945dcaca0c9c8f996b454b572",
+          "scope": "GLOBAL|anejo_ctx=1|sub=módulo c.1,"
+        },
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 421,
+          "operation_kind": "MODIFY",
+          "relation_id": "6224c1eb93f8a5766e476d16f452e221faadcddf547015b8bb1556cdfb70501d",
+          "scope": "GLOBAL|anejo_ctx=1|sub=módulo c.2,"
+        }
+      ],
+      "locator_key": "anejo:1",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=1|sub=módulo c.1,": 1,
+          "GLOBAL|anejo_ctx=1|sub=módulo c.2,": 1,
+          "GLOBAL|anejo_ctx=1|sub=módulo h.1,": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2013-5720"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "03ed9ee104",
+        "64888d5a78",
+        "8457624308",
+        "90a490fce3",
+        "9a9dc82f98",
+        "b5f3ec25bc",
+        "b6d6df3e1d",
+        "e04841e96c",
+        "f7457938eb"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 839,
+          "operation_kind": "ADD",
+          "relation_id": "03ed9ee104d13dd298451468c3c1f1b277b0d759f6c533ff4911c8b596c4f548"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 838,
+          "operation_kind": "MODIFY",
+          "relation_id": "64888d5a78b35977c2157a1a23c0503ed8f9f72195b1427280e353b6014ed2dc"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 833,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "8457624308ee599401afe1b6e1a6940f872c256dc4a9bc5bf5335167941e7860"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 831,
+          "operation_kind": "ADD",
+          "relation_id": "90a490fce3bcdc1bfa31d67ace5dcbc0d72843df3edfa32cb43833512c34abba"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 785,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "9a9dc82f98af981c45a0dea35306e60fd61a142941e22863bb09a7124941b42a"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 834,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "b5f3ec25bc883ccffdb9ba01b59a8615a67b4ab73355337f089c6de8390fa557"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 836,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "b6d6df3e1d0d235910616598f16584c2ddf9bcde0cb6458b78733a885f59526f"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 789,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "e04841e96cb8ab6cf4625094586e792ccbd09bc4df3fbbef2614b2cbd40c710a"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 791,
+          "operation_kind": "ADD",
+          "relation_id": "f7457938ebdf8ea1f46a5eef4672ea198f4cdbdec80c82102c430c4bee337748"
+        }
+      ],
+      "indigo_order": [
+        "9a9dc82f98",
+        "e04841e96c",
+        "f7457938eb",
+        "90a490fce3",
+        "8457624308",
+        "b5f3ec25bc",
+        "b6d6df3e1d",
+        "64888d5a78",
+        "03ed9ee104"
+      ],
+      "locator_key": "anejo:2",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=2": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.2,": 9,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo c.1,": 8,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d.3,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo g.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo g.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=módulo c.1,": 4
+        }
+      },
+      "single_scope": false,
+      "split": "dev",
+      "target": "BOE-A-2013-5720"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "315493258a",
+        "735a3a842d",
+        "8388e43e70",
+        "8b87cc5f4e",
+        "9cfc45e132",
+        "ad47ce031f",
+        "e302c19679",
+        "f5895e212e"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 846,
+          "operation_kind": "DELETE",
+          "relation_id": "315493258ab1dbb1cfdd9011ead49a0771e58ff9cc53c196fd745a15cf9db287"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "DELETED",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 862,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "735a3a842d3ca14e4e14fd12631145ff38a71d772e5b8eaca2cd87c0a925afbd"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 881,
+          "operation_kind": "ADD",
+          "relation_id": "8388e43e7040d044a1622ac3bebd979c47bc24cffa9f4587060e0fada60bf8be"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 876,
+          "operation_kind": "MODIFY",
+          "relation_id": "8b87cc5f4e84b66841409b8c727c577b4ed86718a8f8dd65449e4aaa8280c026"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "DELETED",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 847,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "9cfc45e132a129da8b084a36bb1102a43079814b0421bf497c34a92cb983eef0"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 879,
+          "operation_kind": "ADD",
+          "relation_id": "ad47ce031f896430371d09ff82db75fad2d0fcbae6399a428a02c8a61f982eaa"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 864,
+          "operation_kind": "ADD",
+          "relation_id": "e302c1967995da070472790a51773e669f3addcc6992d3e582b58672616548b1"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 878,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "f5895e212ee95577fbe368a7dd41b4bbe7f58f20e71e3b0a2ba7a7a417e326a1"
+        }
+      ],
+      "indigo_order": [
+        "315493258a",
+        "9cfc45e132",
+        "735a3a842d",
+        "e302c19679",
+        "8b87cc5f4e",
+        "f5895e212e",
+        "ad47ce031f",
+        "8388e43e70"
+      ],
+      "locator_key": "anejo:2",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=2": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.2,": 9,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo c.1,": 8,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d.3,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo g.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo g.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=módulo c.1,": 4
+        }
+      },
+      "single_scope": false,
+      "split": "dev",
+      "target": "BOE-A-2013-5720"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "9bbdbe12b9",
+        "ca02aa6654",
+        "d70e664e56",
+        "ee582213bb"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 860,
+          "operation_kind": "ADD",
+          "relation_id": "9bbdbe12b939d329ba46f799e6e7c1882a91275eae56b421c41be48c2b09a8cf"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 872,
+          "operation_kind": "ADD",
+          "relation_id": "ca02aa6654fad8198c74866f9d0d25db522337b138ee1a886bed578a0949d3ab"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 883,
+          "operation_kind": "ADD",
+          "relation_id": "d70e664e56ec0d77efd2a48101fc65190c2ea0578927548cd31a779d96c5da88"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 874,
+          "operation_kind": "ADD",
+          "relation_id": "ee582213bbe70eacfd31d7f80c3954077030b6f21b97bf9d9d81c77b533b9b7a"
+        }
+      ],
+      "indigo_order": [
+        "9bbdbe12b9",
+        "ca02aa6654",
+        "ee582213bb",
+        "d70e664e56"
+      ],
+      "locator_key": "anejo:2",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=2": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.2,": 9,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo c.1,": 8,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d.3,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo g.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo g.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=módulo c.1,": 4
+        }
+      },
+      "single_scope": false,
+      "split": "dev",
+      "target": "BOE-A-2013-5720"
+    },
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 893,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "4b7829826794d9e9ef58e778a27d9f54845555d06521ca1d99235b1954222a51",
+          "scope": "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d.3,"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 770,
+          "operation_kind": "ADD",
+          "relation_id": "686aeede53ad99209bbc112ac7b5bcb4e1526853cb2f84b96d6f21e5c8707356",
+          "scope": "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.1,"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 885,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "899c04cbb822901212cc9fa38dd2776f3103612e300ea4b519044197dad09741",
+          "scope": "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d.2,"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 904,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "a864da225738fa46fcc491451cb5ad3b8be07051d34f4fc4b082765acaf7f876",
+          "scope": "GLOBAL|anejo_ctx=2"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 902,
+          "operation_kind": "DELETE",
+          "relation_id": "d2dbdd13d0ea64e9f9c5f7d8688d974cf7aff6d7487e487f35bbab634df5f961",
+          "scope": "GLOBAL|anejo_ctx=2|sub=dimensión|módulo g.1,"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 778,
+          "operation_kind": "ADD",
+          "relation_id": "fce6d691b15727525bdfee06c2111108120da0b93c1cb7df7420685e31a9c782",
+          "scope": "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.2,"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 903,
+          "operation_kind": "MODIFY",
+          "relation_id": "fcebde390f1d5d48cc6657bf5f59690ba0f33ccfe2ad66535f393467bb1cbfc0",
+          "scope": "GLOBAL|anejo_ctx=2|sub=dimensión|módulo g.2,"
+        }
+      ],
+      "locator_key": "anejo:2",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=2": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.2,": 9,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo c.1,": 8,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d.3,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo g.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo g.2,": 1,
+          "GLOBAL|anejo_ctx=2|sub=módulo c.1,": 4
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2013-5720"
+    },
+    {
+      "date": "2018-12-28",
+      "frozen_order": [
+        "00c4188baf",
+        "34530227f5",
+        "7171a6fec6",
+        "d46a45fc61"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 457,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "00c4188bafb92deffe979a6644a42e1468cd36b586d690e656c5819cc269f982"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 460,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "34530227f53730e0b12c04ce91dfc4195bf3a2be33d7932151f777891a7922b1"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 455,
+          "operation_kind": "ADD",
+          "relation_id": "7171a6fec6232aa435c8179deed0314617a7d067c223af9d6d5347e3e2c182fe"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 453,
+          "operation_kind": "MODIFY",
+          "relation_id": "d46a45fc61104cb4931dd831f2a335699a2ce4a4981f6083f9e4694d6e6fefdb"
+        }
+      ],
+      "indigo_order": [
+        "d46a45fc61",
+        "7171a6fec6",
+        "00c4188baf",
+        "34530227f5"
+      ],
+      "locator_key": "anejo:2",
+      "modifiers": [
+        "BOE-A-2018-17880"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "UNKNOWN",
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.2,": 4,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.3,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo c1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d2,": 4,
+          "GLOBAL|anejo_ctx=2|sub=módulo c1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=módulo c2,": 1
+        }
+      },
+      "single_scope": false,
+      "split": "dev",
+      "target": "BOE-A-2013-5720"
+    },
+    {
+      "date": "2018-12-28",
+      "frozen_order": [
+        "29f868f0d3",
+        "3a31841ae0",
+        "6891e0f9d5",
+        "ea0d40da46"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 474,
+          "operation_kind": "MODIFY",
+          "relation_id": "29f868f0d38e43b2c2ea27ea14bf05afda59e284d0638029856be0c394001f4f"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 470,
+          "operation_kind": "MODIFY",
+          "relation_id": "3a31841ae02e5ce7d59b35a04f67783d31db5be87abc30dcf8232e1b2a5f9379"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 472,
+          "operation_kind": "MODIFY",
+          "relation_id": "6891e0f9d512f02236e30e0bcd0458f05466a22364da81da63f7574e2b7fa24e"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 468,
+          "operation_kind": "MODIFY",
+          "relation_id": "ea0d40da46ed0b603e6247c384ab4ffe2c7832a521c991716b760346e7f5566b"
+        }
+      ],
+      "indigo_order": [
+        "ea0d40da46",
+        "3a31841ae0",
+        "6891e0f9d5",
+        "29f868f0d3"
+      ],
+      "locator_key": "anejo:2",
+      "modifiers": [
+        "BOE-A-2018-17880"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.2,": 4,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.3,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo c1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d2,": 4,
+          "GLOBAL|anejo_ctx=2|sub=módulo c1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=módulo c2,": 1
+        }
+      },
+      "single_scope": false,
+      "split": "dev",
+      "target": "BOE-A-2013-5720"
+    },
+    {
+      "date": "2018-12-28",
+      "hops": [
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 450,
+          "operation_kind": "MODIFY",
+          "relation_id": "0603c38a2ef81b085e77fcbea7ee97d8f10ee578e0c8e98a27a5df8863f1433c",
+          "scope": "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.1,"
+        },
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 463,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "12d8847c1edd32b2f922630dcc6ff7fe9ca1073db8c6255c6386a7806173d175",
+          "scope": "GLOBAL|anejo_ctx=2|sub=dimensión|módulo c1,"
+        },
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 448,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "9dd5bd0cdf90edf151ce5594c56ad2c36940bfdde8de9360fc44be95855a4440",
+          "scope": "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.1,"
+        },
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 464,
+          "operation_kind": "MODIFY",
+          "relation_id": "cae2b1d054df7bc57e854becd7f861380ff171764138c3f549363e9d77a028d0",
+          "scope": "GLOBAL|anejo_ctx=2|sub=módulo c1,"
+        },
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 461,
+          "operation_kind": "MODIFY",
+          "relation_id": "f89c2d61608f0517a7d0ee606808a164e17c98bd8d11fa5249d7e2346ce6c4f5",
+          "scope": "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.3,"
+        },
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 466,
+          "operation_kind": "MODIFY",
+          "relation_id": "f92f105851012e79f66b63b0a7443890162c80f210d8af609fbde860fcc369ed",
+          "scope": "GLOBAL|anejo_ctx=2|sub=módulo c2,"
+        }
+      ],
+      "locator_key": "anejo:2",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo a.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.2,": 4,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo b.3,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo c1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=dimensión|módulo d2,": 4,
+          "GLOBAL|anejo_ctx=2|sub=módulo c1,": 1,
+          "GLOBAL|anejo_ctx=2|sub=módulo c2,": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2013-5720"
+    },
+    {
+      "date": "2025-12-29",
+      "frozen_order": [
+        "7bb94309c4",
+        "7d073cce1b"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 180,
+          "operation_kind": "MODIFY",
+          "relation_id": "7bb94309c4ab7d3409bb6ebbb66db3771e743779bee36a92b82464f9bc748d2e"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 182,
+          "operation_kind": "ADD",
+          "relation_id": "7d073cce1bd83f3ddf8cb1d1552ed8038a152048bfa468680f9fc61196407add"
+        }
+      ],
+      "indigo_order": [
+        "7bb94309c4",
+        "7d073cce1b"
+      ],
+      "locator_key": "anejo:2",
+      "modifiers": [
+        "BOE-A-2025-26847"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2013-5720"
+    },
+    {
+      "date": "2020-02-05",
+      "frozen_order": [
+        "3ee0d25006",
+        "409cdbf5a1"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2020-1653",
+          "node_index": 115,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "3ee0d25006bf60ff5bd0c9abbcb15c80ed1f5dfa028233b263f817d94e7ccf52"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "PRESENT",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "PRESENT",
+          "modifier": "BOE-A-2020-1653",
+          "node_index": 140,
+          "operation_kind": "MODIFY",
+          "relation_id": "409cdbf5a1b7c8c486de1ceb9699c650e83d359ee20710ddb701388299f4720f"
+        }
+      ],
+      "indigo_order": [
+        "3ee0d25006",
+        "409cdbf5a1"
+      ],
+      "locator_key": "norma:16",
+      "modifiers": [
+        "BOE-A-2020-1653"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2013-5720"
+    },
+    {
+      "date": "2022-04-06",
+      "frozen_order": [
+        "51b3a8b1cc",
+        "7116492021"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "PRESENT",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "PRESENT",
+          "modifier": "BOE-A-2022-5524",
+          "node_index": 209,
+          "operation_kind": "DELETE",
+          "relation_id": "51b3a8b1ccc6548ff64fae8292af2e44c98d79d758dd9f470f875e75eabbebfb"
+        },
+        {
+          "adjudicated_exp": "DELETED",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "DELETED",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "DELETED",
+          "modifier": "BOE-A-2022-5524",
+          "node_index": 210,
+          "operation_kind": "MODIFY",
+          "relation_id": "7116492021d8b089e72c22268cdab476a94f13d42e2c29cd950ca5aa2ee88e73"
+        }
+      ],
+      "indigo_order": [
+        "51b3a8b1cc",
+        "7116492021"
+      ],
+      "locator_key": "norma:11",
+      "modifiers": [
+        "BOE-A-2022-5524"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "PRESENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2014-1183"
+    },
+    {
+      "date": "2022-04-06",
+      "frozen_order": [
+        "309412ed71",
+        "8a6a70367b"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2022-5524",
+          "node_index": 47,
+          "operation_kind": "MODIFY",
+          "relation_id": "309412ed7106dcf690b0438cb0f67046f5d022fa24a26c2bc9b8bb9d8b07bc92"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "PRESENT",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "PRESENT",
+          "modifier": "BOE-A-2022-5524",
+          "node_index": 49,
+          "operation_kind": "ADD",
+          "relation_id": "8a6a70367bd38b219c65cfe370c04cc270df63abd835b85e26dcb6ad96963980"
+        }
+      ],
+      "indigo_order": [
+        "309412ed71",
+        "8a6a70367b"
+      ],
+      "locator_key": "norma:1",
+      "modifiers": [
+        "BOE-A-2022-5524"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2016-1238"
+    },
+    {
+      "date": "2022-04-06",
+      "frozen_order": [
+        "3cd39196e4",
+        "f8c39873f8"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2022-5524",
+          "node_index": 82,
+          "operation_kind": "MODIFY",
+          "relation_id": "3cd39196e442ae4be6b6d100713b54ec4c026713121543567d49ac4dd158c4f5"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2022-5524",
+          "node_index": 86,
+          "operation_kind": "MODIFY",
+          "relation_id": "f8c39873f80a30c8df8c03224a2b6d350094f4da47804f08ef3cc1c6b8b44986"
+        }
+      ],
+      "indigo_order": [
+        "3cd39196e4",
+        "f8c39873f8"
+      ],
+      "locator_key": "norma:14",
+      "modifiers": [
+        "BOE-A-2022-5524"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2016-1238"
+    },
+    {
+      "date": "2022-04-06",
+      "frozen_order": [
+        "50bfb9175d",
+        "518c13d529",
+        "e2296f2445"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2022-5524",
+          "node_index": 71,
+          "operation_kind": "MODIFY",
+          "relation_id": "50bfb9175d955332ff9596c4f2ec1f5394afb59ce14c212188f7b27f3e353fd0"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "PRESENT",
+          "modifier": "BOE-A-2022-5524",
+          "node_index": 69,
+          "operation_kind": "ADD",
+          "relation_id": "518c13d5298b5d78600c97a015d9a605f77cb13f6d812546b76488a7ad04a2a6"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2022-5524",
+          "node_index": 63,
+          "operation_kind": "MODIFY",
+          "relation_id": "e2296f244585fdedb873cdc11918d86c1853354b518dc888a7ff0db7f3334749"
+        }
+      ],
+      "indigo_order": [
+        "e2296f2445",
+        "518c13d529",
+        "50bfb9175d"
+      ],
+      "locator_key": "norma:4",
+      "modifiers": [
+        "BOE-A-2022-5524"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2016-1238"
+    },
+    {
+      "date": "2018-12-28",
+      "frozen_order": [
+        "33585a8165",
+        "cc73db0f0a"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 326,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "33585a8165d3e0793f53c06bd065dbf2e5e1811497daaf2f6f54b3de21e6294f"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 325,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "cc73db0f0a7c92e5bdfb0a4525be7d223643563f32139678a75413638bb2ae7b"
+        }
+      ],
+      "indigo_order": [
+        "cc73db0f0a",
+        "33585a8165"
+      ],
+      "locator_key": "anejo:1",
+      "modifiers": [
+        "BOE-A-2018-17880"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-12-28",
+      "frozen_order": [
+        "7f95f6627d",
+        "ad31645e48",
+        "fe47e3cea3"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 337,
+          "operation_kind": "DELETE",
+          "relation_id": "7f95f6627dc3f64b0ea8971c4dbc944a9dfb4ccd4a8e4a88f8955552606f6ed3"
+        },
+        {
+          "adjudicated_exp": "DELETED",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "DELETED",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "DELETED",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 339,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "ad31645e48d660a8b54742ea3cc82ebaf094efe1ec2375e7097da61f4d721113"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 340,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "fe47e3cea3df777e7a3edee91e42f6d72521a510d5530d1f623b96c8efc23028"
+        }
+      ],
+      "indigo_order": [
+        "7f95f6627d",
+        "ad31645e48",
+        "fe47e3cea3"
+      ],
+      "locator_key": "anejo:3",
+      "modifiers": [
+        "BOE-A-2018-17880"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2020-06-16",
+      "frozen_order": [
+        "8ad71c338b",
+        "e680de3ab6"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "DELETED",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "DELETED",
+          "indigo_class": "UNPROVEN_UNDER_ORDER",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2020-6187",
+          "node_index": 40,
+          "operation_kind": "MODIFY",
+          "relation_id": "8ad71c338b243bfc2562c0e57b535c35fa7210f820fa2dbe1e267f681e216635"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "DELETED",
+          "modifier": "BOE-A-2020-6186",
+          "node_index": 135,
+          "operation_kind": "MODIFY",
+          "relation_id": "e680de3ab626204e6260cd6af8478a6a2204e013ce736ae7a3168712804b4997"
+        }
+      ],
+      "indigo_order": [
+        "e680de3ab6",
+        "8ad71c338b"
+      ],
+      "locator_key": "anejo:9.punto:99",
+      "modifiers": [
+        "BOE-A-2020-6186",
+        "BOE-A-2020-6187"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "DELETED",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2021-12-29",
+      "frozen_order": [
+        "ca2669cab7",
+        "df118ffa86"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2021-21666",
+          "node_index": 80,
+          "operation_kind": "MODIFY",
+          "relation_id": "ca2669cab74e989b412ddf019d8aad69c3dd71aef4eca8d03ab976e78eb7a320"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2021-21666",
+          "node_index": 82,
+          "operation_kind": "DELETE",
+          "relation_id": "df118ffa86475c936b3283e8b71dbb9a34d1d90751c1bfba51696d05c8319067"
+        }
+      ],
+      "indigo_order": [
+        "ca2669cab7",
+        "df118ffa86"
+      ],
+      "locator_key": "estado:FI 104",
+      "modifiers": [
+        "BOE-A-2021-21666"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "UNKNOWN",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2025-12-29",
+      "hops": [
+        {
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 126,
+          "operation_kind": "MODIFY",
+          "relation_id": "5516483eaf307c85dbc53b222ea4804d98af107dd9ffb7f76acb42cca4cafdb7",
+          "scope": "GLOBAL|anejo_ctx=4|sub=índice"
+        },
+        {
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 109,
+          "operation_kind": "MODIFY",
+          "relation_id": "8b591ba98af2c150c2c502a720bdf7f3e530155cd9fc47df91bc30a9fbcd9862",
+          "scope": "GLOBAL|sub=cuadro"
+        },
+        {
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 127,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "d1eb711034bd9d047c59d4a8cebb7919f06191be71b3a8a73d2f35340ce88ccb",
+          "scope": "GLOBAL|anejo_ctx=4"
+        }
+      ],
+      "locator_key": "estado:FI 105",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=4": 1,
+          "GLOBAL|anejo_ctx=4|sub=índice": 1,
+          "GLOBAL|sub=cuadro": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-12-28",
+      "frozen_order": [
+        "7e38c978e4",
+        "a8d479efb8"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 350,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "7e38c978e4c578b733d07e36e489af2e393f172a172c8eb191cb9dbe42c34840"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 351,
+          "operation_kind": "MODIFY",
+          "relation_id": "a8d479efb8892c44db8fb6b99d032eb6cd6336c0cd134d707ab02a8bd64d8f6d"
+        }
+      ],
+      "indigo_order": [
+        "7e38c978e4",
+        "a8d479efb8"
+      ],
+      "locator_key": "estado:FI 106-2.1",
+      "modifiers": [
+        "BOE-A-2018-17880"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2025-12-29",
+      "hops": [
+        {
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 109,
+          "operation_kind": "MODIFY",
+          "relation_id": "0b09671763e555581f70bf23c3c582ced5493032b31b52ca7fe03c590ccea2c8",
+          "scope": "GLOBAL|sub=cuadro"
+        },
+        {
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 126,
+          "operation_kind": "MODIFY",
+          "relation_id": "d0e3216c61f8cf59a46e3dcb17b22b86b7a3c6336d6f4a290afb6332686e1ce0",
+          "scope": "GLOBAL|anejo_ctx=4|sub=índice"
+        }
+      ],
+      "locator_key": "estado:FI 131",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=4|sub=índice": 1,
+          "GLOBAL|sub=cuadro": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-02-15",
+      "frozen_order": [
+        "72dc811888",
+        "bac9a5f3b1"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-2041",
+          "node_index": 11,
+          "operation_kind": "DELETE",
+          "relation_id": "72dc811888400e275dfb1475951df8976abc7a4860b061baaaf778cddbcac6d7"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "DELETED",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-2041",
+          "node_index": 10,
+          "operation_kind": "ADD",
+          "relation_id": "bac9a5f3b1066b051d268f884f567f1e4b0c57826bb6d41f3bb7749b88b523c0"
+        }
+      ],
+      "indigo_order": [
+        "bac9a5f3b1",
+        "72dc811888"
+      ],
+      "locator_key": "estado:FI 131-2.1",
+      "modifiers": [
+        "BOE-A-2018-2041"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-02-15",
+      "frozen_order": [
+        "1dbe44c204",
+        "7e41bb0ef3",
+        "a01fed3ee3",
+        "a0fc55b49d"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-2041",
+          "node_index": 16,
+          "operation_kind": "MODIFY",
+          "relation_id": "1dbe44c20497ec1fe07898f649f7f306de80165334f962f2538c68179fa2fe15"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-2041",
+          "node_index": 18,
+          "operation_kind": "MODIFY",
+          "relation_id": "7e41bb0ef380d5ea1c57f1d84a8e57796a183e08c7d57df3cc4c1a49d46a123b"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-2041",
+          "node_index": 15,
+          "operation_kind": "MODIFY",
+          "relation_id": "a01fed3ee3670e60ca413560d0914e3f4670201db6d78a838ff3d2252ded071e"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-2041",
+          "node_index": 17,
+          "operation_kind": "MODIFY",
+          "relation_id": "a0fc55b49d606467fe47b0fbf408300a323de8e78f56fac92ecf388b20eccccb"
+        }
+      ],
+      "indigo_order": [
+        "a01fed3ee3",
+        "1dbe44c204",
+        "a0fc55b49d",
+        "7e41bb0ef3"
+      ],
+      "locator_key": "estado:FI 132",
+      "modifiers": [
+        "BOE-A-2018-2041"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2025-12-29",
+      "hops": [
+        {
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 126,
+          "operation_kind": "MODIFY",
+          "relation_id": "1600e5f720e56760150d5ecdaf18b6f0ece76881bb4013f654ddc6277d19045c",
+          "scope": "GLOBAL|anejo_ctx=4|sub=índice"
+        },
+        {
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 109,
+          "operation_kind": "DELETE",
+          "relation_id": "52cad854b1ff8fb0f0d135973d85ae7c96e7d73a77a319a8fc065c9b8525a909",
+          "scope": "GLOBAL|sub=cuadro"
+        },
+        {
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 132,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "665ad0afdc2f59cb3a1c76e59e4b9fee432d5c5e548f137ca9fb220985dcbf0d",
+          "scope": "GLOBAL|anejo_ctx=4"
+        }
+      ],
+      "locator_key": "estado:FI 136",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=4": 1,
+          "GLOBAL|anejo_ctx=4|sub=índice": 1,
+          "GLOBAL|sub=cuadro": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-02-15",
+      "frozen_order": [
+        "d90aef5e30",
+        "f99e11090b",
+        "fc5be3e4e5"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-2041",
+          "node_index": 20,
+          "operation_kind": "DELETE",
+          "relation_id": "d90aef5e30fff929f544239c3d8a2548632a48e96785b902d5255c80102e0bd5"
+        },
+        {
+          "adjudicated_exp": "DELETED",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "DELETED",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "DELETED",
+          "modifier": "BOE-A-2018-2041",
+          "node_index": 21,
+          "operation_kind": "MODIFY",
+          "relation_id": "f99e11090b445550e49b207ad11c465309853f8bea71cc2e48a618f87b0d4d00"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-2041",
+          "node_index": 22,
+          "operation_kind": "MODIFY",
+          "relation_id": "fc5be3e4e551c1401718d0dba9e4a2ae6a2f9814073f0a9fb8ba873ea31909e4"
+        }
+      ],
+      "indigo_order": [
+        "d90aef5e30",
+        "f99e11090b",
+        "fc5be3e4e5"
+      ],
+      "locator_key": "estado:FI 140-3",
+      "modifiers": [
+        "BOE-A-2018-2041"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2025-12-29",
+      "hops": [
+        {
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 109,
+          "operation_kind": "MODIFY",
+          "relation_id": "15ccd600e6cc9a3c6dd66cd6dfcebc401a481b6434f704b37c9cc4ec63db5ddf",
+          "scope": "GLOBAL|sub=cuadro"
+        },
+        {
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 126,
+          "operation_kind": "MODIFY",
+          "relation_id": "a0288d3ee05626a213ec247d36a7b1507af04c5af086c88c4115348ee30f7aae",
+          "scope": "GLOBAL|anejo_ctx=4|sub=índice"
+        }
+      ],
+      "locator_key": "estado:FI 141",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=4|sub=índice": 1,
+          "GLOBAL|sub=cuadro": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2020-06-16",
+      "hops": [
+        {
+          "modifier": "BOE-A-2020-6186",
+          "node_index": 98,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "05788274a14de4cadd84b7f40bb4ccf04d93e7e624c5030597865a5858475350",
+          "scope": "GLOBAL|anejo_ctx=4"
+        },
+        {
+          "modifier": "BOE-A-2020-6186",
+          "node_index": 56,
+          "operation_kind": "MODIFY",
+          "relation_id": "468147255a8e57b034dfb91a4f3169b1c4a929dcdfa496e88b56a597a677aaf7",
+          "scope": "GLOBAL|sub=tabla"
+        }
+      ],
+      "locator_key": "estado:FI 143",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=4": 1,
+          "GLOBAL|sub=tabla": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-12-28",
+      "hops": [
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 357,
+          "operation_kind": "ADD",
+          "relation_id": "80faf73f693fdc1f5876b13f6fee7d0028380650be6b9c648dd811d6ac5eb4c4",
+          "scope": "GLOBAL"
+        },
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 343,
+          "operation_kind": "ADD",
+          "relation_id": "bed7e6235467dca7f4b9a1ae4a4152ee1a5cb8f3c422807de3ee6d75d4b12020",
+          "scope": "GLOBAL|anejo_ctx=4"
+        }
+      ],
+      "locator_key": "estado:FI 151",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL": 1,
+          "GLOBAL|anejo_ctx=4": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-12-28",
+      "frozen_order": [
+        "0500c08ddf",
+        "60c9008301",
+        "abd6f25134",
+        "ea47497e0d"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 360,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "0500c08ddf220e0c96f5b5311a8aca502a5d0cb540b02f153d8e3a556ef2783f"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 359,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "60c9008301048cc11552177abddbb6f678af155b2e33874ea676d6c3870a862f"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 361,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "abd6f251346ff4e69024fc930bceca29fcdf9fc4cd6ed7e2e497a738dbac3252"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 362,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "ea47497e0d2d12f42532947cd21e0c7a81515d343e3d5d95bfe94a55833b661b"
+        }
+      ],
+      "indigo_order": [
+        "60c9008301",
+        "0500c08ddf",
+        "abd6f25134",
+        "ea47497e0d"
+      ],
+      "locator_key": "estado:FI 180",
+      "modifiers": [
+        "BOE-A-2018-17880"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2021-12-29",
+      "frozen_order": [
+        "0c33d4578f",
+        "93b4feff98"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2021-21666",
+          "node_index": 92,
+          "operation_kind": "ADD",
+          "relation_id": "0c33d4578feb94d50aabb9adfc89824c6729c87f9d6d3ce2f56105420a536a13"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2021-21666",
+          "node_index": 93,
+          "operation_kind": "ADD",
+          "relation_id": "93b4feff98166dc3124706ee878c4a4d35790b4c07029f799d16ef829cc69b01"
+        }
+      ],
+      "indigo_order": [
+        "0c33d4578f",
+        "93b4feff98"
+      ],
+      "locator_key": "estado:FI 180",
+      "modifiers": [
+        "BOE-A-2021-21666"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-12-28",
+      "frozen_order": [
+        "7d7ba8253a",
+        "db4fb3caf4",
+        "e7c67b0721"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "PRESENT",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 366,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "7d7ba8253ad402d42f83b712bbbe7e2d4a4e28d33abd6d73aca6c07ffa8733ed"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 364,
+          "operation_kind": "ADD",
+          "relation_id": "db4fb3caf4cad3cebf5d1b3699162688759542c8bfac25af78048560ba56adba"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "PRESENT",
+          "indigo_class": "UNPROVEN_UNDER_ORDER",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 367,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "e7c67b0721a2f954e49b7d5929604627cc3a8fc649fb79e8fa38102b69733c77"
+        }
+      ],
+      "indigo_order": [
+        "db4fb3caf4",
+        "7d7ba8253a",
+        "e7c67b0721"
+      ],
+      "locator_key": "estado:FI 181",
+      "modifiers": [
+        "BOE-A-2018-17880"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "GLOBAL": 3,
+          "GLOBAL|anejo_ctx=4": 1
+        }
+      },
+      "single_scope": false,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-12-28",
+      "hops": [
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 344,
+          "operation_kind": "ADD",
+          "relation_id": "7ec1f23fb9d01e67c73bc528a659161a58e40b848f4aa2e57cfbc5cbc866e8c3",
+          "scope": "GLOBAL|anejo_ctx=4"
+        }
+      ],
+      "locator_key": "estado:FI 181",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL": 3,
+          "GLOBAL|anejo_ctx=4": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2025-12-29",
+      "frozen_order": [
+        "58ab67c2e0",
+        "62cad07357"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 152,
+          "operation_kind": "MODIFY",
+          "relation_id": "58ab67c2e0988fc42e0c4b49a416f860e7a5b64f6c10ae3aaa50e7d6c0ed9aa1"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2025-26847",
+          "node_index": 154,
+          "operation_kind": "MODIFY",
+          "relation_id": "62cad07357abee00458e7c2fcfc7898b6248cc914133764b591385fd1b692e65"
+        }
+      ],
+      "indigo_order": [
+        "58ab67c2e0",
+        "62cad07357"
+      ],
+      "locator_key": "estado:UEM 11-3",
+      "modifiers": [
+        "BOE-A-2025-26847"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-12-28",
+      "hops": [
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 239,
+          "operation_kind": "MODIFY",
+          "relation_id": "04b170ffa6c3f7ff9b8ee0367e1ade0a715c1bd15a3a3b38e64cec901098c4c5",
+          "scope": "GLOBAL"
+        },
+        {
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 238,
+          "operation_kind": "DELETE",
+          "relation_id": "cb04dc15a1415e5e6bf4c6c2c82464e5b3ac29e42bcee02337a860b827f1ff47",
+          "scope": "GLOBAL|sub=encabezamiento"
+        }
+      ],
+      "locator_key": "norma:60.apartado:106",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL": 1,
+          "GLOBAL|sub=encabezamiento": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-12-28",
+      "frozen_order": [
+        "c6c6448ef4",
+        "ccc5e97f09",
+        "e59f0c36f7"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 297,
+          "operation_kind": "MODIFY",
+          "relation_id": "c6c6448ef4951e5df718ba12deedfec9aceabde19a4df0119fca3dfc367dd54e"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 299,
+          "operation_kind": "MODIFY",
+          "relation_id": "ccc5e97f09043cc7ef7d77376505c089d786502fc3ddfac491136dee96ab7909"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 301,
+          "operation_kind": "MODIFY",
+          "relation_id": "e59f0c36f7edc058fe363b768d2b133c993ce17c242c11e63053c29dd131c220"
+        }
+      ],
+      "indigo_order": [
+        "c6c6448ef4",
+        "ccc5e97f09",
+        "e59f0c36f7"
+      ],
+      "locator_key": "norma:67",
+      "modifiers": [
+        "BOE-A-2018-17880"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2018-12-28",
+      "frozen_order": [
+        "9fa75ac315",
+        "eaa4170a8e"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 295,
+          "operation_kind": "ADD",
+          "relation_id": "9fa75ac315be6a74f15923257ca96b0c1ffe9664b0cae9517451b6f9e7d12aaf"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-17880",
+          "node_index": 293,
+          "operation_kind": "ADD",
+          "relation_id": "eaa4170a8efa1a04a4c9d9965e629dcfda1d6c20d84edeb7373483c91423c2fb"
+        }
+      ],
+      "indigo_order": [
+        "eaa4170a8e",
+        "9fa75ac315"
+      ],
+      "locator_key": "norma:67.apartado:1",
+      "modifiers": [
+        "BOE-A-2018-17880"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2021-12-29",
+      "frozen_order": [
+        "2890973744",
+        "a438527c7f"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2021-21666",
+          "node_index": 65,
+          "operation_kind": "MODIFY",
+          "relation_id": "28909737449cefb3c2f7fa4dbe36342cd7cabeb78fecacb042839fd4f85994bd"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2021-21666",
+          "node_index": 67,
+          "operation_kind": "ADD",
+          "relation_id": "a438527c7f2e5e49fd06537223b8bc6a54966a435464529e2f5a7cc30d4d671f"
+        }
+      ],
+      "indigo_order": [
+        "2890973744",
+        "a438527c7f"
+      ],
+      "locator_key": "norma:69.apartado:1",
+      "modifiers": [
+        "BOE-A-2021-21666"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "GLOBAL": 2,
+          "GLOBAL|sub=tabla": 1
+        }
+      },
+      "single_scope": false,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2021-12-29",
+      "hops": [
+        {
+          "modifier": "BOE-A-2021-21666",
+          "node_index": 63,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "99ac0e8cd83c721ddd1441bd4bd5f19e216245e74cdaed793f969d054e2c576a",
+          "scope": "GLOBAL|sub=tabla"
+        }
+      ],
+      "locator_key": "norma:69.apartado:1",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL": 2,
+          "GLOBAL|sub=tabla": 1
+        }
+      },
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2021-12-29",
+      "frozen_order": [
+        "298725ada3",
+        "5bf9641fc9"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2021-21666",
+          "node_index": 69,
+          "operation_kind": "MODIFY",
+          "relation_id": "298725ada35411c570631fcceeb483881ccaac2900a6b66a09d9f8fd6578b2fc"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2021-21666",
+          "node_index": 71,
+          "operation_kind": "ADD",
+          "relation_id": "5bf9641fc925725ab20f499046beb1aacdd98c6173a460925b8b0511124950f6"
+        }
+      ],
+      "indigo_order": [
+        "298725ada3",
+        "5bf9641fc9"
+      ],
+      "locator_key": "norma:69.apartado:2.letra:b",
+      "modifiers": [
+        "BOE-A-2021-21666"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "UNKNOWN",
+      "scope": null,
+      "single_scope": true,
+      "split": "dev",
+      "target": "BOE-A-2017-14334"
+    },
+    {
+      "date": "2012-10-02",
+      "frozen_order": [
+        "b3334764c6",
+        "f396f221fe"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2012-12293",
+          "node_index": 34,
+          "operation_kind": "ADD",
+          "relation_id": "b3334764c6c3525d38f1d58259a17f21cea5379cc9f8ce8c15a4f1550a03e4b2"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2012-12293",
+          "node_index": 35,
+          "operation_kind": "ADD",
+          "relation_id": "f396f221fe0317816b2cef32da05b131687f6e18da5c897d3db14e50778cb740"
+        }
+      ],
+      "indigo_order": [
+        "b3334764c6",
+        "f396f221fe"
+      ],
+      "locator_key": "apartado:1",
+      "modifiers": [
+        "BOE-A-2012-12293"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "1f35e2a737",
+        "31b50911ec"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 594,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "1f35e2a7374e27c115ef713011cb076d2141c2caf5c3418f004cc10c5102195e"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 622,
+          "operation_kind": "MODIFY",
+          "relation_id": "31b50911ecc55602f3e021d200d186a431ccc85f560d7e26d2c9b1febce6530f"
+        }
+      ],
+      "indigo_order": [
+        "1f35e2a737",
+        "31b50911ec"
+      ],
+      "locator_key": "apartado:1",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "norma:decimotercera": 2,
+          "norma:duodécima": 1,
+          "norma:novena": 1,
+          "norma:vigésima": 1
+        }
+      },
+      "single_scope": false,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 445,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "24fd184c944d76e91dee15bac0d3f225e59f295ad6a77446e63d57e5eee62337",
+          "scope": "norma:vigésima"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 34,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "63c9a31a3e7931fa87ff1adfdf14ae55214da5cbdae8ecfa434cbe5305fd04d6",
+          "scope": "norma:duodécima"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 586,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "6d6f1f702cec6492368c9ade8b1d5a3b06873f3204206fedbb7df8a7eda92826",
+          "scope": "norma:novena"
+        }
+      ],
+      "locator_key": "apartado:1",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "norma:decimotercera": 2,
+          "norma:duodécima": 1,
+          "norma:novena": 1,
+          "norma:vigésima": 1
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2016-05-06",
+      "hops": [
+        {
+          "modifier": "BOE-A-2016-4356",
+          "node_index": 122,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "019f70698f8725b9b29b324b02cc080b59a437a1c5c7ad8888d924049a0c07fa",
+          "scope": "UNSCOPED"
+        },
+        {
+          "modifier": "BOE-A-2016-4356",
+          "node_index": 112,
+          "operation_kind": "ADD",
+          "relation_id": "700e57ef7812d906846eadb1ce0f62e46e76945122442d8d4aee625970a34b32",
+          "scope": "UNSCOPED"
+        }
+      ],
+      "locator_key": "apartado:1",
+      "order_testable": false,
+      "scope": null,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "66a36f88a5",
+        "c5b1f31871"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 612,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "66a36f88a51eda43f6bed6e6e5e654a6fc9b6d0aceeee686d9d805055238642e"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 603,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "c5b1f3187161325bd85a09539b864503d8e2405e91d2bc3f3ba09848cd2602ea"
+        }
+      ],
+      "indigo_order": [
+        "c5b1f31871",
+        "66a36f88a5"
+      ],
+      "locator_key": "apartado:10",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "47cfdd7ce1",
+        "492647a497",
+        "c99f935890"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "DELETED",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "UNPROVEN_UNDER_ORDER",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "UNPROVEN_UNDER_ORDER",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 41,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "47cfdd7ce19bbcf532520bd724b3388ac54027a0f6dc139f62b0c1a5b3a7f65b"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 247,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "492647a4973a80b98a1ed306f545a322f1738ddad14da9c7fe35dd2c2f8e561a"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 46,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "c99f935890c249e4ec9260564821898544191cd4dadc1fafc9bc8e76c5d44dce"
+        }
+      ],
+      "indigo_order": [
+        "47cfdd7ce1",
+        "c99f935890",
+        "492647a497"
+      ],
+      "locator_key": "apartado:12",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "norma:decimotercera": 1,
+          "norma:duodécima": 3
+        }
+      },
+      "single_scope": false,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 603,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "73663fc18faededb5574ff8c110a886311cbd0f293cd112c361155da60d43786",
+          "scope": "norma:decimotercera"
+        }
+      ],
+      "locator_key": "apartado:12",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "norma:decimotercera": 1,
+          "norma:duodécima": 3
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 582,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "c9199991b71729b0184cd48f4cf917b378c7f578d0cc65edb87192d8b580d69e",
+          "scope": "norma:vigésima"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 46,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "e180d1c1c95e5b86b91db5c537fbb20a5ffcf4b86ec39d01ce1ab774905de3d1",
+          "scope": "norma:duodécima"
+        }
+      ],
+      "locator_key": "apartado:14",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "norma:duodécima": 1,
+          "norma:vigésima": 1
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2016-05-06",
+      "hops": [
+        {
+          "modifier": "BOE-A-2016-4356",
+          "node_index": 95,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "09319a352f767870091ee8c8ba2ccc76e487ed0fabadefcf7620f28c969fb37f",
+          "scope": "UNSCOPED"
+        },
+        {
+          "modifier": "BOE-A-2016-4356",
+          "node_index": 100,
+          "operation_kind": "MODIFY",
+          "relation_id": "1ea4c418ee1247e212db66e5eaeae79f00972c31c44cf60563542464e8c25d4e",
+          "scope": "UNSCOPED"
+        }
+      ],
+      "locator_key": "apartado:15.letra:a",
+      "order_testable": false,
+      "scope": null,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 48,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "03a48ade361bc84670801b82164c8f5c8baab756d22bce4f22b987ec80765920",
+          "scope": "norma:duodécima"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 586,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "d58e30ae75c926398855083ac8d696871d11bac64da846aad639642d0be69a03",
+          "scope": "norma:novena"
+        }
+      ],
+      "locator_key": "apartado:17",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "norma:duodécima": 1,
+          "norma:novena": 1
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2016-05-06",
+      "hops": [
+        {
+          "modifier": "BOE-A-2016-4356",
+          "node_index": 117,
+          "operation_kind": "ADD",
+          "relation_id": "181c1adcf67bd57018660895af4c89954170e592a4120b0bee504d87be3db372",
+          "scope": "UNSCOPED"
+        },
+        {
+          "modifier": "BOE-A-2016-4356",
+          "node_index": 61,
+          "operation_kind": "MODIFY",
+          "relation_id": "d98879f12039d1d218ae6bd4dc2d72b223ece45f462458a1215c74cc366cc6ab",
+          "scope": "UNSCOPED"
+        }
+      ],
+      "locator_key": "apartado:2",
+      "order_testable": false,
+      "scope": null,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2013-11-09",
+      "frozen_order": [
+        "97524c78ac",
+        "aeb5aaa0bf"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "PRESENT",
+          "modifier": "BOE-A-2013-11729",
+          "node_index": 273,
+          "operation_kind": "MODIFY",
+          "relation_id": "97524c78ac9cd2f9b74ce243f12348e5c71898ec7a1a4da0f4edcd9fdc26f6c9"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2013-11729",
+          "node_index": 271,
+          "operation_kind": "MODIFY",
+          "relation_id": "aeb5aaa0bfe0f3b3ff963485b4314d8bacb7ecac472f76d491251ed85e876fc1"
+        }
+      ],
+      "indigo_order": [
+        "aeb5aaa0bf",
+        "97524c78ac"
+      ],
+      "locator_key": "apartado:2.letra:c",
+      "modifiers": [
+        "BOE-A-2013-11729"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 46,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "1a948747964cc5e47a748f1de686a26810a5fdb3ce25835c5d4b787fb36dbb05",
+          "scope": "norma:duodécima"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 627,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "c25443857b2dc320b451ea98a906ed03b0443ad4fe6aa150cc8b901c0456fad4",
+          "scope": "norma:decimotercera"
+        }
+      ],
+      "locator_key": "apartado:27",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "norma:decimotercera": 1,
+          "norma:duodécima": 1
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "b7700e9994",
+        "cb7dc673f2",
+        "d5a3995c68"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 237,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "b7700e99945887567f997e8679448c1178317782397f9f45721452f2c7ea953c"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "PRESENT",
+          "indigo_class": "UNPROVEN_UNDER_ORDER",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 37,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "cb7dc673f241aa6033e1ccd0d4ddb8ed0c2d8d73980d8dfd347c7736645ae2ef"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 49,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "d5a3995c6881fbd0c480e2f6fdddcaa72823d185358c369bf78b9a27f6a03890"
+        }
+      ],
+      "indigo_order": [
+        "cb7dc673f2",
+        "d5a3995c68",
+        "b7700e9994"
+      ],
+      "locator_key": "apartado:3",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2013-11-09",
+      "frozen_order": [
+        "3296502cd4",
+        "854c6c9dac"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2013-11729",
+          "node_index": 135,
+          "operation_kind": "ADD",
+          "relation_id": "3296502cd482ac0962a96c71e173928e511612bc60be3798d4a397940c2c9982"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "PRESENT",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "PRESENT",
+          "modifier": "BOE-A-2013-11729",
+          "node_index": 228,
+          "operation_kind": "ADD",
+          "relation_id": "854c6c9dac7a5f58ed7dcf64394cb5510db7780095975b188283630aab7ac126"
+        }
+      ],
+      "indigo_order": [
+        "3296502cd4",
+        "854c6c9dac"
+      ],
+      "locator_key": "apartado:3.letra:i",
+      "modifiers": [
+        "BOE-A-2013-11729"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "14bf9ace13",
+        "7d834e646e",
+        "ea75f6b6fd"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "UNPROVEN_UNDER_ORDER",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "UNPROVEN_UNDER_ORDER",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 243,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "14bf9ace13c8fb6b9a880ee1817c64afd1eeb95ef27bc8306a4b01c299ec39b1"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 38,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "7d834e646e2256a40a45573a7d5596a54221c1233f9bf83feefe32c668d1d6d0"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 51,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "ea75f6b6fdb084f7b1b37040aa7d39d69555eef0155f05e12f856c03c47498da"
+        }
+      ],
+      "indigo_order": [
+        "7d834e646e",
+        "ea75f6b6fd",
+        "14bf9ace13"
+      ],
+      "locator_key": "apartado:4",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "norma:decimotercera": 1,
+          "norma:duodécima": 3,
+          "norma:vigésima": 1
+        }
+      },
+      "single_scope": false,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 449,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "0edd468444813a0796f49a440ce960fcb3cec60e6dc650224e64d13f47dff4a4",
+          "scope": "norma:vigésima"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 595,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "b1124b5438a25115f9f0e98e8710c3f4cfbfc7d7755a004e63f8c0b750a4eb0d",
+          "scope": "norma:decimotercera"
+        }
+      ],
+      "locator_key": "apartado:4",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "norma:decimotercera": 1,
+          "norma:duodécima": 3,
+          "norma:vigésima": 1
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2016-05-06",
+      "hops": [
+        {
+          "modifier": "BOE-A-2016-4356",
+          "node_index": 64,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "9ac21e7697fb4c37d7076b69e2bfe80d63dc6d1fa1c72d1ef3a46caf1552a42f",
+          "scope": "UNSCOPED"
+        },
+        {
+          "modifier": "BOE-A-2016-4356",
+          "node_index": 126,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "fa72e12a58059ac9f5cbdf49fa13190825ede1c489f15c23f13aca08ecbf7f9d",
+          "scope": "UNSCOPED"
+        }
+      ],
+      "locator_key": "apartado:5",
+      "order_testable": false,
+      "scope": null,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 457,
+          "operation_kind": "DELETE",
+          "relation_id": "2cc51397051dfd609b6779f67282a611d841ceffd154a3e0339cf89487bdb630",
+          "scope": "norma:vigésima"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 46,
+          "operation_kind": "MODIFY",
+          "relation_id": "d5ad0c90bc35afc832af5903483bd89b2faefe4f618b2bd80205000999a68cb2",
+          "scope": "norma:duodécima"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 586,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "eae048f48368706de1c292a05669ee0372e167b20fc7307eb67fb3603e5d5722",
+          "scope": "norma:novena"
+        }
+      ],
+      "locator_key": "apartado:6",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "norma:duodécima": 1,
+          "norma:novena": 1,
+          "norma:vigésima": 1
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2016-05-06",
+      "hops": [
+        {
+          "modifier": "BOE-A-2016-4356",
+          "node_index": 91,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "1377989663b36743c07f8b555d8e8e44b76f03a57d7b21f57166683e07eb4506",
+          "scope": "UNSCOPED"
+        },
+        {
+          "modifier": "BOE-A-2016-4356",
+          "node_index": 93,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "beed3b783e7aefe7d2b5b5e687ab4f25b8c504ff62279f828c0030283f5a1749",
+          "scope": "UNSCOPED"
+        }
+      ],
+      "locator_key": "apartado:6.letra:d",
+      "order_testable": false,
+      "scope": null,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "1904bf0218",
+        "97b390dc3f",
+        "d517ec7c45"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 46,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "1904bf0218367e5331d69901f20a1e08e0465e539093f45e9722709c0b1bb7cc"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 43,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "97b390dc3f9ffdcd5c90c0e78aaedbc9b934e2f27fed4d452496f1a298311ce9"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 39,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "d517ec7c451676f439d49545666ed7b035ab6c1067989d020cebc98cb2e11ddb"
+        }
+      ],
+      "indigo_order": [
+        "d517ec7c45",
+        "97b390dc3f",
+        "1904bf0218"
+      ],
+      "locator_key": "apartado:7",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "norma:decimotercera": 1,
+          "norma:duodécima": 3,
+          "norma:novena": 1,
+          "norma:vigésima": 1
+        }
+      },
+      "single_scope": false,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 596,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "67d5cf4d5838aba9b3af75550444814d1e940b6391aef7f455234de249092066",
+          "scope": "norma:decimotercera"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 458,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "72f8ab7a272ba10fe03e9708616f5017005799e909ccfcc7f038fb112d62e048",
+          "scope": "norma:vigésima"
+        },
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 586,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "8e3fa17b2936381803e71604e59e964f50ae19bc171168415580ef51421b1468",
+          "scope": "norma:novena"
+        }
+      ],
+      "locator_key": "apartado:7",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "norma:decimotercera": 1,
+          "norma:duodécima": 3,
+          "norma:novena": 1,
+          "norma:vigésima": 1
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "4f65daa71c",
+        "f84d45fa4d"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 234,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "4f65daa71c77c6b16c5d2fd532967d958a30c2082e39097e1882e48d21392ed9"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 235,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "f84d45fa4de64b8bd433833b585b6202201e18be395ac69b7d2eb4af2d40f057"
+        }
+      ],
+      "indigo_order": [
+        "4f65daa71c",
+        "f84d45fa4d"
+      ],
+      "locator_key": "apartado:71",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "3940eebf01",
+        "61dc66fb57"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "PRESENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 582,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "3940eebf01b541b6d7a24c628d30b5ebdcf9f562d5f60a53dc859d7cdd870064"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 458,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "61dc66fb57f76084986c2fff4954cdac507414f5c1771549b8a5b4a8714b9536"
+        }
+      ],
+      "indigo_order": [
+        "61dc66fb57",
+        "3940eebf01"
+      ],
+      "locator_key": "apartado:8",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "norma:decimotercera": 1,
+          "norma:vigésima": 2
+        }
+      },
+      "single_scope": false,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 603,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "ec76998c1c9b6fa1c64bd7efa06f73199bf3c7fbb03b39265fb09a95631b9a2f",
+          "scope": "norma:decimotercera"
+        }
+      ],
+      "locator_key": "apartado:8",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "norma:decimotercera": 1,
+          "norma:vigésima": 2
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2013-11-09",
+      "frozen_order": [
+        "adfe23ce56",
+        "b2d8630456"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "PRESENT",
+          "modifier": "BOE-A-2013-11729",
+          "node_index": 264,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "adfe23ce56f0eea07172a95b11e677db5f4df3bece8ed29c122c65dabb6757fa"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2013-11729",
+          "node_index": 133,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "b2d86304562a535f646f92d31a5dfa83832f86ca22c6517e21a6dd3c5dc202c1"
+        }
+      ],
+      "indigo_order": [
+        "b2d8630456",
+        "adfe23ce56"
+      ],
+      "locator_key": "apartado:9",
+      "modifiers": [
+        "BOE-A-2013-11729"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "frozen_order": [
+        "e14c69b53c",
+        "f70bd11fa2"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "UNPROVEN_UNDER_ORDER",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "UNPROVEN_UNDER_ORDER",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 40,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "e14c69b53ce28ce5acb0ce1696145761b8806429b2148ee9d6a78967129a5b3f"
+        },
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 49,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "f70bd11fa292cda1202087678133060829a94b5eb090dfb1ef70c1c803e9aeb1"
+        }
+      ],
+      "indigo_order": [
+        "e14c69b53c",
+        "f70bd11fa2"
+      ],
+      "locator_key": "apartado:9",
+      "modifiers": [
+        "BOE-A-2014-13365"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": {
+        "scopes": {
+          "norma:duodécima": 2,
+          "norma:vigésima": 1
+        }
+      },
+      "single_scope": false,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2014-12-23",
+      "hops": [
+        {
+          "modifier": "BOE-A-2014-13365",
+          "node_index": 458,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "89ad0e79ff17be775f8cbe1634016331b3bc2d4f3a911cd1a70aa9528c8ca1ed",
+          "scope": "norma:vigésima"
+        }
+      ],
+      "locator_key": "apartado:9",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "norma:duodécima": 2,
+          "norma:vigésima": 1
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2016-12-03",
+      "hops": [
+        {
+          "modifier": "BOE-A-2016-11483",
+          "node_index": 125,
+          "operation_kind": "SUBSTITUTE",
+          "relation_id": "3f319f16bc8013ea66a3d53add84adbefb2d1218782d41e0947cc745f27bc54c",
+          "scope": "GLOBAL|anejo_ctx=2"
+        },
+        {
+          "modifier": "BOE-A-2016-11483",
+          "node_index": 74,
+          "operation_kind": "MODIFY",
+          "relation_id": "e411e26fc89ab5fa474cf6bf51666879457a3805e2f7a3e15154ca4cfc8325f7",
+          "scope": "GLOBAL"
+        }
+      ],
+      "locator_key": "estado:FI 101",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL": 1,
+          "GLOBAL|anejo_ctx=2": 1
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2016-12-03",
+      "frozen_order": [
+        "02b366d9d8",
+        "ebc20863eb"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "UNKNOWN",
+          "adjudicated_method": "NO_STRUCTURAL_PROOF",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2016-11483",
+          "node_index": 138,
+          "operation_kind": "MODIFY",
+          "relation_id": "02b366d9d8e9801730e014e8f014b408a48a32df40afc40605aca25a56d58d3c"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2016-11483",
+          "node_index": 139,
+          "operation_kind": "ADD",
+          "relation_id": "ebc20863eb0edd74f1d1298a6ff1a7b93e4ab23ac7d0fd596b7c4ce8d7a7c84f"
+        }
+      ],
+      "indigo_order": [
+        "02b366d9d8",
+        "ebc20863eb"
+      ],
+      "locator_key": "estado:FI 131-4.2",
+      "modifiers": [
+        "BOE-A-2016-11483"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "sealed",
+      "target": "BOE-A-2004-21845"
+    },
+    {
+      "date": "2008-07-26",
+      "hops": [
+        {
+          "modifier": "BOE-A-2008-12818",
+          "node_index": 8,
+          "operation_kind": "DELETE",
+          "relation_id": "6e7c08561527d1a71eadf62388cde113fcb47e19ad0ac81dd706441e2637f0d8",
+          "scope": "UNSCOPED"
+        },
+        {
+          "modifier": "BOE-A-2008-12818",
+          "node_index": 4,
+          "operation_kind": "MODIFY",
+          "relation_id": "70a7aed3e98bb7fd30b008daad158b1e8a93fe78b222d7d916a881931c0c46fb",
+          "scope": "UNSCOPED"
+        },
+        {
+          "modifier": "BOE-A-2008-12818",
+          "node_index": 6,
+          "operation_kind": "DELETE",
+          "relation_id": "bbc92e84e08a4bc408f639f19f11909a4c85fa115600e90cafc71484eea01f50",
+          "scope": "UNSCOPED"
+        }
+      ],
+      "locator_key": "apartado:1",
+      "order_testable": false,
+      "scope": null,
+      "split": "sealed",
+      "target": "BOE-A-2008-9915"
+    },
+    {
+      "date": "2008-07-26",
+      "frozen_order": [
+        "06ec278c27",
+        "31bb12d3a9"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2008-12818",
+          "node_index": 3,
+          "operation_kind": "MODIFY",
+          "relation_id": "06ec278c274d4f1a31706c183bde185a8889dc0e7d54d1640fcd1b5a0866b599"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2008-12818",
+          "node_index": 2,
+          "operation_kind": "MODIFY",
+          "relation_id": "31bb12d3a936295990bd4a25a364151adaac92c1ab48a0dec7680d911be5972e"
+        }
+      ],
+      "indigo_order": [
+        "31bb12d3a9",
+        "06ec278c27"
+      ],
+      "locator_key": "norma:11",
+      "modifiers": [
+        "BOE-A-2008-12818"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "sealed",
+      "target": "BOE-A-2008-9915"
+    },
+    {
+      "date": "2018-02-09",
+      "frozen_order": [
+        "32c5c71555",
+        "9bfedf0511",
+        "e289006953"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-1749",
+          "node_index": 77,
+          "operation_kind": "ADD",
+          "relation_id": "32c5c715552873592a2ccdbcfc286e4d86b8f91802a7d01d1ac54f147757eb1f"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "PRESENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-1749",
+          "node_index": 74,
+          "operation_kind": "MODIFY",
+          "relation_id": "9bfedf0511a96ddc04506bf7fa33610d65a6334f0d4b21e4b4310a6891ee7cf7"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-1749",
+          "node_index": 61,
+          "operation_kind": "MODIFY",
+          "relation_id": "e289006953195f600159b03e07b7aed8555af5e0b5c7a786f9df70720139f829"
+        }
+      ],
+      "indigo_order": [
+        "e289006953",
+        "9bfedf0511",
+        "32c5c71555"
+      ],
+      "locator_key": "anejo:1",
+      "modifiers": [
+        "BOE-A-2018-1749"
+      ],
+      "order_changed": true,
+      "order_testable": true,
+      "pre_date_state": "UNKNOWN",
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=1": 3,
+          "GLOBAL|anejo_ctx=1|sub=tabla": 1
+        }
+      },
+      "single_scope": false,
+      "split": "sealed",
+      "target": "BOE-A-2016-5203"
+    },
+    {
+      "date": "2018-02-09",
+      "hops": [
+        {
+          "modifier": "BOE-A-2018-1749",
+          "node_index": 72,
+          "operation_kind": "MODIFY",
+          "relation_id": "74dbcfed969b2863566ff8d8e91e1e6750b56d880aedea96013123596554a2bc",
+          "scope": "GLOBAL|anejo_ctx=1|sub=tabla"
+        }
+      ],
+      "locator_key": "anejo:1",
+      "order_testable": false,
+      "scope": {
+        "scopes": {
+          "GLOBAL|anejo_ctx=1": 3,
+          "GLOBAL|anejo_ctx=1|sub=tabla": 1
+        }
+      },
+      "split": "sealed",
+      "target": "BOE-A-2016-5203"
+    },
+    {
+      "date": "2018-02-09",
+      "frozen_order": [
+        "1bc5655b9f",
+        "70906ba98d",
+        "d53a0a0f2b"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-1749",
+          "node_index": 95,
+          "operation_kind": "ADD",
+          "relation_id": "1bc5655b9f58199bbb6709907d7f05a5171c744a171dfd846e0193a8c325b254"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "PRESENT",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "PRESENT",
+          "modifier": "BOE-A-2018-1749",
+          "node_index": 100,
+          "operation_kind": "ADD",
+          "relation_id": "70906ba98d6403f895223e75483ebce5619cc9515eff93ac69bcdfe9a8185d8d"
+        },
+        {
+          "adjudicated_exp": "NOT_APPLICABLE",
+          "adjudicated_method": "ADD_OPERATION",
+          "frozen_class": "NOT_APPLICABLE",
+          "frozen_sim": "UNKNOWN",
+          "indigo_class": "NOT_APPLICABLE",
+          "indigo_sim": "UNKNOWN",
+          "modifier": "BOE-A-2018-1749",
+          "node_index": 102,
+          "operation_kind": "ADD",
+          "relation_id": "d53a0a0f2be7c0f01003e7b49849536ef770a41641af85d4e850c43c88c71900"
+        }
+      ],
+      "indigo_order": [
+        "1bc5655b9f",
+        "70906ba98d",
+        "d53a0a0f2b"
+      ],
+      "locator_key": "anejo:2",
+      "modifiers": [
+        "BOE-A-2018-1749"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "sealed",
+      "target": "BOE-A-2016-5203"
+    },
+    {
+      "date": "2018-02-09",
+      "frozen_order": [
+        "308896d16b",
+        "a69032bc50"
+      ],
+      "hops": [
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "ORIGINAL_PUBLICATION_STRUCTURAL",
+          "frozen_class": "FLOOR_CHANGED",
+          "frozen_sim": "ABSENT",
+          "indigo_class": "FLOOR_CHANGED",
+          "indigo_sim": "ABSENT",
+          "modifier": "BOE-A-2018-1749",
+          "node_index": 91,
+          "operation_kind": "MODIFY",
+          "relation_id": "308896d16b9b7549c9c56498cafe99275153e246359b19605cc8ba526828d8c4"
+        },
+        {
+          "adjudicated_exp": "PRESENT",
+          "adjudicated_method": "CHAIN_PREDECESSOR",
+          "frozen_class": "REPRODUCED",
+          "frozen_sim": "PRESENT",
+          "indigo_class": "REPRODUCED",
+          "indigo_sim": "PRESENT",
+          "modifier": "BOE-A-2018-1749",
+          "node_index": 98,
+          "operation_kind": "MODIFY",
+          "relation_id": "a69032bc5013c896b5117354a7520a4d62d666d0cae1245414870cfd01734c0e"
+        }
+      ],
+      "indigo_order": [
+        "308896d16b",
+        "a69032bc50"
+      ],
+      "locator_key": "anejo:2.apartado:i",
+      "modifiers": [
+        "BOE-A-2018-1749"
+      ],
+      "order_changed": false,
+      "order_testable": true,
+      "pre_date_state": "ABSENT",
+      "scope": null,
+      "single_scope": true,
+      "split": "sealed",
+      "target": "BOE-A-2016-5203"
+    }
+  ],
+  "verdict": "PATTERN_CONFIRMED"
+}

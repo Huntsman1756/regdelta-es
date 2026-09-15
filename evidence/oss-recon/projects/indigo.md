@@ -122,6 +122,13 @@ uncommenced-provision model is the strongest external reference for
 `version-chains` and O3 lifecycle semantics. LGPL + human-curated
 evidence model rule out ADOPT/PORT regardless of technical quality.
 
+experiment outcome: EXP-L1 (`evidence/cov/exp-l1/`) replayed the
+same-date ordering tuple over every order-sensitive group in both
+frozen ledgers — deterministic on official metadata, zero hard
+contradictions, never imposes an undeclared order. Verdict
+`PATTERN_CONFIRMED` — usable as a deterministic ordering prior to be
+re-proven per case; not an adoption.
+
 ## 10. Decision rationale
 
 - what_we_reuse: the work/expression/amendment-edge lifecycle model,

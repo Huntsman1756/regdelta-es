@@ -123,6 +123,12 @@ gated on the §8 experiment; its amendment pipeline is a negative
 result (LLM, non-reproducible) confirming RegDelta's deterministic
 requirement.
 
+experiment outcome: EXP-B1 (`evidence/cov/exp-b1/`) ran the §8
+falsification over both frozen ledgers — 85 redesignation cases, 15
+actionable edges, zero false merges / contradictions / lost
+continuity, one proven repair (`FI 16-1 -> FI 16-1.2` on 4/2004).
+Verdict `PORT` — mechanism eligible for a COV-2 preregistration.
+
 ## 10. Decision rationale
 
 - what_we_reuse: the redesignation-edge continuity model (record
