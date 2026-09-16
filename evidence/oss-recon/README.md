@@ -21,9 +21,19 @@ problems; every project verdict is evaluated per problem context.
 
 Batch 1 (2026-09-15): `words-to-data` = PATTERN (PORT candidate for
 the redesignation-pairing algorithm, gated on its §8 experiment);
-`indigo` = PATTERN. All other verdicts PENDING. A verdict is recorded
-only after the ficha is complete, including a pre-registered
-falsification experiment where required.
+`indigo` = PATTERN.
+
+Batch 2 (2026-09-16, portability preparation): `legaldocml-akn` =
+PATTERN, `leos` = PATTERN, `akn-pt` = PATTERN —
+`problems/jurisdiction-profiles.md` resolved PATTERN. AKN as a
+storage/representation format is excluded by the evidence contract;
+what survives is the profile-as-restriction doctrine, the FRBR
+W/E/M vocabulary and the wId/eId identity split.
+
+Remaining PENDING: `akn4olf`, `law-factory-parser`; problem fichas
+`amendment-actions`, `annexes-and-tables`, `hierarchical-diff`,
+`representation-binding-evidence`, `stable-node-identity`,
+`version-chains`.
 
 ## Flow into gates
 
