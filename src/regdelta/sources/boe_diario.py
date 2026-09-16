@@ -18,7 +18,8 @@ from __future__ import annotations
 
 import re
 import xml.etree.ElementTree as ET
-from dataclasses import dataclass, field
+
+from ..document import DiarioDoc, DiarioParseResult, Node, Ref
 
 PARSER_NAME = "boe_diario_xml"
 PARSER_VERSION = "v1"
@@ -33,62 +34,6 @@ INVALID_STRUCTURE = "INVALID_STRUCTURE"
 def normalize(text: str) -> str:
     """Hash-stable normalization: NBSP -> space, whitespace runs collapse."""
     return _WS_RE.sub(" ", text.replace(NBSP, " ")).strip()
-
-
-@dataclass(frozen=True)
-class Ref:
-    direction: str  # "anterior" | "posterior"
-    referencia: str
-    palabra: str
-    palabra_codigo: str
-    texto: str
-
-
-@dataclass(frozen=True)
-class Node:
-    """One direct child of ``<texto>`` in document order.
-
-    kind: 'p' | 'table' | 'img' | 'blockquote'
-    cls:  the ``class`` attribute (e.g. 'articulo', 'parrafo', 'imagen',
-          'anexo', 'anexo_num', 'centro_negrita')
-    text: normalized visible text ('' for images)
-    img_src: image path for kind='img' (or imagen-class <p> wrapping <img>)
-    blob: canonical serialization for kind='table' (used for content_sha256)
-    """
-
-    index: int
-    kind: str
-    cls: str
-    text: str
-    img_src: str | None = None
-    blob: bytes | None = None
-    rows: tuple = ()
-
-
-@dataclass
-class DiarioDoc:
-    metadata: dict = field(default_factory=dict)
-    metadata_eli: dict = field(default_factory=dict)
-    anteriores: list[Ref] = field(default_factory=list)
-    posteriores: list[Ref] = field(default_factory=list)
-    notas: list[str] = field(default_factory=list)
-    nodes: list[Node] = field(default_factory=list)
-
-    def paragraphs(self) -> list[Node]:
-        return [n for n in self.nodes if n.kind in ("p", "blockquote")]
-
-    def images(self) -> list[Node]:
-        return [n for n in self.nodes if n.kind == "img"]
-
-    def tables(self) -> list[Node]:
-        return [n for n in self.nodes if n.kind == "table"]
-
-
-@dataclass
-class DiarioParseResult:
-    parse_status: str
-    parse_error: str | None
-    doc: DiarioDoc | None
 
 
 def _refs(container: ET.Element | None, direction: str) -> list[Ref]:

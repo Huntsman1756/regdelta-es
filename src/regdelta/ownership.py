@@ -22,6 +22,7 @@ import unicodedata
 from dataclasses import dataclass
 
 from . import operations
+from .document import DiarioDoc
 from .profile import active_profile
 from .sources import boe_diario
 
@@ -98,7 +99,7 @@ def _corr_kind(ref) -> str | None:
     return None
 
 
-def resolve_corrected_instrument(mdoc: boe_diario.DiarioDoc) -> dict:
+def resolve_corrected_instrument(mdoc: DiarioDoc) -> dict:
     """Resolve the corrected instrument C of a corrigendum M.
 
     Priority (§16): ELI /corrigendum/ path -> anterior 'CORRECCIÓN de
@@ -151,7 +152,7 @@ def resolve_corrected_instrument(mdoc: boe_diario.DiarioDoc) -> dict:
             "evidence": evidence}
 
 
-def is_corrigendum(mdoc: boe_diario.DiarioDoc) -> bool:
+def is_corrigendum(mdoc: DiarioDoc) -> bool:
     rango = mdoc.metadata.get("rango", "") or ""
     eli = mdoc.metadata.get("url_eli", "") or ""
     titulo = (mdoc.metadata.get("titulo", "") or "").upper()
@@ -171,7 +172,7 @@ def _fmt_ref(ref: tuple[int, int] | None) -> str | None:
 
 
 def attribute_operation(op: operations.Operation,
-                        mdoc: boe_diario.DiarioDoc,
+                        mdoc: DiarioDoc,
                         target_ref: tuple[int, int] | None,
                         target_boe: str) -> TargetAttribution:
     """Attribute one parsed operation to an instrument (O1).
@@ -422,7 +423,7 @@ def _fichero_eq(a: str, b: str) -> bool:
         or _fichero_tokens(a) == _fichero_tokens(b)
 
 
-def _head_span(doc: boe_diario.DiarioDoc, pat: re.Pattern,
+def _head_span(doc: DiarioDoc, pat: re.Pattern,
                articulo_only: bool) -> tuple[int, int] | None:
     dm = active_profile().document_model
     start = None
@@ -437,7 +438,7 @@ def _head_span(doc: boe_diario.DiarioDoc, pat: re.Pattern,
     return (start, len(doc.nodes)) if start is not None else None
 
 
-def _sub_present(doc: boe_diario.DiarioDoc, span: tuple[int, int],
+def _sub_present(doc: DiarioDoc, span: tuple[int, int],
                  kind: str, val: str) -> bool:
     v = _norm(val)
     presence = active_profile().locator_grammar.presence
@@ -451,7 +452,7 @@ def _sub_present(doc: boe_diario.DiarioDoc, span: tuple[int, int],
     return False
 
 
-def locator_resolves_in_doc(doc: boe_diario.DiarioDoc, key: str) -> bool:
+def locator_resolves_in_doc(doc: DiarioDoc, key: str) -> bool:
     """Independent structural check over the official target document —
     the same derivation the frozen evaluator applies for O3.
 

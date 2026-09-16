@@ -1,7 +1,7 @@
 """G0-D applicability parser: disposiciones transitorias/finales of a
 diario document → deterministic applicability clauses.
 
-Pure extraction over ``boe_diario.DiarioDoc`` — no database, no network,
+Pure extraction over ``document.DiarioDoc`` — no database, no network,
 no LLM. Ported verbatim-semantics from the frozen G0-D discovery probe
 (``scripts/g0d/probe_applicability.py``); the only deliberate deltas are:
 
@@ -21,7 +21,7 @@ from dataclasses import dataclass, field
 
 from .operations import _alpha_value, _marker_parts
 from .profile import active_profile
-from .sources.boe_diario import DiarioDoc
+from .document import DiarioDoc
 
 PARSER_NAME = "applicability"
 PARSER_VERSION = "g0d-v3"

@@ -24,6 +24,7 @@ from pathlib import Path
 
 from . import applicability_parser as ap
 from . import history, operations, rawstore
+from .document import DiarioDoc
 from .profile import active_profile
 from .sources import boe_diario
 from .util import now_utc_iso, sha256_hex_text
@@ -111,7 +112,7 @@ def _diario_snapshot(conn, instrument_row) -> str:
 
 
 def _doc_from_snapshot(conn, data_dir: Path, snapshot_id: str,
-                       boe_id: str) -> boe_diario.DiarioDoc:
+                       boe_id: str) -> DiarioDoc:
     """Parse the diario XML of an instrument from its ledger blob."""
     sha = conn.execute(
         "SELECT blob_sha256 FROM source_snapshots WHERE snapshot_id=?",

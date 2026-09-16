@@ -27,7 +27,7 @@ from dataclasses import dataclass, field
 from . import annexmap
 from .operations import _ordinal_num
 from .profile import active_profile
-from .sources.boe_diario import DiarioDoc
+from .document import DiarioDoc
 
 PARSER_NAME = "structural_binding"
 PARSER_VERSION = "cov-v1"

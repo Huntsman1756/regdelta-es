@@ -23,6 +23,7 @@ from . import annexmap, binding, operations, ownership
 from .http import LIVE_FETCH
 from .profile import active_profile
 from .rawstore import store_blob
+from .document import DiarioDoc
 from .sources import boe_diario, boe_doc, boe_pdf
 from .util import canonical_date, sha256_hex, sha256_hex_text
 
@@ -164,7 +165,7 @@ class Acquirer:
 # ---------------------------------------------------------------------------
 
 
-def region_text(doc: boe_diario.DiarioDoc,
+def region_text(doc: DiarioDoc,
                 span: tuple[int, int]) -> tuple[str, str]:
     """(kind, serialized text) for a node span: TABLE iff it contains a
     table node, else TEXT."""
@@ -295,7 +296,7 @@ def _record_parse(ctx: _Ctx, snapshot_id: str, parse_status: str,
 
 
 def _upsert_instrument(ctx: _Ctx, boe_id: str, titulo: str,
-                       doc: boe_diario.DiarioDoc | None,
+                       doc: DiarioDoc | None,
                        snapshot_id: str | None) -> str:
     iid = instrument_id(boe_id)
     if iid in ctx.instruments:
@@ -317,7 +318,7 @@ def _upsert_instrument(ctx: _Ctx, boe_id: str, titulo: str,
 
 
 def _insert_instrument_relations(ctx: _Ctx, iid: str,
-                                 doc: boe_diario.DiarioDoc,
+                                 doc: DiarioDoc,
                                  snapshot_id: str) -> None:
     for ref in doc.anteriores + doc.posteriores:
         other_iid = instrument_id(ref.referencia)
@@ -420,7 +421,7 @@ class SubjectState:
     relation_id: str | None
 
 
-def _xml_candidate(doc: boe_diario.DiarioDoc, boe: str,
+def _xml_candidate(doc: DiarioDoc, boe: str,
                    span: tuple[int, int], scope: str, snap: str,
                    source: str) -> binding.Candidate:
     kind, text = region_text(doc, span)
@@ -454,7 +455,7 @@ def _materialize(ctx: _Ctx, sid: str, res: binding.BindingResult,
     return rid, cand.representation_kind
 
 
-def _bind_first_before(ctx: _Ctx, target: boe_diario.DiarioDoc,
+def _bind_first_before(ctx: _Ctx, target: DiarioDoc,
                        target_boe: str, key: str, sid: str,
                        amap, snapshot_id: str
                        ) -> binding.BindingResult:
@@ -585,7 +586,7 @@ def conn_locator(conn, rid: str) -> dict:
 
 
 def _bind_annex_after(ctx: _Ctx, key: str, sid: str, mboe: str,
-                      mdoc: boe_diario.DiarioDoc, snap: str,
+                      mdoc: DiarioDoc, snap: str,
                       modifier_map_getter) -> binding.BindingResult:
     """after from the modifier's own annex — only when the operation
     explicitly points there (B3/§20). Candidates are enumerated; a
@@ -709,7 +710,7 @@ def _span_covers_subject(key: str, text: str) -> bool:
 
 
 def _bind_content_after(ctx: _Ctx, key: str, sid: str, mboe: str,
-                        mdoc: boe_diario.DiarioDoc,
+                        mdoc: DiarioDoc,
                         op: operations.Operation,
                         snap: str) -> binding.BindingResult:
     """after from operation-owned content only (B3). A modifier-global
@@ -780,7 +781,7 @@ def _bind_content_after(ctx: _Ctx, key: str, sid: str, mboe: str,
 
 
 def _target_annex_map(ctx: _Ctx, boe_id: str,
-                      doc: boe_diario.DiarioDoc) -> annexmap.AnnexMap | None:
+                      doc: DiarioDoc) -> annexmap.AnnexMap | None:
     if boe_id in ctx.annex_maps:
         return ctx.annex_maps[boe_id]
     sd = _sd()

@@ -32,7 +32,7 @@ import unicodedata
 from dataclasses import dataclass, field
 
 from .profile import active_profile
-from .sources.boe_diario import DiarioDoc, Node, normalize
+from .document import DiarioDoc, Node
 
 PARSER_NAME = "boe_operations"
 PARSER_VERSION = "v4"
