@@ -26,119 +26,30 @@ from .sources.boe_diario import DiarioDoc
 PARSER_NAME = "applicability"
 PARSER_VERSION = "g0d-v3"
 
-# disposición headings are discovered, not enumerated: the code is
-# type-prefix + ordinal word so any N-th disposición parses ('dt1',
-# 'df2', 'da3', 'ddu')
-_DISP_HEAD_RE = re.compile(
-    r"^\s*disposici[oó]n\s+(transitoria|final|adicional|derogatoria)"
-    r"(?:\s+(\w+))?", re.IGNORECASE)
-_DISP_PREFIX = {"transitoria": "dt", "final": "df", "adicional": "da",
-                "derogatoria": "dd"}
-_DISP_ORDINAL = {
-    "única": "u", "unica": "u", "primera": "1", "primero": "1",
-    "segunda": "2", "segundo": "2", "tercera": "3", "tercero": "3",
-    "cuarta": "4", "cuarto": "4", "quinta": "5", "quinto": "5",
-    "sexta": "6", "sexto": "6", "séptima": "7", "septima": "7",
-    "séptimo": "7", "octava": "8", "octavo": "8", "novena": "9",
-    "noveno": "9", "décima": "10", "decima": "10", "décimo": "10",
-    "undécima": "11", "undecima": "11", "duodécima": "12",
-    "duodecima": "12",
-}
+# F7 disposicion/clause vocabulary (dates, frequencies, temporal and
+# modal lexemes, subject-reference and introducer patterns) is owned by
+# the active profile's applicability_language facet; clause assembly,
+# epistemic derivation and parent wiring below are core policy.
+# Disposicion headings are discovered, not enumerated: the code is
+# type-prefix + ordinal word so any N-th disposicion parses ('dt1',
+# 'df2', 'da3', 'ddu').
 
-MONTHS = {
-    "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5,
-    "junio": 6, "julio": 7, "agosto": 8, "septiembre": 9,
-    "octubre": 10, "noviembre": 11, "diciembre": 12,
-}
-DATE_RE = re.compile(r"(\d{1,2}) de (" + "|".join(MONTHS) + r") de (\d{4})")
+def _date_re() -> re.Pattern:
+    al = active_profile().applicability_language
+    return re.compile(
+        r"(\d{1,2}) de (" + "|".join(al.months) + r") de (\d{4})")
 
-TEMPORAL_MARKERS = [
-    ("INSTRUMENT_EFFECTIVE_FROM",
-     re.compile(r"entrará en vigor el día siguiente al de su publicación")),
-    ("APPLY_FROM", re.compile(r"se aplicarán desde el")),
-    ("FIRST_REFERENCE_DATE",
-     re.compile(r"se aplicarán por primera vez para los datos")),
-    ("FIRST_REFERENCE_DATE", re.compile(r"primera fecha de referencia")),
-    ("LAST_REFERENCE_DATE", re.compile(r"últimos datos")),
-    ("RETROACTIVE_APPLICATION",
-     re.compile(r"se aplicarán retroactivamente")),
-    ("INITIAL_APPLICATION_DATE",
-     re.compile(r"fecha de aplicación inicial[^.]*será el")),
-    ("PROSPECTIVE_APPLICATION",
-     re.compile(r"aplicar (?:las modificaciones )?prospectivamente")),
-    ("SCOPE_PERIOD", re.compile(r"aplicará esta disposición transitoria")),
-]
 
-MODALITY_MARKERS = [
-    ("ABSENCE_OF_OBLIGATION", re.compile(r"no estará obligada? a")),
-    ("NON_APPLICATION", re.compile(r"no aplicará")),
-    ("OPTION", re.compile(r"podrá(?:n)? (?:optar|interrumpir)")),
-    ("OBLIGATION",
-     re.compile(r"(?:deberá|deberán|deben|debe|reconocerá|informará)\b")),
-    ("DECLARED_RULE",
-     re.compile(r"se aplicarán|entrará en vigor|aplicará|serán")),
-]
-
-CONDITIONAL_OPENER = re.compile(r"^(?:Si[ ,]|Cuando )\b")
-
-FREQ_MAP = {
-    "mensual": "MONTHLY", "mensuales": "MONTHLY",
-    "trimestral": "QUARTERLY", "trimestrales": "QUARTERLY",
-    "semestral": "SEMIANNUAL", "semestrales": "SEMIANNUAL",
-    "anual": "ANNUAL", "anuales": "ANNUAL",
-}
-
-_FREQ_WORDS = r"(?:mensual|trimestral|semestral|anual)(?:es)?"
-FREQ_DATE_PAIR = re.compile(
-    r"de (\d{1,2} de \w+ de \d{4}) para los (?:estados )?de "
-    r"frecuencias? (" + _FREQ_WORDS + r"(?: y " + _FREQ_WORDS + r")?)")
-
-_NUMLIST = r"(\d+(?: a \d+)?(?:(?:\s*,\s*|\s+y\s+)\d+(?: a \d+)?)*)"
-APARTADO_DE_NORMA = re.compile(
-    r"apartados? " + _NUMLIST + r" de la norma (\d+)")
-APARTADOS_NORMA_REF = re.compile(
-    r"apartados (\d+) a (\d+) de la norma (\d+)")
-NORMAS_RE = re.compile(r"las normas " + _NUMLIST)
-ANEJOS_RE = re.compile(r"los anejos " + _NUMLIST)
-PUNTO_DE_ANEJO = re.compile(
-    r"punto (\d+)((?:\.\d+)*)[^.]*?"
-    r"(?:y el apartado ([IVX]+)[^.]*)? del anejo (\d+)")
-APARTADO_IV_ANEJO = re.compile(r"apartado ([IVX]+)[^,;.]*del anejo (\d+)")
 # 'estados FI 1, FI 2 y FI 3' scope lists and the code token — state-
 # code vocabulary owned by the active profile's annex_state facet
 # (PORT-2 C-016); the scope-resolution policy consuming them is core.
 
-INTRO_RE = re.compile(
-    r"introducid[ao]s? por (.*?),? respectivamente,? de la norma (\d+)")
-INTRO_RE2 = re.compile(
-    r"introducid[ao]s? por (.*?de la letra [a-z]\)),? de la norma (\d+)")
-LETRA_SINGLE = re.compile(r"la letra ([a-z])\)")
-LETRAS_MULTI = re.compile(r"las letras ((?:[a-z]\)(?:, | y )?)+)")
-NUMERAL_OF_LETRA = re.compile(
-    r"numeral ([ivx]+)\)(?:, respectivamente,)? de la letra ([a-z])\)")
-NUMERALES_OF_LETRA = re.compile(
-    r"numerales ((?:[ivx]+\)(?:, | y )?)+)"
-    r"(?:, respectivamente,)? de la letra ([a-z])\)")
-ROMAN_TOKEN = re.compile(r"([ivx]+)\)")
-
-EXCEPT_APARTADOS = re.compile(
-    r"con las excepciones establecidas en los apartados (\d+) a (\d+)"
-    r" de esta disposición")
-ESPECIFICIDADES = re.compile(r"con las siguientes especificidades")
-SIN_PERJUICIO = re.compile(
-    r"[Ss]in perjuicio de lo establecido en la (disposición transitoria"
-    r" \w+)")
-
-RULE_REF_CTX = re.compile(
-    r"(?:de acuerdo con|establecido en|requerida en|dispone en)"
-    r"[^.]{0,90}$")
-
-
 def _nums(s: str) -> list[str]:
     """'3, 6 y 7' → [3,6,7]; '17 a 20' → [17..20]."""
+    al = active_profile().applicability_language
     out = []
-    for part in re.split(r",| y ", s.strip()):
-        m = re.match(r"^(\d+) a (\d+)$", part.strip())
+    for part in re.split(al.nums_split, s.strip()):
+        m = al.nums_range.match(part.strip())
         if m:
             out.extend(str(i) for i in range(int(m.group(1)),
                                              int(m.group(2)) + 1))
@@ -148,37 +59,40 @@ def _nums(s: str) -> list[str]:
 
 
 def _iso(m) -> str:
-    return f"{m.group(3)}-{MONTHS[m.group(2)]:02d}-{int(m.group(1)):02d}"
+    months = active_profile().applicability_language.months
+    return f"{m.group(3)}-{months[m.group(2)]:02d}-{int(m.group(1)):02d}"
 
 
 def _rule_ref(text: str, start: int) -> bool:
     """True when the citation sits inside an applied-rule reference rather
     than naming a modified subject."""
-    return bool(RULE_REF_CTX.search(text[:start]))
+    return bool(active_profile().applicability_language
+                .rule_patterns["rule_ref_ctx"].search(text[:start]))
 
 
 def extract_subjects(text: str) -> list[dict]:
+    al = active_profile().applicability_language
     out = []
-    for m in APARTADO_DE_NORMA.finditer(text):
+    for m in al.subject_refs["apartado_de_norma"].finditer(text):
         for ap in _nums(m.group(1)):
             out.append({"raw": m.group(0),
                         "locator_key": f"norma:{m.group(2)}.apartado:{ap}",
                         "rule_ref": _rule_ref(text, m.start())})
-    for m in APARTADOS_NORMA_REF.finditer(text):
+    for m in al.subject_refs["apartados_norma_ref"].finditer(text):
         for ap in range(int(m.group(1)), int(m.group(2)) + 1):
             out.append({"raw": m.group(0),
                         "locator_key":
                             f"norma:{m.group(3)}.apartado:{ap}",
                         "rule_ref": _rule_ref(text, m.start())})
-    for m in NORMAS_RE.finditer(text):
+    for m in al.subject_refs["normas"].finditer(text):
         for n in _nums(m.group(1)):
             out.append({"raw": m.group(0), "locator_key": f"norma:{n}",
                         "rule_ref": _rule_ref(text, m.start())})
-    for m in ANEJOS_RE.finditer(text):
+    for m in al.subject_refs["anejos"].finditer(text):
         for n in _nums(m.group(1)):
             out.append({"raw": m.group(0), "locator_key": f"anejo:{n}",
                         "rule_ref": _rule_ref(text, m.start())})
-    for m in PUNTO_DE_ANEJO.finditer(text):
+    for m in al.subject_refs["punto_de_anejo"].finditer(text):
         out.append({"raw": m.group(0),
                     "locator_key":
                         f"anejo:{m.group(4)}.punto:{m.group(1)}{m.group(2)}",
@@ -188,8 +102,9 @@ def extract_subjects(text: str) -> list[dict]:
                         "locator_key":
                             f"anejo:{m.group(4)}.apartado:{m.group(3)}",
                         "rule_ref": _rule_ref(text, m.start())})
-    for m in APARTADO_IV_ANEJO.finditer(text):
-        if not PUNTO_DE_ANEJO.search(text[max(0, m.start() - 60):m.end()]):
+    for m in al.subject_refs["apartado_iv_anejo"].finditer(text):
+        if not al.subject_refs["punto_de_anejo"].search(
+                text[max(0, m.start() - 60):m.end()]):
             out.append({"raw": m.group(0),
                         "locator_key":
                             f"anejo:{m.group(2)}.apartado:{m.group(1)}",
@@ -210,29 +125,32 @@ def extract_subjects(text: str) -> list[dict]:
 def extract_introducers(text: str) -> list[str]:
     """Marker paths: 'la letra b)' → 'b'; 'numeral iii) de la letra i)'
     → 'i/iii'."""
+    ip = active_profile().applicability_language.introducer_patterns
     paths: list[str] = []
-    for m in list(INTRO_RE.finditer(text)) + list(INTRO_RE2.finditer(text)):
+    for m in (list(ip["intro"].finditer(text))
+              + list(ip["intro_letra"].finditer(text))):
         frag = m.group(1)
-        for mm in NUMERALES_OF_LETRA.finditer(frag):
-            for tok in ROMAN_TOKEN.findall(mm.group(1)):
+        for mm in ip["numerales_of_letra"].finditer(frag):
+            for tok in ip["roman_token"].findall(mm.group(1)):
                 paths.append(f"{mm.group(2)}/{tok}")
-        rest = NUMERALES_OF_LETRA.sub("", frag)
-        for mm in NUMERAL_OF_LETRA.finditer(rest):
+        rest = ip["numerales_of_letra"].sub("", frag)
+        for mm in ip["numeral_of_letra"].finditer(rest):
             paths.append(f"{mm.group(2)}/{mm.group(1)}")
-        rest = NUMERAL_OF_LETRA.sub("", rest)
-        for mm in LETRAS_MULTI.finditer(rest):
+        rest = ip["numeral_of_letra"].sub("", rest)
+        for mm in ip["letras_multi"].finditer(rest):
             paths.extend(re.findall(r"([a-z])\)", mm.group(1)))
-        rest = LETRAS_MULTI.sub("", rest)
-        for mm in LETRA_SINGLE.finditer(rest):
+        rest = ip["letras_multi"].sub("", rest)
+        for mm in ip["letra_single"].finditer(rest):
             paths.append(mm.group(1))
     return paths
 
 
 def extract_dates(text: str) -> list[dict]:
+    al = active_profile().applicability_language
     out = [{"raw": m.group(0), "iso": _iso(m), "epistemic": "OBSERVED"}
-           for m in DATE_RE.finditer(text)]
-    if "día siguiente al de su publicación" in text:
-        out.append({"raw": "día siguiente al de su publicación",
+           for m in _date_re().finditer(text)]
+    if al.pub_relative in text:
+        out.append({"raw": al.pub_relative,
                     "iso": None, "relative": "PUBLICATION_PLUS_1",
                     "epistemic": "DERIVED"})
     return out
@@ -241,8 +159,9 @@ def extract_dates(text: str) -> list[dict]:
 def split_sentences(text: str) -> list[tuple[int, int]]:
     """(start, end) char spans; '. ' before uppercase/«/digit. Marker-only
     spans ('1.', 'a)') merge forward into the next sentence."""
+    al = active_profile().applicability_language
     spans, start = [], 0
-    for m in re.finditer(r"\.\s+(?=[A-ZÁÉÍÓÚÑ«0-9(])", text):
+    for m in al.sentence_boundary.finditer(text):
         spans.append((start, m.end()))
         start = m.end()
     spans.append((start, len(text)))
@@ -250,7 +169,7 @@ def split_sentences(text: str) -> list[tuple[int, int]]:
     for s, e in spans:
         if not text[s:e].strip():
             continue
-        if merged and re.fullmatch(r"(?:\d+\.|[a-z]\))\.?\s*",
+        if merged and re.fullmatch(al.marker_only,
                                    text[merged[-1][0]:merged[-1][1]]):
             merged[-1] = (merged[-1][0], e)
         else:
@@ -259,7 +178,8 @@ def split_sentences(text: str) -> list[tuple[int, int]]:
 
 
 def classify_modality(text: str) -> tuple[str, str]:
-    for mod, rx in MODALITY_MARKERS:
+    for mod, rx in active_profile().applicability_language \
+            .modality_markers:
         m = rx.search(text)
         if m:
             return mod, text[m.start():m.start() + 80].split(".")[0].strip()
@@ -267,91 +187,95 @@ def classify_modality(text: str) -> tuple[str, str]:
 
 
 def extract_conditions(text: str) -> list[dict]:
+    al = active_profile().applicability_language
     conds = [{"raw": m.group(0).rstrip(",."), "normalized": None,
               "epistemic": "OBSERVED"}
-             for m in re.finditer(r"(?:Si|Cuando) [^.]*?(?:,|\.)", text)]
-    for m in FREQ_DATE_PAIR.finditer(text):
-        freqs = [FREQ_MAP[t] for t in re.findall(
-            r"mensual(?:es)?|trimestral(?:es)?|semestral(?:es)?|anual(?:es)?",
-            m.group(2))]
+             for m in al.condition_scan.finditer(text)]
+    for m in al.freq_date_pair.finditer(text):
+        freqs = [al.freq_map[t] for t in
+                 al.freq_word_scan.findall(m.group(2))]
         conds.append({"raw": m.group(0),
                       "normalized": {"frequency_in": freqs,
                                      "date": _iso(
-                                         DATE_RE.search(m.group(1)))},
+                                         _date_re().search(m.group(1)))},
                       "epistemic": "DERIVED"})
-    if "cuentas anuales correspondientes al ejercicio 2026" in text:
+    if al.exercise_literal in text:
         conds.append({
-            "raw": "cuentas anuales correspondientes al ejercicio 2026",
-            "normalized": {"exercise": 2026}, "epistemic": "DERIVED"})
+            "raw": al.exercise_literal,
+            "normalized": {"exercise": al.exercise_value},
+            "epistemic": "DERIVED"})
     return conds
 
 
 def temporal_effects(text: str) -> list[dict]:
     """Structured effects: {effect, date_value, date_raw, condition_raw,
     condition_normalized, epistemic}."""
+    al = active_profile().applicability_language
     effs = []
-    kinds = [eff for eff, rx in TEMPORAL_MARKERS if rx.search(text)]
+    kinds = [eff for eff, rx in al.temporal_markers if rx.search(text)]
 
     for eff in dict.fromkeys(kinds):
         entry = {"effect": eff, "date_value": None, "date_raw": None,
                  "condition_raw": None, "condition_normalized": None,
                  "epistemic": "OBSERVED"}
         if eff == "INSTRUMENT_EFFECTIVE_FROM":
-            entry.update(date_raw="día siguiente al de su publicación",
+            entry.update(date_raw=al.pub_relative,
                          date_value=None, epistemic="DERIVED",
                          condition_normalized={
                              "relative": "PUBLICATION_PLUS_1"})
         elif eff == "APPLY_FROM":
-            m = re.search(
-                r"se aplicarán desde el (\d{1,2} de \w+ de \d{4})", text)
+            m = re.search(al.effect_date_patterns["APPLY_FROM"], text)
             if m:
                 entry.update(date_raw=m.group(1),
-                             date_value=_iso(DATE_RE.search(m.group(1))))
+                             date_value=_iso(_date_re()
+                                             .search(m.group(1))))
         elif eff == "FIRST_REFERENCE_DATE":
-            pairs = list(FREQ_DATE_PAIR.finditer(text))
+            pairs = list(al.freq_date_pair.finditer(text))
             if pairs:
                 for p in pairs:
-                    freqs = [FREQ_MAP[t] for t in re.findall(
-                        r"mensual(?:es)?|trimestral(?:es)?|"
-                        r"semestral(?:es)?|anual(?:es)?", p.group(2))]
+                    freqs = [al.freq_map[t] for t in
+                             al.freq_word_scan.findall(p.group(2))]
                     effs.append({
                         "effect": eff,
-                        "date_value": _iso(DATE_RE.search(p.group(1))),
+                        "date_value": _iso(_date_re().search(p.group(1))),
                         "date_raw": p.group(1),
                         "condition_raw": p.group(0),
                         "condition_normalized": {"frequency_in": freqs},
                         "epistemic": "DERIVED"})
                 continue
             m = re.search(
-                r"(\d{1,2} de \w+ de \d{4}) como primera fecha de referencia",
-                text)
+                al.effect_date_patterns["FIRST_REFERENCE_DATE"], text)
             if m:
                 entry.update(date_raw=m.group(1),
-                             date_value=_iso(DATE_RE.search(m.group(1))))
+                             date_value=_iso(_date_re()
+                                             .search(m.group(1))))
         elif eff == "LAST_REFERENCE_DATE":
             m = re.search(
-                r"correspondientes a[l]? (\d{1,2} de \w+ de \d{4})", text)
+                al.effect_date_patterns["LAST_REFERENCE_DATE"], text)
             if m:
                 entry.update(date_raw=m.group(1),
-                             date_value=_iso(DATE_RE.search(m.group(1))))
+                             date_value=_iso(_date_re()
+                                             .search(m.group(1))))
         elif eff == "INITIAL_APPLICATION_DATE":
-            m = re.search(r"será el (\d{1,2} de \w+ de \d{4})", text)
+            m = re.search(
+                al.effect_date_patterns["INITIAL_APPLICATION_DATE"], text)
             if m:
                 entry.update(date_raw=m.group(1),
-                             date_value=_iso(DATE_RE.search(m.group(1))))
+                             date_value=_iso(_date_re()
+                                             .search(m.group(1))))
         elif eff == "SCOPE_PERIOD":
-            m = re.search(
-                r"cuentas anuales \w+ y \w+ correspondientes al"
-                r" (ejercicio \d{4})", text)
+            m = al.exercise_pattern.search(text)
             if m:
                 entry.update(condition_raw=m.group(1),
-                             condition_normalized={"exercise": 2026},
+                             condition_normalized={
+                                 "exercise": al.exercise_value},
                              epistemic="DERIVED")
         effs.append(entry)
     return effs
 
 
 def section_nodes(doc: DiarioDoc) -> dict:
+    al = active_profile().applicability_language
     dm = active_profile().document_model
     arts = [n for n in doc.nodes if n.cls == dm.classes["articulo"]]
     sig = next((n.index for n in doc.nodes
@@ -360,11 +284,11 @@ def section_nodes(doc: DiarioDoc) -> dict:
                len(doc.nodes))
     spans = {}
     for a in arts:
-        m = _DISP_HEAD_RE.match(a.text)
+        m = al.disp_head.match(a.text)
         if m is None:
             continue
-        code = _DISP_PREFIX[m.group(1).lower()] + (
-            _DISP_ORDINAL.get(m.group(2).lower(), m.group(2).lower())
+        code = al.disp_prefix[m.group(1).lower()] + (
+            al.disp_ordinal.get(m.group(2).lower(), m.group(2).lower())
             if m.group(2) else "u")
         if code in spans:  # second unnumbered provision of same type
             code = f"{code}.{sum(1 for k in spans if k.split('.')[0] == code)}"
@@ -372,7 +296,7 @@ def section_nodes(doc: DiarioDoc) -> dict:
         nxt = min([n.index for n in arts if n.index > head] + [sig])
         nodes = [n for n in doc.nodes[head + 1:nxt]
                  if n.kind == dm.kinds["paragraph"]]
-        style = ("num" if any(re.match(r"^\d+\.\s", n.text)
+        style = ("num" if any(re.match(al.num_item, n.text)
                               for n in nodes) else "alpha")
         spans[code] = (head, nodes, style)
     return spans
@@ -405,8 +329,9 @@ def extract_clauses(doc: DiarioDoc) -> list[Clause]:
     for code, (head, nodes, style) in spans.items():
         items: list[tuple[str, list]] = []
         cur_label, cur_nodes = None, []
-        item_re = (re.compile(r"^(\d+)\.\s") if style == "num"
-                   else re.compile(r"^([a-z])\)\s"))
+        item_re = re.compile(
+            active_profile().applicability_language
+            .item_markers[style])
         for n in nodes:
             m = item_re.match(n.text)
             if m:
@@ -434,9 +359,11 @@ def extract_clauses(doc: DiarioDoc) -> list[Clause]:
             sub = 0
             for s, e in split_sentences(text):
                 sent = text[s:e].strip()
-                has_core = bool(temporal_effects(sent)
-                                or classify_modality(sent)[1]
-                                or CONDITIONAL_OPENER.match(sent))
+                has_core = bool(
+                    temporal_effects(sent)
+                    or classify_modality(sent)[1]
+                    or active_profile().applicability_language
+                    .conditional_opener.match(sent))
                 if clauses and not has_core:
                     clauses[-1].text += " " + sent
                     clauses[-1].char_span[1] = e
@@ -475,23 +402,24 @@ def assign_parents(clauses: list[Clause]) -> list[Clause]:
             by_item.setdefault((c.section, c.item), c)
 
     for c in list(clauses):
-        m = EXCEPT_APARTADOS.search(c.text)
+        al = active_profile().applicability_language
+        m = al.rule_patterns["except_apartados"].search(c.text)
         if m:
             for (sec, item), head in by_item.items():
                 if sec == c.section and item.isdigit() \
                         and int(m.group(1)) <= int(item) <= int(m.group(2)):
                     head.parent_key = c.clause_key
                     head.relation_to_parent = "EXCEPTION"
-        if ESPECIFICIDADES.search(c.text):
+        if al.rule_patterns["especificidades"].search(c.text):
             for (sec, item), head in by_item.items():
                 if sec == c.section and len(item) == 1 and item.isalpha() \
                         and head is not c:
                     head.parent_key = c.clause_key
                     head.relation_to_parent = "EXCEPTION"
-        m = SIN_PERJUICIO.search(c.text)
+        m = al.rule_patterns["sin_perjuicio"].search(c.text)
         if m:
-            tgt = {"primera": "dt1", "segunda": "dt2",
-                   "tercera": "dt3"}.get(m.group(1).rsplit(" ", 1)[-1])
+            tgt = al.sin_perjuicio_targets.get(
+                m.group(1).rsplit(" ", 1)[-1])
             sub = Clause(
                 clause_key=f"{c.clause_key}:carveout", section=c.section,
                 item=c.item, sub=99, node_span=c.node_span,
@@ -504,11 +432,10 @@ def assign_parents(clauses: list[Clause]) -> list[Clause]:
                                "epistemic": "DERIVED"}]
             sub.subjects = extract_subjects(c.text[:m.end() + 120])
             clauses.append(sub)
-        if re.search(r"(?:Si optara|Cuando haya optado) por no reexpresar",
-                     c.text):
+        if al.rule_patterns["opt_out_trigger"].search(c.text):
             opt = next((x for x in clauses
                         if x.section == c.section
-                        and "no estará obligada a reexpresar" in x.text),
+                        and al.opt_out_phrase in x.text),
                        None)
             if opt is not None:
                 c.parent_key = opt.clause_key
@@ -589,12 +516,13 @@ def frequency_table(doc: DiarioDoc) -> tuple[dict, int | None]:
     *target* document — DECLARED, never inferred from the state name.
 
     Returns ({estado: FREQ}, table_node_index)."""
+    al = active_profile().applicability_language
     for n in doc.nodes:
         if n.kind == active_profile().document_model.kinds["table"] \
-                and n.rows and "Periodicidad" in n.rows[0]:
+                and n.rows and al.periodicity_header in n.rows[0]:
             out = {}
             for r in n.rows[1:]:
                 per = r[2].strip().rstrip(".") if len(r) > 2 else ""
-                out[r[0].strip()] = FREQ_MAP.get(per.lower(), per)
+                out[r[0].strip()] = al.freq_map.get(per.lower(), per)
             return out, n.index
     return {}, None

@@ -24,6 +24,7 @@ from pathlib import Path
 
 from . import applicability_parser as ap
 from . import history, operations, rawstore
+from .profile import active_profile
 from .sources import boe_diario
 from .util import now_utc_iso, sha256_hex_text
 
@@ -97,7 +98,8 @@ def _diario_snapshot(conn, instrument_row) -> str:
     never fetches."""
     if instrument_row["snapshot_id"]:
         return instrument_row["snapshot_id"]
-    url = history.XML_URL.format(boe=instrument_row["boe_id"])
+    url = active_profile().source_descriptors \
+        .url_templates["diario_xml"].format(boe=instrument_row["boe_id"])
     row = conn.execute(
         "SELECT snapshot_id FROM source_snapshots WHERE source_url=?",
         (url,)).fetchone()

@@ -29,10 +29,10 @@ from .util import canonical_date, sha256_hex, sha256_hex_text
 PARSER_NAME = "history"
 PARSER_VERSION = "v5"
 
-BOE_BASE = "https://www.boe.es"
-XML_URL = BOE_BASE + "/diario_boe/xml.php?id={boe}"
-DOC_URL = BOE_BASE + "/buscar/doc.php?id={boe}"
-PDF_URL = BOE_BASE + "/boe/dias/{y}/{m}/{d}/pdfs/{boe}.pdf"
+
+def _sd():
+    """F8 source descriptors: acquisition endpoints and source ids."""
+    return active_profile().source_descriptors
 
 ANOMALY_FETCH = "FETCH_ERROR"
 ANOMALY_PARSE = "PARSE_INVALID"
@@ -384,13 +384,17 @@ def _image_representation(ctx: _Ctx, sid: str, boe_id: str,
         if alt is None or alt > len(imgs):
             return None
         src = imgs[alt - 1].src
-        art = ctx.acquirer.get("boe_imagen", BOE_BASE + src, "image/*",
-                               "boe_imagen", "v1", ctx.checked_at)
+        sd = _sd()
+        pname, pver = sd.imagen_parser
+        art = ctx.acquirer.get("boe_imagen", sd.base_url + src,
+                               sd.media_types["boe_imagen"],
+                               pname, pver, ctx.checked_at)
         if art is None:
             return None
         snaps.append(art.snapshot_id)
         entries.append({"boe_page": page, "img_alt": alt,
-                        "url": BOE_BASE + src, "blob_sha256": art.blob_sha256})
+                        "url": sd.base_url + src,
+                        "blob_sha256": art.blob_sha256})
     if not entries:
         return None
     locator = {"instrument": boe_id, "type": "image_pages", "pages": entries}
@@ -779,23 +783,26 @@ def _target_annex_map(ctx: _Ctx, boe_id: str,
                       doc: boe_diario.DiarioDoc) -> annexmap.AnnexMap | None:
     if boe_id in ctx.annex_maps:
         return ctx.annex_maps[boe_id]
-    doc_art = ctx.acquirer.get("boe_doc", DOC_URL.format(boe=boe_id),
-                               "text/html", boe_doc.PARSER_NAME,
-                               boe_doc.PARSER_VERSION, ctx.checked_at)
+    sd = _sd()
+    doc_art = ctx.acquirer.get(
+        "boe_doc", sd.url_templates["doc_html"].format(boe=boe_id),
+        sd.media_types["boe_doc"], boe_doc.PARSER_NAME,
+        boe_doc.PARSER_VERSION, ctx.checked_at)
     pdf_url = doc.metadata.get("url_pdf") or ""
     if pdf_url.startswith("/"):
-        pdf_url = BOE_BASE + pdf_url
+        pdf_url = sd.base_url + pdf_url
     if not pdf_url:
         pub = canonical_date(doc.metadata.get("fecha_publicacion", "") or "")
         if pub:
             y, m, d = pub.split("-")
-            pdf_url = PDF_URL.format(y=y, m=m, d=d, boe=boe_id)
+            pdf_url = sd.url_templates["dias_pdf"].format(
+                y=y, m=m, d=d, boe=boe_id)
     pdf_art = None
     if pdf_url:
         pdf_art = ctx.acquirer.get(
             "boe_pdf", pdf_url,
-            "application/pdf", boe_pdf.PARSER_NAME, boe_pdf.PARSER_VERSION,
-            ctx.checked_at)
+            sd.media_types["boe_pdf"], boe_pdf.PARSER_NAME,
+            boe_pdf.PARSER_VERSION, ctx.checked_at)
     if doc_art is None or pdf_art is None:
         ctx.annex_maps[boe_id] = None
         return None
@@ -816,9 +823,12 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
     ctx = _Ctx(conn=conn, acquirer=Acquirer(conn, data_dir, fetch_fn),
                checked_at=checked_at)
 
-    xml_art = ctx.acquirer.get("boe_diario", XML_URL.format(boe=target_boe_id),
-                               "application/xml", boe_diario.PARSER_NAME,
-                               boe_diario.PARSER_VERSION, checked_at)
+    sd = _sd()
+    xml_art = ctx.acquirer.get(
+        "boe_diario",
+        sd.url_templates["diario_xml"].format(boe=target_boe_id),
+        sd.media_types["boe_diario"], boe_diario.PARSER_NAME,
+        boe_diario.PARSER_VERSION, checked_at)
     if xml_art is None:
         return {"error": "target xml unavailable",
                     "fetch_errors": ctx.acquirer.errors}
@@ -852,9 +862,11 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
     parsed_mods: list[dict] = []
     anchors: list[tuple[int, str]] = []
     for boe_id, kind, ref in modifiers:
-        art = ctx.acquirer.get("boe_diario", XML_URL.format(boe=boe_id),
-                               "application/xml", boe_diario.PARSER_NAME,
-                               boe_diario.PARSER_VERSION, checked_at)
+        art = ctx.acquirer.get(
+            "boe_diario",
+            sd.url_templates["diario_xml"].format(boe=boe_id),
+            sd.media_types["boe_diario"], boe_diario.PARSER_NAME,
+            boe_diario.PARSER_VERSION, checked_at)
         if art is None:
             _anomaly(ctx, ANOMALY_FETCH, None, {"modifier": boe_id})
             parsed_mods.append({"boe_id": boe_id, "kind": kind, "ref": ref,

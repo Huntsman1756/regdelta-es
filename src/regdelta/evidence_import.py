@@ -12,6 +12,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from .profile import active_profile
 from .rawstore import store_blob
 from .sources import boe_diario, boe_doc, boe_pdf
 from .util import sha256_hex, sha256_hex_text
@@ -20,20 +21,25 @@ _PARSERS = {
     "boe_diario": (boe_diario.PARSER_NAME, boe_diario.PARSER_VERSION),
     "boe_doc": (boe_doc.PARSER_NAME, boe_doc.PARSER_VERSION),
     "boe_pdf": (boe_pdf.PARSER_NAME, boe_pdf.PARSER_VERSION),
-    "boe_imagen": ("boe_imagen", "v1"),
+    "boe_imagen": None,  # resolved from profile descriptors below
 }
 
 
+def _parsers() -> dict:
+    sd = active_profile().source_descriptors
+    out = dict(_PARSERS)
+    out["boe_imagen"] = sd.imagen_parser
+    return out
+
+
 def _source_id(name: str, path: str) -> str:
-    if name.startswith("boe_diario_xml__") or path.endswith(".xml"):
-        return "boe_diario"
-    if name.startswith("boe_doc_html__"):
-        return "boe_doc"
-    if name.startswith("boe_dias_pdf__") or path.endswith(".pdf"):
-        return "boe_pdf"
-    if path.endswith((".png", ".jpg", ".gif")):
-        return "boe_imagen"
-    return "boe_doc"
+    """Capture-layout rules: (name prefix, path suffix) -> source id."""
+    sd = active_profile().source_descriptors
+    for prefix, suffix, sid in sd.capture_rules:
+        if (prefix is not None and name.startswith(prefix)) \
+                or (suffix is not None and path.endswith(suffix)):
+            return sid
+    return sd.capture_default
 
 
 def import_manifest(
@@ -62,7 +68,7 @@ def import_manifest(
             (sha, len(data), entry["retrieved_at"]),
         )
         source_id = _source_id(name, entry["path"])
-        parser_name, parser_version = _PARSERS[source_id]
+        parser_name, parser_version = _parsers()[source_id]
         snapshot_id = sha256_hex_text(
             f"snap|{source_id}|{entry['url']}|{sha}")
         conn.execute(

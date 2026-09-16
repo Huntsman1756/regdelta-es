@@ -11,8 +11,9 @@ from __future__ import annotations
 import re
 
 from ..profile import (
-    AnnexStateGrammar, DocumentModel, FicheroGrammar, IdentityReference,
-    LocatorGrammar, OperativeGrammar, SourceProfile, TextNormalization,
+    AnnexStateGrammar, ApplicabilityLanguage, DocumentModel,
+    FicheroGrammar, IdentityReference, LocatorGrammar, OperativeGrammar,
+    SourceDescriptors, SourceProfile, TextNormalization,
     register_profile)
 
 # ---------------------------------------------------------------------------
@@ -453,6 +454,187 @@ _IDENTITY_REFERENCE = IdentityReference(
     corrigendum_marker="CORRECCI",
 )
 
+# ---------------------------------------------------------------------------
+# F7 applicability_language — disposicion/clause vocabulary
+# ---------------------------------------------------------------------------
+
+_FREQ_WORDS = r"(?:mensual|trimestral|semestral|anual)(?:es)?"
+_NUMLIST = r"(\d+(?: a \d+)?(?:(?:\s*,\s*|\s+y\s+)\d+(?: a \d+)?)*)"
+
+_APPLICABILITY_LANGUAGE = ApplicabilityLanguage(
+    disp_head=re.compile(
+        r"^\s*disposici[oó]n\s+(transitoria|final|adicional|derogatoria)"
+        r"(?:\s+(\w+))?", re.IGNORECASE),
+    disp_prefix={"transitoria": "dt", "final": "df", "adicional": "da",
+                 "derogatoria": "dd"},
+    disp_ordinal={
+        "única": "u", "unica": "u", "primera": "1", "primero": "1",
+        "segunda": "2", "segundo": "2", "tercera": "3", "tercero": "3",
+        "cuarta": "4", "cuarto": "4", "quinta": "5", "quinto": "5",
+        "sexta": "6", "sexto": "6", "séptima": "7", "septima": "7",
+        "séptimo": "7", "octava": "8", "octavo": "8", "novena": "9",
+        "noveno": "9", "décima": "10", "decima": "10", "décimo": "10",
+        "undécima": "11", "undecima": "11", "duodécima": "12",
+        "duodecima": "12",
+    },
+    months={
+        "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5,
+        "junio": 6, "julio": 7, "agosto": 8, "septiembre": 9,
+        "octubre": 10, "noviembre": 11, "diciembre": 12,
+    },
+    temporal_markers=(
+        ("INSTRUMENT_EFFECTIVE_FROM",
+         re.compile(
+             r"entrará en vigor el día siguiente al de su publicación")),
+        ("APPLY_FROM", re.compile(r"se aplicarán desde el")),
+        ("FIRST_REFERENCE_DATE",
+         re.compile(r"se aplicarán por primera vez para los datos")),
+        ("FIRST_REFERENCE_DATE",
+         re.compile(r"primera fecha de referencia")),
+        ("LAST_REFERENCE_DATE", re.compile(r"últimos datos")),
+        ("RETROACTIVE_APPLICATION",
+         re.compile(r"se aplicarán retroactivamente")),
+        ("INITIAL_APPLICATION_DATE",
+         re.compile(r"fecha de aplicación inicial[^.]*será el")),
+        ("PROSPECTIVE_APPLICATION",
+         re.compile(r"aplicar (?:las modificaciones )?prospectivamente")),
+        ("SCOPE_PERIOD",
+         re.compile(r"aplicará esta disposición transitoria")),
+    ),
+    modality_markers=(
+        ("ABSENCE_OF_OBLIGATION", re.compile(r"no estará obligada? a")),
+        ("NON_APPLICATION", re.compile(r"no aplicará")),
+        ("OPTION", re.compile(r"podrá(?:n)? (?:optar|interrumpir)")),
+        ("OBLIGATION",
+         re.compile(r"(?:deberá|deberán|deben|debe|reconocerá|"
+                    r"informará)\b")),
+        ("DECLARED_RULE",
+         re.compile(r"se aplicarán|entrará en vigor|aplicará|serán")),
+    ),
+    conditional_opener=re.compile(r"^(?:Si[ ,]|Cuando )\b"),
+    freq_map={
+        "mensual": "MONTHLY", "mensuales": "MONTHLY",
+        "trimestral": "QUARTERLY", "trimestrales": "QUARTERLY",
+        "semestral": "SEMIANNUAL", "semestrales": "SEMIANNUAL",
+        "anual": "ANNUAL", "anuales": "ANNUAL",
+    },
+    freq_word_scan=re.compile(
+        r"mensual(?:es)?|trimestral(?:es)?|semestral(?:es)?|"
+        r"anual(?:es)?"),
+    freq_date_pair=re.compile(
+        r"de (\d{1,2} de \w+ de \d{4}) para los (?:estados )?de "
+        r"frecuencias? (" + _FREQ_WORDS + r"(?: y " + _FREQ_WORDS +
+        r")?)"),
+    subject_refs={
+        "apartado_de_norma": re.compile(
+            r"apartados? " + _NUMLIST + r" de la norma (\d+)"),
+        "apartados_norma_ref": re.compile(
+            r"apartados (\d+) a (\d+) de la norma (\d+)"),
+        "normas": re.compile(r"las normas " + _NUMLIST),
+        "anejos": re.compile(r"los anejos " + _NUMLIST),
+        "punto_de_anejo": re.compile(
+            r"punto (\d+)((?:\.\d+)*)[^.]*?"
+            r"(?:y el apartado ([IVX]+)[^.]*)? del anejo (\d+)"),
+        "apartado_iv_anejo": re.compile(
+            r"apartado ([IVX]+)[^,;.]*del anejo (\d+)"),
+    },
+    introducer_patterns={
+        "intro": re.compile(
+            r"introducid[ao]s? por (.*?),? respectivamente,? de la"
+            r" norma (\d+)"),
+        "intro_letra": re.compile(
+            r"introducid[ao]s? por (.*?de la letra [a-z]\)),? de la"
+            r" norma (\d+)"),
+        "letra_single": re.compile(r"la letra ([a-z])\)"),
+        "letras_multi": re.compile(
+            r"las letras ((?:[a-z]\)(?:, | y )?)+)"),
+        "numeral_of_letra": re.compile(
+            r"numeral ([ivx]+)\)(?:, respectivamente,)? de la letra"
+            r" ([a-z])\)"),
+        "numerales_of_letra": re.compile(
+            r"numerales ((?:[ivx]+\)(?:, | y )?)+)"
+            r"(?:, respectivamente,)? de la letra ([a-z])\)"),
+        "roman_token": re.compile(r"([ivx]+)\)"),
+    },
+    rule_patterns={
+        "except_apartados": re.compile(
+            r"con las excepciones establecidas en los apartados (\d+)"
+            r" a (\d+) de esta disposición"),
+        "especificidades": re.compile(
+            r"con las siguientes especificidades"),
+        "sin_perjuicio": re.compile(
+            r"[Ss]in perjuicio de lo establecido en la (disposición"
+            r" transitoria \w+)"),
+        "rule_ref_ctx": re.compile(
+            r"(?:de acuerdo con|establecido en|requerida en|dispone en)"
+            r"[^.]{0,90}$"),
+        "opt_out_trigger": re.compile(
+            r"(?:Si optara|Cuando haya optado) por no reexpresar"),
+    },
+    sin_perjuicio_targets={"primera": "dt1", "segunda": "dt2",
+                           "tercera": "dt3"},
+    opt_out_phrase="no estará obligada a reexpresar",
+    periodicity_header="Periodicidad",
+    date_inner=r"(\d{1,2} de \w+ de \d{4})",
+    pub_relative="día siguiente al de su publicación",
+    condition_scan=re.compile(r"(?:Si|Cuando) [^.]*?(?:,|\.)"),
+    exercise_literal=(
+        "cuentas anuales correspondientes al ejercicio 2026"),
+    exercise_value=2026,
+    exercise_pattern=re.compile(
+        r"cuentas anuales \w+ y \w+ correspondientes al"
+        r" (ejercicio \d{4})"),
+    sentence_boundary=re.compile(r"\.\s+(?=[A-ZÁÉÍÓÚÑ«0-9(])"),
+    marker_only=r"(?:\d+\.|[a-z]\))\.?\s*",
+    nums_split=r",| y ",
+    nums_range=re.compile(r"^(\d+) a (\d+)$"),
+    num_item=r"^\d+\.\s",
+    item_markers={"num": r"^(\d+)\.\s", "alpha": r"^([a-z])\)\s"},
+    effect_date_patterns={
+        "APPLY_FROM": r"se aplicarán desde el (\d{1,2} de \w+ de \d{4})",
+        "FIRST_REFERENCE_DATE":
+            r"(\d{1,2} de \w+ de \d{4}) como primera fecha de referencia",
+        "LAST_REFERENCE_DATE":
+            r"correspondientes a[l]? (\d{1,2} de \w+ de \d{4})",
+        "INITIAL_APPLICATION_DATE":
+            r"será el (\d{1,2} de \w+ de \d{4})",
+    },
+)
+
+# ---------------------------------------------------------------------------
+# F8 source_descriptors — registry ids + acquisition endpoints
+# ---------------------------------------------------------------------------
+
+_SOURCE_DESCRIPTORS = SourceDescriptors(
+    source_ids=(
+        "boe_sumario", "bde_consultas",
+        "boe_diario", "boe_doc", "boe_pdf", "boe_imagen",
+    ),
+    base_url="https://www.boe.es",
+    url_templates={
+        "diario_xml": "https://www.boe.es/diario_boe/xml.php?id={boe}",
+        "doc_html": "https://www.boe.es/buscar/doc.php?id={boe}",
+        "dias_pdf":
+            "https://www.boe.es/boe/dias/{y}/{m}/{d}/pdfs/{boe}.pdf",
+    },
+    media_types={
+        "boe_diario": "application/xml",
+        "boe_doc": "text/html",
+        "boe_pdf": "application/pdf",
+        "boe_imagen": "image/*",
+    },
+    capture_rules=(
+        ("boe_diario_xml__", ".xml", "boe_diario"),
+        ("boe_doc_html__", None, "boe_doc"),
+        ("boe_dias_pdf__", ".pdf", "boe_pdf"),
+        (None, (".png", ".jpg", ".gif"), "boe_imagen"),
+    ),
+    capture_default="boe_doc",
+    imagen_parser=("boe_imagen", "v1"),
+    legacy_parser_names={"boe_sumario": "boe_sumario"},
+    legacy_parser_default="bde_consultas",
+)
+
 BDE_PROFILE = SourceProfile(
     profile_id="bde-circular",
     profile_version="bde-v1",
@@ -462,6 +644,8 @@ BDE_PROFILE = SourceProfile(
     operative_grammar=_OPERATIVE_GRAMMAR,
     identity_reference=_IDENTITY_REFERENCE,
     annex_state=_ANNEX_STATE,
+    applicability_language=_APPLICABILITY_LANGUAGE,
+    source_descriptors=_SOURCE_DESCRIPTORS,
 )
 
 register_profile(BDE_PROFILE)

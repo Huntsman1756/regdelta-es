@@ -3,10 +3,19 @@ from __future__ import annotations
 import sqlite3
 from pathlib import Path
 
-SOURCE_IDS = (
-    "boe_sumario", "bde_consultas",
-    "boe_diario", "boe_doc", "boe_pdf", "boe_imagen",
-)
+from .profile import active_profile
+
+
+def _source_id_check() -> str:
+    """source_id CHECK rendered from the active profile's declared
+    source ids — the profile supplies rows, the core owns the
+    constraint text (contract A5)."""
+    ids = active_profile().source_descriptors.source_ids
+    return ("CHECK (source_id IN ("
+            + ", ".join(f"'{s}'" for s in ids) + "))")
+
+
+_SRC_CHECK = _source_id_check()
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS source_blobs (
@@ -17,7 +26,7 @@ CREATE TABLE IF NOT EXISTS source_blobs (
 
 CREATE TABLE IF NOT EXISTS source_snapshots (
   snapshot_id       TEXT PRIMARY KEY CHECK (length(snapshot_id) = 64),
-  source_id         TEXT NOT NULL CHECK (source_id IN ('boe_sumario', 'bde_consultas', 'boe_diario', 'boe_doc', 'boe_pdf', 'boe_imagen')),
+  source_id         TEXT NOT NULL __SRC_CHECK__,
   source_url        TEXT NOT NULL,
   blob_sha256       TEXT NOT NULL REFERENCES source_blobs(sha256),
   source_date       TEXT,
@@ -33,7 +42,7 @@ CREATE TABLE IF NOT EXISTS source_snapshots (
 
 CREATE TABLE IF NOT EXISTS source_checks (
   check_id      TEXT PRIMARY KEY CHECK (length(check_id) = 64),
-  source_id     TEXT NOT NULL CHECK (source_id IN ('boe_sumario', 'bde_consultas', 'boe_diario', 'boe_doc', 'boe_pdf', 'boe_imagen')),
+  source_id     TEXT NOT NULL __SRC_CHECK__,
   source_url    TEXT NOT NULL,
   checked_at    TEXT NOT NULL,
   status        TEXT NOT NULL CHECK (status IN ('OK', 'PARSE_INVALID', 'FETCH_ERROR')),
@@ -257,7 +266,7 @@ CREATE INDEX IF NOT EXISTS idx_aclause_parent ON applicability_clauses(parent_cl
 CREATE INDEX IF NOT EXISTS idx_aeffect_clause ON applicability_effects(clause_id);
 CREATE INDEX IF NOT EXISTS idx_atarget_clause ON applicability_targets(clause_id);
 CREATE INDEX IF NOT EXISTS idx_atarget_rel ON applicability_targets(modification_relation_id);
-"""
+""".replace("__SRC_CHECK__", _SRC_CHECK)
 
 
 def _ensure_parser_provenance_columns(conn: sqlite3.Connection) -> None:
@@ -266,9 +275,12 @@ def _ensure_parser_provenance_columns(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE source_snapshots ADD COLUMN parser_name TEXT")
     if "parser_version" not in columns:
         conn.execute("ALTER TABLE source_snapshots ADD COLUMN parser_version TEXT")
+    sd = active_profile().source_descriptors
+    cases = " ".join(f" WHEN '{s}' THEN '{p}'"
+                     for s, p in sd.legacy_parser_names.items())
     conn.execute(
         "UPDATE source_snapshots SET parser_name = CASE source_id"
-        " WHEN 'boe_sumario' THEN 'boe_sumario' ELSE 'bde_consultas' END"
+        f"{cases} ELSE '{sd.legacy_parser_default}' END"
         " WHERE parser_name IS NULL"
     )
     conn.execute(
@@ -319,12 +331,17 @@ def _rebuild_table(conn: sqlite3.Connection, table: str, cols: str,
         conn.execute(stmt)
 
 
+def _all_source_ids_declared(sql: str) -> bool:
+    ids = active_profile().source_descriptors.source_ids
+    return all(s in sql for s in ids)
+
+
 def _ensure_source_ids(conn: sqlite3.Connection) -> None:
     """Rebuild source_snapshots if its CHECK predates the G0-C source kinds."""
     row = conn.execute(
         "SELECT sql FROM sqlite_master WHERE type='table' AND name='source_snapshots'"
     ).fetchone()
-    if row is None or "boe_diario" in (row[0] or ""):
+    if row is None or _all_source_ids_declared(row[0] or ""):
         return
     _rebuild_table(conn, "source_snapshots",
                    "snapshot_id, source_id, source_url, blob_sha256,"
@@ -334,7 +351,7 @@ def _ensure_source_ids(conn: sqlite3.Connection) -> None:
                    """
         CREATE TABLE source_snapshots (
           snapshot_id       TEXT PRIMARY KEY CHECK (length(snapshot_id) = 64),
-          source_id         TEXT NOT NULL CHECK (source_id IN ('boe_sumario', 'bde_consultas', 'boe_diario', 'boe_doc', 'boe_pdf', 'boe_imagen')),
+          source_id         TEXT NOT NULL __SRC_CHECK__,
           source_url        TEXT NOT NULL,
           blob_sha256       TEXT NOT NULL REFERENCES source_blobs(sha256),
           source_date       TEXT,
@@ -346,7 +363,7 @@ def _ensure_source_ids(conn: sqlite3.Connection) -> None:
           has_anomalies     INTEGER NOT NULL DEFAULT 0 CHECK (has_anomalies IN (0, 1)),
           first_checked_at  TEXT NOT NULL,
           UNIQUE (source_id, source_url, blob_sha256)
-        )""")
+        )""".replace("__SRC_CHECK__", _SRC_CHECK))
 
 
 def _ensure_check_source_ids(conn: sqlite3.Connection) -> None:
@@ -358,7 +375,7 @@ def _ensure_check_source_ids(conn: sqlite3.Connection) -> None:
     row = conn.execute(
         "SELECT sql FROM sqlite_master WHERE type='table' AND name='source_checks'"
     ).fetchone()
-    if row is None or "boe_diario" in (row[0] or ""):
+    if row is None or _all_source_ids_declared(row[0] or ""):
         return
     _rebuild_table(conn, "source_checks",
                    "check_id, source_id, source_url, checked_at, status,"
@@ -367,7 +384,7 @@ def _ensure_check_source_ids(conn: sqlite3.Connection) -> None:
                    """
         CREATE TABLE source_checks (
           check_id      TEXT PRIMARY KEY CHECK (length(check_id) = 64),
-          source_id     TEXT NOT NULL CHECK (source_id IN ('boe_sumario', 'bde_consultas', 'boe_diario', 'boe_doc', 'boe_pdf', 'boe_imagen')),
+          source_id     TEXT NOT NULL __SRC_CHECK__,
           source_url    TEXT NOT NULL,
           checked_at    TEXT NOT NULL,
           status        TEXT NOT NULL CHECK (status IN ('OK', 'PARSE_INVALID', 'FETCH_ERROR')),
@@ -380,7 +397,7 @@ def _ensure_check_source_ids(conn: sqlite3.Connection) -> None:
             (status IN ('OK', 'PARSE_INVALID') AND snapshot_id IS NOT NULL)
             OR (status = 'FETCH_ERROR' AND snapshot_id IS NULL)
           )
-        )""", post_sql=(
+        )""".replace("__SRC_CHECK__", _SRC_CHECK), post_sql=(
         "CREATE INDEX IF NOT EXISTS idx_checks_source_time"
         " ON source_checks(source_id, checked_at)",
     ))

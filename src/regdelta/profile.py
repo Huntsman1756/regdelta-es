@@ -194,6 +194,66 @@ class IdentityReference:
 
 
 @dataclass(frozen=True)
+class ApplicabilityLanguage:
+    """F7 — disposición/clause vocabulary: date, frequency, temporal
+    and modal lexemes, subject-reference and introducer patterns.
+
+    Emitted effect names, modality names, epistemic labels and
+    clause-key spellings are core; the source phrases that produce
+    them are profile data. ``temporal_markers``/``modality_markers``
+    keep their ordered first-match semantics as data.
+    """
+
+    disp_head: re.Pattern               # disposicion heading grammar
+    disp_prefix: Mapping[str, str]      # 'transitoria' -> 'dt' etc.
+    disp_ordinal: Mapping[str, str]     # ordinal word -> emitted code
+    months: Mapping[str, int]
+    temporal_markers: tuple             # ordered ((effect, Pattern))
+    modality_markers: tuple             # ordered ((modality, Pattern))
+    conditional_opener: re.Pattern      # '^(?:Si[ ,]|Cuando )'
+    freq_map: Mapping[str, str]         # 'mensual' -> 'MONTHLY'
+    freq_word_scan: re.Pattern          # freq tokens inside a capture
+    freq_date_pair: re.Pattern          # 'de <date> para los ... de frecuencias'
+    subject_refs: Mapping[str, re.Pattern]   # norma/anejo/apartado refs
+    introducer_patterns: Mapping[str, re.Pattern]
+    rule_patterns: Mapping[str, re.Pattern]  # exceptions, rule-ref ctx
+    sin_perjuicio_targets: Mapping[str, str]  # 'primera' -> 'dt1' etc.
+    opt_out_phrase: str                     # 'no estará obligada a reexpresar'
+    periodicity_header: str                 # norma-67 table header word
+    date_inner: str                     # '(\d{1,2} de \w+ de \d{4})'
+    pub_relative: str                   # 'día siguiente al de su publicación'
+    condition_scan: re.Pattern          # '(?:Si|Cuando) [^.]*?(?:,|\.)'
+    exercise_literal: str               # 'cuentas anuales ... ejercicio N'
+    exercise_value: int
+    exercise_pattern: re.Pattern        # 'cuentas anuales \w+ y \w+ ...'
+    sentence_boundary: re.Pattern
+    marker_only: str                    # marker-only merge source
+    nums_split: str                     # enumeration separator source
+    nums_range: re.Pattern              # 'lo a hi' range pair
+    num_item: str                       # '^\d+\.\s' numbered style detect
+    item_markers: Mapping[str, str]     # style -> item marker source
+    effect_date_patterns: Mapping[str, str]  # effect -> capture source
+
+
+@dataclass(frozen=True)
+class SourceDescriptors:
+    """F8 — source registry/acquisition descriptors: data rows, never
+    DDL text or integrity policy (contract A5). The core renders its
+    own constraints from ``source_ids`` and controls what registry
+    validity means."""
+
+    source_ids: tuple                   # registry-recognized ids
+    base_url: str
+    url_templates: Mapping[str, str]    # role -> '{boe}'/'{y}{m}{d}' form
+    media_types: Mapping[str, str]      # source_id -> media type
+    capture_rules: tuple                # (name_prefix, path_suffix, src_id)
+    capture_default: str                # fallback source_id
+    imagen_parser: tuple                # parser identity without a module
+    legacy_parser_names: Mapping[str, str]   # pre-provenance backfill
+    legacy_parser_default: str
+
+
+@dataclass(frozen=True)
 class SourceProfile:
     """Immutable profile data. Grows facet-by-facet as PORT-2
     extraction proceeds; a facet is added only when the core
@@ -207,6 +267,8 @@ class SourceProfile:
     operative_grammar: OperativeGrammar
     identity_reference: IdentityReference
     annex_state: AnnexStateGrammar
+    applicability_language: ApplicabilityLanguage
+    source_descriptors: SourceDescriptors
 
 
 _PROFILES: dict[str, SourceProfile] = {}
