@@ -283,17 +283,22 @@ def test_s6_region_declared_change(built):
     #     acts on a sub-element the locator cannot express; neither side
     #     of the estado-level representation is what the operation
     #     touches (SUBJECT_SCOPE abstention on both sides).
+    # COV-2_INTENTIONAL_SEMANTIC_CHANGE (F1): the before side is no
+    #   longer scope-gated — the estado's annex-page image is the
+    #   honest pre-operation representation (the estado existed even
+    #   though the clause touches a sub-element). The after side stays
+    #   NOT_PROVABLE: no operation-owned content for the sub-scope.
     conn, _ = built
     rels = [r for r in _rels(conn, "estado:FI 106-1.1")
             if r["modifier_boe"] == "BOE-A-2018-17880"]
     assert rels
     r = rels[0]
-    assert r["bkind"] is None and r["akind"] is None
+    assert r["bkind"] == "IMAGE" and r["akind"] is None
     proof = json.loads(r["binding_proof"])
-    assert proof["before"]["status"] == "NOT_PROVABLE"
-    assert proof["before"]["method"] == "SUBJECT_SCOPE"
+    assert proof["before"]["status"] == "BOUND"
+    assert proof["before"]["method"] == "ANNEX_PAGE_MAPPING"
     assert proof["after"]["status"] == "NOT_PROVABLE"
-    assert r["resolution"] == "UNRESOLVED"
+    assert r["resolution"] == "PARTIAL"
     assert "nota" in r["locator_raw"].lower()
 
 

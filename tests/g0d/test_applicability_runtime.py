@@ -892,26 +892,34 @@ def test_g0c_counts_unchanged(built):
     #     (abstention events replace the removed OUT_OF_TARGET_OPS
     #     anomaly — foreign operations are journaled dispositions, not
     #     defects).
+    # COV-2_INTENTIONAL_SEMANTIC_CHANGE (F1+F2):
+    #   representations 186 -> 255, UNRESOLVED 126 -> 78: the before
+    #   side of sub-scoped operations is no longer gated (F1 — the
+    #   subject's prior representation is ordinary provable state),
+    #   and tolerant structural marker enumeration resolves markers
+    #   the strict patterns missed (F2 — undotted numerals, compound
+    #   dotted codes, level-aware regions). Relations 292 unchanged —
+    #   coverage grew, the factual surface did not shrink.
     conn, _, _ = built
     assert conn.execute(
         "SELECT COUNT(*) FROM subjects").fetchone()[0] == 223
     assert conn.execute(
-        "SELECT COUNT(*) FROM representations").fetchone()[0] == 186
+        "SELECT COUNT(*) FROM representations").fetchone()[0] == 255
     assert conn.execute(
         "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 292
     dist = dict(conn.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution").fetchall())
-    assert dist == {"RESOLVED": 85, "PARTIAL": 81, "UNRESOLVED": 126}
+    assert dist == {"RESOLVED": 110, "PARTIAL": 104, "UNRESOLVED": 78}
     kinds = dict(conn.execute(
         "SELECT kind, COUNT(*) FROM anomalies GROUP BY kind").fetchall())
     assert kinds.get(applicability.ANOMALY_TARGET_UNBOUND, 0) == 0
     # abstention anomalies explain the coverage loss
-    assert sum(kinds.values()) == 457
-    assert kinds["BINDING_NOT_FOUND"] == 50
-    assert kinds["BINDING_NOT_PROVABLE"] == 260
-    assert kinds["CHAIN_DISCONTINUITY"] == 21
-    assert kinds["UNBOUND_SUBJECT"] == 126
+    assert sum(kinds.values()) == 361
+    assert kinds["BINDING_NOT_FOUND"] == 40
+    assert kinds["BINDING_NOT_PROVABLE"] == 198
+    assert kinds["CHAIN_DISCONTINUITY"] == 43
+    assert kinds["UNBOUND_SUBJECT"] == 78
     # G2.1: foreign-target abstentions are inventory dispositions, not
     # anomalies — this kind no longer exists in the ledger
     assert kinds.get("OUT_OF_TARGET_OPS", 0) == 0

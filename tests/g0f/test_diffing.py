@@ -250,13 +250,22 @@ def test_diff_correction_image_to_text(ro):
 def test_diff_partial_is_not_invented(ro):
     """F7 — estado:FI 105: the 'pasa a denominarse' renames scope to the
     cuadro/índice (unmodelled sub-scope → UNRESOLVED under §32); only
-    the SUBSTITUTE with a proven annex after is PARTIAL."""
+    the SUBSTITUTE with a proven annex after is PARTIAL.
+
+    COV-2_INTENTIONAL_SEMANTIC_CHANGE (F1): the rename MODIFY now also
+    resolves PARTIAL — its before side binds the estado's annex image
+    (the estado existed; the clause touches a sub-element). After
+    stays unproven, so no content diff is fabricated."""
     out = _diff_subject(ro, "estado:FI 105", date(2025, 12, 28),
                         date(2025, 12, 29))
     partial = [r for r in out["results"] if r["resolution"] == "PARTIAL"]
-    assert len(partial) == 1
-    assert partial[0]["operation_kind"] == "SUBSTITUTE"
-    assert partial[0]["after"]["representation_kind"] == "TABLE"
+    assert len(partial) == 2
+    sub = [r for r in partial if r["operation_kind"] == "SUBSTITUTE"]
+    mod = [r for r in partial if r["operation_kind"] == "MODIFY"]
+    assert len(sub) == 1 and len(mod) == 1
+    assert sub[0]["after"]["representation_kind"] == "TABLE"
+    assert mod[0]["before"]["representation_kind"] == "IMAGE"
+    assert mod[0]["after"] is None
     for r in out["results"]:
         assert r["comparison"]["strategy"] == (
             "INSUFFICIENT_REPRESENTATION_EVIDENCE")
@@ -266,18 +275,29 @@ def test_diff_partial_is_not_invented(ro):
 
 
 def test_diff_unresolved_is_not_invented(ro):
-    """F8 — estado:FI 140-3 UNRESOLVED corrections: the nota/columna
-    clauses are unmodelled sub-scopes (§32) and the chain is poisoned,
-    so two relations are UNRESOLVED and the literal-pair MODIFY is
-    PARTIAL — none fabricates a diff."""
+    """F8 — estado:FI 140-3 corrections: the nota/columna clauses are
+    unmodelled sub-scopes (§32) and the chain is poisoned, so the
+    MODIFY stays UNRESOLVED and the literal-pair MODIFY is PARTIAL.
+
+    COV-2_INTENTIONAL_SEMANTIC_CHANGE (F1): the declared DELETE now
+    resolves RESOLVED — its before side binds the estado's annex
+    image and the deletion is declared, so the strategy is
+    DECLARED_DELETION, not a fabricated diff."""
     out = _diff_subject(ro, "estado:FI 140-3", date(2018, 2, 14),
                         date(2018, 2, 16))
     unres = [r for r in out["results"] if r["resolution"] == "UNRESOLVED"]
-    assert len(unres) == 2
+    assert len(unres) == 1
+    assert unres[0]["operation_kind"] == "MODIFY"
+    resolved = [r for r in out["results"]
+                if r["resolution"] == "RESOLVED"]
+    assert len(resolved) == 1
+    assert resolved[0]["operation_kind"] == "DELETE"
+    assert resolved[0]["comparison"]["strategy"] == "DECLARED_DELETION"
     for r in out["results"]:
-        assert r["comparison"]["strategy"] == (
-            "INSUFFICIENT_REPRESENTATION_EVIDENCE")
         assert r["comparison"]["content_diff_available"] is False
+        if r["resolution"] != "RESOLVED":
+            assert r["comparison"]["strategy"] == (
+                "INSUFFICIENT_REPRESENTATION_EVIDENCE")
     assert all(r["before"] is None and r["after"] is None
                for r in unres)
 
@@ -477,12 +497,15 @@ def test_g0c_g0d_g0e_invariants_unchanged(ro):
     # under the proof-or-abstain binder — see test_g0c_counts_unchanged.
     # G2.1_INTENTIONAL_SEMANTIC_CHANGE: counts shift again under the
     # ownership pipeline — see test_g0c_counts_unchanged.
+    # COV-2_INTENTIONAL_SEMANTIC_CHANGE (F1+F2): representations
+    # 186 -> 255, anomalies 457 -> 361 — honest abstentions converted
+    # to verified bindings; see test_g0c_counts_unchanged.
     assert counts == {
-        "subjects": 223, "representations": 186,
+        "subjects": 223, "representations": 255,
         "modification_relations": 292, "applicability_clauses": 26,
         "applicability_effects": 16, "applicability_targets": 98,
-        "anomalies": 457}
+        "anomalies": 361}
     res = dict(ro.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution"))
-    assert res == {"RESOLVED": 85, "PARTIAL": 81, "UNRESOLVED": 126}
+    assert res == {"RESOLVED": 110, "PARTIAL": 104, "UNRESOLVED": 78}

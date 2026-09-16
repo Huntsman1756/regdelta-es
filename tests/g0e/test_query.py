@@ -567,15 +567,19 @@ def test_g0c_g0d_invariants(ro):
     # (tests/g0d/test_applicability_runtime.py).
     # G2.1_INTENTIONAL_SEMANTIC_CHANGE: subjects/representations/
     # anomalies shift again under the ownership pipeline — same test.
+    # COV-2_INTENTIONAL_SEMANTIC_CHANGE (F1+F2): representations
+    # 186 -> 255 and anomalies 457 -> 361 — sub-scope before-binding
+    # and tolerant marker enumeration convert honest abstentions into
+    # verified bindings; relations stay 292.
     assert ro.execute("SELECT COUNT(*) FROM subjects").fetchone()[0] == 223
     assert ro.execute(
-        "SELECT COUNT(*) FROM representations").fetchone()[0] == 186
+        "SELECT COUNT(*) FROM representations").fetchone()[0] == 255
     assert ro.execute(
         "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 292
     assert dict(ro.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution").fetchall()) == {
-        "RESOLVED": 85, "PARTIAL": 81, "UNRESOLVED": 126}
+        "RESOLVED": 110, "PARTIAL": 104, "UNRESOLVED": 78}
     assert ro.execute(
         "SELECT COUNT(*) FROM applicability_clauses").fetchone()[0] == 26
     assert ro.execute(
@@ -583,4 +587,4 @@ def test_g0c_g0d_invariants(ro):
     assert ro.execute(
         "SELECT COUNT(*) FROM applicability_targets").fetchone()[0] == 98
     assert ro.execute(
-        "SELECT COUNT(*) FROM anomalies").fetchone()[0] == 457
+        "SELECT COUNT(*) FROM anomalies").fetchone()[0] == 361

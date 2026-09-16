@@ -175,7 +175,14 @@ COV-3_READINESS = NOT_READY_FOR_COV_3
 44. src_tree_sha256
       1736a9c6ad025041a9d6250ffd005657d9ee9151
 45. full suite
-      PASS — 97 tests (tests/g1, tests/g0g, tests/cov)
+      COV-2 targeted tests        = 97 PASS
+        (tests/g1 + tests/g0g + tests/cov)
+      repository full suite       = 347 PASS
+        (uv run pytest -q; includes the six G0-cohort count anchors
+        updated under COV-2_INTENTIONAL_SEMANTIC_CHANGE — F1/F2
+        legitimately shift representations 186 -> 255 and anomalies
+        457 -> 361 on the CORE target; see
+        test_g0c_counts_unchanged)
 46. git status
       clean at freeze commit (all run artifacts committed)
 47. READY / NOT_READY
