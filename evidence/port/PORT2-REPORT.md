@@ -3,10 +3,18 @@
 ## Verdict (adjudicated)
 
 ```text
-PORT-2 = FAIL
-reason = CONTRACT_COMPLIANCE
-semantic_equivalence = PASS
+PORT-2  = FAIL            (contract compliance; immutable history)
+PORT-2R = PASS
+PORT    = PROFILE_EXTRACTION_PROVEN
 ```
+
+PORT-2R was adjudicated PASS on the `3470f69` remediation: frozen
+evaluators restored byte-for-byte, core-owned `source_registry` with
+FK integrity (no profile-injected DDL), `LOCATOR_KINDS` /
+`enabled_kinds` / `UNKNOWN_CORE_KIND`, `validate_profile`, F8
+mappings, and a replay byte-identical to `003-final`.
+
+The original PORT-2 failure record follows — kept unchanged.
 
 Semantic equivalence to `003-final` was achieved and is not in
 question (468 bindings, 0 FALSE_FACT/FALSE_BINDING, all canonical
