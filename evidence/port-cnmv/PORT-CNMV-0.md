@@ -148,5 +148,17 @@ seal              holdout/SEAL @ 9b127d4, aggregate_sha256
 TERMINAL = READY_FOR_CNMV_PROFILE_PROBE
 ```
 
+## Post-verdict status
+
+```text
+PORT-CNMV-0  discovery/corpus gate = PASS
+split-v1     = SUPERSEDED_PREOPEN
+             (target-level split does not isolate semantic
+             dependencies; DEV was never semantically opened, so
+             the split is superseded cleanly by PORT-CNMV-0R)
+holdout/SEAL (v1) = immutable historical record, not authoritative
+PORT-CNMV-1  = BLOCKED_PREOPEN until PORT-CNMV-0R closes
+```
+
 PORT-CNMV-1 is NOT opened by this result; it requires its own
 explicit authorization.
