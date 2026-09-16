@@ -34,8 +34,6 @@ XML_URL = BOE_BASE + "/diario_boe/xml.php?id={boe}"
 DOC_URL = BOE_BASE + "/buscar/doc.php?id={boe}"
 PDF_URL = BOE_BASE + "/boe/dias/{y}/{m}/{d}/pdfs/{boe}.pdf"
 
-_CIRCULAR_RE = re.compile(r"Circular\s+(\d+)\s*/\s*(\d{4})", re.IGNORECASE)
-
 ANOMALY_FETCH = "FETCH_ERROR"
 ANOMALY_PARSE = "PARSE_INVALID"
 ANOMALY_ANCHOR = "ANCHOR_MISMATCH"
@@ -494,7 +492,6 @@ def _bind_first_before(ctx: _Ctx, target: boe_diario.DiarioDoc,
 
 # clause/locator qualifier helpers live in operations (shared with the
 # ownership layer); keep the history-local names as aliases
-_SUB_SCOPE_RE = operations._SUB_SCOPE_RE
 _has_unmodelled_qualifier = operations._has_unmodelled_qualifier
 _masked_clause = operations._masked_clause
 
@@ -507,8 +504,8 @@ def _seg_keys(raw: str, masked: str,
     ctx = dict(op.context or {})
     out: list[set[str]] = []
     cursor = 0
-    for seg in (s for s in operations._SEG_SPLIT_RE.split(masked)
-                if s.strip()):
+    for seg in (s for s in active_profile().operative_grammar
+                .segment_split.split(masked) if s.strip()):
         start = masked.find(seg, cursor)
         raw_seg = raw[start:start + len(seg)]
         cursor = start + len(seg)
@@ -543,12 +540,14 @@ def _clause_scope_provable(op: operations.Operation, key: str) -> bool:
     key_kinds = {p.split(":", 1)[0] for p in key.split(".")}
     key_kinds |= {"norma", "anejo", "estado", "fichero", "disp",
                   "disposicion", "pagina"}
-    segs = [s for s in operations._SEG_SPLIT_RE.split(masked)
-            if s.strip()]
+    segs = [s for s in active_profile().operative_grammar
+            .segment_split.split(masked) if s.strip()]
     zone = " ".join(s for s, ks in zip(segs, _seg_keys(
         op.clause_text, masked, op)) if key in ks) or masked
-    return not any(m.group(0).lower() not in key_kinds
-                   for m in _SUB_SCOPE_RE.finditer(zone))
+    return not any(
+        m.group(0).lower() not in key_kinds
+        for m in active_profile().operative_grammar.sub_scope
+        .finditer(zone))
 
 
 def chain_update(chain: dict[str, "SubjectState"], key: str,
@@ -651,8 +650,8 @@ def _subject_owns_content(op: operations.Operation, key: str,
     subject, ownership falls to the nearest preceding subject segment.
     """
     masked = _masked_clause(op.clause_text)
-    segs = [s for s in operations._SEG_SPLIT_RE.split(masked)
-            if s.strip()]
+    segs = [s for s in active_profile().operative_grammar
+            .segment_split.split(masked) if s.strip()]
     seg_keys = _seg_keys(op.clause_text, masked, op)
     cursor = 0
     pointer_seg = len(segs) - 1
@@ -666,9 +665,6 @@ def _subject_owns_content(op: operations.Operation, key: str,
         owner -= 1
     return owner >= 0 and key in seg_keys[owner]
 
-
-_COVER_HEADS = ("estado", "punto", "apartado", "letra", "numeral",
-                "nota", "indice")
 
 def _fichero_norm(text: str) -> str:
     fg = active_profile().annex_state.fichero
@@ -695,7 +691,8 @@ def _span_covers_subject(key: str, text: str) -> bool:
             t in _fichero_tokens(text)
             for t in _fichero_tokens(token))
     has_sub = any(":" in p for p in key.split(".")[1:])
-    if not has_sub and head not in _COVER_HEADS:
+    if not has_sub and head not in \
+            active_profile().locator_grammar.coverage_heads:
         return True
     alts = {token, token.replace(".", " ")}
     if head in ("norma", "anejo", "anexo", "disp", "disposicion") \
@@ -717,7 +714,8 @@ def _bind_content_after(ctx: _Ctx, key: str, sid: str, mboe: str,
     s, e = op.content_span
     if method in ("INLINE_QUOTED_CONTENT", "EXPLICIT_FOLLOWING_CONTENT"):
         masked = _masked_clause(op.clause_text)
-        pm = operations._CONTENT_POINTER_RE.search(masked)
+        pm = active_profile().operative_grammar.content_pointer \
+            .search(masked)
         pos = pm.start() if pm else len(masked)
         if method == "INLINE_QUOTED_CONTENT" and op.inline_content:
             qp = op.clause_text.find(op.inline_content)
@@ -836,15 +834,18 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
     _insert_instrument_relations(ctx, target_iid, target,
                                  xml_art.snapshot_id)
 
-    m = _CIRCULAR_RE.search(target.metadata.get("titulo", ""))
+    m = active_profile().identity_reference.circular_ref.search(
+        target.metadata.get("titulo", ""))
     target_ref = (int(m.group(1)), int(m.group(2))) if m else None
 
     # --- modifier discovery -------------------------------------------------
     posteriores = target.posteriores
     modifiers = []          # (boe_id, kind, ref)
+    corr_pal = active_profile().identity_reference.correction_palabras
     for ref in posteriores:
-        kind = ("CORRECTION" if "CORREG" in ref.palabra.upper()
-                or "CORREC" in ref.palabra.upper() else "MODIFICATION")
+        kind = ("CORRECTION"
+                if any(w in ref.palabra.upper() for w in corr_pal)
+                else "MODIFICATION")
         modifiers.append((ref.referencia, kind, ref))
 
     # --- parse every modifier first: correction anchors feed the target map -

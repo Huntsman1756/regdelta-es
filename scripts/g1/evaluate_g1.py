@@ -185,7 +185,7 @@ def _expected_op_g1(text: str) -> str | None:
     masked = active_profile().text_normalization.quoted_span.sub(
         " ", text)
     best: tuple[int, str] | None = None
-    for kind, rx in operations._OP_KINDS:
+    for kind, rx in active_profile().operative_grammar.op_kinds:
         m = rx.search(masked)
         if m and (best is None or m.start() < best[0]):
             best = (m.start(), kind)
@@ -233,7 +233,7 @@ def _expected_op_for_subject(clause: str, key: str) -> str | None:
     if mpos is None:
         return _expected_op_g1(clause)
     verbs: list[tuple[int, str]] = []
-    for kind, rx in operations._OP_KINDS:
+    for kind, rx in active_profile().operative_grammar.op_kinds:
         verbs.extend((m.start(), kind) for m in rx.finditer(low))
     verbs.sort()
     prev = [v for v in verbs if v[0] <= mpos]

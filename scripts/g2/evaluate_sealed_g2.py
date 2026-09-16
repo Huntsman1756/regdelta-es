@@ -58,6 +58,7 @@ sys.path.insert(0, str(ROOT / "scripts" / "g1"))
 sys.path.insert(0, str(ROOT / "scripts" / "g2"))
 
 from regdelta import history, operations, ownership  # noqa: E402
+from regdelta.profile import active_profile  # noqa: E402
 from regdelta.sources import boe_diario  # noqa: E402
 import evaluate_dev as ev  # noqa: E402
 import evaluate_g1 as eg1  # noqa: E402
@@ -235,7 +236,8 @@ def _target_ref(by_url: dict[str, dict], target: str):
     tdoc = boe_diario.parse_diario(xml).doc
     if tdoc is None:
         return None
-    m = history._CIRCULAR_RE.search(tdoc.metadata.get("titulo", ""))
+    m = active_profile().identity_reference.circular_ref.search(
+        tdoc.metadata.get("titulo", ""))
     return (int(m.group(1)), int(m.group(2))) if m else None
 
 

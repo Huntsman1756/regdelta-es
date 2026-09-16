@@ -137,6 +137,60 @@ class LocatorGrammar:
     sub_markers_compound: Mapping[str, tuple]
     value_continuation: re.Pattern      # dotted-value fragment chars
     kind_words: Mapping[str, str]       # kind -> lexeme pattern source
+    kinded_tail: re.Pattern             # ownership _KINDED_TAIL_RE:
+                                        # '.kind:' component split
+    coverage_heads: tuple               # history _COVER_HEADS: kinds whose
+                                        # span must restate the token
+
+
+@dataclass(frozen=True)
+class OperativeGrammar:
+    """F4 — operative-language vocabulary and patterns. The ordered
+    ``op_kinds`` mapping pairs profile verb lexemes with core
+    OperationKind tokens; ordering is part of the vocabulary data
+    (first-match lexeme priority), never of adjudication policy."""
+
+    amend_verb_active: re.Pattern      # _AMEND_VERB_ACTIVE_RE
+    amend_verb_passive: re.Pattern     # _AMEND_VERB_PASSIVE_RE
+    subordinator_tail: re.Pattern      # _SUBORDINATOR_TAIL_RE
+    en_subject: re.Pattern             # _EN_SUBJECT_RE
+    bare_subject: re.Pattern           # _BARE_SUBJECT_RE
+    content_pointer: re.Pattern        # _CONTENT_POINTER_RE
+    container: re.Pattern              # _CONTAINER_RE
+    literal_pairs: re.Pattern          # _LITERAL_PAIRS_RE
+    donde_dice: re.Pattern             # _DONDE_DICE_RE
+    annex_ref: re.Pattern              # _ANNEX_REF_RE
+    op_kinds: tuple                    # ordered ((kind_token, Pattern), ...)
+    segment_split: re.Pattern          # _SEG_SPLIT_RE
+    non_op_tail: re.Pattern            # _NON_OP_TAIL_RE
+    root_families: tuple               # _CTX_ROOTS: kinds that only nest
+                                       # under their own family
+    sub_scope: re.Pattern              # _SUB_SCOPE_RE
+    qualifier_src: str                 # _QUALIFIER_SRC pattern source
+    unmarked_opener: re.Pattern        # _unmarked_op inline clause opener
+    container_close: re.Pattern        # 'se modifican:$' container form
+    siguientes: str                    # enumeration head word 'siguientes'
+
+
+@dataclass(frozen=True)
+class IdentityReference:
+    """F5 — which-instrument reference grammar and correction
+    vocabulary. Parsed metadata/relation vocabulary only: raw field
+    names are the profile package's mapping problem (contract A3).
+    Identity hashing and attribution policy stay core."""
+
+    target_ref: re.Pattern             # operations _TARGET_RE
+    circular_ref: re.Pattern           # history _CIRCULAR_RE
+    fichero_owner: re.Pattern          # _FICHERO_OWNER_RE
+    eli_circular: re.Pattern           # ownership _ELI_CIR_RE
+    eli_corrigendum_path: str          # '/corrigendum/'
+    boe_id: re.Pattern                 # query BOE_ID_RE
+    circular_query: re.Pattern         # query CIRCULAR_RE
+    correction_palabras: tuple         # palabra substrings -> CORRECTION
+    correction_primary_prefix: str     # 'CORRECCION DE ERRORES'
+    correction_secondary_prefix: str   # 'CORRIGE ERRORES'
+    correction_secondary_contains: str # 'CORRECCION'
+    corrigendum_marker: str            # rango/titulo prefix 'CORRECCI'
 
 
 @dataclass(frozen=True)
@@ -150,6 +204,8 @@ class SourceProfile:
     document_model: DocumentModel
     text_normalization: TextNormalization
     locator_grammar: LocatorGrammar
+    operative_grammar: OperativeGrammar
+    identity_reference: IdentityReference
     annex_state: AnnexStateGrammar
 
 

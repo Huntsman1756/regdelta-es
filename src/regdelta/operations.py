@@ -58,52 +58,6 @@ CONTENT_LINK_METHODS = (
 # adjudication below are core policy.
 # ---------------------------------------------------------------------------
 
-# 'desglosa' is never an amendment verb in BOE drafting ("la
-# información se desglosará de acuerdo con ..." describes content);
-# it is excluded from the operative verb set. 'incluir' amends only
-# with a structural direct object ('se incluye la nota a)') — 'se
-# incluyen los importes' / 'se incluye como anejo 1' describe content
-# or placement, not an amendment.
-_INCLU_OBJ_RE = (
-    r"(?=\s+(?:unas?|una?|el|la|los|las|otras?|nuev[ao]s?|send[ao]s?)"
-    r"\s+(?:nuev[ao]s?\s+)?(?:normas?|anejos?|anexos?|apartados?|"
-    r"letras?|puntos?|numeral(?:es)?|notas?|estados?|ficheros?|"
-    r"disposici[oó]n(?:es)?|secci[oó]n(?:es)?|[ií]ndices?|"
-    r"p[aá]ginas?)\b)")
-_AMEND_VERB_ACTIVE_RE = re.compile(
-    r"se\s+(?:modifica\w*|sustituye\w*|suprime\w*|elimina\w*|añade\w*|"
-    r"introduce\w*|incorpora\w*|inclu\w*" + _INCLU_OBJ_RE +
-    r"|realiza\w*|inserta\w*|crea\w*)",
-    re.IGNORECASE,
-)
-
-# subordinators: an active 'se <verb>' inside a relative/complement
-# clause ("que se introduce en la Circular N/AAAA", "en la medida en
-# que se modifican mediante ...") is referential, not operative.
-_SUBORDINATOR_TAIL_RE = re.compile(
-    r"(?:^|[,;:]\s*|\s)"
-    r"(?:que|por\s+(?:el|la|los|las)\s+que|cuy[ao]s?|cuy[ao]s?|donde|"
-    r"mediante|como|según|conforme|si|cuando|mientras|aunque|porque|"
-    r"en\s+la\s+medida\s+en\s+que)\s*$",
-    re.IGNORECASE,
-)
-
-_AMEND_VERB_PASSIVE_RE = re.compile(
-    r"debe\w*\s+(?:modificarse|sustituirse|suprimirse|eliminarse|"
-    r"añadirse|introducirse|incorporarse|incluirse" + _INCLU_OBJ_RE +
-    r"|insertarse|crearse)|"
-    r"queda\w*\s+redactad|pasa\w*\s+a\s+(?:ser|denominarse)|"
-    r"(?:se\s+)?da\w*\s+nueva\s+redacci[oó]n|"
-    r"donde\s+dice|debe\s+decir|se\s+sombrea",
-    re.IGNORECASE,
-)
-
-_AMEND_VERB_RE = re.compile(
-    _AMEND_VERB_ACTIVE_RE.pattern + "|" + _AMEND_VERB_PASSIVE_RE.pattern,
-    re.IGNORECASE,
-)
-
-
 def _has_operative_verb(head: str) -> bool:
     """An amendment verb in operative position.
 
@@ -116,63 +70,27 @@ def _has_operative_verb(head: str) -> bool:
     modifican mediante ...') describe or cross-reference the subject,
     they do not amend it.
     """
-    if _AMEND_VERB_PASSIVE_RE.search(head):
+    og = active_profile().operative_grammar
+    if og.amend_verb_passive.search(head):
         return True
-    for m in _AMEND_VERB_ACTIVE_RE.finditer(head):
+    for m in og.amend_verb_active.finditer(head):
         seg = head[:m.start()]
-        if not _SUBORDINATOR_TAIL_RE.search(seg):
+        if not og.subordinator_tail.search(seg):
             return True
     return False
-
-_EN_SUBJECT_RE = re.compile(
-    r"^en\s+(?:la|el|los|las)\s+(norma|anejo|anexo|estado|estados|"
-    r"disposición|apartado|punto|letra|numeral|nota|p[aá]gina)\b",
-    re.IGNORECASE,
-)
-
-# "Estado PI 2:", "Anejo 7.1:" — bare subject containers without verb/En
-_BARE_SUBJECT_RE = re.compile(
-    r"^(estado|estados|anejo|anexo|norma|disposición|apartado|punto|"
-    r"sección)\s+\S",
-    re.IGNORECASE,
-)
-
-_CONTENT_POINTER_RE = re.compile(
-    r"queda\w*\s+redactad|por\s+(?:el|los|la|las)\s+que\s+figura|"
-    r"por\s+la\s+siguiente|por\s+las\s+siguientes|por\s+el\s+siguiente|"
-    r"por\s+los\s+siguientes|con\s+el\s+siguiente|con\s+la\s+siguiente|"
-    r"con\s+el\s+formato|por\s+«|donde\s+dice|debe\s+decir|"
-    r"siguiente\s+redacción|siguiente\s+tenor|siguiente\s+texto|"
-    r"como\s+sigue|con\s+arreglo\s+a|siguientes?\s+términos|"
-    r"por\s+la\s+que\s+figura",
-    re.IGNORECASE,
-)
-
-_CONTAINER_RE = re.compile(
-    r"siguientes\s+modificaciones|siguientes\s+cambios",
-    re.IGNORECASE,
-)
-
-_TARGET_RE = re.compile(
-    r"Circular\s+(?:del\s+Banco\s+de\s+Espa[ñn]a\s+)?(\d+)\s*/\s*(\d{4})",
-    re.IGNORECASE)
 
 
 def _target_refs(text: str) -> list[tuple[int, int]]:
     """All 'Circular N/AAAA' references in text, incl. the
     'Circular del Banco de España N/AAAA' word order."""
-    return [(int(a), int(b)) for a, b in _TARGET_RE.findall(text)]
+    ir = active_profile().identity_reference
+    return [(int(a), int(b)) for a, b in ir.target_ref.findall(text)]
 
 
 # "...que consta en el anejo de la Circular del Banco de España
 # 4/2008, de actualización de la Circular 2/2005" — the ref governed by
 # "anejo de la Circular" names the instrument whose annex holds the
 # fichero; a second ref nested in its description is not an owner.
-_FICHERO_OWNER_RE = re.compile(
-    r"anejo\s+de\s+la\s+Circular\s+(?:del\s+Banco\s+de\s+Espa[ñn]a\s+)?"
-    r"(\d+)\s*/\s*(\d{4})", re.IGNORECASE)
-
-
 def _clause_targets(text: str) -> list[tuple[int, int]]:
     """Circular refs that attribute a clause to another instrument.
 
@@ -182,20 +100,14 @@ def _clause_targets(text: str) -> list[tuple[int, int]]:
     refs are descriptive, not attributive.
     """
     owners = [(int(m.group(1)), int(m.group(2)))
-              for m in _FICHERO_OWNER_RE.finditer(text)]
+              for m in active_profile().identity_reference
+              .fichero_owner.finditer(text)]
     if owners:
         return owners
     refs = _target_refs(
         active_profile().text_normalization.quoted_span.sub("", text))
     uniq = list(dict.fromkeys(refs))
     return uniq if len(uniq) == 1 else []
-
-# non-operative qualifier that closes an unmarked clause's subject zone:
-# "se suprimen los apartados 4 y 5 ..., sin que se introduzca ningún
-# cambio en los apartados 1 a 3"
-_NON_OP_TAIL_RE = re.compile(r"[,;.]\s*sin\s+(?:que|perjuicio)\b",
-                             re.IGNORECASE)
-
 
 def _letters(raw: str) -> list[str]:
     # case-sensitive on purpose: 'letra B)' is an ordinal-style
@@ -219,43 +131,6 @@ def _numlist(raw: str) -> list[tuple[str, ...]]:
         elif re.fullmatch(lg.numlist_atom, tok, re.IGNORECASE):
             out.append((tok,))
     return out
-
-_LITERAL_PAIRS_RE = re.compile(
-    r"«([^»]+)»\s*(?:,?\s*se\s+(?:sustituye|sustituyen|modifica|cambia)\w*"
-    r"\s+por|por)\s*«([^»]+)»"
-)
-_DONDE_DICE_RE = re.compile(
-    r"donde\s+dice:\s*«([^»]+)»\s*,?\s*debe\s+decir:\s*«([^»]+)»",
-    re.IGNORECASE,
-)
-_ANNEX_REF_RE = re.compile(
-    r"en\s+el\s+anejo\s+de\s+esta\s+circular|"
-    r"(?:figura\w*|incluye\w*|recoge\w*)\s+en\s+el\s+anejo\b",
-    re.IGNORECASE,
-)
-
-_OP_KINDS = [
-    ("SUBSTITUTE", re.compile(
-        r"se\s+sustituye\w*|debe\w*\s+sustituirse|"
-        r"(?:se\s+)?da\w*\s+nueva\s+redacci[oó]n", re.IGNORECASE)),
-    ("DELETE", re.compile(
-        r"se\s+(?:suprime\w*|elimina\w*)|debe\w*\s+(?:suprimirse|"
-        r"eliminarse)", re.IGNORECASE)),
-    ("ADD", re.compile(
-        r"se\s+(?:añade\w*|introduce\w*|incorpora\w*|inclu\w*"
-        + _INCLU_OBJ_RE + r"|crea\w*)|"
-        r"debe\w*\s+(?:añadirse|introducirse|incorporarse|incluirse"
-        + _INCLU_OBJ_RE + r"|insertarse|crearse)",
-        re.IGNORECASE)),
-    ("MODIFY", re.compile(
-        r"se\s+(?:modifica\w*|realiza\w*|sombrea)|queda\w*\s+redactad|"
-        r"pasa\w*\s+a\s+(?:ser|denominarse)", re.IGNORECASE)),
-]
-
-
-# sub-clause boundaries for per-subject verb scoping
-_SEG_SPLIT_RE = re.compile(
-    r"[;:]|\.\s|\s+(?:y|e|ni)\s+", re.IGNORECASE)
 
 def _norm(s: str) -> str:
     tn = active_profile().text_normalization
@@ -305,7 +180,7 @@ def _clause_op_kind(text: str) -> str | None:
     masked = active_profile().text_normalization.quoted_span.sub(
         " ", text)
     best: tuple[int, str] | None = None
-    for kind, rx in _OP_KINDS:
+    for kind, rx in active_profile().operative_grammar.op_kinds:
         m = rx.search(masked)
         if m and (best is None or m.start() < best[0]):
             best = (m.start(), kind)
@@ -341,7 +216,7 @@ def subject_operation_kind(clause_text: str, locator_key: str,
     if mpos is None:
         return _clause_op_kind(clause_text) or default
     verbs: list[tuple[int, str]] = []
-    for kind, rx in _OP_KINDS:
+    for kind, rx in active_profile().operative_grammar.op_kinds:
         verbs.extend((m.start(), kind) for m in rx.finditer(low))
     verbs.sort()
     prev = [v for v in verbs if v[0] <= mpos]
@@ -464,7 +339,8 @@ def _is_locator(node: Node) -> bool:
     # referential prose, not an amendment ("En el estado T.10 ... se
     # deberá enviar").
     if text.rstrip().endswith(":") and (
-            _EN_SUBJECT_RE.search(rest) or _BARE_SUBJECT_RE.match(rest)):
+            p.operative_grammar.en_subject.search(rest)
+            or p.operative_grammar.bare_subject.match(rest)):
         return True
     return False
 
@@ -478,19 +354,20 @@ def _is_container(text: str) -> bool:
     "se sustituyen las líneas:" has a verb and its own following content.
     """
     t = text.rstrip()
-    if not t.endswith(":") or _CONTENT_POINTER_RE.search(t):
+    og = active_profile().operative_grammar
+    if not t.endswith(":") or og.content_pointer.search(t):
         return False
-    if _CONTAINER_RE.search(t):
+    if og.container.search(t):
         return True
-    if not _AMEND_VERB_RE.search(t):
+    if not (og.amend_verb_active.search(t)
+            or og.amend_verb_passive.search(t)):
         return True
     # "se modifican:" with no object announces nested clauses
-    return bool(re.search(r"se\s+(?:modifican?|realizan?|efectúan?)\s*:$",
-                          t, re.IGNORECASE))
+    return bool(og.container_close.search(t))
 
 
 def _op_kind(text: str) -> str:
-    for kind, rx in _OP_KINDS:
+    for kind, rx in active_profile().operative_grammar.op_kinds:
         if rx.search(text):
             return kind
     return "MODIFY"
@@ -605,7 +482,9 @@ def _compose_keys(mentions: dict[str, object],
 
     # root families the clause itself declares suppress the inherited
     # roots of other families
-    clause_roots = {r for r in _CTX_ROOTS if mentions.get(r)}
+    clause_roots = {r for r in
+                    active_profile().operative_grammar.root_families
+                    if mentions.get(r)}
 
     estados = mentions.get("estado") or []
     for code in estados:
@@ -854,8 +733,6 @@ def _expand_numlist(raw: str) -> list:
 # displaces inherited roots of the other families — 'En el anejo 3,
 # apartado …' under a stale 'norma N' context resolves under the anejo,
 # never under norma.
-_CTX_ROOTS = ("norma", "anejo", "disposicion")
-
 def _context_update(ctx: dict[str, str],
                     mentions: dict[str, object]) -> dict[str, str]:
     new = dict(ctx)
@@ -879,7 +756,7 @@ def _context_update(ctx: dict[str, str],
         # the clause's own root displaces every inherited root of a
         # different family, and any inherited composed subject whose
         # path was built under the displaced root
-        for k in _CTX_ROOTS:
+        for k in active_profile().operative_grammar.root_families:
             if k not in declared:
                 new.pop(k, None)
         new.pop("subject", None)
@@ -914,10 +791,11 @@ def _merge_frames(frames: list) -> tuple[dict, dict]:
     """
     out: dict[str, str] = {}
     scope: dict = {}
+    roots = active_profile().operative_grammar.root_families
     for flat, sc in frames:
-        declared = set(flat) & set(_CTX_ROOTS)
+        declared = set(flat) & set(roots)
         if declared:
-            for k in _CTX_ROOTS:
+            for k in roots:
                 if k not in declared:
                     out.pop(k, None)
                     scope.pop(k, None)
@@ -926,20 +804,6 @@ def _merge_frames(frames: list) -> tuple[dict, dict]:
         out.update(flat)
         scope.update(sc)
     return out, scope
-
-
-# operative qualifiers that scope an operation below the locator model:
-# a clause acting on a módulo/dimensión/cuadro/etc. targets an element
-# the locator cannot express (moved from history for ownership reuse)
-_SUB_SCOPE_RE = re.compile(
-    r"\b(?:m[oó]dulo|dimensi[oó]n|apartado|letra|punto|numeral|nota|"
-    r"secci[oó]n|cuadro|tabla|p[aá]rrafo|[íi]ndice|fila|columna)\b",
-    re.IGNORECASE)
-
-# unmodelled ordinal qualifiers that make a recorded locator coarser
-# than the actual subject: 'norma 64 bis', 'apartado 2.e)', 'punto 4 ter'
-_QUALIFIER_SRC = r"(?:\.\s*[a-z]\b|\s+(?:bis|ter|qu[aá]ter|quinquies|" \
-    r"sexies|septies|octies|nonies|decies)\b)"
 
 
 def _has_unmodelled_qualifier(masked: str, key: str) -> bool:
@@ -956,8 +820,10 @@ def _has_unmodelled_qualifier(masked: str, key: str) -> bool:
         if val.isdigit():
             vals |= {re.escape(w) for w, n in
                      lg.ordinals.items() if n == int(val)}
-        pat = re.compile(rf"\b{kind_rx}\s+(?:{'|'.join(sorted(vals))})"
-                         rf"{_QUALIFIER_SRC}", re.IGNORECASE)
+        pat = re.compile(
+            rf"\b{kind_rx}\s+(?:{'|'.join(sorted(vals))})"
+            rf"{active_profile().operative_grammar.qualifier_src}",
+            re.IGNORECASE)
         if pat.search(masked):
             return True
     return False
@@ -971,8 +837,9 @@ def _masked_clause(text: str) -> str:
 
 
 def _literals(text: str) -> list[tuple[str, str]]:
-    pairs = [tuple(m.groups()) for m in _DONDE_DICE_RE.finditer(text)]
-    pairs += [tuple(m.groups()) for m in _LITERAL_PAIRS_RE.finditer(text)]
+    og = active_profile().operative_grammar
+    pairs = [tuple(m.groups()) for m in og.donde_dice.finditer(text)]
+    pairs += [tuple(m.groups()) for m in og.literal_pairs.finditer(text)]
     return pairs
 
 
@@ -998,14 +865,15 @@ def _unmarked_op(node: Node) -> tuple[str, str] | None:
     Returns ``(context_prefix, clause)`` — the prefix feeds section
     context/targets — or None if the paragraph is not operative.
     """
-    dm = active_profile().document_model
+    p = active_profile()
+    dm = p.document_model
     if node.kind != dm.kinds["paragraph"] \
             or node.cls not in dm.locator_classes:
         return None
     text = node.text
     if not _has_operative_verb(text):
         return None
-    if _CONTAINER_RE.search(text):
+    if p.operative_grammar.container.search(text):
         idx = text.find(":")
         if idx < 0 or not _has_operative_verb(text[idx + 1:]):
             return None
@@ -1013,8 +881,7 @@ def _unmarked_op(node: Node) -> tuple[str, str] | None:
         if _mentions_or_literals(clause) is None:
             return None
         return text[:idx + 1], clause
-    if re.match(r"(?:en\s+(?:la|el|los|las)\s+\w|se\s+\w)", text,
-                re.IGNORECASE) \
+    if p.operative_grammar.unmarked_opener.match(text) \
             and _mentions_or_literals(text) is not None:
         return "", text
     return None
@@ -1034,7 +901,9 @@ def split_sections(doc: DiarioDoc) -> list[Section]:
     sections = []
     bounds = [a.index for a in arts] + [len(doc.nodes)]
     for i, a in enumerate(arts):
-        targets = [(int(n), int(y)) for n, y in _TARGET_RE.findall(a.text)]
+        targets = [(int(n), int(y)) for n, y in
+                   active_profile().identity_reference.target_ref
+                   .findall(a.text)]
         sections.append(Section(a.text, a.index, bounds[i + 1], targets))
     return sections
 
@@ -1049,8 +918,10 @@ def _preamble_targets(doc: DiarioDoc, sec: Section) -> list[tuple[int, int]]:
     so a circular cited as replacement content is never read as a
     target.
     """
-    dm = active_profile().document_model
-    tn = active_profile().text_normalization
+    p = active_profile()
+    dm = p.document_model
+    tn = p.text_normalization
+    ir = p.identity_reference
     out: list[tuple[int, int]] = []
     for n in doc.nodes[sec.node_start + 1:sec.node_end]:
         if n.kind != dm.kinds["paragraph"] \
@@ -1059,9 +930,10 @@ def _preamble_targets(doc: DiarioDoc, sec: Section) -> list[tuple[int, int]]:
                 or _marker_parts(n.text) is not None:
             break
         text = n.text.rstrip()
-        if not (text.endswith(":") or "siguientes" in text.lower()):
+        if not (text.endswith(":")
+                or p.operative_grammar.siguientes in text.lower()):
             break
-        for m in _TARGET_RE.finditer(tn.quoted_span.sub("", n.text)):
+        for m in ir.target_ref.finditer(tn.quoted_span.sub("", n.text)):
             ref = (int(m.group(1)), int(m.group(2)))
             if ref not in out:
                 out.append(ref)
@@ -1190,7 +1062,8 @@ def _content_link(doc: DiarioDoc, op: Operation) -> None:
         (doc.nodes[i].text or "").strip() or doc.nodes[i].kind == tbl
         for i in range(s, e))
     colon = op.clause_text.rstrip().endswith(":")
-    pointer = bool(_CONTENT_POINTER_RE.search(op.clause_text))
+    pointer = bool(active_profile().operative_grammar.content_pointer
+                   .search(op.clause_text))
     if op.literals and not colon:
         op.content_link_method = "DECLARED_LITERAL_ONLY"
         op.content_link_evidence = {"literal_pairs": len(op.literals)}
@@ -1252,6 +1125,7 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
     prof = active_profile()
     dm, lg, tn = prof.document_model, prof.locator_grammar, \
         prof.text_normalization
+    og, ir = prof.operative_grammar, prof.identity_reference
     prev_container = False
     for i in range(sec.node_start + 1, sec.node_end):
         n = doc.nodes[i]
@@ -1275,7 +1149,7 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
                         section_ctx, section_scope = _ctx_update_scoped(
                             section_ctx, section_scope,
                             _extract_mentions(prefix), i, "SECTION")
-                tail = _NON_OP_TAIL_RE.search(clause)
+                tail = og.non_op_tail.search(clause)
                 zone = clause[:tail.start()] if tail else clause
                 mentions = _extract_mentions(zone)
                 ctx, cscope = merged_ctx()
@@ -1316,7 +1190,7 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
                     subjects=subjects,
                     content_span=(i + 1, cend),
                     is_container=False,
-                    annex_ref=bool(_ANNEX_REF_RE.search(n.text)),
+                    annex_ref=bool(og.annex_ref.search(n.text)),
                     literals=_literals(clause),
                     context=ctx,
                     section_index=sec.node_start,
@@ -1331,7 +1205,7 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
             # cambios en el anejo 9 ... :" before lettered point clauses
             if n.cls in (dm.classes["parrafo"], dm.classes["parrafo_2"]) \
                     and (n.text.rstrip().endswith(":")
-                         or "siguientes" in n.text.lower()):
+                         or og.siguientes in n.text.lower()):
                 # an unmarked ordinal-word item ('Cinco.', 'Seis.')
                 # opens a fresh sibling scope: the previous item's
                 # context dies (G2.1 §23)
@@ -1433,13 +1307,14 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
             subjects=subjects,
             content_span=(i + 1, i + 1),
             is_container=container,
-            annex_ref=bool(_ANNEX_REF_RE.search(n.text)),
+            annex_ref=bool(og.annex_ref.search(n.text)),
             literals=_literals(n.text),
             context=ctx,
             section_index=sec.node_start,
             inline_content=inline,
-            targets=[(int(a), int(b)) for a, b in _TARGET_RE.findall(
-                tn.quoted_span.sub("", n.text))],
+            targets=[(int(a), int(b)) for a, b in
+                     ir.target_ref.findall(
+                         tn.quoted_span.sub("", n.text))],
             section_heading=sec.heading,
             section_targets=list(sec.targets),
             context_scope=cscope,

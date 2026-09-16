@@ -79,9 +79,6 @@ class LocatorDeclaration:
 # corrigendum corrected-instrument resolution (§16)
 # ---------------------------------------------------------------------------
 
-_ELI_CIR_RE = re.compile(r"/cir/(\d{4})/(\d{2})/(\d{2})/(\d+)")
-
-
 def _unique_refs(text: str) -> list[tuple[int, int]]:
     refs = operations._target_refs(
         active_profile().text_normalization.quoted_span.sub("", text))
@@ -91,10 +88,12 @@ def _unique_refs(text: str) -> list[tuple[int, int]]:
 def _corr_kind(ref) -> str | None:
     """'CORRECCIÓN de errores' = the corrected instrument (primary);
     'CORRIGE errores en <X>' = a downstream secondary relation."""
+    ir = active_profile().identity_reference
     p = (ref.palabra or "").upper().replace("Ó", "O")
-    if p.startswith("CORRECCION DE ERRORES"):
+    if p.startswith(ir.correction_primary_prefix):
         return "PRIMARY"
-    if p.startswith("CORRIGE ERRORES") or "CORRECCION" in p:
+    if p.startswith(ir.correction_secondary_prefix) \
+            or ir.correction_secondary_contains in p:
         return "SECONDARY"
     return None
 
@@ -108,8 +107,9 @@ def resolve_corrected_instrument(mdoc: boe_diario.DiarioDoc) -> dict:
     """
     eli = mdoc.metadata.get("url_eli", "") or ""
     eli_ref = None
-    m = _ELI_CIR_RE.search(eli)
-    if m and "/corrigendum/" in eli:
+    ir = active_profile().identity_reference
+    m = ir.eli_circular.search(eli)
+    if m and ir.eli_corrigendum_path in eli:
         eli_ref = (int(m.group(4)), int(m.group(1)))  # (num, year)
 
     primaries = [(r.referencia, r.texto) for r in mdoc.anteriores
@@ -155,9 +155,10 @@ def is_corrigendum(mdoc: boe_diario.DiarioDoc) -> bool:
     rango = mdoc.metadata.get("rango", "") or ""
     eli = mdoc.metadata.get("url_eli", "") or ""
     titulo = (mdoc.metadata.get("titulo", "") or "").upper()
-    return ("/corrigendum/" in eli
-            or "CORRECCI" in rango.upper()
-            or titulo.startswith("CORRECCI"))
+    ir = active_profile().identity_reference
+    return (ir.eli_corrigendum_path in eli
+            or ir.corrigendum_marker in rango.upper()
+            or titulo.startswith(ir.corrigendum_marker))
 
 
 # ---------------------------------------------------------------------------
@@ -191,7 +192,8 @@ def attribute_operation(op: operations.Operation,
     clause_refs = _unique_refs(op.clause_text)
     prefix_refs = _unique_refs(op.prefix or "")
     owners = [(int(m.group(1)), int(m.group(2))) for m in
-              operations._FICHERO_OWNER_RE.finditer(op.clause_text)]
+              active_profile().identity_reference.fichero_owner
+              .finditer(op.clause_text)]
     # attributive clause refs: owner construction wins; otherwise a
     # unique ref attributes the clause
     clause_attr = owners or (clause_refs if len(clause_refs) == 1 else [])
@@ -338,11 +340,6 @@ def prove_locator(op: operations.Operation,
 # O3 — subject existence / lifecycle (§31-34)
 # ---------------------------------------------------------------------------
 
-_KINDED_TAIL_RE = re.compile(
-    r"\.(?:punto|apartado|letra|numeral|nota|indice|estado|fichero|"
-    r"norma|anejo|disp|disposicion|seccion|pagina):")
-
-
 def ancestor_keys(key: str) -> list[str]:
     """Ancestor locator keys, nearest first — a dotted value never
     starts a new component; only '.kind:' boundaries do."""
@@ -350,7 +347,8 @@ def ancestor_keys(key: str) -> list[str]:
     k = key
     while True:
         last = None
-        for m in _KINDED_TAIL_RE.finditer(k):
+        for m in active_profile().locator_grammar.kinded_tail \
+                .finditer(k):
             last = m.start()
         if last is None:
             return out

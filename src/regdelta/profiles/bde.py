@@ -11,8 +11,9 @@ from __future__ import annotations
 import re
 
 from ..profile import (
-    AnnexStateGrammar, DocumentModel, FicheroGrammar, LocatorGrammar,
-    SourceProfile, TextNormalization, register_profile)
+    AnnexStateGrammar, DocumentModel, FicheroGrammar, IdentityReference,
+    LocatorGrammar, OperativeGrammar, SourceProfile, TextNormalization,
+    register_profile)
 
 # ---------------------------------------------------------------------------
 # F1 document_model — node-stream vocabulary (produced by sources/boe_*)
@@ -234,6 +235,13 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
         "anejo": r"(?:anejos?|anexos?)", "seccion": r"secciones?",
         "indice": r"[íi]ndices?",
     },
+    # '.kind:' component split inside composed locator keys
+    kinded_tail=re.compile(
+        r"\.(?:punto|apartado|letra|numeral|nota|indice|estado|"
+        r"fichero|norma|anejo|disp|disposicion|seccion|pagina):"),
+    # kinds whose binding span must restate the subject token
+    coverage_heads=("estado", "punto", "apartado", "letra", "numeral",
+                    "nota", "indice"),
 )
 
 # ---------------------------------------------------------------------------
@@ -318,12 +326,141 @@ _ANNEX_STATE = AnnexStateGrammar(
     },
 )
 
+# ---------------------------------------------------------------------------
+# F4 operative_grammar — amendment-verb lexicon + clause grammar
+# ---------------------------------------------------------------------------
+
+# 'incluir' amends only with a structural direct object
+_INCLU_OBJ = (
+    r"(?=\s+(?:unas?|una?|el|la|los|las|otras?|nuev[ao]s?|send[ao]s?)"
+    r"\s+(?:nuev[ao]s?\s+)?(?:normas?|anejos?|anexos?|apartados?|"
+    r"letras?|puntos?|numeral(?:es)?|notas?|estados?|ficheros?|"
+    r"disposici[oó]n(?:es)?|secci[oó]n(?:es)?|[ií]ndices?|"
+    r"p[aá]ginas?)\b)")
+
+_OPERATIVE_GRAMMAR = OperativeGrammar(
+    amend_verb_active=re.compile(
+        r"se\s+(?:modifica\w*|sustituye\w*|suprime\w*|elimina\w*|"
+        r"añade\w*|introduce\w*|incorpora\w*|inclu\w*" + _INCLU_OBJ +
+        r"|realiza\w*|inserta\w*|crea\w*)",
+        re.IGNORECASE),
+    amend_verb_passive=re.compile(
+        r"debe\w*\s+(?:modificarse|sustituirse|suprimirse|eliminarse|"
+        r"añadirse|introducirse|incorporarse|incluirse" + _INCLU_OBJ +
+        r"|insertarse|crearse)|"
+        r"queda\w*\s+redactad|pasa\w*\s+a\s+(?:ser|denominarse)|"
+        r"(?:se\s+)?da\w*\s+nueva\s+redacci[oó]n|"
+        r"donde\s+dice|debe\s+decir|se\s+sombrea",
+        re.IGNORECASE),
+    subordinator_tail=re.compile(
+        r"(?:^|[,;:]\s*|\s)"
+        r"(?:que|por\s+(?:el|la|los|las)\s+que|cuy[ao]s?|cuy[ao]s?|"
+        r"donde|mediante|como|según|conforme|si|cuando|mientras|"
+        r"aunque|porque|en\s+la\s+medida\s+en\s+que)\s*$",
+        re.IGNORECASE),
+    en_subject=re.compile(
+        r"^en\s+(?:la|el|los|las)\s+(norma|anejo|anexo|estado|estados|"
+        r"disposición|apartado|punto|letra|numeral|nota|p[aá]gina)\b",
+        re.IGNORECASE),
+    bare_subject=re.compile(
+        r"^(estado|estados|anejo|anexo|norma|disposición|apartado|punto|"
+        r"sección)\s+\S",
+        re.IGNORECASE),
+    content_pointer=re.compile(
+        r"queda\w*\s+redactad|por\s+(?:el|los|la|las)\s+que\s+figura|"
+        r"por\s+la\s+siguiente|por\s+las\s+siguientes|por\s+el\s+"
+        r"siguiente|por\s+los\s+siguientes|con\s+el\s+siguiente|"
+        r"con\s+la\s+siguiente|con\s+el\s+formato|por\s+«|"
+        r"donde\s+dice|debe\s+decir|siguiente\s+redacción|"
+        r"siguiente\s+tenor|siguiente\s+texto|como\s+sigue|"
+        r"con\s+arreglo\s+a|siguientes?\s+términos|"
+        r"por\s+la\s+que\s+figura",
+        re.IGNORECASE),
+    container=re.compile(
+        r"siguientes\s+modificaciones|siguientes\s+cambios",
+        re.IGNORECASE),
+    literal_pairs=re.compile(
+        r"«([^»]+)»\s*(?:,?\s*se\s+(?:sustituye|sustituyen|modifica|"
+        r"cambia)\w*\s+por|por)\s*«([^»]+)»"),
+    donde_dice=re.compile(
+        r"donde\s+dice:\s*«([^»]+)»\s*,?\s*debe\s+decir:\s*«([^»]+)»",
+        re.IGNORECASE),
+    annex_ref=re.compile(
+        r"en\s+el\s+anejo\s+de\s+esta\s+circular|"
+        r"(?:figura\w*|incluye\w*|recoge\w*)\s+en\s+el\s+anejo\b",
+        re.IGNORECASE),
+    op_kinds=(
+        ("SUBSTITUTE", re.compile(
+            r"se\s+sustituye\w*|debe\w*\s+sustituirse|"
+            r"(?:se\s+)?da\w*\s+nueva\s+redacci[oó]n", re.IGNORECASE)),
+        ("DELETE", re.compile(
+            r"se\s+(?:suprime\w*|elimina\w*)|debe\w*\s+(?:suprimirse|"
+            r"eliminarse)", re.IGNORECASE)),
+        ("ADD", re.compile(
+            r"se\s+(?:añade\w*|introduce\w*|incorpora\w*|inclu\w*"
+            + _INCLU_OBJ + r"|crea\w*)|"
+            r"debe\w*\s+(?:añadirse|introducirse|incorporarse|"
+            r"incluirse" + _INCLU_OBJ + r"|insertarse|crearse)",
+            re.IGNORECASE)),
+        ("MODIFY", re.compile(
+            r"se\s+(?:modifica\w*|realiza\w*|sombrea)|queda\w*\s+"
+            r"redactad|pasa\w*\s+a\s+(?:ser|denominarse)",
+            re.IGNORECASE)),
+    ),
+    segment_split=re.compile(
+        r"[;:]|\.\s|\s+(?:y|e|ni)\s+", re.IGNORECASE),
+    non_op_tail=re.compile(r"[,;.]\s*sin\s+(?:que|perjuicio)\b",
+                           re.IGNORECASE),
+    root_families=("norma", "anejo", "disposicion"),
+    sub_scope=re.compile(
+        r"\b(?:m[oó]dulo|dimensi[oó]n|apartado|letra|punto|numeral|"
+        r"nota|secci[oó]n|cuadro|tabla|p[aá]rrafo|[íi]ndice|fila|"
+        r"columna)\b",
+        re.IGNORECASE),
+    qualifier_src=(
+        r"(?:\.\s*[a-z]\b|\s+(?:bis|ter|qu[aá]ter|quinquies|sexies|"
+        r"septies|octies|nonies|decies)\b)"),
+    unmarked_opener=re.compile(
+        r"(?:en\s+(?:la|el|los|las)\s+\w|se\s+\w)", re.IGNORECASE),
+    container_close=re.compile(
+        r"se\s+(?:modifican?|realizan?|efectúan?)\s*:$", re.IGNORECASE),
+    siguientes="siguientes",
+)
+
+# ---------------------------------------------------------------------------
+# F5 identity_reference — which-instrument grammar + correction vocab
+# ---------------------------------------------------------------------------
+
+_IDENTITY_REFERENCE = IdentityReference(
+    target_ref=re.compile(
+        r"Circular\s+(?:del\s+Banco\s+de\s+Espa[ñn]a\s+)?(\d+)\s*/\s*"
+        r"(\d{4})",
+        re.IGNORECASE),
+    circular_ref=re.compile(
+        r"Circular\s+(\d+)\s*/\s*(\d{4})", re.IGNORECASE),
+    fichero_owner=re.compile(
+        r"anejo\s+de\s+la\s+Circular\s+(?:del\s+Banco\s+de\s+Espa[ñn]a"
+        r"\s+)?(\d+)\s*/\s*(\d{4})", re.IGNORECASE),
+    eli_circular=re.compile(r"/cir/(\d{4})/(\d{2})/(\d{2})/(\d+)"),
+    eli_corrigendum_path="/corrigendum/",
+    boe_id=re.compile(r"^BOE-[A-Z]-\d{4}-\d+$"),
+    circular_query=re.compile(
+        r"^circular\s+(\d+)/(\d{4})$", re.IGNORECASE),
+    correction_palabras=("CORREG", "CORREC"),
+    correction_primary_prefix="CORRECCION DE ERRORES",
+    correction_secondary_prefix="CORRIGE ERRORES",
+    correction_secondary_contains="CORRECCION",
+    corrigendum_marker="CORRECCI",
+)
+
 BDE_PROFILE = SourceProfile(
     profile_id="bde-circular",
     profile_version="bde-v1",
     document_model=_DOCUMENT_MODEL,
     text_normalization=_TEXT_NORMALIZATION,
     locator_grammar=_LOCATOR_GRAMMAR,
+    operative_grammar=_OPERATIVE_GRAMMAR,
+    identity_reference=_IDENTITY_REFERENCE,
     annex_state=_ANNEX_STATE,
 )
 

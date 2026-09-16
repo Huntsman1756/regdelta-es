@@ -476,7 +476,8 @@ def attribute_operation(target_ref: tuple[int, int] | None,
     clause_refs = _unique_refs(clause["clause"])
     prefix_refs = _unique_refs(clause.get("prefix") or "")
     owners = [(int(m.group(1)), int(m.group(2))) for m in
-              operations._FICHERO_OWNER_RE.finditer(clause["clause"])]
+              active_profile().identity_reference.fichero_owner
+              .finditer(clause["clause"])]
     # attributive clause refs: owner construction wins; otherwise a
     # unique ref attributes the clause
     clause_attr = owners or (clause_refs if len(clause_refs) == 1 else [])

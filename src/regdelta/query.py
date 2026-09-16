@@ -23,6 +23,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from . import applicability
+from .profile import active_profile
 
 DB_NAME = "regdelta.sqlite"
 
@@ -35,8 +36,6 @@ DATED_EFFECTS = (
 
 AS_OF_SEMANTICS = "LEGAL_TIME_FACTS_NOT_SYNTHETIC_CONSOLIDATED_VERSION"
 
-BOE_ID_RE = re.compile(r"^BOE-[A-Z]-\d{4}-\d+$")
-CIRCULAR_RE = re.compile(r"^circular\s+(\d+)/(\d{4})$", re.IGNORECASE)
 WS_RE = re.compile(r"\s+")
 
 
@@ -136,10 +135,11 @@ def resolve_instrument(conn: sqlite3.Connection, ref: str) -> dict:
     Zero matches → InstrumentNotFound; more than one → InstrumentAmbiguous.
     """
     ref = WS_RE.sub(" ", (ref or "").strip())
-    if BOE_ID_RE.match(ref):
+    ir = active_profile().identity_reference
+    if ir.boe_id.match(ref):
         rows = _q(conn, "SELECT * FROM instruments WHERE boe_id=?", (ref,))
     else:
-        m = CIRCULAR_RE.match(ref)
+        m = ir.circular_query.match(ref)
         if not m:
             raise InstrumentNotFound(
                 f"unresolvable instrument reference: {ref!r}")
