@@ -69,10 +69,46 @@ HIST non-regression floors (COV-1 §9.2)  satisfied
 B1-B6 failures                           = 0
 PROTOCOL_INTEGRITY                       = PASS
 COV-3 holdout                            sealed, unopened
+                                          (see COV-3_SELECTION below)
 ```
+
+## COV-3 selection outcome (COV-2A, decided)
+
+The frozen COV-1 §11 rule was executed unchanged
+(scripts/cov/select_cov3.py over the COV-2-extended seen-set):
+
+```text
+COV-3_SELECTION = STOP
+reason          = CURRENT_OPERATIONAL eligible 0 < 3
+holdout_status  = UNMATERIALIZABLE
+selection_rule  = executed unchanged
+```
+
+Universe 76 (index corpus + G2.0b graph); 51 semantically seen;
+25 fresh candidates; 1 eligible (HIST, 6 declared modifiers).
+Every BdE Circular with declared_modifier_count >= 3 in the frozen
+universe was already consumed by G2.2/COV-1 — the dense-modifier
+circular corpus is exhausted.
+
+Decision (owner, this thread): COV-2 proceeds DEV-only. The STOP
+does not invalidate the coverage hypothesis; there is no holdout to
+tune on, so the seal-before-runtime clause is vacuous. No amendment
+to the COV-3 selection rule. The terminal report distinguishes:
+
+```text
+COV-2_DEV        = PASS | FAIL
+COV-3_READINESS  = NOT_READY_FOR_COV_3
+```
+
+Fresh-corpus validation is deferred to a separate preregistration —
+preferably a prospective-temporal holdout (the next qualifying BdE
+Circular becomes genuinely future evidence against the COV-2-frozen
+runtime).
 
 ## Current state
 
 ```text
-COV-2A = IN_PROGRESS   (prereg committed; COV-3 selection pending)
+COV-2A = DONE   (prereg committed 3c82d8f; COV-3 selection STOP
+                 recorded at 918a38e; holdout UNMATERIALIZABLE)
+COV-2B = OPEN   (evaluator extension + exact baseline)
 ```
