@@ -29,7 +29,7 @@ from .operations import _ORDINALS, _ordinal_num
 from .sources.boe_diario import DiarioDoc
 
 PARSER_NAME = "structural_binding"
-PARSER_VERSION = "g1-v1"
+PARSER_VERSION = "cov-v1"
 
 BOUND = "BOUND"
 NOT_FOUND = "NOT_FOUND"
@@ -248,15 +248,31 @@ def anejo_spans(doc: DiarioDoc, num: str) -> list[tuple[int, int]]:
 # candidate enumeration — sub-locators inside a proven parent scope
 # ---------------------------------------------------------------------------
 
+_NUMERIC_MARKER_RE = re.compile(
+    r"^(?:\d+\.|\d{1,3}(?:\.\d+)*\s+[A-ZÁÉÍÓÚÑ¿«(])")
+_LETRA_MARKER_RE = re.compile(r"^[a-zA-Z]\)")
 _SIBLING_MARKER_RE = re.compile(
-    r"^(?:\d+\.|[a-z]\)|[ivxlcdm]+\s*[.)])", re.IGNORECASE)
+    r"^(?:\d+\.|[a-zA-Z]\)|[ivxlcdmIVXLCDM]+\s*[.)]"
+    r"|\d{1,3}(?:\.\d+)*\s+[A-ZÁÉÍÓÚÑ¿«(])")
+
+# A candidate region ends at the next marker of its own level or any
+# outer level — never at a child marker: 'a)' opens content *inside*
+# apartado 1, it does not start a new apartado.
+_LEVEL_BOUNDARY = {
+    "apartado": _NUMERIC_MARKER_RE,
+    "punto": _NUMERIC_MARKER_RE,
+    "letra": re.compile(
+        _NUMERIC_MARKER_RE.pattern + "|" + _LETRA_MARKER_RE.pattern),
+}
 
 
 def sub_region_candidates(doc: DiarioDoc, span: tuple[int, int],
-                          pattern: re.Pattern) -> list[tuple[int, int]]:
+                          pattern: re.Pattern,
+                          boundary: re.Pattern = _SIBLING_MARKER_RE,
+                          ) -> list[tuple[int, int]]:
     """Every node matching ``pattern`` inside ``span``; each candidate
-    spans to the next sibling marker or the parent span end. Matches
-    outside the parent scope are never considered (B2)."""
+    spans to the next same-or-outer-level marker or the parent span
+    end. Matches outside the parent scope are never considered (B2)."""
     starts = [i for i in range(*span)
               if doc.nodes[i].kind == "p" and pattern.match(
                   doc.nodes[i].text)]
@@ -264,22 +280,56 @@ def sub_region_candidates(doc: DiarioDoc, span: tuple[int, int],
     for start in starts:
         end = span[1]
         for i in range(start + 1, span[1]):
-            if _SIBLING_MARKER_RE.match(doc.nodes[i].text):
+            if boundary.match(doc.nodes[i].text):
                 end = i
                 break
         out.append((start, end))
     return out
 
 
-_SUB_PATTERNS = {
-    "apartado": lambda v: re.compile(rf"^{re.escape(v)}\s*\."),
-    "punto": lambda v: re.compile(rf"^{re.escape(v)}\s*\."),
-    "letra": lambda v: re.compile(rf"^{re.escape(v)}\)"),
-    "nota": lambda v: re.compile(
-        rf"^[«(]+\s*\(?{re.escape(v)}\)?", re.IGNORECASE),
-    "numeral": lambda v: re.compile(
-        rf"^{re.escape(v)}\s*[.)]", re.IGNORECASE),
-}
+_VALUE_CONT_RE = re.compile(r"[\dA-ZÁÉÍÓÚÑ]")
+
+
+def _locator_parts(locator_key: str) -> list[str]:
+    """Split a locator key into 'kind:value' components.
+
+    A bare segment that looks like a value fragment — a digit, an
+    uppercase letter or a declared ordinal word — continues the
+    previous component's dotted value (apartado '9.1',
+    disp 'transitoria.primera', anejo '7.3'). Any other bare segment
+    (anejo '5' + 'indice') keeps its own component and will fail
+    sub-resolution as an unmodelled kind, exactly as before."""
+    raw = locator_key.split(".")
+    parts = [raw[0]]
+    for p in raw[1:]:
+        if ":" in p:
+            parts.append(p)
+        elif _VALUE_CONT_RE.match(p) or p in _ORDINALS:
+            parts[-1] += "." + p
+        else:
+            parts.append(p)
+    return parts
+
+
+def _sub_pattern(kind: str, val: str) -> re.Pattern | None:
+    v = re.escape(val)
+    if kind in ("apartado", "punto"):
+        if "." in val:
+            # a compound code ('9.1', 'II.B.2') must not prefix-match a
+            # deeper sibling code ('9.10', '9.1.2')
+            return re.compile(rf"^{v}(?!\.\d|\w)(?:\s*\.|\s|$)")
+        # official markers: '2.' / '2. ' dotted, or '2 Texto' undotted —
+        # the undotted form requires capitalised text so that '2 de
+        # julio' / '2 000' prose is never a structural marker
+        return re.compile(
+            rf"^{v}(?!\d)(?:\s*\.|\s+[A-ZÁÉÍÓÚÑ¿«(]|$)")
+    if kind == "letra":
+        return re.compile(rf"^{v}\s*\)")
+    if kind == "nota":
+        return re.compile(rf"^[«(]+\s*\(?{v}\)?", re.IGNORECASE)
+    if kind == "numeral":
+        return re.compile(rf"^{v}\s*[.)]", re.IGNORECASE)
+    return None
 
 
 def text_region_candidates(doc: DiarioDoc,
@@ -289,7 +339,7 @@ def text_region_candidates(doc: DiarioDoc,
     Resolves the head, then each 'kind:val' part only inside the
     candidate parent scopes. Every surviving leaf span is a candidate —
     callers apply B1 to decide."""
-    parts = locator_key.split(".")
+    parts = _locator_parts(locator_key)
     head = parts[0]
     if head.startswith("norma:"):
         cands = articulo_spans(doc, "norma", head[6:])
@@ -304,13 +354,13 @@ def text_region_candidates(doc: DiarioDoc,
         return []
     for part in parts[1:]:
         kind, _, val = part.partition(":")
-        mk = _SUB_PATTERNS.get(kind)
-        if mk is None:
+        pat = _sub_pattern(kind, val)
+        if pat is None:
             return []
-        pat = mk(val)
+        bnd = _LEVEL_BOUNDARY.get(kind, _SIBLING_MARKER_RE)
         nxt: list[tuple[int, int]] = []
         for sp in cands:
-            nxt.extend(sub_region_candidates(doc, sp, pat))
+            nxt.extend(sub_region_candidates(doc, sp, pat, bnd))
         cands = nxt
         if not cands:
             return []
