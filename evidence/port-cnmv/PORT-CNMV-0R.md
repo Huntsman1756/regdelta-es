@@ -98,3 +98,64 @@ So `DEP(T) = {T} ∪ {posterior referencias (modification +
 correction)}` over BOE-A ids, and every member needs the full
 artifact trio (XML + doc HTML + PDF) plus annex images derived from
 its doc HTML.
+
+## Execution record (sealed @ 21543e1)
+
+```text
+dependency graph
+  56 eligible targets -> DEP sets over posteriores only
+  conflict edges: DEP(T1) ∩ DEP(T2) != ∅
+  connected components: 12
+    - one giant component: 41 targets (multi-target modifier
+      chains merge most of the corpus — the v1 alternating
+      split was structurally unsound for this graph)
+    - 11 remaining components: 4-member + 10 singletons
+  seen-excluded components: 0
+    (BOE-A-2020-14107 is not eligible — 0 declared modifiers —
+     so it never enters the graph; exclusion rule applied vacuously)
+
+component split (frozen rule)
+  odd component rank  -> DEV_POOL
+  even component rank -> HOLDOUT_POOL
+  DEV     = BOE-A-2008-16091, BOE-A-2008-20895,
+            BOE-A-2010-13162, BOE-A-1994-28725
+  HOLDOUT = BOE-A-2013-6804, BOE-A-2013-6805,
+            BOE-A-2011-10830, BOE-A-2017-5084
+
+hard gates (all true)
+  dev_targets_eq_4            = true
+  holdout_targets_eq_4        = true
+  dev_holdout_dep_disjoint    = true   (∪DEP(DEV) ∩ ∪DEP(HOLD) = ∅)
+  holdout_dep_seen_disjoint   = true   (∪DEP(HOLD) ∩ seen = ∅)
+  dependency_plan_eq_captured = true   (metadata plan == manifest)
+
+capture
+  dev     862 artifacts, 0 fetch errors
+  holdout 761 artifacts, 0 fetch errors, 116.6 MB aggregate
+  per DEP member: diario XML + doc HTML + dias PDF + annex images
+  (v1 bytes reused where already captured; sha256 recorded)
+
+SEAL v2
+  evidence/port-cnmv/split-v2/holdout/SEAL
+  manifest_sha256 7a0ecf78...
+  aggregate_sha256 4a9d1caf...
+  capture_script_sha256 = committed split_isolation.py @ 21543e1
+  sealed_at_head = 21543e1
+
+notes
+  - recomputed frozen stress rank asserted == selection.json rank
+    (self-checking against drift)
+  - former v1 holdout members 2008-20895 / 1994-28725 are now DEV
+    (their component ranked odd); former v1 dev 2009-133 /
+    2008-19438 landed inside the same giant component but outside
+    the top-4 — never semantically opened either way
+  - the cross-side contamination flagged at verdict time
+    (BOE-A-2018-17708 modifies 2008-20895) is resolved: both now
+    sit inside the same DEV-side component
+
+TERMINAL = READY_FOR_ISOLATED_CNMV_PROFILE_PROBE
+```
+
+`PORT-CNMV-1` remains gated on explicit authorization; its freeze
+list is `profile.py` + all core semantic modules — any need to touch
+them is `CORE_EXTENSION_REQUIRED`, not a DEV fix.

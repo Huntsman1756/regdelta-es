@@ -1,0 +1,16 @@
+{
+ "gate": "PORT-CNMV-0R",
+ "targets": [
+  "BOE-A-2013-6804",
+  "BOE-A-2013-6805",
+  "BOE-A-2011-10830",
+  "BOE-A-2017-5084"
+ ],
+ "manifest_sha256": "bca96c0f7218c91a8e9a70daee0c1001fbcbf3bcae3ff9561d4db8d67f439796",
+ "artifact_count": 761,
+ "aggregate_bytes": 116609332,
+ "aggregate_sha256": "4a9d1cafd85d653ff9478655610386ec87320152fda278587a796bcf29dcb3ae",
+ "capture_script_sha256": "02731071092ea221e78053625d04e920f048e72910945a4ddcf2e71efd246661",
+ "rule": "no source/test/eval code may read these artifacts semantically until PORT-CNMV-2 (sealed-runner protocol); DEP-isolated from DEV",
+ "sealed_at_head": "21543e1cfff5731f6363232849f266c465fcd405"
+}

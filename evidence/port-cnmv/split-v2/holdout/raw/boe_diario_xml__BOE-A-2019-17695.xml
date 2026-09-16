@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251220122601">
+  <metadatos>
+    <identificador>BOE-A-2019-17695</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20191127</fecha_disposicion>
+    <numero_oficial>2/2019</numero_oficial>
+    <titulo>Circular 2/2019, de 27 de noviembre, de la Comisión Nacional del Mercado de Valores, por la que se modifica la Circular 1/2017, de 26 de abril, sobre los contratos de liquidez.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20191210</fecha_publicacion>
+    <diario_numero>296</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>134196</pagina_inicial>
+    <pagina_final>134198</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2019/12/10/pdfs/BOE-A-2019-17695.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2019-17695</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20200310</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2019/11/27/2</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2019/11/27/2">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2019-17695</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-27</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1664"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4930"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7896"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2019/11/27/2/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2019-17695</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-27</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1664"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4930"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7896"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2019/11/27/2"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2019/11/27/2/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 2/2019, de 27 de noviembre, de la Comisión Nacional del Mercado de Valores, por la que se modifica la Circular 1/2017, de 26 de abril, sobre los contratos de liquidez.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-10</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2019/11/27/2/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2019/11/27/2/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2019/11/27/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2019/11/27/2/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2019/11/27/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2019/11/27/2/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2019/11/27/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2019/11/27/2/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2019/11/27/2/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="60" orden="">Activos financieros</materia>
+      <materia codigo="1186" orden="">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="1664" orden="">Contratos</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="4930" orden="">Mercado de Valores</materia>
+      <materia codigo="7896" orden="">Sistema financiero</materia>
+      <materia codigo="6896" orden="">Títulos valores</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2017-5084" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>los apartados 3 y 4.b) de la norma 3 de la Circular 1/2017, de 26 de abril</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2015-11435" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>el art. 225.3 de la Ley del Mercado de Valores, texto refundido aprobado por Real Decreto Legislativo 4/2015, de 23 de octubre</texto>
+        </anterior>
+        <anterior referencia="DOUE-L-2014-81277" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>el art. 13 del Reglamento 596/2014, de 16 de abril</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">La Circular 1/2017, de 26 de abril, de la Comisión Nacional del Mercado de Valores, sobre los contratos de liquidez (la «Circular 1/2017») tiene por objeto regular los contratos de liquidez a los efectos de su consideración como práctica de mercado aceptada conforme a lo previsto en el artículo 13 del Reglamento (UE) n.º 596/2014 del Parlamento Europeo y del Consejo, de 16 de abril de 2014, sobre el abuso de mercado (el «Reglamento (UE) n.º 596/2014»). Estos contratos tienen como único propósito la provisión de liquidez por parte de un intermediario financiero que, actuando por cuenta de un emisor en virtud de un contrato, lleva a cabo operaciones de compra y venta de las acciones del emisor.</p>
+    <p class="parrafo">Trascurridos dos años desde la aprobación de la Circular 1/2017, la CNMV, de conformidad con lo dispuesto en el artículo 13.8 del Reglamento (UE) n.º 596/2014, ha revisado la práctica de mercado aceptada a la que se refiere la Circular y ha concluido que es preciso introducir dos modificaciones. Dichas modificaciones, reguladas en la presente Circular, responden a la demanda de los participantes del mercado y pretenden lograr el acceso a los contratos de liquidez de un mayor número de sociedades emisoras, especialmente de aquellas cuyas acciones tienen una liquidez menor, y modular ciertas restricciones a la operativa del intermediario financiero en periodos de subasta.</p>
+    <p class="parrafo">Concretamente, en el apartado 3 de la Norma tercera de la Circular 1/2017, que regula el límite de volumen diario que el intermediario financiero puede negociar al amparo del contrato de liquidez, se regula un nuevo límite aplicable en aquellos contratos suscritos por sociedades emisoras cuyas acciones no dispongan de un mercado líquido y se negocien en un mercado regulado a través de un sistema de contratación de <em>fixing</em> o en un sistema multilateral de negociación. Adicionalmente a dicha aplicación automática para ciertos sistemas de negociación, se añade la posibilidad de que la CNMV excepcionalmente autorice su aplicación a los contratos suscritos por emisores cuyas acciones negocien en un mercado regulado a través del sistema de contratación general. El emisor podrá solicitar a la CNMV su aplicación, acompañando a la solicitud un informe de la sociedad rectora del mercado regulado correspondiente que justifique su consideración de que la acción es altamente ilíquida a pesar de no estar incluida en el sistema de contratación de <em>fixing</em>.</p>
+    <p class="parrafo">Además, en el apartado 4 de la Norma tercera de la Circular 1/2017, que regula las condiciones que deben ser observadas por el intermediario financiero en su operativa en los períodos de subasta, se elimina la restricción a la posibilidad de mantener órdenes de compra y venta de acciones con carácter simultáneo en cada momento, y se establece la obligación del intermediario financiero de adoptar las medidas que resulten necesarias para evitar que se crucen sus órdenes de sentido contrario en la subasta.</p>
+    <p class="parrafo">En cumplimiento con el procedimiento establecido en el artículo 13 del Reglamento (UE) n.º 596/2014 y en el Reglamento Delegado (UE) 2016/908 de la Comisión, de 26 de febrero de 2016, por el que se completa el Reglamento (UE) n.º 596/2014 mediante el establecimiento de normas técnicas de regulación sobre los criterios, el procedimiento y los requisitos para establecer una práctica de mercado aceptada, así como los requisitos para mantenerla, derogarla o modificar las condiciones para su aceptación, la CNMV ha llevado a cabo un proceso de consulta pública en relación con la modificación de la Circular 1/2017. Asimismo, la CNMV ha comunicado a la Autoridad Europea de Valores y Mercados (en adelante, «ESMA», por sus siglas en inglés, tal como se conoce comúnmente en el sector) su intención de modificar la Circular 1/2017. En respuesta a dicha comunicación, ESMA ha emitido un dictamen en relación con la modificación de la práctica de mercado en el que concluye que la modificación propuesta es compatible con el artículo 13.2 del Reglamento (UE) n.º 596/2014 y contiene diversos mecanismos para limitar las amenazas a la confianza en el mercado. En su dictamen, ESMA también señala que considera positivo el hecho de que la práctica de mercado modificada se alinee con los puntos de convergencia elaborados en relación con las condiciones que deben reunir los contratos de liquidez a los efectos de su consideración como práctica de mercado aceptada («<em>Points for convergence in relation to MAR accepted market practices on liquidity contracts. Documento ESMA70-145-76»</em>). La CNMV ha tenido en cuenta dicho dictamen a la hora de elaborar la presente Circular.</p>
+    <p class="parrafo">En virtud de todo lo anterior, el Consejo de la CNMV, previo informe de su Comité Consultivo, y al amparo de lo dispuesto en el artículo 13 del Reglamento (UE) n.º 596/2014 y el artículo 225, apartado 3, del Real Decreto Legislativo 4/2015, de 23 de octubre, por el que se aprueba el texto refundido de la Ley del Mercado de Valores, en su reunión del día 27 de noviembre de 2019, ha dispuesto lo siguiente:</p>
+    <p class="articulo">Norma única. Modificación del apartado 3 y del apartado 4, letra b, de la «Norma tercera. Condiciones para operar» de la Circular 1/2017, de 26 de abril, de la Comisión Nacional del Mercado de Valores, sobre los contratos de liquidez.</p>
+    <p class="parrafo">El apartado 3 y el apartado 4, letra b, de la «Norma tercera. Condiciones para operar» de la Circular 1/2017, de 26 de abril, de la Comisión Nacional del Mercado de Valores, sobre los contratos de liquidez, quedan redactados en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«3. El Intermediario Financiero no deberá ejercer nunca una posición dominante en la contratación de las acciones del Emisor. A estos efectos, en ningún caso el volumen diario ejecutado por el Intermediario Financiero al amparo del Contrato de Liquidez superará el 15 % del promedio diario del volumen negociado en el mercado de órdenes del mercado regulado o del sistema multilateral de negociación español en las 30 sesiones anteriores cuando el Contrato de Liquidez haya sido suscrito por un Emisor cuyas acciones objeto del Contrato de Liquidez tengan un mercado líquido conforme a lo dispuesto en el artículo 2.1.17 del Reglamento (UE) n.º 600/2014 del Parlamento Europeo y del Consejo, de 15 de mayo de 2014, relativo a los mercados de instrumentos financieros (MIFIR) y su normativa de desarrollo. Este límite será del 25 % en el caso de que el Contrato de Liquidez haya sido suscrito por un Emisor cuyas acciones objeto del Contrato de Liquidez no tengan un mercado líquido, según este se define conforme a lo dispuesto en el artículo 2.1.17 del Reglamento (UE) n.º 600/2014 del Parlamento Europeo y del Consejo, de 15 de mayo de 2014, relativo a los mercados de instrumentos financieros (MIFIR) y su normativa de desarrollo. Cuando el Contrato de Liquidez haya sido suscrito por un Emisor cuyas acciones objeto del Contrato de Liquidez no tengan un mercado líquido, de acuerdo con en el artículo 2.1.17 del Reglamento (UE) n.º 600/2014 del Parlamento Europeo y del Consejo, de 15 de mayo de 2014, relativo a los mercados de instrumentos financieros (MIFIR) y su normativa de desarrollo, y se negocien en un mercado regulado a través del sistema de contratación de fixing o en un sistema multilateral de negociación, el referido límite será el mayor entre el 25 % del promedio diario del volumen negociado en el mercado de órdenes del mercado regulado o del sistema multilateral de negociación español en las 30 sesiones anteriores y 20.000 euros en cada sesión de negociación en la que el Contrato de Liquidez opere. Excepcionalmente, este límite será también de aplicación al Contrato de Liquidez que haya sido suscrito por un Emisor cuyas acciones se negocien en un mercado regulado a través del sistema de contratación general siempre que la CNMV lo autorice, previo informe favorable de la sociedad rectora del mercado regulado correspondiente que justifique la calificación de la acción como altamente ilíquida. </p>
+      <p class="parrafo">A los efectos de determinar el referido límite, dentro del número de acciones diarias contratadas por el Intermediario Financiero se tomará en consideración el volumen diario contratado de acciones propias en el conjunto de los centros de negociación en los que se realice la operativa, incluyendo además las acciones del Emisor contratadas en las operaciones de bloques u otras operaciones bilaterales negociadas a las que se refiere el apartado 2 anterior. Por el contrario, las acciones del Emisor incluidas en las operaciones de bloques u otras operaciones bilaterales negociadas no se tomarán en consideración dentro del promedio diario en las 30 últimas sesiones, que únicamente tendrá en cuenta las acciones contratadas en el mercado de órdenes del mercado regulado o del sistema multilateral de negociación español.</p>
+      <p class="parrafo">4. Durante los periodos de subasta y muy especialmente en la de cierre, el Intermediario Financiero deberá extremar su cautela para evitar que su actuación influya de manera decisiva en la evolución de precios. Concretamente, la operativa del Intermediario Financiero en los períodos de subasta deberá cumplir con las siguientes condiciones:</p>
+      <p class="parrafo_2">…</p>
+      <p class="parrafo">b) Cuando el Intermediario Financiero mantenga órdenes de compra y venta de acciones con carácter simultáneo, deberá adoptar las medidas necesarias para evitar que se ejecuten en la subasta dichas órdenes de signo contrario.</p>
+      <p class="parrafo_2">…»</p>
+    </blockquote>
+    <p class="parrafo_2">Asimismo, se dispone que las referencias incluidas en la Circular 1/2017, de 26 de abril, de la Comisión Nacional del Mercado de Valores, sobre los contratos de liquidez, a su «Norma tercera. Condiciones para operar» deben interpretarse de conformidad con las modificaciones adoptadas por la presente Circular.</p>
+    <p class="articulo">Disposición final única. Entrada en vigor.</p>
+    <p class="parrafo">La presente Circular entrará en vigor a los tres meses de su publicación en el «Boletín Oficial del Estado».</p>
+    <p class="parrafo_2">Madrid, 27 de noviembre de 2019.–El Presidente de la Comisión Nacional del Mercado de Valores, Sebastián Albella Amigo.</p>
+  </texto>
+</documento>

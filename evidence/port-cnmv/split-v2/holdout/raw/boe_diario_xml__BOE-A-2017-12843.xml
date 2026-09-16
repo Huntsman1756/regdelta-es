@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219205601">
+  <metadatos>
+    <identificador>BOE-A-2017-12843</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1590">Corrección (errores o erratas)</rango>
+    <fecha_disposicion/>
+    <numero_oficial/>
+    <titulo>Corrección de errores de la Circular 2/2017, de 25 de octubre, de la Comisión Nacional del Mercado de Valores, por la que se modifica la Circular 2/2011, de 9 de junio, sobre información de las instituciones de inversión colectiva extranjeras inscritas en los Registros de la Comisión Nacional del Mercado de Valores.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20171108</fecha_publicacion>
+    <diario_numero>271</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>107136</pagina_inicial>
+    <pagina_final>107138</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2017/11/08/pdfs/BOE-A-2017-12843.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2017-12843</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-12843</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-25</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4519"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4930"/>
+        <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-12843</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-10-25</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4519"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4930"/>
+            <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:corrects rdf:resource="https://www.boe.es/eli/es/cir/2017/10/25/2/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corrección de errores de la Circular 2/2017, de 25 de octubre, de la Comisión Nacional del Mercado de Valores, por la que se modifica la Circular 2/2011, de 9 de junio, sobre información de las instituciones de inversión colectiva extranjeras inscritas en los Registros de la Comisión Nacional del Mercado de Valores.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-08</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/10/25/2/corrigendum/20171108/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="1186" orden="">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="4302" orden="">Instituciones de Inversión Colectiva</materia>
+      <materia codigo="4519" orden="">Inversiones extranjeras</materia>
+      <materia codigo="4930" orden="">Mercado de Valores</materia>
+    </materias>
+    <notas>
+      <nota codigo="0" orden="999">La corrección de errores de la Circular 2/2011, de 9 de junio, se establece por estar modificada por la Circular 2/2017, de 25 de octubre.</nota>
+    </notas>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2017-12800" orden="2120">
+          <palabra codigo="201">CORRECCIÓN de errores</palabra>
+          <texto>de la Circular 2/2017, de 25 de octubre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2011-10830" orden="2140">
+          <palabra codigo="203">CORRIGE errores</palabra>
+          <texto>de la Circular 2/2011, de 9 de junio</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">Advertido error en la Circular 2/2017, de 25 de octubre, de la Comisión Nacional del Mercado de Valores, por la que se modifica la Circular 2/2011, de 9 de junio, sobre información de las instituciones de inversión colectiva extranjeras inscritas en los Registros de la Comisión Nacional del Mercado de Valores, publicada en el «Boletín Oficial del Estado» número 270, de 7 de noviembre de 2017, se procede a efectuar la oportuna rectificación:</p>
+    <p class="parrafo_2">A continuación de la página 106489 deben incorporarse dos páginas más, en las que se reflejan dos cuadros del «Estado A01-DATOS ESTADÍSTICOS DE IIC EXTRANJERAS COMERCIALIZADAS EN ESPAÑA».</p>
+    <p class="imagen">
+      <img alt="1" class="frame-1" src="/datos/imagenes/disp/2017/271/12843_4722.png" width="2126" height="2776"/>
+    </p>
+    <p class="imagen">
+      <img alt="2" class="frame-1" src="/datos/imagenes/disp/2017/271/12843_4800.png" width="2126" height="2776"/>
+    </p>
+  </texto>
+</documento>

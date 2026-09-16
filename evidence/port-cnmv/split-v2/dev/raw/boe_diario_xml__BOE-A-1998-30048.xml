@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251218182602">
+  <metadatos>
+    <identificador>BOE-A-1998-30048</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>19981216</fecha_disposicion>
+    <numero_oficial>7/1998</numero_oficial>
+    <titulo>Circular 7/1998, de 16 de diciembre, de la Comisión Nacional del Mercado de Valores, por la que se establecen modificaciones y adaptaciones derivadas de la introducción del euro en determinadas Circulares relativas a los mercados secundarios de valores y sociedades rectoras, sociedades y agencias de valores, instituciones de inversión colectiva, comunicación de participaciones significativas e información pública periódica de entidades con valores admitidos a negociación en bolsas de valores.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>19981230</fecha_publicacion>
+    <diario_numero>312</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>44124</pagina_inicial>
+    <pagina_final>44132</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/1998/12/30/pdfs/A44124-44132.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>19990101</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/1998/12/16/7</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/1998/12/16/7">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-30048</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-12-16</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/140"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/521"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3229"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3495"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6683"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6694"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/1998/12/16/7/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-30048</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-12-16</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/140"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/521"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3229"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3495"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6683"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6694"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/1998/12/16/7"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/1998/12/16/7/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 7/1998, de 16 de diciembre, de la Comisión Nacional del Mercado de Valores, por la que se establecen modificaciones y adaptaciones derivadas de la introducción del euro en determinadas Circulares relativas a los mercados secundarios de valores y sociedades rectoras, sociedades y agencias de valores, instituciones de inversión colectiva, comunicación de participaciones significativas e información pública periódica de entidades con valores admitidos a negociación en bolsas de valores.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-12-30</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/1998/12/16/7/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1998/12/16/7/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1998/12/16/7/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1998/12/16/7/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1998/12/16/7/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1998/12/16/7/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1998/12/16/7/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="140" orden="1">Agencias de valores</materia>
+      <materia codigo="521" orden="2">Bolsas de Valores</materia>
+      <materia codigo="1186" orden="3">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="1627" orden="4">Contabilidad</materia>
+      <materia codigo="3229" orden="5">Entidades aseguradoras</materia>
+      <materia codigo="3233" orden="6">Entidades de crédito</materia>
+      <materia codigo="3495" orden="7">Euro</materia>
+      <materia codigo="4302" orden="8">Instituciones de Inversión Colectiva</materia>
+      <materia codigo="6683" orden="9">Sociedades de Cartera</materia>
+      <materia codigo="6694" orden="10">Sociedades de Valores</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-1998-22884" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>anexo I de la Circular 4/1998, de 22 de septiembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1996-17763" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>anexo I de la Circular 2/1996, de 24 de julio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1995-16116" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>anexo de la Circular 1/1995, de 14 de junio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1994-28725" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>norma 7 y el anexo 1 de la Circular 4/1994, de 14 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1994-14329" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>anexos I y II de la Circular 3/1994, de 8 de junio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1994-1416" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>norma 5 y el anexo de la Circular 3/1993, de 29 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1993-7657" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>anexo de la Circular 2/1993, de 3 de marzo</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1993-7531" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>normas 3, 8, 11 y el anexo de la Circular 1/1993, de 3 de marzo</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1993-3" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>normas 2, 13 y el anexo de la Circular 6/1992, de 30 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1992-24490" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>anexo I de la Circular 5/1992, de 28 de octubre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1991-30718" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>nnorma 1 de la Circular 3/1991, de 18 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1991-10346" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>anexos I y II de la Circular 2/1991, de 24 de abril</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1991-2561" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>anexos 1 y 2 de la Circular 1/1991, de 23 de enero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1991-232" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>normas 5 y 9 de la Circular 7/1990, de 27 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1990-29496" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>nnormas 1 a 5 y el anexo 1 de la Circular 5/1990, de 28 de noviembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1990-3203" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>normas 7, 9, 13, 17 y los anexos 1 y 2 de la Circular 1/1990, de 31 de enero</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas/>
+  </analisis>
+  <texto>
+    <p class="parrafo">La incorporación de España a la tercera fase de la Unión Monetaria Europea y la consiguiente sustitución de la peseta y de otras monedas europeas por el euro aconseja realizar modificaciones y adaptaciones en determinadas normas contenidas en un buen número de Circulares emitidas por la Comisión Nacional del Mercado de Valores, con el fin de sustituir las referencias a la peseta por el euro y dar cobertura técnica a las cuestiones afectadas por la adopción de la moneda única.</p>
+    <p class="parrafo">La presente Circular habilita un nuevo campo identificativo de moneda en el fichero de desgloses del Registro de Operaciones, establece criterios específicos para la presentación de estados financieros y datos estadísticos y determina los importes equivalentes en euros de las magnitudes expresadas en pesetas, entre otras, las operaciones bursátiles denominadas «posiciones vinculantes excepcionales», los tramos de clasificación de los importes efectivos de carteras gestionadas por sociedades y agencias de valores y sociedades gestoras de carteras y los intervalos de inversión de las participaciones de los socios y partícipes de las instituciones de inversión colectiva.</p>
+    <p class="parrafo">Adicionalmente, se flexibilizan los requisitos exigidos a las sociedades y agencias de valores en relación con el registro en el inmovilizado inmaterial de los importes satisfechos a terceros y los trabajos realizados en aplicaciones informáticas, acotando su período de amortización a un plazo máximo de tres años. Igualmente, con el objetivo de armonizar las normas de consolidación aplicables a dichas entidades, se han introducido determinadas modificaciones en el tratamiento contable de las diferencias de conversión que puedan originarse en la consolidación de sociedades con estados financieros expresados en monedas extranjeras.</p>
+    <p class="parrafo">En concordancia con lo previsto en el documento publicado por el Comité de Contacto de las Directivas Contables de la Comunidad Europea y en el informe del Instituto de Contabilidad y Auditoría de Cuentas, elaborado sobre la base de las conclusiones del Grupo de Trabajo encargado de analizar los aspectos contables derivados de introducción del euro, se establecen criterios para el tratamiento de las operaciones denominadas en monedas de Estados Miembros Participantes en la Unión Monetaria Europea, para el reconocimiento de las diferencias de cambio y, en general, para la consideración de los efectos producidos por el euro en las entidades supervisadas por la Comisión Nacional del Mercado de Valores.</p>
+    <p class="parrafo">Finalmente, en coherencia con el compromiso asumido por la Comisión Nacional del Mercado de Valores de promover y facilitar la adaptación a la moneda única y de estar preparada desde el inicio de la fase transitoria para realizar las funciones de supervisión y el tratamiento de la información recibida en base al euro, se ha previsto que las entidades puedan optar por remitir a la Comisión Nacional la información exigida por la normativa vigente, de carácter público o reservado, relativa al período transitorio que media entre el 1 de enero del año 1999 y el 31 de diciembre del año 2001, expresando los importes monetarios correspondientes indistintamente en las unidades de cuenta peseta o euro.</p>
+    <p class="parrafo">Por todo ello, el Consejo de la Comisión Nacional del Mercado de Valores, en su reunión del día 16 de diciembre de 1998, acordó lo siguiente:</p>
+    <p class="centro_negrita">NORMA PRIMERA. MODIFICACIONES A LAS CIRCULARES RELATIVAS A LOS MERCADOS SECUNDARIOS DE VALORES QUE SE SEÑALAN A CONTINUACIÓN</p>
+    <p class="centro_negrita"><strong>I. Modificaciones a la Circular 1/1990, de 31 de enero, de la Comisión Nacional del Mercado de Valores, sobre normas contables, modelos reservados y públicos de los estados financieros, cuentas anuales de carácter público y auditoría de las s</strong>ociedades rectoras de las bolsas de valores</p>
+    <p class="centro_cursiva">Norma 7.ª Criterios generales de valoración</p>
+    <p class="parrafo_2">Al final del punto 1. Inmovilizado, se añade el siguiente párrafo:</p>
+    <p class="sangrado_2">«Los importes contabilizados como “Aplicaciones informáticas” deberán amortizarse durante el período previsto de utilización y nunca en un plazo superior a tres años, contados desde su fecha de terminación o puesta en funcionamiento. La amortización será lineal o decreciente.»</p>
+    <p class="centro_cursiva">Norma 9.ª Clases de estados financieros de carácter reservado</p>
+    <p class="parrafo_2">La expresión «millones de pesetas redondeados» que aparece recogida en el último párrafo de esta norma se sustituye por «miles de euros redondeados».</p>
+    <p class="centro_cursiva">Norma 13.ª Contenido</p>
+    <p class="parrafo_2">Se da una nueva redacción a los puntos 3 y 4:</p>
+    <p class="sangrado_2">«3. Los importes de cada una de las rúbricas de los modelos públicos de estados financieros se presentarán en miles de euros redondeados.»</p>
+    <p class="sangrado">«4. En las cuentas anuales de carácter público deberán figurar, además de las cifras del ejercicio que se cierra, las correspondientes al ejercicio anterior.»</p>
+    <p class="centro_cursiva">Norma 17.ª Remisión y plazos</p>
+    <p class="parrafo_2">Se elimina la referencia «(División de Sujetos del Mercado)», mencionada cuatro veces en esta norma.</p>
+    <p class="anexo">
+      <em>Anexos 1 y 2</em>
+    </p>
+    <p class="parrafo_2">La expresión «(Importe en millones de pesetas)» que aparece recogida en los modelos de Balance y Cuenta de Pérdidas y Ganancias Reservados (Estados M.1 y M.2 del anexo 1) y Públicos (Estados P.1 y P.2 del anexo 2) se sustituye por (Importe en miles de euros).</p>
+    <p class="centro_negrita"><strong>II.</strong> Modificaciones a la Circular 3/1991, de 18 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre operaciones bursátiles especiales</p>
+    <p class="centro_cursiva">Norma 1.ª Criterios para la determinación de posiciones vinculantes excepcionales</p>
+    <p class="parrafo_2">Se da una nueva redacción a los dos guiones que se incluyen a continuación del primer párrafo:</p>
+    <p class="sangrado_2">«Para valores negociables en el sistema de viva voz en corros: 36.000 euros de volumen efectivo.»</p>
+    <p class="sangrado">«Para valores negociados en el Sistema de Interconexión Bursátil: 60.000 euros de volumen efectivo. En este caso, será necesario, además, que la posición sea superior al 5 por 100 de la media diaria de contratación del último trimestre natural del valor de que se trate.»</p>
+    <p class="centro_negrita">NORMA SEGUNDA. MODIFICACIONES A LAS CIRCULARES RELATIVAS A LAS SOCIEDADES Y AGENCIAS DE VALORES QUE SE SEÑALAN A CONTINUACIÓN</p>
+    <p class="centro_negrita"><strong>I. Modifi</strong>caciones a la Circular 5/1990, de 28 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, modelos reservados y públicos de los estados financieros y cuentas anuales de carácter público de las sociedades y agencias de valores</p>
+    <p class="centro_redonda">Norma 1.ª</p>
+    <p class="parrafo_2">Se da una nueva redacción al punto 4, del apartado 5.</p>
+    <p class="parrafo">Forma de presentación de la información:</p>
+    <p class="sangrado_2">«4. En los estados a rendir a la CNMV, las cantidades se expresarán en miles de euros redondeados, salvo cuando se indique expresamente otra cosa.»</p>
+    <p class="centro_redonda">Norma 2.ª</p>
+    <p class="parrafo_2">– Los párrafos tercero y sexto de la letra d) Activos inmateriales, ficticios y pérdidas, del número 1 del apartado 4. Normas de valoración y criterios contables, se sustituyen, respectivamente, por los dos siguientes:</p>
+    <p class="sangrado_2">(...)</p>
+    <p class="sangrado">«La cuenta ‘‘Aplicaciones informáticas’’ incluirá los importes satisfechos por la adquisición de la propiedad o del derecho al uso de sistemas y programas informáticos, incluso los elaborados por la propia entidad siempre que se puedan justificar de manera adecuada, cuya utilidad previsible se extienda a varios ejercicios y su importe unitario supere los 30.000 euros o el 10 por 100 de los gastos generales del ejercicio anterior. Las aplicaciones informáticas se amortizarán en el plazo máximo de tres años de forma decreciente o al menos lineal.»</p>
+    <p class="sangrado">(...)</p>
+    <p class="sangrado">«El inmovilizado inmaterial y ficticio, excepto las aplicaciones informáticas y las adquisiciones a que hace referencia el párrafo anterior, se amortizará a la mayor brevedad posible y siempre dentro del plazo máximo de cinco años, de forma decreciente o al menos lineal.»</p>
+    <p class="parrafo_2">– En el apartado 6. Criterios contables generales en moneda extranjera, se elimina la expresión «y en pesetas convertibles» del punto 2 y en el punto 3 se sustituye la expresión «contravalor en pesetas» por «contravalor en euros».</p>
+    <p class="centro_redonda">Norma 3.ª</p>
+    <p class="parrafo_2">El tercer guión del número 4 del apartado 12. Operaciones de futuros financieros, convenios de tipo de interés futuros, permutas financieras y opciones, se sustituye por la siguiente expresión:</p>
+    <p class="sangrado_2">«Opciones sobre divisas: contravalor en euros de las divisas comprometidas.»</p>
+    <p class="centro_redonda">Norma 4.ª</p>
+    <p class="parrafo_2">Se da una nueva redacción a los párrafos primero y tercero del punto 1 del apartado 1. Estados financieros y estadísticos de carácter reservado. Clases y plazos de rendición:</p>
+    <p class="sangrado_2">«1. Las sociedades y agencias de valores deberán presentar a la CNMV la información que a continuación se detalla, referida al último día del período señalado y cuyos modelos figuran en el anexo I:»</p>
+    <p class="sangrado">(...)</p>
+    <p class="sangrado">«La documentación antes mencionada, así como los modelos públicos establecidos en la siguiente norma, se presentarán en miles de euros redondeados, salvo cuando se indique expresamente otra cosa, y deberán estar en poder de la CNMV no más tarde del día 20 del mes siguiente al que correspondan o el inmediato hábil posterior.»</p>
+    <p class="centro_redonda">Norma 5.ª</p>
+    <p class="parrafo_2">– Se da una nueva redacción al punto 4 del apartado 1. Disposiciones generales:</p>
+    <p class="sangrado_2">«4. Cuando las cuentas anuales se formulen o expresen en la unidad de cuenta euro, los importes se presentarán en miles de euros redondeados.»</p>
+    <p class="parrafo_2">– Se elimina la expresión «(División de Sujetos del Mercado)» del primer párrafo del apartado 2. Rendición de cuentas anuales.</p>
+    <p class="anexo">
+      <em>Anexo 1</em>
+    </p>
+    <p class="parrafo_2">– En el Balance reservado (Estado M.1), Cuenta de Pérdidas y Ganancias reservada (Estado M.2), aplicación del beneficio del ejercicio (Estado A.1) y en el resto de los modelos de estados reservados que figuran en el anexo 1, las referencias «(Importes en millones de pesetas)» y «Millones de pesetas» se sustituyen por «(Importes en miles de euros)» y «Miles de euros», respectivamente.</p>
+    <p class="parrafo">– El apartado F) Carteras gestionadas del Estado M.4. Informaciones complementarias (detalle del movimiento de operaciones en el mes), del anexo 1, se sustituye por el siguiente:</p>
+    <p class="parrafo_2">F) Carteras gestionadas:</p>
+    <table class="tabla">
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Importe efectivo entre</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Número de contratos</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Total</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">0-60 miles de euros</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">60-300 miles de euros</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">300-600 miles de euros</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">600-1.500 miles de euros</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">1.500-6.000 miles de euros</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Más de 6.000 miles de euros</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Total</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+    </table>
+    <p class="centro_negrita"><strong>II. </strong>Modificaciones a la Circular 6/1992, de 30 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre exigencias de recursos propios de sociedades y agencias de valores y sus grupos consolidables</p>
+    <p class="centro_cursiva">Norma 2.ª Composición de los recursos propios en la definición general de las sociedades y agencias de valores</p>
+    <p class="parrafo_2">Se da una nueva redacción al apartado 2:</p>
+    <p class="sangrado_2">«2. Se deducirán de los recursos propios las financiaciones otorgadas al personal de la entidad, que tengan por objeto la adquisición de sus acciones, en la parte que su importe unitario supere 3.000 euros. Cuando el total de dichas financiaciones supere el 10 por 100 del capital social de la entidad, el exceso sobre esta cifra se deducirá igualmente de los recursos propios.»</p>
+    <p class="centro_cursiva">Norma 13.ª Exigencias de recursos propios en relación con el riesgo de tipo de cambio</p>
+    <p class="parrafo_2">Se da una nueva redacción al apartado 3:</p>
+    <p class="sangrado_2">«3. La posición neta en cada divisa se convertirá a euros, utilizando el tipo de cambio oficial a la fecha de referencia o, en su defecto, el tipo de cambio más representativo que se publique en el mercado, teniendo siempre presente el criterio de prudencia valorativa. Cuando el Banco Central Europeo publique tipos de cambio del euro respecto de otras monedas se tomarán éstos.»</p>
+    <p class="anexo">
+      <em>Anexo</em>
+    </p>
+    <p class="parrafo_2">– En los estados RI8. Riesgo por tipo de cambio (Individual) y RC8. Riesgo por tipo de cambio (Consolidado) la expresión «Contravalor en pesetas» se sustituye por «Contravalor en euros».</p>
+    <p class="centro_negrita"><strong>III. </strong>Modificaciones a la Circular 1/1993, de 3 de marzo, de la Comisión Nacional del Mercado de Valores, sobre normas contables de consolidación aplicables a los grupos y subgrupos de sociedades y agencias de valores</p>
+    <p class="centro_cursiva">Norma 3.ª Disposiciones generales</p>
+    <p class="parrafo_2">Se da una nueva redacción al primer párrafo del apartado 4:</p>
+    <p class="sangrado_2">«4. Las cuentas anuales consolidadas que se formulen o expresen en euros y la información periódica a suministrar a la CNMV a que se refiere la norma 4.ª, confeccionarán en miles de euros redondeados, utilizando la estructura de modelos de cuentas que se recogen en el anexo de esta Circular.»</p>
+    <p class="centro_cursiva">Norma 8.ª Homogeneización previa</p>
+    <p class="parrafo_2">En el apartado 5 se sustituye la expresión «pesetas» por «euros».</p>
+    <p class="centro_cursiva">Norma 11.ª Otras normas aplicables</p>
+    <p class="parrafo_2">– Al final de la letra d) del apartado 1 se elimina la expresión: «si su signo fuese deudor deberá dotarse la oportuna provisión contra la cuenta de pérdidas y ganancias consolidadas».</p>
+    <p class="parrafo">– En la letra a) del apartado 3 se sustituye «pesetas» por «euros», y se da una nueva redacción a la letra e) de dicho apartado:</p>
+    <p class="sangrado_2">«e) Las diferencias positivas o negativas que surjan como consecuencia de la aplicación de este método se imputarán, como resultados de conversión, a la cuenta de pérdidas y ganancias consolidadas del ejercicio.»</p>
+    <p class="anexo">
+      <em>Anexo</em>
+    </p>
+    <p class="parrafo_2">En el Estado CT2 Cuenta de Pérdidas y Ganancias Consolidada, la actual rúbrica denominada «16 Dotación provisión diferencias de conversión de signo deudor», se sustituye por la siguiente «16 ± Resultados de conversión».</p>
+    <p class="centro_negrita"><strong>IV. </strong>Modificaciones a la Circular 3/1993, de 29 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre Registro de Operaciones y Archivo de Justificantes de Órdenes</p>
+    <p class="centro_cursiva">Norma 5.ª Contenido de los ficheros</p>
+    <p class="parrafo_2">En el apartado 3. Fichero de desgloses, se añade un nuevo concepto y se numera el concepto 6. o existente como 7.º:</p>
+    <p class="sangrado_2">«6.º Moneda. Se indicará tipo de moneda.»</p>
+    <p class="sangrado">«7.º Entidad liquidadora. Se indicará ésta.»</p>
+    <p class="anexo">
+      <em>Anexo</em>
+    </p>
+    <p class="parrafo_2">El cuadro actual de descripción del «Fichero de desgloses. DESGLOS» se sustituye por el que figura en el anexo 1 de esta Circular.</p>
+    <p class="centro_negrita"><strong>V. </strong>Modificaciones a la Circular 1/1995, de 14 de junio, de la Comisión Nacional del Mercado de Valores, sobre normas contables y obligaciones adicionales de registro e información de quebrantos de negociación de determinadas agencias de valores</p>
+    <p class="anexo">
+      <em>Anexo</em>
+    </p>
+    <p class="parrafo_2">En los modelos de estados complementarios de agencias de valores, Q01. Comunicación mensual de los quebrantos de negociación y Q11. Detalle mensual de los quebrantos de negociación, se sustituye la expresión «(Importes en millones de pesetas)» por «(Importes en euros)».</p>
+    <p class="centro_negrita"><strong>NORMA TERCERA. </strong>MODIFICACIONES A LAS CIRCULARES RELATIVAS A LAS INSTITUCIONES DE INVERSIÓN COLECTIVA QUE SE SEÑALAN A CONTINUACIÓN</p>
+    <p class="centro_negrita"><strong>I.</strong> Modificaciones a la Circular 7/1990, de 27 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables y estados financieros reservados de instituciones de inversión colectiva</p>
+    <p class="centro_cursiva">Norma 5.ª Forma de presentación de la información</p>
+    <p class="parrafo_2">Se da una nueva redacción al punto 4:</p>
+    <p class="sangrado_2">«4. En los estados a rendir a la CNMV, las cantidades se expresarán en miles de euros redondeados, salvo cuando se indique expresamente otra cosa.»</p>
+    <p class="centro_cursiva">Norma 9.ª Criterios generales de valoración</p>
+    <p class="parrafo_2">En el apartado IV, Criterios generales para operaciones en moneda extranjera, los párrafos segundo y tercero se sustituyen, respectivamente, por los dos siguientes:</p>
+    <p class="sangrado_2">«Internamente las operaciones se contabilizarán en unidades monetarias de cada divisa, vertiéndose al balance por su contravalor en euros.»</p>
+    <p class="sangrado">«Los saldos activos y pasivos en moneda extranjera figurarán en el balance al tipo de cambio oficial de la fecha del mismo o, en su defecto, del último día hábil anterior a esa fecha. Cuando el Banco Central Europeo publique tipos de cambio del euro respecto de otras monedas se tomarán éstos o, en su defecto, los más representativos que se publiquen en el mercado, teniendo siempre presente el criterio de prudencia valorativa. Las diferencias que se vayan produciendo tanto al alza como a la baja respecto de cambio histórico:»</p>
+    <p class="centro_negrita"><strong>II. </strong>Modificaciones a la Circular 1/1991, de 23 de enero, de la Comisión Nacional del Mercado de Valores, sobre contenido de los informes trimestrales de las instituciones de inversión colectiva a sus socios y partícipes</p>
+    <p class="centro_cursiva">ANEXO 1. (Según la redacción dada por la Circular 3/1997, de 29 de julio, de la Comisión Nacional del Mercado de Valores, con las particularidades introducidas por la Circular 4/1997, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores)</p>
+    <p class="parrafo_2">En todos los apartados incluidos dentro del título «2) Datos económicos» del «Informe trimestral de los fondos de inversión», así como en las notas aclaratorias a su contenido, las referencias a «millones de pesetas», «pesetas» y «distinta de la peseta» se sustituyen por «miles de euros», «euros» y «distinta del euro», respectivamente.</p>
+    <p class="centro_cursiva">ANEXO 2. (Según la redacción dada por la Circular 3/1997, de 29 de julio, de la Comisión Nacional del Mercado de Valores, con las particularidades introducidas por la Circular 4/1997, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores)</p>
+    <p class="parrafo_2">En todos los apartados incluidos dentro del título «2) Datos económicos» del «Informe trimestral de las sociedades de inversión», así como en las notas aclaratorias a su contenido, las referencias a «millones de pesetas», «pesetas» y «distinta de la peseta» se sustituyen por «miles de euros», «euros» y «distinta del euro», respectivamente.</p>
+    <p class="centro_negrita"><strong>III. </strong>Modificaciones a la Circular 5/1992, de 28 de octubre, de la Comisión Nacional del Mercado de Valores, sobre normas contables y estados financieros reservados de sociedades gestoras de instituciones de inversión colectiva y sociedades gestoras de carteras</p>
+    <p class="anexo">Anexo I</p>
+    <p class="parrafo_2">En los modelos G01. Balance Reservado. G02. Cuenta de Pérdidas y Ganancias reservada demás estados reservados que se detallan en el anexo I, las referencias «En millones de pesetas» se sustituyen por «En miles de euros».</p>
+    <p class="parrafo">Los tramos en millones de pesetas que se detallan en el apartado C) Otras carteras administradas a valor efectivo, patrimonio asesorado y comisiones generadas (caso de SGC) del estado G04. Estado de gestión (página 2/3), se sustituyen por los siguientes:</p>
+    <table class="tabla">
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Tramos</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">0-60</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Miles de euros.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">60-300</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Miles de euros.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">300-600</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Miles de euros.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">600-1.500</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Miles de euros.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">1.500-6.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Miles de euros.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Más de 6.000</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Miles de euros.</p>
+        </td>
+      </tr>
+    </table>
+    <p class="centro_negrita"><strong>IV. </strong>Modificaciones a la Circular 2/1993, de 3 de marzo, de la Comisión Nacional del Mercado de Valores, sobre información de las instituciones de inversión colectiva extranjeras que hayan registrado en la Comisión Nacional del Mercado de Valores el folleto de oferta de sus participaciones</p>
+    <p class="anexo">Anexo</p>
+    <p class="parrafo_2">En los modelos reservados Estado A01.</p>
+    <p class="parrafo">Comercialización de IIC extranjera, y Estado A02. Estado de información, que se detallan en el anexo, las referencias «(ptas.)», «Importes en pesetas», «(en ptas.)», «(en miles)» y «miles de pesetas» se sustituyen, respectivamente, por «(euros)», «Importes en euros», «(en euros)», «(en euros)» y «en euros».</p>
+    <p class="parrafo">En el apartado Datos relativos a la comercialización en España del Estado A01. Comercialización de IIC extranjera, los tramos de la columna «Intervalo de inversión» se sustituyen por los siguientes:</p>
+    <table class="tabla">
+      <tr>
+        <td colspan="2">
+          <p class="cabeza_tabla">Intervalo de inversión</p>
+          <p class="cabeza_tabla">(En euros)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Hasta</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">1.500,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">1.500,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">3.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">3.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">6.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">6.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">12.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">12.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">30.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">30.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">60.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">60.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">300.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">300.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">1.000.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Más de</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">1.000.000,00</p>
+        </td>
+      </tr>
+    </table>
+    <p class="centro_negrita"><strong>V. </strong>Modificaciones a la Circular 4/1994, de 14 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, obligaciones de información, determinación del valor liquidativo y coeficientes de inversión y operativos y actuaciones en las tasaciones de inmuebles de las Sociedades y Fondos de Inversión Inmobiliaria</p>
+    <p class="centro_cursiva"><strong>Norma 7.ª </strong>Diferencias de cambio de la moneda oficial del país donde radique el inmueble</p>
+    <p class="parrafo_2">En el primer párrafo de esta norma, la expresión «contravalor en pesetas» se sustituye por «contravalor en euros».</p>
+    <p class="anexo">Anexo 1</p>
+    <p class="parrafo_2">En los modelos I01. Balance Reservado, I02. Cuenta de Pérdidas y Ganancias Reservada y demás estados reservados de las Sociedades y Fondos de Inversión Inmobiliaria que se detallan en el anexo I, las referencias «en millones de pesetas» «(en pts.)» y «(en millones)» se sustituyen, respectivamente, por «en miles de euros» «(en euros)» y «(en miles de euros)».</p>
+    <p class="parrafo">En el apartado C) partícipes y participaciones, accionistas y acciones en circulación, del Estado I06 Estado de Información Auxiliar, los tramos de la columna «Intervalo de inversión» se sustituyen por los siguientes:</p>
+    <table class="tabla">
+      <tr>
+        <td colspan="2">
+          <p class="cabeza_tabla">Intervalo de inversión</p>
+          <p class="cabeza_tabla">(En euros)</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Hasta</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">6.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">6.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">30.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">30.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">60.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">60.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">150.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">150.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">300.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">300.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">600.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">600.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">1.200.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_der">1.200.000,01</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">2.400.000,00</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">Más de</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_der">2.400.000,00</p>
+        </td>
+      </tr>
+    </table>
+    <p class="centro_negrita"><strong>NORMA CUARTA. </strong>MODIFICACIONES A LAS CIRCULARES RELATIVAS A LA COMUNICACIÓN DE PARTICIPACIONES SIGNIFICATIVAS Y A LA INFORMACIÓN PÚBLICA PERIÓDICA DE LAS ENTIDADES EMISORAS DE VALORES ADMITIDOS A NEGOCIACIÓN EN BOLSAS DE VALORES</p>
+    <p class="centro_negrita"><strong>I. </strong>Modificaciones a la Circular 2/1991, de 24 de abril, de la Comisión Nacional del Mercado de Valores, por la que se aprueban los modelos de comunicaciones de participaciones en sociedades cotizadas y de adquisición por éstas de acciones propias</p>
+    <p class="anexo">Anexos I y II</p>
+    <p class="parrafo_2">En el bloque Detalle Operaciones a Comunicar (5) de la hoja número 1 del modelo de Comunicación de Participaciones Significativas en Sociedades Cotizadas que se incluye en el anexo I, la denominación «Nominal (miles de ptas.)» de las columnas que se agrupan dentro de los antetítulos Acciones Directas y Acciones Indirectas se sustituye, respectivamente, por «Nominal (miles de euros)».</p>
+    <p class="parrafo">En el bloque Detalle Operaciones a Comunicar (5) de la hoja número 1 del modelo de Comunicación de Adquisiciones de Acciones Propias que se incluye en el anexo II, la denominación «Nominal (miles de ptas.)» de las columnas que se agrupan dentro de los antetítulos Acciones Directas y Acciones Indirectas se sustituye, respectivamente, por «Nominal (miles de euros)».</p>
+    <p class="centro_negrita"><strong>II. </strong>Modificaciones a la Circular 3/1994, de 8 de junio, de la Comisión Nacional del Mercado de Valores, por la que se modifican los modelos de información pública periódica de las entidades emisoras de valores admitidos a negociación en bolsas de valores</p>
+    <p class="anexo">Anexos I y II</p>
+    <p class="parrafo_2">En los estados financieros IV. Balance de situación de la sociedad individual y del grupo consolidado, V. Resultados individuales de la sociedad y del grupo consolidado y IX. Dividendos distribuidos durante el período de la información pública periódica de carácter semestral correspondiente a los modelos sociedades de cartera, y general, que se detallan en el anexo I, así como en el A) Avance trimestral de resultados de la información pública periódica de carácter trimestral de todos los modelos que se detallan en el anexo II, las referencias a «Uds.: Millones de pesetas», «pesetas por acción» e «importe (millones de pesetas)» se sustituyen, respectivamente, por «Uds.: Miles de euros», «euros por acción» e «importe (miles de euros)».</p>
+    <p class="parrafo">En las instrucciones para la cumplimentación de los Informes Semestrales y Trimestrales, que se recogen al final de los modelos incluidos en los anexos I y II, la expresión «Los datos numéricos solicitados, salvo indicación en contrario, deberán venir expresados en millones de pesetas, sin decimales, efectuándose los cuadres por redondeo», se sustituye por la siguiente «Los importes monetarios deberán venir expresados, salvo indicación en contrario, en miles de euros redondeados».</p>
+    <p class="centro_negrita"><strong>III. </strong>Modificaciones a la Circular 2/1996, de 24 de julio, de la Comisión Nacional del Mercado de Valores, por la que se modifican los modelos de información pública semestral de las entidades de crédito con valores admitidos a negociación en bolsas de valores</p>
+    <p class="anexo">Anexo I</p>
+    <p class="parrafo_2">En los estados financieros IV. Balance de situación de la sociedad individual y del grupo consolidado, V. Resultados individuales de la sociedad y del grupo consolidado y IX. Dividendos distribuidos durante el período de la información pública periódica de carácter semestral correspondiente a los modelos de entidades de crédito que se detallan en el anexo I, las referencias a «Uds.: Millones de pesetas», «pesetas por acción» e «importe (millones de pesetas)», se sustituyen, respectivamente, por «Uds.: Miles de euros», «euros por acción» e «importe (miles de euros)».</p>
+    <p class="parrafo">En las instrucciones para la cumplimentación de los Informes Semestrales, que se recogen al final de los modelos incluidos en el anexo I, la expresión «Los datos numéricos solicitados, salvo indicación en contrario, deberán venir expresados en millones de pesetas, sin decimales, efectuándose los cuadres por redondeo», se sustituye por la siguiente «Los importes monetarios deberán venir expresados, salvo indicación en contrario, en miles de euros redondeados.</p>
+    <p class="centro_negrita"><strong>IV. </strong>Modificaciones a la Circular 4/1998, de 22 de septiembre, de la Comisión Nacional del Mercado de Valores, por la que se modifican los modelos de información pública periódica semestral de las entidades de seguros, con valores admitidos a negociación en bolsas de valores</p>
+    <p class="anexo">Anexo I</p>
+    <p class="parrafo_2">En los estados financieros IV. Balance de situación de la sociedad individual y del grupo consolidado, V. Resultados individuales de la sociedad y del grupo consolidado y IX. Dividendos distribuidos durante el período de la información pública periódica de carácter semestral correspondiente a los modelos de entidades de seguros que se detallan en el anexo I, las referencias a «Uds.: Millones de pesetas», «pesetas por acción» e «importe (millones de pesetas)» se sustituyen, respectivamente, por «Uds.: Miles de euros», «euros por acción» e «importe (miles de euros)».</p>
+    <p class="parrafo">En las instrucciones para la cumplimentación de los Informes Semestrales, que se recogen al final de los modelos incluidos en los anexos I, la expresión «Los datos numéricos solicitados, salvo indicación en contrario, deberán venir expresados en millones de pesetas, sin decimales, efectuándose los cuadres por redondeo», se sustituye por la siguiente «Los importes monetarios deberán venir expresados, salvo indicación en contrario, en miles de euros redondeados».</p>
+    <p class="centro_cursiva">Normas adicionales</p>
+    <p class="articulo">Primera.</p>
+    <p class="parrafo_2">A efectos de lo previsto en esta Circular, las Sociedades Rectoras de las Bolsas de Valores, la Sociedad de Bolsas, el Servicio de Compensación y Liquidación de Valores, las Sociedades Rectoras de Mercados Oficiales de Futuros y Opciones, las Sociedades y Agencias de Valores, las Instituciones de Inversión Colectiva, los Fondos de Titulización, las Sociedades Gestoras de Instituciones de Inversión Colectiva y las Sociedades Gestoras de Carteras, se denominarán conjuntamente «Entidades Supervisadas».</p>
+    <p class="articulo">Segunda.</p>
+    <p class="parrafo_2">Cuando en los modelos de estados financieros reservados o públicos, y en cualquier otra información de tipo estadístico que se remita a la Comisión Nacional del Mercado de Valores, se mencione de forma específica que las cantidades deberán expresarse en «euros», se entenderá que tal indicación se refiere a su expresión completa en la nueva moneda, es decir, en euros con céntimos.</p>
+    <p class="articulo">Tercera.</p>
+    <p class="parrafo_2">En relación con la introducción del euro y el tratamiento contable de las operaciones en moneda extranjera de las Entidades Supervisadas, se establecen los siguientes criterios:</p>
+    <p class="parrafo_2">1. Por moneda extranjera se entiende cualquiera que sea diferente del euro y de las unidades monetarias nacionales de los Estados miembros participantes en la Unión Monetaria Europea que hayan adoptado el euro como moneda oficial, en adelante «Estados Participantes».</p>
+    <p class="parrafo">2. Las posiciones denominadas en unidades monetarias nacionales de Estados Participantes se convertirán aplicando los tipos de conversión adoptados irrevocablemente por el Consejo Europeo con arreglo a lo dispuesto en la primera frase del apartado 4 del artículo 109 L del Tratado de la Comunidad Europea, en adelante «tipos de conversión».</p>
+    <p class="parrafo_2">a) Las diferencias de cambio procedentes de elementos patrimoniales (activos o pasivos) y operaciones en monedas de Estados Participantes, se entenderán realizadas al 31 de diciembre de 1998 y deberán reconocerse en la cuenta de pérdidas y ganancias del ejercicio 1998.</p>
+    <p class="parrafo">b) Los contratos u operaciones sobre riesgo de tipo de cambio (futuros, opciones, permutas financieras y otros) entre unidades monetarias de los Estados Participantes se darán de baja de las cuentas de riesgo y compromiso. Las diferencias de cambio producidas por tales operaciones, cuya contrapartida represente derechos de cobro u obligaciones de pago, se registrarán según su signo en cuentas de activo o de pasivo.</p>
+    <p class="parrafo_2">En operaciones de inversión, el valor actual de estos derechos u obligaciones se imputará a la cuenta de pérdidas y ganancias del ejercicio 1998, periodificándose el importe restante de acuerdo con el criterio financiero empleado para su actualización. En operaciones de cobertura, el importe de dichas diferencias se imputará a la cuenta de pérdidas y ganancias con el mismo criterio temporal que los ingresos o gastos derivados de la operación principal cubierta.</p>
+    <p class="parrafo">3. A efectos de lo establecido en las normas 7.ª , 13.ª y 16.ª de la Circular 6/1992, de 30 de diciembre, sobre exigencia de recursos propios de sociedades y agencias de valores y sus grupos consolidables, las posiciones denominadas en euros y en unidades monetarias nacionales de los Estados Participantes se entenderán denominadas en la misma moneda, se convertirán aplicando los tipos de conversión y se incluirán junto con el euro en los modelos de estados reservados que se detallan en el anexo de la mencionada Circular.</p>
+    <p class="parrafo">4. A efectos de su consolidación, las cuentas anuales de entidades extranjeras expresadas en unidades monetarias de Estados Participantes se convertirán a los tipos de conversión de acuerdo con los métodos establecidos en la norma 13.ª de la Circular 1/1993, de 3 de marzo, sobre normas contables de consolidación aplicables a grupos y subgrupos de sociedades y agencias de valores, y teniendo en cuenta lo siguiente:</p>
+    <p class="parrafo_2">a) Si se aplica el método del tipo de cambio al cierre, las diferencias de conversión, de las cuentas anuales denominadas en una de las monedas de Estados Participantes hasta el 31 de diciembre de 1998, se registrarán formando parte de los fondos propios del balance consolidado y se mantendrán hasta la enajenación de los acciones de las entidades que las originaron.</p>
+    <p class="parrafo">b) Si se aplica en el método monetario-no monetario, las diferencias de conversión de las cuentas anuales denominadas en una de las monedas de Estados Participantes hasta el 31 de diciembre de 1998, se imputarán a la cuenta de pérdidas y ganancias consolidada del ejercicio como resultados positivos o negativos de conversión.</p>
+    <p class="parrafo_2">No obstante lo anterior, para mantener los valores históricos que hubieran correspondido a las partidas de carácter no monetario, cuando al aplicar el tipo de conversión a euros sobre las cuentas anuales de las entidades extranjeras se incorporen variaciones de tipo de cambio respecto al cambio histórico, habrá que modificar a efectos de su consolidación la valoración de los distintos elementos patrimoniales de dichas entidades.</p>
+    <p class="articulo">Cuarta.</p>
+    <p class="parrafo_2">1. Con el alcance y requisitos que establezcan las normas contables específicas de las Entidades Supervisadas, los importes satisfechos a terceros y los trabajos que se realicen en las aplicaciones informáticas como consecuencia del euro que puedan ser calificados de mejoras, renovaciones o ampliaciones del inmovilizado podrán incorporarse al activo para su posterior amortización, siempre que su utilidad previsible se extienda a varios ejercicios.</p>
+    <p class="parrafo">Adicionalmente, si la vida útil de las aplicaciones informáticas existentes se viera afectada como consecuencia del euro, se ajustarán las cuotas de amortización del ejercicio y de los siguientes o, en su caso, se dará de baja el importe contabilizado con cargo a la cuenta de pérdidas y ganancias.</p>
+    <p class="parrafo">2. Los restantes gastos producidos como consecuencia del euro se imputarán a la cuenta de pérdidas y ganancias del ejercicio en que se devenguen, en los conceptos correspondientes a su naturaleza o, si su importe fuera significativo, como gastos extraordinarios.</p>
+    <p class="parrafo">Cuando los gastos señalados en el párrafo anterior estén perfectamente identificados en cuanto a su naturaleza, pero indeterminados en cuanto a su importe exacto o fecha en que se produzcan, deberán dotarse las correspondientes provisiones para riesgos y gastos.</p>
+    <p class="centro_cursiva">Normas transitorias</p>
+    <p class="articulo">Primera.</p>
+    <p class="parrafo_2">Las entidades emisoras de valores admitidos a negociación en bolsas de valores (en adelante, «Entidades Cotizadas») y las Entidades Supervisadas podrán remitir a la Comisión Nacional del Mercado de Valores la información exigida de carácter público o reservado, relativa al período transitorio que media entre el 1 de enero del año 1999 y el 31 de diciembre del año 2001, expresando los importes monetarios en las unidades de cuenta euro o peseta. No obstante, deberá tenerse en cuenta lo siguiente:</p>
+    <p class="parrafo_2">1. Las entidades que ejerciten la opción de expresar en la unidad de cuenta euro la información exigida, reservada o pública, no podrán volver a utilizar la unidad de cuenta peseta para remitir dicha información a la Comisión Nacional del Mercado de Valores, salvo en casos excepcionales debidamente justificados.</p>
+    <p class="parrafo">2. Las entidades que realicen sus anotaciones en los libros de contabilidad expresando los valores en euros o que formulen o publiquen en euros sus cuentas anuales, individuales o consolidadas, deberán remitir también a la Comisión Nacional del Mercado de Valores la información exigida, reservada o pública, en esa unidad de cuenta.</p>
+    <p class="parrafo">3. Cuando las entidades cotizadas ejerciten la opción de expresar en euros la información pública periódica, las cifras del trimestre o semestre del ejercicio anterior se presentarán también en euros, aplicando el tipo de conversión sobre los importes en pesetas y efectuando, en su caso, el redondeo correspondiente.</p>
+    <p class="parrafo_2">En el apartado «Bases de presentación y normas de valoración» deberán incluir una breve explicación sobre la adaptación a la unidad de cuenta euro de los importes expresados en pesetas, así como sobre los efectos derivados del proceso de introducción del euro en la Entidad Cotizada.</p>
+    <p class="parrafo">La información reservada o pública a rendir a la Comisión Nacional del Mercado de Valores, relativa a períodos posteriores al 1 de enero del año 2002, se expresará en la unidad de cuenta euro.</p>
+    <p class="articulo">Segunda.</p>
+    <p class="parrafo_2">1. Cuando las cuentas anuales de las Entidades Supervisadas se formulen o publiquen en euros, las cifras de los ejercicios precedentes se presentarán también en euros, aplicando el tipo de conversión sobre los importes en pesetas y efectuando, en su caso, el redondeo conforme a lo dispuesto en la normativa legal establecida al respecto.</p>
+    <p class="parrafo">En la memoria anual, dentro del apartado bases de presentación de las cuentas anuales individuales y consolidadas, se incluirá una explicación sobre la adaptación a la unidad de cuenta euro de los importes expresados en la unidad de cuenta peseta en el ejercicio precedente, así como del proceso de introducción del euro en la Entidad Supervisada.</p>
+    <p class="parrafo">2. Igualmente, en los ejercicios del período transitorio en los que se recojan los efectos producidos por la introducción del euro, las Entidades Supervisadas deberán informar en la memoria anual, individual y consolidada, de lo siguiente:</p>
+    <p class="parrafo_2">Gastos y pérdidas significativos derivados de la introducción del euro, en particular las provisiones que se hubieran contabilizado durante el ejercicio, indicando los criterios empleados para su dotación y su justificación.</p>
+    <p class="parrafo">Importe de los ajustes realizados en la amortización de los inmovilizados materiales o inmateriales (aplicaciones y sistemas informáticos) cuya vida útil se haya visto afectada por la introducción del euro, así como los compromisos sobre inversiones futuras motivados por el euro.</p>
+    <p class="parrafo">Cuantificación de las diferencias de cambio en moneda extranjera registradas como consecuencia de la introducción del euro, operaciones más significativas de las que procedan dichas diferencias y plazos de vencimiento.</p>
+    <p class="parrafo">Redenominación del capital social y de otros valores en circulación.</p>
+    <p class="parrafo">Importe de las diferencias de carácter significativo motivadas por los redondeos y las operaciones que las produzcan, así como otros aspectos relevantes que estén relacionados con el proceso de introducción del euro.</p>
+    <p class="parrafo_2">Adicionalmente, en la memoria del grupo consolidado deberá incluirse el importe de las diferencias de conversión de la cuentas anuales denominadas al 31 de diciembre de 1998 en monedas de los Estados participantes, a las que se les haya aplicado el método de tipo de cambio al cierre. Si se aplica el método monetario-no monetario deberá informarse sobre los resultados de conversión indicando el criterio de imputación a resultados empleado y las diferencias de valoración respecto a los valores históricos.</p>
+    <p class="articulo">Tercera.</p>
+    <p class="parrafo_2">Los sujetos y entidades obligados a realizar comunicaciones de participaciones significativas y de adquisiciones de acciones propias seguirán consignando el importe nominal de las adquisiciones, transmisiones y posesión final en miles de pesetas, siempre que las sociedades objeto de las comunicaciones no hayan redenominado a euros su cifra de capital social.</p>
+    <p class="centro_cursiva">Norma final</p>
+    <p class="parrafo_2">Lo dispuesto en la presente Circular entrará en vigor el día 1 de enero de 1999.</p>
+    <p class="parrafo_2">Madrid, 16 de diciembre de 1998.–El Presidente, Juan Fernández-Armesto Fernández España.</p>
+    <p class="anexo_num">ANEXO 1</p>
+    <p class="anexo_tit">Fichero de desgloses: DESGLOS</p>
+    <table class="tabla_ancha">
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Número</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Posición</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Nombre del campo</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Formato</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Longitud</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Observaciones</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">1</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">1-8</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Fecha de referencia.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">N</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">8</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Formato: AAAAMMDD.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Contendrá la fecha de liquidación de la operación. Cuando se trate de operaciones bursátiles será la fecha teórica de liquidación.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">2</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">9-24</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Código de orden.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">X</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">16</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Debe coincidir con el incluido en el Fichero de órdenes para el orden que ha generado el desglose, salvo en los siguientes casos que identificarán mediante estas claves:</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">CP: Operaciones ejecutadas por cuenta propia por la entidad.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">MG: Operaciones ejecutadas en virtud de mandatos genéricos o específicos.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">RO: Resto de operaciones que se ejecuten sin orden expresa del cliente.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Cuando el desglose corresponda a una operación que no haya requerido la generación del Fichero de órdenes (punto 2.1 de la norma 4.a ) se indicará en este apartado el Código de Orden que vincule el desglose con el Archivo de Justificantes de Órdenes.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">3</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">25-40</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Código de ejecución.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">X</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">16</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Debe coincidir con el incluido en el fichero de ejecuciones para la ejecución que ha generado el desglose.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">4</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">41-56</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Código de operación.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">X</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">16</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Para el caso bursátil será el número de operación que se intercambia con el Servicio de Compensación y Liquidación de Valores.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">5</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">57-65</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Número de valores.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">N</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">9</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">6</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">66-77</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Efectivo de liquidación.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">N</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">12</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Los importes en euros se expresarán en céntimos de euro, sin comas.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Los importes en otras monedas se expresarán en cifras enteras, sin incluir decimales.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">7</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">78-80</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Moneda.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">X</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">3</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Código alfabético de la norma ISO4217.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">8</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">81-84</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Código de entidad liquidadora.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">X</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">4</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Se indicará el código de la entidad de acuerdo con los siguientes criterios:</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Número de registro en el Banco de España.-Para bancos y entidades de crédito.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Número de registro en la Comisión Nacional del Mercado de Valores + 3500.-Para sociedades y agencias de valores.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">No se completará para entidades no inscritas en los registros oficiales del Banco de España y la Comisión Nacional del Mercado de Valores.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">9</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">85-124</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Entidad liquidadora.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">X</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">40</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Se identificará a la entidad liquidadora por su denominación.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">10</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">125-174</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Comentario.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">X</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">50</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Aclaración a los campos anteriores siempre que resulte necesario.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">   </p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Cuando el campo «Código de orden» se haya completado con la clave MG se incluirá en este apartado la referencia identificativa del mandato recibido.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_centro">11</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">175-176</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Final de registro.</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">X</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">2</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Siempre: «CR» «LF».</p>
+        </td>
+      </tr>
+    </table>
+  </texto>
+</documento>
