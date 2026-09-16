@@ -9,10 +9,11 @@ evidence.
 ## 1. Gate question
 
 Can all BdE-Circular-specific semantics be isolated behind an
-explicit `SourceProfile`, keeping the proven core
-byte-identical/behaviorally equivalent, **without transferring
-factual decisions** from `binding_proof`/`subject_proof` into the
-profile?
+explicit `SourceProfile`, keeping the proven **observable semantics
+behaviorally equivalent and the canonical semantic artifacts
+byte-identical**, **without transferring factual decisions** from
+`binding_proof`/`subject_proof` into the profile? (The core source
+itself is of course not byte-identical — code moves.)
 
 The profile supplies grammar, vocabulary, and identity inputs. The
 fail-closed adjudication of what may be claimed stays in the core.
@@ -28,14 +29,50 @@ COV-2 FINAL RUN    evidence/cov/cov2/runs/003-final
 FULL SUITE         347 PASS @ v0.3-alpha
 ```
 
-Equivalence oracle for PORT-2: every G0–G2 and COV-2 evidence
-artifact reproducible under the pre-refactor runtime must be
-reproduced byte-identically by the post-refactor runtime, and the
-full test suite must pass unmodified (except imports moved by the
-refactor itself — mechanical import fixes are allowed; assertion
-or expectation changes are not, except under the existing
-`PORT_INTENTIONAL_SEMANTIC_CHANGE` convention, which is expected
-to record zero uses).
+Equivalence oracle for PORT-2 — two artifact classes, compared
+differently. No generic "ignore metadata" normalization: the
+volatile set below is an exact whitelist, and every field not on
+it compares byte-for-byte.
+
+```text
+SEMANTIC_ARTIFACTS          ->  byte-identical
+  operations.jsonl
+  attribution.jsonl
+  subject-outcomes.jsonl
+  relations.jsonl
+  bindings.jsonl
+  binding-sides.jsonl
+  lifecycle.jsonl
+  continuity.jsonl
+  ordering.jsonl
+  audit.jsonl
+  failures.jsonl
+  reconciliation.jsonl
+  metrics / cov-metrics canonical payloads
+  query / applicability outputs
+
+RUN_ENVELOPE                ->  volatile fields may differ
+  volatile whitelist:
+    runtime_head
+    evaluation_head
+    src_tree_sha256
+    started_at
+    finished_at
+    run_id / run path
+  all non-volatile envelope fields: identical
+  expected post-refactor values of volatile fields are
+  explicitly recorded in the PORT-2 report
+```
+
+The full test suite must pass unmodified except mechanical import
+fixes moved by the refactor itself. Hard gate:
+
+```text
+PORT_INTENTIONAL_SEMANTIC_CHANGE_COUNT = 0
+```
+
+A single use means the change was not a refactor: `PORT-2 = FAIL`,
+`PORT = CORE_COUPLING_EXPOSED`.
 
 ## 3. Phases
 
@@ -49,9 +86,40 @@ level-boundary tables, dispositive clause grammar, annex
 conventions, issuer/doctype assumptions.
 
 Deliverable: `evidence/port/coupling-census.json` + a reviewable
-map classifying each item as (a) profile material or (b) genuinely
-core. Items claimed as core must justify why they are
-source-independent. Zero functional changes; commit as census only.
+map. Per coupling item, record at minimum:
+
+```text
+symbol / literal / rule
+current module
+callers
+semantic responsibility
+BdE-specific evidence
+proposed classification:
+    PROFILE_MATERIAL
+    CORE
+    PROFILE_INPUT_CORE_POLICY   (diagnostic only — see below)
+why
+proof dependency:
+    does binding_proof depend on it?
+    does subject_proof depend on it?
+movement risk:  LOW | MEDIUM | HIGH
+fixture coverage
+```
+
+`PROFILE_INPUT_CORE_POLICY` is a census-time diagnostic category,
+not a third final location. It marks items where vocabulary is
+profile material but the enumeration/decision policy is core —
+e.g. "enumerate every heading the profile's grammar recognizes and
+hand the candidate set to the core": the marker set moves, the
+enumerate-then-adjudicate policy does not. PORT-1 must convert
+each such item into an explicit interface seam; an item may not
+remain in this class at PORT-1 completion.
+
+Items claimed as CORE must justify why they are
+source-independent. Zero functional changes; commit as census
+only, then STOP for review — the map is the evidence that decides
+the PORT-1 interface; it is not designed before the seams are
+visible.
 
 ### PORT-1 — SourceProfile contract (still no code movement)
 
@@ -79,11 +147,13 @@ PASS criteria (all required):
   (G0 cohort ledgers, G2 DEV runs, COV-2 `003-final` metrics and
   ledgers).
 - Full suite PASS with no expectation changes.
-- No `binding_proof`/`subject_proof` field gains a profile-origin
-  value that was previously core-computed — provenance fields must
-  still attribute proof to the core's evidence path; profile
-  provenance is recorded as *profile identity/version*, not as a
-  factual claim.
+- Profile identity/version may be recorded **only** in the run
+  envelope, the profile registry, or diagnostic metadata — never
+  inside `binding_proof`, `subject_proof`, representation rows,
+  modification_relation rows, `artifact_locator`, or semantic
+  evaluator ledgers. It must be possible to know which profile
+  produced a run without altering the identity or content of any
+  previously emitted fact.
 - No `if <source>` branching inside the core; the core resolves
   profile objects through the contract only.
 - Parser versions unchanged (pure refactor → `cov-v1`/`v5` stay;
