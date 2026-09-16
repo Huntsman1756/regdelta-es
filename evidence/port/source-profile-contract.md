@@ -1,7 +1,8 @@
 # PORT-1 — SourceProfile contract
 
-Status: DRAFT for review. Defines the interface the PORT-2
-extraction must satisfy. No code moves under this document.
+Status: DONE (APPROVE_WITH_AMENDMENTS applied — see §7). Defines
+the interface the PORT-2 extraction must satisfy. No code moved
+under this document.
 
 Basis: `evidence/port/coupling-census.json` (45 items), the frozen
 rules in `PREREG.md` §PORT-1, and the akn-pt artifact shape
@@ -90,10 +91,9 @@ policy (quoted text never grounds structure) are core.
 ### F3 `locator_grammar` — the `kind:value` vocabulary
 
 ```text
-kinds               canonical kind tokens + emitted spellings
-                    (norma, anejo, apartado, punto, letra, numeral,
-                     nota, disp, estado, fichero, indice, pagina,
-                     seccion, ...)
+enabled_kinds       which core LocatorKinds this source recognizes
+kind_lexemes        core kind -> source lexemes ('apartado',
+                    'apartados', ...)
 head_patterns       per-kind head grammar (C-028 pattern side)
 marker_patterns     numeric / letra / sibling / compound-code forms
 level_boundary      kind -> same-or-outer-level boundary map
@@ -102,6 +102,22 @@ ordinals            word <-> number, feminine forms, 'única',
 value_continuation  bare-segment continuation alphabet + rule data
 head_forms          mention-expansion alternates (C-022 vocab)
 ```
+
+The core — not this facet — owns the `LocatorKind` registry, its
+canonical spellings (`norma`, `anejo`, `apartado`, …, `estado`,
+`fichero`), and each kind's meaning/hierarchy. The core is a
+semantic superset; a profile uses a subset. `estado` is a core kind
+even if only BdE ever enables it.
+
+```text
+profile may reference a core kind
+profile may NOT mint a new core kind
+```
+
+A source needing a genuinely new category fails its profile
+validation (`UNKNOWN_CORE_KIND`) — evidence that the core must
+evolve through a gate, not permission to silently extend the
+ontology.
 
 Absorbs: C-015, C-028/C-029/C-030 vocabulary sides, C-022 vocab.
 Consumed by: `text_region_candidates`, `_locator_parts`,
@@ -115,8 +131,9 @@ adjudication.
 
 ```text
 amend_verbs         active/passive verb lexicon, per-op-kind
-                    mapping data (verb -> ADD|DELETE|MODIFY|
-                    SUBSTITUTE)
+                    mapping data ('modifica' -> MODIFY, 'suprime'
+                    -> DELETE); ADD/DELETE/MODIFY/SUBSTITUTE
+                    themselves are core enums, never profile-minted
 verb_exclusions     'desglosa'-class exclusions
 structural_objects  'incluir' object whitelist
 subordinators       subordinator inventory
@@ -154,13 +171,23 @@ target_ref_forms             'Circular N/AAAA' incl.
                              'del Banco de España' word order
 owner_ref_forms              'anejo de la Circular N/AAAA'
 eli_pattern                  '/cir/YYYY/MM/DD/N'
-modifier_discovery           metadata field ('posteriores') +
-                             kind vocabulary
+relation_classification      vocabulary that classifies
+                             already-parsed declared relations
+                             (CORREG/CORREC -> CORRECTION)
 ```
 
-Absorbs: C-002, C-003 vocab side, C-009 token side, C-014 vocab,
-C-041. Consumed by: `reconstruct` target-ref derivation, modifier
-discovery, `ownership.attribute_operation`, query ref resolution.
+Raw metadata *field names* are not here — see F8
+`metadata_mapping`/`relation_mapping`. The core consumes a
+canonical document contract (`titulo`, `fecha_publicacion`,
+`posteriores` remain today's canonical compatibility names); a
+future CNMV parser produces the same contract without the core
+ever knowing the source tag names. The core never asks for a BOE
+XML tag.
+
+Absorbs: C-002, C-003 classification-vocab side, C-009 token side,
+C-014 vocab, C-041. Consumed by: `reconstruct` target-ref
+derivation, relation classification, `ownership.attribute_operation`,
+query ref resolution.
 
 Core retains: id-hashing policy over the canonical token (no id
 migration — BdE token is byte-for-byte today's `boe_id`),
@@ -176,7 +203,10 @@ code_forms              code-header, quoted-code, paren-code,
 code_normalization    _norm_code parameters
 fichero_vocabulary    'fichero «name»' forms, owner forms
 annex_markers         'ANEJO' head, 'Pág. N', annex node classes
-index_threshold       INDEX_CODE_THRESHOLD
+index_threshold       the calibrated value (BdE = 10); the
+                      *decision* 'count >= threshold -> INDEX' and
+                      the mapping algorithm stay core (amended
+                      C-034 split)
 ```
 
 Absorbs: C-016 (all four duplicated copies collapse here), C-032
@@ -220,8 +250,26 @@ sources[]             per source:
                         artifact_roles       diario_xml / doc_html /
                                              annex_pdf / image /
                                              sumario / consultas
+metadata_mapping      raw source field -> canonical contract field
+                      ('<fecha_publicacion>' -> 'fecha_publicacion')
+relation_mapping      raw relation container -> canonical
+                      direction ('<posteriores>' -> declared
+                      modifications)
 capture_layout        filename->source_id conventions
 ```
+
+Registry invariants (core-enforced, profile cannot alter):
+
+```text
+source_id unique
+descriptor required before source use
+unknown source_id fails closed
+existing BdE source_id values remain byte-identical
+profile descriptors cannot alter registry integrity policy
+```
+
+The profile contributes rows; the core controls what a valid
+registry means.
 
 Absorbs: C-001, C-042 profile side, C-043, C-044 (declared — the
 parsers themselves live in the package, not here).
@@ -275,15 +323,41 @@ C-016 is the designated validation case: one profile-owned
 `state_code_families` grammar replaces four scattered copies with
 zero drift, or the abstraction is defective.
 
-## 7. Open questions for review
+## 7. Review resolutions (2026-09-16 — APPROVE_WITH_AMENDMENTS)
 
-1. `estado:`/`fichero:` subjects are BdE-specific *kinds* (not just
-   vocabulary). Does the kind set itself belong to the core
-   contract or to F3? Current position: kind tokens are emitted
-   spelling → core contract; their *recognition grammar* → profile.
-2. `pagina` locators are an errata-correction form; keep in F3 or
-   under F5's ref grammar? Currently F3.
-3. Whether `document_model` also owns the *metadata* vocabulary
-   (`titulo`, `fecha_publicacion`, `posteriores`) or whether that
-   belongs to F5's modifier-discovery descriptor. Currently split:
-   field names → F5, node classes → F1.
+1. **Kinds**: resolved — core owns the `LocatorKind` registry,
+   canonical spellings, meaning and hierarchy; the profile
+   enables/recognizes core kinds and supplies lexemes + patterns
+   per kind (F3 amended). `estado`/`fichero` are core kinds that
+   only BdE currently enables. A profile may reference a core kind
+   but never mint one — `UNKNOWN_CORE_KIND` on violation. Same
+   rule for op-kinds: verb→kind mapping is profile data, the kind
+   enum is core.
+2. **`pagina`**: stays in F3 — it locates *within* the document,
+   not *which* instrument. F3 answers "where inside", F5 answers
+   "which work".
+3. **Metadata**: raw source field/container names belong to the
+   profile package via F8 `metadata_mapping`/`relation_mapping`;
+   F5 holds only canonical parsed relation-classification
+   vocabulary. The core consumes the canonical document contract
+   (`titulo`/`fecha_publicacion`/`posteriores` kept as
+   compatibility names for PORT-2 — renaming adds risk without
+   benefit) and never sees a BOE XML tag.
+
+Additional amendment (A4): C-034 refined — `index_threshold`
+value is a calibrated profile parameter; the threshold *decision*
+and mapping algorithm are core. Census C-034 amended accordingly.
+
+A5: F8 registry invariants frozen above.
+
+```text
+PORT-1 = DONE
+PORT-2 = AUTHORIZED
+```
+
+PORT-2 does not need to prove the core is agnostic to all possible
+law — only that existing BdE semantics express as a restrictive
+profile over a stable core contract without altering any fact. The
+decisive test is C-016: one profile-owned `state_code_families`
+grammar feeding `operations`, `annexmap`, `binding` and
+`applicability_parser` with byte-identical semantic artifacts.

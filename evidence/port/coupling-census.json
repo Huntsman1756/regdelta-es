@@ -446,7 +446,7 @@
       "semantic_responsibility": "map annex code -> PDF page for image representations",
       "bde_specific_evidence": "code families, 'Pág. N', 'ANEJO' markers in BOE annex PDFs",
       "classification": "PROFILE_INPUT_CORE_POLICY",
-      "why": "page/header vocabulary profile; mapping algorithm and threshold policy core",
+      "why": "page/header vocabulary and the calibrated threshold VALUE (INDEX_CODE_THRESHOLD=10) are profile — a source-format heuristic, not a proof-engine truth; the threshold DECISION rule (count >= threshold -> INDEX) and the mapping algorithm are core (A4 amendment, PORT-1 review)",
       "proof_dependency": {"binding_proof": true, "subject_proof": false},
       "movement_risk": "MEDIUM",
       "fixture_coverage": "ANNEX_PAGE_MAPPING bindings"
