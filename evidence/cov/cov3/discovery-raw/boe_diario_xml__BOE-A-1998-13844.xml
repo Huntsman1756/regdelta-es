@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251218182602">
+  <metadatos>
+    <identificador>BOE-A-1998-13844</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>19980529</fecha_disposicion>
+    <numero_oficial>6/1998</numero_oficial>
+    <titulo>Circular 6/1998, de 29 de mayo, a entidades de crédito, que modifica la Circular 3/1995, de 25 de septiembre, sobre la Central de Información de Riesgos.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>19980612</fecha_publicacion>
+    <diario_numero>140</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>19468</pagina_inicial>
+    <pagina_final>19470</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/1998/06/12/pdfs/A19468-19470.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>19980702</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/1998/05/29/6</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/1998/05/29/6">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-13844</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-29</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/1998/05/29/6/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-13844</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-29</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/1998/05/29/6"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/1998/05/29/6/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 6/1998, de 29 de mayo, a entidades de crédito, que modifica la Circular 3/1995, de 25 de septiembre, sobre la Central de Información de Riesgos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-06-12</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/1998/05/29/6/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1998/05/29/6/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1998/05/29/6/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1998/05/29/6/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1998/05/29/6/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1998/05/29/6/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1998/05/29/6/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="1">Banco de España</materia>
+      <materia codigo="1757" orden="2">Créditos</materia>
+      <materia codigo="3233" orden="3">Entidades de crédito</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-1995-22113" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>las normas primera, segunda, cuarta, quinta, Octava y los Anejo II y III y sustituye el Anejo IV de la Circular 3/1995, de 25 de septiembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1962-11069" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>el art. 16 del Decreto-ley 18/1962, de 7 de junio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1991-16487" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Circular 4/1991, de 14 de junio</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas/>
+  </analisis>
+  <texto>
+    <p class="parrafo">La normativa que regula el funcionamiento de la Central de Información de Riesgos (CIR), incluyendo la vigente Circular 3/1995, ha venido utilizando desde 1972 las definiciones y criterios de la normativa contable de las entidades de crédito. Esto presenta ventajas técnicas para las entidades informantes, y fomenta la homogeneidad de las diferentes fuentes de información. Sin embargo las normas contables califican la situación de las operaciones según criterios económicos que dan prioridad al principio de prudencia valorativa, no según su estado de cumplimiento contractual. Ello no resulta adecuado para la CIR, cuya función primordial es informar a terceros sobre la situación de los acreditados según bases objetivas y ciertas. Se hace por tanto necesario redefinir algunos conceptos (relacionados con la morosidad) a los efectos de la información a la CIR.</p>
+    <p class="parrafo">En otro orden de cosas, se estima conveniente ampliar el contenido de la CIR extendiéndolo a los riesgos que todas las entidades declarantes como acreditadas, aunque excluyendo los saldos a la vista y a corto plazo, así como las operaciones canalizadas a través del mercado interbancario.</p>
+    <p class="parrafo">Finalmente, para asegurar el correcto cumplimiento de lo dispuesto en las normas sobre recogida de autorizaciones de los acreditados a las entidades para permitir el acceso a sus datos, se prevé la posibilidad de exigir a algunas entidades la presentación previa de dichas autorizaciones al Banco de España al solicitar informes, sin perjuicio de mantener con carácter general el actual sistema, más ágil y de menores costes burocráticos.</p>
+    <p class="parrafo">Se aprovecha la ocasión para introducir en el texto algunas precisiones o cambios redaccionales aconsejados por la práctica o por razones de concordancia con otras disposiciones aparecidas desde la publicación de la Circular 3/1995, así como para eliminar de los esquemas informativos de la CIR la recogida de datos sobre carteras de acciones y participaciones, una información de utilidad puramente supervisora que por su naturaleza no se integra en las posiciones de riesgo definidas en la CIR.</p>
+    <p class="parrafo">Por todo ello, el Banco de España, en uso de las facultades que le otorga el artículo 16 del Decreto-ley 18/1962, de 7 de junio, y disposiciones concordantes, vistos los informes preceptivos y oídos los sectores interesados, ha dispuesto:</p>
+    <p class="parrafo_2">Norma única.</p>
+    <p class="parrafo_2">Se modifican como sigue las normas y anejos de la Circular 3/1995, de 25 de septiembre, sobre Central de Información de Riesgos:</p>
+    <p class="parrafo_2">Norma primera.–El apartado 1.a) queda redactado de la forma siguiente:</p>
+    <p class="sangrado_2">«a) A los bancos, cajas de ahorro, cooperativas de crédito y sucursales en España de entidades de crédito extranjeras;»</p>
+    <p class="parrafo_2">Norma segunda.–Se suprime el apartado 2.c).</p>
+    <p class="parrafo_2">El segundo párrafo del apartado 3, queda redactado así:</p>
+    <p class="sangrado_2">«Las entidades declarantes serán titulares declarables sólo de sus riesgos directos, excluidos de los mismos los de firma, los contraídos a través del Servicio Telefónico del Mercado de Dinero, los que se derivan de las cuentas a la vista y las cuentas mutuas, y los instrumentados con vencimiento inferior a un mes. Igual tratamiento recibirán las entidades de crédito y bancos centrales extranjeros; en el caso de los bancos centrales tampoco se declararán los depósitos obligatorios según la normativa del país de acogida.»</p>
+    <p class="parrafo_2">El penúltimo párrafo del apartado 4 queda redactado así:</p>
+    <p class="sangrado_2">«El “factoring” con recurso e inversión se declarará como crédito comercial al cedente; si se hace sin recurso, el riesgo se atribuirá al obligado al pago y como tal “factoring”. Igual atribución se hará en los descuentos de efectos comerciales sin recurso contra el cedente, u operaciones similares.»</p>
+    <p class="parrafo_2">Norma cuarta.–Se suprime el último inciso del primer párrafo del apartado 1 («; y el factoring con recurso, que se declarará por la parte dispuesta»). En el segundo párrafo del mismo apartado se suprime asimismo el último inciso («; en las participaciones de fondos de inversión sólo se declarará el valor contable»).</p>
+    <p class="parrafo_2">Se añade al final del apartado 1:</p>
+    <p class="sangrado_2">«Como excepción al párrafo anterior los saldos morosos menores de un millón de pesetas, correspondientes a titulares declarados por superar las cuantías de riesgo que se señalan en la norma quinta, apartado 2, se consignarán explícitamente con importe cero y la clave correspondiente de morosidad.»</p>
+    <p class="parrafo_2">Norma quinta.–Se suprime el apartado 2.c).</p>
+    <p class="parrafo_2">El último párrafo del apartado 2 queda redactado así:</p>
+    <p class="sangrado_2">«Las entidades declarantes no incluirán los importes reflejados en sus balances patrimoniales procedentes de redescuento o endoso con responsabilidad de efectos no vencidos, o de riesgos adquiridos por transferencia (según se define ésta en la norma decimoquinta de la Circular 4/1991, de 19 de junio), cuando el cedente sea una entidad declarante a la CIR.»</p>
+    <p class="parrafo_2">Norma octava.–El primer párrafo de la letra a) de la norma queda redactado así:</p>
+    <p class="sangrado_2">«a) Mensualmente, remitirá a cada entidad declarante que haya entregado sus datos en soporte magnético o por interconexión de ordenadores –y por el mismo medio– la información agregada de todo el sistema para sus acreditados, con todos los datos, exclusión hecha del origen de la operación y de los riegos con clave J en la primera posición, agrupándose, a estos efectos, las características descritas en la quinta posición de la clave de riesgos (según las instrucciones complementarias al anejo II) en cuatro conjuntos: Los que están en suspenso (clave J), los morosos (claves E, F, G, H, I), los procedentes de un convenio de acreedores (clave L), y el resto (claves A, B, C, D, K). Los riesgos solidarios por cada titular se agregarán entre sí, pero separadamente de los no solidarios.»</p>
+    <p class="parrafo_2">En la letra b) se sustituye, «apartado 1» por «le tra a». La última frase queda redactado así:</p>
+    <p class="sangrado_2">«La validez de la autorización será de seis meses desde la fecha de su firma.»</p>
+    <p class="parrafo_2">En esa misma letra se añade un nuevo párrafo con el siguiente texto:</p>
+    <p class="sangrado_2">«A fin de asegurar el correcto cumplimiento de lo dispuesto en el párrafo anterior, el Banco de España podrá solicitar a las entidades declarantes la remisión de las autorizaciones a las que se alude en el mismo, así como requerirles la implantación de los procedimientos y controles necesarios a tal efecto.»</p>
+    <p class="parrafo_2">Queda suprimida la letra c).</p>
+    <p class="parrafo_2">Anejo II.–En las instrucciones complementarias al formato o modelo II se hacen las siguientes modificaciones:</p>
+    <p class="parrafo_2">En la primera posición, desde la izquierda,</p>
+    <p class="parrafo">La clave J pasa a denominarse «Productos vencidos y no cobrados de activos dudosos».</p>
+    <p class="parrafo">La clave L pasa a denominarse «Operaciones sin recurso con inversión».</p>
+    <p class="parrafo">Se suprimen las claves N, O y P.</p>
+    <p class="parrafo">En la quinta posición, desde la izquierda, las claves E, F, G, H, I, pasan a denominarse así:</p>
+    <p class="parrafo_2">E: Moroso con más de tres meses, sin superar los seis, transcurridos desde su vencimiento.</p>
+    <p class="parrafo">F: Moroso con más de seis meses, sin superar los doce, transcurridos desde su vencimiento.</p>
+    <p class="parrafo">G: Moroso con más de doce meses, sin superar los dieciocho, transcurridos desde su vencimiento.</p>
+    <p class="parrafo">H: Moroso con más de dieciocho meses, sin superar los veintiuno, transcurridos desde su vencimiento.</p>
+    <p class="parrafo">I: Moroso con más de veintiún meses transcurridos desde su vencimiento.</p>
+    <p class="parrafo_2">En la misma quinta posición se añade una nueva clave L, con el siguiente contenido:</p>
+    <p class="parrafo_2">L: Crédito procedente de un convenio de acreedores.</p>
+    <p class="parrafo_2">En las notas a las posiciones,</p>
+    <p class="parrafo_2">La nota (1) queda redactada así:</p>
+    <p class="sangrado_2">«(1) Los conceptos utilizados para explicar las claves de las posiciones se corresponden con los de la Circular Contable 4/1991, de 14 de junio, con las siguientes precisiones o salvedades para los contenidos en la quinta posición:</p>
+    <p class="sangrado_2">a) Los saldos contables dudosos deberán tener en la quinta posición alguna de las claves C a I, o L, de acuerdo con los criterios que se indican en las letras que siguen.</p>
+    <p class="sangrado">b) Con las claves E, F, G, H, I, sólo se recogerán saldos vencidos y no pagados con más de tres meses transcurridos desde su vencimiento, con la salvedad que se indica en la letra d) que sigue.</p>
+    <p class="sangrado">c) Cuando una clase de riesgo de un titular tenga varias cuotas morosas, con antigüedades diferentes, se agruparán todas en las clave de mayor antigüedad.</p>
+    <p class="sangrado">d) Los saldos clasificados en activos dudosos sin que hayan vencido, en virtud de lo dispuesto en el apartado 2.a) de la norma décima de la Circular 4/1991, de 14 de junio, se declararán con clave C; a su vencimiento pasarán inmediatamente a la clave E, o a la que corresponda, en su caso, en virtud de la letra c) precedente.</p>
+    <p class="sangrado">e) Con clave J se declararán los activos en suspenso.</p>
+    <p class="sangrado">f) Los créditos procedentes de un convenio de acreedores se declararán con clave L por el importe resultante de deducir las quitas que se hayan pactado. Caso de incurrir posteriormente en mora, pasarán a presentar claves D a I, según corresponda, con el importe que proceda.</p>
+    <p class="parrafo_2">Se añade un nuevo párrafo a la nota (4) con el siguiente texto:</p>
+    <p class="sangrado_2">«La clave L en primera posición recogerá el factoring sin recurso con inversión, el descuento sin recurso contra el cedente, o la adquisición de derechos de cobro u otras operaciones similares sin recurso.»</p>
+    <p class="parrafo_2">La nota (11) queda como sigue:</p>
+    <p class="sangrado_2">«(11) En la quinta posición, cuando pueda aplicarse más de una clave, el orden de prelación, serán K, J, I, H, G, F, E, D, L, C, B, A, presente siempre lo señalado en la nota 1.f).»</p>
+    <p class="sangrado_2">Se suprime la nota (14).</p>
+    <p class="parrafo_2">Anejo III.–El apartado 3 de las Instrucciones Complementarias queda redactado así:</p>
+    <p class="sangrado_2">«3. El campo «Situación» reflejará una S cuando corresponda a la clave J de la quinta posición, una C cuando se corresponda con la L, y una M para las claves E a I, figurando en blanco en los demás casos.»</p>
+    <p class="parrafo_2">Anejo IV.–Queda sustituido por el que se adjunta a esta Circular.</p>
+    <p class="articulo">Entrada en vigor.</p>
+    <p class="parrafo">La presente Circular entrará en vigor a los veinte días de su publicación en el «Boletín Oficial del Estado». No obstante las entidades declarantes podrán posponer hasta el 30 de junio de 1999 la aplicación de las modificaciones que afectan al contenido de los datos declarados, y pospondrán necesariamente hasta la declaración correspondiente a los datos de junio de 1999 las modificaciones que afectan al formato de las declaraciones, considerando como tales la creación de nuevas claves o la supresión de alguna de las existentes.</p>
+    <p class="parrafo_2">Madrid, 29 de mayo de 1998.–El Gobernador, Luis Ángel Rojo Duque.</p>
+    <p class="anexo_num">ANEJO</p>
+    <p class="anexo_tit">Modelo de autorización de un titular a una entidad declarante para solicitar informe a la CIR</p>
+    <p class="parrafo_2">A) Personas físicas.</p>
+    <p class="parrafo_2">.............................................., de ............................. de ...........................</p>
+    <p class="parrafo_2">Autorizo a la entidad .............................................................................................................</p>
+    <p class="parrafo">para que solicite a la Central de Información de Riesgos del Banco de España un informe de mis riesgos crediticios, autorización que hago extensiva a la mencionada Central de Información de Riesgos para que le facilite los datos interesados.</p>
+    <p class="parrafo_2">Firma:</p>
+    <p class="parrafo_2">Firmado: ...............................................................................................................................</p>
+    <p class="parrafo">(nombre)</p>
+    <p class="parrafo_2">NIF o DNI: .............................................................................................................................</p>
+    <p class="parrafo">Garantizo la autenticidad de la firma de este documento.</p>
+    <p class="parrafo_2">Firmado:</p>
+    <p class="parrafo_2">Nombre, cargo y NIF o DNI ..................................................................................................</p>
+    <p class="parrafo">..............................................................................................................................................</p>
+    <p class="parrafo_2">Sello de la entidad</p>
+    <p class="parrafo_2">B) Personas jurídicas.</p>
+    <p class="parrafo_2">.............................................., de ............................. de ...........................</p>
+    <p class="parrafo_2">Autorizo a la entidad ............................................................................................................. para que solicite a la Central de Información de Riesgos del Banco de España un informe de los riesgos crediticios, de la entidad................................................................................, NIF ..................... autorización que hago extensiva a la mencionada Central de Información de Riesgos para que le facilite los datos interesados.</p>
+    <p class="parrafo_2">Firma:</p>
+    <p class="parrafo_2">Nombre y cargo del firmante ................................................................................................</p>
+    <p class="parrafo_2">Garantizo la autenticidad de la firma de este documento.</p>
+    <p class="parrafo_2">Firmado:</p>
+    <p class="parrafo_2">Nombre, cargo y NIF o DNI ..................................................................................................</p>
+    <p class="parrafo_2">Sello de la entidad</p>
+  </texto>
+</documento>

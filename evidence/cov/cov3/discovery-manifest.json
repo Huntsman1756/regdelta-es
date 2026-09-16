@@ -1,0 +1,54 @@
+{
+  "entries": {
+    "boe_diario_xml__BOE-A-1998-13844.xml": {
+      "error_class": null,
+      "http_status": 200,
+      "name": "boe_diario_xml__BOE-A-1998-13844.xml",
+      "path": "evidence\\cov\\cov3\\discovery-raw\\boe_diario_xml__BOE-A-1998-13844.xml",
+      "retrieved_at": "2026-09-16T03:57:11Z",
+      "sha256": "2fe15ea51ecb6fc96706fc0d602e12be5fd1fab6efea0432781e1e792d143722",
+      "size_bytes": 22067,
+      "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1998-13844"
+    },
+    "boe_diario_xml__BOE-A-1999-17037.xml": {
+      "error_class": null,
+      "http_status": 200,
+      "name": "boe_diario_xml__BOE-A-1999-17037.xml",
+      "path": "evidence\\cov\\cov3\\discovery-raw\\boe_diario_xml__BOE-A-1999-17037.xml",
+      "retrieved_at": "2026-09-16T03:57:11Z",
+      "sha256": "a3b7a69e8cc68f5de65331b728e2da3cdea791b7ba0cbc45a734ff60f727e3ad",
+      "size_bytes": 10077,
+      "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1999-17037"
+    },
+    "boe_diario_xml__BOE-A-2001-7513.xml": {
+      "error_class": null,
+      "http_status": 200,
+      "name": "boe_diario_xml__BOE-A-2001-7513.xml",
+      "path": "evidence\\cov\\cov3\\discovery-raw\\boe_diario_xml__BOE-A-2001-7513.xml",
+      "retrieved_at": "2026-09-16T03:57:11Z",
+      "sha256": "a6b1a2aaaa07ff54c8645007c55ca7694edd3eb9e859b11742df3b02dda7e533",
+      "size_bytes": 10902,
+      "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2001-7513"
+    },
+    "boe_diario_xml__BOE-A-2002-13015.xml": {
+      "error_class": null,
+      "http_status": 200,
+      "name": "boe_diario_xml__BOE-A-2002-13015.xml",
+      "path": "evidence\\cov\\cov3\\discovery-raw\\boe_diario_xml__BOE-A-2002-13015.xml",
+      "retrieved_at": "2026-09-16T03:57:11Z",
+      "sha256": "e0853a8e91c0784a950835da8e4c800a5ea321e17f326d42fff75261a176d174",
+      "size_bytes": 14528,
+      "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2002-13015"
+    },
+    "boe_diario_xml__BOE-A-2004-12828.xml": {
+      "error_class": null,
+      "http_status": 200,
+      "name": "boe_diario_xml__BOE-A-2004-12828.xml",
+      "path": "evidence\\cov\\cov3\\discovery-raw\\boe_diario_xml__BOE-A-2004-12828.xml",
+      "retrieved_at": "2026-09-16T03:57:11Z",
+      "sha256": "5b1f65ee5b6dcbd1fb3b9edd11c6fd1125964926e17e7eeaa9a7229a5585981c",
+      "size_bytes": 51324,
+      "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2004-12828"
+    }
+  }
+}

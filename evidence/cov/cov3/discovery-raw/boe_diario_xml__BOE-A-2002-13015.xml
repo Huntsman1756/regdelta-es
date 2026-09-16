@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251218205601">
+  <metadatos>
+    <identificador>BOE-A-2002-13015</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20020625</fecha_disposicion>
+    <numero_oficial>3/2002</numero_oficial>
+    <titulo>Circular 3/2002, de 25 de junio, a Entidades de Crédito, por la que se modifica la Circular del Banco de España 3/1995, de 25 de septiembre, sobre Central de Información de Riesgos.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20020702</fecha_publicacion>
+    <diario_numero>157</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>23966</pagina_inicial>
+    <pagina_final>23966</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2002/07/02/pdfs/A23966-23966.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan>/boe_catalan/dias/2002/08/01/pdfs/A02051-02052.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20021101</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2002/06/25/3</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2002/06/25/3">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-13015</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-06-25</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/563"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1712"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3752"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6686"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6854"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2002/06/25/3/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2002-13015</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-06-25</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/563"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1712"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3752"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6686"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6854"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2002/06/25/3"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2002/06/25/3/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2002, de 25 de junio, a Entidades de Crédito, por la que se modifica la Circular del Banco de España 3/1995, de 25 de septiembre, sobre Central de Información de Riesgos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-02</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2002/06/25/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2002/06/25/3/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2002/06/25/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2002/06/25/3/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2002/06/25/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2002/06/25/3/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2002/06/25/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2002/06/25/3/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CIRCULAR 3/2002, de 25 de juny, a entitats de crèdit, per la qual es modifica la Circular del Banc d'Espanya 3/1995, de 25 de setembre, sobre la Central d'Informació de Riscos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-08-01</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2002/06/25/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2002/06/25/3/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2002/06/25/3/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="1">Banco de España</materia>
+      <materia codigo="563" orden="2">Cajas de Ahorro</materia>
+      <materia codigo="1712" orden="3">Cooperativas de crédito</materia>
+      <materia codigo="3233" orden="4">Entidades de crédito</materia>
+      <materia codigo="3752" orden="5">Fondo de Garantía de Depósitos</materia>
+      <materia codigo="6686" orden="6">Sociedades de Garantía Recíproca</materia>
+      <materia codigo="6854" orden="7">Telecomunicaciones</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-1995-22113" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>las normas 5, 8 y el anejo V de la Circular 3/1995, de 25 de septiembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas/>
+  </analisis>
+  <texto>
+    <p class="parrafo">El Banco de España, en fechas próximas, procederá a una modernización de la Central de Información de Riesgos, incorporando nuevas técnicas y tratamientos, con el objeto de mejorar la calidad de la misma, tanto en lo que se refiere a cantidad y calidad de la información, cuanto a los tiempos y modos de acceder a ella.</p>
+    <p class="parrafo">Dentro de las modificaciones que están a la espera de la tramitación del proyecto de Ley de Reforma del Sistema Financiero, así como de la normativa complementaria correspondiente, hay dos modernizaciones de tipo técnico que deben abordarse de inmediato: El uso del medio telemático para todas las comunicaciones y la codificación de los titulares no residentes. La primera para que todas las entidades tengan un plazo razonable para adecuarse a la misma, y la segunda para corregir el deficiente funcionamiento de su actual codificación.</p>
+    <p class="parrafo">En consecuencia, el Banco de España, en uso de las facultades que tiene concedidas, ha dispuesto:</p>
+    <p class="articulo">Norma única.</p>
+    <p class="parrafo_2">Se modifican las siguientes normas y anejos de la Circular 3/1995, de 25 de septiembre, en la forma que a continuación se indica:</p>
+    <p class="parrafo_2">Norma quinta.</p>
+    <p class="parrafo_2">Los párrafos segundo y tercero del apartado 1 quedan redactados así:</p>
+    <p class="sangrado_2">«Los datos se presentarán por transmisión telemática, de conformidad con las especificaciones técnicas que se comuniquen al efecto por el Banco de España.»</p>
+    <p class="sangrado">«Excepcionalmente, por causa puntual justificada, previa conformidad de la oficina de Documentación y Central de Riesgos, podrán remitirse en soporte magnético.»</p>
+    <p class="parrafo_2">Norma octava.</p>
+    <p class="parrafo_2">El apartado a) queda redactado así:</p>
+    <p class="sangrado_2">«a) Mensualmente, por vía telemática, remitirá a cada entidad declarante la información agregada de todo el sistema para sus acreditados, con todos los datos, exclusión hecha del origen de la operación y de los riesgos con clave J en la primera posición, que se informarán como crédito financiero a corto plazo, agrupándose, a estos efectos, las características descritas en la quinta posición de la clave de riesgos (según las instrucciones complementarias al anejo II) en cuatro conjuntos: Los que están en suspenso (clave J), los morosos (claves E, F, G, H, I), los procedentes de un convenio de acreedores (clave L) y el resto (claves A, B, C, D, K). Los riesgos solidarios por cada titular se agregarán entre sí, pero separadamente de los no solidarios.»</p>
+    <p class="parrafo_2">El tercer párrafo del apartado b) queda redactado así:</p>
+    <p class="sangrado_2">«Las solicitudes de las entidades se formularán con la declaración que recoge el anejo IV bis y deberán realizarse por transmisión telemática, de acuerdo con las especificaciones técnicas que se comuniquen al efecto por el Banco de España.»</p>
+    <p class="parrafo_2">Anejo V.</p>
+    <p class="parrafo_2">El número 2 se sustituye por el que se indica a continuación:</p>
+    <p class="sangrado_2">«2. A partir de la tercera posición contada desde la izquierda se recogerán los códigos que siguen, dejando en blanco las posiciones que resten.</p>
+    <p class="sangrado_2">Cuando el titular es residente en España o se trata de una sucursal en España de una empresa extranjera.–Para las personas físicas de nacionalidad española el número de identificación fiscal (Real Decreto 338/1990, de 9 de marzo). Para las personas físicas que carezcan de la nacionalidad española el número personal de identificación de extranjero que se les asigne (Real Decreto 155/1996, de 2 de febrero) que coincide con el de identificación fiscal. Para las personas jurídicas y entidades, incluidas las sucursales en España de empresas extranjeras, su código de identificación fiscal (Decreto 2423/1975, de 25 de septiembre y Orden ministerial de 3 de julio de 1998).</p>
+    <p class="sangrado">Cuando el titular no es residente en España.–El código lo asignará el Banco de España. Las entidades comunicarán telemáticamente al Banco de España, de acuerdo con las instrucciones correspondientes los datos y características del titular, para que aquél, de inmediato, les comunique por la misma vía el código adjudicado. Los datos y características que las entidades deberán comunicar para la obtención del código serán las siguientes:</p>
+    <p class="sangrado_2">Denominación (persona jurídica) o nombre y apellidos (persona física).</p>
+    <p class="sangrado">Domicilio: País, ciudad, sigla de vía, nombre de vía, número o letra, código postal.</p>
+    <p class="sangrado">Fecha de nacimiento (sólo en el caso de personas físicas).</p>
+    <p class="sangrado">Forma legal (sólo en el caso de personas jurídicas).</p>
+    <p class="sangrado">Código ISIN (sólo en el caso de valores de renta fija).</p>
+    <p class="sangrado">Código SWIFT (sólo en aquellas empresas que lo tengan).»</p>
+    <p class="articulo">Norma final. Entrada en vigor.</p>
+    <p class="parrafo_2">La presente Circular entrará en vigor el 1 de noviembre de 2002. La primera declaración a formular por las entidades de acuerdo con lo dispuesto en ella será la referida a los datos del 30 de noviembre del presente año.</p>
+    <p class="parrafo_2">Madrid, 25 de junio de 2002.–El Gobernador, Jaime Caruana Lacorte.</p>
+  </texto>
+</documento>

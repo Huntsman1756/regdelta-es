@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251218215602">
+  <metadatos>
+    <identificador>BOE-A-2004-12828</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1020">Banco de España</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20040629</fecha_disposicion>
+    <numero_oficial>1/2004</numero_oficial>
+    <titulo>Circular 1/2004, de 29 de junio, a Entidades de Crédito, que modifica la Circular 3/1995, de 25 de septiembre, sobre la Central de Información de Riesgos.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20040709</fecha_publicacion>
+    <diario_numero>165</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>25260</pagina_inicial>
+    <pagina_final>25265</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2004/07/09/pdfs/A25260-25265.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan>/boe_catalan/dias/2004/08/02/pdfs/A02491-02497.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20040831</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2004/06/29/1</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2004/06/29/1">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2004-12828</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-29</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2004/06/29/1/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2004-12828</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-29</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1757"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/7854"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2004/06/29/1"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2004/06/29/1/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 1/2004, de 29 de junio, a Entidades de Crédito, que modifica la Circular 3/1995, de 25 de septiembre, sobre la Central de Información de Riesgos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-07-09</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2004/06/29/1/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2004/06/29/1/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2004/06/29/1/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2004/06/29/1/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2004/06/29/1/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2004/06/29/1/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2004/06/29/1/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2004/06/29/1/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CIRCULAR 1/2004, de 29 de juny, a entitats de crèdit, que modifica la Circular 3/1995, de 25 de setembre, sobre la Central d'Informació de Riscos.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-08-02</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2004/06/29/1/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2004/06/29/1/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2004/06/29/1/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="1757" orden="">Créditos</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="7854" orden="">Protección de datos personales</materia>
+    </materias>
+    <notas>
+      <nota codigo="10" orden="200">Entrada en vigor:  10 de julio y el 31 de agosto de 2004, según los casos</nota>
+    </notas>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-1995-22113" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>la norma 3, 4, 5, 8, 9, 10 y anejo I y SUPRIME los anejos IV, IV bis y V de la Circular 3/1995, de 25 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2004-4969" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la Orden ECO/697/2004, de 11 de marzo</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2002-22807" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la Ley 44/2002, de 22 de nviembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">La Ley 44/2002, de 22 de noviembre, de Medidas de Reforma del Sistema Financiero (en adelante la Ley) dedica el capítulo VI a la Central de Información de Riesgos (en adelante CIR) derogando el artículo 16 del Decreto-Ley 18/1962, de 7 de junio, por el que se creó dicho fichero. Dicha Ley, aunque proporciona una regulación prolija de la CIR, faculta al Banco de España para que, bien directamente o previa habilitación del Ministro de Economía, regule su funcionamiento.</p>
+    <p class="parrafo">La Orden ECO/697/2004, de 11 de marzo, sobre la Central de Información de Riesgos fija los criterios que el Banco de España debe respetar en la regulación de la CIR, indicando que continuará siendo de aplicación la Circular 3/1995, de 25 de septiembre, sobre la Central de Información de Riesgos, en lo que no se oponga a la propia orden, hasta tanto se establezcan por el Banco de España las determinaciones previstas en ella.</p>
+    <p class="parrafo">Mediante la presente Circular por la que se modifica la Circular 3/1995, el Banco de España, al tiempo que adapta el funcionamiento de la CIR al mandato de la Ley, inicia un proceso escalonado de reformas tanto en la forma como en los datos a declarar.</p>
+    <p class="parrafo">El motivo de realizar la reforma por etapas se debe a la imposibilidad de abordar inmediata y simultáneamente todas las modificaciones previstas, pues suponen la introducción de grandes cambios en los vigentes sistemas de tratamiento de datos, tanto para la propia CIR como para las entidades declarantes.</p>
+    <p class="parrafo">Una vez analizadas las diferentes mejoras a realizar, en esta primera etapa, además de adaptar los derechos de acceso, rectificación y cancelación, así como los criterios de suspensión de la cesión de los datos declarados, a lo dispuesto en los artículos 65 y 66 de la Ley, la CIR pretende reducir el tiempo que media entre la declaración de riesgos y su puesta a disposición de los usuarios, para que los datos que se faciliten sean lo más actuales posibles.</p>
+    <p class="parrafo">Por tal motivo, y debido al elevado número de titulares residentes en España que mensualmente se dan de alta en la CIR (casi medio millón en media), se modifica la Circular 3/1995, por un lado, para que se declaren los datos personales de los titulares de forma continua durante todo el mes, para anticipar al máximo la depuración de los posibles errores en las declaraciones, y por otro, para incluir nuevos datos que faciliten su identificación y permitan una mejor explotación de la información disponible, tanto a efectos estadísticos como de supervisión, en consonancia con la exigencia de exactitud y puesta al día de los datos declarados a la CIR recogida en el artículo 60 de la Ley.</p>
+    <p class="parrafo">Asimismo, se aprovecha la Circular para especificar que en el cálculo del importe mínimo de los riesgos a declarar (6 mil euros) se deben considerar conjuntamente, cuando proceda, tanto las cantidades dispuestas como las disponibles. Además se establece que serán declarables los importes de los saldos morosos inferiores a seis mil euros correspondientes a operaciones declaradas con saldos en situación normal.</p>
+    <p class="parrafo">En consecuencia, el Banco de España, de acuerdo con el Consejo de Estado, en uso de las facultades que tiene concedidas, ha dispuesto:</p>
+    <p class="parrafo_2">Norma única.</p>
+    <p class="parrafo_2">Se modifican las Normas y Anejos de la Circular 3/1995, de 25 de septiembre, sobre Central de Información de Riesgos, en la forma que a continuación se indica:</p>
+    <p class="parrafo_2">Norma tercera. Datos y características de los titulares.</p>
+    <p class="parrafo_2">El texto de esta norma pasa a ser:</p>
+    <p class="sangrado_2">«Norma tercera. Datos y circunstancias de los titulares.</p>
+    <p class="sangrado_2">Las entidades declarantes deberán enviar al Banco de España para cada titular los datos que se detallan en el Anejo I de esta Circular. No obstante, cuando para un titular únicamente se le declaren riesgos en cuya formalización no haya intervenido, no será necesario declarar ni el domicilio ni, en su caso, la fecha de nacimiento, salvo que dichos datos sean públicos, o se disponga de ellos por tratarse de un cliente de la entidad declarante. La falta de declaración de dichos datos se señalará al dar de alta al titular de conformidad con las especificaciones técnicas que se comuniquen al efecto.</p>
+    <p class="sangrado">En las bajas de titulares (porque no tengan riesgos o no sean declarables), se indicará exclusivamente su código de identificación, y en las variaciones de datos de titulares previamente declarados, el código de identificación y los datos o características que se modifican.»</p>
+    <p class="parrafo_2">Norma cuarta. Datos y circunstancias de los riesgos.</p>
+    <p class="parrafo_2">El quinto y sexto párrafos del apartado 1 se sustituyen por el siguiente texto:</p>
+    <p class="sangrado_2">«El importe de los riesgos se expresará en miles de euros, aproximados a la unidad de millar más próxima, con la equidistancia al alza. El umbral de declaración se fija en 6.000 euros. Los riesgos cuyo importe dispuesto más disponible sea inferior a 6.000 euros no serán declarables.</p>
+    <p class="sangrado">Como excepción al párrafo anterior, serán declarables en miles de euros los saldos morosos inferiores a seis mil euros correspondientes a operaciones con importes declarados con otra clave de situación. Los saldos morosos inferiores a 1.000 euros se declararán explícitamente con importe cero y la clave correspondiente de morosidad.»</p>
+    <p class="parrafo_2">Norma quinta. <em>Forma de declarar.</em></p>
+    <p class="parrafo_2">El apartado 1 quedará redactado así:</p>
+    <p class="sangrado_2">«1. Todas las comunicaciones de datos entre las entidades declarantes y la CIR, tales como declaraciones, rectificaciones y cancelaciones de datos, y peticiones de informes y códigos de no residentes, se realizarán por vía telemática.</p>
+    <p class="sangrado">Las declaraciones de datos de los titulares y las declaraciones de datos de los riesgos se transmitirán separadamente al Banco de España, de conformidad con las especificaciones técnicas que se comuniquen al efecto, de la siguiente forma:</p>
+    <p class="sangrado_2">a) Las declaraciones de datos de los titulares se deberán trasmitir desde el día siguiente al de la comunicación de los datos de los riesgos del mes anterior hasta el día en el que se remitan los datos de los riesgos del mes de la declaración.</p>
+    <p class="sangrado">Las entidades declarantes deberán arbitrar la fórmula que mejor convenga a su organización para transmitir los datos, cursando a la CIR diariamente una o varias declaraciones, en las que se comunicarán las altas de aquellos titulares de riesgos que por sus características (importe y plazo de vencimiento) sean declarables a fin de mes y todas las variaciones de datos de titulares previamente declarados que se conozcan, pudiendo existir un desfase de varios días entre la fecha en la que se origine el riesgo o variación del dato y la fecha en que se comunique a la CIR. No obstante lo anterior, cuando el número de declaraciones de titulares a comunicar en un determinado día sea inferior a 500, se podrá diferir su declaración, aunque, en todo caso, se deberá realizar como mínimo una transmisión semanal de datos.</p>
+    <p class="sangrado">Las declaraciones de titulares de riesgos que, por su naturaleza o vencimiento, como los descubiertos en cuenta corriente y demás saldos a la vista, no se pueda saber si son declarables hasta el final de mes se declararán obligatoriamente una vez finalizado éste, con independencia de cuando se hubiesen originado.</p>
+    <p class="sangrado">Las bajas de titulares podrán comunicarse a lo largo del mes en curso o al final del mismo, e incluirán las correspondientes a altas realizadas en el mes de titulares que finalmente no tengan riesgos declarables.</p>
+    <p class="sangrado">b) Las declaraciones de datos de los riesgos serán mensuales, habrán de referirse a la situación del último día del mes, y deberán ser trasmitidos dentro de los diez primeros días naturales del mes siguiente al que se refieren (o en el primer día hábil en Madrid posterior al día 10 si éste fuese festivo en dicha localidad), después del último envío de datos de titulares.</p>
+    <p class="sangrado">c) Las declaraciones complementarias con rectificaciones o cancelaciones de datos previamente declarados, se comunicarán tan pronto como la entidad declarante tenga conocimiento de que no reflejan la situación actual a la fecha de la declaración.</p>
+    <p class="sangrado_2">Excepcionalmente, por causa puntual justificada, previa conformidad del Departamento de Información Financiera y Central de Riesgos, los datos podrán remitirse en soporte magnético.»</p>
+    <p class="parrafo_2">El párrafo segundo de la letra b) del apartado 2 se sustituye por el siguiente texto:</p>
+    <p class="sangrado_2">«Aquellos cuyo titular tenga riesgos contraídos en el conjunto de los negocios en España y esté incurso en alguna de las situaciones recogidas en el campo “Situación concursal” con la letra B, C, D, E o F, o tenga algún riesgo que en la quinta posición de la clave de riesgo (“situación”) deba figurar con las letras C, D, E, F, G, H, I o J, sea cual fuere su causa y cuantía.»</p>
+    <p class="parrafo_2">La letra a) del apartado 3 se sustituye por el siguiente texto:</p>
+    <p class="sangrado_2">«a) En el formato del Anejo I se declararán los titulares, personas físicas o jurídicas, que sean alta, baja o cuyos datos varíen en el período.»</p>
+    <p class="parrafo_2">El apartado 4 se sustituye por el siguiente texto:</p>
+    <p class="sangrado_2">«La CIR no podrá modificar los datos declarados por las entidades, de los que éstas son responsables, y a quienes corresponde enviar declaraciones complementarias con las rectificaciones o cancelaciones de datos declarados erróneamente.»</p>
+    <p class="parrafo_2">Norma octava. Uso de la CIR por los declarantes.</p>
+    <p class="parrafo_2">La letra b) se sustituye por el siguiente texto:</p>
+    <p class="sangrado_2">«b) Previa solicitud en la que consten el nombre del titular y su código de identificación, también se proporcionará información similar a la del apartado a) anterior, referida a cualquier titular no declarado por la entidad peticionaria que haya solicitado una operación de riesgo o que figure como obligado al pago o garante en los documentos cambiarios o de crédito cuya adquisición o negociación haya sido solicitada a la entidad.</p>
+    <p class="sangrado">Cuando sea el titular quien solicite la operación de riesgo, para poder pedir a la CIR sus datos y en su caso los de cualquier garante, será suficiente que en la propia solicitud o en un documento adicional, que firme el solicitante, y, cuando proceda, el garante cuyos datos se quieren solicitar, conste una cláusula con el derecho de la entidad a consultarlos.</p>
+    <p class="sangrado">Cuando se ofrezca a la entidad la adquisición o negociación de documentos cambiarios o de crédito, para poder pedir a la CIR los datos del obligado al pago o garante de dichos documentos, será suficiente la solicitud de cesión y fotocopia de los mismos.</p>
+    <p class="sangrado">A estos efectos, la firma electrónica será admisible en los términos previstos en la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico, y en la Ley 59/2003, de 19 de diciembre, de firma electrónica, así como en la restante normativa reguladora de su eficacia.</p>
+    <p class="sangrado">Las entidades conservarán los justificantes de las solicitudes de datos a la CIR motivadas por operaciones que hubiesen sido denegadas durante el plazo establecido con carácter general en el artículo 30 del Código de Comercio.</p>
+    <p class="sangrado">A fin de asegurar el correcto cumplimiento de lo dispuesto en el párrafo anterior, el Banco de España podrá solicitar a las entidades declarantes la remisión de los citados justificantes, así como requerirles la implantación de los procedimientos y controles necesarios a tal efecto, sin perjuicio de las competencias de inspección y, en su caso, sanción, de la Agencia Española de Protección de Datos, tal como establece el artículo 67 de la Ley 44/2002.</p>
+    <p class="sangrado">En las solicitudes de informes sobre titulares no residentes en España, si la entidad peticionaria desconociese su código de identificación, deberá facilitar todos los datos relativos a la identificación del no residente que correspondan de acuerdo con lo dispuesto en el Anejo I.</p>
+    <p class="sangrado">Las solicitudes de informes se realizarán por transmisión telemática de acuerdo con las especificaciones técnicas que establezca el Banco de España.»</p>
+    <p class="parrafo_2">Se añade una nueva letra c) con el siguiente texto:</p>
+    <p class="sangrado_2">«c) Tan pronto como reciba declaraciones complementarias con rectificaciones o cancelaciones de datos previamente declarados, comunicará los datos corregidos a las entidades a las que previamente les hubiese cedido los erróneos.»</p>
+    <p class="parrafo_2">Norma novena. Consultas de los titulares.</p>
+    <p class="parrafo_2">El texto de esta norma se sustituye por el siguiente:</p>
+    <p class="sangrado_2">«Norma novena. Derechos de los titulares y suspensión de la cesión de sus datos.</p>
+    <p class="sangrado_2">1. Cualquier persona, física o jurídica, titular de un riesgo declarable a la CIR, podrá acceder a toda la información que le afecte. Adicionalmente las personas físicas podrán solicitar el nombre y dirección de los cesionarios a los que la CIR hubiese comunicado sus datos durante los últimos seis meses, junto con la información cedida en cada caso. Para ello será requisito indispensable que el interesado se identifique suficientemente ante la propia CIR o cualquier sucursal del Banco de España, o envíe una solicitud firmada por él o su representante a la CIR (Banco de España, C/ Alcalá 48, 28014 Madrid) en la que incluya la siguiente documentación e información:</p>
+    <p class="sangrado_2">A) Si se trata de personas físicas:</p>
+    <p class="sangrado_2">1. Nombre y apellidos completos del titular.</p>
+    <p class="sangrado">2. Fotocopia por ambas caras del Documento Nacional de Identidad (DNI), pasaporte u otro documento válido que identifique al titular y, en su caso, de su Número de Identificación Fiscal (NIF) o Número de Identificación de Extranjero (NIE).</p>
+    <p class="sangrado">3. Fotocopia, cuando proceda, por ambas caras del DNI, pasaporte o documento válido que identifique al representante del titular que solicite sus datos, así como del documento público que acredite, a juicio de la CIR, su derecho a obtener la información en su nombre.</p>
+    <p class="sangrado">4. Domicilio a efectos de notificación de los datos. Con carácter general, debería coincidir con el domicilio particular.</p>
+    <p class="sangrado">5. Teléfono de contacto para incidencias.</p>
+    <p class="sangrado_2">B) Si se trata de personas jurídicas:</p>
+    <p class="sangrado_2">1. Denominación social completa del titular.</p>
+    <p class="sangrado">2. Fotocopia del Código de Identificación Fiscal (CIF) o NIF del titular cuando lo tenga asignado.</p>
+    <p class="sangrado">3. Fotocopia del DNI, pasaporte u otro documento válido que identifique al representante del titular, así como del poder u otro documento público que acredite, a juicio de la CIR, su derecho a obtener la información en su nombre.</p>
+    <p class="sangrado">4. Domicilio de la persona jurídica a efectos de notificación. Con carácter general, debería coincidir con su domicilio social o aquél en el que esté efectivamente centralizada la gestión y dirección de las ocupaciones y negocios del titular.</p>
+    <p class="sangrado">5. Teléfono de contacto para incidencias.</p>
+    <p class="sangrado_2">Los datos solicitados serán suministrados por la CIR en el plazo máximo de diez días hábiles desde la recepción de la solicitud en el Banco de España en el formato del anejo III, incluyendo detalle de los riesgos por entidades declarantes.</p>
+    <p class="sangrado">2. Si el titular considera que los datos declarados a la CIR son inexactos o incompletos podrá dirigirse directamente a la entidad o entidades declarantes requiriendo su rectificación o cancelación, o solicitar al Banco de España que tramite su reclamación, para lo cual deberá identificar los datos que considera erróneos, así como justificar por escrito las razones y alcance de su petición.</p>
+    <p class="sangrado">El Banco de España dará traslado inmediato de las solicitudes de rectificación o cancelación a la entidad o entidades declarantes de los datos supuestamente inexactos o incompletos. En tanto las entidades declarantes dan respuesta a la solicitud de rectificación o cancelación presentada a través del Banco de España, la CIR suspenderá la cesión a terceros de los datos sobre los que verse la solicitud, así como de los congruentes con ellos que consten en sus ficheros consecuencia de declaraciones anteriores y posteriores.</p>
+    <p class="sangrado">Las entidades deberán contestar al titular y, en su caso, a la CIR (cuando la reclamación se hubiese tramitado a través del Banco de España), en el plazo máximo de 15 días hábiles, si el reclamante es una persona física, y de 20 días hábiles si se trata de una persona jurídica. El plazo se contará desde la recepción de la reclamación en cualquiera de las oficinas de la entidad.</p>
+    <p class="sangrado">Si la entidad accediese a lo solicitado por el reclamante, deberá enviar de inmediato a la CIR una declaración complementaria con las rectificaciones o cancelaciones de todos los datos declarados erróneamente. La CIR, a su vez, rectificará sus ficheros, desbloqueará la cesión de datos y comunicará los datos corregidos a las entidades a las que previamente les hubiese cedido los erróneos. Si, por el contrario, la entidad se ratifica en su declaración, deberá justificar los motivos de su decisión. En este último caso la CIR prorrogará la suspensión de la cesión de los datos controvertidos durante dos meses más, salvo que el titular admita la justificación dada por la entidad, en cuyo caso se desbloquearán inmediatamente.</p>
+    <p class="sangrado">Las personas físicas podrán formular contra las entidades declarantes la reclamación ante la Agencia Española de Protección de Datos a que se refiere el artículo 18 de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, cuando aquéllas no accedan a la rectificación o cancelación solicitada por el afectado, no haya sido contestada su solicitud dentro del plazo previsto al efecto.</p>
+    <p class="sangrado">La suspensión de la cesión de datos a terceros también procederá, con el mismo alcance señalado en el segundo párrafo de este apartado, cuando se acredite ante el Banco de España la admisión a trámite de cualquier acción judicial que se dirija a declarar la inexactitud de los datos declarados cuando la Agencia Española de Protección de Datos le comunique haber recibido una reclamación. En ambos casos el Banco de España informará de la suspensión a los terceros a los que, durante los seis meses anteriores a la fecha de la misma, se hubiesen cedido los datos afectados y congruentes con ellos. La suspensión de la cesión de los datos sobre los que verse la acción judicial o la reclamación ante la Agencia Española de Protección de Datos se mantendrá hasta que el Banco de España tenga constancia de la sentencia firme resolución acordada por la Agencia Española de Protección de Datos.</p>
+    <p class="sangrado">Las decisiones tomadas por las autoridades judiciales y por la Agencia Española de Protección de Datos serán de obligado cumplimiento para las entidades declarantes, quienes deberán, en su caso, realizar inmediatamente declaraciones complementarias a la CIR con las rectificaciones o cancelaciones de los datos en cuestión, así como de los congruentes con ellos que se contengan en otras declaraciones realizadas a la CIR, todo ello con arreglo al alcance de la correspondiente sentencia o resolución. Dichas sentencias o resoluciones se tendrán en cuenta en las sucesivas declaraciones que se remitan. La CIR una vez recibidos los datos correctos, rectificará sus ficheros, desbloqueará la cesión de los datos y comunicará la nueva situación a las entidades a las que previamente hubiese cedido datos erróneos.»</p>
+    <p class="parrafo_2">Norma décima. Responsabilidades y sanciones.</p>
+    <p class="parrafo_2">Se suprime el apartado 1 y el apartado 2 pasa a ser el único párrafo de esta Norma.</p>
+    <p class="parrafo_2">Anejos.</p>
+    <p class="parrafo_2">El Anejo I se sustituye por el que se adjunta al final de esta Circular.</p>
+    <p class="parrafo">Se suprimen los Anejos IV, IV bis y V.</p>
+    <p class="capitulo">DISPOSICIONES TRANSITORIAS</p>
+    <p class="articulo">Primera.</p>
+    <p class="parrafo_2">Las declaraciones de titulares, hasta las correspondientes a datos de 31 de octubre de 2004, inclusive, se continuarán presentando, junto con las declaraciones de riesgos, con los criterios de declaración y presentación vigentes a la entrada en vigor de la presente Circular. No obstante, en los campos «sector» y «situación concursal», se utilizarán las claves del nuevo Anejo I desde los datos correspondientes a 31 de agosto de 2004, inclusive.</p>
+    <p class="articulo">Segunda.</p>
+    <p class="parrafo_2">Adicionalmente, las altas de titulares correspondientes a 31 de agosto de 2004 y meses sucesivos se complementarán con otras declaraciones realizadas con los criterios del Anejo I aprobado por esta Circular, en las que se incluirán exclusivamente los nuevos datos y aquellos cuyo criterio de presentación hubiese variado en relación con el establecido con anterioridad.</p>
+    <p class="articulo">Tercera.</p>
+    <p class="parrafo_2">Para los titulares declarados antes del 31 de agosto de 2004 que continúen con riesgos declarables, se enviará a la CIR la siguiente información complementaria antes del 1 de noviembre de 2004:</p>
+    <p class="parrafo_2">a) Para las personas, físicas o jurídicas, no residentes en España; las sucursales, en España o en el extranjero, de entidades cuya sede social radique en otro país y las sociedades a las que pertenezcan dichas sucursales: Todos los datos complementarios a los que se refiere la Disposición transitoria segunda.</p>
+    <p class="parrafo">b) Para las personas físicas residentes en España: El campo relativo al nombre, separando el nombre de los apellidos.</p>
+    <p class="parrafo">c) Para los titulares residentes en España que sean personas jurídicas o físicas con la condición de empresarios: El campo relativo al sector.</p>
+    <p class="parrafo">d) Para las personas jurídicas residentes en España: El domicilio.</p>
+    <p class="parrafo_2">Adicionalmente, para todos los titulares declarados en el campo «situación concursal» con claves «suspensión de pagos con convenio de acreedores aprobado» o «moratoria», para los que conste que estén incumpliendo el convenio, se declarará una variación de datos, declarándolos en dicho campo con clave E.</p>
+    <p class="parrafo">Para los titulares residentes en España, la CIR podrá solicitar el resto de datos complementarios en cualquier momento cuando lo considere necesario para facilitar su identificación.</p>
+    <p class="articulo">Cuarta.</p>
+    <p class="parrafo_2">Excepcionalmente, las declaraciones de datos de titulares (altas, bajas y variaciones) correspondientes a noviembre de 2004, que ya se realizarán exclusivamente con los nuevos criterios de declaración de esta Circular, se comunicarán desde el día 20 de dicho mes.</p>
+    <p class="articulo">Quinta.</p>
+    <p class="parrafo_2">En el campo «categoría a efectos de requerimientos de recursos propios» se pondrá la clave E (resto de situaciones) mientras no se modifique la regulación sobre determinación y control de recursos propios, o lo convenga la entidad declarante con el Banco de España.</p>
+    <p class="capitulo">DISPOSICIÓN ADICIONAL</p>
+    <p class="articulo">Única.</p>
+    <p class="parrafo_2">Las menciones que se realizan en la Circular 3/1995 a la Oficina de Documentación y Central de Riesgos se entenderán hechas al Departamento de Información Financiera y Central de Riesgos.</p>
+    <p class="capitulo">DISPOSICIÓN FINAL</p>
+    <p class="articulo">Única.</p>
+    <p class="parrafo_2">La presente Circular entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado» en lo que se refiere a las modificaciones introducidas en las normas octava y novena de la Circular 3/1995, de 25 de septiembre, y el 31 de agosto de 2004 en todo lo demás, con las precisiones introducidas en las Disposiciones Transitorias.</p>
+    <p class="anexo_num">ANEJO I</p>
+    <p class="anexo_tit">Datos y circunstancias de los titulares</p>
+    <p class="parrafo_2">1. Información a declarar:</p>
+    <p class="parrafo_2">1.1 Modelo estándar:</p>
+    <p class="parrafo_2">Identificación del titular:</p>
+    <p class="parrafo_2">Código de identificación en la CIR.</p>
+    <p class="parrafo">Nombre.</p>
+    <p class="parrafo">Forma social (sólo para personas jurídicas).</p>
+    <p class="parrafo">Domicilio:</p>
+    <p class="parrafo_2">País.</p>
+    <p class="parrafo">Ciudad.</p>
+    <p class="parrafo">Sigla de la vía.</p>
+    <p class="parrafo">Nombre de la vía.</p>
+    <p class="parrafo">Número o letra.</p>
+    <p class="parrafo">Código postal.</p>
+    <p class="parrafo_2">Fecha de nacimiento (sólo para personas físicas).</p>
+    <p class="parrafo">Código NIE o NIF (sólo para titulares no residentes en España).</p>
+    <p class="parrafo">Número de pasaporte o de identidad válido en país de origen (sólo para titulares no residentes en España).</p>
+    <p class="parrafo">Código fiscal en el país de residencia (sólo para titulares no residentes en España).</p>
+    <p class="parrafo">Código ISIN (sólo para titulares no residentes en España).</p>
+    <p class="parrafo">Código SWIFT (sólo para titulares no residentes en España).</p>
+    <p class="parrafo">Otros códigos de identificación (sólo para titulares no residentes en España).</p>
+    <p class="parrafo_2">Grupo económico.</p>
+    <p class="parrafo">Código de identificación de la sociedad a la que pertenece (solo para sucursales).</p>
+    <p class="parrafo">Provincia (sólo para residentes en España).</p>
+    <p class="parrafo">Sector.</p>
+    <p class="parrafo">Actividad económica (CNAE).</p>
+    <p class="parrafo">Situación concursal.</p>
+    <p class="parrafo">Categoría a efectos de requerimientos de recursos propios.</p>
+    <p class="parrafo">Tipo de información.</p>
+    <p class="parrafo_2">1.2 Modelo para socios colectivos y componentes de agrupaciones de interés económico (AIE):</p>
+    <p class="parrafo_2">Código de identificación de la sociedad o AIE en la CIR.</p>
+    <p class="parrafo">Código de identificación del socio o componente de la AIE en la CIR.</p>
+    <p class="parrafo">Nombre del socio o miembro de la AIE.</p>
+    <p class="parrafo">Tipo de información.</p>
+    <p class="parrafo_2">2. Contenido de los campos:</p>
+    <p class="parrafo_2">2.1 Modelo estándar:</p>
+    <p class="parrafo_2">Identificación del titular:</p>
+    <p class="parrafo">Código de identificación en la CIR:</p>
+    <p class="parrafo_2">1. El código de identificación constará de veintidós posiciones, de las cuales, las dos primeras por la izquierda, las ocupará el código ISO alfabético del país de residencia del titular, salvo cuando éste sea España, en cuyo caso se dejarán sin contenido.</p>
+    <p class="parrafo">2. A partir de la tercera posición contada desde la izquierda se recogerán los códigos que siguen, dejando en blanco las posiciones que resten:</p>
+    <p class="parrafo_2">Cuando el titular sea residente en España:</p>
+    <p class="parrafo_2">Para las personas físicas de nacionalidad española, el número de identificación fiscal (NIF) (Real Decreto 338/1990, de 9 de marzo).</p>
+    <p class="parrafo">Para las personas físicas que carezcan de la nacionalidad española, el número personal de identificación de extranjero (NIE) que se les asigne (Real Decreto 864/2001, de 20 de julio) o, cuando no sea obligatorio éste, el número de identificación fiscal que tengan asignado por realizar operaciones con trascendencia tributaria.</p>
+    <p class="parrafo">Para las personas jurídicas, incluidas las sucursales en España de empresas extranjeras, su código de identificación fiscal (Decreto 2423/1975, de 25 de septiembre y OM de 3 de julio de 1998).</p>
+    <p class="parrafo">Las dos últimas posiciones del código de identificación se cumplimentarán, exclusivamente cuando existan problemas de identificación, con los dígitos que indique la Central de Información de Riesgos. En los demás casos, estas posiciones quedarán sin contenido.</p>
+    <p class="parrafo_2">Cuando el titular sea un no residente en España (incluidas las sucursales en el extranjero de entidades españolas):</p>
+    <p class="parrafo_2">El código lo asignará el Banco de España. Para ello las entidades declarantes, cuando soliciten la asignación del código, comunicarán telemáticamente, de acuerdo con las instrucciones técnicas que se especifiquen, los restantes datos relativos a la «identificación del titular» que le correspondan de acuerdo con el presente Anejo. El Banco enviará por la misma vía el código adjudicado.</p>
+    <p class="parrafo_2">Nombre: Se incluirá el nombre y apellidos o denominación social completa de los titulares, incluida su forma social, utilizando en todo caso el alfabeto latino, sin emplear abreviaturas, excepto en la forma social, que sí aparecerá abreviada. Los apellidos y nombre de las personas físicas se declararán de forma separada.</p>
+    <p class="parrafo">Forma social: Para las personas jurídicas españolas, se utilizarán las abreviaturas para indicar la forma social que establece el artículo 403 del Reglamento del Registro Mercantil (Real Decreto 1784/1996, de 19 de julio). Para los titulares no residentes se consignarán las abreviaturas que se utilicen en el país del titular, utilizando en todo caso el alfabeto latino. No obstante lo anterior, todas las sucursales de sociedades cuya sede social radique en otro país se identificarán como «SUC».</p>
+    <p class="parrafo">Domicilio: En este campo se incluirá:</p>
+    <p class="parrafo_2">Para las personas físicas residentes en España, el domicilio personal que coincidirá normalmente con el que figura en el Documento Nacional de Identidad (DNI) o NIE.</p>
+    <p class="parrafo">Para las personas físicas no residentes en España, el domicilio que figure en el pasaporte u otro documento de identificación válido en su país de origen.</p>
+    <p class="parrafo">Para las personas jurídicas, su sede social o el domicilio donde radique efectivamente centralizada la gestión y dirección de sus ocupaciones y negocios.</p>
+    <p class="parrafo">Código NIE o NIF: En este campo se indicará, para los titulares no residentes en España, el Número de Identidad de Extranjero o Número de Identificación Fiscal que, en su caso, tengan asignado.</p>
+    <p class="parrafo">Número de pasaporte o de identidad válido en país de origen: En este campo se indicará, para los titulares no residentes en España que carezcan de NIE, el número de pasaporte o de otro documento de identidad válido en su país de origen.</p>
+    <p class="parrafo">Código fiscal en el país de residencia: En este campo se indicará, para los titulares no residentes en España, siempre que se disponga, el código de identificación fiscal que tenga asignado en su país de residencia.</p>
+    <p class="parrafo">Código ISIN: Cuando un titular no residente en España tenga emitidos valores cotizados, si se conoce, se comunicará, exclusivamente en el momento de solicitar el «código de identificación en la CIR», el código alfanumérico ISIN de alguna de sus emisiones de valores con saldo vivo.</p>
+    <p class="parrafo">Código SWIFT: En este campo se indicará, cuando proceda, para los titulares no residentes en España, el código de identificación universal que tengan asignado.</p>
+    <p class="parrafo">Otros códigos de identificación: En este campo se indicará para los titulares franceses, el código SIREN; para los portugueses, el código NIPC, y para el resto de titulares no residentes en España, siempre que se disponga, el código de identificación que le haya asignado la cámara de comercio u otro organismo que se encargue de dicha función en su país de residencia.</p>
+    <p class="parrafo">Grupo económico: La entidad declarante asignará un código de 22 posiciones para relacionar todos los titulares con riesgos declarables que formen parte de un mismo grupo económico, tal como se define en el artículo 5.º del Real Decreto 1343/1992, de 6 de noviembre, de desarrollo de la Ley 13/1992, de 1 de junio, de recursos propios y supervisión en base consolidada de las entidades financieras. El mismo código también se asignará a las Administraciones Públicas, personas físicas, o grupos de personas físicas que actúen sistemáticamente en concierto, que siendo titulares de riesgos declarables controlen a una entidad o grupo de entidades con riesgos declarables.</p>
+    <p class="parrafo">Una vez asignado un código para relacionar a los titulares de un grupo económico, se mantendrá en las futuras altas de titulares que pertenezcan al mismo grupo.</p>
+    <p class="parrafo">Código de identificación de la sociedad a la que pertenece: Cuando el titular sea una sucursal en España o en el extranjero de una entidad cuya sede social radique en otro país, se indicará el código de identificación de la sociedad de la que forme parte. Cuando ésta no resida en España, la entidad declarante, si no conoce su código, solicitará previamente al Banco de España que se lo asigne; para ello, facilitará todos los datos que exige este Anejo para su identificación.</p>
+    <p class="parrafo">Provincia: Para los residentes en España, se indicará el código de dos cifras correspondiente a la provincia donde esté efectivamente centralizada la gestión y dirección de las ocupaciones y negocios del titular. Cuando este criterio no sea aplicable, o se desconozca el dato, se pondrá la provincia donde esté situado el domicilio social del titular. Para los no residentes en España, se dejará sin cumplimentar.</p>
+    <p class="parrafo">Sector: En este campo se indicará el sector institucional al que pertenezca el titular. Para su asignación se utilizarán los criterios que establece la norma séptima de la Circular 4/1991 para los titulares residentes y no residentes en España. Las claves a utilizar serán las siguientes:</p>
+    <p class="parrafo_2">A. Administraciones Centrales.</p>
+    <p class="parrafo">B. Administraciones Autonómicas o Regionales.</p>
+    <p class="parrafo">C. Administraciones Locales.</p>
+    <p class="parrafo">D. Administraciones de la Seguridad Social.</p>
+    <p class="parrafo">E. Organismos internacionales y supranacionales.</p>
+    <p class="parrafo">F. Bancos multilaterales de desarrollo.</p>
+    <p class="parrafo">G. Entidades de crédito.</p>
+    <p class="parrafo">H. Bancos centrales (incluido el Banco Central Europeo) y autoridades monetarias nacionales.</p>
+    <p class="parrafo">I. Resto instituciones financieras monetarias.</p>
+    <p class="parrafo">J. Seguros y fondos de pensiones.</p>
+    <p class="parrafo">K. Otros intermediarios financieros.</p>
+    <p class="parrafo">L. Auxiliares financieros.</p>
+    <p class="parrafo">M. Otros organismos públicos vinculados a la Administración Central española.</p>
+    <p class="parrafo">N. Otros organismos públicos vinculados a Administraciones Autonómicas españolas.</p>
+    <p class="parrafo">O. Otros organismos públicos vinculados a Administraciones Locales españolas.</p>
+    <p class="parrafo">P. Otras sociedades no financieras vinculadas a la Administración Central española.</p>
+    <p class="parrafo">Q. Otras sociedades no financieras vinculadas a Administraciones Autonómicas españolas.</p>
+    <p class="parrafo">R. Otras sociedades no financieras vinculadas a Administraciones Locales españolas.</p>
+    <p class="parrafo">S. Otras sociedades no financieras.</p>
+    <p class="parrafo">T. Instituciones sin fines de lucro al servicio de los hogares.</p>
+    <p class="parrafo">U. Personas físicas empresarios.</p>
+    <p class="parrafo">V. Resto de personas físicas.</p>
+    <p class="parrafo_2">A las personas físicas empresarios se les asignará dicho sector, siempre que alguna operación u operaciones a declarar a su nombre esté vinculada a su actividad empresarial.</p>
+    <p class="parrafo">Actividad económica: Para las personas jurídicas (con la excepción de las instituciones sin fines de lucro al servicio de los hogares) y para las personas físicas que desarrollen una actividad económica (empresarios individuales), se hará constar la clave de actividad según la CNAE (Real Decreto 1560/1992, de 18 de diciembre) al nivel de tres dígitos. Para el resto de las personas físicas y las instituciones sin fines de lucro al servicio de los hogares, se utilizarán las claves FAM e ISL, respectivamente.</p>
+    <p class="parrafo">Si la persona jurídica o empresario individual desarrolla más de una actividad económica, se señalará la actividad principal.</p>
+    <p class="parrafo">Situación concursal: En este campo se indicará la fase de la situación concursal en la que, en su caso, se encuentre el titular. Las claves de este campo son:</p>
+    <p class="parrafo_2">A. Normal.</p>
+    <p class="parrafo">B. Concurso de acreedores sin petición de liquidación.</p>
+    <p class="parrafo">C. Concurso de acreedores con petición de liquidación.</p>
+    <p class="parrafo">D. Convenio de acreedores sin incumplimiento.</p>
+    <p class="parrafo">E. Convenio de acreedores con incumplimiento.</p>
+    <p class="parrafo">F. Liquidación.</p>
+    <p class="parrafo_2">La asignación de claves se realizará de acuerdo con lo dispuesto en la Ley 22/2003, de 9 de julio, Concursal, utilizando los siguientes criterios: La clave A, cuando el titular no esté declarado en concurso de acreedores; la clave B, cuando se haya declarado concurso de acreedores pero no se haya aprobado judicialmente el convenio ni conste que el deudor haya pedido la liquidación; la clave C, cuando estando declarado concurso de acreedores conste que el deudor ha solicitado la liquidación; la clave D, cuando se haya aprobado judicialmente el convenio de acreedores y no conste su incumplimiento por el deudor; la clave E, cuando habiéndose aprobado judicialmente el convenio de acreedores conste su incumplimiento por el deudor, y la clave F, cuando, estando declarado concurso de acreedores, se dicte resolución judicial declarando la apertura de la fase de liquidación.</p>
+    <p class="parrafo">Los titulares con procedimientos concursales en tramitación antes de la entrada en vigor de la Ley 22/2003 se declararán de la siguiente forma: suspensión de pagos sin convenio aprobado, con clave B; convenio de acreedores aprobado y moratoria sin que conste su incumplimiento por el deudor, con clave D; convenio de acreedores aprobado y moratoria en los que conste su incumplimiento por el deudor, con clave E y quiebra e insolvencia, con clave F.</p>
+    <p class="parrafo">Las situaciones concursales de otros países se equipararán a las españolas por analogía.</p>
+    <p class="parrafo">Categoría a efectos de requerimientos de recursos propios: Este campo indica en qué categoría está incluido el titular a efectos de calcular los requerimientos de recursos propios mínimos por riesgo de crédito. Las claves a utilizar son:</p>
+    <p class="parrafo_2">A. Soberano o asimilado.</p>
+    <p class="parrafo">B. Interbancario o asimilado.</p>
+    <p class="parrafo">C. Empresa o asimilado.</p>
+    <p class="parrafo">D. Minorista o asimilado.</p>
+    <p class="parrafo">E. Resto de situaciones.</p>
+    <p class="parrafo_2">La asignación de las claves se realizará de acuerdo con los criterios vigentes en cada momento para la determinación de recursos propios mínimos.</p>
+    <p class="parrafo">Tipo de información: Este campo indica el tipo de información (alta, baja, variación de datos, etc.) que se transmite al Banco de España de acuerdo con las instrucciones técnicas que se especifiquen.</p>
+    <p class="parrafo_2">2.2 Modelo para socios colectivos y componentes de agrupaciones de interés económico (AIE):</p>
+    <p class="parrafo_2">Este modelo de información se utilizará exclusivamente para declarar los socios de las sociedades colectivas, los socios colectivos de las sociedades comanditarias simples y los componentes de las Agrupaciones de Interés Económico.</p>
+    <p class="parrafo">El contenido de los campos es idéntico al del modelo estándar. Cuando los socios colectivos o los componentes de la AIE a declarar sean no residentes en España, su código de identificación en la CIR lo asignará el Banco de España. Para ello las entidades declarantes, cuando soliciten la asignación del código, comunicarán telemáticamente, de acuerdo con las instrucciones técnicas que se especifiquen, los datos relativos a la «identificación del titular» correspondientes al «modelo estándar» que correspondan de acuerdo con lo indicado en los puntos 1.1 y 1.2 del presente Anejo. El Banco enviará por la misma vía el código adjudicado.</p>
+    <p class="parrafo_2">Madrid, 29 de junio de 2004.—El Gobernador, Jaime Caruana Lacorte.</p>
+  </texto>
+</documento>
