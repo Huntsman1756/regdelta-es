@@ -81,12 +81,22 @@ Component(s) of the project addressing each problem:
 ## 5. Technical extraction
 
 - The **Work/Expression/Manifestation** split as the reference
-  vocabulary for RegDelta's portability boundary:
-  `locator_key` + `subject` ≈ Work-level identity;
-  bound `representation` (byte span + serialization) ≈
-  Manifestation-level evidence; a *subject identity that survives
-  renumbering* is the wId concept RegDelta currently lacks as a
-  first-class object
+  vocabulary for RegDelta's portability boundary — a *three*-layer
+  mapping, not two:
+  subject identity (`subject` + `locator_key` as its evidence-
+  derived spelling) ≈ Work-like identity;
+  the subject's legal state at a point in time (what a bound
+  representation asserts about the subject under a given
+  publication) ≈ Expression-like state;
+  captured XML/PDF/image/table bytes ≈ Manifestation-like
+  evidence. The intermediate layer matters: a single subject
+  identity carries a *different* current legal text after a
+  modification, and the bytes proving it are yet another thing —
+  collapsing Expression→Manifestation would re-merge legal state
+  with evidence artifact, which is exactly the conflation
+  `binding_proof` exists to prevent. A subject identity surviving
+  renumbering is the wId concept RegDelta lacks as a first-class
+  object
 - `eId` renumber semantics: eIds follow position, wIds follow
   identity — prior art for `problems/stable-node-identity.md` and
   for the redesignation edge model (EXP-B1)
@@ -140,10 +150,11 @@ from locator spelling (redesignation, renumbering).
 
 ## 10. Decision rationale
 
-- what_we_reuse: the FRBR W/E/M layering as the vocabulary for the
-  portability boundary; the eId-vs-wId distinction as prior art for
-  stable subject identity under renumbering; the
-  profile-as-restriction mechanism shape
+- what_we_reuse: the FRBR W/E/M layering as a three-level
+  vocabulary for the portability boundary (subject identity /
+  legal state at a time / captured bytes); the eId-vs-wId
+  distinction as prior art for stable subject identity under
+  renumbering; the profile-as-restriction mechanism shape
 - what_we_explicitly_do_not_reuse: AKN as a storage or
   representation format — adopting it would require normalizing
   official bytes into authored markup, which is precisely what
