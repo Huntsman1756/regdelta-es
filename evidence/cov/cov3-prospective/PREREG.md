@@ -52,6 +52,29 @@ exclude it from this holdout for criterion 2: the *modification
 event* is new evidence posterior to the freeze. The seen-set
 constrains reuse of already-opened *content*, not future events.
 
+Every admitted entry is classified at admission into exactly one
+entry class, recorded in the manifest:
+
+```text
+FRESH_EVENT_FRESH_TARGET      instrument never in the seen-set —
+                              both target and event are new
+FRESH_EVENT_EXISTING_TARGET   instrument already semantically
+                              opened by a prior gate; only the
+                              modification event is new
+```
+
+This distinction is frozen here, before the first prospective
+event. The two classes support different claims:
+
+- `FRESH_EVENT_FRESH_TARGET` evidence bears on generalization to
+  unseen targets/structure.
+- `FRESH_EVENT_EXISTING_TARGET` evidence bears on temporal
+  generalization to new modification events only — the target's
+  structure already participated in DEV, so it must not be
+  reported as evidence of cross-target generalization.
+
+Results are reported per class, never pooled.
+
 ## 4. Eligibility rule (unchanged from COV-3)
 
 Identical to the executed COV-3 selection rule, evaluated on
@@ -76,12 +99,16 @@ selection required. Each entry is recorded in
 `holdout-manifest.json` (to be created at materialization) with:
 
 - boe_id, titulo, stratum, declared_modifier_count, rank_key
+- entry_class (`FRESH_EVENT_FRESH_TARGET` /
+  `FRESH_EVENT_EXISTING_TARGET`) per §3
 - observation date and the trigger event that admitted it
 - source metadata hash (sha256 of the diario XML)
 
 HISTORICAL_PREDECESSOR entries may be captured alongside but do not
 count toward the quorum and are evaluated only as the
-non-regression stratum.
+non-regression stratum. The quorum counts eligible
+CURRENT_OPERATIONAL entries of either entry class; the class
+affects the claim's scope (§8), not eligibility.
 
 ## 6. Immutability on entry
 
@@ -112,7 +139,11 @@ not the runtime, is what must be fixed.
 - **PASS evidence**: holdout bindings audited by the frozen
   evaluator with `FALSE_* = 0` and binding rates consistent with
   the DEV-hardened runtime → supports (does not prove) that the
-  COV-2 mechanisms generalize temporally.
+  COV-2 mechanisms generalize. The claim's scope follows the
+  entry class: `FRESH_EVENT_EXISTING_TARGET` supports temporal
+  generalization over new modification events; only
+  `FRESH_EVENT_FRESH_TARGET` supports generalization to unseen
+  targets.
 - **Failure handling**: any `FALSE_* > 0`, or a binding collapse
   traceable to grammar assumptions, is a defect report against the
   frozen runtime — it does not reopen DEV tuning; fixes enter only
