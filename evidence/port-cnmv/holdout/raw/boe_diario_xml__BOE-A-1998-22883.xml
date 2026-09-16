@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251218182602">
+  <metadatos>
+    <identificador>BOE-A-1998-22883</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>19980922</fecha_disposicion>
+    <numero_oficial>3/1998</numero_oficial>
+    <titulo>Circular 3/1998, de 22 de septiembre, de la Comisión Nacional del Mercado de Valores, sobre operaciones en instrumentos derivados de las Instituciones de Inversión Colectiva.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>19981002</fecha_publicacion>
+    <diario_numero>236</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>32856</pagina_inicial>
+    <pagina_final>32896</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/1998/10/02/pdfs/A32856-32896.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>S</estatus_derogacion>
+    <fecha_derogacion>20110112</fecha_derogacion>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>S</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/1998/09/22/3</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/1998/09/22/3">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-22883</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-09-22</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3792"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3794"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5738"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6689"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/1998/09/22/3/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-1998-22883</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-09-22</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3792"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3794"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/5738"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6689"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/cir/1998/09/22/3/corrigendum/19981222/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/1998/09/22/3"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/1998/09/22/3/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/1998, de 22 de septiembre, de la Comisión Nacional del Mercado de Valores, sobre operaciones en instrumentos derivados de las Instituciones de Inversión Colectiva.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-10-02</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/1998/09/22/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1998/09/22/3/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1998/09/22/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1998/09/22/3/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1998/09/22/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/1998/09/22/3/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/1998/09/22/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="1627" orden="1">Contabilidad</materia>
+      <materia codigo="3792" orden="2">Fondos de Inversión en Activos del Mercado Monetario</materia>
+      <materia codigo="3794" orden="3">Fondos de Inversión Mobiliaria</materia>
+      <materia codigo="4302" orden="4">Instituciones de Inversión Colectiva</materia>
+      <materia codigo="5738" orden="5">Productos financieros derivados</materia>
+      <materia codigo="6689" orden="6">Sociedades de Inversión Mobiliaria</materia>
+    </materias>
+    <notas>
+      <nota codigo="10" orden="200">Entrada en vigor:  según se indica el 1 de abril de 1999.</nota>
+    </notas>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-1997-18096" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>nota 7 del anexo 1 de la Circular 3/1997, de 29 de julio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1991-233" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>normas 2 y 3 de la Circular 8/1990, de 27 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1991-232" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>norma 11 y deroga las normas 17 y 18 de la Circular 7/1990, de 27 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1997-12849" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la Orden de 10 de junio de 1997</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1997-28053" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Ley 66/1997, de 30 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1997-26636" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Circular 4/1997, de 26 de diciembre ,</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1994-8489" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Ley 3/1994, de 14 de abril</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1992-21022" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Orden de 30 de julio de 1992 ,</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1990-30944" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Orden de 20 de diciembre de 1990 ,</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1990-27554" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Reglamento aprobado por Real Decreto 1393/1990, de 2 de noviembre ,</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1984-28136" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Ley 46/1984, de 26 de diciembre ,</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2011-551" orden="">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>, por Circular 6/2010, de 21 de diciembre</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2001-8869" orden="1">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>la norma 21.c).II), por Circular 1/2001, de 18 de abril</texto>
+        </posterior>
+        <posterior referencia="BOE-A-1998-29502" orden="2">
+          <palabra codigo="201">CORRECCIÓN de errores</palabra>
+          <texto>en BOE núm. 305, de 22 de diciembre de 1998</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas/>
+  </analisis>
+  <texto>
+    <p class="parrafo">La publicación de la Orden de 10 de junio de 1997, sobre operaciones de las Instituciones de Inversión Colectiva (en adelante, IIC), de carácter financiero en instrumentos derivados (en adelante, la Orden), amplía el ámbito de actuación de las IIC en lo referente a la inversión en este tipo de productos, especialmente en lo que respecta a la posibilidad de operar en productos no negociados en mercados organizados. Esta mayor capacidad operativa viene acompañada del establecimiento de determinados límites de carácter cuantitativo y cualitativo para la cobertura de los riesgos asumidos.</p>
+    <p class="parrafo">El establecimiento de sistemas y procedimientos para el control del riesgo operativo y la modificación del régimen de transparencia informativa a los partícipes en desarrollo de las prescripciones de la Orden constituyen los objetivos principales de la Circular 3/1997, de 29 de julio, de la Comisión Nacional del Mercado de Valores (en adelante, la CNMV), sobre obligaciones de información a socios y partícipes de IIC de carácter financiero y determinados desarrollos de la aludida Orden (en adelante, Circular 3/1997). La presente Circular completa la anterior normativa, siendo su objeto fundamental la concreción de los límites a la utilización de instrumentos derivados de carácter financiero por riesgo de mercado y de contraparte.</p>
+    <p class="parrafo">Tras un primer capítulo de definiciones, los capítulos II a IV se dedican al desarrollo de los límites establecidos en la Orden a la utilización de instrumentos derivados por riesgo de mercado.</p>
+    <p class="parrafo">El capítulo II recoge las normas generales para la determinación del límite a los compromisos asumidos por operaciones en derivados establecido por la Orden. A efectos de otorgar un tratamiento consistente al amplio abanico de instrumentos derivados sobre los también variados subyacentes contemplados en la Orden, para el cómputo de los compromisos se ha considerado conveniente partir de una estimación de la pérdida potencial máxima que las posiciones en dichos instrumentos derivados pueden suponer para la IIC.</p>
+    <p class="parrafo">En el ámbito de desarrollo de la Orden y al igual que sucedía respecto a las obligaciones de control interno concretadas en la mencionada Circular 3/1997, el alcance de la presente normativa sólo puede ser el establecimiento de límites de riesgo sobre los instrumentos derivados. Es por ello que, aunque el resto de elementos patrimoniales puedan exponer a la entidad a riesgos de parecida o igual naturaleza que los instrumentos derivados, la Circular que desarrollamos únicamente los contempla a efectos de compensación de los riesgos creados por la operativa en derivados y, por tanto, reducción del compromiso y verificación, cuando es precisa, del requisito de cobertura.</p>
+    <p class="parrafo">En este mismo capítulo II se incluye la definición del concepto de cobertura, para su aplicación en los variados contextos en que dicho concepto se utiliza, tanto en la Orden como en la propia Circular. Como se verá, el criterio seguido para la definición de un concepto que se presta a tan variadas vías interpretativas posee un carácter pragmático y simplificador, al establecer un completo paralelismo entre el concepto de cobertura y la admisión de compensaciones.</p>
+    <p class="parrafo">El capítulo III presenta ya la primera aproximación, el denominado método estándar, para el cálculo de los compromisos por operaciones en derivados, así como las condiciones en que podrán compensarse dichas operaciones en instrumentos derivados entre sí y, en su caso, con otros elementos patrimoniales. La metodología seguida es marcadamente similar a la aproximación vigente para la determinación de los recursos propios en cobertura del riesgo de mercado de la cartera de negociación de intermediarios financieros y entidades de crédito. En lo que se refiere a la determinación del compromiso en las posiciones denominadas en moneda extranjera, se ha trasladado el enfoque utilizado por el Banco de España para el establecimiento de límites de riesgos por posiciones en divisas sobre las entidades bajo su supervisión. Las únicas modificaciones introducidas tienen por objetivo la adaptación al nuevo contexto europeo determinado por la Unión Monetaria y la incorporación del euro.</p>
+    <p class="parrafo">El capítulo IV, por su parte, establece las condiciones precisas para la aplicación del método libre a estos mismos efectos. La mayoría de estas condiciones son cualitativas, y las cuantitativas poseen un carácter casi siempre genérico, en reconocimiento de las dificultades de consagrar una determinada metodología y unos únicos parámetros como universalmente válidos para la estimación de las pérdidas potenciales de todas las carteras y bajo cualesquiera condiciones de mercado.</p>
+    <p class="parrafo">Con la incorporación de este método libre, y siguiendo las directrices ya establecidas por el Comité de Supervisión Bancaria de Basilea y la reciente Directiva de Adecuación de Capital de la Unión Europea, la CNMV está reconociendo que el método estándar de estimación de riesgos adolece de ciertas imprecisiones, debido a su carácter generalizador y simplificador, por lo que permite, con cautela, que aquellas entidades que demuestren de forma fehaciente su competencia y suficiencia de medios realicen una estimación más exacta y acorde con la naturaleza de su propia cartera.</p>
+    <p class="parrafo">El capítulo V establece unas medidas de urgencia para aquellos casos en que se produzcan oscilaciones extremas en los precios y tipos de mercado que reduzcan la eficacia de los coeficientes establecidos en los métodos de determinación del compromiso.</p>
+    <p class="parrafo">Finalmente, el capítulo VI concreta el modo de cálculo del límite específico a la compra de opciones incluido en la Orden.</p>
+    <p class="parrafo">Finalizada la descripción de los métodos para la determinación del compromiso, el capítulo VII establece unos criterios para la valoración de los instrumentos derivados y sus subyacentes. La compleja tipología de las opciones hace que la enumeración de criterios para este tipo de posiciones posea un carácter más exhaustivo.</p>
+    <p class="parrafo">El capítulo VIII establece el procedimiento a seguir en caso de superación de los límites en los supuestos contemplados en los artículos segundo.4 y tercero.4 de la Orden.</p>
+    <p class="parrafo">El capítulo IX concreta los requisitos de solvencia exigidos en el artículo cuarto.1.b) de dicha Orden a las contrapartes de las IIC en las operaciones no negociadas a través de mercados organizados de derivados. El ámbito de aplicación de dichos requisitos se amplía a las entidades que actúen como garantes de las IIC.</p>
+    <p class="parrafo">Con ello llegamos ya al ámbito de las disposiciones adicionales. La primera modifica la normativa de las IIC, relativa a la remisión de información. Por su parte, la segunda, dedicada a la concreción de los límites de la Orden a la utilización de instrumentos derivados por riesgo de contraparte, sujeta las posiciones en dichos instrumentos derivados no negociados en mercados organizados de derivados a los límites generales establecidos en el artículo 4 del Reglamento de la Ley 46/1984, de 26 de diciembre, reguladora de las Instituciones de Inversión Colectiva, aprobado por el Real Decreto 1393/1990, de 2 de noviembre.</p>
+    <p class="parrafo">La disposición adicional tercera se dedica a la modificación del activo computable al incluir la consideración de las posiciones en instrumentos derivados a efectos de determinación de los coeficientes generales de inversión.</p>
+    <p class="parrafo">En las disposiciones adicionales cuarta y quinta se introducen, respectivamente, determinadas modificaciones a las normas contables recogidas en la norma 11 de la Circular 7/1990, de la CNMV, y a la Nota Aclaratoria 7 del anexo 1 de la Circular 3/1997.</p>
+    <p class="parrafo">Finalmente, se incluyen, como anexo, los nuevos estados que recogen la información reservada que las Instituciones deben remitir a la CNMV en relación con su operativa en instrumentos derivados.</p>
+    <p class="parrafo">En su virtud, haciendo uso de las habilitaciones contenidas en las Órdenes de 10 de junio de 1997, de 30 de julio de 1992 y de 20 de diciembre de 1990, previo informe del Comité Consultivo de la CNMV, el Consejo de la CNMV, en su reunión de 22 de septiembre de 1998, ha dispuesto:</p>
+    <p class="capitulo_num">CAPÍTULO I</p>
+    <p class="capitulo_tit">Definiciones</p>
+    <p class="articulo">Norma 1. Definiciones.</p>
+    <p class="parrafo">1. A los efectos de la presente Circular, se entenderá por:</p>
+    <p class="parrafo_2">a) Instrumentos derivados: Cualquiera de las operaciones citadas en el artículo primero.2 de la Orden.</p>
+    <p class="parrafo">b) Activos financieros cubiertos: Cualquier activo apto para la inversión de las IIC distinto de los instrumentos derivados y que se halla cubierto por éstos, según el concepto de cobertura recogido en la norma 5 de la presente Circular.</p>
+    <p class="parrafo">c) Instrumentos financieros: Instrumentos derivados y activos financieros cubiertos.</p>
+    <p class="parrafo">d) Posición neta primaria: Posición resultante de compensar, esto es, calcular la diferencia entre las posiciones largas y cortas en un mismo instrumento financiero.</p>
+    <p class="parrafo">e) Posición neta secundaria: Posición resultante de calcular la diferencia entre posiciones netas primarias largas y cortas, es decir, compensar distintos instrumentos financieros, siempre que dicha compensación sea admisible.</p>
+    <p class="parrafo">f) Subyacente: Activo que es objeto de adquisición o enajenación real o teórica en la liquidación del instrumento derivado, y sobre el que pueden negociarse instrumentos derivados según la relación citada en el artículo primero.2 de la Orden.</p>
+    <p class="parrafo">g) Delta: Factor que mide la variación prevista del precio de la opción en relación con una ligera variación del precio de su subyacente.</p>
+    <p class="parrafo">h) Riesgo general: Riesgo de que se produzca una pérdida en un determinado instrumento financiero debida a un movimiento general registrado en el nivel de los tipos de interés, tipos de cambio o precios de las acciones y no imputable a determinadas características específicas del instrumento financiero de que se trate.</p>
+    <p class="parrafo">i) Riesgo específico: Riesgo de que se produzca una pérdida en un determinado instrumento financiero por causas explícitamente relacionadas con su emisor o, si se trata de un instrumento derivado, con el emisor de su subyacente.</p>
+    <p class="parrafo">j) Operaciones OTC: Operaciones con instrumentos derivados no negociados en mercados organizados de derivados tal como se definen en el artículo primero.3 de la Orden.</p>
+    <p class="capitulo_num">CAPÍTULO II</p>
+    <p class="capitulo_tit">Normas generales para la determinación del límite general a la utilización de instrumentos derivados por riesgo de mercado</p>
+    <p class="articulo">Norma 2. Métodos de cálculo del compromiso.</p>
+    <p class="parrafo">1. Para el cumplimiento del límite establecido en el artículo segundo.1 de la Orden de 10 de junio de 1997, las IIC deberán computar su compromiso aplicando, a su elección, el método de cálculo estándar que se describe en el capítulo III posterior o, previa verificación por la CNMV, el método libre cuyas condiciones de aplicación se recogen en el capítulo IV. Ambos métodos de cálculo se basan en la estimación de la pérdida potencial máxima que, en un determinado período de tiempo, puede experimentar la cartera de instrumentos financieros de la IIC.</p>
+    <p class="articulo">Norma 3. Determinación de la posición neta primaria para cada instrumento financiero.</p>
+    <p class="parrafo">1. El cómputo del compromiso exigirá, en primer término, que la IIC determine su posición neta primaria para cada instrumento financiero, considerándose un único instrumento financiero el conjunto de contratos o valores que coincidan en todas y cada una de sus características en cuanto a su emisor, flujos de pagos, vencimiento, divisa de denominación y, en su caso, subyacente y precio de ejercicio.</p>
+    <p class="parrafo">2. La posición neta primaria se determinará por diferencia entre la suma de las posiciones largas y la suma de las posiciones cortas que la IIC mantenga en el instrumento financiero. Cuando esa diferencia sea positiva la posición neta primaria será larga, y corta cuando sea negativa.</p>
+    <p class="parrafo">3. Dentro de las posiciones largas se incluirán: Las compras al contado y a plazo, los futuros comprados, las opciones, incluyendo «warrants», opciones con límite al alza («CAPs») y opciones con límite a la baja («FLOORs»), adquiridas de compra (compras de «CALL») y las emitidas de venta (ventas de «PUT»), y cualesquiera operaciones que puedan dar lugar a la adquisición real o teórica del instrumento financiero.</p>
+    <p class="parrafo">4. Dentro de las posiciones cortas se englobarán: Las ventas al contado y a plazo, los futuros financieros vendidos, las opciones, incluyendo «warrants», «CAPs» y «FLOORs», adquiridas de venta (compras de «PUT») y las emitidas de compra (ventas de «CALL»), y cualesquiera operaciones que puedan dar lugar a la enajenación real o teórica del instrumento financiero.</p>
+    <p class="parrafo">5. Para el cálculo de la posición neta primaria se deberán realizar los siguientes desgloses en instrumentos financieros independientes:</p>
+    <p class="parrafo_2">a) En las permutas financieras («SWAPs»), se desglosarán sus componentes o ramas.</p>
+    <p class="parrafo">b) En los «CAPs» y «FLOORs» se desglosarán cada una de sus opciones componentes.</p>
+    <p class="parrafo">c) En las operaciones que impliquen la simultánea adquisición y enajenación, real o teórica, de dos monedas extranjeras deberán desglosarse las posiciones en cada una de dichas monedas.</p>
+    <p class="parrafo">d) La CNMV podrá exigir el desglose en otro tipo de operaciones, por considerarlo preciso para la correcta medición de los límites a la utilización de derivados establecidos en la Orden y en la presente Circular.</p>
+    <p class="parrafo_2">6. En las operaciones estructuradas se desglosarán sus componentes cuando se cumpla una de las siguientes condiciones:</p>
+    <p class="parrafo_2">a) Que la operación estructurada incorpore cierto grado de apalancamiento, es decir, requiera una inversión inicial de menor importe que la que cabría esperar del importe de los flujos que pueda generar o de la asunción de riesgo que conlleve.</p>
+    <p class="parrafo">b) Que las características económicas y riesgos del instrumento derivado componente no se hallen estrechamente relacionados con las características económicas y riesgos de la operación en ausencia de dicho instrumento derivado. En términos generales, se considerará que dicha relación existe cuando en una operación de renta fija el subyacente del instrumento derivado componente sea un tipo de interés o un índice de tipos de interés que no produzca una alteración sustancial de los flujos de pago que resultarían de la operación en ausencia de dicho instrumento derivado. En todo caso, se entenderá que se produce dicha alteración sustancial de los flujos de pago cuando la contraparte compradora de la operación estructurada se exponga a no recobrar su inversión inicial o cuando el devengo de intereses pueda llegar a generar flujos negativos para dicha parte del contrato.</p>
+    <p class="parrafo_2">7. Si la IIC o su sociedad gestora no puede desglosar y, en consecuencia, valorar separadamente un instrumento derivado componente de una operación estructurada, bien en el momento de su adquisición, bien posteriormente, la operación estructurada se tratará íntegramente como un instrumento derivado, a efectos de cumplimiento de los límites y restricciones establecidos por la Orden y la presente Circular.</p>
+    <p class="parrafo">8. Las operaciones que deban considerarse a plazo, de acuerdo con lo previsto en la norma 11, punto 4, de la Circular 7/1990, de la CNMV, pero que correspondan a la operativa habitual de contado del mercado en el que se realicen, así como aquellas operaciones en las que el diferimiento en la adquisición sea forzoso por tratarse de emisiones en mercado primario, sólo se tendrán en cuenta, a efectos de la determinación de la posición neta primaria, como activos financieros cubiertos.</p>
+    <p class="parrafo">9. Las posiciones netas primarias en instrumentos financieros cifrados en una moneda extranjera se expresarán por su contravalor en pesetas, aplicando los tipos de cambio oficiales de la fecha de referencia o, en su defecto, un tipo de cambio que, respetando siempre el criterio de prudencia valorativa, pueda considerarse representativo de la cotización de la divisa considerada en los mercados internacionales o nacionales.</p>
+    <p class="articulo">Norma 4. Determinación de la posición neta secundaria.</p>
+    <p class="parrafo">1. Las IIC deberán determinar sus posiciones netas secundarias aplicando las compensaciones admisibles entre sus posiciones netas primarias largas y cortas.</p>
+    <p class="parrafo">2. Para aquellas IIC que utilicen el método estándar para la determinación del compromiso, las compensaciones admisibles para la determinación de la posición neta secundaria se hallan especificadas en el capítulo III de esta Circular. En el caso de que la IIC opte por el método libre, la admisión de compensaciones deberá sujetarse a las condiciones especificadas en el capítulo IV posterior.</p>
+    <p class="parrafo">3. Tanto para la aplicación del método estándar como del método libre, se distinguirán tres categorías de instrumentos financieros:</p>
+    <p class="parrafo_2">a) Activos financieros cubiertos de tipos de interés o de renta fija e instrumentos derivados cuyo subyacente posea dicha naturaleza.</p>
+    <p class="parrafo">b) Activos financieros cubiertos de renta variable e instrumentos derivados cuyo subyacente posea dicha naturaleza.</p>
+    <p class="parrafo">c) Activos financieros cubiertos cifrados en divisa, hayan sido incluidos o no en las anteriores categorías mencionadas e instrumentos derivados cuyo subyacente sea un tipo de cambio.</p>
+    <p class="parrafo_2">El compromiso total de la IIC se calculará como la suma de los importes de compromiso obtenidos de forma aislada para sus posiciones netas secundarias en cada categoría de instrumentos financieros, no siendo admisible la compensación de los importes obtenidos para las distintas categorías.</p>
+    <p class="articulo">Norma 5. Cumplimiento de los requisitos de cobertura.</p>
+    <p class="parrafo">1. Para el cumplimiento de las condiciones establecidas en la Orden y en esta Circular, se considerará que uno o varios instrumentos derivados son de cobertura cuando, existiendo previamente posiciones contrarias en instrumentos financieros que expongan a la IIC a un riesgo de mercado, la incorporación de aquéllos elimine o reduzca ese riesgo.</p>
+    <p class="parrafo">2. Uno o varios instrumentos derivados reducen el riesgo cuando se cumplan simultáneamente los dos siguientes requisitos:</p>
+    <p class="parrafo_2">a) El compromiso de la posición neta secundaria resultante de compensar los instrumentos financieros a cubrir con los instrumentos derivados de cobertura, según el método estándar o libre que utilice la IIC, debe ser inferior al importe que resultaría si la IIC aplicara ese mismo método únicamente sobre los instrumentos financieros a cubrir.</p>
+    <p class="parrafo">b) El compromiso de los instrumentos derivados de cobertura no debe ser de importe superior, en valor absoluto, al de los instrumentos financieros que la IIC desea cubrir con ellos.</p>
+    <p class="parrafo_2">3. El cumplimiento del requisito de cobertura establecido en la Orden para la operativa en instrumentos derivados de los Fondos de Inversión en Activos del Mercado Monetario (FIAMM) exigirá, además de lo expresado en los párrafos anteriores, que el plazo de vencimiento o remanente de amortización conjunto del instrumento derivado y su subyacente sea inferior o igual a dieciocho meses.</p>
+    <p class="capitulo_num">CAPÍTULO III</p>
+    <p class="capitulo_tit">Aplicación del método estándar para la determinación del compromiso</p>
+    <p class="seccion">Sección 1.ª Criterios generales</p>
+    <p class="articulo">Norma 6. Valoración de los instrumentos financieros para la determinación de la posición neta primaria.</p>
+    <p class="parrafo">1. Los activos financieros cubiertos se valorarán a su precio de mercado o, en su defecto, a su valor justo.</p>
+    <p class="parrafo">En general, los instrumentos derivados deberán valorarse al precio de mercado o, en su defecto, al valor justo de su subyacente.</p>
+    <p class="parrafo">Se entiende por valor justo el importe por el que podría intercambiarse el instrumento financiero, en el momento de su valoración, en el marco de una transacción corriente celebrada en condiciones normales de mercado entre partes independientes e informadas que actúen de forma voluntaria, en una situación distinta de una venta forzosa o liquidación. Para su determinación deberán seguirse los criterios establecidos en la norma 21, 1.a), de la presente Circular.</p>
+    <p class="parrafo">2. Las opciones, incluidos los «warrants», «CAPs» y «FLOORs», se valorarán multiplicando el precio de mercado o valor justo de su subyacente por su delta.</p>
+    <p class="parrafo">Para el caso de opciones negociadas en mercados secundarios oficiales u organizados, las IIC utilizarán, siempre que sea posible, el delta calculado por dicho mercado. En los demás casos, las entidades utilizarán sus propios modelos de valoración en el marco de los criterios establecidos en la norma 21, 1, de la presente Circular.</p>
+    <p class="parrafo">3. Los futuros sobre tipo de interés, «FRAs», «SWAPs» sobre tipos de interés u otros instrumentos derivados sobre tipo de interés se valorarán según el importe nominal que sirve para el cálculo de la liquidación de intereses.</p>
+    <p class="parrafo">4. En los instrumentos derivados sobre bono nocional, se considerará como subyacente cualquiera de las emisiones que formen parte de la lista de entregables definida por el mercado en el que se negocian dichos contratos. Si las condiciones de mercado o el diseño de los contratos así lo aconsejan, la CNMV podrá restringir la consideración de subyacente a una o varias de las emisiones que integran la mencionada lista.</p>
+    <p class="articulo">Norma 7. Especialidades en la determinación de la posición neta secundaria y el cumplimiento del requisito de cobertura.</p>
+    <p class="parrafo">1. Las posiciones de venta de opciones, incluidos «warrants», «CAPs» y «FLOORs», únicamente podrán compensar, en el marco de las condiciones generales de compensación establecidas a continuación, posiciones de compra de opciones, incluidos «warrants», «CAPs» y «FLOORs».</p>
+    <p class="seccion">Sección 2.ª Instrumentos financieros de tipos de interés, de renta fija o cuyo subyacente posea dicha naturaleza</p>
+    <p class="articulo">Norma 8. Especialidades en la determinación de la posición neta primaria.</p>
+    <p class="parrafo">1. Los futuros sobre tipo de interés y los acuerdos a plazo sobre tipos de interés («FRAs») se desglosarán en dos posiciones:</p>
+    <p class="parrafo_2">a) Para los futuros comprados y los «FRAs» vendidos, la IIC deberá computar una posición larga con fecha de vencimiento igual a la de su subyacente y una posición corta con fecha de vencimiento igual a la fecha de vencimiento estipulada en el contrato.</p>
+    <p class="parrafo">b) Para los futuros vendidos y los «FRAs» comprados, la IIC deberá computar una posición larga con fecha de vencimiento igual a la fecha de vencimiento estipulada en el contrato y una posición corta con fecha de vencimiento igual a la de su subyacente.</p>
+    <p class="parrafo_2">2. Las compraventas a plazo de activos de renta fija, así como los futuros sobre activos de renta fija se desglosarán en dos posiciones:</p>
+    <p class="parrafo_2">a) Para las compras a plazo y los futuros comprados, la IIC deberá computar una posición larga con fecha de vencimiento igual a la de su subyacente y una posición corta con fecha de vencimiento igual a la fecha de vencimiento estipulada en el contrato.</p>
+    <p class="parrafo">b) Para las ventas a plazo y los futuros vendidos, la IIC deberá computar una posición larga con fecha de vencimiento igual a la fecha de vencimiento estipulada en el contrato y una posición corta con fecha de vencimiento igual a la de su subyacente.</p>
+    <p class="parrafo_2">3. Cuando uno o ambos de los componentes de una operación «SWAP» suponga la recepción o pago de un tipo de interés variable, las IIC deberán reflejar su posición en dicho componente como una posición larga o corta, respectivamente, con fecha de vencimiento igual a la del momento de fijar nuevamente el tipo de interés.</p>
+    <p class="parrafo">4. Cuando uno o ambos de los componentes de una operación «SWAP» suponga la recepción o pago de un tipo de interés fijo, las IIC deberán reflejar su posición en dicho componente como una posición larga o corta, respectivamente, con fecha de vencimiento igual a la del contrato.</p>
+    <p class="articulo">Norma 9. Cálculo del compromiso.</p>
+    <p class="parrafo">1. El cálculo del compromiso deberá realizarse separadamente para las posiciones en instrumentos financieros cifradas en distintas divisas. A estos efectos, sin embargo, se entenderán cifradas en una única divisa las posiciones en pesetas, marco alemán, franco francés, franco belga y luxemburgués, florín holandés, marco finlandés, escudo portugués, lira italiana, libra irlandesa, chelín austríaco y ECU.</p>
+    <p class="parrafo">2. El cálculo del compromiso para cada divisa exigirá la obtención paralela de dos importes: En primer término, la estimación del riesgo general de los instrumentos financieros, a través del procedimiento que se detalla en los puntos del 3 al 12 siguientes, y, en segundo lugar, la estimación del riesgo específico de dichos instrumentos financieros, según se recoge en el punto 13 posterior. El compromiso será el resultado de multiplicar por diez la suma de las estimaciones obtenidas para el riesgo general y el riesgo específico para cada divisa.</p>
+    <p class="parrafo">3. Para la determinación del riesgo general, las IIC determinarán, en primer lugar, la tasa de rendimiento interno de sus activos financieros cubiertos o, si se trata de instrumentos derivados, de su subyacente. Para ello, cuando los activos financieros cubiertos o subyacentes de instrumentos derivados posean un tipo de interés fijo, las IIC tomarán su precio de mercado o valor justo y los flujos que resten hasta su vencimiento.</p>
+    <p class="parrafo">Para los activos financieros cubiertos o subyacentes de instrumentos derivados con tipo de interés variable, y a los solos efectos del cálculo de la duración modificada que figura a continuación, las IIC calcularán la tasa de rendimiento interno tomando su precio de mercado o valor justo y determinando los flujos futuros, alternativamente y siguiendo criterios de máxima prudencia, a través de uno de los siguientes métodos:</p>
+    <p class="parrafo_2">a) Suponiendo que la fecha de vencimiento es la siguiente fecha de fijación del tipo de interés y el principal se debe en dicho momento.</p>
+    <p class="parrafo">b) Considerando que todos los cupones futuros son iguales al inmediato.</p>
+    <p class="parrafo">c) Estimando los cupones futuros a partir de la curva de tipos implícitos a plazo que se deduzcan de los precios de cotización del mercado e incorpore la prima o margen representativo de las características del emisor y de la emisión.</p>
+    <p class="parrafo_2">4. A continuación, las IIC calcularán la duración modificada de cada posición neta primaria, se trate de una posición en un activo financiero cubierto o del subyacente de un instrumento derivado. Para ello, aplicarán la expresión:</p>
+    <p class="centro_redonda">Duración modificada = Duración (D)/(1+r)</p>
+    <p class="parrafo_2">en donde la duración se computará según la siguiente fórmula:</p>
+    <p class="centro_redonda">
+      <img alt="MathML (base64):PG1hdGggbWF0aHNpemU9IjIwIj4KICAgIDxtdGV4dD5EPTwvbXRleHQ+CiAgICA8bWZyYWM+CiAgICAgICAgPG1yb3c+CiAgICAgICAgICAgIDxtcm93PgogICAgICAgICAgICAgICAgPG11bmRlcj4KICAgICAgICAgICAgICAgICAgICA8bW8gc3RyZXRjaHk9ImZhbHNlIj4mI3gyMjExOzwvbW8+CiAgICAgICAgICAgICAgICAgICAgPG1yb3c+CiAgICAgICAgICAgICAgICAgICAgICAgIDxtdGV4dD50PC9tdGV4dD4KICAgICAgICAgICAgICAgICAgICA8L21yb3c+CiAgICAgICAgICAgICAgICA8L211bmRlcj4KICAgICAgICAgICAgICAgIDxtcm93PgogICAgICAgICAgICAgICAgICAgIDxtZnJhYz4KICAgICAgICAgICAgICAgICAgICAgICAgPG1yb3c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bXRleHQ+dDwvbXRleHQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bXN1Yj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bXJvdz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPG10ZXh0PkM8L210ZXh0PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbXJvdz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bXJvdz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPG10ZXh0PnQ8L210ZXh0PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbXJvdz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbXN1Yj4KICAgICAgICAgICAgICAgICAgICAgICAgPC9tcm93PgogICAgICAgICAgICAgICAgICAgICAgICA8bXJvdz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxtc3VwPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxtcm93PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bWZlbmNlZCBzZXBhcmF0b3JzPSJ8Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxtcm93PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxtdGV4dD4xK3I8L210ZXh0PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9tcm93PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L21mZW5jZWQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9tcm93PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxtcm93PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bXRleHQ+dDwvbXRleHQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9tcm93PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9tc3VwPgogICAgICAgICAgICAgICAgICAgICAgICA8L21yb3c+CiAgICAgICAgICAgICAgICAgICAgPC9tZnJhYz4KICAgICAgICAgICAgICAgIDwvbXJvdz4KICAgICAgICAgICAgPC9tcm93PgogICAgICAgIDwvbXJvdz4KICAgICAgICA8bXJvdz4KICAgICAgICAgICAgPG1yb3c+CiAgICAgICAgICAgICAgICA8bXVuZGVyPgogICAgICAgICAgICAgICAgICAgIDxtbyBzdHJldGNoeT0iZmFsc2UiPiYjeDIyMTE7PC9tbz4KICAgICAgICAgICAgICAgICAgICA8bXJvdz4KICAgICAgICAgICAgICAgICAgICAgICAgPG10ZXh0PnQ8L210ZXh0PgogICAgICAgICAgICAgICAgICAgIDwvbXJvdz4KICAgICAgICAgICAgICAgIDwvbXVuZGVyPgogICAgICAgICAgICAgICAgPG1yb3c+CiAgICAgICAgICAgICAgICAgICAgPG1mcmFjPgogICAgICAgICAgICAgICAgICAgICAgICA8bXJvdz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxtc3ViPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxtcm93PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bXRleHQ+QzwvbXRleHQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9tcm93PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxtcm93PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bXRleHQ+dDwvbXRleHQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9tcm93PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9tc3ViPgogICAgICAgICAgICAgICAgICAgICAgICA8L21yb3c+CiAgICAgICAgICAgICAgICAgICAgICAgIDxtcm93PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPG1zdXA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPG1yb3c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxtZmVuY2VkIHNlcGFyYXRvcnM9InwiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPG1yb3c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPG10ZXh0PjErcjwvbXRleHQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L21yb3c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbWZlbmNlZD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L21yb3c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPG1yb3c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxtdGV4dD50PC9tdGV4dD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L21yb3c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L21zdXA+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvbXJvdz4KICAgICAgICAgICAgICAgICAgICA8L21mcmFjPgogICAgICAgICAgICAgICAgPC9tcm93PgogICAgICAgICAgICA8L21yb3c+CiAgICAgICAgPC9tcm93PgogICAgPC9tZnJhYz4KPC9tYXRoPg==" class="formula" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAABpCAYAAAA5gg06AAADJElEQVR4nO2bW67DIAxEvf9NtTvr/bpSFIVgw4AZmCOhSk1CjE94NaqZEBvzKxS7fIqB1JL8K5xzlyUG8pZkj4RtJJWGC0RBxPYWc+v1lKwo6a2uIyWZYZI8oycdP9+gRSHiGVk/LYjesKKkraQiexMillLdR0syw4lCxFH6PlL/tkNkr6gZkiL7pO0EmY3Z97TEcP28H3uL62nZviXZojz39u7RtpVkli8KBWvcbnYQxRy7ix0kHYFEkYCQ9CEqlCB60Zeo0KFhjgAJWhz1osU5RRBt+04RZEbcxpMEUba1N2i2RjPFamaYJ8t77exXCt5XG0uD6vqe658ESZIDlKBaHaUeNCNZ1O+bUPNQi6Ta99FzonVQLB6efuXuLW/3ajkWOWdGHVOZKcgqx1GSrsMn/Tw0QlC2pHscpZgkqXLPlmMZ5xxLRFLrgyFJnagnESBJBEgSAZI0mFEbycgKMbIEp98jtYBqXHaSsu8/DO8+yFtXFtsK+gfZwIxkbS/IDN/I2Unrul/vTy2zWCWOVGorkuwkZd9/CTzLz+xJNzuGdLy/Ih+dpGwkiYCIpJ73PB+V9v8pRSW18lVp/5/SLEmiA81JBEQltc5JooNaMpXs9wdwSm7eJEhQOQdTRgsNVXW8U8F2ROe0rPnPW+eWkswkiQZEkkdJ0pB/AS1qRFzCML1hFUnbSkX2phExRa/bFpQoJNE4jhgie0WNkhTZJ20tyGzNzXQtlvv3K8Q8nBVFmfn3ZavEO5xVRXlgirUbVlFs8XbBKuk4JIoEhKQPUaEE0Yu+RIUODXMESNDiqBctzimCaNt3iiAz4jaeJIiyrb1BszWaKVYzwzxZ3mtnv17wvuZYGlTX91z/JEiSHKAE1eoo9aAZyaJ+94Sah1ok1b6PnhOtg2Lx8PQrd295u1fLscg5M+qYykxBVjmOknQdPunnoRGCsiXd4yjFJEmVe7YcyzjnWCKSWh8MSepEPYkASSJAkgiQpMGM2khGVoiRJTj9HqkFVOOyk5R9/2F490HeurLYVtA/yAZmJGt7QWb4Rs5OmiSJNZAkApCLByGEEOvxB/UosVjaoj68AAAAAElFTkSuQmCC"/>
+    </p>
+    <p class="parrafo_2">donde:</p>
+    <p class="parrafo_2">t = plazo en años hasta la fecha de cada flujo. Para los activos financieros cubiertos o subyacentes de instrumentos derivados con tipo de interés variable, se considerará que la fecha de vencimiento es la siguiente fecha de fijación del tipo de interés y el principal se debe en dicho momento.</p>
+    <p class="parrafo">r = tasa de rendimiento interno, expresada en términos anuales y calculada a partir de los datos establecidos en el anterior punto 3.</p>
+    <p class="parrafo">C<sub>t </sub>= flujo de efectivo en plazo t.</p>
+    <p class="parrafo_2">5. Seguidamente, las IIC calcularán y consignarán las posiciones netas primarias multiplicadas por su duración modificada en la zona que corresponda según la siguiente tabla, y distinguiendo entre posición larga y corta:</p>
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th class="cabeza_tabla">Zonas</th>
+          <th>
+            <p class="cabeza_tabla">Duración modificada</p>
+            <p class="cabeza_tabla">―</p>
+            <p class="cabeza_tabla">En años</p>
+          </th>
+          <th>
+            <p class="cabeza_tabla">Ponderación</p>
+            <p class="cabeza_tabla">—</p>
+            <p class="cabeza_tabla">Por cambio de rentabilidad</p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="cuerpo_tabla_izq">Uno.</td>
+          <td class="cuerpo_tabla_izq">De 0 a 1.</td>
+          <td class="cuerpo_tabla_centro">1,00 por 100</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">Dos.</td>
+          <td class="cuerpo_tabla_izq">De 1 a 3,6.</td>
+          <td class="cuerpo_tabla_centro">0,85 por 100</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">Tres.</td>
+          <td class="cuerpo_tabla_izq">Más de 3,6.</td>
+          <td class="cuerpo_tabla_centro">0,70 por 100</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="parrafo_2">6. Las IIC deberán hallar, para cada zona, la suma de sus posiciones netas primarias largas multiplicadas por su duración modificada y la suma de sus posiciones netas primarias cortas multiplicadas por su duración modificada. A continuación, deberán multiplicar estas sumas por la ponderación que corresponda en función de la zona donde se ubiquen.</p>
+    <p class="parrafo">7. Las IIC deberán determinar la posición neta primaria ponderada compensada dentro de cada zona, que vendrá constituida por el importe menor entre las dos sumas ponderadas de cada zona, la de las posiciones largas y la de las posiciones cortas, obtenidas al efectuar el cálculo descrito en el número anterior. La diferencia entre estas sumas ponderadas constituirá la posición neta secundaria ponderada de cada zona.</p>
+    <p class="parrafo">8. Seguidamente, las IIC calcularán la posición neta secundaria ponderada compensada entre las zonas uno y dos, que vendrá constituida por el importe menor entre la posición neta secundaria larga (corta), ponderada de la zona uno y la posición neta secundaria corta (larga) ponderada de la zona dos. El mismo cálculo deberá realizarse con respecto a la parte restante de la posición neta secundaria ponderada, es decir, aún no compensada, de la zona dos y la posición neta secundaria ponderada de la zona tres, hallándose la posición neta secundaria ponderada compensada entre las zonas dos y tres.</p>
+    <p class="parrafo">9. Las IIC podrán, si lo desean, cambiar el orden propuesto en el número anterior y calcular la posición neta secundaria ponderada compensada entre las zonas dos y tres antes de realizar el correspondiente cálculo entre las zonas uno y dos.</p>
+    <p class="parrafo">10. A continuación, las IIC calcularán la posición neta secundaria ponderada compensada entre las zonas uno y tres, que será el importe menor entre la posición neta secundaria larga (corta) ponderada todavía no compensada de la zona uno y la posición neta secundaria corta (larga) ponderada aún no compensada de la zona tres.</p>
+    <p class="parrafo">11. Una vez realizadas las anteriores compensaciones, las IIC deberán obtener el importe de las posiciones netas secundarias ponderadas no compensadas o residuales.</p>
+    <p class="parrafo">12. La posición neta secundaria ponderada final será el resultado de sumar, en valor absoluto, los siguientes importes:</p>
+    <p class="parrafo_2">El 2 por 100 de la posición neta primaria ponderada compensada dentro de cada zona.</p>
+    <p class="parrafo">El 40 por 100 de la posición neta secundaria ponderada compensada entre las zonas uno y dos.</p>
+    <p class="parrafo">El 40 por 100 de la posición neta secundaria ponderada compensada entre las zonas dos y tres.</p>
+    <p class="parrafo">El 150 por 100 de la posición neta secundaria ponderada compensada entre las zonas uno y tres.</p>
+    <p class="parrafo">El 100 por 100 de las posiciones netas secundaria residual.</p>
+    <p class="parrafo_2">13. Al importe obtenido a través del cálculo anterior se le añadirá la suma en valor absoluto que resulte de aplicar a las posiciones netas primarias en instrumentos derivados, largas y cortas, los siguientes coeficientes, establecidos de acuerdo con la identidad de los emisores de sus subyacentes:</p>
+    <p class="parrafo_2">Futuros sobre tipo de interés, «FRAs», «SWAPs» sobre tipos de interés u otros instrumentos derivados cuyos subyacentes sean tipos de interés o activos emitidos por un Estado miembro de la Unión Europea, las Comunidades Autónomas o los organismos internacionales de los que España sea miembro: 0 por 100</p>
+    <p class="parrafo">Instrumentos derivados cuyos subyacentes sean activos emitidos por el resto de Estados miembros de la OCDE, según el plazo hasta el vencimiento de sus subyacentes:</p>
+    <p class="parrafo_2">Vencimiento residual hasta seis meses: 0,25 por 100.</p>
+    <p class="parrafo">Vencimiento residual entre seis y veinticuatro meses: 1 por 100.</p>
+    <p class="parrafo">Vencimiento residual superior a veinticuatro meses: 1,60 por 100.</p>
+    <p class="parrafo_2">Instrumentos derivados cuyos subyacentes sean activos emitidos por otras entidades: 8 por 100.</p>
+    <p class="parrafo_2">No obstante, la CNMV podrá exigir la aplicación del coeficiente del 8 por 100 a las posiciones netas primarias que presenten un riesgo especial, debido a la insuficiente solvencia del emisor o su escasa liquidez.</p>
+    <p class="seccion">Sección 3.ª Instrumentos financieros de renta variable o cuyo subyacente posea dicha naturaleza</p>
+    <p class="articulo">Norma 10. Especialidades en el cálculo de la posición neta primaria.</p>
+    <p class="parrafo">1. Los activos financieros cubiertos que constituyan posiciones en índices bursátiles o los instrumentos derivados cuyo subyacente sea un índice bursátil se considerarán instrumentos financieros independientes. No obstante, cuando la evolución del índice no difiera de la evolución resultante del precio de sus componentes, las IIC podrán desglosar el índice en cada una de las acciones que constituyen el índice. Cuando se realice tal descomposición, desaparecerá la posición en el índice para dar paso a posiciones en cada uno de sus componentes, en función de su ponderación en el índice.</p>
+    <p class="articulo">Norma 11. Cálculo del compromiso.</p>
+    <p class="parrafo">1. En primer lugar, las IIC calcularán y consignarán sus posiciones netas primarias en cada índice, acción u otro instrumento financiero de renta variable según la siguiente tabla, y distinguiendo entre posiciones largas o cortas:</p>
+    <table class="tabla">
+      <colgroup>
+        <col/>
+        <col/>
+        <col/>
+      </colgroup>
+      <thead>
+        <tr>
+          <th class="cabeza_tabla">Zona</th>
+          <th class="cabeza_tabla">Activo subyacente</th>
+          <th>
+            <p class="cabeza_tabla">Factor de ajuste</p>
+            <p class="cabeza_tabla">—</p>
+            <p class="cabeza_tabla">Porcentaje</p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="cuerpo_tabla_izq">A.1 Índices de países de la OCDE ampliamente diversificados y representativos de la evolución del mercado en su conjunto.</td>
+          <td class="cuerpo_tabla_centro">
+            <p class="cuerpo_tabla_centro">Índice A.1.1</p>
+            <p class="cuerpo_tabla_centro">Índice A.1.2</p>
+            <p class="cuerpo_tabla_centro">Índice A.1.3</p>
+          </td>
+          <td class="cuerpo_tabla_centro">
+            <p class="cuerpo_tabla_centro">100,00</p>
+            <p class="cuerpo_tabla_centro">100,00</p>
+            <p class="cuerpo_tabla_centro">100,00</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq"> Total.</td>
+          <td class="cuerpo_tabla_centro"> </td>
+          <td class="cuerpo_tabla_centro"> </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">A.2 Índices de países no pertenecientes a la OCDE ampliamente diversificados y representativos de la evolución del mercado en su conjunto.</td>
+          <td class="cuerpo_tabla_centro">
+            <p class="cuerpo_tabla_centro">Índice A.2.1</p>
+            <p class="cuerpo_tabla_centro">Índice A.2.2</p>
+            <p class="cuerpo_tabla_centro">Índice A.2.3</p>
+          </td>
+          <td class="cuerpo_tabla_centro">
+            <p class="cuerpo_tabla_centro">150,00</p>
+            <p class="cuerpo_tabla_centro">150,00</p>
+            <p class="cuerpo_tabla_centro">150,00</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq"> Total.</td>
+          <td class="cuerpo_tabla_centro"> </td>
+          <td class="cuerpo_tabla_centro"> </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">B.1 Acciones componentes de los índices del subgrupo A.1 o índices de países de la OCDE suficientemente diversificados y no incluidos en dicho subgrupo.</td>
+          <td class="cuerpo_tabla_centro">
+            <p class="cuerpo_tabla_centro">Acción B.1.1</p>
+            <p class="cuerpo_tabla_centro">Acción B.1.2</p>
+            <p class="cuerpo_tabla_centro">Acción B.1.3</p>
+          </td>
+          <td class="cuerpo_tabla_centro">
+            <p class="cuerpo_tabla_centro">150,00</p>
+            <p class="cuerpo_tabla_centro">150,00</p>
+            <p class="cuerpo_tabla_centro">150,00</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq"> Total.</td>
+          <td class="cuerpo_tabla_centro"> </td>
+          <td class="cuerpo_tabla_centro"> </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">B.2 Índices de países no pertenecientes a la OCDE suficientemente diversificados y no incluidos en el subgrupo A.2.</td>
+          <td class="cuerpo_tabla_centro">
+            <p class="cuerpo_tabla_centro">Índice B.2.1</p>
+            <p class="cuerpo_tabla_centro">Índice B.2.2</p>
+            <p class="cuerpo_tabla_centro">Índice B.2.3</p>
+          </td>
+          <td class="cuerpo_tabla_centro">
+            <p class="cuerpo_tabla_centro">175,00</p>
+            <p class="cuerpo_tabla_centro">175,00</p>
+            <p class="cuerpo_tabla_centro">175,00</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq"> Total.</td>
+          <td class="cuerpo_tabla_centro"> </td>
+          <td class="cuerpo_tabla_centro"> </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">B.3 Otras acciones o subyacentes de renta variable.</td>
+          <td class="cuerpo_tabla_centro">
+            <p class="cuerpo_tabla_centro">Acción B.3.1</p>
+            <p class="cuerpo_tabla_centro">Acción B.3.2</p>
+            <p class="cuerpo_tabla_centro">Acción B.3.3</p>
+          </td>
+          <td class="cuerpo_tabla_centro">
+            <p class="cuerpo_tabla_centro">200,00</p>
+            <p class="cuerpo_tabla_centro">200,00</p>
+            <p class="cuerpo_tabla_centro">200,00</p>
+          </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq"> Total.</td>
+          <td class="cuerpo_tabla_centro"> </td>
+          <td class="cuerpo_tabla_centro"> </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="parrafo_2">2. Las IIC deberán hallar la suma de sus posiciones netas primarias largas y sus posiciones netas primarias cortas para cada índice, acción u otro subyacente de renta variable. A continuación, deberán determinar su posición neta secundaria para cada índice, acción u otro subyacente de renta variable, que vendrá constituida por la diferencia entre la suma de las posiciones netas primarias largas y la de las posiciones netas primarias cortas correspondientes.</p>
+    <p class="parrafo">3. Seguidamente, las IIC deberán multiplicar las diferencias obtenidas por la ponderación que corresponda en función de la zona donde se ubiquen, obteniendo así sus posiciones netas secundarias ponderadas.</p>
+    <p class="parrafo">4. Las IIC no podrán efectuar ninguna compensación entre posiciones netas secundarias correspondientes a distintos índices, acciones u otros instrumentos financieros de renta variable, por lo que la suma del valor absoluto de las posiciones netas secundarias ponderadas obtenidas según el cálculo del número anterior constituirá su posición neta secundaria ponderada final. Esta suma deberá multiplicarse por el coeficiente 12,25 por 100.</p>
+    <p class="parrafo">5. El compromiso será el resultado de multiplicar por ocho el importe hasta aquí obtenido.</p>
+    <p class="seccion">Sección 4.ª Activos financieros cubiertos cifrados en divisas o instrumentos derivados cuyo subyacente sea un tipo de cambio</p>
+    <p class="articulo">Norma 12. Cálculo del compromiso.</p>
+    <p class="parrafo">1. En primer lugar, las IIC calcularán y consignarán sus posiciones netas primarias en función de la divisa que corresponda según la siguiente tabla, y distinguiendo entre posiciones largas y cortas. A estos efectos, formarán parte de las posiciones netas primarias a computar los activos financieros cubiertos cifrados en divisa y los instrumentos derivados cuyo subyacente sea un tipo de cambio.</p>
+    <p class="parrafo">2. No obstante lo anterior, no se considerarán en el cómputo los activos financieros cubiertos y los instrumentos derivados cuya divisa de denominación propia o de su subyacente, respectivamente, sea una las siguientes monedas: Peseta, marco alemán, franco francés, franco belga y luxemburgués, florín holandés, marco finlandés, escudo portugués, lira italiana, libra irlandesa, chelín austríaco o ECU.</p>
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th class="cabeza_tabla">Zona</th>
+          <th class="cabeza_tabla">Divisa</th>
+          <th class="cabeza_tabla">Ponderaciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="cuerpo_tabla_centro" rowspan="3">A</td>
+          <td class="cuerpo_tabla_izq">Dólar USA.</td>
+          <td class="cuerpo_tabla_centro">100,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">Dólar canadiense.</td>
+          <td class="cuerpo_tabla_centro">100,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq"> Total.</td>
+          <td class="cuerpo_tabla_centro"> </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_centro" rowspan="6">B.1</td>
+          <td class="cuerpo_tabla_izq">Corona danesa.</td>
+          <td class="cuerpo_tabla_centro">50,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">Corona noruega.</td>
+          <td class="cuerpo_tabla_centro">50,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">Dracma griega.</td>
+          <td class="cuerpo_tabla_centro">50,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">Corona sueca.</td>
+          <td class="cuerpo_tabla_centro">50,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">Franco suizo.</td>
+          <td class="cuerpo_tabla_centro">50,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq"> Total.</td>
+          <td class="cuerpo_tabla_centro"> </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_centro" rowspan="3">B.2</td>
+          <td class="cuerpo_tabla_izq">Yen japonés.</td>
+          <td class="cuerpo_tabla_centro">100,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">Dólar australiano.</td>
+          <td class="cuerpo_tabla_centro">100,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">  Total.</td>
+          <td class="cuerpo_tabla_centro"> </td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_centro" rowspan="4">C.1</td>
+          <td class="cuerpo_tabla_izq">Libra esterlina.</td>
+          <td class="cuerpo_tabla_centro">100,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">Dólar neozelandés.</td>
+          <td class="cuerpo_tabla_centro">100,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">Resto divisas.</td>
+          <td class="cuerpo_tabla_centro">200,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq"> Total.</td>
+          <td class="cuerpo_tabla_centro"> </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="parrafo_2">3. Las IIC deberán hallar, para cada divisa, la suma de sus posiciones netas primarias largas y la suma de sus posiciones netas primarias cortas. A continuación, deberán determinar su posición neta secundaria en cada divisa, que vendrá constituida por la diferencia entre las dos sumas, la de las posiciones largas y la de las posiciones cortas, en cada divisa.</p>
+    <p class="parrafo">4. Seguidamente, las IIC deberán multiplicar las diferencias obtenidas por la ponderación que corresponda según dónde se ubiquen, obteniendo así sus posiciones netas secundarias ponderadas.</p>
+    <p class="parrafo">5. A continuación, las IIC deberán calcular la suma de las posiciones netas secundarias largas ponderadas y la suma de las posiciones netas secundarias cortas ponderadas que pertenezcan a una misma zona. Las IIC determinarán la posición neta secundaria ponderada compensada de la zona A, que será el importe menor entre la suma de las posiciones netas secundarias ponderadas largas y la suma de las posiciones netas secundarias ponderadas cortas de esta zona.</p>
+    <p class="parrafo">6. La posición neta secundaria ponderada no compensada de la zona A será la diferencia entre las sumas a que se refiere el número anterior, y se incluirá en la zona B.2.</p>
+    <p class="parrafo">7. La posición neta secundaria ponderada final se calculará sumando el valor absoluto de los siguientes importes:</p>
+    <p class="parrafo_2">El 50 por 100 de la posición neta secundaria ponderada compensada de la zona A.</p>
+    <p class="parrafo">El importe mayor entre la suma de las posiciones netas secundarias ponderadas largas y la suma de las Posiciones netas secundarias ponderadas cortas de la zona B.1.</p>
+    <p class="parrafo">El importe mayor entre la suma de las posiciones netas secundarias ponderadas largas y la suma de las Posiciones netas secundarias ponderadas cortas de la zona B.2.</p>
+    <p class="parrafo">La suma en valor absoluto de las posiciones netas secundarias ponderadas largas y cortas de la zona C.</p>
+    <p class="parrafo_2">Esta suma deberá multiplicarse por el factor de ajuste 7 por 100.</p>
+    <p class="parrafo">8. El compromiso será el resultado de multiplicar por ocho el resultado hasta aquí obtenido.</p>
+    <p class="capitulo_num">CAPÍTULO IV</p>
+    <p class="capitulo_tit">Aplicación del método libre para la determinación del compromiso</p>
+    <p class="articulo">Norma 13. Autorización previa.</p>
+    <p class="parrafo">1. La CNMV podrá permitir a las IIC la aplicación del método libre para la determinación de su compromiso. Bajo este método, las IIC estimarán la pérdida potencial máxima de su cartera de instrumentos financieros mediante sus propios modelos internos.</p>
+    <p class="parrafo">2. La utilización de un modelo debe contar con la autorización explícita de la CNMV, quien únicamente la concederá previa solicitud y acreditación por parte de la IIC o de su sociedad gestora de que, como mínimo, se cumplen las condiciones recogidas en las normas siguientes.</p>
+    <p class="parrafo">3. La CNMV podrá autorizar de forma conjunta a todas o a parte de las IIC gestionadas por una misma sociedad gestora la aplicación del método libre para la determinación del compromiso. Cuando una sociedad gestora desee aplicar un modelo ya autorizado a otra IIC, deberá acreditar frente a la CNMV que el modelo es también adecuado para la determinación del compromiso de dicha IIC.</p>
+    <p class="articulo">Norma 14. Condiciones cualitativas.</p>
+    <p class="parrafo">1. El modelo debe ser conceptualmente sólido y aplicarse para la estimación y seguimiento de los riesgos de mercado de todo el patrimonio de la IIC, incluidos aquellos elementos patrimoniales que no es preciso considerar para el cómputo del compromiso, hallándose adecuadamente integrado en su proceso cotidiano de gestión.</p>
+    <p class="parrafo">2. El modelo debe aplicarse consistentemente: Una vez una IIC haya obtenido la autorización precisa para el cálculo del compromiso a través del método libre, no podrá volver a aplicar el método estándar a menos que así sea requerido por la CNMV en las condiciones a las que se alude en la norma 17, 2, posterior.</p>
+    <p class="parrafo">3. Los criterios utilizados en la estimación realizada por el modelo deben ser coherentes con los recogidos en la presente Circular.</p>
+    <p class="parrafo">4. La IIC o su sociedad gestora debe cumplir a satisfacción de la CNMV con los requisitos de control interno recogidos en la Circular 3/1997, de la CNMV. En particular:</p>
+    <p class="parrafo_2">a) La IIC o su sociedad gestora debe contar con un número suficiente de empleados con capacidad para utilizar modelos de estimación de riesgos de elevada sofisticación e interpretar los resultados obtenidos, no únicamente en el área de negociación, sino también en la de control de riesgos y, si es preciso, en el área administrativa.</p>
+    <p class="parrafo">b) El modelo debe aprobarse por el Consejo de la IIC o de su sociedad gestora. El acuerdo del Consejo deberá incluir una declaración expresa de que el modelo se ajusta a las condiciones recogidas en la presente Circular y designar a las personas responsables de su gestión.</p>
+    <p class="parrafo">c) La IIC o su sociedad gestora debe establecer procedimientos para supervisar y garantizar el cumplimiento de controles internos suficientes relativos al funcionamiento global del sistema de cálculo de riesgos.</p>
+    <p class="parrafo_2">5. La IIC o su sociedad gestora debe probar que el funcionamiento del modelo para los objetivos que aquí se persiguen es adecuado durante un período suficiente, nunca inferior a seis meses, que no podrá comenzar a computarse con anterioridad a la solicitud de autorización.</p>
+    <p class="parrafo">6. Para las posiciones en opciones, incluidos «warrants», «CAPs» y «FLOORs», el modelo debe reflejar adecuadamente el carácter no lineal de la relación entre la evolución de los precios de la posición y su subyacente, así como la totalidad de factores de variabilidad del precio que puedan considerarse significativos.</p>
+    <p class="parrafo">7. La IIC o su sociedad gestora debe llevar a cabo con la frecuencia precisa en función de la exposición de su cartera un riguroso programa de simulaciones de casos extremos y reflejar adecuadamente los resultados de dichas simulaciones en la estimación obtenida por su modelo.</p>
+    <p class="parrafo">8. La IIC o su sociedad gestora debe supervisar la exactitud y el funcionamiento de su modelo, aplicando un programa de control a posteriori que, como mínimo, diariamente compare el cambio en una sesión del valor de la cartera de instrumentos financieros de la IIC, con el importe de la correspondiente pérdida potencial máxima de una sesión estimado por el modelo.</p>
+    <p class="parrafo">9. La IIC o su sociedad gestora debe contar con informe favorable de su depositario con respecto al funcionamiento de su modelo. Dicho informe deberá ser objeto de revisión anual. Además, en cumplimiento de sus funciones de supervisión y vigilancia establecidas en el artículo 56.b) del Reglamento de la Ley 46/1984, de 26 de diciembre reguladora de las IIC, el depositario de la IIC deberá asimismo comprometerse a mantener un control periódico de los criterios, fórmulas y cálculos utilizados por el modelo y de los resultados obtenidos.</p>
+    <p class="parrafo">10. La IIC o su sociedad gestora debe contar con informe favorable de un auditor de cuentas u otro experto independiente con aptitud suficiente, a juicio de la CNMV, con respecto al funcionamiento de su modelo. Dicho informe deberá ser objeto de revisión anual.</p>
+    <p class="articulo">Norma 15. Condiciones cuantitativas.</p>
+    <p class="parrafo">1. La estimación deberá realizarse con una frecuencia como mínimo diaria, para un horizonte temporal de al menos diez sesiones hábiles de negociación en el mercado y sobre la base de un intervalo de confianza no inferior al 99 por 100, esto es, asumiendo pérdidas superiores a las estimadas únicamente en un 1 por 100 de las ocasiones.</p>
+    <p class="parrafo">2. A fin de cumplir el requisito establecido relativo al horizonte temporal mínimo a considerar, para posiciones con carácter no opcional, las IIC podrán multiplicar las estimaciones de la pérdida potencial máxima obtenidas para horizontes temporales inferiores a las diez sesiones requeridas por la raíz cuadrada del tiempo. Para las posiciones en opciones, incluidos «warrants», «CAPs» y «FLOORs», las IIC intentarán que las estimaciones de la pérdida potencial máxima se basen en las fluctuaciones de diez sesiones hábiles de negociación en el mercado. En caso contrario, deberán incorporar simulaciones de casos extremos que corrijan las imprecisiones derivadas de considerar horizontes temporales de menor longitud.</p>
+    <p class="parrafo">3. Para la estimación deberá especificarse el conjunto de precios y tipos de mercado que se consideren relevantes para capturar adecuadamente la evolución futura de los precios de las posiciones componentes de la cartera de la IIC. Sin perjuicio de lo anterior, deben considerarse los siguientes factores mínimos:</p>
+    <p class="parrafo_2">a) Para las posiciones sobre activos de renta fija, deberá modelizarse la curva de tipos de interés de cada divisa en que se denominen los activos de la IIC a través de alguno de los procedimientos generalmente aceptados. La curva de tipos deberá dividirse en un mínimo de seis segmentos de vencimiento para englobar las variaciones de la volatilidad de los tipos a lo largo de dicha curva.</p>
+    <p class="parrafo">b) Para posiciones denominadas en divisas, deberá considerarse individualmente la variabilidad del tipo de cambio entre la peseta y cada moneda extranjera en que estén expresadas las posiciones de la IIC.</p>
+    <p class="parrafo">c) Para posiciones sobre activos de renta variable, deberá considerarse de forma individualizada la variabilidad global de cada uno de los mercados de acciones en los que la entidad mantenga posiciones. A menos que la IIC posea una concentración significativa en posiciones sobre acciones individuales, en cuyo caso será preciso analizar aisladamente la variabilidad de dichas acciones, la variabilidad de las posiciones en acciones individuales o índices sectoriales podrá recogerse corrigiendo las estimaciones de la variabilidad global del mercado mediante una estimación de su beta.</p>
+    <p class="parrafo_2">4. A menos que su exposición a un determinado factor de riesgo sea escasamente significativa, el modelo interno de la IIC debe ser capaz de evaluar la pérdida potencial máxima de sus posiciones ante movimientos en los tipos de interés, tipos de cambio y precios de las acciones. Por lo tanto, aquellas IIC que han empezado a utilizar su modelo para la evaluación del compromiso de una cartera compuesta por una única categoría de activos deberán extenderlo a las demás categorías a medida que diversifican la exposición de su cartera.</p>
+    <p class="parrafo">5. El período previo de observación para la realización de estimaciones basadas en datos históricos será de al menos un año, salvo cuando la IIC o su sociedad gestora, en cumplimiento de sus funciones de gestión y control, considere más prudente utilizar un período de observación más breve. Siempre que se apliquen técnicas de estimación que otorguen un peso diferencial a las observaciones históricas según su relativa lejanía en el tiempo deberán utilizarse criterios conservadores y prudenciales. Los datos se actualizarán con una frecuencia mínima trimestral y siempre que la variación de las condiciones de mercado lo hagan aconsejable.</p>
+    <p class="parrafo">6. La estimación de las correlaciones entre instrumentos financieros o factores de riesgo considerados debe asegurar el cumplimiento de los requisitos de máxima prudencia y estabilidad. El informe anual que, según lo establecido en la norma 14, 10, elaborará el experto independiente designado por la IIC o su sociedad gestora deberá certificar de forma explícita que las metodologías y los datos utilizados por el modelo para medir las correlaciones cumplen de forma satisfactoria dichos requisitos, poseen un sólido fundamento y se aplican con rigor.</p>
+    <p class="articulo">Norma 16. Cálculo del compromiso.</p>
+    <p class="parrafo">1. En primer lugar, las IIC deberán estimar a través de su modelo interno, sujeto a las condiciones anteriores, la pérdida potencial máxima de su cartera de instrumentos financieros, separadamente para cada categoría de activos (tipos de interés o renta fija, renta variable y divisa).</p>
+    <p class="parrafo">2. Los importes de pérdida potencial máxima hasta aquí obtenidos deberán multiplicarse por los siguientes factores:</p>
+    <p class="parrafo_2">a) 16 para su cartera de instrumentos financieros de tipos de interés, de renta fija o cuyo subyacente posea dicha naturaleza.</p>
+    <p class="parrafo">b) 26,17 para su cartera de instrumentos financieros de renta variable o cuyo subyacente posea dicha naturaleza.</p>
+    <p class="parrafo">c) 16 para su cartera de activos financieros cubiertos cifrados en divisa e instrumentos derivados cuyo subyacente sea un tipo de cambio.</p>
+    <p class="parrafo_2">3. El compromiso total será la suma de los importes que resulten de los cálculos anteriores para cada categoría de instrumentos financieros.</p>
+    <p class="articulo">Norma 17. Incremento del coeficiente multiplicador y otras medidas correctivas.</p>
+    <p class="parrafo">1. La IIC deberá incrementar el coeficiente multiplicador al que se ha aludido en la norma anterior con un factor adicional determinado según lo establecido en el siguiente cuadro, en función del número de excesos alcanzados durante los últimos doscientos cincuenta días hábiles, comprobados por el control a posteriori de la entidad. Por exceso se entenderá el cambio en una sesión del valor de la cartera de instrumentos financieros que rebase el importe de la correspondiente pérdida potencial máxima de una sesión estimado por el modelo. A fin de determinar el factor adicional, se evaluará el número de excesos como mínimo mensualmente.</p>
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th class="cabeza_tabla" rowspan="2">Número de excesos</th>
+          <th class="cabeza_tabla" colspan="2">Incremento del factor multiplicador</th>
+        </tr>
+        <tr>
+          <th class="cabeza_tabla">Renta fija y divisa</th>
+          <th class="cabeza_tabla">Renta variable</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="cuerpo_tabla_izq">Menos de 5.</td>
+          <td class="cuerpo_tabla_centro">0,00</td>
+          <td class="cuerpo_tabla_centro">0,00</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">5.</td>
+          <td class="cuerpo_tabla_centro">2,10</td>
+          <td class="cuerpo_tabla_centro">3,45</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">6.</td>
+          <td class="cuerpo_tabla_centro">2,80</td>
+          <td class="cuerpo_tabla_centro">4,60</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">7.</td>
+          <td class="cuerpo_tabla_centro">3,50</td>
+          <td class="cuerpo_tabla_centro">5,70</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">8.</td>
+          <td class="cuerpo_tabla_centro">4,10</td>
+          <td class="cuerpo_tabla_centro">6,70</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">9.</td>
+          <td class="cuerpo_tabla_centro">4,70</td>
+          <td class="cuerpo_tabla_centro">7,70</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">10 o más.</td>
+          <td class="cuerpo_tabla_centro">5,25</td>
+          <td class="cuerpo_tabla_centro">8,60</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="parrafo_2">En casos concretos y obedeciendo a circunstancias excepcionales, la CNMV podrá permitir que no se incremente el factor multiplicador con arreglo a lo dispuesto en el cuadro anterior, previa demostración por parte de la IIC o su sociedad gestora de que tal incremento no está justificado por ser el modelo fundamentalmente sólido.</p>
+    <p class="parrafo">Las IIC o sus sociedades gestoras deberán notificar a la CNMV, en un plazo máximo de cinco días laborables, los excesos resultantes de su programa de control a posteriori que, según el cuadro anterior, impliquen un incremento del factor adicional.</p>
+    <p class="parrafo">2. La CNMV podrá imponer modificaciones en el funcionamiento del modelo de la IIC, e incluso revocar la autorización concedida para su utilización, a efectos de cómputo del compromiso, siempre que considere que:</p>
+    <p class="parrafo_2">a) El modelo no estima con la precisión suficiente el riesgo específico de sus posiciones netas secundarias.</p>
+    <p class="parrafo">b) Los procedimientos utilizados y los escenarios contemplados para el análisis de condiciones extremas de mercado no resultan adecuados o suficientes.</p>
+    <p class="parrafo">c) El riesgo de liquidez se halla insuficientemente recogido.</p>
+    <p class="parrafo">d) Los controles a posteriori sobre el funcionamiento del sistema son imprecisos o defectuosos.</p>
+    <p class="parrafo">e) De los controles a posteriori se obtiene un número elevado de excesos, indicando que el modelo no es suficientemente preciso.</p>
+    <p class="parrafo">f) En general, siempre que, por cualquiera que fuere la causa, la estimación realizada por el modelo no recoge suficientemente la pérdida potencial máxima de la cartera de instrumentos financieros de la IIC, y que la infravaloración que en consecuencia se produce pudiera poner en peligro su solvencia o someterla a una exposición excesiva.</p>
+    <p class="articulo">Norma 18. Requisitos de información.</p>
+    <p class="parrafo">1. Las entidades que soliciten la autorización prevista en la norma 13 deberán comprometerse a remitir a la CNMV información de carácter reservado con la periodicidad y contenido que ésta establezca.</p>
+    <p class="parrafo">2. La CNMV podrá exigir a las IIC autorizadas para la aplicación del método libre para la determinación del compromiso la presentación de los estados correspondientes a la aplicación del método estándar, incluidos en el anexo de esta Circular.</p>
+    <p class="parrafo">3. La IIC deberá informar de forma inmediata a la CNMV, su depositario y el experto independiente que efectúe la revisión anual del modelo siempre que detecte defectos o anomalías de carácter sustantivo en los procesos de estimación de su modelo, así como siempre que incorpore elementos o realice modificaciones relevantes en el mismo.</p>
+    <p class="capitulo_num">CAPÍTULO V</p>
+    <p class="capitulo_tit">Medidas de urgencia ante oscilaciones del mercado inusuales</p>
+    <p class="articulo">Norma 19. Modificación de coeficientes.</p>
+    <p class="parrafo">1. Cuando aparezcan circunstancias que puedan perturbar el resultado de la aplicación de los métodos estándar o libre de cálculo del compromiso, el Consejo de la Comisión Nacional del Mercado de Valores o, por delegación, el Presidente o el Vicepresidente, podrán modificar con carácter de urgencia las ponderaciones y multiplicadores aplicables para el ajuste de posiciones en instrumentos financieros, la ubicación de dichas posiciones en las distintas zonas y los niveles de compensación admitidos.</p>
+    <p class="parrafo">2. El acuerdo correspondiente será notificado de forma inmediata a las IIC y su depositario y se publicará en el «Boletín Oficial del Estado».</p>
+    <p class="capitulo_num">CAPÍTULO VI</p>
+    <p class="capitulo_tit">Límite específico a la compra de opciones</p>
+    <p class="articulo">Norma 20. Límites a las primas pagadas por la compra de opciones, incluidos «warrants», «CAPs» y «FLOORs».</p>
+    <p class="parrafo">1. Para el cumplimiento del límite establecido en el artículo segundo.2 de la Orden de 10 de junio de 1997, las IIC deberán valorar las opciones, incluidos «warrants», «CAPs» y «FLOORs» a su precio de adquisición. No obstante, las IIC deberán tomar como valor de referencia el precio de mercado o valor justo de las opciones en el momento de su adquisición cuando éste sea significativamente superior al precio efectivamente desembolsado.</p>
+    <p class="parrafo">2. La suma de las primas pagadas se computará en términos brutos. No obstante, será posible compensar los importes pagados por la compra de opciones con las primas cobradas por la venta de opciones, incluidos «warrants», «CAPs» y «FLOORs», cuando las opciones compradas y las vendidas que se desea compensar no se hallen incorporadas en distintas operaciones estructuradas y coincidan en todas y cada una de sus características, a excepción de su fecha de contratación, contraparte o precio de ejercicio.</p>
+    <p class="parrafo">3. Este límite será objeto de revisión únicamente cuando se produzca una nueva compra de opciones.</p>
+    <p class="capitulo_num">CAPÍTULO VII</p>
+    <p class="capitulo_tit">Valoración de los instrumentos financieros</p>
+    <p class="articulo">Norma 21. Criterios para la valoración.</p>
+    <p class="parrafo">1. Para la determinación del compromiso y el cumplimiento de los requisitos de control interno establecidos en la Circular 3/1997, en concreto en su anexo 3, capítulo IV, punto 5, cuando no exista un mercado suficientemente líquido que permita valorar diariamente los instrumentos financieros o su subyacente la IIC deberá obtener su valor justo, para lo cual serán de aplicación los siguientes criterios generales de valoración:</p>
+    <p class="parrafo_2">a) En términos generales, se estará a lo dispuesto en el artículo 5 de la Orden y en las normas 7 y siguientes de la Circular 4/1997, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre criterios de valoración y condiciones de inversión de las Instituciones de Inversión Colectiva en valores no cotizados. En todo caso, los sistemas de valoración utilizados deberán responder al principio de prudencia y ser de general aceptación. Una vez adoptados deberán mantenerse en el tiempo y ser aplicados a todos los instrumentos financieros de las mismas características en tanto no se alteren los supuestos que motivaron su elección.</p>
+    <p class="parrafo">b) Para la valoración de opciones, incluidos «warrants», «CAPs» y «FLOORs», incorporadas o no a un producto estructurado, deberán seguirse los siguientes principios básicos:</p>
+    <p class="parrafo_2">i) Las opciones estándar sobre activos para los que la asunción de la hipótesis de lognormalidad de precios resulte aceptable se valorarán preferiblemente a través de las metodologías de valoración del entorno Black-Scholes (Black-Scholes, Merton, Black 76, Garman-Kolhagen...), en caso de que el ejercicio de tales opciones sea de tipo europeo, y de los modelos binomiales desarrollados a partir del modelo de Cox y Rubinstein cuando el ejercicio sea americano.</p>
+    <p class="parrafo">ii) Las opciones exóticas sobre activos y/o flujos de pago modelizables en idéntico contexto de lognormalidad (opciones digitales o binarias, barreras, «quantos», «baskets»...), se valorarán de forma preferente, siempre que sea posible, mediante los modelos analíticos generalmente aceptados o sus aproximaciones numéricas cuando se trate de opciones de ejercicio europeo, o sus correspondientes árboles binomiales cuando el ejercicio sea americano.</p>
+    <p class="parrafo">iii) Las opciones exóticas para las que no se disponga de fórmulas analíticas (básicamente opciones dependientes de camino como opciones asiáticas, «cliquet», «ladder», «lookback»...), se valorarán preferentemente mediante el método de Monte Carlo u otra técnica de simulación debidamente contrastada o a través de las aproximaciones numéricas generalmente aceptadas.</p>
+    <p class="parrafo">iv) Para la valoración de opciones sobre tipos de interés o sobre activos dependientes de los tipos de interés, resulta aconsejable la utilización de modelos capaces de incorporar factores tales como la reversión a la media de los tipos de interés y, muy especialmente, la necesidad de modelización conjunta de toda la curva de tipos de interés y no de un único tipo o variable. Pueden considerarse como modelos generalmente aceptados el de Vasicek y el de Heath-Jarrow-Morton.</p>
+    <p class="parrafo">v) Pese a lo expresado en el párrafo anterior, para la valoración de «CAPs», «FLOORs» y opciones sobre «SWAPs» con ejercicio de tipo europeo, se considerará admisible la valoración mediante el modelo de Black-76, siempre que tal metodología se mantenga como estándar del mercado.</p>
+    <p class="parrafo_2">c) La valoración de los instrumentos derivados tomará como referencia, siempre que sea posible, el precio de mercado de su subyacente. Para la obtención de dicho precio de mercado y, fundamentalmente, la obtención o, en su caso, estimación de las volatilidades implícitas relevantes para la valoración de opciones, incluidos «warrants», «CAPs» y «FLOORs» se utilizarán las cotizaciones publicadas que puedan considerarse representativas del precio de mercado en la fecha de cálculo. Las valoraciones obtenidas para los instrumentos derivados no negociados en mercados organizados de derivados se cotejarán, adicionalmente, con las cotizaciones ofrecidas diariamente por las contrapartidas.</p>
+    <p class="parrafo_2">2. Como excepción a las reglas generales de valoración diaria a precios de mercado de todas las posiciones en instrumentos derivados, las IIC que realicen operaciones cuya finalidad sea la consecución de un objetivo concreto de rentabilidad recogido en el folleto informativo, podrán no valorar dichas posiciones durante el período de su comercialización inicial, siempre que cumplan los siguientes requisitos:</p>
+    <p class="parrafo_2">a) Que exista una garantía de un tercero, bien sea a favor del fondo o de los partícipes.</p>
+    <p class="parrafo">b) Que la política de inversión que vaya a seguir la IIC en su conjunto tenga como única finalidad alcanzar el objetivo concreto de rentabilidad garantizado y dicha finalidad se vea distorsionada, en el caso de valorar diariamente las posiciones en instrumentos derivados a precios de mercado durante el período inicial de comercialización. En consecuencia, al final de dicho período, el tamaño de las operaciones en instrumentos derivados que no hayan sido valoradas deberá ser exclusivamente el necesario para alcanzar la rentabilidad garantizada.</p>
+    <p class="parrafo">c) Que el folleto informativo incluya la siguiente información:</p>
+    <p class="parrafo_2">i) Delimitación expresa del período de comercialización inicial durante el cual no se valorarán las posiciones en instrumentos derivados.</p>
+    <p class="parrafo">ii) Mención destacada con la siguiente advertencia: «Con el objetivo de poder alcanzar la rentabilidad garantizada, el fondo realizará operaciones con instrumentos derivados. Dichos instrumentos no se valorarán durante el período de comercialización inicial, por lo que, cuando se valoren, podrán producirse oscilaciones apreciables en el valor liquidativo del fondo, que no afectarán al objetivo de rentabilidad garantizado».</p>
+    <p class="parrafo">iii) En el caso de IIC en las que la garantía haga referencia a un rendimiento fijo, rentabilidad garantizada en términos de tasa anual equivalente.</p>
+    <p class="parrafo_2">d) que la operación no se haya pactado en un plazo superior a los diez días previos a la inscripción del folleto en la CNMV y el precio pactado no se aleje significativamente de los precios de mercado en el momento de la inscripción del folleto informativo en la CNMV.</p>
+    <p class="capitulo_num">CAPÍTULO VIII</p>
+    <p class="capitulo_tit">Superación de límites</p>
+    <p class="articulo">Norma 22. Procedimiento.</p>
+    <p class="parrafo">1. Cuando, según lo previsto en los artículos segundo.4 y tercero.4 de la Orden, se produzca una superación de los límites establecidos a los compromisos por el conjunto de operaciones en derivados, a las primas pagadas o al riesgo de contraparte, la sociedad gestora o la IIC deberá notificar dicha circunstancia a la CNMV en el plazo máximo de tres días hábiles. En la comunicación deberán incluirse las causas que hayan motivado dicho exceso y las medidas adoptadas para su subsanación, que en todo caso deberá producirse en el plazo máximo de quince días desde su inicio.</p>
+    <p class="capitulo_num">CAPÍTULO IX</p>
+    <p class="capitulo_tit">Requisitos específicos para instrumentos no negociados en mercados organizados de derivados</p>
+    <p class="articulo">Norma 23. Requisito de solvencia exigido a las contrapartes y garantes.</p>
+    <p class="parrafo">1. Para el cumplimiento del requisito de solvencia del número cuarto.1.b) de la Orden, las contrapartes de las IIC en operaciones OTC deberán contar con calificación crediticia favorable, para el plazo y la divisa de la operación, de una agencia de calificación reconocida por la CNMV, siempre que la entidad no haya sido calificada por debajo del nivel exigido por otra agencia también reconocida por la CNMV. En este caso, será necesario que exista otra calificación no inferior al mínimo exigido de cualquier otra agencia especializada.</p>
+    <p class="parrafo">2. Se entenderá por calificación crediticia favorable en el largo plazo aquella que como mínimo signifique una fuerte capacidad de la entidad para atender a tiempo el pago de sus obligaciones.</p>
+    <p class="parrafo">3. Se entenderá por calificación crediticia favorable en el corto plazo aquella que como mínimo signifique una satisfactoria capacidad de la entidad para atender a tiempo el pago de sus obligaciones.</p>
+    <p class="parrafo">4. El requisito de solvencia se entenderá igualmente cumplido cuando la operación esté solidariamente afianzada por otra entidad que a su vez cuente la calificación crediticia mínima a que se refieren los números anteriores y cumpla el resto de requisitos del artículo cuarto.1.b) de la Orden.</p>
+    <p class="parrafo">5. Los requisitos establecidos en artículo cuarto.1.b) de la Orden, así como lo previsto en los puntos anteriores de esta norma son igualmente exigibles a las entidades que garanticen a la propia IIC un objetivo concreto de rentabilidad.</p>
+    <p class="parrafo">6. La CNMV podrá exigir que las entidades que garanticen a la propia IIC un objetivo concreto de rentabilidad cuenten con calificación crediticia específica para una operación determinada cuando se planteen dudas sobre ella en función de alguna de sus características concretas, tales como su importe o plazo.</p>
+    <p class="articulo">Disposición adicional primera. Remisión de información.</p>
+    <p class="parrafo">Se establece la siguiente nueva redacción para la norma 12 de la sección 3.ª de la Circular 7/1990, de la CNMV, sobre estados contables y estadísticos de carácter reservado:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«Norma 12. Clases y plazos de rendición de los estados contables y estadísticos.</p>
+      <p class="parrafo_2">Las Instituciones de Inversión Colectiva deberán presentar en la CNMV la información de carácter reservado que a continuación se detalla, referida al último día del período señalado, salvo cuando se indique expresamente lo contrario, y cuyos modelos figuran en el anexo de la Circular 3/1998.</p>
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th class="cabeza_tabla" colspan="2">Denominación</th>
+            <th class="cabeza_tabla">Periodicidad</th>
+            <th class="cabeza_tabla">Plazo máximo presentación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cuerpo_tabla_centro" colspan="4">
+              <em>Estados de los fondos y sociedades de inversión</em>
+            </td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">M01.</td>
+            <td class="cuerpo_tabla_izq">Balance reservado.</td>
+            <td class="cuerpo_tabla_izq">Trimestral.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">M02.</td>
+            <td class="cuerpo_tabla_izq">Cuenta de Pérdidas y Ganancias reservada.</td>
+            <td class="cuerpo_tabla_izq">Trimestral.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">MA3.</td>
+            <td class="cuerpo_tabla_izq">Importe comprometido en posiciones sobre renta fija.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">MB3.</td>
+            <td class="cuerpo_tabla_izq">Importe comprometido en posiciones sobre renta variable.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">MC3.</td>
+            <td class="cuerpo_tabla_izq">Importe comprometido en posiciones sobre divisas.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">MD3.</td>
+            <td class="cuerpo_tabla_izq">Resumen diario de posiciones en operaciones de riesgo y compromiso.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">MAV.</td>
+            <td class="cuerpo_tabla_izq">Importe comprometido según el método libre.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">MBV.</td>
+            <td class="cuerpo_tabla_izq">Resumen diario de posiciones en operaciones de riesgo y compromiso según el método libre.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">M04.</td>
+            <td class="cuerpo_tabla_izq">Inventario de cartera y tesorería.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">MA5.</td>
+            <td class="cuerpo_tabla_izq">Operaciones de riesgo y compromiso.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">MB5.</td>
+            <td class="cuerpo_tabla_izq">Estado de resultados en operaciones de riesgo y compromiso.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">M06.</td>
+            <td class="cuerpo_tabla_izq">Aplicación del beneficio del ejercicio.</td>
+            <td class="cuerpo_tabla_izq">Anual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro" colspan="4">
+              <em>Estados de los fondos de inversión</em>
+            </td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">F05.</td>
+            <td class="cuerpo_tabla_izq">Estado de coeficientes.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">F06.</td>
+            <td class="cuerpo_tabla_izq">Estado de información auxiliar.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">F07.</td>
+            <td class="cuerpo_tabla_izq">Extado de información auxiliar (sólo fondos garantizados y con objetivo concreto de rentabilidad).</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro" colspan="4">
+              <em>Estados de las sociedades de inversión mobiliaria</em>
+            </td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">S05.</td>
+            <td class="cuerpo_tabla_izq">Estado de coeficientes (sólo SIMCAV).</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">S06.</td>
+            <td class="cuerpo_tabla_izq">Estado de información auxiliar.</td>
+            <td class="cuerpo_tabla_izq">Trimestral.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_centro" colspan="4">
+              <em>Estados de las sociedades gestoras, referidos a los fondos de inversión</em>
+            </td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">G05.H).</td>
+            <td class="cuerpo_tabla_izq">Estado de información auxiliar.</td>
+            <td class="cuerpo_tabla_izq">Mensual.</td>
+            <td class="cuerpo_tabla_izq">Día 20 mes siguiente.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="parrafo_2">Aquellos fondos que puedan superar los límites a la utilización de instrumentos derivados por riesgo de mercado, de acuerdo con lo previsto en el punto segundo.3 de la Orden de 10 de junio de 1997, sobre operaciones de las IIC de carácter financiero en instrumentos financieros derivados, no tendrán que presentar los estados MA3,, MB3, MC3 y MD3.»</p>
+    </blockquote>
+    <p class="articulo">Disposición adicional segunda. Modificación del activo computable para las limitaciones de inversión.</p>
+    <p class="parrafo">A efectos de sujetar las posiciones en instrumentos derivados no negociados en mercados organizados de derivados a los límites generales establecidos en el artículo 4 del Reglamento de IIC, aprobado por el Real Decreto 1393/1990, se establece la siguiente nueva redacción de la norma 3 de la Circular 8/1990, de la CNMV, de 27 de diciembre, sobre determinación del valor liquidativo de los Fondos de Inversión Mobiliaria y coeficientes operativos y límites de inversión de las IIC:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«Norma 3. Activo computable para las limitaciones de inversión.</p>
+      <p class="parrafo_2">A efectos de la determinación de los coeficientes sobre limitaciones de las inversiones de las IIC, el activo al que hacen referencia los artículos 4.1, 4.3 y 55 del Reglamento de IIC, es decir, el denominador de las limitaciones de inversión, lo compondrán las siguientes partidas:</p>
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th class="cabeza_tabla">Activo computable</th>
+            <th class="cabeza_tabla">Cuentas de los estados reservados</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cuerpo_tabla_izq">Otros depósitos de garantía.</td>
+            <td class="cuerpo_tabla_izq">Activo D).6.5.1.2.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Márgenes a liquidar.</td>
+            <td class="cuerpo_tabla_izq">Activo D).6.5.2.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Otros deudores. Operaciones "SWAP".</td>
+            <td class="cuerpo_tabla_izq">Activo D).6.5.3.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Cartera interior.</td>
+            <td class="cuerpo_tabla_izq">Activo D).7.1.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Cartera exterior.</td>
+            <td class="cuerpo_tabla_izq">Activo D).7.2.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Intereses de la cartera de inversión.</td>
+            <td class="cuerpo_tabla_izq">Activo D).7.3.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Provisión por depreciación de valores mobiliarios.</td>
+            <td class="cuerpo_tabla_izq">Activo D).7.4.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Inversiones dudosas, morosas o en litigio.</td>
+            <td class="cuerpo_tabla_izq">Activo D).7.5.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Plusvalías latentes de cartera (brutas).</td>
+            <td class="cuerpo_tabla_izq">Otras cuentas de orden 1.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="parrafo_2">Cuando existan saldos deudores y acreedores, originados por distintas operaciones, con una misma contraparte, únicamente se tendrán en cuenta los saldos deudores a efectos de calcular los límites relativos al riesgo de contraparte establecidos en el artículo 3 de la Orden de 10 de junio de 1997, sobre operaciones de las Instituciones de Inversión Colectiva de carácter financiero en instrumentos derivados.</p>
+      <p class="parrafo">No obstante, se podrá admitir la compensación de saldos acreedores y deudores, originados por distintas operaciones en instrumentos derivados, con una misma contraparte, siempre que se cumplan las condiciones previstas en el punto cuarto de la disposición adicional séptima de la Ley 3/1994, de 14 de abril, por la que se adapta la legislación española en materia de entidades de crédito a la Segunda Directiva de Coordinación Bancaria, según la redacción introducida en la disposición adicional cuadragésima primera de la Ley 66/1997, de 30 de diciembre, de Medidas Fiscales, Administrativas y del Orden Social.»</p>
+    </blockquote>
+    <p class="articulo">Disposición adicional tercera. Modificación del activo computable en el coeficiente de inversión.</p>
+    <p class="parrafo">A efectos de tomar en consideración las posiciones en instrumentos derivados en los coeficientes de inversión establecidos en el Reglamento de IIC, aprobado por el Real Decreto 1393/1990, se establece la siguiente nueva redacción de la norma 2 de la Circular 8/1990, de la CNMV, de 27 de diciembre, sobre determinación del valor liquidativo de los fondos de inversión mobiliaria y coeficientes operativos y límites de inversión de las IIC:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«Norma 2. Activo computable en el coeficiente de inversión.</p>
+      <p class="parrafo_2">A efectos de la determinación del coeficiente de inversión de las IIC, el activo al que hacen referencia los artículos 17; 17.bis, apartado 1; 26; 37, y 49 del Reglamento de IIC, es decir, el denominador de los coeficientes de inversión, lo compondrán las siguientes partidas:</p>
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th class="cabeza_tabla">Activo computable</th>
+            <th class="cabeza_tabla">Cuentas de los estados reservados</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cuerpo_tabla_izq">Inmovilizaciones inmateriales.</td>
+            <td class="cuerpo_tabla_izq">Activo B).2.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Inmovilizaciones materiales.</td>
+            <td class="cuerpo_tabla_izq">Activo B).3.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Depósitos de garantía por operaciones de riesgo y compromiso.</td>
+            <td class="cuerpo_tabla_izq">Activo D).6.5.1.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Márgenes a liquidar.</td>
+            <td class="cuerpo_tabla_izq">Activo D).6.5.2.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Otros deudores. Operaciones "SWAP".</td>
+            <td class="cuerpo_tabla_izq">Activo D).6.5.3.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Cartera interior.</td>
+            <td class="cuerpo_tabla_izq">Activo D).7.1.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Cartera exterior.</td>
+            <td class="cuerpo_tabla_izq">Activo D).7.2.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Intereses de la cartera de inversión.</td>
+            <td class="cuerpo_tabla_izq">Activo D).7.3.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Provisión por depreciación de valores mobiliarios.</td>
+            <td class="cuerpo_tabla_izq">Activo D).7.4.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Inversiones dudosas, morosas o en litigio.</td>
+            <td class="cuerpo_tabla_izq">Activo D).7.5.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Tesorería.</td>
+            <td class="cuerpo_tabla_izq">Activo D).9.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">Revalorización de valores.</td>
+            <td class="cuerpo_tabla_izq">Otras cuentas de orden 1.</td>
+          </tr>
+        </tbody>
+      </table>
+    </blockquote>
+    <p class="articulo">Disposición adicional cuarta. Modificación de las normas contables aplicables a las IIC.</p>
+    <p class="parrafo">Se introducen las siguientes modificaciones en la norma 11 de la Circular 7/1990, de la CNMV, de 27 de diciembre, sobre normas contables y estados financieros reservados de las Instituciones de Inversión Colectiva:</p>
+    <p class="parrafo_2">1. El primer párrafo del punto 2 del número 7 quedará redactado como sigue:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«Los fondos depositados en concepto de garantía tendrán la consideración contable de depósito cedido, registrándose en las rúbricas "6.5.1.1, Depósitos de garantía en mercados organizados de derivados", o "6.5.1.2, Otros depósitos de garantía", del Activo del Balance, según corresponda. En dicha rúbrica se registrará cualquier otro movimiento efectivo de fondos habido en el depósito de garantía.»</p>
+    </blockquote>
+    <p class="parrafo_2">2. Las letras a) y b) del punto 3 del número 7 quedarán redactadas como sigue:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«a) En operaciones de cobertura:</p>
+      <p class="parrafo_2">Los pagos o diferencias negativas, cobros o diferencias positivas que resulten de las operaciones de cobertura, se registrarán en el epígrafe "6.3.1, Pérdidas en operaciones de riesgo y compromiso", del debe de la Cuenta de Resultados, o en el epígrafe "3.3.1, Beneficios en operaciones de riesgo y compromiso", del haber de dicha cuenta, según corresponda, utilizando como contrapartida las rúbricas "6.5.2, Márgenes a liquidar", del Activo del Balance, o "29.1, Acreedores por márgenes a liquidar", del Pasivo, según que el saldo neto del contrato sea deudor o acreedor, respectivamente.</p>
+      <p class="parrafo">b) En operaciones de inversión:</p>
+      <p class="parrafo_2">Los pagos o diferencias negativas, cobros o diferencias positivas que resulten de las operaciones de inversión se registrarán en el epígrafe "6.3.2, Quebrantos en operaciones de riesgo y compromiso", del debe de la Cuenta de Resultados, o en el epígrafe "3.3.2, Productos en operaciones de riesgo y compromiso", del haber de dicha cuenta, según corresponda, utilizando como contrapartida las rúbricas "6.5.2, Márgenes a liquidar", del Activo del Balance, o "29.1, Acreedores por márgenes a liquidar", del Pasivo, según que el saldo neto del contrato sea deudor o acreedor, respectivamente.»</p>
+    </blockquote>
+    <p class="parrafo_2">3. Se añade un nuevo punto 10, con el siguiente contenido:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«10. Contabilización de operaciones de permuta financiera:</p>
+      <p class="parrafo_2">1. Las operaciones de permuta financiera se registrarán en el momento de su contratación y hasta el momento del cierre de la posición o el vencimiento del contrato, en la rúbrica correspondiente de las cuentas de riesgo y compromiso, por el importe nominal comprometido.</p>
+      <p class="parrafo">2. Los cobros o pagos asociados a cada contrato de permuta financiera se contabilizarán utilizando como contrapartida las cuentas de "Otros deudores. Contratos de ’SWAPs’", o "Acreedores por contratos de ’SWAPs", según que el saldo neto del contrato sea deudor o acreedor, respectivamente.</p>
+      <p class="parrafo">3. Las diferencias que surjan como consecuencia de la comparación diaria del valor contable con el valor de mercado de los contratos, se reconocerán diariamente en la Cuenta de Resultados, según lo establecido en las letras a) y b) siguientes.</p>
+      <p class="parrafo">Cuando no exista un mercado suficientemente líquido que permita valorar diariamente los contratos, deberá tenerse en cuenta, a efectos de calcular dichas diferencias, el valor estimado de realización, calculado de acuerdo a lo previsto en el artículo 5.2 de la Orden de 10 de junio de 1997, sobre operaciones de las IIC de carácter financiero en instrumentos derivados, desarrollado por la norma 21 de la Circular 3/1998.</p>
+      <p class="parrafo_2">a) En operaciones de cobertura: Las diferencias negativas o positivas que en cada fecha puedan resultar de las operaciones de cobertura, se registrarán en el epígrafe "6.3.1, Pérdidas en operaciones de riesgo y compromiso", del debe de la Cuenta de Resultados, o en el epígrafe "3.3.1, Beneficios en operaciones de riesgo y compromiso", del haber de dicha cuenta, según corresponda, utilizando como contrapartida las cuentas de "Otros deudores. Contratos de ’SWAPs’", o "Acreedores por contratos de ’SWAPs’", según que el saldo neto del contrato sea deudor o acreedor, respectivamente.</p>
+      <p class="parrafo">b) En operaciones de inversión: Las diferencias negativas o positivas que en cada fecha puedan resultar de las operaciones de inversión, se registrarán en el epígrafe "6.3.2, Quebrantos en operaciones de riesgo y compromiso", del debe de la Cuenta de Resultados, o en el epígrafe "3.3.2, Productos en operaciones de riesgo y compromiso", del haber de dicha cuenta, según corresponda, utilizando como contrapartida las cuentas de "Otros deudores. Contratos de ’SWAPs’", o "Acreedores por contratos de ’SWAPs’", según que el saldo neto del contrato sea deudor o acreedor, respectivamente.»</p>
+    </blockquote>
+    <p class="parrafo_2">4. Se añade un nuevo punto 11, con el siguiente contenido:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«11. Contabilización de operaciones estructuradas:</p>
+      <p class="parrafo_2">Las operaciones estructuradas recogidas en la letra f) del número 2 del artículo 1 de la Orden de 10 de junio de 1997, sobre operaciones de las Instituciones de Inversión Colectiva de carácter financiero en instrumentos financieros derivados, se descompondrán distinguiendo los valores o activos aptos que incorporen, así como las operaciones simples de las enumeradas en los epígrafes a) a e), y, en su caso, g) de dicho artículo. Contablemente se seguirán las normas específicas de cada una de las operaciones en que se haya descompuesto la operación estructurada.»</p>
+    </blockquote>
+    <p class="articulo">Disposición adicional quinta. Información sobre la volatilidad histórica.</p>
+    <p class="parrafo">La nota aclaratoria 7 del anexo 1 de la Circular 3/1997 queda redactada como sigue:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«7. Sobre la volatilidad histórica se informará la desviación típica (D) de la rentabilidad mensual del fondo calculada para un período de doce meses. Se incluirá el literal "Baja" si D=&lt; 0,1; se incluirá el literal "Media", si 0,1 &lt; D =&lt; 1; "Alta", si 1 &lt; D =&lt; 2,4; y "Muy alta", si D &gt; 2,4. Para aquellos fondos cuya existencia a la fecha de elaboración del informe sea inferior a doce meses, se informará la expresión "no disponible".»</p>
+    </blockquote>
+    <p class="articulo">Disposición derogatoria.</p>
+    <p class="parrafo">Quedan derogadas las normas 17 y 18 de la Circular 7/1990, de 27 de diciembre, de la CNMV, sobre normas contables y estados financieros reservados de IIC, modificada por la Circular 4/1993, de 29 de diciembre, de la CNMV.</p>
+    <p class="articulo">Disposición transitoria.</p>
+    <p class="parrafo">A partir del día 1 de enero de 1999, todas las menciones al ECU, la peseta o a cualquier otra divisa integrada en el euro deberán considerarse realizadas directamente al euro. Se entenderá, a todos los efectos, que el euro y las monedas nacionales integradas en él constituyen una única divisa.</p>
+    <p class="articulo">Disposición final.</p>
+    <p class="parrafo">La presente Circular entrará en vigor, a efectos de cumplimiento de los límites y previsiones que en ella se recogen, el día 1 de abril de 1999.</p>
+    <p class="parrafo">Cuanta información se suministre a la Comisión Nacional del Mercado de Valores con referencia a fechas posteriores se ajustará a los criterios en ella establecidos.</p>
+    <p class="parrafo_2">Madrid, 22 de septiembre de 1998.–El Presidente, Juan Fernández-Armesto.</p>
+    <p class="anexo_num">ANEXO</p>
+    <p class="anexo_tit">Comisión Nacional del Mercado de Valores</p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image1.png" width="2163" height="2813"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image2.png" width="2077" height="2586"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image3.png" width="1904" height="2865"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image4.png" width="2099" height="2136"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image5.png" width="2028" height="1388"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image6.png" width="1881" height="2900"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image7.png" width="2138" height="2561"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image8.png" width="1939" height="2857"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image9.png" width="2908" height="2092"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image10.png" width="2905" height="2254"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image11.png" width="2952" height="1995"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image12.png" width="2935" height="2093"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image13.png" width="2910" height="1786"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image14.png" width="2840" height="1909"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image15.png" width="2941" height="2117"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image16.png" width="2984" height="2045"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image17.png" width="2919" height="1744"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image18.png" width="2941" height="2242"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image19.png" width="2318" height="2129"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image20.png" width="2289" height="2891"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image21.png" width="2316" height="2865"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image22.png" width="2323" height="2195"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image23.png" width="2324" height="2377"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image24.png" width="2294" height="2789"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image25.png" width="2824" height="2101"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image26.png" width="2307" height="2594"/>
+    </p>
+    <p class="imagen">
+      <img class="no_escalar" src="/datos/imagenes/disp/1998/236/22883_9402581_image27.png" width="2925" height="2058"/>
+    </p>
+  </texto>
+</documento>

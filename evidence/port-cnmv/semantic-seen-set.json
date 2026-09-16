@@ -1,0 +1,9 @@
+{
+ "semantically_seen": [
+  "BOE-A-2020-14107"
+ ],
+ "reason": {
+  "BOE-A-2020-14107": "BOE text opened during PORT architecture review; DEV-only fixture, never holdout"
+ },
+ "prior_gate_seen_set": "evidence/cov/semantic-seen-set.json"
+}

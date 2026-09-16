@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219142601">
+  <metadatos>
+    <identificador>BOE-A-2011-20033</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20111212</fecha_disposicion>
+    <numero_oficial>6/2011</numero_oficial>
+    <titulo>Circular 6/2011, de 12 de diciembre, de la Comisión Nacional del Mercado de Valores, por la que se modifica la Circular 9/2008, de 10 de diciembre, sobre normas contables, estados financieros de información reservada y pública y cuentas anuales de las sociedades rectoras de los mercados secundarios oficiales, con la exclusión del Banco de España, de las entidades rectoras de los sistemas multilaterales de negociación, de la Sociedad de Sistemas, de las entidades de contrapartida central, de la Sociedad de Bolsas, de las sociedades que tengan la titularidad de todas las acciones de organismos rectores de los mercados secundarios oficiales y de sistemas multilaterales de negociación, y de otros sistemas de compensación y liquidación de los mercados que se creen al amparo de lo previsto en la Ley del Mercado de Valores.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20111223</fecha_publicacion>
+    <diario_numero>308</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>140419</pagina_inicial>
+    <pagina_final>140474</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2011/12/23/pdfs/BOE-A-2011-20033.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2011-20033</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20120101</fecha_vigencia>
+    <estatus_derogacion>S</estatus_derogacion>
+    <fecha_derogacion>20230101</fecha_derogacion>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>S</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2011/12/12/6</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2011/12/12/6">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-20033</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-12-12</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4930"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2011/12/12/6/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-20033</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-12-12</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/449"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4930"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2011/12/12/6"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2011/12/12/6/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 6/2011, de 12 de diciembre, de la Comisión Nacional del Mercado de Valores, por la que se modifica la Circular 9/2008, de 10 de diciembre, sobre normas contables, estados financieros de información reservada y pública y cuentas anuales de las sociedades rectoras de los mercados secundarios oficiales, con la exclusión del Banco de España, de las entidades rectoras de los sistemas multilaterales de negociación, de la Sociedad de Sistemas, de las entidades de contrapartida central, de la Sociedad de Bolsas, de las sociedades que tengan la titularidad de todas las acciones de organismos rectores de los mercados secundarios oficiales y de sistemas multilaterales de negociación, y de otros sistemas de compensación y liquidación de los mercados que se creen al amparo de lo previsto en la Ley del Mercado de Valores.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-12-23</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2011/12/12/6/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2011/12/12/6/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2011/12/12/6/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2011/12/12/6/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2011/12/12/6/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2011/12/12/6/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2011/12/12/6/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2011/12/12/6/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2011/12/12/6/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="449" orden="">Banco de España</materia>
+      <materia codigo="1186" orden="">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="4930" orden="">Mercado de Valores</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2009-133" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>determinados preceptos de la Circular 9/2008, de 10 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2010-14621" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Real Decreto 1159/2010, de 17 de septiembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2022-24434" orden="">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>, por Circular 4/2022, de 22 de diciembre</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La Circular 9/2008, de 10 de diciembre, de la Comisión Nacional del Mercado de Valores (en adelante, CNMV), sobre normas contables, estados de información reservada y pública y cuentas anuales, se aplica a todas las entidades que se hallan relacionadas en el artículo 84.1, letras a) y b) de la Ley 24/1988, de 28 de julio, del Mercado de Valores (en adelante, LMV), que comprende todos los tipos de infraestructuras de negociación y poscontratación existentes en España o que puedan crearse al amparo de la citada ley, con la única excepción del mercado de deuda pública gestionado por el Banco de España. Por tanto, la citada Circular 9/2008 alcanza desde a las bolsas de valores, mercados de futuros y opciones y sistemas multilaterales de negociación hasta las entidades de contrapartida central y los sistemas de liquidación y de registro e, incluso, las sociedades holding de todas o de algunas de estas infraestructuras.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Dicha circular supuso la profunda puesta al día y la agrupación en un solo texto de distintas circulares contables y sobre información financiera y de actividad publicadas entre 1990 y 1992, todas ellas, al igual que la Circular 9/2008, dictadas al amparo del artículo 86 de la LMV, que preveía que el Ministro de Economía y Hacienda pudiera habilitar a la CNMV en asuntos contables, de estados financieros y de registro de datos internos y estadísticos con relación a las entidades listadas en el artículo 84.1 de esa misma ley.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El artículo 86 de la LMV fue desarrollado por vez primera en la Orden del Ministerio de Economía y Hacienda de 26 de julio de 1989, y ésta, modificada en su primer apartado relativo a su ámbito, mediante la Orden EHA 3064/2008, de 28 de octubre. En todas las versiones de la citada orden, la CNMV se halla habilitada para establecer y modificar los registros que deben llevar y las normas contables y modelos a que deben ajustar sus estados financieros las entidades del artículo 84.1 de la LMV.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Con relación a las infraestructuras de mercado antes citadas, la Circular 9/2008, de 10 de diciembre, tuvo por objeto homogeneizar, uniformizar y adaptar su estructura contable y de información financiera a los principios y criterios contenidos en el nuevo Plan General de Contabilidad aprobado por el Real Decreto 1514/2007, de 16 de noviembre. Sin embargo, por su fecha previa de publicación, no pudo recoger las previsiones del Real Decreto 1159/2010, de 17 de septiembre de 2010, que aprobó las Normas para la Formulación de Cuentas Anuales Consolidadas y ciertas modificaciones del Plan General de Contabilidad, con la finalidad de desarrollar los aspectos específicos de la consolidación de cuentas en un marco contable armonizado con el Derecho comunitario.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente Circular es una actualización de la Circular 9/2008, de 10 de diciembre, que pretende abarcar diferentes mejoras. Así, en primer lugar, recoge por primera vez los modelos de estados financieros intermedios consolidados públicos y de cuentas anuales consolidadas, ya sean de aplicación las normas internacionales de información financiera adoptadas por los Reglamentos de la Unión Europea o bien la normativa española sobre consolidación. Igualmente se actualizan los modelos de estados financieros consolidados reservados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En segundo lugar, se introducen diversas mejoras de carácter técnico en la estructura de los datos contenidos en los modelos de estados financieros y de información complementaria, así como en los procedimientos, plazos y formalidades de remisión y publicación de la información, todas ellas aconsejadas por la experiencia, por el análisis comparado con otras jurisdicciones y por la práctica desarrollada desde su entrada en vigor. Así, se han eliminado diversos datos de los estados mensuales y trimestrales cuyo balance coste/utilidad se ha demostrado en práctica poco razonable, se han simplificado las formalidades de certificación de la aprobación de los estados intermedios públicos y su publicidad. Igualmente se ha suprimido la obligación de presentar estados intermedios individuales públicos en aquellas entidades integradas en un grupo que presente estados intermedios consolidados públicos y, al tiempo, se han ampliado los plazos de remisión de todos los estados financieros e información complementaria trimestrales, tanto reservados como públicos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En tercer lugar, se han reestructurado los desgloses de la información reservada sobre ingresos, siendo los cambios más reseñables la adición de un nuevo segmento dedicado a la actividad de compensación y contrapartida central en previsión de que se constituyan en territorio español entidades de contrapartida central en un futuro próximo, así como la reordenación de los restantes segmentos de ingresos y la reagrupación algunos de ellos con segmentos afines dentro de una misma actividad operativa.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En virtud de la habilitación establecida en la Orden del Ministerio de Economía y Hacienda de 26 de julio de 1989 por la que se desarrolla el artículo 86 de la Ley del Mercado de Valores, modificada por la Orden del Ministerio de Economía y Hacienda 3064/2008, de 28 de octubre, previos los informes preceptivos del Instituto de Contabilidad y Auditoría de Cuentas y del Comité Consultivo de la CNMV, el Consejo de la Comisión Nacional del Mercado de Valores, en su sesión de 12 de diciembre de 2011, ha dispuesto lo siguiente:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma primera.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La Circular 9/2008, de 10 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, estados de información reservada y pública y cuentas anuales de las sociedades rectoras de los mercados secundarios oficiales, con la exclusión del Banco de España, de las entidades rectoras de los sistemas multilaterales de negociación, de la Sociedad de Sistemas, de las entidades de contrapartida central, de la Sociedad de Bolsas, de las sociedades que tengan la titularidad de todas las acciones de organismos rectores de mercados secundarios oficiales y de sistemas multilaterales de negociación, y de otros sistemas de compensación y liquidación de los mercados que se creen al amparo de lo previsto en la Ley del Mercado de Valores, queda modificada, tanto en las Normas que figuran en su texto principal como en los modelos de estados financieros e informativos de actividad contenidos en sus anexos, como se detalla en los siguientes puntos:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Uno. Se modifica la Norma 2.ª, que queda redactada como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_articulo">«Norma 2.ª Marco contable.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">Las normas contables que debe cumplir la Sociedad serán las contenidas en esta Circular y, con carácter supletorio, lo previsto en el Código de Comercio, la Ley de Sociedades de Capital y los desarrollos reglamentarios en materia de información contable y de consolidación. Las normas internacionales de información financiera adoptadas por los Reglamentos de la Unión Europea resultarán de aplicación a los estados financieros consolidados cuando la Sociedad se halle obligada a utilizarlas o haya optado por hacerlo conforme a lo previsto en la normativa mercantil.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Dos. Se modifica el punto 1 de la Norma 3.ª, que queda redactado como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«1. La presente Circular se aplicará a la información contenida en los distintos estados financieros intermedios y complementarios de actividad y a las cuentas anuales que las entidades relacionadas en la Norma 1.ª deban remitir a la Comisión Nacional de Mercado de Valores, todo ello sin perjuicio de la aplicación de la normativa de carácter general a dichos estados y cuentas anuales.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Tres. Se modifican los puntos 1, 2, 3, 4 y 5 de la Norma 6.ª, que quedan redactados como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«1. Los distintos modelos de estados financieros intermedios y de información complementaria establecidos en esta Circular serán remitidos a la Comisión Nacional del Mercado de Valores en las condiciones establecidas en ésta y en otras normas de la presente Circular, sin perjuicio de la obligación de remisión por la Sociedad de sus cuentas anuales e informe de gestión y del informe de auditoría de cuentas correspondiente.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">2. Los estados financieros intermedios reservados y públicos previstos en esta Circular, salvo indicación en contrario, reflejarán la información financiera y los saldos en euros resultantes de las operaciones acumuladas desde el inicio del ejercicio hasta el fin del mes o del trimestre natural correspondiente al que se refieran dichos estados. Como excepción a esta regla, las columnas de datos que lleven la etiqueta ‘‘mes corriente’’ o ‘‘trimestre corriente’’ en los estados financieros y complementarios que reflejen flujos de transacciones recogerán solo la información que corresponda a las operaciones habidas en el mes o en el trimestre al que se refieren.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">3. La Sociedad no podrá modificar la estructura de rúbricas, epígrafes o partidas de los modelos de estados financieros reservados y públicos establecidos en la presente Circular, salvo en los casos previstos en la Norma 24.ª para los modelos de estados financieros reservados y en la Norma 36.ª, punto 3 para los modelos de estados financieros a publicar como cuentas anuales.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">4. La presentación a la Comisión Nacional del Mercado de Valores de los estados reservados y públicos deberá hacerse por vía telemática a través del servicio CIFRADOC/CNMV del Registro Electrónico de la Comisión Nacional del Mercado de Valores, aprobado por la Resolución de 16 de noviembre de 2011 por la que se crea y regula el Registro Electrónico de la Comisión Nacional del Mercado de Valores, de acuerdo con los requerimientos técnicos que se hallen establecidos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">5. El secretario del consejo de administración o cargo equivalente se responsabilizará de que la información financiera y de actividad incorporada a los distintos estados financieros intermedios y complementarios remitidos a la Comisión Nacional del Mercado de Valores recoja la que haya sido, en su caso, sometida al examen o a la aprobación de los administradores de la sociedad. Coincidiendo con la remisión a la citada Comisión de los estados financieros públicos previstos en esta Circular, el secretario del consejo de administración o cargo equivalente remitirá un escrito certificando que los estados remitidos recogen la información financiera sometida al examen o, en su caso, a la aprobación de los administradores. En cualquier caso, la sociedad deberá dotar de facultades específicas suficientes a todas las personas a las que autorice a firmar electrónicamente los correspondientes ficheros informáticos con la información a remitir a la Comisión Nacional de Mercado de Valores en el ámbito de la presente Circular.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Cuatro. Se modifican los puntos 1 y 2 de la Norma 8.ª, que quedan redactados como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«1. Los principios y definiciones contables básicas generales, así como los criterios generales de valoración y registro de aplicación a los estados financieros individuales de la Sociedad exigidos por esta Circular son los que se contienen en el Plan General de Contabilidad. En esta Circular se aborda el tratamiento contable a aplicar a las operaciones más relevantes que por ser específicas y propias de la actividad de la Sociedad no están expresamente contempladas en ese Plan.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">2. Las distintas rúbricas, epígrafes y partidas de activo y de pasivo que integren cualquiera de los modelos de balance de situación contenidos en los anexos de esta Circular se clasificarán y adjetivarán como ‘‘corrientes’’ cuando su vencimiento o plazo de realización no exceda de doce meses y como ‘‘no corrientes’’ cuando excedan de ese plazo. A efectos de las denominaciones de las rúbricas, epígrafes y partidas de activo y de pasivo que integran los modelos de balance de situación, los términos ‘‘corriente’’ y ‘‘corto plazo’’ se considerarán equivalentes, al igual que los términos ‘‘no corriente’’ y ‘‘largo plazo’’.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Cinco. Se modifica el punto 2 de la Norma 10.ª, que queda redactado como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«2. Presentación en los estados financieros:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– La Sociedad presentará la información relativa al valor de mercado de las fianzas recibidas mediante aval, prenda o garantía sobre valores y contratos de seguro en la rúbrica ‘‘Fianzas recibidas del mercado’’ de los estados reservados MI.3 Otra información financiera complementaria individual reservada y TC.3 Otra información financiera complementaria consolidada reservada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– La Sociedad presentará la información relativa al valor de mercado de las fianzas recibidas mediante aval, prenda o garantía sobre valores y contratos de seguro en la rúbrica ‘‘Fianzas recibidas del mercado’’ de los estados públicos PI.3 Otra información financiera complementaria pública individual y PC.3 Otra información financiera complementaria pública consolidada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– En las cuentas anuales la Sociedad presentará la información relativa al valor de mercado de las fianzas recibidas mediante aval, prenda o garantía sobre valores, y contratos de seguro mediante una nota en la memoria.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Seis. Se modifica el punto 2 de la Norma 15.ª, que queda redactado como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«2. Con relación a los valores tomados en préstamo a que se refiere el punto 1 de esta Norma 15.ª, en tanto que el miembro vendedor en descubierto de valores al que le han sido prestados tenga la obligación de reponerlos en su totalidad a la Sociedad para que ésta los devuelva a su vez al prestamista y en la medida en que la Sociedad no asuma los riesgos y beneficios asociados a la propiedad de los valores objeto de préstamo, ésta no ha de proceder a reconocer activo ni pasivo alguno por esta operativa. No obstante, en cada cierre contable habrá de facilitarse en las notas informativas de los estados financieros la siguiente información:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– En los estados financieros reservados MI.3 Otra información financiera complementaria individual reservada y TC.3 Otra información financiera complementaria consolidada reservada, la Sociedad presentará la información relativa al valor de mercado de los valores recibidos/entregados en préstamo, acumulado desde el inicio del ejercicio, y el valor de los que a la fecha de cierre se encuentren en curso.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– En los estados financieros públicos intermedios PI.3 Otra información financiera complementaria pública individual y PC.3 Otra información financiera complementaria pública consolidada, la Sociedad presentará la información relativa al valor de mercado de los valores recibidos/entregados en préstamo, acumulado desde el inicio del ejercicio y el valor de los que a la fecha de cierre se encuentren en curso.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– En las cuentas anuales, mediante una nota en la memoria, la Sociedad presentará la información relativa al valor de mercado de los valores recibidos/entregados en préstamo en el ejercicio con desglose de los que se hallen en curso a la fecha de cierre.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Siete. Se modifica la Norma 20.ª, que queda redactada como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_articulo">«Norma 20.ª Estados financieros y complementarios intermedios de carácter reservado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">1. La Sociedad deberá presentar a la Comisión Nacional del Mercado de Valores los estados financieros intermedios y de actividad individuales reservados que a continuación se detallan:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– MI.1 Balance de situación individual reservado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– MI.2 Cuenta de pérdidas y ganancias individual reservada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– MI.3 Otra información financiera complementaria individual reservada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– MI.4 Información segmentada de ingresos y tarifas complementaria individual reservada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– TI.1 Estado de ingresos y gastos reconocidos individual reservado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– TI.2 Estado total de cambios en el patrimonio neto individual reservado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– TI.3 Estado de flujos de efectivo individual reservado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– TI.4 Otra información financiera complementaria individual reservada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– AI.1 Estado de aplicación del resultado del ejercicio individual reservado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">2. En el Anexo 1 figuran los modelos correspondientes a los estados MI.1, MI.2, MI.3, MI.4, TI.1, TI.2, TI.3, TI.4 y el estado AI.1.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">3. La Sociedad deberá presentar a la Comisión Nacional del Mercado de Valores los estados financieros intermedios y de actividad consolidados reservados que a continuación se detallan cuando sea dominante de un grupo de sociedades y esté obligada a presentar en España cuentas anuales consolidadas de acuerdo a lo previsto en los artículos 42 y 43 del Código de Comercio y en sus desarrollos en el ámbito de la consolidación contenidos en las secciones 1.ª de los Capítulos I y II de las Normas para la Formulación de Cuentas Anuales Consolidadas, aprobadas en el Real Decreto 1159/2010, de 17 de septiembre:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– TC.1 Balance de situación consolidado reservado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– TC.2 Cuenta de pérdidas y ganancias consolidada reservada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– TC.3 Otra información financiera complementaria consolidada reservada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– TC.4 Estado de ingresos y gastos reconocidos consolidado reservado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– TC.5 Estado total de cambios en el patrimonio neto consolidado reservado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– TC.6 Estado de flujos de efectivo consolidado reservado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">4. En el Anexo 2 figuran los modelos correspondientes a los estados TC.1, TC.2, TC.3, TC.4, TC.5, y TC.6.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">5. Cuando la Sociedad emplee normas internacionales de información financiera adoptadas en los Reglamentos de la Unión Europea, las rúbricas o epígrafes de los estados TC.1 y TC.2, como las referidas a partidas de ‘‘Periodificaciones’’ u otras admitidas en las normativa contable española sobre consolidación, no contempladas en las citadas normas internacionales, no serán cumplimentadas.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Ocho. Se modifica el punto 1 de la Norma 21.ª, que queda redactado como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«1. La Sociedad deberá presentar en la Comisión Nacional del Mercado de Valores los estados financieros de carácter reservado con la periodicidad y en los plazos máximos que a continuación se señalan. Tales plazos tendrán como límite, en todo caso, la fecha anticipada en la que la Sociedad pudiera hacer pública información financiera y de actividad equivalente a la incluida en estos estados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– Los estados mensuales individuales reservados MI.1, MI.2, MI.3 y MI.4, cerrados al último día del mes correspondiente al que se refieren dichos estados, en principio, se habrán de remitir dentro del mes siguiente. No obstante, los estados mensuales correspondientes al mes de diciembre podrán remitirse dentro de los dos meses siguientes a dicha fecha.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– Los estados trimestrales individuales reservados TI.1, TI.2, TI.3, TI.4 y los estados trimestrales consolidados reservados TC.1, TC.2, TC.3 TC.4, TC.5 y TC.6, cerrados al último día del trimestre natural correspondiente al que se refieran dichos estados, se habrán de remitir dentro del mes siguiente al de la fecha de cierre. No obstante, los estados trimestrales correspondientes al cuarto trimestre natural, terminado el último día del mes de diciembre, podrán remitirse dentro de los dos meses siguientes a dicha fecha.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– El estado AI.1, referido a la aplicación del resultado del ejercicio, habrá de remitirse junto a los estados intermedios mensuales reservados correspondientes al mes en el cual haya tenido lugar la aprobación por los accionistas de las cuentas anuales del ejercicio anual anterior.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Nueve. Se añade un punto 3 a la Norma 22.ª con la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«3. Cuando la Sociedad se halle obligada por la regulación de la Unión Europea a presentar sus cuentas anuales consolidadas conforme a las normas internacionales de información financiera adoptadas por los Reglamentos de la Unión Europea, habrá de incorporar a los estados financieros trimestrales consolidados reservados exigidos en esta Circular la información que resulte de aplicar las citadas normas internacionales.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Diez. Se modifica la Norma 23.ª, que queda redactada como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«Norma 23.ª <em>Información comparativa.</em></p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">1. La Sociedad deberá presentar en los estados intermedios reservados la información financiera y complementaria, elaborada según lo establecido en la Norma 6.ª, punto 2 y junto con la correspondiente información comparativa equivalente del mismo periodo del ejercicio económico anual precedente.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">2. Cuando la Sociedad cambie un criterio contable en los estados reservados mensuales o trimestrales que presente o bien advierta un error que corresponda a meses o a trimestres anteriores, las cifras comparativas de periodos previos incluirán los ajustes correspondientes.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Once. Se modifican los puntos 3, 4 y 5 de la Norma 24.ª, que quedan redactados como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«3. A efectos de esta Circular y respecto a la presentación de segmentos y componentes de explotación con información separada en la cuenta de pérdidas y ganancias reservada o en los estados de información financiera complementaria públicos, se han identificado como los epígrafes de ingresos principales más representativos de la actividad u operativa ordinaria de generación de efectivo que tiene lugar en las infraestructuras de mercado de negociación y de poscontratación los siguientes segmentos diferenciados: ‘‘Contratación’’, ‘‘Compensación y contrapartida central’’, ‘‘Liquidación’’, ‘‘Registro y servicios a emisoras’’, ‘‘Listing’’, ‘‘Información’’ y ‘‘Consultoría y tecnología’’. La Sociedad habrá de cumplimentar la información financiera relacionada con tales segmentos siempre que los ingresos ordinarios procedentes de los mismos representen al menos un 10% del importe de sus ingresos ordinarios agregados, internos y externos. Los segmentos de explotación que no alcancen el umbral cuantitativo anterior podrán considerarse componentes de explotación sobre los que informar en los estados reservados si la Comisión Nacional del Mercado de Valores considera que ello es necesario a efectos de supervisión.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">4. La Sociedad deberá determinar igualmente las secciones y los componentes de explotación que conforman los segmentos a que se refiere el párrafo precedente sobre los que presentar información detallada separada en la cuenta de pérdidas y ganancias, tomando en consideración los parámetros establecidos en el punto 3 anterior. Así, la Sociedad deberá pormenorizar las secciones a nivel de tres dígitos y los componentes de explotación a nivel de cuatro dígitos para los epígrafes de ingresos segmentados a que se refiere el párrafo precedente. En principio, con relación a los segmentos de ‘‘Contratación’’, ‘‘Compensación y contrapartida central’’, ‘‘Liquidación’’, ‘‘Registro y servicios a emisoras’’ se han prefijado como secciones sobre las que hay que informar las tres siguientes: ‘‘Renta variable’’, ‘‘Renta fija’’ y ‘‘Derivados’’, y adicionalmente se ha prefijado también una sección denominada ‘‘Incumplimientos de los participantes’’ en el segmento de ‘‘Liquidación’’ y una denominada ‘‘Servicios a emisoras’’ en el segmento de ‘‘Registro y servicios a emisoras’’. La pormenorización o subdivisión en secciones y componentes de explotación de los segmentos que adicionalmente realice la Sociedad deberá ser comunicada con carácter previo a su utilización a la Comisión Nacional del Mercado de Valores.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">5. La Sociedad deberá presentar información financiera para cada segmento y su subdivisión en secciones y componentes de explotación de forma consistente en cada periodo. La estructura de segmentos y las secciones y componentes prefijados en esta Circular y los adicionales comunicados por la Sociedad no podrán ser alterados sin conocimiento y acuerdo previo de la Comisión Nacional del Mercado de Valores. A tal efecto, cuando la Sociedad considere que su realidad operativa y de ingresos y el marco tarifario se han visto o se verán alterados de forma relevante y permanente, razón por la que se hace necesaria una modificación de la estructura informativa de los segmentos de ingresos y sus secciones y componentes, habrá de aportar a la Comisión Nacional del Mercado de Valores una memoria justificativa. En esta memoria explicará los cambios a introducir, las circunstancias que los motivan y los efectos económicos en la configuración de su negocio y la composición de sus ingresos. La Comisión Nacional del Mercado de Valores podrá oponerse a esta modificación en caso de que la misma ponga en riesgo sus funciones de supervisión. En caso de ser aceptada, la Comisión determinará y comunicará a la Sociedad los plazos de implantación de los cambios pertinentes en los estados.» </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Doce. Se modifican los puntos 4 y 18 de la Norma 25.ª, que quedan redactados como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«4. El importe de los créditos y deudas derivados de las actividades de explotación de la Sociedad que tengan un vencimiento superior a 12 meses deberá presentarse, en el caso de los estados individuales, en las rúbricas de ‘‘Otros activos no corrientes’’ y ‘‘Otros pasivos no corrientes’’, respectivamente, y en el caso de los estados consolidados, en las rúbricas ‘‘Deudores comerciales no corrientes’’ y ‘‘Acreedores comerciales no corrientes’’, respectivamente.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«18. Las rúbricas ‘‘Otros pasivos no corrientes’’ y ‘‘Otros pasivos corrientes’’ en los estados individuales y las rúbricas ‘‘Deuda con características especiales a largo plazo’’ y ‘‘Deuda con características especiales a corto plazo’’ en los estados consolidados recogerán el importe de los préstamos participativos y los instrumentos financieros emitidos por la entidad que, teniendo naturaleza jurídica de capital, no cumplen los requisitos para clasificarse como patrimonio neto.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Trece. Se modifica la Norma 26.ª, que queda redactada como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_articulo">«Norma 26.ª Cuenta de pérdidas y ganancias reservada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">1. Los datos de las cuentas de pérdidas y ganancias individual MI.2 y consolidada TC.2 reflejarán la información financiera acumulada desde el inicio del ejercicio hasta la fecha de cierre a la que se refiera, junto a los datos del propio periodo corriente –mensual o trimestral– sobre el que se informa.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">2. Los ingresos y gastos se clasificarán por su naturaleza conforme a las descripciones apuntadas por los nombres de los diferentes epígrafes, rúbricas y partidas que figuran en los modelos MI.2 y TC.2 incorporados en los anexos 1 y 2, respectivamente, de esta Circular, y que contienen la cuenta de pérdidas y ganancias reservada individual, en el primer modelo, y consolidada en el segundo. Los puntos y párrafos que siguen en esta Norma 26.ª son aplicables a las cuentas de pérdidas y ganancias contenidas en ambos modelos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">3. Los nombres que se han prefijado para las distintas rúbricas, epígrafes y partidas de gastos y de márgenes de resultados, así como su ordenación, no podrán ser alterados por la Sociedad. Tampoco podrán serlo los nombres y la ordenación de los epígrafes de ingresos segmentados y de secciones prefijadas en dicho modelo, si bien la Sociedad podrá proponer a la Comisión Nacional del Mercado de Valores su eventual modificación siguiendo el procedimiento previsto en la Norma 24.ª, punto 5.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">4. Los ingresos típicos de la actividad de la Sociedad como administradora de un mercado o de un sistema habrán de reflejarse en la rúbrica ‘‘1. Ventas y prestación de servicios’’, clasificados y distribuidos en los distintos epígrafes de ingresos segmentados y secciones y componentes establecidos o definidos en aplicación de lo previsto en la Norma 24.ª No obstante, los ingresos de la Sociedad por las cuotas de pertenencia al mercado o sistema de sus miembros se reflejarán de forma separada en el epígrafe de ingresos por ‘‘Cánones de miembros/entidades participantes’’. Igualmente, se creará un epígrafe de ingresos adicional que recogerá ‘‘Otras ventas y prestaciones de servicios’’ así como otros ingresos ordinarios de la actividad de la Sociedad que no puedan clarificarse en alguno de los epígrafes anteriores.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">5. La clasificación de los ingresos por ventas y prestación de servicios en los epígrafes a que se refiere el párrafo precedente se ajustará a las siguientes indicaciones:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">(a) El epígrafe segregado de ingresos por ‘‘Cánones de miembros/entidades participantes’’ recogerá en sus secciones denominadas ‘‘Tarifas de acceso/alta’’ y ‘‘Canon de permanencia/comisiones mínimas’’ los ingresos devengados por las cuotas cargadas a los participantes en el mercado o sistema en concepto de acceso al mismo en el primer caso y de permanencia en el mismo en el segundo caso.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">(b) Los epígrafes de ingresos de los segmentos de ‘‘Contratación’’, ‘‘Compensación y contrapartida central’’, ‘‘Liquidación’’ y ‘‘Registro y servicios a emisoras’’ recogerán los ingresos devengados por la operativa realizada por tales participantes en dicho mercado o sistema. En el caso del primer segmento, la operativa objeto del ingreso tarifario será la contratación de instrumentos financieros de contado o derivados. En el segundo segmento citado la operativa será la compensación y otros procesos realizados en la correspondiente cámara de contrapartida central, en el tercer segmento la operativa será la liquidación de operaciones contratadas, y en el cuarto la operativa estará vinculada a los saldos o al número de valores o de contratos objeto de registro o anotación central.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">(c) Los ingresos a distribuir en los epígrafes segmentados a que se refiere el párrafo precedente se imputarán a las secciones de ‘‘Renta variable’’, ‘‘Renta fija’’ y ‘‘Derivados’’ según corresponda en base a la tipología de los valores e instrumentos financieros transados objeto de ratificación por la Sociedad. Asimismo, en aplicación de lo previsto en la Norma 24.ª de esta Circular, en cada una de esas secciones en dichos epígrafes se desglosarán los ingresos imputados a los distintos componentes de explotación identificados en cada caso.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">(d) Adicionalmente, en el epígrafe de ingresos del segmento de ‘‘Liquidación’’ se reflejarán en la sección de ‘‘Incumplimientos’’, subdividida en los distintos componentes que identifican la naturaleza del incumplimiento, los cargos a los participantes en concepto de penalizaciones por incumplimientos imputables a éstos por descubiertos en la entrega en el proceso de liquidación y diferencias de cotización por las compras o ventas de reemplazo descritas en las Normas 16.ª y 17.ª de esta Circular, así como por los demás conceptos de cargo tarifario asociados a los incumplimientos en liquidación.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">(e) Igualmente, en el epígrafe de ingresos del segmento de ‘‘Registro y servicios a emisoras’’ se reflejarán, en la sección ‘‘Servicios a emisoras’’, los ingresos derivados de las tarifas cargadas por la Sociedad a las entidades emisoras por el alta o baja de valores en el registro central, por la gestión de valores nominativos o por el suministro de información sobre saldos y posiciones de valores y otros servicios administrativos y financieros con ocasión de operaciones financieras o corporativas a cargo de las entidades emisoras.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">(f) El epígrafe de ingresos relativo al segmento de ‘‘Listing’’ recogerá los ingresos devengados por los cánones de admisión y verificación, así como los de exclusión, de emisiones de renta fija y variable; los cánones de permanencia de valores de renta fija y variable y otros conceptos típicos de la actividad u operativa de ‘‘Listing’’ distribuidos en las secciones y componentes predefinidos o establecidos en aplicación de lo previsto en la Norma 24.ª de esta Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">(g) El epígrafe de ingresos relativo al segmento de ‘‘Información’’ recogerá los ingresos de la Sociedad por difusión de información de fuentes primarias, por redifusión de información, por los cánones y por la licencia de uso de índices así como otros ingresos de naturaleza similar, distribuidos en las secciones y componentes predefinidos o establecidos en aplicación de lo previsto en la Norma 24.ª de esta Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">(h) El epígrafe de ingresos del segmento de ‘‘Consultoría y tecnología’’ recogerá los ingresos generados por la producción y venta al mercado de software y servicios de acceso global, consultoría y formación así como otros ingresos de naturaleza similar, distribuidos en las secciones y componentes predefinidos o establecidos en aplicación de lo previsto en la Norma 24.ª de esta Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">(i) Las diferentes secciones incorporadas en los epígrafes de ingresos relativos a las actividades de ‘‘Listing’’, de ‘‘Información’’ y de ‘‘Consultoría y tecnología’’ podrán ser modificadas por la Sociedad siguiendo el procedimiento previsto en la Norma 31.ª, punto 3. Igualmente, tales secciones podrán, si fuera necesario, subdividirse en sus componentes de explotación en aplicación de lo previsto en la Norma 24.ª de esta Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">(j) El epígrafe de ingresos relativo a ‘‘Otras ventas y prestaciones de servicios’’ recogerá los ingresos que no puedan clasificarse en los epígrafes citados en las letras de los párrafos anteriores. Además, recogerá los ingresos procedentes de la actividad de gestión técnica del Registro Nacional de los Derechos de Emisión de Gases de Efecto Invernadero o de otros derechos que, igualmente, no sean considerados instrumentos financieros en la Ley 24/1988, del Mercado de Valores.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">6. La rúbrica ‘‘3. Otros ingresos de explotación’’ incluirá, entre otros conceptos, las subvenciones, donaciones o legados recibidos que financien activos o gastos que se incorporen al ciclo normal de explotación. Las subvenciones, donaciones y legados que financien activos de inmovilizado intangible, material o inversiones inmobiliarias se imputarán en resultados en la rúbrica ‘‘7. Imputación de subvenciones de inmovilizado no financiero y otras’’. Asimismo, las subvenciones, donaciones o legados concedidos para cancelar deudas que se otorguen sin una finalidad específica, se imputarán igualmente a esta rúbrica. Si por el contrario, financiasen un gasto o activo de naturaleza financiera, el ingreso correspondiente se recogerá en el resultado financiero.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">7. La rúbrica ‘‘5. Otros gastos de explotación’’ incluirá, entre otros conceptos, tanto las pérdidas por insolvencias firmes como el deterioro de créditos comerciales de dudoso cobro y su reversión.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">8. La rúbrica ‘‘8. Excesos de provisiones’’ recogerá las reversiones de provisiones en el periodo (litigios, responsabilidades, etc.) con excepción de las correspondientes al personal, que se reflejarán en la rúbrica ‘‘4. Gastos de personal’’ y las derivadas de operaciones comerciales que se reflejarán en la rúbrica ‘‘5. Otros gastos de explotación’’.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">9. La rúbrica ‘‘9. Deterioro y resultado por enajenaciones del inmovilizado’’ incluirá el resultado neto de la enajenación, baja o deterioro del inmovilizado material, de las inversiones inmobiliarias, del fondo de comercio, de otros inmovilizados intangibles y de otros activos no corrientes valorados al coste; así como la reversión, en su caso, de los mismos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">10. De acuerdo con la Norma 9.ª la rúbrica ‘‘Ingresos financieros’’ recogerá los intereses devengados por los instrumentos financieros en los que la Sociedad haya invertido el efectivo recibido de los miembros del mercado en concepto de fianza y garantía de posiciones. El importe de dichos ingresos financieros que la Sociedad cede a los miembros se registrará en la cuenta de pérdidas y ganancias en la rúbrica ‘‘Gastos financieros-Fianzas y depósitos recibidos del mercado’’.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">11. El importe de la diferencia negativa en combinaciones de negocios inmediatamente reconocida en la cuenta de pérdidas y ganancias se incluirá en la rúbrica ‘‘10. Otros resultados’’, del estado individual y en la rúbrica ‘‘11. Diferencia negativa en combinaciones de negocios’’, del estado consolidado. Sin perjuicio de lo anterior, si se tratase de diferencia negativa en consolidación de sociedades puestas en equivalencia, ésta se incluiría en el desglose correspondiente de la rúbrica ‘‘19. Resultado de sociedades valoradas por el método de puesta en equivalencia’’, tal y como se indica en el punto inmediato siguiente de esta Norma.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">12. Los resultados de sociedades valoradas por el método de puesta en equivalencia se han de registrar netos de impuestos en la rúbrica ‘‘19. Resultado de sociedades valoradas por el método de puesta en equivalencia’’, desglosándose, en su caso, según correspondan a participación en beneficios, a deterioro y resultado por pérdida de influencia significativa o a diferencia negativa de consolidación.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Catorce. Se deja sin efecto y contenido el punto 1 y se modifica el punto 7 de la Norma 27.ª, que queda redactado como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«1. (Derogado).»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«7. ‘‘Plantilla’’. La Sociedad deberá indicar la plantilla media y la plantilla al término del período sobre el que se informa. Para la determinación de la plantilla media la Sociedad considerará aquellas personas con las que tenga o haya tenido alguna relación laboral, desde el inicio del ejercicio actual hasta la fecha de cierre del periodo al que se refiere la información reservada, promediadas por el tiempo durante el cual hayan prestado sus servicios.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Quince. Se modifica la Norma 31.ª, que queda redactada como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_articulo">«Norma 31.ª Información segmentada de ingresos y tarifas complementaria individual reservada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">1. La Sociedad remitirá a la Comisión Nacional del Mercado de Valores, con la periodicidad y plazos establecidos en la Norma 21.ª, punto 1, el estado complementario reservado MI.4, cumplimentado con la información de los ingresos y las bases de cálculo de las tarifas de los segmentos, secciones y componentes más representativos de la actividad del mercado o el sistema que gestiona o administra. Los datos a suministrar se ajustarán a las descripciones de las rúbricas del modelo MI.4 que se incorpora en el anexo 1 a esta Circular, teniendo en cuenta que los indicadores de volumen, cantidad o número de transacciones incorporados en dicho modelo representan propuestas de carácter indicativo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">2. Este estado deberá cumplimentarse de forma que los indicadores de volumen, cantidad o número de transacciones incorporados y el detalle y denominación de los componentes de ingresos sobre los que se informen representen las variables más relevantes para la debida comprensión de la realidad tarifaria de la operativa de la Sociedad. La Sociedad deberá comunicar a la Comisión Nacional del Mercado de Valores los indicadores de su actividad alternativos a los que figuran en el citado modelo que considere más representativos y el detalle de los componentes de ingresos que vaya a desglosar y utilizar de forma consistente y recurrente para la elaboración de la información de seguimiento de la actividad tarifaria e ingresos a los que se refiere dicho estado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">3. Cualquier modificación ulterior que haya de introducirse en la estructura informativa del citado modelo MI.4 se ajustará al procedimiento de comunicación, justificación y aprobación previsto en la Norma 24.ª de esta Circular.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Dieciséis. Se modifica la Norma 32.ª, que queda redactada como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_articulo">«Norma 32.ª Estados financieros intermedios de carácter público.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">1. La Sociedad deberá presentar a la Comisión Nacional del Mercado de Valores los estados financieros intermedios públicos individuales que se relacionan en el punto 2 de esta Norma en los siguientes casos:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">a) Cuando no pertenezca a grupo alguno de sociedades.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">b) Cuando esté obligada a presentar estados financieros intermedios consolidados conforme a lo previsto en la Norma 20.ª, punto 3 de esta Circular y en la presente Norma.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">c) Cuando sea una entidad dependiente de otra entidad que sea dominante y esta última no se encuentre en el ámbito de esta Circular. A los efectos de la determinación de entidad dominante y dependiente se estará a lo previsto en el artículo 42 del Código de Comercio.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">2. Los estados financieros intermedios públicos individuales que la Sociedad habrá de presentar a la Comisión Nacional del Mercado de Valores serán los siguientes:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">– PI.1 Balance de situación público individual.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– PI.2 Cuenta de pérdidas y ganancias pública individual.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– PI.3 Otra información financiera complementaria pública individual.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– PI.4 Estado de ingresos y gastos reconocidos público individual.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– PI.5 Estado total de cambios en el patrimonio neto público individual.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">– PI.6 Estado de flujos de efectivo público individual.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">3. La Sociedad deberá presentar a la Comisión Nacional del Mercado de Valores los estados financieros intermedios consolidados públicos que se relacionan seguidamente cuando por encontrarse en idéntico supuesto al previsto en la Norma 20.ª, punto 3 de esta Circular haya de presentar estados intermedios consolidados reservados:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">–  PC.1.a Balance de situación público consolidado solo si la Sociedad emplea normas internacionales de información financiera en sus cuentas anuales; o bien</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">–  PC.1.b Balance de situación público consolidado cuando la Sociedad no emplee en sus cuentas anuales las citadas normas internacionales.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">–  PC.2.a Cuenta de pérdidas y ganancias pública consolidada solo si la Sociedad emplea normas internacionales de información financiera en sus cuentas anuales; o bien</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">–  PC.2.b Cuenta de pérdidas y ganancias pública consolidada cuando la Sociedad no emplee en sus cuentas anuales las citadas normas internacionales.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">–  PC.3 Otra información financiera complementaria pública consolidada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">–  PC.4 Estado de ingresos y gastos reconocidos público consolidado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">–  PC.5 Estado total de cambios en el patrimonio neto público consolidado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">–  PC.6 Estado de flujos de efectivo público consolidado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">4. En el Anexo 3 y el Anexo 4 figuran, respectivamente, los modelos correspondientes a los estados PI.1, PI.2, PI.3, PI.4, PI.5 y PI.6 individuales y PC.1.a, PC.1.b, PC.2.a, PC.2.b, PC.3, PC.4, PC.5 y PC.6 consolidados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">5. La Sociedad no podrá modificar la estructura de rúbricas, epígrafes o partidas de los modelos de estados financieros citados en esta Norma. No obstante, podrá no cumplimentar partidas individuales en esos estados financieros cuando los saldos que tuvieran fueran de importe irrelevante para mostrar la imagen fiel, procediendo a agrupar los mismos en otras partidas de similar naturaleza en el mismo epígrafe o rúbrica de la partida individual en cuestión. A los efectos anteriores, se entiende por partidas individuales aquellas líneas o campos de datos de los modelos de estados financieros cuyos saldos no resultan de la suma algebraica de otras líneas o campos de datos de dichos estados.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Diecisiete. Se modifican los puntos 3 y 4 de la Norma 33.ª, que quedan redactados como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«3. La Sociedad deberá presentar en los estados financieros intermedios públicos la información financiera, elaborada según lo establecido en la Norma 6.ª, punto 2, junto con la correspondiente información comparativa equivalente del mismo periodo del ejercicio económico anual precedente.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">4. Cuando la Sociedad cambie un criterio contable en los estados financieros intermedios públicos que presenta o bien advierta un error que corresponda a periodos anteriores, las cifras comparativas incluirán los ajustes correspondientes.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Dieciocho. Se modifica la Norma 34.ª, que queda redactada como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_articulo">«Norma 34.ª Periodicidad y plazo para remitir los estados financieros intermedios públicos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">1. La Sociedad deberá presentar en la Comisión Nacional del Mercado de Valores los estados financieros intermedios públicos, cerrados al último día del trimestre natural correspondiente al que se refieran dichos estados, dentro del mes siguiente al de la fecha de cierre a que se refieran. Como excepción a la regla previa, los estados públicos correspondientes al cuarto trimestre natural, cerrados al último día de diciembre, podrán remitirse dentro de los dos meses siguientes a dicha fecha.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">2. Todos estos plazos tendrán como límite, en todo caso, la fecha anticipada en la que la Sociedad pudiera hacer pública información financiera equivalente a la incluida en estos estados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">3. Cuando la fecha que corresponda con el plazo máximo para enviar los estados públicos sea inhábil, éstos se remitirán como máximo al siguiente día hábil.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Diecinueve. Se modifica la Norma 35.ª, que queda redactada como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_articulo">«Norma 35.ª Publicidad de la información y acceso a los estados financieros intermedios públicos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">1. En relación con los estados públicos, la Comisión Nacional del Mercado de Valores dispondrá para consulta pública los estados financieros que reciba de la Sociedad con periodicidad trimestral.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">2. Toda publicación, cualquiera que sea el medio o soporte utilizado, incluida la información voluntaria, que la Sociedad realice de sus estados financieros, se adaptará a los modelos de los estados públicos establecidos en la presente Circular. Además, las cifras que la Sociedad decidiera hacer públicas sobre su situación financiera o sobre su actividad y operativa habrán de ser concordantes con la información financiera o, en su caso, de actividad contenida en cualquiera de los estados, reservados o públicos, remitidos a la Comisión Nacional del Mercado de Valores al amparo de esta Circular.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Veinte. Se modifica la Norma 36.ª, que queda redactada como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_articulo">«Norma 36.ª Cuentas anuales.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">1. Las cuentas anuales individuales de la Sociedad serán elaboradas en base a las previsiones del Plan General de Contabilidad y con los tratamientos contables específicos previstos en las Normas contenidas en esta Circular para determinadas operaciones típicas de la actividad y operativa de las infraestructuras de negociación o de poscontratación. Cuando la Sociedad estuviera obligada a presentar cuentas anuales consolidadas, tales cuentas serán elaboradas con las previsiones de las Normas de Formulación de Cuentas Anuales Consolidadas o bien, cuando fueran de aplicación, con las previsiones de las normas internacionales de información financiera adoptadas por los Reglamentos de la Unión Europea y los principios y criterios contables en ellas contemplados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">2. El ‘‘Balance de situación’’ y la ‘‘Cuenta de pérdidas y ganancias’’ a utilizar por la Sociedad cuando se trate de cuentas anuales individuales se ajustarán sin modificación a la estructura de rúbricas, epígrafes y partidas de los modelos PI.1 y PI.2 del anexo 3 de esta Circular y, en el caso de cuentas anuales consolidadas, a la de los modelos recogidos en el anexo 4 de esta Circular PC.1.a y ‘‘PC.2.a si procede utilizar normas internacionales de información financiera o bien PC.1.b’’ y ‘‘PC.2.b en caso contrario. Los restantes estados financieros básicos exigibles por las normas generales citadas en el punto 1 anterior se ajustarán a los formatos y disposiciones que sobre dichos estados hay previstos en ellas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">3. No obstante lo establecido en el punto precedente, al publicar sus cuentas anuales sobre la base de los modelos de estados financieros PI.1 y PI.2 o, en su caso, PC.1.a y PC.2.a o bien PC1.b y PC.2.b, la Sociedad podrá omitir las partidas individuales que no hayan tenido saldo ni en el periodo actual ni en el precedente, a afectos de favorecer la claridad de dichos estados. Igualmente, con este mismo fin, podrá agrupar partidas individuales cuyos saldos representen un importe irrelevante y, si fuera necesario para mostrar una imagen más fiel, podrá añadir un mayor desglose de partidas individuales en las rúbricas y epígrafes. A todos los efectos anteriores, se entiende por partidas individuales aquellas líneas o campos de datos de los modelos de estados financieros cuyos saldos no resultan de la suma algebraica de otras líneas o campos de datos de dichos estados.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Veintiuno. Se modifica la Norma 38.ª, que queda redactada como sigue:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_articulo">«Norma 38.ª Publicidad de las cuentas anuales.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">1. La Comisión Nacional del Mercado de Valores, una vez que haya examinado el informe de auditoría de cuentas y las correspondientes cuentas anuales e informe de gestión que remita la Sociedad, dispondrá para consulta pública esta documentación.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">2. La puesta a disposición para consulta pública de los informes de auditoría de cuentas y las correspondientes cuentas anuales e informe de gestión de las entidades que se hallan en el ámbito de esta Circular sólo implicará el reconocimiento de que aquéllas contienen toda la información requerida y eximirá de responsabilidad a la Comisión Nacional del Mercado de Valores en cuanto a la veracidad de los mismos.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma final. Entrada en vigor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Lo dispuesto en la presente Circular entrará en vigor a partir del uno de enero de 2012, y será de aplicación a todos los estados financieros intermedios reservados o públicos e información complementaria amparados por esta Circular que se elaboren a partir de esa fecha. Igualmente, será de aplicación a las cuentas anuales sometidas a auditoría de cuentas del ejercicio anual terminado a diciembre de 2011 que se presenten a la aprobación de la correspondiente Junta General de Accionistas de la Sociedad en el año 2012.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Madrid, 12 de diciembre de 2011.–El Presidente de la Comisión Nacional del Mercado de Valores, Julio Segura Sánchez.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="5287.png" src="/datos/imagenes/disp/2011/308/20033_5287.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-2" alt="5363.png" src="/datos/imagenes/disp/2011/308/20033_5363.png" width="2126" height="2499"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-3" alt="5434.png" src="/datos/imagenes/disp/2011/308/20033_5434.png" width="2126" height="2646"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-4" alt="5505.png" src="/datos/imagenes/disp/2011/308/20033_5505.png" width="2126" height="2463"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-5" alt="5578.png" src="/datos/imagenes/disp/2011/308/20033_5578.png" width="2126" height="922"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-6" alt="5649.png" src="/datos/imagenes/disp/2011/308/20033_5649.png" width="2126" height="2020"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-7" alt="5721.png" src="/datos/imagenes/disp/2011/308/20033_5721.png" width="2776" height="1725"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-8" alt="5826.png" src="/datos/imagenes/disp/2011/308/20033_5826.png" width="2776" height="1890"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-9" alt="5899.png" src="/datos/imagenes/disp/2011/308/20033_5899.png" width="2776" height="1843"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-10" alt="5972.png" src="/datos/imagenes/disp/2011/308/20033_5972.png" width="2126" height="1312"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-11" alt="6043.png" src="/datos/imagenes/disp/2011/308/20033_6043.png" width="2776" height="1548"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="6115.png" src="/datos/imagenes/disp/2011/308/20033_6115.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-12" alt="6186.png" src="/datos/imagenes/disp/2011/308/20033_6186.png" width="2776" height="1873"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-13" alt="6257.png" src="/datos/imagenes/disp/2011/308/20033_6257.png" width="2776" height="922"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-14" alt="6330.png" src="/datos/imagenes/disp/2011/308/20033_6330.png" width="2126" height="1388"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="6402.png" src="/datos/imagenes/disp/2011/308/20033_6402.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="6474.png" src="/datos/imagenes/disp/2011/308/20033_6474.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-15" alt="6546.png" src="/datos/imagenes/disp/2011/308/20033_6546.png" width="2126" height="2676"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="6618.png" src="/datos/imagenes/disp/2011/308/20033_6618.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="6690.png" src="/datos/imagenes/disp/2011/308/20033_6690.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-16" alt="6762.png" src="/datos/imagenes/disp/2011/308/20033_6762.png" width="2776" height="1536"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-17" alt="6833.png" src="/datos/imagenes/disp/2011/308/20033_6833.png" width="2776" height="886"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-14" alt="6906.png" src="/datos/imagenes/disp/2011/308/20033_6906.png" width="2126" height="1388"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-18" alt="6977.png" src="/datos/imagenes/disp/2011/308/20033_6977.png" width="2126" height="1453"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-19" alt="7048.png" src="/datos/imagenes/disp/2011/308/20033_7048.png" width="2776" height="1731"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="7121.png" src="/datos/imagenes/disp/2011/308/20033_7121.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="7193.png" src="/datos/imagenes/disp/2011/308/20033_7193.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-20" alt="7284.png" src="/datos/imagenes/disp/2011/308/20033_7284.png" width="2126" height="2085"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-21" alt="7357.png" src="/datos/imagenes/disp/2011/308/20033_7357.png" width="2126" height="2227"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-22" alt="7430.png" src="/datos/imagenes/disp/2011/308/20033_7430.png" width="2776" height="1217"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-23" alt="7503.png" src="/datos/imagenes/disp/2011/308/20033_7503.png" width="2126" height="1317"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-24" alt="7576.png" src="/datos/imagenes/disp/2011/308/20033_7576.png" width="2776" height="1489"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-25" alt="7647.png" src="/datos/imagenes/disp/2011/308/20033_7647.png" width="2126" height="2132"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="7786.png" src="/datos/imagenes/disp/2011/308/20033_7786.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="7858.png" src="/datos/imagenes/disp/2011/308/20033_7858.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-26" alt="7929.png" src="/datos/imagenes/disp/2011/308/20033_7929.png" width="2126" height="2144"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-27" alt="8073.png" src="/datos/imagenes/disp/2011/308/20033_8073.png" width="2126" height="2552"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-28" alt="8146.png" src="/datos/imagenes/disp/2011/308/20033_8146.png" width="2126" height="1928"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-29" alt="8219.png" src="/datos/imagenes/disp/2011/308/20033_8219.png" width="2776" height="1406"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-30" alt="8292.png" src="/datos/imagenes/disp/2011/308/20033_8292.png" width="2126" height="1630"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-31" alt="8365.png" src="/datos/imagenes/disp/2011/308/20033_8365.png" width="2776" height="1682"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-32" alt="8437.png" src="/datos/imagenes/disp/2011/308/20033_8437.png" width="2126" height="2422"/>
+    </p>
+  </texto>
+</documento>

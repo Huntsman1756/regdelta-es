@@ -110,4 +110,43 @@ PORT-CNMV-0 once the frame volume is known.
 
 ## Execution record
 
-(filled at run time — see selection.json / SEAL for the result)
+```text
+run head          9b127d4
+discovery         113 BOE ids from the CNMV circular index
+                  (esdata@80b9eb0 flow: main index -> 4 year-range
+                  pages -> boe.es links)
+inspected         113 (metadatos + referencias only; <texto> never
+                  opened)
+eligible          56   (issuer CNMV, rango Circular, id resolvable,
+                  >=1 declared modification posterior)
+multi-target      39 candidates share a modifier with >=1 other
+                  eligible candidate — the cross-target amendment
+                  signal is real, not anecdotal
+unseen eligible   56   (>= 8 required) -> split proceeds
+
+stress-rank top 8 (rank -> side):
+  1 BOE-A-2008-16091  mods=9  multi=8  corr=1   -> DEV
+  2 BOE-A-2008-20895  mods=9  multi=7  corr=0   -> SEALED_HOLDOUT
+  3 BOE-A-2010-13162  mods=6  multi=6  corr=0   -> DEV
+  4 BOE-A-1994-28725  mods=6  multi=4  corr=0   -> SEALED_HOLDOUT
+  5 BOE-A-2009-133    mods=6  multi=2  corr=0   -> DEV
+  6 BOE-A-2009-656    mods=5  multi=5  corr=0   -> SEALED_HOLDOUT
+  7 BOE-A-2008-19438  mods=5  multi=5  corr=0   -> DEV
+  8 BOE-A-1997-18096  mods=5  multi=4  corr=0   -> SEALED_HOLDOUT
+
+seen fixture      BOE-A-2020-14107 -> DEV extra (never blind-split)
+
+capture           dev: 73 artifacts, holdout: 68 artifacts
+                  (diario XML + doc HTML + PDF per target; diario XML
+                  of every declared modifier — needed by reconstruct)
+                  0 fetch errors; sha256+manifest per artifact
+seal              holdout/SEAL @ 9b127d4, aggregate_sha256
+                  be0cb6a2..., 68 artifacts, 28.3 MB
+```
+
+```text
+TERMINAL = READY_FOR_CNMV_PROFILE_PROBE
+```
+
+PORT-CNMV-1 is NOT opened by this result; it requires its own
+explicit authorization.

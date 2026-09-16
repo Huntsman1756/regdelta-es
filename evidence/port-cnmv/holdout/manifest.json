@@ -1,0 +1,685 @@
+{
+ "captured_at": "2026-09-16T18:52:56Z",
+ "entries": {
+  "boe_diario_xml__BOE-A-2008-20895.xml": {
+   "name": "boe_diario_xml__BOE-A-2008-20895.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-20895",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:30Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2008-20895.xml",
+   "sha256": "75130ad7cc59c50e6835861f745cf558bd0ebc8819c961b10ef43fa4524f18de",
+   "size_bytes": 694340,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2008-20895.html": {
+   "name": "boe_doc_html__BOE-A-2008-20895.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2008-20895",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:31Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2008-20895.html",
+   "sha256": "c66c558b33aa680ea621d8579cbf176bf388fa15657bbc2562df96b3eddc36f5",
+   "size_bytes": 681337,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2008-20895.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2008-20895.pdf",
+   "url": "https://www.boe.es/boe/dias/2008/12/29/pdfs/A52129-52291.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:32Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2008-20895.pdf",
+   "sha256": "5f6c044fb172aa0b9a182f78a7c86221f400ed438f36c8e2cb4cdc8e07922ebc",
+   "size_bytes": 1830707,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-1994-28725.xml": {
+   "name": "boe_diario_xml__BOE-A-1994-28725.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1994-28725",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:32Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-1994-28725.xml",
+   "sha256": "677894cce9b7ba2eeed98f47b862e9feabc012b503f5c566524ff00d7d18871c",
+   "size_bytes": 334385,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-1994-28725.html": {
+   "name": "boe_doc_html__BOE-A-1994-28725.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1994-28725",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:32Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-1994-28725.html",
+   "sha256": "13be022a0640f7327b5f2122a646401221351fa05f256c5af2924467a2be7ff6",
+   "size_bytes": 370206,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-1994-28725.pdf": {
+   "name": "boe_dias_pdf__BOE-A-1994-28725.pdf",
+   "url": "https://www.boe.es/boe/dias/1994/12/28/pdfs/A39029-39051.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:33Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-1994-28725.pdf",
+   "sha256": "aebc9ffbb2930945766975ba7f0a0bb55b13b8eee78810bd0aaf44b632524b95",
+   "size_bytes": 975715,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2009-656.xml": {
+   "name": "boe_diario_xml__BOE-A-2009-656.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2009-656",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:33Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2009-656.xml",
+   "sha256": "269472183e11506792a555802b810b9babc0ea1db1667269cef47325c13a7ff1",
+   "size_bytes": 132949,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2009-656.html": {
+   "name": "boe_doc_html__BOE-A-2009-656.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-656",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:33Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2009-656.html",
+   "sha256": "107d9b208390d226726f072e7ea18da5d5f3189c874831a69dfd884de989633c",
+   "size_bytes": 136141,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2009-656.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2009-656.pdf",
+   "url": "https://www.boe.es/boe/dias/2009/01/14/pdfs/BOE-A-2009-656.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:34Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2009-656.pdf",
+   "sha256": "68c9bbcbf6f7ef4d50ca6d9681579aadac72c46ea21c5ca85f38a370f20aefb9",
+   "size_bytes": 735876,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-1997-18096.xml": {
+   "name": "boe_diario_xml__BOE-A-1997-18096.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1997-18096",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:34Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-1997-18096.xml",
+   "sha256": "518064ac19e7bb5afa486f8918139dfa8caedf28addb37479cf699d2e63b4b17",
+   "size_bytes": 201055,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-1997-18096.html": {
+   "name": "boe_doc_html__BOE-A-1997-18096.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1997-18096",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:34Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-1997-18096.html",
+   "sha256": "00744bb94c9aadb928150e3ce731784519ca14f9cbb7747cae17581e356e0ac9",
+   "size_bytes": 208599,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-1997-18096.pdf": {
+   "name": "boe_dias_pdf__BOE-A-1997-18096.pdf",
+   "url": "https://www.boe.es/boe/dias/1997/08/09/pdfs/A24284-24297.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:35Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-1997-18096.pdf",
+   "sha256": "fa2771d79dde3dfcbbdf0f77fd25cab5554894d20433e5fbcfd8e0372d96734a",
+   "size_bytes": 831654,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2021-6049.xml": {
+   "name": "boe_diario_xml__BOE-A-2021-6049.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2021-6049",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:35Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2021-6049.xml",
+   "sha256": "f460e21baefbf0feea2df1c54069d2bc6b4d94d8ed1cc74037a7f36cb6cba1f7",
+   "size_bytes": 92065,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2021-6049.html": {
+   "name": "boe_doc_html__BOE-A-2021-6049.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2021-6049",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:35Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2021-6049.html",
+   "sha256": "4ef3ec3c44989df68fdd44344074dfeb65c585aa02e742d5de2b542d4406a4d8",
+   "size_bytes": 111236,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2021-6049.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2021-6049.pdf",
+   "url": "https://www.boe.es/boe/dias/2021/04/16/pdfs/BOE-A-2021-6049.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:36Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2021-6049.pdf",
+   "sha256": "762d9f5135492e3f30d316456766928b10c942fa5374764fb6bb679ab93a5522",
+   "size_bytes": 1289761,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2018-17708.xml": {
+   "name": "boe_diario_xml__BOE-A-2018-17708.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-17708",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:36Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2018-17708.xml",
+   "sha256": "a789d98d467f11e73afb8ea9e85c6edeee90f35e2beef7b109f868610897b09a",
+   "size_bytes": 35682,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2018-17708.html": {
+   "name": "boe_doc_html__BOE-A-2018-17708.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2018-17708",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:36Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2018-17708.html",
+   "sha256": "3a2bbc5f80c6a9247428c7d237370c919703b62d6c5df26b696557a2bb320a31",
+   "size_bytes": 54577,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2018-17708.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2018-17708.pdf",
+   "url": "https://www.boe.es/boe/dias/2018/12/26/pdfs/BOE-A-2018-17708.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:37Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2018-17708.pdf",
+   "sha256": "419ed4a6152f37cde60a6b8c462c1298b5d19ab766004140b737772fc84c4cb4",
+   "size_bytes": 1582902,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2018-13716.xml": {
+   "name": "boe_diario_xml__BOE-A-2018-13716.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2018-13716",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:37Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2018-13716.xml",
+   "sha256": "4f5389aa26e16a5c138140e99c39c6d2dfb758a352c0ec4f3155929bc9f7a048",
+   "size_bytes": 39662,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2018-13716.html": {
+   "name": "boe_doc_html__BOE-A-2018-13716.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2018-13716",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:38Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2018-13716.html",
+   "sha256": "4544893880ad79c78ef421741912d0536ac75881c57d37eeb2544137e1636d35",
+   "size_bytes": 53248,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2018-13716.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2018-13716.pdf",
+   "url": "https://www.boe.es/boe/dias/2018/10/09/pdfs/BOE-A-2018-13716.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:38Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2018-13716.pdf",
+   "sha256": "fe039d18b8632996b1d935a95e07fdf5f4040e1804d8c0ae8d9ac12a13f8e1a4",
+   "size_bytes": 553302,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2017-14915.xml": {
+   "name": "boe_diario_xml__BOE-A-2017-14915.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2017-14915",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:38Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2017-14915.xml",
+   "sha256": "b3d714fa248214319fef0236eee712fc80fae660999d6d6949facd75c8f5e990",
+   "size_bytes": 34807,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2017-14915.html": {
+   "name": "boe_doc_html__BOE-A-2017-14915.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-14915",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:39Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2017-14915.html",
+   "sha256": "b6e28b21e18aa7f29e94adddba168a6282864357455eeec52782e872fca28a7b",
+   "size_bytes": 49414,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2017-14915.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2017-14915.pdf",
+   "url": "https://www.boe.es/boe/dias/2017/12/18/pdfs/BOE-A-2017-14915.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:39Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2017-14915.pdf",
+   "sha256": "ea51feefc5c25be0c8c916ff159d39ee197ce37cb0972dcc197ab890688062f9",
+   "size_bytes": 195029,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2015-12404.xml": {
+   "name": "boe_diario_xml__BOE-A-2015-12404.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2015-12404",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:39Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2015-12404.xml",
+   "sha256": "44dd4b20325a63a17637295abff2533e2ce10e89c0c0c015c3b8a54810b31a2f",
+   "size_bytes": 47200,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2015-12404.html": {
+   "name": "boe_doc_html__BOE-A-2015-12404.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2015-12404",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:40Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2015-12404.html",
+   "sha256": "a14106fff8fd0e2051209234847755cb3a5756b71857bd381fc851564ca8549f",
+   "size_bytes": 59444,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2015-12404.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2015-12404.pdf",
+   "url": "https://www.boe.es/boe/dias/2015/11/17/pdfs/BOE-A-2015-12404.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:40Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2015-12404.pdf",
+   "sha256": "c140fe199fe1d70051d0e55d7c8b43036b03f6d14eb8e03bf08df3936f2fad87",
+   "size_bytes": 2663432,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2014-11497.xml": {
+   "name": "boe_diario_xml__BOE-A-2014-11497.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2014-11497",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:40Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2014-11497.xml",
+   "sha256": "17a2cb76963acde9b49665abebd1a2e6b811ff442568a7ccd3ceaaa7bb87b09a",
+   "size_bytes": 51150,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2014-11497.html": {
+   "name": "boe_doc_html__BOE-A-2014-11497.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2014-11497",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:41Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2014-11497.html",
+   "sha256": "f010f625aa271ec99d2d4149248b5185231dd00f601d220bc841941d501eb6e5",
+   "size_bytes": 64509,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2014-11497.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2014-11497.pdf",
+   "url": "https://www.boe.es/boe/dias/2014/11/07/pdfs/BOE-A-2014-11497.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:41Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2014-11497.pdf",
+   "sha256": "239b0a570a761a468c2f5dc0f981ced0360adaab0eeff62289e630900e1a1f9a",
+   "size_bytes": 519784,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2011-20107.xml": {
+   "name": "boe_diario_xml__BOE-A-2011-20107.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-20107",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:41Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2011-20107.xml",
+   "sha256": "6c9bdb401ab9a19dd7a3e578da615d988dc1509dfacc790e189a6e1d54672e3f",
+   "size_bytes": 63731,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2011-20107.html": {
+   "name": "boe_doc_html__BOE-A-2011-20107.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-20107",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:42Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2011-20107.html",
+   "sha256": "d13f7afde1da2f3fab6b0806fd96e953b4e0d16b781d5619576e0b8eaba1e29e",
+   "size_bytes": 73518,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2011-20107.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2011-20107.pdf",
+   "url": "https://www.boe.es/boe/dias/2011/12/24/pdfs/BOE-A-2011-20107.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:42Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2011-20107.pdf",
+   "sha256": "8b91f9b0900b316e4451a18204ec0551ea611685878e1e1ad265ea835742f86b",
+   "size_bytes": 506780,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2011-19550.xml": {
+   "name": "boe_diario_xml__BOE-A-2011-19550.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-19550",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:42Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2011-19550.xml",
+   "sha256": "5afdcdfa9a3114a6c3129af8196c2e3c67a3c0092adb3d75abee8606224d5f3f",
+   "size_bytes": 230714,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2011-19550.html": {
+   "name": "boe_doc_html__BOE-A-2011-19550.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19550",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:43Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2011-19550.html",
+   "sha256": "b5a54eedccbc6425ae18a2a2e99eba1743b109eb7ba38394224113e613474eec",
+   "size_bytes": 227202,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2011-19550.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2011-19550.pdf",
+   "url": "https://www.boe.es/boe/dias/2011/12/15/pdfs/BOE-A-2011-19550.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:44Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2011-19550.pdf",
+   "sha256": "42c58ad69b7f657ffd86e8fc80334308eb6c947cd97f16a43822da0529cb05b3",
+   "size_bytes": 1692120,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2011-551.xml": {
+   "name": "boe_diario_xml__BOE-A-2011-551.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2011-551",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:44Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2011-551.xml",
+   "sha256": "926377f549e481995de9c67ea1dd9cbc1235acd962c38d3a0c35587931073a4a",
+   "size_bytes": 204158,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2011-551.html": {
+   "name": "boe_doc_html__BOE-A-2011-551.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2011-551",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:45Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2011-551.html",
+   "sha256": "1e25fb27b49727b3bb4cd6d36da557c9ddda0eb0197684b0f144145bd308e69e",
+   "size_bytes": 232836,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2011-551.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2011-551.pdf",
+   "url": "https://www.boe.es/boe/dias/2011/01/11/pdfs/BOE-A-2011-551.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:45Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2011-551.pdf",
+   "sha256": "a443fee47e942d85513e30000818b52130d44fe1c3bf3d3fa1edf2cc28036598",
+   "size_bytes": 1888755,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2008-19438.xml": {
+   "name": "boe_diario_xml__BOE-A-2008-19438.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-19438",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:45Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2008-19438.xml",
+   "sha256": "d4730a2175cfd54b8f7737882e5c07ad5ce947451c22977444f63985b0fab4b7",
+   "size_bytes": 81078,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2008-19438.html": {
+   "name": "boe_doc_html__BOE-A-2008-19438.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2008-19438",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:46Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2008-19438.html",
+   "sha256": "a572ddaa843163821274f0f797f285711f37030855a78e8db246af7840ed1b78",
+   "size_bytes": 109323,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2008-19438.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2008-19438.pdf",
+   "url": "https://www.boe.es/boe/dias/2008/12/02/pdfs/A48142-48150.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:46Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2008-19438.pdf",
+   "sha256": "cf227070a5be1eacdf5a37249558cd096d7ee0f40b241813a25cb807d6cc1d24",
+   "size_bytes": 97199,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2008-16091.xml": {
+   "name": "boe_diario_xml__BOE-A-2008-16091.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-16091",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:46Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2008-16091.xml",
+   "sha256": "2dd5192c8567240d85bb2c35cd2929ba7e66e79e081635e10b80217964eb965d",
+   "size_bytes": 185386,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2008-16091.html": {
+   "name": "boe_doc_html__BOE-A-2008-16091.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2008-16091",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:47Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2008-16091.html",
+   "sha256": "de65212c54bf9d264bace9bf0dfc9cbf51a7ca266a9379857c48eb87d2c6e3ed",
+   "size_bytes": 231887,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2008-16091.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2008-16091.pdf",
+   "url": "https://www.boe.es/boe/dias/2008/10/07/pdfs/A40206-40252.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:47Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2008-16091.pdf",
+   "sha256": "20e8166f0f29440be6871573da3b1c4821b2ffae7ca27e6fac5b4c8ec0f0a023",
+   "size_bytes": 926760,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2008-15872.xml": {
+   "name": "boe_diario_xml__BOE-A-2008-15872.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-15872",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:47Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2008-15872.xml",
+   "sha256": "bfdfb5f18e873c143eb780353518a86f5a4403b47a652088c757d7f47056e743",
+   "size_bytes": 159947,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2008-15872.html": {
+   "name": "boe_doc_html__BOE-A-2008-15872.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2008-15872",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:48Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2008-15872.html",
+   "sha256": "75baeaf7e6a33365f1e0ca39b1aaa63774566c089d5e871d678f0370276978ca",
+   "size_bytes": 180970,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2008-15872.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2008-15872.pdf",
+   "url": "https://www.boe.es/boe/dias/2008/10/02/pdfs/A39612-39673.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:49Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2008-15872.pdf",
+   "sha256": "eeb21e55c760404266cec935ecca269e907d90bf3040fd21cfd0fb26c71a83c9",
+   "size_bytes": 1519624,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2008-7880.xml": {
+   "name": "boe_diario_xml__BOE-A-2008-7880.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-7880",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:49Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2008-7880.xml",
+   "sha256": "c830a060d105e3b0879d1e0c21caa812ff1a8435db1f7327b019ba6793d88bfd",
+   "size_bytes": 43109,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2008-7880.html": {
+   "name": "boe_doc_html__BOE-A-2008-7880.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2008-7880",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:49Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2008-7880.html",
+   "sha256": "90a22710017f1a032247c125a11cb25e58de69e84e86ba1c45834e36bea4ed45",
+   "size_bytes": 60681,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2008-7880.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2008-7880.pdf",
+   "url": "https://www.boe.es/boe/dias/2008/05/03/pdfs/A22468-22478.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:50Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2008-7880.pdf",
+   "sha256": "149fd9a93a398f36cf3da412f82deba98ead1abf4d55c49f9c360ff961194aa7",
+   "size_bytes": 132215,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-1998-30048.xml": {
+   "name": "boe_diario_xml__BOE-A-1998-30048.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1998-30048",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:50Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-1998-30048.xml",
+   "sha256": "d384c8717e872d457c3263ac0164196935f48e72aff4ad8bbaae6a662cf404ed",
+   "size_bytes": 74462,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-1998-30048.html": {
+   "name": "boe_doc_html__BOE-A-1998-30048.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1998-30048",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:50Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-1998-30048.html",
+   "sha256": "ab38ba4ee9588a7861ec62e89d9b5b65d28457c8879cc7e7dcf0df98bca12893",
+   "size_bytes": 91290,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-1998-30048.pdf": {
+   "name": "boe_dias_pdf__BOE-A-1998-30048.pdf",
+   "url": "https://www.boe.es/boe/dias/1998/12/30/pdfs/A44124-44132.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:51Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-1998-30048.pdf",
+   "sha256": "4d8b94935c8ec23094d3cd362c764caa0210a371aff2483124457c43591a669c",
+   "size_bytes": 64027,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-1997-26637.xml": {
+   "name": "boe_diario_xml__BOE-A-1997-26637.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1997-26637",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:51Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-1997-26637.xml",
+   "sha256": "706e07885ee9d273d9739175b07ba6bbc6099a8ba03989aeecb9d89ce4946859",
+   "size_bytes": 12160,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2025-5190.xml": {
+   "name": "boe_diario_xml__BOE-A-2025-5190.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2025-5190",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:51Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2025-5190.xml",
+   "sha256": "530ad6122ab5f6508b2769c415b7ea0b8a2ab83001039c378245deaa7e1e8e70",
+   "size_bytes": 68133,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2025-5190.html": {
+   "name": "boe_doc_html__BOE-A-2025-5190.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-5190",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:52Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2025-5190.html",
+   "sha256": "0e1ddc2420dad5e96caaafa10dbef77b6a6b785fd0d2d56064117753eded6362",
+   "size_bytes": 86237,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2025-5190.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2025-5190.pdf",
+   "url": "https://www.boe.es/boe/dias/2025/03/17/pdfs/BOE-A-2025-5190.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:52Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2025-5190.pdf",
+   "sha256": "d2c51b5289c20f0d356268b257b8907c8e8b633c0c1eea0442f85ae7775b7884",
+   "size_bytes": 2059951,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2025-6602.xml": {
+   "name": "boe_diario_xml__BOE-A-2025-6602.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2025-6602",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:52Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2025-6602.xml",
+   "sha256": "8907a028bd268990525e232dcbdaad5b7f5656aebce35f51f1cb6fb7c9f8662b",
+   "size_bytes": 10911,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2025-6602.html": {
+   "name": "boe_doc_html__BOE-A-2025-6602.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-6602",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:53Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2025-6602.html",
+   "sha256": "38f039aa17351c8990b56b383476b8052e1c8ff2ba7918d5bdb8a2b855a227c1",
+   "size_bytes": 28716,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2025-6602.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2025-6602.pdf",
+   "url": "https://www.boe.es/boe/dias/2025/04/02/pdfs/BOE-A-2025-6602.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:53Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2025-6602.pdf",
+   "sha256": "edfd24cdba79c3e3e96a341e2c5bd02f9110aa9c4656d03347e69dda61e76b52",
+   "size_bytes": 190861,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2009-20499.xml": {
+   "name": "boe_diario_xml__BOE-A-2009-20499.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2009-20499",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:53Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2009-20499.xml",
+   "sha256": "65c422c4fed5d85b5de6e646e4ec2797be145333c46fb37edc1202f234fa8d20",
+   "size_bytes": 76128,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2009-20499.html": {
+   "name": "boe_doc_html__BOE-A-2009-20499.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2009-20499",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:54Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2009-20499.html",
+   "sha256": "7095d004a7555ca42de9eb44e03b1d01cebccd800829345558bb50d53990b86f",
+   "size_bytes": 97604,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2009-20499.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2009-20499.pdf",
+   "url": "https://www.boe.es/boe/dias/2009/12/21/pdfs/BOE-A-2009-20499.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:54Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2009-20499.pdf",
+   "sha256": "abe0ef96ef07506ad25b55bb08fa6e2a7f947b6ec42a4088fef90f0eacf9a1cd",
+   "size_bytes": 282284,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-2001-8869.xml": {
+   "name": "boe_diario_xml__BOE-A-2001-8869.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2001-8869",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:54Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-2001-8869.xml",
+   "sha256": "8d6ec20bed8ecb54b51b99371d1b89b18c20e92baa51dbf56952ad1cff14935d",
+   "size_bytes": 37851,
+   "http_status": 200
+  },
+  "boe_doc_html__BOE-A-2001-8869.html": {
+   "name": "boe_doc_html__BOE-A-2001-8869.html",
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2001-8869",
+   "accept": "text/html",
+   "retrieved_at": "2026-09-16T18:52:55Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_doc_html__BOE-A-2001-8869.html",
+   "sha256": "8ca677e0e392575f2db0d02a763bd26e2201985f5b5e1edc3b70cadb27978457",
+   "size_bytes": 55503,
+   "http_status": 200
+  },
+  "boe_dias_pdf__BOE-A-2001-8869.pdf": {
+   "name": "boe_dias_pdf__BOE-A-2001-8869.pdf",
+   "url": "https://www.boe.es/boe/dias/2001/05/09/pdfs/A16617-16637.pdf",
+   "accept": "application/pdf",
+   "retrieved_at": "2026-09-16T18:52:55Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_dias_pdf__BOE-A-2001-8869.pdf",
+   "sha256": "82ddea65e0c9290da3dc82b30b83bc8c58b246e24b0352706d03826ab9a6f34c",
+   "size_bytes": 1460263,
+   "http_status": 200
+  },
+  "boe_diario_xml__BOE-A-1998-22883.xml": {
+   "name": "boe_diario_xml__BOE-A-1998-22883.xml",
+   "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-1998-22883",
+   "accept": "application/xml",
+   "retrieved_at": "2026-09-16T18:52:56Z",
+   "path": "evidence/port-cnmv/holdout/raw/boe_diario_xml__BOE-A-1998-22883.xml",
+   "sha256": "9c53a15f80f51cc3c7da4a64886151f9a5dd967175052295203191a0d166eb9b",
+   "size_bytes": 121199,
+   "http_status": 200
+  }
+ }
+}

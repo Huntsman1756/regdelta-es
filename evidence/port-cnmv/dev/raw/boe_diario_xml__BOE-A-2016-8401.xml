@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219202601">
+  <metadatos>
+    <identificador>BOE-A-2016-8401</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1590">Corrección (errores o erratas)</rango>
+    <fecha_disposicion/>
+    <numero_oficial/>
+    <titulo>Corrección de errores de la Circular 5/2016, de 27 de julio, de la Comisión Nacional del Mercado de Valores, por la que se modifica la Circular 9/2008, de 10 de diciembre, sobre normas contables, estados de información reservada y pública, cuentas anuales de las sociedades rectoras de los mercados secundarios oficiales, con la exclusión del Banco de España, de las entidades rectoras de los sistemas multilaterales de negociación, de la Sociedad de Sistemas, de las entidades de contrapartida central, de la Sociedad de Bolsas, de las sociedades que tengan la titularidad de todas las acciones de organismos rectores de mercados secundarios oficiales y de sistemas multilaterales de negociación, y de otros sistemas de compensación y liquidación de los mercados que se creen al amparo de lo previsto en la Ley del Mercado de Valores.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20160914</fecha_publicacion>
+    <diario_numero>222</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>66072</pagina_inicial>
+    <pagina_final>66073</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2016/09/14/pdfs/BOE-A-2016-8401.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2016-8401</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>S</estatus_derogacion>
+    <fecha_derogacion>20230101</fecha_derogacion>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>S</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2016-8401</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-07-27</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6674"/>
+        <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2016-8401</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-07-27</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6674"/>
+            <eli:subtype_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/corrigendum"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:corrects rdf:resource="https://www.boe.es/eli/es/cir/2016/07/27/5/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corrección de errores de la Circular 5/2016, de 27 de julio, de la Comisión Nacional del Mercado de Valores, por la que se modifica la Circular 9/2008, de 10 de diciembre, sobre normas contables, estados de información reservada y pública, cuentas anuales de las sociedades rectoras de los mercados secundarios oficiales, con la exclusión del Banco de España, de las entidades rectoras de los sistemas multilaterales de negociación, de la Sociedad de Sistemas, de las entidades de contrapartida central, de la Sociedad de Bolsas, de las sociedades que tengan la titularidad de todas las acciones de organismos rectores de mercados secundarios oficiales y de sistemas multilaterales de negociación, y de otros sistemas de compensación y liquidación de los mercados que se creen al amparo de lo previsto en la Ley del Mercado de Valores.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-14</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2016/07/27/5/corrigendum/20160914/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="60" orden="">Activos financieros</materia>
+      <materia codigo="1186" orden="">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="3239" orden="">Entidades financieras</materia>
+      <materia codigo="3472" orden="">Estados financieros</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="6674" orden="">Sociedades</materia>
+    </materias>
+    <notas>
+      <nota codigo="149" orden="340">Esta norma se entiende implícitamente derogada por Circular 4/2022, de 22 de diciembre BOE-A-2022-24434.</nota>
+      <nota codigo="0" orden="999">La corrección de errores de la de la Circular 9/2008, de 10 de diciembre, se establece por estar modificada por la Circular 5/2016, de 27 de julio.</nota>
+    </notas>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2016-7993" orden="2120">
+          <palabra codigo="201">CORRECCIÓN de errores</palabra>
+          <texto>de la Circular 5/2016, de 27 de julio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2009-133" orden="2140">
+          <palabra codigo="203">CORRIGE errores</palabra>
+          <texto>de la Circular 9/2008, de 10 de diciembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Advertidos errores en el anexo 2 «Estados financieros reservados consolidados (TC.1, TC.2, TC.3, TC.4, TC.5, TC.6 y TC.7)» de la Circular 5/2016, de 27 de julio, de la Comisión Nacional del Mercado de Valores, por la que se modifica la Circular 9/2008, de 10 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, estados de información reservada y pública, cuentas anuales de las sociedades rectoras de los mercados secundarios oficiales, con la exclusión del Banco de España, de las entidades rectoras de los sistemas multilaterales de negociación, de la Sociedad de Sistemas, de las entidades de contrapartida central, de la Sociedad de Bolsas, de las sociedades que tengan la titularidad de todas las acciones de organismos rectores de mercados secundarios oficiales y de sistemas multilaterales de negociación, y de otros sistemas de compensación y liquidación de los mercados que se creen al amparo de lo previsto en la Ley del Mercado de Valores, publicado en el «Boletín Oficial del Estado» número 202, de 22 de agosto de 2016, se transcriben a continuación las oportunas rectificaciones:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">En la página 61360, en el estado «TC.1 BALANCE DE SITUACIÓN CONSOLIDADO RESERVADO», en el apartado «A) Activo no corriente», «IV Inversiones en empresas del grupo y asociadas a largo plazo», donde dice: «(TC. Participaciones puestas en equivalencia», debe decir: «1 Participaciones puestas en equivalencia».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En la página 61362, en el estado «TC.2 CUENTA DE PÉRDIDAS Y GANANCIAS CONSOLIDADA RESERVADA», en el apartado «1. Ventas y prestación de servicios», donde dice: «(T 1.2.1.6 Componente 6», debe decir: «1.2.1.6 Componente 6»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En la página 61365, en el estado «TC.3 OTRA INFORMACIÓN FINANCIERA COMPLMENTARIA CONSOLIDADA RESERVADA», en el apartado «Categorías de activos financieros (miles de €)», en la columna «Clave» correspondiente a «Activos financieros mantenidos para negociar», donde dice «.3, TC.4, TC.5, TC.6 y TC.7)», debe decir: «0130».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En la página 61367, en el estado «TC.3 OTRA INFORMACIÓN FINANCIERA COMPLEMENTARIA CONSOLIDADA RESERVADA», se elimina el paréntesis «(TC.1, TC.2, TC.3, TC.4, TC.5, TC.6 y TC.7)» situado entre las dos tablas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En la página 61368, en el estado «TC.4 ESTADO DE INGRESOS Y GASTOS RECONOCIDOS CONSOLIDADO RESERVADO, donde dice «2 (TC.1, TC.2, TC.3, TC.4, TC.5, TC.6 y TC.7)», debe decir: «2. Por coberturas de flujos de efectivo».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En la página 61369, en el estado «TC.5 ESTADO TOTAL DE CAMBIOS EN EL PATRIMONIO NETO CONSOLIDADO RESERVADO», se elimina el paréntesis «(TC.1, TC.2, TC.3, TC.4, TC.5, TC.6 y TC.7)» situado entre las dos tablas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En la página 61370, en el estado «TC.6 ESTADO DE FLUJOS DE EFECTIVO CONSOLIDADO RESERVADO», en el apartado «3. Cambios en el capital corriente», donde dice: «(+/-) (TC.1, TC.2, TC.3, TC.4, TC.5, TC.6 y TC.7)», debe decir: «(+/-) Otros activos corrientes».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En la página 61371, en el estado «TC.7 ESTADO INFORMATIVO DE RECURSOS PROPIOS CONSOLIDADO», se elimina el paréntesis «(TC.1, TC.2, TC.3, TC.4, TC.5, TC.6 y TC.7)» situado entre las dos primeras tablas.</p>
+  </texto>
+</documento>

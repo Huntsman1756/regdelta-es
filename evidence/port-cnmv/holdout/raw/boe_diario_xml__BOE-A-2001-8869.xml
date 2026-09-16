@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251218202601">
+  <metadatos>
+    <identificador>BOE-A-2001-8869</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20010418</fecha_disposicion>
+    <numero_oficial>1/2001</numero_oficial>
+    <titulo>Circular 1/2001, de 18 de abril, de la Comisión Nacional del Mercado de Valores, sobre modelos de folletos explicativos de las instituciones de inversión colectiva.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20010509</fecha_publicacion>
+    <diario_numero>111</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>16617</pagina_inicial>
+    <pagina_final>16637</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2001/05/09/pdfs/A16617-16637.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20010516</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2001/04/18/1</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2001/04/18/1">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-8869</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-04-18</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3792"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3794"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6682"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6697"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2001/04/18/1/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2001-8869</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-04-18</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3792"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3794"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6682"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6697"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6896"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2001/04/18/1"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2001/04/18/1/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 1/2001, de 18 de abril, de la Comisión Nacional del Mercado de Valores, sobre modelos de folletos explicativos de las instituciones de inversión colectiva.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-05-09</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2001/04/18/1/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2001/04/18/1/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2001/04/18/1/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2001/04/18/1/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2001/04/18/1/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2001/04/18/1/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2001/04/18/1/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="1186" orden="1">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="1627" orden="2">Contabilidad</materia>
+      <materia codigo="3792" orden="3">Fondos de Inversión en Activos del Mercado Monetario</materia>
+      <materia codigo="3794" orden="4">Fondos de Inversión Mobiliaria</materia>
+      <materia codigo="4302" orden="5">Instituciones de Inversión Colectiva</materia>
+      <materia codigo="6682" orden="6">Sociedades de Capital Riesgo</materia>
+      <materia codigo="6697" orden="7">Sociedades Gestoras de Instituciones de Inversión Colectiva</materia>
+      <materia codigo="6896" orden="8">Títulos valores</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2000-17760" orden="1010">
+          <palabra codigo="210">DEROGA</palabra>
+          <texto>Disposición transitoria 1 y MODIFICA las normas 11 y 16 de la Circular 5/2000, de 19 de septiembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1999-2639" orden="1010">
+          <palabra codigo="210">DEROGA</palabra>
+          <texto>Normas 4, 12, 13.1, transitoria y los números 1, 2 y 4 de la norma quinta y MODIFICA las normas 2, 5.3, 7, 8, 10 y 12.2 de la Circular 1/1999, de 14 de enero</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1998-22883" orden="1010">
+          <palabra codigo="210">DEROGA</palabra>
+          <texto>Norma 21.c).ii) de la Circular 3/1998, de 22 de septiembre ,</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1997-26636" orden="1010">
+          <palabra codigo="210">DEROGA</palabra>
+          <texto>Apartados a) y b) de la norma segunda.1 de la Circular 4/1997, de 26 de noviembre ,</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1997-18096" orden="1010">
+          <palabra codigo="210">DEROGA</palabra>
+          <texto>Normas segunda y transitoria 1.d) de la Circular 3/1997, de 29 de julio ,</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2001-8094" orden="3010">
+          <palabra codigo="490">DESARROLLA</palabra>
+          <texto>la Orden de 18 de abril de 2001</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2009-656" orden="">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>la disposición adicional 2, por Circular 11/2008, de 30 de diciembre</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2008-16091" orden="">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>con efectos de 31 de marzo de 2009, la disposición adicional 3 por Circular 4/2008, de 11 de septiembre</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2006-20269" orden="">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>las normas 1, 2 y 3, por Circular 3/2006, de 26 de octubre</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas/>
+  </analisis>
+  <texto>
+    <p class="parrafo">En desarrollo de la Orden de 18 de abril de 2001 sobre folletos explicativos, informes trimestrales y obligaciones de información de las instituciones de inversión colectiva, en la presente Circular se establece el contenido y formato de los modelos de folletos explicativos de las instituciones de inversión colectiva, tanto en su versión completa como simplificada, concibiendo esta última como parte extraíble del folleto completo. De esta forma, sólo deberá realizarse la remisión del folleto completo, eliminando así la del folleto anteriormente denominado «reducido».</p>
+    <p class="parrafo">Por razones de simplicidad, se ha establecido un único modelo para fondos y otro para sociedades de inversión, aunque cada modelo recoge las particularidades que afectan a cada clase de institución de inversión colectiva y, en particular, las de las «instituciones de inversión colectiva especializadas», reguladas recientemente por el Real Decreto 91/2001, de 2 de febrero, por el que se modifica parcialmente el Real Decreto 1393/1990, de 2 de noviembre, por el que se aprueba el Reglamento de la Ley 46/1984, reguladora de las Instituciones de Inversión Colectiva. De esta forma, para cada institución deben completarse sólo los apartados que le son de aplicación.</p>
+    <p class="parrafo">También se establecen algunas precisiones en cuanto a la remisión de la información por vía telemática como la posibilidad de establecer procedimientos especiales para la remisión a la Comisión Nacional del Mercado de Valores ya sea mediante el sistema CIFRADOC/CNMV u otro similar, de otros documentos complementarios a los folletos, como las cuentas anuales, reglamentos de gestión, estatutos, etc., cuando las posibilidades técnicas lo permitan. Todo ello con el claro objeto de agilizar los trámites de actualización posterior.</p>
+    <p class="parrafo">Adicionalmente, teniendo en cuenta la finalización del período transitorio en la incorporación al euro, así como las especiales circunstancias que concurren en la supervisión de los fondos y sociedades de capital riesgo, en especial el largo período de maduración de sus inversiones, se ha optado por modificar parcialmente la Circular 5/2000, de 19 de septiembre, sobre normas contables y modelos de estados financieros reservados y públicos de las entidades de capital riesgo y sus sociedades gestoras. Las modificaciones suponen una homogeneización de los plazos para la remisión de estados financieros, su periodicidad, que pasa de semestral a anual, y la fecha de presentación de la primera remisión, que será la correspondiente al 31 de diciembre de 2001, información que deberá remitirse exclusivamente en euros.</p>
+    <p class="parrafo">Por último, se desarrolla lo previsto en el artículo 6 del Real Decreto antes citado en lo referente a la comunicación de participaciones significativas en fondos de inversión, estableciendo su remisión por vía telemática y su periodicidad.</p>
+    <p class="parrafo">En su virtud, el Consejo de la Comisión Nacional del Mercado de Valores, en su reunión de 18 de abril de 2001, y previo informe del Comité Consultivo, ha dispuesto:</p>
+    <p class="articulo">Norma primera. Ámbito de aplicación.</p>
+    <p class="parrafo_2">La presente Circular se aplicará a los folletos explicativos y otros documentos complementarios que las instituciones de inversión colectiva (en adelante, IIC) o, en su caso, sus correspondientes sociedades gestoras y depositarios, presenten en la Comisión Nacional del Mercado de Valores (en adelante CNMV) para su verificación o registro.</p>
+    <p class="articulo">Norma segunda. Contenido y formato de los modelos de folletos explicativos.</p>
+    <p class="parrafo_2">1. Los modelos de folletos explicativos de las IIC se ajustarán a los siguientes formatos:</p>
+    <p class="parrafo_2">a) El folleto completo de los fondos de inversión, al anexo A de la presente Circular.</p>
+    <p class="parrafo">b) El folleto simplificado de los fondos de inversión estará formado por todos los apartados del folleto completo excepto los números IX, IX.I, IX.II y X.II.</p>
+    <p class="parrafo">c) El folleto completo de sociedades de inversión, al anexo B de la presente Circular. Este modelo se utilizará también para la verificación de nuevas emisiones, ofertas públicas de venta de valores, admisiones a cotización y modificación de valores en circulación de las sociedades de inversión.</p>
+    <p class="parrafo">d) El folleto simplificado de las sociedades estará formado por todos los apartados del folleto completo excepto los números IX, IX.I, IX.II y XII.</p>
+    <p class="parrafo_2">2. La CNMV podrá exigir a las IIC o, en su caso, a sus gestoras y depositarios la inclusión en los folletos de cuanta información adicional, advertencias o explicaciones estime necesarias para la adecuada información y protección de los inversores y la transparencia del mercado.</p>
+    <p class="parrafo">3. Las auditorías anuales y los reglamentos de gestión o los Estatutos sociales forman parte integrante de los folletos completos de fondos y sociedades de inversión, aún cuando no se hayan incluido en los formatos contenidos en los anexos y sin perjuicio de su entrega a los inversores cuando éstos lo soliciten.</p>
+    <p class="articulo">Norma tercera. Presentación de los folletos en la CNMV.</p>
+    <p class="parrafo_2">1. Cada formato de modelo de folleto explicativo deberá completarse teniendo en cuenta el tipo de institución de que se trate y, en particular, sus características esenciales cuando se trate de las IIC especializadas a que se refiere la sección sexta del Real Decreto 1393/1990, por el que se aprueba el Reglamento de la Ley 46/1984, de 26 de diciembre, reguladora de las IIC, modificado por el Real Decreto 91/2001, de 2 de febrero.</p>
+    <p class="parrafo">2. La presentación de los folletos completos para su verificación o registro, así como sus actualizaciones sucesivas, deberá realizarse por vía telemática, tal como establece la Orden de 18 de abril de 2001, sobre folletos explicativos, informes trimestrales y obligaciones de información de las instituciones de inversión colectiva (en adelante, Orden del 18 de abril de 2001).</p>
+    <p class="parrafo">3. La CNMV establecerá y hará públicos procedimientos adicionales para la remisión por vía telemática de las cuentas anuales, los informes de auditoría y otras informaciones y documentos complementarios a los folletos de IIC.</p>
+    <p class="articulo">Disposición adicional primera. Comunicación de participaciones significativas de fondos de inversión.</p>
+    <p class="parrafo_2">1. Las sociedades gestoras de instituciones de inversión colectiva deberán comunicar a la CNMV por vía telemática, con periodicidad trimestral, en el plazo máximo de un mes, a contar desde la finalización de cada trimestre, la identidad de los partícipes que, por sí o por persona interpuesta, en este último caso, siempre que la sociedad gestora tuviera conocimiento de esta circunstancia de acuerdo con las normas aplicables a las entidades que actúan en los mercados de valores en relación con la identificación de clientes, alcancen, superen o desciendan de los porcentajes de participación en el fondo siguientes: 20, 40, 60, 80 ó 100 por 100. La obligación de comunicar nacerá como consecuencia de operaciones de adquisición, suscripción, reembolso o transmisión de participaciones o de variaciones en el patrimonio del fondo producidas durante dicho trimestre.</p>
+    <p class="parrafo">2. La comunicación reflejará junto a la identidad del partícipe, su número de identificación fiscal y los correspondientes porcentajes de participación directa, indirecta y total en el fondo, referidos al último día del trimestre.</p>
+    <p class="articulo">Disposición adicional segunda.</p>
+    <p class="parrafo_2">Se introducen las siguientes modificaciones en la Circular 5/2000, de 19 de septiembre, de la CNMV sobre normas contables y modelos de estados financieros reservados y públicos de las entidades de capital riesgo y de sus sociedades gestoras:</p>
+    <p class="sangrado_articulo">Norma 11. Clases y plazos de rendición de los estados contables y estadísticos.</p>
+    <p class="sangrado_2">Las ECR deberán presentar en la CNMV la información de carácter reservado y público que a continuación se detalla referida al último día del periodo señalado, salvo cuando se indique expresamente lo contrario, y cuyos modelos figuran en el anexo 1 de esta Circular.</p>
+    <p class="centro_cursiva">Estados de los fondos y sociedades de capital-riesgo</p>
+    <table class="tabla">
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Entidad</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Denominación</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Periodicidad</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Plazo de remisión</p>
+          <p class="cabeza_tabla">–</p>
+          <p class="cabeza_tabla">Días</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">FCR y SCR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">M01-Balance reservado</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">FCR y SCR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">MO2-Cuenta de Pérdidas y Ganancias reservada</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">FCR y SCR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">M03-Inventario de la cartera y tesorería reservada</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">FCR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">F04-Estado reservado de información auxiliar</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">SCR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">SO4-Estado reservado de información auxiliar</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">FCR y SCR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">M05-Aplicación del beneficio del ejercicio reservado</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">FCR y SCR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">P01-Balance público</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">FCR y SCR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">P02-Cuenta de Pérdidas y Ganancias pública</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">FCR y SCR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">P03-Inventario de la cartera pública</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">FCR y SCR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">P05-Aplicación del beneficio del ejercicio</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+    </table>
+    <p class="sangrado_articulo">Norma 16. Modelos de estados reservados y públicos.</p>
+    <p class="sangrado_2">Los modelos de Balance, Cuenta de Pérdidas y Ganancias y demás estados reservados y públicos que se deberán remitir a la Comisión Nacional del Mercado de Valores o, en su caso hacerse públicos, son los que se detallan en el anexo 2, y habrán de enviarse con la siguiente periodicidad y plazo máximo de presentación:</p>
+    <p class="centro_cursiva">Estados de las sociedades gestoras de entidades de capital-riesgo</p>
+    <table class="tabla">
+      <tr>
+        <td>
+          <p class="cabeza_tabla">Entidad</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Denominación</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Periodicidad</p>
+        </td>
+        <td>
+          <p class="cabeza_tabla">Plazo de remisión</p>
+          <p class="cabeza_tabla">–</p>
+          <p class="cabeza_tabla">Días</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">SGECR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">G01-Balance reservado</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">SGECR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">G02-Cuenta de Pérdidas y Ganancias reservada</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">SGECR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">G03-Inventario de la cartera y tesorería reservada</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">SGECR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">G04-Estado reservado de información auxiliar</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">SGECR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">G04-Estado reservado de información auxiliar</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">SGECR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">G05-Aplicación del beneficio del ejercicio reservado</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">SGECR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">GP01-Balance público</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">SGECR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">GP02-Cuenta de Pérdidas y Ganancias pública</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">SGECR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">GP03-Inventario de la cartera pública</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p class="cuerpo_tabla_izq">SGECR</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">GP05-Aplicación del beneficio del ejercicio</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_izq">Anual</p>
+        </td>
+        <td>
+          <p class="cuerpo_tabla_centro">90</p>
+        </td>
+      </tr>
+    </table>
+    <p class="articulo">Disposición adicional tercera.</p>
+    <p class="parrafo">En la Circular 1/1999, de 14 de enero, de la CNMV, sobre folletos e informes trimestrales de fondos de inversión se modifican las siguientes normas, quedando redactadas como sigue:</p>
+    <p class="sangrado_articulo">Norma segunda.</p>
+    <p class="sangrado_2">«La CNMV podrá exigir la presentación de los informes trimestrales a que se refieren las normas siguientes en soporte informático o a través de sistemas de transmisión electrónica o informática de acuerdo con los requerimientos que la CNMV determine.»</p>
+    <p class="sangrado_articulo">Norma quinta.3.</p>
+    <p class="sangrado_2">«La actualización del folleto por las causas previstas en el apartado 2 del número cuarto de la Orden de 18 de abril de 2001, sobre folletos explicativos, informes trimestrales y obligaciones de información de las instituciones de inversión colectiva, requiere la verificación y registro en la CNMV de los apartados afectados. Dicha actualización deberá solicitarse a la CNMV en un plazo no superior a diez días desde la adopción de la decisión que la motiva y, en todo caso, antes de su entrada en vigor, firmada por persona con poder bastante para obligar a la SGIIC y al Depositario. A la solicitud se acompañará una declaración de vigencia del resto de los apartados, capítulos y anexos del folleto inscrito, igualmente firmada por personas con poder bastante.</p>
+    <p class="sangrado">Cuando una misma modificación afecte al folleto de varios fondos gestionados por una misma SGIIC y con el mismo depositario, bastará que se remita una sola comunicación en la que se relacionen los fondos a los que afecta la modificación.</p>
+    <p class="sangrado">Por razones de claridad en la información, los servicios competentes de la CNMV podrán exigir la actualización, junto con los apartados afectados por la modificación de elementos esenciales, de otros apartados o capítulos del folleto completo, señalando el plazo para su presentación.»</p>
+    <p class="sangrado_articulo">Norma séptima, primer párrafo.</p>
+    <p class="sangrado_2">«Cuando deba actualizarse el folleto por una modificación en sus elementos esenciales que otorguen derecho de separación a los partícipes y no requieran modificaciones del Reglamento de gestión o inscripción de actos adicionales en el Registro de la CNMV [letras c), d), f) y I) del punto 2 de la norma cuarta de la Orden de 18 de abril de 2001, sobre folletos explicativos, informes trimestrales y obligaciones de información de las instituciones de inversión colectiva, y el establecimiento o elevación de comisiones o descuentos a practicar en los reembolsos a que se refiere su letra g)], se seguirá el siguiente procedimiento.»</p>
+    <p class="sangrado_articulo">Norma octava, primer párrafo.</p>
+    <p class="sangrado_2">«La entrada en vigor de las modificaciones de elementos esenciales quedará supeditada a la inscripción en el Registro de la CNMV de la correspondiente actualización del folleto, a excepción de los supuestos recogidos en la letra c) del punto 2 de la norma cuarta de la Orden de 18 de abril de 2001, sobre folletos explicativos, informes trimestrales y obligaciones de información de las instituciones de inversión colectiva, y aquellas modificaciones que la CNMV considere de escasa relevancia.»</p>
+    <p class="sangrado_articulo">Norma décima. Distribución a partícipes de informes trimestrales.</p>
+    <p class="sangrado_2">«El informe trimestral que ha de ser entregado a cada partícipe con anterioridad a la suscripción de participaciones y que ha de ser remitido al domicilio que éste indique con carácter gratuito, se ajustará al modelo de informe trimestral a que se refiere la norma novena anterior.</p>
+    <p class="sangrado">En todo caso, deberá hacer mención a la existencia de un informe trimestral completo, a los lugares donde se encuentra disponible para partícipes y a su derecho a solicitar su entrega o remisión periódica con carácter gratuito.»</p>
+    <p class="sangrado_articulo">Norma decimotercera.2.</p>
+    <p class="sangrado_2">«Cuando la actualización de los datos incluidos en varios folletos explicativos no afectara a la totalidad de los capítulos, tales folletos podrán ser actualizados mediante la remisión a la CNMV de los capítulos o apartados que resulten modificados, acompañado de una declaración de la SIM o SIMCAV o su gestora y del depositario en caso de SIMCAV en la que se haga constar la vigencia del resto de la información.»</p>
+    <p class="articulo">Disposición transitoria primera.</p>
+    <p class="parrafo_2">La primera comunicación de participaciones significativas de fondos a que hace referencia la disposición adicional primera deberá realizarse antes del día 1 de febrero de 2002 y se referirá a la situación existente a 31 de diciembre de 2001. La CNMV establecerá el trámite telemático para hacer esta remisión.</p>
+    <p class="articulo">Disposición transitoria segunda.</p>
+    <p class="parrafo_2">En tanto que no se determinen los requisitos técnicos a que se refiere la norma quinta.2 de la Orden de 18 de abril de 2001, la remisión de informes trimestrales seguirá efectuándose de acuerdo con la normativa hasta ahora vigente.</p>
+    <p class="articulo">Disposición transitoria tercera.</p>
+    <p class="parrafo_2">La remisión de los folletos a que se refiere la presente Circular, incluida cualquier modificación de los elementos esenciales de folletos ya registrados en la CNMV con anterioridad a su entrada en vigor, deberá realizarse exclusivamente por los sistemas telemáticos citados en la norma tercera, transcurridos tres meses desde su publicación.</p>
+    <p class="parrafo">No obstante, a partir de la entrada en vigor de la presente Circular, las IIC que ya tuvieran registrado el folleto en la CNMV podrán adaptarlo voluntariamente a los modelos establecidos en ella. Dicha adaptación deberá realizarse previa solicitud a la CNMV y exigirá la remisión de los nuevos modelos por vía telemática conforme a la norma tercera de la presente Circular.</p>
+    <p class="articulo">Disposición transitoria cuarta.</p>
+    <p class="parrafo_2">La primera remisión de información a que se refiere la disposición adicional segunda de la presente Circular, que modifica la Circular 5/2000, de 19 de septiembre, de la CNMV, sobre normas contables y modelos de estados financieros reservados y públicos de las entidades de capital riesgo y sus sociedades gestoras, será la correspondiente al 31 de diciembre de 2001.</p>
+    <p class="articulo">Disposición derogatoria.</p>
+    <p class="parrafo_2">Quedan derogadas las siguientes normas:</p>
+    <p class="parrafo_2">La norma segunda y la norma transitoria 1.d) de la Circular 3/1997, de 29 de julio, de la CNMV, sobre obligaciones de información a socios y partícipes de IIC de carácter financiero y determinados desarrollos de la Orden de 10 de junio de 1997 sobre operaciones de estas instituciones en instrumentos derivados.</p>
+    <p class="parrafo">Los apartados a) y b) de la norma segunda.1 de la Circular 4/1997, de 26 de noviembre, sobre criterios de valoración y condiciones de inversión en valores no cotizados.</p>
+    <p class="parrafo">La norma vigésimo primera.2.c).ii) de la Circular 3/1998, de 22 de septiembre, sobre operaciones en instrumentos derivados de las instituciones de inversión colectiva.</p>
+    <p class="parrafo">La norma cuarta, los números 1, 2 y 4 de la norma quinta, la norma decimosegunda, la norma decimotercera.1 y la norma transitoria de la Circular 1/1999, de 14 de enero, sobre folletos e informes trimestrales de fondos de inversión.</p>
+    <p class="parrafo">La disposición transitoria primera de la Circular 5/2000, de 19 de septiembre, sobre normas contables y modelos de estados financieros reservados y públicos de las entidades de capital riesgo y de sus sociedades gestoras.</p>
+    <p class="articulo">Disposición final. Entrada en vigor.</p>
+    <p class="parrafo_2">La presente Circular entrará en vigor en la misma fecha que la Orden de 18 de abril de 2001.</p>
+    <p class="parrafo_2">Madrid, 18 de abril de 2001.–La Presidenta, Pilar Valiente Calvo.</p>
+    <p class="anexo">Anexo A. Modelo de Folleto de Fondos de Inversión</p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_001.png" width="800" height="932"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_002.png" width="800" height="1150"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_003.png" width="800" height="1175"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_004.png" width="800" height="1177"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_005.png" width="800" height="1166"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_006.png" width="800" height="1203"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_007.png" width="800" height="1184"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_008.png" width="800" height="1223"/>
+    </p>
+    <p class="anexo">Anexo B. Modelo de Folleto de Sociedades de Inversión</p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_009.png" width="800" height="1176"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_010.png" width="800" height="1176"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_011.png" width="800" height="1167"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_012.png" width="800" height="1151"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_013.png" width="800" height="1188"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_014.png" width="800" height="1184"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_015.png" width="801" height="1212"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_016.png" width="800" height="1211"/>
+    </p>
+    <p class="imagen">
+      <img src="/datos/imagenes/disp/2001/111/08869_017.png" width="800" height="890"/>
+    </p>
+  </texto>
+</documento>
