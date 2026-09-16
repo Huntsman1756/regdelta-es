@@ -22,25 +22,15 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
+from .profile import active_profile
+
 PARSER_NAME = "annexmap"
 PARSER_VERSION = "v1"
 
-# estado code at the start of a page's text layer; the embedded layer
-# sometimes letter-spaces codes ("F I  101"), so the prefix tolerates
-# optional inner spaces and numeric tails are stripped of spaces.
-CODE_RE = re.compile(
-    r"\b(F\s*I|F\s*C|P\s*I|P\s*C|P\s*A|U\s*E\s*M|A\s*V\s*E|A\s*N\s*E\s*J\s*O)"
-    r"\s+(\d[\d\- .]*\d|\d)"
-)
-
-_PAGE_NUM_RE = re.compile(r"P[áa]g\.\s*([\d\s]+)")
-_ANEJO_RE = re.compile(
-    r"A\s*N\s*E\s*J\s*O\s+(\d+(?:\s*\.\s*\d+)*)")
-
-# pages listing >= this many distinct codes are "índice" pages
-INDEX_CODE_THRESHOLD = 10
-
-_CODE_PREFIXES = ("FI", "FC", "PI", "PC", "PA", "UEM", "AVE")
+# annex/state vocabulary (code families, page-code and marker
+# patterns, index threshold) lives in the active profile's
+# annex_state facet — PORT-2 C-016/C-034. The mapping policy below
+# is core.
 
 
 def _norm_code(prefix: str, tail: str) -> str:
@@ -55,14 +45,16 @@ def _norm_code(prefix: str, tail: str) -> str:
 def estado_root(code: str) -> str:
     """'FI 105-1' -> 'FI 105'; 'FI 142-1.1' -> 'FI 142'; 'UEM 3' -> 'UEM 3'."""
     m = re.match(r"([A-Z]+)\s*(\d+)", code)
-    if m and m.group(1) in _CODE_PREFIXES:
+    if m and m.group(1) in \
+            active_profile().annex_state.state_code_families:
         return f"{m.group(1)} {m.group(2)}"
     return code.split("-")[0].strip()
 
 
 def distinct_codes(text: str) -> list[str]:
     seen: list[str] = []
-    for m in CODE_RE.finditer(text):
+    code_re = active_profile().annex_state.patterns["pdf_page_code"]
+    for m in code_re.finditer(text):
         c = _norm_code(m.group(1), m.group(2))
         if c not in seen:
             seen.append(c)
@@ -70,14 +62,16 @@ def distinct_codes(text: str) -> list[str]:
 
 
 def first_code(text: str) -> str | None:
-    m = CODE_RE.search(text[:600])
+    code_re = active_profile().annex_state.patterns["pdf_page_code"]
+    m = code_re.search(text[:600])
     if not m:
         return None
     return _norm_code(m.group(1), m.group(2))
 
 
 def page_number(text: str) -> int | None:
-    m = _PAGE_NUM_RE.search(text[:200])
+    page_re = active_profile().annex_state.patterns["page_num"]
+    m = page_re.search(text[:200])
     if not m:
         return None
     digits = re.sub(r"\s+", "", m.group(1))
@@ -86,8 +80,9 @@ def page_number(text: str) -> int | None:
 
 def anejo_headings(text: str) -> list[str]:
     """All 'ANEJO N(.M)' headings on a page -> ['7', '7.1']."""
+    anejo_re = active_profile().annex_state.patterns["anejo_head"]
     return [re.sub(r"\s+", "", m.group(1))
-            for m in _ANEJO_RE.finditer(text[:500])]
+            for m in anejo_re.finditer(text[:500])]
 
 
 @dataclass
@@ -155,7 +150,8 @@ def build_annex_map(
             pages.append(PageEntry(i, boe, "PREANNEX", None))
             continue
         codes = distinct_codes(text)
-        kind = ("INDEX" if len(codes) >= INDEX_CODE_THRESHOLD
+        threshold = active_profile().annex_state.index_code_threshold
+        kind = ("INDEX" if len(codes) >= threshold
                 else "CONTENT" if codes else "CONTINUATION")
         pages.append(PageEntry(
             i, boe, kind, first_code(text) if kind == "CONTENT" else None,

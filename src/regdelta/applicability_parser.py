@@ -20,6 +20,7 @@ import re
 from dataclasses import dataclass, field
 
 from .operations import _alpha_value, _marker_parts
+from .profile import active_profile
 from .sources.boe_diario import DiarioDoc
 
 PARSER_NAME = "applicability"
@@ -104,9 +105,9 @@ PUNTO_DE_ANEJO = re.compile(
     r"punto (\d+)((?:\.\d+)*)[^.]*?"
     r"(?:y el apartado ([IVX]+)[^.]*)? del anejo (\d+)")
 APARTADO_IV_ANEJO = re.compile(r"apartado ([IVX]+)[^,;.]*del anejo (\d+)")
-ESTADOS_RE = re.compile(
-    r"estados ((?:[A-Z]{1,3} \d+(?:[\-.]\d+(?:\.\d+)?)?(?:,? y? )?)+)")
-ESTADO_TOKEN = re.compile(r"[A-Z]{1,3} \d+(?:[\-.]\d+(?:\.\d+)?)?")
+# 'estados FI 1, FI 2 y FI 3' scope lists and the code token — state-
+# code vocabulary owned by the active profile's annex_state facet
+# (PORT-2 C-016); the scope-resolution policy consuming them is core.
 
 INTRO_RE = re.compile(
     r"introducid[ao]s? por (.*?),? respectivamente,? de la norma (\d+)")
@@ -194,8 +195,9 @@ def extract_subjects(text: str) -> list[dict]:
                         "locator_key":
                             f"anejo:{m.group(2)}.apartado:{m.group(1)}",
                         "rule_ref": _rule_ref(text, m.start())})
-    for m in ESTADOS_RE.finditer(text):
-        for tok in ESTADO_TOKEN.findall(m.group(1)):
+    apats = active_profile().annex_state.patterns
+    for m in apats["estados_list"].finditer(text):
+        for tok in apats["estado_token"].findall(m.group(1)):
             out.append({"raw": m.group(0), "locator_key": f"estado:{tok}",
                         "rule_ref": _rule_ref(text, m.start())})
     seen, uniq = set(), []

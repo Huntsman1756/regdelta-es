@@ -1,0 +1,17 @@
+{
+  "all_identical": true,
+  "files": {
+    "attribution.jsonl": "IDENTICAL",
+    "audit.jsonl": "IDENTICAL",
+    "bindings.jsonl": "IDENTICAL",
+    "corpus-73.json": "IDENTICAL",
+    "failures.jsonl": "IDENTICAL",
+    "four-cases.json": "IDENTICAL",
+    "lifecycle.jsonl": "IDENTICAL",
+    "metrics.json": "IDENTICAL",
+    "operations.jsonl": "IDENTICAL",
+    "relations.jsonl": "IDENTICAL",
+    "targets.json": "IDENTICAL"
+  },
+  "reference": "evidence\\cov\\cov2\\runs\\003-final"
+}

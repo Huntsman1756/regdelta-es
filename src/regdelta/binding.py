@@ -26,6 +26,7 @@ from dataclasses import dataclass, field
 
 from . import annexmap
 from .operations import _ORDINALS, _ordinal_num
+from .profile import active_profile
 from .sources.boe_diario import DiarioDoc
 
 PARSER_NAME = "structural_binding"
@@ -371,10 +372,6 @@ def text_region_candidates(doc: DiarioDoc,
 # candidate enumeration — estado/anejo code regions inside an annex
 # ---------------------------------------------------------------------------
 
-_ANNEX_CODE_HEADER_RE = re.compile(
-    r"^(FI|FC|PI|PC|PA|UEM|AVE)\s+(\d[\d.\-]*)")
-
-
 def annex_code_regions(doc: DiarioDoc) -> dict[str, list[tuple[int, int]]]:
     """Estado-code -> every node span inside the document's annex.
 
@@ -388,11 +385,13 @@ def annex_code_regions(doc: DiarioDoc) -> dict[str, list[tuple[int, int]]]:
             break
     if annex_start is None:
         return {}
+    code_header = active_profile().annex_state.patterns[
+        "annex_code_header"]
     starts: list[tuple[int, str]] = []
     for i in range(annex_start, len(doc.nodes)):
         n = doc.nodes[i]
         if n.kind == "p":
-            m = _ANNEX_CODE_HEADER_RE.match(n.text)
+            m = code_header.match(n.text)
             if m:
                 starts.append((i, annexmap._norm_code(
                     m.group(1), m.group(2))))

@@ -31,6 +31,7 @@ import re
 import unicodedata
 from dataclasses import dataclass, field
 
+from .profile import active_profile
 from .sources.boe_diario import DiarioDoc, Node, normalize
 
 PARSER_NAME = "boe_operations"
@@ -198,42 +199,10 @@ _ORDINALS = {
     "vigésima": 20, "vigesima": 20, "única": 1, "unica": 1,
 }
 
-_STATE_CODE_RE = re.compile(
-    r"\b(FI|FC|PI|PC|PA|UEM|AVE)\s*(\d[\d.]*(?:-\s*[\d.]+)?)"
-)
-
-# estado mentions that are positional anchors, not subjects:
-# "a continuación del estado FI 150-9", "las correspondientes a los
-# estados FI 150 y FI 160", "por el formato de estado FI 142-1.1"
-_STATE_ANCHOR_SPAN_RE = re.compile(
-    r"(?:a\s+continuaci[oó]n\s+(?:del|de\s+los|de\s+las)|"
-    r"correspondiente\w*\s+a|formato\s+de|entre\s+las\s+correspondientes\s+a)"
-    r"\s*(?:del|de\s+los|de\s+las|los|las|el|la|l)?\s*"
-    r"estados?\s+((?:FI|FC|PI|PC|PA|UEM|AVE)\s*[\d.\-]+"
-    r"(?:\s*[ye,]\s*(?:(?:FI|FC|PI|PC|PA|UEM|AVE)\s*)?[\d.\-]+)*)",
-    re.IGNORECASE,
-)
-
 _QUOTED_SPAN_RE = re.compile(r"«[^»]*»")
-# «FI 151 Información ...» codes introduced as new states:
-# "se incluyen los nuevos estados «FI 151 ...», «FI 151-1 ...»"
-_QUOTED_STATE_RE = re.compile(
-    r"estados?\s+(«(?:FI|FC|PI|PC|PA|UEM|AVE)[^»]*»(?:\s*[ye,]\s*"
-    r"«(?:FI|FC|PI|PC|PA|UEM|AVE)[^»]*»)*)",
-    re.IGNORECASE,
-)
-_QUOTED_CODE_RE = re.compile(
-    r"«\s*(FI|FC|PI|PC|PA|UEM|AVE)\s*(\d[\d.\-]*)")
 
 # data-file subjects: 'el fichero «Expedientes sancionadores»'
 _FICHERO_RE = re.compile(r"\bficheros?\s+«([^»]+)»", re.IGNORECASE)
-# parenthetical errata locators: "en la página 18938 (Estado T.17-2)"
-_PAREN_STATE_RE = re.compile(r"\(\s*estados?\s+([^)]*)\)", re.IGNORECASE)
-# state-code prefixes are the documented FI/FC/PI/PC/PA/UEM/AVE
-# families only — a code outside them can never be declared or
-# resolved, so it is never a subject
-_PAREN_CODE_RE = re.compile(
-    r"(FI|FC|PI|PC|PA|UEM|AVE)\s*\.?\s*(\d[\d.\-]*)")
 # non-operative qualifier that closes an unmarked clause's subject zone:
 # "se suprimen los apartados 4 y 5 ..., sin que se introduzca ningún
 # cambio en los apartados 1 a 3"
@@ -629,9 +598,12 @@ def _extract_mentions(text: str) -> dict[str, object]:
     "estados", which are the entities being added ("los nuevos estados
     «FI 151 ...»").
     """
+    # state-code grammar lives in the active profile's annex_state
+    # facet (PORT-2 C-016); the mention/anchor policy below is core
+    pats = active_profile().annex_state.patterns
     quoted_states: list[str] = []
-    for m in _QUOTED_STATE_RE.finditer(text):
-        for qm in _QUOTED_CODE_RE.finditer(m.group(1)):
+    for m in pats["quoted_state"].finditer(text):
+        for qm in pats["quoted_code"].finditer(m.group(1)):
             quoted_states.append(
                 _norm_state_code(qm.group(1), qm.group(2)))
 
@@ -641,7 +613,7 @@ def _extract_mentions(text: str) -> dict[str, object]:
     # ("por el formato de estado FI 142-1.1" must not kill the subject
     # mention of the same code earlier in the clause)
     anchor_spans = [m.span(1)
-                    for m in _STATE_ANCHOR_SPAN_RE.finditer(stripped)]
+                    for m in pats["state_anchor_span"].finditer(stripped)]
 
     out: dict[str, object] = {}
     for key, rx in _PATTERNS.items():
@@ -665,14 +637,14 @@ def _extract_mentions(text: str) -> dict[str, object]:
     if letras:
         out["letra"] = letras
     estados: list[str] = []
-    for m in _STATE_CODE_RE.finditer(stripped):
+    for m in pats["state_code"].finditer(stripped):
         code = _norm_state_code(m.group(1), m.group(2))
         if any(a <= m.start() < b for a, b in anchor_spans):
             continue
         if code not in estados:
             estados.append(code)
-    for pm in _PAREN_STATE_RE.finditer(stripped):
-        for cm in _PAREN_CODE_RE.finditer(pm.group(1)):
+    for pm in pats["paren_state"].finditer(stripped):
+        for cm in pats["paren_code"].finditer(pm.group(1)):
             pos = pm.start(1) + cm.start()
             if any(a <= pos < b for a, b in anchor_spans):
                 continue
