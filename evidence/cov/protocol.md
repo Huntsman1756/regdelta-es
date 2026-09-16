@@ -73,5 +73,6 @@ PROTOCOL_INTEGRITY                 = PASS
 
 ```text
 COV-0 = DONE   (debt baseline frozen — evidence/cov/cov0/**)
-COV-1 = OPEN   (preregistration; EXP-B1/EXP-L1 pending)
+COV-1 = DONE   (amended prereg 4cdaa86; EXP-B1 = PORT,
+               EXP-L1 = PATTERN_CONFIRMED; src/regdelta diff empty)
 ```
