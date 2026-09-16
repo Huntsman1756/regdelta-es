@@ -1,0 +1,22 @@
+{
+  "operation_accounting": {
+    "leaf_ops": 1282,
+    "o1_distribution": {
+      "AMBIGUOUS": 19,
+      "FOREIGN_TARGET": 744,
+      "NOT_PROVABLE": 37,
+      "TARGET_PROVEN": 482
+    },
+    "reconciliation_problems": 0,
+    "target_proven_zero_relation_ops": 36
+  },
+  "subject_outcomes": {
+    "emitted": 520,
+    "o2_distribution": {
+      "NOT_PROVABLE": 3,
+      "PROVEN": 520
+    },
+    "o2_proven_not_emitted": 0,
+    "rows": 1539
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "audit_amendments": 0,
+  "baseline_metrics": {
+    "CURRENT_OPERATIONAL": {
+      "after_positive": 172,
+      "before_positive": 182,
+      "binding_sides": 1038,
+      "false_binding": 0,
+      "false_fact": 0,
+      "false_locator_declaration": 0,
+      "false_subject_attribution": 0,
+      "leaf_operation_accounting": true,
+      "leaf_operations": 1266,
+      "locator_proven_ops": 445,
+      "positive_binding_assertions": 354,
+      "relations_emitted": 519,
+      "target_proven_ops": 481,
+      "unclaimed_sides": 684
+    },
+    "HISTORICAL_PREDECESSOR": {
+      "after_positive": 0,
+      "before_positive": 0,
+      "binding_sides": 2,
+      "false_binding": 0,
+      "false_fact": 0,
+      "false_locator_declaration": 0,
+      "false_subject_attribution": 0,
+      "leaf_operation_accounting": true,
+      "leaf_operations": 16,
+      "locator_proven_ops": 1,
+      "positive_binding_assertions": 0,
+      "relations_emitted": 1,
+      "target_proven_ops": 1,
+      "unclaimed_sides": 2
+    }
+  },
+  "baseline_run": "000-baseline",
+  "cov_metrics": {
+    "CURRENT_OPERATIONAL": {
+      "after_positive": 172,
+      "before_positive": 296,
+      "binding_sides": 1038,
+      "false_binding": 0,
+      "false_fact": 0,
+      "false_locator_declaration": 0,
+      "false_subject_attribution": 0,
+      "leaf_operation_accounting": true,
+      "leaf_operations": 1266,
+      "locator_proven_ops": 445,
+      "positive_binding_assertions": 468,
+      "relations_emitted": 519,
+      "target_proven_ops": 481,
+      "unclaimed_sides": 570
+    },
+    "HISTORICAL_PREDECESSOR": {
+      "after_positive": 0,
+      "before_positive": 1,
+      "binding_sides": 2,
+      "false_binding": 0,
+      "false_fact": 0,
+      "false_locator_declaration": 0,
+      "false_subject_attribution": 0,
+      "leaf_operation_accounting": true,
+      "leaf_operations": 16,
+      "locator_proven_ops": 1,
+      "positive_binding_assertions": 1,
+      "relations_emitted": 1,
+      "target_proven_ops": 1,
+      "unclaimed_sides": 1
+    }
+  },
+  "debt_matrix": {
+    "CURRENT_OPERATIONAL": {
+      "AMBIGUOUS_MULTIPLE_CANDIDATES": {
+        "baseline": 2,
+        "became_ambiguous": 2,
+        "became_not_found": 0,
+        "converted": 0,
+        "still_abstained": 0
+      },
+      "ANNEX_CODE_NOT_LOCATED": {
+        "baseline": 6,
+        "became_ambiguous": 0,
+        "became_not_found": 6,
+        "converted": 0,
+        "still_abstained": 0
+      },
+      "CHAIN_STATE_DELETED": {
+        "baseline": 3,
+        "became_ambiguous": 0,
+        "became_not_found": 0,
+        "converted": 0,
+        "still_abstained": 3
+      },
+      "CHAIN_STATE_UNKNOWN": {
+        "baseline": 31,
+        "became_ambiguous": 0,
+        "became_not_found": 0,
+        "converted": 0,
+        "still_abstained": 31
+      },
+      "MISSING_CAPTURED_ARTIFACT": {
+        "baseline": 1,
+        "became_ambiguous": 0,
+        "became_not_found": 0,
+        "converted": 0,
+        "still_abstained": 1
+      },
+      "NO_OPERATION_OWNED_CONTENT": {
+        "baseline": 37,
+        "became_ambiguous": 0,
+        "became_not_found": 0,
+        "converted": 0,
+        "still_abstained": 37
+      },
+      "NO_STRUCTURAL_CANDIDATE": {
+        "baseline": 44,
+        "became_ambiguous": 2,
+        "became_not_found": 17,
+        "converted": 25,
+        "still_abstained": 0
+      },
+      "OTHER": {
+        "baseline": 17,
+        "became_ambiguous": 0,
+        "became_not_found": 0,
+        "converted": 0,
+        "still_abstained": 17
+      },
+      "SIDE_NOT_APPLICABLE": {
+        "baseline": 144,
+        "became_ambiguous": 0,
+        "became_not_found": 0,
+        "converted": 0,
+        "still_abstained": 144
+      },
+      "SUBJECT_SCOPE_NOT_PROVABLE": {
+        "baseline": 374,
+        "became_ambiguous": 0,
+        "became_not_found": 14,
+        "converted": 82,
+        "still_abstained": 278
+      },
+      "TABLE_CONTENT_NOT_ENUMERATED": {
+        "baseline": 25,
+        "became_ambiguous": 0,
+        "became_not_found": 18,
+        "converted": 7,
+        "still_abstained": 0
+      }
+    },
+    "HISTORICAL_PREDECESSOR": {
+      "SUBJECT_SCOPE_NOT_PROVABLE": {
+        "baseline": 2,
+        "became_ambiguous": 0,
+        "became_not_found": 0,
+        "converted": 1,
+        "still_abstained": 1
+      }
+    }
+  },
+  "final_run": "003-final",
+  "mechanism_attribution": {
+    "F1": 76,
+    "F2": 39
+  },
+  "stratum_stats": {
+    "CURRENT_OPERATIONAL": {
+      "after_positive": 172,
+      "before_positive": 296,
+      "binding_sides": 1038,
+      "distinct_relations": 356,
+      "observed_false_bindings": 0,
+      "positive_assertions": 468,
+      "wilson95": {
+        "center": 0.451048,
+        "high": 0.481263,
+        "low": 0.420833
+      }
+    },
+    "HISTORICAL_PREDECESSOR": {
+      "after_positive": 0,
+      "before_positive": 1,
+      "binding_sides": 2,
+      "distinct_relations": 1,
+      "observed_false_bindings": 0,
+      "positive_assertions": 1,
+      "wilson95": {
+        "center": 0.5,
+        "high": 0.905471,
+        "low": 0.094529
+      }
+    }
+  }
+}

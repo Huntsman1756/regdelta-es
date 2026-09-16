@@ -1,0 +1,30 @@
+{
+  "baseline_current": {
+    "positive_binding_assertions": 354
+  },
+  "cov2_dev": "PASS",
+  "cov3_readiness": "NOT_READY_FOR_COV_3",
+  "cov3_selection": "STOP — CURRENT_OPERATIONAL eligible 0 < 3; holdout UNMATERIALIZABLE; fresh-corpus validation deferred to a separate preregistration",
+  "current": {
+    "after_positive": 172,
+    "before_positive": 296,
+    "locator_proven_ops": 445,
+    "positive_binding_assertions": 468,
+    "relations_emitted": 519
+  },
+  "evaluation_head": "ebbfdde3eb513de05a57d86d004d23ca71e91f59",
+  "evaluator_sha256": "43cc3d965cfe79c9a4fc6f64d1a9c252f93a55dbb71e17bcc957ed34458a43b4",
+  "final_run": "runs/003-final",
+  "gates": {
+    "all_bound_independently_verified": true,
+    "audit_amendments_zero": true,
+    "current_locator_proven_>=445": true,
+    "current_positive_bindings_>=443": true,
+    "current_relations_>=519": true,
+    "false_counts_zero": true,
+    "historical_floors": true,
+    "leaf_operation_accounting_100": true
+  },
+  "runtime_head": "ebbfdde3eb513de05a57d86d004d23ca71e91f59",
+  "src_tree_sha256": "1736a9c6ad025041a9d6250ffd005657d9ee9151"
+}

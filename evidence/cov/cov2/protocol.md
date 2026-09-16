@@ -146,5 +146,16 @@ COV-2A = DONE   (prereg committed 3c82d8f; COV-3 selection STOP
                  recorded at 918a38e; holdout UNMATERIALIZABLE)
 COV-2B = DONE   (evaluator frozen + exact baseline reproduced;
                  debt census committed)
-COV-2C = OPEN   (debt-driven generic fixes under frozen evaluator)
+COV-2C = DONE   (F1 c4bed51 +75: sub-scope before-binding;
+                 F2 ebbfdde +39: tolerant marker enumeration and
+                 level-aware candidate regions; 429 -> 468 CURR)
+COV-2D = DONE   (final run runs/003-final on frozen HEAD ebbfdde;
+                 coverage-delta.jsonl, fixes.jsonl, final-metrics.json,
+                 FINAL.md, VERDICT.json generated)
+
+COV-2_DEV        = PASS   (468 >= 443; 519 relations; 445
+                           locator-proven; leaf accounting 100%;
+                           FALSE_* 0/0/0/0; 520/520 audit PASS;
+                           0 amendments)
+COV-3_READINESS  = NOT_READY_FOR_COV_3
 ```
