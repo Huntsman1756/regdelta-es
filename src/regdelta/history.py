@@ -26,7 +26,7 @@ from .sources import boe_diario, boe_doc, boe_pdf
 from .util import canonical_date, sha256_hex, sha256_hex_text
 
 PARSER_NAME = "history"
-PARSER_VERSION = "v4"
+PARSER_VERSION = "v5"
 
 BOE_BASE = "https://www.boe.es"
 XML_URL = BOE_BASE + "/diario_boe/xml.php?id={boe}"
@@ -986,11 +986,6 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                 if op_kind == "ADD":
                     bres = binding.BindingResult(
                         binding.NOT_APPLICABLE, "ADD_NO_BEFORE", key, 0)
-                elif not scope_provable:
-                    bres = binding.abstain(
-                        binding.NOT_PROVABLE, "SUBJECT_SCOPE", key,
-                        "clause scopes below the recorded subject "
-                        "locator")
                 elif key in chain:
                     st = chain[key]
                     if st.status == "PRESENT" \

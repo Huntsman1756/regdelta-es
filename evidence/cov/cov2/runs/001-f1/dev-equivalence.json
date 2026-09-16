@@ -1,0 +1,17 @@
+{
+  "all_identical": false,
+  "files": {
+    "attribution.jsonl": "IDENTICAL",
+    "audit.jsonl": "DIFFERS",
+    "bindings.jsonl": "DIFFERS",
+    "corpus-73.json": "DIFFERS",
+    "failures.jsonl": "DIFFERS",
+    "four-cases.json": "IDENTICAL",
+    "lifecycle.jsonl": "DIFFERS",
+    "metrics.json": "DIFFERS",
+    "operations.jsonl": "IDENTICAL",
+    "relations.jsonl": "DIFFERS",
+    "targets.json": "DIFFERS"
+  },
+  "reference": "evidence\\g2\\dev\\runs\\001-g21"
+}
