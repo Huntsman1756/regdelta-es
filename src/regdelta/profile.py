@@ -107,6 +107,7 @@ class LocatorGrammar:
     part of that site's matching policy.
     """
 
+    enabled_kinds: frozenset            # core LocatorKinds recognized
     ordinals: Mapping[str, int]         # word -> number
     ordinal_words: Mapping[str, str]    # number -> feminine word
     roman: Mapping[str, str]            # digit -> roman numeral
@@ -251,6 +252,8 @@ class SourceDescriptors:
     imagen_parser: tuple                # parser identity without a module
     legacy_parser_names: Mapping[str, str]   # pre-provenance backfill
     legacy_parser_default: str
+    metadata_mapping: Mapping[str, str]   # raw source field -> canonical
+    relation_mapping: Mapping[str, str]   # raw container -> direction
 
 
 @dataclass(frozen=True)
@@ -271,6 +274,68 @@ class SourceProfile:
     source_descriptors: SourceDescriptors
 
 
+# ---------------------------------------------------------------------------
+# Core kind registries (PORT-1 A1). The core owns the semantic kind
+# taxonomy and its canonical emitted spellings; a profile may *enable*
+# a subset and map source lexemes onto it, but may never mint a kind.
+# ---------------------------------------------------------------------------
+
+LOCATOR_KINDS = frozenset({
+    "norma", "anejo", "anexo", "articulo", "capitulo", "titulo",
+    "seccion", "disp", "disposicion", "pagina",
+    "apartado", "punto", "letra", "numeral", "nota", "indice",
+    "estado", "fichero",
+})
+
+OP_KINDS = frozenset({"ADD", "DELETE", "MODIFY", "SUBSTITUTE"})
+
+
+def validate_profile(profile: SourceProfile) -> None:
+    """Well-formedness check run at registration. Fails closed: a
+    profile that references kinds outside the core registry, or whose
+    descriptors are internally inconsistent, is rejected before any
+    consumer can resolve it."""
+    lg = profile.locator_grammar
+    unknown = set(lg.enabled_kinds) - LOCATOR_KINDS
+    if unknown:
+        raise ValueError(f"UNKNOWN_CORE_KIND: {sorted(unknown)}")
+    kind_keyed = (
+        set(lg.declarations), set(lg.enum_kinds), set(lg.head_forms),
+        set(lg.level_boundary), set(lg.sub_markers),
+        set(lg.sub_markers_compound), set(lg.kind_words),
+        set(lg.coverage_heads),
+        set(lg.presence) - {"_default"},
+    )
+    for keys in kind_keyed:
+        unknown = keys - LOCATOR_KINDS
+        if unknown:
+            raise ValueError(f"UNKNOWN_CORE_KIND: {sorted(unknown)}")
+        disabled = keys - set(lg.enabled_kinds)
+        if disabled:
+            raise ValueError(
+                f"locator kind used but not enabled: {sorted(disabled)}")
+    bad_ops = {k for k, _ in profile.operative_grammar.op_kinds} - OP_KINDS
+    if bad_ops:
+        raise ValueError(f"UNKNOWN_CORE_KIND: {sorted(bad_ops)}")
+    sd = profile.source_descriptors
+    ids = tuple(sd.source_ids)
+    if not ids or len(set(ids)) != len(ids):
+        raise ValueError("source_ids must be non-empty and unique")
+    declared = set(ids)
+    if sd.capture_default not in declared:
+        raise ValueError("capture_default not in source_ids")
+    for *_, sid in sd.capture_rules:
+        if sid not in declared:
+            raise ValueError(f"capture rule targets undeclared {sid!r}")
+    if set(sd.media_types) - declared:
+        raise ValueError("media_types for undeclared source_ids")
+    if not sd.url_templates or not sd.base_url:
+        raise ValueError("source_descriptors missing base_url/templates")
+    bad_dirs = set(sd.relation_mapping.values()) - {"anterior", "posterior"}
+    if bad_dirs:
+        raise ValueError(f"relation_mapping targets: {sorted(bad_dirs)}")
+
+
 _PROFILES: dict[str, SourceProfile] = {}
 _ACTIVE_ID: str | None = None
 
@@ -278,6 +343,7 @@ _ACTIVE_ID: str | None = None
 def register_profile(profile: SourceProfile) -> None:
     if profile.profile_id in _PROFILES:
         raise ValueError(f"duplicate profile_id {profile.profile_id!r}")
+    validate_profile(profile)
     _PROFILES[profile.profile_id] = profile
 
 

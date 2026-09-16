@@ -400,3 +400,10 @@ def annex_code_regions(doc: DiarioDoc) -> dict[str, list[tuple[int, int]]]:
             else len(doc.nodes)
         regions.setdefault(code, []).append((i, end))
     return regions
+
+# Frozen-evaluator compatibility (PORT-2R): _ORDINALS resolves to the
+# active profile's locator grammar.
+def __getattr__(name: str):
+    if name == "_ORDINALS":
+        return active_profile().locator_grammar.ordinals
+    raise AttributeError(name)

@@ -1256,3 +1256,10 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
         "anomalies": _unique_anomalies(ctx.anomalies),
         **stats,
     }
+
+# Frozen-evaluator compatibility (PORT-2R): _CIRCULAR_RE resolves to
+# the active profile's identity-reference grammar.
+def __getattr__(name: str):
+    if name == "_CIRCULAR_RE":
+        return active_profile().identity_reference.circular_ref
+    raise AttributeError(name)

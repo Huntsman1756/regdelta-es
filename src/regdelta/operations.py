@@ -1322,3 +1322,20 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
         prev_container = container
 
     return ops
+
+# Frozen-evaluator compatibility (PORT-2R): pre-PORT internal names
+# resolve to the active profile's grammar so frozen evaluators keep
+# working byte-for-byte without importing SourceProfile.
+def __getattr__(name: str):
+    p = active_profile()
+    aliases = {
+        "_ORDINALS": p.locator_grammar.ordinals,
+        "_QUOTED_SPAN_RE": p.text_normalization.quoted_span,
+        "_OP_KINDS": p.operative_grammar.op_kinds,
+        "_MARKER_RE": p.locator_grammar.clause_marker,
+        "_FICHERO_OWNER_RE": p.identity_reference.fichero_owner,
+    }
+    try:
+        return aliases[name]
+    except KeyError:
+        raise AttributeError(name) from None

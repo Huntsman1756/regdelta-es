@@ -1,6 +1,100 @@
 # PORT-2 report — BdE profile extraction under byte-equivalence
 
-Status: evidence complete, awaiting verdict (`PORT-2 = PASS | FAIL`).
+## Verdict (adjudicated)
+
+```text
+PORT-2 = FAIL
+reason = CONTRACT_COMPLIANCE
+semantic_equivalence = PASS
+```
+
+Semantic equivalence to `003-final` was achieved and is not in
+question (468 bindings, 0 FALSE_FACT/FALSE_BINDING, all canonical
+comparators IDENTICAL). The FAIL is on the preregistered contract:
+
+- Frozen evaluators were modified (G1 `f05276a`→`2ce0f99`,
+  G2 `3a22546`→`c53d0d1`, sealed `e36c96f`→`6609d3f`) — prohibited
+  outright, and it weakened auditor independence from the vocabulary
+  under audit.
+- The DB `source_id` CHECK was rendered from profile data inside
+  SCHEMA — profile-injected DDL, which PORT-1 A5 excluded; with a
+  second profile the schema would vary.
+- The contracted core `LocatorKind` registry / `enabled_kinds` /
+  `UNKNOWN_CORE_KIND` validation was not implemented.
+- Profile well-formedness validation and the F8
+  `metadata_mapping`/`relation_mapping` were contract-only.
+
+## PORT-2R — Contract Compliance Remediation (preregistered)
+
+```text
+R1  restore frozen G1/G2 evaluators byte-for-byte
+R2  runtime-side compatibility aliases; evaluator never imports
+    SourceProfile
+R3  core-owned source_registry + referential integrity; schema
+    invariant across profiles; profile supplies rows only
+R4  core LOCATOR_KINDS registry + profile enabled_kinds +
+    UNKNOWN_CORE_KIND validation at registration
+R5  profile well-formedness validator + F8 mappings
+R6  rerun the exact PORT oracle: byte-identical semantic artifacts,
+    PORT_INTENTIONAL_SEMANTIC_CHANGE_COUNT = 0, suite unchanged,
+    frozen evaluator hashes restored
+```
+
+No F1–F8 changes; the functional extraction stands. No CNMV work.
+
+## PORT-2R evidence
+
+```text
+R1  DONE — git checkout 1a04c82 restored the three frozen evaluators
+    byte-for-byte (blobs f05276a / 3a22546 / e36c96f). The port2r run
+    records evaluator sha256s identical to 003-final's envelope.
+
+R2  DONE — module-level __getattr__ aliases (PEP 562) in
+    operations/binding/history resolve the pre-PORT names
+    (_ORDINALS, _QUOTED_SPAN_RE, _OP_KINDS, _MARKER_RE,
+    _FICHERO_OWNER_RE, _CIRCULAR_RE) from active_profile() at use
+    time. Evaluators contain no profile import.
+
+R3  DONE — SCHEMA now declares a static core-owned
+    source_registry(source_id PK, media_type) and both
+    source_snapshots.source_id / source_checks.source_id are plain
+    REFERENCES. Schema text is profile-invariant; the profile
+    supplies registry rows via _sync_source_registry (verified:
+    undeclared source_id -> FOREIGN KEY constraint failed; declared
+    ids accepted). Migrations rebuild any table still carrying
+    'CHECK (source_id IN' — G0-C era or interim PORT-2d — into the
+    registry shape.
+
+R4  DONE — profile.py: LOCATOR_KINDS frozenset (18 canonical kinds:
+    core superset including BdE-only 'estado'/'fichero'), OP_KINDS
+    taxonomy, and LocatorGrammar.enabled_kinds. validate_profile
+    raises UNKNOWN_CORE_KIND when a profile references a kind
+    outside the registry, and 'kind used but not enabled' when the
+    grammar touches a kind the profile does not declare.
+
+R5  DONE — validate_profile() runs inside register_profile:
+    kind-keyed grammar fields ⊆ enabled_kinds ⊆ LOCATOR_KINDS,
+    op-kind tokens ⊆ OP_KINDS, source_ids unique/non-empty,
+    capture rules/default/media types reference only declared ids,
+    relation_mapping targets ∈ {anterior, posterior}.
+    SourceDescriptors gained metadata_mapping (BdE: identity — the
+    BOE XML already emits canonical compatibility names, A3) and
+    relation_mapping (anteriores/posteriores -> anterior/posterior).
+
+R6  DONE — replay at HEAD against 003-final:
+    all canonical comparators IDENTICAL (operations, attribution,
+    relations, bindings, binding-sides, lifecycle, continuity,
+    ordering, audit, failures, reconciliation, subject-outcomes,
+    corpus-73, four-cases, metrics, cov-metrics, targets, ...)
+    468 positive_binding_assertions | FALSE_FACT=0 | FALSE_BINDING=0
+    PORT_INTENTIONAL_SEMANTIC_CHANGE_COUNT = 0
+    347 tests green, no expectation changes
+    frozen evaluator sha256s restored to 003-final's values
+    no profile identity in any emitted artifact
+    run: evidence/port/runs/port2r/
+```
+
+## Original run evidence (kept; applies to semantic equivalence only)
 
 ## 1. What moved
 

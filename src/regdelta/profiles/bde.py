@@ -128,6 +128,12 @@ _DECLARATIONS = {
 }
 
 _LOCATOR_GRAMMAR = LocatorGrammar(
+    enabled_kinds=frozenset({
+        "norma", "anejo", "anexo", "articulo", "capitulo", "titulo",
+        "seccion", "disp", "disposicion", "pagina",
+        "apartado", "punto", "letra", "numeral", "nota", "indice",
+        "estado", "fichero",
+    }),
     ordinals=_ORDINALS,
     ordinal_words=_ORDINAL_WORDS,
     roman=_ROMAN_NUM,
@@ -633,6 +639,21 @@ _SOURCE_DESCRIPTORS = SourceDescriptors(
     imagen_parser=("boe_imagen", "v1"),
     legacy_parser_names={"boe_sumario": "boe_sumario"},
     legacy_parser_default="bde_consultas",
+    # BOE XML already emits the canonical compatibility field names
+    # (PORT-1 A3): the mapping is the identity for this profile.
+    metadata_mapping={
+        "titulo": "titulo",
+        "fecha_publicacion": "fecha_publicacion",
+        "fecha_vigencia": "fecha_vigencia",
+        "pagina_inicial": "pagina_inicial",
+        "rango": "rango",
+        "url_eli": "url_eli",
+        "url_pdf": "url_pdf",
+    },
+    relation_mapping={
+        "anteriores": "anterior",
+        "posteriores": "posterior",
+    },
 )
 
 BDE_PROFILE = SourceProfile(

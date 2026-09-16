@@ -6,18 +6,15 @@ from pathlib import Path
 from .profile import active_profile
 
 
-def _source_id_check() -> str:
-    """source_id CHECK rendered from the active profile's declared
-    source ids — the profile supplies rows, the core owns the
-    constraint text (contract A5)."""
-    ids = active_profile().source_descriptors.source_ids
-    return ("CHECK (source_id IN ("
-            + ", ".join(f"'{s}'" for s in ids) + "))")
-
-
-_SRC_CHECK = _source_id_check()
-
 SCHEMA = """
+-- Core-owned source registry (PORT-1 A5): profile descriptors populate
+-- rows via _sync_source_registry(); the schema never varies by profile
+-- and profiles never inject DDL. source_id columns reference it.
+CREATE TABLE IF NOT EXISTS source_registry (
+  source_id   TEXT PRIMARY KEY,
+  media_type  TEXT
+);
+
 CREATE TABLE IF NOT EXISTS source_blobs (
   sha256      TEXT PRIMARY KEY CHECK (length(sha256) = 64),
   size_bytes  INTEGER NOT NULL CHECK (size_bytes >= 0),
@@ -26,7 +23,7 @@ CREATE TABLE IF NOT EXISTS source_blobs (
 
 CREATE TABLE IF NOT EXISTS source_snapshots (
   snapshot_id       TEXT PRIMARY KEY CHECK (length(snapshot_id) = 64),
-  source_id         TEXT NOT NULL __SRC_CHECK__,
+  source_id         TEXT NOT NULL REFERENCES source_registry(source_id),
   source_url        TEXT NOT NULL,
   blob_sha256       TEXT NOT NULL REFERENCES source_blobs(sha256),
   source_date       TEXT,
@@ -42,7 +39,7 @@ CREATE TABLE IF NOT EXISTS source_snapshots (
 
 CREATE TABLE IF NOT EXISTS source_checks (
   check_id      TEXT PRIMARY KEY CHECK (length(check_id) = 64),
-  source_id     TEXT NOT NULL __SRC_CHECK__,
+  source_id     TEXT NOT NULL REFERENCES source_registry(source_id),
   source_url    TEXT NOT NULL,
   checked_at    TEXT NOT NULL,
   status        TEXT NOT NULL CHECK (status IN ('OK', 'PARSE_INVALID', 'FETCH_ERROR')),
@@ -266,7 +263,18 @@ CREATE INDEX IF NOT EXISTS idx_aclause_parent ON applicability_clauses(parent_cl
 CREATE INDEX IF NOT EXISTS idx_aeffect_clause ON applicability_effects(clause_id);
 CREATE INDEX IF NOT EXISTS idx_atarget_clause ON applicability_targets(clause_id);
 CREATE INDEX IF NOT EXISTS idx_atarget_rel ON applicability_targets(modification_relation_id);
-""".replace("__SRC_CHECK__", _SRC_CHECK)
+"""
+
+
+def _sync_source_registry(conn: sqlite3.Connection) -> None:
+    """Populate the core source registry from the active profile's
+    descriptors. The profile supplies rows; referential integrity —
+    what makes a source id valid — stays a core-owned FK."""
+    sd = active_profile().source_descriptors
+    conn.executemany(
+        "INSERT OR IGNORE INTO source_registry (source_id, media_type)"
+        " VALUES (?, ?)",
+        [(sid, sd.media_types.get(sid)) for sid in sd.source_ids])
 
 
 def _ensure_parser_provenance_columns(conn: sqlite3.Connection) -> None:
@@ -331,17 +339,18 @@ def _rebuild_table(conn: sqlite3.Connection, table: str, cols: str,
         conn.execute(stmt)
 
 
-def _all_source_ids_declared(sql: str) -> bool:
-    ids = active_profile().source_descriptors.source_ids
-    return all(s in sql for s in ids)
+def _has_source_id_check(sql: str) -> bool:
+    """Pre-registry DDL carried ``CHECK (source_id IN (...))``."""
+    return "CHECK (source_id IN" in sql
 
 
 def _ensure_source_ids(conn: sqlite3.Connection) -> None:
-    """Rebuild source_snapshots if its CHECK predates the G0-C source kinds."""
+    """Rebuild source_snapshots if its CHECK predates the core
+    source_registry (G0-C era and interim PORT-2d schemas)."""
     row = conn.execute(
         "SELECT sql FROM sqlite_master WHERE type='table' AND name='source_snapshots'"
     ).fetchone()
-    if row is None or _all_source_ids_declared(row[0] or ""):
+    if row is None or not _has_source_id_check(row[0] or ""):
         return
     _rebuild_table(conn, "source_snapshots",
                    "snapshot_id, source_id, source_url, blob_sha256,"
@@ -351,7 +360,7 @@ def _ensure_source_ids(conn: sqlite3.Connection) -> None:
                    """
         CREATE TABLE source_snapshots (
           snapshot_id       TEXT PRIMARY KEY CHECK (length(snapshot_id) = 64),
-          source_id         TEXT NOT NULL __SRC_CHECK__,
+          source_id         TEXT NOT NULL REFERENCES source_registry(source_id),
           source_url        TEXT NOT NULL,
           blob_sha256       TEXT NOT NULL REFERENCES source_blobs(sha256),
           source_date       TEXT,
@@ -363,7 +372,7 @@ def _ensure_source_ids(conn: sqlite3.Connection) -> None:
           has_anomalies     INTEGER NOT NULL DEFAULT 0 CHECK (has_anomalies IN (0, 1)),
           first_checked_at  TEXT NOT NULL,
           UNIQUE (source_id, source_url, blob_sha256)
-        )""".replace("__SRC_CHECK__", _SRC_CHECK))
+        )""")
 
 
 def _ensure_check_source_ids(conn: sqlite3.Connection) -> None:
@@ -375,7 +384,7 @@ def _ensure_check_source_ids(conn: sqlite3.Connection) -> None:
     row = conn.execute(
         "SELECT sql FROM sqlite_master WHERE type='table' AND name='source_checks'"
     ).fetchone()
-    if row is None or _all_source_ids_declared(row[0] or ""):
+    if row is None or not _has_source_id_check(row[0] or ""):
         return
     _rebuild_table(conn, "source_checks",
                    "check_id, source_id, source_url, checked_at, status,"
@@ -384,7 +393,7 @@ def _ensure_check_source_ids(conn: sqlite3.Connection) -> None:
                    """
         CREATE TABLE source_checks (
           check_id      TEXT PRIMARY KEY CHECK (length(check_id) = 64),
-          source_id     TEXT NOT NULL __SRC_CHECK__,
+          source_id     TEXT NOT NULL REFERENCES source_registry(source_id),
           source_url    TEXT NOT NULL,
           checked_at    TEXT NOT NULL,
           status        TEXT NOT NULL CHECK (status IN ('OK', 'PARSE_INVALID', 'FETCH_ERROR')),
@@ -397,7 +406,7 @@ def _ensure_check_source_ids(conn: sqlite3.Connection) -> None:
             (status IN ('OK', 'PARSE_INVALID') AND snapshot_id IS NOT NULL)
             OR (status = 'FETCH_ERROR' AND snapshot_id IS NULL)
           )
-        )""".replace("__SRC_CHECK__", _SRC_CHECK), post_sql=(
+        )""", post_sql=(
         "CREATE INDEX IF NOT EXISTS idx_checks_source_time"
         " ON source_checks(source_id, checked_at)",
     ))
@@ -476,6 +485,7 @@ def connect(db_path: Path) -> sqlite3.Connection:
     conn.execute("PRAGMA foreign_keys = ON")
     conn.isolation_level = None
     conn.executescript(SCHEMA)
+    _sync_source_registry(conn)
     _ensure_parser_provenance_columns(conn)
     _ensure_source_ids(conn)
     _ensure_check_source_ids(conn)
