@@ -68,8 +68,8 @@
       "callers": ["_span_covers_subject", "fichero matching paths"],
       "semantic_responsibility": "normalize and tokenize data-file names for equality",
       "bde_specific_evidence": "Spanish stopword connector list; 'fichero' is a BdE document structure",
-      "classification": "PROFILE_MATERIAL",
-      "why": "name-equality vocabulary; policy trivially follows profile",
+      "classification": "PROFILE_INPUT_CORE_POLICY",
+      "why": "connectors/lexical forms are profile vocabulary, but the normalization+equality decision (when two names denote the same fichero) is a proof-affecting policy that must stay core — the profile supplies lexemes, never an arbitrary equality function",
       "proof_dependency": {"binding_proof": true, "subject_proof": false},
       "movement_risk": "MEDIUM",
       "fixture_coverage": "fichero subjects in DEV corpus; tests/g0g"
@@ -276,8 +276,8 @@
       "callers": ["_locator_mentions", "_span_covers_subject", "fichero normalization"],
       "semantic_responsibility": "canonicalize Spanish text for comparison",
       "bde_specific_evidence": "language-level, not BdE-level; but lives inside the BdE module",
-      "classification": "PROFILE_MATERIAL",
-      "why": "ES-language utility; belongs to profile vocabulary layer (or a shared es-legal-text util the profile owns)",
+      "classification": "PROFILE_INPUT_CORE_POLICY",
+      "why": "normalization *parameters* (accent stripping, case folding, whitespace rules) are profile data; the deterministic normalize-then-compare policy is core — it can change equality and therefore proof",
       "proof_dependency": {"binding_proof": true, "subject_proof": true},
       "movement_risk": "LOW",
       "fixture_coverage": "all comparisons"
@@ -623,11 +623,17 @@
     "C-009 boe_id token inside core id derivations"
   ],
   "summary": {
+    "note": "counts derived mechanically from items[].classification",
     "items": 45,
-    "profile_material": 17,
-    "core": 2,
-    "profile_input_core_policy": 21,
-    "core_module_notes": 5,
-    "high_risk": ["C-004", "C-008", "C-010", "C-013", "C-014", "C-016", "C-019", "C-024", "C-028", "C-029", "C-030", "C-033", "C-035", "C-042"]
+    "profile_material": 14,
+    "core": 4,
+    "profile_input_core_policy": 27,
+    "core_items": ["C-023", "C-027", "C-031", "C-036"],
+    "core_module_notes": 4,
+    "high_risk": ["C-004", "C-008", "C-010", "C-013", "C-014", "C-016", "C-019", "C-024", "C-028", "C-029", "C-030", "C-033", "C-035", "C-042"],
+    "post_amendment_reclassifications": {
+      "C-005": "PROFILE_MATERIAL -> PROFILE_INPUT_CORE_POLICY (equality policy is core, connectors are profile)",
+      "C-021": "PROFILE_MATERIAL -> PROFILE_INPUT_CORE_POLICY (normalize/compare policy is core, parameters are profile)"
+    }
   }
 }

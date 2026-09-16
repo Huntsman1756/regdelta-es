@@ -1,8 +1,8 @@
 # PORT-0 — coupling census map
 
 Runtime `ebbfdde`. Machine-readable detail: `coupling-census.json`.
-45 items: 17 PROFILE_MATERIAL, 21 PROFILE_INPUT_CORE_POLICY,
-2 CORE singletons, 5 confirmed-core modules.
+45 items: 14 PROFILE_MATERIAL, 27 PROFILE_INPUT_CORE_POLICY,
+4 CORE items (C-023, C-027, C-031, C-036), 4 confirmed-core modules.
 
 ## The load-bearing seams
 
@@ -45,22 +45,100 @@ diffing.py           confirmed core
    grammar objects (patterns, vocab tables, kind maps, boundary
    tables) injected into core enumeration/adjudication engines —
    not callbacks, and never decision authority.
-2. **Emitted vocabulary is frozen.** `locator_key` spellings,
-   parser_name strings, source ids, status taxonomies all appear in
-   byte-identical artifacts. The profile owns their *meaning*; it
-   cannot rename them.
+2. **Ownership split (frozen for PORT-1).** The profile does *not*
+   own the meaning of canonical tokens — that would re-introduce
+   factual authority through the back door:
+
+   ```text
+   profile owns:
+     source lexemes
+     regex/pattern data
+     vocabularies
+     source identifier syntax
+     mappings from source forms -> core semantic kinds
+   core owns:
+     semantic kinds/taxonomies and their meaning
+     canonical emitted spelling
+     enumeration/adjudication policy
+     ambiguity/abstention policy
+   ```
+
+   The profile maps `"apartado"` and its source variants to
+   `LocatorKind.APARTADO`; the core decides what the kind means in
+   the hierarchy and serializes `apartado:` back out. Same for
+   verbs → `ADD/DELETE/MODIFY/SUBSTITUTE`. Emitted vocabulary
+   (`locator_key` spellings, parser_names, source ids, status
+   taxonomies) appears in byte-identical artifacts and cannot be
+   renamed.
 3. **Duplicated vocabulary is the smell.** State-code families live
    in four modules; ordinal tables in three; fichero connectors in
    three. Consolidation into one profile-owned vocabulary removes
    drift surface without touching policy.
 4. **`db.py` is the surprise coupling.** `SOURCE_IDS` and
    `CHECK (source_id IN (...))` put the profile's source registry
-   inside core DDL — PORT-1 must decide whether the schema takes a
-   profile-provided registry or the constraint relaxes into a
-   registry table.
+   inside core DDL. Frozen direction for PORT-1: a **core registry
+   fed by profile-supplied descriptors** — never profile-injected
+   DDL. The profile declares `source_id`, parser identity and
+   capabilities; the core keeps referential integrity. A registry
+   table + FK is conceptually sounder than
+   `CHECK(source_id IN profile-values)` because the latter varies
+   core schema per profile.
 5. **No item required moving a factual decision.** Every
    binding-relevant item splits as (profile vocabulary) → (core
    enumerate/adjudicate/abstain). The census found zero cases where
    byte-equivalence would force the profile to decide an outcome.
+6. **C-009 consequence.** PORT-1 introduces a profile-supplied
+   `canonical_instrument_token`; the core hashing policy operates
+   on it. For BdE the token must remain byte-for-byte today's
+   `boe_id` — no id migration is permitted.
 
-Status: PORT-0 DONE — awaiting review before PORT-1.
+## Architecture boundary (frozen for PORT-1)
+
+C-033/C-042/C-044 jointly imply three layers — not one
+`SourceProfile` object:
+
+```text
+Profile package (source-specific boundary)
+    raw-byte adapters/parsers
+    acquisition descriptors
+    SourceProfile data
+
+SourceProfile (immutable data only — no functions/callbacks)
+    locator vocabulary
+    marker grammar
+    verb lexicon
+    ordinal vocabulary
+    state-code families
+    identifier grammar
+    document-class mappings
+    source descriptors
+
+Core
+    canonical node-stream contract
+    operation/ownership/binding policies
+    lifecycle
+    proof
+    persistence semantics
+```
+
+The outer composition converts official bytes → node stream; from
+that point the core works on a typed contract plus profile *data*.
+Data in, adjudication stays core.
+
+## PORT-1 directive
+
+Do not transcribe the 27 PROFILE_INPUT_CORE_POLICY seams into 27
+methods. Compress them into ~5–7 typed data facets feeding the
+existing core engines: document-model vocabulary, locator grammar,
+operative grammar, identity/reference grammar, annex/state
+grammar, applicability language, source descriptors. A callback
+surface would mean this census found a list of constants, not a
+boundary.
+
+```text
+PORT-0 = DONE (PASS_WITH_AMENDMENTS applied)
+finding: BdE coupling separable as PROFILE DATA -> CORE POLICY
+factual decisions transferred to profile: 0
+architecture hypothesis: SURVIVES
+PORT-1: AUTHORIZED
+```

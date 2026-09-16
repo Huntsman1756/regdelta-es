@@ -136,6 +136,31 @@ what the profile may NOT decide (anything that binds, resolves
 ambiguity, or overrides abstention). Reviewable before PORT-2
 begins.
 
+Frozen rules carried in from the PORT-0 census review:
+
+- **Ownership split**: the profile owns source lexemes, pattern
+  data, vocabularies, source identifier syntax, and mappings from
+  source forms to core semantic kinds. The core owns the semantic
+  kinds/taxonomies and their meaning, canonical emitted spellings,
+  enumeration/adjudication policy, and ambiguity/abstention
+  policy.
+- **Data, not callbacks**: `SourceProfile` is immutable data.
+  Parsers/adapters live in the profile *package* (the outer
+  composition that converts official bytes into the core's
+  node-stream contract), never as functions inside the profile
+  object.
+- **No profile-injected DDL**: the core owns a source registry fed
+  by profile descriptors; the schema does not vary per profile.
+- **`canonical_instrument_token`**: supplied by the profile,
+  hashed by the core. For BdE it remains byte-for-byte the current
+  `boe_id`.
+- **Facets, not methods**: the contract should compress the census
+  seams into ~5–7 typed data facets (document-model vocabulary,
+  locator grammar, operative grammar, identity/reference grammar,
+  annex/state grammar, applicability language, source
+  descriptors). An interface of callbacks means the census was
+  read backwards.
+
 ### PORT-2 — Extract BdE profile (hard equivalence gate)
 
 Move the §PORT-0 census items classified as profile material
