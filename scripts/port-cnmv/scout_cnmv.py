@@ -124,8 +124,9 @@ def inspect_metadata(xml_bytes: bytes) -> dict | None:
     anteriores, posteriores = [], []
     refs = root.find("analisis/referencias")
     if refs is not None:
-        for tag, acc in (("anterior", anteriores), ("posterior", posteriores)):
-            for cont in refs.findall(tag + "s"):
+        for tag, cont_name, acc in (("anterior", "anteriores", anteriores),
+                                    ("posterior", "posteriores", posteriores)):
+            for cont in refs.findall(cont_name):
                 for el in cont.iter(tag):
                     pal = el.find("palabra")
                     acc.append({
@@ -309,7 +310,7 @@ def main() -> int:
                                      "retrieved_at": _now(),
                                      "error_class": "FETCH_ERROR"}
                     continue
-                rel = raw_dir.relative_to(ROOT) / name
+                rel = raw_dir.resolve().relative_to(ROOT) / name
                 (raw_dir / name).write_bytes(body)
                 entries[name] = {
                     "name": name, "url": url, "accept": accept,
