@@ -40,6 +40,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]
                     / "scripts" / "g0g"))
 
+from regdelta.profile import active_profile  # noqa: E402
 from regdelta import applicability, binding, db as dbm, history, \
     operations  # noqa: E402
 from regdelta.sources import boe_diario  # noqa: E402
@@ -146,7 +147,8 @@ def _covers_token_alts(key: str) -> list[str]:
     head_kind = key.split(":", 1)[0].split(".", 1)[0]
     if head_kind in ("norma", "anejo", "anexo", "disp", "disposicion") \
             and token.isdigit():
-        alts |= {ev._norm(w) for w, v in binding._ORDINALS.items()
+        alts |= {ev._norm(w) for w, v in
+                 active_profile().locator_grammar.ordinals.items()
                  if v == int(token)}
     return [a for a in alts if a]
 
@@ -180,7 +182,8 @@ def _expected_op_g1(text: str) -> str | None:
     parser claims to use, not the frozen G0 ruleset whose 'redact' maps
     'dar nueva redacción' to MODIFY while the runtime classifies it
     SUBSTITUTE."""
-    masked = operations._QUOTED_SPAN_RE.sub(" ", text)
+    masked = active_profile().text_normalization.quoted_span.sub(
+        " ", text)
     best: tuple[int, str] | None = None
     for kind, rx in operations._OP_KINDS:
         m = rx.search(masked)
@@ -212,7 +215,7 @@ def _expected_op_for_subject(clause: str, key: str) -> str | None:
     never outrank the operative verb before the mention.
     """
     _, deep = _locator_mentions(key)
-    masked = operations._QUOTED_SPAN_RE.sub(
+    masked = active_profile().text_normalization.quoted_span.sub(
         lambda m: " " * len(m.group(0)), clause)
     # lowercase keeps positions aligned with the raw clause while
     # _OP_KINDS patterns stay accent-aware (ñ, á) — _norm would both
@@ -249,7 +252,8 @@ def _locator_resolves_g1(doc: boe_diario.DiarioDoc, key: str) -> bool:
     if kind == "norma" and body.isdigit():
         num = int(body)
         alts = {body} | {ev._norm(w) for w, v in
-                         binding._ORDINALS.items() if v == num}
+                         active_profile().locator_grammar
+                         .ordinals.items() if v == num}
         head_alt = "|".join(re.escape(a) for a in sorted(alts))
         span = ev._head_span(
             doc, re.compile(

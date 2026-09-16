@@ -80,7 +80,6 @@ MODALITY_MARKERS = [
 ]
 
 CONDITIONAL_OPENER = re.compile(r"^(?:Si[ ,]|Cuando )\b")
-SIGNATURE_RE = re.compile(r"^Madrid, \d+ de \w+ de \d{4}")
 
 FREQ_MAP = {
     "mensual": "MONTHLY", "mensuales": "MONTHLY",
@@ -353,9 +352,11 @@ def temporal_effects(text: str) -> list[dict]:
 
 
 def section_nodes(doc: DiarioDoc) -> dict:
-    arts = [n for n in doc.nodes if n.cls == "articulo"]
+    dm = active_profile().document_model
+    arts = [n for n in doc.nodes if n.cls == dm.classes["articulo"]]
     sig = next((n.index for n in doc.nodes
-                if n.kind == "p" and SIGNATURE_RE.match(n.text)),
+                if n.kind == dm.kinds["paragraph"]
+                and dm.boundary["signature"].match(n.text)),
                len(doc.nodes))
     spans = {}
     for a in arts:
@@ -369,7 +370,8 @@ def section_nodes(doc: DiarioDoc) -> dict:
             code = f"{code}.{sum(1 for k in spans if k.split('.')[0] == code)}"
         head = a.index
         nxt = min([n.index for n in arts if n.index > head] + [sig])
-        nodes = [n for n in doc.nodes[head + 1:nxt] if n.kind == "p"]
+        nodes = [n for n in doc.nodes[head + 1:nxt]
+                 if n.kind == dm.kinds["paragraph"]]
         style = ("num" if any(re.match(r"^\d+\.\s", n.text)
                               for n in nodes) else "alpha")
         spans[code] = (head, nodes, style)
@@ -588,7 +590,8 @@ def frequency_table(doc: DiarioDoc) -> tuple[dict, int | None]:
 
     Returns ({estado: FREQ}, table_node_index)."""
     for n in doc.nodes:
-        if n.kind == "table" and n.rows and "Periodicidad" in n.rows[0]:
+        if n.kind == active_profile().document_model.kinds["table"] \
+                and n.rows and "Periodicidad" in n.rows[0]:
             out = {}
             for r in n.rows[1:]:
                 per = r[2].strip().rstrip(".") if len(r) > 2 else ""

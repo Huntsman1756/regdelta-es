@@ -25,7 +25,7 @@ import re
 from dataclasses import dataclass, field
 
 from . import annexmap
-from .operations import _ORDINALS, _ordinal_num
+from .operations import _ordinal_num
 from .profile import active_profile
 from .sources.boe_diario import DiarioDoc
 
@@ -113,18 +113,14 @@ def abstain(status: str, method: str, locator_key: str,
 # candidate enumeration — headings
 # ---------------------------------------------------------------------------
 
-_ARTICULO_HEAD_RE = re.compile(
-    r"^(?:\[[^\]]*\]\s*)?([A-Za-zÁÉÍÓÚáéíóúñü]+)\s+(\S+)",
-    re.IGNORECASE)
-
-
 def _ordinal_alt(ordinal: str) -> str:
     """Regex alternation matching an ordinal written as digit or
     linguistic word (feminine forms: normas/disposiciones)."""
     num = _ordinal_num(ordinal)
     if num is None:
         return re.escape(ordinal)
-    words = {w for w, v in _ORDINALS.items() if v == num}
+    lg = active_profile().locator_grammar
+    words = {w for w, v in lg.ordinals.items() if v == num}
     return "(?:" + "|".join(
         re.escape(w) for w in sorted(words | {str(num)})) + ")"
 
@@ -134,16 +130,19 @@ def articulo_spans(doc: DiarioDoc, head_word: str,
     """Every 'Norma cuarta.' / 'Disposición transitoria primera.'-class
     heading matching head_word+ordinal, each spanning to the next
     articulo heading. Duplicates surface as separate candidates."""
+    p = active_profile()
+    art = p.document_model.classes["articulo"]
+    head_re = p.locator_grammar.articulo_head
     want = _ordinal_num(ordinal)
     hits: list[int] = []
     for n in doc.nodes:
-        if n.cls != "articulo":
+        if n.cls != art:
             continue
-        m = _ARTICULO_HEAD_RE.match(n.text)
+        m = head_re.match(n.text)
         if m and m.group(1).lower() == head_word \
                 and _ordinal_num(m.group(2).rstrip(".")) == want:
             hits.append(n.index)
-    bounds = sorted(h.index for h in doc.nodes if h.cls == "articulo")
+    bounds = sorted(h.index for h in doc.nodes if h.cls == art)
     out = []
     for h in hits:
         nxt = next((b for b in bounds if b > h), len(doc.nodes))
@@ -153,31 +152,30 @@ def articulo_spans(doc: DiarioDoc, head_word: str,
 
 def disp_spans(doc: DiarioDoc, tipo: str,
                ordinal: str) -> list[tuple[int, int]]:
+    p = active_profile()
+    art = p.document_model.classes["articulo"]
     pat = re.compile(
-        rf"^(?:\[[^\]]*\]\s*)?Disposici[oó]n\s+{tipo}\s+"
-        rf"{_ordinal_alt(ordinal)}\b",
+        p.locator_grammar.disposicion_head.format(
+            tipo=tipo, ord=_ordinal_alt(ordinal)),
         re.IGNORECASE)
     hits = [n.index for n in doc.nodes
-            if n.cls == "articulo" and pat.search(n.text)]
-    bounds = sorted(n.index for n in doc.nodes if n.cls == "articulo")
+            if n.cls == art and pat.search(n.text)]
+    bounds = sorted(n.index for n in doc.nodes if n.cls == art)
     return [(h, next((b for b in bounds if b > h), len(doc.nodes)))
             for h in hits]
 
 
 def _fichero_name(text: str) -> str:
-    t = re.sub(r"\s*-\s*", "-", text.strip().casefold())
-    return re.sub(r"\s*\(\s*\*+\s*\)\s*$", "", t)
-
-
-_FICHERO_CONNECTORS = frozenset(
-    {"a", "ante", "con", "de", "del", "e", "el", "en", "la", "las",
-     "los", "para", "por", "sobre", "y"})
+    fg = active_profile().annex_state.fichero
+    t = fg.dash_collapse.sub("-", text.strip().casefold())
+    return fg.note_strip.sub("", t)
 
 
 def _fichero_tokens(text: str) -> tuple[str, ...]:
-    return tuple(t for t in re.split(r"[^\wáéíóúñü]+",
+    fg = active_profile().annex_state.fichero
+    return tuple(t for t in re.split(fg.token_split,
                                      _fichero_name(text))
-                 if t and t not in _FICHERO_CONNECTORS)
+                 if t and t not in fg.connectors)
 
 
 def _fichero_eq(a: str, b: str) -> bool:
@@ -190,22 +188,24 @@ def fichero_spans(doc: DiarioDoc, name: str) -> list[tuple[int, int]]:
     <name>'; a centered bare title under a FICHERO label; or the
     capitulo_num 'Fichero' + capitulo_tit pair. Block closes at the
     next fichero heading, next articulo, or the signature."""
-    head = re.compile(r"^fichero\s*:")
-    boundary = re.compile(r"^(?:fichero\s*:|madrid\s*,)")
+    p = active_profile()
+    dm = p.document_model
+    fg = p.annex_state.fichero
     nodes = doc.nodes
     starts: list[int] = []
     for k, n in enumerate(nodes):
-        if n.kind != "p":
+        if n.kind != dm.kinds["paragraph"]:
             continue
         txt = _fichero_name(n.text)
-        m = head.match(txt)
+        m = fg.head.match(txt)
         if m and _fichero_eq(txt[m.end():], name):
             starts.append(n.index)
-        elif n.cls.startswith("centro") and _fichero_eq(txt, name):
+        elif n.cls.startswith(dm.class_prefixes["centro"]) \
+                and _fichero_eq(txt, name):
             starts.append(n.index)
-        elif n.cls == "capitulo_num" and txt == "fichero" \
+        elif n.cls == dm.classes["capitulo_num"] and txt == fg.word \
                 and k + 1 < len(nodes) \
-                and nodes[k + 1].cls == "capitulo_tit" \
+                and nodes[k + 1].cls == dm.classes["capitulo_tit"] \
                 and _fichero_eq(nodes[k + 1].text, name):
             starts.append(n.index)
     out = []
@@ -214,8 +214,10 @@ def fichero_spans(doc: DiarioDoc, name: str) -> list[tuple[int, int]]:
         for i in range(start + 1, len(nodes)):
             n = nodes[i]
             txt = _fichero_name(n.text)
-            if n.cls == "articulo" or boundary.match(txt) \
-                    or (txt == "fichero" and n.cls != "parrafo"):
+            if n.cls == dm.classes["articulo"] \
+                    or fg.boundary.match(txt) \
+                    or (txt == fg.word
+                        and n.cls != dm.classes["parrafo"]):
                 end = i
                 break
         out.append((start, end))
@@ -227,18 +229,22 @@ def anejo_spans(doc: DiarioDoc, num: str) -> list[tuple[int, int]]:
     digit form matches — roman/arabic renumbering is never normalized
     away (B5/§14). Region ends at the next anejo heading, an articulo,
     or the signature."""
-    head = re.compile(rf"^anejo\s+{re.escape(num)}\b", re.IGNORECASE)
-    bound = re.compile(r"^anejo\s+\S|^anexos?\b|madrid\s*,",
-                       re.IGNORECASE)
+    p = active_profile()
+    dm = p.document_model
+    lg = p.locator_grammar
+    head = re.compile(lg.anejo_head.format(num=re.escape(num)),
+                      re.IGNORECASE)
     hits = [i for i, n in enumerate(doc.nodes)
-            if n.kind == "p" and head.match(n.text.strip())]
+            if n.kind == dm.kinds["paragraph"]
+            and head.match(n.text.strip())]
     out = []
     for h in hits:
         end = len(doc.nodes)
         for i in range(h + 1, len(doc.nodes)):
             n = doc.nodes[i]
-            if n.cls == "articulo" or (
-                    n.kind == "p" and bound.match(n.text.strip())):
+            if n.cls == dm.classes["articulo"] or (
+                    n.kind == dm.kinds["paragraph"]
+                    and lg.anejo_boundary.match(n.text.strip())):
                 end = i
                 break
         out.append((h, end))
@@ -249,34 +255,33 @@ def anejo_spans(doc: DiarioDoc, num: str) -> list[tuple[int, int]]:
 # candidate enumeration — sub-locators inside a proven parent scope
 # ---------------------------------------------------------------------------
 
-_NUMERIC_MARKER_RE = re.compile(
-    r"^(?:\d+\.|\d{1,3}(?:\.\d+)*\s+[A-ZÁÉÍÓÚÑ¿«(])")
-_LETRA_MARKER_RE = re.compile(r"^[a-zA-Z]\)")
-_SIBLING_MARKER_RE = re.compile(
-    r"^(?:\d+\.|[a-zA-Z]\)|[ivxlcdmIVXLCDM]+\s*[.)]"
-    r"|\d{1,3}(?:\.\d+)*\s+[A-ZÁÉÍÓÚÑ¿«(])")
-
 # A candidate region ends at the next marker of its own level or any
 # outer level — never at a child marker: 'a)' opens content *inside*
-# apartado 1, it does not start a new apartado.
-_LEVEL_BOUNDARY = {
-    "apartado": _NUMERIC_MARKER_RE,
-    "punto": _NUMERIC_MARKER_RE,
-    "letra": re.compile(
-        _NUMERIC_MARKER_RE.pattern + "|" + _LETRA_MARKER_RE.pattern),
-}
+# apartado 1, it does not start a new apartado. Marker grammar and the
+# kind->boundary map are profile data; the span policy is core.
+def _level_boundary(kind: str) -> re.Pattern:
+    lg = active_profile().locator_grammar
+    spec = lg.level_boundary.get(kind)
+    if spec is None:
+        return lg.markers[lg.default_boundary]
+    return re.compile(
+        "|".join(lg.markers[m].pattern for m in spec))
 
 
 def sub_region_candidates(doc: DiarioDoc, span: tuple[int, int],
                           pattern: re.Pattern,
-                          boundary: re.Pattern = _SIBLING_MARKER_RE,
+                          boundary: re.Pattern | None = None,
                           ) -> list[tuple[int, int]]:
     """Every node matching ``pattern`` inside ``span``; each candidate
     spans to the next same-or-outer-level marker or the parent span
     end. Matches outside the parent scope are never considered (B2)."""
+    if boundary is None:
+        lg = active_profile().locator_grammar
+        boundary = lg.markers[lg.default_boundary]
     starts = [i for i in range(*span)
-              if doc.nodes[i].kind == "p" and pattern.match(
-                  doc.nodes[i].text)]
+              if doc.nodes[i].kind
+              == active_profile().document_model.kinds["paragraph"]
+              and pattern.match(doc.nodes[i].text)]
     out = []
     for start in starts:
         end = span[1]
@@ -288,9 +293,6 @@ def sub_region_candidates(doc: DiarioDoc, span: tuple[int, int],
     return out
 
 
-_VALUE_CONT_RE = re.compile(r"[\dA-ZÁÉÍÓÚÑ]")
-
-
 def _locator_parts(locator_key: str) -> list[str]:
     """Split a locator key into 'kind:value' components.
 
@@ -300,12 +302,13 @@ def _locator_parts(locator_key: str) -> list[str]:
     disp 'transitoria.primera', anejo '7.3'). Any other bare segment
     (anejo '5' + 'indice') keeps its own component and will fail
     sub-resolution as an unmodelled kind, exactly as before."""
+    lg = active_profile().locator_grammar
     raw = locator_key.split(".")
     parts = [raw[0]]
     for p in raw[1:]:
         if ":" in p:
             parts.append(p)
-        elif _VALUE_CONT_RE.match(p) or p in _ORDINALS:
+        elif lg.value_continuation.match(p) or p in lg.ordinals:
             parts[-1] += "." + p
         else:
             parts.append(p)
@@ -313,24 +316,16 @@ def _locator_parts(locator_key: str) -> list[str]:
 
 
 def _sub_pattern(kind: str, val: str) -> re.Pattern | None:
+    lg = active_profile().locator_grammar
     v = re.escape(val)
-    if kind in ("apartado", "punto"):
-        if "." in val:
-            # a compound code ('9.1', 'II.B.2') must not prefix-match a
-            # deeper sibling code ('9.10', '9.1.2')
-            return re.compile(rf"^{v}(?!\.\d|\w)(?:\s*\.|\s|$)")
-        # official markers: '2.' / '2. ' dotted, or '2 Texto' undotted —
-        # the undotted form requires capitalised text so that '2 de
-        # julio' / '2 000' prose is never a structural marker
-        return re.compile(
-            rf"^{v}(?!\d)(?:\s*\.|\s+[A-ZÁÉÍÓÚÑ¿«(]|$)")
-    if kind == "letra":
-        return re.compile(rf"^{v}\s*\)")
-    if kind == "nota":
-        return re.compile(rf"^[«(]+\s*\(?{v}\)?", re.IGNORECASE)
-    if kind == "numeral":
-        return re.compile(rf"^{v}\s*[.)]", re.IGNORECASE)
-    return None
+    if "." in val and kind in lg.sub_markers_compound:
+        src, flags = lg.sub_markers_compound[kind]
+        return re.compile(src.format(v=v), flags)
+    ent = lg.sub_markers.get(kind)
+    if ent is None:
+        return None
+    src, flags = ent
+    return re.compile(src.format(v=v), flags)
 
 
 def text_region_candidates(doc: DiarioDoc,
@@ -343,7 +338,9 @@ def text_region_candidates(doc: DiarioDoc,
     parts = _locator_parts(locator_key)
     head = parts[0]
     if head.startswith("norma:"):
-        cands = articulo_spans(doc, "norma", head[6:])
+        cands = articulo_spans(
+            doc, active_profile().locator_grammar.head_forms[
+                "norma"][0], head[6:])
     elif head.startswith("disp:"):
         tipo, _, ordinal = head[5:].partition(".")
         cands = disp_spans(doc, tipo, ordinal)
@@ -358,7 +355,7 @@ def text_region_candidates(doc: DiarioDoc,
         pat = _sub_pattern(kind, val)
         if pat is None:
             return []
-        bnd = _LEVEL_BOUNDARY.get(kind, _SIBLING_MARKER_RE)
+        bnd = _level_boundary(kind)
         nxt: list[tuple[int, int]] = []
         for sp in cands:
             nxt.extend(sub_region_candidates(doc, sp, pat, bnd))
@@ -377,20 +374,22 @@ def annex_code_regions(doc: DiarioDoc) -> dict[str, list[tuple[int, int]]]:
 
     Unlike the G0 ``structured_annex``, duplicate code headers are NOT
     collapsed: each region is a distinct candidate (B1)."""
+    p = active_profile()
+    dm = p.document_model
     annex_start = None
     for n in doc.nodes:
-        if n.cls == "anexo" or (
-                n.kind == "p" and n.text.strip() == "ANEJO"):
+        if n.cls == dm.classes["anexo"] or (
+                n.kind == dm.kinds["paragraph"]
+                and n.text.strip() == dm.annex_literal):
             annex_start = n.index
             break
     if annex_start is None:
         return {}
-    code_header = active_profile().annex_state.patterns[
-        "annex_code_header"]
+    code_header = p.annex_state.patterns["annex_code_header"]
     starts: list[tuple[int, str]] = []
     for i in range(annex_start, len(doc.nodes)):
         n = doc.nodes[i]
-        if n.kind == "p":
+        if n.kind == dm.kinds["paragraph"]:
             m = code_header.match(n.text)
             if m:
                 starts.append((i, annexmap._norm_code(

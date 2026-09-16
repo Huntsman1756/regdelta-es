@@ -22,6 +22,7 @@ import unicodedata
 from dataclasses import dataclass
 
 from . import operations
+from .profile import active_profile
 from .sources import boe_diario
 
 PARSER_NAME = "ownership"
@@ -83,7 +84,7 @@ _ELI_CIR_RE = re.compile(r"/cir/(\d{4})/(\d{2})/(\d{2})/(\d+)")
 
 def _unique_refs(text: str) -> list[tuple[int, int]]:
     refs = operations._target_refs(
-        operations._QUOTED_SPAN_RE.sub("", text))
+        active_profile().text_normalization.quoted_span.sub("", text))
     return list(dict.fromkeys(refs))
 
 
@@ -396,34 +397,26 @@ def expected_existence(op_kind: str, prev_hop: dict | None,
 
 
 def _norm(s: str) -> str:
-    s = unicodedata.normalize("NFKD", s)
-    s = "".join(c for c in s if not unicodedata.combining(c))
-    return re.sub(r"\s+", " ", s).lower().strip()
-
-
-_ORDINAL_WORDS = {
-    "1": "primera", "2": "segunda", "3": "tercera", "4": "cuarta",
-    "5": "quinta", "6": "sexta", "7": "septima", "8": "octava",
-    "9": "novena", "10": "decima", "11": "undecima", "12": "duodecima",
-    "13": "decima tercera", "14": "decima cuarta", "15": "decima quinta",
-    "16": "decima sexta", "17": "decima septima", "18": "decima octava",
-    "19": "decima novena", "20": "vigesima",
-}
+    tn = active_profile().text_normalization
+    s = unicodedata.normalize(tn.form, s)
+    if tn.strip_combining:
+        s = "".join(c for c in s if not unicodedata.combining(c))
+    if tn.collapse_ws:
+        s = re.sub(r"\s+", " ", s)
+    return getattr(s, tn.fold)().strip()
 
 
 def _fichero_norm(text: str) -> str:
-    t = re.sub(r"\s*-\s*", "-", _norm(text))
-    return re.sub(r"\s*\(\s*\*+\s*\)\s*$", "", t)
-
-
-_FICHERO_CONNECTORS = frozenset(
-    {"a", "ante", "con", "de", "del", "e", "el", "en", "la", "las",
-     "los", "para", "por", "sobre", "y"})
+    fg = active_profile().annex_state.fichero
+    t = fg.dash_collapse.sub("-", _norm(text))
+    return fg.note_strip.sub("", t)
 
 
 def _fichero_tokens(text: str) -> tuple[str, ...]:
-    return tuple(t for t in re.split(r"[^\w]+", _fichero_norm(text))
-                 if t and t not in _FICHERO_CONNECTORS)
+    fg = active_profile().annex_state.fichero
+    return tuple(t for t in re.split(fg.token_split_norm,
+                                     _fichero_norm(text))
+                 if t and t not in fg.connectors)
 
 
 def _fichero_eq(a: str, b: str) -> bool:
@@ -433,13 +426,15 @@ def _fichero_eq(a: str, b: str) -> bool:
 
 def _head_span(doc: boe_diario.DiarioDoc, pat: re.Pattern,
                articulo_only: bool) -> tuple[int, int] | None:
+    dm = active_profile().document_model
     start = None
     for n in doc.nodes:
         if start is None:
-            ok = (n.cls == "articulo" if articulo_only else n.kind == "p")
+            ok = (n.cls == dm.classes["articulo"] if articulo_only
+                  else n.kind == dm.kinds["paragraph"])
             if ok and n.text and pat.search(_norm(n.text)):
                 start = n.index
-        elif n.cls == "articulo":
+        elif n.cls == dm.classes["articulo"]:
             return (start, n.index)
     return (start, len(doc.nodes)) if start is not None else None
 
@@ -447,19 +442,10 @@ def _head_span(doc: boe_diario.DiarioDoc, pat: re.Pattern,
 def _sub_present(doc: boe_diario.DiarioDoc, span: tuple[int, int],
                  kind: str, val: str) -> bool:
     v = _norm(val)
-    if kind == "apartado":
-        pats = (re.compile(rf"^{re.escape(v)}\s*\.\s"),
-                re.compile(rf"\bapartados?\s+{re.escape(v)}\b"))
-    elif kind == "punto":
-        pats = (re.compile(rf"^{re.escape(v)}\s*\.\s"),
-                re.compile(rf"\bpuntos?\s+{re.escape(v)}\b"))
-    elif kind in ("letra", "nota"):
-        pats = (re.compile(rf"^\(?{re.escape(v)}\)"),
-                re.compile(rf"\b{kind}s?\s+\(?{re.escape(v)}\)?"))
-    elif kind == "numeral":
-        pats = (re.compile(rf"^{re.escape(v)}\s*[.)]"),)
-    else:
-        pats = (re.compile(rf"\b{re.escape(v)}\b"),)
+    presence = active_profile().locator_grammar.presence
+    templates = presence.get(kind, presence["_default"])
+    pats = tuple(re.compile(t.format(v=re.escape(v)))
+                 for t in templates)
     for i in range(*span):
         n = doc.nodes[i]
         if n.text and any(p.search(_norm(n.text)) for p in pats):
@@ -476,16 +462,19 @@ def locator_resolves_in_doc(doc: boe_diario.DiarioDoc, key: str) -> bool:
     presence in any node text; named fichero subjects compare on
     normalized names.
     """
+    prof = active_profile()
+    dm, lg, fg = prof.document_model, prof.locator_grammar, \
+        prof.annex_state.fichero
     parts = key.split(".")
     kind, _, body = parts[0].partition(":")
     if kind == "norma" and body.isdigit():
         num = int(body)
         alts = {body} | {_norm(w) for w, v in
-                         operations._ORDINALS.items() if v == num}
+                         lg.ordinals.items() if v == num}
         head_alt = "|".join(re.escape(a) for a in sorted(alts))
         span = _head_span(
-            doc, re.compile(
-                rf"^(?:\[[^\]]*\]\s*)?norma\s+(?:{head_alt})\b"),
+            doc, re.compile(lg.norma_head.format(
+                alt=f"(?:{head_alt})")),
             articulo_only=True)
         if span is None:
             return False
@@ -496,10 +485,9 @@ def locator_resolves_in_doc(doc: boe_diario.DiarioDoc, key: str) -> bool:
         tipo = body
         ordinal = parts[1] if len(parts) > 1 and ":" not in parts[1] \
             else None
-        pat = re.compile(
-            rf"^(?:\[[^\]]*\]\s*)?disposici[oó]n\s+"
-            rf"{re.escape(_norm(tipo))}"
-            rf"\s+{re.escape(_norm(ordinal or ''))}\b")
+        pat = re.compile(lg.disposicion_head.format(
+            tipo=re.escape(_norm(tipo)),
+            ord=re.escape(_norm(ordinal or ""))))
         span = _head_span(doc, pat, articulo_only=True)
         if span is None:
             return False
@@ -507,27 +495,26 @@ def locator_resolves_in_doc(doc: boe_diario.DiarioDoc, key: str) -> bool:
         return all(":" in p and _sub_present(
             doc, span, p.split(":")[0], p.split(":")[1]) for p in rest)
     if kind == "fichero":
-        fhead = re.compile(r"^fichero\s*:\s*(.*)$")
         for n in doc.nodes:
             if not n.text:
                 continue
             t = _fichero_norm(n.text)
-            m = fhead.match(t)
+            m = fg.head_value.match(t)
             if m and _fichero_eq(m.group(1), body):
                 return True
-            if (n.cls.startswith("centro")
-                    or n.cls in ("capitulo_tit", "anexo_tit")) \
+            if (n.cls.startswith(dm.class_prefixes["centro"])
+                    or n.cls in (dm.classes["capitulo_tit"],
+                                 dm.classes["anexo_tit"])) \
                     and _fichero_eq(t, body):
                 return True
         return False
     if kind == "norma":
         num = _norm(body)
-        word = _ORDINAL_WORDS.get(num)
+        word = lg.ordinal_words.get(num)
         head_alt = rf"(?:{re.escape(num)}|{re.escape(word)})" \
             if word else re.escape(num)
         span = _head_span(
-            doc, re.compile(
-                rf"^(?:\[[^\]]*\]\s*)?norma\s+{head_alt}\b"),
+            doc, re.compile(lg.norma_head.format(alt=head_alt)),
             articulo_only=True)
         if span is None:
             return False

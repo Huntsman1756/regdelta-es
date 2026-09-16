@@ -50,11 +50,13 @@ CONTENT_LINK_METHODS = (
 
 # ---------------------------------------------------------------------------
 # markers / verbs / patterns
+#
+# Locator-declaration, marker and ordinal grammar lives in the active
+# profile's locator_grammar facet; normalization parameters and the
+# «» convention in text_normalization; fichero vocabulary in
+# annex_state.fichero (PORT-2 F1–F3). Enumeration, tokenization and
+# adjudication below are core policy.
 # ---------------------------------------------------------------------------
-
-_MARKER_RE = re.compile(
-    r"^(?P<m>(?:[a-z]{1,2}\)|[ivxlcdm]+\s*[.)]|\d+\s*[.)]))\s*", re.IGNORECASE
-)
 
 # 'desglosa' is never an amendment verb in BOE drafting ("la
 # información se desglosará de acuerdo con ..." describes content);
@@ -183,109 +185,40 @@ def _clause_targets(text: str) -> list[tuple[int, int]]:
               for m in _FICHERO_OWNER_RE.finditer(text)]
     if owners:
         return owners
-    refs = _target_refs(_QUOTED_SPAN_RE.sub("", text))
+    refs = _target_refs(
+        active_profile().text_normalization.quoted_span.sub("", text))
     uniq = list(dict.fromkeys(refs))
     return uniq if len(uniq) == 1 else []
 
-_ORDINALS = {
-    "primera": 1, "primero": 1, "primer": 1, "segunda": 2, "segundo": 2,
-    "tercera": 3, "tercero": 3, "tercer": 3, "cuarta": 4, "cuarto": 4,
-    "quinta": 5, "quinto": 5, "sexta": 6, "sexto": 6, "séptima": 7,
-    "septima": 7, "séptimo": 7, "octava": 8, "octavo": 8, "novena": 9,
-    "noveno": 9, "décima": 10, "decima": 10, "décimo": 10,
-    "undécima": 11, "duodécima": 12, "decimotercera": 13,
-    "decimocuarta": 14, "decimoquinta": 15, "decimosexta": 16,
-    "decimoséptima": 17, "decimoctava": 18, "decimonovena": 19,
-    "vigésima": 20, "vigesima": 20, "única": 1, "unica": 1,
-}
-
-_QUOTED_SPAN_RE = re.compile(r"«[^»]*»")
-
-# data-file subjects: 'el fichero «Expedientes sancionadores»'
-_FICHERO_RE = re.compile(r"\bficheros?\s+«([^»]+)»", re.IGNORECASE)
 # non-operative qualifier that closes an unmarked clause's subject zone:
 # "se suprimen los apartados 4 y 5 ..., sin que se introduzca ningún
 # cambio en los apartados 1 a 3"
 _NON_OP_TAIL_RE = re.compile(r"[,;.]\s*sin\s+(?:que|perjuicio)\b",
                              re.IGNORECASE)
 
-# hierarchical apartado values ('apartado 1.3.2', 'apartado II.B.2')
-# are single identifiers, not lists (G2.1 §25)
-_APART_ATOM = r"(?:\d+(?:\s*\.\s*\d+)*|[IVX]+(?:\.[A-Z0-9]+)*)"
-
-# enumeration-aware mention patterns (G2.1 §25): 'anejos 1 y 2',
-# 'normas 60, 62 y 64', 'apartados 12 a 17' declare every enumerated
-# value; a hierarchical dotted identifier is one value, never a range
-_NUM_SEQ = r"\d+(?:\s*\.\s*\d+)*"
-_ROMAN_SEQ = r"[IVX]+(?:\.[A-Z0-9]+)*"
-_ORD_SEQ = "|".join(_ORDINALS)
-_ENUM_SEP = r"(?:\s*(?:a|al|,|y|e)\s+)"
-
-_LET_LIST_RE = re.compile(
-    r"\bletras?\s+((?:\(?[a-z]\)?\s*(?:,|\sy\s|\se\s|\sa\s))*"
-    r"\(?[a-z]\)?)", re.IGNORECASE)
-
 
 def _letters(raw: str) -> list[str]:
     # case-sensitive on purpose: 'letra B)' is an ordinal-style
     # reference the corpus never uses as a locator declaration
+    item = active_profile().locator_grammar.letra_item
     return [m.group(0).lstrip("(").rstrip(")")
-            for m in re.finditer(r"\(?[a-z]\)?", raw)]
+            for m in item.finditer(raw)]
 
 
 def _numlist(raw: str) -> list[tuple[str, ...]]:
     """Tokenize a numeric enumeration preserving ranges and
     hierarchical values: a 'lo a hi' pair stays a 2-tuple; each other
     element is a singleton, dotted identifiers included."""
+    lg = active_profile().locator_grammar
     out: list[tuple[str, ...]] = []
-    for tok in re.split(r"\s*(?:,|y|e)\s+", raw):
+    for tok in re.split(lg.numlist_split, raw):
         tok = re.sub(r"\s*\.\s*", ".", tok.strip())
-        m = re.fullmatch(r"(\d+)\s+(?:a|al)\s+(\d+)", tok)
+        m = lg.numlist_range.fullmatch(tok)
         if m:
             out.append((m.group(1), m.group(2)))
-        elif re.fullmatch(r"\d+(?:\.\d+)*|[IVX]+(?:\.[A-Z0-9]+)*|" +
-                          _ORD_SEQ, tok, re.IGNORECASE):
+        elif re.fullmatch(lg.numlist_atom, tok, re.IGNORECASE):
             out.append((tok,))
     return out
-
-
-_PATTERNS = {
-    "norma": re.compile(
-        r"\bnormas?\s+((?:\d+|" + _ORD_SEQ + r")"
-        r"(?:" + _ENUM_SEP + r"(?:\d+|" + _ORD_SEQ + r"))*)"
-        r"(?=\s*[,.:;)(«]|\s+(?:de|que|del|en|se|con|por|sin|donde|"
-        r"y\s+la|y\s+el|y\s+los|y\s+las)\b|$)",
-        re.IGNORECASE),
-    "anejo": re.compile(
-        r"\banejos?\s+(" + _NUM_SEQ +
-        r"(?:" + _ENUM_SEP + _NUM_SEQ + r")*)"
-        r"(?=\s*[,.:;)(«]|\s+(?:de|que|del|en|se|con|por|sin|sobre|donde"
-        r"|y\s+el)\b|$)",
-        re.IGNORECASE),
-    "apartado": re.compile(
-        r"\bapartados?\s+((?:" + _NUM_SEQ + r"|" + _ROMAN_SEQ + r")"
-        r"(?:" + _ENUM_SEP + r"(?:" + _NUM_SEQ + r"|" + _ROMAN_SEQ
-        + r"))*)"
-        r"(?=\s*[,.:;)(«]|\s+(?:de|que|del|en|se|con|por|sin|donde|"
-        r"y\s+el)\b|$)",
-        re.IGNORECASE),
-    "punto": re.compile(
-        r"\bpuntos?\s+(" + _NUM_SEQ +
-        r"(?:" + _ENUM_SEP + _NUM_SEQ + r")*)"
-        r"(?=\s*[,.:;)(«]|\s+(?:de|que|del|en|se|con|por|sin|donde|"
-        r"y\s+el|sin\s+que)\b|$)",
-        re.IGNORECASE),
-    "numeral": re.compile(r"\bnumerales?\s+([ivxlcdm]+)\s*\)?", re.IGNORECASE),
-    "nota": re.compile(r"\bnotas?\s+\(?([a-z])\)?", re.IGNORECASE),
-    "disposicion": re.compile(
-        r"\bdisposici[oó]n\s+(adicional|transitoria|final|derogatoria)\s+"
-        r"(\w+)", re.IGNORECASE),
-    "pagina": re.compile(r"\bp[aá]gina\s+(\d{3,6})", re.IGNORECASE),
-    "indice": re.compile(r"\b[íi]ndice\b", re.IGNORECASE),
-}
-
-# mention kinds whose captured text is an enumeration to tokenize
-_ENUM_MENTION_KINDS = ("norma", "anejo", "apartado", "punto")
 
 _LITERAL_PAIRS_RE = re.compile(
     r"«([^»]+)»\s*(?:,?\s*se\s+(?:sustituye|sustituyen|modifica|cambia)\w*"
@@ -324,35 +257,14 @@ _OP_KINDS = [
 _SEG_SPLIT_RE = re.compile(
     r"[;:]|\.\s|\s+(?:y|e|ni)\s+", re.IGNORECASE)
 
-_ROMAN_NUM = {"1": "i", "2": "ii", "3": "iii", "4": "iv", "5": "v",
-              "6": "vi", "7": "vii", "8": "viii", "9": "ix", "10": "x",
-              "11": "xi", "12": "xii", "13": "xiii", "14": "xiv",
-              "15": "xv", "16": "xvi", "17": "xvii", "18": "xviii",
-              "19": "xix", "20": "xx"}
-
-_HEAD_FORMS = {
-    "norma": ("norma",),
-    "anejo": ("anejo", "anexo"),
-    "disp": ("disposicion",),
-    "articulo": ("articulo",),
-    "estado": ("estado",),
-    "fichero": ("fichero",),
-}
-
-_ORDINAL_WORDS = {
-    "1": "primera", "2": "segunda", "3": "tercera", "4": "cuarta",
-    "5": "quinta", "6": "sexta", "7": "septima", "8": "octava",
-    "9": "novena", "10": "decima", "11": "undecima", "12": "duodecima",
-    "13": "decima tercera", "14": "decima cuarta", "15": "decima quinta",
-    "16": "decima sexta", "17": "decima septima", "18": "decima octava",
-    "19": "decima novena", "20": "vigesima",
-}
-
-
 def _norm(s: str) -> str:
-    s = unicodedata.normalize("NFKD", s)
-    s = "".join(c for c in s if not unicodedata.combining(c))
-    return re.sub(r"\s+", " ", s).lower().strip()
+    tn = active_profile().text_normalization
+    s = unicodedata.normalize(tn.form, s)
+    if tn.strip_combining:
+        s = "".join(c for c in s if not unicodedata.combining(c))
+    if tn.collapse_ws:
+        s = re.sub(r"\s+", " ", s)
+    return getattr(s, tn.fold)().strip()
 
 
 def _locator_mentions(key: str) -> tuple[list[str], list[str]]:
@@ -363,18 +275,19 @@ def _locator_mentions(key: str) -> tuple[list[str], list[str]]:
     parts = key.split(".")
     kind, _, body = parts[0].partition(":")
     tok = _norm(body)
+    lg = active_profile().locator_grammar
     heads = []
-    for h in _HEAD_FORMS.get(kind, (kind,)):
+    for h in lg.head_forms.get(kind, (kind,)):
         heads.append(f"{h} {tok}")
         if kind == "disp" and len(parts) > 1:
             heads.append(f"{h} {tok} {_norm(parts[1])}")
     if kind in ("norma", "anejo", "anexo", "articulo"):
-        word = _ORDINAL_WORDS.get(tok)
-        for h in _HEAD_FORMS.get(kind, (kind,)):
+        word = lg.ordinal_words.get(tok)
+        for h in lg.head_forms.get(kind, (kind,)):
             if word:
                 heads.append(f"{h} {word}")
-            if tok in _ROMAN_NUM:
-                heads.append(f"{h} {_ROMAN_NUM[tok]}")
+            if tok in lg.roman:
+                heads.append(f"{h} {lg.roman[tok]}")
     deep = []
     for p in parts[1:]:
         k, _, v = p.partition(":")
@@ -389,7 +302,8 @@ def _clause_op_kind(text: str) -> str | None:
     """Kind of the earliest-position amendment verb in the clause —
     the same derivation the frozen evaluator applies, under this
     parser's own verb vocabulary."""
-    masked = _QUOTED_SPAN_RE.sub(" ", text)
+    masked = active_profile().text_normalization.quoted_span.sub(
+        " ", text)
     best: tuple[int, str] | None = None
     for kind, rx in _OP_KINDS:
         m = rx.search(masked)
@@ -409,7 +323,7 @@ def subject_operation_kind(clause_text: str, locator_key: str,
     is used only when nothing precedes the mention.
     """
     _, deep = _locator_mentions(locator_key)
-    masked = _QUOTED_SPAN_RE.sub(
+    masked = active_profile().text_normalization.quoted_span.sub(
         lambda mm: " " * len(mm.group(0)), clause_text)
     # lowercase keeps positions aligned with the raw clause while
     # _OP_KINDS patterns stay accent-aware (ñ, á) — _norm would both
@@ -509,35 +423,35 @@ def _ordinal_num(word: str) -> int | None:
     w = word.lower()
     if w.isdigit():
         return int(w)
-    return _ORDINALS.get(w)
+    return active_profile().locator_grammar.ordinals.get(w)
 
 
 def _marker_parts(text: str) -> tuple[str, str] | None:
-    m = _MARKER_RE.match(text)
+    lg = active_profile().locator_grammar
+    m = lg.clause_marker.match(text)
     if not m:
         return None
     tok = m.group("m").replace(" ", "")
     body = tok.rstrip(").")
     if body.isdigit():
         return "num", body
-    return "amb" if body.lower() in {
-        "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x",
-        "xi", "xii", "xiii", "xiv", "xv",
-    } else "alpha", body
-
-
-_LOCATOR_CLASSES = {"parrafo", "parrafo_2", "sangrado", "sangrado_2", "cita"}
+    return "amb" if body.lower() in lg.marker_amb_values \
+        else "alpha", body
 
 
 def _is_locator(node: Node) -> bool:
-    if node.kind not in ("p", "blockquote") \
-            or node.cls not in _LOCATOR_CLASSES:
+    p = active_profile()
+    dm, lg, tn = p.document_model, p.locator_grammar, \
+        p.text_normalization
+    if node.kind not in (dm.kinds["paragraph"],
+                         dm.kinds["blockquote"]) \
+            or node.cls not in dm.locator_classes:
         return False
     # a blockquote may fuse the locator clause and its quoted replacement
     # content into a single node; only the span before « is locator prose
-    text = node.text.split("«", 1)[0] if node.kind == "blockquote" \
-        else node.text
-    m = _MARKER_RE.match(text)
+    text = node.text.split(tn.quote_open, 1)[0] \
+        if node.kind == dm.kinds["blockquote"] else node.text
+    m = lg.clause_marker.match(text)
     if not m:
         return False
     rest = text[m.end():].lstrip()
@@ -598,16 +512,20 @@ def _extract_mentions(text: str) -> dict[str, object]:
     "estados", which are the entities being added ("los nuevos estados
     «FI 151 ...»").
     """
-    # state-code grammar lives in the active profile's annex_state
-    # facet (PORT-2 C-016); the mention/anchor policy below is core
-    pats = active_profile().annex_state.patterns
+    # state-code, locator-declaration and quoting grammar live in the
+    # active profile (PORT-2 C-016/C-019/C-045); the mention/anchor
+    # policy below is core
+    prof = active_profile()
+    pats = prof.annex_state.patterns
+    lg = prof.locator_grammar
+    tn = prof.text_normalization
     quoted_states: list[str] = []
     for m in pats["quoted_state"].finditer(text):
         for qm in pats["quoted_code"].finditer(m.group(1)):
             quoted_states.append(
                 _norm_state_code(qm.group(1), qm.group(2)))
 
-    stripped = _QUOTED_SPAN_RE.sub("«»", text)
+    stripped = tn.quoted_span.sub(tn.quote_open + tn.quote_close, text)
 
     # positional anchors are excluded by span range, not by code value
     # ("por el formato de estado FI 142-1.1" must not kill the subject
@@ -616,8 +534,8 @@ def _extract_mentions(text: str) -> dict[str, object]:
                     for m in pats["state_anchor_span"].finditer(stripped)]
 
     out: dict[str, object] = {}
-    for key, rx in _PATTERNS.items():
-        if key in _ENUM_MENTION_KINDS:
+    for key, rx in lg.declarations.items():
+        if key in lg.enum_kinds:
             vals: list = []
             for m in rx.finditer(stripped):
                 vals.extend(_numlist(m.group(1)))
@@ -630,7 +548,7 @@ def _extract_mentions(text: str) -> dict[str, object]:
         if vals:
             out[key] = vals
     letras: list[str] = []
-    for m in _LET_LIST_RE.finditer(stripped):
+    for m in lg.letra_list.finditer(stripped):
         for lt in _letters(m.group(1)):
             if lt not in letras:
                 letras.append(lt)
@@ -657,7 +575,7 @@ def _extract_mentions(text: str) -> dict[str, object]:
     if estados:
         out["estado"] = estados
     ficheros = [re.sub(r"\s+", " ", m.group(1)).strip()
-                for m in _FICHERO_RE.finditer(text)]
+                for m in prof.annex_state.fichero.subject.finditer(text)]
     if ficheros:
         out["fichero"] = ficheros
     return out
@@ -916,15 +834,16 @@ def _expand_numlist(raw: str) -> list:
     a range or list (G2.1 §25). A non-numeric capture (e.g. the anejo
     path 'II.B.2') returns [].
     No linguistic range forms beyond explicit digits."""
+    lg = active_profile().locator_grammar
     out: list = []
-    for part in re.split(r",|\s+[ye]\s+", raw):
+    for part in re.split(lg.expand_split, raw):
         part = part.strip()
-        m = re.match(r"^(\d+)\s+(?:a|al)\s+(\d+)$", part)
+        m = lg.expand_range.match(part)
         if m:
             out.extend(range(int(m.group(1)), int(m.group(2)) + 1))
         elif part.isdigit():
             out.append(int(part))
-        elif re.fullmatch(r"\d+(?:\.\d+)+", part):
+        elif lg.expand_atom.fullmatch(part):
             out.append(part)
         elif part:
             return []
@@ -936,18 +855,6 @@ def _expand_numlist(raw: str) -> list:
 # apartado …' under a stale 'norma N' context resolves under the anejo,
 # never under norma.
 _CTX_ROOTS = ("norma", "anejo", "disposicion")
-
-# unmarked ordinal-word items ('Cinco.', 'Seis.') open a sibling scope:
-# the previous ordinal item's context dies when the next one appears
-# (G2.1 §23); non-ordinal setters after the first item merge into the
-# active item's context.
-_ORDINAL_WORD_ITEM_RE = re.compile(
-    r"^(primer[oa]?|segund[oa]|tercer[oa]?|tercer|cuart[oa]|quint[oa]|"
-    r"sext[oa]|s[eé]ptim[oa]|octav[oa]|noven[oa]|d[eé]cim[oa]|"
-    r"und[eé]cim[oa]?|duod[eé]cim[oa]|uno|una|dos|tres|cuatro|cinco|"
-    r"seis|siete|ocho|nueve|diez|once|doce|trece|catorce|quince)\."
-    r"\s", re.IGNORECASE)
-
 
 def _context_update(ctx: dict[str, str],
                     mentions: dict[str, object]) -> dict[str, str]:
@@ -1034,27 +941,21 @@ _SUB_SCOPE_RE = re.compile(
 _QUALIFIER_SRC = r"(?:\.\s*[a-z]\b|\s+(?:bis|ter|qu[aá]ter|quinquies|" \
     r"sexies|septies|octies|nonies|decies)\b)"
 
-_KIND_WORDS = {
-    "apartado": r"apartados?", "letra": r"letras?", "punto": r"puntos?",
-    "numeral": r"numerales?", "nota": r"notas?", "norma": r"normas?",
-    "anejo": r"(?:anejos?|anexos?)", "seccion": r"secciones?",
-    "indice": r"[íi]ndices?",
-}
-
 
 def _has_unmodelled_qualifier(masked: str, key: str) -> bool:
     """The recorded locator's mention carries a suffix the model cannot
     express — 'norma N ter', 'apartado N.x)' — so the real subject is a
     different (sub-)entity than the recorded parent locator."""
+    lg = active_profile().locator_grammar
     for part in re.split(r"\.(?=[a-z]+:)", key):
         kind, _, val = part.partition(":")
-        kind_rx = _KIND_WORDS.get(kind)
+        kind_rx = lg.kind_words.get(kind)
         if not val or kind_rx is None:
             continue
         vals = {re.escape(val)}
         if val.isdigit():
             vals |= {re.escape(w) for w, n in
-                     _ORDINALS.items() if n == int(val)}
+                     lg.ordinals.items() if n == int(val)}
         pat = re.compile(rf"\b{kind_rx}\s+(?:{'|'.join(sorted(vals))})"
                          rf"{_QUALIFIER_SRC}", re.IGNORECASE)
         if pat.search(masked):
@@ -1065,7 +966,7 @@ def _has_unmodelled_qualifier(masked: str, key: str) -> bool:
 def _masked_clause(text: str) -> str:
     """Quoted spans blanked position-preserving — offsets in the result
     still index the original clause."""
-    return _QUOTED_SPAN_RE.sub(
+    return active_profile().text_normalization.quoted_span.sub(
         lambda mm: " " * len(mm.group(0)), text)
 
 
@@ -1097,7 +998,9 @@ def _unmarked_op(node: Node) -> tuple[str, str] | None:
     Returns ``(context_prefix, clause)`` — the prefix feeds section
     context/targets — or None if the paragraph is not operative.
     """
-    if node.kind != "p" or node.cls not in _LOCATOR_CLASSES:
+    dm = active_profile().document_model
+    if node.kind != dm.kinds["paragraph"] \
+            or node.cls not in dm.locator_classes:
         return None
     text = node.text
     if not _has_operative_verb(text):
@@ -1124,7 +1027,8 @@ def _unmarked_op(node: Node) -> tuple[str, str] | None:
 
 def split_sections(doc: DiarioDoc) -> list[Section]:
     """Split the document body at ``articulo`` headings."""
-    arts = [n for n in doc.nodes if n.cls == "articulo"]
+    art_cls = active_profile().document_model.classes["articulo"]
+    arts = [n for n in doc.nodes if n.cls == art_cls]
     if not arts:
         return []
     sections = []
@@ -1145,15 +1049,19 @@ def _preamble_targets(doc: DiarioDoc, sec: Section) -> list[tuple[int, int]]:
     so a circular cited as replacement content is never read as a
     target.
     """
+    dm = active_profile().document_model
+    tn = active_profile().text_normalization
     out: list[tuple[int, int]] = []
     for n in doc.nodes[sec.node_start + 1:sec.node_end]:
-        if n.kind != "p" or n.cls not in ("parrafo", "parrafo_2") \
+        if n.kind != dm.kinds["paragraph"] \
+                or n.cls not in (dm.classes["parrafo"],
+                                 dm.classes["parrafo_2"]) \
                 or _marker_parts(n.text) is not None:
             break
         text = n.text.rstrip()
         if not (text.endswith(":") or "siguientes" in text.lower()):
             break
-        for m in _TARGET_RE.finditer(_QUOTED_SPAN_RE.sub("", n.text)):
+        for m in _TARGET_RE.finditer(tn.quoted_span.sub("", n.text)):
             ref = (int(m.group(1)), int(m.group(2)))
             if ref not in out:
                 out.append(ref)
@@ -1277,8 +1185,9 @@ def _content_link(doc: DiarioDoc, op: Operation) -> None:
         op.content_link_evidence = {"annex_ref": True}
         return
     s, e = op.content_span
+    tbl = active_profile().document_model.kinds["table"]
     has_content = e > s and any(
-        (doc.nodes[i].text or "").strip() or doc.nodes[i].kind == "table"
+        (doc.nodes[i].text or "").strip() or doc.nodes[i].kind == tbl
         for i in range(s, e))
     colon = op.clause_text.rstrip().endswith(":")
     pointer = bool(_CONTENT_POINTER_RE.search(op.clause_text))
@@ -1340,17 +1249,21 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
         frames += [(lf, ls) for _, _, lf, ls in levels]
         return _merge_frames(frames)
 
+    prof = active_profile()
+    dm, lg, tn = prof.document_model, prof.locator_grammar, \
+        prof.text_normalization
     prev_container = False
     for i in range(sec.node_start + 1, sec.node_end):
         n = doc.nodes[i]
-        if n.kind not in ("p", "blockquote"):
+        if n.kind not in (dm.kinds["paragraph"],
+                          dm.kinds["blockquote"]):
             continue
         parts = _marker_parts(n.text)
         if parts is None:
             unmarked = _unmarked_op(n)
             if unmarked is not None:
                 prefix, clause = unmarked
-                op_targets = _target_refs(_QUOTED_SPAN_RE.sub("", prefix))
+                op_targets = _target_refs(tn.quoted_span.sub("", prefix))
                 if prefix:
                     # unmarked-op prefix is a context setter inside the
                     # active scope (item if one is open, else section)
@@ -1386,10 +1299,11 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
                     j = i + 1
                     while j < sec.node_end:
                         nxt = doc.nodes[j]
-                        if nxt.kind == "p" and (
-                                nxt.cls.startswith("sangrado")
+                        if nxt.kind == dm.kinds["paragraph"] and (
+                                nxt.cls.startswith(
+                                    dm.class_prefixes["sangrado"])
                                 or (nxt.text or "").lstrip()
-                                .startswith("«")):
+                                .startswith(tn.quote_open)):
                             cend = j + 1
                             j += 1
                         else:
@@ -1415,12 +1329,13 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
                 continue
             # preamble context setter, e.g. "Se introducen los siguientes
             # cambios en el anejo 9 ... :" before lettered point clauses
-            if n.cls in ("parrafo", "parrafo_2") and (
-                    n.text.rstrip().endswith(":")
-                    or "siguientes" in n.text.lower()):
-                if _ORDINAL_WORD_ITEM_RE.match(n.text):
-                    # a new ordinal-word item opens a fresh sibling
-                    # scope: the previous item's context dies (G2.1 §23)
+            if n.cls in (dm.classes["parrafo"], dm.classes["parrafo_2"]) \
+                    and (n.text.rstrip().endswith(":")
+                         or "siguientes" in n.text.lower()):
+                # an unmarked ordinal-word item ('Cinco.', 'Seis.')
+                # opens a fresh sibling scope: the previous item's
+                # context dies (G2.1 §23)
+                if lg.ordinal_item.match(n.text):
                     item_ctx, item_scope = _ctx_update_scoped(
                         {}, {}, _extract_mentions(n.text), i, "ITEM")
                     item_active = True
@@ -1441,10 +1356,10 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
         style, marker_val = parts
         text = n.text
         inline = ""
-        if n.kind == "blockquote":
+        if n.kind == dm.kinds["blockquote"]:
             # locator clause and quoted replacement content share the node;
             # the clause keeps only the part before «, the rest is content
-            qpos = text.find("«")
+            qpos = text.find(tn.quote_open)
             if qpos >= 0:
                 text, inline = text[:qpos].rstrip(), text[qpos:]
         mentions = _extract_mentions(n.text)
@@ -1512,7 +1427,7 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
 
         ops.append(Operation(
             node_index=i,
-            marker=_MARKER_RE.match(text).group("m"),
+            marker=lg.clause_marker.match(text).group("m"),
             clause_text=text,
             operation_kind=_op_kind(text),
             subjects=subjects,
@@ -1524,7 +1439,7 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
             section_index=sec.node_start,
             inline_content=inline,
             targets=[(int(a), int(b)) for a, b in _TARGET_RE.findall(
-                _QUOTED_SPAN_RE.sub("", n.text))],
+                tn.quoted_span.sub("", n.text))],
             section_heading=sec.heading,
             section_targets=list(sec.targets),
             context_scope=cscope,

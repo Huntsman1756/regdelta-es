@@ -51,6 +51,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2]
 
 from regdelta import applicability, db as dbm, history, \
     operations  # noqa: E402
+from regdelta.profile import active_profile  # noqa: E402
 from regdelta.sources import boe_diario  # noqa: E402
 import evaluate_dev as ev  # noqa: E402
 import evaluate_g1 as eg1  # noqa: E402
@@ -116,7 +117,7 @@ _LET_LIST_RE = re.compile(
     r"\(?[a-z]\)?)", re.IGNORECASE)
 _NUM_SEQ = r"\d+(?:\s*\.\s*\d+)*"
 _ROMAN_SEQ = r"[IVX]+(?:\.[A-Z0-9]+)*"
-_ORD_SEQ = "|".join(operations._ORDINALS)
+_ORD_SEQ = "|".join(active_profile().locator_grammar.ordinals)
 _APART_RE = re.compile(
     r"\bapartados?\s+((?:" + _NUM_SEQ + r"|" + _ROMAN_SEQ + r")"
     r"(?:\s*(?:a|al|,|y|e)\s+(?:" + _NUM_SEQ + r"|" + _ROMAN_SEQ
@@ -363,7 +364,8 @@ def _leaf_clauses(doc: boe_diario.DiarioDoc,
         for k, v in mentions.items():
             ctx[k] = v
         out.append({"node_index": i, "marker":
-                    operations._MARKER_RE.match(n.text).group("m"),
+                    active_profile().locator_grammar.clause_marker
+                    .match(n.text).group("m"),
                     "clause": text, "prefix": "",
                     "ctx": ctx, "is_container": container,
                     "own_mentions": mentions})

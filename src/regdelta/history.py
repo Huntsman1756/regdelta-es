@@ -21,6 +21,7 @@ from uuid import uuid4
 
 from . import annexmap, binding, operations, ownership
 from .http import LIVE_FETCH
+from .profile import active_profile
 from .rawstore import store_blob
 from .sources import boe_diario, boe_doc, boe_pdf
 from .util import canonical_date, sha256_hex, sha256_hex_text
@@ -171,9 +172,10 @@ def region_text(doc: boe_diario.DiarioDoc,
     table node, else TEXT."""
     texts: list[str] = []
     has_table = False
+    tbl = active_profile().document_model.kinds["table"]
     for i in range(*span):
         n = doc.nodes[i]
-        if n.kind == "table":
+        if n.kind == tbl:
             has_table = True
             for row in n.rows:
                 texts.append(" | ".join(row))
@@ -668,19 +670,17 @@ def _subject_owns_content(op: operations.Operation, key: str,
 _COVER_HEADS = ("estado", "punto", "apartado", "letra", "numeral",
                 "nota", "indice")
 
-_FICHERO_CONNECTORS = frozenset(
-    {"a", "ante", "con", "de", "del", "e", "el", "en", "la", "las",
-     "los", "para", "por", "sobre", "y"})
-
-
 def _fichero_norm(text: str) -> str:
-    t = re.sub(r"\s*-\s*", "-", operations._norm(text))
-    return re.sub(r"\s*\(\s*\*+\s*\)\s*$", "", t)
+    fg = active_profile().annex_state.fichero
+    t = fg.dash_collapse.sub("-", operations._norm(text))
+    return fg.note_strip.sub("", t)
 
 
 def _fichero_tokens(text: str) -> tuple[str, ...]:
-    return tuple(t for t in re.split(r"[^\w]+", _fichero_norm(text))
-                 if t and t not in _FICHERO_CONNECTORS)
+    fg = active_profile().annex_state.fichero
+    return tuple(t for t in re.split(fg.token_split_norm,
+                                     _fichero_norm(text))
+                 if t and t not in fg.connectors)
 
 
 def _span_covers_subject(key: str, text: str) -> bool:
@@ -701,7 +701,8 @@ def _span_covers_subject(key: str, text: str) -> bool:
     if head in ("norma", "anejo", "anexo", "disp", "disposicion") \
             and token.isdigit():
         alts |= {operations._norm(w) for w, v in
-                 operations._ORDINALS.items() if v == int(token)}
+                 active_profile().locator_grammar.ordinals.items()
+                 if v == int(token)}
     tnorm = operations._norm(text)
     return any(a in tnorm for a in alts if a)
 
