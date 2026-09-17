@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import shutil
 import sqlite3
 import subprocess
@@ -59,14 +60,17 @@ import cnmv_boundary  # noqa: E402
 
 cnmv_boundary.install()
 
-from regdelta import db as dbm, history  # noqa: E402
+from regdelta import db as dbm, history, operations  # noqa: E402
 from regdelta.http import EVIDENCE_IMPORT, FetchResult  # noqa: E402
+from regdelta.sources import boe_diario  # noqa: E402
 DEV_ROOT = ROOT / "evidence" / "port-cnmv" / "split-v2" / "dev"
 SELECTION = ROOT / "evidence" / "port-cnmv" / "split-v2" / "selection.json"
 
 
-def _isolation_assert(manifest_path: Path) -> dict[str, dict]:
-    """Return dev ``by_url`` map; refuse anything outside split-v2/dev."""
+def _isolation_assert(manifest_path: Path) -> tuple[dict[str, dict],
+                                                  dict[str, dict]]:
+    """Return dev ``by_url`` and ``by_name`` maps; refuse anything
+    outside split-v2/dev."""
     manifest_path = manifest_path.resolve()
     if DEV_ROOT.resolve() not in manifest_path.parents:
         raise SystemExit(
@@ -74,6 +78,7 @@ def _isolation_assert(manifest_path: Path) -> dict[str, dict]:
             f"{manifest_path}")
     man = json.loads(manifest_path.read_text(encoding="utf-8"))
     by_url: dict[str, dict] = {}
+    by_name: dict[str, dict] = {}
     for name, entry in man["entries"].items():
         rel = entry.get("path", "")
         target = (ROOT / rel).resolve()
@@ -83,7 +88,8 @@ def _isolation_assert(manifest_path: Path) -> dict[str, dict]:
                 f"ISOLATION_BROKEN: manifest entry escapes dev root: "
                 f"{name} -> {rel}")
         by_url[entry["url"]] = entry
-    return by_url
+        by_name[name] = entry
+    return by_url, by_name
 
 
 def _evidence_fetch(by_url: dict[str, dict]):
@@ -103,6 +109,42 @@ def _evidence_fetch(by_url: dict[str, dict]):
                            path.read_bytes(), None, None,
                            via=EVIDENCE_IMPORT)
     return fetch
+
+
+def _redesignation_spans(by_name: dict[str, dict],
+                         modifier_boes: list[str]) -> list[dict]:
+    """PROFILE_LIMIT_REDESIGNATION accounting (journal #17).
+
+    The CNMV profile narrows 'pasa(n) a ser/denominarse' so a
+    structural-designator destination ("pasa a ser el número 4") no
+    longer counts as an operative MODIFY verb: redesignation needs
+    old→new locator continuity the frozen core cannot express, and
+    emitting either locator falsifies identity. This scan replays the
+    modifier's own diario XML through the dev manifest (same bytes the
+    pipeline saw) and reports every clause span that (a) matches the
+    excluded construct and (b) carries no other operative verb —
+    exactly the operative candidates the abstention removed.
+    """
+    out: list[dict] = []
+    for boe in sorted(set(modifier_boes)):
+        e = by_name.get(f"boe_diario_xml__{boe}.xml")
+        if e is None or "path" not in e:
+            continue
+        doc = boe_diario.parse_diario(
+            (ROOT / e["path"]).read_bytes()).doc
+        if doc is None:
+            continue
+        for n in doc.nodes:
+            t = re.sub(r"\s+", " ", (n.text or "").strip())
+            if n.kind != "p" or len(t) < 12:
+                continue
+            if not regdelta.profiles.cnmv.REDESIGNATION_RE.search(t):
+                continue
+            if operations._has_operative_verb(t):
+                continue
+            out.append({"modifier": boe, "node_index": n.index,
+                        "text": t[:200]})
+    return out
 
 
 def _census(conn: sqlite3.Connection) -> dict:
@@ -171,7 +213,7 @@ def main() -> int:
     if len(targets) != 4:
         raise SystemExit(f"unexpected dev target count: {targets}")
 
-    by_url = _isolation_assert(args.dev_manifest)
+    by_url, by_name = _isolation_assert(args.dev_manifest)
     fetch = _evidence_fetch(by_url)
 
     profile = active_profile()
@@ -206,6 +248,17 @@ def main() -> int:
             data_dir = Path(td) / target
             data_dir.mkdir()
             results.append(_run_target(data_dir, target))
+
+    # PROFILE_LIMIT_REDESIGNATION accounting (journal #17): clause
+    # spans the profile's redesignation abstention removed from the
+    # operative-candidate set must stay visible, not silently drop.
+    for r in results:
+        if "error" in r:
+            continue
+        mod_boes = [m["boe_id"]
+                    for m in r["report"].get("modifiers", [])]
+        r["profile_limit_redesignations"] = _redesignation_spans(
+            by_name, mod_boes)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     envelope = {
@@ -242,7 +295,9 @@ def main() -> int:
                   f" relations={rep.get('relations')}"
                   f" anomalies={rep.get('anomaly_count')}"
                   f" fetch_errors={len(rep.get('fetch_errors', []))}"
-                  f" resolutions={r['census']['resolution_counts']}")
+                  f" resolutions={r['census']['resolution_counts']}"
+                  f" redesignation_spans="
+                  f"{len(r.get('profile_limit_redesignations', []))}")
     return 0
 
 

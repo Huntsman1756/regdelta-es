@@ -54,10 +54,19 @@ def materialize(run_json: Path, db_dir: Path, eval_json: Path | None,
             report_md.append(f"| {tgt} | ERROR | | | | | | |")
             continue
         res = cen.get("resolution_counts", {})
+        redesignations = t.get("profile_limit_redesignations", [])
         metrics[tgt] = {
             "modifiers": rep.get("modifiers"),
             "leaf_operations": rep.get("operation_inventory", {})
                                   .get("leaf_operations_parsed"),
+            # accounting identity (journal #17): operative candidates
+            # = leaf ops emitted + redesignation spans excluded by the
+            # profile abstention
+            "operative_candidates":
+                (rep.get("operation_inventory", {})
+                 .get("leaf_operations_parsed") or 0)
+                + len(redesignations),
+            "profile_limit_redesignations": len(redesignations),
             "dispositions": rep.get("operation_inventory"),
             "relations": rep.get("relations"),
             "resolution_counts": res,
@@ -118,6 +127,10 @@ def materialize(run_json: Path, db_dir: Path, eval_json: Path | None,
             audit_f.write(_j({"target": tgt, "kind": r[0],
                               "detail": json.loads(r[1] or "{}")}) + "\n")
         conn.close()
+        for span in redesignations:
+            audit_f.write(_j({"target": tgt,
+                              "kind": "PROFILE_LIMIT_REDESIGNATION",
+                              "detail": span}) + "\n")
 
     for f in (ops_f, att_f, bind_f, audit_f):
         f.close()

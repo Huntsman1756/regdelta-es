@@ -366,7 +366,33 @@ _ANNEX_STATE = AnnexStateGrammar(
 # F4 operative_grammar — DEV-evidenced verbs: modifica/n, añade/n,
 # sustituye/n, suprime/n, deroga/n, queda redactad*/modificad*/
 # sustituid*/derogad*/definidas.
+#
+# 'pasa(n) a ser/denominarse' + a structural-designator destination
+# ("el número 4", "la Norma 10.ª", "los nuevos 10", "los apartados
+# A, B y C") is a REDESIGNATION construct — the subject's identity
+# changes — not a content amendment. The frozen core locator model
+# has no old→new continuity (paths locate, they do not identify), so
+# emitting either side as a MODIFY subject falsifies identity
+# (eval-dev-006: 2 FALSE_LOCATOR_DECLARATION; journal #17). The
+# lexeme therefore stays operative only for non-designator
+# complements ("pasa a ser el siguiente", "pasa a denominarse «X»");
+# excluded spans are surfaced by the probe as
+# PROFILE_LIMIT_REDESIGNATION accounting entries.
 # ---------------------------------------------------------------------------
+
+_REDESIG_TAIL = (
+    r"\s+(?:el|la|los|las)\s+(?:nuev[oa]s?\s+)?(?:"
+    r"(?:n[uú]meros?|apartados?|letras?|puntos?|numerales?|notas?|"
+    r"normas?|anexos?|secciones?|art[íi]culos?|p[aá]rrafos?|"
+    r"disposiciones|ficheros?|estados?)\b"
+    r"|\d+[.ªº°]*|[ivxlcdm]+\b|\(?[a-z]\))")
+_PASA_SER = (r"pasa\w*\s+a\s+(?:ser|denominarse)(?!" + _REDESIG_TAIL
+             + r")")
+# positive counterpart consumed by scripts/port-cnmv/run_dev_probe.py
+# to account for the spans the narrowed lexeme excludes
+REDESIGNATION_RE = re.compile(
+    r"\bpasa\w*\s+a\s+(?:ser|denominarse)" + _REDESIG_TAIL,
+    re.IGNORECASE)
 
 _OPERATIVE_GRAMMAR = OperativeGrammar(
     amend_verb_active=re.compile(
@@ -379,7 +405,7 @@ _OPERATIVE_GRAMMAR = OperativeGrammar(
         r"añadirse|introducirse|incorporarse|insertarse|derogarse|"
         r"crearse)|"
         r"queda\w*\s+(?:redactad|modificad|sustituid|derogad|definid)|"
-        r"pasa\w*\s+a\s+(?:ser|denominarse)|"
+        + _PASA_SER + "|"
         r"(?:se\s+)?da\w*\s+nueva\s+redacci[oó]n|"
         r"donde\s+dice|debe\s+decir|se\s+sombrea",
         re.IGNORECASE),
@@ -438,8 +464,7 @@ _OPERATIVE_GRAMMAR = OperativeGrammar(
             re.IGNORECASE)),
         ("MODIFY", re.compile(
             r"se\s+(?:modifica\w*|realiza\w*|sombrea)|queda\w*\s+"
-            r"(?:redactad|modificad|definid)|"
-            r"pasa\w*\s+a\s+(?:ser|denominarse)",
+            r"(?:redactad|modificad|definid)|" + _PASA_SER,
             re.IGNORECASE)),
     ),
     segment_split=re.compile(
