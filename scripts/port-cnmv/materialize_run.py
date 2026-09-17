@@ -132,6 +132,9 @@ def materialize(run_json: Path, db_dir: Path, eval_json: Path | None,
         (out_dir / "evaluator.json").write_text(
             json.dumps(ev.get("totals", {}), ensure_ascii=False, indent=2)
             + "\n", "utf-8")
+        with open(out_dir / "verdicts.jsonl", "w", encoding="utf-8") as f:
+            for x in ev.get("relation_verdicts", []):
+                f.write(_j(x) + "\n")
     with open(out_dir / "failures.jsonl", "w", encoding="utf-8") as f:
         for x in failures:
             f.write(_j(x) + "\n")

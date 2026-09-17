@@ -25,13 +25,36 @@ from the XML class attributes.
 Every regex/vocabulary below is written independently from DEV evidence;
 none is imported from the profile under evaluation.
 
+Every relation starts at EVALUATOR_NOT_PROVABLE and is promoted to
+CONFIRMED_POSITIVE only after ALL of these independently succeed:
+  O1      clause attribution = TARGET (FOREIGN -> FALSE_SUBJECT_,
+          UNKNOWN -> NOT_PROVABLE)
+  O2      the emitted locator_key equals the evaluator's independently
+          derived key EXACTLY — root-only agreement is not confirmation
+          (different full key -> FALSE_LOCATOR_DECLARATION,
+          underivable  -> NOT_PROVABLE)
+  BINDING every required bound side verifies: the persisted
+          representation's text_content sha matches and equals the raw
+          document nodes at artifact_locator.node_span, and the
+          before-side locator independently resolves in the target
+          (uncheckable side -> NOT_PROVABLE, contradiction ->
+          FALSE_BINDING)
+
 Verdicts per emitted relation:
-  CONFIRMED_POSITIVE            clause + subject + resolution verified
+  CONFIRMED_POSITIVE            clause + O1 + O2 + all required sides
+                                independently verified
   ABSTENTION_CONFIRMED          runtime abstained; evaluator also fails
                                 to produce the binding — honest abstention
   ABSTENTION_DISPUTED           runtime abstained but evaluator resolves
                                 (coverage gap — reported, not counted as
                                 a false claim)
+  EVALUATOR_NOT_PROVABLE        a required independent check cannot be
+                                performed (deep/table/continuation/image
+                                binding, undetermined attribution,
+                                underivable locator). Inability to
+                                falsify is NOT confirmation. Written to
+                                failures.jsonl with
+                                CNMV_EVALUATOR_MODEL_ERROR.
   FALSE_FACT                    emitted relation has no corresponding
                                 operative clause in the modifier doc
   FALSE_SUBJECT_ATTRIBUTION     clause exists but attributed to the
@@ -39,7 +62,8 @@ Verdicts per emitted relation:
   FALSE_LOCATOR_DECLARATION     subject locator differs from the
                                 independently derived one
   FALSE_BINDING                 RESOLVED binding contradicted by the
-                                bound representation's own evidence
+                                bound representation's own evidence, or
+                                a required bound side is absent
 """
 
 from __future__ import annotations
@@ -112,7 +136,7 @@ _STATE_FAM = ("SEAFI", "BCFT", "SEAF", "SGE", "PC", "CS", "CA", "GA",
 _STATE_ALT = "|".join(_STATE_FAM)
 
 _CIRCULAR_REF = re.compile(
-    r"Circular\s+(\d+)/(\d{4})\s*(?:,|\s+de\b)", re.IGNORECASE)
+    r"Circular\s+(\d+)/(\d{4})", re.IGNORECASE)
 _ISSUER = re.compile(
     r"Comisi[oó]n\s+Nacional\s+del\s+Mercado\s+de\s+Valores|\bCNMV\b",
     re.IGNORECASE)
@@ -173,6 +197,29 @@ def _subject_keys(text: str) -> list[str]:
             if let:
                 base += f".letra:{let.group(1).lower()}"
         keys.append(base)
+    # inverted CNMV order: "la letra l) del apartado 2 de la Norma 50ª",
+    # "el número 3 de la norma 6ª", "el punto 2 de la norma 61.ª"
+    for m in re.finditer(
+            r"(?:letra\s+\(?([a-z])\)?\s+(?:del|de\s+la|de)\s+)?"
+            r"(n[uú]mero|apartado|punto)\s+(\d+|[A-Za-z])\b"
+            r"[^.]{0,60}?\bde\s+(?:la|el)\s+norma\s+(\d+)",
+            text, re.IGNORECASE):
+        kind = "punto" if m.group(2).lower() == "punto" else "apartado"
+        base = f"norma:{m.group(4)}.{kind}:{m.group(3)}"
+        if m.group(1):
+            base += f".letra:{m.group(1).lower()}"
+        keys.append(base)
+    # plural enum: "las normas 43.ª, 44.ª, 45.ª, 46.ª, 47.ª y 48.ª";
+    # a token may carry a sub-number ("Norma 11.ª 2" -> norma:11.2)
+    for m in re.finditer(
+            r"\bnormas\s+((?:\d+\s*\.?\s*[ªº°]?\s*(?:\d+)?\s*"
+            r"(?:[,;]|y\b|e\b)?\s*)+)", text, re.IGNORECASE):
+        for tok in re.finditer(r"(\d+)\s*\.?\s*[ªº°]?\s*(\d+)?",
+                               m.group(1)):
+            k = f"norma:{tok.group(1)}"
+            if tok.group(2):
+                k += f".apartado:{tok.group(2)}"
+            keys.append(k)
     for m in re.finditer(
             r"\b(?:norma|disposici[oó]n)\s+"
             r"(adicional|transitoria|final|derogatoria|única|unica)"
@@ -183,7 +230,9 @@ def _subject_keys(text: str) -> list[str]:
             keys.append("disp:final.1" if "final" in text.lower()
                         else "disp:unica")
         else:
-            ordn = _ORDINAL_WORD.get(ordw)
+            ordn = _ORDINAL_WORD.get(ordw) or (
+                ordw if ordw in ("bis", "ter", "quáter", "quater")
+                else None)
             keys.append(f"disp:{tipo}.{ordn}" if ordn
                         else f"disp:{tipo}")
     for m in re.finditer(
@@ -209,15 +258,65 @@ def _target_circular(doc: DiarioDoc) -> tuple[str, str] | None:
 
 
 def _clause_target(text: str, self_ref: tuple[str, str] | None,
-                   doc_circular: tuple[str, str] | None) -> str:
-    """Ownership estimate: TARGET | FOREIGN | UNKNOWN."""
-    m = _CIRCULAR_REF.search(text)
-    if m:
-        return ("TARGET" if self_ref and
-                (m.group(1), m.group(2)) == self_ref else "FOREIGN")
-    if re.search(r"(?:la\s+presente|esta|la\s+misma|dicha)\s+"
-                 r"Circular|presente\s+Circular", text, re.IGNORECASE):
-        return "TARGET" if self_ref == doc_circular else "UNKNOWN"
+                   doc_circular: tuple[str, str] | None) -> str | None:
+    """Clause-level ownership: TARGET | FOREIGN | None (no signal — the
+    caller falls back to the containing section's declared target).
+    Only numbered 'Circular N/YYYY' refs count: 'la presente Circular'
+    is a mention of the modifier itself (e.g. the source of replacement
+    content), not a target declaration."""
+    refs = _CIRCULAR_REF.findall(text)
+    if refs:
+        return ("TARGET" if self_ref and self_ref in refs
+                else "FOREIGN")
+    return None
+
+
+def _clause_pos(doc: DiarioDoc, clause: str,
+                node_index: int | None) -> int | None:
+    """Locate the clause in the modifier doc. Prefer the claimed
+    node_index from the relation's clause_evidence (identical clause
+    texts can appear under different sections); fall back to a text
+    prefix search."""
+    cn = _norm(clause)[:60]
+    if node_index is not None:
+        for i, n in enumerate(doc.nodes):
+            if (i == node_index or n.index == node_index) \
+                    and n.text and cn in _norm(n.text):
+                return i
+    for i, n in enumerate(doc.nodes):
+        if n.text and cn in _norm(n.text):
+            return i
+    return None
+
+
+def _section_target(doc: DiarioDoc, pos: int,
+                    self_ref: tuple[str, str] | None) -> str:
+    """Section-level ownership: use the Circular refs declared by the
+    clause's containing head ('Norma final segunda. Modificación de la
+    Circular 4/2008…'); fall back to a doc-wide unique head-level ref.
+    Returns TARGET | FOREIGN | UNKNOWN."""
+    head_refs = []
+    for n in reversed(doc.nodes[:pos]):
+        if n.cls in ("articulo", "centro") and n.text:
+            head_refs = _CIRCULAR_REF.findall(_head_text(n.text))
+            break
+    if head_refs:
+        return ("TARGET" if self_ref and self_ref in head_refs
+                else "FOREIGN")
+    # doc-level target declared in the title
+    # ("Circular 2/2008 … por la que se modifica … la Circular 4/1994")
+    tit_refs = _CIRCULAR_REF.findall(
+        _norm(doc.metadata.get("titulo", "")))
+    if self_ref and self_ref in tit_refs:
+        return "TARGET"
+    # unique head-level circular ref across the whole document
+    doc_refs = {_CIRCULAR_REF.findall(_head_text(n.text))[0]
+                for n in doc.nodes
+                if n.cls in ("articulo", "centro") and n.text
+                and _CIRCULAR_REF.findall(_head_text(n.text))}
+    if len(doc_refs) == 1:
+        only = next(iter(doc_refs))
+        return "TARGET" if self_ref and only == self_ref else "FOREIGN"
     return "UNKNOWN"
 
 
@@ -285,6 +384,34 @@ def _eval_resolves(doc: DiarioDoc, key: str) -> bool:
     return False
 
 
+_ITEM_HEAD = re.compile(
+    r"^(?:Uno|Dos|Tres|Cuatro|Cinco|Seis|Siete|Ocho|Nueve|Diez|Once|"
+    r"Doce|Trece|Catorce|Quince)\.\s|^\d+\.\s|^[a-z]\)\s",
+    re.IGNORECASE)
+
+
+def _has_after_content(doc, pos, clause):
+    """Can the evaluator see after-content the runtime could have bound?
+    True  = content independently present (literal or declared-following
+            nodes that are not the next operative item)
+    False = clause is self-contained; nothing follows
+    None  = clause node not found / ambiguous
+    """
+    cn = _norm(clause)
+    if re.search(r"[«\"].{10,}[»\"]", cn):
+        return True
+    if pos is None:
+        return None
+    if not (cn.rstrip().endswith(":") or "siguiente" in cn.lower()):
+        return False
+    j = pos + 1
+    while j < len(doc.nodes) and not doc.nodes[j].text:
+        j += 1
+    if j >= len(doc.nodes):
+        return False
+    return not _ITEM_HEAD.match(_norm(doc.nodes[j].text))
+
+
 # ---------------------------------------------------------------------------
 # main evaluation
 # ---------------------------------------------------------------------------
@@ -311,12 +438,13 @@ def evaluate(db_dir: Path) -> dict:
     per_target = []
     totals = {
         "relations": 0, "CONFIRMED_POSITIVE": 0, "ABSTENTION_CONFIRMED": 0,
-        "ABSTENTION_DISPUTED": 0, "FALSE_FACT": 0,
-        "FALSE_SUBJECT_ATTRIBUTION": 0, "FALSE_LOCATOR_DECLARATION": 0,
-        "FALSE_BINDING": 0, "runtime_leaf_ops": 0,
+        "ABSTENTION_DISPUTED": 0, "EVALUATOR_NOT_PROVABLE": 0,
+        "FALSE_FACT": 0, "FALSE_SUBJECT_ATTRIBUTION": 0,
+        "FALSE_LOCATOR_DECLARATION": 0, "FALSE_BINDING": 0,
         "independent_clauses": 0,
     }
     findings = []
+    all_verdicts = []
 
     for target in sel["dev"]:
         db_path = db_dir / target / "regdelta.sqlite"
@@ -350,13 +478,94 @@ def evaluate(db_dir: Path) -> dict:
             " FROM modification_relations").fetchall()
         subj_of = {r[0]: (r[1], r[2]) for r in conn.execute(
             "SELECT subject_id, locator_key, label FROM subjects")}
+        reps = {r[0]: r[1:] for r in conn.execute(
+            "SELECT representation_id, representation_kind,"
+            " text_content, content_sha256, artifact_locator"
+            " FROM representations")}
+
+        doc_by_boe = {target: tdoc}
+        doc_by_boe.update(
+            {boe: mod_docs[iid] for iid, boe in mods.items()
+             if iid in mod_docs})
+
+        def rep_check(rid):
+            """Verify a bound representation against raw evidence.
+            True = verified, False = contradicted, None = not checkable.
+            """
+            row = reps.get(rid)
+            if row is None:
+                return None, "bound representation id not in table"
+            kind, text, sha, loc_s = row
+            loc = json.loads(loc_s or "{}")
+            if loc.get("type") == "image_pages":
+                pages = loc.get("pages") or []
+                if not pages:
+                    return None, "image_pages rep lists no pages"
+                for pg in pages:
+                    url = str(pg.get("url") or "")
+                    name = (f"boe_imagen__{loc.get('instrument')}__"
+                            f"{url.rsplit('/', 1)[-1]}")
+                    e = entries.get(name)
+                    if e is None:
+                        return None, (f"image blob {name} not in dev "
+                                      "manifest")
+                    if _sha(ROOT / e["path"]) != pg.get("blob_sha256"):
+                        return False, ("image blob sha256 mismatch on "
+                                       f"{name}")
+                return True, "image blob sha256 verified"
+            if not text or not str(text).strip():
+                return False, "bound representation text_content empty"
+            if hashlib.sha256(str(text).encode("utf-8")).hexdigest() \
+                    != sha:
+                return False, "content_sha256 mismatch"
+            if loc.get("type") == "xml_nodes" and loc.get("node_span"):
+                d = doc_by_boe.get(loc.get("instrument"))
+                if d is None:
+                    return None, ("rep instrument "
+                                  f"{loc.get('instrument')} unavailable")
+                a, b = loc["node_span"]
+                span = d.nodes[a:b]
+                if kind == "TABLE":
+                    # runtime serializes table cells with ' | ' and rows
+                    # with '\n'; raw node text is a flat cell join that
+                    # may repeat cells — verify ordered containment of
+                    # every rep line, plus completeness of p nodes
+                    raw_all = " " + " ".join(
+                        _norm(n.text) for n in span) + " "
+                    pos = 0
+                    for line in str(text).split("\n"):
+                        ln = _norm(line.replace("|", " "))
+                        if not ln:
+                            continue
+                        i = raw_all.find(ln, pos)
+                        if i < 0:
+                            return False, ("rep line absent from span: "
+                                           f"{ln[:60]}")
+                        pos = i + len(ln)
+                    rep_flat = _norm(str(text).replace("|", " "))
+                    for n in span:
+                        if n.kind == "p" and n.text and \
+                                _norm(n.text) not in rep_flat:
+                            return False, ("span node absent from rep: "
+                                           f"{_norm(n.text)[:60]}")
+                    return True, "table line containment verified"
+                joined = "\n".join((n.text or "") for n in span)
+                if joined.strip() == str(text).strip():
+                    return True, "node_span text fidelity verified"
+                return False, "text_content does not equal doc nodes"
+            return None, (f"rep kind {kind}/{loc.get('type')} not "
+                          "independently checkable")
 
         counts = {"relations": len(rows)}
         verdicts = []
         for (rid, kind, opk, sid, mid, clause, res, b4, aft,
              bproof, sproof) in rows:
-            v = "CONFIRMED_POSITIVE"
+            # default: NOT PROVEN — a claim is confirmed only by evidence
+            v = "EVALUATOR_NOT_PROVABLE"
             why = []
+            unverifiable = []
+
+            # --- FALSE_FACT: the clause must exist in the modifier ----
             mdoc = mod_docs.get(mid)
             if mdoc is None:
                 v, why = "FALSE_FACT", ["modifier doc unavailable"]
@@ -369,60 +578,156 @@ def evaluate(db_dir: Path) -> dict:
                                 for _, t in mod_clauses.get(mid, [])):
                     v, why = "FALSE_FACT", ["clause not found"]
             exp_subj = subj_of.get(sid, (None,))[0]
+
+            o1_ok = o2_ok = False
+            cpos = None
             if v != "FALSE_FACT":
+                cpos = _clause_pos(
+                    mdoc, clause,
+                    ((json.loads(sproof or "{}")
+                      .get("target_attribution") or {})
+                     .get("clause_evidence") or {})
+                    .get("node_index"))
+                # --- O1 attribution ------------------------------------
                 own = _clause_target(clause, self_ref,
                                      _target_circular(mdoc))
+                if own is None:
+                    own = _section_target(mdoc, cpos, self_ref) \
+                        if cpos is not None else "UNKNOWN"
                 if own == "FOREIGN":
                     v = "FALSE_SUBJECT_ATTRIBUTION"
                     why = ["clause references another circular"]
-            if v == "CONFIRMED_POSITIVE" and exp_subj:
-                mykeys = _subject_keys(clause)
-                if mykeys and not any(
-                        k.split(".")[0] == exp_subj.split(".")[0]
-                        for k in mykeys):
-                    v = "FALSE_LOCATOR_DECLARATION"
-                    why = [f"db={exp_subj} independent={mykeys}"]
-            if v == "CONFIRMED_POSITIVE" and exp_subj:
-                resolves = _eval_resolves(tdoc, exp_subj)
-                # asymmetric confidence: a failed independent resolve is
-                # weak evidence for multi-part keys (sub-items may live
-                # in tables/continuations or be proven via chain
-                # predecessors) and meaningless for ADD (no before
-                # expected); a successful head-level resolve on an op
-                # needing a before-side makes UNRESOLVED disputable —
-                # for multi-part keys UNRESOLVED is usually the honest
-                # binding-level abstention on content, not subject
-                # absence (UNRESOLVED = neither side BOUND).
-                head_level = "." not in exp_subj
-                exist = (json.loads(sproof or "{}")
-                         .get("existence_before", {})
-                         .get("method"))
-                if res == "RESOLVED" and not resolves \
-                        and opk != "ADD" and head_level \
-                        and exist == "ORIGINAL_PUBLICATION_STRUCTURAL":
+                elif own == "TARGET":
+                    o1_ok = True
+                else:
+                    why.append("O1 attribution undetermined")
+
+                # --- O2 locator declaration ----------------------------
+                if v != "FALSE_SUBJECT_ATTRIBUTION" and exp_subj:
+                    mykeys = _subject_keys(clause)
+                    if exp_subj in mykeys:
+                        o2_ok = True
+                    elif not mykeys:
+                        why.append("locator not independently derivable")
+                    else:
+                        same_root = [
+                            k for k in mykeys
+                            if k.split(".")[0] == exp_subj.split(".")[0]]
+                        if not same_root:
+                            v = "FALSE_LOCATOR_DECLARATION"
+                            why = [f"db={exp_subj} "
+                                   f"independent={mykeys}"]
+                        elif any(
+                                len(k.split("."))
+                                >= len(exp_subj.split("."))
+                                for k in same_root):
+                            # I derived a different key at the same or
+                            # deeper level — a real disagreement
+                            v = "FALSE_LOCATOR_DECLARATION"
+                            why = [f"db={exp_subj} "
+                                   f"independent={same_root}"]
+                        else:
+                            why.append(
+                                "only locator root independently "
+                                "derivable")
+
+            # --- BINDING: verify every side that is checkable ---------
+            bound_bad = []
+            if not v.startswith("FALSE"):
+                for side, rep_id in (("before", b4), ("after", aft)):
+                    if rep_id is None:
+                        continue
+                    ok, note = rep_check(rep_id)
+                    if ok is False:
+                        bound_bad.append(f"{side}: {note}")
+                    elif ok is None:
+                        unverifiable.append(f"{side}: {note}")
+                if bound_bad:
                     v = "FALSE_BINDING"
-                    why = [f"{exp_subj} not resolvable independently"]
-                elif res == "UNRESOLVED" and resolves and head_level \
-                        and opk in ("MODIFY", "DELETE", "SUBSTITUTE"):
-                    v = "ABSTENTION_DISPUTED"
-                    why = [f"{exp_subj} resolves independently"]
-                elif res != "RESOLVED":
-                    v = "ABSTENTION_CONFIRMED"
+                    why = bound_bad
+
+            resolves = (exp_subj is not None
+                        and _eval_resolves(tdoc, exp_subj))
+            before_needed = opk != "ADD"
+            after_needed = opk != "DELETE"
+            if not v.startswith("FALSE"):
+                if res == "RESOLVED":
+                    missing = [
+                        s for s, rep_id in (("before", b4),
+                                            ("after", aft))
+                        if rep_id is None and
+                        (s == "before" and before_needed
+                         or s == "after" and after_needed)]
+                    if missing:
+                        v = "FALSE_BINDING"
+                        why = [f"RESOLVED but no bound rep on "
+                               f"{missing}"]
+                    elif o1_ok and o2_ok and not unverifiable \
+                            and (resolves or not before_needed):
+                        v = "CONFIRMED_POSITIVE"
+                        why = []
+                    else:
+                        if not resolves and before_needed:
+                            why.append(
+                                "subject not independently resolvable")
+                elif res in ("PARTIAL", "UNRESOLVED"):
+                    # each absent required side gets its own assessment:
+                    # confirmed = abstention independently justified,
+                    # disputed = evaluator sees what runtime missed,
+                    # unprovable = cannot determine either way
+                    outcome = "confirmed"
+                    if before_needed and b4 is None:
+                        if resolves:
+                            why.append(f"{exp_subj} resolves "
+                                       "independently")
+                            outcome = "disputed"
+                    if after_needed and aft is None:
+                        hc = _has_after_content(mdoc, cpos, clause)
+                        if hc is True:
+                            why.append("after content independently "
+                                       "present")
+                            if outcome != "disputed":
+                                outcome = "disputed"
+                        elif hc is None:
+                            why.append("after-side content presence "
+                                       "not independently checkable")
+                            if outcome == "confirmed":
+                                outcome = "unprovable"
+                    # the abstention's subject claim must itself verify
+                    if outcome == "confirmed" and (
+                            not o1_ok or (exp_subj and not o2_ok)):
+                        outcome = "unprovable"
+                    if unverifiable and outcome == "confirmed":
+                        outcome = "unprovable"
+                    v = {"confirmed": "ABSTENTION_CONFIRMED",
+                         "disputed": "ABSTENTION_DISPUTED",
+                         "unprovable": "EVALUATOR_NOT_PROVABLE"
+                         }[outcome]
+                    if v == "ABSTENTION_CONFIRMED":
+                        why = []
+            detail = why + unverifiable
             verdicts.append({"relation_id": rid, "verdict": v,
                              "subject": exp_subj, "resolution": res,
-                             "detail": why})
+                             "detail": detail})
             counts[v] = counts.get(v, 0) + 1
-            if v.startswith("FALSE") or v == "ABSTENTION_DISPUTED":
-                findings.append({"target": target, "relation_id": rid,
-                                 "verdict": v, "subject": exp_subj,
-                                 "clause": (clause or "")[:140],
-                                 "detail": why})
+            if v.startswith("FALSE") or v == "ABSTENTION_DISPUTED" \
+                    or v == "EVALUATOR_NOT_PROVABLE":
+                findings.append({
+                    "target": target, "relation_id": rid,
+                    "verdict": v, "subject": exp_subj,
+                    "clause": (clause or "")[:140],
+                    "detail": detail,
+                    "reason_class": (
+                        "CNMV_EVALUATOR_MODEL_ERROR"
+                        if v == "EVALUATOR_NOT_PROVABLE" else None)})
         indep = sum(len(c) for c in mod_clauses.values())
         counts["independent_clauses"] = indep
         per_target.append({"target": target, "self_ref": self_ref,
                            "norma_heads": len(tnorma), **counts})
+        all_verdicts.extend({"target": target, **v} for v in verdicts)
         for k in ("relations", "CONFIRMED_POSITIVE",
                   "ABSTENTION_CONFIRMED", "ABSTENTION_DISPUTED",
+                  "EVALUATOR_NOT_PROVABLE",
                   "FALSE_FACT", "FALSE_SUBJECT_ATTRIBUTION",
                   "FALSE_LOCATOR_DECLARATION", "FALSE_BINDING",
                   "independent_clauses"):
@@ -432,6 +737,7 @@ def evaluate(db_dir: Path) -> dict:
     # transitive project-module dependency manifest (firewall audit)
     proj = sorted(m for m in sys.modules if m.startswith("regdelta"))
     return {"targets": per_target, "totals": totals,
+            "relation_verdicts": all_verdicts,
             "findings": findings,
             "evaluator_import_manifest": proj}
 
