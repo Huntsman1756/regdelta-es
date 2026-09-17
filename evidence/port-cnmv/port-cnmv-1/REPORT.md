@@ -1,12 +1,13 @@
 # PORT-CNMV-1 — DEV report
 
-**Proposed terminal state: `PROFILE_LIMIT`**
+**Adjudicated terminal state: `PROFILE_LIMIT`**
 
 The second `SourceProfile` (`cnmv-circular`) operates end-to-end on the
 four DEV targets with zero core changes — but enumerated CNMV
 constructs admit only documented abstention under the frozen contract
-(register below). Adjudication of this proposal is the gate decision;
-`PROFILE_LIMIT` preregisters a narrower PORT-CNMV-2 scope.
+(register below). `PROFILE_LIMIT` closes PORT-CNMV-1. It does not
+authorize PORT-CNMV-2. The sealed HOLDOUT remains unopened. Further
+work routes to a separate DEV-only core-gap analysis gate.
 
 **Evaluator remediation (PORT-CNMV-1R):** the first evaluator revision
 defaulted every relation to `CONFIRMED_POSITIVE` and only demoted on
