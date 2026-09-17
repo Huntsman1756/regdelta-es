@@ -90,13 +90,16 @@ su ejecución alojada todavía no está verificada.
 
 ## Comunicación de problemas
 
-No hay un canal privado de reporte ni una política de versiones soportadas
-establecidos en este repositorio. El propietario debe definirlos; este documento
-no inventa dirección, contacto ni plazo de respuesta.
+El canal privado de reporte es **GitHub Private Vulnerability Reporting**:
+pestaña *Security* → *Advisories* → *Report a vulnerability* en el repositorio.
+Permite abrir un borrador de aviso visible solo para los mantenedores, sin
+publicar un email personal ni abrir una incidencia pública.
 
-Hasta entonces, no publicar credenciales, datos privados ni contenido sellado
-en una incidencia pública. Preparar una descripción saneada con versión/commit,
-componente, precondiciones y evidencia no sensible; acordar un canal privado
-con el propietario antes de transmitir material confidencial. Los problemas
-jurídicos/factuales también deben conservar la distinción entre incertidumbre,
-fallo reproducido y hallazgo estático.
+No hay una política de versiones soportadas ni un plazo de respuesta
+establecidos; este documento no inventa ninguno.
+
+No publicar credenciales, datos privados ni contenido sellado en una incidencia
+pública. Preparar una descripción saneada con versión/commit, componente,
+precondiciones y evidencia no sensible. Los problemas jurídicos/factuales
+también deben conservar la distinción entre incertidumbre, fallo reproducido
+y hallazgo estático.
