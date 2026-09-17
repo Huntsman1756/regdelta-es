@@ -1,0 +1,276 @@
+{
+  "gate": "PORT-CNMV-1",
+  "run_id": "003-patterns",
+  "started_utc": "2026-09-17T05:58:49.188599+00:00",
+  "git_head": "f165ce6dd6aa0e5a95e986cd3c77cd8cb153d39c",
+  "git_branch": "port-cnmv-1",
+  "src_tree": "6479a01d69f7cbbc37d01140514f53427454b87c",
+  "profile_id": "cnmv-circular",
+  "profile_version": "cnmv-v1",
+  "dev_manifest": "F:\\_Proyectos\\regdelta-cnmv1\\evidence\\port-cnmv\\split-v2\\dev\\manifest.json",
+  "dev_entries": 587,
+  "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+  "via": "EVIDENCE_IMPORT",
+  "targets": [
+    {
+      "target": "BOE-A-2008-16091",
+      "error": "Traceback (most recent call last):\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\scripts\\port-cnmv\\run_dev_probe.py\", line 177, in main\n    \"census\": _census(conn)})\n              ^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\scripts\\port-cnmv\\run_dev_probe.py\", line 102, in _census\n    out[\"relations\"] = [dict(r) for r in conn.execute(\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\scripts\\port-cnmv\\run_dev_probe.py\", line 102, in <listcomp>\n    out[\"relations\"] = [dict(r) for r in conn.execute(\n                        ^^^^^^^\nValueError: dictionary update sequence element #0 has length 64; 2 is required\n"
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "error": "Traceback (most recent call last):\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\scripts\\port-cnmv\\run_dev_probe.py\", line 177, in main\n    \"census\": _census(conn)})\n              ^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\scripts\\port-cnmv\\run_dev_probe.py\", line 102, in _census\n    out[\"relations\"] = [dict(r) for r in conn.execute(\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\scripts\\port-cnmv\\run_dev_probe.py\", line 102, in <listcomp>\n    out[\"relations\"] = [dict(r) for r in conn.execute(\n                        ^^^^^^^\nValueError: dictionary update sequence element #0 has length 64; 2 is required\n"
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "report": {
+        "target": "BOE-A-2010-13162",
+        "modifiers": [
+          {
+            "boe_id": "BOE-A-2025-8206",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2018-13716",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2014-11497",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2014-3559",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2018-17708",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2011-20107",
+            "kind": "MODIFICATION"
+          }
+        ],
+        "operation_inventory": {
+          "leaf_operations_parsed": 16,
+          "attribution_dispositions": {
+            "TARGET_PROVEN": 3,
+            "FOREIGN_TARGET": 11,
+            "MODIFIER_LOCAL": 0,
+            "AMBIGUOUS": 0,
+            "NOT_PROVABLE": 2
+          },
+          "per_modifier": [
+            {
+              "modifier": "BOE-A-2011-20107",
+              "leaf_operations_parsed": 2,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 1,
+              "FOREIGN_TARGET": 1,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2014-3559",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2014-11497",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2018-13716",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2018-17708",
+              "leaf_operations_parsed": 11,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 2,
+              "FOREIGN_TARGET": 9,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2025-8206",
+              "leaf_operations_parsed": 3,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 1,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 2
+            }
+          ]
+        },
+        "target_annex_anchored": false,
+        "anchors": 0,
+        "fetch_errors": [],
+        "anomalies": [],
+        "relations": 0,
+        "representations": 0,
+        "subjects": 0,
+        "instruments": 26,
+        "instrument_relations": 36,
+        "anomaly_count": 0
+      },
+      "census": {
+        "relations": [],
+        "resolution_counts": {},
+        "op_kind_counts": {},
+        "subjects": 0,
+        "subject_kinds": {},
+        "representations": 0,
+        "applicability_clauses": 0,
+        "applicability_effects": 0,
+        "anomalies_by_kind": {},
+        "anomaly_details": []
+      }
+    },
+    {
+      "target": "BOE-A-1994-28725",
+      "report": {
+        "target": "BOE-A-1994-28725",
+        "modifiers": [
+          {
+            "boe_id": "BOE-A-2008-19438",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2008-16091",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2008-15872",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2008-7880",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-1998-30048",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-1997-26637",
+            "kind": "MODIFICATION"
+          }
+        ],
+        "operation_inventory": {
+          "leaf_operations_parsed": 10,
+          "attribution_dispositions": {
+            "TARGET_PROVEN": 1,
+            "FOREIGN_TARGET": 3,
+            "MODIFIER_LOCAL": 0,
+            "AMBIGUOUS": 0,
+            "NOT_PROVABLE": 6
+          },
+          "per_modifier": [
+            {
+              "modifier": "BOE-A-1997-26637",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-1998-30048",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2008-7880",
+              "leaf_operations_parsed": 1,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 1,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2008-15872",
+              "leaf_operations_parsed": 8,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 2,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 6
+            },
+            {
+              "modifier": "BOE-A-2008-16091",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2008-19438",
+              "leaf_operations_parsed": 1,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 1,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            }
+          ]
+        },
+        "target_annex_anchored": false,
+        "anchors": 0,
+        "fetch_errors": [],
+        "anomalies": [],
+        "relations": 0,
+        "representations": 0,
+        "subjects": 0,
+        "instruments": 55,
+        "instrument_relations": 79,
+        "anomaly_count": 0
+      },
+      "census": {
+        "relations": [],
+        "resolution_counts": {},
+        "op_kind_counts": {},
+        "subjects": 0,
+        "subject_kinds": {},
+        "representations": 0,
+        "applicability_clauses": 0,
+        "applicability_effects": 0,
+        "anomalies_by_kind": {},
+        "anomaly_details": []
+      }
+    }
+  ]
+}
