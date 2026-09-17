@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import re
+from datetime import date
 from pathlib import Path
 from urllib.parse import urljoin
 from uuid import uuid4
@@ -13,7 +15,7 @@ from .config import (
     BDE_CONSULTAS_URL,
     boe_sumario_url,
 )
-from .http import FetchResult, http_fetch
+from .http import FetchResult, LIVE_FETCH, http_fetch
 from .rawstore import store_blob
 from .sources import bde_consultas, boe_sumario
 from .util import normalize_title, now_utc_iso, sha256_hex, sha256_hex_text
@@ -24,6 +26,8 @@ ANOMALY_DUPLICATE_CONSULTATION = "DUPLICATE_CONSULTATION_IN_SNAPSHOT"
 EXIT_OK = 0
 EXIT_ANOMALY = 2
 EXIT_SOURCE_PROBLEM = 3
+
+DATE_RE = re.compile(r"[0-9]{4}-[0-9]{2}-[0-9]{2}\Z")
 
 
 def _snapshot_id(source_id: str, url: str, blob_sha256: str) -> str:
@@ -40,8 +44,16 @@ def _check_id(source_id: str, url: str, blob_sha256: str | None, checked_at: str
     )
 
 
-def _anomaly_id(kind: str, detail: str) -> str:
-    return sha256_hex_text(f"anomaly|{kind}|{detail}")
+def _anomaly_id(snapshot_id: str, kind: str, detail: str) -> str:
+    return sha256_hex_text(f"anomaly|{snapshot_id}|{kind}|{detail}")
+
+
+def _ensure_live_fetch(source_id: str, fetch_result: FetchResult) -> None:
+    if fetch_result.via != LIVE_FETCH:
+        raise ValueError(
+            f"watcher requires LIVE_FETCH for {source_id}: via={fetch_result.via!r};"
+            " replayed evidence bytes are provenance, not a new observation"
+        )
 
 
 def _fetch_error_check(
@@ -130,7 +142,7 @@ def _persist_snapshot(
 
 
 def _insert_anomaly(conn, kind: str, snapshot_id: str, detail: str, detected_at: str) -> str:
-    anomaly_pk = _anomaly_id(kind, detail)
+    anomaly_pk = _anomaly_id(snapshot_id, kind, detail)
     conn.execute(
         "INSERT OR IGNORE INTO anomalies (anomaly_id, kind, snapshot_id, detail, detected_at)"
         " VALUES (?,?,?,?,?)",
@@ -256,6 +268,7 @@ def _prepare_sumario(date_iso: str, data_dir: Path, fetch_fn) -> dict:
     url = boe_sumario_url(date_iso)
     checked_at = now_utc_iso()
     fetch_result = fetch_fn(url, ACCEPT_XML)
+    _ensure_live_fetch(source_id, fetch_result)
     prepared = {
         "source_id": source_id,
         "url": url,
@@ -277,6 +290,7 @@ def _prepare_consultas(data_dir: Path, fetch_fn) -> dict:
     url = BDE_CONSULTAS_URL
     checked_at = now_utc_iso()
     fetch_result = fetch_fn(url, ACCEPT_HTML)
+    _ensure_live_fetch(source_id, fetch_result)
     prepared = {
         "source_id": source_id,
         "url": url,
@@ -300,6 +314,7 @@ def _persist_sumario(conn, prepared: dict) -> dict:
     url = prepared["url"]
     checked_at = prepared["checked_at"]
     fetch_result = prepared["fetch"]
+    _ensure_live_fetch(source_id, fetch_result)
     if _is_fetch_error(fetch_result):
         return _fetch_error_check(conn, source_id, url, checked_at, fetch_result)
     result = prepared["parse"]
@@ -347,6 +362,17 @@ def _persist_sumario(conn, prepared: dict) -> dict:
                 (snapshot_id,),
             )
             out["status"] = "OK_WITH_ANOMALIES"
+    if not snapshot_new:
+        stored = conn.execute(
+            "SELECT has_anomalies FROM source_snapshots WHERE snapshot_id = ?",
+            (snapshot_id,),
+        ).fetchone()
+        out["anomalies"] = [row[0] for row in conn.execute(
+            "SELECT anomaly_id FROM anomalies WHERE snapshot_id = ? ORDER BY anomaly_id",
+            (snapshot_id,),
+        )]
+        if stored[0] or out["anomalies"]:
+            out["status"] = "OK_WITH_ANOMALIES"
     return out
 
 
@@ -355,6 +381,7 @@ def _persist_consultas(conn, prepared: dict) -> dict:
     url = prepared["url"]
     checked_at = prepared["checked_at"]
     fetch_result = prepared["fetch"]
+    _ensure_live_fetch(source_id, fetch_result)
     if _is_fetch_error(fetch_result):
         return _fetch_error_check(conn, source_id, url, checked_at, fetch_result)
     result = prepared["parse"]
@@ -404,10 +431,24 @@ def _persist_consultas(conn, prepared: dict) -> dict:
                 (snapshot_id,),
             )
             out["status"] = "OK_WITH_ANOMALIES"
+    if not snapshot_new:
+        stored = conn.execute(
+            "SELECT has_anomalies FROM source_snapshots WHERE snapshot_id = ?",
+            (snapshot_id,),
+        ).fetchone()
+        out["anomalies"] = [row[0] for row in conn.execute(
+            "SELECT anomaly_id FROM anomalies WHERE snapshot_id = ? ORDER BY anomaly_id",
+            (snapshot_id,),
+        )]
+        if stored[0] or out["anomalies"]:
+            out["status"] = "OK_WITH_ANOMALIES"
     return out
 
 
 def run(date_iso: str, data_dir: Path, fetch_fn=http_fetch) -> dict:
+    if not isinstance(date_iso, str) or DATE_RE.fullmatch(date_iso) is None:
+        raise ValueError("date must use YYYY-MM-DD")
+    date.fromisoformat(date_iso)
     data_dir = Path(data_dir)
     data_dir.mkdir(parents=True, exist_ok=True)
     conn = dbm.connect(data_dir / "regdelta.sqlite")
@@ -428,12 +469,12 @@ def run(date_iso: str, data_dir: Path, fetch_fn=http_fetch) -> dict:
             raise
     finally:
         conn.close()
-    anomalies = [aid for r in results for aid in r["anomalies"]]
+    anomalies = any(r["status"] == "OK_WITH_ANOMALIES" for r in results)
     problems = [r for r in results if r["status"] in ("FETCH_ERROR", "PARSE_INVALID")]
-    if anomalies:
-        exit_code = EXIT_ANOMALY
-    elif problems:
+    if problems:
         exit_code = EXIT_SOURCE_PROBLEM
+    elif anomalies:
+        exit_code = EXIT_ANOMALY
     else:
         exit_code = EXIT_OK
     return {"date": date_iso, "sources": results, "exit_code": exit_code}

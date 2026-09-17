@@ -12,12 +12,13 @@ from regdelta import db as dbm
 def _legacy_db(path: Path) -> None:
     """A pre-G1 database: same tables, no binding_proof column."""
     sql = dbm.SCHEMA.replace(
-        "  parser_version         TEXT NOT NULL,\n"
-        "  binding_proof          TEXT NOT NULL DEFAULT '{}'\n",
-        "  parser_version         TEXT NOT NULL\n")
+        "  binding_proof          TEXT NOT NULL DEFAULT '{}',\n", "")
     conn = sqlite3.connect(path)
     try:
         conn.executescript(sql)
+        cols = {r[1] for r in conn.execute(
+            "PRAGMA table_info(modification_relations)")}
+        assert "binding_proof" not in cols
         conn.execute(
             "INSERT INTO source_blobs (sha256, size_bytes, stored_at)"
             " VALUES (?, 1, 't')", ("a" * 64,))

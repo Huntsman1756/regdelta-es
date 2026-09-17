@@ -316,27 +316,32 @@ def _rebuild_table(conn: sqlite3.Connection, table: str, cols: str,
     new_sql = create_sql.replace(
         f"CREATE TABLE {table} ", f"CREATE TABLE {new_table} ", 1)
     assert new_sql != create_sql
-    conn.execute("PRAGMA foreign_keys = OFF")
-    conn.execute("BEGIN IMMEDIATE")
+    if conn.in_transaction:
+        raise sqlite3.OperationalError(
+            "cannot rebuild a table inside an active transaction")
+    foreign_keys = conn.execute("PRAGMA foreign_keys").fetchone()[0]
     try:
+        conn.execute("PRAGMA foreign_keys = OFF")
+        conn.execute("BEGIN IMMEDIATE")
         conn.execute(new_sql)
         conn.execute(
             f"INSERT INTO {new_table} ({cols}) SELECT {cols} FROM {table}")
         conn.execute(f"DROP TABLE {table}")
         conn.execute(f"ALTER TABLE {new_table} RENAME TO {table}")
+        for stmt in post_sql:
+            conn.execute(stmt)
+        violations = conn.execute("PRAGMA foreign_key_check").fetchall()
+        if violations:
+            raise sqlite3.IntegrityError(
+                f"foreign_key_check failed after rebuilding {table}:"
+                f" {violations[:5]}")
         conn.execute("COMMIT")
     except BaseException:
-        conn.execute("ROLLBACK")
+        if conn.in_transaction:
+            conn.execute("ROLLBACK")
         raise
     finally:
-        conn.execute("PRAGMA foreign_keys = ON")
-    violations = conn.execute("PRAGMA foreign_key_check").fetchall()
-    if violations:
-        raise sqlite3.IntegrityError(
-            f"foreign_key_check failed after rebuilding {table}:"
-            f" {violations[:5]}")
-    for stmt in post_sql:
-        conn.execute(stmt)
+        conn.execute(f"PRAGMA foreign_keys = {foreign_keys}")
 
 
 def _has_source_id_check(sql: str) -> bool:

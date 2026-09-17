@@ -27,7 +27,7 @@ from . import history, operations, rawstore
 from .document import DiarioDoc
 from .profile import active_profile
 from .sources import boe_diario
-from .util import now_utc_iso, sha256_hex_text
+from .util import now_utc_iso, sha256_hex, sha256_hex_text
 
 PARSER_NAME = ap.PARSER_NAME
 PARSER_VERSION = ap.PARSER_VERSION
@@ -122,10 +122,13 @@ def _doc_from_snapshot(conn, data_dir: Path, snapshot_id: str,
     blob = rawstore.blob_path(data_dir, sha[0])
     if not blob.exists():
         raise LookupError(f"blob {sha[0]} not stored under {data_dir}")
-    res = boe_diario.parse_diario(blob.read_bytes())
+    body = blob.read_bytes()
+    if sha256_hex(body) != sha[0]:
+        raise LookupError(f"blob {sha[0]} SHA256 mismatch for snapshot {snapshot_id}")
+    res = boe_diario.parse_diario(body)
     if res.doc is None:
         raise LookupError(
-            f"diario blob for {boe_id} did not parse: {res.error}")
+            f"diario blob for {boe_id} did not parse: {res.parse_error}")
     return res.doc
 
 
