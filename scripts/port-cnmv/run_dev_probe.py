@@ -63,7 +63,6 @@ from regdelta import db as dbm, history  # noqa: E402
 from regdelta.http import EVIDENCE_IMPORT, FetchResult  # noqa: E402
 DEV_ROOT = ROOT / "evidence" / "port-cnmv" / "split-v2" / "dev"
 SELECTION = ROOT / "evidence" / "port-cnmv" / "split-v2" / "selection.json"
-HOLDOUT_PREFIX = "evidence/port-cnmv/split-v2/holdout"
 
 
 def _isolation_assert(manifest_path: Path) -> dict[str, dict]:
