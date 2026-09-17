@@ -239,9 +239,9 @@ def main() -> int:
     branch = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"],
                             capture_output=True, text=True,
                             cwd=ROOT).stdout.strip()
-    if branch != "port-cnmv-1":
+    if branch not in ("port-cnmv-1", "core-gap"):
         raise SystemExit(f"ISOLATION_BROKEN: branch {branch!r} "
-                         f"!= port-cnmv-1")
+                         "not in (port-cnmv-1, core-gap)")
 
     sel = json.loads(SELECTION.read_text(encoding="utf-8"))
     targets = list(sel["dev"])
