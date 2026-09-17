@@ -130,10 +130,11 @@ _ENUM_SEP = r"(?:\s*(?:a|al|,|y|e)\s+)"
 # are evidenced in DEV <referencias> and operative text.
 _DECLARATIONS = {
     "norma": re.compile(
-        r"\bnormas?\s+((?:\d+|" + _ORD_SEQ + r")"
-        r"(?:" + _ENUM_SEP + r"(?:\d+|" + _ORD_SEQ + r"))*)"
-        r"(?=\s*[,.:;)(«]|\s+(?:de|que|del|en|se|con|por|sin|donde|"
-        r"y\s+la|y\s+el|y\s+los|y\s+las)\b|$)",
+        r"\bnormas?\s+((?:\d+[.ªº°]*\.?|" + _ORD_SEQ + r")"
+        r"(?:" + _ENUM_SEP + r"(?:\d+[.ªº°]*\.?|" + _ORD_SEQ + r"))*)"
+        r"(?=\s*[,.:;)(«–—-]|\s+(?:de|que|del|en|se|con|por|sin|sobre|"
+        r"para|donde|queda\w*|relativ[ao]|referid[ao]|bis|"
+        r"y\s+la|y\s+el|y\s+los|y\s+las)\b|\s+[A-ZÁÉÍÓÚÑ]|$)",
         re.IGNORECASE),
     # the canonical annex locator kind is "anejo"; CNMV spells it
     # "anexo" (incl. unnumbered qualified forms "Anexo bis")
@@ -167,7 +168,9 @@ _DECLARATIONS = {
     # "Norma adicional bis" -> disp:adicional.bis
     "disposicion": re.compile(
         r"\b(?:disposici[oó]n|norma)\s+"
-        r"(adicional|transitoria|final|derogatoria)\s+(\w+)",
+        r"(adicional|transitoria|final|derogatoria)\s+"
+        r"(" + _ORD_SEQ + r"|\d+[.ªº°]*\.?|bis|ter|qu[aá]ter|"
+        r"[uú]nic[oa])\b",
         re.IGNORECASE),
     "pagina": re.compile(r"\bp[aá]gina\s+(\d{3,6})", re.IGNORECASE),
     "indice": re.compile(r"\b[íi]ndice\b", re.IGNORECASE),
@@ -205,8 +208,8 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
     numlist_split=r"\s*(?:,|y|e)\s+",
     numlist_range=re.compile(r"(\d+)\s+(?:a|al)\s+(\d+)"),
     numlist_atom=(
-        r"\d+(?:\.\d+)*|[IVX]+(?:\.[A-Z0-9]+)*|bis|ter|qu[aá]ter|"
-        + _ORD_SEQ),
+        r"\d+(?:\.\d+)*[.ªº°]*\.?|[IVX]+(?:\.[A-Z0-9]+)*|"
+        r"bis|ter|qu[aá]ter|" + _ORD_SEQ),
     expand_split=r",|\s+[ye]\s+",
     expand_range=re.compile(r"^(\d+)\s+(?:a|al)\s+(\d+)$"),
     expand_atom=re.compile(r"\d+(?:\.\d+)+"),

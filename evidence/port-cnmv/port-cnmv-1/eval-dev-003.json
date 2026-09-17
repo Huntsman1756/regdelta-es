@@ -1,0 +1,337 @@
+{
+  "targets": [
+    {
+      "target": "BOE-A-2008-16091",
+      "self_ref": [
+        "4",
+        "2008"
+      ],
+      "norma_heads": 7,
+      "relations": 18,
+      "ABSTENTION_CONFIRMED": 7,
+      "CONFIRMED_POSITIVE": 4,
+      "ABSTENTION_DISPUTED": 7,
+      "independent_clauses": 579
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "self_ref": [
+        "7",
+        "2008"
+      ],
+      "norma_heads": 62,
+      "relations": 70,
+      "ABSTENTION_CONFIRMED": 45,
+      "CONFIRMED_POSITIVE": 20,
+      "ABSTENTION_DISPUTED": 3,
+      "FALSE_LOCATOR_DECLARATION": 2,
+      "independent_clauses": 602
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "self_ref": [
+        "1",
+        "2010"
+      ],
+      "norma_heads": 4,
+      "relations": 30,
+      "ABSTENTION_CONFIRMED": 13,
+      "CONFIRMED_POSITIVE": 3,
+      "FALSE_LOCATOR_DECLARATION": 14,
+      "independent_clauses": 448
+    },
+    {
+      "target": "BOE-A-1994-28725",
+      "self_ref": [
+        "4",
+        "1994"
+      ],
+      "norma_heads": 15,
+      "relations": 1,
+      "CONFIRMED_POSITIVE": 1,
+      "independent_clauses": 373
+    }
+  ],
+  "totals": {
+    "relations": 119,
+    "CONFIRMED_POSITIVE": 28,
+    "ABSTENTION_CONFIRMED": 65,
+    "ABSTENTION_DISPUTED": 10,
+    "FALSE_FACT": 0,
+    "FALSE_SUBJECT_ATTRIBUTION": 0,
+    "FALSE_LOCATOR_DECLARATION": 16,
+    "FALSE_BINDING": 0,
+    "runtime_leaf_ops": 0,
+    "independent_clauses": 2002
+  },
+  "findings": [
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "f7cbf0423aa984c5f6a3833e83adffa2112474f0c7c25ac3e9052fb625425977",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:1.punto:9.letra:a.nota:a",
+      "clause": "Uno. La letra a) del apartado 9 de las Notas aclaratorias al Anexo 1. Fondo de inversión mobiliaria, queda redactada del siguiente modo:",
+      "detail": [
+        "anejo:1.punto:9.letra:a.nota:a resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "3966d434f05e7f91ea2956db49912a02a965f5675e0a1a62ade56cee197ef9dd",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:1.punto:9.letra:b.nota:a",
+      "clause": "Dos. La letra b) del apartado 9 de las Notas aclaratorias al Anexo 1. Fondo de inversión mobiliaria, queda redactada del siguiente modo:",
+      "detail": [
+        "anejo:1.punto:9.letra:b.nota:a resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "bad14ea0da94fc7c2d25f370222d0cc9bb18813f025efe423a2beb1ad49c8691",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:3.punto:9.letra:b.nota:a",
+      "clause": "Tres. El subapartado v) de la letra b) del apartado 9 de las Notas aclaratorias al Anexo 3. Fondo de inversión inmobiliaria, queda redactado",
+      "detail": [
+        "anejo:3.punto:9.letra:b.nota:a resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "57f47056917b0018450bf33a920b7261ccf890c55667addf43b697288c6a8d5c",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:3.punto:9.letra:h.nota:a",
+      "clause": "Cuatro. Se añade la letra h) al apartado 9 de las Notas aclaratorias al Anexo 3. Fondo de inversión inmobiliaria, con la siguiente redacción",
+      "detail": [
+        "anejo:3.punto:9.letra:h.nota:a resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "2b28c5cb99500c852c871de217b26b3a5c53fbcf1d116b2165b84a21b3dd8197",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:5.punto:9.letra:b.nota:a",
+      "clause": "Cinco. La letra b) del apartado 9 de las Notas aclaratorias al Anexo 5. Fondo de inversión cotizado, queda redactada del siguiente modo:",
+      "detail": [
+        "anejo:5.punto:9.letra:b.nota:a resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "8453b18c76d983f4a0fce5e2f2751299012b5ca2b7af3dabe63b7b0ac0445c8c",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:1.punto:10",
+      "clause": "1. Se añade un apartado 10 «Información sobre las políticas de remuneración.» en las «Notas aclaratorias» del Anexo 1: «Fondo de inversión m",
+      "detail": [
+        "anejo:1.punto:10 resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "83ea8a6bc7cb97221fcf02879201b6fc3f78d99ab07a9ba45b6e85f625db2458",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:1.punto:11",
+      "clause": "2. Se añade un apartado 11 «Información sobre las operaciones de financiación de valores, reutilización de las garantías y swaps de rendimie",
+      "detail": [
+        "anejo:1.punto:11 resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "relation_id": "211508fbb1d506577fc2fb0e91e3251b77ad872217ec11db88ed4127b2c9f56b",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "norma:49.apartado:2",
+      "clause": "18. Se da nueva redacción al primer párrafo del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:",
+      "detail": [
+        "norma:49.apartado:2 resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "relation_id": "7a486c048eae45a48703a4dadd8b56233a58e6603f1b921dfa31d01fdcffaec7",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "norma:49.apartado:4",
+      "clause": "22. El número 4 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 5.",
+      "detail": [
+        "norma:49.apartado:4 resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "relation_id": "5709b96194db8da32f020bbd322289384dadec33ff1905ff92dde4b9b9f21048",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:SEAFI 1",
+      "clause": "Cinco. Se modifica el modelo del estado de actividad de las empresas de asesoramiento financiero que se incluye en el anexo VIII, sustituyén",
+      "detail": [
+        "db=estado:SEAFI 1 independent=['anejo:VIII']"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "relation_id": "d86850c62dfdbe4d48c4a0d86ccf87f7a0eca2eda16d49af50773154dff0eaf9",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "norma:6",
+      "clause": "2. Se añade un punto 8 a dicha Norma 6.ª:",
+      "detail": [
+        "norma:6 resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "relation_id": "a462a74316781224c1ddbcfab074c580db89c9a287e8f388da5d3ff2421f8bbb",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:R 05",
+      "clause": "4. Se modifica la cuenta de resultados, estado R02, y el estado información de ECR, EICC, FP, FCRE y FERE gestionados R05 del Anexo VI, sust",
+      "detail": [
+        "db=estado:R 05 independent=['anejo:VI', 'anejo:I', 'estado:R 02']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "f75d264f9126c74d5194630141554bc67115a500a3aa3e9b33f5daeaea58332c",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 2",
+      "clause": "Tres. En el anexo: Modelos de Estados de información reservada, se suprime el estado T16. Adicionalmente los siguientes modelos de estados r",
+      "detail": [
+        "db=estado:T 2 independent=['estado:T 16']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "3b45df13c6b860dd98fb9f2af2e3e6ea9ccc685cafc872df574e5f0d06fef340",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 5",
+      "clause": "Tres. En el anexo: Modelos de Estados de información reservada, se suprime el estado T16. Adicionalmente los siguientes modelos de estados r",
+      "detail": [
+        "db=estado:T 5 independent=['estado:T 16']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "1235eb7346614be833a1e00c5e27669da5573a829b7050f47c082a02a3035d12",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 6",
+      "clause": "Tres. En el anexo: Modelos de Estados de información reservada, se suprime el estado T16. Adicionalmente los siguientes modelos de estados r",
+      "detail": [
+        "db=estado:T 6 independent=['estado:T 16']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "44570bc22dd5d497e3c63e7d2e9205a74bba986321da5d3080cf4f06e4ad40fb",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 7",
+      "clause": "Tres. En el anexo: Modelos de Estados de información reservada, se suprime el estado T16. Adicionalmente los siguientes modelos de estados r",
+      "detail": [
+        "db=estado:T 7 independent=['estado:T 16']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "f376a262996f3e7d78e7747433ee67b0954698f68554e18484354cba1be2defa",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 8",
+      "clause": "Tres. En el anexo: Modelos de Estados de información reservada, se suprime el estado T16. Adicionalmente los siguientes modelos de estados r",
+      "detail": [
+        "db=estado:T 8 independent=['estado:T 16']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "68f87f13f171e29fdce73d089f2782bc93b8b687edd59a0b55a4d672ee69033d",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 9",
+      "clause": "Tres. En el anexo: Modelos de Estados de información reservada, se suprime el estado T16. Adicionalmente los siguientes modelos de estados r",
+      "detail": [
+        "db=estado:T 9 independent=['estado:T 16']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "a1bf48d33f5b497fe8ede82c933d1448b8d787bf3a3794b9b142d2360b25dabe",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 10",
+      "clause": "Tres. En el anexo: Modelos de Estados de información reservada, se suprime el estado T16. Adicionalmente los siguientes modelos de estados r",
+      "detail": [
+        "db=estado:T 10 independent=['estado:T 16']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "627762de7553f73acf7f2724eddc2f8d4edb818e76a976c561c17a9e043c3938",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 13",
+      "clause": "Tres. En el anexo: Modelos de Estados de información reservada, se suprime el estado T16. Adicionalmente los siguientes modelos de estados r",
+      "detail": [
+        "db=estado:T 13 independent=['estado:T 16']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "12f9a7dcee837dcc0f8a208613c4c264f7c6d29c602397864d08c182cb3b934f",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 15",
+      "clause": "Tres. En el anexo: Modelos de Estados de información reservada, se suprime el estado T16. Adicionalmente los siguientes modelos de estados r",
+      "detail": [
+        "db=estado:T 15 independent=['estado:T 16']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "fa44e3e77899fe79e78bfe521be3db2c0b584ac7af348ad7ca87ebe0db76cf20",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 7",
+      "clause": "Seis. En el Anexo Modelos de Estados de información reservada de la Circular 1/2010, de 28 de julio, se sustituyen los modelos de los estado",
+      "detail": [
+        "db=estado:T 7 independent=['anejo:II', 'estado:T 2']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "ee7c2945ed069b739118fe4fb877bb91f31e1bc6c551239ac1bae2be0e8b71a9",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 8",
+      "clause": "Seis. En el Anexo Modelos de Estados de información reservada de la Circular 1/2010, de 28 de julio, se sustituyen los modelos de los estado",
+      "detail": [
+        "db=estado:T 8 independent=['anejo:II', 'estado:T 2']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "1f09146c57ec693e9672afc652448f474591b1f6b7245cfd4c5240b9fb690443",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 9",
+      "clause": "Seis. En el Anexo Modelos de Estados de información reservada de la Circular 1/2010, de 28 de julio, se sustituyen los modelos de los estado",
+      "detail": [
+        "db=estado:T 9 independent=['anejo:II', 'estado:T 2']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "3b2e044b6f18e78b33c34727c992e2b2af432b24cf4e01dfe59dc053b282165c",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 10",
+      "clause": "Seis. En el Anexo Modelos de Estados de información reservada de la Circular 1/2010, de 28 de julio, se sustituyen los modelos de los estado",
+      "detail": [
+        "db=estado:T 10 independent=['anejo:II', 'estado:T 2']"
+      ]
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "relation_id": "74ea019ba6e4f7b9bad3e6972b4511cba8cfd791130ee87d22c987f9655d5878",
+      "verdict": "FALSE_LOCATOR_DECLARATION",
+      "subject": "estado:T 12",
+      "clause": "Seis. En el Anexo Modelos de Estados de información reservada de la Circular 1/2010, de 28 de julio, se sustituyen los modelos de los estado",
+      "detail": [
+        "db=estado:T 12 independent=['anejo:II', 'estado:T 2']"
+      ]
+    }
+  ],
+  "evaluator_import_manifest": [
+    "regdelta",
+    "regdelta.document",
+    "regdelta.sources",
+    "regdelta.sources.boe_diario",
+    "regdelta.sources.boe_doc",
+    "regdelta.sources.boe_pdf"
+  ]
+}

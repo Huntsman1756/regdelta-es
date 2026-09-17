@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 import sqlite3
 import subprocess
 import sys
@@ -149,6 +150,10 @@ def main() -> int:
                     default=DEV_ROOT / "manifest.json")
     ap.add_argument("--output", required=True, type=Path)
     ap.add_argument("--run-id", default="dev-probe")
+    ap.add_argument("--persist-dir", type=Path, default=None,
+                    help="keep each target's data_dir (sqlite + raw "
+                         "blobs) under DIR/<target>/ for the independent "
+                         "evaluator instead of a tempdir")
     args = ap.parse_args()
 
     # --- mechanical base/isolation asserts (prereg steps 1–2) ---------
@@ -172,27 +177,36 @@ def main() -> int:
 
     profile = active_profile()
 
+    def _run_target(data_dir: Path, target: str) -> dict:
+        conn = dbm.connect(data_dir / "regdelta.sqlite")
+        try:
+            try:
+                report = history.reconstruct(conn, data_dir, target, fetch)
+                conn.commit()
+                return {"target": target, "report": report,
+                        "census": _census(conn)}
+            except Exception:
+                return {"target": target, "error": traceback.format_exc()}
+        finally:
+            conn.close()
+
     results = []
     for target in targets:
+        if args.persist_dir is not None:
+            data_dir = args.persist_dir / target
+            # a persisted dir must reflect THIS run only: leftover
+            # sqlite/raw state would silently merge rows across runs
+            # (journal #13)
+            if data_dir.exists():
+                shutil.rmtree(data_dir, ignore_errors=True)
+            data_dir.mkdir(parents=True, exist_ok=True)
+            results.append(_run_target(data_dir, target))
+            continue
         with tempfile.TemporaryDirectory(prefix="cnmv1-",
                                          ignore_cleanup_errors=True) as td:
             data_dir = Path(td) / target
             data_dir.mkdir()
-            conn = dbm.connect(data_dir / "regdelta.sqlite")
-            try:
-                try:
-                    report = history.reconstruct(
-                        conn, data_dir, target, fetch)
-                    conn.commit()
-                    results.append({
-                        "target": target, "report": report,
-                        "census": _census(conn)})
-                except Exception:
-                    results.append({
-                        "target": target,
-                        "error": traceback.format_exc()})
-            finally:
-                conn.close()
+            results.append(_run_target(data_dir, target))
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     envelope = {
