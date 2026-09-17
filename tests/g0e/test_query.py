@@ -191,8 +191,8 @@ def test_changes_target_filter(ro):
     all_out = query.changes(ro, since=date(2017, 1, 1))
     tgt_out = query.changes(ro, since=date(2017, 1, 1),
                             target="Circular 4/2017")
-    assert tgt_out["summary"]["result_count"] == 292
-    assert all_out["summary"]["result_count"] >= 292
+    assert tgt_out["summary"]["result_count"] == 290
+    assert all_out["summary"]["result_count"] >= 290
     for r in tgt_out["results"]:
         assert r["target"]["boe_id"] == TARGET
 
@@ -209,7 +209,7 @@ def test_changes_preserves_partial_and_unresolved(ro):
     out = query.changes(ro, since=date(2017, 1, 1))
     res = {r["resolution"] for r in out["results"]}
     assert {"RESOLVED", "PARTIAL", "UNRESOLVED"} <= res
-    assert out["summary"]["result_count"] == 292 + len(other_relations(ro))
+    assert out["summary"]["result_count"] == 290 + len(other_relations(ro))
 
 
 def other_relations(ro):
@@ -239,9 +239,9 @@ def test_changes_relation_payload(ro):
 # ---------------------------------------------------------------------------
 
 
-def test_affects_c4_contains_292_relations(ro):
+def test_affects_c4_contains_290_relations(ro):
     out = query.affects(ro, target="Circular 4/2017")
-    assert out["summary"]["relation_count"] == 292
+    assert out["summary"]["relation_count"] == 290
     assert out["query"]["resolved_boe_id"] == TARGET
 
 
@@ -571,15 +571,22 @@ def test_g0c_g0d_invariants(ro):
     # 186 -> 255 and anomalies 457 -> 361 — sub-scope before-binding
     # and tolerant marker enumeration convert honest abstentions into
     # verified bindings; relations stay 292.
+    # CORE-GAP WS-A_INTENTIONAL_SEMANTIC_CHANGE: relations 292 -> 290,
+    # representations 255 -> 253, PARTIAL 104 -> 102, anomalies
+    # stay 361 (+2 REDESIGNATION_REFUSED, -2 BINDING_NOT_PROVABLE on
+    # the superseded relations), +1 subject_redesignations edge —
+    # 'disposición adicional única -> primera' is a CODE_REDESIGNATION;
+    # the two refusals are honest UNPROVABLEs whose subjects keep
+    # baseline MODIFY. See test_g0c_counts_unchanged.
     assert ro.execute("SELECT COUNT(*) FROM subjects").fetchone()[0] == 223
     assert ro.execute(
-        "SELECT COUNT(*) FROM representations").fetchone()[0] == 255
+        "SELECT COUNT(*) FROM representations").fetchone()[0] == 253
     assert ro.execute(
-        "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 292
+        "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 290
     assert dict(ro.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution").fetchall()) == {
-        "RESOLVED": 110, "PARTIAL": 104, "UNRESOLVED": 78}
+        "RESOLVED": 110, "PARTIAL": 102, "UNRESOLVED": 78}
     assert ro.execute(
         "SELECT COUNT(*) FROM applicability_clauses").fetchone()[0] == 26
     assert ro.execute(

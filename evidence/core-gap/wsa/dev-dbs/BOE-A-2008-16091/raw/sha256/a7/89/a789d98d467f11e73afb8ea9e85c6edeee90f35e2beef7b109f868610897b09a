@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251220115601">
+  <metadatos>
+    <identificador>BOE-A-2018-17708</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20181126</fecha_disposicion>
+    <numero_oficial>5/2018</numero_oficial>
+    <titulo>Circular 5/2018, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, por la que se modifican las Circulares 4/2008, 7/2008, 11/2008 y 1/2010, sobre información pública y periódica de Instituciones de Inversión Colectiva, normas contables, cuentas anuales y estados de información reservada de Entidades de Capital de Riesgo, gestoras de Instituciones de Inversión Colectiva y Entidades de Capital de Riesgo y sucursales de gestoras europeas establecidas en España.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20181226</fecha_publicacion>
+    <diario_numero>311</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>127132</pagina_inicial>
+    <pagina_final>127158</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2018/12/26/pdfs/BOE-A-2018-17708.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2018-17708</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20190630</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2018/11/26/5</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2018/11/26/5">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2018-17708</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-26</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1508"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4518"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4930"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6682"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6697"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2018/11/26/5/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2018-17708</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-26</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1508"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3472"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4518"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4930"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6682"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6697"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2018/11/26/5"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2018/11/26/5/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 5/2018, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, por la que se modifican las Circulares 4/2008, 7/2008, 11/2008 y 1/2010, sobre información pública y periódica de Instituciones de Inversión Colectiva, normas contables, cuentas anuales y estados de información reservada de Entidades de Capital de Riesgo, gestoras de Instituciones de Inversión Colectiva y Entidades de Capital de Riesgo y sucursales de gestoras europeas establecidas en España.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-12-26</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2018/11/26/5/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2018/11/26/5/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2018/11/26/5/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2018/11/26/5/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2018/11/26/5/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2018/11/26/5/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2018/11/26/5/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2018/11/26/5/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2018/11/26/5/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="60" orden="">Activos financieros</materia>
+      <materia codigo="1508" orden="">Administración electrónica</materia>
+      <materia codigo="1186" orden="">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="3472" orden="">Estados financieros</materia>
+      <materia codigo="3807" orden="">Formularios administrativos</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="4302" orden="">Instituciones de Inversión Colectiva</materia>
+      <materia codigo="4518" orden="">Inversiones</materia>
+      <materia codigo="4930" orden="">Mercado de Valores</materia>
+      <materia codigo="6682" orden="">Sociedades de Capital Riesgo</materia>
+      <materia codigo="6697" orden="">Sociedades Gestoras de Instituciones de Inversión Colectiva</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2009-656" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>la norma 20 y el anexo de la Circular 11/2008, de 30 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2008-20895" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>las normas 6 y 58 y los anexos V y VI de la Circular 7/2008, de 26 de noviembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2008-16091" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>los anexos 0 y 1 de la Circular 4/2008, de 11 de septiembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2010-13162" orden="2040">
+          <palabra codigo="407">AÑADE</palabra>
+          <texto>la norma adicional bis y el anexo bis a la Circular 1/2010, de 28 de julio</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="143" orden="">Administración electrónica</alerta>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">La presente Circular tiene como objeto introducir ciertas mejoras en otras Circulares de la CNMV necesarias para la práctica supervisora.</p>
+    <p class="parrafo">En este sentido, se modifica la Circular 7/2008, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Capital-Riesgo, añadiendo, para las SGEIC, un nuevo desglose respecto a las comisiones por asesoramiento financiero a entidades gestionadas o a inversores, la posibilidad de especificar los vehículos en los que está delegada la gestión, así como desgloses en la cuenta de resultados para indicar, por un lado las comisiones recibidas de vehículos gestionados distintos de las ECR, y por otro, la remuneración variable al personal por el impacto que este dato puede tener en el cálculo de los recursos exigibles de la gestora, este último desglose se introduce también para las SGIIC. Asimismo se modifican para las SGEIC los plazos de remisión a la CNMV de la información reservada de estas entidades.</p>
+    <p class="parrafo">Respecto a la Circular 11/2008, de 30 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las entidades de capital riesgo, se añade información referida al tipo de inversor en las ECR, con el desglose previsto en el artículo 75 de la Ley 22/2014, de 12 de noviembre, por la que se regulan las entidades de capital-riesgo, otras entidades de inversión colectiva de tipo cerrado y las sociedades gestoras de entidades de inversión colectiva de tipo cerrado, y por la que se modifica la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva.</p>
+    <p class="parrafo">Asimismo, con el fin de fomentar la tramitación electrónica de documentos ante la CNMV, así como facilitar la puesta a disposición del público de la información, en las Circulares 7/2008 y 11/2008, se introduce la exigencia de presentación, como documento electrónico normalizado, del informe anual de las SGEIC y de las ECR previsto en la Ley 22/2014 antes citada.</p>
+    <p class="parrafo">Adicionalmente, se modifica el modelo de informe para los fondos de inversión recogido en el Anexo 1 de la Circular 4/2008, de 11 de septiembre, de la CNMV, sobre el contenido de los informes trimestrales, semestral y anual de instituciones de inversión colectiva y del estado de posición, al objeto de incluir la información sobre políticas de remuneración establecida en el artículo 46bis de la Ley 35/2003, de 4 de noviembre, de IIC y, también, la información sobre operaciones de financiación de valores que establece el Reglamento (UE) 2015/2365, del Parlamento Europeo y del Consejo, de 25 de noviembre, sobre transparencia de las operaciones de financiación de valores y de reutilización.</p>
+    <p class="parrafo">Finalmente, la Ley de IIC permite a las gestoras extranjeras operar en España de acuerdo a las condiciones establecidas en: el art. 55 para las sociedades gestoras autorizadas por la Directiva 2009/65/CE, de 13 de julio de 200 y el art. 55 bis para las sociedades gestoras reguladas por la Directiva 2011/61/UE, del Parlamento Europeo y del Consejo, de 8 de junio de 2011, y autorizadas en otro Estado miembro de la Unión Europea).</p>
+    <p class="parrafo">Con el objetivo de facilitar las tareas de supervisión e inspección asignadas a la CNMV por la normativa citada, se modifica la Circular 1/2010 de 28 de julio de la CNMV, de información reservada de las entidades que prestan servicios de inversión, con el fin de recabar información, en base a las habilitaciones citadas, sobre las actividades realizadas por las gestoras extranjeras comunitarias que actúen en España a través de sucursal.</p>
+    <p class="parrafo">En virtud de las habilitaciones recibidas, el Consejo de la Comisión Nacional del Mercado de Valores, previo informe de su Comité Consultivo y conforme con el Consejo de Estado, en su sesión de fecha 26 de noviembre de 2018 ha aprobado la siguiente Circular:</p>
+    <p class="articulo">Norma primera. Modificación de la Circular 7/2008, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Capital-Riesgo.</p>
+    <p class="parrafo">1. El segundo párrafo del punto 2 de la Norma 6ª queda redactado en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«Las SGIIC y SGEIC deberán remitir a la CNMV las cuentas anuales individuales con los correspondientes informes de gestión y auditoría, las cuentas anuales y el informe de gestión deberán estar debidamente firmados en los términos indicados en el apartado anterior.</p>
+      <p class="parrafo">Las SGIIC realizarán el envío de la citada documentación dentro de los cuatro meses siguientes a la finalización del ejercicio y las SGEIC antes del 30 de junio del siguiente ejercicio.»</p>
+    </blockquote>
+    <p class="parrafo_2">2. Se añade un punto 8 a dicha Norma 6.ª:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo">«8. Las SGEIC deberán presentar a la Comisión Nacional del Mercado de Valores las cuentas anuales, el informe de gestión y el correspondiente informe de auditoría a través del servicio CIFRADOC/CNMV, en el registro electrónico de la CNMV como documento electrónico normalizado, de acuerdo con lo establecido en la Resolución del Presidente de la Comisión Nacional del Mercado de Valores de 16 de noviembre de 2011, por la que se crea y regula el Registro Electrónico de la CNMV.</p>
+      <p class="parrafo">Dicho documento electrónico comprenderá, al menos, el envío de la siguiente documentación:</p>
+      <p class="parrafo_2">A. Cuentas anuales e informe de gestión, debidamente firmados por todos los miembros del consejo de administración de la gestora o los administradores, según corresponda, junto con el informe de auditoría de las SGEIC. Todas las firmas deberán estar debidamente identificadas y si faltase alguna firma se señalará esta circunstancia con expresa indicación de la causa.</p>
+      <p class="parrafo">B. Una declaración del secretario del consejo de la sociedad donde se exprese que i) la documentación remitida (las cuentas anuales y el informe de gestión) es copia de la original formulada ii) que las cuentas anuales y los informes de gestión enviados se corresponden con los auditados y iii) que los informes de auditoría son copia de los originales.</p>
+      <p class="parrafo_2">Además, se deberá cumplimentar obligatoriamente un formulario que contendrá como mínimo los datos identificativos y los importes financieros de las SGEIC que figuran en el modelo incluido en el citado trámite.»</p>
+    </blockquote>
+    <p class="parrafo_2">3. Se sustituye el tercer recuadro del apartado 1 de la Norma 58º (estados reservados individuales. Clases y plazos de rendición) modificando la fecha límite de envío. Dicho recuadro, relativo a SGEIC, queda redactado en los siguientes términos:</p>
+    <p class="parrafo_2">Estados reservados individuales de SGEIC. Clases y plazos de rendición.</p>
+    <table class="tabla_ancha">
+      <colgroup>
+        <col/>
+        <col/>
+        <col/>
+        <col/>
+      </colgroup>
+      <thead>
+        <tr>
+          <th class="cabeza_tabla">Estado: Denominación</th>
+          <th class="cabeza_tabla">Entidad obligada</th>
+          <th class="cabeza_tabla">Periodicidad</th>
+          <th class="cabeza_tabla">Plazo máximo de presentación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="cuerpo_tabla_izq">R01. Balance reservado.</td>
+          <td class="cuerpo_tabla_centro">SGEIC</td>
+          <td class="cuerpo_tabla_centro">Semestral</td>
+          <td class="cuerpo_tabla_centro">Día 30 del mes siguiente.</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">R02. Cuenta de pérdidas y ganancias reservada.</td>
+          <td class="cuerpo_tabla_centro">SGEIC</td>
+          <td class="cuerpo_tabla_centro">Semestral</td>
+          <td class="cuerpo_tabla_centro">Día 30 del mes siguiente.</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">R03. Cartera de inversiones financieras y tesorería.</td>
+          <td class="cuerpo_tabla_centro">SGEIC</td>
+          <td class="cuerpo_tabla_centro">Semestral</td>
+          <td class="cuerpo_tabla_centro">Día 30 del mes siguiente.</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">R04. Cartera de operaciones con instrumentos derivados.</td>
+          <td class="cuerpo_tabla_centro">SGEIC</td>
+          <td class="cuerpo_tabla_centro">Semestral</td>
+          <td class="cuerpo_tabla_centro">Día 30 del mes siguiente.</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">R05. Entidades de capital riesgo gestionadas.</td>
+          <td class="cuerpo_tabla_centro">SGEIC</td>
+          <td class="cuerpo_tabla_centro">Semestral</td>
+          <td class="cuerpo_tabla_centro">Día 30 del mes siguiente.</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">R06. Gestión discrecional de carteras de inversión. Patrimonio y comisiones.</td>
+          <td class="cuerpo_tabla_centro">SGEIC</td>
+          <td class="cuerpo_tabla_centro">Semestral</td>
+          <td class="cuerpo_tabla_centro">Día 30 del mes siguiente.</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">R07. Información auxiliar.</td>
+          <td class="cuerpo_tabla_centro">SGEIC</td>
+          <td class="cuerpo_tabla_centro">Semestral</td>
+          <td class="cuerpo_tabla_centro">Día 30 del mes siguiente.</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">R08. Estado cálculo de recursos propios.</td>
+          <td class="cuerpo_tabla_centro">SGEIC</td>
+          <td class="cuerpo_tabla_centro">Semestral</td>
+          <td class="cuerpo_tabla_centro">Día 30 del mes siguiente.</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">R09. Estado aportaciones al FGI.</td>
+          <td class="cuerpo_tabla_centro">SGEIC</td>
+          <td class="cuerpo_tabla_centro">Anual</td>
+          <td class="cuerpo_tabla_centro">Día 30 del mes siguiente.</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">R10. Número y tipología de clientes. Incentivos y reclamaciones.</td>
+          <td class="cuerpo_tabla_centro">SGEIC</td>
+          <td class="cuerpo_tabla_centro">Anual</td>
+          <td class="cuerpo_tabla_centro">Día 30 del mes siguiente.</td>
+        </tr>
+        <tr>
+          <td class="cuerpo_tabla_izq">RA1. Aplicación del resultado del ejercicio.</td>
+          <td class="cuerpo_tabla_centro">SGEIC</td>
+          <td class="cuerpo_tabla_centro">Anual</td>
+          <td class="cuerpo_tabla_centro">Día 30 del mes siguiente.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="parrafo_2">4. Se modifica la cuenta de resultados, estado R02, y el estado información de ECR, EICC, FP, FCRE y FERE gestionados R05 del Anexo VI, sustituyéndolos por los modelos R02 y R05 recogidos en el Anexo I de esta Circular.</p>
+    <p class="parrafo">5. Se modifica la cuenta de resultados, estado G02 del Anexo V sustituyéndola por el modelo G02 del Anexo II de esta Circular.</p>
+    <p class="articulo">Norma segunda. Modificación de la Circular 11/2008, de 30 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las entidades de capital riesgo.</p>
+    <p class="parrafo">1. El punto 6 de la Norma 20ª queda redactado en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«6. La remisión, para su publicación, a la Comisión Nacional del Mercado de Valores del informe anual previsto en el artículo 67.2 de la Ley 22/2014, de 12 de noviembre, por la que se regulan las entidades de capital-riesgo, otras entidades de inversión colectiva de tipo cerrado y las sociedades gestoras de entidades de inversión colectiva de tipo cerrado, y por la que se modifica la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva, se realizará a través del servicio CIFRADOC/CNMV, en el registro electrónico de la CNMV como documento electrónico normalizado, de acuerdo con lo establecido en la Resolución del Presidente de la Comisión Nacional del Mercado de Valores de 16 de noviembre de 2011, por la que se crea y regula el Registro Electrónico de la CNMV.</p>
+      <p class="parrafo">Dicho documento electrónico comprenderá, al menos, el envío de la siguiente documentación:</p>
+      <p class="parrafo_2">A. Cuentas anuales e informe de gestión, debidamente firmados por todos los miembros del consejo de administración de la gestora o los administradores, según corresponda, junto con el informe de auditoría, incorporando también todo cambio material en la información proporcionada a los partícipes o accionistas que se haya producido durante el ejercicio objeto del informe y la información sobre remuneraciones. Todas las firmas deberán estar debidamente identificadas y si faltase alguna firma se señalará esta circunstancia con expresa indicación de la causa.</p>
+      <p class="parrafo">B. Una declaración del secretario del consejo de la sociedad donde se exprese que i) la documentación remitida (las cuentas anuales y el informe de gestión) es copia de la original formulada ii) que las cuentas anuales y los informes de gestión enviados se corresponden con los auditados y iii) que los informes de auditoría son copia de los originales.</p>
+      <p class="parrafo_2">Además, se deberá cumplimentar un formulario que contendrá como mínimo los datos identificativos y los importes financieros de las ECR que figuran en el modelo incluido en el citado trámite.»</p>
+    </blockquote>
+    <p class="parrafo_2">2. Se modifica el modelo del estado de información estadística y operativa CR5 del Anexo, sustituyéndolo por el modelo CR5 recogido en el Anexo III de esta Circular.</p>
+    <p class="articulo">Norma tercera. Modificación de la Circular 4/2008, de 11 de septiembre, de la Comisión Nacional del Mercado de Valores, sobre el contenido de los informes trimestrales, semestral y anual de instituciones de inversión colectiva y del estado de posición.</p>
+    <p class="parrafo">1. Se añade un apartado 10 «Información sobre las políticas de remuneración.» en las «Notas aclaratorias» del Anexo 1: «Fondo de inversión mobiliaria», con la siguiente redacción:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«10. Información sobre las políticas de remuneración: En el informe anual de la IIC, se recogerá la información relativa a las políticas de remuneración establecida en el artículo 46 bis de la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva.»</p>
+    </blockquote>
+    <p class="parrafo_2">2. Se añade un apartado 11 «Información sobre las operaciones de financiación de valores, reutilización de las garantías y swaps de rendimiento total (Reglamento UE 2015/2365).» en las «Notas aclaratorias» del Anexo 1: «Fondo de inversión mobiliaria», con la siguiente redacción:</p>
+    <blockquote class="sangrado">
+      <p class="parrafo_2">«11. Información sobre las operaciones de financiación de valores, reutilización de las garantías y swaps de rendimiento total: En el informe semestral y/o anual de la IIC, según corresponda, se recogerá la información relativa a las operaciones de financiación de valores, a la reutilización de las garantías y a los swaps de rendimiento total, establecida en el Reglamento (UE) 2015/2365, del Parlamento Europeo y del Consejo, de 25 de noviembre de 2015, sobre transparencia de las operaciones de financiación de valores y de reutilización y por el que se modifica el Reglamento (UE) nº 648/2012, que no se encuentre ya recogida en otros apartados del presente informe periódico.»</p>
+    </blockquote>
+    <p class="parrafo_2">3. Modelo de informe para los fondos de inversión.</p>
+    <p class="parrafo_2">El modelo de informe para los fondos de inversión recogido en el Anexo 1 de la Circular 4/2008, de 11 de septiembre, de la Comisión Nacional del Mercado de Valores, sobre el contenido de los informes trimestrales, semestral y anual de instituciones de inversión colectiva y del estado de posición, queda sustituido por el modelo contenido en el Anexo IV de la presente Circular.</p>
+    <p class="articulo">Norma cuarta. Modificación la Circular 1/2010 de 28 de julio de la CNMV, de información reservada de las entidades que prestan servicios de inversión.</p>
+    <p class="parrafo">1. Se añade una Norma adicional bis a la Circular 1/2010, de 28 de julio, en los siguientes términos:</p>
+    <blockquote class="sangrado">
+      <p class="articulo">«Norma adicional bis. Estados reservados de entidades gestoras de la Unión Europea autorizadas para la realización de actividades de gestión colectiva y prestación de servicios de inversión y auxiliares en territorio español a través de sucursal.</p>
+      <p class="parrafo">Las sucursales de sociedades gestoras de otro estado miembro de la Unión Europea autorizadas para la realización de actividades de gestión colectiva y prestación de servicios de inversión y auxiliares en territorio español, remitirán a la CNMV los estados que figuran a continuación en los modelos que se recogen en el Anexo bis y dentro de los dos primeros meses de cada año natural:</p>
+      <table class="tabla">
+        <colgroup>
+          <col/>
+          <col/>
+          <col/>
+        </colgroup>
+        <thead>
+          <tr>
+            <th class="cabeza_tabla">Estado: Denominación</th>
+            <th class="cabeza_tabla">Periodicidad</th>
+            <th class="cabeza_tabla">Plazo de presentación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="cuerpo_tabla_izq">SGE1. Datos societarios y personas de contacto.</td>
+            <td class="cuerpo_tabla_centro">Anual</td>
+            <td class="cuerpo_tabla_centro">Dentro de los dos meses siguientes.</td>
+          </tr>
+          <tr>
+            <td class="cuerpo_tabla_izq">SGE2. Actividades realizadas, número y tipología de clientes e ingresos recibidos por servicio y por segmento comercial.</td>
+            <td class="cuerpo_tabla_centro">Anual</td>
+            <td class="cuerpo_tabla_centro">Dentro de los dos meses siguientes.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="parrafo_2">La información recogida en los modelos de estados definidos en el Anexo bis se remitirá a la Comisión Nacional del Mercado de Valores con carácter anual y se referirá al ejercicio inmediato anterior.</p>
+      <p class="parrafo">Las entidades deberán remitir a la Comisión Nacional del Mercado de Valores los estados definidos en el Anexo bis de esta Circular mediante transmisión telemática a través del servicio CIFRADOC/CNMV, aprobado por acuerdo del Consejo de la Comisión Nacional del Mercado de Valores de 15 de septiembre de 2006 según las especificaciones técnicas que se determinen.</p>
+      <p class="parrafo">Con independencia de lo anterior, la Comisión Nacional del Mercado de Valores podrá exigir en cada momento, con carácter general o particular, cuanta información precise como aclaración o detalle de los estados anteriores, o para cualquier otra finalidad surgida en el desarrollo de las funciones que tiene encomendadas, así como requerir a una entidad la entrega de estados reservados con mayor frecuencia que la indicada en esta Norma cuando sus circunstancias individuales así lo aconsejen.»</p>
+    </blockquote>
+    <p class="parrafo_2">2. Se añaden como Anexo bis en la Circular 1/2010 los modelos de Estados incluidos en el Anexo V de esta Circular.</p>
+    <p class="parrafo_2">Entrada en vigor. La presente Circular entrará en vigor el día 30 de junio de 2019.</p>
+    <p class="parrafo_2">Madrid, 26 de noviembre de 2018.–El Presidente de la Comisión Nacional del Mercado de Valores, Sebastián Albella Amigo.</p>
+    <p class="anexo">ANEXO I</p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image1.png" width="1608" height="2647"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image2.png" width="1699" height="2757"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image3.png" width="2728" height="2019"/>
+    </p>
+    <p class="anexo">ANEXO II</p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image4.png" width="1908" height="2624"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image5.png" width="1772" height="2749"/>
+    </p>
+    <p class="anexo">ANEXO III</p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image6.png" width="2694" height="1557"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image7.png" width="2075" height="2750"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image8.png" width="2055" height="2718"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image9.png" width="1823" height="1122"/>
+    </p>
+    <p class="anexo_num">ANEXO IV</p>
+    <p class="anexo_tit">Modelo de informe para los fondos de inversión recogido en el anexo 1 de la Circular 4/2008</p>
+    <p class="anexo_num">ANEXO 1</p>
+    <p class="anexo_tit">Fondo de inversión mobiliaria</p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image10.png" width="1900" height="2471"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image11.png" width="2003" height="2709"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image12.png" width="2044" height="2281"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image13.png" width="2023" height="2651"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image14.png" width="1795" height="2758"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image15.png" width="2043" height="2446"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image16.png" width="1514" height="2720"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image17.png" width="1888" height="2314"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image18.png" width="1869" height="2553"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image19.png" width="1871" height="2605"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image20.png" width="1860" height="2689"/>
+    </p>
+    <p class="anexo_num">ANEXO V</p>
+    <p class="anexo_tit">Estados reservados de sucursales entidades gestoras de la Unión Europea</p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image21.png" width="2759" height="1263"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2018/311/17708_15990392_image22.png" width="2739" height="1339"/>
+    </p>
+  </texto>
+</documento>

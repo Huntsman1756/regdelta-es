@@ -41,6 +41,8 @@ def materialize(run_json: Path, db_dir: Path, eval_json: Path | None,
     att_f = open(out_dir / "attribution.jsonl", "w", encoding="utf-8")
     bind_f = open(out_dir / "bindings.jsonl", "w", encoding="utf-8")
     audit_f = open(out_dir / "audit.jsonl", "w", encoding="utf-8")
+    redesig_f = open(out_dir / "redesignations.jsonl", "w",
+                     encoding="utf-8")
 
     report_md = ["# PORT-CNMV-1 run " + env["run_id"], "",
                  "| target | modifiers | leaf ops | relations | "
@@ -59,19 +61,27 @@ def materialize(run_json: Path, db_dir: Path, eval_json: Path | None,
             "modifiers": rep.get("modifiers"),
             "leaf_operations": rep.get("operation_inventory", {})
                                   .get("leaf_operations_parsed"),
-            # accounting identity (journal #17): operative candidates
-            # = leaf ops emitted + candidate spans the profile
-            # abstention excluded; non-candidate redesignation
-            # constructs are still registered in audit.jsonl
+            # CORE-GAP WS-A accounting identity: redesignation clauses
+            # are operative leaf ops again; every scanned span resolves
+            # to EDGE_EMITTED / REFUSED / NON_CANDIDATE /
+            # CANDIDATE_NOT_EMITTED — nothing drops silently
             "operative_candidates":
-                (rep.get("operation_inventory", {})
-                 .get("leaf_operations_parsed") or 0)
-                + sum(1 for s in redesignations
-                      if s.get("operative_candidate")),
-            "profile_limit_redesignations": len(redesignations),
-            "redesignation_candidates_excluded": sum(
+                rep.get("operation_inventory", {})
+                .get("leaf_operations_parsed"),
+            "redesignation_spans": len(redesignations),
+            "redesignation_edges_emitted": sum(
                 1 for s in redesignations
-                if s.get("operative_candidate")),
+                if s.get("outcome") == "EDGE_EMITTED"),
+            "redesignation_refused": sum(
+                1 for s in redesignations
+                if s.get("outcome") == "REFUSED"),
+            "redesignation_non_candidate": sum(
+                1 for s in redesignations
+                if s.get("outcome") == "NON_CANDIDATE"),
+            "redesignation_candidate_not_emitted": sum(
+                1 for s in redesignations
+                if s.get("outcome") == "CANDIDATE_NOT_EMITTED"),
+            "redesignation_edges": cen.get("redesignation_edges"),
             "dispositions": rep.get("operation_inventory"),
             "relations": rep.get("relations"),
             "resolution_counts": res,
@@ -132,12 +142,14 @@ def materialize(run_json: Path, db_dir: Path, eval_json: Path | None,
             audit_f.write(_j({"target": tgt, "kind": r[0],
                               "detail": json.loads(r[1] or "{}")}) + "\n")
         conn.close()
+        for edge in cen.get("redesignation_edges", []):
+            redesig_f.write(_j({"target": tgt, **edge}) + "\n")
         for span in redesignations:
             audit_f.write(_j({"target": tgt,
-                              "kind": "PROFILE_LIMIT_REDESIGNATION",
+                              "kind": "REDESIGNATION_SPAN",
                               "detail": span}) + "\n")
 
-    for f in (ops_f, att_f, bind_f, audit_f):
+    for f in (ops_f, att_f, bind_f, audit_f, redesig_f):
         f.close()
 
     (out_dir / "metrics.json").write_text(

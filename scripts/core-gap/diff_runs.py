@@ -39,6 +39,7 @@ _KEY = {
     "lifecycle.jsonl": ("target", "locator_key"),
     "attribution.jsonl": ("target", "modifier", "node_index"),
     "failures.jsonl": None,   # order-sensitive; compared as multiset
+    "redesignations.jsonl": ("edge_id",),
     "audit.jsonl": ("relation_id",),
 }
 
@@ -50,11 +51,20 @@ def _load_jsonl(p: Path) -> list[dict]:
             p.read_text(encoding="utf-8").splitlines() if l.strip()]
 
 
+# fields that legitimately differ between runs of the same code —
+# run identity/timestamps never carry semantic content
+_VOLATILE = {"run_id", "started_at", "finished_at", "timestamp"}
+
+
 def _row_key(fname: str, row: dict) -> str:
     ks = _KEY.get(fname)
     if not ks:
         return json.dumps(row, sort_keys=True, ensure_ascii=False)
     return "|".join(str(row.get(k)) for k in ks)
+
+
+def _strip_volatile(row: dict) -> dict:
+    return {k: v for k, v in row.items() if k not in _VOLATILE}
 
 
 def _match_expected(deltas: list[dict], fname: str, key: str,
@@ -70,6 +80,12 @@ def _match_expected(deltas: list[dict], fname: str, key: str,
         # key-prefix match (e.g. all rows of a target)
         if row is not None and d.get("match_key_prefix") and \
                 key.startswith(d["match_key_prefix"]):
+            return d["case"]
+        # substring match over the serialized row (failures ledger
+        # embeds the anomaly detail inside a JSON symptom string)
+        if row is not None and d.get("match_contains") and \
+                d["match_contains"] in json.dumps(
+                    row, ensure_ascii=False):
             return d["case"]
     return None
 
@@ -94,17 +110,20 @@ def diff_dir(baseline: Path, new: Path, deltas: list[dict]) -> dict:
                 (rep["expected"] if case else rep["lost_rows"]
                  ).append({"key": k, "case": case})
                 continue
-            if br == nr:
+            if _strip_volatile(br) == _strip_volatile(nr):
                 rep["identical"] += 1
                 continue
             changed = {f: [br.get(f), nr.get(f)] for f in
-                       set(br) | set(nr) if br.get(f) != nr.get(f)}
+                       set(_strip_volatile(br)) | set(_strip_volatile(nr))
+                       if br.get(f) != nr.get(f)}
             case = _match_expected(deltas, fname, k, nr)
             entry = {"key": k, "case": case, "changed": changed}
             (rep["expected"] if case else rep["unexpected"]).append(entry)
         for k, nr in nrows.items():
             if k not in brows:
-                rep["new_rows"].append({"key": k})
+                case = _match_expected(deltas, fname, k, nr)
+                (rep["expected"] if case else rep["new_rows"]
+                 ).append({"key": k, "case": case})
         out["files"][fname] = rep
         s = out["summary"]
         s["IDENTICAL"] += rep["identical"]

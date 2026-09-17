@@ -1,0 +1,67 @@
+{
+  "files": {
+    "attribution.jsonl": {
+      "identical": 1282,
+      "expected": [],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "audit.jsonl": {
+      "identical": 512,
+      "expected": [],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "bindings.jsonl": {
+      "identical": 512,
+      "expected": [],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "failures.jsonl": {
+      "identical": 543,
+      "expected": [],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "lifecycle.jsonl": {
+      "identical": 369,
+      "expected": [],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "operations.jsonl": {
+      "identical": 1282,
+      "expected": [],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "redesignations.jsonl": {
+      "identical": 6,
+      "expected": [],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "relations.jsonl": {
+      "identical": 512,
+      "expected": [],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    }
+  },
+  "summary": {
+    "IDENTICAL": 5018,
+    "EXPECTED_DELTA": 0,
+    "UNEXPECTED_DELTA": 0,
+    "NEW_ROWS": 0,
+    "LOST_ROWS": 0
+  }
+}

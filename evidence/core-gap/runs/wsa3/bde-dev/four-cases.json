@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "expected_root_cause": "RUNTIME_WRONG_TARGET_ATTRIBUTION",
+      "locator_key": "disp:final.primera",
+      "matched_locator_keys": [],
+      "matched_relation_ids": [],
+      "modifier": "BOE-A-2019-6888",
+      "new_root_cause_classes": [],
+      "old_relation_id": "0dcde453e170d0b37cd0b18d2cf859fabd5703e241ff054a342289f0bdfd1483",
+      "outcome": "NOT_EMITTED",
+      "target": "BOE-A-2012-9058"
+    },
+    {
+      "expected_root_cause": "RUNTIME_WRONG_TARGET_ATTRIBUTION",
+      "locator_key": "disp:final.primera",
+      "matched_locator_keys": [],
+      "matched_relation_ids": [],
+      "modifier": "BOE-A-2019-6888",
+      "new_root_cause_classes": [],
+      "old_relation_id": "e4c75192a90248d368b9b208950cf2b1e4c886b620c9cdc1d7307951cf7bb224",
+      "outcome": "NOT_EMITTED",
+      "target": "BOE-A-2012-9058"
+    },
+    {
+      "expected_root_cause": "RUNTIME_WRONG_LOCATOR",
+      "locator_key": "norma:11.apartado:1.letra:c",
+      "matched_locator_keys": [],
+      "matched_relation_ids": [],
+      "modifier": "BOE-A-2022-5524",
+      "new_root_cause_classes": [],
+      "old_relation_id": "149762c5a18bb955e7d91b73dd8676e23e3d46ae5a956aae166141d62353ba99",
+      "outcome": "NOT_EMITTED",
+      "target": "BOE-A-2012-9058"
+    },
+    {
+      "expected_root_cause": "RUNTIME_WRONG_LOCATOR",
+      "locator_key": "norma:11.apartado:9",
+      "matched_locator_keys": [],
+      "matched_relation_ids": [],
+      "modifier": "BOE-A-2022-5524",
+      "new_root_cause_classes": [],
+      "old_relation_id": "704ffae9f4df9f1cb18cacfa576ed752f58d92318314af9735a65e1c01cf58b4",
+      "outcome": "NOT_EMITTED",
+      "target": "BOE-A-2012-9058"
+    }
+  ],
+  "counts": {
+    "NOT_EMITTED": 4
+  },
+  "total": 4
+}

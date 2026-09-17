@@ -900,24 +900,41 @@ def test_g0c_counts_unchanged(built):
     #   the strict patterns missed (F2 — undotted numerals, compound
     #   dotted codes, level-aware regions). Relations 292 unchanged —
     #   coverage grew, the factual surface did not shrink.
+    # CORE-GAP WS-A_INTENTIONAL_SEMANTIC_CHANGE:
+    #   relations 292 -> 290, representations 255 -> 253, PARTIAL
+    #   104 -> 102, BINDING_NOT_PROVABLE 198 -> 196, +2 journaled
+    #   REDESIGNATION_REFUSED, +1 subject_redesignations edge:
+    #   'disposición adicional única … pasa a ser la disposición
+    #   adicional primera' (BOE-A-2020-15602) is a CODE_REDESIGNATION —
+    #   the old subject's MODIFY and the destination-side MODIFY (the
+    #   former FALSE_LOCATOR_DECLARATION class) are superseded by the
+    #   edge disp:adicional.única -> disp:adicional.primera. The two
+    #   refusals are honest UNPROVABLEs — 'estado FI 143 pasa a
+    #   denominarse «…»' (BOE-A-2020-6186, the denomination carries no
+    #   code) and 'apartado II.B.2 pasa a denominarse «…»'
+    #   (BOE-A-2020-6187, anejo leaf has no name-code extractor); both
+    #   keep their baseline MODIFY relations.
     conn, _, _ = built
     assert conn.execute(
         "SELECT COUNT(*) FROM subjects").fetchone()[0] == 223
     assert conn.execute(
-        "SELECT COUNT(*) FROM representations").fetchone()[0] == 255
+        "SELECT COUNT(*) FROM representations").fetchone()[0] == 253
     assert conn.execute(
-        "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 292
+        "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 290
+    assert conn.execute(
+        "SELECT COUNT(*) FROM subject_redesignations").fetchone()[0] == 1
     dist = dict(conn.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution").fetchall())
-    assert dist == {"RESOLVED": 110, "PARTIAL": 104, "UNRESOLVED": 78}
+    assert dist == {"RESOLVED": 110, "PARTIAL": 102, "UNRESOLVED": 78}
     kinds = dict(conn.execute(
         "SELECT kind, COUNT(*) FROM anomalies GROUP BY kind").fetchall())
     assert kinds.get(applicability.ANOMALY_TARGET_UNBOUND, 0) == 0
     # abstention anomalies explain the coverage loss
     assert sum(kinds.values()) == 361
+    assert kinds["REDESIGNATION_REFUSED"] == 2
     assert kinds["BINDING_NOT_FOUND"] == 40
-    assert kinds["BINDING_NOT_PROVABLE"] == 198
+    assert kinds["BINDING_NOT_PROVABLE"] == 196
     assert kinds["CHAIN_DISCONTINUITY"] == 43
     assert kinds["UNBOUND_SUBJECT"] == 78
     # G2.1: foreign-target abstentions are inventory dispositions, not

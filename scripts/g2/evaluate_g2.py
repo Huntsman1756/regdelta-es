@@ -845,6 +845,24 @@ def _evaluate_target(target: str, cell: str,
                 "failures": failures}
 
     rows = ev.relation_rows(conn)
+    # CORE-GAP WS-A additive output: dump the redesignation edge table
+    # when the runtime schema carries it (pre-WS-A schemas do not —
+    # OperationalError degrades to an empty ledger)
+    redesignations = []
+    try:
+        redesignations = [
+            {"edge_id": e[0], "target": target,
+             "modifier": e[1], "old_locator_key": e[2],
+             "new_locator_key": e[3], "resolution": e[4],
+             "publication_date": e[5]}
+            for e in conn.execute(
+                "SELECT r.edge_id, i.boe_id, r.old_locator_key,"
+                " r.new_locator_key, r.resolution, r.publication_date"
+                " FROM subject_redesignations r"
+                " JOIN instruments i"
+                "  ON i.instrument_id = r.modifier_instrument_id")]
+    except Exception:
+        pass
     proof_by_rid = {r[0]: json.loads(r[1]) for r in conn.execute(
         "SELECT relation_id, binding_proof"
         " FROM modification_relations")}
@@ -1252,6 +1270,7 @@ def _evaluate_target(target: str, cell: str,
             "operations": op_inventory,
             "attribution": attr_rows,
             "failures": failures, "relations": rows,
+            "redesignations": redesignations,
             "chain_ctx": chain_ctxs}
 
 
@@ -1310,6 +1329,7 @@ def run_split(targets: dict[str, str], by_url: dict[str, dict],
     out_dir.mkdir(parents=True, exist_ok=True)
     all_audit, all_bindings, all_failures = [], [], []
     all_ops, all_attr, all_life = [], [], []
+    all_redesig: list[dict] = []
     all_rows: dict[str, list[dict]] = {}
     audits_by_rid: dict[str, dict] = {}
     per_target = {}
@@ -1322,8 +1342,10 @@ def run_split(targets: dict[str, str], by_url: dict[str, dict],
                              if k not in ("audit", "bindings",
                                           "failures", "relations",
                                           "chain_ctx", "lifecycle",
-                                          "operations", "attribution")}
+                                          "operations", "attribution",
+                                          "redesignations")}
             all_rows[t] = res.get("relations", [])
+            all_redesig += res.get("redesignations", [])
             for a in res.get("audit", []):
                 audits_by_rid[a["relation_id"]] = a
             all_audit += res.get("audit", [])
@@ -1384,6 +1406,7 @@ def run_split(targets: dict[str, str], by_url: dict[str, dict],
     _dump("lifecycle.jsonl", all_life)
     _dump("operations.jsonl", all_ops)
     _dump("attribution.jsonl", all_attr)
+    _dump("redesignations.jsonl", all_redesig)
     _dump("relations.jsonl", [
         {**{k: r[k] for k in ("relation_id", "kind", "operation_kind",
                               "locator_key", "modifier_boe",

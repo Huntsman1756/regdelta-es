@@ -27,6 +27,9 @@ _WHITELIST = {
     Path("scripts/g0g/capture.py"),
     Path("evidence/g0g/PREREG.md"),
     Path("evidence/g0g/protocol.md"),
+    # CORE-GAP: the census names the holdout only to EXCLUDE it —
+    # mechanical path filter, never a semantic read (§6 isolation)
+    Path("scripts/core-gap/census.py"),
 }
 
 _REF_TOKENS = ("g0g/holdout", "g0g\\holdout", "g0g\" / \"holdout",

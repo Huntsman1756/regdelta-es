@@ -112,28 +112,35 @@ def _evidence_fetch(by_url: dict[str, dict]):
 
 
 def _redesignation_spans(by_name: dict[str, dict],
-                         modifier_boes: list[str]) -> list[dict]:
-    """PROFILE_LIMIT_REDESIGNATION accounting (journal #17).
+                         modifier_boes: list[str],
+                         conn: sqlite3.Connection) -> list[dict]:
+    """CORE-GAP WS-A redesignation accounting.
 
-    The CNMV profile narrows 'pasa(n) a ser/denominarse' so a
-    structural-designator destination ("pasa a ser el número 4") no
-    longer counts as an operative MODIFY verb: redesignation needs
-    old→new locator continuity the frozen core cannot express, and
-    emitting either locator falsifies identity. This scan replays the
-    modifier's own diario XML through the dev manifest (same bytes the
-    pipeline saw) and reports every clause span that (a) matches the
-    excluded construct and (b) carries no other operative verb.
-    Each span is flagged ``operative_candidate`` when it sits where
-    the ops parser would have admitted it (inside a section,
-    locator-class node, marked or unmarked opener with mentions) —
-    those are the candidates the abstention removed; the rest are
-    redesignation constructs in non-candidate positions (sumario
-    items, enumeration bullets), registered so the construct family
-    stays fully visible.
+    Every structural 'pasa(n) a ser/denominarse' clause in the
+    modifier's own diario XML (same bytes the pipeline saw), joined
+    with the run's outcomes: EDGE_EMITTED rows come from
+    subject_redesignations, REFUSED ones from REDESIGNATION_REFUSED
+    anomalies; candidates that produced neither are
+    CANDIDATE_NOT_EMITTED — the construct family stays fully visible.
     """
     p = active_profile()
     dm, og, lg = (p.document_model, p.operative_grammar,
                   p.locator_grammar)
+    edges: dict[int, list] = {}
+    try:
+        for ni, old, new in conn.execute(
+                "SELECT node_index, old_locator_key, new_locator_key"
+                " FROM subject_redesignations"):
+            edges.setdefault(ni, []).append(f"{old} -> {new}")
+    except sqlite3.OperationalError:
+        pass
+    refusals: dict[int, list] = {}
+    for (d,) in conn.execute(
+            "SELECT detail FROM anomalies"
+            " WHERE kind='REDESIGNATION_REFUSED'"):
+        det = json.loads(d)
+        refusals.setdefault(det.get("node_index"), []).append(
+            det.get("reason"))
     out: list[dict] = []
     for boe in sorted(set(modifier_boes)):
         e = by_name.get(f"boe_diario_xml__{boe}.xml")
@@ -157,12 +164,9 @@ def _redesignation_spans(by_name: dict[str, dict],
                 continue
             if not regdelta.profiles.cnmv.REDESIGNATION_RE.search(t):
                 continue
-            if operations._has_operative_verb(t):
-                continue
-            # candidacy mirrors operations._marked_op/_unmarked_op
-            # under the pre-narrowing lexeme: the redesignation match
-            # was the node's only operative verb, so the remaining
-            # gates decide whether it would have been a leaf op
+            # candidacy mirrors operations._marked_op/_unmarked_op:
+            # inside a section, locator-class node, marked or
+            # unmarked opener with mentions
             m = lg.clause_marker.match(t)
             rest = t[m.end():].lstrip() if m else ""
             marked = bool(m) and (
@@ -176,8 +180,19 @@ def _redesignation_spans(by_name: dict[str, dict],
             cand = (in_section(n.index)
                     and n.cls in dm.locator_classes
                     and (marked or unmarked))
+            if n.index in edges:
+                outcome = "EDGE_EMITTED"
+            elif n.index in refusals:
+                outcome = "REFUSED"
+            elif cand:
+                outcome = "CANDIDATE_NOT_EMITTED"
+            else:
+                outcome = "NON_CANDIDATE"
             out.append({"modifier": boe, "node_index": n.index,
                         "operative_candidate": cand,
+                        "outcome": outcome,
+                        "edges": edges.get(n.index, []),
+                        "refusals": refusals.get(n.index, []),
                         "text": t[:200]})
     return out
 
@@ -211,6 +226,17 @@ def _census(conn: sqlite3.Connection) -> dict:
         "SELECT COUNT(*) FROM applicability_clauses").fetchone()[0]
     out["applicability_effects"] = conn.execute(
         "SELECT COUNT(*) FROM applicability_effects").fetchone()[0]
+    try:
+        out["redesignation_edges"] = [
+            {"edge_id": r[0], "old": r[1], "new": r[2],
+             "node_index": r[3], "resolution": r[4],
+             "clause": r[5][:160]}
+            for r in conn.execute(
+                "SELECT edge_id, old_locator_key, new_locator_key,"
+                " node_index, resolution, clause_text"
+                " FROM subject_redesignations")]
+    except sqlite3.OperationalError:
+        out["redesignation_edges"] = []
     out["anomalies_by_kind"] = {
         r[0]: r[1] for r in conn.execute(
             "SELECT kind, COUNT(*) FROM anomalies GROUP BY kind")}
@@ -284,16 +310,25 @@ def main() -> int:
             data_dir.mkdir()
             results.append(_run_target(data_dir, target))
 
-    # PROFILE_LIMIT_REDESIGNATION accounting (journal #17): clause
-    # spans the profile's redesignation abstention removed from the
-    # operative-candidate set must stay visible, not silently drop.
+    # CORE-GAP WS-A accounting: structural redesignation clauses are
+    # operative again — each span is joined with the run's emitted
+    # edges or refusal anomalies so nothing drops silently.
     for r in results:
         if "error" in r:
             continue
         mod_boes = [m["boe_id"]
                     for m in r["report"].get("modifiers", [])]
-        r["profile_limit_redesignations"] = _redesignation_spans(
-            by_name, mod_boes)
+        data_dir = (args.persist_dir / r["target"]
+                    if args.persist_dir is not None else None)
+        if data_dir is None:
+            r["profile_limit_redesignations"] = []
+            continue
+        conn = dbm.connect(data_dir / "regdelta.sqlite")
+        try:
+            r["profile_limit_redesignations"] = _redesignation_spans(
+                by_name, mod_boes, conn)
+        finally:
+            conn.close()
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     envelope = {

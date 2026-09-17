@@ -189,6 +189,35 @@ CREATE TABLE IF NOT EXISTS modification_relations (
   subject_proof          TEXT NOT NULL DEFAULT '{}'
 );
 
+-- CORE-GAP WS-A: explicit redesignation edges. A clause-declared
+-- old_locator -> new_locator continuity claim. Locators remain distinct
+-- subjects; continuity lives ONLY here, never in the locator keys
+-- themselves. Rows exist only for proven pairs — every refusal is an
+-- anomaly, never a row.
+CREATE TABLE IF NOT EXISTS subject_redesignations (
+  edge_id                TEXT PRIMARY KEY CHECK (length(edge_id) = 64),
+  target_instrument_id   TEXT NOT NULL REFERENCES instruments(instrument_id),
+  modifier_instrument_id TEXT NOT NULL REFERENCES instruments(instrument_id),
+  old_locator_key        TEXT NOT NULL,
+  new_locator_key        TEXT NOT NULL,
+  old_subject_id         TEXT NOT NULL REFERENCES subjects(subject_id),
+  new_subject_id         TEXT NOT NULL REFERENCES subjects(subject_id),
+  clause_text            TEXT NOT NULL,
+  node_index             INTEGER,
+  publication_date       TEXT NOT NULL,
+  resolution             TEXT NOT NULL CHECK (resolution IN
+                         ('RESOLVED', 'DECLARED')),
+  edge_proof             TEXT NOT NULL DEFAULT '{}',
+  source_snapshot_ids    TEXT NOT NULL,
+  parser_name            TEXT NOT NULL,
+  parser_version         TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_redesig_old ON subject_redesignations(
+  target_instrument_id, old_locator_key);
+CREATE INDEX IF NOT EXISTS idx_redesig_new ON subject_redesignations(
+  target_instrument_id, new_locator_key);
+
 CREATE INDEX IF NOT EXISTS idx_repr_subject ON representations(subject_id);
 CREATE INDEX IF NOT EXISTS idx_modrel_subject ON modification_relations(target_subject_id);
 CREATE INDEX IF NOT EXISTS idx_modrel_modifier ON modification_relations(modifier_instrument_id);

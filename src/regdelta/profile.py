@@ -171,6 +171,29 @@ class OperativeGrammar:
     unmarked_opener: re.Pattern        # _unmarked_op inline clause opener
     container_close: re.Pattern        # 'se modifican:$' container form
     siguientes: str                    # enumeration head word 'siguientes'
+    # CORE-GAP WS-A — explicit redesignation edges (optional facets):
+    # ``redesig_verb`` matches the 'pasa(n) a ser/denominarse <dest>'
+    # verb whose RIGHT side is a destination, not a subject; subject
+    # composition is split at its start so old-side locators never
+    # merge with new-side designators. ``redesig_bare_dest`` captures a
+    # kind-less destination enumeration/name ('los nuevos 10, 11 y 12',
+    # 'denominarse «X»') whose kind is inherited from the paired old
+    # locator's leaf component. None disables redesignation parsing.
+    redesig_verb: re.Pattern | None = None
+    redesig_bare_dest: re.Pattern | None = None
+    # optional admissible destination prefix ('los nuevos 10, 11 y 13')
+    redesig_dest_prefix: re.Pattern | None = None
+    # structural destination designator vocabulary (singular+plural
+    # surface forms) — the gate that separates 'pasa a ser la norma 10'
+    # from 'pasa a ser aplicable a las normas 3 y 4'
+    redesig_designators: tuple = ()
+    # kinds whose locator leaf IS the denomination — a quoted rename
+    # moves the key itself (BdE fichero rubrics)
+    redesig_name_kinds: tuple = ()
+    # per-kind extractor: code inside a quoted denomination
+    # (a quoted denomination may still carry the code); absent kinds cannot resolve a
+    # bare-name destination and abstain
+    redesig_name_code: dict | None = None
 
 
 @dataclass(frozen=True)
@@ -287,7 +310,8 @@ LOCATOR_KINDS = frozenset({
     "estado", "fichero",
 })
 
-OP_KINDS = frozenset({"ADD", "DELETE", "MODIFY", "SUBSTITUTE"})
+OP_KINDS = frozenset({"ADD", "DELETE", "MODIFY", "SUBSTITUTE",
+                      "REDESIGNATE"})
 
 
 def validate_profile(profile: SourceProfile) -> None:

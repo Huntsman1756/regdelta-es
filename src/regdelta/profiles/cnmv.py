@@ -405,7 +405,7 @@ _OPERATIVE_GRAMMAR = OperativeGrammar(
         r"añadirse|introducirse|incorporarse|insertarse|derogarse|"
         r"crearse)|"
         r"queda\w*\s+(?:redactad|modificad|sustituid|derogad|definid)|"
-        + _PASA_SER + "|"
+        r"pasa\w*\s+a\s+(?:ser|denominarse)|"
         r"(?:se\s+)?da\w*\s+nueva\s+redacci[oó]n|"
         r"donde\s+dice|debe\s+decir|se\s+sombrea",
         re.IGNORECASE),
@@ -466,6 +466,11 @@ _OPERATIVE_GRAMMAR = OperativeGrammar(
             r"se\s+(?:modifica\w*|realiza\w*|sombrea)|queda\w*\s+"
             r"(?:redactad|modificad|definid)|" + _PASA_SER,
             re.IGNORECASE)),
+        # CORE-GAP WS-A: structural 'pasa(n) a ser/denominarse' is an
+        # old->new continuity edge, not a MODIFY. Subject composition
+        # splits at the verb (operations._subject_zone); destinations
+        # are parsed and paired in history._emit_redesignations.
+        ("REDESIGNATE", REDESIGNATION_RE),
     ),
     segment_split=re.compile(
         r"[;:]|\.\s|\s+(?:y|e|ni)\s+", re.IGNORECASE),
@@ -496,6 +501,34 @@ _OPERATIVE_GRAMMAR = OperativeGrammar(
     container_close=re.compile(
         r"se\s+(?:modifican?|realizan?|efectúan?)\s*:$", re.IGNORECASE),
     siguientes="siguientes",
+    # CORE-GAP WS-A — the redesig verb boundary is verb-only so the
+    # destination tail keeps its designator word ('ser el número 4');
+    # the bare-destination fallback covers kind-less enumerations the
+    # declaration grammar cannot type ('los nuevos 10, 11 y 12') and
+    # letter enums whose kind word is digit-keyed ('los apartados
+    # A, B y C').
+    redesig_verb=re.compile(
+        r"\bpasa\w*\s+a\s+(?:ser|denominarse)\b", re.IGNORECASE),
+    redesig_bare_dest=re.compile(
+        r"(?:los|las|el|la)\s+(?:nuev[oa]s?\s+)?"
+        r"(?:(?:apartados?|n[uú]meros?|letras?|puntos?|normas?|"
+        r"secciones?|anexos?|anejos?|numerales?|notas?|"
+        r"art[íi]culos?|p[aá]rrafos?|disposiciones|ficheros?|"
+        r"estados?)\s+)?"
+        r"((?:\d+|(?<![A-Za-z])[A-Za-z](?![A-Za-z]))"
+        r"(?:\s*(?:,|\s[ye]\s)\s*"
+        r"(?:\d+|(?<![A-Za-z])[A-Za-z](?![A-Za-z])))*)",
+        re.IGNORECASE),
+    # 'los nuevos 10, 11 y 13' — the 'nuevo' prefix is admissible
+    # destination vocabulary, stripped before the designator gate
+    redesig_dest_prefix=re.compile(r"nuev[oa]s?\s+", re.IGNORECASE),
+    redesig_designators=(
+        "norma", "normas", "número", "números", "apartado",
+        "apartados", "letra", "letras", "anexo", "anexos", "anejo",
+        "anejos", "sección", "secciones", "disposición",
+        "disposiciones", "punto", "puntos", "numeral", "numerales",
+        "nota", "notas", "artículo", "artículos", "párrafo",
+        "párrafos", "estado", "estados", "fichero", "ficheros"),
 )
 
 # ---------------------------------------------------------------------------
