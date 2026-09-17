@@ -33,4 +33,9 @@ emission in a way RegDelta can surface as a finding?
 
 ## Verdict
 
-PENDING — filled when all candidate fichas are evaluated.
+Evaluated (CORE-GAP recon 2026-09-19):
+- `projects/citation.md` — PATTERN; ordered component array shape
+- `projects/refex.md` — PATTERN; enumeration expansion + span-carrying cites
+- `projects/legalize-pipeline.md` — PATTERN; ES struct-token vocabulary, fuzzy-anchoring negative result
+- `projects/legislation-gov-uk.md` — PATTERN; (kind,number) URI grammar, source-faithful spelling
+- `projects/xmldiff.md` — DISCARD; heuristic move detection
