@@ -122,9 +122,18 @@ def _redesignation_spans(by_name: dict[str, dict],
     emitting either locator falsifies identity. This scan replays the
     modifier's own diario XML through the dev manifest (same bytes the
     pipeline saw) and reports every clause span that (a) matches the
-    excluded construct and (b) carries no other operative verb —
-    exactly the operative candidates the abstention removed.
+    excluded construct and (b) carries no other operative verb.
+    Each span is flagged ``operative_candidate`` when it sits where
+    the ops parser would have admitted it (inside a section,
+    locator-class node, marked or unmarked opener with mentions) —
+    those are the candidates the abstention removed; the rest are
+    redesignation constructs in non-candidate positions (sumario
+    items, enumeration bullets), registered so the construct family
+    stays fully visible.
     """
+    p = active_profile()
+    dm, og, lg = (p.document_model, p.operative_grammar,
+                  p.locator_grammar)
     out: list[dict] = []
     for boe in sorted(set(modifier_boes)):
         e = by_name.get(f"boe_diario_xml__{boe}.xml")
@@ -134,6 +143,14 @@ def _redesignation_spans(by_name: dict[str, dict],
             (ROOT / e["path"]).read_bytes()).doc
         if doc is None:
             continue
+        secs = operations.split_sections(doc)
+
+        def in_section(i: int) -> bool:
+            # no articulo structure -> whole body is one implicit
+            # section (parse_all_operations fallback)
+            return not secs or any(
+                s.node_start <= i < s.node_end for s in secs)
+
         for n in doc.nodes:
             t = re.sub(r"\s+", " ", (n.text or "").strip())
             if n.kind != "p" or len(t) < 12:
@@ -142,7 +159,25 @@ def _redesignation_spans(by_name: dict[str, dict],
                 continue
             if operations._has_operative_verb(t):
                 continue
+            # candidacy mirrors operations._marked_op/_unmarked_op
+            # under the pre-narrowing lexeme: the redesignation match
+            # was the node's only operative verb, so the remaining
+            # gates decide whether it would have been a leaf op
+            m = lg.clause_marker.match(t)
+            rest = t[m.end():].lstrip() if m else ""
+            marked = bool(m) and (
+                bool(regdelta.profiles.cnmv.REDESIGNATION_RE
+                     .search(t[:260]))
+                or (t.rstrip().endswith(":")
+                    and (bool(og.en_subject.search(rest))
+                         or bool(og.bare_subject.match(rest)))))
+            unmarked = bool(og.unmarked_opener.match(t)) and (
+                operations._mentions_or_literals(t) is not None)
+            cand = (in_section(n.index)
+                    and n.cls in dm.locator_classes
+                    and (marked or unmarked))
             out.append({"modifier": boe, "node_index": n.index,
+                        "operative_candidate": cand,
                         "text": t[:200]})
     return out
 

@@ -60,13 +60,18 @@ def materialize(run_json: Path, db_dir: Path, eval_json: Path | None,
             "leaf_operations": rep.get("operation_inventory", {})
                                   .get("leaf_operations_parsed"),
             # accounting identity (journal #17): operative candidates
-            # = leaf ops emitted + redesignation spans excluded by the
-            # profile abstention
+            # = leaf ops emitted + candidate spans the profile
+            # abstention excluded; non-candidate redesignation
+            # constructs are still registered in audit.jsonl
             "operative_candidates":
                 (rep.get("operation_inventory", {})
                  .get("leaf_operations_parsed") or 0)
-                + len(redesignations),
+                + sum(1 for s in redesignations
+                      if s.get("operative_candidate")),
             "profile_limit_redesignations": len(redesignations),
+            "redesignation_candidates_excluded": sum(
+                1 for s in redesignations
+                if s.get("operative_candidate")),
             "dispositions": rep.get("operation_inventory"),
             "relations": rep.get("relations"),
             "resolution_counts": res,
