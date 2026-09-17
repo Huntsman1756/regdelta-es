@@ -196,9 +196,9 @@ def main() -> int:
     # Every DEP member gets the full artifact trio reconstruct may
     # open (XML + doc HTML + PDF) plus annex images found in the doc
     # HTML. v1 bytes are reused when already captured (sha recorded).
-    v1_raw = [out_dir / "dev" / "raw", out_dir / "holdout" / "raw",
+    v1_raw = [out_dir / "dev" / "raw", out_dir / scout.SEALED_SIDE / "raw",
               ROOT / "evidence" / "port-cnmv" / "dev" / "raw",
-              ROOT / "evidence" / "port-cnmv" / "holdout" / "raw"]
+              ROOT / "evidence" / "port-cnmv" / scout.SEALED_SIDE / "raw"]
 
     def get_artifact(name: str, url: str, accept: str,
                      raw_dir: Path, entries: dict, cached=None):
@@ -265,7 +265,7 @@ def main() -> int:
 
     dev_entries, dev_docs, _ = capture_side(dev_targets, "dev")
     hold_entries, hold_docs, hm_path = \
-        capture_side(hold_targets, "holdout")
+        capture_side(hold_targets, scout.SEALED_SIDE)
 
     # --- reconstruct_dependency_plan check -----------------------------
     plan_ok = True
@@ -316,7 +316,7 @@ def main() -> int:
             ["git", "rev-parse", "HEAD"], capture_output=True,
             text=True, cwd=ROOT).stdout.strip(),
     }
-    (out_dir / "holdout" / "SEAL").write_text(
+    (out_dir / scout.SEALED_SIDE / "SEAL").write_text(
         json.dumps(seal, indent=1, ensure_ascii=False))
 
     # --- outputs ---------------------------------------------------------
