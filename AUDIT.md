@@ -96,7 +96,7 @@ no debe presentarse como un baseline de toda la suite.
 | Alta (resuelto) | La configuración de herramienta conservaba `permission: "allow"`; el watcher ignore no era control de acceso. | `opencode.json` fue eliminado del árbol de trabajo; ya no hay acceso irrestricto configurado. Si se recrea, restringir permisos/contexto frente a material privado/sellado. El runtime RegDelta no requiere esas claves. |
 | Bloqueo de release (resuelto) | Sin licencia de proyecto en el momento de la inspección. | El propietario eligió **Apache-2.0** (ver `LICENSE`, `pyproject.toml`). Quedan pendientes los derechos de las fuentes oficiales. |
 | Bloqueo de release (resuelto) | Port de esdata identificado en `scripts/port-cnmv/scout_cnmv.py:1–5,31`; `evidence/port-cnmv/OSS-RECON.md:6–13` no resolvía licencia/notices de ese upstream. | **A10 cerrado como PASS (2026-09-17, decisión del propietario):** el flujo `_discover_cnmv_circulares` entró en `esdata` con `80b9eb0` (el padre `0a50f13` aún tenía el crawler anterior); la búsqueda del identificador distintivo solo devuelve repos del propietario y este port; sin coautoría externa declarada. `origin = owner-controlled code`, `third-party provenance found = NO`, `additional attribution required = NO`. Due diligence razonable, no prueba jurídica absoluta. |
-| Verificación abierta | Inventario final de wheel/sdist confirmado; build y smoke exitosos no sustituyen la decisión de licencia. | 
+| Verificación abierta | Inventario final de wheel/sdist confirmado; build y smoke exitosos no sustituyen la decisión de licencia. |
 
 ## Runtime: hallazgos STATIC sin resolver
 
