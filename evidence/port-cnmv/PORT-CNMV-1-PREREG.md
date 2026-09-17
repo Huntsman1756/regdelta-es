@@ -179,6 +179,32 @@ evaluators: it may use the core document parser (`boe_diario` →
 - use runtime-emitted artifacts as oracle — they enter only as the
   claims under test.
 
+```text
+EVALUATOR IMPORT FIREWALL
+
+The independent evaluator may import only:
+- Python stdlib;
+- the canonical document/node data types;
+- the BOE raw parser needed to obtain the canonical node stream;
+- explicitly enumerated pure utilities that are proven
+  profile-independent.
+
+It MUST NOT import, directly or transitively:
+- regdelta.profiles.*
+- profile registry / active_profile / use_profile
+- profile-backed PEP 562 compatibility aliases
+- runtime operation/binding/ownership/history helpers whose
+  behavior depends on active_profile()
+- profile regexes, vocabularies or mappings.
+
+Before evaluator freeze, an import/dependency audit records the
+complete transitive project-module dependency set.
+
+Any dependency on profile-owned data:
+  EVALUATOR_INDEPENDENCE_BROKEN
+  -> gate cannot proceed to PORT-CNMV-2.
+```
+
 Minimum independently re-derived claim classes (same decomposition as
 the BdE gates so results stay comparable):
 
