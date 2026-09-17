@@ -1,8 +1,9 @@
 [project]
 name = "regdelta"
-version = "0.1.0"
+version = "0.3.0a0"
 description = "Experimental evidence-first ledger for Spanish financial regulatory sources."
 readme = "README.md"
+license = "Apache-2.0"
 requires-python = ">=3.11"
 dependencies = []
 
@@ -20,7 +21,7 @@ build-backend = "hatchling.build"
 packages = ["src/regdelta"]
 
 [tool.hatch.build.targets.sdist]
-only-include = ["src/regdelta", "pyproject.toml", "README.md", "CONTRIBUTING.md", "SECURITY.md"]
+only-include = ["src/regdelta", "pyproject.toml", "README.md", "CONTRIBUTING.md", "SECURITY.md", "LICENSE"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

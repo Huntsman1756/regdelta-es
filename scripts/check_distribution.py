@@ -18,7 +18,7 @@ def main() -> None:
                 path.parts[0] == "regdelta" or path.parts[0].endswith(".dist-info")
             ):
                 raise RuntimeError("unexpected wheel member")
-    allowed = {"pyproject.toml", "README.md", "CONTRIBUTING.md", "SECURITY.md", "PKG-INFO", ".gitignore"}
+    allowed = {"pyproject.toml", "README.md", "CONTRIBUTING.md", "SECURITY.md", "LICENSE", "PKG-INFO", ".gitignore"}
     with tarfile.open(sources[0]) as archive:
         for member in archive.getmembers():
             path = PurePosixPath(member.name)

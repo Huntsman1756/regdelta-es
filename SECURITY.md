@@ -27,11 +27,13 @@ verificaron rotación, valores del entorno ni autenticación. No se confirmó un
 filtración pública y no hubo escaneo exhaustivo del historial. Una variable
 ausente se sustituye por cadena vacía según la documentación de opencode.
 
-La configuración conserva los demás comportamientos, incluido
-`permission: "allow"`. Sanitizar credenciales no restringe acceso a archivos ni
-evita enviar contexto a proveedores externos. No usar herramientas de IA con
-datos privados o sellados sin autorización y controles de acceso. No pegar
-claves en ejemplos, incidencias, commits, logs ni comandos registrados.
+El archivo `opencode.json` fue eliminado posteriormente del árbol de trabajo;
+las referencias anteriores describen su estado en la auditoría. Si se recrea,
+restringir `permission` y el contexto accesible: sanitizar credenciales no
+restringe acceso a archivos ni evita enviar contexto a proveedores externos.
+No usar herramientas de IA con datos privados o sellados sin autorización y
+controles de acceso. No pegar claves en ejemplos, incidencias, commits, logs
+ni comandos registrados.
 
 ## Evidencia sellada e integridad
 

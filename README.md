@@ -168,10 +168,11 @@ reutilización, indicar su carácter informativo y conservar metadatos exigibles
 El HTML BdE se conserva como evidencia de observación; esto no concede una
 licencia general de redistribución.
 
-**No hay una licencia de proyecto elegida: su ausencia bloquea la distribución.**
-El propietario debe decidirla y resolver las obligaciones del código portado y
-las fuentes. Esta documentación no concede derechos ni toma esa decisión.
+El código del proyecto se distribuye bajo la licencia Apache-2.0
+([LICENSE](LICENSE)).
+Esa licencia no cubre los derechos de las fuentes oficiales observadas.
 
-El runtime no depende de `opencode.json`. Sus claves locales se sustituyeron
-por referencias a `NAN_BUILDERS_API_KEY` y `OPENROUTER_API_KEY`; la rotación y el
-reinicio de opencode siguen siendo acciones externas. Véase [SECURITY.md](SECURITY.md).
+El runtime no depende de `opencode.json`. El archivo local que contenía claves
+fue saneado y después eliminado; la rotación de `NAN_BUILDERS_API_KEY` y
+`OPENROUTER_API_KEY` sigue siendo una acción externa pendiente. Véase
+[SECURITY.md](SECURITY.md).
