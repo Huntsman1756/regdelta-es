@@ -1,0 +1,37 @@
+{
+  "gate": "CORE-GAP",
+  "base_commit": "f8e3a08f2f33380e2e1be4d0a5fdec98c58d722f",
+  "base_branch": "core-gap",
+  "frozen_from": "port-cnmv-1 @ f8e3a08 (adjudicated PROFILE_LIMIT)",
+  "sealed": {
+    "cnmv_holdout": "evidence/port-cnmv/split-v2/holdout + evidence/port-cnmv/holdout",
+    "bde_holdouts": "evidence/g0g/holdout, evidence/g1/holdout, evidence/g2/holdout",
+    "port_cnmv_2": "NOT AUTHORIZED"
+  },
+  "baseline_artifacts": {
+    "cnmv_eval_dev_007": "cbe6da32a18b44590ec5c5c486d5b18ef2c884a8cbf8a1481ab23a2dc67e3791",
+    "cnmv_dev_run_014": "7b748f0958b7bdeaa199a5c86001f22ced805617841ca025405c36059d793e82",
+    "cnmv_report": "14d95037600b485609a5e43dc71b16cc358d4e0593a5d4b975737a8c40b16106",
+    "bde_g22_run": "512a5c5760982af7b56a471844d96f46cd7d2b7929d234510b6e8fdfcf2be3b3",
+    "bde_g22_relations": "beb72dc42b40a1a8f7585ef2bc84a5c48869bb7c474cf2c253f50034d92b6f6e",
+    "bde_g22_operations": "53ebb2e82257c24b1addeee1bf814fb801b060bfc9c68e859adcbf0f358adb91",
+    "bde_g22_subject_outcomes": "75eefec99538085e2f010724455744a78fade0edc1fd12436667f67efb5960e4",
+    "exp_b1_cases": "49f3e2020207cc4c9e685105fc7b5b40498464c3e2d30c005eecd851ff8a47a9",
+    "exp_b1_result": "34f1df390d50d3c4bcf3941b3f5607582205772b75ec5c5c444432b64891a78b",
+    "cnmv_dev_manifest": "0fc34489ea4c6d327ac8eacb90c0abe7d975d15814f67fed2d94ef4f5d86f318",
+    "g2_dev_manifest": "af78fcac1e110e964d98a5900d9f79670768513aad75be75438a3d3c6c5f906e",
+    "g2_dev_targets": "8b9b8ce10eb5d20bdd64685155e01ed7ff6ffbeef102f6711d9f368d85fee40c"
+  },
+  "replay_corpora": {
+    "cnmv_dev": "scripts/port-cnmv/run_dev_probe.py over split-v2/dev manifest (4 targets)",
+    "bde_dev": "scripts/g2/evaluate_g2.py over g2 dev manifest+targets (16 targets, corpus-73 seen set)"
+  },
+  "six_families": [
+    "seccion subject materialization",
+    "unnumbered disposiciones",
+    "two-level apartado->numero nesting",
+    "image-only annex representation",
+    "unnumbered continuation items",
+    "redesignation/renumbering continuity"
+  ]
+}

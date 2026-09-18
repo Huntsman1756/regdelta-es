@@ -1,0 +1,615 @@
+{
+  "BOE-A-2008-16091": {
+    "modifiers": [
+      {
+        "boe_id": "BOE-A-2021-6049",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2018-17708",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2016-6646",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2013-5453",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2012-10479",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2011-19174",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2011-551",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2009-6555",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2008-19438",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2008-16917",
+        "kind": "CORRECTION"
+      }
+    ],
+    "leaf_operations": 68,
+    "operative_candidates": 68,
+    "profile_limit_redesignations": 0,
+    "redesignation_candidates_excluded": 0,
+    "dispositions": {
+      "leaf_operations_parsed": 68,
+      "attribution_dispositions": {
+        "TARGET_PROVEN": 17,
+        "FOREIGN_TARGET": 39,
+        "MODIFIER_LOCAL": 0,
+        "AMBIGUOUS": 0,
+        "NOT_PROVABLE": 12
+      },
+      "per_modifier": [
+        {
+          "modifier": "BOE-A-2008-16917",
+          "leaf_operations_parsed": 0,
+          "relations_emitted": 0,
+          "TARGET_PROVEN": 0,
+          "FOREIGN_TARGET": 0,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2008-19438",
+          "leaf_operations_parsed": 1,
+          "relations_emitted": 1,
+          "TARGET_PROVEN": 1,
+          "FOREIGN_TARGET": 0,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2009-6555",
+          "leaf_operations_parsed": 0,
+          "relations_emitted": 0,
+          "TARGET_PROVEN": 0,
+          "FOREIGN_TARGET": 0,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2011-551",
+          "leaf_operations_parsed": 10,
+          "relations_emitted": 1,
+          "TARGET_PROVEN": 2,
+          "FOREIGN_TARGET": 7,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 1
+        },
+        {
+          "modifier": "BOE-A-2011-19174",
+          "leaf_operations_parsed": 14,
+          "relations_emitted": 1,
+          "TARGET_PROVEN": 1,
+          "FOREIGN_TARGET": 2,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 11
+        },
+        {
+          "modifier": "BOE-A-2012-10479",
+          "leaf_operations_parsed": 12,
+          "relations_emitted": 3,
+          "TARGET_PROVEN": 2,
+          "FOREIGN_TARGET": 10,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2013-5453",
+          "leaf_operations_parsed": 13,
+          "relations_emitted": 5,
+          "TARGET_PROVEN": 5,
+          "FOREIGN_TARGET": 8,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2016-6646",
+          "leaf_operations_parsed": 4,
+          "relations_emitted": 3,
+          "TARGET_PROVEN": 3,
+          "FOREIGN_TARGET": 1,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2018-17708",
+          "leaf_operations_parsed": 11,
+          "relations_emitted": 2,
+          "TARGET_PROVEN": 2,
+          "FOREIGN_TARGET": 9,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2021-6049",
+          "leaf_operations_parsed": 3,
+          "relations_emitted": 2,
+          "TARGET_PROVEN": 1,
+          "FOREIGN_TARGET": 2,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        }
+      ]
+    },
+    "relations": 18,
+    "resolution_counts": {
+      "PARTIAL": 4,
+      "RESOLVED": 4,
+      "UNRESOLVED": 10
+    },
+    "subjects": 15,
+    "representations": 7,
+    "anomaly_count": 29,
+    "fetch_errors": [],
+    "op_kind_counts": {
+      "ADD": 7,
+      "DELETE": 1,
+      "MODIFY": 9,
+      "SUBSTITUTE": 1
+    },
+    "subject_kinds": {
+      "ANEJO": 1,
+      "APARTADO": 13,
+      "INDICE": 1
+    },
+    "anomalies_by_kind": {
+      "BINDING_NOT_FOUND": 5,
+      "BINDING_NOT_PROVABLE": 14,
+      "UNBOUND_SUBJECT": 10
+    }
+  },
+  "BOE-A-2008-20895": {
+    "modifiers": [
+      {
+        "boe_id": "BOE-A-2021-6049",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2018-17708",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2018-13716",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2017-14915",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2015-12404",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2014-11497",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2011-20107",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2011-19550",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2011-551",
+        "kind": "MODIFICATION"
+      }
+    ],
+    "leaf_operations": 113,
+    "operative_candidates": 116,
+    "profile_limit_redesignations": 3,
+    "redesignation_candidates_excluded": 3,
+    "dispositions": {
+      "leaf_operations_parsed": 113,
+      "attribution_dispositions": {
+        "TARGET_PROVEN": 51,
+        "FOREIGN_TARGET": 57,
+        "MODIFIER_LOCAL": 0,
+        "AMBIGUOUS": 4,
+        "NOT_PROVABLE": 1
+      },
+      "per_modifier": [
+        {
+          "modifier": "BOE-A-2011-551",
+          "leaf_operations_parsed": 10,
+          "relations_emitted": 1,
+          "TARGET_PROVEN": 1,
+          "FOREIGN_TARGET": 8,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 1
+        },
+        {
+          "modifier": "BOE-A-2011-19550",
+          "leaf_operations_parsed": 67,
+          "relations_emitted": 42,
+          "TARGET_PROVEN": 34,
+          "FOREIGN_TARGET": 33,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2011-20107",
+          "leaf_operations_parsed": 2,
+          "relations_emitted": 1,
+          "TARGET_PROVEN": 1,
+          "FOREIGN_TARGET": 1,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2014-11497",
+          "leaf_operations_parsed": 8,
+          "relations_emitted": 7,
+          "TARGET_PROVEN": 5,
+          "FOREIGN_TARGET": 3,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2015-12404",
+          "leaf_operations_parsed": 6,
+          "relations_emitted": 0,
+          "TARGET_PROVEN": 0,
+          "FOREIGN_TARGET": 2,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 4,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2017-14915",
+          "leaf_operations_parsed": 4,
+          "relations_emitted": 4,
+          "TARGET_PROVEN": 4,
+          "FOREIGN_TARGET": 0,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2018-13716",
+          "leaf_operations_parsed": 2,
+          "relations_emitted": 1,
+          "TARGET_PROVEN": 1,
+          "FOREIGN_TARGET": 1,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2018-17708",
+          "leaf_operations_parsed": 11,
+          "relations_emitted": 6,
+          "TARGET_PROVEN": 5,
+          "FOREIGN_TARGET": 6,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2021-6049",
+          "leaf_operations_parsed": 3,
+          "relations_emitted": 0,
+          "TARGET_PROVEN": 0,
+          "FOREIGN_TARGET": 3,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        }
+      ]
+    },
+    "relations": 62,
+    "resolution_counts": {
+      "PARTIAL": 19,
+      "RESOLVED": 19,
+      "UNRESOLVED": 24
+    },
+    "subjects": 57,
+    "representations": 48,
+    "anomaly_count": 87,
+    "fetch_errors": [],
+    "op_kind_counts": {
+      "ADD": 1,
+      "DELETE": 15,
+      "MODIFY": 29,
+      "SUBSTITUTE": 17
+    },
+    "subject_kinds": {
+      "APARTADO": 36,
+      "ESTADO": 7,
+      "NORMA": 12,
+      "PUNTO": 2
+    },
+    "anomalies_by_kind": {
+      "AMBIGUOUS_BINDING": 1,
+      "BINDING_NOT_FOUND": 34,
+      "BINDING_NOT_PROVABLE": 24,
+      "CHAIN_DISCONTINUITY": 4,
+      "UNBOUND_SUBJECT": 24
+    }
+  },
+  "BOE-A-2010-13162": {
+    "modifiers": [
+      {
+        "boe_id": "BOE-A-2025-8206",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2018-13716",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2014-11497",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2014-3559",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2018-17708",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2011-20107",
+        "kind": "MODIFICATION"
+      }
+    ],
+    "leaf_operations": 54,
+    "operative_candidates": 55,
+    "profile_limit_redesignations": 3,
+    "redesignation_candidates_excluded": 1,
+    "dispositions": {
+      "leaf_operations_parsed": 54,
+      "attribution_dispositions": {
+        "TARGET_PROVEN": 14,
+        "FOREIGN_TARGET": 38,
+        "MODIFIER_LOCAL": 0,
+        "AMBIGUOUS": 0,
+        "NOT_PROVABLE": 2
+      },
+      "per_modifier": [
+        {
+          "modifier": "BOE-A-2011-20107",
+          "leaf_operations_parsed": 2,
+          "relations_emitted": 1,
+          "TARGET_PROVEN": 1,
+          "FOREIGN_TARGET": 1,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2014-3559",
+          "leaf_operations_parsed": 0,
+          "relations_emitted": 0,
+          "TARGET_PROVEN": 0,
+          "FOREIGN_TARGET": 0,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2014-11497",
+          "leaf_operations_parsed": 8,
+          "relations_emitted": 13,
+          "TARGET_PROVEN": 3,
+          "FOREIGN_TARGET": 5,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2018-13716",
+          "leaf_operations_parsed": 2,
+          "relations_emitted": 1,
+          "TARGET_PROVEN": 1,
+          "FOREIGN_TARGET": 1,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2018-17708",
+          "leaf_operations_parsed": 11,
+          "relations_emitted": 3,
+          "TARGET_PROVEN": 2,
+          "FOREIGN_TARGET": 9,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2025-8206",
+          "leaf_operations_parsed": 31,
+          "relations_emitted": 12,
+          "TARGET_PROVEN": 7,
+          "FOREIGN_TARGET": 22,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 2
+        }
+      ]
+    },
+    "relations": 30,
+    "resolution_counts": {
+      "PARTIAL": 6,
+      "RESOLVED": 9,
+      "UNRESOLVED": 15
+    },
+    "subjects": 23,
+    "representations": 16,
+    "anomaly_count": 48,
+    "fetch_errors": [],
+    "op_kind_counts": {
+      "ADD": 6,
+      "DELETE": 10,
+      "MODIFY": 8,
+      "SUBSTITUTE": 6
+    },
+    "subject_kinds": {
+      "ANEJO": 3,
+      "APARTADO": 4,
+      "DISPOSICION": 1,
+      "ESTADO": 12,
+      "NORMA": 3
+    },
+    "anomalies_by_kind": {
+      "BINDING_NOT_FOUND": 4,
+      "BINDING_NOT_PROVABLE": 23,
+      "CHAIN_DISCONTINUITY": 6,
+      "UNBOUND_SUBJECT": 15
+    }
+  },
+  "BOE-A-1994-28725": {
+    "modifiers": [
+      {
+        "boe_id": "BOE-A-2008-19438",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2008-16091",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2008-15872",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-2008-7880",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-1998-30048",
+        "kind": "MODIFICATION"
+      },
+      {
+        "boe_id": "BOE-A-1997-26637",
+        "kind": "MODIFICATION"
+      }
+    ],
+    "leaf_operations": 12,
+    "operative_candidates": 12,
+    "profile_limit_redesignations": 0,
+    "redesignation_candidates_excluded": 0,
+    "dispositions": {
+      "leaf_operations_parsed": 12,
+      "attribution_dispositions": {
+        "TARGET_PROVEN": 3,
+        "FOREIGN_TARGET": 3,
+        "MODIFIER_LOCAL": 0,
+        "AMBIGUOUS": 0,
+        "NOT_PROVABLE": 6
+      },
+      "per_modifier": [
+        {
+          "modifier": "BOE-A-1997-26637",
+          "leaf_operations_parsed": 0,
+          "relations_emitted": 0,
+          "TARGET_PROVEN": 0,
+          "FOREIGN_TARGET": 0,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-1998-30048",
+          "leaf_operations_parsed": 0,
+          "relations_emitted": 0,
+          "TARGET_PROVEN": 0,
+          "FOREIGN_TARGET": 0,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2008-7880",
+          "leaf_operations_parsed": 3,
+          "relations_emitted": 1,
+          "TARGET_PROVEN": 3,
+          "FOREIGN_TARGET": 0,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2008-15872",
+          "leaf_operations_parsed": 8,
+          "relations_emitted": 0,
+          "TARGET_PROVEN": 0,
+          "FOREIGN_TARGET": 2,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 6
+        },
+        {
+          "modifier": "BOE-A-2008-16091",
+          "leaf_operations_parsed": 0,
+          "relations_emitted": 0,
+          "TARGET_PROVEN": 0,
+          "FOREIGN_TARGET": 0,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        },
+        {
+          "modifier": "BOE-A-2008-19438",
+          "leaf_operations_parsed": 1,
+          "relations_emitted": 0,
+          "TARGET_PROVEN": 0,
+          "FOREIGN_TARGET": 1,
+          "MODIFIER_LOCAL": 0,
+          "AMBIGUOUS": 0,
+          "NOT_PROVABLE": 0
+        }
+      ]
+    },
+    "relations": 1,
+    "resolution_counts": {
+      "RESOLVED": 1
+    },
+    "subjects": 1,
+    "representations": 2,
+    "anomaly_count": 0,
+    "fetch_errors": [],
+    "op_kind_counts": {
+      "MODIFY": 1
+    },
+    "subject_kinds": {
+      "NORMA": 1
+    },
+    "anomalies_by_kind": {}
+  }
+}

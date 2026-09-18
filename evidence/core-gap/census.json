@@ -1,0 +1,545 @@
+{
+  "step": "CORE-GAP census",
+  "corpora": {
+    "cnmv_dev": {
+      "xml_docs": 26,
+      "targets": [
+        "BOE-A-1994-28725",
+        "BOE-A-2008-16091",
+        "BOE-A-2008-20895",
+        "BOE-A-2010-13162"
+      ],
+      "root": "evidence/port-cnmv/split-v2/dev/raw"
+    },
+    "bde_seen": {
+      "xml_docs": 122,
+      "root": "evidence/**/raw (non-holdout)"
+    },
+    "holdout_xml_excluded": 115
+  },
+  "cnmv_dev": {
+    "docs": 26,
+    "parse_errors": 0,
+    "families": {
+      "seccion_heads": 48,
+      "seccion_refs": 127,
+      "disp_unnumbered_heads": 33,
+      "two_level_refs": 65,
+      "cont_items": 114,
+      "pasa_ser": 15,
+      "redesignation_structural": 6,
+      "img_nodes": 576
+    },
+    "per_doc": {
+      "BOE-A-1994-28725": {
+        "seccion_heads": 5,
+        "seccion_refs": 5,
+        "_target": true
+      },
+      "BOE-A-1997-26637": {
+        "disp_unnumbered_heads": 2
+      },
+      "BOE-A-1998-30048": {
+        "disp_unnumbered_heads": 1,
+        "two_level_refs": 2,
+        "cont_items": 9
+      },
+      "BOE-A-2008-15872": {
+        "seccion_heads": 3,
+        "seccion_refs": 12,
+        "disp_unnumbered_heads": 3,
+        "img_nodes": 44
+      },
+      "BOE-A-2008-16091": {
+        "seccion_heads": 2,
+        "seccion_refs": 3,
+        "disp_unnumbered_heads": 2,
+        "img_nodes": 67,
+        "_target": true
+      },
+      "BOE-A-2008-16917": {
+        "img_nodes": 1
+      },
+      "BOE-A-2008-19438": {
+        "seccion_heads": 5,
+        "seccion_refs": 12,
+        "two_level_refs": 1,
+        "img_nodes": 4
+      },
+      "BOE-A-2008-20895": {
+        "seccion_heads": 18,
+        "seccion_refs": 28,
+        "disp_unnumbered_heads": 2,
+        "two_level_refs": 3,
+        "img_nodes": 77,
+        "_target": true
+      },
+      "BOE-A-2008-7880": {
+        "seccion_refs": 2,
+        "img_nodes": 11
+      },
+      "BOE-A-2009-6555": {
+        "seccion_heads": 2,
+        "seccion_refs": 4,
+        "disp_unnumbered_heads": 2,
+        "cont_items": 3,
+        "img_nodes": 13
+      },
+      "BOE-A-2010-13162": {
+        "disp_unnumbered_heads": 3,
+        "img_nodes": 13,
+        "_target": true
+      },
+      "BOE-A-2011-19174": {
+        "disp_unnumbered_heads": 2,
+        "img_nodes": 80
+      },
+      "BOE-A-2011-19550": {
+        "seccion_refs": 3,
+        "disp_unnumbered_heads": 3,
+        "two_level_refs": 45,
+        "cont_items": 16,
+        "pasa_ser": 3,
+        "redesignation_structural": 3,
+        "img_nodes": 30
+      },
+      "BOE-A-2011-20107": {
+        "disp_unnumbered_heads": 3,
+        "img_nodes": 10
+      },
+      "BOE-A-2011-551": {
+        "seccion_heads": 2,
+        "seccion_refs": 10,
+        "disp_unnumbered_heads": 3,
+        "img_nodes": 22
+      },
+      "BOE-A-2012-10479": {
+        "disp_unnumbered_heads": 1,
+        "cont_items": 16
+      },
+      "BOE-A-2013-5453": {
+        "seccion_refs": 3,
+        "two_level_refs": 4,
+        "img_nodes": 27
+      },
+      "BOE-A-2014-11497": {
+        "pasa_ser": 2,
+        "img_nodes": 16
+      },
+      "BOE-A-2014-3559": {
+        "seccion_heads": 4,
+        "seccion_refs": 9,
+        "disp_unnumbered_heads": 1,
+        "cont_items": 22
+      },
+      "BOE-A-2015-12404": {
+        "pasa_ser": 1,
+        "img_nodes": 37
+      },
+      "BOE-A-2016-6646": {
+        "seccion_heads": 3,
+        "seccion_refs": 7,
+        "disp_unnumbered_heads": 2,
+        "cont_items": 6,
+        "img_nodes": 14
+      },
+      "BOE-A-2017-14915": {
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2018-13716": {
+        "img_nodes": 18
+      },
+      "BOE-A-2018-17708": {
+        "img_nodes": 22
+      },
+      "BOE-A-2021-6049": {
+        "disp_unnumbered_heads": 2,
+        "img_nodes": 70
+      },
+      "BOE-A-2025-8206": {
+        "seccion_heads": 4,
+        "seccion_refs": 29,
+        "two_level_refs": 10,
+        "cont_items": 42,
+        "pasa_ser": 9,
+        "redesignation_structural": 3
+      }
+    }
+  },
+  "bde_seen": {
+    "docs": 122,
+    "parse_errors": 0,
+    "families": {
+      "seccion_heads": 117,
+      "seccion_refs": 358,
+      "disp_unnumbered_heads": 62,
+      "two_level_refs": 8,
+      "cont_items": 7638,
+      "pasa_ser": 150,
+      "redesignation_structural": 8,
+      "img_nodes": 1020
+    },
+    "per_doc": {
+      "BOE-A-1998-13844": {
+        "pasa_ser": 3
+      },
+      "BOE-A-2001-7513": {
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2002-13015": {
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2004-12828": {
+        "disp_unnumbered_heads": 2,
+        "pasa_ser": 2
+      },
+      "BOE-A-2017-14334": {
+        "seccion_heads": 37,
+        "seccion_refs": 43,
+        "disp_unnumbered_heads": 2,
+        "cont_items": 18,
+        "pasa_ser": 5,
+        "img_nodes": 326
+      },
+      "BOE-A-2018-17880": {
+        "cont_items": 41
+      },
+      "BOE-A-2018-2041": {
+        "pasa_ser": 1
+      },
+      "BOE-A-2020-15602": {
+        "pasa_ser": 1,
+        "img_nodes": 22
+      },
+      "BOE-A-2020-6186": {
+        "cont_items": 14,
+        "pasa_ser": 2,
+        "img_nodes": 9
+      },
+      "BOE-A-2020-6187": {
+        "pasa_ser": 1
+      },
+      "BOE-A-2021-21666": {
+        "cont_items": 89,
+        "img_nodes": 22
+      },
+      "BOE-A-2023-5481": {
+        "cont_items": 3
+      },
+      "BOE-A-2025-26847": {
+        "seccion_refs": 2,
+        "cont_items": 24,
+        "pasa_ser": 4
+      },
+      "BOE-A-2006-623": {
+        "disp_unnumbered_heads": 1,
+        "pasa_ser": 2
+      },
+      "BOE-A-2007-15479": {
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2008-18886": {
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2010-12488": {
+        "cont_items": 5,
+        "img_nodes": 3
+      },
+      "BOE-A-2010-1824": {
+        "disp_unnumbered_heads": 1,
+        "img_nodes": 4
+      },
+      "BOE-A-2011-2378": {
+        "disp_unnumbered_heads": 1,
+        "pasa_ser": 3
+      },
+      "BOE-A-2012-3169": {
+        "seccion_refs": 6,
+        "cont_items": 7,
+        "pasa_ser": 1,
+        "img_nodes": 18
+      },
+      "BOE-A-2012-4804": {
+        "disp_unnumbered_heads": 1,
+        "cont_items": 200,
+        "pasa_ser": 1
+      },
+      "BOE-A-2013-7467": {
+        "disp_unnumbered_heads": 1,
+        "cont_items": 146
+      },
+      "BOE-A-2014-13365": {
+        "cont_items": 56,
+        "pasa_ser": 8
+      },
+      "BOE-A-2014-8654": {
+        "disp_unnumbered_heads": 1,
+        "pasa_ser": 3
+      },
+      "BOE-A-2015-13429": {
+        "disp_unnumbered_heads": 1,
+        "cont_items": 371,
+        "pasa_ser": 2
+      },
+      "BOE-A-2016-1238": {
+        "seccion_heads": 8,
+        "seccion_refs": 20,
+        "disp_unnumbered_heads": 2,
+        "img_nodes": 17
+      },
+      "BOE-A-2016-4356": {
+        "two_level_refs": 1,
+        "cont_items": 33,
+        "pasa_ser": 3,
+        "redesignation_structural": 1,
+        "img_nodes": 48
+      },
+      "BOE-A-2016-5724": {
+        "cont_items": 14
+      },
+      "BOE-A-2019-17286": {
+        "cont_items": 2
+      },
+      "BOE-A-1999-7736": {
+        "two_level_refs": 1
+      },
+      "BOE-A-2004-319": {
+        "disp_unnumbered_heads": 1,
+        "two_level_refs": 1
+      },
+      "BOE-A-2007-3035": {
+        "seccion_refs": 1
+      },
+      "BOE-A-2008-18824": {
+        "seccion_heads": 3,
+        "seccion_refs": 3,
+        "disp_unnumbered_heads": 2,
+        "img_nodes": 3
+      },
+      "BOE-A-2008-19921": {
+        "seccion_refs": 1,
+        "two_level_refs": 1,
+        "pasa_ser": 41,
+        "img_nodes": 43
+      },
+      "BOE-A-2010-11095": {
+        "seccion_refs": 2,
+        "pasa_ser": 2,
+        "redesignation_structural": 1,
+        "img_nodes": 8
+      },
+      "BOE-A-2010-1825": {
+        "pasa_ser": 5,
+        "img_nodes": 6
+      },
+      "BOE-A-2010-18686": {
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2010-20070": {
+        "seccion_refs": 1,
+        "disp_unnumbered_heads": 1,
+        "two_level_refs": 1,
+        "pasa_ser": 1,
+        "redesignation_structural": 1
+      },
+      "BOE-A-2010-20071": {
+        "seccion_refs": 15,
+        "disp_unnumbered_heads": 1,
+        "cont_items": 15,
+        "pasa_ser": 1
+      },
+      "BOE-A-2011-11349": {
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2011-19302": {
+        "cont_items": 22,
+        "pasa_ser": 4,
+        "redesignation_structural": 1,
+        "img_nodes": 21
+      },
+      "BOE-A-2012-3168": {
+        "cont_items": 3
+      },
+      "BOE-A-2012-5920": {
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2012-9058": {
+        "disp_unnumbered_heads": 2,
+        "cont_items": 68,
+        "img_nodes": 12
+      },
+      "BOE-A-2013-5720": {
+        "disp_unnumbered_heads": 1,
+        "cont_items": 1451,
+        "pasa_ser": 9,
+        "redesignation_structural": 2
+      },
+      "BOE-A-2013-8510": {
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2014-1182": {
+        "disp_unnumbered_heads": 2
+      },
+      "BOE-A-2014-1183": {
+        "seccion_heads": 11,
+        "seccion_refs": 10,
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2014-13572": {
+        "disp_unnumbered_heads": 1,
+        "img_nodes": 4
+      },
+      "BOE-A-2015-12529": {
+        "seccion_heads": 3,
+        "seccion_refs": 6,
+        "disp_unnumbered_heads": 1,
+        "cont_items": 12
+      },
+      "BOE-A-2015-3376": {
+        "cont_items": 2,
+        "img_nodes": 4
+      },
+      "BOE-A-2015-9054": {
+        "cont_items": 14
+      },
+      "BOE-A-2015-9107": {
+        "disp_unnumbered_heads": 2,
+        "cont_items": 79,
+        "pasa_ser": 3,
+        "img_nodes": 4
+      },
+      "BOE-A-2016-11483": {
+        "cont_items": 3,
+        "pasa_ser": 10,
+        "img_nodes": 12
+      },
+      "BOE-A-2016-1183": {
+        "disp_unnumbered_heads": 2,
+        "img_nodes": 4
+      },
+      "BOE-A-2016-2988": {
+        "disp_unnumbered_heads": 2,
+        "cont_items": 2,
+        "img_nodes": 2
+      },
+      "BOE-A-2016-5203": {
+        "disp_unnumbered_heads": 2,
+        "img_nodes": 3
+      },
+      "BOE-A-2016-6606": {
+        "img_nodes": 15
+      },
+      "BOE-A-2017-12562": {
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2017-7985": {
+        "cont_items": 1506,
+        "pasa_ser": 1
+      },
+      "BOE-A-2019-1694": {
+        "cont_items": 87
+      },
+      "BOE-A-2019-4955": {
+        "cont_items": 24,
+        "img_nodes": 1
+      },
+      "BOE-A-2020-1653": {
+        "cont_items": 1567,
+        "pasa_ser": 1
+      },
+      "BOE-A-2020-7869": {
+        "disp_unnumbered_heads": 1
+      },
+      "BOE-A-2021-1352": {
+        "cont_items": 366,
+        "pasa_ser": 2,
+        "img_nodes": 89
+      },
+      "BOE-A-2021-1475": {
+        "cont_items": 27,
+        "pasa_ser": 1,
+        "img_nodes": 2
+      },
+      "BOE-A-2021-19805": {
+        "cont_items": 6
+      },
+      "BOE-A-2021-21220": {
+        "img_nodes": 1
+      },
+      "BOE-A-2022-1718": {
+        "seccion_heads": 6,
+        "seccion_refs": 20,
+        "cont_items": 2,
+        "img_nodes": 7
+      },
+      "BOE-A-2022-5524": {
+        "seccion_refs": 14
+      },
+      "BOE-A-2023-23052": {
+        "seccion_refs": 2,
+        "img_nodes": 12
+      },
+      "BOE-A-2023-7662": {
+        "cont_items": 357,
+        "img_nodes": 94
+      },
+      "BOE-A-2024-1867": {
+        "seccion_refs": 1,
+        "cont_items": 10,
+        "img_nodes": 2
+      },
+      "BOE-A-2014-8189": {
+        "seccion_refs": 1,
+        "two_level_refs": 1,
+        "cont_items": 2,
+        "pasa_ser": 1,
+        "redesignation_structural": 1
+      },
+      "BOE-A-2016-4282": {
+        "img_nodes": 1
+      },
+      "BOE-A-2022-6051": {
+        "cont_items": 2
+      },
+      "BOE-A-1995-22113": {
+        "two_level_refs": 1
+      },
+      "BOE-A-1998-3311": {
+        "disp_unnumbered_heads": 1,
+        "img_nodes": 6
+      },
+      "BOE-A-2003-1413": {
+        "disp_unnumbered_heads": 3,
+        "img_nodes": 2
+      },
+      "BOE-A-2004-21845": {
+        "seccion_heads": 19,
+        "seccion_refs": 27,
+        "disp_unnumbered_heads": 1,
+        "pasa_ser": 1
+      },
+      "BOE-A-2008-9915": {
+        "seccion_heads": 22,
+        "seccion_refs": 157,
+        "disp_unnumbered_heads": 2,
+        "cont_items": 165,
+        "pasa_ser": 2,
+        "img_nodes": 73
+      },
+      "BOE-A-2023-8226": {
+        "img_nodes": 30
+      }
+    }
+  },
+  "bde_redesignation_prior": {
+    "source": "evidence/cov/exp-b1/cases.json",
+    "clauses": 85,
+    "classes": {
+      "CODE_REDESIGNATION": 15,
+      "NON_STRUCTURAL": 10,
+      "RELABEL_SAME_CODE": 5,
+      "SUBFIELD_RENAME": 39,
+      "UNPARSEABLE": 16
+    }
+  }
+}

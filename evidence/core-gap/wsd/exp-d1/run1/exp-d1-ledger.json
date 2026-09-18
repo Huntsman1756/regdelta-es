@@ -1,0 +1,1369 @@
+{
+ "annex_page_inline_images": {},
+ "annex_page_xobjects": [],
+ "annex_pages_diario_index": [
+  486,
+  487,
+  488,
+  489,
+  490,
+  491,
+  492,
+  493,
+  494,
+  495,
+  496,
+  497,
+  498,
+  499,
+  500,
+  501,
+  502,
+  503,
+  504,
+  505,
+  506,
+  507,
+  508,
+  509,
+  510,
+  511,
+  512,
+  513,
+  514,
+  515,
+  516,
+  517,
+  518,
+  519,
+  520,
+  521,
+  522,
+  523,
+  524,
+  525,
+  526,
+  527,
+  528,
+  529,
+  530,
+  531,
+  532,
+  533,
+  534,
+  535,
+  536,
+  537,
+  538,
+  539,
+  540,
+  541,
+  542,
+  543,
+  544,
+  545,
+  546,
+  547,
+  548,
+  549,
+  550,
+  551,
+  552,
+  553,
+  554,
+  555,
+  556,
+  557,
+  558,
+  559,
+  560,
+  561,
+  562,
+  563,
+  564,
+  565,
+  566
+ ],
+ "colorspaces": [
+  "None"
+ ],
+ "document": "BOE-A-2017-14334",
+ "exact_decoded_matches": [],
+ "exact_raw_matches": [],
+ "experiment": "EXP-D1 pypdf byte-equality",
+ "filters": [
+  "/CCITTFaxDecode"
+ ],
+ "images": [
+  {
+   "bpc": "1",
+   "colorspace": "None",
+   "decoded_len": 4259,
+   "decoded_sha256": "5ab9265e5a5570ffcbdb6ba0bd523e5a6e1251bdd70b525151b39eb9ea8f75a3",
+   "filter": "/CCITTFaxDecode",
+   "height": 396,
+   "page_index": 0,
+   "raw_len": 4151,
+   "raw_sha256": "8e93c0bce051801c1a931f9989b27a1c82ead04cbd70850a563181f9433ce22e",
+   "ref": "68 0 R",
+   "smask": null,
+   "width": 374,
+   "xobject_name": "/Im1"
+  },
+  {
+   "bpc": "1",
+   "colorspace": "None",
+   "decoded_len": 4031,
+   "decoded_sha256": "db287d8399ca1a8dcdcb931b30083c7dd5dc69bf219ff8bdfd0a56420acecb62",
+   "filter": "/CCITTFaxDecode",
+   "height": 311,
+   "page_index": 0,
+   "raw_len": 3923,
+   "raw_sha256": "749a243fd339eb0cd4f26e87c1be8b637b2eba63590038e8d3dab92a6b862687",
+   "ref": "69 0 R",
+   "smask": null,
+   "width": 742,
+   "xobject_name": "/Im0"
+  }
+ ],
+ "inline_image_pages_total": 0,
+ "official_png_assets": 204,
+ "pdf": {
+  "len": 39355759,
+  "pages": 588,
+  "path": "F:\\_Proyectos\\regdelta-cnmv1\\evidence\\g0c\\raw\\boe_dias_pdf__BOE-A-2017-14334.pdf",
+  "sha256": "0923cc0a16241a23e7d4237443d29fdf14a8dce37818c4c00278ab00b14bf16e"
+ },
+ "png_assets": {
+  "14334_46947.png": {
+   "entry": "boe_annex_img__119716__alt001",
+   "len": 263716,
+   "sha256": "ab006b004abb867a22cba14911c1fa34c47a7fcc216140d291d2b5e5ec225d1e",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_46947.png"
+  },
+  "14334_46982.png": {
+   "entry": "boe_imagen__815dbc19bf14",
+   "len": 224653,
+   "sha256": "815dbc19bf142fffe33fa761b95f024dfd3515f80b7834c93c43b48986e92777",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_46982.png"
+  },
+  "14334_47014.png": {
+   "entry": "boe_imagen__d13c05969239",
+   "len": 187471,
+   "sha256": "d13c05969239732f0183e24660224e9c1a3cd1c571aa62e9844b4a79f7f0ce4f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47014.png"
+  },
+  "14334_47046.png": {
+   "entry": "boe_imagen__de925c1b46e0",
+   "len": 248456,
+   "sha256": "de925c1b46e0b825e655c402146f8c20a5b2616e997e5c63e323ab6ed316eae2",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47046.png"
+  },
+  "14334_47078.png": {
+   "entry": "boe_imagen__d75400333a21",
+   "len": 264997,
+   "sha256": "d75400333a2112e74bc170d4cbf419968d5de56fd551d324e62e23f8042ef309",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47078.png"
+  },
+  "14334_47110.png": {
+   "entry": "boe_imagen__febf88259464",
+   "len": 265130,
+   "sha256": "febf88259464fd5aade002bcb59ff2a404829b4acbde78a005b7bb8574ccfc6c",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47110.png"
+  },
+  "14334_47141.png": {
+   "entry": "boe_imagen__1bc0db398924",
+   "len": 339138,
+   "sha256": "1bc0db398924bcd69728c23a765e59d599f4e59073c2e47af59e81692f217c65",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47141.png"
+  },
+  "14334_47172.png": {
+   "entry": "boe_imagen__5f99216fa6f8",
+   "len": 232129,
+   "sha256": "5f99216fa6f8a3ca2c55d2ba1d3618966d593627436a8d46a6838ea1887d5376",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47172.png"
+  },
+  "14334_47203.png": {
+   "entry": "boe_imagen__d9bcefc3b5de",
+   "len": 276483,
+   "sha256": "d9bcefc3b5dea9666c6142ca3c96c23aa776303437857d0027d4071234c015f5",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47203.png"
+  },
+  "14334_47234.png": {
+   "entry": "boe_imagen__869bf1c5f653",
+   "len": 270607,
+   "sha256": "869bf1c5f65344fb69cbac02748ffa64a806e6286b7553155e3b75beaef209e9",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47234.png"
+  },
+  "14334_47265.png": {
+   "entry": "boe_imagen__ae08aa956840",
+   "len": 236441,
+   "sha256": "ae08aa956840d373a3b694e95d4a391eef3013ca89abd16f9427694d82e3275f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47265.png"
+  },
+  "14334_47296.png": {
+   "entry": "boe_imagen__e6f3323cb7ea",
+   "len": 154680,
+   "sha256": "e6f3323cb7ea231e3fa746d3b1ff2752588dce6d642bfb9bec682be440133905",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47296.png"
+  },
+  "14334_47328.png": {
+   "entry": "boe_imagen__5a4c4c2e1112",
+   "len": 85835,
+   "sha256": "5a4c4c2e11121d35013ea9f3736ba9469195b9c938f6d66d61c74ff3bb2602a3",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47328.png"
+  },
+  "14334_47360.png": {
+   "entry": "boe_imagen__79d0c0e993e4",
+   "len": 208063,
+   "sha256": "79d0c0e993e45be9f570eb447324c071daecdc48ec6076b7f78a16659297ebb9",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47360.png"
+  },
+  "14334_47394.png": {
+   "entry": "boe_imagen__3b74c5bc71c1",
+   "len": 412629,
+   "sha256": "3b74c5bc71c1bec3bc744d3df316cd6edd03479e2ac29fa405d158f5dde9db61",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47394.png"
+  },
+  "14334_47427.png": {
+   "entry": "boe_imagen__e72b2c46d0f9",
+   "len": 493150,
+   "sha256": "e72b2c46d0f9647f716c86f4557d07b8d4a36786c190258a213c92c5628c57ae",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47427.png"
+  },
+  "14334_47460.png": {
+   "entry": "boe_imagen__217df240e35b",
+   "len": 502411,
+   "sha256": "217df240e35ba0221a4b455d935c97be14da3c8d084b6edbd753db6a7f144623",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47460.png"
+  },
+  "14334_47491.png": {
+   "entry": "boe_imagen__355ac70d77cf",
+   "len": 236908,
+   "sha256": "355ac70d77cf4a7802113a8c5810407ba19437ee69bc7498dd4036bbe6bd6ee5",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47491.png"
+  },
+  "14334_47522.png": {
+   "entry": "boe_imagen__479b7dd510c7",
+   "len": 225338,
+   "sha256": "479b7dd510c78152fecb5eb5e2522aee9d06d1a61de24571c799dd7e1b6354e3",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47522.png"
+  },
+  "14334_47553.png": {
+   "entry": "boe_imagen__8f12fcce5371",
+   "len": 216796,
+   "sha256": "8f12fcce5371841c02b1057e4a417bf9c7897ea4758112fab6a2c49d9aadc885",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47553.png"
+  },
+  "14334_47584.png": {
+   "entry": "boe_imagen__2dddd33c998d",
+   "len": 269318,
+   "sha256": "2dddd33c998d6049f7cfa54bb61a70143864739f397251f8772b67a3c8e010ec",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47584.png"
+  },
+  "14334_47615.png": {
+   "entry": "boe_imagen__25d46540d237",
+   "len": 200553,
+   "sha256": "25d46540d23702774c9de012d10c071a0c9d5ba5b3d8ad1206f140d8f110cec4",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47615.png"
+  },
+  "14334_47646.png": {
+   "entry": "boe_imagen__e412006b597d",
+   "len": 271426,
+   "sha256": "e412006b597d7c94497847296e805aef07a0995d8c83315d88f79c0860669730",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47646.png"
+  },
+  "14334_47678.png": {
+   "entry": "boe_imagen__ea7ba5ec03a4",
+   "len": 162131,
+   "sha256": "ea7ba5ec03a4abd31bf955682f0ae527e7ae741733fa375b981a1e9fa89e45c3",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47678.png"
+  },
+  "14334_47710.png": {
+   "entry": "boe_imagen__c5705265026b",
+   "len": 127621,
+   "sha256": "c5705265026bc9970498f74354096771cc1a15490ffe5623d6e4e8517efdebde",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47710.png"
+  },
+  "14334_47746.png": {
+   "entry": "boe_imagen__5085db4ed555",
+   "len": 90592,
+   "sha256": "5085db4ed555d1597f2a82e0a19313ffd67e07dc8f6d39c25c27ccae6ce5e912",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47746.png"
+  },
+  "14334_47782.png": {
+   "entry": "boe_imagen__34b5fe5417ec",
+   "len": 217850,
+   "sha256": "34b5fe5417ec6eb437b1e4d5eb6705fbd81c9a12f5675d612f883c9012d3021c",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47782.png"
+  },
+  "14334_47814.png": {
+   "entry": "boe_imagen__c2d024beccfc",
+   "len": 246348,
+   "sha256": "c2d024beccfc111e800b3dcff0456822ff9e373cf523a66067b30f6e53bcb302",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47814.png"
+  },
+  "14334_47845.png": {
+   "entry": "boe_imagen__0025a26b0790",
+   "len": 203447,
+   "sha256": "0025a26b0790f16ec468123b9afbed1f42a63c3a5d0ec2d3ef610cb63c3e6747",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47845.png"
+  },
+  "14334_47877.png": {
+   "entry": "boe_imagen__49ff22215b0c",
+   "len": 367610,
+   "sha256": "49ff22215b0c2d96044553d018918a3f80c1713ac4116a77a553acf3087e065c",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47877.png"
+  },
+  "14334_47908.png": {
+   "entry": "boe_imagen__485a6e8f507c",
+   "len": 328845,
+   "sha256": "485a6e8f507c83184ce7aa928d4f2dc259f2c3df3865b84f5db7943c3b076266",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47908.png"
+  },
+  "14334_47940.png": {
+   "entry": "boe_imagen__a715e42412ed",
+   "len": 223411,
+   "sha256": "a715e42412ed2a7ad1efd73d1c9f97f72c7fe73f408d4729f5647f324b083a7e",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_47940.png"
+  },
+  "14334_48034.png": {
+   "entry": "boe_imagen__524a2d21c2d7",
+   "len": 152600,
+   "sha256": "524a2d21c2d7ea808789fbd0a7f6553b4202b8e3522cd43b7296ab975eaabc9d",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48034.png"
+  },
+  "14334_48067.png": {
+   "entry": "boe_imagen__b5f4049123c3",
+   "len": 227854,
+   "sha256": "b5f4049123c31a478a42a35bd09bf2781ea7d8a828c10b41f26ea0029fecc407",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48067.png"
+  },
+  "14334_48104.png": {
+   "entry": "boe_imagen__dc5aa578d5f9",
+   "len": 190818,
+   "sha256": "dc5aa578d5f91299f8af824a686826f2b03aa79796cc0470fba5ed348912e731",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48104.png"
+  },
+  "14334_48136.png": {
+   "entry": "boe_imagen__40cfa6861073",
+   "len": 241743,
+   "sha256": "40cfa686107302ee75ea2fdcd90dcba419cd84901e0001f74f5a4f167fda29e5",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48136.png"
+  },
+  "14334_48168.png": {
+   "entry": "boe_imagen__1efd26cf3cfe",
+   "len": 241698,
+   "sha256": "1efd26cf3cfe6c6da4d49fecdac077b71d657b27f0844eb744bb33346abd4836",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48168.png"
+  },
+  "14334_48199.png": {
+   "entry": "boe_imagen__ffe78a302209",
+   "len": 276822,
+   "sha256": "ffe78a302209f696650ae2d7682bca64361cc693d3b2ae9ecf13086651c7b1e6",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48199.png"
+  },
+  "14334_48230.png": {
+   "entry": "boe_imagen__830e2e64264e",
+   "len": 328014,
+   "sha256": "830e2e64264e997fdb9db61dd257a8abc02ab26711b6ec66f0c96bf5f9151f4c",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48230.png"
+  },
+  "14334_48261.png": {
+   "entry": "boe_imagen__276177f215da",
+   "len": 239747,
+   "sha256": "276177f215da6771c54e74391042678aa2bcf99408c98e9baf235ed564975c36",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48261.png"
+  },
+  "14334_48292.png": {
+   "entry": "boe_imagen__a56708d245d4",
+   "len": 228036,
+   "sha256": "a56708d245d4df4363c9cadcc4c4baca1dc548567279c830aabc59a276e4b9a2",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48292.png"
+  },
+  "14334_48323.png": {
+   "entry": "boe_imagen__8192feb9b0b4",
+   "len": 234376,
+   "sha256": "8192feb9b0b4ccce863ad2952b8f9a0386ff12168849d589ea88adf36b874480",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48323.png"
+  },
+  "14334_48354.png": {
+   "entry": "boe_imagen__4ad49e9e447b",
+   "len": 240209,
+   "sha256": "4ad49e9e447b51c0c84cb875813981de2fcaab723914657e01155dac19db796a",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48354.png"
+  },
+  "14334_48386.png": {
+   "entry": "boe_imagen__d2da033fef2b",
+   "len": 157501,
+   "sha256": "d2da033fef2b52683e8db831a0e5cf3bbe519474a226714205506c2fb54a5a60",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48386.png"
+  },
+  "14334_48420.png": {
+   "entry": "boe_imagen__1f120eda7539",
+   "len": 87440,
+   "sha256": "1f120eda7539ac4232b131f59f3f91eaf757c2f57d82e9432f328ae2407d1050",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48420.png"
+  },
+  "14334_48454.png": {
+   "entry": "boe_imagen__5b300b8f2880",
+   "len": 213466,
+   "sha256": "5b300b8f2880a12240c3fdb2424804f4e4209f9e8829e67a78cdeb9f1932e8ea",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48454.png"
+  },
+  "14334_48487.png": {
+   "entry": "boe_imagen__89e5f6930f23",
+   "len": 378449,
+   "sha256": "89e5f6930f23307a65be0b58ad7c77f50e986adf1c3074566165ce94a888cdff",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48487.png"
+  },
+  "14334_48520.png": {
+   "entry": "boe_imagen__a21bd96a9e86",
+   "len": 470251,
+   "sha256": "a21bd96a9e862b91f33ef1a5f9a727fc2ca8e0320268684e22db45503ffe6248",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48520.png"
+  },
+  "14334_48551.png": {
+   "entry": "boe_imagen__ef1adb2c090c",
+   "len": 431553,
+   "sha256": "ef1adb2c090cedc441cf580fbca7b3a898a4ce1cc6ed7bd1b22d9815f51938c9",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48551.png"
+  },
+  "14334_48582.png": {
+   "entry": "boe_imagen__fb22c9226d10",
+   "len": 258400,
+   "sha256": "fb22c9226d10ef756f5fc44da6fcde73bfda5950aaae91e30d3ee69342e1c5e0",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48582.png"
+  },
+  "14334_48613.png": {
+   "entry": "boe_imagen__122f2c243fa6",
+   "len": 242323,
+   "sha256": "122f2c243fa6daed7207b2e5678d7dc00a5c13da7be51058d716b56e38cbd9e8",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48613.png"
+  },
+  "14334_48644.png": {
+   "entry": "boe_imagen__5b391eb82e82",
+   "len": 206735,
+   "sha256": "5b391eb82e82d749ac634e3cd32d34c94e6edd3e051d82261a568d82b87482bf",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48644.png"
+  },
+  "14334_48675.png": {
+   "entry": "boe_imagen__b70151bb19c1",
+   "len": 242394,
+   "sha256": "b70151bb19c19fbf3a805f092fd1df97b6f2fb2a50199c61b519dff6387e7c79",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48675.png"
+  },
+  "14334_48706.png": {
+   "entry": "boe_imagen__d11f5a208f3a",
+   "len": 224498,
+   "sha256": "d11f5a208f3a009600a5e1161027177b914d8e5b82f32232721f894e98364759",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48706.png"
+  },
+  "14334_48740.png": {
+   "entry": "boe_imagen__37895b67202b",
+   "len": 229986,
+   "sha256": "37895b67202b4a7efdaf36244e17db94ecf7cea869fe6fcd11c2e0066c36e1e3",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48740.png"
+  },
+  "14334_48773.png": {
+   "entry": "boe_imagen__23a1c2391db4",
+   "len": 257870,
+   "sha256": "23a1c2391db44a177f979147ee1a3f6dadc714ce7dd866f9661ef38604984c1a",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48773.png"
+  },
+  "14334_48807.png": {
+   "entry": "boe_imagen__1c70a534320b",
+   "len": 194749,
+   "sha256": "1c70a534320b8435846f954b5bc4925d2f50964ba86969c7a9e269ed0301f75e",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48807.png"
+  },
+  "14334_48839.png": {
+   "entry": "boe_imagen__2ee3ee02181b",
+   "len": 159613,
+   "sha256": "2ee3ee02181b7f1d84cd52300858f055bdb858fb6cc72da059c6dbe9cb39a4cc",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48839.png"
+  },
+  "14334_48872.png": {
+   "entry": "boe_imagen__1f24ba4f984d",
+   "len": 281481,
+   "sha256": "1f24ba4f984df3f64dcf06e13b3b3b5fb494615c79f8ad39a8473155738a985c",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48872.png"
+  },
+  "14334_48904.png": {
+   "entry": "boe_imagen__0dd5489ec0a4",
+   "len": 340119,
+   "sha256": "0dd5489ec0a40fc6409a4c009a5b30645f69110248e314379f64f528cda8a419",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_48904.png"
+  },
+  "14334_49769.png": {
+   "entry": "boe_imagen__28201ebcedd9",
+   "len": 193978,
+   "sha256": "28201ebcedd979437eafbe92214a48de9d2652db1d7a15aea2d787e295798476",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_49769.png"
+  },
+  "14334_49832.png": {
+   "entry": "boe_imagen__01ff5e50a6d9",
+   "len": 298398,
+   "sha256": "01ff5e50a6d9d86e3ee5918b1a352f9f2f06e67062b32e30647f9b05210ba3f0",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_49832.png"
+  },
+  "14334_49902.png": {
+   "entry": "boe_imagen__ea52f51816c6",
+   "len": 349543,
+   "sha256": "ea52f51816c6fbc4de457363de2c431603ff72ff2018b42c6a2e1fd6e3a90916",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_49902.png"
+  },
+  "14334_49934.png": {
+   "entry": "boe_imagen__64132975370d",
+   "len": 111504,
+   "sha256": "64132975370de396827d2bcfbe06f3826ae68ef79417c9d561550e2af242785b",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_49934.png"
+  },
+  "14334_50186.png": {
+   "entry": "boe_imagen__c56c36e4a5ac",
+   "len": 74651,
+   "sha256": "c56c36e4a5ac803ed7c95154e4edaccd162ab8c72a649d06bd4a71bcb574c2ca",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50186.png"
+  },
+  "14334_50221.png": {
+   "entry": "boe_imagen__3b3a3cfb802b",
+   "len": 72884,
+   "sha256": "3b3a3cfb802be7eab0a5ded8977f9e1a2fb1036ddff7b0b42fce81f1a73444e4",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50221.png"
+  },
+  "14334_50255.png": {
+   "entry": "boe_annex_img__119818__alt103",
+   "len": 93470,
+   "sha256": "5837ad79911eebb2fdcfaebaf236cbd73800ae609547acd521ce58fc81f91cb1",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50255.png"
+  },
+  "14334_50319.png": {
+   "entry": "boe_imagen__fc263371fc44",
+   "len": 270776,
+   "sha256": "fc263371fc444e7a6b67a603f80f1aa1d81e39e7aa32db55a3a2e954b112037e",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50319.png"
+  },
+  "14334_50350.png": {
+   "entry": "boe_imagen__1d3c0fd31043",
+   "len": 255999,
+   "sha256": "1d3c0fd3104336acb0b0e3e996249979397ae535ba706d7108e6c91125f57194",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50350.png"
+  },
+  "14334_50382.png": {
+   "entry": "boe_imagen__5d2a5fa0cc70",
+   "len": 496537,
+   "sha256": "5d2a5fa0cc70cfb2437a5b534feef5cc46ca7302854242a9681e52bf18c12847",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50382.png"
+  },
+  "14334_50413.png": {
+   "entry": "boe_annex_img__119823__alt108",
+   "len": 413519,
+   "sha256": "abcf8f346cd1f5750a5698503614ebd297b059d6922a19276ed9e1dbbbc33c48",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50413.png"
+  },
+  "14334_50444.png": {
+   "entry": "boe_annex_img__119824__alt109",
+   "len": 207066,
+   "sha256": "4180025da2423ee259a401adc2619aedad8a9c391f11355554cf1d9de67c9de5",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50444.png"
+  },
+  "14334_50506.png": {
+   "entry": "boe_imagen__44a14abec307",
+   "len": 112996,
+   "sha256": "44a14abec3072eb3515c27dcc906b0010ada5ea2ab457464d57dec545a14f1a1",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50506.png"
+  },
+  "14334_50540.png": {
+   "entry": "boe_imagen__62a1a11214fb",
+   "len": 366103,
+   "sha256": "62a1a11214fbed27a5c34834f53b9497ac72284076159154644dccd2cb216322",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50540.png"
+  },
+  "14334_50705.png": {
+   "entry": "boe_imagen__93a07c84cc31",
+   "len": 179493,
+   "sha256": "93a07c84cc310108a60e1fc7b0b92d121d597ef68220ed8e3162e3b460927a68",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50705.png"
+  },
+  "14334_50736.png": {
+   "entry": "boe_imagen__9dbc5423325d",
+   "len": 466327,
+   "sha256": "9dbc5423325dd56a7d607c12b689bebbef6166900133bf5934f2d2159c629066",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50736.png"
+  },
+  "14334_50767.png": {
+   "entry": "boe_imagen__e55aa5cddee1",
+   "len": 371526,
+   "sha256": "e55aa5cddee14df6c89a1fa092c7949f6a2c1877dc0455dc0e49e772c0db87b5",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50767.png"
+  },
+  "14334_50798.png": {
+   "entry": "boe_annex_img__119835__alt120",
+   "len": 421548,
+   "sha256": "911a864b8567472e015b2cf14390493cd2903e0f7668bc893513c9367f8127f0",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50798.png"
+  },
+  "14334_50829.png": {
+   "entry": "boe_annex_img__119836__alt121",
+   "len": 374907,
+   "sha256": "7d58c4df6e5dd59afc86c0878ae3ccde1f1e687870718f04fee24008a8337fb9",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50829.png"
+  },
+  "14334_50861.png": {
+   "entry": "boe_annex_img__119837__alt122",
+   "len": 403849,
+   "sha256": "3ed21b3d41854d095539577a9479a2e4032a27b184a198d84af8b8b60c42d897",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50861.png"
+  },
+  "14334_50926.png": {
+   "entry": "boe_imagen__953c6d51d3e0",
+   "len": 132836,
+   "sha256": "953c6d51d3e02a2cbdab7bff928e5094feda5c34e8086c23fed11c27713ca8c8",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50926.png"
+  },
+  "14334_50960.png": {
+   "entry": "boe_imagen__bcbe543182a8",
+   "len": 312256,
+   "sha256": "bcbe543182a8e3b016042ed7a1fa8938135e591d49c486cd7ab0bb073852660d",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_50960.png"
+  },
+  "14334_51025.png": {
+   "entry": "boe_imagen__abb899941fce",
+   "len": 249448,
+   "sha256": "abb899941fcece3d2e99e87adb1d5b355ae65914f772ab7e0fafbe9519b17dbc",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51025.png"
+  },
+  "14334_51056.png": {
+   "entry": "boe_annex_img__119843__alt128",
+   "len": 352995,
+   "sha256": "1d6aa9e7cc5cf09daf90e84c689e995e23505064ddbbc3d2f980d82aca021c1d",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51056.png"
+  },
+  "14334_51277.png": {
+   "entry": "boe_imagen__d22ce6a41a4c",
+   "len": 340134,
+   "sha256": "d22ce6a41a4c0411c17951973085a25cdf2856e7ef0bbed409b0c74e0d04d994",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51277.png"
+  },
+  "14334_51311.png": {
+   "entry": "boe_imagen__a28bf5b565ca",
+   "len": 351517,
+   "sha256": "a28bf5b565ca76171f60649aa2d6745e0a9816c8dd1b0e814039dc233dc8c957",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51311.png"
+  },
+  "14334_51345.png": {
+   "entry": "boe_imagen__d8d6e3647e25",
+   "len": 245000,
+   "sha256": "d8d6e3647e251b0686d1710a16b79d0233723dfb008956c1649419f11d92175f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51345.png"
+  },
+  "14334_51377.png": {
+   "entry": "boe_imagen__58b604d0ddc1",
+   "len": 221959,
+   "sha256": "58b604d0ddc1c6c69ca10a9a4c14b9d2d12549d6f174bba17dad6d3a389fab61",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51377.png"
+  },
+  "14334_51408.png": {
+   "entry": "boe_imagen__8c67f60ec2a4",
+   "len": 222012,
+   "sha256": "8c67f60ec2a493c2071da5554628aed2adb6c9525f7181fc641aebef0193bd45",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51408.png"
+  },
+  "14334_51439.png": {
+   "entry": "boe_imagen__bd7cf7bbad36",
+   "len": 221835,
+   "sha256": "bd7cf7bbad367a4e61f9c38e36b44ff7e7eb9b182aef27b02a44210376aaab47",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51439.png"
+  },
+  "14334_51470.png": {
+   "entry": "boe_imagen__d2823160ff73",
+   "len": 186850,
+   "sha256": "d2823160ff7371ef984fcf58b690d4178318910e6fd11ea4dd4a5b790318be4f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51470.png"
+  },
+  "14334_51501.png": {
+   "entry": "boe_imagen__307c1cc2ef75",
+   "len": 128433,
+   "sha256": "307c1cc2ef75218802c8b1f7630da22c19120fe882f8e615111063261d715b3a",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51501.png"
+  },
+  "14334_51533.png": {
+   "entry": "boe_imagen__c6894e970824",
+   "len": 218916,
+   "sha256": "c6894e970824ae5d47b23c853eff4cc776c4500da6a53bcd8abfb5bd7b98d4c5",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51533.png"
+  },
+  "14334_51564.png": {
+   "entry": "boe_imagen__c537bd1255b6",
+   "len": 221565,
+   "sha256": "c537bd1255b6daa8496f81ec84c43096c37aa60b8451e9a79ac0c6dedeccb067",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51564.png"
+  },
+  "14334_51596.png": {
+   "entry": "boe_imagen__42371db919e8",
+   "len": 152896,
+   "sha256": "42371db919e8ed4b2086398fe68fb9089958767dbde8181b4d58ed6dab3d6fc7",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51596.png"
+  },
+  "14334_51629.png": {
+   "entry": "boe_imagen__836c43035af7",
+   "len": 216472,
+   "sha256": "836c43035af7613265825614bfceb91e30a70f18247b801b1c347b226c3f3d2b",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51629.png"
+  },
+  "14334_51665.png": {
+   "entry": "boe_imagen__659565fb27ad",
+   "len": 469788,
+   "sha256": "659565fb27ad6a25977a95809a2633cfe5d88d50446a131cc31c95e8a13df02c",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51665.png"
+  },
+  "14334_51698.png": {
+   "entry": "boe_imagen__504dca72cc06",
+   "len": 351209,
+   "sha256": "504dca72cc0679c294077b17f49a570107cb5988245e2c7f48034fbffd67b23a",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51698.png"
+  },
+  "14334_51730.png": {
+   "entry": "boe_imagen__afffee3543dc",
+   "len": 261828,
+   "sha256": "afffee3543dc69e9d50a7e46472d53fe9be5b2c918a833715e8439f6fe995f2e",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51730.png"
+  },
+  "14334_51761.png": {
+   "entry": "boe_annex_img__119865__alt150",
+   "len": 335358,
+   "sha256": "66fd7e8a9878060d83ea409841d96d4a2169c7aba9b995ba0ac4adc309af16ce",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51761.png"
+  },
+  "14334_51792.png": {
+   "entry": "boe_imagen__da4015ca3859",
+   "len": 317087,
+   "sha256": "da4015ca385913230bf4313cdde7685aefb108bdf4248e56085198e656847f8c",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51792.png"
+  },
+  "14334_51825.png": {
+   "entry": "boe_imagen__2959b473524c",
+   "len": 288756,
+   "sha256": "2959b473524c83bad5f8cad82ab0dc8262f1cef93d9c7747c4c2ced782cab129",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51825.png"
+  },
+  "14334_51857.png": {
+   "entry": "boe_imagen__d19c1e26910a",
+   "len": 222720,
+   "sha256": "d19c1e26910a15b4eda34c45d650f75de190e1104bf5b557b814b4a67c9f6af2",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51857.png"
+  },
+  "14334_51888.png": {
+   "entry": "boe_imagen__3812809c91c9",
+   "len": 193527,
+   "sha256": "3812809c91c90a450ac4f5c606770bbc77bc6e63ecbb735bac44af578de0bdd7",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51888.png"
+  },
+  "14334_51919.png": {
+   "entry": "boe_imagen__03c33658b048",
+   "len": 196125,
+   "sha256": "03c33658b048d41a6ba5ef28339f47a7c1c6260644c9c1d212cf738128bb8b00",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51919.png"
+  },
+  "14334_51952.png": {
+   "entry": "boe_imagen__1e8185c12999",
+   "len": 366330,
+   "sha256": "1e8185c129998afab1438747a13016f8b7b51646a16b1f52a3e59dc79239a105",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51952.png"
+  },
+  "14334_51986.png": {
+   "entry": "boe_imagen__cb57863d7d0b",
+   "len": 398680,
+   "sha256": "cb57863d7d0bda710be8d9bdf219fe1a716144a52704b95054e7608e53be116c",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_51986.png"
+  },
+  "14334_52020.png": {
+   "entry": "boe_imagen__0f807629789e",
+   "len": 376302,
+   "sha256": "0f807629789e2e9054ab1555d9fead41ef477665478efb3649d83878e00805c6",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52020.png"
+  },
+  "14334_52052.png": {
+   "entry": "boe_imagen__cb2a3c5ed524",
+   "len": 299259,
+   "sha256": "cb2a3c5ed5244c800094f8069628c5276820596472aa91635ce6f1afc6419933",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52052.png"
+  },
+  "14334_52084.png": {
+   "entry": "boe_imagen__d0f907d48529",
+   "len": 384193,
+   "sha256": "d0f907d48529588f9dd3d1423e4cfb0bf215541d3674cd36cd54847ee9d43a68",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52084.png"
+  },
+  "14334_52115.png": {
+   "entry": "boe_imagen__6e94120aa034",
+   "len": 342522,
+   "sha256": "6e94120aa034ee6c0478e90e1e650ac9dabf10b9edebdd711062f3e687827189",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52115.png"
+  },
+  "14334_52146.png": {
+   "entry": "boe_imagen__1a200df6e42a",
+   "len": 255899,
+   "sha256": "1a200df6e42a69d8798283409913422523641cd96cd0f8647f98fd89923d3b0a",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52146.png"
+  },
+  "14334_52177.png": {
+   "entry": "boe_imagen__ab97200298ce",
+   "len": 191731,
+   "sha256": "ab97200298ce74cc20f514358e5015888f561cb226b534f41045d8c682181f50",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52177.png"
+  },
+  "14334_52208.png": {
+   "entry": "boe_imagen__c26881c94a23",
+   "len": 404016,
+   "sha256": "c26881c94a23e66e66509d7935e105102e3ff22a2b50c0f56e803dfabc80a628",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52208.png"
+  },
+  "14334_52239.png": {
+   "entry": "boe_imagen__989fd5352b58",
+   "len": 187380,
+   "sha256": "989fd5352b583fb57387541142d1add7ee442a6a7d03f2e745dd02bc61169c8f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52239.png"
+  },
+  "14334_52271.png": {
+   "entry": "boe_imagen__905e6d030172",
+   "len": 267859,
+   "sha256": "905e6d03017280f33e6d48eb12e2f82d76c9116e13822b0cbe9b6380956b2d7e",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52271.png"
+  },
+  "14334_52304.png": {
+   "entry": "boe_imagen__226c3ca8c946",
+   "len": 439446,
+   "sha256": "226c3ca8c946fdb7fc87e699ac94b5d39afe47906799b713a9c89fe224db4c89",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52304.png"
+  },
+  "14334_52467.png": {
+   "entry": "boe_imagen__3d11523f8601",
+   "len": 379832,
+   "sha256": "3d11523f86017e247f87f20d8f1b3d544ebd16fc28da60fd166003544faa2329",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52467.png"
+  },
+  "14334_52498.png": {
+   "entry": "boe_imagen__8cd24ac52805",
+   "len": 219981,
+   "sha256": "8cd24ac52805231a15ec33f9fdc6ec93e7dd2c2fbdaaae7e6c92054e94273518",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52498.png"
+  },
+  "14334_52529.png": {
+   "entry": "boe_imagen__9f6a426f572b",
+   "len": 382200,
+   "sha256": "9f6a426f572b7043a7d2b4b011d5a4c3da2a40ddf008d8c8f91b02a9d293810b",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52529.png"
+  },
+  "14334_52591.png": {
+   "entry": "boe_imagen__aaa0a000cef1",
+   "len": 140404,
+   "sha256": "aaa0a000cef17ec4a72cc5e966b8e1130222057f597e99963cb2545a9b35cf2f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52591.png"
+  },
+  "14334_52723.png": {
+   "entry": "boe_imagen__861d7b4a0123",
+   "len": 193001,
+   "sha256": "861d7b4a0123f213897a97a5f3673bfe620e49dac6cdff2d12249ef5ab102179",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52723.png"
+  },
+  "14334_52755.png": {
+   "entry": "boe_imagen__23a0528f37f7",
+   "len": 85293,
+   "sha256": "23a0528f37f743b0245069d7494ac3ec1098d4bfeff927011b87dcd4109dafd7",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52755.png"
+  },
+  "14334_52788.png": {
+   "entry": "boe_imagen__f580bfb8b746",
+   "len": 188368,
+   "sha256": "f580bfb8b7469b0e0563a80cb0ffeb673ed633ebf466442d2eb15fb0d641157f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52788.png"
+  },
+  "14334_52819.png": {
+   "entry": "boe_imagen__0f5e84fffce8",
+   "len": 176420,
+   "sha256": "0f5e84fffce8ffbdf2f6471071860509a5f59dd738004a4ab1ef5ccc2895aa6a",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52819.png"
+  },
+  "14334_52850.png": {
+   "entry": "boe_imagen__607362617267",
+   "len": 215083,
+   "sha256": "607362617267b61d34bf1bfe3cd90fa893493a35aa59d36779bffc253242a2e0",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52850.png"
+  },
+  "14334_52881.png": {
+   "entry": "boe_imagen__c71d8cdb709c",
+   "len": 159103,
+   "sha256": "c71d8cdb709c5480622d29aa127319e3d544f4ea11c13d9f92e1138de682ecab",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52881.png"
+  },
+  "14334_52912.png": {
+   "entry": "boe_imagen__462bea11f085",
+   "len": 401119,
+   "sha256": "462bea11f085afc517632a6dff3e9cecb66b4275937c2bc00217a5cbd5a0c16d",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52912.png"
+  },
+  "14334_52944.png": {
+   "entry": "boe_imagen__3878dd83e5d1",
+   "len": 217780,
+   "sha256": "3878dd83e5d12608dbd32468bc810c5107ed837ba7eb7c94aeb929bee0316957",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52944.png"
+  },
+  "14334_52975.png": {
+   "entry": "boe_imagen__e1425fba1b21",
+   "len": 360082,
+   "sha256": "e1425fba1b21d5912af57fff1078117245f33e93dad2555951446799bb77c7b3",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_52975.png"
+  },
+  "14334_53007.png": {
+   "entry": "boe_imagen__d1224f710176",
+   "len": 184907,
+   "sha256": "d1224f710176fa2cff6a792e32ade2af9101753128adf67ab739456f8924d8f6",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53007.png"
+  },
+  "14334_53041.png": {
+   "entry": "boe_imagen__e1d4b04ee442",
+   "len": 226295,
+   "sha256": "e1d4b04ee4423d205ab0c2e916d4c78d258c8922299dfd5afc14457c3a3607b2",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53041.png"
+  },
+  "14334_53075.png": {
+   "entry": "boe_imagen__e629eb190ac6",
+   "len": 214659,
+   "sha256": "e629eb190ac69a7be4a28ca59964b8fa90bde12122f50ab52365e8858961eac8",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53075.png"
+  },
+  "14334_53108.png": {
+   "entry": "boe_annex_img__119907__alt192",
+   "len": 305771,
+   "sha256": "16a6381e2938616d04dc19bb8c9fb6bc3bfe2e402d4565ef6b5c9c297efbb334",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53108.png"
+  },
+  "14334_53140.png": {
+   "entry": "boe_imagen__6f20cd265bf7",
+   "len": 309669,
+   "sha256": "6f20cd265bf70090b64998c456d7bf3ef9980d01b1a9d7f09677987ff5b4bbd1",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53140.png"
+  },
+  "14334_53171.png": {
+   "entry": "boe_imagen__904a21e90369",
+   "len": 182057,
+   "sha256": "904a21e90369e1aaed7d873baadb1a72bd3db7d0f0c7c2049ce9bc9a46ab8ec9",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53171.png"
+  },
+  "14334_53202.png": {
+   "entry": "boe_imagen__59217f6e0afa",
+   "len": 273588,
+   "sha256": "59217f6e0afa3a98f8ed9659c857e549962941dfccd1dba11da407ad02be7271",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53202.png"
+  },
+  "14334_53233.png": {
+   "entry": "boe_imagen__f6f54c740bd1",
+   "len": 204664,
+   "sha256": "f6f54c740bd1ce2ab21ad2f41a5613b4809b55160eedc6a7c15acd333466212a",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53233.png"
+  },
+  "14334_53266.png": {
+   "entry": "boe_imagen__a183edb965c6",
+   "len": 108532,
+   "sha256": "a183edb965c652e72c5e2ec9213e770affbe13c2d7cb5f6755c8e2f69598b8b8",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53266.png"
+  },
+  "14334_53297.png": {
+   "entry": "boe_imagen__45ca067f2de2",
+   "len": 195780,
+   "sha256": "45ca067f2de2c8239a846c81c559c0571c90fb98811b6bb8b9e2872bbc52a6d2",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53297.png"
+  },
+  "14334_53328.png": {
+   "entry": "boe_imagen__4d121f68fea5",
+   "len": 359104,
+   "sha256": "4d121f68fea51d03f1a2381e10da93c9a1ef0b5f35d355658cdcf2d48a872d34",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53328.png"
+  },
+  "14334_53360.png": {
+   "entry": "boe_imagen__fa2af3734ea7",
+   "len": 285642,
+   "sha256": "fa2af3734ea78b66d4d0081909b52f6791e31e5d124e2df9d7450fe1b4ec08e3",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53360.png"
+  },
+  "14334_53393.png": {
+   "entry": "boe_annex_img__119916__alt201",
+   "len": 101791,
+   "sha256": "d2caf4af702ef6a8a924c9c2d0942e87e3fe831a22da8454b12efa41ec8551b8",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53393.png"
+  },
+  "14334_53427.png": {
+   "entry": "boe_imagen__e1bb521b55fb",
+   "len": 88403,
+   "sha256": "e1bb521b55fb7bbff8f4802edc737469b96f17f77252cfad66e7b94cfd16f076",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53427.png"
+  },
+  "14334_53459.png": {
+   "entry": "boe_imagen__35f067dba257",
+   "len": 257120,
+   "sha256": "35f067dba257d2d13091ba402aa56f17a89f57ce1ab61a4a2670db3d6bb814ab",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53459.png"
+  },
+  "14334_53492.png": {
+   "entry": "boe_imagen__d3e951fabfbd",
+   "len": 240569,
+   "sha256": "d3e951fabfbd00f6ce2739f2635d5410f990e89e2a36f4a25bad84fd71d55f82",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53492.png"
+  },
+  "14334_53523.png": {
+   "entry": "boe_imagen__96c11d9e3baa",
+   "len": 373040,
+   "sha256": "96c11d9e3baa3aa11225854255c257d49e2e47999f2bc7ddd18c7f1b763b8fb4",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53523.png"
+  },
+  "14334_53554.png": {
+   "entry": "boe_imagen__fb92782d1d52",
+   "len": 360507,
+   "sha256": "fb92782d1d526a3649920ce34549a16307d0e387a28b2f586a07745fb968402a",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53554.png"
+  },
+  "14334_53586.png": {
+   "entry": "boe_imagen__039dfd6f7c43",
+   "len": 593362,
+   "sha256": "039dfd6f7c436485057499732a5260f43930f6a25675ee246b3fa85652a7d4a2",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53586.png"
+  },
+  "14334_53617.png": {
+   "entry": "boe_imagen__2447da1bf395",
+   "len": 283331,
+   "sha256": "2447da1bf395165461ea42af38c86f20cafa584c8a2e3c1b409d5e723df35f37",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53617.png"
+  },
+  "14334_53648.png": {
+   "entry": "boe_imagen__7e58f0b8f623",
+   "len": 564085,
+   "sha256": "7e58f0b8f6235f4a35c9177ff2931e2391539152935e2fdfe12bc702c04d163f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53648.png"
+  },
+  "14334_53781.png": {
+   "entry": "boe_imagen__a30842ddb89d",
+   "len": 224416,
+   "sha256": "a30842ddb89d107b98559e0f3de9c6aa2635ba701dd0fef400608d51375ae1cb",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53781.png"
+  },
+  "14334_53813.png": {
+   "entry": "boe_imagen__1586f72212f5",
+   "len": 224557,
+   "sha256": "1586f72212f57ec610e4c0b94c7731121366add5192ef6b3288acce505a815b0",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53813.png"
+  },
+  "14334_53845.png": {
+   "entry": "boe_imagen__187955ac15fd",
+   "len": 265349,
+   "sha256": "187955ac15fd0628e2ff5e33dfdcfbb44693c4b9ef696f73a891ff7614e2d7e8",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53845.png"
+  },
+  "14334_53876.png": {
+   "entry": "boe_imagen__6ef4eea3b543",
+   "len": 573785,
+   "sha256": "6ef4eea3b543abdb2eadd94e96ad8008e57fc5dfedeaa20b1075ef5c9302f9cd",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53876.png"
+  },
+  "14334_53941.png": {
+   "entry": "boe_imagen__9d1f14e9df32",
+   "len": 108880,
+   "sha256": "9d1f14e9df32758bf9688f3ed932bf4a389fc20d448c741006547f844b239e1f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_53941.png"
+  },
+  "14334_54059.png": {
+   "entry": "boe_imagen__9d8a088597a2",
+   "len": 197715,
+   "sha256": "9d8a088597a2283cd5ba17e3602ad6f8ef7e101436dd9b3b57e673f3beca28a5",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54059.png"
+  },
+  "14334_54090.png": {
+   "entry": "boe_imagen__6ffcba2f4ef2",
+   "len": 185643,
+   "sha256": "6ffcba2f4ef2bdaee8b68492e0d05fe54da2aae24e1bbce2a0fb357731bd1f58",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54090.png"
+  },
+  "14334_54121.png": {
+   "entry": "boe_imagen__85f93eb37394",
+   "len": 225562,
+   "sha256": "85f93eb3739452146d40ff3e391768f357b0aeff4395944e557cca7732795aca",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54121.png"
+  },
+  "14334_54153.png": {
+   "entry": "boe_imagen__43a5d059e3eb",
+   "len": 150785,
+   "sha256": "43a5d059e3eb118b3257b3739e1501c6b336f92e31a5f2a6b18c21b398967b4b",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54153.png"
+  },
+  "14334_54187.png": {
+   "entry": "boe_imagen__42f43af65dd3",
+   "len": 221363,
+   "sha256": "42f43af65dd301c7fbb44788818cb2867446b60cd04937cd35f66f8f99244617",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54187.png"
+  },
+  "14334_54222.png": {
+   "entry": "boe_imagen__868260f71188",
+   "len": 338181,
+   "sha256": "868260f71188a2dd50a6c04b72a18b73e83e0d25b09b93a48496e1b94233ea37",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54222.png"
+  },
+  "14334_54349.png": {
+   "entry": "boe_imagen__5db8083ba732",
+   "len": 300334,
+   "sha256": "5db8083ba7320e2cc0765621dfbe7a52c835e68b6ed3eb90515371aafab8a226",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54349.png"
+  },
+  "14334_54380.png": {
+   "entry": "boe_imagen__8079df12550d",
+   "len": 392564,
+   "sha256": "8079df12550d6cead769345cc910a5691effc40d1391ea01951419cecd889389",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54380.png"
+  },
+  "14334_54506.png": {
+   "entry": "boe_imagen__20324c62c4b4",
+   "len": 186368,
+   "sha256": "20324c62c4b4efa4c624fe07aa87a1daf6ad780abc0320f1dc83dc2b80138de5",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54506.png"
+  },
+  "14334_54539.png": {
+   "entry": "boe_imagen__d0e45377d000",
+   "len": 333015,
+   "sha256": "d0e45377d00055aa73df949324fd2c83b20887f47fc1513c83fce9e55536d253",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54539.png"
+  },
+  "14334_54573.png": {
+   "entry": "boe_imagen__47a6f366d9d8",
+   "len": 383282,
+   "sha256": "47a6f366d9d8dd76922805cb048801b74279d1277c0e82b19a5e18fbd0e7287b",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54573.png"
+  },
+  "14334_54605.png": {
+   "entry": "boe_imagen__e27a2a71c52b",
+   "len": 238412,
+   "sha256": "e27a2a71c52b5b1a419474baefe0369f87473d9391651aa279469403345055a6",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54605.png"
+  },
+  "14334_54639.png": {
+   "entry": "boe_imagen__ed56b2e7dac7",
+   "len": 247503,
+   "sha256": "ed56b2e7dac74d9906c5f347172e281fffa94aa4548e2e66e5b0f9ae783f4846",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54639.png"
+  },
+  "14334_54670.png": {
+   "entry": "boe_imagen__da0e31876116",
+   "len": 274116,
+   "sha256": "da0e318761166027af0b135583c05102f4a9ed6575650e0a8ebf1993411813cd",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54670.png"
+  },
+  "14334_54701.png": {
+   "entry": "boe_imagen__5d01d3dfcb67",
+   "len": 200917,
+   "sha256": "5d01d3dfcb679e8c169df39792ba65c9ba57116636448664fe1f3f8855d64c0a",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54701.png"
+  },
+  "14334_54732.png": {
+   "entry": "boe_imagen__6b6d6555cdba",
+   "len": 229791,
+   "sha256": "6b6d6555cdbaa48ce5cb5d1c978216e2bfb97b881b5bf9902eac15a453fd76df",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54732.png"
+  },
+  "14334_54763.png": {
+   "entry": "boe_imagen__9d876a87b999",
+   "len": 137274,
+   "sha256": "9d876a87b99947962afe2a742941692e8480b661baeb512495736196bae01e70",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54763.png"
+  },
+  "14334_54795.png": {
+   "entry": "boe_imagen__7d88d501a782",
+   "len": 179605,
+   "sha256": "7d88d501a782b8db09996c8968cf644ec82ee07f7fd4b926f6e565e6cdda411f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54795.png"
+  },
+  "14334_54827.png": {
+   "entry": "boe_imagen__512b721add58",
+   "len": 161566,
+   "sha256": "512b721add5858c86679b642baab904b1a99d66b4e2fdb52261fc66f6d450720",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54827.png"
+  },
+  "14334_54859.png": {
+   "entry": "boe_imagen__02dec479c19c",
+   "len": 271958,
+   "sha256": "02dec479c19ca59f219c03caf9e2f021cd268034d17bc1a563c355ca62967aef",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54859.png"
+  },
+  "14334_54892.png": {
+   "entry": "boe_imagen__40b5c3e8fd88",
+   "len": 347770,
+   "sha256": "40b5c3e8fd8871e01100a8029dd0c3893a4a3b95c2a12d6cc08bfa77b8004d99",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54892.png"
+  },
+  "14334_54926.png": {
+   "entry": "boe_imagen__dbcda3819313",
+   "len": 266593,
+   "sha256": "dbcda3819313d5910e41fa4aeea8e2724e287b754dcfe55b071e4ac925c74f70",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54926.png"
+  },
+  "14334_54959.png": {
+   "entry": "boe_imagen__e7a4597d1254",
+   "len": 199683,
+   "sha256": "e7a4597d1254b0cf179523a36a8a173ca615b1af37ceeed4fb4e1bc29cdda314",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54959.png"
+  },
+  "14334_54991.png": {
+   "entry": "boe_imagen__b62667247c96",
+   "len": 538173,
+   "sha256": "b62667247c9699cc5a9ee6c85dbb5f6aaaa463c64b00c603cd08576f3d7f6796",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_54991.png"
+  },
+  "14334_55022.png": {
+   "entry": "boe_imagen__f00c5e3fdcc7",
+   "len": 381989,
+   "sha256": "f00c5e3fdcc728ed1f2a05eacbeca0c3f11091b6579518b47d62f2fbd3aa0ae5",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55022.png"
+  },
+  "14334_55053.png": {
+   "entry": "boe_imagen__51b514a0d5f2",
+   "len": 161979,
+   "sha256": "51b514a0d5f2a94a01466800228529ef0748e045cd88f7d7952d6d5ed7e02a0e",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55053.png"
+  },
+  "14334_55084.png": {
+   "entry": "boe_imagen__157672b021e6",
+   "len": 317027,
+   "sha256": "157672b021e67e7325cd083d52e23f4280c756bbf555a5ba97fd586ad6014707",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55084.png"
+  },
+  "14334_55115.png": {
+   "entry": "boe_imagen__a02561c76f7e",
+   "len": 224645,
+   "sha256": "a02561c76f7eae9bf67fc5f8f474f1fa4e707fa3118e87c530f01bd3352be0d9",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55115.png"
+  },
+  "14334_55146.png": {
+   "entry": "boe_imagen__99bf0152ec7a",
+   "len": 57922,
+   "sha256": "99bf0152ec7a3f48d003c76aa5bd70c651606c4f9f447e8e37900899eecb5224",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55146.png"
+  },
+  "14334_55177.png": {
+   "entry": "boe_imagen__41c76b663ad1",
+   "len": 219210,
+   "sha256": "41c76b663ad1b9a6892749d9e30176a9ed33c3c8bff66b9629f749081327f4a7",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55177.png"
+  },
+  "14334_55210.png": {
+   "entry": "boe_imagen__7ff8b6701172",
+   "len": 81199,
+   "sha256": "7ff8b67011725a646a966c238aea50096b41ede6a2c8f45d11c42c75b81d79d6",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55210.png"
+  },
+  "14334_55243.png": {
+   "entry": "boe_imagen__cbb810950391",
+   "len": 188780,
+   "sha256": "cbb8109503918f94b461cdd521fd32730547ec111eda1cd0692cbe0bed74a68e",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55243.png"
+  },
+  "14334_55280.png": {
+   "entry": "boe_imagen__d0e687c145c5",
+   "len": 171218,
+   "sha256": "d0e687c145c59d93de8763c7ef179553e68bf48fee83ab8eba14855cc2b69f15",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55280.png"
+  },
+  "14334_55312.png": {
+   "entry": "boe_imagen__6a70345dfb2f",
+   "len": 216839,
+   "sha256": "6a70345dfb2fafc9e2145a393201c30ae1c22840b3f1ff123cea29191247012f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55312.png"
+  },
+  "14334_55345.png": {
+   "entry": "boe_imagen__c4e1c3e420b4",
+   "len": 212362,
+   "sha256": "c4e1c3e420b4b5e548d23d7fa28101736a0516661432a0b69334a6a0c94f8316",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55345.png"
+  },
+  "14334_55376.png": {
+   "entry": "boe_imagen__baa4fb93854e",
+   "len": 221946,
+   "sha256": "baa4fb93854e07c3d727566e6dce4fc00e55eb6745fb21d74e1d7dc2669c9294",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55376.png"
+  },
+  "14334_55407.png": {
+   "entry": "boe_imagen__53226b4476cf",
+   "len": 180233,
+   "sha256": "53226b4476cfa23a7fe8817bf79b31f099119dfe35a1129a09f50e1b07c6deca",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55407.png"
+  },
+  "14334_55438.png": {
+   "entry": "boe_imagen__28f7141630c1",
+   "len": 159848,
+   "sha256": "28f7141630c168577adf3c54ce3f6f0d6f34c3c803f200348f5bf908370deef2",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55438.png"
+  },
+  "14334_55469.png": {
+   "entry": "boe_imagen__e882cbb5da04",
+   "len": 194265,
+   "sha256": "e882cbb5da04a3287f75724330b4a52bf25b2dfc25feffb456d0fe4ccb70924d",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55469.png"
+  },
+  "14334_55500.png": {
+   "entry": "boe_imagen__53c190f399b6",
+   "len": 215252,
+   "sha256": "53c190f399b6996b3a887bc11ff402fe29e440787a719f63fe2f4619f29cf453",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55500.png"
+  },
+  "14334_55531.png": {
+   "entry": "boe_imagen__0d1044e2b614",
+   "len": 273148,
+   "sha256": "0d1044e2b614cb7e7527ac3dd2648891f0770a5feaf8ef6e1e75f5f2dfa5b330",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55531.png"
+  },
+  "14334_55563.png": {
+   "entry": "boe_imagen__f33f6be66ffa",
+   "len": 214882,
+   "sha256": "f33f6be66ffa24aeca585c3ff647e9bf559be9823efa1442b8356fa5270e5b1f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55563.png"
+  },
+  "14334_55598.png": {
+   "entry": "boe_imagen__d2eeaf5abcb9",
+   "len": 185983,
+   "sha256": "d2eeaf5abcb97dc724467d700d802198c66499425230c084f3c5dfcbe1c6a71b",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55598.png"
+  },
+  "14334_55633.png": {
+   "entry": "boe_imagen__e5b3bcbab376",
+   "len": 208801,
+   "sha256": "e5b3bcbab376df98aa30c6ec1bde1d5d0fa82a394fdd09ad9d8d6acf17e294e7",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55633.png"
+  },
+  "14334_55666.png": {
+   "entry": "boe_imagen__d8a352608506",
+   "len": 296162,
+   "sha256": "d8a35260850687267e78f187ee1a75a7125d8656464267d788d936f99ca15e0e",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55666.png"
+  },
+  "14334_55698.png": {
+   "entry": "boe_imagen__9510e50c292b",
+   "len": 211455,
+   "sha256": "9510e50c292bd8d6c9be84076f184838ffb9409388767f40a21cc56d3721756b",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55698.png"
+  },
+  "14334_55730.png": {
+   "entry": "boe_imagen__34fd7ef8aa78",
+   "len": 121608,
+   "sha256": "34fd7ef8aa7826c1c8f7b6ba7237c8af9aa7ad6f76278c4ced708a59016e803f",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_55730.png"
+  },
+  "14334_57490.png": {
+   "entry": "boe_annex_img__120041__alt326",
+   "len": 300610,
+   "sha256": "23af666db66e116eb096bcf57b1bb26bd826a3194383e9c36faadddcfb584045",
+   "url": "https://www.boe.es/datos/imagenes/disp/2017/296/14334_57490.png"
+  }
+ },
+ "pypdf_version": "6.14.2",
+ "with_smask": 0,
+ "xobjects_decoded": 2,
+ "xobjects_total": 2,
+ "xobjects_unique_refs": 2,
+ "xobjects_with_raw": 2
+}

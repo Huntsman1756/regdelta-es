@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
+import sqlite3
 import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -10,12 +12,16 @@ from . import diffing, query
 from .util import madrid_local_date
 from .watcher import run
 
+_STRICT_ISO_RE = re.compile(r"[0-9]{4}-[0-9]{2}-[0-9]{2}")
+
 
 def _iso(text: str) -> date:
+    if not _STRICT_ISO_RE.fullmatch(text or ""):
+        raise query.InvalidDateRange(f"not a strict ISO date: {text!r}")
     try:
         return date.fromisoformat(text)
     except ValueError:
-        raise query.InvalidDateRange(f"not an ISO date: {text!r}")
+        raise query.InvalidDateRange(f"not a strict ISO date: {text!r}")
 
 
 def _query_out(payload: dict) -> None:
@@ -74,37 +80,47 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--data-dir", default="data")
 
     args = parser.parse_args(argv)
-    if args.command == "watch":
-        summary = run(args.date, Path(args.data_dir))
-        print(json.dumps(summary, ensure_ascii=False, indent=2))
-        return summary["exit_code"]
-
     try:
+        for name in ("date", "since", "until", "from_date", "to_date"):
+            value = getattr(args, name, None)
+            if value is not None:
+                setattr(args, name, _iso(value))
+        if args.command == "watch":
+            summary = run(args.date.isoformat(), Path(args.data_dir))
+            print(json.dumps(summary, ensure_ascii=False, indent=2))
+            return summary["exit_code"]
+        if args.command == "changes" and args.until is not None \
+                and args.until < args.since:
+            raise query.InvalidDateRange(
+                f"since {args.since} > until {args.until}")
+        if args.command == "diff" and args.to_date < args.from_date:
+            raise query.InvalidDateRange(
+                f"to {args.to_date} < from {args.from_date}")
+        if args.command == "upcoming":
+            if args.from_date is None:
+                args.from_date = madrid_local_date(datetime.now(timezone.utc))
+            query._upcoming_end(args.from_date, args.days)
         conn = query.connect_readonly(Path(args.data_dir))
         try:
             if args.command == "changes":
                 out = query.changes(
-                    conn, since=_iso(args.since),
-                    until=_iso(args.until) if args.until else None,
+                    conn, since=args.since, until=args.until,
                     target=args.target)
             elif args.command == "affects":
                 out = query.affects(
                     conn, target=args.target, subject=args.subject,
                     modifier=args.modifier)
             elif args.command == "upcoming":
-                from_date = (_iso(args.from_date) if args.from_date
-                             else madrid_local_date(
-                                 datetime.now(timezone.utc)))
-                out = query.upcoming(conn, from_date=from_date,
+                out = query.upcoming(conn, from_date=args.from_date,
                                      days=args.days, target=args.target)
             elif args.command == "as-of":
                 out = query.as_of(conn, target=args.target,
-                                  as_of_date=_iso(args.date),
+                                  as_of_date=args.date,
                                   subject=args.subject)
             elif args.command == "diff":
                 out = diffing.diff(conn, target=args.target,
-                                   from_date=_iso(args.from_date),
-                                   to_date=_iso(args.to_date),
+                                   from_date=args.from_date,
+                                   to_date=args.to_date,
                                    subject=args.subject)
             else:  # pragma: no cover - argparse enforces choices
                 return 1
@@ -112,6 +128,17 @@ def main(argv: list[str] | None = None) -> int:
             conn.close()
     except query.QueryError as exc:
         _query_out({"error": {"code": exc.code, "message": str(exc)}})
+        return 2
+    except OSError as exc:
+        _query_out({"error": {"code": "FILESYSTEM_ERROR",
+                              "message": str(exc)}})
+        return 2
+    except sqlite3.DatabaseError as exc:
+        if not isinstance(exc, sqlite3.OperationalError) \
+                and type(exc) is not sqlite3.DatabaseError:
+            raise
+        _query_out({"error": {"code": "DATABASE_ERROR",
+                              "message": str(exc)}})
         return 2
     _query_out(out)
     return 0

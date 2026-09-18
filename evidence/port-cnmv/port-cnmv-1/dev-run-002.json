@@ -1,0 +1,32 @@
+{
+  "gate": "PORT-CNMV-1",
+  "run_id": "002-legacy-map",
+  "started_utc": "2026-09-17T05:57:39.612314+00:00",
+  "git_head": "f165ce6dd6aa0e5a95e986cd3c77cd8cb153d39c",
+  "git_branch": "port-cnmv-1",
+  "src_tree": "6479a01d69f7cbbc37d01140514f53427454b87c",
+  "profile_id": "cnmv-circular",
+  "profile_version": "cnmv-v1",
+  "dev_manifest": "F:\\_Proyectos\\regdelta-cnmv1\\evidence\\port-cnmv\\split-v2\\dev\\manifest.json",
+  "dev_entries": 587,
+  "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+  "via": "EVIDENCE_IMPORT",
+  "targets": [
+    {
+      "target": "BOE-A-2008-16091",
+      "error": "Traceback (most recent call last):\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\scripts\\port-cnmv\\run_dev_probe.py\", line 172, in main\n    report = history.reconstruct(\n             ^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\history.py\", line 894, in reconstruct\n    result = operations.parse_all_operations(mdoc)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 962, in parse_all_operations\n    selected.append((s, _parse_section(doc, s)))\n                        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 1225, in _parse_section\n    _extract_mentions(n.text), i, \"SECTION\")\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 400, in _extract_mentions\n    for m in pats[\"quoted_state\"].finditer(text):\n             ~~~~^^^^^^^^^^^^^^^^\nKeyError: 'quoted_state'\n"
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "error": "Traceback (most recent call last):\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\scripts\\port-cnmv\\run_dev_probe.py\", line 172, in main\n    report = history.reconstruct(\n             ^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\history.py\", line 894, in reconstruct\n    result = operations.parse_all_operations(mdoc)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 962, in parse_all_operations\n    selected.append((s, _parse_section(doc, s)))\n                        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 1225, in _parse_section\n    _extract_mentions(n.text), i, \"SECTION\")\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 400, in _extract_mentions\n    for m in pats[\"quoted_state\"].finditer(text):\n             ~~~~^^^^^^^^^^^^^^^^\nKeyError: 'quoted_state'\n"
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "error": "Traceback (most recent call last):\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\scripts\\port-cnmv\\run_dev_probe.py\", line 172, in main\n    report = history.reconstruct(\n             ^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\history.py\", line 894, in reconstruct\n    result = operations.parse_all_operations(mdoc)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 962, in parse_all_operations\n    selected.append((s, _parse_section(doc, s)))\n                        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 1225, in _parse_section\n    _extract_mentions(n.text), i, \"SECTION\")\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 400, in _extract_mentions\n    for m in pats[\"quoted_state\"].finditer(text):\n             ~~~~^^^^^^^^^^^^^^^^\nKeyError: 'quoted_state'\n"
+    },
+    {
+      "target": "BOE-A-1994-28725",
+      "error": "Traceback (most recent call last):\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\scripts\\port-cnmv\\run_dev_probe.py\", line 172, in main\n    report = history.reconstruct(\n             ^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\history.py\", line 894, in reconstruct\n    result = operations.parse_all_operations(mdoc)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 962, in parse_all_operations\n    selected.append((s, _parse_section(doc, s)))\n                        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 1225, in _parse_section\n    _extract_mentions(n.text), i, \"SECTION\")\n    ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"F:\\_Proyectos\\regdelta-cnmv1\\src\\regdelta\\operations.py\", line 400, in _extract_mentions\n    for m in pats[\"quoted_state\"].finditer(text):\n             ~~~~^^^^^^^^^^^^^^^^\nKeyError: 'quoted_state'\n"
+    }
+  ]
+}

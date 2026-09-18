@@ -147,3 +147,12 @@ packaged and versioned.
   authoring, orthogonal to RegDelta's contract (claims proven from
   captured official bytes or abstained). It cannot emit
   binding_proof-grade evidence, and nothing in it needs to
+
+## 11. CORE-GAP supplement (2026-09-19 recon)
+
+AKN4EU/ELI canonical scheme mints `unp`-typed positional ids for
+unnumbered paragraphs (see eli-subdivisions ficha) — consistent with
+LEOS configurable autonumbering: all observed production systems mint
+positional identity for anonymous nodes; none treats it as
+source-declared. The differentiator RegDelta must keep is labeling
+the mintedness (MetaLex method enum / ELI kind token).

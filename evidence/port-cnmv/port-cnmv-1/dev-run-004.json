@@ -1,0 +1,2511 @@
+{
+  "gate": "PORT-CNMV-1",
+  "run_id": "004-census-fix",
+  "started_utc": "2026-09-17T05:59:47.954723+00:00",
+  "git_head": "f165ce6dd6aa0e5a95e986cd3c77cd8cb153d39c",
+  "git_branch": "port-cnmv-1",
+  "src_tree": "6479a01d69f7cbbc37d01140514f53427454b87c",
+  "profile_id": "cnmv-circular",
+  "profile_version": "cnmv-v1",
+  "dev_manifest": "F:\\_Proyectos\\regdelta-cnmv1\\evidence\\port-cnmv\\split-v2\\dev\\manifest.json",
+  "dev_entries": 587,
+  "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+  "via": "EVIDENCE_IMPORT",
+  "targets": [
+    {
+      "target": "BOE-A-2008-16091",
+      "report": {
+        "target": "BOE-A-2008-16091",
+        "modifiers": [
+          {
+            "boe_id": "BOE-A-2021-6049",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2018-17708",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2016-6646",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2013-5453",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2012-10479",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2011-19174",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2011-551",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2009-6555",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2008-19438",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2008-16917",
+            "kind": "CORRECTION"
+          }
+        ],
+        "operation_inventory": {
+          "leaf_operations_parsed": 50,
+          "attribution_dispositions": {
+            "TARGET_PROVEN": 9,
+            "FOREIGN_TARGET": 30,
+            "MODIFIER_LOCAL": 0,
+            "AMBIGUOUS": 0,
+            "NOT_PROVABLE": 11
+          },
+          "per_modifier": [
+            {
+              "modifier": "BOE-A-2008-16917",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2008-19438",
+              "leaf_operations_parsed": 1,
+              "relations_emitted": 1,
+              "TARGET_PROVEN": 1,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2009-6555",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2011-551",
+              "leaf_operations_parsed": 10,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 2,
+              "FOREIGN_TARGET": 7,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 1
+            },
+            {
+              "modifier": "BOE-A-2011-19174",
+              "leaf_operations_parsed": 13,
+              "relations_emitted": 1,
+              "TARGET_PROVEN": 1,
+              "FOREIGN_TARGET": 2,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 10
+            },
+            {
+              "modifier": "BOE-A-2012-10479",
+              "leaf_operations_parsed": 12,
+              "relations_emitted": 3,
+              "TARGET_PROVEN": 2,
+              "FOREIGN_TARGET": 10,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2013-5453",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2016-6646",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2018-17708",
+              "leaf_operations_parsed": 11,
+              "relations_emitted": 2,
+              "TARGET_PROVEN": 2,
+              "FOREIGN_TARGET": 9,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2021-6049",
+              "leaf_operations_parsed": 3,
+              "relations_emitted": 2,
+              "TARGET_PROVEN": 1,
+              "FOREIGN_TARGET": 2,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            }
+          ]
+        },
+        "target_annex_anchored": false,
+        "anchors": 0,
+        "fetch_errors": [],
+        "anomalies": [
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "0e8d245913dac5d58013dda7c00616005e1b2d19f5e97ec140286c0107be0829",
+            "detail": {
+              "subject": "norma:6.apartado:4",
+              "modifier": "BOE-A-2008-19438",
+              "side": "after",
+              "operation_kind": "ADD",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "following content is governed by a different sub-clause",
+              "clause": "Se añade un nuevo apartado 4.º a la Norma 6.ª de la Circular 4/2008, de 11 de septiembre, de la CNMV, sobre el contenido de los informes trimestrales, semestral y anual de las Instituciones de Inversi"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "0e8d245913dac5d58013dda7c00616005e1b2d19f5e97ec140286c0107be0829",
+            "detail": {
+              "subject": "norma:6.apartado:4",
+              "modifier": "BOE-A-2008-19438",
+              "operation_kind": "ADD",
+              "relation_id": "6e99ee700c99ea2e0d9751fe62536afc3f0d89c9438131d63870955357cf898e",
+              "clause": "Se añade un nuevo apartado 4.º a la Norma 6.ª de la Circular 4/2008, de 11 de septiembre, de la CNMV, sobre el contenido de los informes trimestrales, semestral y anual de las Instituciones de Inversi"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "15ca4d3e92fca10f82a1121b0de902d99df32ce641e45501d405841f34eb67cb",
+            "detail": {
+              "subject": "norma:2.apartado:4",
+              "modifier": "BOE-A-2011-19174",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "Se modifica la Norma 2.ª, apartado 4, de la Circular 4/2008 que pasa a tener la siguiente redacción:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "1ed5b1af32fa58ecc01eeb311f7be54b35b090725eb3978cc3a9d2496ae34c63",
+            "detail": {
+              "subject": "norma:6.apartado:3",
+              "modifier": "BOE-A-2012-10479",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "Se modifica el apartado 3 de la Norma 6.ª de la Circular 4/2008 y se añade un apartado 4:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "1ed5b1af32fa58ecc01eeb311f7be54b35b090725eb3978cc3a9d2496ae34c63",
+            "detail": {
+              "subject": "norma:6.apartado:3",
+              "modifier": "BOE-A-2012-10479",
+              "side": "after",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "following content is governed by a different sub-clause",
+              "clause": "Se modifica el apartado 3 de la Norma 6.ª de la Circular 4/2008 y se añade un apartado 4:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "1ed5b1af32fa58ecc01eeb311f7be54b35b090725eb3978cc3a9d2496ae34c63",
+            "detail": {
+              "subject": "norma:6.apartado:3",
+              "modifier": "BOE-A-2012-10479",
+              "operation_kind": "MODIFY",
+              "relation_id": "cb1b22ba78bd3d521838c218d5303a9f55153f004c40d9cadeaa80576e15c1c5",
+              "clause": "Se modifica el apartado 3 de la Norma 6.ª de la Circular 4/2008 y se añade un apartado 4:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "4819ad3fdef3d622e8e4e672cccee4e5de86ee07625665d336e598944a77a9dc",
+            "detail": {
+              "subject": "norma:6.apartado:4",
+              "modifier": "BOE-A-2021-6049",
+              "side": "after",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no operation-owned content link",
+              "clause": "Se modifican los apartados 4 y 5 de la Norma 6.ª de la Circular 4/2008:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "4819ad3fdef3d622e8e4e672cccee4e5de86ee07625665d336e598944a77a9dc",
+            "detail": {
+              "subject": "norma:6.apartado:5",
+              "modifier": "BOE-A-2021-6049",
+              "side": "after",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no operation-owned content link",
+              "clause": "Se modifican los apartados 4 y 5 de la Norma 6.ª de la Circular 4/2008:"
+            }
+          }
+        ],
+        "relations": 9,
+        "representations": 5,
+        "subjects": 6,
+        "instruments": 53,
+        "instrument_relations": 91,
+        "anomaly_count": 8
+      },
+      "census": {
+        "relations": [
+          {
+            "relation_id": "6e99ee700c99ea2e0d9751fe62536afc3f0d89c9438131d63870955357cf898e",
+            "kind": "MODIFICATION",
+            "operation_kind": "ADD",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "after: NOT_PROVABLE",
+            "locator_raw": "Se añade un nuevo apartado 4.º a la Norma 6.ª de la Circular 4/2008, de 11 de septiembre, de la CNMV, sobre el contenido de los informes trimestrales, semestral y anual de las Instituciones de Inversión Colectiva y estado de posición:",
+            "publication_date": "2008-12-02"
+          },
+          {
+            "relation_id": "31e6e4f2ec289a411326036a2dd591c6b52aedafff965329f613b82258bfa596",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "Se modifica la Norma 2.ª, apartado 4, de la Circular 4/2008 que pasa a tener la siguiente redacción:",
+            "publication_date": "2011-12-06"
+          },
+          {
+            "relation_id": "cb1b22ba78bd3d521838c218d5303a9f55153f004c40d9cadeaa80576e15c1c5",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "Se modifica el apartado 3 de la Norma 6.ª de la Circular 4/2008 y se añade un apartado 4:",
+            "publication_date": "2012-08-04"
+          },
+          {
+            "relation_id": "ea9b652ee51326ad579d39258c382311626562beb8dfea079ef4e2a1fe0d1e62",
+            "kind": "MODIFICATION",
+            "operation_kind": "ADD",
+            "resolution": "RESOLVED",
+            "resolution_notes": null,
+            "locator_raw": "Se modifica el apartado 3 de la Norma 6.ª de la Circular 4/2008 y se añade un apartado 4:",
+            "publication_date": "2012-08-04"
+          },
+          {
+            "relation_id": "ea8159f5abd59c3d195b8373ed568890ab302d4394fc5ae629d630cb7a6fcd2e",
+            "kind": "MODIFICATION",
+            "operation_kind": "ADD",
+            "resolution": "RESOLVED",
+            "resolution_notes": null,
+            "locator_raw": "Se añade un nuevo apartado 5 de la Norma 6.ª de la Circular 4/2008:",
+            "publication_date": "2012-08-04"
+          },
+          {
+            "relation_id": "9cc687c4b4b5a514aa280414d13b76a0c8683b31f5672091a8870b9b8072b649",
+            "kind": "MODIFICATION",
+            "operation_kind": "ADD",
+            "resolution": "RESOLVED",
+            "resolution_notes": null,
+            "locator_raw": "1. Se añade un apartado 10 «Información sobre las políticas de remuneración.» en las «Notas aclaratorias» del Anexo 1: «Fondo de inversión mobiliaria», con la siguiente redacción:",
+            "publication_date": "2018-12-26"
+          },
+          {
+            "relation_id": "df811eb11a62c9c7e041c14cb1dbacbe14a263552a6ea5619169bd98de17f245",
+            "kind": "MODIFICATION",
+            "operation_kind": "ADD",
+            "resolution": "RESOLVED",
+            "resolution_notes": null,
+            "locator_raw": "2. Se añade un apartado 11 «Información sobre las operaciones de financiación de valores, reutilización de las garantías y swaps de rendimiento total (Reglamento UE 2015/2365).» en las «Notas aclaratorias» del Anexo 1: «Fondo de inversión mobiliaria», con la siguiente redacción:",
+            "publication_date": "2018-12-26"
+          },
+          {
+            "relation_id": "b16b5611e777e19b7abf4dc61a78c623645e04a1466259ce8c4d259ee5c9bce6",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "after: NOT_PROVABLE",
+            "locator_raw": "Se modifican los apartados 4 y 5 de la Norma 6.ª de la Circular 4/2008:",
+            "publication_date": "2021-04-16"
+          },
+          {
+            "relation_id": "bd3cab19083271480864f9a96aafdb55899105a2da5063cbd78fc864adb3d0d3",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "after: NOT_PROVABLE",
+            "locator_raw": "Se modifican los apartados 4 y 5 de la Norma 6.ª de la Circular 4/2008:",
+            "publication_date": "2021-04-16"
+          }
+        ],
+        "resolution_counts": {
+          "PARTIAL": 3,
+          "RESOLVED": 4,
+          "UNRESOLVED": 2
+        },
+        "op_kind_counts": {
+          "ADD": 5,
+          "MODIFY": 4
+        },
+        "subjects": 6,
+        "subject_kinds": {
+          "APARTADO": 6
+        },
+        "representations": 5,
+        "applicability_clauses": 0,
+        "applicability_effects": 0,
+        "anomalies_by_kind": {
+          "BINDING_NOT_FOUND": 2,
+          "BINDING_NOT_PROVABLE": 4,
+          "UNBOUND_SUBJECT": 2
+        },
+        "anomaly_details": [
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"Se añade un nuevo apartado 4.º a la Norma 6.ª de la Circular 4/2008, de 11 de septiembre, de la CNMV, sobre el contenido de los informes trimestrales, semestral y anual de las Instituciones de Inversi\",\"modifier\":\"BOE-A-2008-19438\",\"operation_kind\":\"ADD\",\"reason\":\"following content is governed by a different sub-clause\",\"side\":\"after\",\"subject\":\"norma:6.apartado:4\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"Se añade un nuevo apartado 4.º a la Norma 6.ª de la Circular 4/2008, de 11 de septiembre, de la CNMV, sobre el contenido de los informes trimestrales, semestral y anual de las Instituciones de Inversi\",\"modifier\":\"BOE-A-2008-19438\",\"operation_kind\":\"ADD\",\"relation_id\":\"6e99ee700c99ea2e0d9751fe62536afc3f0d89c9438131d63870955357cf898e\",\"subject\":\"norma:6.apartado:4\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"Se modifica la Norma 2.ª, apartado 4, de la Circular 4/2008 que pasa a tener la siguiente redacción:\",\"modifier\":\"BOE-A-2011-19174\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:2.apartado:4\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"Se modifica el apartado 3 de la Norma 6.ª de la Circular 4/2008 y se añade un apartado 4:\",\"modifier\":\"BOE-A-2012-10479\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:6.apartado:3\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"Se modifica el apartado 3 de la Norma 6.ª de la Circular 4/2008 y se añade un apartado 4:\",\"modifier\":\"BOE-A-2012-10479\",\"operation_kind\":\"MODIFY\",\"reason\":\"following content is governed by a different sub-clause\",\"side\":\"after\",\"subject\":\"norma:6.apartado:3\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"Se modifica el apartado 3 de la Norma 6.ª de la Circular 4/2008 y se añade un apartado 4:\",\"modifier\":\"BOE-A-2012-10479\",\"operation_kind\":\"MODIFY\",\"relation_id\":\"cb1b22ba78bd3d521838c218d5303a9f55153f004c40d9cadeaa80576e15c1c5\",\"subject\":\"norma:6.apartado:3\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"Se modifican los apartados 4 y 5 de la Norma 6.ª de la Circular 4/2008:\",\"modifier\":\"BOE-A-2021-6049\",\"operation_kind\":\"MODIFY\",\"reason\":\"no operation-owned content link\",\"side\":\"after\",\"subject\":\"norma:6.apartado:4\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"Se modifican los apartados 4 y 5 de la Norma 6.ª de la Circular 4/2008:\",\"modifier\":\"BOE-A-2021-6049\",\"operation_kind\":\"MODIFY\",\"reason\":\"no operation-owned content link\",\"side\":\"after\",\"subject\":\"norma:6.apartado:5\"}"
+          }
+        ]
+      }
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "report": {
+        "target": "BOE-A-2008-20895",
+        "modifiers": [
+          {
+            "boe_id": "BOE-A-2021-6049",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2018-17708",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2018-13716",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2017-14915",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2015-12404",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2014-11497",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2011-20107",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2011-19550",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2011-551",
+            "kind": "MODIFICATION"
+          }
+        ],
+        "operation_inventory": {
+          "leaf_operations_parsed": 97,
+          "attribution_dispositions": {
+            "TARGET_PROVEN": 45,
+            "FOREIGN_TARGET": 51,
+            "MODIFIER_LOCAL": 0,
+            "AMBIGUOUS": 0,
+            "NOT_PROVABLE": 1
+          },
+          "per_modifier": [
+            {
+              "modifier": "BOE-A-2011-551",
+              "leaf_operations_parsed": 10,
+              "relations_emitted": 1,
+              "TARGET_PROVEN": 1,
+              "FOREIGN_TARGET": 8,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 1
+            },
+            {
+              "modifier": "BOE-A-2011-19550",
+              "leaf_operations_parsed": 67,
+              "relations_emitted": 27,
+              "TARGET_PROVEN": 34,
+              "FOREIGN_TARGET": 33,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2011-20107",
+              "leaf_operations_parsed": 2,
+              "relations_emitted": 1,
+              "TARGET_PROVEN": 1,
+              "FOREIGN_TARGET": 1,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2014-11497",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2015-12404",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2017-14915",
+              "leaf_operations_parsed": 4,
+              "relations_emitted": 4,
+              "TARGET_PROVEN": 4,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2018-13716",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2018-17708",
+              "leaf_operations_parsed": 11,
+              "relations_emitted": 3,
+              "TARGET_PROVEN": 5,
+              "FOREIGN_TARGET": 6,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2021-6049",
+              "leaf_operations_parsed": 3,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 3,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            }
+          ]
+        },
+        "target_annex_anchored": false,
+        "anchors": 0,
+        "fetch_errors": [],
+        "anomalies": [
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "e462f6b0bfe28aca4ab1af86c48aea8381fe8a6e0fe33c9b46d71735486073e1",
+            "detail": {
+              "subject": "norma:6",
+              "modifier": "BOE-A-2011-551",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "4. Queda sustituido el modelo G02 incluido en la Circular 7/2008 de la Comisión Nacional del Mercado de Valores sobre normas contables, cuentas anuales y estados de información reservada de las Empres"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "e462f6b0bfe28aca4ab1af86c48aea8381fe8a6e0fe33c9b46d71735486073e1",
+            "detail": {
+              "subject": "norma:6",
+              "modifier": "BOE-A-2011-551",
+              "side": "after",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no operation-owned content link",
+              "clause": "4. Queda sustituido el modelo G02 incluido en la Circular 7/2008 de la Comisión Nacional del Mercado de Valores sobre normas contables, cuentas anuales y estados de información reservada de las Empres"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "e462f6b0bfe28aca4ab1af86c48aea8381fe8a6e0fe33c9b46d71735486073e1",
+            "detail": {
+              "subject": "norma:6",
+              "modifier": "BOE-A-2011-551",
+              "operation_kind": "SUBSTITUTE",
+              "relation_id": "6da34b1a0616b37cbd0b6f2715d9751bb8fb84f339b1657e8390158571084ed9",
+              "clause": "4. Queda sustituido el modelo G02 incluido en la Circular 7/2008 de la Comisión Nacional del Mercado de Valores sobre normas contables, cuentas anuales y estados de información reservada de las Empres"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:1",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "1. Se modifica la norma 1.ª relativa al ámbito de aplicación que quedará redactada de la siguiente forma:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:2",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "2. Se modifica el número 1 de la norma 2.ª relativa a las normas de contabilidad aplicables que quedará redactado de la siguiente forma:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:5",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "3. Se modifica la norma 5.ª relativa a las cuentas anuales consolidadas que quedará redactada de la siguiente forma:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:7",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "5. Se da nueva redacción a número 2 de la norma 7.ª relativa a información pública."
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:7",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no operation-owned content link",
+              "clause": "5. Se da nueva redacción a número 2 de la norma 7.ª relativa a información pública."
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:7",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "SUBSTITUTE",
+              "relation_id": "bca506173e6cb3e61f5f826fa7c4ded78bf12339a5eb95ec05514a01a23706b2",
+              "clause": "5. Se da nueva redacción a número 2 de la norma 7.ª relativa a información pública."
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:16",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "6. Se da nueva redacción al apartado «Aspectos relacionados con el uso del valor razonable en las combinaciones de negocios» de la norma 16.ª –Consideraciones relativas al valor razonable– que queda r"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:16",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "6. Se da nueva redacción al apartado «Aspectos relacionados con el uso del valor razonable en las combinaciones de negocios» de la norma 16.ª –Consideraciones relativas al valor razonable– que queda r"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:16",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "SUBSTITUTE",
+              "relation_id": "c6f3c735c2c97714d7b4a6a3087fc8e1c9fc1b87658f86187288463d4a4792ad",
+              "clause": "6. Se da nueva redacción al apartado «Aspectos relacionados con el uso del valor razonable en las combinaciones de negocios» de la norma 16.ª –Consideraciones relativas al valor razonable– que queda r"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:17.letra:a",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "7. Se da nueva redacción a la letra a) del número 7 de la norma 17.ª –Operaciones en moneda extranjera– que queda redactado del siguiente modo:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:20.letra:a",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "8. Se da nueva redacción al primer párrafo de la letra a) del número 8 de la norma 20.ª –Instrumentos financieros– que queda redactado del siguiente modo:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:20.letra:a",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "8. Se da nueva redacción al primer párrafo de la letra a) del número 8 de la norma 20.ª –Instrumentos financieros– que queda redactado del siguiente modo:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:20.letra:a",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "SUBSTITUTE",
+              "relation_id": "b225734758432a2f98939eb6dff47dfbaaf359b0e9d821955169fe81bfff5baf",
+              "clause": "8. Se da nueva redacción al primer párrafo de la letra a) del número 8 de la norma 20.ª –Instrumentos financieros– que queda redactado del siguiente modo:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:25.letra:c",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "9. Se da nueva redacción a la letra c) del número 9 de la norma 25.ª –Coberturas contables– que queda redactado del siguiente modo:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:29",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "10. Se da nueva redacción al número 8 del apartado B) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:29",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "10. Se da nueva redacción al número 8 del apartado B) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:29",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "SUBSTITUTE",
+              "relation_id": "947059303bc1b788f3b67b3c43a4dcc3ed610ed6601ba2a5944a2910e9c865f1",
+              "clause": "10. Se da nueva redacción al número 8 del apartado B) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "CHAIN_DISCONTINUITY",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:29",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "SUBSTITUTE",
+              "reason": "unknown_state"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:29",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "subject state UNKNOWN; predecessor representation not provable",
+              "clause": "11. Se da nueva redacción al párrafo tercero del número 9 del apartado C) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:29",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "11. Se da nueva redacción al párrafo tercero del número 9 del apartado C) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:29",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "SUBSTITUTE",
+              "relation_id": "857697d1e3527036151bb8cd865ab6a6641c47e7025b5c33226d4d5c8cca125e",
+              "clause": "11. Se da nueva redacción al párrafo tercero del número 9 del apartado C) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:30",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "12. La norma 30.ª –Deterioro de activos no financieros– queda modificada como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:31",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "13. Se da nueva redacción al número 3 de la de la norma 31.ª –Activos no corrientes mantenidos para la venta– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:39",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "14. Se da nueva redacción al número 5 del apartado B) la de la norma 39.ª –Provisiones y contingencias– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:39",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "14. Se da nueva redacción al número 5 del apartado B) la de la norma 39.ª –Provisiones y contingencias– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:39",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "SUBSTITUTE",
+              "relation_id": "b5c8f750a7107d68b76d4348095a68fe1b065cddf2690afc35489f1b7989e30a",
+              "clause": "14. Se da nueva redacción al número 5 del apartado B) la de la norma 39.ª –Provisiones y contingencias– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:41",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "15. Se da nueva redacción a la norma 41.ª –Combinaciones de negocios y consolidación– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:42",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "16. Se da nueva redacción al número 3 de la norma 42.ª –Integración de sucursales y operaciones con representantes– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:43",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "DELETE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "17. Se suprimen las normas 43.ª, 44.ª, 45.ª, 46.ª, 47.ª y 48.ª de la Sección séptima: Combinaciones de negocios, integración y consolidación."
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:43",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "DELETE",
+              "relation_id": "7ff31418caaf48d97889e078a8eec51fa88518d3b6f9ac7c816aebdf164feb74",
+              "clause": "17. Se suprimen las normas 43.ª, 44.ª, 45.ª, 46.ª, 47.ª y 48.ª de la Sección séptima: Combinaciones de negocios, integración y consolidación."
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "18. Se da nueva redacción al primer párrafo del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "18. Se da nueva redacción al primer párrafo del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "SUBSTITUTE",
+              "relation_id": "93a163e917c52d5b63534566a09d29181ad8d3e0a977f940ba3a08c1c36efa85",
+              "clause": "18. Se da nueva redacción al primer párrafo del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49.letra:c",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "19. Se da nueva redacción a la letra c) del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49.letra:c",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "19. Se da nueva redacción a la letra c) del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49.letra:c",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "SUBSTITUTE",
+              "relation_id": "49ea9dab8696a485a72dc53386b2febf3af908b8f4745b11b3b43e645f3fef4f",
+              "clause": "19. Se da nueva redacción a la letra c) del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49.letra:n",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "20. Se da nueva redacción a la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49.letra:n",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "20. Se da nueva redacción a la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49.letra:n",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "SUBSTITUTE",
+              "relation_id": "cd515e87dc8c0df899b6d4e1ba693f7d3ce694c9b8c0157bd1f045127d0de863",
+              "clause": "20. Se da nueva redacción a la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "CHAIN_DISCONTINUITY",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49.letra:n",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "MODIFY",
+              "reason": "unknown_state"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49.letra:n",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "subject state UNKNOWN; predecessor representation not provable",
+              "clause": "21. El texto de la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 4 con la siguiente redacción:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49.letra:n",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "21. El texto de la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 4 con la siguiente redacción:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49.letra:n",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "MODIFY",
+              "relation_id": "36762a1255328cda4f8cfff761051e4c675fca72d97753ead16ab19defce74a1",
+              "clause": "21. El texto de la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 4 con la siguiente redacción:"
+            }
+          },
+          {
+            "kind": "CHAIN_DISCONTINUITY",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "MODIFY",
+              "reason": "unknown_state"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "subject state UNKNOWN; predecessor representation not provable",
+              "clause": "22. El número 4 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 5."
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "22. El número 4 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 5."
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:49",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "MODIFY",
+              "relation_id": "6dd1d7d38ab22251e2f0d7f1cc3c75104cbdb02f606b6eedad0ce63140a7b7d5",
+              "clause": "22. El número 4 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 5."
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:50.letra:r",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "23. Se modifica la letra r) del número 2 de la norma 50.ª –Cuenta de pérdidas y ganancias– que queda redactada como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:50.letra:r",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "following content is governed by a different sub-clause",
+              "clause": "23. Se modifica la letra r) del número 2 de la norma 50.ª –Cuenta de pérdidas y ganancias– que queda redactada como sigue:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:50.letra:r",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "MODIFY",
+              "relation_id": "f5070f59602830d8dc67ccb3ebd4cb0a8a59363302f494ab3d4fb78856fa8899",
+              "clause": "23. Se modifica la letra r) del número 2 de la norma 50.ª –Cuenta de pérdidas y ganancias– que queda redactada como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:52",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "24. Se modifica el número 4 de la norma 52.ª –Estado de flujos de efectivo– que queda redactada como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:54.letra:a",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "25. Se modifica el inciso (i) de la letra a) del número 1 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:54.letra:a",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "25. Se modifica el inciso (i) de la letra a) del número 1 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:54.letra:a",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "MODIFY",
+              "relation_id": "d136d2dfae27ca4eb19505abc1f05f8eaff6d7d2dc65c2ff946fdcfd6518e743",
+              "clause": "25. Se modifica el inciso (i) de la letra a) del número 1 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:54",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "26. Se modifica el número 2 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:54",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "26. Se modifica el número 2 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:54",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "MODIFY",
+              "relation_id": "d495ee0f9d7bd08bc89c491bf005a7a681caa076e1fd37779208d0e37a9c0d8c",
+              "clause": "26. Se modifica el número 2 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:56",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "27. Se modifica el número 4 de la norma 56.ª que queda redactado como sigue:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:59",
+              "modifier": "BOE-A-2011-19550",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "28. Se modifica el número 1 de la norma 59.ª"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:59",
+              "modifier": "BOE-A-2011-19550",
+              "side": "after",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no operation-owned content link",
+              "clause": "28. Se modifica el número 1 de la norma 59.ª"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "640d4bdbf032ae879a7051a9a4fb126ad3e947f62f306a2316ad6a31a4424abb",
+            "detail": {
+              "subject": "norma:59",
+              "modifier": "BOE-A-2011-19550",
+              "operation_kind": "MODIFY",
+              "relation_id": "b6a931a3b4bac28e3e2b715286d743ae5622272f6ca630d314c930e4619d0840",
+              "clause": "28. Se modifica el número 1 de la norma 59.ª"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "75e4ee5211402fd343485a617d4183b88a34c905f6fe1aa651096351405f1125",
+            "detail": {
+              "subject": "norma:61.punto:2",
+              "modifier": "BOE-A-2011-20107",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "3. Se modifica el punto 2 de la norma 61.ª de la Circular 7/2008, de 26 de noviembre, de la CNMV del que se elimina el cuadro y pasa a tener el siguiente tenor:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "75e4ee5211402fd343485a617d4183b88a34c905f6fe1aa651096351405f1125",
+            "detail": {
+              "subject": "norma:61.punto:2",
+              "modifier": "BOE-A-2011-20107",
+              "side": "after",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "3. Se modifica el punto 2 de la norma 61.ª de la Circular 7/2008, de 26 de noviembre, de la CNMV del que se elimina el cuadro y pasa a tener el siguiente tenor:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "75e4ee5211402fd343485a617d4183b88a34c905f6fe1aa651096351405f1125",
+            "detail": {
+              "subject": "norma:61.punto:2",
+              "modifier": "BOE-A-2011-20107",
+              "operation_kind": "MODIFY",
+              "relation_id": "0dde1642830bf1a45c6ac196d670f7872af1f00730c3001c5b950f7b3cadc701",
+              "clause": "3. Se modifica el punto 2 de la norma 61.ª de la Circular 7/2008, de 26 de noviembre, de la CNMV del que se elimina el cuadro y pasa a tener el siguiente tenor:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "ee1538b7865e421fb8efa8170a5a9862208e2260f25b8a7af1179b68a7774a98",
+            "detail": {
+              "subject": "apartado:8",
+              "modifier": "BOE-A-2017-14915",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "1. El apartado 8 de la Norma 29ª queda redactado en los siguientes términos:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "ee1538b7865e421fb8efa8170a5a9862208e2260f25b8a7af1179b68a7774a98",
+            "detail": {
+              "subject": "apartado:10",
+              "modifier": "BOE-A-2017-14915",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "2. El apartado 10 de la Norma 29ª queda redactado en los siguientes términos:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "ee1538b7865e421fb8efa8170a5a9862208e2260f25b8a7af1179b68a7774a98",
+            "detail": {
+              "subject": "apartado:3",
+              "modifier": "BOE-A-2017-14915",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "3. El apartado 3 de la Norma 30ª queda redactado en los siguientes términos:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "ee1538b7865e421fb8efa8170a5a9862208e2260f25b8a7af1179b68a7774a98",
+            "detail": {
+              "subject": "apartado:2.letra:l",
+              "modifier": "BOE-A-2017-14915",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "4. La letra l) del apartado 2 de la Norma 50ª queda redactado en los siguientes términos:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "218531131a0eafb023bb67f45ca6e89bdeb0d114122c8268b6d6f1a54db8a58a",
+            "detail": {
+              "subject": "punto:2",
+              "modifier": "BOE-A-2018-17708",
+              "side": "before",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "1. El segundo párrafo del punto 2 de la Norma 6ª queda redactado en los siguientes términos:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "218531131a0eafb023bb67f45ca6e89bdeb0d114122c8268b6d6f1a54db8a58a",
+            "detail": {
+              "subject": "punto:2",
+              "modifier": "BOE-A-2018-17708",
+              "side": "after",
+              "operation_kind": "MODIFY",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "1. El segundo párrafo del punto 2 de la Norma 6ª queda redactado en los siguientes términos:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "218531131a0eafb023bb67f45ca6e89bdeb0d114122c8268b6d6f1a54db8a58a",
+            "detail": {
+              "subject": "punto:2",
+              "modifier": "BOE-A-2018-17708",
+              "operation_kind": "MODIFY",
+              "relation_id": "dd7a09865083983e37e23959f52c1199ca3d8bf8c7dde179eb33b467bae08e6a",
+              "clause": "1. El segundo párrafo del punto 2 de la Norma 6ª queda redactado en los siguientes términos:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "snapshot_id": "218531131a0eafb023bb67f45ca6e89bdeb0d114122c8268b6d6f1a54db8a58a",
+            "detail": {
+              "subject": "norma:6",
+              "modifier": "BOE-A-2018-17708",
+              "side": "after",
+              "operation_kind": "ADD",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "clause scopes below the recorded subject locator",
+              "clause": "2. Se añade un punto 8 a dicha Norma 6.ª:"
+            }
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "snapshot_id": "218531131a0eafb023bb67f45ca6e89bdeb0d114122c8268b6d6f1a54db8a58a",
+            "detail": {
+              "subject": "norma:6",
+              "modifier": "BOE-A-2018-17708",
+              "operation_kind": "ADD",
+              "relation_id": "d86850c62dfdbe4d48c4a0d86ccf87f7a0eca2eda16d49af50773154dff0eaf9",
+              "clause": "2. Se añade un punto 8 a dicha Norma 6.ª:"
+            }
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "snapshot_id": "218531131a0eafb023bb67f45ca6e89bdeb0d114122c8268b6d6f1a54db8a58a",
+            "detail": {
+              "subject": "apartado:1",
+              "modifier": "BOE-A-2018-17708",
+              "side": "before",
+              "operation_kind": "SUBSTITUTE",
+              "candidate_count": 0,
+              "candidates": [],
+              "reason": "no_structural_candidate",
+              "clause": "3. Se sustituye el tercer recuadro del apartado 1 de la Norma 58º (estados reservados individuales. Clases y plazos de rendición) modificando la fecha límite de envío. Dicho recuadro, relativo a SGEIC"
+            }
+          }
+        ],
+        "relations": 36,
+        "representations": 16,
+        "subjects": 32,
+        "instruments": 54,
+        "instrument_relations": 70,
+        "anomaly_count": 77
+      },
+      "census": {
+        "relations": [
+          {
+            "relation_id": "6da34b1a0616b37cbd0b6f2715d9751bb8fb84f339b1657e8390158571084ed9",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "4. Queda sustituido el modelo G02 incluido en la Circular 7/2008 de la Comisión Nacional del Mercado de Valores sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo, por el contenido en el Anexo B de la presente Circular, al objeto de incorporar información más desglosada de los importes de comisiones satisfechas por las Sociedades Gestoras de Instituciones de Inversión Colectiva.»",
+            "publication_date": "2011-01-11"
+          },
+          {
+            "relation_id": "42b2c34621955c18816927c065b04e6e6f69006d8ea93078ace6351021fcb293",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "1. Se modifica la norma 1.ª relativa al ámbito de aplicación que quedará redactada de la siguiente forma:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "f61443cb836d1c151a21dcdf8e452d55aec4081266fec63cc10aa6657536f03b",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "2. Se modifica el número 1 de la norma 2.ª relativa a las normas de contabilidad aplicables que quedará redactado de la siguiente forma:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "f53b92287ceeacbe10daec6a6a41c216bca08f035e7c0e571ef6c6425cc8b119",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "3. Se modifica la norma 5.ª relativa a las cuentas anuales consolidadas que quedará redactada de la siguiente forma:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "bca506173e6cb3e61f5f826fa7c4ded78bf12339a5eb95ec05514a01a23706b2",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "5. Se da nueva redacción a número 2 de la norma 7.ª relativa a información pública.",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "c6f3c735c2c97714d7b4a6a3087fc8e1c9fc1b87658f86187288463d4a4792ad",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "6. Se da nueva redacción al apartado «Aspectos relacionados con el uso del valor razonable en las combinaciones de negocios» de la norma 16.ª –Consideraciones relativas al valor razonable– que queda redactado como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "c954803bf98fd7e771d43a6f62e2885c176ebe6ea80c1e4132d06f74e2659811",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "7. Se da nueva redacción a la letra a) del número 7 de la norma 17.ª –Operaciones en moneda extranjera– que queda redactado del siguiente modo:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "b225734758432a2f98939eb6dff47dfbaaf359b0e9d821955169fe81bfff5baf",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "8. Se da nueva redacción al primer párrafo de la letra a) del número 8 de la norma 20.ª –Instrumentos financieros– que queda redactado del siguiente modo:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "64a6d6b72c82ab361eaccf3d21127f74ad0d05b5251329f03da17bbf668bb77a",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "9. Se da nueva redacción a la letra c) del número 9 de la norma 25.ª –Coberturas contables– que queda redactado del siguiente modo:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "947059303bc1b788f3b67b3c43a4dcc3ed610ed6601ba2a5944a2910e9c865f1",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "10. Se da nueva redacción al número 8 del apartado B) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "857697d1e3527036151bb8cd865ab6a6641c47e7025b5c33226d4d5c8cca125e",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_PROVABLE; after: NOT_PROVABLE",
+            "locator_raw": "11. Se da nueva redacción al párrafo tercero del número 9 del apartado C) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "1a2ec4f46ddeb00c991044a1ca2b14095ab2668c9a2146a2ced7185210e70ad3",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "12. La norma 30.ª –Deterioro de activos no financieros– queda modificada como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "d3647b09631a3619df16502cd1f9a399e76c707cb77696fe98b08973387d00dc",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "13. Se da nueva redacción al número 3 de la de la norma 31.ª –Activos no corrientes mantenidos para la venta– que queda redactado como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "b5c8f750a7107d68b76d4348095a68fe1b065cddf2690afc35489f1b7989e30a",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "14. Se da nueva redacción al número 5 del apartado B) la de la norma 39.ª –Provisiones y contingencias– que queda redactado como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "00a060322b912df26ebfa3536e3e9e4f6ff36d8760fd886a651f456582a3b47b",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "15. Se da nueva redacción a la norma 41.ª –Combinaciones de negocios y consolidación– que queda redactado como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "1e2d716c5c7a0e7a0fa6cd5258d257ebe9c4a10d7c8920bfbf1d8c83bae29d70",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "16. Se da nueva redacción al número 3 de la norma 42.ª –Integración de sucursales y operaciones con representantes– que queda redactado como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "7ff31418caaf48d97889e078a8eec51fa88518d3b6f9ac7c816aebdf164feb74",
+            "kind": "MODIFICATION",
+            "operation_kind": "DELETE",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "17. Se suprimen las normas 43.ª, 44.ª, 45.ª, 46.ª, 47.ª y 48.ª de la Sección séptima: Combinaciones de negocios, integración y consolidación.",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "93a163e917c52d5b63534566a09d29181ad8d3e0a977f940ba3a08c1c36efa85",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "18. Se da nueva redacción al primer párrafo del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "49ea9dab8696a485a72dc53386b2febf3af908b8f4745b11b3b43e645f3fef4f",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "19. Se da nueva redacción a la letra c) del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "cd515e87dc8c0df899b6d4e1ba693f7d3ce694c9b8c0157bd1f045127d0de863",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "20. Se da nueva redacción a la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "36762a1255328cda4f8cfff761051e4c675fca72d97753ead16ab19defce74a1",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_PROVABLE; after: NOT_PROVABLE",
+            "locator_raw": "21. El texto de la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 4 con la siguiente redacción:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "6dd1d7d38ab22251e2f0d7f1cc3c75104cbdb02f606b6eedad0ce63140a7b7d5",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_PROVABLE; after: NOT_PROVABLE",
+            "locator_raw": "22. El número 4 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 5.",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "f5070f59602830d8dc67ccb3ebd4cb0a8a59363302f494ab3d4fb78856fa8899",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "23. Se modifica la letra r) del número 2 de la norma 50.ª –Cuenta de pérdidas y ganancias– que queda redactada como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "c926d9acc2a243ca3a554c5ea2bfba56f60f5196a1b792f056797ce63da7d880",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "24. Se modifica el número 4 de la norma 52.ª –Estado de flujos de efectivo– que queda redactada como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "d136d2dfae27ca4eb19505abc1f05f8eaff6d7d2dc65c2ff946fdcfd6518e743",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "25. Se modifica el inciso (i) de la letra a) del número 1 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "d495ee0f9d7bd08bc89c491bf005a7a681caa076e1fd37779208d0e37a9c0d8c",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "26. Se modifica el número 2 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "ebe303105e6aa411aac1210e78bc9c6430f91c7560579d4c6a0cb4d75483910d",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "27. Se modifica el número 4 de la norma 56.ª que queda redactado como sigue:",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "b6a931a3b4bac28e3e2b715286d743ae5622272f6ca630d314c930e4619d0840",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "28. Se modifica el número 1 de la norma 59.ª",
+            "publication_date": "2011-12-15"
+          },
+          {
+            "relation_id": "0dde1642830bf1a45c6ac196d670f7872af1f00730c3001c5b950f7b3cadc701",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "3. Se modifica el punto 2 de la norma 61.ª de la Circular 7/2008, de 26 de noviembre, de la CNMV del que se elimina el cuadro y pasa a tener el siguiente tenor:",
+            "publication_date": "2011-12-24"
+          },
+          {
+            "relation_id": "d743080038919d8b84cb6c1f7e95fca6436143313ecf8540c5581a7d2a019e74",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "1. El apartado 8 de la Norma 29ª queda redactado en los siguientes términos:",
+            "publication_date": "2017-12-18"
+          },
+          {
+            "relation_id": "0f980303d20487196de85cc061cd53a4ab75d8365e8ccacb4bead6f864ed28d1",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "2. El apartado 10 de la Norma 29ª queda redactado en los siguientes términos:",
+            "publication_date": "2017-12-18"
+          },
+          {
+            "relation_id": "e4f444fa9e1fdec2df18360a6f252750b8672989562a87961216d38d596b95b8",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "3. El apartado 3 de la Norma 30ª queda redactado en los siguientes términos:",
+            "publication_date": "2017-12-18"
+          },
+          {
+            "relation_id": "c37de430b091bf7b2908242b0ed1afbca2881de124044e13fd094b3bdd171c73",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "4. La letra l) del apartado 2 de la Norma 50ª queda redactado en los siguientes términos:",
+            "publication_date": "2017-12-18"
+          },
+          {
+            "relation_id": "dd7a09865083983e37e23959f52c1199ca3d8bf8c7dde179eb33b467bae08e6a",
+            "kind": "MODIFICATION",
+            "operation_kind": "MODIFY",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "before: NOT_FOUND; after: NOT_PROVABLE",
+            "locator_raw": "1. El segundo párrafo del punto 2 de la Norma 6ª queda redactado en los siguientes términos:",
+            "publication_date": "2018-12-26"
+          },
+          {
+            "relation_id": "d86850c62dfdbe4d48c4a0d86ccf87f7a0eca2eda16d49af50773154dff0eaf9",
+            "kind": "MODIFICATION",
+            "operation_kind": "ADD",
+            "resolution": "UNRESOLVED",
+            "resolution_notes": "after: NOT_PROVABLE",
+            "locator_raw": "2. Se añade un punto 8 a dicha Norma 6.ª:",
+            "publication_date": "2018-12-26"
+          },
+          {
+            "relation_id": "cc9a0b2a1884f44001dd0fe9eff236bd7f7291c185cf4fc5713c712b14041bee",
+            "kind": "MODIFICATION",
+            "operation_kind": "SUBSTITUTE",
+            "resolution": "PARTIAL",
+            "resolution_notes": "before: NOT_FOUND",
+            "locator_raw": "3. Se sustituye el tercer recuadro del apartado 1 de la Norma 58º (estados reservados individuales. Clases y plazos de rendición) modificando la fecha límite de envío. Dicho recuadro, relativo a SGEIC, queda redactado en los siguientes términos:",
+            "publication_date": "2018-12-26"
+          }
+        ],
+        "resolution_counts": {
+          "PARTIAL": 16,
+          "UNRESOLVED": 20
+        },
+        "op_kind_counts": {
+          "ADD": 1,
+          "DELETE": 1,
+          "MODIFY": 18,
+          "SUBSTITUTE": 16
+        },
+        "subjects": 32,
+        "subject_kinds": {
+          "APARTADO": 12,
+          "NORMA": 18,
+          "PUNTO": 2
+        },
+        "representations": 16,
+        "applicability_clauses": 0,
+        "applicability_effects": 0,
+        "anomalies_by_kind": {
+          "BINDING_NOT_FOUND": 32,
+          "BINDING_NOT_PROVABLE": 22,
+          "CHAIN_DISCONTINUITY": 3,
+          "UNBOUND_SUBJECT": 20
+        },
+        "anomaly_details": [
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"4. Queda sustituido el modelo G02 incluido en la Circular 7/2008 de la Comisión Nacional del Mercado de Valores sobre normas contables, cuentas anuales y estados de información reservada de las Empres\",\"modifier\":\"BOE-A-2011-551\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:6\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"4. Queda sustituido el modelo G02 incluido en la Circular 7/2008 de la Comisión Nacional del Mercado de Valores sobre normas contables, cuentas anuales y estados de información reservada de las Empres\",\"modifier\":\"BOE-A-2011-551\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no operation-owned content link\",\"side\":\"after\",\"subject\":\"norma:6\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"4. Queda sustituido el modelo G02 incluido en la Circular 7/2008 de la Comisión Nacional del Mercado de Valores sobre normas contables, cuentas anuales y estados de información reservada de las Empres\",\"modifier\":\"BOE-A-2011-551\",\"operation_kind\":\"SUBSTITUTE\",\"relation_id\":\"6da34b1a0616b37cbd0b6f2715d9751bb8fb84f339b1657e8390158571084ed9\",\"subject\":\"norma:6\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"1. Se modifica la norma 1.ª relativa al ámbito de aplicación que quedará redactada de la siguiente forma:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:1\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"2. Se modifica el número 1 de la norma 2.ª relativa a las normas de contabilidad aplicables que quedará redactado de la siguiente forma:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:2\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"3. Se modifica la norma 5.ª relativa a las cuentas anuales consolidadas que quedará redactada de la siguiente forma:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:5\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"5. Se da nueva redacción a número 2 de la norma 7.ª relativa a información pública.\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:7\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"5. Se da nueva redacción a número 2 de la norma 7.ª relativa a información pública.\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no operation-owned content link\",\"side\":\"after\",\"subject\":\"norma:7\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"5. Se da nueva redacción a número 2 de la norma 7.ª relativa a información pública.\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"relation_id\":\"bca506173e6cb3e61f5f826fa7c4ded78bf12339a5eb95ec05514a01a23706b2\",\"subject\":\"norma:7\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"6. Se da nueva redacción al apartado «Aspectos relacionados con el uso del valor razonable en las combinaciones de negocios» de la norma 16.ª –Consideraciones relativas al valor razonable– que queda r\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:16\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"6. Se da nueva redacción al apartado «Aspectos relacionados con el uso del valor razonable en las combinaciones de negocios» de la norma 16.ª –Consideraciones relativas al valor razonable– que queda r\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:16\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"6. Se da nueva redacción al apartado «Aspectos relacionados con el uso del valor razonable en las combinaciones de negocios» de la norma 16.ª –Consideraciones relativas al valor razonable– que queda r\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"relation_id\":\"c6f3c735c2c97714d7b4a6a3087fc8e1c9fc1b87658f86187288463d4a4792ad\",\"subject\":\"norma:16\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"7. Se da nueva redacción a la letra a) del número 7 de la norma 17.ª –Operaciones en moneda extranjera– que queda redactado del siguiente modo:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:17.letra:a\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"8. Se da nueva redacción al primer párrafo de la letra a) del número 8 de la norma 20.ª –Instrumentos financieros– que queda redactado del siguiente modo:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:20.letra:a\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"8. Se da nueva redacción al primer párrafo de la letra a) del número 8 de la norma 20.ª –Instrumentos financieros– que queda redactado del siguiente modo:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:20.letra:a\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"8. Se da nueva redacción al primer párrafo de la letra a) del número 8 de la norma 20.ª –Instrumentos financieros– que queda redactado del siguiente modo:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"relation_id\":\"b225734758432a2f98939eb6dff47dfbaaf359b0e9d821955169fe81bfff5baf\",\"subject\":\"norma:20.letra:a\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"9. Se da nueva redacción a la letra c) del número 9 de la norma 25.ª –Coberturas contables– que queda redactado del siguiente modo:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:25.letra:c\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"10. Se da nueva redacción al número 8 del apartado B) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:29\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"10. Se da nueva redacción al número 8 del apartado B) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:29\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"10. Se da nueva redacción al número 8 del apartado B) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"relation_id\":\"947059303bc1b788f3b67b3c43a4dcc3ed610ed6601ba2a5944a2910e9c865f1\",\"subject\":\"norma:29\"}"
+          },
+          {
+            "kind": "CHAIN_DISCONTINUITY",
+            "detail": "{\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"unknown_state\",\"subject\":\"norma:29\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"11. Se da nueva redacción al párrafo tercero del número 9 del apartado C) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"subject state UNKNOWN; predecessor representation not provable\",\"side\":\"before\",\"subject\":\"norma:29\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"11. Se da nueva redacción al párrafo tercero del número 9 del apartado C) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:29\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"11. Se da nueva redacción al párrafo tercero del número 9 del apartado C) de la norma 29.ª –Activos intangibles– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"relation_id\":\"857697d1e3527036151bb8cd865ab6a6641c47e7025b5c33226d4d5c8cca125e\",\"subject\":\"norma:29\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"12. La norma 30.ª –Deterioro de activos no financieros– queda modificada como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:30\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"13. Se da nueva redacción al número 3 de la de la norma 31.ª –Activos no corrientes mantenidos para la venta– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:31\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"14. Se da nueva redacción al número 5 del apartado B) la de la norma 39.ª –Provisiones y contingencias– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:39\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"14. Se da nueva redacción al número 5 del apartado B) la de la norma 39.ª –Provisiones y contingencias– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:39\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"14. Se da nueva redacción al número 5 del apartado B) la de la norma 39.ª –Provisiones y contingencias– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"relation_id\":\"b5c8f750a7107d68b76d4348095a68fe1b065cddf2690afc35489f1b7989e30a\",\"subject\":\"norma:39\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"15. Se da nueva redacción a la norma 41.ª –Combinaciones de negocios y consolidación– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:41\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"16. Se da nueva redacción al número 3 de la norma 42.ª –Integración de sucursales y operaciones con representantes– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:42\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"17. Se suprimen las normas 43.ª, 44.ª, 45.ª, 46.ª, 47.ª y 48.ª de la Sección séptima: Combinaciones de negocios, integración y consolidación.\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"DELETE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:43\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"17. Se suprimen las normas 43.ª, 44.ª, 45.ª, 46.ª, 47.ª y 48.ª de la Sección séptima: Combinaciones de negocios, integración y consolidación.\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"DELETE\",\"relation_id\":\"7ff31418caaf48d97889e078a8eec51fa88518d3b6f9ac7c816aebdf164feb74\",\"subject\":\"norma:43\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"18. Se da nueva redacción al primer párrafo del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:49\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"18. Se da nueva redacción al primer párrafo del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:49\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"18. Se da nueva redacción al primer párrafo del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"relation_id\":\"93a163e917c52d5b63534566a09d29181ad8d3e0a977f940ba3a08c1c36efa85\",\"subject\":\"norma:49\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"19. Se da nueva redacción a la letra c) del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:49.letra:c\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"19. Se da nueva redacción a la letra c) del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:49.letra:c\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"19. Se da nueva redacción a la letra c) del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"relation_id\":\"49ea9dab8696a485a72dc53386b2febf3af908b8f4745b11b3b43e645f3fef4f\",\"subject\":\"norma:49.letra:c\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"20. Se da nueva redacción a la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:49.letra:n\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"20. Se da nueva redacción a la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:49.letra:n\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"20. Se da nueva redacción a la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"SUBSTITUTE\",\"relation_id\":\"cd515e87dc8c0df899b6d4e1ba693f7d3ce694c9b8c0157bd1f045127d0de863\",\"subject\":\"norma:49.letra:n\"}"
+          },
+          {
+            "kind": "CHAIN_DISCONTINUITY",
+            "detail": "{\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"unknown_state\",\"subject\":\"norma:49.letra:n\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"21. El texto de la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 4 con la siguiente redacción:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"subject state UNKNOWN; predecessor representation not provable\",\"side\":\"before\",\"subject\":\"norma:49.letra:n\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"21. El texto de la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 4 con la siguiente redacción:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:49.letra:n\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"21. El texto de la letra n) del número 3 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 4 con la siguiente redacción:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"relation_id\":\"36762a1255328cda4f8cfff761051e4c675fca72d97753ead16ab19defce74a1\",\"subject\":\"norma:49.letra:n\"}"
+          },
+          {
+            "kind": "CHAIN_DISCONTINUITY",
+            "detail": "{\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"unknown_state\",\"subject\":\"norma:49\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"22. El número 4 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 5.\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"subject state UNKNOWN; predecessor representation not provable\",\"side\":\"before\",\"subject\":\"norma:49\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"22. El número 4 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 5.\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:49\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"22. El número 4 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 5.\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"relation_id\":\"6dd1d7d38ab22251e2f0d7f1cc3c75104cbdb02f606b6eedad0ce63140a7b7d5\",\"subject\":\"norma:49\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"23. Se modifica la letra r) del número 2 de la norma 50.ª –Cuenta de pérdidas y ganancias– que queda redactada como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:50.letra:r\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"23. Se modifica la letra r) del número 2 de la norma 50.ª –Cuenta de pérdidas y ganancias– que queda redactada como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"following content is governed by a different sub-clause\",\"side\":\"after\",\"subject\":\"norma:50.letra:r\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"23. Se modifica la letra r) del número 2 de la norma 50.ª –Cuenta de pérdidas y ganancias– que queda redactada como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"relation_id\":\"f5070f59602830d8dc67ccb3ebd4cb0a8a59363302f494ab3d4fb78856fa8899\",\"subject\":\"norma:50.letra:r\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"24. Se modifica el número 4 de la norma 52.ª –Estado de flujos de efectivo– que queda redactada como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:52\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"25. Se modifica el inciso (i) de la letra a) del número 1 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:54.letra:a\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"25. Se modifica el inciso (i) de la letra a) del número 1 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:54.letra:a\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"25. Se modifica el inciso (i) de la letra a) del número 1 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"relation_id\":\"d136d2dfae27ca4eb19505abc1f05f8eaff6d7d2dc65c2ff946fdcfd6518e743\",\"subject\":\"norma:54.letra:a\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"26. Se modifica el número 2 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:54\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"26. Se modifica el número 2 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:54\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"26. Se modifica el número 2 del apartado A) de la norma 54.ª –Transacciones con partes vinculadas– que queda redactada como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"relation_id\":\"d495ee0f9d7bd08bc89c491bf005a7a681caa076e1fd37779208d0e37a9c0d8c\",\"subject\":\"norma:54\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"27. Se modifica el número 4 de la norma 56.ª que queda redactado como sigue:\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:56\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"28. Se modifica el número 1 de la norma 59.ª\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:59\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"28. Se modifica el número 1 de la norma 59.ª\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"reason\":\"no operation-owned content link\",\"side\":\"after\",\"subject\":\"norma:59\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"28. Se modifica el número 1 de la norma 59.ª\",\"modifier\":\"BOE-A-2011-19550\",\"operation_kind\":\"MODIFY\",\"relation_id\":\"b6a931a3b4bac28e3e2b715286d743ae5622272f6ca630d314c930e4619d0840\",\"subject\":\"norma:59\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"3. Se modifica el punto 2 de la norma 61.ª de la Circular 7/2008, de 26 de noviembre, de la CNMV del que se elimina el cuadro y pasa a tener el siguiente tenor:\",\"modifier\":\"BOE-A-2011-20107\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"norma:61.punto:2\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"3. Se modifica el punto 2 de la norma 61.ª de la Circular 7/2008, de 26 de noviembre, de la CNMV del que se elimina el cuadro y pasa a tener el siguiente tenor:\",\"modifier\":\"BOE-A-2011-20107\",\"operation_kind\":\"MODIFY\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:61.punto:2\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"3. Se modifica el punto 2 de la norma 61.ª de la Circular 7/2008, de 26 de noviembre, de la CNMV del que se elimina el cuadro y pasa a tener el siguiente tenor:\",\"modifier\":\"BOE-A-2011-20107\",\"operation_kind\":\"MODIFY\",\"relation_id\":\"0dde1642830bf1a45c6ac196d670f7872af1f00730c3001c5b950f7b3cadc701\",\"subject\":\"norma:61.punto:2\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"1. El apartado 8 de la Norma 29ª queda redactado en los siguientes términos:\",\"modifier\":\"BOE-A-2017-14915\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"apartado:8\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"2. El apartado 10 de la Norma 29ª queda redactado en los siguientes términos:\",\"modifier\":\"BOE-A-2017-14915\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"apartado:10\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"3. El apartado 3 de la Norma 30ª queda redactado en los siguientes términos:\",\"modifier\":\"BOE-A-2017-14915\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"apartado:3\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"4. La letra l) del apartado 2 de la Norma 50ª queda redactado en los siguientes términos:\",\"modifier\":\"BOE-A-2017-14915\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"apartado:2.letra:l\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"1. El segundo párrafo del punto 2 de la Norma 6ª queda redactado en los siguientes términos:\",\"modifier\":\"BOE-A-2018-17708\",\"operation_kind\":\"MODIFY\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"punto:2\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"1. El segundo párrafo del punto 2 de la Norma 6ª queda redactado en los siguientes términos:\",\"modifier\":\"BOE-A-2018-17708\",\"operation_kind\":\"MODIFY\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"punto:2\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"1. El segundo párrafo del punto 2 de la Norma 6ª queda redactado en los siguientes términos:\",\"modifier\":\"BOE-A-2018-17708\",\"operation_kind\":\"MODIFY\",\"relation_id\":\"dd7a09865083983e37e23959f52c1199ca3d8bf8c7dde179eb33b467bae08e6a\",\"subject\":\"punto:2\"}"
+          },
+          {
+            "kind": "BINDING_NOT_PROVABLE",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"2. Se añade un punto 8 a dicha Norma 6.ª:\",\"modifier\":\"BOE-A-2018-17708\",\"operation_kind\":\"ADD\",\"reason\":\"clause scopes below the recorded subject locator\",\"side\":\"after\",\"subject\":\"norma:6\"}"
+          },
+          {
+            "kind": "UNBOUND_SUBJECT",
+            "detail": "{\"clause\":\"2. Se añade un punto 8 a dicha Norma 6.ª:\",\"modifier\":\"BOE-A-2018-17708\",\"operation_kind\":\"ADD\",\"relation_id\":\"d86850c62dfdbe4d48c4a0d86ccf87f7a0eca2eda16d49af50773154dff0eaf9\",\"subject\":\"norma:6\"}"
+          },
+          {
+            "kind": "BINDING_NOT_FOUND",
+            "detail": "{\"candidate_count\":0,\"candidates\":[],\"clause\":\"3. Se sustituye el tercer recuadro del apartado 1 de la Norma 58º (estados reservados individuales. Clases y plazos de rendición) modificando la fecha límite de envío. Dicho recuadro, relativo a SGEIC\",\"modifier\":\"BOE-A-2018-17708\",\"operation_kind\":\"SUBSTITUTE\",\"reason\":\"no_structural_candidate\",\"side\":\"before\",\"subject\":\"apartado:1\"}"
+          }
+        ]
+      }
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "report": {
+        "target": "BOE-A-2010-13162",
+        "modifiers": [
+          {
+            "boe_id": "BOE-A-2025-8206",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2018-13716",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2014-11497",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2014-3559",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2018-17708",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2011-20107",
+            "kind": "MODIFICATION"
+          }
+        ],
+        "operation_inventory": {
+          "leaf_operations_parsed": 16,
+          "attribution_dispositions": {
+            "TARGET_PROVEN": 3,
+            "FOREIGN_TARGET": 11,
+            "MODIFIER_LOCAL": 0,
+            "AMBIGUOUS": 0,
+            "NOT_PROVABLE": 2
+          },
+          "per_modifier": [
+            {
+              "modifier": "BOE-A-2011-20107",
+              "leaf_operations_parsed": 2,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 1,
+              "FOREIGN_TARGET": 1,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2014-3559",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2014-11497",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2018-13716",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2018-17708",
+              "leaf_operations_parsed": 11,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 2,
+              "FOREIGN_TARGET": 9,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2025-8206",
+              "leaf_operations_parsed": 3,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 1,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 2
+            }
+          ]
+        },
+        "target_annex_anchored": false,
+        "anchors": 0,
+        "fetch_errors": [],
+        "anomalies": [],
+        "relations": 0,
+        "representations": 0,
+        "subjects": 0,
+        "instruments": 26,
+        "instrument_relations": 36,
+        "anomaly_count": 0
+      },
+      "census": {
+        "relations": [],
+        "resolution_counts": {},
+        "op_kind_counts": {},
+        "subjects": 0,
+        "subject_kinds": {},
+        "representations": 0,
+        "applicability_clauses": 0,
+        "applicability_effects": 0,
+        "anomalies_by_kind": {},
+        "anomaly_details": []
+      }
+    },
+    {
+      "target": "BOE-A-1994-28725",
+      "report": {
+        "target": "BOE-A-1994-28725",
+        "modifiers": [
+          {
+            "boe_id": "BOE-A-2008-19438",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2008-16091",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2008-15872",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-2008-7880",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-1998-30048",
+            "kind": "MODIFICATION"
+          },
+          {
+            "boe_id": "BOE-A-1997-26637",
+            "kind": "MODIFICATION"
+          }
+        ],
+        "operation_inventory": {
+          "leaf_operations_parsed": 10,
+          "attribution_dispositions": {
+            "TARGET_PROVEN": 1,
+            "FOREIGN_TARGET": 3,
+            "MODIFIER_LOCAL": 0,
+            "AMBIGUOUS": 0,
+            "NOT_PROVABLE": 6
+          },
+          "per_modifier": [
+            {
+              "modifier": "BOE-A-1997-26637",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-1998-30048",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2008-7880",
+              "leaf_operations_parsed": 1,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 1,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2008-15872",
+              "leaf_operations_parsed": 8,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 2,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 6
+            },
+            {
+              "modifier": "BOE-A-2008-16091",
+              "leaf_operations_parsed": 0,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 0,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            },
+            {
+              "modifier": "BOE-A-2008-19438",
+              "leaf_operations_parsed": 1,
+              "relations_emitted": 0,
+              "TARGET_PROVEN": 0,
+              "FOREIGN_TARGET": 1,
+              "MODIFIER_LOCAL": 0,
+              "AMBIGUOUS": 0,
+              "NOT_PROVABLE": 0
+            }
+          ]
+        },
+        "target_annex_anchored": false,
+        "anchors": 0,
+        "fetch_errors": [],
+        "anomalies": [],
+        "relations": 0,
+        "representations": 0,
+        "subjects": 0,
+        "instruments": 55,
+        "instrument_relations": 79,
+        "anomaly_count": 0
+      },
+      "census": {
+        "relations": [],
+        "resolution_counts": {},
+        "op_kind_counts": {},
+        "subjects": 0,
+        "subject_kinds": {},
+        "representations": 0,
+        "applicability_clauses": 0,
+        "applicability_effects": 0,
+        "anomalies_by_kind": {},
+        "anomaly_details": []
+      }
+    }
+  ]
+}

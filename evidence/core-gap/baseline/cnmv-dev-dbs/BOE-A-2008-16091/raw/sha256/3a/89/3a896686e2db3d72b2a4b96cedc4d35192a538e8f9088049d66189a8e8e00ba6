@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219132601">
+  <metadatos>
+    <identificador>BOE-A-2009-6555</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20090325</fecha_disposicion>
+    <numero_oficial>3/2009</numero_oficial>
+    <titulo>Circular 3/2009, de 25 de marzo, de la Comisión Nacional del Mercado de Valores, sobre el contenido del informe semestral de cumplimiento de la función de vigilancia y supervisión de los depositarios de instituciones de inversión colectiva.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20090420</fecha_publicacion>
+    <diario_numero>96</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>35823</pagina_inicial>
+    <pagina_final>35841</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2009/04/20/pdfs/BOE-A-2009-6555.pdf</url_pdf>
+    <url_epub/>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20090701</fecha_vigencia>
+    <estatus_derogacion>S</estatus_derogacion>
+    <fecha_derogacion>20161013</fecha_derogacion>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>S</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2009/03/25/3</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2009/03/25/3">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-6555</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-03-25</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6697"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2009/03/25/3/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2009-6555</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-03-25</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6697"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:corrected_by rdf:resource="https://www.boe.es/eli/es/cir/2009/03/25/3/corrigendum/20090512/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2009/03/25/3"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2009/03/25/3/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2009, de 25 de marzo, de la Comisión Nacional del Mercado de Valores, sobre el contenido del informe semestral de cumplimiento de la función de vigilancia y supervisión de los depositarios de instituciones de inversión colectiva.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-04-20</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2009/03/25/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2009/03/25/3/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2009/03/25/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2009/03/25/3/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2009/03/25/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2009/03/25/3/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2009/03/25/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="1186" orden="">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="3807" orden="">Formularios administrativos</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="4302" orden="">Instituciones de Inversión Colectiva</materia>
+      <materia codigo="6697" orden="">Sociedades Gestoras de Instituciones de Inversión Colectiva</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2008-16091" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>el anexo 1 de la Circular 4/2008, de 11 de septiembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2005-18356" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>el Reglamento aprobado por Real Decreto 1309/2005, de 4 de noviembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2003-20331" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la Ley 35/2003, de 4 de noviembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2016-6646" orden="">
+          <palabra codigo="210">SE DEROGA</palabra>
+          <texto>, con efectos desde el 13 de octubre de 2016, por Circular 4/2016, de 29 de junio</texto>
+        </posterior>
+        <posterior referencia="BOE-A-2009-7831" orden="">
+          <palabra codigo="201">CORRECCIÓN de errores</palabra>
+          <texto>en BOE num. 115 de 12 de mayo de 2009</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p class="parrafo">El artículo 60 de la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva, recoge entre las obligaciones de los depositarios de instituciones de inversión colectiva, asumir ante los partícipes o accionistas la función de vigilancia de la gestión realizada por las sociedades gestoras de los fondos de inversión o por los administradores de las sociedades de inversión. Por otra parte, el artículo 62 de dicha Ley establece que el depositario está obligado a comunicar a la Comisión Nacional del Mercado de Valores cualquier anomalía que detecte en la gestión de las instituciones cuyos activos tiene en custodia.</p>
+    <p class="parrafo">Adicionalmente, de acuerdo al artículo 93.3 del Real Decreto 1309/2005, de 4 de noviembre, por el que se aprueba el Reglamento de la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva, los depositarios deberán remitir a la Comisión Nacional del Mercado de Valores un informe semestral sobre el cumplimiento de la función de vigilancia y supervisión en el que se pondrá de manifiesto la exactitud, calidad y suficiencia de la información que les remita la SGIIC o, en su caso, los administradores de la SICAV así como de la restante información, documentación y publicidad que deben enviar a la Comisión Nacional del Mercado de Valores. En dicho artículo se habilita a la Comisión Nacional del Mercado de Valores para determinar el contenido y el modelo al que habrá de ajustarse el informe semestral que deben remitir los depositarios de instituciones de inversión colectiva, así como el plazo y forma para su remisión.</p>
+    <p class="parrafo">Dicho informe deberá incluir todos los incumplimientos normativos o anomalías detectados por el depositario en la gestión o administración de las IIC, tanto de carácter financiero como inmobiliarias, junto con las observaciones que la gestora o, en su caso, la SICAV, hubieran podido realizar como consecuencia de la comunicación de la anomalía por parte del depositario.</p>
+    <p class="parrafo">Sin perjuicio de lo indicado anteriormente, y de acuerdo con el artículo 93.4 del Reglamento de Instituciones de Inversión Colectiva, el depositario deberá informar sin tardanza por escrito de cualquier anomalía que detecte en la gestión o administración de las IIC y que revista una especial relevancia. Según el artículo 2.4 de la Orden EHA/596/2008, de 5 de marzo, por la que se regulan determinados aspectos del régimen jurídico del depositario de instituciones de inversión colectiva, se entenderá que una anomalía es de especial relevancia, entre otros casos, cuando pudiera tener un impacto apreciable sobre el valor liquidativo de las participaciones de los fondos de inversión, de las acciones de las sociedades de inversión, así como cuando se trate de actos u omisiones calificados como infracciones graves o muy graves en el capítulo VI de la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva.</p>
+    <p class="parrafo">Haciendo uso de la habilitación mencionada y por medio de la presente Circular, se regula la comunicación a la Comisión Nacional del Mercado de Valores de las incidencias detectadas por el depositario como consecuencia del cumplimiento de las funciones de vigilancia que tienen encomendadas de acuerdo al Reglamento de Instituciones de Inversión Colectiva y que se precisan en la Orden EHA/596/2008, entre otras: la comprobación de que las operaciones se realizan en régimen de mercado; el cumplimiento de coeficientes, límites legales y vocación inversora; seguimiento de la evolución de los valores liquidativos; y revisión de los estados públicos y reservados.</p>
+    <p class="parrafo">Adicionalmente, se incorpora la obligación de remitir a la Comisión Nacional del Mercado de Valores en soporte informático el citado informe por el servicio CIFRADOC/CNMV, aprobado por Acuerdo del Consejo de la Comisión Nacional del Mercado de Valores de 15 de septiembre de 2006 u otro similar.</p>
+    <p class="parrafo">Por otra parte, al amparo de la habilitación que otorga a la Comisión Nacional del Mercado de Valores la disposición final segunda de la Orden EHA 596/2008 para dictar cuantas normas sean precisas para el desarrollo de dicha Orden, se ha precisado el alcance de la revisión de la exactitud, calidad y suficiencia de la información pública periódica previa a su envío a la Comisión Nacional del Mercado de Valores y el concepto de anomalía de especial relevancia.</p>
+    <p class="parrafo">Respecto a la estructura de la Circular, en la Sección Primera se ha establecido el envío del informe semestral por medios telemáticos y el reporte de incidencias adaptado a los modelos que figuran en el Anexo A de la Circular, debiéndose elaborar un informe por cada gestora cuyas IIC sean depositadas por la entidad obligada a remitir la información. Esta información tendrá distinto grado de detalle en función del tipo de incidencia. Así pues, la información a aportar se reúne en 4 grupos de mayor a menor nivel de detalle: incidencias de valoración, diferencias en número de títulos y saldos, otras incidencias que afecten al valor liquidativo e incumplimientos de coeficientes y límites legales. Se añade un quinto modelo en el que se aportarán los datos de la entidad depositaria con la finalidad de proporcionar a la Comisión Nacional del Mercado de Valores información actualizada para sus funciones de supervisión.</p>
+    <p class="parrafo">En la Sección Segunda se recogen una serie de precisiones acerca del alcance de las revisiones de la información pública periódica y del concepto de anomalía de especial relevancia, de modo que se consideren como tales aquellas infracciones muy graves o graves siempre que sean objeto de la función supervisora del depositario.</p>
+    <p class="parrafo">En definitiva, el informe semestral recogido en esta Circular responde al objetivo de sistematizar el envío de información al supervisor por parte de los depositarios en relación a las incidencias que detecten en el marco de las obligaciones ya existentes relativas a su función de vigilancia.</p>
+    <p class="seccion">Sección 1.ª Informe semestral</p>
+    <p class="articulo">Norma 1. Ámbito de aplicación.</p>
+    <p class="parrafo_2">La presente Circular será de aplicación a los depositarios de instituciones de inversión colectiva a los que se refiere el Título V de la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva.</p>
+    <p class="articulo">Norma 2. Contenido del informe.</p>
+    <p class="parrafo_2">1. Los depositarios de instituciones de inversión colectiva elaborarán un informe por cada semestre natural y para cada gestora de cuyas IIC sean entidad depositaria o por cada SICAV autogestionada de la que sean depositario a la fecha de referencia del informe semestral.</p>
+    <p class="parrafo">2. El informe semestral se subdivide en cuatro modelos en los que se recogerá el resultado de las funciones de supervisión y vigilancia precisadas por la Orden EHA/596/2008, de 5 de marzo, por la que se regulan determinados aspectos del régimen jurídico del depositario de instituciones de inversión colectiva. La forma y contenido del informe se ajustarán a los modelos del Anexo A de la presente Circular.</p>
+    <p class="parrafo">3. Lo establecido anteriormente se entenderá sin perjuicio de que el depositario deba poder acreditar ante la Comisión Nacional del Mercado de Valores, en todo momento, el resultado de sus labores de supervisión, vigilancia, depósito y custodia, así como estar en disposición de proporcionar información más amplia sobre las incidencias o anomalías detectadas en el curso de sus revisiones. Dicha acreditación deberá conservarse durante un plazo mínimo de cinco años.</p>
+    <p class="parrafo">4. En cualquier caso, el depositario deberá informar sin tardanza y por escrito a la Comisión Nacional del Mercado de Valores de cualquier anomalía que detecte en sus funciones de supervisión y vigilancia en la gestión o administración de las IIC y que revista una especial relevancia de acuerdo con el artículo 2.4 de la Orden EHA/596/2008, de 5 de marzo, y la Norma 6.ª de esta Circular.</p>
+    <p class="articulo">Norma 3. Estructura del informe.</p>
+    <p class="parrafo_2">1. El informe se estructura en cuatro modelos más otro de información complementaria, recogidos en el Anexo A de esta Circular. En los cuatro primeros modelos los depositarios informarán, de acuerdo con los controles establecidos en el manual de procedimientos de la entidad al que alude el artículo 9 de la Orden EHA/596/2008, de 5 de marzo, de las incidencias en la valoración de activos, diferencias en conciliaciones, otras incidencias en el valor liquidativo e incumplimientos legales, tanto resueltos como pendientes de resolución a último día del semestre de referencia, y que hayan detectado como consecuencia de sus funciones de vigilancia.</p>
+    <p class="parrafo_2">a) Valoración de activos (Modelo D01).</p>
+    <p class="parrafo_2">Se reflejarán las incidencias que afecten a la valoración de los activos, a la captura de precios, a la introducción de parámetros de valoración y otras incidencias de valoración que se detecten en el control de los estados reservados o en el seguimiento de la evolución de los valores liquidativos. En este modelo se creará un registro para cada incidencia.</p>
+    <p class="parrafo_2">b) Conciliaciones de títulos y saldos (Modelo D02).</p>
+    <p class="parrafo_2">Se informará del número de incidencias detectadas en los procesos de conciliación mensual de los estados reservados proporcionados por la gestora o SICAV autogestionada con los registros internos de los depositarios por tipo de activo y para cada IIC.</p>
+    <p class="parrafo_2">c) Otras incidencias en valor liquidativo (Modelo D03).</p>
+    <p class="parrafo_2">En este modelo se reflejará, por cada IIC, el total de incidencias detectadas en el semestre como consecuencia del seguimiento de la evolución del valor liquidativo que no hayan sido incluidas en los modelos anteriores. Se recogerán, entre otras, aquellas incidencias detectadas por el depositario de IIC en su función de supervisión de la gestión de las IIC, como deficiencias en la contabilización de hechos corporativos, periodificación de intereses o comisiones y otras incidencias.</p>
+    <p class="parrafo_2">d) Coeficientes y límites legales de IIC (Modelo D04).</p>
+    <p class="parrafo_2">Se cumplimentará a nivel de gestora y la información se dará agrupada por tipo de incumplimiento para el total de las IIC.</p>
+    <p class="parrafo_2">e) Información complementaria (Modelo D05).</p>
+    <p class="parrafo_2">En este modelo se recogerán datos de contacto del depositario, con el objeto de aportar información actualizada que facilite las labores de supervisión de la Comisión Nacional del Mercado de Valores.</p>
+    <p class="parrafo_2">2. Todos los modelos, excepto el D05, se cumplimentarán a nivel de IIC, salvo en el caso de las IIC por compartimentos en las que la información se cumplimentará a nivel de compartimento.</p>
+    <p class="parrafo">3. En los modelos se incluirá el número de incidencias e incumplimientos resueltos y pendientes de resolución, así como su antigüedad media. En el caso de incidencias de valoración, diferencias en conciliaciones y otras incidencias en el valor liquidativo, se aportará información del importe de las incidencias y su posible impacto sobre el valor liquidativo.</p>
+    <p class="parrafo">4. En los modelos se recogerán las observaciones que la gestora o, en su caso, la SICAV, hubiera podido realizar como consecuencia de la comunicación de la anomalía por parte del depositario.</p>
+    <p class="parrafo">5. No obstante, cuando el depositario en sus funciones de supervisión y vigilancia detecte incidencias o incumplimientos que no tengan cabida en la estructura del informe semestral, deberá comunicarlo por escrito a la Comisión Nacional del Mercado de Valores aportando la información pormenorizada de los mismos junto con los comentarios que haya recibido de la entidad gestora.</p>
+    <p class="articulo">Norma 4. Forma y plazos de presentación.</p>
+    <p class="parrafo_2">1. La remisión a la Comisión Nacional del Mercado de Valores del informe semestral deberá realizarse por vía telemática, mediante el servicio CIFRADOC/CNMV, aprobado por Acuerdo del Consejo de 15 de septiembre de 2006, u otro similar que establezca la Comisión Nacional del Mercado de Valores.</p>
+    <p class="parrafo">2. Los depositarios deberán presentar el informe semestral resultado de sus funciones de supervisión y vigilancia, antes del último día natural del segundo mes después del período de referencia.</p>
+    <p class="parrafo">3. En el supuesto de sustitución de la entidad depositaria, únicamente estará obligado a remitir el informe semestral el depositario que conste en los registros de la Comisión Nacional del Mercado de Valores en el último día del período de referencia y por el período comprendido entre su designación y el último día del semestre.</p>
+    <p class="seccion">Sección 2.ª Precisiones sobre la función de supervisión y vigilancia de los depositarios</p>
+    <p class="articulo">Norma 5. Precisiones sobre la revisión de la información pública periódica.</p>
+    <p class="parrafo_2">1. La función de los depositarios de IIC descrita en el artículo 2.3 de la Orden EHA/596/2008, de 5 de marzo, sobre el contraste de la exactitud, calidad y suficiencia de la información pública periódica, con carácter previo a la remisión a la Comisión Nacional del Mercado de Valores, por la sociedad gestora o SICAV, se entenderá cumplida cuando se revisen, como mínimo, la coincidencia de la cartera de inversiones y tesorería con la información de los registros internos del depositario, el contenido de los hechos relevantes, las comisiones establecidas y la información sobre operaciones vinculadas entre gestora y depositario.</p>
+    <p class="parrafo">2. La información anterior se supervisará tanto para IIC de carácter financiero como fondos inmobiliarios.</p>
+    <p class="parrafo">3. El resto del contenido de la información pública periódica se revisará en el mes posterior al envío de dicha información a la Comisión Nacional del Mercado de Valores, verificando la coherencia de la misma en los términos previstos en el manual de procedimientos de la entidad. Por tanto, en el informe semestral se incluirán las incidencias detectadas en la revisión de la totalidad de la información pública periódica, salvo aquellas anomalías de especial relevancia que deben ser comunicadas a la Comisión Nacional del Mercado de Valores con carácter inmediato.</p>
+    <p class="articulo">Norma 6.ª Anomalías de especial relevancia y otras consideraciones.</p>
+    <p class="parrafo_2">1. De acuerdo a la Orden EHA/596/2008, de 5 de marzo, serán anomalías de especial relevancia, entre otras, aquellas que pudieran tener un impacto apreciable sobre el valor liquidativo de las participaciones/acciones, así como cuando se trate de actos u omisiones calificados como infracciones graves o muy graves en el capítulo VI de la Ley 35/2003, de IIC, siempre que dichas infracciones no se correspondan con obligaciones propias del depositario o con incumplimientos de la gestora que no sean objeto de la función supervisora de los depositarios. De este modo, no se considerarán como anomalías de especial relevancia los actos u omisiones contenidos en las letras c), g), h), o), q), r), t) y u) del artículo 80 de la Ley de IIC, y letras c), i), j), k) y l) del artículo 81 de dicha Ley.</p>
+    <p class="parrafo">Adicionalmente, en el caso particular de los siguientes actos u omisiones, se considerarán anomalías de especial relevancia, siempre y cuando se correspondan con la función de vigilancia y supervisión del depositario de acuerdo con la Orden EHA/596/2008, de 5 de marzo:</p>
+    <p class="parrafo_2">– los recogidos en la letra a) del mencionado artículo 80, en lo referente a la información pública objeto de control por parte del depositario;</p>
+    <p class="parrafo">– los recogidos en la letra n) de dicho artículo 80 y h) del artículo 81, en relación a la actuación de las gestoras en interés de accionistas y partícipes e información a remitir a los depositarios, de acuerdo con lo establecido en los apartados 2 y 3 del artículo 46 de la Ley 35/2003, de IIC;</p>
+    <p class="parrafo">– los recogidos en las letras p) y v) del artículo 80 y m) y n) del artículo 81, en los casos puestos de manifiesto a través de las incidencias detectadas en los controles efectuados por el depositario.</p>
+    <p class="parrafo_2">2. Con carácter adicional a la obligación de comunicar previamente a la gestora o SICAV las anomalías que no revistan una especial relevancia, de acuerdo con lo establecido en el artículo 93.3 del Real Decreto 1309/2005, de 4 de noviembre, por el que se aprueba el Reglamento de la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva, el depositario podrá comunicar a la gestora las anomalías de especial relevancia que deben ser informadas sin tardanza por escrito a la Comisión Nacional del Mercado de Valores según el artículo 93.4 de dicho Real Decreto.</p>
+    <p class="parrafo">3. Sin perjuicio de la obligación de informar sin tardanza a la Comisión Nacional del Mercado de Valores de las anomalías de especial relevancia, éstas deberán incluirse también en el informe semestral.</p>
+    <p class="parrafo">4. Las entidades depositarias deberán incluir en su manual de procedimientos el sistema de comunicación a las sociedades gestoras y SICAV de las incidencias y anomalías que detecten como consecuencia de los controles mensuales realizados sobre los estados reservados recibidos, de acuerdo con lo establecido en el artículo 3 de la Orden EHA/596/2008, de 5 de marzo.</p>
+    <p class="articulo">Norma adicional.</p>
+    <p class="parrafo_2">El modelo de informe para los fondos de inversión recogido en el Anexo 1 de la Circular 4/2008, de 11 de septiembre, de la Comisión Nacional del Mercado de Valores, sobre el contenido de los informes trimestrales, semestral y anual de instituciones de inversión colectiva y del estado de posición, queda sustituido por el modelo contenido en el Anexo B de la presente Circular, a efectos de recoger en la tabla contenida en el apartado 2.2.B) las nuevas vocaciones inversoras aprobadas tras la publicación de la Circular 1/2009, de 4 de febrero, de la CNMV, sobre las categorías de instituciones de inversión colectiva en función de su vocación inversora.</p>
+    <p class="articulo">Norma final. Entrada en vigor.</p>
+    <p class="parrafo_2">La presente circular entrará en vigor el 1 de julio de 2009. La primera información a remitir será la correspondiente al segundo semestre de 2009.</p>
+    <p class="parrafo_2">Madrid, 25 de marzo de 2009.–El Presidente de la Comisión Nacional del Mercado de Valores, Julio Segura Sánchez.</p>
+    <p class="parrafo_2">Anexo A: Forma y contenido del informe semestral de los depositarios.</p>
+    <p class="parrafo">Anexo B: Anexo 1 Circular 4/2008, de 11 de septiembre (fondo de inversión mobiliaria).</p>
+    <p class="anexo">ANEXO A</p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image1.png" width="2759" height="2103"/>
+    </p>
+    <p class="anexo">ANEXO B</p>
+    <p class="anexo_num">ANEXO 1</p>
+    <p class="anexo_tit">Fondo de inversión mobiliaria</p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image2.png" width="1921" height="2709"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image3.png" width="2001" height="2531"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image4.png" width="2026" height="1688"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image5.png" width="2025" height="2668"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image6.png" width="2045" height="2556"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image7.png" width="2003" height="726"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image8.png" width="2087" height="2502"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image9.png" width="1900" height="2751"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image10.png" width="1960" height="2722"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image11.png" width="1987" height="2738"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image12.png" width="2022" height="2752"/>
+    </p>
+    <p class="imagen">
+      <img class="frame" src="/datos/imagenes/disp/2009/96/06555_15991126_image13.png" width="2090" height="2531"/>
+    </p>
+  </texto>
+</documento>

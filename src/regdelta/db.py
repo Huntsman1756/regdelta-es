@@ -128,7 +128,8 @@ CREATE TABLE IF NOT EXISTS subjects (
   label         TEXT NOT NULL,
   subject_kind  TEXT NOT NULL CHECK (subject_kind IN
                 ('NORMA', 'ESTADO', 'ANEJO', 'PUNTO', 'APARTADO', 'INDICE',
-                 'DISPOSICION', 'NOTA', 'INSTRUMENT')),
+                 'DISPOSICION', 'NOTA', 'INSTRUMENT', 'NUMERO', 'LETRA',
+                 'NUMERAL', 'SECCION', 'CAPITULO', 'PARRAFO', 'GUION')),
   UNIQUE (instrument_id, locator_key)
 );
 
@@ -188,6 +189,35 @@ CREATE TABLE IF NOT EXISTS modification_relations (
   binding_proof          TEXT NOT NULL DEFAULT '{}',
   subject_proof          TEXT NOT NULL DEFAULT '{}'
 );
+
+-- CORE-GAP WS-A: explicit redesignation edges. A clause-declared
+-- old_locator -> new_locator continuity claim. Locators remain distinct
+-- subjects; continuity lives ONLY here, never in the locator keys
+-- themselves. Rows exist only for proven pairs — every refusal is an
+-- anomaly, never a row.
+CREATE TABLE IF NOT EXISTS subject_redesignations (
+  edge_id                TEXT PRIMARY KEY CHECK (length(edge_id) = 64),
+  target_instrument_id   TEXT NOT NULL REFERENCES instruments(instrument_id),
+  modifier_instrument_id TEXT NOT NULL REFERENCES instruments(instrument_id),
+  old_locator_key        TEXT NOT NULL,
+  new_locator_key        TEXT NOT NULL,
+  old_subject_id         TEXT NOT NULL REFERENCES subjects(subject_id),
+  new_subject_id         TEXT NOT NULL REFERENCES subjects(subject_id),
+  clause_text            TEXT NOT NULL,
+  node_index             INTEGER,
+  publication_date       TEXT NOT NULL,
+  resolution             TEXT NOT NULL CHECK (resolution IN
+                         ('RESOLVED', 'DECLARED')),
+  edge_proof             TEXT NOT NULL DEFAULT '{}',
+  source_snapshot_ids    TEXT NOT NULL,
+  parser_name            TEXT NOT NULL,
+  parser_version         TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_redesig_old ON subject_redesignations(
+  target_instrument_id, old_locator_key);
+CREATE INDEX IF NOT EXISTS idx_redesig_new ON subject_redesignations(
+  target_instrument_id, new_locator_key);
 
 CREATE INDEX IF NOT EXISTS idx_repr_subject ON representations(subject_id);
 CREATE INDEX IF NOT EXISTS idx_modrel_subject ON modification_relations(target_subject_id);
@@ -316,27 +346,32 @@ def _rebuild_table(conn: sqlite3.Connection, table: str, cols: str,
     new_sql = create_sql.replace(
         f"CREATE TABLE {table} ", f"CREATE TABLE {new_table} ", 1)
     assert new_sql != create_sql
-    conn.execute("PRAGMA foreign_keys = OFF")
-    conn.execute("BEGIN IMMEDIATE")
+    if conn.in_transaction:
+        raise sqlite3.OperationalError(
+            "cannot rebuild a table inside an active transaction")
+    foreign_keys = conn.execute("PRAGMA foreign_keys").fetchone()[0]
     try:
+        conn.execute("PRAGMA foreign_keys = OFF")
+        conn.execute("BEGIN IMMEDIATE")
         conn.execute(new_sql)
         conn.execute(
             f"INSERT INTO {new_table} ({cols}) SELECT {cols} FROM {table}")
         conn.execute(f"DROP TABLE {table}")
         conn.execute(f"ALTER TABLE {new_table} RENAME TO {table}")
+        for stmt in post_sql:
+            conn.execute(stmt)
+        violations = conn.execute("PRAGMA foreign_key_check").fetchall()
+        if violations:
+            raise sqlite3.IntegrityError(
+                f"foreign_key_check failed after rebuilding {table}:"
+                f" {violations[:5]}")
         conn.execute("COMMIT")
     except BaseException:
-        conn.execute("ROLLBACK")
+        if conn.in_transaction:
+            conn.execute("ROLLBACK")
         raise
     finally:
-        conn.execute("PRAGMA foreign_keys = ON")
-    violations = conn.execute("PRAGMA foreign_key_check").fetchall()
-    if violations:
-        raise sqlite3.IntegrityError(
-            f"foreign_key_check failed after rebuilding {table}:"
-            f" {violations[:5]}")
-    for stmt in post_sql:
-        conn.execute(stmt)
+        conn.execute(f"PRAGMA foreign_keys = {foreign_keys}")
 
 
 def _has_source_id_check(sql: str) -> bool:
@@ -480,6 +515,37 @@ def _ensure_subject_proof(conn: sqlite3.Connection) -> None:
             f" {violations[:5]}")
 
 
+def _ensure_subject_kinds(conn: sqlite3.Connection) -> None:
+    """Rebuild ``subjects`` if its CHECK predates the WS-B hierarchy
+    kinds (CORE-GAP).
+
+    Declared-path locators record their true leaf kind — 'NUMERO'
+    under a lettered 'apartado', 'SECCION'/'CAPITULO' for standalone
+    level subjects. Rows are preserved; only the constraint widens.
+    """
+    row = conn.execute(
+        "SELECT sql FROM sqlite_master WHERE type='table'"
+        " AND name='subjects'").fetchone()
+    if row is None or "'PARRAFO'" in (row[0] or ""):
+        return
+    _rebuild_table(conn, "subjects",
+                   "subject_id, instrument_id, locator_key, label,"
+                   " subject_kind",
+                   """
+        CREATE TABLE subjects (
+          subject_id    TEXT PRIMARY KEY CHECK (length(subject_id) = 64),
+          instrument_id TEXT NOT NULL REFERENCES instruments(instrument_id),
+          locator_key   TEXT NOT NULL,
+          label         TEXT NOT NULL,
+          subject_kind  TEXT NOT NULL CHECK (subject_kind IN
+                        ('NORMA', 'ESTADO', 'ANEJO', 'PUNTO', 'APARTADO',
+                         'INDICE', 'DISPOSICION', 'NOTA', 'INSTRUMENT',
+                         'NUMERO', 'LETRA', 'NUMERAL', 'SECCION',
+                         'CAPITULO', 'PARRAFO', 'GUION')),
+          UNIQUE (instrument_id, locator_key)
+        )""")
+
+
 def connect(db_path: Path) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.execute("PRAGMA foreign_keys = ON")
@@ -492,4 +558,5 @@ def connect(db_path: Path) -> sqlite3.Connection:
     _ensure_instrument_effective_date(conn)
     _ensure_binding_proof(conn)
     _ensure_subject_proof(conn)
+    _ensure_subject_kinds(conn)
     return conn

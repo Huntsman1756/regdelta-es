@@ -40,6 +40,18 @@ class DocumentModel:
     locator_classes: frozenset
     boundary: Mapping[str, re.Pattern]
     annex_literal: str
+    # CORE-GAP WS-C — old-format modifiers carry numbered operative
+    # blocks ('I. Modificaciones a la Circular X') in display classes
+    # instead of the configured 'articulo' class. ``block_head`` +
+    # ``block_head_classes`` let the section splitter treat them as
+    # section boundaries; ``context_head`` + ``context_head_classes``
+    # mark mid-section scope heads ('Norma 7.ª', 'Anexo 1') that reset
+    # the item-level locator context without being clause markers.
+    # None/empty disables both paths.
+    block_head: re.Pattern | None = None
+    block_head_classes: frozenset = frozenset()
+    context_head: re.Pattern | None = None
+    context_head_classes: frozenset = frozenset()
 
 
 @dataclass(frozen=True)
@@ -142,6 +154,20 @@ class LocatorGrammar:
                                         # '.kind:' component split
     coverage_heads: tuple               # history _COVER_HEADS: kinds whose
                                         # span must restate the token
+    # CORE-GAP WS-B — declared inside-out hierarchy: 'X del Y' chains
+    # compose paths when the child kind lists the parent kind as
+    # admissible. A root-family mention is never a child ('normas 43 a
+    # 48 de la sección 7' keeps norma flat; the sección is qualifier
+    # context). Empty disables path composition entirely.
+    child_parents: Mapping[str, tuple] = field(default_factory=dict)
+    # CORE-GAP WS-C — positional kinds resolve strictly by ordinal
+    # position inside a proven parent scope ('párrafo tercero',
+    # 'tercer guión'): they may leaf a composed path or follow a
+    # declared/contextual root, but can never head a locator and are
+    # never treated as source-declared names. Their declarations
+    # capture the mention; the position itself is the identity claim,
+    # which binding proves against the parent's node stream.
+    positional_kinds: frozenset = frozenset()
 
 
 @dataclass(frozen=True)
@@ -171,6 +197,29 @@ class OperativeGrammar:
     unmarked_opener: re.Pattern        # _unmarked_op inline clause opener
     container_close: re.Pattern        # 'se modifican:$' container form
     siguientes: str                    # enumeration head word 'siguientes'
+    # CORE-GAP WS-A — explicit redesignation edges (optional facets):
+    # ``redesig_verb`` matches the 'pasa(n) a ser/denominarse <dest>'
+    # verb whose RIGHT side is a destination, not a subject; subject
+    # composition is split at its start so old-side locators never
+    # merge with new-side designators. ``redesig_bare_dest`` captures a
+    # kind-less destination enumeration/name ('los nuevos 10, 11 y 12',
+    # 'denominarse «X»') whose kind is inherited from the paired old
+    # locator's leaf component. None disables redesignation parsing.
+    redesig_verb: re.Pattern | None = None
+    redesig_bare_dest: re.Pattern | None = None
+    # optional admissible destination prefix ('los nuevos 10, 11 y 13')
+    redesig_dest_prefix: re.Pattern | None = None
+    # structural destination designator vocabulary (singular+plural
+    # surface forms) — the gate that separates 'pasa a ser la norma 10'
+    # from 'pasa a ser aplicable a las normas 3 y 4'
+    redesig_designators: tuple = ()
+    # kinds whose locator leaf IS the denomination — a quoted rename
+    # moves the key itself (BdE fichero rubrics)
+    redesig_name_kinds: tuple = ()
+    # per-kind extractor: code inside a quoted denomination
+    # (a quoted denomination may still carry the code); absent kinds cannot resolve a
+    # bare-name destination and abstain
+    redesig_name_code: dict | None = None
 
 
 @dataclass(frozen=True)
@@ -283,11 +332,13 @@ class SourceProfile:
 LOCATOR_KINDS = frozenset({
     "norma", "anejo", "anexo", "articulo", "capitulo", "titulo",
     "seccion", "disp", "disposicion", "pagina",
-    "apartado", "punto", "letra", "numeral", "nota", "indice",
-    "estado", "fichero",
+    "apartado", "punto", "numero", "letra", "numeral", "nota",
+    "indice", "estado", "fichero",
+    "parrafo", "guion",
 })
 
-OP_KINDS = frozenset({"ADD", "DELETE", "MODIFY", "SUBSTITUTE"})
+OP_KINDS = frozenset({"ADD", "DELETE", "MODIFY", "SUBSTITUTE",
+                      "REDESIGNATE"})
 
 
 def validate_profile(profile: SourceProfile) -> None:
@@ -305,6 +356,9 @@ def validate_profile(profile: SourceProfile) -> None:
         set(lg.sub_markers_compound), set(lg.kind_words),
         set(lg.coverage_heads),
         set(lg.presence) - {"_default"},
+        set(lg.child_parents),
+        {p for ps in lg.child_parents.values() for p in ps},
+        set(lg.positional_kinds),
     )
     for keys in kind_keyed:
         unknown = keys - LOCATOR_KINDS
@@ -314,6 +368,10 @@ def validate_profile(profile: SourceProfile) -> None:
         if disabled:
             raise ValueError(
                 f"locator kind used but not enabled: {sorted(disabled)}")
+    if set(lg.positional_kinds) - set(lg.declarations):
+        raise ValueError(
+            "positional kind without a mention declaration: "
+            f"{sorted(set(lg.positional_kinds) - set(lg.declarations))}")
     bad_ops = {k for k, _ in profile.operative_grammar.op_kinds} - OP_KINDS
     if bad_ops:
         raise ValueError(f"UNKNOWN_CORE_KIND: {sorted(bad_ops)}")

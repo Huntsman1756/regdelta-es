@@ -500,12 +500,23 @@ def test_g0c_g0d_g0e_invariants_unchanged(ro):
     # COV-2_INTENTIONAL_SEMANTIC_CHANGE (F1+F2): representations
     # 186 -> 255, anomalies 457 -> 361 — honest abstentions converted
     # to verified bindings; see test_g0c_counts_unchanged.
+    # CORE-GAP WS-A_INTENTIONAL_SEMANTIC_CHANGE: relations 292 -> 290,
+    # representations 255 -> 253, anomalies stay 361 (+2
+    # REDESIGNATION_REFUSED, -2 BINDING_NOT_PROVABLE), +1
+    # subject_redesignations edge — 'disposición adicional única ->
+    # primera' is a CODE_REDESIGNATION. See test_g0c_counts_unchanged.
+    # CORE-GAP WS-C_INTENTIONAL_SEMANTIC_CHANGE: representations
+    # 253 -> 254, anomalies 361 -> 359, RESOLVED 110 -> 109,
+    # PARTIAL 102 -> 104, UNRESOLVED 78 -> 77 — positional anejo
+    # numbers no longer feed image binding (declared-anejo gate) and
+    # normalized sub_scope words let provable after-content bind. See
+    # test_g0c_counts_unchanged for the per-case detail.
     assert counts == {
-        "subjects": 223, "representations": 255,
-        "modification_relations": 292, "applicability_clauses": 26,
+        "subjects": 223, "representations": 254,
+        "modification_relations": 290, "applicability_clauses": 26,
         "applicability_effects": 16, "applicability_targets": 98,
-        "anomalies": 361}
+        "anomalies": 359}
     res = dict(ro.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution"))
-    assert res == {"RESOLVED": 110, "PARTIAL": 104, "UNRESOLVED": 78}
+    assert res == {"RESOLVED": 109, "PARTIAL": 104, "UNRESOLVED": 77}

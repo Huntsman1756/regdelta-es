@@ -1,0 +1,67 @@
+{
+  "aggregate": {
+    "applicability_extraction": {
+      "den": 21,
+      "num": 21,
+      "value": 1.0
+    },
+    "chain_reconstruction": {
+      "den": 63,
+      "num": 12,
+      "value": 0.19047619047619047
+    },
+    "declared_modifier_recall": {
+      "den": 62,
+      "num": 62,
+      "value": 1.0
+    },
+    "evaluator_attribution_distribution": {
+      "AMBIGUOUS": 19,
+      "FOREIGN_TARGET": 744,
+      "NOT_PROVABLE": 37,
+      "TARGET_PROVEN": 482
+    },
+    "evaluator_lifecycle_distribution": {
+      "DELETED": 8,
+      "NOT_APPLICABLE": 75,
+      "PRESENT": 369,
+      "UNKNOWN": 63
+    },
+    "false_binding_count": 0,
+    "false_locator_declaration_count": 0,
+    "false_positive_facts": 0,
+    "false_subject_attribution_count": 0,
+    "g1_four_case_reproduction_count": 0,
+    "old_false_fact_reproduction_count": 0,
+    "operation_parsing_rate": {
+      "den": 515,
+      "num": 515,
+      "value": 1.0
+    },
+    "query_execution": {
+      "den": 80,
+      "num": 80,
+      "value": 1.0
+    },
+    "representation_binding": {
+      "den": 515,
+      "num": 204,
+      "value": 0.39611650485436894
+    },
+    "source_limitations": 0
+  },
+  "audit_rows": 515,
+  "corpus_73_sha256": "7e9afbe098caadf5cc1611456abed3c72ecf4732aed425588527d8c2ebef94d6",
+  "dev_manifest_sha256": "af78fcac1e110e964d98a5900d9f79670768513aad75be75438a3d3c6c5f906e",
+  "evaluation_head": "f5ab228147d2bcc943ef776c222794d655276c0e",
+  "evaluator": "evaluate_g2",
+  "evaluator_sha256": "c55ea06123afef437b6854221e9571c8e7303d32c96c0ef6bf96c0a634f2238e",
+  "evaluator_version": "g2-v1",
+  "finished_at": "2026-09-17T22:16:27.290530+00:00",
+  "four_cases_sha256": "e52545a1a571a5f633b7c6ed126609681f1d79ca148fd22ae8950e8a56f6156b",
+  "run_id": "core-gap-wsa",
+  "runtime_head": "f5ab228147d2bcc943ef776c222794d655276c0e",
+  "src_tree_sha256": "0278ff59e4168a59e39f7a0845e4b570b9f63ef9",
+  "started_at": "2026-09-17T22:15:22.483048+00:00",
+  "targets_sha256": "8b9b8ce10eb5d20bdd64685155e01ed7ff6ffbeef102f6711d9f368d85fee40c"
+}

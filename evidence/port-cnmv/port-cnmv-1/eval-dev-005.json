@@ -1,0 +1,72 @@
+{
+  "targets": [
+    {
+      "target": "BOE-A-2008-16091",
+      "self_ref": [
+        "4",
+        "2008"
+      ],
+      "norma_heads": 7,
+      "relations": 18,
+      "ABSTENTION_CONFIRMED": 14,
+      "CONFIRMED_POSITIVE": 4,
+      "independent_clauses": 579
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "self_ref": [
+        "7",
+        "2008"
+      ],
+      "norma_heads": 62,
+      "relations": 70,
+      "ABSTENTION_CONFIRMED": 50,
+      "CONFIRMED_POSITIVE": 20,
+      "independent_clauses": 602
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "self_ref": [
+        "1",
+        "2010"
+      ],
+      "norma_heads": 4,
+      "relations": 30,
+      "ABSTENTION_CONFIRMED": 21,
+      "CONFIRMED_POSITIVE": 9,
+      "independent_clauses": 448
+    },
+    {
+      "target": "BOE-A-1994-28725",
+      "self_ref": [
+        "4",
+        "1994"
+      ],
+      "norma_heads": 15,
+      "relations": 1,
+      "CONFIRMED_POSITIVE": 1,
+      "independent_clauses": 373
+    }
+  ],
+  "totals": {
+    "relations": 119,
+    "CONFIRMED_POSITIVE": 34,
+    "ABSTENTION_CONFIRMED": 85,
+    "ABSTENTION_DISPUTED": 0,
+    "FALSE_FACT": 0,
+    "FALSE_SUBJECT_ATTRIBUTION": 0,
+    "FALSE_LOCATOR_DECLARATION": 0,
+    "FALSE_BINDING": 0,
+    "runtime_leaf_ops": 0,
+    "independent_clauses": 2002
+  },
+  "findings": [],
+  "evaluator_import_manifest": [
+    "regdelta",
+    "regdelta.document",
+    "regdelta.sources",
+    "regdelta.sources.boe_diario",
+    "regdelta.sources.boe_doc",
+    "regdelta.sources.boe_pdf"
+  ]
+}

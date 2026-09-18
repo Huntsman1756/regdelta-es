@@ -106,6 +106,12 @@ class AnnexMap:
     root_pages: dict[str, list[int]] = field(default_factory=dict)
     # 'N' or 'N.M' -> ordered pages; 'N.indice' -> index run pages
     anejo_pages: dict[str, list[int]] = field(default_factory=dict)
+    # anejo numbers an official heading actually declared — the
+    # positional fill above derives the rest. A positional 'anejo:N'
+    # is a derived address, never a declared identity, and must not
+    # feed image binding as if the source had declared it (WS-C
+    # anonymous-identity debt).
+    declared_anejos: frozenset = frozenset()
     img_by_page: dict[int, int] = field(default_factory=dict)  # boe_page->alt
     anchors: list[dict] = field(default_factory=list)
     anchored: bool = False
@@ -119,7 +125,12 @@ class AnnexMap:
             root = estado_root(code)
             return self.root_pages.get(root)
         if locator_key.startswith("anejo:"):
-            return self.anejo_pages.get(locator_key[6:])
+            num = locator_key[6:]
+            top = num[:-len(".indice")] if num.endswith(".indice") \
+                else num
+            if top not in self.declared_anejos:
+                return None
+            return self.anejo_pages.get(num)
         return None
 
 
@@ -285,6 +296,9 @@ def build_annex_map(
         code_pages=code_pages,
         root_pages=root_pages,
         anejo_pages=spans,
+        declared_anejos=frozenset(
+            set(declared.values())
+            | {h for _, h in sub_boundaries}),
         img_by_page=img_by_page,
         anchors=anchor_rows,
         anchored=bool(anchor_rows) and all(a["match"] for a in anchor_rows),

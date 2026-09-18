@@ -36,4 +36,8 @@ that be made evidence-traceable to BOE raw bytes?
 
 ## Verdict
 
-PENDING — filled when all candidate fichas are evaluated.
+Evaluated (CORE-GAP recon 2026-09-19):
+- `projects/boe-image-channels.md` — PATTERN; verified official image channels + authenticity hierarchy
+- `projects/eurlex-cellar-formex.md` — PATTERN; fmx4 zip ships images as first-class files
+- `projects/legislation-gov-uk.md` — PATTERN; Image→Resource indirection, deliberate non-ID precedent
+- `projects/pypdf.md` — PORT candidate gated on byte-equality falsification

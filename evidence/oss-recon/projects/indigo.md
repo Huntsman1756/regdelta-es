@@ -145,3 +145,11 @@ re-proven per case; not an adoption.
   model can produce a `binding_proof`-grade claim, but its
   lifecycle/versioning semantics are the best-documented prior art
   for how legal time should be modeled
+
+## 11. CORE-GAP supplement (2026-09-19 recon)
+
+PRs #1077/#1079/#1080: unnumbered paragraphs migrated to `hcontainer`
+elements; eIds like `sec_2__hcontainer_1__list_1__item_a` are purely
+positional counters, minted editorially and unstable under reparsing
+(expected-id tests adjusted for preceding crossheadings). Confirms
+positional eIds are addresses, not identities.

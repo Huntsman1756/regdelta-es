@@ -182,8 +182,11 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
         re.IGNORECASE),
     # heading templates interpolated by the core enumerators
     norma_head=r"^(?:\[[^\]]*\]\s*)?norma\s+{alt}\b",
+    # {ord} interpolates WITH its leading whitespace (operations
+    # ._disp_ord_alt): numbered keys get '\s+(?:ord-alts)'; unnumbered
+    # class keys get a negative lookahead rejecting any ordinal
     disposicion_head=(
-        r"^(?:\[[^\]]*\]\s*)?disposici[oó]n\s+{tipo}\s+{ord}\b"),
+        r"^(?:\[[^\]]*\]\s*)?disposici[oó]n\s+{tipo}{ord}\b"),
     anejo_head=r"^anejo\s+{num}\b",
     anejo_boundary=re.compile(
         r"^anejo\s+\S|^anexos?\b|madrid\s*,", re.IGNORECASE),
@@ -432,6 +435,32 @@ _OPERATIVE_GRAMMAR = OperativeGrammar(
     container_close=re.compile(
         r"se\s+(?:modifican?|realizan?|efectúan?)\s*:$", re.IGNORECASE),
     siguientes="siguientes",
+    # CORE-GAP WS-A — the redesig verb boundary is verb-only so the
+    # destination tail keeps its designator; the quoted-name fallback
+    # covers 'pasa a denominarse «Nuevo nombre»'. op_kinds is
+    # UNCHANGED from baseline: 'pasa a ser/denominarse' still classifies
+    # MODIFY at clause level — the redesignation machinery sits in the
+    # emission path (operations.redesignation_pairs) and only a proven
+    # code change suppresses the ordinary relation in favour of an
+    # edge (EXP-B1 PORT mechanism: RELABEL_SAME_CODE keeps MODIFY).
+    redesig_verb=re.compile(
+        r"\bpasa\w*\s+a\s+(?:ser|denominarse)\b", re.IGNORECASE),
+    redesig_bare_dest=re.compile(r"(«[^»]+»)"),
+    # a fichero's locator leaf IS its rubric — renaming it moves the key
+    redesig_name_kinds=("fichero",),
+    # an estado's code survives inside its new denomination
+    # (a quoted denomination may still carry the code)
+    redesig_name_code={
+        "estado": re.compile(r"\b([A-Z]{1,4}\s*\d[\d\-]*(?:\.\d+)?)\b"),
+    },
+    redesig_designators=(
+        "estado", "estados", "fichero", "ficheros", "norma", "normas",
+        "anejo", "anejos", "anexo", "anexos", "apartado", "apartados",
+        "punto", "puntos", "letra", "letras", "numeral", "numerales",
+        "nota", "notas", "disposición", "disposiciones", "sección",
+        "secciones", "página", "páginas", "cuadro", "cuadros", "tabla",
+        "tablas", "módulo", "módulos", "dimensión", "dimensiones",
+        "artículo", "artículos", "párrafo", "párrafos", "índice"),
 )
 
 # ---------------------------------------------------------------------------

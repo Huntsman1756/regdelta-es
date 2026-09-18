@@ -39,4 +39,8 @@ the source never declared?
 
 ## Verdict
 
-PENDING — filled when all candidate fichas are evaluated.
+Evaluated (CORE-GAP recon 2026-09-19):
+- `projects/metalex-cwa-15710.md` — PATTERN; naming-method enum (individual/ordinal/positional) answers the anonymous-node question
+- `projects/uslm.md` — PATTERN; four-slot identity model (@id/@identifier/@temporalId/@name), `renumbered` tombstone
+- `projects/eli-subdivisions.md` — PATTERN; `unp` positional kind-token for unnumbered subdivisions
+- `projects/xmldiff.md` — DISCARD; similarity pairing cannot fail closed

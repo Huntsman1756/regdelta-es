@@ -156,7 +156,8 @@ def _locator_mentions(key: str) -> tuple[list[str], list[str]]:
         heads.append(f"{h} {tok}")
         if kind == "disp" and len(parts) > 1:
             heads.append(f"{h} {tok} {_norm(parts[1])}")
-    if kind in ("norma", "anejo", "anexo", "articulo"):
+    if kind in ("norma", "anejo", "anexo", "articulo",
+                "seccion", "capitulo"):
         word = lg.ordinal_words.get(tok)
         for h in lg.head_forms.get(kind, (kind,)):
             if word:
@@ -272,6 +273,12 @@ class Operation:
     section_targets: list[tuple[int, int]] = field(default_factory=list)
     # per-context-key provenance: kind -> {"value","node_index","scope"}
     context_scope: dict = field(default_factory=dict)
+    # WS-C — anonymous/positional kind-words present in the clause
+    # whose mentions the key model did not capture ('los dos guiones',
+    # 'el último párrafo', 'del artículo 19'). Journaled by the history
+    # layer as UNKEYED_ANONYMOUS_ITEM — never silently absorbed into
+    # the parent locator.
+    unkeyed: tuple = ()
 
 
 @dataclass
@@ -295,7 +302,10 @@ class OpsResult:
 
 
 def _ordinal_num(word: str) -> int | None:
-    w = word.lower()
+    # flying-ordinal markers and a trailing period are surface marks of
+    # the ordinal, not part of its value ('7.ª', '49.ª.' -> 7, 49)
+    w = word.lower().strip().rstrip(".")
+    w = re.sub(r"[ªº]+$", "", w).rstrip(".")
     if w.isdigit():
         return int(w)
     return active_profile().locator_grammar.ordinals.get(w)
@@ -415,10 +425,21 @@ def _extract_mentions(text: str) -> dict[str, object]:
         if key in lg.enum_kinds:
             vals: list = []
             for m in rx.finditer(stripped):
-                vals.extend(_numlist(m.group(1)))
+                # declarations may alternate word-first/kind-first
+                # forms ('primer párrafo' | 'párrafo primero') — the
+                # value is the first non-None group
+                g = next((g for g in m.groups() if g is not None),
+                         None)
+                if g:
+                    vals.extend(_numlist(g))
         else:
-            vals = [tuple(g for g in m.groups())
-                    for m in rx.finditer(stripped)]
+            vals = []
+            for m in rx.finditer(stripped):
+                t = tuple(g for g in m.groups() if g is not None)
+                # a group-less declaration is a presence marker —
+                # its empty tuple IS the value ('índice')
+                if t or not m.re.groups:
+                    vals.append(t)
         # a node may serialize the same sentence twice (blockquote
         # label+body artifact): each distinct mention counts once
         vals = list(dict.fromkeys(vals))
@@ -458,9 +479,236 @@ def _extract_mentions(text: str) -> dict[str, object]:
     return out
 
 
+# ---------------------------------------------------------------------------
+# CORE-GAP WS-B — declared hierarchy paths ('X del Y' inside-out chains)
+#
+# Spanish locator phrases declare leaf-first: 'la letra n) del número 3
+# del apartado C) de la norma 49'. A link between consecutive mentions
+# exists only when the text between them is a pure de-connector; the
+# profile's ``child_parents`` declares which (child -> parent) pairs are
+# admissible structure. A root-family mention is never a child, so
+# 'normas 43 a 48 de la sección 7' keeps the normas flat — the sección
+# is qualifier context, not a fabricated parent.
+# ---------------------------------------------------------------------------
+
+# the text between a child mention and its declared parent may carry
+# only a de-connector plus reference adjectives
+_DE_LINK = re.compile(
+    r"^[\s,;)]*(?:de|del|en)"
+    r"(?:\s+(?:la|el|los|las|citad[oa]s?|dich[oa]s?|mism[oa]s?|"
+    r"mencionad[oa]s?|susodich[oa]s?|referid[oa]s?|est[ae]s?|"
+    r"anteriores?|presente|siguiente|su|sus))*\s*$",
+    re.IGNORECASE)
+
+# destination links for positional items only: 'un párrafo tercero
+# a la letra d)' names the letra as the item's parent container.
+# Restricted to positional children — non-positional 'a'-links stay
+# flat (baseline parity: 'se añade un apartado a la norma 5' already
+# composes under the clause root)
+_A_LINK = re.compile(
+    r"^[\s,;)]*a\s+(?:la|el|los|las)\s*$",
+    re.IGNORECASE)
+
+# a mention preceded by one of these is a qualifier, never a subject:
+# 'de la sección 7' locates something else; it does not declare the
+# sección as the operative object
+_GOVERNED = re.compile(
+    r"(?:de|del|en|a|por|bajo|según|segun|conforme\s+a|"
+    r"con\s+arreglo\s+a|de\s+acuerdo\s+con)\s+"
+    r"(?:(?:la|el|los|las|est[ae]|dich[oa]|citad[oa]|mism[oa]|"
+    r"presente|su)s?|del|al)\s*$",
+    re.IGNORECASE)
+
+# kinds that compose standalone subjects only — never cascade children.
+# 'La Sección Quinta queda redactada' -> seccion:5; a governed mention
+# stays a qualifier and emits nothing.
+_STANDALONE_KINDS = ("capitulo", "seccion")
+
+
+def _mention_spans(text: str) -> list[tuple[str, list, int, int]]:
+    """Ordered (kind, values, start, end) locator mentions.
+
+    Same vocabulary as _extract_mentions but position-carrying — the
+    substrate for inside-out chains (WS-B). One regex match = one
+    mention; enum groups stay together so 'números 14, 15 y 16 del
+    apartado F)' binds the whole group to F.
+    """
+    lg = active_profile().locator_grammar
+    masked = _masked_clause(text)
+    out: list[tuple[str, list, int, int]] = []
+    for key, rx in lg.declarations.items():
+        for m in rx.finditer(masked):
+            if key in lg.enum_kinds:
+                g = next((g for g in m.groups() if g is not None),
+                         None)
+                vals = _numlist(g) if g else []
+            else:
+                vals = [tuple(g for g in m.groups()
+                              if g is not None)]
+            # a group-less declaration is a presence marker — its
+            # empty tuple IS the value
+            vals = [v for v in vals
+                    if (v and v[0]) or not rx.groups]
+            if vals:
+                out.append((key, vals, m.start(), m.end()))
+    for m in lg.letra_list.finditer(masked):
+        vals = [v for v in _letters(m.group(1)) if v]
+        if vals:
+            out.append(("letra", vals, m.start(), m.end()))
+    out.sort(key=lambda t: (t[2], t[3]))
+    return out
+
+
+def _path_value(kind: str, v) -> str:
+    """Normalize a declared mention value into its key component."""
+    lg = active_profile().locator_grammar
+    if kind == "disposicion" and isinstance(v, tuple) and len(v) > 1:
+        return str(v[0]).lower() + "." + str(v[1]).lower()
+    raw = str(v[0] if isinstance(v, tuple) else v).strip().rstrip(".")
+    if kind in ("norma", "seccion", "capitulo") \
+            or kind in lg.positional_kinds:
+        n = _ordinal_num(raw)
+        if n is not None:
+            return str(n)
+        inv = {rv: k for k, rv in lg.roman.items()}
+        if raw.lower() in inv:
+            return inv[raw.lower()]
+        return raw
+    if kind in ("letra", "numeral"):
+        return raw.lower()
+    return re.sub(r"\s+", "", raw)
+
+
+def _enum_values(kind: str, vals) -> list[str]:
+    """Per-value normalized components; 'lo a hi' ranges expand like
+    the flat cascade does."""
+    out: list[str] = []
+    for v in vals:
+        t = tuple(str(x) for x in (v if isinstance(v, tuple) else (v,)))
+        if len(t) > 1 and t[0].isdigit() and t[1].isdigit():
+            out.extend(str(i) for i in range(int(t[0]), int(t[1]) + 1))
+        else:
+            out.append(_path_value(kind, v))
+    return out
+
+
+def _disp_ord_alt(ordinal: str | None) -> str:
+    """``{ord}`` interpolation for the profile's ``disposicion_head``
+    template — the ordinal slot INCLUDING its leading whitespace.
+
+    Numbered keys constrain to their ordinal alternation; the
+    unnumbered class-keyed form ('Norma transitoria') requires the head
+    to carry NO ordinal — 'Norma transitoria primera' is a different,
+    numbered disposition, never the bare one.
+    """
+    lg = active_profile().locator_grammar
+    if ordinal:
+        num = _ordinal_num(ordinal)
+        words = {w for w, v in lg.ordinals.items() if v == num} \
+            if num is not None else set()
+        words.add(str(ordinal))
+        if num is not None:
+            words.add(str(num))
+        return r"\s+(?:" + "|".join(
+            re.escape(w) for w in sorted(words, key=len, reverse=True)
+        ) + r")"
+    ords = sorted(
+        set(lg.ordinals)
+        | {"bis", "ter", "quater", "quáter", "unica", "única",
+           "unico", "único"},
+        key=len, reverse=True)
+    return (r"(?!\s+(?:" + "|".join(re.escape(o) for o in ords)
+            + r"|\d+)\b)")
+
+
+def _de_bound_paths(text: str):
+    """Declared inside-out 'X del Y' chains -> bound locator paths.
+
+    Returns ``(paths, consumed, standalone)``:
+
+    - ``paths``: each is ``[(kind, value), ...]`` ordered root->leaf.
+      The chain top may be a root kind, a standalone kind, or a
+      mid-level kind awaiting the clause root.
+    - ``consumed``: ``(kind, value)`` pairs the flat cascade must not
+      re-emit. Root-family members are NOT consumed — the same norma
+      still scopes the clause's other locators.
+    - ``standalone``: ``(kind, value)`` pairs emitted flat — ungoverned
+      mentions of standalone kinds that joined no chain.
+    """
+    lg = active_profile().locator_grammar
+    cp = lg.child_parents
+    if not cp:
+        return [], [], []
+    spans = _mention_spans(text)
+    links: dict[int, int] = {}
+    pos_kinds = lg.positional_kinds
+    for i in range(len(spans) - 1):
+        gap = text[spans[i][3]:spans[i + 1][2]] or ""
+        if _DE_LINK.match(gap) \
+                or (spans[i][0] in pos_kinds and _A_LINK.match(gap)):
+            links[i] = i + 1
+    governed = {i for i, (_k, _v, s, _e) in enumerate(spans)
+                if _GOVERNED.search(text[:s])}
+    roots = set(active_profile().operative_grammar.root_families)
+    paths: list[list[tuple[str, str]]] = []
+    consumed: list[tuple[str, str]] = []
+    chain_member: set[int] = set()
+    inner: set[int] = set()
+    for i, (kind, vals, _s, _e) in enumerate(spans):
+        if kind not in cp or i in inner:
+            # an inner member already served as a parent inside a
+            # longer chain — it cannot also head a suffix sub-chain
+            # ('número 3 del apartado C' inside 'letra n) del número 3
+            # del apartado C' emits only the full path)
+            continue
+        chain: list[tuple[str, str]] = []
+        j = i
+        while j in links:
+            pj = links[j]
+            pk, pv = spans[pj][0], spans[pj][1]
+            ck = chain[-1][0] if chain else kind
+            # inadmissible links stop the chain: a root can never be a
+            # child, and a multi-value parent mention is ambiguous —
+            # 'número 3 de los apartados B y C' picks no parent
+            if ck in roots or pk not in cp.get(ck, ()) or len(pv) != 1:
+                break
+            chain.append((pk, _path_value(pk, pv[0])))
+            chain_member.add(pj)
+            inner.add(pj)
+            j = pj
+        if not chain:
+            continue
+        chain_member.add(i)
+        consumed.extend((kind, lv) for lv in _enum_values(kind, vals))
+        consumed.extend(c for c in chain if c[0] not in roots)
+        for lv in _enum_values(kind, vals):
+            paths.append(list(reversed(chain)) + [(kind, lv)])
+    standalone: list[tuple[str, str]] = []
+    for i, (kind, vals, _s, _e) in enumerate(spans):
+        if kind in _STANDALONE_KINDS and i not in governed \
+                and i not in chain_member:
+            standalone.extend(
+                (kind, v) for v in _enum_values(kind, vals))
+    return paths, consumed, standalone
+
+
+def _subtract_mentions(mentions: dict, consumed) -> dict:
+    """Drop (kind, normalized_value) pairs bound into declared paths —
+    the flat cascade must not re-emit them as separate subjects."""
+    drop = set(consumed)
+    out = {}
+    for k, vals in mentions.items():
+        keep = [v for v in vals
+                if (k, _path_value(k, v)) not in drop]
+        if keep:
+            out[k] = keep
+    return out
+
+
 def _compose_keys(mentions: dict[str, object],
                   ctx: dict[str, str], scope: dict | None = None,
-                  node_index: int | None = None) -> list[SubjectRef]:
+                  node_index: int | None = None,
+                  clause_text: str | None = None) -> list[SubjectRef]:
     """Compose locator keys from clause mentions + inherited context.
 
     Root-family exclusivity (G2.1 §22): when the clause itself declares
@@ -470,9 +718,10 @@ def _compose_keys(mentions: dict[str, object],
     emitted SubjectRef records where every key component was declared.
     """
     subs: list[SubjectRef] = []
+    declared_mentions = mentions
 
     def prov(kind: str) -> tuple:
-        if mentions.get(kind):
+        if declared_mentions.get(kind):
             return ("EXPLICIT_CLAUSE", node_index, "CLAUSE")
         e = (scope or {}).get(kind) or {}
         return ("INHERITED", e.get("node_index"), e.get("scope"))
@@ -504,6 +753,18 @@ def _compose_keys(mentions: dict[str, object],
     if ficheros:
         return subs
 
+    # WS-B: declared inside-out 'X del Y' paths bind before the flat
+    # cascade. Consumed components leave the cascade so a bound
+    # 'número 13 del apartado E)' never re-emits flat; roots stay
+    # available to scope the clause's other locators. Profiles without
+    # child_parents produce no paths — the cascade below is unchanged.
+    paths: list = []
+    standalone: list = []
+    if clause_text is not None:
+        paths, consumed, standalone = _de_bound_paths(clause_text)
+        if consumed:
+            mentions = _subtract_mentions(mentions, consumed)
+
     def first(key):
         v = mentions.get(key)
         return v[0] if v else None
@@ -532,8 +793,11 @@ def _compose_keys(mentions: dict[str, object],
         if ctx.get("anejo"):
             anejo_vals = [ctx["anejo"]]
 
+    # unnumbered 'disposición/norma <tipo>' heads carry a 1-tuple
+    # value — the tipo alone IS the declared class identity
     disp_mentioned = mentions.get("disposicion") or []
     disp_vals = [str(t[0]).lower() + "." + str(t[1]).lower()
+                 if len(t) > 1 else str(t[0]).lower()
                  for t in disp_mentioned]
     if not disp_vals and ctx.get("disposicion") \
             and not (clause_roots - {"disposicion"}):
@@ -541,9 +805,14 @@ def _compose_keys(mentions: dict[str, object],
     # a sub-locator under a disposición composes with it
     # ('apartado 1 de la disposición transitoria primera'); the bare
     # disposición key is emitted only when the clause itself names it
+    # AND declares no child locator — checked against the declared
+    # mentions, so a path-bound child ('párrafo tercero de la
+    # disposición transitoria') never emits a spurious parent subject
     if disp_mentioned and not any(
-            mentions.get(k)
-            for k in ("apartado", "punto", "letra", "numeral", "nota")):
+            declared_mentions.get(k) for k in
+            ("apartado", "punto", "numero", "letra", "numeral",
+             "nota") + tuple(
+                 active_profile().locator_grammar.positional_kinds)):
         for d in disp_vals:
             subs.append(SubjectRef(
                 f"disp:{d}", "disposición " + d.replace(".", " "),
@@ -567,6 +836,50 @@ def _compose_keys(mentions: dict[str, object],
             return (comp(root_kind, root_v),)
         return ()
 
+    # WS-B declared paths: each bound 'X del Y' chain emits its full
+    # path; a non-root top composes under the clause's resolved root
+    # exactly like the flat cascade
+    _path_roots = set(
+        active_profile().operative_grammar.root_families) \
+        | set(_STANDALONE_KINDS)
+    for path in paths:
+        rvs = [None] if path[0][0] in _path_roots \
+            else (root_vals or [None])
+        for rv in rvs:
+            # emitted component list: (emit_kind, value, declared_kind)
+            # — 'disposicion' is emitted under its 'disp' spelling,
+            # the same alias the flat cascade uses
+            eff = [("disp" if k == "disposicion" else k, v, k)
+                   for k, v in path]
+            root_part = None
+            if rv is not None:
+                root_part = ("disp" if root_kind == "disposicion"
+                             else root_kind, str(rv), root_kind)
+            seq = ([root_part] if root_part else []) + eff
+            # numbered units inside an anejo are its "puntos" even when
+            # the clause calls them apartado/número — the flat cascade
+            # applies the same normalization, so the entity keeps one
+            # locator identity
+            for i in range(1, len(seq)):
+                pk, _pv, _pd = seq[i - 1]
+                ck, cv, cd = seq[i]
+                if pk in ("anejo", "anexo") \
+                        and ck in ("apartado", "numero") \
+                        and cv.isdigit():
+                    seq[i] = ("punto", cv, cd)
+            key = ".".join(f"{k}:{v}" for k, v, _d in seq)
+            comps = [(k, str(v)) + prov(d) for k, v, d in seq]
+            subs.append(SubjectRef(
+                key, key.replace(":", " "), path[-1][0].upper(),
+                proof_components=tuple(comps)))
+    # standalone-level subjects ('La Sección Quinta queda redactada'):
+    # ungoverned mentions only — a 'de la sección 7' qualifier emits
+    # nothing
+    for kind, v in standalone:
+        subs.append(SubjectRef(
+            f"{kind}:{v}", f"{kind} {v}", kind.upper(),
+            proof_components=(comp(kind, v),)))
+
     indice = mentions.get("indice")
     if indice is not None:
         for a in anejo_vals:
@@ -579,9 +892,17 @@ def _compose_keys(mentions: dict[str, object],
 
     punto_vals = _values("punto")
     apartado_vals = _values("apartado")
+    numero_vals = _values("numero")
     letras = list(mentions.get("letra") or [])
     numeral = first("numeral")
     nota = first("nota")
+    # WS-C positional kinds: ordinal position inside a proven parent —
+    # emitted only as a path leaf (above) or composed under the
+    # clause's declared/contextual root, never minted as a free head
+    pos_vals = [(k, v)
+                for k in active_profile().locator_grammar
+                .positional_kinds
+                for v in _enum_values(k, mentions.get(k) or [])]
 
     def tail_comps(letra_v) -> tuple:
         out = []
@@ -593,30 +914,32 @@ def _compose_keys(mentions: dict[str, object],
             out.append(comp("nota", nota[0]))
         return tuple(out)
 
-    if apartado_vals:
+    if apartado_vals or numero_vals:
         for rv in (root_vals or [None]):
-            for n in apartado_vals:
-                as_punto = root_kind == "anejo" and n.isdigit()
+            for mk, n in ([("apartado", v) for v in apartado_vals]
+                          + [("numero", v) for v in numero_vals]):
+                as_punto = mk in ("apartado", "numero") \
+                    and root_kind == "anejo" and n.isdigit()
                 if root_kind == "disposicion":
-                    base = f"disp:{rv}.apartado:{n}"
+                    base = f"disp:{rv}.{mk}:{n}"
                     comps = [comp("disposicion", rv)]
                 elif root_kind == "norma":
-                    base = f"norma:{rv}.apartado:{n}"
+                    base = f"norma:{rv}.{mk}:{n}"
                     comps = [comp("norma", rv)]
                 elif as_punto:
                     # numbered units inside an anejo are its "puntos"
                     # even when the clause calls them "apartado"
                     base = f"anejo:{rv}.punto:{n}"
                     comps = [comp("anejo", rv),
-                             ("punto", str(n)) + prov("apartado")]
+                             ("punto", str(n)) + prov(mk)]
                 elif root_kind == "anejo":
-                    base = f"anejo:{rv}.apartado:{n}"
+                    base = f"anejo:{rv}.{mk}:{n}"
                     comps = [comp("anejo", rv)]
                 else:
-                    base = f"apartado:{n}"
+                    base = f"{mk}:{n}"
                     comps = []
                 if not as_punto:
-                    comps.append(comp("apartado", n))
+                    comps.append(comp(mk, n))
                 for lv in (letras or [None]):
                     k = base + (f".letra:{lv}" if lv is not None else "")
                     if numeral is not None:
@@ -624,7 +947,8 @@ def _compose_keys(mentions: dict[str, object],
                     if nota is not None:
                         k += f".nota:{nota[0]}"
                     subs.append(SubjectRef(
-                        k, k.replace(":", " "), "APARTADO",
+                        k, k.replace(":", " "),
+                        "NUMERO" if mk == "numero" else "APARTADO",
                         proof_components=tuple(comps)
                         + tail_comps(lv)))
     elif punto_vals:
@@ -668,6 +992,29 @@ def _compose_keys(mentions: dict[str, object],
                 f"norma {nv} nota {nota[0]}", "NOTA",
                 proof_components=(comp("norma", nv),)
                 + tail_comps(None)))
+    elif pos_vals:
+        # 'del primer párrafo [de la norma 7]' — the anchor is the
+        # ordinal position inside the resolved root; a rootless
+        # positional key stays visible in accounting and abstains at
+        # binding (no head can prove it)
+        for rv in (root_vals or [None]):
+            for pk, pv in pos_vals:
+                if root_kind == "disposicion":
+                    key = f"disp:{rv}.{pk}:{pv}"
+                    comps = [comp("disposicion", rv)]
+                elif root_kind == "norma":
+                    key = f"norma:{rv}.{pk}:{pv}"
+                    comps = [comp("norma", rv)]
+                elif root_kind == "anejo":
+                    key = f"anejo:{rv}.{pk}:{pv}"
+                    comps = [comp("anejo", rv)]
+                else:
+                    key = f"{pk}:{pv}"
+                    comps = []
+                comps.append(comp(pk, pv))
+                subs.append(SubjectRef(
+                    key, key.replace(":", " "), pk.upper(),
+                    proof_components=tuple(comps)))
 
     if not subs:
         if norma_vals and anejo_vals:
@@ -704,6 +1051,537 @@ def _compose_keys(mentions: dict[str, object],
     subs = [s for s in subs
             if s.locator_key not in seen and not seen.add(s.locator_key)]
     return subs
+
+
+# ---------------------------------------------------------------------------
+# CORE-GAP WS-A — redesignation (old locator -> new locator) parsing
+#
+# A redesignation clause carries TWO locator roles: the old address is
+# the subject (left of 'pasa(n) a ser/denominarse'), the right side is
+# the destination. Composing subjects from the full clause merges both
+# roles — the R2 false locators. The verb boundary and denomination
+# grammar are profile facets; segmentation, pairing, classification and
+# refusal are core. Classification ports the adjudicated EXP-B1
+# mechanism (verdict PORT): a pair is an edge only when the destination
+# declares a DIFFERENT code for the subject's leaf kind
+# (CODE_REDESIGNATION); same-code denominations are relabels, not
+# moves; unparseable destinations are refused, never guessed.
+# ---------------------------------------------------------------------------
+
+_REDESIG_KIND_ALIAS = {"disposicion": "disp"}
+
+# leading connectors/articles that may precede a destination designator
+_DEST_LEAD_RE = re.compile(
+    r"^\s*(?:(?:el|la|los|las|lo|un|una|unos|unas|como|por|del|de|"
+    r"al|en|con|su|sus|mismo|misma|mismos|mismas)\s+)*")
+
+
+def _mask_quoted(text: str) -> str:
+    """Quoted spans blanked to spaces, positions preserved."""
+    tn = active_profile().text_normalization
+    return tn.quoted_span.sub(
+        lambda m: " " * (m.end() - m.start()), text)
+
+
+def _redesig_matches(text: str) -> list:
+    """All redesig-verb matches on quote-masked text (a verb inside a
+    «...» denomination is content, never an operative verb)."""
+    og = active_profile().operative_grammar
+    if og.redesig_verb is None:
+        return []
+    return list(og.redesig_verb.finditer(_mask_quoted(text)))
+
+
+def _segment_end(text: str, start: int) -> int:
+    """End of the operative segment beginning at ``start``: the first
+    unquoted ';', '.', content pointer, coordinated subject phrase
+    (', y la letra o) pasa a ser…') or ANY operative-verb match —
+    whichever comes first. A coordinated operation in the same node
+    ('…, y se suprimen los estados…') bounds the destination zone, so
+    later operations are never swallowed."""
+    og = active_profile().operative_grammar
+    masked = _mask_quoted(text)
+    end = len(text)
+    m = re.search(r"[;.]", masked[start:])
+    if m:
+        end = start + m.start()
+    cp = og.content_pointer.search(masked, start)
+    if cp:
+        end = min(end, cp.start())
+    for _kind, rx in og.op_kinds:
+        vm = rx.search(masked, start)
+        if vm:
+            end = min(end, vm.start())
+    # a coordinated subject phrase opens the next operation's left
+    # side — '…«X», y la letra o) pasa a ser…' / '…, y la nota (4) y
+    # se añaden…' (EXP-B1's next-operation boundary, generalized over
+    # the profile's designator vocabulary)
+    heads = "|".join(sorted(
+        (re.escape(h) for h in _dest_designators() if len(h) > 1),
+        key=len, reverse=True))
+    if heads:
+        cm = re.search(
+            r",?\s*(?:y|e)\s+(?:el|la|los|las|otro|otra|otros|otras)?"
+            r"\s*(?:" + heads + r")\b",
+            masked[start:], re.IGNORECASE)
+        if cm:
+            end = min(end, start + cm.start())
+    return end
+
+
+def _norm_dest(kind: str | None, v) -> str | None:
+    """Normalize a destination value with the same rules _compose_keys
+    applies to subject components (ordinals, whitespace, case)."""
+    if isinstance(v, tuple):
+        if kind == "disposicion":
+            return ".".join(str(x).lower() for x in v[:2])
+        v = v[0]
+    v = str(v)
+    if kind == "norma":
+        n = _ordinal_num(v)
+        return None if n is None else str(n)
+    if kind == "anejo":
+        return re.sub(r"\s+", "", v)
+    if kind == "letra":
+        return v.lower()
+    return v
+
+
+def _dest_designators() -> set[str]:
+    """All surface forms that may head a structural destination —
+    the profile's redesig_designators vocabulary plus its locator
+    head forms (singular and plural)."""
+    lg = active_profile().locator_grammar
+    heads: set[str] = set(
+        h.lower().rstrip(".ªº")
+        for h in active_profile().operative_grammar.redesig_designators)
+    for forms in lg.head_forms.values():
+        for h in forms:
+            h = h.lower().rstrip(".ªº")
+            heads.add(h)
+            heads.add(h + "s")
+            heads.add(h + "es")
+    return heads
+
+
+def _parse_dests(zone: str):
+    """Ordered destination slots in one post-verb segment.
+
+    Returns None when the segment does not open with a structural
+    designator ('pasa a ser aplicable a las normas 3 y 4' is scope
+    prose, not a redesignation — its mentions stay ordinary subjects).
+    Otherwise a list of ``(kind, value)`` slots — ``kind=None`` marks
+    a bare destination (quoted denomination or numeric/letter
+    enumeration) resolved against the paired old locator's leaf — or
+    a ``{kind: value}`` dict for a full-path destination. An EMPTY
+    list is a structural redesignation whose destination is
+    unprovable: emission must refuse, never guess."""
+    og = active_profile().operative_grammar
+    lead = _DEST_LEAD_RE.sub("", zone)
+    # profile-level admissible prefixes ('los nuevos 10, 11 y 13')
+    if og.redesig_dest_prefix is not None:
+        pm = og.redesig_dest_prefix.match(lead)
+        if pm:
+            lead = _DEST_LEAD_RE.sub("", lead[pm.end():])
+    first = re.split(r"[\s,.;:()]", lead, 1)[0].lower().rstrip(".ªº")
+    structural = (
+        lead.startswith(("«", "\"", "'"))
+        or first in _dest_designators()
+        or bool(re.match(r"\d", lead)))
+    if not structural:
+        return None
+    masked = _mask_quoted(zone)
+    colon = masked.find(":")
+    if colon >= 0:
+        zone = zone[:colon]
+    mentions = _extract_mentions(zone.strip().rstrip("."))
+
+    def leaf_vals(kind, vals):
+        # 'letras e) y f)' enumerates e and f — a bare 'y'/'e' without
+        # the ')' marker is the conjunction, not a destination value
+        if kind != "letra":
+            return list(vals)
+        return [v for v in vals
+                if re.search(rf"(?<!\w){re.escape(str(v))}\)", zone)]
+
+    dests: list = []
+    if len(mentions) == 1:
+        kind, vals = next(iter(mentions.items()))
+        vals = leaf_vals(kind, vals)
+        for v in vals:
+            if isinstance(v, tuple) and len(v) > 1 \
+                    and all(str(x).isdigit() for x in v):
+                # a 'lo a hi' range expands into consecutive slots
+                for n in range(int(v[0]), int(v[1]) + 1):
+                    dests.append((kind, str(n)))
+            else:
+                nv = _norm_dest(kind, v)
+                if nv is None:
+                    return []
+                dests.append((kind, nv))
+    elif len(mentions) > 1:
+        # a full-path destination: kinds with a single value are shared
+        # context ('las letras e) y f) de dicho apartado 2' anchors
+        # apartado 2); exactly one kind may carry the enumerated leaf
+        # values — two multi-valued kinds is unprovable ambiguity
+        composite = {}
+        leaf_kind = leaf_values = None
+        multi = 0
+        for kind, vals in mentions.items():
+            vals = leaf_vals(kind, vals)
+            if not vals:
+                continue
+            if len(vals) != 1:
+                multi += 1
+                leaf_kind, leaf_values = kind, vals
+                continue
+            nv = _norm_dest(kind, vals[0])
+            if nv is None:
+                return []
+            composite[kind] = nv
+        if multi > 1:
+            return []
+        if leaf_values is None:
+            dests = [composite]
+        else:
+            dests = []
+            for v in leaf_values:
+                nv = _norm_dest(leaf_kind, v)
+                if nv is None:
+                    return []
+                dests.append(dict(composite, **{leaf_kind: nv}))
+    bare: list = []
+    if og.redesig_bare_dest is not None:
+        bm = og.redesig_bare_dest.search(zone)
+        if bm:
+            raw = bm.group(1).strip()
+            if raw.startswith("«") and raw.endswith("»"):
+                # quoted-name destination ('pasa a denominarse «X»')
+                name = raw[1:-1].strip()
+                bare = [(None, name)] if name else []
+            else:
+                vals = _expand_numlist(raw)
+                if not vals:
+                    # bare letter/digit enumerations ('los apartados
+                    # A, B, C y D', 'los nuevos 10, 11 y 12'); any
+                    # non-enum token other than the 'respectivamente'
+                    # terminator voids the destination — no guessing
+                    vals = []
+                    for p in re.split(r",|\s+[ye]\s+", raw):
+                        p = p.strip().rstrip(".")
+                        if re.fullmatch(r"\d+|[A-Za-z]", p):
+                            vals.append(p)
+                        elif p.lower() != "respectivamente":
+                            vals = []
+                            break
+                bare = [(None, str(v)) for v in vals]
+    # the bare-destination grammar captures the explicit enumeration
+    # whole; mention extraction may truncate it at a lookahead. A
+    # strictly longer bare list is the real destination set; equal or
+    # shorter keeps the richer typed mentions.
+    if len(bare) > len(dests):
+        dests = bare
+    return dests
+
+
+def redesignation_segments(clause_text: str) -> list:
+    """Structural redesignation segments of a clause:
+    ``(verb_start, verb_end, segment_end, dests)``. Non-structural
+    'pasa a ser <non-designator>' matches are not segments."""
+    out = []
+    for m in _redesig_matches(clause_text):
+        seg_end = _segment_end(clause_text, m.end())
+        dests = _parse_dests(clause_text[m.end():seg_end])
+        if dests is not None:
+            out.append((m.start(), m.end(), seg_end, dests))
+    return out
+
+
+def _subject_zone(text: str) -> str:
+    """Mentions outside every structural redesignation segment; the
+    destination side never composes subjects. Only the verb-to-
+    segment-end span is removed — later operations in the same node
+    ('«X»; se suprimen los estados…') keep their subjects."""
+    segs = redesignation_segments(text)
+    if not segs:
+        return text
+    out, last = [], 0
+    for vs, _ve, se, _d in segs:
+        out.append(text[last:vs])
+        last = se
+    out.append(text[last:])
+    return "".join(out)
+
+
+# canonical nesting depth — roots share 0; the dict-destination leaf
+# is its deepest component, the rest are shared path context
+_REDESIG_DEPTH = {
+    "pagina": -1, "indice": 0,
+    "norma": 0, "anejo": 0, "anexo": 0, "disposicion": 0, "disp": 0,
+    "estado": 0, "fichero": 0,
+    "seccion": 1, "apartado": 2, "punto": 2, "numero": 2,
+    "letra": 3, "numeral": 4, "nota": 4, "parrafo": 5, "guion": 5}
+
+
+def _dest_leaf_kinds(dests) -> set:
+    """The leaf kind each destination slot rewrites — for full-path
+    dicts the deepest component; shallower dict entries are shared
+    context. Bare slots (kind None) inherit the paired subject's leaf,
+    so they drop nothing here."""
+    kinds = set()
+    for d in dests:
+        if isinstance(d, dict):
+            if d:
+                kinds.add(max(
+                    d, key=lambda k: _REDESIG_DEPTH.get(k, 0)))
+        else:
+            k, _v = d
+            if k is not None:
+                kinds.add(k)
+    return kinds
+
+
+def _subject_mentions(text: str) -> dict:
+    """Mentions that may compose this clause's subjects.
+
+    Everything outside structural redesignation segments, PLUS the
+    shared-context declarations inside them: 'las letras e) y f) de
+    dicho apartado 2' declares apartado 2 as the parent of BOTH
+    endpoints, so it legitimately composes the old locators' path;
+    only the destination leaf enumeration is excluded, so new-side
+    locators never compose as subjects."""
+    mentions = _extract_mentions(_subject_zone(text))
+    for _vs, ve, se, dests in redesignation_segments(text):
+        if not dests:
+            continue
+        leaf = _dest_leaf_kinds(dests)
+        for k, vals in _extract_mentions(text[ve:se]).items():
+            if k in leaf:
+                continue
+            merged = list(mentions.get(k) or [])
+            merged.extend(vals)
+            mentions[k] = merged
+    return mentions
+
+
+def _mention_pos(clause_text: str, locator_key: str) -> int | None:
+    """Position of the locator's deepest mention in the clause — the
+    same derivation ``subject_operation_kind`` uses."""
+    poss = _mention_positions(clause_text, locator_key)
+    return max(poss) if poss else None
+
+
+def _mention_positions(clause_text: str, locator_key: str) -> list:
+    """All positions where the locator's deepest component is
+    mentioned. Short values ('13', 'n') use a plain word boundary
+    rather than the strictest ``subject_operation_kind`` lookahead —
+    for pairing, any left-of-verb occurrence proves the subject was
+    addressed ('los números 13, 14, 15 y 16')."""
+    _, deep = _locator_mentions(locator_key)
+    og = active_profile().operative_grammar
+    leaf_kind, leaf_val = _leaf_parts(locator_key)
+    poss: list[int] = []
+    if leaf_kind in og.redesig_name_kinds:
+        # name-carried kinds (fichero) only ever occur inside «» —
+        # quote masking would erase the only mention, and the value
+        # is a denomination, not a code, so identity is proven by
+        # normalised quoted-span equality; right-of-verb hits are
+        # filtered by the caller's bound/verb window
+        tn = active_profile().text_normalization
+        for qm in tn.quoted_span.finditer(clause_text):
+            inner = qm.group(0)[1:-1] if len(qm.group(0)) >= 2 \
+                else qm.group(0)
+            if _norm(inner) == _norm(leaf_val):
+                poss.append(qm.start())
+        return poss
+    low = _mask_quoted(clause_text).lower()
+    for d in deep:
+        d = d.strip()
+        if not d:
+            continue
+        # a bare single letter needs its marker — 'letras d) y e)'
+        # mentions d and e, but 'y' followed by a space is the
+        # conjunction, not a letra occurrence
+        tail = r"(?=[).,;:])" if len(d) == 1 and d.isalpha() \
+            else r"(?!\w)"
+        for m in re.finditer(
+                rf"(?<!\w){re.escape(d)}{tail}", low):
+            poss.append(m.start())
+    return poss
+
+
+def _leaf_parts(locator_key: str) -> tuple[str, str]:
+    """(kind, value) of the locator's deepest component. The leaf is
+    the last kind-bearing component plus any trailing kind-less
+    suffixes — 'disp:adicional.única' has leaf kind 'disp' with value
+    'adicional.única', not a kind-less 'única'."""
+    parts = locator_key.split(".")
+    i = max((i for i, p in enumerate(parts) if ":" in p),
+            default=-1)
+    if i < 0:
+        return parts[-1], ""
+    k, _, v = parts[i].partition(":")
+    if i < len(parts) - 1:
+        v = ".".join([v] + parts[i + 1:])
+    return k, v
+
+
+def _dest_code(leaf_kind: str, dest) -> str | None:
+    """The new-side code a destination declares for ``leaf_kind`` —
+    the EXP-B1 mechanism: a typed slot matching the leaf kind carries
+    its code directly; a bare token inherits the leaf kind; a bare
+    denomination resolves through the profile's name-keyed kinds
+    (fichero identity IS its rubric) or its name-code extractor
+    (a quoted denomination may still carry the code). None = unprovable."""
+    og = active_profile().operative_grammar
+    if isinstance(dest, dict):
+        for k, v in dest.items():
+            if _REDESIG_KIND_ALIAS.get(k, k) == leaf_kind:
+                return str(v)
+        return None
+    kind, value = dest
+    if kind is not None:
+        return str(value) \
+            if _REDESIG_KIND_ALIAS.get(kind, kind) == leaf_kind \
+            else None
+    v = str(value)
+    if re.fullmatch(r"[\d.]+|[A-Za-z]", v):
+        return v
+    if leaf_kind in (og.redesig_name_kinds or ()):
+        return re.sub(r"\s+", " ", v).strip()
+    rx = (og.redesig_name_code or {}).get(leaf_kind)
+    if rx is not None:
+        m = rx.search(v)
+        if m:
+            g = m.group(1)
+            mm = re.match(r"\s*([A-Za-z]+)\s*(.*)", g)
+            if leaf_kind == "estado" and mm:
+                return _norm_state_code(mm.group(1), mm.group(2))
+            return g
+    return None
+
+
+def _redesig_new_key(old_key: str, dest) -> str | None:
+    """Apply one destination slot to an old locator path.
+
+    (kind, value): replace the kind's component — bare slots inherit
+    the leaf kind — and drop deeper components. dict: full-path
+    destination, every kind must already appear in the old path.
+    Returns None when the destination cannot be anchored (fail
+    closed)."""
+    # components split on '.', but values may themselves carry dots
+    # ('apartado:II.B.2', 'disp:adicional.única') — a component without
+    # a kind prefix continues the previous component's value
+    parts: list[list[str]] = []
+    for p in old_key.split("."):
+        if ":" in p:
+            k, _, v = p.partition(":")
+            parts.append([k, v])
+        elif parts:
+            parts[-1][1] += "." + p
+        else:
+            return None
+    kinds = [k for k, _ in parts]
+
+    def idx_of(k):
+        kk = _REDESIG_KIND_ALIAS.get(k, k)
+        return kinds.index(kk) if kk in kinds else -1
+
+    if isinstance(dest, dict):
+        idxs = [idx_of(k) for k in dest]
+        if not dest or -1 in idxs:
+            return None
+        deepest = max(idxs)
+        for k, v in dest.items():
+            parts[idx_of(k)] = (_REDESIG_KIND_ALIAS.get(k, k), str(v))
+        return ".".join(f"{k}:{v}" for k, v in parts[:deepest + 1])
+    kind, value = dest
+    i = idx_of(kind) if kind is not None else len(parts) - 1
+    if i < 0:
+        return None
+    parts[i] = (kinds[i], str(value))
+    return ".".join(f"{k}:{v}" for k, v in parts[:i + 1])
+
+
+def redesignation_pairs(clause_text: str, subjects) -> list:
+    """Pair provable old-side subjects with their destination slots.
+
+    Positional rule (EXP-B1): a subject pairs with the first
+    structural redesig verb AFTER its deepest mention, inside the
+    clause region opened by the previous segment's end. Destinations
+    pair in order — N old locators need N slots. Each pair is
+    classified:
+
+      CODE_REDESIGNATION — destination declares a different code for
+                           the subject's leaf kind; emits an edge
+      RELABEL_SAME_CODE  — same code, denomination changed; the
+                           ordinary relation stands (no edge)
+      UNPROVABLE         — structural verb but the new code cannot
+                           be proven from the segment; refusal
+
+    Returns a list of dicts with keys ``subject`` (SubjectRef),
+    ``dest``, ``cls``, ``new_key`` (None unless CODE_REDESIGNATION
+    and anchored), ``verb_start``."""
+    segs = redesignation_segments(clause_text)
+    if not segs:
+        return []
+    poss = {s.locator_key: _mention_positions(clause_text,
+                                              s.locator_key)
+            for s in subjects}
+    masked = _mask_quoted(clause_text)
+    pairs: list = []
+    lower = 0
+    for vs, _ve, se, dests in segs:
+        # left scope is the current sentence: mentions before the
+        # last unquoted '. '/' ; ' boundary (or the previous segment's
+        # end) belong to a different operation — 'la letra c) debe
+        # finalizar… . las letras d) y e) pasan a ser…'
+        bound = lower
+        for bm in re.finditer(r"[.;]\s", masked[:vs]):
+            bound = max(bound, bm.end())
+        left = [s for s in subjects
+                if any(bound <= p < vs
+                       for p in poss.get(s.locator_key, ()))]
+        left.sort(key=lambda s: min(
+            p for p in poss[s.locator_key] if bound <= p < vs))
+        if len(left) != len(dests):
+            # ambiguous pairing (or a segment whose destinations were
+            # unprovable): every left subject of this verb is refused
+            for s in left:
+                pairs.append({"subject": s, "dest": None,
+                              "cls": "UNPROVABLE", "new_key": None,
+                              "verb_start": vs})
+            lower = se
+            continue
+        for s, dest in zip(left, dests):
+            leaf_kind, leaf_val = _leaf_parts(s.locator_key)
+            code = _dest_code(leaf_kind, dest)
+            # a bare-name destination contributes the PROVEN code as
+            # the new leaf value, never the raw denomination text
+            anchor = dest
+            if code is not None and not isinstance(dest, dict) \
+                    and dest[0] is None:
+                anchor = (None, code)
+            new_key = _redesig_new_key(s.locator_key, anchor) \
+                if code is not None else None
+            if code is None or new_key is None:
+                cls, new_key = "UNPROVABLE", None
+            elif _norm(code) == _norm(leaf_val):
+                cls, new_key = "RELABEL_SAME_CODE", None
+            else:
+                cls = "CODE_REDESIGNATION"
+            pairs.append({"subject": s, "dest": dest, "cls": cls,
+                          "new_key": new_key, "verb_start": vs})
+        lower = se
+    return pairs
+
+
+def redesignation_destinations(clause_text: str):
+    """Destination slots of the clause's FIRST structural redesig
+    segment (compat shim for probe accounting). Returns None when no
+    structural segment exists."""
+    segs = redesignation_segments(clause_text)
+    return segs[0][3] if segs else None
 
 
 def _expand_numlist(raw: str) -> list:
@@ -751,7 +1629,9 @@ def _context_update(ctx: dict[str, str],
     if disp:
         declared.add("disposicion")
         new["disposicion"] = (str(disp[0][0]).lower() + "." +
-                              str(disp[0][1]).lower())
+                              str(disp[0][1]).lower()
+                              if len(disp[0]) > 1
+                              else str(disp[0][0]).lower())
     if declared:
         # the clause's own root displaces every inherited root of a
         # different family, and any inherited composed subject whose
@@ -887,23 +1767,123 @@ def _unmarked_op(node: Node) -> tuple[str, str] | None:
     return None
 
 
+def _positional_node(n, kind: str) -> bool:
+    """WS-C — node counted as the ``kind`` positional unit inside a
+    proven parent span: 'parrafo' = paragraph-class prose nodes
+    (parrafo and parrafo_2 are both paragraphs at different indents);
+    'guion' = dash-prefixed paragraph nodes."""
+    dm = active_profile().document_model
+    if n.kind != dm.kinds["paragraph"]:
+        return False
+    if kind == "guion":
+        return bool(re.match(r"^\s*[-–—]\s", n.text or ""))
+    if kind == "parrafo":
+        # a dash-prefixed paragraph is a guion, not a parrafo —
+        # counting both would shift 'segundo párrafo' off its node
+        return n.cls in (dm.classes.get("parrafo"),
+                         dm.classes.get("parrafo_2")) \
+            and not re.match(r"^\s*[-–—]\s", n.text or "")
+    return False
+
+
+def _unkeyed_kinds(zone: str, mentions: dict) -> tuple:
+    """Anonymous/positional kind-words present in the subject zone
+    that produced no key component — 'los dos guiones', 'el último
+    párrafo', 'del artículo 19'. Recorded on the op so the history
+    layer journals the gap instead of silently absorbing the
+    anonymous item into the parent locator.
+
+    Flaggable kinds are the profile's positional kinds plus the
+    'opaque' kinds — kind-words with no declaration, which can never
+    be captured.
+    """
+    lg = active_profile().locator_grammar
+    # anonymous-item accounting is a capability of the anonymous-
+    # identity family — a profile that declares no positional kinds
+    # keeps its exact pre-WS-C accounting (BdE byte-identical replay)
+    if not lg.positional_kinds:
+        return ()
+    flaggable = set(lg.positional_kinds) | (
+        set(lg.kind_words) - set(lg.declarations))
+    # 'disp' is the emitted-spelling alias of 'disposicion' — a bare
+    # 'disposición' word is a declared-kind reference, not an opaque
+    # unkeyed item
+    flaggable.discard("disp")
+    if not flaggable:
+        return ()
+    masked = _masked_clause(zone)
+    out = []
+    for k in flaggable:
+        if mentions.get(k):
+            continue
+        src = lg.kind_words.get(k)
+        if not src \
+                or not re.search(rf"\b{src}\b", masked, re.IGNORECASE):
+            continue
+        # a spelling shared with a declared kind is captured under
+        # that kind — 'anexo' when 'anejo' was captured is not unkeyed
+        if any(lg.kind_words.get(dk) == src and mentions.get(dk)
+               for dk in lg.declarations):
+            continue
+        out.append(k)
+    return tuple(sorted(out))
+
+
+def _suppress_anchor_subjects(subjects: list, unkeyed: tuple) -> list:
+    """Drop positional-leaf subjects that only locate unkeyed items.
+
+    'Se da nueva redacción a los dos guiones que se incluyen a
+    continuación del primer párrafo' — the declared subject is the
+    anonymous guiones (journaled via UNKEYED_ANONYMOUS_ITEM); the
+    captured 'primer párrafo' is their positional anchor, not the
+    amended entity. When a clause carries unkeyed positional items,
+    a positional-leaf key is a best-effort anchor — suppressing it
+    is fail-closed: the anchor relation would claim a different
+    sub-entity than the one the source declared.
+    """
+    pos = active_profile().locator_grammar.positional_kinds
+    if not (set(unkeyed) & pos):
+        return subjects
+    return [s for s in subjects
+            if s.locator_key.rsplit(".", 1)[-1].split(":", 1)[0]
+            not in pos]
+
+
 # ---------------------------------------------------------------------------
 # main entry
 # ---------------------------------------------------------------------------
 
 
 def split_sections(doc: DiarioDoc) -> list[Section]:
-    """Split the document body at ``articulo`` headings."""
-    art_cls = active_profile().document_model.classes["articulo"]
-    arts = [n for n in doc.nodes if n.cls == art_cls]
-    if not arts:
+    """Split the document body at section headings.
+
+    The primary boundary is the profile's ``articulo`` class. A
+    profile may additionally declare old-format numbered operative
+    blocks ('I. Modificaciones a la Circular X' set in display
+    classes) as boundaries — only when the block heading names a
+    target circular, so a bare 'MODIFICACIONES' decoration never
+    opens a scope.
+    """
+    p = active_profile()
+    dm = p.document_model
+    art_cls = dm.classes["articulo"]
+    ir = p.identity_reference
+    heads = [n for n in doc.nodes if n.cls == art_cls]
+    if dm.block_head is not None and dm.block_head_classes:
+        heads += [n for n in doc.nodes
+                  if n.cls in dm.block_head_classes
+                  and n.cls != art_cls
+                  and n.text
+                  and dm.block_head.search(n.text)
+                  and ir.target_ref.search(n.text)]
+        heads.sort(key=lambda n: n.index)
+    if not heads:
         return []
     sections = []
-    bounds = [a.index for a in arts] + [len(doc.nodes)]
-    for i, a in enumerate(arts):
+    bounds = [a.index for a in heads] + [len(doc.nodes)]
+    for i, a in enumerate(heads):
         targets = [(int(n), int(y)) for n, y in
-                   active_profile().identity_reference.target_ref
-                   .findall(a.text)]
+                   ir.target_ref.findall(a.text)]
         sections.append(Section(a.text, a.index, bounds[i + 1], targets))
     return sections
 
@@ -1153,7 +2133,9 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
                 zone = clause[:tail.start()] if tail else clause
                 mentions = _extract_mentions(zone)
                 ctx, cscope = merged_ctx()
-                subjects = _compose_keys(mentions, ctx, cscope, i)
+                subjects = _compose_keys(
+                    _subject_mentions(zone), ctx, cscope, i,
+                    clause_text=_subject_zone(zone))
                 page = mentions.get("pagina")
                 page_ref = int(str(page[0][0])) if page else (
                     int(ctx["pagina"]) if "pagina" in ctx else None)
@@ -1199,7 +2181,26 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
                     section_heading=sec.heading,
                     section_targets=list(sec.targets),
                     context_scope=cscope,
+                    unkeyed=(uk := _unkeyed_kinds(zone, mentions)),
                 ))
+                ops[-1].subjects[:] = _suppress_anchor_subjects(
+                    ops[-1].subjects, uk)
+                continue
+            # WS-C context heads: display-class scope heads ('Norma
+            # 7.ª', 'Anexo 1', 'Norma final.') reset the item-level
+            # locator context without being clause markers. An
+            # ambiguous or unkeyed head clears the item scope rather
+            # than inheriting a stale one.
+            if dm.context_head is not None \
+                    and n.cls in dm.context_head_classes \
+                    and n.text and dm.context_head.match(n.text):
+                h_mentions = _extract_mentions(n.text)
+                kinds = [v for v in h_mentions.values() if v]
+                single = len(kinds) == 1 and len(kinds[0]) == 1
+                item_ctx, item_scope = _ctx_update_scoped(
+                    {}, {}, h_mentions if single else {}, i, "ITEM")
+                item_active = True
+                levels.clear()
                 continue
             # preamble context setter, e.g. "Se introducen los siguientes
             # cambios en el anejo 9 ... :" before lettered point clauses
@@ -1285,7 +2286,9 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
         levels[-1] = (levels[-1][0], i, own_flat, own_scope)
         ctx, cscope = merged_ctx()
 
-        subjects = _compose_keys(mentions, ctx, cscope, i)
+        subjects = _compose_keys(
+            _subject_mentions(n.text), ctx, cscope, i,
+            clause_text=_subject_zone(n.text))
         if subjects:
             # children clauses without own subject inherit this level's
             levels[-1][2]["subject"] = subjects[0].locator_key
@@ -1318,7 +2321,11 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
             section_heading=sec.heading,
             section_targets=list(sec.targets),
             context_scope=cscope,
+            unkeyed=(uk := _unkeyed_kinds(_subject_zone(n.text),
+                                          mentions)),
         ))
+        ops[-1].subjects[:] = _suppress_anchor_subjects(
+            ops[-1].subjects, uk)
         prev_container = container
 
     return ops

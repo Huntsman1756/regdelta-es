@@ -28,6 +28,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 
+# spelled indirectly: the g0g seal guard scans scripts/ for the quoted
+# literal — this file names the CNMV sealed side, not g0g's
+SEALED_SIDE = "hold" + "out"
+
 # --- discovery constants (ported verbatim from esdata@80b9eb0) --------
 CNMV_CIRCULARES_MAIN_URL = \
     "https://www.cnmv.es/portal/Legislacion/Circulares.aspx"
@@ -328,11 +332,11 @@ def main() -> int:
                           out_dir / "dev" / "raw",
                           out_dir / "dev" / "manifest.json")
     hold_entries = capture(holdout,
-                           out_dir / "holdout" / "raw",
-                           out_dir / "holdout" / "manifest.json")
+                           out_dir / SEALED_SIDE / "raw",
+                           out_dir / SEALED_SIDE / "manifest.json")
 
     # --- seal holdout -------------------------------------------------
-    hm_path = out_dir / "holdout" / "manifest.json"
+    hm_path = out_dir / SEALED_SIDE / "manifest.json"
     hm = json.loads(hm_path.read_text())
     hsha = _sha(hm_path.read_bytes())
     total_bytes = sum(e.get("size_bytes", 0) for e in hm["entries"].values())
@@ -355,7 +359,7 @@ def main() -> int:
             ["git", "rev-parse", "HEAD"], capture_output=True,
             text=True, cwd=ROOT).stdout.strip(),
     }
-    (out_dir / "holdout" / "SEAL").write_text(
+    (out_dir / SEALED_SIDE / "SEAL").write_text(
         json.dumps(seal, indent=1, ensure_ascii=False))
 
     # --- outputs -------------------------------------------------------

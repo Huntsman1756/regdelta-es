@@ -164,3 +164,20 @@ from locator spelling (redesignation, renumbering).
   RegDelta solves *what may be claimed* about captured official
   bytes. Complementary layers: AKN can inform identity modeling
   without ever entering the evidence path
+
+## 11. CORE-GAP supplement (2026-09-19 recon)
+
+Renumbering machinery surfaced (akn-core v1.0 docs): `<textualMod
+type="renumbering">` is a first-class mod type; `<previous href>`
+carries the old→new element edge inside modifications; `<mappings>`
+(`<mapping original="wId" current="eId" start end>`) is a temporal
+wId↔eId ledger for frequently renumbered documents; `wId` = "the
+identifier the structure used to have in the original version … only
+needed when a renumbering occurred", anchored to a designated Master
+Expression. Anonymous-node rule (NC §5.4.3): unnumbered elements get
+an implicit *positional* eId counter — a minted address, not a
+declared identity. All of it is producer-asserted metadata; nothing
+binds a `<mapping>` to source-span evidence. Verdict unchanged:
+PATTERN — the typed-mod + previous-edge + mapping-ledger design is
+the richest standard-level redesignation model; its epistemics
+(producer assertion, not evidence) are the gap RegDelta fills.

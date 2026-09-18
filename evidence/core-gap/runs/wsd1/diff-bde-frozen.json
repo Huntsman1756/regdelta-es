@@ -1,0 +1,579 @@
+{
+  "files": {
+    "attribution.jsonl": {
+      "identical": 1282,
+      "expected": [],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "audit.jsonl": {
+      "identical": 503,
+      "expected": [
+        {
+          "key": "d407675c3cea5bc1284c82af79d821b701db98b37e7aaec3f218d71f606fa1fd",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "c5f807519fbb8b2fb727a83fa17ca8ce9baf5fe998d7e7b13f8e53e9d7567740",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "3f85c529c195e59b8f7e170aad0f10fc5c58a86753b6408b6f17a52833c717ae",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "e33b6ad17a1af4f1c831ed35de1f614bc8f0bc15c4f4ce32b84df02242d54a1c",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "f5aa0abb4af8cfef1a59eb24b888707468129bb3637ff0435f88a3223954bade",
+          "case": "WS-A:dest-side-fld-removal"
+        },
+        {
+          "key": "d665aae96a9b6f51c27aeb314592ac2690183a44cf055af923382365fbc63b70",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "11bc472ad4caf639e33eb891e5e44c73d5baf65dd93c914eaa3f3907647446c9",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "4347d1cb486cc393a15b13ab9462e6d3875c5ced342e9ce36896233bfc86d081",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "7f95f6627dc3f64b0ea8971c4dbc944a9dfb4ccd4a8e4a88f8955552606f6ed3",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "ad31645e48d660a8b54742ea3cc82ebaf094efe1ec2375e7097da61f4d721113",
+          "case": "WS-C:declared-anejo-gate",
+          "changed": {
+            "o3_expected": [
+              {
+                "status": "DELETED",
+                "method": "CHAIN_PREDECESSOR",
+                "predecessor_relation_id": "7f95f6627dc3f64b0ea8971c4dbc944a9dfb4ccd4a8e4a88f8955552606f6ed3"
+              },
+              {
+                "status": "PRESENT",
+                "method": "ORIGINAL_PUBLICATION_STRUCTURAL"
+              }
+            ]
+          }
+        },
+        {
+          "key": "fe47e3cea3df777e7a3edee91e42f6d72521a510d5530d1f623b96c8efc23028",
+          "case": "WS-C:declared-anejo-gate",
+          "changed": {
+            "o3_expected": [
+              {
+                "status": "PRESENT",
+                "method": "ORIGINAL_PUBLICATION_STRUCTURAL"
+              },
+              {
+                "status": "DELETED",
+                "method": "CHAIN_PREDECESSOR",
+                "predecessor_relation_id": "f1ef2f3e98303d35e656a74f9837348263aeb99013e5d2330873b715183bebc3"
+              }
+            ]
+          }
+        },
+        {
+          "key": "51e97084b0a7519af1308528e21bbe8a02f6d200ecd45434e0203681435895c5",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "6ea6a3401b23a1343189f0f7c9a736bb1770300e399be48b350134561cac408a",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "f9a7e35d3fd0a17592bfdfd886fd518eedb8a7aab9d5e0a961976eb16ae5cca8",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "988eda972704a1e902a36c8529232fe4dc2c4b2150c9a08a57a006255fe43a82",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "ce9b76ff2306dfd6d4fb313802a4952ea4ad3b04e03398c296d40ddb23c99da2",
+          "case": "WS-A:dest-side-fld-removal"
+        },
+        {
+          "key": "aa2eec832090280f6d201cfbb729120ed33f323ce2b283fa960a3eee53139321",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "d8d63bab8df08c1b6d666ffa359f7325457e024bd3d9d632e4724da30cdd08cb",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "eb31119af1fe73e7367144515a65c092a57f438903c9e9f6162401481812183f",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "f1ef2f3e98303d35e656a74f9837348263aeb99013e5d2330873b715183bebc3",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "101240a932bba832a0a59b4dc8d59880481b91e1719feb0efc2d41f7b9b89213",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "a2c4add5ad856da061e3914c56d730f42525d99d193eafaa92b1c89bced4c59c",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "c72c68488f0809c38258c08dd2dcb4782c9e0c51dd47026c5d1b98d3f9f7ea9a",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "594ada2dfd327776fc71ba43309ce7980b0d0289141dabd502afa1cbcd7303a6",
+          "case": "WS-C:declared-anejo-gate"
+        }
+      ],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "bindings.jsonl": {
+      "identical": 505,
+      "expected": [
+        {
+          "key": "d407675c3cea5bc1284c82af79d821b701db98b37e7aaec3f218d71f606fa1fd",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "c5f807519fbb8b2fb727a83fa17ca8ce9baf5fe998d7e7b13f8e53e9d7567740",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "3f85c529c195e59b8f7e170aad0f10fc5c58a86753b6408b6f17a52833c717ae",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "e33b6ad17a1af4f1c831ed35de1f614bc8f0bc15c4f4ce32b84df02242d54a1c",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "f5aa0abb4af8cfef1a59eb24b888707468129bb3637ff0435f88a3223954bade",
+          "case": "WS-A:dest-side-fld-removal"
+        },
+        {
+          "key": "d665aae96a9b6f51c27aeb314592ac2690183a44cf055af923382365fbc63b70",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "11bc472ad4caf639e33eb891e5e44c73d5baf65dd93c914eaa3f3907647446c9",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "4347d1cb486cc393a15b13ab9462e6d3875c5ced342e9ce36896233bfc86d081",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "7f95f6627dc3f64b0ea8971c4dbc944a9dfb4ccd4a8e4a88f8955552606f6ed3",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "51e97084b0a7519af1308528e21bbe8a02f6d200ecd45434e0203681435895c5",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "6ea6a3401b23a1343189f0f7c9a736bb1770300e399be48b350134561cac408a",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "f9a7e35d3fd0a17592bfdfd886fd518eedb8a7aab9d5e0a961976eb16ae5cca8",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "988eda972704a1e902a36c8529232fe4dc2c4b2150c9a08a57a006255fe43a82",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "ce9b76ff2306dfd6d4fb313802a4952ea4ad3b04e03398c296d40ddb23c99da2",
+          "case": "WS-A:dest-side-fld-removal"
+        },
+        {
+          "key": "aa2eec832090280f6d201cfbb729120ed33f323ce2b283fa960a3eee53139321",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "d8d63bab8df08c1b6d666ffa359f7325457e024bd3d9d632e4724da30cdd08cb",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "eb31119af1fe73e7367144515a65c092a57f438903c9e9f6162401481812183f",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "f1ef2f3e98303d35e656a74f9837348263aeb99013e5d2330873b715183bebc3",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "101240a932bba832a0a59b4dc8d59880481b91e1719feb0efc2d41f7b9b89213",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "a2c4add5ad856da061e3914c56d730f42525d99d193eafaa92b1c89bced4c59c",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "c72c68488f0809c38258c08dd2dcb4782c9e0c51dd47026c5d1b98d3f9f7ea9a",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "594ada2dfd327776fc71ba43309ce7980b0d0289141dabd502afa1cbcd7303a6",
+          "case": "WS-C:declared-anejo-gate"
+        }
+      ],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "failures.jsonl": {
+      "identical": 532,
+      "expected": [
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_FOUND\\\", \\\"snapshot_id\\\": \\\"dfe7dc109c44dbc53a2c934579d1cfadaf5d8a05c274abd9a10c71b84e79187e\\\", \\\"detail\\\": {\\\"subject\\\": \\\"fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada\\\", \\\"modifier\\\": \\\"BOE-A-2014-8654\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candid\", \"target\": \"BOE-A-2005-4749\"}",
+          "case": "WS-A:superseded-binding-journal"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_FOUND\\\", \\\"snapshot_id\\\": \\\"dfe7dc109c44dbc53a2c934579d1cfadaf5d8a05c274abd9a10c71b84e79187e\\\", \\\"detail\\\": {\\\"subject\\\": \\\"fichero:Servicio de Reclamaciones\\\", \\\"modifier\\\": \\\"BOE-A-2014-8654\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"n\", \"target\": \"BOE-A-2011-2378\"}",
+          "case": "WS-A:superseded-binding-journal"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"7cc19851cd0497e73c7ec104ae04056149070d48bce077acb82712e33e3a9a8a\\\", \\\"detail\\\": {\\\"subject\\\": \\\"norma:10.apartado:2.letra:d\\\", \\\"modifier\\\": \\\"BOE-A-2012-12687\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"no \", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-A:superseded-binding-journal"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"7cc19851cd0497e73c7ec104ae04056149070d48bce077acb82712e33e3a9a8a\\\", \\\"detail\\\": {\\\"subject\\\": \\\"norma:10.apartado:2.letra:e\\\", \\\"modifier\\\": \\\"BOE-A-2012-12687\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"no \", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-A:superseded-binding-journal"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_FOUND\\\", \\\"snapshot_id\\\": \\\"7cc19851cd0497e73c7ec104ae04056149070d48bce077acb82712e33e3a9a8a\\\", \\\"detail\\\": {\\\"subject\\\": \\\"norma:10.apartado:2.letra:f\\\", \\\"modifier\\\": \\\"BOE-A-2012-12687\\\", \\\"side\\\": \\\"before\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"no_st\", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-A:superseded-binding-journal"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"7cc19851cd0497e73c7ec104ae04056149070d48bce077acb82712e33e3a9a8a\\\", \\\"detail\\\": {\\\"subject\\\": \\\"norma:10.apartado:2.letra:f\\\", \\\"modifier\\\": \\\"BOE-A-2012-12687\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"no \", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-A:superseded-binding-journal"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"UNBOUND_SUBJECT\\\", \\\"snapshot_id\\\": \\\"7cc19851cd0497e73c7ec104ae04056149070d48bce077acb82712e33e3a9a8a\\\", \\\"detail\\\": {\\\"subject\\\": \\\"norma:10.apartado:2.letra:f\\\", \\\"modifier\\\": \\\"BOE-A-2012-12687\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"relation_id\\\": \\\"f5aa0abb4af8cfef1a59eb24b888707468129bb3637ff0435f88a3223954\", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-A:superseded-binding-journal"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"7cc19851cd0497e73c7ec104ae04056149070d48bce077acb82712e33e3a9a8a\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:2.punto:2\\\", \\\"modifier\\\": \\\"BOE-A-2012-12687\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"clause scopes b\", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"7cc19851cd0497e73c7ec104ae04056149070d48bce077acb82712e33e3a9a8a\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:2.punto:1\\\", \\\"modifier\\\": \\\"BOE-A-2012-12687\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"clause scopes b\", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"00ab0472cb3ac524b917544295af2440e8ece618aab4926fad06563c62ff0987\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:8.punto:4\\\", \\\"modifier\\\": \\\"BOE-A-2018-51\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"clause scopes belo\", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"66b5487c29f38f3b258cc0df4d39eb54ea432a4364b353d23482d41f2b1ae826\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:8.punto:6\\\", \\\"modifier\\\": \\\"BOE-A-2021-8104\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"ADD\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"clause scopes below\", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_FOUND\\\", \\\"snapshot_id\\\": \\\"dfe7dc109c44dbc53a2c934579d1cfadaf5d8a05c274abd9a10c71b84e79187e\\\", \\\"detail\\\": {\\\"subject\\\": \\\"fichero:Registro de agentes de entidades de crédito y de pago\\\", \\\"modifier\\\": \\\"BOE-A-2014-8654\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"c\", \"target\": \"BOE-A-2013-7467\"}",
+          "case": "WS-A:superseded-binding-journal"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"c32134a7824035a8e2aab6483e8d8544523a27943df37fba9df1c6eb5c45316b\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:4.indice\\\", \\\"modifier\\\": \\\"BOE-A-2020-6186\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"SUBSTITUTE\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"clause scopes\", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"c32134a7824035a8e2aab6483e8d8544523a27943df37fba9df1c6eb5c45316b\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:5.indice\\\", \\\"modifier\\\": \\\"BOE-A-2020-6186\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"SUBSTITUTE\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"clause scopes\", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"UNBOUND_SUBJECT\\\", \\\"snapshot_id\\\": \\\"c32134a7824035a8e2aab6483e8d8544523a27943df37fba9df1c6eb5c45316b\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:5.indice\\\", \\\"modifier\\\": \\\"BOE-A-2020-6186\\\", \\\"operation_kind\\\": \\\"SUBSTITUTE\\\", \\\"relation_id\\\": \\\"51e97084b0a7519af1308528e21bbe8a02f6d200ecd45434e0203681435895c5\\\", \\\"cl\", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"c32134a7824035a8e2aab6483e8d8544523a27943df37fba9df1c6eb5c45316b\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:9.punto:151.nota:a\\\", \\\"modifier\\\": \\\"BOE-A-2020-6186\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"clause \", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"UNBOUND_SUBJECT\\\", \\\"snapshot_id\\\": \\\"c32134a7824035a8e2aab6483e8d8544523a27943df37fba9df1c6eb5c45316b\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:9.punto:151.nota:a\\\", \\\"modifier\\\": \\\"BOE-A-2020-6186\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"relation_id\\\": \\\"6ea6a3401b23a1343189f0f7c9a736bb1770300e399be48b350134561cac408a\", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"d4117034af9952f151adabd5b65984858863da7dda0cfa7d1457e3230e70514e\\\", \\\"detail\\\": {\\\"subject\\\": \\\"disp:adicional.única\\\", \\\"modifier\\\": \\\"BOE-A-2020-15602\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"no operati\", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-A:superseded-binding-journal"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"d4117034af9952f151adabd5b65984858863da7dda0cfa7d1457e3230e70514e\\\", \\\"detail\\\": {\\\"subject\\\": \\\"disp:adicional.primera\\\", \\\"modifier\\\": \\\"BOE-A-2020-15602\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"no opera\", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-A:superseded-binding-journal"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"7cc19851cd0497e73c7ec104ae04056149070d48bce077acb82712e33e3a9a8a\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:2.punto:2\\\", \\\"modifier\\\": \\\"BOE-A-2012-12687\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"no operation-ow\", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"7cc19851cd0497e73c7ec104ae04056149070d48bce077acb82712e33e3a9a8a\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:2.punto:1\\\", \\\"modifier\\\": \\\"BOE-A-2012-12687\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"no operation-ow\", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"00ab0472cb3ac524b917544295af2440e8ece618aab4926fad06563c62ff0987\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:8.punto:4\\\", \\\"modifier\\\": \\\"BOE-A-2018-51\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"MODIFY\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"following content \", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_PROVABLE\\\", \\\"snapshot_id\\\": \\\"66b5487c29f38f3b258cc0df4d39eb54ea432a4364b353d23482d41f2b1ae826\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:8.punto:6\\\", \\\"modifier\\\": \\\"BOE-A-2021-8104\\\", \\\"side\\\": \\\"after\\\", \\\"operation_kind\\\": \\\"ADD\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"no operation-owned \", \"target\": \"BOE-A-2012-9058\"}",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_FOUND\\\", \\\"snapshot_id\\\": \\\"2d782c6794f778285f3acb9e07411bda1db9263626a3b9344b5b79553fa32b7a\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:5.indice\\\", \\\"modifier\\\": \\\"BOE-A-2018-17880\\\", \\\"side\\\": \\\"before\\\", \\\"operation_kind\\\": \\\"DELETE\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"no_structural_cand\", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"UNBOUND_SUBJECT\\\", \\\"snapshot_id\\\": \\\"2d782c6794f778285f3acb9e07411bda1db9263626a3b9344b5b79553fa32b7a\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:5.indice\\\", \\\"modifier\\\": \\\"BOE-A-2018-17880\\\", \\\"operation_kind\\\": \\\"DELETE\\\", \\\"relation_id\\\": \\\"eb31119af1fe73e7367144515a65c092a57f438903c9e9f6162401481812183f\\\", \\\"claus\", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"REDESIGNATION_REFUSED\\\", \\\"snapshot_id\\\": \\\"c32134a7824035a8e2aab6483e8d8544523a27943df37fba9df1c6eb5c45316b\\\", \\\"detail\\\": {\\\"modifier\\\": \\\"BOE-A-2020-6186\\\", \\\"clause\\\": \\\"ii) En la tabla del apartado 1 se modifica el título del estado FI 143, que pasa a denominarse «Préstamos sobre bienes inmuebles c\", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-A:redesignation-refusal"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"BINDING_NOT_FOUND\\\", \\\"snapshot_id\\\": \\\"c32134a7824035a8e2aab6483e8d8544523a27943df37fba9df1c6eb5c45316b\\\", \\\"detail\\\": {\\\"subject\\\": \\\"anejo:4.indice\\\", \\\"modifier\\\": \\\"BOE-A-2020-6186\\\", \\\"side\\\": \\\"before\\\", \\\"operation_kind\\\": \\\"SUBSTITUTE\\\", \\\"candidate_count\\\": 0, \\\"candidates\\\": [], \\\"reason\\\": \\\"no_structural_c\", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "{\"failure_class\": \"OPERATION_PARSER_FAILURE\", \"stage\": \"reconstruct\", \"status\": \"OPEN\", \"symptom\": \"{\\\"kind\\\": \\\"REDESIGNATION_REFUSED\\\", \\\"snapshot_id\\\": \\\"6b66ae51c0825a3e3ac6f8e429510f3bfdb792370923d25f6c596fc23c48dc7b\\\", \\\"detail\\\": {\\\"modifier\\\": \\\"BOE-A-2020-6187\\\", \\\"clause\\\": \\\"d) El apartado II.B.2, denominado «Operaciones de refinanciación, refinanciadas o reestructuradas clasificadas como riesgo normal \", \"target\": \"BOE-A-2017-14334\"}",
+          "case": "WS-A:redesignation-refusal"
+        }
+      ],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "lifecycle.jsonl": {
+      "identical": 365,
+      "expected": [
+        {
+          "key": "BOE-A-2005-4749|fichero:Banco de España - Entidad Gestora del Mercado de Deuda Pública Anotada",
+          "case": "WS-A:lifecycle-edge-row"
+        },
+        {
+          "key": "BOE-A-2011-2378|fichero:Servicio de Reclamaciones",
+          "case": "WS-A:lifecycle-edge-row"
+        },
+        {
+          "key": "BOE-A-2012-9058|norma:10.apartado:2.letra:e",
+          "case": "WS-A:lifecycle-edge-row"
+        },
+        {
+          "key": "BOE-A-2012-9058|norma:10.apartado:2.letra:d",
+          "case": "WS-A:lifecycle-edge-row"
+        },
+        {
+          "key": "BOE-A-2012-9058|norma:10.apartado:2.letra:f",
+          "case": "WS-A:lifecycle-edge-row"
+        },
+        {
+          "key": "BOE-A-2013-7467|fichero:Registro de agentes de entidades de crédito y de pago",
+          "case": "WS-A:lifecycle-edge-row"
+        },
+        {
+          "key": "BOE-A-2017-14334|anejo:5.indice",
+          "case": "WS-C:declared-anejo-gate",
+          "changed": {
+            "relation_id": [
+              "51e97084b0a7519af1308528e21bbe8a02f6d200ecd45434e0203681435895c5",
+              "101240a932bba832a0a59b4dc8d59880481b91e1719feb0efc2d41f7b9b89213"
+            ]
+          }
+        },
+        {
+          "key": "BOE-A-2017-14334|anejo:9.punto:151.nota:a",
+          "case": "WS-C:scope-word-normalization",
+          "changed": {
+            "relation_id": [
+              "6ea6a3401b23a1343189f0f7c9a736bb1770300e399be48b350134561cac408a",
+              "c72c68488f0809c38258c08dd2dcb4782c9e0c51dd47026c5d1b98d3f9f7ea9a"
+            ]
+          }
+        },
+        {
+          "key": "BOE-A-2017-14334|anejo:4.indice",
+          "case": "WS-C:declared-anejo-gate",
+          "changed": {
+            "relation_id": [
+              "f9a7e35d3fd0a17592bfdfd886fd518eedb8a7aab9d5e0a961976eb16ae5cca8",
+              "a2c4add5ad856da061e3914c56d730f42525d99d193eafaa92b1c89bced4c59c"
+            ]
+          }
+        },
+        {
+          "key": "BOE-A-2017-14334|disp:adicional.única",
+          "case": "WS-A:lifecycle-edge-row"
+        },
+        {
+          "key": "BOE-A-2017-14334|disp:adicional.primera",
+          "case": "WS-A:lifecycle-edge-row"
+        },
+        {
+          "key": "BOE-A-2017-14334|anejo:6",
+          "case": "WS-C:declared-anejo-gate",
+          "changed": {
+            "relation_id": [
+              "aa2eec832090280f6d201cfbb729120ed33f323ce2b283fa960a3eee53139321",
+              "594ada2dfd327776fc71ba43309ce7980b0d0289141dabd502afa1cbcd7303a6"
+            ]
+          }
+        }
+      ],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "operations.jsonl": {
+      "identical": 1282,
+      "expected": [],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "redesignations.jsonl": {
+      "identical": 0,
+      "expected": [
+        {
+          "key": "5f64a0d61f01e192593dfd22de0222950cb07bc608848f8958e61adf539f5661",
+          "case": "WS-A:continuity-edge"
+        },
+        {
+          "key": "40697e9975b25a6b2d8fe82d2bf53aeb2eb35caf4d04cf78b4042a1a4438d97e",
+          "case": "WS-A:continuity-edge"
+        },
+        {
+          "key": "c991faac4889b0d0ff636f649d2c73cf0cb5b1695146e7b161f938e2b1824a58",
+          "case": "WS-A:continuity-edge"
+        },
+        {
+          "key": "5bc16be5799e32c27c34a254a900b23e0d014629e079425713a0fd84df99a456",
+          "case": "WS-A:continuity-edge"
+        },
+        {
+          "key": "0b058dcd1f696dd674b36214c392d58f264346d49496d5e94b8ad020692fab63",
+          "case": "WS-A:continuity-edge"
+        },
+        {
+          "key": "4faf738b26b5fffd795f35daaedde910d151309e69cdc1a0ae7b330068a3798d",
+          "case": "WS-A:continuity-edge"
+        }
+      ],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    },
+    "relations.jsonl": {
+      "identical": 505,
+      "expected": [
+        {
+          "key": "d407675c3cea5bc1284c82af79d821b701db98b37e7aaec3f218d71f606fa1fd",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "c5f807519fbb8b2fb727a83fa17ca8ce9baf5fe998d7e7b13f8e53e9d7567740",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "3f85c529c195e59b8f7e170aad0f10fc5c58a86753b6408b6f17a52833c717ae",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "e33b6ad17a1af4f1c831ed35de1f614bc8f0bc15c4f4ce32b84df02242d54a1c",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "f5aa0abb4af8cfef1a59eb24b888707468129bb3637ff0435f88a3223954bade",
+          "case": "WS-A:dest-side-fld-removal"
+        },
+        {
+          "key": "d665aae96a9b6f51c27aeb314592ac2690183a44cf055af923382365fbc63b70",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "11bc472ad4caf639e33eb891e5e44c73d5baf65dd93c914eaa3f3907647446c9",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "4347d1cb486cc393a15b13ab9462e6d3875c5ced342e9ce36896233bfc86d081",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "7f95f6627dc3f64b0ea8971c4dbc944a9dfb4ccd4a8e4a88f8955552606f6ed3",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "51e97084b0a7519af1308528e21bbe8a02f6d200ecd45434e0203681435895c5",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "6ea6a3401b23a1343189f0f7c9a736bb1770300e399be48b350134561cac408a",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "f9a7e35d3fd0a17592bfdfd886fd518eedb8a7aab9d5e0a961976eb16ae5cca8",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "988eda972704a1e902a36c8529232fe4dc2c4b2150c9a08a57a006255fe43a82",
+          "case": "WS-A:redesignation-edge"
+        },
+        {
+          "key": "ce9b76ff2306dfd6d4fb313802a4952ea4ad3b04e03398c296d40ddb23c99da2",
+          "case": "WS-A:dest-side-fld-removal"
+        },
+        {
+          "key": "aa2eec832090280f6d201cfbb729120ed33f323ce2b283fa960a3eee53139321",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "d8d63bab8df08c1b6d666ffa359f7325457e024bd3d9d632e4724da30cdd08cb",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "eb31119af1fe73e7367144515a65c092a57f438903c9e9f6162401481812183f",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "f1ef2f3e98303d35e656a74f9837348263aeb99013e5d2330873b715183bebc3",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "101240a932bba832a0a59b4dc8d59880481b91e1719feb0efc2d41f7b9b89213",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "a2c4add5ad856da061e3914c56d730f42525d99d193eafaa92b1c89bced4c59c",
+          "case": "WS-C:declared-anejo-gate"
+        },
+        {
+          "key": "c72c68488f0809c38258c08dd2dcb4782c9e0c51dd47026c5d1b98d3f9f7ea9a",
+          "case": "WS-C:scope-word-normalization"
+        },
+        {
+          "key": "594ada2dfd327776fc71ba43309ce7980b0d0289141dabd502afa1cbcd7303a6",
+          "case": "WS-C:declared-anejo-gate"
+        }
+      ],
+      "unexpected": [],
+      "new_rows": [],
+      "lost_rows": []
+    }
+  },
+  "summary": {
+    "IDENTICAL": 4974,
+    "EXPECTED_DELTA": 114,
+    "UNEXPECTED_DELTA": 0,
+    "NEW_ROWS": 0,
+    "LOST_ROWS": 0
+  }
+}

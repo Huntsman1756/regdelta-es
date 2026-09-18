@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251220115601">
+  <metadatos>
+    <identificador>BOE-A-2018-13716</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20180927</fecha_disposicion>
+    <numero_oficial>4/2018</numero_oficial>
+    <titulo>Circular 4/2018, de 27 de septiembre, de la Comisión Nacional del Mercado de Valores, por la que se modifican la Circular 1/2010, de 28 de julio, de información reservada de las entidades que prestan servicios de inversión y la Circular 7/2008, de 26 de noviembre, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de servicios de inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20181009</fecha_publicacion>
+    <diario_numero>244</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>97790</pagina_inicial>
+    <pagina_final>97813</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2018/10/09/pdfs/BOE-A-2018-13716.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2018-13716</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20181010</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2018/09/27/4</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2018/09/27/4">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2018-13716</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-27</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6682"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6697"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2018/09/27/4/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2018-13716</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-09-27</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3233"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6682"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6697"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2018/09/27/4"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2018/09/27/4/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 4/2018, de 27 de septiembre, de la Comisión Nacional del Mercado de Valores, por la que se modifican la Circular 1/2010, de 28 de julio, de información reservada de las entidades que prestan servicios de inversión y la Circular 7/2008, de 26 de noviembre, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de servicios de inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-10-09</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2018/09/27/4/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2018/09/27/4/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2018/09/27/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2018/09/27/4/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2018/09/27/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2018/09/27/4/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2018/09/27/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2018/09/27/4/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2018/09/27/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="1186" orden="">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="3233" orden="">Entidades de crédito</materia>
+      <materia codigo="3239" orden="">Entidades financieras</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="6682" orden="">Sociedades de Capital Riesgo</materia>
+      <materia codigo="6687" orden="">Sociedades de Inversión</materia>
+      <materia codigo="6697" orden="">Sociedades Gestoras de Instituciones de Inversión Colectiva</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2010-13162" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>la regla 3 y SUSTITUYE el anexo de la Circular 1/2010, de 28 de julio</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2008-20895" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>el anexo IV de la Circular 7/2008, de 26 de noviembre</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_redonda">I</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">La Circular 1/2010, de 28 de julio, de la Comisión Nacional del Mercado de Valores, estableció, por primera vez, el contenido de la información reservada que de forma periódica deben presentar las empresas de servicios de inversión y entidades de crédito autorizadas para la prestación de servicios de inversión y servicios auxiliares en el ámbito del mercado de valores. Esta Circular ha sido modificada, por diversos motivos, en tres ocasiones, por la Circular 7/2011, de 12 de diciembre, por la Circular 1/2014, de 26 de febrero, y finalmente, por la Circular 3/2014, de 22 de octubre.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El objetivo de la presente Circular es el de actualizar la información recabada a la luz de la experiencia acumulada desde la última modificación y responder a las nuevas necesidades de información que han ido surgiendo. De este modo, se mantienen en términos generales los modelos de estados reservados ya existentes pero se modifican algunos de sus epígrafes solicitando una información más precisa, o, cuando ello resulta necesario, un mayor nivel de información, pero no se modifican ni la periodicidad ni los plazos de para la rendición de los citados estados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La Directiva 2014/65/UE del Parlamento Europeo y del Consejo, de 15 de mayo de 2014, y su normativa de desarrollo introducen novedades en las normas de conducta del mercado de valores. Entre otras, establece nuevas modalidades de prestación del servicio de asesoramiento y nuevas exigencias relativas, por ejemplo a la venta cruzada, aspectos sobre los que la Comisión Nacional del Mercado de Valores debe disponer de información que le permita un adecuado ejercicio de sus labores de supervisión, en particular, con un mayor nivel de detalle respecto a la prestación del servicio de asesoramiento en materia de inversión.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">También resulta necesario que la Comisión Nacional del Mercado de Valores se dote de los medios adecuados para poder monitorizar, de forma más eficiente, los tipos de instrumentos comercializados y por tanto, mantenidos por los clientes en las entidades financieras.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Por último, la comercialización de instrumentos financieros por medios telemáticos cada vez resulta más frecuente. Por ello se necesita disponer de una información más precisa respecto a los canales de distribución a través de los que se reciben las órdenes de los clientes.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_redonda">II</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Aunque se realizan modificaciones en todos los estados, que por lo tanto quedan sustituidos en su integridad mediante la presente Circular, en el caso de los estados T1, T2, T3, T4, T5, T6, T7, T9, T10, T13 o T14, las modificaciones son menores limitándose en ocasiones a retocar el literal descriptivo de algunos epígrafes o a eliminar referencias normativas que han quedado obsoletas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En concreto, el estado T1 se modifica para incluir el código LEI de la Entidad y en el estado T3 se aclara que la información se refiere a 31 de diciembre de cada año. En los estados T2, T4 y T5 se incluyen las adaptaciones necesarias para que puedan detallarse por separado los clientes e ingresos de las nuevas modalidades de prestación del servicio de asesoramiento en materia de inversión independiente y no independiente. En el estado T4 se incluye un detalle separado de los ingresos generados por las actividades realizadas en régimen de libre prestación en la Unión Europea, y en el caso del estado T5, se incrementa, además, la información respecto al tipo de instrumentos financieros que generan incentivos en los servicios de asesoramiento y gestión discrecional de carteras.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En el estado T6 se solicita un nuevo detalle de las entidades que delegan o en quien se delega la gestión discrecional de las carteras.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En el estado T7 se desagregan las posiciones gestionadas de forma que se solicita información detallada por producto en el caso de instrumentos financieros del mercado de valores y otros sujetos a la supervisión de la CNMV, mientras que la información referida a otros productos vinculados a las carteras gestionadas se solicita agregada y con meros efectos informativos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En los estados T9 y T10 se solicita nueva información respecto al importe de las operaciones tramitadas sobre instrumentos financieros que hayan formado parte de ofertas de venta cruzada con otros productos financieros.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En todos los estados en los que se recaba información detallada respecto a las características de instrumentos financieros (T7, T8, T9, T10 y T12) se incorpora un nuevo campo para una mejor información del nivel de riesgo de los mismos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En el estado T13 se incrementa el nivel de información respecto a las causas que motivan las reclamaciones que los clientes minoristas presentan ante los servicios de atención de las entidades.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Por último, ante la escasa entidad de la operativa que se viene reportando en él, se suprime el estado T15.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_redonda">III</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Las modificaciones más relevantes se introducen en los estados T8, T11 y T12.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En la tabla T8A, la información agregada respecto al patrimonio asesorado con seguimiento que se venía obteniendo, pasa a solicitarse, en el caso de clientes minoristas, de forma similar a como se envía actualmente en el caso del servicio de gestión de carteras. Así, la información es detallada por producto para instrumentos financieros del mercado de valores y otros sujetos a la supervisión de la CNMV, mientras que la información referida a otros productos vinculados a las carteras asesoradas se solicita agregada y con meros efectos informativos. Esta información deberá aportarse desglosada en función de la modalidad de asesoramiento prestado (independiente o no independiente), detallando el número de clientes, como ya se venía haciendo, pero incluyendo la información referida a cada instrumento financiero. En el caso del resto de clientes y entidades, la información deberá seguir aportándose agregada pero segmentándola en instrumentos de contado y derivados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Por su parte, la antigua tabla T8B se desdobla en las tablas T8B y T8C, que mantienen básicamente la misma estructura, y en las que deben detallarse las recomendaciones emitidas durante el año objeto de reporte. Esta modificación se realiza para que puedan reportarse por separado las recomendaciones emitidas en cada una de las nuevas modalidades de prestación del servicio (independiente y no independiente). Por otra parte, para aligerar el volumen de información que debe reportarse, se elimina el detalle de las recomendaciones de mantener, solicitado hasta ahora.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En el estado T11, se mejora la información recabada respecto a los canales de distribución a través de los que se han recibido las órdenes de los clientes minoristas, pasando a incorporar la operativa en mercado primario, así como un detalle, por familias o tipos de instrumentos, del número e importe de las operaciones, tanto en las compras como en las ventas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El estado T12 cambia su objetivo y planteamiento. Su objeto deja de ser el servicio auxiliar de custodia, pasando a enfocarse en la obtención de información detallada de los instrumentos financieros mantenidos en las entidades por los clientes, lo que permitirá realizar un mejor seguimiento de los tipos de instrumentos comercializados. Por ello, se amplía el colectivo de entidades que deben presentar este estado para que abarque a los agentes establecidos y sucursales de entidades autorizadas en otros estados miembros de la Unión Europea. En cuanto a la información que debe reportarse, pasan a detallarse a 31 de diciembre del año objeto de reporte, instrumento a instrumento, todas las posiciones mantenidas (tanto de clientes minoristas como del resto de clientes y entidades) y su valor de mercado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_redonda">IV</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Por otra parte, la norma segunda de la presente Circular modifica el anexo IV de la Circular 7/2008 introduciendo tres nuevos apartados en el estado M4 de informaciones complementarias, con el objeto de recabar información adicional sobre la actividad de las empresas de servicios de inversión.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En primer lugar, se incluye un apartado J sobre las actividades accesorias previstas en el artículo 142.2 del texto refundido de la Ley del Mercado de Valores para disponer de información sobre los ingresos percibidos y el volumen asociado a estas actividades cuando sea posible su cuantificación, diferenciándose entre servicios prestados relacionados con productos originados por entidades de crédito, de seguros y otro tipo de actividades. En segundo lugar, se introduce un apartado K sobre depósito de saldos transitorios y garantías con información acerca de las categorías de activos líquidos en las que están invertidos los saldos transitorios de clientes y las garantías recibidas de los mismos al objeto de controlar de forma más eficiente este tipo de activos. Por último, para realizar de forma más sencilla el control de las obligaciones de solvencia, se introduce un apartado L con información sobre el cálculo de los requisitos de capital por gastos fijos generales para aquellas ESI que, de conformidad con lo previsto en el artículo 97 del Reglamento (UE) 575/2013 del Parlamento y Consejo, sobre los requisitos prudenciales de las entidades de crédito y las empresas de servicios de inversión, deban determinar sus requisitos de fondos propios teniendo en cuenta sus gastos fijos generales. Dicho artículo ha sido desarrollado por el Reglamento Delegado (UE) 2015/488 de la Comisión, por el que se modifica el Reglamento Delegado (UE) n.º 241/2014 en lo que respecta a los requisitos de fondos propios de las empresas basados en los gastos fijos generales.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_redonda">V</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">La Circular consta de dos normas y una disposición transitoria.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La norma primera modifica la Circular 1/2010, de 28 de julio, sustituyendo íntegramente su norma tercera y su anexo, en el que se recogen los modelos de estados reservados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La norma segunda modifica el anexo IV de la Circular 7/2008, de 26 de noviembre, introduciendo en el estado M4 tres nuevos apartados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La disposición transitoria establece el régimen de rendición de los nuevos estados reservados ajustados a las modificaciones establecidas en esta Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En uso de las facultades conferidas y de conformidad con la habilitación recogida en la disposición final primera del Real Decreto 1820/2009, de 27 de noviembre, y en el artículo 1 de la Orden ECC/2515/2013, de 26 de diciembre, el Consejo de la Comisión Nacional del Mercado de Valores, en su reunión de 27 de septiembre de 2018, previo informe del Comité Consultivo, ha dispuesto lo siguiente:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma primera. Modificación de la Circular 1/2010, de 28 de julio, de la Comisión Nacional del Mercado de Valores, de información reservada de las entidades que prestan servicios de inversión.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La Circular 1/2010, de 28 de julio, queda modificada del siguiente modo:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Uno. La Norma 3.ª queda redactada de la siguiente forma:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_articulo">«Norma 3.ª Contenido y plazos de la información reservada.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">1. Las entidades remitirán a la CNMV los estados reservados que figuran en el cuadro siguiente, con la periodicidad prevista en el mismo y dentro de los plazos máximos que se señalan, conforme a los modelos que se recogen en el anexo de la presente Circular:</p>
+    <table xmlns:xhtml="http://www.w3.org/1999/xhtml" class="tabla_ancha">
+      <colgroup>
+        <col class="row_column_1"/>
+        <col class="row_column_2"/>
+        <col class="row_column_3"/>
+      </colgroup>
+      <thead>
+        <tr class="row_column_4">
+          <td>
+            <p class="cabeza_tabla">Estado-Denominación</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Periodicidad/Periodo al que se refiere</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Plazo máximo de presentación</p>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">T1. Datos societarios y personas de contacto.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">T2. Número y tipología de clientes por servicio y por segmento comercial.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">T3. Número de clientes minoristas por tipo de perfil de riesgo.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">T4. Ingresos brutos totales percibidos por la prestación de servicios de inversión.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">T5. Incentivos.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">T6. Carteras gestionadas discrecionalmente.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_6">
+          <td>
+            <p class="cuerpo_tabla_izq">T7. Detalle de las carteras a 31 de diciembre gestionadas discrecionalmente (sólo clientes minoristas).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">T8. Asesoramiento en materia de inversión.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_6">
+          <td>
+            <p class="cuerpo_tabla_izq">T9. Colocación de instrumentos financieros. Detalle de instrumentos financieros (sólo clientes minoristas):</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_6">
+          <td>
+            <p class="cuerpo_tabla_izq">Adicionalmente, y sólo las entidades que cumplan los requisitos del número 2 de esta norma 3.ª</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Trimestral (trimestres 1.º, 2.º y 3.º).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 20 del mes siguiente al último del trimestre.</p>
+          </td>
+        </tr>
+        <tr class="row_column_6">
+          <td>
+            <p class="cuerpo_tabla_izq">T10. Recepción, transmisión y ejecución de órdenes de clientes minoristas. Detalle de instrumentos financieros.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural)</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_6">
+          <td>
+            <p class="cuerpo_tabla_izq">Adicionalmente, y sólo las entidades que cumplan los requisitos del número 2 de esta norma 3.ª</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Trimestral (trimestres 1.º, 2.º y 3.º).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 20 del mes siguiente al último del trimestre.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">T11. Operaciones intermediadas en mercado primario y secundario. Agrupación por canales de distribución en los que se recibieron las órdenes (sólo clientes minoristas).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">T12. Instrumentos mantenidos de clientes.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">T13. Reclamaciones.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+        <tr class="row_column_5">
+          <td>
+            <p class="cuerpo_tabla_izq">T14. Operaciones sospechosas.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual (año natural).</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Dentro de los dos primeros meses de cada año natural.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">2. Aquellas entidades que hayan reportado una cifra igual o superior a 50.000 clientes minoristas en la clave 02019 del estado T2 referido al año previo, además de presentar los estados referidos a la actividad del año completo, deberán presentar los estados T9 y T10, referidos a la actividad desarrollada en cada uno de los tres primeros trimestres naturales del año.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">Adicionalmente, aquellas entidades que, sin haber reportado una cifra igual o superior a 50.000 clientes minoristas en la clave 02019 del estado T2 referido al año previo, durante algunos de los tres primeros trimestres del año siguiente hayan intermediado compras por cuenta de clientes minoristas sobre instrumentos financieros complejos excluidos instrumentos derivados, por un importe igual o superior a 20 millones de euros, o sobre instrumentos derivados por un importe igual o superior a 100 millones de euros, deberán presentar los estados T9 y T10 referidos al trimestre en que superen dichos umbrales, dentro del plazo máximo indicado en el apartado 1 anterior.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">A los efectos de determinar la obligación de presentar estados trimestrales, se agregará el importe colocado a clientes minoristas (T9) y el importe intermediado de compras de clientes minoristas (T10) del trimestre.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">3. En caso de que en el periodo objeto de informe no se hayan realizado las actividades a que se refiere alguno de los estados, éste figurará con la información a cero o en blanco. La Comisión Nacional del Mercado de Valores podrá eximir de presentar estados reservados a las entidades a las que resulte de aplicación la presente Circular, cuando durante un periodo de actividad sujeto a reporte no hayan prestado de forma efectiva ningún servicio de inversión, actividades auxiliares, ni el resto de actividades del mercado de valores asociadas a los anteriores.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">4. Las empresas de asesoramiento financiero únicamente tendrán que remitir los estados T3 y T8. Las Sociedades Gestoras de Carteras no tendrán que remitir los estados T9, T10, T11 y T12.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">5. Los agentes establecidos en España de las entidades mencionadas en el apartado c.2) de la norma segunda de esta Circular no tendrán que remitir los estados T6 y T7.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">6. Con independencia de lo anterior, la Comisión Nacional del Mercado de Valores podrá exigir en cada momento, con carácter general o particular, cuanta información precise como aclaración o detalle de los estados anteriores, o para cualquier otra finalidad surgida en el desarrollo de las funciones que tiene encomendadas, así como requerir a una entidad la entrega de estados reservados con mayor frecuencia que la indicada en esta Norma cuando sus circunstancias individuales así lo aconsejen.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Dos. En el anexo: «Modelos de Estados de información reservada», se sustituyen dichos modelos por los recogidos en el anexo de la presente Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma segunda. Modificación de la Circular 7/2008, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La Circular 7/2008, de 26 de noviembre, queda modificada del siguiente modo:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Uno. Al objeto de recoger los nuevos apartados J, K y L, en el anexo IV: Modelos de Estados Reservados Individuales, se sustituye el estado M4 de informaciones complementarias por el recogido en el anexo de la presente Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición transitoria única. Régimen transitorio.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La primera información reservada de la Circular 1/2010, de 28 de julio, a remitir ajustada a lo establecido en la presente Circular será la correspondiente al periodo de actividad comprendido entre el 1 de enero y el 31 de marzo de 2019 a presentar hasta el 20 de abril de 2019.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Por lo que respecta a las modificaciones introducidas en la Circular 7/2008 por la norma segunda, la primera información ajustada a dichas modificaciones será la correspondiente al 30 de abril de 2019 a presentar hasta el 20 de mayo de 2019.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición final única. Entrada en vigor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente Circular entrará en vigor al día siguiente de su publicación en el «Boletín Oficial del Estado».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Madrid, 27 de septiembre de 2018.–El Presidente de la Comisión Nacional del Mercado de Valores, Sebastián Albella Amigo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="1" src="/datos/imagenes/disp/2018/244/13716_4987.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="2" src="/datos/imagenes/disp/2018/244/13716_5063.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="3" src="/datos/imagenes/disp/2018/244/13716_5135.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="4" src="/datos/imagenes/disp/2018/244/13716_5206.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="5" src="/datos/imagenes/disp/2018/244/13716_5278.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="6" src="/datos/imagenes/disp/2018/244/13716_5416.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="7" src="/datos/imagenes/disp/2018/244/13716_5489.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="8" src="/datos/imagenes/disp/2018/244/13716_5561.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="9" src="/datos/imagenes/disp/2018/244/13716_5633.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="10" src="/datos/imagenes/disp/2018/244/13716_5704.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="11" src="/datos/imagenes/disp/2018/244/13716_5775.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-8" alt="12" src="/datos/imagenes/disp/2018/244/13716_5847.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-8" alt="13" src="/datos/imagenes/disp/2018/244/13716_5918.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="14" src="/datos/imagenes/disp/2018/244/13716_5989.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-8" alt="15" src="/datos/imagenes/disp/2018/244/13716_6062.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-8" alt="16" src="/datos/imagenes/disp/2018/244/13716_6203.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-8" alt="17" src="/datos/imagenes/disp/2018/244/13716_6276.png" width="2126" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen_girada">
+      <img class="frame-8" alt="18" src="/datos/imagenes/disp/2018/244/13716_6348.png" width="2126" height="2776"/>
+    </p>
+  </texto>
+</documento>

@@ -82,7 +82,11 @@ def connect_readonly(data_dir: Path) -> sqlite3.Connection:
         raise DatabaseNotFound(f"ledger not found: {path}")
     conn = sqlite3.connect(path.resolve().as_uri() + "?mode=ro",
                            uri=True)
-    conn.execute("PRAGMA query_only = ON")
+    try:
+        conn.execute("PRAGMA query_only = ON")
+    except sqlite3.Error:
+        conn.close()
+        raise
     return conn
 
 
@@ -379,14 +383,22 @@ def affects(conn: sqlite3.Connection, *, target: str,
 # ---------------------------------------------------------------------------
 
 
+def _upcoming_end(from_date: date, days: int) -> date:
+    if days < 0:
+        raise InvalidDateRange(f"days must be >= 0, got {days}")
+    try:
+        return from_date + timedelta(days=days)
+    except OverflowError as exc:
+        raise InvalidDateRange(
+            f"window overflows date range: {from_date} + {days} days") from exc
+
+
 def upcoming(conn: sqlite3.Connection, *, from_date: date, days: int,
              target: str | None = None) -> dict:
     """Applicability effects with a concrete date_value inside the
     inclusive window [from_date, from_date+days]. One row per effect;
     effective targets resolved through the frozen scoped trees."""
-    if days < 0:
-        raise InvalidDateRange(f"days must be >= 0, got {days}")
-    end = from_date + timedelta(days=days)
+    end = _upcoming_end(from_date, days)
     inst = resolve_instrument(conn, target) if target else None
     target_iid = inst["instrument_id"] if inst else None
 

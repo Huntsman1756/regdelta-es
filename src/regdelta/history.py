@@ -235,6 +235,7 @@ class _Ctx:
     instruments: dict = field(default_factory=dict)
     annex_maps: dict = field(default_factory=dict)
     annex_pdf_snap: dict = field(default_factory=dict)
+    annex_pdf_sha: dict = field(default_factory=dict)
     doc_images: dict = field(default_factory=dict)
     pending_anchors: dict = field(default_factory=dict)
     # {"kind", "snapshot_id" (nullable), "detail" (dict)} — persisted to
@@ -347,7 +348,9 @@ def _upsert_subject(ctx: _Ctx, boe_id: str, key: str, label: str,
         " locator_key, label, subject_kind) VALUES (?,?,?,?,?)",
         (sid, instrument_id(boe_id), key, label,
          kind if kind in ("NORMA", "ESTADO", "ANEJO", "PUNTO", "APARTADO",
-                          "INDICE", "DISPOSICION", "NOTA", "INSTRUMENT")
+                          "INDICE", "DISPOSICION", "NOTA", "INSTRUMENT",
+                          "NUMERO", "LETRA", "NUMERAL", "SECCION",
+                          "CAPITULO", "PARRAFO", "GUION")
          else "APARTADO"))
     return sid
 
@@ -401,6 +404,16 @@ def _image_representation(ctx: _Ctx, sid: str, boe_id: str,
     locator = {"instrument": boe_id, "type": "image_pages", "pages": entries}
     evidence = dict(anchor_note)
     evidence["image_snapshots"] = snaps
+    # WS-D: the signed diario PDF embeds the annex figures as vector
+    # content — byte equality with the served PNGs is impossible
+    # (EXP-D1 falsified it). The deterministic association is still
+    # provable: record it as evidence, never as identity.
+    pdf_idx = {p.boe_page: p.pdf_index for p in amap.pages}
+    evidence["pdf_anchor"] = {
+        "sha256": ctx.annex_pdf_sha.get(boe_id),
+        "page_indexes": [pdf_idx.get(e["boe_page"]) for e in entries],
+        "relation": "ASSOCIATION_ONLY",
+    }
     return _insert_representation(ctx, sid, "IMAGE", None, locator,
                                   snaps[0], binding, evidence)
 
@@ -419,6 +432,144 @@ class SubjectState:
     status: str                      # PRESENT | DELETED | UNKNOWN
     representation_id: str | None
     relation_id: str | None
+
+
+# ---------------------------------------------------------------------------
+# CORE-GAP WS-A — redesignation edges
+#
+# An old_locator -> new_locator continuity edge is emitted only when the
+# clause demonstrably declares BOTH endpoints and the pairing is
+# unambiguous. Paths locate; the edge carries continuity — never a
+# locator mutation, never a positional heuristic. Every refusal is
+# journaled as REDESIGNATION_REFUSED; nothing is guessed.
+# ---------------------------------------------------------------------------
+
+def _emit_redesignation_edges(ctx: _Ctx, conn, pm, op, entries,
+                              chain: dict[str, "SubjectState"],
+                              target_boe_id: str,
+                              xml_snapshot_id: str) -> None:
+    """Emit subject_redesignations rows for one clause's paired
+    CODE_REDESIGNATION subjects (per-subject refusal, never guessed).
+    ``entries`` is a list of ``(subject, declaration, pair)`` where
+    ``pair`` comes from ``operations.redesignation_pairs``."""
+    mboe = pm["boe_id"]
+
+    def refuse(reason, sub=None):
+        _anomaly(ctx, "REDESIGNATION_REFUSED", pm["snapshot"], {
+            "modifier": mboe, "clause": op.clause_text[:200],
+            "node_index": op.node_index, "reason": reason,
+            "subject": sub.locator_key if sub else None,
+            "subjects": [s.locator_key for s, _, _ in entries],
+            "destinations": [
+                dict(p["dest"]) if isinstance(p["dest"], dict)
+                else list(p["dest"]) if p["dest"] is not None else None
+                for _, _, p in entries]})
+
+    # pass 1 — validate every pair into an emission plan (per-subject
+    # refusal, never guessed)
+    plan: list[tuple] = []
+    new_keys: set[str] = set()
+    for sub, decl, pair in entries:
+        old_key = sub.locator_key
+        new_key = pair["new_key"]
+        if new_key is None:
+            refuse("destination_not_anchored", sub)
+            continue
+        if new_key == old_key:
+            refuse("self_redesignation", sub)
+            continue
+        if new_key in new_keys:
+            refuse("new_key_collision", sub)
+            continue
+        st_new = chain.get(new_key)
+        if st_new is not None and st_new.status == "PRESENT":
+            # both keys have proven independent existence — merging
+            # would fabricate identity; refuse the edge
+            refuse("destination_already_exists", sub)
+            continue
+        plan.append((sub, decl, pair))
+        new_keys.add(new_key)
+
+    # chained edges (a->b, b->c) migrate the ORIGINAL old-chain state,
+    # so the last link applies first; a cycle (a->b, b->a) has no safe
+    # sequential order — fail closed
+    pending = list(plan)
+    order: list[tuple] = []
+    while pending:
+        olds = {p[0].locator_key for p in pending}
+        nxt = [p for p in pending if p[2]["new_key"] not in olds]
+        if not nxt:
+            break
+        order.extend(nxt)
+        pending = [p for p in pending if p not in nxt]
+    cyclic = {p[0].locator_key for p in pending}
+
+    edge_ids: dict = {}
+    for sub, decl, pair in plan:
+        old_key = sub.locator_key
+        new_key = pair["new_key"]
+        dest = pair["dest"]
+        if old_key in cyclic:
+            refuse("redesignation_cycle", sub)
+            continue
+        new_sid = _upsert_subject(
+            ctx, target_boe_id, new_key,
+            new_key.replace(":", " "),
+            new_key.rsplit(":", 1)[0].rsplit(".", 1)[-1].upper())
+        edge_id = sha256_hex((
+            "redesig|" + target_boe_id + "|" + mboe + "|" + old_key
+            + "|" + new_key + "|" + op.clause_text + "|"
+            + str(op.node_index)).encode("utf-8"))
+        proof = {
+            "version": "core-gap-redesig-v1",
+            "clause": op.clause_text,
+            "node_index": op.node_index,
+            "pairing": "ORDERED_N_TO_N" if len(entries) > 1
+            else "SINGLE",
+            "destination": (
+                dict(dest) if isinstance(dest, dict)
+                else {"kind": dest[0], "value": dest[1]}),
+            "locator_declaration": {
+                "status": decl.status,
+                "locator_key": decl.locator_key,
+                "source_node_index": decl.source_node_index,
+                "components": [list(c) for c in decl.components],
+                "method": decl.method},
+            "old_chain_state": (
+                chain[old_key].status if old_key in chain
+                else "NO_PRIOR_STATE")}
+        old_state = chain.get(old_key)
+        conn.execute(
+            "INSERT OR IGNORE INTO subject_redesignations"
+            " (edge_id, target_instrument_id,"
+            " modifier_instrument_id, old_locator_key,"
+            " new_locator_key, old_subject_id, new_subject_id,"
+            " clause_text, node_index, publication_date,"
+            " resolution, edge_proof, source_snapshot_ids,"
+            " parser_name, parser_version)"
+            " VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            (edge_id, instrument_id(target_boe_id),
+             instrument_id(mboe), old_key, new_key,
+             subject_id(target_boe_id, old_key),
+             new_sid, op.clause_text, op.node_index, pm["pub"],
+             "RESOLVED" if old_state is not None
+             and old_state.status == "PRESENT" else "DECLARED",
+             _canonical_json(proof),
+             json.dumps([pm["snapshot"], xml_snapshot_id]),
+             PARSER_NAME, PARSER_VERSION))
+        edge_ids[(old_key, new_key)] = edge_id
+        pm["inventory"]["redesignation_edges"] += 1
+    # migrate in topological order (``order`` holds the plan tuples of
+    # every acyclic edge, chain-end first)
+    for sub, _decl, pair in order:
+        old_key, new_key = sub.locator_key, pair["new_key"]
+        edge_id = edge_ids[(old_key, new_key)]
+        # continuity: the new address inherits the old state; the old
+        # address is tombstoned — a later clause that still addresses
+        # it must abstain (CHAIN_DISCONTINUITY)
+        chain[new_key] = chain.pop(
+            old_key, SubjectState("UNKNOWN", None, edge_id))
+        chain[old_key] = SubjectState("DELETED", None, edge_id)
 
 
 def _xml_candidate(doc: DiarioDoc, boe: str,
@@ -516,7 +667,8 @@ def _seg_keys(raw: str, masked: str,
         cursor = start + len(seg)
         seg_mentions = operations._extract_mentions(raw_seg)
         out.append({s.locator_key for s in
-                    operations._compose_keys(seg_mentions, ctx)})
+                    operations._compose_keys(seg_mentions, ctx,
+                                             clause_text=raw_seg)})
         ctx = operations._context_update(ctx, seg_mentions)
     return out
 
@@ -536,7 +688,8 @@ def _clause_scope_provable(op: operations.Operation, key: str) -> bool:
     """
     mentions = operations._extract_mentions(op.clause_text)
     keys = {s.locator_key for s in
-            operations._compose_keys(mentions, op.context)}
+            operations._compose_keys(mentions, op.context,
+                                     clause_text=op.clause_text)}
     if key not in keys:
         return False
     masked = _masked_clause(op.clause_text)
@@ -550,9 +703,30 @@ def _clause_scope_provable(op: operations.Operation, key: str) -> bool:
     zone = " ".join(s for s, ks in zip(segs, _seg_keys(
         op.clause_text, masked, op)) if key in ks) or masked
     return not any(
-        m.group(0).lower() not in key_kinds
+        _scope_word_kind(m.group(0), key_kinds, key) not in key_kinds
         for m in active_profile().operative_grammar.sub_scope
         .finditer(zone))
+
+
+def _scope_word_kind(word: str, key_kinds: set, key: str) -> str:
+    """Map a sub_scope surface word to the locator kind it names —
+    accent and plural tolerant so 'sección' suppresses only keys
+    without a seccion component and 'párrafos' reads as 'parrafo'.
+
+    Applies the composer's anejo normalization: numbered units inside
+    an anejo are 'punto' whatever the clause calls them, so 'número 3
+    de la Memoria (Anexo 3)' is represented by key kind 'punto'.
+    """
+    w = operations._norm(word)
+    for cand in (w, w[:-1], w[:-2]):
+        if cand in key_kinds:
+            return cand
+    head = key.split(".", 1)[0].split(":", 1)[0]
+    if head in ("anejo", "anexo") and w in (
+            "numero", "numeros", "apartado", "apartados") \
+            and "punto" in key_kinds:
+        return "punto"
+    return w
 
 
 def chain_update(chain: dict[str, "SubjectState"], key: str,
@@ -810,6 +984,7 @@ def _target_annex_map(ctx: _Ctx, boe_id: str,
     images = boe_doc.parse_doc_images(doc_art.body)
     ctx.doc_images[boe_id] = images
     ctx.annex_pdf_snap[boe_id] = pdf_art.snapshot_id
+    ctx.annex_pdf_sha[boe_id] = pdf_art.blob_sha256
     texts = boe_pdf.PdfTextLayer(pdf_art.body).page_texts()
     start = int(doc.metadata.get("pagina_inicial") or 0)
     amap = annexmap.build_annex_map(texts, start, len(images),
@@ -948,6 +1123,11 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
             "candidates": [c.brief() for c in res.candidates][:5],
             "reason": res.reason, "clause": clause[:200]})
 
+    def _emit_redesignations(pm, op, entries):
+        _emit_redesignation_edges(
+            ctx, conn, pm, op, entries, chain, target_boe_id,
+            xml_art.snapshot_id)
+
     for pm in ordered:
         mboe = pm["boe_id"]
         mdoc = pm["doc"]
@@ -965,6 +1145,7 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
         # in exactly one attribution disposition
         pm["inventory"] = {
             "leaf_operations_parsed": 0, "relations_emitted": 0,
+            "redesignation_edges": 0,
             **{s: 0 for s in ownership.ATTRIBUTION_STATUSES}}
 
         for op, att in pm["ops"]:
@@ -980,6 +1161,42 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
             # anomalies.
             if att.status != ownership.TARGET_PROVEN:
                 continue
+            # WS-C: anonymous/positional items the key model could not
+            # capture are journaled — the op's best anchor stays
+            # visible in accounting, never silently absorbed
+            for uk in op.unkeyed:
+                _anomaly(ctx, "UNKEYED_ANONYMOUS_ITEM",
+                         pm["snapshot"], {
+                             "modifier": mboe,
+                             "clause": op.clause_text[:200],
+                             "node_index": op.node_index,
+                             "kind": uk})
+            # CORE-GAP WS-A: positional subject→destination pairing for
+            # structural redesignations. CODE_REDESIGNATION pairs become
+            # continuity edges (no ordinary relation); RELABEL pairs and
+            # non-structural 'pasa a ser' keep their baseline operation;
+            # UNPROVABLE pairs are journaled refusals — a subject whose
+            # baseline kind is not REDESIGNATE still emits its ordinary
+            # relation, one whose kind is REDESIGNATE (profile-level
+            # abstention vocabulary) emits nothing.
+            edge_pairs: dict = {}
+            paired_keys: set = set()
+            for p in operations.redesignation_pairs(
+                    op.clause_text, op.subjects):
+                skey = p["subject"].locator_key
+                paired_keys.add(skey)
+                if p["cls"] == "CODE_REDESIGNATION":
+                    edge_pairs[skey] = p
+                elif p["cls"] == "UNPROVABLE":
+                    _anomaly(ctx, "REDESIGNATION_REFUSED",
+                             pm["snapshot"], {
+                                 "modifier": mboe,
+                                 "clause": op.clause_text[:200],
+                                 "node_index": op.node_index,
+                                 "reason": "destination_unprovable",
+                                 "subject": skey,
+                                 "verb_pos": p["verb_start"]})
+            redesig_pending: list = []
             for sub in op.subjects:
                 key = sub.locator_key
                 # O2: the operation must demonstrably declare this
@@ -992,6 +1209,26 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                                       sub.kind)
                 op_kind = operations.subject_operation_kind(
                     op.clause_text, key, op.operation_kind)
+                pair = edge_pairs.get(key)
+                if pair is not None:
+                    # WS-A: continuity is an edge, not a relation —
+                    # collect the clause's redesignation subjects and
+                    # emit them together
+                    redesig_pending.append((sub, decl, pair))
+                    continue
+                if op_kind == "REDESIGNATE":
+                    # a profile-level redesignation subject with no
+                    # provable pair — abstain (never emit a locator
+                    # the clause did not declare as subject)
+                    if key not in paired_keys:
+                        _anomaly(ctx, "REDESIGNATION_REFUSED",
+                                 pm["snapshot"], {
+                                     "modifier": mboe,
+                                     "clause": op.clause_text[:200],
+                                     "node_index": op.node_index,
+                                     "reason": "unpaired_redesignation",
+                                     "subject": key})
+                    continue
                 snaps = [pm["snapshot"], xml_art.snapshot_id]
                 scope_provable = _clause_scope_provable(op, key)
 
@@ -1171,6 +1408,8 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
                 else:
                     chain_update(chain, key, op_kind, ares.status,
                                  after_id, rid, literals)
+            if redesig_pending:
+                _emit_redesignations(pm, op, redesig_pending)
 
     # ----- O3 derivation (G2.1 §33) --------------------------------------
     # Subject existence before each emitted relation, derived over the

@@ -35,4 +35,5 @@ target for our own parsed kinds?
 
 ## Verdict
 
-PENDING — filled when all candidate fichas are evaluated.
+Evaluated (CORE-GAP recon 2026-09-19):
+- `projects/uslm.md` — PATTERN; `redesignate` action + `renumbered`/`transferred` tombstone status

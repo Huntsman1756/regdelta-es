@@ -1,0 +1,175 @@
+{
+  "targets": [
+    {
+      "target": "BOE-A-2008-16091",
+      "self_ref": [
+        "4",
+        "2008"
+      ],
+      "norma_heads": 7,
+      "relations": 18,
+      "ABSTENTION_CONFIRMED": 7,
+      "CONFIRMED_POSITIVE": 4,
+      "ABSTENTION_DISPUTED": 7,
+      "independent_clauses": 579
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "self_ref": [
+        "7",
+        "2008"
+      ],
+      "norma_heads": 62,
+      "relations": 70,
+      "ABSTENTION_CONFIRMED": 47,
+      "CONFIRMED_POSITIVE": 20,
+      "ABSTENTION_DISPUTED": 3,
+      "independent_clauses": 602
+    },
+    {
+      "target": "BOE-A-2010-13162",
+      "self_ref": [
+        "1",
+        "2010"
+      ],
+      "norma_heads": 4,
+      "relations": 30,
+      "ABSTENTION_CONFIRMED": 21,
+      "CONFIRMED_POSITIVE": 9,
+      "independent_clauses": 448
+    },
+    {
+      "target": "BOE-A-1994-28725",
+      "self_ref": [
+        "4",
+        "1994"
+      ],
+      "norma_heads": 15,
+      "relations": 1,
+      "CONFIRMED_POSITIVE": 1,
+      "independent_clauses": 373
+    }
+  ],
+  "totals": {
+    "relations": 119,
+    "CONFIRMED_POSITIVE": 34,
+    "ABSTENTION_CONFIRMED": 75,
+    "ABSTENTION_DISPUTED": 10,
+    "FALSE_FACT": 0,
+    "FALSE_SUBJECT_ATTRIBUTION": 0,
+    "FALSE_LOCATOR_DECLARATION": 0,
+    "FALSE_BINDING": 0,
+    "runtime_leaf_ops": 0,
+    "independent_clauses": 2002
+  },
+  "findings": [
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "f7cbf0423aa984c5f6a3833e83adffa2112474f0c7c25ac3e9052fb625425977",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:1.punto:9.letra:a.nota:a",
+      "clause": "Uno. La letra a) del apartado 9 de las Notas aclaratorias al Anexo 1. Fondo de inversión mobiliaria, queda redactada del siguiente modo:",
+      "detail": [
+        "anejo:1.punto:9.letra:a.nota:a resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "3966d434f05e7f91ea2956db49912a02a965f5675e0a1a62ade56cee197ef9dd",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:1.punto:9.letra:b.nota:a",
+      "clause": "Dos. La letra b) del apartado 9 de las Notas aclaratorias al Anexo 1. Fondo de inversión mobiliaria, queda redactada del siguiente modo:",
+      "detail": [
+        "anejo:1.punto:9.letra:b.nota:a resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "bad14ea0da94fc7c2d25f370222d0cc9bb18813f025efe423a2beb1ad49c8691",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:3.punto:9.letra:b.nota:a",
+      "clause": "Tres. El subapartado v) de la letra b) del apartado 9 de las Notas aclaratorias al Anexo 3. Fondo de inversión inmobiliaria, queda redactado",
+      "detail": [
+        "anejo:3.punto:9.letra:b.nota:a resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "57f47056917b0018450bf33a920b7261ccf890c55667addf43b697288c6a8d5c",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:3.punto:9.letra:h.nota:a",
+      "clause": "Cuatro. Se añade la letra h) al apartado 9 de las Notas aclaratorias al Anexo 3. Fondo de inversión inmobiliaria, con la siguiente redacción",
+      "detail": [
+        "anejo:3.punto:9.letra:h.nota:a resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "2b28c5cb99500c852c871de217b26b3a5c53fbcf1d116b2165b84a21b3dd8197",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:5.punto:9.letra:b.nota:a",
+      "clause": "Cinco. La letra b) del apartado 9 de las Notas aclaratorias al Anexo 5. Fondo de inversión cotizado, queda redactada del siguiente modo:",
+      "detail": [
+        "anejo:5.punto:9.letra:b.nota:a resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "8453b18c76d983f4a0fce5e2f2751299012b5ca2b7af3dabe63b7b0ac0445c8c",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:1.punto:10",
+      "clause": "1. Se añade un apartado 10 «Información sobre las políticas de remuneración.» en las «Notas aclaratorias» del Anexo 1: «Fondo de inversión m",
+      "detail": [
+        "anejo:1.punto:10 resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-16091",
+      "relation_id": "83ea8a6bc7cb97221fcf02879201b6fc3f78d99ab07a9ba45b6e85f625db2458",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "anejo:1.punto:11",
+      "clause": "2. Se añade un apartado 11 «Información sobre las operaciones de financiación de valores, reutilización de las garantías y swaps de rendimie",
+      "detail": [
+        "anejo:1.punto:11 resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "relation_id": "211508fbb1d506577fc2fb0e91e3251b77ad872217ec11db88ed4127b2c9f56b",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "norma:49.apartado:2",
+      "clause": "18. Se da nueva redacción al primer párrafo del número 2 del apartado C) de la norma 49.ª –Patrimonio Neto– que queda redactado como sigue:",
+      "detail": [
+        "norma:49.apartado:2 resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "relation_id": "7a486c048eae45a48703a4dadd8b56233a58e6603f1b921dfa31d01fdcffaec7",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "norma:49.apartado:4",
+      "clause": "22. El número 4 del apartado C) de la norma 49.ª –Patrimonio Neto– pasa a ser el número 5.",
+      "detail": [
+        "norma:49.apartado:4 resolves independently"
+      ]
+    },
+    {
+      "target": "BOE-A-2008-20895",
+      "relation_id": "d86850c62dfdbe4d48c4a0d86ccf87f7a0eca2eda16d49af50773154dff0eaf9",
+      "verdict": "ABSTENTION_DISPUTED",
+      "subject": "norma:6",
+      "clause": "2. Se añade un punto 8 a dicha Norma 6.ª:",
+      "detail": [
+        "norma:6 resolves independently"
+      ]
+    }
+  ],
+  "evaluator_import_manifest": [
+    "regdelta",
+    "regdelta.document",
+    "regdelta.sources",
+    "regdelta.sources.boe_diario",
+    "regdelta.sources.boe_doc",
+    "regdelta.sources.boe_pdf"
+  ]
+}
