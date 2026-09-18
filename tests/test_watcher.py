@@ -1,12 +1,18 @@
 from __future__ import annotations
 
+import re
 import sqlite3
+import xml.etree.ElementTree as ET
+from dataclasses import replace
+from pathlib import Path
+from unittest.mock import Mock
 
 import pytest
 
-from regdelta import state
+from regdelta import state, watcher
+from regdelta.http import EVIDENCE_IMPORT
 from regdelta.rawstore import blob_path
-from regdelta.util import madrid_local_date, normalize_title, sha256_hex
+from regdelta.util import madrid_local_date, normalize_title, sha256_hex, sha256_hex_text
 from regdelta.watcher import EXIT_OK, consultation_uid, run
 from conftest import counts, db, load, make_fetch
 
@@ -428,3 +434,171 @@ def test_duplicate_consultation_in_snapshot_becomes_anomaly(fresh_dir):
         (result["snapshot_id"],),
     ).fetchone()[0] == 0
     assert conn.execute("SELECT count(*) FROM bde_consultations").fetchone()[0] == 0
+
+
+@pytest.fixture(params=["boe_sumario", "bde_consultas"])
+def anomalous_source(request):
+    if request.param == "boe_sumario":
+        root = ET.fromstring(load("sum_20251229.xml"))
+        department = root.find(".//departamento[@codigo='1020']")
+        item = next(department.iter("item"))
+        department.append(item)
+        return "boe/sumario/20251229", ET.tostring(root), "application/xml", _sumario_result
+    text = load("bde_pi.html").decode("utf-8")
+    cir_title = re.search(r"<strong>(Audiencia p[^<]*\(CIR\)\.)", text).group(1)
+    cont_title = re.search(r"<strong>(Audiencia e[^<]*contables\.)", text).group(1)
+    text = text.replace(cont_title, cir_title, 1).replace("04/09/2026", "08/06/2026", 1)
+    return "consultas-publicas", text.encode("utf-8"), "text/html; charset=utf-8", _consultas_result
+
+
+def test_repeated_anomalous_snapshot_still_exits_2_without_rewriting(fresh_dir, anomalous_source):
+    needle, body, media_type, result_for = anomalous_source
+    fetch = make_fetch("2025-12-29", "sum_20251229.xml")
+    fetch.set_url(needle, body, media_type)
+    first = run("2025-12-29", fresh_dir, fetch)
+    conn = db(fresh_dir)
+    before = counts(conn)
+    anomalies = conn.execute("SELECT * FROM anomalies ORDER BY anomaly_id").fetchall()
+    snapshots = conn.execute("SELECT * FROM source_snapshots ORDER BY snapshot_id").fetchall()
+    for _ in range(2):
+        repeated = run("2025-12-29", fresh_dir, fetch)
+        result = result_for(repeated)
+        assert repeated["exit_code"] == first["exit_code"] == 2
+        assert result["status"] == "OK_WITH_ANOMALIES"
+        assert result["anomalies"] == result_for(first)["anomalies"]
+        assert result["snapshot_id"] == result_for(first)["snapshot_id"]
+        assert result["snapshot_new"] is False
+        assert result["entities_new"] == 0
+    after = counts(conn)
+    assert after.pop("source_checks") == before.pop("source_checks") + 4
+    assert after == before
+    assert conn.execute("SELECT * FROM anomalies ORDER BY anomaly_id").fetchall() == anomalies
+    assert conn.execute("SELECT * FROM source_snapshots ORDER BY snapshot_id").fetchall() == snapshots
+
+
+def test_same_anomaly_different_bytes_has_snapshot_scoped_ids(fresh_dir, anomalous_source):
+    needle, body, media_type, result_for = anomalous_source
+    fetch = make_fetch("2025-12-29", "sum_20251229.xml")
+    results = []
+    for variant in (body, body + b"\n"):
+        fetch.set_url(needle, variant, media_type)
+        summary = run("2025-12-29", fresh_dir, fetch)
+        assert summary["exit_code"] == 2
+        result = result_for(summary)
+        assert result["status"] == "OK_WITH_ANOMALIES"
+        assert result["snapshot_new"] is True
+        assert result["entities_new"] == 0
+        assert len(result["anomalies"]) == 1
+        results.append(result)
+    assert results[0]["snapshot_id"] != results[1]["snapshot_id"]
+    assert results[0]["anomalies"] != results[1]["anomalies"]
+    conn = db(fresh_dir)
+    rows = conn.execute("SELECT anomaly_id, snapshot_id, detail FROM anomalies").fetchall()
+    assert len(rows) == 2
+    assert rows[0][2] == rows[1][2]
+    assert {(row[0], row[1]) for row in rows} == {
+        (result["anomalies"][0], result["snapshot_id"]) for result in results
+    }
+
+
+@pytest.mark.parametrize("missing_anomaly_row", [False, True])
+def test_legacy_anomaly_flag_remains_non_ok_without_history_rewrite(
+    fresh_dir, anomalous_source, missing_anomaly_row
+):
+    needle, body, media_type, result_for = anomalous_source
+    fetch = make_fetch("2025-12-29", "sum_20251229.xml")
+    fetch.set_url(needle, body, media_type)
+    run("2025-12-29", fresh_dir, fetch)
+    conn = db(fresh_dir)
+    kind, detail = conn.execute("SELECT kind, detail FROM anomalies").fetchone()
+    legacy_id = sha256_hex_text(f"anomaly|{kind}|{detail}")
+    if missing_anomaly_row:
+        conn.execute("DELETE FROM anomalies")
+    else:
+        conn.execute("UPDATE anomalies SET anomaly_id = ?", (legacy_id,))
+    conn.commit()
+    before = conn.execute("SELECT * FROM anomalies").fetchall()
+    snapshots = conn.execute("SELECT * FROM source_snapshots ORDER BY snapshot_id").fetchall()
+    summary = run("2025-12-29", fresh_dir, fetch)
+    assert summary["exit_code"] == 2
+    assert result_for(summary)["status"] == "OK_WITH_ANOMALIES"
+    assert result_for(summary)["anomalies"] == ([] if missing_anomaly_row else [legacy_id])
+    assert conn.execute("SELECT * FROM anomalies").fetchall() == before
+    assert conn.execute("SELECT * FROM source_snapshots ORDER BY snapshot_id").fetchall() == snapshots
+
+
+@pytest.mark.parametrize("problem", ["FETCH_ERROR", "PARSE_INVALID"])
+def test_source_error_exit_3_takes_precedence_over_anomaly_exit_2(
+    fresh_dir, anomalous_source, problem
+):
+    needle, body, media_type, result_for = anomalous_source
+    fetch = make_fetch("2025-12-29", "sum_20251229.xml")
+    fetch.set_url(needle, body, media_type)
+    other = "consultas-publicas" if needle.startswith("boe/") else "boe/sumario/20251229"
+    if problem == "FETCH_ERROR":
+        fetch.set_url(other, None, error_class="NetworkError")
+    else:
+        fetch.set_url(other, b"invalid structure")
+    for _ in range(2):
+        summary = run("2025-12-29", fresh_dir, fetch)
+        assert summary["exit_code"] == 3
+        assert result_for(summary)["status"] == "OK_WITH_ANOMALIES"
+        assert result_for(summary)["anomalies"]
+        assert {result["status"] for result in summary["sources"]} == {problem, "OK_WITH_ANOMALIES"}
+
+
+@pytest.mark.parametrize("needle", ["boe/sumario/20251229", "consultas-publicas"])
+@pytest.mark.parametrize("response", ["success", "network_error", "http_error"])
+@pytest.mark.parametrize("via", [EVIDENCE_IMPORT, "UNKNOWN", ""])
+def test_non_live_fetch_rejected_before_raw_or_check_writes(
+    fresh_dir, monkeypatch, needle, response, via
+):
+    fetch = make_fetch("2025-12-29", "sum_20251229.xml")
+    if response == "network_error":
+        fetch.set_url(needle, None, error_class="NetworkError")
+    elif response == "http_error":
+        fetch.set_url(needle, None, http_status=503)
+    rejected_bodies = []
+    stored_bodies = []
+    store_blob = watcher.store_blob
+
+    def guarded_store(data_dir, body):
+        stored_bodies.append(body)
+        return store_blob(data_dir, body)
+
+    def replay_fetch(url, accept):
+        result = fetch(url, accept)
+        if needle in url:
+            rejected_bodies.append(result.body)
+            return replace(result, via=via)
+        return result
+
+    monkeypatch.setattr(watcher, "store_blob", guarded_store)
+    with pytest.raises(ValueError, match="LIVE_FETCH"):
+        run("2025-12-29", fresh_dir, replay_fetch)
+    assert len(rejected_bodies) == 1
+    assert rejected_bodies[0] not in stored_bodies
+    if rejected_bodies[0] is not None:
+        assert not blob_path(fresh_dir, sha256_hex(rejected_bodies[0])).exists()
+    assert set(counts(db(fresh_dir)).values()) == {0}
+
+
+@pytest.mark.parametrize("date_iso", [
+    "", "20251229", "2025-1-02", "2025-01-2", "2025-W01-1",
+    "2025-12-29T00:00:00", " 2025-12-29", "2025-12-29\n",
+    "２０２５-１２-２９", "2025-02-29", "2024-02-30", "2025-13-01",
+    "2025-01-00", "0000-01-01", "../../2025-12-29",
+])
+def test_invalid_date_has_no_directory_database_or_network_effects(tmp_path, monkeypatch, date_iso):
+    data_dir = tmp_path / "not-created"
+    fetch = Mock(side_effect=AssertionError("network effect"))
+    connect = Mock(side_effect=AssertionError("database effect"))
+    mkdir = Mock(side_effect=AssertionError("directory effect"))
+    monkeypatch.setattr(watcher.dbm, "connect", connect)
+    monkeypatch.setattr(Path, "mkdir", mkdir)
+    with pytest.raises(ValueError):
+        run(date_iso, data_dir, fetch)
+    fetch.assert_not_called()
+    connect.assert_not_called()
+    mkdir.assert_not_called()
+    assert not data_dir.exists()
