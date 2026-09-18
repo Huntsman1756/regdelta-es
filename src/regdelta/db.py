@@ -128,7 +128,8 @@ CREATE TABLE IF NOT EXISTS subjects (
   label         TEXT NOT NULL,
   subject_kind  TEXT NOT NULL CHECK (subject_kind IN
                 ('NORMA', 'ESTADO', 'ANEJO', 'PUNTO', 'APARTADO', 'INDICE',
-                 'DISPOSICION', 'NOTA', 'INSTRUMENT')),
+                 'DISPOSICION', 'NOTA', 'INSTRUMENT', 'NUMERO', 'LETRA',
+                 'NUMERAL', 'SECCION', 'CAPITULO')),
   UNIQUE (instrument_id, locator_key)
 );
 
@@ -509,6 +510,37 @@ def _ensure_subject_proof(conn: sqlite3.Connection) -> None:
             f" {violations[:5]}")
 
 
+def _ensure_subject_kinds(conn: sqlite3.Connection) -> None:
+    """Rebuild ``subjects`` if its CHECK predates the WS-B hierarchy
+    kinds (CORE-GAP).
+
+    Declared-path locators record their true leaf kind — 'NUMERO'
+    under a lettered 'apartado', 'SECCION'/'CAPITULO' for standalone
+    level subjects. Rows are preserved; only the constraint widens.
+    """
+    row = conn.execute(
+        "SELECT sql FROM sqlite_master WHERE type='table'"
+        " AND name='subjects'").fetchone()
+    if row is None or "'NUMERO'" in (row[0] or ""):
+        return
+    _rebuild_table(conn, "subjects",
+                   "subject_id, instrument_id, locator_key, label,"
+                   " subject_kind",
+                   """
+        CREATE TABLE subjects (
+          subject_id    TEXT PRIMARY KEY CHECK (length(subject_id) = 64),
+          instrument_id TEXT NOT NULL REFERENCES instruments(instrument_id),
+          locator_key   TEXT NOT NULL,
+          label         TEXT NOT NULL,
+          subject_kind  TEXT NOT NULL CHECK (subject_kind IN
+                        ('NORMA', 'ESTADO', 'ANEJO', 'PUNTO', 'APARTADO',
+                         'INDICE', 'DISPOSICION', 'NOTA', 'INSTRUMENT',
+                         'NUMERO', 'LETRA', 'NUMERAL', 'SECCION',
+                         'CAPITULO')),
+          UNIQUE (instrument_id, locator_key)
+        )""")
+
+
 def connect(db_path: Path) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.execute("PRAGMA foreign_keys = ON")
@@ -521,4 +553,5 @@ def connect(db_path: Path) -> sqlite3.Connection:
     _ensure_instrument_effective_date(conn)
     _ensure_binding_proof(conn)
     _ensure_subject_proof(conn)
+    _ensure_subject_kinds(conn)
     return conn

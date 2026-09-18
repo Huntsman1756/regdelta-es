@@ -146,14 +146,29 @@ _DECLARATIONS = {
         r"(?=\s*[,.:;)(«]|\s+(?:de|que|del|en|se|con|por|sin|sobre|donde"
         r"|y\s+el|a\s+la)\b|$)",
         re.IGNORECASE),
-    # CNMV norma subdivisions spell "número" where BdE uses "apartado"
+    # CNMV norma subdivisions spell "número" — a level of its own that
+    # nests under the lettered "apartado X)" ('número 8 del apartado
+    # B)') or directly under the norma ('número 1 de la norma 2.ª').
+    # Lettered apartados carry uppercase values ('apartados B, C, D y
+    # F'); numeric/roman forms stay accepted.
     "apartado": re.compile(
-        r"\b(?:apartado|n[uú]mero)s?\s+((?:" + _NUM_SEQ + r"|"
-        + _ROMAN_SEQ + r")"
+        r"\bapartados?\s+((?:" + _NUM_SEQ + r"|" + _ROMAN_SEQ
+        + r"|[A-Z])"
         r"(?:" + _ENUM_SEP + r"(?:" + _NUM_SEQ + r"|" + _ROMAN_SEQ
-        + r"))*)"
+        + r"|[A-Z]))*)"
         r"(?=\s*[,.:;)(«]|\s+(?:de|que|del|en|se|con|por|sin|donde|"
-        r"y\s+el)\b|$)",
+        r"y\s+el|y\s+los)\b|$)",
+        re.IGNORECASE),
+    "numero": re.compile(
+        r"\bn[úu]meros?\s+(" + _NUM_SEQ +
+        r"(?:" + _ENUM_SEP + _NUM_SEQ + r")*)"
+        r"(?=\s*[,.:;)(«]|\s+(?:de|que|del|en|se|con|por|sin|donde|"
+        r"y\s+el|y\s+los)\b|$)",
+        re.IGNORECASE),
+    # 'Sección X del Capítulo Y' — capitulo qualifies a sección when
+    # the clause declares the chain
+    "capitulo": re.compile(
+        r"\bcap[íi]tulo\s+(" + _ORD_SEQ + r"|\d+|[ivxlcdm]+)\b",
         re.IGNORECASE),
     "punto": re.compile(
         r"\bpuntos?\s+(" + _NUM_SEQ +
@@ -161,9 +176,10 @@ _DECLARATIONS = {
         r"(?=\s*[,.:;)(«]|\s+(?:de|que|del|en|se|con|por|sin|donde|"
         r"y\s+el|sin\s+que)\b|$)",
         re.IGNORECASE),
-    "numeral": re.compile(r"\bnumerales?\s+([ivxlcdm]+)\s*\)?",
-                          re.IGNORECASE),
-    "nota": re.compile(r"\bnotas?\s+\(?([a-z])\)?", re.IGNORECASE),
+    "numeral": re.compile(
+        r"\b(?:numerales?|incisos?)\s*\(?([ivxlcdm]+)\s*\)?",
+        re.IGNORECASE),
+    "nota": re.compile(r"\bnotas?\s+\(?([a-z])\)?\b", re.IGNORECASE),
     # CNMV disposiciones spell "Norma adicional/transitoria/..." —
     # "Norma adicional bis" -> disp:adicional.bis
     "disposicion": re.compile(
@@ -185,8 +201,8 @@ _DECLARATIONS = {
 _LOCATOR_GRAMMAR = LocatorGrammar(
     enabled_kinds=frozenset({
         "norma", "anexo", "anejo", "articulo", "capitulo", "seccion",
-        "disp", "disposicion", "pagina", "apartado", "punto", "letra",
-        "numeral", "nota", "indice", "estado",
+        "disp", "disposicion", "pagina", "apartado", "punto", "numero",
+        "letra", "numeral", "nota", "indice", "estado",
     }),
     ordinals={**_ORDINALS, **_ORDINALS_MARKED},
     ordinal_words=_ORDINAL_WORDS,
@@ -204,12 +220,12 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
         {"i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x",
          "xi", "xii", "xiii", "xiv", "xv"}),
     declarations=_DECLARATIONS,
-    enum_kinds=("norma", "anejo", "apartado", "punto"),
+    enum_kinds=("norma", "anejo", "apartado", "numero", "punto"),
     numlist_split=r"\s*(?:,|y|e)\s+",
     numlist_range=re.compile(r"(\d+)\s+(?:a|al)\s+(\d+)"),
     numlist_atom=(
         r"\d+(?:\.\d+)*[.ªº°]*\.?|[IVX]+(?:\.[A-Z0-9]+)*|"
-        r"bis|ter|qu[aá]ter|" + _ORD_SEQ),
+        r"[A-Z]|bis|ter|qu[aá]ter|" + _ORD_SEQ),
     expand_split=r",|\s+[ye]\s+",
     expand_range=re.compile(r"^(\d+)\s+(?:a|al)\s+(\d+)$"),
     expand_atom=re.compile(r"\d+(?:\.\d+)+"),
@@ -238,29 +254,40 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
     anejo_boundary=re.compile(
         r"^anexos?\s+\S|^anexos?\b|madrid\s*,", re.IGNORECASE),
     presence={
-        "apartado": (r"^{v}\s*\.\s", r"\bapartados?\s+{v}\b"),
+        "apartado": (r"^{v}\s*\.\s", r"\bapartados?\s+{v}\b",
+                     r"^{v}\)"),
+        "numero": (r"^{v}\s*\.\s", r"\bn[úu]meros?\s+{v}\b"),
         "punto": (r"^{v}\s*\.\s", r"\bpuntos?\s+{v}\b"),
         "letra": (r"^\(?{v}\)", r"\bletras?\s+\(?{v}\)?"),
         "nota": (r"^\(?{v}\)", r"\bnotas?\s+\(?{v}\)?"),
-        "numeral": (r"^{v}\s*[.)]",),
+        "numeral": (r"^{v}\s*[.)]", r"\bincisos?\s*\(?{v}\)?"),
         "_default": (r"\b{v}\b",),
     },
     markers={
         "numeric": re.compile(
             r"^(?:\d+\.|\d{1,3}(?:\.\d+)*\s+[A-ZÁÉÍÓÚÑ¿«(])"),
         "letra": re.compile(r"^[a-zA-Z]\)"),
+        # uppercase-only lettered level heads — 'B) Reconocimiento.'
+        # bounds a lettered apartado region without matching the 'a)'
+        # children inside its números
+        "uletra": re.compile(r"^[A-Z]\)"),
         "sibling": re.compile(
             r"^(?:\d+\.|[a-zA-Z]\)|[ivxlcdmIVXLCDM]+\s*[.)]"
             r"|\d{1,3}(?:\.\d+)*\s+[A-ZÁÉÍÓÚÑ¿«(])"),
     },
     level_boundary={
         "apartado": ("numeric",),
+        "numero": ("numeric", "uletra"),
         "punto": ("numeric",),
         "letra": ("numeric", "letra"),
     },
     default_boundary="sibling",
     sub_markers={
-        "apartado": (r"^{v}(?!\d)(?:\s*\.|\s+[A-ZÁÉÍÓÚÑ¿«(]|$)", 0),
+        # lettered apartados head as 'B) Reconocimiento.' — the ')'
+        # alternative only fires for alpha values since digits already
+        # match the '\s*\.' arm
+        "apartado": (r"^{v}(?!\d)(?:\s*[.)]|\s+[A-ZÁÉÍÓÚÑ¿«(]|$)", 0),
+        "numero": (r"^{v}(?!\d)(?:\s*\.|\s+[A-ZÁÉÍÓÚÑ¿«(]|$)", 0),
         "punto": (r"^{v}(?!\d)(?:\s*\.|\s+[A-ZÁÉÍÓÚÑ¿«(]|$)", 0),
         "letra": (r"^{v}\s*\)", 0),
         "nota": (r"^[«(]+\s*\(?{v}\)?", re.IGNORECASE),
@@ -273,16 +300,34 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
     value_continuation=re.compile(r"[\dA-ZÁÉÍÓÚÑ]"),
     kind_words={
         "apartado": r"apartados?", "letra": r"letras?",
-        "punto": r"puntos?", "numeral": r"numerales?",
+        "punto": r"puntos?", "numero": r"n[úu]meros?",
+        "numeral": r"numerales?",
         "nota": r"notas?", "norma": r"normas?",
         "anexo": r"anexos?", "anejo": r"anexos?", "seccion": r"secciones?",
+        "capitulo": r"cap[íi]tulos?",
         "indice": r"[íi]ndices?", "estado": r"estados?",
     },
     kinded_tail=re.compile(
-        r"\.(?:punto|apartado|letra|numeral|nota|indice|estado|"
-        r"norma|anexo|anejo|disp|disposicion|seccion|pagina):"),
-    coverage_heads=("estado", "punto", "apartado", "letra",
+        r"\.(?:punto|apartado|numero|letra|numeral|nota|indice|estado|"
+        r"norma|anexo|anejo|disp|disposicion|seccion|capitulo|pagina):"),
+    coverage_heads=("estado", "punto", "apartado", "numero", "letra",
                     "numeral", "nota", "indice"),
+    # WS-B declared inside-out hierarchy: 'X del Y' links compose a
+    # path only when the child kind lists the parent kind. A root
+    # (norma/anejo/disposicion) is never a child — 'normas 43 a 48 de
+    # la sección 7' keeps the normas flat and the sección mention is
+    # qualifier context.
+    child_parents={
+        "seccion": ("capitulo",),
+        "apartado": ("norma", "anejo", "anexo", "disposicion"),
+        "numero": ("apartado", "norma", "anejo", "anexo",
+                   "disposicion"),
+        "punto": ("anejo", "anexo", "norma", "disposicion"),
+        "letra": ("numero", "apartado", "punto", "norma", "anejo",
+                  "anexo", "disposicion"),
+        "numeral": ("letra", "numero", "apartado", "punto"),
+        "nota": ("letra", "numero", "apartado", "punto"),
+    },
 )
 
 # ---------------------------------------------------------------------------

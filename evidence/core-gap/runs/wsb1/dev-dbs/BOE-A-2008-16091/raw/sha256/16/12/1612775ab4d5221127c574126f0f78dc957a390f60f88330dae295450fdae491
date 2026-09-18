@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219142601">
+  <metadatos>
+    <identificador>BOE-A-2011-19174</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20111116</fecha_disposicion>
+    <numero_oficial>4/2011</numero_oficial>
+    <titulo>Circular 4/2011, de 16 de noviembre, de la Comisión Nacional del Mercado de Valores, por la que se modifica parcialmente la Circular 4/2008, de 11 de septiembre, sobre el contenido de los informes trimestrales, semestral y anual de instituciones de inversión colectiva y del estado de posición.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20111206</fecha_publicacion>
+    <diario_numero>293</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>129404</pagina_inicial>
+    <pagina_final>129488</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2011/12/06/pdfs/BOE-A-2011-19174.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2011-19174</url_epub>
+    </url_epub>
+    <url_pdf_catalan>/boe_catalan/dias/2011/12/06/pdfs/BOE-A-2011-19174-C.pdf</url_pdf_catalan>
+    <url_pdf_euskera/>
+    <url_pdf_gallego>/boe_gallego/dias/2011/12/06/pdfs/BOE-A-2011-19174-G.pdf</url_pdf_gallego>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20111231</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2011/11/16/4</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2011/11/16/4">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-19174</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-11-16</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3793"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3794"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3894"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4518"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2011/11/16/4/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2011-19174</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-11-16</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3793"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3794"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3807"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3894"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4518"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2011/11/16/4"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 4/2011, de 16 de noviembre, de la Comisión Nacional del Mercado de Valores, por la que se modifica parcialmente la Circular 4/2008, de 11 de septiembre, sobre el contenido de los informes trimestrales, semestral y anual de instituciones de inversión colectiva y del estado de posición.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-12-06</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2011/11/16/4/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/cat">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/cat"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 4/2011, de 16 de novembre, de la Comissió Nacional del Mercat de Valors, per la qual es modifica parcialment la Circular 4/2008, d'11 de setembre, sobre el contingut dels informes trimestrals, semestral i anual d'institucions d'inversió col·lectiva i de l'estat de posició.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-12-06</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2011/11/16/4/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/cat/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/cat"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/glg">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/glg"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 4/2011, do 16 de novembro, da Comisión Nacional do Mercado de Valores, pola que se modifica parcialmente a Circular 4/2008, do 11 de setembro, sobre o contido dos informes trimestrais, semestral e anual de institucións de investimento colectivo e do estado de posición.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-12-06</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2011/11/16/4/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/glg/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2011/11/16/4/dof/glg"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="1186" orden="">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="3793" orden="">Fondos de Inversión Inmobiliaria</materia>
+      <materia codigo="3794" orden="">Fondos de Inversión Mobiliaria</materia>
+      <materia codigo="3807" orden="">Formularios administrativos</materia>
+      <materia codigo="3894" orden="">Gastos</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="4302" orden="">Instituciones de Inversión Colectiva</materia>
+      <materia codigo="4518" orden="">Inversiones</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2011-551" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>las normas 16 y 18 de la Circular 6/2010, de 21 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2008-16091" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>la norma 2, lo indicado del anexo 0, SUSTITUYE los anexos 1 a 9 y AÑADE el 10 a la Circular 4/2008, de 11 de septiembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2011-13240" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>la disposición adicional 2 de la Ley 25/2011, de 1 de agosto</texto>
+        </anterior>
+      </anteriores>
+      <posteriores>
+        <posterior referencia="BOE-A-2012-80" orden="">
+          <palabra codigo="203">SE CORRIGEN errores</palabra>
+          <texto>, por Resolución de 28 de diciembre de 2011</texto>
+        </posterior>
+      </posteriores>
+    </referencias>
+    <alertas>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La Directiva Europea 2009/65/EC (Directiva UCITS IV) y su normativa de desarrollo han sustituido el folleto simplificado por el KII (Key Investor Information), traducido a la normativa española como Datos fundamentales para el inversor (en adelante, DFI). El KII es el nuevo documento armonizado a nivel europeo, de dos páginas, que busca ofrecer al inversor la información esencial para la toma de decisiones de inversión en un formato corto, conciso y claro.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">A este respecto, la Disposición final segunda de la Ley 25/2011, de 1 de agosto, añadió una nueva Disposición adicional cuarta a la Ley 35/2003, de 4 de noviembre, que señala que el DFI será exigible para las IIC financieras (salvo para las de inversión libre) desde el 1 julio de 2011 en sustitución del folleto simplificado. Así, las IIC que cumplan con la Directiva 2009/65/EC dispondrán del plazo de 1 año a partir del 1 de julio de 2011 para adaptar su folleto simplificado al DFI. A las IIC que sean de nueva creación o cuyo folleto se actualice a solicitud suya, dicho documento les será exigible a partir de esa misma fecha. El contenido del DFI deberá ajustarse a lo previsto en el Reglamento 583/2010 de nivel II de la Directiva UCITS IV. Posteriormente, la Ley 31/2011, de 4 de octubre, por la que se modifica la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva ha introducido en su articulado el nuevo documento informativo: «el documento con los datos fundamentales para el inversor».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Con motivo de la sustitución del folleto simplificado por el DFI, es necesario adaptar determinada información que actualmente figura en la información publica periódica para que se encuentre en línea con lo previsto en el DFI. En concreto, dicha información se refiere al ratio de gastos (conocido hasta ahora como TER o Total Expense Ratio) al que se da una nueva definición, y la comisión de gestión sobre resultados, la cual deberá ser informada de manera independiente. Adicionalmente, el DFI exige que se publique un gráfico con la rentabilidad histórica de la IIC, gráfico que aunque no forme parte de la IPP será remitido de manera conjunta con la misma.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Por consiguiente, el ratio de gastos y la comisión de gestión sobre resultados del ejercicio precedente, así como el gráfico de la rentabilidad histórica que se remitan en la IPP del segundo semestre serán incorporados al DFI con carácter anual al objeto de actualizar la información que el mismo contiene.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Por otro lado, en base a las previsiones incluidas en los artículos 5.12, letra c), 45 bis.4 letra i) y 63.5 letra b) del Reglamento de la Ley 35/2003, de 4 de noviembre de Instituciones de Inversión Colectiva, modificado mediante el Real Decreto 749/2010, de 7 de junio, se adapta la Circular para incluir la obligación de que las gestoras informen de la existencia de costes derivados del servicio de análisis, de las circunstancias y de otra información relevante, que hayan motivado, en su caso, la creación de una IIC o compartimento de propósito especial, así como en el caso de disolución y liquidación de los FII, de los aspectos más relevantes de este proceso. Asimismo, también se establece que las IIC de forma societaria informen de la existencia de costes derivados del servicio de análisis.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Adicionalmente, habida cuenta de que la Circular 6/2010 sobre instrumentos derivados establece que las IIC informen en la información publica periódica del método elegido para la medición de la exposición total al riesgo de mercado (compromiso, VaR absoluto o VaR relativo), así como de los niveles de VaR máximo, mínimo medio y del apalancamiento existente al final del periodo de referencia de las IIC que decidan calcular su exposición global al riesgo mediante los métodos VaR, se adapta la Circular de IPP para incluir dichas obligaciones de información.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Por todo lo anterior, y al amparo de las habilitaciones directas conferidas a la Comisión Nacional del Mercado de Valores en el artículo 21 del RIIC, y previo informe del Comité Consultivo, la presente Circular modifica la Circular 4/2008, de 11 de septiembre, de la Comisión Nacional del Mercado de Valores, sobre el contenido de los informes trimestrales, semestral y anual de instituciones de inversión colectiva y del estado de posición.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Por último, la disposición adicional de esta Circular modifica las normas 16.ª.4 y 18.4.ª de la Circular 6/2010 en relación a la ubicación de determinada información dentro de los informes periódicos en aquellas IIC que apliquen el método VaR para medir la exposición total al riesgo de mercado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En su virtud, el Consejo de la Comisión Nacional del Mercado de Valores, de acuerdo con el Consejo de Estado, en su reunión de 16 de noviembre de 2011, ha dispuesto:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma primera. Adaptación del texto de la Circular 4/2008.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Ratio de Gastos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Se modifica la Norma 2.ª, apartado 4, de la Circular 4/2008 que pasa a tener la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«4. Los informes a los que hace referencia la presente Circular deberán contener indicación de los gastos de la IIC expresados en porcentaje sobre su patrimonio medio, por lo que deberá incluirse en dichos informes el Ratio de Gastos. En el numerador se incluirán los gastos directos que soporte la IIC, a excepción de la comisión de gestión sobre resultados, entre los que se incluirán: comisión de gestión sobre patrimonio, comisión de depositario, tasas de permanencia en los Registros de la CNMV, gastos por servicios exteriores (salvo gastos de financiación), más cualquier otro gasto de gestión corriente soportado por la IIC sin incluir las comisiones derivadas de la adquisición o venta de sus activos financieros, ni cualquier otro gasto que corresponda a pagos realizados directamente por el partícipe o socio, como por ejemplo, las comisiones de suscripción y reembolso. Las IIC de carácter inmobiliario incluirán en el numerador de este ratio los gastos propios derivados de su actividad que se detallan en el anexo de esta Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">Las IIC o compartimentos, en su caso, cuya política de inversión consista en invertir más del 10% de su patrimonio en otras IIC, incluirán adicionalmente en el Ratio de Gastos los gastos indirectos que soporten por la inversión en las IIC subyacentes así como las comisiones de suscripción y reembolso derivadas de dichas inversiones que hayan sido soportadas por la IIC inversora. Además, se deducirá el importe de las retrocesiones de comisiones efectivamente devengadas a favor del fondo.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma segunda. Adaptación de las Notas aclaratorias de los Anexos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">1. Adaptación al documento con los datos fundamentales para el inversor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">1.1 Ratio de Gastos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Se modifica el punto 14 de las Notas aclaratorias al anexo 1 que pasa a tener la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«14. Ratio de Gastos: Se informará en porcentaje con dos decimales de la suma de los gastos de explotación soportados directamente, a excepción de la comisión de gestión sobre resultados y de los gastos de financiación, dividido por el patrimonio medio del fondo, compartimento o clase del período que corresponda. El dato para el año actual se referirá al acumulado en todo el período hasta la fecha del informe.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">En el caso de fondos/compartimentos cuya política de inversión consiste en invertir más del 10% de su patrimonio en otras IIC, se incluirán adicionalmente los gastos indirectos soportados por la inversión en las IIC subyacentes así como las comisiones de suscripción y reembolso derivadas de dichas inversiones que hayan sido soportadas por la IIC inversora. Además, se deducirá el importe de las retrocesiones de comisiones efectivamente devengadas a favor del fondo.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">1.2 Gráfico de rentabilidad histórica.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Se añade un anexo 10 a la Circular denominado «Anexo 10: Gráfico de Rentabilidad Histórica».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se añade un apartado «Notas aclaratorias al Anexo 10: Gráfico de rentabilidad histórica» con el siguiente tenor:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«Notas aclaratorias al Anexo 10: Gráfico de rentabilidad histórica.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">Las IIC que deban cumplimentar los Anexos 1, 2, 5 o 9 de esta Circular, deberán enviar a la CNMV junto con la remisión de los informes públicos periódicos del segundo semestre de cada ejercicio el Anexo 10, que contendrá un gráfico de barras con las rentabilidades anuales de los últimos 10 años. Aquellas IIC que dispongan de resultados respecto de un periodo inferior o igual a cinco años naturales completos, solo incluirán en su presentación los últimos 5 años. El gráfico incluirá también la rentabilidad del índice de referencia.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">2. Adaptación al Reglamento de Instituciones de Inversión Colectiva (aprobado por el Real Decreto 1309/2005, de 4 de noviembre.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">2.1 Información sobre los costes derivados del servicio de análisis.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Se añaden las siguientes letras en el apartado 9. «Anexo explicativo del informe periódico» de las «Notas aclaratorias» de los Anexos que se detallan a continuación:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">En el «Anexo 1: Fondo de inversión mobiliaria», se añade una letra i), en el Anexo 3: «Fondo de inversión inmobiliaria» se añade una letra f), en el Anexo 5 «Fondo de inversión cotizado» se añade una letra i), en el Anexo 6: «Fondo de inversión libre y fondo de IIC de inversión libre» se añade una letra g), y en el «Anexo 2: SICAV» se añade un último párrafo con la siguiente redacción «En el informe anual de la IIC se deberá recoger información cualitativa detallada de la existencia de costes derivados del servicio de análisis en su caso».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">2.2 IIC o compartimentos de propósito especial.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Se añaden las siguientes letras en el apartado 9. «Anexo explicativo del informe periódico» de las «Notas aclaratorias» de los anexos afectados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En el anexo 1: «Fondo de inversión mobiliaria» se añade una letra j), en el Anexo 5 «Fondo de Inversión cotizado» se añade una letra j, y en el Anexo 6 «Fondo de inversión libre y fondo de IIC de inversión libre» se añade una letra h) con la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«Información sobre las circunstancias que motivaron la creación de la IIC o compartimento de propósito especial resultante, así como la información sobre el valor liquidativo de que se disponga, las perspectivas sobre la evolución futura de los valores integrantes de esta IIC o compartimento resultante y cualquier otra información que se estime de interés.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">2.3. Disolución y liquidación de los Fondos de Inversión Inmobiliaria.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Se añade una letra g) en el apartado 9. «Anexo explicativo del informe periódico» de las «Notas aclaratorias al Anexo 3: Fondo de inversión inmobiliaria» con la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«g) Se incluirá una referencia detallada sobre el proceso de venta de la cartera de inversiones inmobiliarias de la IIC. En particular deberá informarse para cada periodo del grado de avance del proceso de ventas, de las actuaciones de ventas desarrolladas, del detalle de los inmuebles vendidos, de los precios de venta, de los inversores contactados y de las ofertas recibidas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">Adicionalmente, en el informe anual se incluirá una recapitulación del proceso de ventas realizado en todo el ejercicio y una referencia a las perspectivas de ventas para el año siguiente.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">3. Adaptación a la Circular 6/2010, de instrumentos financieros derivados de las IIC.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">3.1 Información sobre la metodología de medición del riesgo global.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Se modifica el apartado 1.3 Operativa en instrumentos derivados de las «Notas aclaratorias al Anexo 1: fondo de Inversión Mobiliaria» para añadir el segundo párrafo del texto que se presenta a continuación:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«3. Operativa en instrumentos derivados: Se indicará si la IIC ha realizado operaciones en instrumentos derivados con la finalidad de cobertura de riesgos o inversión para gestionar de un modo más eficaz la cartera, o en el marco de la gestión encaminada a la consecución de un objetivo de rentabilidad que, en su caso, deberá estar concretamente descrito en el folleto.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">Adicionalmente deberá especificarse la metodología aplicada para calcular la exposición total al riesgo de mercado de la IIC o compartimento (compromiso, VAR relativo o VAR absoluto) que deberá coincidir con la que figure en el folleto.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">3.2 Criterios específicos para el cómputo de la exposición por riesgo de mercado en la operativa con instrumentos derivados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Se añaden las siguientes letras en el apartado 9. «Anexo explicativo del informe periódico» de las «Notas aclaratorias de los Anexos afectados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En el anexo 1: «Fondo de inversión mobiliaria» se añade una letra k), en el Anexo 5: «Fondo de inversión cotizado», se añade una letra k) y en el Anexo 6: «Fondo de inversión libre y fondo de IIC de inversión libre» se añade una letra i) con la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«Las IIC que apliquen la metodología del compromiso aportarán información de los riesgos que pudieran surgir por la realización de la operativa que de conformidad con la Norma 4.ª de la Circular 6/2010, o cualquier otra que la sustituya, no haya de considerarse a efectos del cumplimiento del limite según el cual la exposición total al riesgo de mercado asociada a derivados no podrá superar el patrimonio neto de la IIC.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">3.3 Información del VaR en la información pública periódica. Información del grado de apalancamiento al final del periodo de referencia en las IIC que empleen el método del VaR absoluto o VaR relativo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se añaden las siguientes letras en el apartado 9 «Anexo explicativo del informe periódico» de las Notas aclaratorias de los anexos afectados.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En el Anexo 1: «Fondo de inversión mobiliaria» se añade una letra l); en el Anexo 5: «Fondo de inversión cotizado», se añade una letra l) y en el Anexo 6: «Fondo de inversión libre y fondo de IIC de inversión libre» se añade una letra j) con la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«En el caso de que la IIC o compartimento aplique el método del VaR absoluto o del VaR relativo, se deberá informar sobre los niveles de VaR máximo, mínimo y medio alcanzados durante el año en curso, así como del modelo empleado para el calculo (paramétrico, simulación histórica, Montecarlo), del horizonte temporal y del intervalo de confianza. Adicionalmente, informarán el nivel de apalancamiento existente al final del periodo de referencia.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Adicionalmente en el anexo 1: «Fondo de inversión mobiliaria» se añade una letra m); en el Anexo 5: «Fondo de inversión cotizado», se añade una letra m); y en el Anexo 6: «Fondo de inversión libre y fondo de IIC de inversión libre» se añade una letra k) con la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«En el caso de que la IIC o compartimento aplique el método del VaR relativo para medir la exposición al riesgo de mercado, se deberá aportar información de la cartera de referencia.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma tercera. Anexos de la Circular 4/2008, de 11 de septiembre, de la Comisión Nacional del Mercado de Valores, sobre el contenido de los informes trimestrales, semestral y anual de las instituciones de inversión colectiva y del estado de posición.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente Circular sustituye los anexos de la Circular 4/2008 por los que figuran como anexo a esta norma.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma adicional.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">1. Se modifica la Norma 16.ª4 de la mencionada Circular 6/2010, que pasa a tener la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«4. En el folleto informativo se deberá advertir sobre la posibilidad de incurrir en niveles de apalancamiento relevantes e informar del nivel de apalancamiento esperado. Adicionalmente, en el Anexo explicativo del modelo de información pública periódica, recogido en los Anexos de la Circular 4/2008 de la CNMV, se deberá informar del nivel de apalancamiento existente a final del periodo de referencia.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">2. Se modifica la Norma 18.ª4 de la Circular 6/2010, de 21 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre operaciones con instrumentos derivados de las instituciones de inversión colectiva, que pasa a tener la siguiente redacción:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«4. En el Anexo explicativo del modelo de información pública periódica, recogido en los Anexos de la Circular 4/2008 de la CNMV, se deberá aportar sobre los niveles de VAR alcanzados en concreto: el más alto, el más bajo y la media durante el año en curso. Adicionalmente, se deberá aportar información de la cartera de referencia en el caso de ser aplicado VAR Relativo.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma final.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente Circular entrará en vigor el 31 de diciembre de 2011, siendo la información pública periódica referida al segundo semestre de 2011 la primera que deberá remitirse conforme a la misma.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Madrid, 16 de noviembre de 2011.–El Presidente de la Comisión Nacional del Mercado de Valores, Julio Segura Sánchez.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo">ANEXOS</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_num">ANEXO 1</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_tit">Fondo de inversión mobiliaria</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-1" alt="1" src="/datos/imagenes/disp/2011/293/19174_4822.png" width="1772" height="2438"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-2" alt="2" src="/datos/imagenes/disp/2011/293/19174_4898.png" width="1772" height="2235"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-3" alt="3" src="/datos/imagenes/disp/2011/293/19174_4969.png" width="1760" height="1953"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-4" alt="4" src="/datos/imagenes/disp/2011/293/19174_5040.png" width="1792" height="2353"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-5" alt="5" src="/datos/imagenes/disp/2011/293/19174_5112.png" width="1798" height="2398"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-6" alt="6" src="/datos/imagenes/disp/2011/293/19174_5183.png" width="1792" height="2058"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-7" alt="7" src="/datos/imagenes/disp/2011/293/19174_5289.png" width="1790" height="2646"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-8" alt="8" src="/datos/imagenes/disp/2011/293/19174_5362.png" width="1792" height="2235"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-9" alt="9" src="/datos/imagenes/disp/2011/293/19174_5434.png" width="1729" height="2398"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-10" alt="10" src="/datos/imagenes/disp/2011/293/19174_5505.png" width="1705" height="1583"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-11" alt="11" src="/datos/imagenes/disp/2011/293/19174_5576.png" width="1646" height="1575"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_num">ANEXO 2</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_tit">SICAV</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-12" alt="12" src="/datos/imagenes/disp/2011/293/19174_5648.png" width="1776" height="2619"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-13" alt="13" src="/datos/imagenes/disp/2011/293/19174_5719.png" width="1827" height="2741"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-14" alt="14" src="/datos/imagenes/disp/2011/293/19174_5790.png" width="1760" height="2022"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-15" alt="15" src="/datos/imagenes/disp/2011/293/19174_5863.png" width="1806" height="2378"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-16" alt="16" src="/datos/imagenes/disp/2011/293/19174_5935.png" width="1735" height="1376"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-17" alt="17" src="/datos/imagenes/disp/2011/293/19174_6007.png" width="1792" height="2682"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-18" alt="18" src="/datos/imagenes/disp/2011/293/19174_6080.png" width="1792" height="2282"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-19" alt="19" src="/datos/imagenes/disp/2011/293/19174_6152.png" width="1728" height="2103"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-20" alt="20" src="/datos/imagenes/disp/2011/293/19174_6224.png" width="1735" height="2495"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_num">ANEXO 3</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_tit">Fondo de inversión inmobiliaria</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-21" alt="21" src="/datos/imagenes/disp/2011/293/19174_6296.png" width="1772" height="2203"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-22" alt="22" src="/datos/imagenes/disp/2011/293/19174_6435.png" width="1760" height="2363"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-23" alt="23" src="/datos/imagenes/disp/2011/293/19174_6508.png" width="1760" height="1619"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-24" alt="24" src="/datos/imagenes/disp/2011/293/19174_6579.png" width="1694" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-25" alt="25" src="/datos/imagenes/disp/2011/293/19174_6650.png" width="1800" height="2296"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-26" alt="26" src="/datos/imagenes/disp/2011/293/19174_6723.png" width="1709" height="1632"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-27" alt="27" src="/datos/imagenes/disp/2011/293/19174_6795.png" width="1756" height="1170"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-28" alt="28" src="/datos/imagenes/disp/2011/293/19174_6869.png" width="1772" height="1821"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-29" alt="29" src="/datos/imagenes/disp/2011/293/19174_6941.png" width="1729" height="2686"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-30" alt="30" src="/datos/imagenes/disp/2011/293/19174_7013.png" width="1542" height="2126"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-31" alt="31" src="/datos/imagenes/disp/2011/293/19174_7086.png" width="1823" height="2012"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-32" alt="32" src="/datos/imagenes/disp/2011/293/19174_7158.png" width="1693" height="2558"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_num">ANEXO 4</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_tit">Sociedad de inversión inmobiliaria</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-33" alt="33" src="/datos/imagenes/disp/2011/293/19174_7229.png" width="1772" height="2262"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-34" alt="34" src="/datos/imagenes/disp/2011/293/19174_7301.png" width="1878" height="2599"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-35" alt="35" src="/datos/imagenes/disp/2011/293/19174_7372.png" width="1776" height="2138"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-36" alt="36" src="/datos/imagenes/disp/2011/293/19174_7510.png" width="1792" height="2388"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-37" alt="37" src="/datos/imagenes/disp/2011/293/19174_7584.png" width="1725" height="1717"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-38" alt="38" src="/datos/imagenes/disp/2011/293/19174_7657.png" width="1713" height="1751"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-39" alt="39" src="/datos/imagenes/disp/2011/293/19174_7730.png" width="1749" height="1178"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-40" alt="40" src="/datos/imagenes/disp/2011/293/19174_7803.png" width="1776" height="1725"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-41" alt="41" src="/datos/imagenes/disp/2011/293/19174_7876.png" width="1715" height="2619"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-42" alt="42" src="/datos/imagenes/disp/2011/293/19174_7949.png" width="1546" height="2274"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-43" alt="43" src="/datos/imagenes/disp/2011/293/19174_8020.png" width="1819" height="2457"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-44" alt="44" src="/datos/imagenes/disp/2011/293/19174_8091.png" width="1670" height="1042"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_num">ANEXO 5</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_tit">Fondo de inversión cotizado</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-45" alt="45" src="/datos/imagenes/disp/2011/293/19174_8163.png" width="1768" height="2459"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-46" alt="46" src="/datos/imagenes/disp/2011/293/19174_8234.png" width="1760" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-47" alt="47" src="/datos/imagenes/disp/2011/293/19174_8305.png" width="1806" height="1973"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-48" alt="48" src="/datos/imagenes/disp/2011/293/19174_8378.png" width="1725" height="2396"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-49" alt="49" src="/datos/imagenes/disp/2011/293/19174_8450.png" width="1792" height="2150"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-50" alt="50" src="/datos/imagenes/disp/2011/293/19174_8522.png" width="1725" height="1546"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-51" alt="51" src="/datos/imagenes/disp/2011/293/19174_8596.png" width="1786" height="2678"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-52" alt="52" src="/datos/imagenes/disp/2011/293/19174_8668.png" width="1788" height="2211"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-53" alt="53" src="/datos/imagenes/disp/2011/293/19174_8740.png" width="1725" height="2438"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-54" alt="54" src="/datos/imagenes/disp/2011/293/19174_8811.png" width="1792" height="2424"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_num">ANEXO 6</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_tit">FIL y FI de IICIL</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-55" alt="55" src="/datos/imagenes/disp/2011/293/19174_8882.png" width="1760" height="2152"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-56" alt="56" src="/datos/imagenes/disp/2011/293/19174_8955.png" width="1947" height="2020"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-57" alt="57" src="/datos/imagenes/disp/2011/293/19174_9026.png" width="1894" height="1540"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-58" alt="58" src="/datos/imagenes/disp/2011/293/19174_9098.png" width="1760" height="2589"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-59" alt="59" src="/datos/imagenes/disp/2011/293/19174_9173.png" width="1827" height="2382"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-60" alt="60" src="/datos/imagenes/disp/2011/293/19174_9245.png" width="1900" height="2270"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-61" alt="61" src="/datos/imagenes/disp/2011/293/19174_9318.png" width="1839" height="949"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_num">ANEXO 7</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_tit">SIL y SICAV de IICIL</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-62" alt="62" src="/datos/imagenes/disp/2011/293/19174_9391.png" width="1758" height="2357"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-63" alt="63" src="/datos/imagenes/disp/2011/293/19174_9463.png" width="1752" height="2319"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-64" alt="64" src="/datos/imagenes/disp/2011/293/19174_9535.png" width="1894" height="1884"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-65" alt="65" src="/datos/imagenes/disp/2011/293/19174_9607.png" width="1723" height="1804"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-66" alt="66" src="/datos/imagenes/disp/2011/293/19174_9678.png" width="1827" height="2428"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-67" alt="67" src="/datos/imagenes/disp/2011/293/19174_9750.png" width="1898" height="2079"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-68" alt="68" src="/datos/imagenes/disp/2011/293/19174_9821.png" width="1792" height="886"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_num">ANEXO 8</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_tit">Modelo de estado de posición</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-69" alt="69" src="/datos/imagenes/disp/2011/293/19174_9892.png" width="2163" height="1533"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_num">ANEXO 9</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_tit">SICAV índice cotizada</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-70" alt="70" src="/datos/imagenes/disp/2011/293/19174_9966.png" width="1713" height="2617"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-71" alt="71" src="/datos/imagenes/disp/2011/293/19174_10039.png" width="1827" height="2733"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-72" alt="72" src="/datos/imagenes/disp/2011/293/19174_10119.png" width="1760" height="1813"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-73" alt="73" src="/datos/imagenes/disp/2011/293/19174_10192.png" width="1693" height="2394"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-74" alt="74" src="/datos/imagenes/disp/2011/293/19174_10264.png" width="1792" height="1939"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-75" alt="75" src="/datos/imagenes/disp/2011/293/19174_10336.png" width="1729" height="1378"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-76" alt="76" src="/datos/imagenes/disp/2011/293/19174_10407.png" width="1784" height="2601"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-77" alt="77" src="/datos/imagenes/disp/2011/293/19174_10478.png" width="1786" height="2402"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-78" alt="78" src="/datos/imagenes/disp/2011/293/19174_10551.png" width="1725" height="2199"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-79" alt="79" src="/datos/imagenes/disp/2011/293/19174_10627.png" width="1725" height="2540"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_num">ANEXO 10</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo_tit">Gráfico de rentabilidad histórica</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-80" alt="80" src="/datos/imagenes/disp/2011/293/19174_10699.png" width="1664" height="272"/>
+    </p>
+  </texto>
+</documento>

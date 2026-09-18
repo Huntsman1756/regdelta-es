@@ -522,11 +522,52 @@ def locator_resolves_in_doc(doc: DiarioDoc, key: str) -> bool:
             for p in parts[1:])
     token = _norm(body.split(".")[0] if "." in body else body)
     if kind in ("anejo", "disposicion", "titulo", "capitulo",
-                "seccion", "apartado", "nota"):
-        pat = re.compile(rf"^{re.escape(kind)}\s+{re.escape(token)}\b")
+                "seccion", "apartado", "nota", "numero"):
+        # chapter/section heads may spell the ordinal — 'capítulo
+        # primero', 'sección quinta', 'capítulo II'
+        alts = {token}
+        if kind in ("capitulo", "seccion") and token.isdigit():
+            alts |= {_norm(w) for w, v in lg.ordinals.items()
+                     if v == int(token)}
+            if token in lg.roman:
+                alts.add(_norm(lg.roman[token]))
+        pat = re.compile(
+            rf"^{re.escape(kind)}\s+"
+            rf"(?:{'|'.join(re.escape(a) for a in sorted(alts, key=len, reverse=True))})\b")
     else:
         pat = re.compile(rf"\b{re.escape(token)}\b")
-    for n in doc.nodes:
-        if n.text and pat.search(_norm(n.text)):
-            return True
-    return False
+    hit_idx = [i for i, n in enumerate(doc.nodes)
+               if n.text and pat.search(_norm(n.text))]
+    if not hit_idx:
+        return False
+    # a sección head present more than once does not identify a unique
+    # locator — 'sección primera' recurs under each capítulo; the bare
+    # key would bind ambiguously
+    if kind == "seccion" and len(hit_idx) != 1:
+        return False
+    # nested chapter/section paths: each deeper component must head
+    # inside the parent region bounded by the next same-kind head
+    if kind in ("capitulo", "seccion") and len(parts) > 1:
+        start = hit_idx[0]
+        same = re.compile(rf"^{re.escape(kind)}\s+")
+        end = next((i for i in range(start + 1, len(doc.nodes))
+                    if doc.nodes[i].text
+                    and same.search(_norm(doc.nodes[i].text))),
+                   len(doc.nodes))
+        for p in parts[1:]:
+            pk, _, pv = p.partition(":")
+            pv = _norm(pv)
+            palts = {pv}
+            if pk in ("capitulo", "seccion") and pv.isdigit():
+                palts |= {_norm(w) for w, v in lg.ordinals.items()
+                          if v == int(pv)}
+                if pv in lg.roman:
+                    palts.add(_norm(lg.roman[pv]))
+            ppat = re.compile(
+                rf"^{re.escape(pk)}\s+"
+                rf"(?:{'|'.join(re.escape(a) for a in sorted(palts, key=len, reverse=True))})\b")
+            if not any(doc.nodes[i].text
+                       and ppat.search(_norm(doc.nodes[i].text))
+                       for i in range(start + 1, end)):
+                return False
+    return True

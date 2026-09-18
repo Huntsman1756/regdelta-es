@@ -156,7 +156,8 @@ def _locator_mentions(key: str) -> tuple[list[str], list[str]]:
         heads.append(f"{h} {tok}")
         if kind == "disp" and len(parts) > 1:
             heads.append(f"{h} {tok} {_norm(parts[1])}")
-    if kind in ("norma", "anejo", "anexo", "articulo"):
+    if kind in ("norma", "anejo", "anexo", "articulo",
+                "seccion", "capitulo"):
         word = lg.ordinal_words.get(tok)
         for h in lg.head_forms.get(kind, (kind,)):
             if word:
@@ -458,9 +459,186 @@ def _extract_mentions(text: str) -> dict[str, object]:
     return out
 
 
+# ---------------------------------------------------------------------------
+# CORE-GAP WS-B — declared hierarchy paths ('X del Y' inside-out chains)
+#
+# Spanish locator phrases declare leaf-first: 'la letra n) del número 3
+# del apartado C) de la norma 49'. A link between consecutive mentions
+# exists only when the text between them is a pure de-connector; the
+# profile's ``child_parents`` declares which (child -> parent) pairs are
+# admissible structure. A root-family mention is never a child, so
+# 'normas 43 a 48 de la sección 7' keeps the normas flat — the sección
+# is qualifier context, not a fabricated parent.
+# ---------------------------------------------------------------------------
+
+# the text between a child mention and its declared parent may carry
+# only a de-connector plus reference adjectives
+_DE_LINK = re.compile(
+    r"^[\s,;)]*(?:de|del|en)"
+    r"(?:\s+(?:la|el|los|las|citad[oa]s?|dich[oa]s?|mism[oa]s?|"
+    r"mencionad[oa]s?|susodich[oa]s?|referid[oa]s?|est[ae]s?|"
+    r"anteriores?|presente|siguiente|su|sus))*\s*$",
+    re.IGNORECASE)
+
+# a mention preceded by one of these is a qualifier, never a subject:
+# 'de la sección 7' locates something else; it does not declare the
+# sección as the operative object
+_GOVERNED = re.compile(
+    r"(?:de|del|en|a|por|bajo|según|segun|conforme\s+a|"
+    r"con\s+arreglo\s+a|de\s+acuerdo\s+con)\s+"
+    r"(?:(?:la|el|los|las|est[ae]|dich[oa]|citad[oa]|mism[oa]|"
+    r"presente|su)s?|del|al)\s*$",
+    re.IGNORECASE)
+
+# kinds that compose standalone subjects only — never cascade children.
+# 'La Sección Quinta queda redactada' -> seccion:5; a governed mention
+# stays a qualifier and emits nothing.
+_STANDALONE_KINDS = ("capitulo", "seccion")
+
+
+def _mention_spans(text: str) -> list[tuple[str, list, int, int]]:
+    """Ordered (kind, values, start, end) locator mentions.
+
+    Same vocabulary as _extract_mentions but position-carrying — the
+    substrate for inside-out chains (WS-B). One regex match = one
+    mention; enum groups stay together so 'números 14, 15 y 16 del
+    apartado F)' binds the whole group to F.
+    """
+    lg = active_profile().locator_grammar
+    masked = _masked_clause(text)
+    out: list[tuple[str, list, int, int]] = []
+    for key, rx in lg.declarations.items():
+        for m in rx.finditer(masked):
+            vals = (_numlist(m.group(1)) if key in lg.enum_kinds
+                    else [tuple(g for g in m.groups())])
+            vals = [v for v in vals if v and v[0]]
+            if vals:
+                out.append((key, vals, m.start(), m.end()))
+    for m in lg.letra_list.finditer(masked):
+        vals = [v for v in _letters(m.group(1)) if v]
+        if vals:
+            out.append(("letra", vals, m.start(), m.end()))
+    out.sort(key=lambda t: (t[2], t[3]))
+    return out
+
+
+def _path_value(kind: str, v) -> str:
+    """Normalize a declared mention value into its key component."""
+    lg = active_profile().locator_grammar
+    if kind == "disposicion" and isinstance(v, tuple) and len(v) > 1:
+        return str(v[0]).lower() + "." + str(v[1]).lower()
+    raw = str(v[0] if isinstance(v, tuple) else v).strip().rstrip(".")
+    if kind in ("norma", "seccion", "capitulo"):
+        n = _ordinal_num(raw)
+        if n is not None:
+            return str(n)
+        inv = {rv: k for k, rv in lg.roman.items()}
+        if raw.lower() in inv:
+            return inv[raw.lower()]
+        return raw
+    if kind in ("letra", "numeral"):
+        return raw.lower()
+    return re.sub(r"\s+", "", raw)
+
+
+def _enum_values(kind: str, vals) -> list[str]:
+    """Per-value normalized components; 'lo a hi' ranges expand like
+    the flat cascade does."""
+    out: list[str] = []
+    for v in vals:
+        t = tuple(str(x) for x in (v if isinstance(v, tuple) else (v,)))
+        if len(t) > 1 and t[0].isdigit() and t[1].isdigit():
+            out.extend(str(i) for i in range(int(t[0]), int(t[1]) + 1))
+        else:
+            out.append(_path_value(kind, v))
+    return out
+
+
+def _de_bound_paths(text: str):
+    """Declared inside-out 'X del Y' chains -> bound locator paths.
+
+    Returns ``(paths, consumed, standalone)``:
+
+    - ``paths``: each is ``[(kind, value), ...]`` ordered root->leaf.
+      The chain top may be a root kind, a standalone kind, or a
+      mid-level kind awaiting the clause root.
+    - ``consumed``: ``(kind, value)`` pairs the flat cascade must not
+      re-emit. Root-family members are NOT consumed — the same norma
+      still scopes the clause's other locators.
+    - ``standalone``: ``(kind, value)`` pairs emitted flat — ungoverned
+      mentions of standalone kinds that joined no chain.
+    """
+    lg = active_profile().locator_grammar
+    cp = lg.child_parents
+    if not cp:
+        return [], [], []
+    spans = _mention_spans(text)
+    links: dict[int, int] = {}
+    for i in range(len(spans) - 1):
+        if _DE_LINK.match(text[spans[i][3]:spans[i + 1][2]] or ""):
+            links[i] = i + 1
+    governed = {i for i, (_k, _v, s, _e) in enumerate(spans)
+                if _GOVERNED.search(text[:s])}
+    roots = set(active_profile().operative_grammar.root_families)
+    paths: list[list[tuple[str, str]]] = []
+    consumed: list[tuple[str, str]] = []
+    chain_member: set[int] = set()
+    inner: set[int] = set()
+    for i, (kind, vals, _s, _e) in enumerate(spans):
+        if kind not in cp or i in inner:
+            # an inner member already served as a parent inside a
+            # longer chain — it cannot also head a suffix sub-chain
+            # ('número 3 del apartado C' inside 'letra n) del número 3
+            # del apartado C' emits only the full path)
+            continue
+        chain: list[tuple[str, str]] = []
+        j = i
+        while j in links:
+            pj = links[j]
+            pk, pv = spans[pj][0], spans[pj][1]
+            ck = chain[-1][0] if chain else kind
+            # inadmissible links stop the chain: a root can never be a
+            # child, and a multi-value parent mention is ambiguous —
+            # 'número 3 de los apartados B y C' picks no parent
+            if ck in roots or pk not in cp.get(ck, ()) or len(pv) != 1:
+                break
+            chain.append((pk, _path_value(pk, pv[0])))
+            chain_member.add(pj)
+            inner.add(pj)
+            j = pj
+        if not chain:
+            continue
+        chain_member.add(i)
+        consumed.extend((kind, lv) for lv in _enum_values(kind, vals))
+        consumed.extend(c for c in chain if c[0] not in roots)
+        for lv in _enum_values(kind, vals):
+            paths.append(list(reversed(chain)) + [(kind, lv)])
+    standalone: list[tuple[str, str]] = []
+    for i, (kind, vals, _s, _e) in enumerate(spans):
+        if kind in _STANDALONE_KINDS and i not in governed \
+                and i not in chain_member:
+            standalone.extend(
+                (kind, v) for v in _enum_values(kind, vals))
+    return paths, consumed, standalone
+
+
+def _subtract_mentions(mentions: dict, consumed) -> dict:
+    """Drop (kind, normalized_value) pairs bound into declared paths —
+    the flat cascade must not re-emit them as separate subjects."""
+    drop = set(consumed)
+    out = {}
+    for k, vals in mentions.items():
+        keep = [v for v in vals
+                if (k, _path_value(k, v)) not in drop]
+        if keep:
+            out[k] = keep
+    return out
+
+
 def _compose_keys(mentions: dict[str, object],
                   ctx: dict[str, str], scope: dict | None = None,
-                  node_index: int | None = None) -> list[SubjectRef]:
+                  node_index: int | None = None,
+                  clause_text: str | None = None) -> list[SubjectRef]:
     """Compose locator keys from clause mentions + inherited context.
 
     Root-family exclusivity (G2.1 §22): when the clause itself declares
@@ -470,9 +648,10 @@ def _compose_keys(mentions: dict[str, object],
     emitted SubjectRef records where every key component was declared.
     """
     subs: list[SubjectRef] = []
+    declared_mentions = mentions
 
     def prov(kind: str) -> tuple:
-        if mentions.get(kind):
+        if declared_mentions.get(kind):
             return ("EXPLICIT_CLAUSE", node_index, "CLAUSE")
         e = (scope or {}).get(kind) or {}
         return ("INHERITED", e.get("node_index"), e.get("scope"))
@@ -503,6 +682,18 @@ def _compose_keys(mentions: dict[str, object],
                                    comp("fichero", name),)))
     if ficheros:
         return subs
+
+    # WS-B: declared inside-out 'X del Y' paths bind before the flat
+    # cascade. Consumed components leave the cascade so a bound
+    # 'número 13 del apartado E)' never re-emits flat; roots stay
+    # available to scope the clause's other locators. Profiles without
+    # child_parents produce no paths — the cascade below is unchanged.
+    paths: list = []
+    standalone: list = []
+    if clause_text is not None:
+        paths, consumed, standalone = _de_bound_paths(clause_text)
+        if consumed:
+            mentions = _subtract_mentions(mentions, consumed)
 
     def first(key):
         v = mentions.get(key)
@@ -542,8 +733,9 @@ def _compose_keys(mentions: dict[str, object],
     # ('apartado 1 de la disposición transitoria primera'); the bare
     # disposición key is emitted only when the clause itself names it
     if disp_mentioned and not any(
-            mentions.get(k)
-            for k in ("apartado", "punto", "letra", "numeral", "nota")):
+            mentions.get(k) for k in
+            ("apartado", "punto", "numero", "letra", "numeral",
+             "nota")):
         for d in disp_vals:
             subs.append(SubjectRef(
                 f"disp:{d}", "disposición " + d.replace(".", " "),
@@ -567,6 +759,47 @@ def _compose_keys(mentions: dict[str, object],
             return (comp(root_kind, root_v),)
         return ()
 
+    # WS-B declared paths: each bound 'X del Y' chain emits its full
+    # path; a non-root top composes under the clause's resolved root
+    # exactly like the flat cascade
+    _path_roots = set(
+        active_profile().operative_grammar.root_families) \
+        | set(_STANDALONE_KINDS)
+    for path in paths:
+        rvs = [None] if path[0][0] in _path_roots \
+            else (root_vals or [None])
+        for rv in rvs:
+            # emitted component list: (emit_kind, value, declared_kind)
+            eff = [(k, v, k) for k, v in path]
+            root_part = None
+            if rv is not None:
+                root_part = ("disp" if root_kind == "disposicion"
+                             else root_kind, str(rv), root_kind)
+            seq = ([root_part] if root_part else []) + eff
+            # numbered units inside an anejo are its "puntos" even when
+            # the clause calls them apartado/número — the flat cascade
+            # applies the same normalization, so the entity keeps one
+            # locator identity
+            for i in range(1, len(seq)):
+                pk, _pv, _pd = seq[i - 1]
+                ck, cv, cd = seq[i]
+                if pk in ("anejo", "anexo") \
+                        and ck in ("apartado", "numero") \
+                        and cv.isdigit():
+                    seq[i] = ("punto", cv, cd)
+            key = ".".join(f"{k}:{v}" for k, v, _d in seq)
+            comps = [(k, str(v)) + prov(d) for k, v, d in seq]
+            subs.append(SubjectRef(
+                key, key.replace(":", " "), path[-1][0].upper(),
+                proof_components=tuple(comps)))
+    # standalone-level subjects ('La Sección Quinta queda redactada'):
+    # ungoverned mentions only — a 'de la sección 7' qualifier emits
+    # nothing
+    for kind, v in standalone:
+        subs.append(SubjectRef(
+            f"{kind}:{v}", f"{kind} {v}", kind.upper(),
+            proof_components=(comp(kind, v),)))
+
     indice = mentions.get("indice")
     if indice is not None:
         for a in anejo_vals:
@@ -579,6 +812,7 @@ def _compose_keys(mentions: dict[str, object],
 
     punto_vals = _values("punto")
     apartado_vals = _values("apartado")
+    numero_vals = _values("numero")
     letras = list(mentions.get("letra") or [])
     numeral = first("numeral")
     nota = first("nota")
@@ -593,30 +827,32 @@ def _compose_keys(mentions: dict[str, object],
             out.append(comp("nota", nota[0]))
         return tuple(out)
 
-    if apartado_vals:
+    if apartado_vals or numero_vals:
         for rv in (root_vals or [None]):
-            for n in apartado_vals:
-                as_punto = root_kind == "anejo" and n.isdigit()
+            for mk, n in ([("apartado", v) for v in apartado_vals]
+                          + [("numero", v) for v in numero_vals]):
+                as_punto = mk in ("apartado", "numero") \
+                    and root_kind == "anejo" and n.isdigit()
                 if root_kind == "disposicion":
-                    base = f"disp:{rv}.apartado:{n}"
+                    base = f"disp:{rv}.{mk}:{n}"
                     comps = [comp("disposicion", rv)]
                 elif root_kind == "norma":
-                    base = f"norma:{rv}.apartado:{n}"
+                    base = f"norma:{rv}.{mk}:{n}"
                     comps = [comp("norma", rv)]
                 elif as_punto:
                     # numbered units inside an anejo are its "puntos"
                     # even when the clause calls them "apartado"
                     base = f"anejo:{rv}.punto:{n}"
                     comps = [comp("anejo", rv),
-                             ("punto", str(n)) + prov("apartado")]
+                             ("punto", str(n)) + prov(mk)]
                 elif root_kind == "anejo":
-                    base = f"anejo:{rv}.apartado:{n}"
+                    base = f"anejo:{rv}.{mk}:{n}"
                     comps = [comp("anejo", rv)]
                 else:
-                    base = f"apartado:{n}"
+                    base = f"{mk}:{n}"
                     comps = []
                 if not as_punto:
-                    comps.append(comp("apartado", n))
+                    comps.append(comp(mk, n))
                 for lv in (letras or [None]):
                     k = base + (f".letra:{lv}" if lv is not None else "")
                     if numeral is not None:
@@ -624,7 +860,8 @@ def _compose_keys(mentions: dict[str, object],
                     if nota is not None:
                         k += f".nota:{nota[0]}"
                     subs.append(SubjectRef(
-                        k, k.replace(":", " "), "APARTADO",
+                        k, k.replace(":", " "),
+                        "NUMERO" if mk == "numero" else "APARTADO",
                         proof_components=tuple(comps)
                         + tail_comps(lv)))
     elif punto_vals:
@@ -1685,7 +1922,8 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
                 mentions = _extract_mentions(zone)
                 ctx, cscope = merged_ctx()
                 subjects = _compose_keys(
-                    _subject_mentions(zone), ctx, cscope, i)
+                    _subject_mentions(zone), ctx, cscope, i,
+                    clause_text=_subject_zone(zone))
                 page = mentions.get("pagina")
                 page_ref = int(str(page[0][0])) if page else (
                     int(ctx["pagina"]) if "pagina" in ctx else None)
@@ -1818,7 +2056,8 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
         ctx, cscope = merged_ctx()
 
         subjects = _compose_keys(
-            _subject_mentions(n.text), ctx, cscope, i)
+            _subject_mentions(n.text), ctx, cscope, i,
+            clause_text=_subject_zone(n.text))
         if subjects:
             # children clauses without own subject inherit this level's
             levels[-1][2]["subject"] = subjects[0].locator_key

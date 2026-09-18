@@ -347,7 +347,9 @@ def _upsert_subject(ctx: _Ctx, boe_id: str, key: str, label: str,
         " locator_key, label, subject_kind) VALUES (?,?,?,?,?)",
         (sid, instrument_id(boe_id), key, label,
          kind if kind in ("NORMA", "ESTADO", "ANEJO", "PUNTO", "APARTADO",
-                          "INDICE", "DISPOSICION", "NOTA", "INSTRUMENT")
+                          "INDICE", "DISPOSICION", "NOTA", "INSTRUMENT",
+                          "NUMERO", "LETRA", "NUMERAL", "SECCION",
+                          "CAPITULO")
          else "APARTADO"))
     return sid
 
@@ -654,7 +656,8 @@ def _seg_keys(raw: str, masked: str,
         cursor = start + len(seg)
         seg_mentions = operations._extract_mentions(raw_seg)
         out.append({s.locator_key for s in
-                    operations._compose_keys(seg_mentions, ctx)})
+                    operations._compose_keys(seg_mentions, ctx,
+                                             clause_text=raw_seg)})
         ctx = operations._context_update(ctx, seg_mentions)
     return out
 
@@ -674,7 +677,8 @@ def _clause_scope_provable(op: operations.Operation, key: str) -> bool:
     """
     mentions = operations._extract_mentions(op.clause_text)
     keys = {s.locator_key for s in
-            operations._compose_keys(mentions, op.context)}
+            operations._compose_keys(mentions, op.context,
+                                     clause_text=op.clause_text)}
     if key not in keys:
         return False
     masked = _masked_clause(op.clause_text)

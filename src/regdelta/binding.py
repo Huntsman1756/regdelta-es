@@ -259,11 +259,17 @@ def anejo_spans(doc: DiarioDoc, num: str) -> list[tuple[int, int]]:
 # outer level — never at a child marker: 'a)' opens content *inside*
 # apartado 1, it does not start a new apartado. Marker grammar and the
 # kind->boundary map are profile data; the span policy is core.
-def _level_boundary(kind: str) -> re.Pattern:
+def _level_boundary(kind: str, val: str = "") -> re.Pattern:
     lg = active_profile().locator_grammar
     spec = lg.level_boundary.get(kind)
     if spec is None:
         return lg.markers[lg.default_boundary]
+    # a lettered level is bounded by lettered siblings, not by the
+    # numeric children inside it — '1.' under 'B)' must not close the
+    # apartado:B region
+    if val.isalpha() and spec == ("numeric",) \
+            and "uletra" in lg.markers:
+        spec = ("uletra",)
     return re.compile(
         "|".join(lg.markers[m].pattern for m in spec))
 
@@ -355,7 +361,7 @@ def text_region_candidates(doc: DiarioDoc,
         pat = _sub_pattern(kind, val)
         if pat is None:
             return []
-        bnd = _level_boundary(kind)
+        bnd = _level_boundary(kind, val)
         nxt: list[tuple[int, int]] = []
         for sp in cands:
             nxt.extend(sub_region_candidates(doc, sp, pat, bnd))

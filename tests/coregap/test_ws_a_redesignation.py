@@ -183,11 +183,13 @@ def test_cnmv_bulk_numeric_mapping_in_order(cnmv):
     subs, pairs = _pairs(clause)
     mapped = {p["subject"].locator_key: p["new_key"]
               for p in pairs if p["cls"] == "CODE_REDESIGNATION"}
+    # WS-B: 'número' is its own level — 'números 13-16 de la Norma 49'
+    # declares numero->norma, so the old locators keep their true kind
     assert mapped == {
-        "norma:49.apartado:13": "norma:49.apartado:10",
-        "norma:49.apartado:14": "norma:49.apartado:11",
-        "norma:49.apartado:15": "norma:49.apartado:12",
-        "norma:49.apartado:16": "norma:49.apartado:13",
+        "norma:49.numero:13": "norma:49.numero:10",
+        "norma:49.numero:14": "norma:49.numero:11",
+        "norma:49.numero:15": "norma:49.numero:12",
+        "norma:49.numero:16": "norma:49.numero:13",
     }
 
 

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219205601">
+  <metadatos>
+    <identificador>BOE-A-2017-14915</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20171129</fecha_disposicion>
+    <numero_oficial>3/2017</numero_oficial>
+    <titulo>Circular 3/2017, de 29 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre obligaciones de publicidad a través de la página web de las Empresas de Servicios de Inversión en materia de gobierno corporativo y política de remuneraciones y por la que se modifica la Circular 7/2008, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20171218</fecha_publicacion>
+    <diario_numero>306</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>124387</pagina_inicial>
+    <pagina_final>124392</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2017/12/18/pdfs/BOE-A-2017-14915.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2017-14915</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia/>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2017/11/29/3</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2017/11/29/3">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-14915</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-29</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/35"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3790"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4506"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2017/11/29/3/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2017-14915</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-29</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/35"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/60"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3790"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4506"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6242"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2017/11/29/3"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2017/11/29/3/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 3/2017, de 29 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre obligaciones de publicidad a través de la página web de las Empresas de Servicios de Inversión en materia de gobierno corporativo y política de remuneraciones y por la que se modifica la Circular 7/2008, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-12-18</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2017/11/29/3/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/11/29/3/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/11/29/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/11/29/3/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/11/29/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/11/29/3/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/11/29/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2017/11/29/3/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2017/11/29/3/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="35" orden="">Acceso a la información</materia>
+      <materia codigo="60" orden="">Activos financieros</materia>
+      <materia codigo="1186" orden="">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="3239" orden="">Entidades financieras</materia>
+      <materia codigo="3790" orden="">Fondos de dinero</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="4302" orden="">Instituciones de Inversión Colectiva</materia>
+      <materia codigo="4506" orden="">Internet</materia>
+      <materia codigo="6242" orden="">Riesgos</materia>
+      <materia codigo="6687" orden="">Sociedades de Inversión</materia>
+    </materias>
+    <notas>
+      <nota codigo="9" orden="210">Entrada en vigor, con la salvedad indicada, el 19 de diciembre de 2017.</nota>
+    </notas>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2008-20895" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>las normas 29, 30 y 50 de la Circular 7/2008, de 26 de noviembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2015-5164" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>el Real Decreto 358/2015, de 8 de mayo</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+      <alerta codigo="130" orden="">Telecomunicaciones</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_redonda">EXPOSICIÓN DE MOTIVOS</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_redonda">I</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">El artículo 31 ter del Real Decreto 217/2008, de 15 de febrero, sobre régimen jurídico de las empresas de servicios de inversión y de las demás entidades que prestan servicios de inversión y por el que se modifica parcialmente el Reglamento de la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva, aprobado por el Real Decreto 1309/2005, de 4 de noviembre, introducido por el Real Decreto 358/2015, de 8 de mayo, regula las obligaciones de publicidad en la página web de las empresas de servicios de inversión en materia de gobierno corporativo y política de remuneraciones.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El apartado 6 de dicho precepto indica que la Comisión Nacional del Mercado de Valores especificará los términos en que tiene que estar configurada la página web y la información relativa a gobierno corporativo y política de remuneraciones que las empresas de servicios de inversión, en función de su naturaleza, escala y complejidad, han de incluir en la misma.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">De acuerdo con el apartado 5 del artículo 31 ter, tales obligaciones de publicidad no resultan de aplicación a las empresas de servicios de inversión que no presten el servicio auxiliar de custodia, y presten únicamente uno o varios de los servicios de recepción y transmisión de órdenes, ejecución, gestión discrecional de carteras y asesoramiento en materia de inversión, y que no estén autorizadas para tener en depósito dinero o valores de clientes y que por esta razón nunca puedan hallarse en situación deudora respecto de dichos clientes.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">A este respecto, la presente Circular establece que las empresas de servicios de inversión sujetas a tales obligaciones publiquen en su web, en un apartado denominado «Gobierno corporativo y política de remuneraciones», diversa información entre la que resulta destacable la referida a sus estatutos sociales y otras normas de organización interna, a su estructura organizativa y procedimientos de control interno y a la composición de los diversos órganos de gobierno de los que estén dotadas. En relación con la información sobre política de remuneraciones, se podrá incluir la información prevista sobre esta materia en la presente Circular en el apartado denominado «Gobierno corporativo y política de remuneraciones» o incluir en el mismo un enlace directo al documento denominado «Información sobre Solvencia» al que se refiere el artículo 191 del texto refundido de la Ley del Mercado de Valores.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La disposición final tercera del Real Decreto 358/2015 otorga a la Comisión Nacional del Mercado de Valores facultades para dictar, de conformidad con su ámbito de competencia, las disposiciones precisas para la debida ejecución de dicho Real Decreto. Según establece la disposición final cuarta del Real Decreto 358/2015, la entrada en vigor de estas obligaciones de información se producirá a los tres meses de la publicación de la presente Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En uso de estas habilitaciones, la presente Circular desarrolla la información sobre gobierno corporativo y política de remuneraciones que las empresas de servicios de inversión deberán publicar en su página web, así como algunos aspectos de la configuración de ésta.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_redonda">II</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Por otro lado, la disposición adicional de la presente Circular modifica la Circular 7/2008, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo, para incorporar el nuevo tratamiento contable de los activos intangibles, con la finalidad, entre otros, de establecer una regulación armonizada. En concreto, esta modificación alinea el tratamiento contable de los activos intangibles, en particular del fondo de comercio, con la nueva redacción del artículo 39.4 del Código de Comercio, introducida por la Ley 22/2015, de 20 de julio, de Auditoría de Cuentas, y su desarrollo reglamentario a través del artículo primero del Real Decreto 602/2016, de 2 de diciembre, por el que se modifica el Plan General de Contabilidad aprobado por el Real Decreto 1514/2007, de 16 de noviembre. Los activos intangibles pasan a considerarse activos de vida útil definida que, por tanto, deben ser objeto de amortización.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La habilitación para regular esta materia se encuentra, en el caso de las empresas de servicios de inversión, en el artículo 1 de la Orden ECC/2515/2013, de 26 de diciembre, por la que se desarrolla el artículo 86.2 de la Ley 24/1988, de 28 de julio, del Mercado de Valores, que habilita a la CNMV para establecer, modificar y regular los modelos y las normas contables relativas a los estados financieros anuales o intermedios así como los referidos al cumplimiento de los coeficientes que se establezcan de las empresas de servicios de inversión. Esta habilitación debe entenderse referida al artículo 241.2 del texto refundido de la Ley del Mercado de Valores.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En el caso de las SGIIC, la habilitación se recoge en la Disposición Adicional Segunda de la Orden Ministerial de 31 de julio de 1991, sobre cesión de valores en préstamo por las Instituciones de Inversión Colectiva y régimen de recursos propios, de información y contable de las Sociedades Gestoras de Instituciones de Inversión Colectiva.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Por último, en el caso de las SGIEC, la habilitación se recoge en la Disposición Final 7ª de la Ley 22/2014, de 12 de noviembre, por la que se regulan las entidades de capital-riesgo, otras entidades de inversión colectiva de tipo cerrado y las sociedades gestoras de entidades de inversión colectiva de tipo cerrado, y por la que se modifica la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva, y en la Disposición segunda de la Orden de 17 de junio de 1999 por la que se desarrolla parcialmente la Ley 1/1999, de 5 de enero, reguladora de las entidades de capital-riesgo y sus sociedades gestoras, habilitando a la Comisión Nacional del Mercado de Valores para dictar disposiciones en materia de procedimiento de autorización de nuevas entidades, normas contables y obligaciones de información de las entidades de capital-riesgo y sus sociedades gestoras.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_redonda">III</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">La Circular consta de dos normas, una disposición adicional, una disposición transitoria y una disposición final.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En virtud de la habilitación recibida, el Consejo de la CNMV, previo informe de su Comité Consultivo y del Instituto de Contabilidad y Auditoría de Cuentas, en su reunión del día 29 de noviembre de 2017, ha aprobado la siguiente Circular:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma primera. Configuración de la información sobre gobierno corporativo y política de remuneraciones en la página web de las empresas de servicios de inversión.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">1. La información a que se refiere la norma segunda se recogerá en la página web de la empresa de servicios de inversión de forma completa, clara, comprensible y actualizada, y será accesible desde la página de inicio del sitio web, en un apartado bajo la denominación «Gobierno corporativo y política de remuneraciones». Todo el contenido de ese apartado deberá estar a no más de tres pasos de navegación (clics) desde la página de inicio y no requerirá la previa identificación del consultante.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">2. La información requerida en la norma segunda que se encuentre ya publicada en otros apartados de la página web, o se ofrezca de forma gratuita en las bases telemáticas de los registros públicos de la CNMV o de otros organismos, podrá ofrecerse mediante enlaces directos a dichos apartados o registros.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">3. Los contenidos deberán presentarse estructurados y jerarquizados, de modo que se permita un acceso rápido y directo a cada uno de ellos. Los títulos serán claros, concisos y significativos, y el lenguaje adecuado, evitando en la medida de lo posible el uso de tecnicismos y abreviaturas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">4. La estructura técnica de la página web y de los ficheros de contenidos permitirá la navegación y acceso con productos informáticos de uso común en el entorno de Internet y con un tiempo de respuesta que no impida la operatividad de la consulta.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">5. Si la página web ofrece versiones para distintas plataformas (ordenador, tableta, teléfono móvil, etc.), sus contenidos y presentación deberán ser razonablemente homogéneos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">6. Las empresas de servicios de inversión garantizarán la seguridad de su página web, la autenticidad y exactitud de la información y de los documentos publicados en ella, el acceso gratuito y la posibilidad de descarga e impresión de los mismos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">7. Las obligaciones de información recogidas en las Normas primera y segunda de esta Circular no serán de aplicación a las empresas de servicios de inversión que cumplan los requisitos siguientes:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">a) No estar autorizadas a prestar el servicio auxiliar al que se refiere el artículo 141. a) del texto refundido de la Ley del Mercado de Valores.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">b) Prestar únicamente uno o varios de los servicios o actividades de inversión enumerados en el artículo 140. a), b), d) y g) del texto refundido de la Ley del Mercado de Valores.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">c) No estar autorizadas para tener en depósito dinero o valores de sus clientes y que, por esta razón, nunca puedan hallarse en situación deudora respecto de dichos clientes.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Tampoco será de aplicación a aquellas empresas de servicios de inversión autorizadas exclusivamente a prestar el servicio a que se refiere el artículo 140. h).</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma segunda. Información sobre gobierno corporativo y política de remuneraciones en la página web de las empresas de servicios de inversión.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La página web a que se refiere el artículo 185.4 del texto refundido de la Ley del Mercado de Valores y el artículo 31 ter del Real Decreto 217/2008 incluirá, al menos, la siguiente información:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">a) Los estatutos sociales.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">b) Los reglamentos y otras normas de organización de sus órganos de gobierno y, en su caso, de las comisiones del consejo de administración.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">c) La estructura organizativa de la empresa de servicios de inversión, las líneas de responsabilidad en la toma de decisiones, el reparto de funciones en la organización y los criterios para la prevención de conflictos de intereses.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">d) Una breve descripción de los procedimientos establecidos para la identificación, medición, gestión, control y comunicación interna de los riesgos a los que esté o pueda estar expuesta la empresa de servicios de inversión.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">e) Una breve descripción de los mecanismos de control interno de la empresa de servicios de inversión, incluyendo los procedimientos administrativos y contables.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">f) La composición del consejo de administración y la identificación de los consejeros ejecutivos, no ejecutivos e independientes, en su caso.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">g) La identificación de las personas que ejercen los cargos de presidente del consejo de administración y de consejero delegado. En el caso de que una misma persona ejerza ambos cargos, se deberá indicar esta circunstancia.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">h) Cuando existan, la composición del comité de nombramientos y del comité de remuneraciones o, en su caso, del comité conjunto de nombramientos y remuneraciones, y las funciones atribuidas a cada uno de estos órganos.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">i) Cuando existan, la composición del comité de riesgos y del comité de auditoría o, en su caso, de la comisión mixta de riesgos y auditoría, incluyendo una descripción de las funciones atribuidas a cada uno.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">j) Indicación sobre si los nombramientos de miembros del consejo de administración y directores generales o asimilados se han adoptado, o no, con informe favorable del comité de nombramientos o, en su caso, del comité de nombramientos y remuneraciones.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">k) Información sobre la remuneración total devengada en cada ejercicio económico por los miembros del consejo de administración debiendo reflejarse la cifra total de la remuneración devengada y un desglose individualizado por conceptos retributivos con referencia al importe de los componentes fijos y dietas, así como a los conceptos retributivos de carácter variable. Esta información contendrá cualquier concepto retributivo devengado, cualquiera que sea su naturaleza o la entidad del grupo que lo satisfaga, incluyéndose las retribuciones devengadas por los miembros del consejo de administración por su pertenencia a consejos en otras sociedades del grupo o participadas en las que actúe en representación del grupo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Alternativamente, podrá incluirse un enlace directo al documento denominado «Información sobre Solvencia» al que se refiere el artículo 191 del texto refundido de la Ley del Mercado de Valores.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">l) Información sobre los procedimientos establecidos para asegurar la idoneidad de los miembros del consejo de administración, directores generales y asimilados, así como sobre los mecanismos dispuestos para cumplir con las normas sobre incompatibilidades.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición adicional. Modificación de la Circular 7/2008, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La Circular 7/2008 de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo, queda modificada del siguiente modo:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">1. El apartado 8 de la Norma 29ª queda redactado en los siguientes términos:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«8. El fondo de comercio es un activo que representa beneficios económicos futuros, que no son identificables ni reconocibles de forma separada o individual, surgidos de otros elementos adquiridos a título oneroso como consecuencia de una combinación de negocios. Cuando proceda reconocer un fondo de comercio, éste se reconocerá y medirá de acuerdo con lo previsto en la Norma 41ª de esta Circular. El fondo de comercio deberá amortizarse durante su vida útil. La vida útil se determinará de forma separada para cada unidad generadora de efectivo a la que se le haya asignado fondo de comercio. Se presumirá, salvo prueba en contrario, que su vida útil es de diez años y que su recuperación es lineal.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">2. El apartado 10 de la Norma 29ª queda redactado en los siguientes términos:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«10. Los activos intangibles son activos de vida útil definida y se amortizarán teniendo en cuenta las siguientes precisiones:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">a) El importe amortizable se determinará considerando que el valor residual del activo intangible es nulo, salvo que exista un compromiso en firme de venta a un tercero antes de que termine su vida económica.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">b) La vida útil de un activo intangible no podrá exceder del periodo durante el cual la entidad tiene derecho a utilizarlo. Cuando la vida útil de estos activos no pueda estimarse de manera fiable se amortizarán en un plazo de diez años, sin perjuicio de los plazos establecidos en las normas particulares sobre el inmovilizado intangible.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">c) El método de amortización reflejará el patrón de consumo esperado por la entidad, de los beneficios económicos futuros derivados del activo intangible. Si ese patrón no pudiera determinarse de forma fiable, se adoptará un método lineal de amortización.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">d) La amortización de un activo intangible sólo podrá suspenderse cuando su valor en libros sea nulo, cause baja del balance o se haya reclasificado como activo no corriente mantenido para la venta, de acuerdo con lo previsto en la Norma 31ª de esta Circular.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">e) La entidad revisará, al menos al cierre de cada ejercicio, el periodo y método de amortización de los activos intangibles. Cuando considere que no son los adecuados, los efectos de las variaciones en el periodo o el método de amortización se reconocerán como un cambio en una estimación contable, de acuerdo con la Norma 18ª de esta Circular».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">3. El apartado 3 de la Norma 30ª queda redactado en los siguientes términos:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«3. En cualquier caso, al menos anualmente, la entidad analizará si existen indicios de deterioro de valor de las unidades generadoras de efectivo a las que se haya asignado un fondo de comercio, y, en caso de que los haya, se comprobará su eventual deterioro de valor y estimará el importe recuperable de los activos intangibles y de los activos que todavía no estén en condiciones de uso».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">4. La letra l) del apartado 2 de la Norma 50ª queda redactado en los siguientes términos:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«l) Amortización: Incluye la dotación anual a la amortización de los elementos del activo material y del activo intangible».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">5. En la Memoria individual y consolidada incluida en el anexo III, las menciones que se hacen a «activos intangibles con vida útil indefinida» se entenderán hechas a «activos intangibles». Asimismo, se deberá informar sobre las estimaciones realizadas para determinar la vida útil del fondo de comercio y el método de amortización empleado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición transitoria. Primera aplicación.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">1. De conformidad con la norma decimoctava de la Circular 7/2008, las entidades aplicarán lo dispuesto en la disposición adicional de esta Circular de forma prospectiva como un cambio en las estimaciones contables, siendo objeto de información en la memoria de las cuentas anuales individuales y consolidadas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">2. No obstante lo indicado en el apartado precedente, las entidades podrán optar por amortizar el valor en libros del fondo de comercio existente al cierre del período anterior y de los activos intangibles que se hubieran calificado como de vida útil indefinida, con cargo a reservas, siguiendo un criterio lineal de recuperación y considerando una vida útil de diez años a contar desde la fecha de adquisición.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El cargo por amortización que resulte de aplicar este criterio al valor inicial del activo deberá minorarse en la pérdida por deterioro que hubiera reconocido la entidad desde la fecha en que se inicie el cómputo de los diez años.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El valor en libros que subsista se amortizará de forma prospectiva. A tal efecto, se presumirá, salvo prueba en contrario, que la vida útil del fondo de comercio será el período que reste hasta completar el plazo de diez años a que se refiere el párrafo primero de este apartado.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Las cuentas anuales correspondientes al ejercicio 2017 se presentarán incluyendo información comparativa ajustada para los activos intangibles si la entidad opta por seguir el criterio recogido en este apartado 2.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición final. Entrada en vigor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">1. La presente Circular entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">2. No obstante lo dispuesto en el apartado anterior, las empresas de servicios de inversión contarán con un plazo de tres meses desde la publicación de esta Circular para desarrollar las obligaciones previstas en las normas 1 y 2.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">3. En cuanto a lo establecido en la Disposición Adicional, entrará en vigor en todo caso en los ejercicios iniciados a partir de 1 de enero de 2017.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Madrid, 29 de noviembre de 2017.–El Presidente de la Comisión Nacional del Mercado de Valores, Sebastián Albella Amigo.</p>
+  </texto>
+</documento>

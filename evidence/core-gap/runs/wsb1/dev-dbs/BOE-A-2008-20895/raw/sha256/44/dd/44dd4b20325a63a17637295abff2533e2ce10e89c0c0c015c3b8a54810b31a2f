@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento fecha_actualizacion="20251219195601">
+  <metadatos>
+    <identificador>BOE-A-2015-12404</identificador>
+    <origen_legislativo codigo="1">Estatal</origen_legislativo>
+    <departamento codigo="1040">Comisión Nacional del Mercado de Valores</departamento>
+    <rango codigo="1390">Circular</rango>
+    <fecha_disposicion>20151028</fecha_disposicion>
+    <numero_oficial>4/2015</numero_oficial>
+    <titulo>Circular 4/2015, de 28 de octubre, de la Comisión Nacional del Mercado de Valores, por la que se modifican la Circular 7/2008, de 26 de noviembre, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo, y la Circular 11/2008, de 30 de diciembre, sobre normas contables, cuentas anuales y estados de información reservada de las Entidades de Capital-Riesgo.</titulo>
+    <diario codigo="BOE">Boletín Oficial del Estado</diario>
+    <fecha_publicacion>20151117</fecha_publicacion>
+    <diario_numero>275</diario_numero>
+    <seccion>1</seccion>
+    <subseccion/>
+    <pagina_inicial>107960</pagina_inicial>
+    <pagina_final>108001</pagina_final>
+    <suplemento_pagina_inicial/>
+    <suplemento_pagina_final/>
+    <url_pdf>https://www.boe.es/boe/dias/2015/11/17/pdfs/BOE-A-2015-12404.pdf</url_pdf>
+    <url_epub>
+      <url_epub>https://www.boe.es/diario_boe/epub.php?id=BOE-A-2015-12404</url_epub>
+    </url_epub>
+    <url_pdf_catalan/>
+    <url_pdf_euskera/>
+    <url_pdf_gallego/>
+    <url_pdf_valenciano/>
+    <estatus_legislativo>L</estatus_legislativo>
+    <fecha_vigencia>20151118</fecha_vigencia>
+    <estatus_derogacion>N</estatus_derogacion>
+    <fecha_derogacion/>
+    <judicialmente_anulada>N</judicialmente_anulada>
+    <fecha_anulacion/>
+    <vigencia_agotada>N</vigencia_agotada>
+    <estado_consolidacion codigo="0"/>
+    <letra_imagen>A</letra_imagen>
+    <suplemento_letra_imagen/>
+    <url_eli>https://www.boe.es/eli/es/cir/2015/10/28/4</url_eli>
+  </metadatos>
+  <metadata-eli>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:eli="http://data.europa.eu/eli/ontology#">
+      <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2015/10/28/4">
+        <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+        <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+        <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-12404</eli:id_local>
+        <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-10-28</eli:date_document>
+        <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3789"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+        <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6697"/>
+        <eli:has_member>
+          <eli:LegalResource rdf:about="https://www.boe.es/eli/es/cir/2015/10/28/4/dof">
+            <eli:jurisdiction rdf:resource="http://www.elidata.es/mdr/authority/jurisdiction/1/es"/>
+            <eli:type_document rdf:resource="http://www.elidata.es/mdr/authority/resource-type/1/cir"/>
+            <eli:id_local rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOE-A-2015-12404</eli:id_local>
+            <eli:date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-10-28</eli:date_document>
+            <eli:number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</eli:number>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1186"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/1627"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3239"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/3789"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4165"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/4302"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6687"/>
+            <eli:is_about rdf:resource="https://www.boe.es/legislacion/eli/materias/6697"/>
+            <eli:version rdf:resource="http://www.elidata.es/mdr/authority/version/dof"/>
+            <eli:is_member_of rdf:resource="https://www.boe.es/eli/es/cir/2015/10/28/4"/>
+            <eli:is_realized_by>
+              <eli:LegalExpression rdf:about="https://www.boe.es/eli/es/cir/2015/10/28/4/dof/spa">
+                <eli:language rdf:resource="http://www.elidata.es/mdr/authority/language/spa"/>
+                <eli:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circular 4/2015, de 28 de octubre, de la Comisión Nacional del Mercado de Valores, por la que se modifican la Circular 7/2008, de 26 de noviembre, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo, y la Circular 11/2008, de 30 de diciembre, sobre normas contables, cuentas anuales y estados de información reservada de las Entidades de Capital-Riesgo.</eli:title>
+                <eli:publisher_agent rdf:resource="https://www.boe.es"/>
+                <eli:date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-11-17</eli:date_publication>
+                <eli:realizes rdf:resource="https://www.boe.es/eli/es/cir/2015/10/28/4/dof"/>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2015/10/28/4/dof/spa/epub">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/epub+zip"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2015/10/28/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2015/10/28/4/dof/spa/html">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/text/html"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2015/10/28/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2015/10/28/4/dof/spa/pdf">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2015/10/28/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+                <eli:is_embodied_by>
+                  <eli:Format rdf:about="https://www.boe.es/eli/es/cir/2015/10/28/4/dof/spa/xml">
+                    <eli:format rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+                    <eli:embodies rdf:resource="https://www.boe.es/eli/es/cir/2015/10/28/4/dof/spa"/>
+                  </eli:Format>
+                </eli:is_embodied_by>
+              </eli:LegalExpression>
+            </eli:is_realized_by>
+          </eli:LegalResource>
+        </eli:has_member>
+      </eli:LegalResource>
+    </rdf:RDF>
+  </metadata-eli>
+  <analisis>
+    <materias>
+      <materia codigo="1186" orden="">Comisión Nacional del Mercado de Valores</materia>
+      <materia codigo="1627" orden="">Contabilidad</materia>
+      <materia codigo="3239" orden="">Entidades financieras</materia>
+      <materia codigo="3789" orden="">Fondos de Capital Riesgo</materia>
+      <materia codigo="4165" orden="">Información</materia>
+      <materia codigo="4302" orden="">Instituciones de Inversión Colectiva</materia>
+      <materia codigo="6687" orden="">Sociedades de Inversión</materia>
+      <materia codigo="6697" orden="">Sociedades Gestoras de Instituciones de Inversión Colectiva</materia>
+    </materias>
+    <notas/>
+    <referencias>
+      <anteriores>
+        <anterior referencia="BOE-A-2009-656" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>Norma 1 y 19.1 de la Circular 11/2008, de 30 de diciembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2008-20895" orden="2015">
+          <palabra codigo="270">MODIFICA</palabra>
+          <texto>Norma 58.1 y anexos V y VI de la Circular 7/2008, de 26 de noviembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2014-11714" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>Disposición final 7 de la Ley 22/2014, de 12 de noviembre</texto>
+        </anterior>
+        <anterior referencia="BOE-A-1999-14369" orden="3060">
+          <palabra codigo="440">DE CONFORMIDAD con</palabra>
+          <texto>Disposición 2 de la Orden de 17 de junio de 1999</texto>
+        </anterior>
+        <anterior referencia="BOE-A-2015-1454" orden="5020">
+          <palabra codigo="330">CITA</palabra>
+          <texto>Real Decreto 83/2015, de 13 de febrero</texto>
+        </anterior>
+      </anteriores>
+      <posteriores/>
+    </referencias>
+    <alertas>
+      <alerta codigo="112" orden="">Derecho Mercantil</alerta>
+      <alerta codigo="127" orden="">Sistema financiero</alerta>
+    </alertas>
+  </analisis>
+  <texto>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Con motivo de la adaptación del régimen de las entidades de capital riesgo y sus sociedades gestoras a la nueva normativa de la Unión Europea (Directiva 2011/61/UE, del Parlamento Europeo y del Consejo, de 8 de junio relativa a las gestoras de fondos de inversión alternativos, y Reglamento (UE) n.º 345/2013 y 346/2013, ambos del Parlamento Europeo y del Consejo, de 17 de abril de 2013, sobre fondos de capital riesgo europeos y fondos de emprendimiento social europeos), y con el objetivo adicional de fomentar un crecimiento equilibrado del sector, se promulgó la Ley 22/2014, de 12 de noviembre, por la que se regulan las entidades del capital riesgo, otras entidades de inversión colectiva de tipo cerrado y las sociedades gestoras de entidades de inversión colectiva de tipo cerrado y por la que se modifica la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La incorporación a la normativa española de las citadas normas europeas culminó con el Reglamento de Instituciones de Inversión Colectiva, aprobado por el Real Decreto 83/2015, de 13 de febrero, por el que se modifica el Real Decreto 1082/2012, de 13 de julio, por el que se aprueba el Reglamento de desarrollo de la Ley 35/2003, de 4 de noviembre, de instituciones de inversión colectiva.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente Circular tiene como objetivo actualizar la información recabada mediante los estados reservados establecidos en la Circular 7/2008, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo, y en la Circular 11/2008, de 30 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las Entidades de Capital-Riesgo a las modificaciones introducidas por la Ley 22/2014, de 12 de noviembre. Además se incorporan las novedades introducidas por el Reglamento de Instituciones de Inversión Colectiva y que afectan a SGIIC.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">De modo resumido, las principales novedades son:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">En primer lugar, y en lo referente a los estados reservados de la Circular 7/2008 en cuanto a las SGEIC, las modificaciones son motivadas por la ampliación de servicios de inversión que este tipo de entidades pueden prestar, por la exigencia de realizar aportaciones al Fondo de Garantía de Inversiones y por la nueva definición de recursos propios. Adicionalmente, se incrementa la periodicidad de envío de información periódica, pasando a ser semestral con el objetivo de disponer de la información reservada con igual periodicidad para todas las entidades gestoras.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En relación con las SGIIC, se modifica el estado de recursos propios en línea con la nueva definición del artículo 100 del Reglamento de Instituciones de Inversión Colectiva.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Asimismo, y resultando de aplicación a SGIIC y SGEIC, se establece la obligación de informar sobre el número de reclamaciones recibidas y tramitadas por los servicios de atención al cliente, en línea con las Directrices conjuntas de ESMA, EBA e EIOPA sobre la gestión de reclamaciones de usuarios de servicios financieros.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">En segundo lugar, y en lo relativo a la Circular 11/2008, se incrementa el desglose de la información reservada en consonancia con la ampliación del conjunto de activos admitidos para el cumplimiento de los coeficientes legales. Asimismo, se incorpora al ámbito de aplicación de dicha Circular las nuevas entidades definidas en la Ley 22/2014, de 12 de noviembre, y se establecen nuevos estados reservados para SICC autogestionadas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Teniendo en cuenta todo lo anterior, y de modo más concreto en cuanto a los modelos de información reservada, los cambios son:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Para SGEIC:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">En los estados R01 y R02 se detallan nuevos desgloses (en cuentas de orden y en comisiones recibidas) en relación con las nuevas actividades.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">El estado R05, de entidades de capital riesgo gestionadas, se modifica para incluir a las nuevas figuras de la Ley 22/2014, de 12 de noviembre, y se incluye una columna para el patrimonio comprometido.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se introduce un estado R06 destinado, específicamente, a recabar información sobre las carteras gestionadas.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se introducen los estados R08 y R09 para SGEIC relativos al cálculo de recursos propios y al cálculo de aportaciones al Fondo de Garantía de Inversiones, respectivamente, de acuerdo con los requerimientos de la Ley 22/2014, de 12 de noviembre.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se incluye un nuevo estado para SGEIC, R10, destinado a obtener información sobre comisiones, número de clientes y reclamaciones recibidas en relación a actividades realizadas por las SGEIC, además de la gestión de ECR.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Para SGIIC:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Se incluye una nueva columna en el estado G05, de «total patrimonio comprometido», aplicable a las ECR y EICC gestionadas y se modifica el estado G10 de SGIIC, ajustando los epígrafes al contenido establecido en el Real Decreto 83/2015, de 13 de febrero.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Se introduce un nuevo estado G13 para SGIIC, destinado a obtener información sobre las reclamaciones presentadas y resueltas durante el ejercicio por los departamentos de atención al cliente.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Para ECR:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Se introduce un nuevo desglose de préstamos y créditos en el CR1 y se modifica el literal de determinados epígrafes de los estados CR3 y CR4.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Para SICC autogestionadas:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Se establecen dos estados reservados (P01 y P02).</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">En uso de las habilitaciones contenidas en la disposición final séptima de la Ley 22/2014, de 12 de noviembre, en la Disposición segunda de la Orden del Ministerio de Economía y Hacienda, de 17 de junio de 1999, por la que se desarrolla parcialmente la Ley 1/1999, de 5 de enero, reguladora de las entidades de capital-riesgo y sus sociedades gestoras, y en las disposiciones adicionales primera y segunda de la Orden del Ministerio de Economía y Hacienda, de 31 de julio de 1991, de cesión de valores en préstamo por las instituciones de inversión colectiva y régimen de recursos propios, de información y contable de las sociedades gestoras de instituciones de inversión colectiva, y previo informe de su Comité Consultivo, el Consejo de la Comisión Nacional del Mercado de Valores, en su sesión de fecha 28 de octubre de 2015 ha dispuesto lo siguiente:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma primera. Modificación de la Circular 7/2008, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las Empresas de Servicios de Inversión, Sociedades Gestoras de Instituciones de Inversión Colectiva y Sociedades Gestoras de Entidades de Capital-Riesgo (modificada por la Circular 6/2010, de 21 de diciembre y por la Circular 5/2011, de 12 de diciembre).</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La Circular 7/2008, de 26 de noviembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de determinadas entidades, queda modificada del siguiente modo:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Uno. Se sustituye el segundo recuadro del apartado 1 de la Norma 58.ª (estados reservados individuales. Clases y plazos de rendición) a efectos de incorporar un estado G13 sobre número y tipología de reclamaciones recibidas y tramitadas en el periodo. Dicho recuadro, relativo a SGIIC, queda redactado en los siguientes términos:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_cursiva">Estados reservados individuales de SGIIC. Clases y plazos de rendición</p>
+    <table xmlns:xhtml="http://www.w3.org/1999/xhtml" class="ning_n_estilo_de_tabla">
+      <colgroup>
+        <col class="row_column_1"/>
+        <col class="row_column_2"/>
+        <col class="row_column_3"/>
+        <col class="row_column_4"/>
+      </colgroup>
+      <thead>
+        <tr class="row_column_5">
+          <td>
+            <p class="cabeza_tabla">Estado: Denominación</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Entidad obligada</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Periodicidad</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Plazo de presentación</p>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row_column_6">
+          <td>
+            <p class="cuerpo_tabla_izq">G01. Balance reservado.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">G02. Cuenta de pérdidas y ganancias reservada.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">G03. Cartera de inversiones financieras y tesorería.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">G04. Cartera de operaciones con instrumentos derivados.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">G05. IIC, ECR y Fondos de pensiones gestionados.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+        <tr class="row_column_8">
+          <td>
+            <p class="cuerpo_tabla_izq">G06. Resto de gestión discrecional de carteras de inversión. Patrimonio y comisiones.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">G07. Información auxiliar.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">G10. Cálculo de recursos propios.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">G11. Fondo de garantía de inversiones.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">G12. Ingresos brutos y número de clientes.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">G13. Número y tipología de reclamaciones recibidas y tramitadas.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+        <tr class="row_column_6">
+          <td>
+            <p class="cuerpo_tabla_izq">GA1. Aplicación del resultado del ejercicio.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGIIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Día 30 del mes siguiente.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Dos. Se sustituye el tercer recuadro del apartado 1 de la Norma 58.ª (estados reservados individuales. Clases y plazos de rendición) incorporando un estado R06 de gestión discrecional de carteras, un estado R08 relativo al cálculo de recursos propios, un estado R09 relativo a las aportaciones al Fondo de Garantía de Inversiones y un estado R10 sobre número y tipología de clientes e incentivos y reclamaciones. Dicho recuadro, relativo a SGEIC, queda redactado en los siguientes términos:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_cursiva">Estados reservados individuales de SGEIC. Clases y plazos de rendición</p>
+    <table xmlns:xhtml="http://www.w3.org/1999/xhtml" class="ning_n_estilo_de_tabla">
+      <colgroup>
+        <col class="row_column_9"/>
+        <col class="row_column_2"/>
+        <col class="row_column_3"/>
+        <col class="row_column_10"/>
+      </colgroup>
+      <thead>
+        <tr class="row_column_5">
+          <td>
+            <p class="cabeza_tabla">Estado: Denominación</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Entidad obligada</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Periodicidad</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Plazo máximo de presentación</p>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row_column_11">
+          <td>
+            <p class="cuerpo_tabla_izq">R01. Balance reservado.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGEIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">30 de septiembre para el primer semestre y 30 de abril para segundo semestre.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">R02. Cuenta de pérdidas y ganancias reservada.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGEIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">R03. Cartera de inversiones financieras y tesorería.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGEIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_8">
+          <td>
+            <p class="cuerpo_tabla_izq">R04. Cartera de operaciones con instrumentos derivados.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGEIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">R05. Entidades de capital riesgo gestionadas.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGEIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_8">
+          <td>
+            <p class="cuerpo_tabla_izq">R06. Gestión discrecional de carteras de inversión. Patrimonio y comisiones.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGEIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">R07. Información auxiliar.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGEIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_7">
+          <td>
+            <p class="cuerpo_tabla_izq">R08. Estado cálculo de recursos propios.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGEIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Semestral.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_8">
+          <td>
+            <p class="cuerpo_tabla_izq">R09. Estado aportaciones al FGI.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGEIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">30 de abril del ejercicio siguiente al de referencia.</p>
+          </td>
+        </tr>
+        <tr class="row_column_8">
+          <td>
+            <p class="cuerpo_tabla_izq">R10. Número y tipología de clientes. Incentivos y reclamaciones.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGEIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">30 de abril del ejercicio siguiente al de referencia.</p>
+          </td>
+        </tr>
+        <tr class="row_column_11">
+          <td>
+            <p class="cuerpo_tabla_izq">RA1. Aplicación del resultado del ejercicio.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">SGEIC.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">30 de abril del ejercicio siguiente al de referencia.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Tres. Se modifica el estado de IIC, ECR y FP gestionados (G05) y el modelo del estado de cálculo de recursos propios (G10) para las Sociedades Gestoras de Instituciones de Inversión Colectiva que se incluían en el Anexo V, sustituyéndolos por los modelos G05 y G10, respectivamente, recogidos en el Anexo I de la presente Circular. Adicionalmente, se incluye un nuevo modelo G13 sobre número y tipología de reclamaciones recibidas y tramitadas en el periodo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">Cuatro. Los estados reservados que se incluían en el Anexo VI para SGEIC se sustituyen por los recogidos en el Anexo II de la presente Circular, incluyendo los nuevos estados R06, R08, R09 y R10.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Norma segunda. Modificación de la Circular 11/2008, de 30 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las entidades de capital-riesgo.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La Circular 11/2008, de 30 de diciembre, de la Comisión Nacional del Mercado de Valores, sobre normas contables, cuentas anuales y estados de información reservada de las entidades de capital-riesgo, queda modificada del siguiente modo:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Uno. La norma 1.ª (Ámbito de aplicación) queda redactada en los siguientes términos:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«La presente Circular será de aplicación a las entidades incluidas en el Título I de la Ley 22/2014, de 12 de noviembre, por la que se regulan las entidades del capital riesgo, otras entidades de inversión colectiva de tipo cerrado y las sociedades gestoras de entidades de inversión colectiva de tipo cerrado y por la que se modifica la Ley 35/2003, de 4 de noviembre, de Instituciones de Inversión Colectiva (en adelante, entidades de capital riesgo).</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado">La inclusión en esta Circular de Normas contables y criterios de valoración y clasificación para determinadas operaciones no supondrá autorización a las entidades para realizarlas si por la naturaleza de éstas o de aquéllas, por limitaciones a su operativa impuestas por disposiciones vigentes de aplicación o por su política de inversiones, recogida en los estatutos sociales o reglamento de gestión, o porque se necesitase autorización específica para ello, no pudieran ser realizadas.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Dos. El apartado 1 de la Norma 19.ª, queda redactado en los siguientes términos:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">«1. Las entidades de capital-riesgo (ECR), los fondos de capital riesgo europeos (FCRE) y los fondos de emprendimiento social europeos (FESE) deberán presentar, en la forma detallada en la Norma 6ª.4, a la Comisión Nacional del Mercado de Valores los siguientes modelos de estados de información pública y reservada, referidos al último día del período señalado, cuyo detalle figura en el anexo III de esta Circular:</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="centro_cursiva">Estados reservados individuales de ECR, FCRE y FESE. Clases y plazos de rendición</p>
+    <table xmlns:xhtml="http://www.w3.org/1999/xhtml" class="ning_n_estilo_de_tabla">
+      <colgroup>
+        <col class="row_column_12"/>
+        <col class="row_column_3"/>
+        <col class="row_column_13"/>
+      </colgroup>
+      <thead>
+        <tr class="row_column_5">
+          <td>
+            <p class="cabeza_tabla">Estado: Denominación</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Periodicidad</p>
+          </td>
+          <td>
+            <p class="cabeza_tabla">Plazo máximo de presentación</p>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row_column_14">
+          <td>
+            <p class="cuerpo_tabla_izq">P01. Balance Público.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">30 de abril del ejercicio siguiente al de referencia.</p>
+          </td>
+        </tr>
+        <tr class="row_column_15">
+          <td>
+            <p class="cuerpo_tabla_izq">P02. Cuenta de Pérdidas y Ganancias pública.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_15">
+          <td>
+            <p class="cuerpo_tabla_izq">CR1. Balance Reservado.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_15">
+          <td>
+            <p class="cuerpo_tabla_izq">CR2. Cuenta de Pérdida y Ganancias Reservada.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_15">
+          <td>
+            <p class="cuerpo_tabla_izq">CR3. Detalle de las Inversiones Financieras y tesorería.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_15">
+          <td>
+            <p class="cuerpo_tabla_izq">CR3-Bis Detalle de los instrumentos financieros derivados.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_15">
+          <td>
+            <p class="cuerpo_tabla_izq">CR4. Información auxiliar para coeficientes legales.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_15">
+          <td>
+            <p class="cuerpo_tabla_izq">CR5. Información estadística y operativa.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+        <tr class="row_column_14">
+          <td>
+            <p class="cuerpo_tabla_izq">CR6. Aplicación del beneficio del ejercicio.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Anual.</p>
+          </td>
+          <td>
+            <p class="cuerpo_tabla_izq">Id.</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="sangrado_2">Las SICC autogestionadas deberán presentar, en la forma detallada en la Norma 6ª.4, a la Comisión Nacional del Mercado de Valores, los modelos P01 y P02 anteriores con carácter anual y referidos al último día del periodo señalado, antes del 30 de abril del ejercicio siguiente al de referencia.»</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="articulo">Disposición final única. Entrada en vigor.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo">La presente Circular entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="parrafo_2">Madrid, 28 de octubre de 2015.–La Presidenta de la Comisión Nacional del Mercado de Valores, María Elvira Rodríguez Herrer.</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo">ANEXO I</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-16" alt="1" src="/datos/imagenes/disp/2015/275/12404_5651.png" width="1414" height="2682"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-17" alt="2" src="/datos/imagenes/disp/2015/275/12404_5689.png" width="1426" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-18" alt="3" src="/datos/imagenes/disp/2015/275/12404_5722.png" width="1577" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-19" alt="4" src="/datos/imagenes/disp/2015/275/12404_5755.png" width="1632" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-20" alt="5" src="/datos/imagenes/disp/2015/275/12404_5789.png" width="1847" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-21" alt="6" src="/datos/imagenes/disp/2015/275/12404_5822.png" width="2776" height="1160"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-22" alt="7" src="/datos/imagenes/disp/2015/275/12404_5856.png" width="2776" height="2126"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-23" alt="8" src="/datos/imagenes/disp/2015/275/12404_5890.png" width="2776" height="1200"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-24" alt="9" src="/datos/imagenes/disp/2015/275/12404_5923.png" width="2126" height="2299"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-25" alt="10" src="/datos/imagenes/disp/2015/275/12404_6004.png" width="2126" height="1557"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-26" alt="11" src="/datos/imagenes/disp/2015/275/12404_6078.png" width="2126" height="2490"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-27" alt="12" src="/datos/imagenes/disp/2015/275/12404_6186.png" width="1978" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo">ANEXO II</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-28" alt="13" src="/datos/imagenes/disp/2015/275/12404_6405.png" width="1406" height="2682"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-29" alt="14" src="/datos/imagenes/disp/2015/275/12404_6481.png" width="1439" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-30" alt="15" src="/datos/imagenes/disp/2015/275/12404_6555.png" width="2126" height="2314"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-31" alt="16" src="/datos/imagenes/disp/2015/275/12404_6628.png" width="1660" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-32" alt="17" src="/datos/imagenes/disp/2015/275/12404_6703.png" width="1660" height="2611"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-33" alt="18" src="/datos/imagenes/disp/2015/275/12404_6778.png" width="2776" height="1009"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-22" alt="19" src="/datos/imagenes/disp/2015/275/12404_6852.png" width="2776" height="2126"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-34" alt="20" src="/datos/imagenes/disp/2015/275/12404_6925.png" width="2776" height="1134"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-35" alt="21" src="/datos/imagenes/disp/2015/275/12404_6999.png" width="2126" height="2053"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-36" alt="22" src="/datos/imagenes/disp/2015/275/12404_7072.png" width="2126" height="1536"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-37" alt="23" src="/datos/imagenes/disp/2015/275/12404_7145.png" width="2126" height="2681"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-38" alt="24" src="/datos/imagenes/disp/2015/275/12404_7219.png" width="2502" height="2126"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-39" alt="25" src="/datos/imagenes/disp/2015/275/12404_7295.png" width="2776" height="1999"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="anexo">ANEXO III</p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-40" alt="26" src="/datos/imagenes/disp/2015/275/12404_7606.png" width="1887" height="2682"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-41" alt="27" src="/datos/imagenes/disp/2015/275/12404_7680.png" width="1954" height="1988"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-42" alt="28" src="/datos/imagenes/disp/2015/275/12404_7757.png" width="1962" height="2150"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-43" alt="29" src="/datos/imagenes/disp/2015/275/12404_7831.png" width="1403" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-44" alt="30" src="/datos/imagenes/disp/2015/275/12404_7906.png" width="1403" height="2186"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-45" alt="31" src="/datos/imagenes/disp/2015/275/12404_7979.png" width="1890" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-46" alt="32" src="/datos/imagenes/disp/2015/275/12404_8055.png" width="1890" height="1822"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-47" alt="33" src="/datos/imagenes/disp/2015/275/12404_8198.png" width="2776" height="1669"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-48" alt="34" src="/datos/imagenes/disp/2015/275/12404_8272.png" width="2776" height="1078"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-49" alt="35" src="/datos/imagenes/disp/2015/275/12404_8346.png" width="2126" height="2580"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-50" alt="36" src="/datos/imagenes/disp/2015/275/12404_8421.png" width="1223" height="2776"/>
+    </p>
+    <p xmlns:xhtml="http://www.w3.org/1999/xhtml" class="imagen">
+      <img class="frame-51" alt="37" src="/datos/imagenes/disp/2015/275/12404_8495.png" width="2126" height="2714"/>
+    </p>
+  </texto>
+</documento>

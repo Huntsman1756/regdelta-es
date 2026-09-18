@@ -142,6 +142,12 @@ class LocatorGrammar:
                                         # '.kind:' component split
     coverage_heads: tuple               # history _COVER_HEADS: kinds whose
                                         # span must restate the token
+    # CORE-GAP WS-B — declared inside-out hierarchy: 'X del Y' chains
+    # compose paths when the child kind lists the parent kind as
+    # admissible. A root-family mention is never a child ('normas 43 a
+    # 48 de la sección 7' keeps norma flat; the sección is qualifier
+    # context). Empty disables path composition entirely.
+    child_parents: Mapping[str, tuple] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
@@ -306,8 +312,8 @@ class SourceProfile:
 LOCATOR_KINDS = frozenset({
     "norma", "anejo", "anexo", "articulo", "capitulo", "titulo",
     "seccion", "disp", "disposicion", "pagina",
-    "apartado", "punto", "letra", "numeral", "nota", "indice",
-    "estado", "fichero",
+    "apartado", "punto", "numero", "letra", "numeral", "nota",
+    "indice", "estado", "fichero",
 })
 
 OP_KINDS = frozenset({"ADD", "DELETE", "MODIFY", "SUBSTITUTE",
@@ -329,6 +335,8 @@ def validate_profile(profile: SourceProfile) -> None:
         set(lg.sub_markers_compound), set(lg.kind_words),
         set(lg.coverage_heads),
         set(lg.presence) - {"_default"},
+        set(lg.child_parents),
+        {p for ps in lg.child_parents.values() for p in ps},
     )
     for keys in kind_keyed:
         unknown = keys - LOCATOR_KINDS
