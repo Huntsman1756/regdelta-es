@@ -453,7 +453,7 @@ def _sub_present(doc: DiarioDoc, span: tuple[int, int],
         n_val = operations._ordinal_num(val)
         count = sum(1 for i in range(*span)
                     if operations._positional_node(doc.nodes[i], kind))
-        return n_val is not None and count >= n_val
+        return n_val is not None and n_val >= 1 and count >= n_val
     v = _norm(val)
     presence = lg.presence
     templates = presence.get(kind, presence["_default"])

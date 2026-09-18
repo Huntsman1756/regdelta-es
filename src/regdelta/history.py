@@ -235,6 +235,7 @@ class _Ctx:
     instruments: dict = field(default_factory=dict)
     annex_maps: dict = field(default_factory=dict)
     annex_pdf_snap: dict = field(default_factory=dict)
+    annex_pdf_sha: dict = field(default_factory=dict)
     doc_images: dict = field(default_factory=dict)
     pending_anchors: dict = field(default_factory=dict)
     # {"kind", "snapshot_id" (nullable), "detail" (dict)} — persisted to
@@ -403,6 +404,16 @@ def _image_representation(ctx: _Ctx, sid: str, boe_id: str,
     locator = {"instrument": boe_id, "type": "image_pages", "pages": entries}
     evidence = dict(anchor_note)
     evidence["image_snapshots"] = snaps
+    # WS-D: the signed diario PDF embeds the annex figures as vector
+    # content — byte equality with the served PNGs is impossible
+    # (EXP-D1 falsified it). The deterministic association is still
+    # provable: record it as evidence, never as identity.
+    pdf_idx = {p.boe_page: p.pdf_index for p in amap.pages}
+    evidence["pdf_anchor"] = {
+        "sha256": ctx.annex_pdf_sha.get(boe_id),
+        "page_indexes": [pdf_idx.get(e["boe_page"]) for e in entries],
+        "relation": "ASSOCIATION_ONLY",
+    }
     return _insert_representation(ctx, sid, "IMAGE", None, locator,
                                   snaps[0], binding, evidence)
 
@@ -973,6 +984,7 @@ def _target_annex_map(ctx: _Ctx, boe_id: str,
     images = boe_doc.parse_doc_images(doc_art.body)
     ctx.doc_images[boe_id] = images
     ctx.annex_pdf_snap[boe_id] = pdf_art.snapshot_id
+    ctx.annex_pdf_sha[boe_id] = pdf_art.blob_sha256
     texts = boe_pdf.PdfTextLayer(pdf_art.body).page_texts()
     start = int(doc.metadata.get("pagina_inicial") or 0)
     amap = annexmap.build_annex_map(texts, start, len(images),

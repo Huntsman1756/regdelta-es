@@ -40,3 +40,29 @@ degrades to DISCARD if adoption brings no provable gain.
 
 Determinism requirement: pin version; extraction must be byte-stable
 across runs (no decode/re-encode — raw stream bytes only).
+
+## 5. EXP-D1 falsification result (2026-09-21, pypdf 6.14.2)
+
+**FAIL — byte equality falsified.** Experiment ledger:
+`evidence/core-gap/wsd/exp-d1/run{1,2}/exp-d1-ledger.json` (two
+fresh runs byte-identical).
+
+- source: `boe_dias_pdf__BOE-A-2017-14334.pdf` (39,355,759 B,
+  sha256 `0923cc0a…f16e`, 588 pages — the whole-issue signed PDF
+  served at the document URL).
+- `/Image` XObjects reachable from all 588 pages (recursive through
+  Form XObjects) + inline `BI…ID…EI` scan: **2 unique objects**
+  (refs 68/69, shared header logos, `/CCITTFaxDecode`), **0 inline
+  images**, **0 image XObjects on the annex pages**.
+- The annex figures are **vector content** in the signed PDF — there
+  is no embedded raster stream to equate with the served PNG.
+- 204 captured official PNG assets: **0 byte-equal matches** (raw
+  stream or decoded derivative).
+
+Consequence per the preregistered rule: channels stay independent
+evidence classes. The served-PNG channel remains official
+informative-grade; the signed-PDF channel provides page/object
+association only (`REPRESENTATION_ASSOCIATION_ONLY`). **pypdf NOT
+adopted** — the experiment's positive-gain condition did not hold,
+and ObjStm/XObject access alone adds no provable evidence; stdlib
+`boe_pdf` remains the only PDF parser.
