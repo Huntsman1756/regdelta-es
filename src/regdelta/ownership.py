@@ -424,24 +424,38 @@ def _fichero_eq(a: str, b: str) -> bool:
 
 
 def _head_span(doc: DiarioDoc, pat: re.Pattern,
-               articulo_only: bool) -> tuple[int, int] | None:
+               articulo_only: bool,
+               extra_classes: bool = False) -> tuple[int, int] | None:
     dm = active_profile().document_model
+    centro = dm.class_prefixes.get("centro")
     start = None
     for n in doc.nodes:
+        is_head = n.cls == dm.classes["articulo"] or (
+            extra_classes and centro and n.cls.startswith(centro))
         if start is None:
             ok = (n.cls == dm.classes["articulo"] if articulo_only
                   else n.kind == dm.kinds["paragraph"])
+            if extra_classes and centro and n.cls.startswith(centro):
+                ok = n.kind == dm.kinds["paragraph"]
             if ok and n.text and pat.search(_norm(n.text)):
                 start = n.index
-        elif n.cls == dm.classes["articulo"]:
+        elif is_head:
             return (start, n.index)
     return (start, len(doc.nodes)) if start is not None else None
 
 
 def _sub_present(doc: DiarioDoc, span: tuple[int, int],
                  kind: str, val: str) -> bool:
+    lg = active_profile().locator_grammar
+    if kind in lg.positional_kinds:
+        # positional identity is ordinal position inside the proven
+        # parent scope — the Nth positional node must exist there
+        n_val = operations._ordinal_num(val)
+        count = sum(1 for i in range(*span)
+                    if operations._positional_node(doc.nodes[i], kind))
+        return n_val is not None and count >= n_val
     v = _norm(val)
-    presence = active_profile().locator_grammar.presence
+    presence = lg.presence
     templates = presence.get(kind, presence["_default"])
     pats = tuple(re.compile(t.format(v=re.escape(v)))
                  for t in templates)
@@ -486,10 +500,33 @@ def locator_resolves_in_doc(doc: DiarioDoc, key: str) -> bool:
             else None
         pat = re.compile(lg.disposicion_head.format(
             tipo=re.escape(_norm(tipo)),
-            ord=re.escape(_norm(ordinal or ""))))
-        span = _head_span(doc, pat, articulo_only=True)
-        if span is None:
-            return False
+            ord=operations._disp_ord_alt(ordinal)),
+            re.IGNORECASE)
+        if ordinal is None:
+            # unnumbered class identity ('Norma transitoria'): the
+            # head must be unique — two bare heads of the same class
+            # make the class key ambiguous and it never resolves.
+            # Old-format sources head dispositions in centro_* display
+            # classes, so those are eligible heads and bounds here.
+            centro = dm.class_prefixes.get("centro")
+            hits = [n.index for n in doc.nodes
+                    if n.kind == dm.kinds["paragraph"]
+                    and n.text
+                    and (n.cls == dm.classes["articulo"]
+                         or (centro and n.cls.startswith(centro)))
+                    and pat.search(_norm(n.text))]
+            if len(hits) != 1:
+                return False
+            bounds = sorted(
+                n.index for n in doc.nodes
+                if n.cls == dm.classes["articulo"]
+                or (centro and n.cls.startswith(centro)))
+            span = (hits[0], next((b for b in bounds if b > hits[0]),
+                                  len(doc.nodes)))
+        else:
+            span = _head_span(doc, pat, articulo_only=True)
+            if span is None:
+                return False
         rest = parts[2:] if ordinal is not None else parts[1:]
         return all(":" in p and _sub_present(
             doc, span, p.split(":")[0], p.split(":")[1]) for p in rest)
@@ -520,6 +557,10 @@ def locator_resolves_in_doc(doc: DiarioDoc, key: str) -> bool:
         return all(":" in p and _sub_present(
             doc, span, p.split(":")[0], p.split(":")[1])
             for p in parts[1:])
+    if kind in lg.positional_kinds:
+        # a positional kind can never head a locator — 'parrafo:3'
+        # resolves only as a component inside a proven parent span
+        return False
     token = _norm(body.split(".")[0] if "." in body else body)
     if kind in ("anejo", "disposicion", "titulo", "capitulo",
                 "seccion", "apartado", "nota", "numero"):

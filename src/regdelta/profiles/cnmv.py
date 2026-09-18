@@ -59,6 +59,24 @@ _DOCUMENT_MODEL = DocumentModel(
         "signature": re.compile(r"^Madrid, \d+ de \w+ de \d{4}"),
     },
     annex_literal="ANEXO",
+    # WS-C — old-format modifiers (DEV: BOE-A-1998-30048) carry their
+    # operative structure in display classes: numbered operative blocks
+    # 'I. Modificaciones a la Circular N/YYYY' in centro_negrita are
+    # section boundaries (the outer 'NORMA PRIMERA. MODIFICACIONES ...
+    # QUE SE SEÑALAN A CONTINUACIÓN' heads name no circular and never
+    # open a scope — the target_ref gate in split_sections enforces
+    # it); 'Norma 7.ª'/'Anexo 1'/'Norma final.' heads in
+    # centro_cursiva/centro_redonda/anexo reset the item-level locator
+    # context.
+    block_head=re.compile(
+        r"^(?:[ivxlcdm]+|norma\s+\w+)\s*\.\s*modificaciones\s+"
+        r"(?:a|de|en)\s+(?:la|las|los)\s+circular",
+        re.IGNORECASE),
+    block_head_classes=frozenset({"centro_negrita"}),
+    context_head=re.compile(
+        r"^(?:norma|anexos?|disposici[oó]n)\s", re.IGNORECASE),
+    context_head_classes=frozenset(
+        {"centro_cursiva", "centro_redonda", "anexo"}),
 )
 
 # ---------------------------------------------------------------------------
@@ -126,6 +144,15 @@ _ROMAN_SEQ = r"[IVX]+(?:\.[A-Z0-9]+)*"
 _ORD_SEQ = "|".join(_ORDINALS)
 _ENUM_SEP = r"(?:\s*(?:a|al|,|y|e)\s+)"
 
+# WS-C positional ordinal lists — apocope + masculine + feminine
+# forms and digits; separators align with numlist_split so captured
+# enumerations split identically
+_POS_ORD = (r"(?:primer[oa]?|segund[oa]?|tercer[oa]?|cuart[oa]?|"
+            r"quint[oa]?|sext[oa]?|s[eé]ptim[oa]?|octav[oa]?|"
+            r"noven[oa]?|d[eé]cim[oa]?|\d+\.?[ªº]?)")
+_POS_LIST = (r"(?:" + _POS_ORD + r"(?:\s*(?:,|\by\b|\be\b)\s*"
+             + _POS_ORD + r")*)")
+
 # 'normas 6 y 58', 'los anexos V y VI', 'anexos 0 y 1' — enumerations
 # are evidenced in DEV <referencias> and operative text.
 _DECLARATIONS = {
@@ -181,12 +208,28 @@ _DECLARATIONS = {
         re.IGNORECASE),
     "nota": re.compile(r"\bnotas?\s+\(?([a-z])\)?\b", re.IGNORECASE),
     # CNMV disposiciones spell "Norma adicional/transitoria/..." —
-    # "Norma adicional bis" -> disp:adicional.bis
+    # "Norma adicional bis" -> disp:adicional.bis. WS-C: the ordinal
+    # group is OPTIONAL — a bare 'Norma transitoria' declares the
+    # class-keyed identity 'disp:transitoria' (its uniqueness inside
+    # the target is proven at resolution, never assumed).
     "disposicion": re.compile(
         r"\b(?:disposici[oó]n|norma)\s+"
-        r"(adicional|transitoria|final|derogatoria)\s+"
-        r"(" + _ORD_SEQ + r"|\d+[.ªº°]*\.?|bis|ter|qu[aá]ter|"
-        r"[uú]nic[oa])\b",
+        r"(adicional|transitoria|final|derogatoria)"
+        r"(?:\s+(" + _ORD_SEQ + r"|\d+[.ªº°]*\.?|bis|ter|qu[aá]ter|"
+        r"[uú]nic[oa])\b)?",
+        re.IGNORECASE),
+    # WS-C positional kinds — the value is ordinal position inside the
+    # proven parent scope, in either surface order ('el primer
+    # párrafo' | 'párrafo primero'; 'el tercer guión' | 'los guiones
+    # tercero y cuarto'). Cardinality forms that carry no position
+    # ('los dos guiones') never match — 'dos' is not an ordinal.
+    "parrafo": re.compile(
+        r"(?:\b(" + _POS_LIST + r")\s+p[aá]rrafos?"
+        r"|\bp[aá]rrafos?\s+(" + _POS_LIST + r"))",
+        re.IGNORECASE),
+    "guion": re.compile(
+        r"(?:\b(" + _POS_LIST + r")\s+gui[oó]n(?:es)?"
+        r"|\bgui[oó]n(?:es)?\s+(" + _POS_LIST + r"))",
         re.IGNORECASE),
     "pagina": re.compile(r"\bp[aá]gina\s+(\d{3,6})", re.IGNORECASE),
     "indice": re.compile(r"\b[íi]ndice\b", re.IGNORECASE),
@@ -203,6 +246,7 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
         "norma", "anexo", "anejo", "articulo", "capitulo", "seccion",
         "disp", "disposicion", "pagina", "apartado", "punto", "numero",
         "letra", "numeral", "nota", "indice", "estado",
+        "parrafo", "guion",
     }),
     ordinals={**_ORDINALS, **_ORDINALS_MARKED},
     ordinal_words=_ORDINAL_WORDS,
@@ -220,7 +264,8 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
         {"i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x",
          "xi", "xii", "xiii", "xiv", "xv"}),
     declarations=_DECLARATIONS,
-    enum_kinds=("norma", "anejo", "apartado", "numero", "punto"),
+    enum_kinds=("norma", "anejo", "apartado", "numero", "punto",
+                "parrafo", "guion"),
     numlist_split=r"\s*(?:,|y|e)\s+",
     numlist_range=re.compile(r"(\d+)\s+(?:a|al)\s+(\d+)"),
     numlist_atom=(
@@ -238,8 +283,9 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
         "anexo": ("anexo",),
         "anejo": ("anexo",),
         # CNMV disposiciones are headed "Norma adicional/transitoria/
-        # derogatoria/final" — the disp locator spells "norma"
-        "disp": ("norma",),
+        # derogatoria/final" — the disp locator spells "norma"; the
+        # 'disposición' spelling is a mention alternative too
+        "disp": ("norma", "disposicion"),
         "articulo": ("articulo",),
         "estado": ("estado", "modelo"),
     },
@@ -247,9 +293,12 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
         r"^(?:\[[^\]]*\]\s*)?([A-Za-zÁÉÍÓÚáéíóúñü]+)\s+(\S+)",
         re.IGNORECASE),
     norma_head=r"^(?:\[[^\]]*\]\s*)?norma\s+{alt}\b",
-    # CNMV disposicion head: "Norma transitoria primera" etc.
+    # CNMV disposicion head: "Norma transitoria primera" etc. {ord}
+    # interpolates WITH its leading whitespace (._disp_ord_alt): the
+    # unnumbered class-keyed form 'Norma transitoria' gets a negative
+    # lookahead rejecting any ordinal tail
     disposicion_head=(
-        r"^(?:\[[^\]]*\]\s*)?norma\s+{tipo}\s+{ord}\b"),
+        r"^(?:\[[^\]]*\]\s*)?(?:norma|disposici[oó]n)\s+{tipo}{ord}\b"),
     anejo_head=r"^anexo\s+{num}\b",
     anejo_boundary=re.compile(
         r"^anexos?\s+\S|^anexos?\b|madrid\s*,", re.IGNORECASE),
@@ -306,10 +355,18 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
         "anexo": r"anexos?", "anejo": r"anexos?", "seccion": r"secciones?",
         "capitulo": r"cap[íi]tulos?",
         "indice": r"[íi]ndices?", "estado": r"estados?",
+        # WS-C — positional kinds and opaque qualifier kinds: 'artículo'
+        # is referenced as a locator word but has no declaration grammar
+        # (never captured), so its presence is journaled unkeyed
+        "parrafo": r"p[aá]rrafos?", "guion": r"gui[oó]n(?:es)?",
+        "articulo": r"art[íi]culos?",
+        "disp": r"(?:disposici[oó]n|norma)(?:es)?",
+        "disposicion": r"disposici[oó]n(?:es)?",
     },
     kinded_tail=re.compile(
         r"\.(?:punto|apartado|numero|letra|numeral|nota|indice|estado|"
-        r"norma|anexo|anejo|disp|disposicion|seccion|capitulo|pagina):"),
+        r"norma|anexo|anejo|disp|disposicion|seccion|capitulo|pagina|"
+        r"parrafo|guion):"),
     coverage_heads=("estado", "punto", "apartado", "numero", "letra",
                     "numeral", "nota", "indice"),
     # WS-B declared inside-out hierarchy: 'X del Y' links compose a
@@ -322,12 +379,20 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
         "apartado": ("norma", "anejo", "anexo", "disposicion"),
         "numero": ("apartado", "norma", "anejo", "anexo",
                    "disposicion"),
-        "punto": ("anejo", "anexo", "norma", "disposicion"),
+        "punto": ("anejo", "anexo", "norma", "apartado",
+                  "disposicion"),
         "letra": ("numero", "apartado", "punto", "norma", "anejo",
                   "anexo", "disposicion"),
         "numeral": ("letra", "numero", "apartado", "punto"),
         "nota": ("letra", "numero", "apartado", "punto"),
+        # WS-C: a positional item may leaf any deeper structure —
+        # 'el tercer guión del número 4 del apartado 12'
+        "parrafo": ("norma", "apartado", "numero", "letra", "punto",
+                    "anejo", "anexo", "disposicion"),
+        "guion": ("numero", "apartado", "punto", "norma", "anejo",
+                  "anexo", "disposicion"),
     },
+    positional_kinds=frozenset({"parrafo", "guion"}),
 )
 
 # ---------------------------------------------------------------------------
@@ -451,7 +516,7 @@ _OPERATIVE_GRAMMAR = OperativeGrammar(
         r"crearse)|"
         r"queda\w*\s+(?:redactad|modificad|sustituid|derogad|definid)|"
         r"pasa\w*\s+a\s+(?:ser|denominarse)|"
-        r"(?:se\s+)?da\w*\s+nueva\s+redacci[oó]n|"
+        r"(?:se\s+)?da\w*\s+(?:una\s+)?nueva\s+redacci[oó]n|"
         r"donde\s+dice|debe\s+decir|se\s+sombrea",
         re.IGNORECASE),
     subordinator_tail=re.compile(
@@ -496,7 +561,8 @@ _OPERATIVE_GRAMMAR = OperativeGrammar(
         ("SUBSTITUTE", re.compile(
             r"se\s+sustituye\w*|debe\w*\s+sustituirse|"
             r"queda\w*\s+sustituid|"
-            r"(?:se\s+)?da\w*\s+nueva\s+redacci[oó]n", re.IGNORECASE)),
+            r"(?:se\s+)?da\w*\s+(?:una\s+)?nueva\s+redacci[oó]n",
+            re.IGNORECASE)),
         ("DELETE", re.compile(
             r"se\s+(?:suprime\w*|elimina\w*|deroga\w*)|"
             r"queda\w*\s+derogad|"
@@ -522,10 +588,15 @@ _OPERATIVE_GRAMMAR = OperativeGrammar(
     non_op_tail=re.compile(r"[,;.]\s*sin\s+(?:que|perjuicio)\b",
                            re.IGNORECASE),
     root_families=("norma", "anejo", "disposicion"),
+    # WS-C: plural forms and the anonymous-item kinds — 'los guiones',
+    # 'del artículo 19', 'los números 3 y 4' scope below any key that
+    # does not carry the component; a key that does carry it survives
+    # via the plural-tolerant kind comparison in _clause_scope_provable
     sub_scope=re.compile(
-        r"\b(?:apartado|letra|punto|numeral|"
-        r"nota|secci[oó]n|cuadro|tabla|p[aá]rrafo|[íi]ndice|fila|"
-        r"columna)\b",
+        r"\b(?:apartados?|letras?|puntos?|numerales?|n[úu]meros?|"
+        r"notas?|secci[oó]n(?:es)?|cuadros?|tablas?|p[aá]rrafos?|"
+        r"[íi]ndices?|filas?|columnas?|gui[oó]n(?:es)?|"
+        r"art[íi]culos?|t[íi]tulos?)\b",
         re.IGNORECASE),
     qualifier_src=(
         r"(?:\.\s*[a-z]\b|\s+(?:bis|ter|qu[aá]ter|quinquies|sexies|"
@@ -535,8 +606,11 @@ _OPERATIVE_GRAMMAR = OperativeGrammar(
     # the amendment clause. Container announcements still fail
     # _unmarked_op's post-colon verb check and stay context setters.
     # Journaled PROFILE_DATA_MISSING #7.
+    # WS-C: dash-prefixed operative items ('– Se suprimen las letras
+    # ...') are unmarked operations too — the dash is the item marker
+    # of an unnumbered continuation item
     unmarked_opener=re.compile(
-        r"(?:en\s+(?:la|el|los|las)\s+\w|se\s+\w|"
+        r"(?:en\s+(?:la|el|los|las)\s+\w|se\s+\w|[-–—]\s+\w|"
         r"(?:primer[oa]?|segund[oa]|tercer[oa]?|tercer|cuart[oa]|"
         r"quint[oa]|sext[oa]|s[eé]ptim[oa]|octav[oa]|noven[oa]|"
         r"d[eé]cim[oa]|und[eé]cim[oa]?|duod[eé]cim[oa]|uno|una|dos|"

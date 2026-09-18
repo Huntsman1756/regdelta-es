@@ -578,15 +578,21 @@ def test_g0c_g0d_invariants(ro):
     # 'disposición adicional única -> primera' is a CODE_REDESIGNATION;
     # the two refusals are honest UNPROVABLEs whose subjects keep
     # baseline MODIFY. See test_g0c_counts_unchanged.
+    # CORE-GAP WS-C_INTENTIONAL_SEMANTIC_CHANGE: representations
+    # 253 -> 254, RESOLVED 110 -> 109, PARTIAL 102 -> 104,
+    # UNRESOLVED 78 -> 77, anomalies 361 -> 359 — positional anejo
+    # numbers no longer feed image binding (declared-anejo gate) and
+    # normalized sub_scope words let provable after-content bind. See
+    # test_g0c_counts_unchanged for the per-case detail.
     assert ro.execute("SELECT COUNT(*) FROM subjects").fetchone()[0] == 223
     assert ro.execute(
-        "SELECT COUNT(*) FROM representations").fetchone()[0] == 253
+        "SELECT COUNT(*) FROM representations").fetchone()[0] == 254
     assert ro.execute(
         "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 290
     assert dict(ro.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution").fetchall()) == {
-        "RESOLVED": 110, "PARTIAL": 102, "UNRESOLVED": 78}
+        "RESOLVED": 109, "PARTIAL": 104, "UNRESOLVED": 77}
     assert ro.execute(
         "SELECT COUNT(*) FROM applicability_clauses").fetchone()[0] == 26
     assert ro.execute(
@@ -594,4 +600,4 @@ def test_g0c_g0d_invariants(ro):
     assert ro.execute(
         "SELECT COUNT(*) FROM applicability_targets").fetchone()[0] == 98
     assert ro.execute(
-        "SELECT COUNT(*) FROM anomalies").fetchone()[0] == 361
+        "SELECT COUNT(*) FROM anomalies").fetchone()[0] == 359

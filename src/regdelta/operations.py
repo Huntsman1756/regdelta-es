@@ -273,6 +273,12 @@ class Operation:
     section_targets: list[tuple[int, int]] = field(default_factory=list)
     # per-context-key provenance: kind -> {"value","node_index","scope"}
     context_scope: dict = field(default_factory=dict)
+    # WS-C — anonymous/positional kind-words present in the clause
+    # whose mentions the key model did not capture ('los dos guiones',
+    # 'el último párrafo', 'del artículo 19'). Journaled by the history
+    # layer as UNKEYED_ANONYMOUS_ITEM — never silently absorbed into
+    # the parent locator.
+    unkeyed: tuple = ()
 
 
 @dataclass
@@ -296,7 +302,10 @@ class OpsResult:
 
 
 def _ordinal_num(word: str) -> int | None:
-    w = word.lower()
+    # flying-ordinal markers and a trailing period are surface marks of
+    # the ordinal, not part of its value ('7.ª', '49.ª.' -> 7, 49)
+    w = word.lower().strip().rstrip(".")
+    w = re.sub(r"[ªº]+$", "", w).rstrip(".")
     if w.isdigit():
         return int(w)
     return active_profile().locator_grammar.ordinals.get(w)
@@ -416,10 +425,21 @@ def _extract_mentions(text: str) -> dict[str, object]:
         if key in lg.enum_kinds:
             vals: list = []
             for m in rx.finditer(stripped):
-                vals.extend(_numlist(m.group(1)))
+                # declarations may alternate word-first/kind-first
+                # forms ('primer párrafo' | 'párrafo primero') — the
+                # value is the first non-None group
+                g = next((g for g in m.groups() if g is not None),
+                         None)
+                if g:
+                    vals.extend(_numlist(g))
         else:
-            vals = [tuple(g for g in m.groups())
-                    for m in rx.finditer(stripped)]
+            vals = []
+            for m in rx.finditer(stripped):
+                t = tuple(g for g in m.groups() if g is not None)
+                # a group-less declaration is a presence marker —
+                # its empty tuple IS the value ('índice')
+                if t or not m.re.groups:
+                    vals.append(t)
         # a node may serialize the same sentence twice (blockquote
         # label+body artifact): each distinct mention counts once
         vals = list(dict.fromkeys(vals))
@@ -480,6 +500,15 @@ _DE_LINK = re.compile(
     r"anteriores?|presente|siguiente|su|sus))*\s*$",
     re.IGNORECASE)
 
+# destination links for positional items only: 'un párrafo tercero
+# a la letra d)' names the letra as the item's parent container.
+# Restricted to positional children — non-positional 'a'-links stay
+# flat (baseline parity: 'se añade un apartado a la norma 5' already
+# composes under the clause root)
+_A_LINK = re.compile(
+    r"^[\s,;)]*a\s+(?:la|el|los|las)\s*$",
+    re.IGNORECASE)
+
 # a mention preceded by one of these is a qualifier, never a subject:
 # 'de la sección 7' locates something else; it does not declare the
 # sección as the operative object
@@ -509,9 +538,17 @@ def _mention_spans(text: str) -> list[tuple[str, list, int, int]]:
     out: list[tuple[str, list, int, int]] = []
     for key, rx in lg.declarations.items():
         for m in rx.finditer(masked):
-            vals = (_numlist(m.group(1)) if key in lg.enum_kinds
-                    else [tuple(g for g in m.groups())])
-            vals = [v for v in vals if v and v[0]]
+            if key in lg.enum_kinds:
+                g = next((g for g in m.groups() if g is not None),
+                         None)
+                vals = _numlist(g) if g else []
+            else:
+                vals = [tuple(g for g in m.groups()
+                              if g is not None)]
+            # a group-less declaration is a presence marker — its
+            # empty tuple IS the value
+            vals = [v for v in vals
+                    if (v and v[0]) or not rx.groups]
             if vals:
                 out.append((key, vals, m.start(), m.end()))
     for m in lg.letra_list.finditer(masked):
@@ -528,7 +565,8 @@ def _path_value(kind: str, v) -> str:
     if kind == "disposicion" and isinstance(v, tuple) and len(v) > 1:
         return str(v[0]).lower() + "." + str(v[1]).lower()
     raw = str(v[0] if isinstance(v, tuple) else v).strip().rstrip(".")
-    if kind in ("norma", "seccion", "capitulo"):
+    if kind in ("norma", "seccion", "capitulo") \
+            or kind in lg.positional_kinds:
         n = _ordinal_num(raw)
         if n is not None:
             return str(n)
@@ -554,6 +592,35 @@ def _enum_values(kind: str, vals) -> list[str]:
     return out
 
 
+def _disp_ord_alt(ordinal: str | None) -> str:
+    """``{ord}`` interpolation for the profile's ``disposicion_head``
+    template — the ordinal slot INCLUDING its leading whitespace.
+
+    Numbered keys constrain to their ordinal alternation; the
+    unnumbered class-keyed form ('Norma transitoria') requires the head
+    to carry NO ordinal — 'Norma transitoria primera' is a different,
+    numbered disposition, never the bare one.
+    """
+    lg = active_profile().locator_grammar
+    if ordinal:
+        num = _ordinal_num(ordinal)
+        words = {w for w, v in lg.ordinals.items() if v == num} \
+            if num is not None else set()
+        words.add(str(ordinal))
+        if num is not None:
+            words.add(str(num))
+        return r"\s+(?:" + "|".join(
+            re.escape(w) for w in sorted(words, key=len, reverse=True)
+        ) + r")"
+    ords = sorted(
+        set(lg.ordinals)
+        | {"bis", "ter", "quater", "quáter", "unica", "única",
+           "unico", "único"},
+        key=len, reverse=True)
+    return (r"(?!\s+(?:" + "|".join(re.escape(o) for o in ords)
+            + r"|\d+)\b)")
+
+
 def _de_bound_paths(text: str):
     """Declared inside-out 'X del Y' chains -> bound locator paths.
 
@@ -574,8 +641,11 @@ def _de_bound_paths(text: str):
         return [], [], []
     spans = _mention_spans(text)
     links: dict[int, int] = {}
+    pos_kinds = lg.positional_kinds
     for i in range(len(spans) - 1):
-        if _DE_LINK.match(text[spans[i][3]:spans[i + 1][2]] or ""):
+        gap = text[spans[i][3]:spans[i + 1][2]] or ""
+        if _DE_LINK.match(gap) \
+                or (spans[i][0] in pos_kinds and _A_LINK.match(gap)):
             links[i] = i + 1
     governed = {i for i, (_k, _v, s, _e) in enumerate(spans)
                 if _GOVERNED.search(text[:s])}
@@ -723,8 +793,11 @@ def _compose_keys(mentions: dict[str, object],
         if ctx.get("anejo"):
             anejo_vals = [ctx["anejo"]]
 
+    # unnumbered 'disposición/norma <tipo>' heads carry a 1-tuple
+    # value — the tipo alone IS the declared class identity
     disp_mentioned = mentions.get("disposicion") or []
     disp_vals = [str(t[0]).lower() + "." + str(t[1]).lower()
+                 if len(t) > 1 else str(t[0]).lower()
                  for t in disp_mentioned]
     if not disp_vals and ctx.get("disposicion") \
             and not (clause_roots - {"disposicion"}):
@@ -732,10 +805,14 @@ def _compose_keys(mentions: dict[str, object],
     # a sub-locator under a disposición composes with it
     # ('apartado 1 de la disposición transitoria primera'); the bare
     # disposición key is emitted only when the clause itself names it
+    # AND declares no child locator — checked against the declared
+    # mentions, so a path-bound child ('párrafo tercero de la
+    # disposición transitoria') never emits a spurious parent subject
     if disp_mentioned and not any(
-            mentions.get(k) for k in
+            declared_mentions.get(k) for k in
             ("apartado", "punto", "numero", "letra", "numeral",
-             "nota")):
+             "nota") + tuple(
+                 active_profile().locator_grammar.positional_kinds)):
         for d in disp_vals:
             subs.append(SubjectRef(
                 f"disp:{d}", "disposición " + d.replace(".", " "),
@@ -770,7 +847,10 @@ def _compose_keys(mentions: dict[str, object],
             else (root_vals or [None])
         for rv in rvs:
             # emitted component list: (emit_kind, value, declared_kind)
-            eff = [(k, v, k) for k, v in path]
+            # — 'disposicion' is emitted under its 'disp' spelling,
+            # the same alias the flat cascade uses
+            eff = [("disp" if k == "disposicion" else k, v, k)
+                   for k, v in path]
             root_part = None
             if rv is not None:
                 root_part = ("disp" if root_kind == "disposicion"
@@ -816,6 +896,13 @@ def _compose_keys(mentions: dict[str, object],
     letras = list(mentions.get("letra") or [])
     numeral = first("numeral")
     nota = first("nota")
+    # WS-C positional kinds: ordinal position inside a proven parent —
+    # emitted only as a path leaf (above) or composed under the
+    # clause's declared/contextual root, never minted as a free head
+    pos_vals = [(k, v)
+                for k in active_profile().locator_grammar
+                .positional_kinds
+                for v in _enum_values(k, mentions.get(k) or [])]
 
     def tail_comps(letra_v) -> tuple:
         out = []
@@ -905,6 +992,29 @@ def _compose_keys(mentions: dict[str, object],
                 f"norma {nv} nota {nota[0]}", "NOTA",
                 proof_components=(comp("norma", nv),)
                 + tail_comps(None)))
+    elif pos_vals:
+        # 'del primer párrafo [de la norma 7]' — the anchor is the
+        # ordinal position inside the resolved root; a rootless
+        # positional key stays visible in accounting and abstains at
+        # binding (no head can prove it)
+        for rv in (root_vals or [None]):
+            for pk, pv in pos_vals:
+                if root_kind == "disposicion":
+                    key = f"disp:{rv}.{pk}:{pv}"
+                    comps = [comp("disposicion", rv)]
+                elif root_kind == "norma":
+                    key = f"norma:{rv}.{pk}:{pv}"
+                    comps = [comp("norma", rv)]
+                elif root_kind == "anejo":
+                    key = f"anejo:{rv}.{pk}:{pv}"
+                    comps = [comp("anejo", rv)]
+                else:
+                    key = f"{pk}:{pv}"
+                    comps = []
+                comps.append(comp(pk, pv))
+                subs.append(SubjectRef(
+                    key, key.replace(":", " "), pk.upper(),
+                    proof_components=tuple(comps)))
 
     if not subs:
         if norma_vals and anejo_vals:
@@ -1210,7 +1320,7 @@ _REDESIG_DEPTH = {
     "norma": 0, "anejo": 0, "anexo": 0, "disposicion": 0, "disp": 0,
     "estado": 0, "fichero": 0,
     "seccion": 1, "apartado": 2, "punto": 2, "numero": 2,
-    "letra": 3, "numeral": 4, "nota": 4}
+    "letra": 3, "numeral": 4, "nota": 4, "parrafo": 5, "guion": 5}
 
 
 def _dest_leaf_kinds(dests) -> set:
@@ -1519,7 +1629,9 @@ def _context_update(ctx: dict[str, str],
     if disp:
         declared.add("disposicion")
         new["disposicion"] = (str(disp[0][0]).lower() + "." +
-                              str(disp[0][1]).lower())
+                              str(disp[0][1]).lower()
+                              if len(disp[0]) > 1
+                              else str(disp[0][0]).lower())
     if declared:
         # the clause's own root displaces every inherited root of a
         # different family, and any inherited composed subject whose
@@ -1655,23 +1767,123 @@ def _unmarked_op(node: Node) -> tuple[str, str] | None:
     return None
 
 
+def _positional_node(n, kind: str) -> bool:
+    """WS-C — node counted as the ``kind`` positional unit inside a
+    proven parent span: 'parrafo' = paragraph-class prose nodes
+    (parrafo and parrafo_2 are both paragraphs at different indents);
+    'guion' = dash-prefixed paragraph nodes."""
+    dm = active_profile().document_model
+    if n.kind != dm.kinds["paragraph"]:
+        return False
+    if kind == "guion":
+        return bool(re.match(r"^\s*[-–—]\s", n.text or ""))
+    if kind == "parrafo":
+        # a dash-prefixed paragraph is a guion, not a parrafo —
+        # counting both would shift 'segundo párrafo' off its node
+        return n.cls in (dm.classes.get("parrafo"),
+                         dm.classes.get("parrafo_2")) \
+            and not re.match(r"^\s*[-–—]\s", n.text or "")
+    return False
+
+
+def _unkeyed_kinds(zone: str, mentions: dict) -> tuple:
+    """Anonymous/positional kind-words present in the subject zone
+    that produced no key component — 'los dos guiones', 'el último
+    párrafo', 'del artículo 19'. Recorded on the op so the history
+    layer journals the gap instead of silently absorbing the
+    anonymous item into the parent locator.
+
+    Flaggable kinds are the profile's positional kinds plus the
+    'opaque' kinds — kind-words with no declaration, which can never
+    be captured.
+    """
+    lg = active_profile().locator_grammar
+    # anonymous-item accounting is a capability of the anonymous-
+    # identity family — a profile that declares no positional kinds
+    # keeps its exact pre-WS-C accounting (BdE byte-identical replay)
+    if not lg.positional_kinds:
+        return ()
+    flaggable = set(lg.positional_kinds) | (
+        set(lg.kind_words) - set(lg.declarations))
+    # 'disp' is the emitted-spelling alias of 'disposicion' — a bare
+    # 'disposición' word is a declared-kind reference, not an opaque
+    # unkeyed item
+    flaggable.discard("disp")
+    if not flaggable:
+        return ()
+    masked = _masked_clause(zone)
+    out = []
+    for k in flaggable:
+        if mentions.get(k):
+            continue
+        src = lg.kind_words.get(k)
+        if not src \
+                or not re.search(rf"\b{src}\b", masked, re.IGNORECASE):
+            continue
+        # a spelling shared with a declared kind is captured under
+        # that kind — 'anexo' when 'anejo' was captured is not unkeyed
+        if any(lg.kind_words.get(dk) == src and mentions.get(dk)
+               for dk in lg.declarations):
+            continue
+        out.append(k)
+    return tuple(sorted(out))
+
+
+def _suppress_anchor_subjects(subjects: list, unkeyed: tuple) -> list:
+    """Drop positional-leaf subjects that only locate unkeyed items.
+
+    'Se da nueva redacción a los dos guiones que se incluyen a
+    continuación del primer párrafo' — the declared subject is the
+    anonymous guiones (journaled via UNKEYED_ANONYMOUS_ITEM); the
+    captured 'primer párrafo' is their positional anchor, not the
+    amended entity. When a clause carries unkeyed positional items,
+    a positional-leaf key is a best-effort anchor — suppressing it
+    is fail-closed: the anchor relation would claim a different
+    sub-entity than the one the source declared.
+    """
+    pos = active_profile().locator_grammar.positional_kinds
+    if not (set(unkeyed) & pos):
+        return subjects
+    return [s for s in subjects
+            if s.locator_key.rsplit(".", 1)[-1].split(":", 1)[0]
+            not in pos]
+
+
 # ---------------------------------------------------------------------------
 # main entry
 # ---------------------------------------------------------------------------
 
 
 def split_sections(doc: DiarioDoc) -> list[Section]:
-    """Split the document body at ``articulo`` headings."""
-    art_cls = active_profile().document_model.classes["articulo"]
-    arts = [n for n in doc.nodes if n.cls == art_cls]
-    if not arts:
+    """Split the document body at section headings.
+
+    The primary boundary is the profile's ``articulo`` class. A
+    profile may additionally declare old-format numbered operative
+    blocks ('I. Modificaciones a la Circular X' set in display
+    classes) as boundaries — only when the block heading names a
+    target circular, so a bare 'MODIFICACIONES' decoration never
+    opens a scope.
+    """
+    p = active_profile()
+    dm = p.document_model
+    art_cls = dm.classes["articulo"]
+    ir = p.identity_reference
+    heads = [n for n in doc.nodes if n.cls == art_cls]
+    if dm.block_head is not None and dm.block_head_classes:
+        heads += [n for n in doc.nodes
+                  if n.cls in dm.block_head_classes
+                  and n.cls != art_cls
+                  and n.text
+                  and dm.block_head.search(n.text)
+                  and ir.target_ref.search(n.text)]
+        heads.sort(key=lambda n: n.index)
+    if not heads:
         return []
     sections = []
-    bounds = [a.index for a in arts] + [len(doc.nodes)]
-    for i, a in enumerate(arts):
+    bounds = [a.index for a in heads] + [len(doc.nodes)]
+    for i, a in enumerate(heads):
         targets = [(int(n), int(y)) for n, y in
-                   active_profile().identity_reference.target_ref
-                   .findall(a.text)]
+                   ir.target_ref.findall(a.text)]
         sections.append(Section(a.text, a.index, bounds[i + 1], targets))
     return sections
 
@@ -1969,7 +2181,26 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
                     section_heading=sec.heading,
                     section_targets=list(sec.targets),
                     context_scope=cscope,
+                    unkeyed=(uk := _unkeyed_kinds(zone, mentions)),
                 ))
+                ops[-1].subjects[:] = _suppress_anchor_subjects(
+                    ops[-1].subjects, uk)
+                continue
+            # WS-C context heads: display-class scope heads ('Norma
+            # 7.ª', 'Anexo 1', 'Norma final.') reset the item-level
+            # locator context without being clause markers. An
+            # ambiguous or unkeyed head clears the item scope rather
+            # than inheriting a stale one.
+            if dm.context_head is not None \
+                    and n.cls in dm.context_head_classes \
+                    and n.text and dm.context_head.match(n.text):
+                h_mentions = _extract_mentions(n.text)
+                kinds = [v for v in h_mentions.values() if v]
+                single = len(kinds) == 1 and len(kinds[0]) == 1
+                item_ctx, item_scope = _ctx_update_scoped(
+                    {}, {}, h_mentions if single else {}, i, "ITEM")
+                item_active = True
+                levels.clear()
                 continue
             # preamble context setter, e.g. "Se introducen los siguientes
             # cambios en el anejo 9 ... :" before lettered point clauses
@@ -2090,7 +2321,11 @@ def _parse_section(doc: DiarioDoc, sec: Section) -> list[Operation]:
             section_heading=sec.heading,
             section_targets=list(sec.targets),
             context_scope=cscope,
+            unkeyed=(uk := _unkeyed_kinds(_subject_zone(n.text),
+                                          mentions)),
         ))
+        ops[-1].subjects[:] = _suppress_anchor_subjects(
+            ops[-1].subjects, uk)
         prev_container = container
 
     return ops

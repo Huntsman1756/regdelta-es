@@ -25,7 +25,7 @@ import re
 from dataclasses import dataclass, field
 
 from . import annexmap
-from .operations import _ordinal_num
+from .operations import _disp_ord_alt, _ordinal_num, _positional_node
 from .profile import active_profile
 from .document import DiarioDoc
 
@@ -113,18 +113,6 @@ def abstain(status: str, method: str, locator_key: str,
 # candidate enumeration — headings
 # ---------------------------------------------------------------------------
 
-def _ordinal_alt(ordinal: str) -> str:
-    """Regex alternation matching an ordinal written as digit or
-    linguistic word (feminine forms: normas/disposiciones)."""
-    num = _ordinal_num(ordinal)
-    if num is None:
-        return re.escape(ordinal)
-    lg = active_profile().locator_grammar
-    words = {w for w, v in lg.ordinals.items() if v == num}
-    return "(?:" + "|".join(
-        re.escape(w) for w in sorted(words | {str(num)})) + ")"
-
-
 def articulo_spans(doc: DiarioDoc, head_word: str,
                    ordinal: str) -> list[tuple[int, int]]:
     """Every 'Norma cuarta.' / 'Disposición transitoria primera.'-class
@@ -153,14 +141,28 @@ def articulo_spans(doc: DiarioDoc, head_word: str,
 def disp_spans(doc: DiarioDoc, tipo: str,
                ordinal: str) -> list[tuple[int, int]]:
     p = active_profile()
-    art = p.document_model.classes["articulo"]
+    dm = p.document_model
+    art = dm.classes["articulo"]
     pat = re.compile(
         p.locator_grammar.disposicion_head.format(
-            tipo=tipo, ord=_ordinal_alt(ordinal)),
+            tipo=tipo, ord=_disp_ord_alt(ordinal)),
         re.IGNORECASE)
+    centro = dm.class_prefixes.get("centro")
+    # unnumbered class-keyed dispositions ('Norma transitoria') may
+    # head in centro_* display classes in old-format sources; the
+    # pattern itself already rejects heads that carry an ordinal
+    def headish(n) -> bool:
+        if n.cls == art:
+            return True
+        return bool(not ordinal and centro
+                    and n.cls.startswith(centro))
     hits = [n.index for n in doc.nodes
-            if n.cls == art and pat.search(n.text)]
-    bounds = sorted(n.index for n in doc.nodes if n.cls == art)
+            if n.kind == dm.kinds["paragraph"] and n.text
+            and headish(n) and pat.search(n.text)]
+    bounds = sorted(n.index for n in doc.nodes
+                    if n.cls == art
+                    or (not ordinal and centro
+                        and n.cls.startswith(centro)))
     return [(h, next((b for b in bounds if b > h), len(doc.nodes)))
             for h in hits]
 
@@ -356,8 +358,25 @@ def text_region_candidates(doc: DiarioDoc,
         cands = anejo_spans(doc, head[6:])
     else:
         return []
+    lg = active_profile().locator_grammar
     for part in parts[1:]:
         kind, _, val = part.partition(":")
+        if kind in lg.positional_kinds:
+            # WS-C: the Nth positional node inside each candidate
+            # parent span — position IS the declared identity
+            n_val = _ordinal_num(val)
+            if n_val is None or n_val < 1:
+                return []
+            nxt = []
+            for sp in cands:
+                pos = [i for i in range(*sp)
+                       if _positional_node(doc.nodes[i], kind)]
+                if len(pos) >= n_val:
+                    nxt.append((pos[n_val - 1], pos[n_val - 1] + 1))
+            cands = nxt
+            if not cands:
+                return []
+            continue
         pat = _sub_pattern(kind, val)
         if pat is None:
             return []

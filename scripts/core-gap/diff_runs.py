@@ -74,8 +74,8 @@ def _match_expected(deltas: list[dict], fname: str, key: str,
         if d.get("file") != fname:
             continue
         pred = d.get("match", {})
-        if all(str(row.get(k)) == str(v) for k, v in pred.items()
-               if row is not None):
+        if pred and row is not None and all(
+                str(row.get(k)) == str(v) for k, v in pred.items()):
             return d["case"]
         # key-prefix match (e.g. all rows of a target)
         if row is not None and d.get("match_key_prefix") and \

@@ -182,8 +182,11 @@ _LOCATOR_GRAMMAR = LocatorGrammar(
         re.IGNORECASE),
     # heading templates interpolated by the core enumerators
     norma_head=r"^(?:\[[^\]]*\]\s*)?norma\s+{alt}\b",
+    # {ord} interpolates WITH its leading whitespace (operations
+    # ._disp_ord_alt): numbered keys get '\s+(?:ord-alts)'; unnumbered
+    # class keys get a negative lookahead rejecting any ordinal
     disposicion_head=(
-        r"^(?:\[[^\]]*\]\s*)?disposici[oó]n\s+{tipo}\s+{ord}\b"),
+        r"^(?:\[[^\]]*\]\s*)?disposici[oó]n\s+{tipo}{ord}\b"),
     anejo_head=r"^anejo\s+{num}\b",
     anejo_boundary=re.compile(
         r"^anejo\s+\S|^anexos?\b|madrid\s*,", re.IGNORECASE),

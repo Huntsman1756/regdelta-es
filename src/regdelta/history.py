@@ -349,7 +349,7 @@ def _upsert_subject(ctx: _Ctx, boe_id: str, key: str, label: str,
          kind if kind in ("NORMA", "ESTADO", "ANEJO", "PUNTO", "APARTADO",
                           "INDICE", "DISPOSICION", "NOTA", "INSTRUMENT",
                           "NUMERO", "LETRA", "NUMERAL", "SECCION",
-                          "CAPITULO")
+                          "CAPITULO", "PARRAFO", "GUION")
          else "APARTADO"))
     return sid
 
@@ -692,9 +692,30 @@ def _clause_scope_provable(op: operations.Operation, key: str) -> bool:
     zone = " ".join(s for s, ks in zip(segs, _seg_keys(
         op.clause_text, masked, op)) if key in ks) or masked
     return not any(
-        m.group(0).lower() not in key_kinds
+        _scope_word_kind(m.group(0), key_kinds, key) not in key_kinds
         for m in active_profile().operative_grammar.sub_scope
         .finditer(zone))
+
+
+def _scope_word_kind(word: str, key_kinds: set, key: str) -> str:
+    """Map a sub_scope surface word to the locator kind it names —
+    accent and plural tolerant so 'sección' suppresses only keys
+    without a seccion component and 'párrafos' reads as 'parrafo'.
+
+    Applies the composer's anejo normalization: numbered units inside
+    an anejo are 'punto' whatever the clause calls them, so 'número 3
+    de la Memoria (Anexo 3)' is represented by key kind 'punto'.
+    """
+    w = operations._norm(word)
+    for cand in (w, w[:-1], w[:-2]):
+        if cand in key_kinds:
+            return cand
+    head = key.split(".", 1)[0].split(":", 1)[0]
+    if head in ("anejo", "anexo") and w in (
+            "numero", "numeros", "apartado", "apartados") \
+            and "punto" in key_kinds:
+        return "punto"
+    return w
 
 
 def chain_update(chain: dict[str, "SubjectState"], key: str,
@@ -1128,6 +1149,16 @@ def reconstruct(conn, data_dir: Path, target_boe_id: str, fetch_fn,
             # anomalies.
             if att.status != ownership.TARGET_PROVEN:
                 continue
+            # WS-C: anonymous/positional items the key model could not
+            # capture are journaled — the op's best anchor stays
+            # visible in accounting, never silently absorbed
+            for uk in op.unkeyed:
+                _anomaly(ctx, "UNKEYED_ANONYMOUS_ITEM",
+                         pm["snapshot"], {
+                             "modifier": mboe,
+                             "clause": op.clause_text[:200],
+                             "node_index": op.node_index,
+                             "kind": uk})
             # CORE-GAP WS-A: positional subject→destination pairing for
             # structural redesignations. CODE_REDESIGNATION pairs become
             # continuity edges (no ordinary relation); RELABEL pairs and

@@ -40,6 +40,18 @@ class DocumentModel:
     locator_classes: frozenset
     boundary: Mapping[str, re.Pattern]
     annex_literal: str
+    # CORE-GAP WS-C — old-format modifiers carry numbered operative
+    # blocks ('I. Modificaciones a la Circular X') in display classes
+    # instead of the configured 'articulo' class. ``block_head`` +
+    # ``block_head_classes`` let the section splitter treat them as
+    # section boundaries; ``context_head`` + ``context_head_classes``
+    # mark mid-section scope heads ('Norma 7.ª', 'Anexo 1') that reset
+    # the item-level locator context without being clause markers.
+    # None/empty disables both paths.
+    block_head: re.Pattern | None = None
+    block_head_classes: frozenset = frozenset()
+    context_head: re.Pattern | None = None
+    context_head_classes: frozenset = frozenset()
 
 
 @dataclass(frozen=True)
@@ -148,6 +160,14 @@ class LocatorGrammar:
     # 48 de la sección 7' keeps norma flat; the sección is qualifier
     # context). Empty disables path composition entirely.
     child_parents: Mapping[str, tuple] = field(default_factory=dict)
+    # CORE-GAP WS-C — positional kinds resolve strictly by ordinal
+    # position inside a proven parent scope ('párrafo tercero',
+    # 'tercer guión'): they may leaf a composed path or follow a
+    # declared/contextual root, but can never head a locator and are
+    # never treated as source-declared names. Their declarations
+    # capture the mention; the position itself is the identity claim,
+    # which binding proves against the parent's node stream.
+    positional_kinds: frozenset = frozenset()
 
 
 @dataclass(frozen=True)
@@ -314,6 +334,7 @@ LOCATOR_KINDS = frozenset({
     "seccion", "disp", "disposicion", "pagina",
     "apartado", "punto", "numero", "letra", "numeral", "nota",
     "indice", "estado", "fichero",
+    "parrafo", "guion",
 })
 
 OP_KINDS = frozenset({"ADD", "DELETE", "MODIFY", "SUBSTITUTE",
@@ -337,6 +358,7 @@ def validate_profile(profile: SourceProfile) -> None:
         set(lg.presence) - {"_default"},
         set(lg.child_parents),
         {p for ps in lg.child_parents.values() for p in ps},
+        set(lg.positional_kinds),
     )
     for keys in kind_keyed:
         unknown = keys - LOCATOR_KINDS
@@ -346,6 +368,10 @@ def validate_profile(profile: SourceProfile) -> None:
         if disabled:
             raise ValueError(
                 f"locator kind used but not enabled: {sorted(disabled)}")
+    if set(lg.positional_kinds) - set(lg.declarations):
+        raise ValueError(
+            "positional kind without a mention declaration: "
+            f"{sorted(set(lg.positional_kinds) - set(lg.declarations))}")
     bad_ops = {k for k, _ in profile.operative_grammar.op_kinds} - OP_KINDS
     if bad_ops:
         raise ValueError(f"UNKNOWN_CORE_KIND: {sorted(bad_ops)}")

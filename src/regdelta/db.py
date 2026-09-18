@@ -129,7 +129,7 @@ CREATE TABLE IF NOT EXISTS subjects (
   subject_kind  TEXT NOT NULL CHECK (subject_kind IN
                 ('NORMA', 'ESTADO', 'ANEJO', 'PUNTO', 'APARTADO', 'INDICE',
                  'DISPOSICION', 'NOTA', 'INSTRUMENT', 'NUMERO', 'LETRA',
-                 'NUMERAL', 'SECCION', 'CAPITULO')),
+                 'NUMERAL', 'SECCION', 'CAPITULO', 'PARRAFO', 'GUION')),
   UNIQUE (instrument_id, locator_key)
 );
 
@@ -521,7 +521,7 @@ def _ensure_subject_kinds(conn: sqlite3.Connection) -> None:
     row = conn.execute(
         "SELECT sql FROM sqlite_master WHERE type='table'"
         " AND name='subjects'").fetchone()
-    if row is None or "'NUMERO'" in (row[0] or ""):
+    if row is None or "'PARRAFO'" in (row[0] or ""):
         return
     _rebuild_table(conn, "subjects",
                    "subject_id, instrument_id, locator_key, label,"
@@ -536,7 +536,7 @@ def _ensure_subject_kinds(conn: sqlite3.Connection) -> None:
                         ('NORMA', 'ESTADO', 'ANEJO', 'PUNTO', 'APARTADO',
                          'INDICE', 'DISPOSICION', 'NOTA', 'INSTRUMENT',
                          'NUMERO', 'LETRA', 'NUMERAL', 'SECCION',
-                         'CAPITULO')),
+                         'CAPITULO', 'PARRAFO', 'GUION')),
           UNIQUE (instrument_id, locator_key)
         )""")
 

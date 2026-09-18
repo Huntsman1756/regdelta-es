@@ -914,11 +914,27 @@ def test_g0c_counts_unchanged(built):
     #   code) and 'apartado II.B.2 pasa a denominarse «…»'
     #   (BOE-A-2020-6187, anejo leaf has no name-code extractor); both
     #   keep their baseline MODIFY relations.
+    # CORE-GAP WS-C_INTENTIONAL_SEMANTIC_CHANGE:
+    #   representations 253 -> 254, RESOLVED 110 -> 109, PARTIAL 102 ->
+    #   104, UNRESOLVED 78 -> 77, anomalies 361 -> 359 (BINDING_NOT_FOUND
+    #   40 -> 42, BINDING_NOT_PROVABLE 196 -> 193, UNBOUND_SUBJECT
+    #   78 -> 77): two preregistered WS-C cases on this target —
+    #   WS-C:declared-anejo-gate: anejos 1/3/4/5/6 are positionally
+    #   filled (declared heads: 2,7,7.x,8,8.x,9), so 'anejo:N' no longer
+    #   feeds image binding; anejo:5.indice DELETE abstains
+    #   RESOLVED->UNRESOLVED with BINDING_NOT_FOUND+UNBOUND_SUBJECT
+    #   journaled, and anejo:1/3/6 before-sides fall back to structural
+    #   XML candidates. WS-C:scope-word-normalization: accented/plural
+    #   sub_scope words ('índice', 'puntos') now normalize to key kinds,
+    #   so anejo:5.indice/anejo:4.indice SUBSTITUTE and
+    #   anejo:9.punto:151.nota:a MODIFY gain their operation-owned
+    #   after-content (UNRESOLVED->PARTIAL, evaluator BINDING_CORRECT)
+    #   and their stale after-side abstentions disappear.
     conn, _, _ = built
     assert conn.execute(
         "SELECT COUNT(*) FROM subjects").fetchone()[0] == 223
     assert conn.execute(
-        "SELECT COUNT(*) FROM representations").fetchone()[0] == 253
+        "SELECT COUNT(*) FROM representations").fetchone()[0] == 254
     assert conn.execute(
         "SELECT COUNT(*) FROM modification_relations").fetchone()[0] == 290
     assert conn.execute(
@@ -926,17 +942,17 @@ def test_g0c_counts_unchanged(built):
     dist = dict(conn.execute(
         "SELECT resolution, COUNT(*) FROM modification_relations"
         " GROUP BY resolution").fetchall())
-    assert dist == {"RESOLVED": 110, "PARTIAL": 102, "UNRESOLVED": 78}
+    assert dist == {"RESOLVED": 109, "PARTIAL": 104, "UNRESOLVED": 77}
     kinds = dict(conn.execute(
         "SELECT kind, COUNT(*) FROM anomalies GROUP BY kind").fetchall())
     assert kinds.get(applicability.ANOMALY_TARGET_UNBOUND, 0) == 0
     # abstention anomalies explain the coverage loss
-    assert sum(kinds.values()) == 361
+    assert sum(kinds.values()) == 359
     assert kinds["REDESIGNATION_REFUSED"] == 2
-    assert kinds["BINDING_NOT_FOUND"] == 40
-    assert kinds["BINDING_NOT_PROVABLE"] == 196
+    assert kinds["BINDING_NOT_FOUND"] == 42
+    assert kinds["BINDING_NOT_PROVABLE"] == 193
     assert kinds["CHAIN_DISCONTINUITY"] == 43
-    assert kinds["UNBOUND_SUBJECT"] == 78
+    assert kinds["UNBOUND_SUBJECT"] == 77
     # G2.1: foreign-target abstentions are inventory dispositions, not
     # anomalies — this kind no longer exists in the ledger
     assert kinds.get("OUT_OF_TARGET_OPS", 0) == 0
