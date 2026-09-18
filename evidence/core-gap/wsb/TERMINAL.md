@@ -1,6 +1,6 @@
 # CORE-GAP — WS-B terminal evidence: hierarchical locator composition
 
-**Terminal: `PROVEN`** — pending publication commit.
+**Terminal: `PROVEN`** — published as `d0919fa`.
 
 Generic profile-declared hierarchy (`LocatorGrammar.child_parents`)
 replaces the flat-cascade collision of CNMV `número`/`apartado`. Inside-out
